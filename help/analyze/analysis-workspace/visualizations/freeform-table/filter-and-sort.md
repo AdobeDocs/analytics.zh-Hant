@@ -1,17 +1,17 @@
 ---
 description: 描述 Analysis Workspace 如何篩選及排序表格的文件。
-title: 篩選和排序表格
+title: 篩選和排序自由表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 76%
+source-wordcount: '938'
+ht-degree: 68%
 
 ---
 
-# 篩選和排序表格
+# 篩選和排序自由表格
 
 Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
@@ -21,27 +21,45 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
-> 只能按本節所述篩選動態尺寸項。 無法篩選靜態維度項。 有關詳細資訊，請參見 [自由形式表中的動態尺寸項與靜態尺寸項](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
+> 如本節所述，只能篩選動態維度專案。 無法篩選靜態維度專案。 如需詳細資訊，請參閱 [自由表格中的動態與靜態維度專案](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
-### 快速從表中排除特定行
+## 篩選自由表格列
 
-您可以快速從表中排除特定行，而無需開啟「篩選器」對話框。
+您可以使用數種方法來篩選自由格式表格中的列。 
+
+- 按一下列中的「X」
+- 按一下右鍵>刪除選取的列
+- 表格篩選器
+- 區段
+
+請務必閱讀每種方法的影響 [自由格式表格總計](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+
+### 從表格中快速排除特定列
+
+您可以快速從表格中排除特定列，而無需開啟「篩選」對話方塊。
 
 >[!NOTE]
 >
->如本節所述排除行時， [!UICONTROL **始終排除項**] 規則將自動應用於高級篩選器對話框。 (通過選擇「篩選器」表徵圖，然後 [**[!UICONTROL 顯示高級]**](#apply-a-simple-or-advanced-filter-to-a-table)。)
+>如本節所述排除列時， [!UICONTROL **永遠排除專案**] 規則會自動套用到進階篩選器對話方塊中。 (您可以選取「篩選」圖示，然後選取 [**[!UICONTROL 顯示進階]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
-要快速從自由形式表中排除特定行：
+若要快速從自由格式表格中排除特定列：
 
-1. 將滑鼠懸停在要排除的行上，然後選擇x表徵圖。
+1. 將游標停留在您要排除的列上，然後選取x圖示。
 
-   按住Shift鍵選擇範圍行，或按住Command鍵(在Mac)或Ctrl鍵（在Windows上）選擇多行。
+   按住Shift鍵以選取一定範圍的列，或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）以選取多個列。
 
-### 將簡單或高級篩選器應用於表
+### 按一下右鍵>刪除選取的列
+
+1. 選取1或多個列。
+1. 按一下右鍵並選取 **[!UICONTROL 刪除選取的列]**.
+
+   此動作將從表格中移除列並套用表格篩選器。
+
+### 套用簡單或進階篩選器至表格
 
 若要篩選自由表格中的資料：
 
-1. 將滑鼠懸停在包含要篩選的資料的列上。 <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. 將游標停留在包含要篩選之資料的欄上。 <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. 選取出現的&#x200B;**篩選**&#x200B;圖示。
 
@@ -49,14 +67,14 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    提供下列選項：
 
-   | 選項 | 函數 |
+   | 選項 | 功能 |
    |---------|----------|
-   | [!UICONTROL **搜索詞或短語**] | 指定要篩選依據的字詞或短語。 只顯示包含指定字詞或確切片語的行。 |
+   | [!UICONTROL **搜尋字詞或片語**] | 指定您要用來篩選的字詞或片語。 只顯示包含指定字詞或確切片語的行。 |
    | [!UICONTROL **包含未指定 (無)**] | 選擇此選項可在表格中顯示不屬於任何表格維度的資料。<!--what is this?--> |
 
 1. (選用) 若要依不同條件或依多個條件篩選，請選取&#x200B;[!UICONTROL **顯示進階**]。
 
-   以下高級篩選器選項可用：
+   下列進階篩選選項可供使用：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -69,9 +87,13 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    在將篩選器套用至表格時，此&#x200B;**篩選器**&#x200B;圖示![藍色篩選器圖示篩選表格](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)會變成藍色。
 
+### 區段
+
+請參閱我們的 [細分檔案](https://docs.adobe.com/help/zh-Hant/analytics/components/segmentation/seg-home.html) 以取得更多詳細資料。
+
 ## 排序表格
 
-您可以依照 Analysis Workspace 中屬於量度的任何欄，來排序自由格式表格的資料。
+您可以依Analysis Workspace中作為量度的任何欄排序自由格式表格的資料。
 
 向下箭頭圖示![向下箭頭圖示排序表格欄](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ArrowDown_18_N.svg)會顯示在目前依資料排序的欄標題中。
 
