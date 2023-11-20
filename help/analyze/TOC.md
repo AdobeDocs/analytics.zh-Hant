@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
 source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1097'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,8 +78,8 @@ ht-degree: 99%
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
-            + [動態與靜態專案](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [篩選和排序自由表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+            + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [篩選和排序自由格式表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
