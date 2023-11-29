@@ -5,10 +5,10 @@ title: Analysis Workspace 的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '8268'
-ht-degree: 100%
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+workflow-type: tm+mt
+source-wordcount: '8261'
+ht-degree: 99%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 100%
 
 | 功能 | 說明 |
 |--- |--- |
-| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。可供 Adobe Analytics Ultimate 客戶使用。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。可供 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶使用。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows) |
+| 歸因：演演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。可供 Adobe Analytics Ultimate 客戶使用。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 歸因：自訂回顧期間 | 您現在可以在歸因 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。可供 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶使用。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows) |
 | 共用 Workspace 專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) |
 | 僅限檢視的 Workspace 專案 | 工作區專案僅能以「可檢視」狀態與使用者共用。當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant) |
 | 可共同編輯 Workspace 專案 | 新增至「可編輯」角色的收件者可在已與其共用的專案中執行儲存作業。無論管理員或非管理人員均適用。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
@@ -187,7 +187,7 @@ ht-degree: 100%
 |--- |--- |
 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組分析的重大改善可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
 | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
-| [支援歸因 IQ 中的多值變數](attribution/overview.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將 Attribution IQ 套用至這些點擊層級變數。 |
+| [支援歸因 中的多值變數](/help/analyze/analysis-workspace/attribution/overview.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將 Attribution 套用至這些點擊層級變數。 |
 | 改善效能 | 提升劃分視覺效果的速度，具有大量劃分的專案會更快載入。 |
 
 ## 2018 年 11 月
@@ -270,8 +270,8 @@ ht-degree: 100%
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > 歸因 IQ </a> </b> </p> </td>
-   <td colname="col2"> <p>歸因 IQ 可讓您針對行銷績效執行更精細的智慧化分析作業。全新的歸因模式適用於 Analysis Workspace (任何表格或任何劃分) 與計算量度中的量度。全新的歸因面板可提供更理想的視覺化效果和比較功能。 </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution/overview.md"  > 歸因 </a> </b> </p> </td>
+   <td colname="col2"> <p>歸因 可讓您針對行銷績效執行更精細的智慧化分析作業。全新的歸因模式適用於 Analysis Workspace (任何表格或任何劃分) 與計算量度中的量度。全新的歸因面板可提供更理想的視覺化效果和比較功能。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p><b> 改善左側邊欄 </b> </p> </td>
@@ -348,7 +348,7 @@ ht-degree: 100%
    <td colname="col2"> <p>現在開始，將元件拖曳到新位置時可以同時上下捲動。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b>檢視異常的<a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 其他資訊 </a></b> </p> </td>
+   <td colname="col1"> <p><b>檢視異常的<a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  > 其他資訊 </a></b> </p> </td>
    <td colname="col2"> <p>現在起，將滑鼠游標暫留在折線圖的某個異常上，畫面就會顯示異常的日期和原始值等相關資訊。 </p> </td>
   </tr>
  </tbody>
@@ -379,7 +379,7 @@ ht-degree: 100%
    <td colname="col2"> <p>針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現；因此，你可以測量相對比例。 </p> <p><img placement="break"  src="visualizations/assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >「異常偵測」和「貢獻分析」</a>。 </p> </td>
+   <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  >「異常偵測」和「貢獻分析」</a>。 </p> </td>
    <td colname="col2"> <p>「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。 </p> <p>請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在 Workspace 中只能存取「每日粒度」的異常偵測功能。 </p> </td>
   </tr>
  </tbody>
@@ -610,7 +610,7 @@ ht-degree: 100%
     </ul> <p>例如：若將「小時」放置在表格中，則會從上午 12 時排序至晚上 11 時。您仍可以選擇依照任何量度欄來排序。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  >允許重新縮放圖表的信賴區間的選項</a> </p> </td>
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md"  >允許重新縮放圖表的信賴區間的選項</a> </p> </td>
    <td colname="col2"> <p>異常偵測信賴區間不會自動縮放視覺效果中的 Y 軸，如此可能會使圖表更清晰。 </p> <p>您現在可以選擇允許信賴區間來縮放圖表。 </p> </td>
   </tr>
   <tr>
@@ -671,7 +671,7 @@ ht-degree: 100%
    <td colname="col1"> <p> 「區段比較」和「貢獻分析」設定的<span class="uicontrol">「全部清除」</span>按鈕 </p> </td>
    <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列 Workspace 區域中的所有元素，而不必手動刪除每個元素： </p>
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3">
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢獻分析的已排除元件 </a> </li>
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 貢獻分析的已排除元件 </a> </li>
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 區段比較的已排除元件 </a> </li>
     </ul> </td>
   </tr>
@@ -754,7 +754,7 @@ ht-degree: 100%
    <td colname="col2"> <p>我們已重新開發資料來源 (強化視覺效果) 的管理方式。當您將資料來源鎖定至某表格後，將不再顯示其他個別隱藏的表格。 </p> <p>我們會繼續將視覺效果繫結至您建立該效果的來源表格。此方式也可解決即時連結表格中，當您變更資料粒度後，載入下個專案時回復至原先資料粒度的錯誤。 </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 反白標示特定異常項目的功能 </a></b> </p> </td>
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md"  > 反白標示特定異常項目的功能 </a></b> </p> </td>
    <td colname="col2"> <p>我們現在可在貢獻分析及與其連結的智慧型警報專案內，使用藍點強調顯示異常項目。如此即可以更清楚的方式指明分析所得的異常項目。 </p> </td>
   </tr>
   <tr>
@@ -986,7 +986,7 @@ ht-degree: 100%
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 異常偵測和貢獻分析 </a></b> </td>
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md"  > 異常偵測和貢獻分析 </a></b> </td>
    <td colname="col2"> <p>讓您知道趨勢資料的變化是否顯著以及造成的原因。 </p> <p>現在「異常偵測」和「貢獻分析」是 Analysis Workspace 的核心工作流程。 </p> <p>重要提示：「貢獻分析」僅適用於 Adobe Analytics Premium 客戶。 </p> <p>您可以： </p> <p> </p>
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6">
      <li id="li_787236BB5EA545B8833B311C06C24337">自動偵測您的資料中具有統計顯著意義的資料異常。 </li>

@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
    * Adobe Admin Console，可於此佈建產品存取權和管理使用者權限。請參閱管理員使用手冊中的 [Admin Console](/help/admin/admin-console/home.md)。
 * **配置：**&#x200B;如果造訪期間轉換變數遇到多個值，變數的配置設定會決定要保留哪個值。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 * **Analysis Workspace：**&#x200B;用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。 提供優於 Reports and Analytics 的報表靈活性。
-* **異常：**&#x200B;使用統計模型自動尋找資料中意外的趨勢時，可偵測出異常。此模型會分析量度並決定上下界限和值的預期範圍。請參閱分析使用手冊中的[異常偵測](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)。
+* **異常：**&#x200B;使用統計模型自動尋找資料中意外的趨勢時，可偵測出異常。此模型會分析量度並決定上下界限和值的預期範圍。請參閱分析使用手冊中的[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)。
 * **AppMeasurement：**&#x200B;用來收集資料並傳送至 Adobe 的程式碼庫。請參閱實施作業使用手冊的[首頁](/help/implement/home.md)。
 * **ASI 槽：**&#x200B;已不存在。在舊版 Adobe Analytics 中，ASI 槽提供暫時性報表套裝容器，可用於檢視分段資料。在目前版本的 Adobe Analytics 中，可立即將區段套用至任何報表。
 * **劃分：**&#x200B;可讓您在另一個維度的內容中檢視維度。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。

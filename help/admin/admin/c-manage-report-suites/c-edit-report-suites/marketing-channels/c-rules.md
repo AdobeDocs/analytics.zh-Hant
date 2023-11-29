@@ -3,9 +3,9 @@ title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1889'
 ht-degree: 76%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 * 檢視[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念資訊。
 * 建立一個或多個管道，以便為它們指定規則。請參閱[新增行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)。
-* 檢閱搭配 [!UICONTROL Attribution IQ] 使用[!UICONTROL 行銷管道]的最佳做法。
+* 檢閱搭配 [!UICONTROL Attribution ] 使用[!UICONTROL 行銷管道]的最佳做法。
 
 ## 建立行銷管道處理規則
 

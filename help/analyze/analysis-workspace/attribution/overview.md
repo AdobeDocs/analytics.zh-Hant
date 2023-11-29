@@ -4,10 +4,10 @@ description: 將成功事件的評分歸因於多個維度項目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 95%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 95%
 1. 您的網站訪客按了一下您其中一個產品頁面的付費搜尋連結。他們將產品新增至購物車，但並未購買。
 2. 隔天，他們看到了朋友的社交媒體貼文，就按下連結，並完成購買。
 
-在某些報表中，您可能想要將訂單歸因於「付費」搜尋。在其他報表中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與Adobe的合約類型，請聯絡貴組織的Adobe帳戶團隊。
+在某些報表中，您可能想要將訂單歸因於「付費」搜尋。在其他報表中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與Adobe的合約型別，請聯絡貴組織的Adobe客戶團隊。
 
-## Attribution IQ 的價值
+## 歸因的價值
 
 客戶歷程並非線性，且經常無法預測。每位客戶都以自己的步調前進，常常會流連往返、停滯不動、重新開始，或以其他非線性行為進行互動。這些非機械性的行為使得我們很難掌握行銷活動在客戶歷程中的影響，也會阻礙我們將多個資料管道聯繫在一起的努力。
 
-![Attribution IQ 問題](assets/attribution_iq_problem.png)
+![歸因問題](assets/attribution_iq_problem.png)
 
 Adobe Analytics 強化了歸因功能，讓您可以：
 
@@ -39,7 +39,7 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 
 ## 功能
 
-Attribution IQ 包含下列功能:
+Attribution 包含下列功能:
 
 * [歸因面板](../c-panels/attribution.md)：取用任何維度和量度，並將其與不同的歸因模型快速比較。
 * [將歸因套用至量度](../visualizations/freeform-table/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
@@ -48,22 +48,22 @@ Attribution IQ 包含下列功能:
 
 ## 影片
 
-自由格式表格中的 Attribution IQ：
+自由格式表格中的 Attribution ：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-計算量度中的 Attribution IQ
+計算量度中的 Attribution 
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-使用 Attribution IQ 面板：
+使用歸因面板:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-新增 Attribution IQ 模型的並排比較：
+新增 Attribution 模型的並排比較：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
-## 不支持 Attribution IQ 的 Adobe Analytics 工具
+## 不支持 Attribution 的 Adobe Analytics 工具
 
-任何不支持 Analytics 2.0 API 的工具 (例如 Report Builder) 都不支持 Attribution IQ。
+任何不支持 Analytics 2.0 API 的工具 (例如 Report Builder) 都不支持 Attribution.

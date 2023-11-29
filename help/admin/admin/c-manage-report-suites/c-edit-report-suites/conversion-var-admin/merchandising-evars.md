@@ -3,9 +3,9 @@ title: 銷售 eVar 和產品尋找方法
 description: 深入了解銷售 eVar 背後的概念，以及這些方法如何處理和分配資料。
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '5297'
+source-wordcount: '5285'
 ht-degree: 97%
 
 ---
@@ -377,7 +377,7 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 這表示，綁定作業會透過產品語法將轉換變數語法 eVar 值「複製」到產品變數中。 只會在相同要求中包含產品變數和捆綁事件 (透過 eVar 組態所設定) 時，才會發生這個複製動作。 在該時間點，post_eVar 欄中包含的值會與產品綁定。 這項綁定是透過儲存在 post_products 欄中的產品語法來表示。
 
-## 銷售 eVar、實例量度和 Attribution IQ
+## 銷售 eVar、實例量度和 Attribution
 
 在 Analytics 伺服器呼叫中傳送標準 eVar 時，其 post_evar 欄中的值總是會取得歸因於它的實例。 實例代表 eVar 已設定為等於影像要求中的特定值的次數。
 
@@ -387,8 +387,8 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 例如，自行設定 `s.eVar1="Internal Keyword Search"` 並不會將任何實例量度點數提供給「內部關鍵字搜尋」的 eVar1 值。 此時會記錄一個實例。 然而，除非產品在設定 `eVar1` 的同時與該「內部關鍵字搜尋」值綁定，否則此實例會歸因於未指定的貯體。 換言之，「內部關鍵字搜尋」的 `eVar1` 值可以取得實例。 但是只有當與「內部關鍵字搜尋」值綁定的產品出現在相同影像要求中的產品變數內時，才會發生這個情形。
 
-總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe 發行了 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)。 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用 Attribution IQ 中的功能來針對所有使用轉換變數語法的銷售 eVar 取得正確歸因的實例量度。
+總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe 發行了 [Attribution ](/help/analyze/analysis-workspace/attribution/overview.md)。 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用 Attribution 中的功能來針對所有使用轉換變數語法的銷售 eVar 取得正確歸因的實例量度。
 
 ![歸因選取](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 
-當您將銷售 eVar 的實例量度新增到報表中時，適當的 Attribution IQ 模型會是「上次接觸」模型。 在此情況下，此模型的回顧視窗設定並不重要。 原因是因為「強制」上次接觸歸因模型總是會提供實例點數給每個透過要求傳遞的個別值。 這與 eVar 的實際歸因/綁定設定設為等於「最近 (上一個)」還是「原始值 (第一個)」無關。
+當您將銷售 eVar 的實例量度新增到報表中時，適當的 Attribution 模型會是「上次接觸」模型。 在此情況下，此模型的回顧視窗設定並不重要。 原因是因為「強制」上次接觸歸因模型總是會提供實例點數給每個透過要求傳遞的個別值。 這與 eVar 的實際歸因/綁定設定設為等於「最近 (上一個)」還是「原始值 (第一個)」無關。

@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
-workflow-type: ht
-source-wordcount: '5327'
-ht-degree: 100%
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+workflow-type: tm+mt
+source-wordcount: '5323'
+ht-degree: 99%
 
 ---
 
@@ -202,8 +202,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2020 年 6 月** | |
 | 2020 年 6 月 25 日 | 工作區中 [Quick Insights 面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)的新文件。它為 Analysis Workspace 的非分析師和新使用者提供指引，讓他們了解如何快速輕鬆地解答業務問題。 |
 | 2020 年 6 月 25 日 | 工作區中 [Analytics for Target 面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的新文件。它可讓您輕鬆自信地分析您的 Adobe Target 活動和體驗。 |
-| 2020 年 6 月 18 日 | 有關 [Attribution IQ：演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hant)的新文件 |
-| 2020 年 6 月 18 日 | 有關 [Attribution IQ：自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows)的新文件 |
+| 2020 年 6 月 18 日 | 有關的新檔案 [歸因：演演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hant) |
+| 2020 年 6 月 18 日 | 有關的新檔案 [歸因：自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows) |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)的新文件。共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
 | 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant)的新文件。專案能以「可供檢視」狀態和使用者共用。當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)的新文件。共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
@@ -276,4 +276,4 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 實作外掛程式。 |
 | 2019 年 1 月 17 日 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 同類群組分析的重大改良可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
 | 2019 年 1 月 17 日 | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。此新設定可減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
-| 2019 年 1 月 17 日 | [對 Attribution IQ 中的多值變數的支援](/help/analyze/analysis-workspace/attribution/overview.md)。Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將 Attribution IQ 套用至這些點擊層級變數。 |
+| 2019 年 1 月 17 日 | [對 Attribution 中的多值變數的支援](/help/analyze/analysis-workspace/attribution/overview.md)。Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將 Attribution 套用至這些點擊層級變數。 |

@@ -1,16 +1,16 @@
 ---
 description: 進一步了解
-title: 量度型別和歸因
+title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '464'
 ht-degree: 73%
 
 ---
 
-# 量度型別和歸因
+# 量度類型和歸因
 
 時間 [建立計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)，您可以指定量度型別和歸因模型。
 
@@ -27,17 +27,17 @@ ht-degree: 73%
    | 量度類型 | 定義 |
    |---|---|
    | 標準 | 這些量度就是在標準 [!DNL Analytics] 報表中使用的量度。如果某個公式由單一標準量度組成，則其顯示的資料將與其非計算量度相對應公式一樣。標準量度適合用來建立每個行項目專屬的計算量度。例如，[訂單] / [造訪] 會採用該特定條列項目的訂單，然後除以該特定條列項目的造訪次數。 |
-   | 全部總計 | 在每個行專案中使用報告期間的總計。 如果公式包含單一「總量」量度，則會在每個明細專案上顯示相同的總量。 「總量」量度適合用來建立計算量度，以便與網站總計資料進行比較。 例如，[訂單] / [造訪總次數] 可顯示相較於網站「全部」造訪次數的訂單比例，而不只是特定條列項目的造訪次數。 |
+   | 全部總計 | 在每個條列專案中使用報告期間的總計。 如果公式包含單一「總量」量度，它會在每個行專案上顯示相同的總數。 「總量」量度適合用來建立與網站總量資料比較的計算量度。 例如，[訂單] / [造訪總次數] 可顯示相較於網站「全部」造訪次數的訂單比例，而不只是特定條列項目的造訪次數。 |
 
 ## 線性配置的運作方式
 
-[Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 是計算量度中配置模型的評估方式。
+[歸因](/help/analyze/analysis-workspace/attribution/overview.md) 是計算量度中配置模型的評估方式。
 
 如需非預設歸因模式及支援的回顧期間的完整清單，請參閱[歸因模式與回顧期間](/help/analyze/analysis-workspace/attribution/models.md)。
 
 下列範例說明具有線性配置的計算量度在報表中的運作方式：
 
-|  | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 | 點擊 6 | 點擊 7 |
+| | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 | 點擊 6 | 點擊 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 傳入資料 | 促銷活動 A | - | 促銷活動 A | 促銷活動 B | - | 促銷活動 C | $10 |
 | 上次接觸 eVar | 促銷活動 A | 促銷活動 A | 促銷活動 A | 促銷活動 B | 促銷活動 B | 促銷活動 C | $10 |
@@ -51,4 +51,4 @@ ht-degree: 73%
 線性歸因在這兩種工具中的運作方式有一些差異：
 
 * 在 Reports &amp; Analytics 中，(已處理的) 線性歸因一律以造訪為基礎，而在 Workspace 中，線性歸因可以造訪或訪客為基礎。
-* 在 Reports &amp; Analytics 中，如果造訪的首次點擊未傳遞任何值，則會保存上次造訪的 (初始) 值。在 Workspace (Attribution IQ) 中則非如此。如果造訪的首次點擊未傳遞任何值，則初始值將是「無」。
+* 在 Reports &amp; Analytics 中，如果造訪的首次點擊未傳遞任何值，則會保存上次造訪的 (初始) 值。在Workspace （歸因）中則非如此。 如果造訪的首次點擊未傳遞任何值，則初始值將是「無」。

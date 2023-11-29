@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
-workflow-type: ht
-source-wordcount: '1097'
+source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+workflow-type: tm+mt
+source-wordcount: '1080'
 ht-degree: 100%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 100%
       + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution IQ {#attribution}
+   + 出處 {#attribution}
       + [歸因總覽](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
@@ -141,17 +141,12 @@ ht-degree: 100%
       + [常見問題](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
-   + 虛擬分析人員 {#virtual-analyst}
-      + [虛擬分析人員總覽](analysis-workspace/virtual-analyst/overview.md)
-      + 異常偵測 {#anomaly-detection}
-         + [異常偵測總覽](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
-         + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
-         + [關閉異常偵測](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection-turnoff.md)
-         + [異常偵測所使用的統計技術](analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-      + 貢獻分析 {#contribution-analysis}
-         + [貢獻分析總覽](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-         + [執行貢獻分析](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
-         + [貢獻分析中所使用的統計技術](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
+   + 異常偵測 {#anomaly-detection}
+      + [異常偵測總覽](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [在 Analysis Workspace 中檢視異常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [關閉異常偵測](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
+      + [執行貢獻分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [用於異常偵測的統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 智慧型警報 {#intelligent-alerts}
          + [智慧型警報總覽](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)

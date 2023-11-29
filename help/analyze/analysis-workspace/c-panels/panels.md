@@ -4,9 +4,9 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1436'
 ht-degree: 57%
 
 ---
@@ -33,7 +33,7 @@ Analysis Workspace 中有以下面板類型:
 
 ![](assets/panel-overview.png)
 
-「[!UICONTROL 快速深入分析]」、「[!UICONTROL 空白]」與「[!UICONTROL 自由圖形]」面板適用於開始分析的階段，而 [!UICONTROL Analytics for Target]、「[!UICONTROL Attribution IQ]」、「[!UICONTROL 媒體同時檢閱者]」與「[!UICONTROL 區段比較]」則適用於更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+「[!UICONTROL 快速深入分析]」、「[!UICONTROL 空白]」與「[!UICONTROL 自由圖形]」面板適用於開始分析的階段，而 [!UICONTROL Analytics for Target]、「[!UICONTROL Attribution ]」、「[!UICONTROL 媒體同時檢閱者]」與「[!UICONTROL 區段比較]」則適用於更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
 預設的開始面板為「[!UICONTROL 自由格式]」面板，但您也可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 

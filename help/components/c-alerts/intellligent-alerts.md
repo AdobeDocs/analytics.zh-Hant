@@ -3,7 +3,7 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -37,19 +37,19 @@ ht-degree: 100%
 
 * 在 Analysis Workspace 中使用下列快速鍵：
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * 直接前往「警報產生器」：「**[!UICONTROL Workspace]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
 * 選取一或多個自由表格行項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。如此會開啟「警報產生器」並從表格套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
 
-   ![](assets/create-alert-from-selection.png)
+  ![](assets/create-alert-from-selection.png)
 
 * 在 [!UICONTROL Reports &amp; Analytics] 報表中，前往&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。如此會開啟新的「警報產生器」，並從報表套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
 
-   ![](assets/add-alert.png)
+  ![](assets/add-alert.png)
 
 ## 常見問答：系統如何計算及觸發警報 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 依您選擇的時間詳細程度而定，[不同模式](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
+% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 依您選擇的時間詳細程度而定，[不同模式](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -61,7 +61,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問：警報的異常偵測能多早判斷出資料異常？</b> </p> </td> 
-   <td colname="col2"> <p>培訓期間會依選擇的詳細程度而有所不同。請參閱<a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">異常偵測</a>所使用的統計技術，以取得詳細資訊。摘要如下： </p> 
+   <td colname="col2"> <p>培訓期間會依選擇的詳細程度而有所不同。請參閱<a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">異常偵測</a>所使用的統計技術，以取得詳細資訊。摘要如下： </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">每月 = 15 個月 + 去年的相同範圍 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">每週 = 15 週 + 去年的相同範圍 </li> 

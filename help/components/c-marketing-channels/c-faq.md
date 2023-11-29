@@ -3,9 +3,9 @@ title: 行銷管道常見問題集
 description: 行銷管道的常見問題。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1500'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>為了讓 Attribution 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
 >Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
    3. 幾天後，該用戶透過免費搜尋返回網站並進行購買。
    4. 電子郵件管道獲得「首次接觸」評分，而免費搜尋獲得「上次接觸」評分。
 
-   即使在您變更處理規則後數天，您仍可在錯誤的「首次接觸」管道中收集資料。首次接觸資料會持續收集不正確的管道，直到所有使用者的訪客參與均過期為止。
+  即使在您變更處理規則後數天，您仍可在錯誤的「首次接觸」管道中收集資料。首次接觸資料會持續收集不正確的管道，直到所有使用者的訪客參與均過期為止。
 
 修正這些差異的最佳方法是執行下列一或兩項操作：
 
