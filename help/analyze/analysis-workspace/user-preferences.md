@@ -4,7 +4,7 @@ description: 您可以設定使用者的一般和專案偏好設定，以及深�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
 workflow-type: ht
 source-wordcount: '3156'
 ht-degree: 100%
@@ -131,7 +131,7 @@ ht-degree: 100%
 | | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
-| | 允許異常縮放 Y 軸 | 如果圖表中有多個量度，您必須將滑鼠移到每個異常值上方，才能查看該量度的信賴帶。為了讓視覺效果更清晰，異常偵測信賴區間不會自動縮放 Y 軸。此選項可讓信賴區間縮放視覺效果。 <p>如需詳細資訊，請參閱[在 Analysis Workspace 中檢視異常](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)。</p> |
+| | 允許異常縮放 Y 軸 | 如果圖表中有多個量度，您必須將滑鼠移到每個異常值上方，才能查看該量度的信賴帶。為了讓視覺效果更清晰，異常偵測信賴區間不會自動縮放 Y 軸。此選項可讓信賴區間縮放視覺效果。 <p>如需詳細資訊，請參閱[在 Analysis Workspace 中檢視異常](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)。</p> |
 | **[折線圖](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | 百分比 | 以百分比顯示線條視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏線條視覺效果的詳細圖例文字。 |
