@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: af5e88141bef139fb1727ae458628dd66fe3d1f6
+source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 99%
 
 ---
 
@@ -44,6 +44,9 @@ ht-degree: 100%
       + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
+   + 報表 {#reports}
+      + [使用預先建立的報告](analysis-workspace/reports/use-reports.md)
+      + [建立和管理公司報表](analysis-workspace/reports/create-company-reports.md)
    + 元件 {#components}
       + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
       + [新增元件說明](analysis-workspace/components/add-component-descriptions.md)
@@ -307,7 +310,6 @@ ht-degree: 100%
       + [關於資料彙集](reports-analytics/overview/overview-data-collection.md)
       + [報告功能表](reports-analytics/overview/reports-menu.md)
       + [報告功能](reports-analytics/overview/report-overview.md)
-      + [常用詞彙](reports-analytics/overview/overview-common-terms.md)
    + [報告顯示設定和導覽](reports-analytics/report-settings.md)
    + [報告排程和分發](reports-analytics/scheduling.md)
    + [排程報告的生命週期結束通知](reports-analytics/scheduled-reports-eol.md)

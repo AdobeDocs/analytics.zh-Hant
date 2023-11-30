@@ -3,32 +3,32 @@ description: 設定即時報表的管理步驟。
 title: 設定即時報表
 feature: Real-time
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 78%
 
 ---
 
-# 設定即時報表
+# 設定即時報程
 
-{{ra-eol}}
+下列資訊包含設定即時報表的管理步驟。
 
-設定即時報表的管理步驟。
-
-在 [!UICONTROL Reports &amp; Analytics] 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
+這包括選取報表套裝，以及為其設定最多3個報表。
 
 1. 選取您要啟用即時報告的報表套裝。
 
-   導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL 檢視全部報表 > 網站量度]** > **[!UICONTROL 即時」]**，並從上方的下拉式清單中選取報表套裝：
+   1. 在Analysis Workspace中，選取 [!UICONTROL **工作區**] 索引標籤，然後選取 [!UICONTROL **報表**] > [!UICONTROL **參與**] > **[!UICONTROL 即時]**.
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
+   1. 從上方的下拉式清單中選取報表套裝：
 
-   如果您嘗試對尚未設定即時報表的報表套裝檢視即時報表，會出現一則訊息，供您設定報表套裝。
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
-   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+      如果您嘗試對尚未設定即時報表的報表套裝檢視即時報表，會出現一則訊息，供您設定報表套裝。
 
-1. 按一下&#x200B;**[!UICONTROL 「設定」]** (齒輪圖示)，執行[!UICONTROL 報表套裝管理器]。
+      ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/rep_suite_not_set_up.png)
+
+1. 選取 **[!UICONTROL 設定]** 以執行 [!UICONTROL 報表套裝管理員].
 
    (也可從&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員 > 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 即時」]**&#x200B;中存取。)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;或&#x200B;**[!UICONTROL 「儲存並檢視報表」]**。
+1. 選取 **[!UICONTROL 儲存]** 或 **[!UICONTROL 儲存並檢視報表]**.
 
    初始設定報告後，最多可能需要 20 分鐘，才會開始串流資料。從那時起，資料就立即可用。如需檢視即時報告的詳細資訊，請參閱[執行即時報告](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/t-running-report-types.html?lang=zh-Hant)。
 

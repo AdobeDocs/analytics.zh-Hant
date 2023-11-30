@@ -1,0 +1,59 @@
+---
+description: 概述如何使用Analysis Workspace中的預設報表。
+title: 使用報表
+feature: Analysis Workspace
+role: User, Admin
+source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 82%
+
+---
+
+# 建立和管理公司報表
+
+您可以建立自訂報表，並儲存以供登入公司的其他人使用。 公司報表可在建立專案時選擇，如所述 [從空白專案或報告建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) 在文章中， [在Analysis Workspace中建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+
+## 建立一份自訂的公司報表
+
+若要建立新的公司報告：
+
+1. 在 Analysis Workspace 中將專案建置成您想要的狀態。
+1. 選取「[!UICONTROL **專案**]」>「**[!UICONTROL 另存為公司報告...]**」。
+
+   ![公司報告](assets/company-report.png)
+
+1. 更新報告的名稱、新增說明並新增任何標籤，然後選取「[!UICONTROL **另存為公司報告**]」。
+
+   該報告會新增至「建立專案」模式的「公司報告」清單中，並可供登入公司的使用者使用。
+
+   如需更多有關使用者如何根據公司報告建立專案的資訊，請參閱[建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的「從空白專案或報告建立專案」。
+
+## 管理公司報告
+
+管理員可以篩選專案清單以顯示和管理公司報告。釘選項目保持釘選狀態，後面接著有![報表圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)報表圖示識別的公司報表清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報表或加標記。
+
+顯示和管理公司報表
+
+1. 在篩選欄中，選取「**其他篩選器**」，然後選取「**公司報表**」。
+顯示公司報表清單。 除非已釘選，否則不會顯示所有的一般專案。
+
+   ![顯示公司報表篩選器](assets/company-reports-filter.png)
+
+   公司報表顯示後，管理員可以刪除、重命名、核准報告表或加標記。
+
+1. 在報表清單中，選取單一報表或選取多個報表。
+
+1. 按一下報表旁邊的「**...**」省略號圖示，以查看可用選項 (刪除、重命名、加標記和核准)。
+
+   ![公司報表行動](assets/company-reports-actions.png)
+
+1. 選取一個選項 (刪除、重命名、加標記和核准)。
+
+1. 完成後若要返回一般視圖，請在篩選器欄中再次取消選取公司報表選項。
+
+### 刪除公司報表
+
+管理員可以使用公司報表清單選項 (如上所述) 刪除報表，或從「建立專案」模式中刪除報表。
+
+![其他篩選器](assets/delete-fr-create-project-modal.png)

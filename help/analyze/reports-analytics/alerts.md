@@ -1,25 +1,23 @@
 ---
-description: 在「Reports & Analytics」中使用警報。
+description: 在Reports & Analytics中使用警報。
 subtopic: Alerts
 title: 警報
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 91%
+source-wordcount: '843'
+ht-degree: 88%
 
 ---
 
 # 警報
 
-{{ra-eol}}
-
 ## 警報 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-智慧型警報是所有 Adobe Analytics 通用的全新警報系統，除了協助您建立及管理警報，並提供完整的警報預覽與規則貢獻。您可以
+智慧型警報是所有Adobe Analytics的警報系統，除了可讓您建立和管理警報，並提供警報預覽和規則貢獻的功能。 您可以
 
 * 根據異常 (90％、95％ 或 99％ 臨界值；％ 變化；以上/以下) 建立警報。
 * 預覽警報觸發的頻率。
@@ -32,7 +30,7 @@ ht-degree: 91%
 
 ## 新增警報 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-您可以在Adobe Analytics中從警報產生器或特定報表新增警報。
+您可以在Adobe Analytics中，從警報產生器或特定報表新增警報。
 
 <!-- 
 
@@ -42,7 +40,7 @@ t_add_an_alert.xml
 
 ### 從警報產生器新增警報
 
-1. 選擇 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** 以開啟警報產生器。
+1. 選取 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** 以開啟警報產生器。
 
 ### 從個別報表新增警報
 

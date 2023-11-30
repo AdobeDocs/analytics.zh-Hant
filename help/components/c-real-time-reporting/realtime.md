@@ -4,16 +4,14 @@ title: 即時報表概觀
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
+source-git-commit: ee55349a8c676023a5ce33b56592cad7642199b8
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 92%
 
 ---
 
 # 即時報表概觀
-
-{{ra-eol}}
 
 即時報表會即時顯示網頁流量和排名頁面檢視次數。提供可操作的資料，供您據以進行業務決策。
 
@@ -21,7 +19,13 @@ ht-degree: 100%
 >
 >即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
 
-**[!UICONTROL 網站量度]** > **[!UICONTROL 即時]**
+## 存取即時報表
+
+1. 在Analysis Workspace中，選取 [!UICONTROL **工作區**] 標籤。
+
+1. 選取 [!UICONTROL **報表**] > [!UICONTROL **參與**] > **[!UICONTROL 即時]**.
+
+## 瞭解即時報告
 
 請即時回答下列問題：我的網站有何趨勢、原因為何？它可讓身為行銷人員的您，迅速回應、積極管理行銷內容和促銷活動的效能。所報告的即時資料延遲不超過兩分鐘，並且每分鐘自動更新一次。
 
@@ -55,7 +59,7 @@ Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中�
 
 此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報表)，且適用於下列情況：
 
-* 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
+* 對於即時資料流、即時報表和API請求，以及流量變數的目前資料，只有具有補充資料ID的點選會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
 請注意，即使您尚未完全實施作業該整合，該延遲增加現象也會在您實施作業身份服務後開始。

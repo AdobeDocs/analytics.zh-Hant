@@ -5,16 +5,14 @@ uuid: a67ce302-fae1-434a-b662-91672e85cab3
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 4556ba78cb5cc449e2f43fef7067d7e776e61c6b
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
 
 # 轉換漏斗
-
-{{ra-eol}}
 
 轉換比率通常會測量轉換程序中的開始、結束與里程碑事件或點之間的轉換情形。當您在網站上編寫成功事件的代碼後，報告即會建立這些不同成功事件之間的比率，並將其顯示在「轉換漏斗報告」中。
 

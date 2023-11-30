@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 2bb3cc1ce46fc8e5f7e15291401fce1c4d8cb839
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 97%
+source-wordcount: '1069'
+ht-degree: 94%
 
 ---
 
@@ -16,28 +16,38 @@ ht-degree: 97%
 
 {{ra-eol}}
 
-執行不同報表類型的步驟。
+您可以在Analysis Workspace中執行許多不同型別的報表。 以下是幾個範例。
 
-## 執行排名報表 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
+如需可用預先建立報表型別的完整清單，請參閱 [使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md)
 
-在排名報表中，表格會根據數量或百分比，顯示與度量相關的報表頁面排名。排名報表可在一個報表中顯示多個量度。
+<!-- How do you do a Ranked Report in Workspace?
 
-1. 產生報表，例如[!UICONTROL 頁面報表] (**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面」]**)。
-1. 在報表標題中，按一下&#x200B;**[!UICONTROL 「排名」]**。
-1. 若要將報表排名，請按一下表格中的欄標題。
+## Run a ranked report {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-   排名報表最多可在表格中列示 200 個項目 (例如產品、類別、網頁等等) 和 10 個度量 (收入、訂購、檢視等等)。
+In a ranked report, the table shows the rankings of the report pages in relation to the metric, according to number or percentage. Ranked reports can display multiple metrics in a report.
 
-## 執行趨勢報表 {#task_F03B4E760B9E4EA29FC3F654E6316887}
+1. Generate a report, such as a [!UICONTROL Pages Report] ( [!UICONTROL **Workspace**] > **[!UICONTROL Engagement]** > **[!UICONTROL Pages]**).
+1. In the report header, click **[!UICONTROL Ranked.]**
+1. To rank the report, click a column heading in the table.
 
-趨勢報表會隨時間變化顯示度量。當您想瞭解區段在不同期間的表現，即可使用此報表類型。
+   Ranked reports can have up to 200 items listed in the table (such as products, categories, web pages, and so on) and ten metrics (revenue, orders, views, and so on).
 
-大多數轉換報表和流量報表具有可用的趨勢檢視。使用[!UICONTROL 日曆]，您可顯示任何時段劃分的改進，包括一個月中的某些天、一年中的某些週、一個季度中的某些週、一年中的某些月等等。趨勢報表會顯示單個度量 (收入、訂購、檢視等等) 的趨勢，可多達五個項目 (例如產品、類別、網頁等等) 的趨勢。
+-->
 
-**執行趨勢報表**
+<!-- Can you do a Trended report? 
 
-1. 執行轉換或流量報表，例如&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面」]**。
-1. 在&#x200B;**[!UICONTROL 「報表類型」]**&#x200B;下，按一下&#x200B;**[!UICONTROL 「趨勢」]**。
+## Run a trended report {#task_F03B4E760B9E4EA29FC3F654E6316887}
+
+Trended reports display metrics over time. You use this report type when you want to see how a segment performs from one time period to the next.
+
+Most Conversion and Traffic reports have a Trended view available. Using the [!UICONTROL Calendar], you can show improvement for any time period breakdowns, including days of a month, weeks of a year, weeks of a quarter, months of a year, and so on. Trended reports show trends for a single metric (revenue, orders, views, and so on) for up to five items (such as products, categories, web pages, and so on).
+
+**To run a trended report** 
+
+1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
+1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+
+-->
 
 ## 執行流失報表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -48,20 +58,14 @@ ht-degree: 97%
 1. 在 [!UICONTROL Adobe Analytics] 中，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 流失」]**。
 1. 在[!UICONTROL 流失報表]頁面上，按一下&#x200B;**[!UICONTROL 啟動流失 Report Builder]**。
 
-   ![步驟結果](assets/fallout_add_items.png)
-
 1. 在[!UICONTROL 定義查核點]頁面上，指定您想用於報表的查核點。
 1. 按一下&#x200B;**[!UICONTROL 「執行報表」]**。
-
-   ![步驟結果](assets/fallout_report.png)
 
 ## 執行頁面流程報表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 「頁面流程報表」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報表可協助解答
 
-查看 [流量視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant) 在Analysis Workspace!
-
-例如，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 下一頁流量」]**。
+例如，按一下 **[!UICONTROL 工作區]** > **[!UICONTROL 報表]** > **[!UICONTROL 參與]** > **[!UICONTROL 下一頁和上一頁流量]**.
 
 ## 執行行銷管道報表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -71,7 +75,7 @@ ht-degree: 97%
 
 ## 執行異常偵測報表 {#task_4808C96327354D789C075823F5C3A049}
 
-您可以執行 [異常偵測和貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 只在Analysis Workspace。
+您可以執行 [異常偵測和貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) 僅適用於Analysis Workspace。
 
 ## 執行即時報表 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -81,7 +85,7 @@ ht-degree: 97%
 
 即時報表提供兩個主要報表 - 概述報表和詳細報表。這些分別包含許多小報表。
 
-請參閱 [即時報表概觀](/help/components/c-real-time-reporting/realtime.md) 以取得更多資訊。
+另請參閱 [即時報表概觀](/help/components/c-real-time-reporting/realtime.md) 以取得詳細資訊。
 
 1. 檢視&#x200B;**[!UICONTROL 概述]**&#x200B;報表及其元件：![](assets/rtr_overview_report.png)
 
