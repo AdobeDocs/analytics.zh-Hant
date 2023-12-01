@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 99%
+source-wordcount: '5424'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 12 月** | |
+| 新增報表區段 | 新增報表區段，其中包含關於 [使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md) 和 [建立和管理公司報表](/help/analyze/analysis-workspace/reports/create-company-reports.md). |
+| 「異常偵測」和「貢獻分析」檔案的更新 | 異常偵測和貢獻分析的檔案先前位於虛擬分析人員的相關區段。 已進行下列變更： <ul><li>虛擬分析人員一詞已從檔案中移除。</li><li>關於的區段 [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) 直接移至Analysis Workspace區段下方。</li><li>貢獻分析檔案已合併至異常偵測檔案。</li></ul> |
+| 「Attribution IQ」已變更為「歸因」 | 已將所有「Attribution IQ」執行個體變更為「」[歸因](/help/analyze/analysis-workspace/attribution/overview.md)」的完整說明。 |
 | **2023 年 11 月** | |
 | Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=zh-Hant) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
 | **2023 年 10 月** | |
