@@ -4,9 +4,9 @@ title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1883'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Analytics 管理員應了解以下可協助監控 Analytics 環境重要方面�
 | 在 Analysis Workspace 中建置和共用專案 | Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享見解。您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。<p>資料分析師通常負責在 Analysis Workspace 中為其組織內的使用者建立專案。</p><p>建立專案後，分析師將這些專案分享給其組織中要求資料的[一般使用者](#end-users) (非分析師)，並協助他們了解如何解譯資料。</p> | <ul><li>[建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
 | 歸因 | 分析師可以透過在 Analysis Workspace 中採用各種歸因模型和回顧期間，自訂維度項目獲得成功事件評分的方式。<p>線性歸因模型會將相等的評分歸給每個帶來轉換的接觸點，而首次接觸則會將全部的評分歸給第一個接觸點。還有許多其他歸因模型可用，包括演算法模型，該模型使用統計技術來動態決定最佳評分配置。 </p> | [歸因模型與回顧期間](/help/analyze/analysis-workspace/attribution/models.md) |
 | 異常偵測 | Analysis Workspace 中的統計建模透過分析量度並確定值的下限、上限和預期範圍，自動找出資料中意外的趨勢。當發生意外的尖峰或下降時，系統會在報告中發出警報。 | [異常偵測概觀](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| 貢獻分析 | 使用 Analysis Workspace 探索您資料中的隱藏模式，說明統計異常並識別對象區段間非預期客戶動作、界外值、量度突升或突降背後的關聯。 | [貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) 在 [異常偵測概觀](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| 貢獻分析 | 使用 Analysis Workspace 探索您資料中的隱藏模式，說明統計異常並識別對象區段間非預期客戶動作、界外值、量度突升或突降背後的關聯。 | [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)中的[貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)概觀 |
 | 智慧型警報 | 根據資料異常和「堆疊」警報來建立和管理警報，這些警報在單一警報中擷取多個量度。 | [智慧型警報概觀](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
 | 資料匯出 | Data Warehouse 和資料摘要可讓您將資料匯出到各種雲端目的地，例如 Google Cloud Platform、Azure RBAC、Azure SAS 和 Amazon S3。 | [Analytics 匯出指南](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=zh-Hant) |
 | Activity Map | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。<p>Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷活動，以及就觀眾需求和行為採取行動。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
