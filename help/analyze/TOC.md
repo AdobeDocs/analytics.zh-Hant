@@ -6,8 +6,8 @@ breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
 source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 99%
+source-wordcount: '1084'
+ht-degree: 98%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 99%
       + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
-   + 出處 {#attribution}
+   + 歸因 {#attribution}
       + [歸因總覽](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
@@ -178,7 +178,7 @@ ht-degree: 99%
       + [建立資料請求](report-builder/data-requests/t-create-a-data-request.md)
       + 報告套裝 {#report-suites}
          + [選取報告套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [選取報告套裝來自 Excel 中的現有請求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [從 Excel 中的現有請求選擇報表套裝](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 來找出報告套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理區段](report-builder/data-requests/segmentation.md)
       + 報告類型 {#report-types}
