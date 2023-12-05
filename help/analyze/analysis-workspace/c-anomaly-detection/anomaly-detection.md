@@ -5,21 +5,21 @@ feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1402'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 異常偵測概述
 
-您可以根據 Analysis Workspace 中的內容檢視和分析資料異常。貢獻分析會與異常偵測搭配使用，協助識別導致異常的原因。
+您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。貢獻分析與異常檢測結合使用，協助識別導致異常的原因。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
 
 >[!IMPORTANT]
 >
->Adobe Analytics Select與Adobe Analytics Foundation客戶在工作區中只能存取「每日精細度」的「異常偵測」功能。 如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](#anomaly-detection-and-contribution-analysis-entitlements)。
+>Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](#anomaly-detection-and-contribution-analysis-entitlements)。
 
 ## 異常偵測
 
