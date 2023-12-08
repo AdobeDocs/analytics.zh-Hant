@@ -3,10 +3,10 @@ title: 驗證開發實作並發佈至生產環境
 description: 了解如何使用 Adobe Experience Platform 標記，將 Adobe Analytics 部署至您的生產環境中。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 91%
+source-wordcount: '622'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 
 Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標記的擴充功能。
 
-1. 安裝 [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [Firefox](https://addons.mozilla.org/zh-TW/firefox/addon/adobe-experience-platform-dbg/) 的擴充功能。
+1. 安裝擴充功能，用於 [鉻黃](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或Firefox。
 2. 瀏覽至您已在上面實作標記的開發網站。
 3. 按一下瀏覽器上的 Adobe Experience Cloud Debugger 圖示。
 4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、標記及 Adobe Experience Cloud 訪客 ID 服務中看到內容。
@@ -35,10 +35,10 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 1. 按一下您打算在您的網站上實作的標記屬性。
 1. 按一下「**[!UICONTROL 發佈]**」索引標籤，然後在開發欄中找出您的資料庫。
 1. 按一下程式庫上的下拉式清單，然後選取 **[!UICONTROL 提交以進行核准]**. 按一下強制回應視窗中的「**[!UICONTROL 提交]**」。
-1. 再按一下程式庫的下拉式清單（現在位於已提交欄），然後選取 **[!UICONTROL 為測試環境建置]**.
+1. 再次按一下程式庫的下拉式清單（現位於「已提交」欄），然後選取 **[!UICONTROL 為測試環境建置]**.
 1. 過了一會兒，資料庫上的黃色燈號會變成綠色，表示建置成功。
-1. 再按一下程式庫的下拉式清單，然後選取 **[!UICONTROL 核准以發佈]**.
-1. 再次按一下程式庫的下拉式清單(現在位於 [!UICONTROL 已核准] )，然後選取 **[!UICONTROL 建置並發佈到生產環境]**.
+1. 再次按一下程式庫的下拉式清單，然後選取 **[!UICONTROL 核准以發佈]**.
+1. 再按一下程式庫的下拉式清單(現在位於 [!UICONTROL 已核准] 欄)，然後選取 **[!UICONTROL 建置並發佈至生產環境]**.
 1. 前往「環境」索引標籤，然後按一下「**[!UICONTROL 生產環境]**」。
 1. 複製生產環境安裝程式碼，然後將其提供給您的網站負責人。請網站負責人在您網站的生產環境上實作此程式碼。
 
