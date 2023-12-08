@@ -5,16 +5,18 @@ title: 僅供檢視的專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 82%
+source-wordcount: '238'
+ht-degree: 75%
 
 ---
 
 # 僅供檢視的專案
 
-您可以透過[專案共用工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設定於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您要與整體上較不熟悉您組織資料結構(Analysis Workspace或Adobe Analytics)的使用者共用專案，但您仍希望他們在安全的環境中使用資料和深入分析，就可能需要這個選項。
+您可以透過[專案共用工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設定於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace或Adobe Analytics的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以採取此做法。
+
+請注意，即使是在僅限檢視的專案中，您也可以編輯面板行事曆日期範圍。
 
 ![](assets/view-only-project.png)
 
@@ -28,7 +30,6 @@ ht-degree: 82%
 
 * 隱藏左側邊欄
 * 報表套裝
-* 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 * 自由格式篩選
 * 可見列的自由格式編號
 * 自由格式列、欄或視覺效果設定
