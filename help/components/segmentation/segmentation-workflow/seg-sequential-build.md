@@ -3,10 +3,10 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: c1584e4a304cfa04ae167084466322bcf58387dd
 workflow-type: tm+mt
-source-wordcount: '3827'
-ht-degree: 100%
+source-wordcount: '3879'
+ht-degree: 97%
 
 ---
 
@@ -181,11 +181,11 @@ ht-degree: 100%
 
 例如：
 
-* **排除頁面**。使用區段規則從報表中剔除特定頁面 (如&#x200B;*`Home Page`*)、建立頁面等於「首頁」的點擊規則，然後排除它。此規則會自動包含「首頁」以外的所有值。
+* **排除頁面**。使用區段規則來移除特定頁面(例如 *`Home Page`*)、建立頁面等於「首頁」的點選規則，然後排除它。 此規則會自動包含「首頁」以外的所有值。
 * **排除反向連結網域**。使用僅包含來自 Google.com 之反向連結網域的規則，然後排除所有其他值。
 * **找出未購買者**。找出訂單大於零的情形，然後排除該[!UICONTROL 訪客]。
 
-可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點]也能包含在[邏輯群組中](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
+可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點] 也可包含在 [邏輯群組](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### 查核點之間排除
 
@@ -202,7 +202,7 @@ ht-degree: 100%
 
 **建立此區段**
 
-如同建立簡易的混合層級或巢狀循序區段一樣來建立您要的區段，接著設定容器元素的 [!UICONTROL EXCLUDE] 運算子。以下範例為彙總區段，其中將三個[!UICONTROL 點擊]容器拖曳至畫布，並指派 [!UICONTROL THEN] 運算子來連結容器邏輯，接著排除中間頁面檢視容器，僅包含依序從頁面 A 前往頁面 C 的訪客。
+像建立簡單、混合層級或巢狀循序區段一樣建立區段，然後設定 [!UICONTROL 排除] 容器元素的運運算元。 以下範例為彙總區段，其中將三個[!UICONTROL 點擊]容器拖曳至畫布，並指派 [!UICONTROL THEN] 運算子來連結容器邏輯，接著排除中間頁面檢視容器，僅包含依序從頁面 A 前往頁面 C 的訪客。
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -210,7 +210,7 @@ ht-degree: 100%
 
 如果排除查核點位於循序區段的開頭，則可確保排除的頁面檢視不會發生在第一個非排除的點擊之前。
 
-例如，餐廳想要查看避開主要登陸頁面、直接進入「外送」頁面的老手使用者。此範例可以簡化為訪客避免造訪頁面 A 並直接造訪頁面 B。
+例如，餐廳想要檢視傾向於避開主要登陸頁面，直接進入「外送」頁面的使用者。 您可以排除登陸頁面的點選，並在循序區段中包含「結帳」頁面的點選，以檢視此資料。
 
 **建立此區段**
 
