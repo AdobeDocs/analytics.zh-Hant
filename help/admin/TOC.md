@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 97%
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
    + [資料來源](admin/data-sources.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + 報告活動管理員 {#reporting-activity-manager}
+   + 報告活動管理器 {#reporting-activity-manager}
       + [概觀](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [檢視報告活動](admin//reporting-activity-manager/reporting-activity.md)
       + [取消報告請求](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -71,7 +71,7 @@ ht-degree: 97%
                + [處理規則提示與秘訣](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + 機器人規則 {#bot-removal}
                + [移除機器人](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [機器人規則總覽](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [瞭解並設定機器人規則](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [常見的機器人簽名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [排除機器人的方法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [隱私權設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -158,7 +158,7 @@ ht-degree: 97%
       + [偏好設定管理器](admin/company/preferences-manager.md)
       + [擱置中的動作](admin/company/pending-actions-admin.md)
       + [功能存取層級](admin/company/feature-access-levels.md)
-   + 資料治理隱私權標籤 {#data-governance}
+   + 資料控管隱私權標籤 {#data-governance}
       + [Adobe Analytics 資料隱私權工作流程](admin/c-data-governance/an-gdpr-workflow.md)
       + [常見問題](admin/c-data-governance/gdpr-faq.md)
       + 資料標記 {#data-labels}
@@ -178,7 +178,7 @@ ht-degree: 97%
       + [伺服器呼叫使用量常見問題](admin/c-server-call-usage/overage-faq.md)
    + 使用者和產品管理 (舊版) {#user-product-management}
       + [使用者和產品管理 (舊版)](admin/user-management2/user-management.md)
-      + [轉移使用者資產或設定帳戶到期日](admin/user-management2/users-assets.md)
+      + [轉移使用者資產或設定帳戶有效期](admin/user-management2/users-assets.md)
       + 將使用者移轉至 Adobe Admin Console {#migrate-users}
          + [Analytics 使用者移轉至 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [移轉 Adobe ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/t-migrate-users.md)

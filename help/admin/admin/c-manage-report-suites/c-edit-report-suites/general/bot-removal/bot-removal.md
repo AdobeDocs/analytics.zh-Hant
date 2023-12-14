@@ -3,16 +3,16 @@ title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的方式
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 6c856d078becea69bcb8ae0ec30c473e273b34b2
+source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 84%
+source-wordcount: '763'
+ht-degree: 81%
 
 ---
 
 # 在 Adobe Analytics 移除機器人
 
-在 Adobe Analytics 中，您有多個選項可移除報表中的機器人流量：
+Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ## 使用機器人規則
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 | 標準 IAB 機器人規則 | 選取&#x200B;**[!UICONTROL 「啟用 IAB 機器人篩選規則」]**，系統會使用 [IAB](https://www.iab.com/) (國際廣告局) 的「國際編目程式與機器人清單」來移除機器人流量。多數客戶至少都會選取此選項。 |
 | 自訂機器人規則 | 您可以根據使用者代理、IP 位址或 IP 範圍來定義與新增自訂機器人規則。 |
 
-如需詳細資訊，請參閱[機器人規則總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
+如需詳細資訊，請參閱 [瞭解並設定機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
 
 ## 使用 [!UICONTROL websiteBot] 外掛程式來識別機器人
 
