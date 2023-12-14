@@ -5,15 +5,15 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2171'
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 登陸頁面
 
-Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、更新的報表選單、現代化報表，以及可幫助您更有效地開始體驗的學習區段。以下是影片概觀：
+Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、更新的報告選單、現代化報告，以及可幫助您更有效地開始體驗的學習區段。以下是影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -25,9 +25,9 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | 自訂欄寬 | 以前欄寬是固定的。現在您可以透過拖曳欄分隔元來調整它。 | ![欄寬](assets/column-width.png) |
 | 重新排序釘選項目 | 若要將釘選項目上下移動，請按一下釘選項目旁的省略符號，並選取&#x200B;**[!UICONTROL 向上移動]**&#x200B;或是&#x200B;**[!UICONTROL 向下移動]**。 | ![移動釘選項目](assets/move-up-down.png) |
 | 新表格欄位 | 按一下表格右上角的[!UICONTROL 自訂表格]圖示。新表格欄位包括： <ul><li>**[!UICONTROL 排程]**：設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。</li><li>**[!UICONTROL 專案 ID]**：專案 ID 可用於偵錯專案。</li><li>**[!UICONTROL 最大日期範圍]**：更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 </li><li>**[!UICONTROL 查詢數]**：專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 </li></ul> | ![新欄位](assets/new-columns.png) |
-| 按一下即可開啟報表。 | 之前您必須按兩下。 |  |
-| **[!UICONTROL Report &amp; Analytics]** 報表的新連結 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人頁面]**<li>**[!UICONTROL 報表]** > **[!UICONTROL 參與度]** > **[!UICONTROL 即時]**</li></ul> | ![新連結](assets/report-links.png) |
-| 全新現成可用的報表 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 參與杜]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>注意，這些報表為[!UICONTROL 工作區]格式，並需要設定和建置。輸出由高層級量度的面板、趨勢資料、[!UICONTROL 流量]視覺化等組成。您可修改這些報表並變更維度、維度項目等。這些報表也能在工作區面板下以面板的方式提供。 | ![下一頁](assets/next-page.png) |
+| 按一下即可開啟報告。 | 之前您必須按兩下。 |  |
+| **[!UICONTROL Report &amp; Analytics]** 報告的新連結 | <ul><li>**[!UICONTROL 報告]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人頁面]**<li>**[!UICONTROL 報告]** > **[!UICONTROL 參與度]** > **[!UICONTROL 即時]**</li></ul> | ![新連結](assets/report-links.png) |
+| 全新現成可用的報告 | <ul><li>**[!UICONTROL 報告]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 參與杜]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>注意，這些報告為[!UICONTROL 工作區]格式，並需要設定和建置。輸出由高層級量度的面板、趨勢資料、[!UICONTROL 流量]視覺化等組成。您可修改這些報告並變更維度、維度項目等。這些報告也能在工作區面板下以面板的方式提供。 | ![下一頁](assets/next-page.png) |
 | **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
 | 在 Customer Journey Analytics 中也可取得 | Customer Journey Analytics 中也可以找到此登陸頁面修改後的格式。 |  |
 
@@ -37,14 +37,14 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ![最上方選單](assets/top-menus.png)
 
-* Analytics 最上方選單：大多數報表現在都在左側欄的「[!UICONTROL 報表]」選單中。
-* 左側欄有三個索引標籤：[!UICONTROL 專案]、[!UICONTROL 報表]和[!UICONTROL 學習]。
+* Analytics 最上方選單：大多數報告現在都在左側欄的「[!UICONTROL 報告]」選單中。
+* 左側欄有三個索引標籤：[!UICONTROL 專案]、[!UICONTROL 報告]和[!UICONTROL 學習]。
 
 ### 術語
 
 * **[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
-* **[!UICONTROL 報表]**&#x200B;是指由 Adobe 預先建立的任何內容，例如在 Reports &amp; Analytics 中的報表和工作區中的範本。
-* **[!UICONTROL 範本]**&#x200B;不再用作 Adobe 預先建立的工作區專案的詞彙。範本現在歸類在[!UICONTROL 報表]下面。[!UICONTROL 範本]這個詞彙仍用於您的公司建立的範本。
+* **[!UICONTROL 報告]**&#x200B;是指由 Adobe 預先建立的任何內容，例如在 Reports &amp; Analytics 中的報告和工作區中的範本。
+* **[!UICONTROL 範本]**&#x200B;不再用作 Adobe 預先建立的工作區專案的詞彙。範本現在歸類在[!UICONTROL 報告]下面。[!UICONTROL 範本]這個詞彙仍用於您的公司建立的範本。
 
 ## 瀏覽至「[!UICONTROL 專案]」索引標籤。 {#navigate-projects}
 
@@ -76,7 +76,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | [!UICONTROL 類型] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
 | [!UICONTROL 標籤] | 標記專案，可方便分類整理。 |
 | [!UICONTROL 專案角色] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
-| [!UICONTROL 報告套裝] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報表套裝衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報表套裝，多寡視您的分析使用情形而定。報表套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
+| [!UICONTROL 報告套裝] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報告套裝，多寡視您的分析使用情形而定。報告套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
 | [!UICONTROL 所有者] | 識別建立專案的人員。 |
 | [!UICONTROL 上次開啟時間] | 識別您上次開啟專案的日期。 |
 | 自訂表格圖示 | 選取要在表格中查看的欄。 若要從專案清單中新增或移除欄，請按一下右上方的欄圖示 (![登陸 - 所有項目](/help/analyze/assets/select-column.png))，然後選取或取消選取欄標題。 |
@@ -97,26 +97,26 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ![切換至所有專案](assets/switch-all-projects-view.png)
 
-管理員的另一個使用案例是管理公司報表，以便刪除、重命名、核准報表或加標記。 有關管理報表的資訊，請參閱[管理公司報表](#manage-company-reports)。
+管理員的另一個使用案例是管理公司報告，以便刪除、重命名、核准報告或加標記。 有關管理報告的資訊，請參閱[管理公司報告](#manage-company-reports)。
 
-## 瀏覽至「[!UICONTROL 報表]」標籤。 {#navigate-reports}
+## 瀏覽至「[!UICONTROL 報告]」標籤。 {#navigate-reports}
 
 「[!UICONTROL 報告]」標籤會整合以下的報告集：
 
 * 預先建立的[!UICONTROL 工作區] 範本；即先前位於「[!UICONTROL 工作區] > [!UICONTROL 專案] > [!UICONTROL 全新]」的範本。Adobe 不再於此內容中使用「範本」一字。
-* 多數預先建立的報表在先前 Adobe Analytics [!UICONTROL 報表]上方功能表的下面。這些報表現在顯示在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中。
+* 多數預先建立的報告在先前 Adobe Analytics [!UICONTROL 報告]上方功能表的下面。這些報告現在顯示在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中。
 
 >[!NOTE]
 >
 >使用報告時，請考慮以下情況：
->* 在「報表」下，只有當您將新報表標籤為「我的最愛」時，才會顯示「我的最愛」檔案夾。沒有預先存在的 Reports &amp; Analytics「我的最愛」移轉過來。
+>* 在「報告」下，只有當您將新報告標籤為「我的最愛」時，才會顯示「我的最愛」檔案夾。沒有預先存在的 Reports &amp; Analytics「我的最愛」移轉過來。
 >* 僅提供先前在 Reports &amp; Analytics 中分組的最常用報告。一小部分很少使用或不再相關的報告不再適用。請參閱下方的[登陸頁面常見問題](#landing-page-faq)以了解更多詳細資訊。
 
 ![「報告」標籤](assets/reports-tab2.png)
 
-如需Analysis Workspace中「報表」索引標籤的詳細資訊，包括檢視和儲存報表，請參閱 [使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md).
+有關 Analysis Workspace 中「報告」標籤的詳細資訊 (包括檢視和儲存報告)，請參閱「[使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md)」。
 
-如需建立和管理自訂公司報表的相關資訊，請參閱 [建立和管理公司報表](/help/analyze/analysis-workspace/reports/create-company-reports.md).
+有關建立和管理自訂公司報告的資訊，請參閱「[建立和管理公司報告](/help/analyze/analysis-workspace/reports/create-company-reports.md)」。
 
 ## 使用「學習」標籤。 {#navigate-learning}
 
@@ -146,20 +146,20 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
    ![設定登陸頁面](assets/landing-pref.png)
 
-## 隱藏報表標籤 {#hide-reports}
+## 隱藏報告標籤 {#hide-reports}
 
-管理員可以為其組織內的所有使用者隱藏「報表」標籤。
+管理員可以為其組織內的所有使用者隱藏「報告」標籤。
 
 1. 前往「[!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 偏好設定] > [!UICONTROL 公司]」。
-1. 檢查&#x200B;**[!UICONTROL 隱藏報表標籤]**。
+1. 檢查&#x200B;**[!UICONTROL 隱藏報告標籤]**。
 
 ## 登陸頁面常見問題 {#landing-faq}
 
 | 問題 | 回答 |
 | --- | --- |
-| 我以前在[!UICONTROL 工作區]看到的範本在哪裡？ | 這些範本分類列在「[!UICONTROL 報表]」標籤下。 |
+| 我以前在[!UICONTROL 工作區]看到的範本在哪裡？ | 這些範本分類列在「[!UICONTROL 報告]」標籤下。 |
 | 我在 Beta 版計劃 UI 中進行的工作是否會移轉至生產環境的[!UICONTROL 工作區]體驗？ | 是，在 Beta 版中完成的任何工作都會移轉至舊有/現有的[!UICONTROL 工作區]體驗。 |
 | 我現有的 [!DNL Reports & Analytics]「我的最愛」是否可移轉過來？ | 否，這些不會移轉過來。但是，[!UICONTROL 工作區]中任何「我的最愛」會移轉過來。 |
 | 我可釘選的專案數量是否有上限？ | 沒有，您可以釘選的專案數量沒有限制。 |
 | 管理員是否可以為他們的使用者指定此登陸頁面？ | 否，管理員不可以代表他們的使用者指定此登陸頁面。 個人使用者必須自己開啟切換功能。 |
-| [!DNL Reports & Analytics] 已有的全部報表是否仍然可用？ | 否，以下報表已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報表</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點擊 ype VISTA 規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |
+| [!DNL Reports & Analytics] 已有的全部報告是否仍然可用？ | 否，以下報告已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報告</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點擊 ype VISTA 規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |
