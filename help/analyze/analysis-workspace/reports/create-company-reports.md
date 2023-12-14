@@ -1,20 +1,20 @@
 ---
-description: 概述如何使用Analysis Workspace中的預設報表。
-title: 使用報表
+description: 如何在 Analysis Workspace 中使用預設報告的概觀。
+title: 使用報告
 feature: Analysis Workspace
 role: User, Admin
 source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '357'
+ht-degree: 100%
 
 ---
 
-# 建立和管理公司報表
+# 建立和管理公司報告
 
-您可以建立自訂報表，並儲存以供登入公司的其他人使用。 公司報表可在建立專案時選擇，如所述 [從空白專案或報告建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report) 在文章中， [在Analysis Workspace中建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+您可以建立自訂報告，並將其儲存以供登入公司的其他人使用。建立專案時可以選擇公司報告，如「[從空白專案或報告建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#create-a-project-from-a-blank-project-or-a-report)」或「[在 Analysis Workspace 中建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)」一文中所述。
 
-## 建立一份自訂的公司報表
+## 建立一份自訂的公司報告
 
 若要建立新的公司報告：
 
@@ -31,29 +31,29 @@ ht-degree: 82%
 
 ## 管理公司報告
 
-管理員可以篩選專案清單以顯示和管理公司報告。釘選項目保持釘選狀態，後面接著有![報表圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)報表圖示識別的公司報表清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報表或加標記。
+管理員可以篩選專案清單以顯示和管理公司報告。釘選項目保持釘選狀態，後面接著有![報告圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)報告圖示識別的公司報告清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報告或加標記。
 
-顯示和管理公司報表
+顯示和管理公司報告
 
-1. 在篩選欄中，選取「**其他篩選器**」，然後選取「**公司報表**」。
-顯示公司報表清單。 除非已釘選，否則不會顯示所有的一般專案。
+1. 在篩選欄中，選取「**其他篩選器**」，然後選取「**公司報告**」。
+顯示公司報告清單。 除非已釘選，否則不會顯示所有的一般專案。
 
-   ![顯示公司報表篩選器](assets/company-reports-filter.png)
+   ![顯示公司報告篩選器](assets/company-reports-filter.png)
 
-   公司報表顯示後，管理員可以刪除、重命名、核准報告表或加標記。
+   公司報告顯示後，管理員可以刪除、重命名、核准報告表或加標記。
 
-1. 在報表清單中，選取單一報表或選取多個報表。
+1. 在報告清單中，選取單一報告或選取多個報告。
 
-1. 按一下報表旁邊的「**...**」省略號圖示，以查看可用選項 (刪除、重命名、加標記和核准)。
+1. 按一下報告旁邊的「**...**」省略號圖示，以查看可用選項 (刪除、重命名、加標記和核准)。
 
-   ![公司報表行動](assets/company-reports-actions.png)
+   ![公司報告行動](assets/company-reports-actions.png)
 
 1. 選取一個選項 (刪除、重命名、加標記和核准)。
 
-1. 完成後若要返回一般視圖，請在篩選器欄中再次取消選取公司報表選項。
+1. 完成後若要返回一般視圖，請在篩選器欄中再次取消選取公司報告選項。
 
-### 刪除公司報表
+### 刪除公司報告
 
-管理員可以使用公司報表清單選項 (如上所述) 刪除報表，或從「建立專案」模式中刪除報表。
+管理員可以使用公司報告清單選項 (如上所述) 刪除報告，或從「建立專案」模式中刪除報告。
 
 ![其他篩選器](assets/delete-fr-create-project-modal.png)
