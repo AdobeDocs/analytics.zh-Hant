@@ -4,21 +4,14 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 13%
+source-wordcount: '1088'
+ht-degree: 4%
 
 ---
 
 # 管理 Data Warehouse 請求
-
-{{release-limited-testing}}
-
->[!NOTE]
->
->如果您的組織尚未有即將供所有客戶使用的新Data Warehouse體驗，請使用此資訊： [管理Data Warehouse請求（舊體驗）](#manage-data-warehouse-requests-old-experience) （位於本頁底部）。
-
 
 您可以檢視及管理您提出的Data Warehouse請求。 只有管理員才能檢視及管理組織中其他使用者提出的請求。
 
@@ -95,7 +88,7 @@ ht-degree: 13%
    | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報表已建立但尚未處理。</li><li>[!UICONTROL **擱置中**]：報表正等待處理。</li><li>[!UICONTROL **處理中**]：報表目前正在處理中。</li><li>[!UICONTROL **已完成**]：報表已完成並可供使用。</li><li>[!UICONTROL **已排程**]：報告已排程但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：] 報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生但無法傳送。 檢查 [您目的地的設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)，然後重新傳送報表。</li></ul>。 |
    | [!UICONTROL **從**] | 報表中包含之整體時間範圍的開始日期。<p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **結束日期**] | 報表中包含之整體時間範圍的結束日期。 <p>這會以報表套裝的時區顯示。</p> |
-   | [!UICONTROL **舊請求 ID**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
+   | [!UICONTROL **舊版請求ID**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
    | [!UICONTROL **報告ID**] | 此ID可用來識別目前Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
 
 
@@ -179,31 +172,3 @@ ht-degree: 13%
 1. 在Data Warehouse頁面頂端的搜尋欄位中，指定您要檢視的要求名稱。
 
    系統會依您的輸入篩選請求。
-
-## 管理Data Warehouse請求（舊體驗）
-
->[!NOTE]
->
->下列資訊僅適用於貴組織尚未提供全新Data Warehouse體驗的情況，所有Analytics客戶很快就會有這種體驗。
-
-
-「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。
-
-在 Data Warehouse 中，選取「**[!UICONTROL 請求管理員]**」標籤。
-
-在此標籤中作業可讓您
-
-* 依報表名稱、套用區段、要求者、要求日期及狀態，檢視最近的報表要求。
-* 複製要求。按一下要求旁邊的「**[!UICONTROL 複製]**」。
-
-  >[!NOTE]
-  >
-  >此動作僅會複製請求，不會複製排程或傳送詳細資料。
-
-* 依報表名稱或請求者的登入名稱搜尋報表。
-* 將報表拖放至佇列中的新位置，重新排列報表的優先順序。
-* 若要查看開始處理要求的時間，請按一下計劃的要求 ID，並檢查開啟的快顯視窗。
-
-按一下工作即可檢視該工作的個別請求。
-
-* 比率限制：您的組織有太多正在執行的Data Warehouse請求。 請求會暫停，直到其他資料請求完成為止。

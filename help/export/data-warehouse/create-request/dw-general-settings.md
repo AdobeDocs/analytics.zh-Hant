@@ -2,22 +2,15 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: Data Warehouse請求一般設定
 feature: Data Warehouse
-source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
+exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
+source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 26%
+source-wordcount: '271'
+ht-degree: 27%
 
 ---
 
 # Data Warehouse請求一般設定
-
->[!AVAILABILITY]
->
->本文中說明的某些Data Warehouse功能(以及本節中的其他Data Warehouse文章)僅在版本的有限測試階段中可用，並且可能在您的環境中尚未提供。
->
->如需關於哪些功能尚未開放所有客戶使用的資訊，以及這些功能發行時間表的相關資訊，請參閱 [發行說明](/help/release-notes/latest.md).
->
->當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
 建立Data Warehouse請求時，有多種可用的設定選項。 以下資訊說明如何設定請求的一般設定。
 
