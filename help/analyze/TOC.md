@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 2aaf06d76e6b5e22d1f7a6713ff146ca9a897a55
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ ht-degree: 98%
       + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-   + 報表 {#reports}
+   + 報告 {#reports}
       + [使用預先建立的報告](analysis-workspace/reports/use-reports.md)
-      + [建立和管理公司報表](analysis-workspace/reports/create-company-reports.md)
+      + [建立和管理公司報告](analysis-workspace/reports/create-company-reports.md)
    + 元件 {#components}
       + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
       + [新增元件說明](analysis-workspace/components/add-component-descriptions.md)
@@ -178,7 +178,7 @@ ht-degree: 98%
       + [建立資料請求](report-builder/data-requests/t-create-a-data-request.md)
       + 報告套裝 {#report-suites}
          + [選取報告套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [從 Excel 中的現有請求選擇報表套裝](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [從 Excel 中的現有請求選擇報告套裝](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 來找出報告套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理區段](report-builder/data-requests/segmentation.md)
       + 報告類型 {#report-types}
