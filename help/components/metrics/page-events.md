@@ -3,10 +3,10 @@ title: 頁面事件
 description: 連結追蹤動作的觸發次數。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a7434f72159a575f9ad7bf29644cb17777382df7
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 50%
+source-wordcount: '146'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 50%
 
 ## 此量度的計算方式
 
-此量度會計入全部 [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md) 報表套裝中的。 其中包括所有的連結類型 (自訂連結、下載連結和退出連結)。不包括 [頁面檢視追蹤呼叫(`t()`)](/help/implement/vars/functions/t-method.md).
+此量度會計入全部 [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md) 報表套裝中的。 此量度包含所有連結型別，尤其是 [自訂連結](../dimensions/custom-link.md)， [下載連結](../dimensions/download-link.md)、和 [退出連結](../dimensions/exit-link.md). 不包括 [頁面檢視追蹤呼叫(`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## 與類似量度比較
 

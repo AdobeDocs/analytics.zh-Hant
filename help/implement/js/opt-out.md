@@ -3,24 +3,24 @@ title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
+source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 92%
+source-wordcount: '563'
+ht-degree: 71%
 
 ---
 
 # 實施選擇退出連結
 
-*此說明頁面可讓Adobe Analytics客戶為其使用者提供選擇退出連結。 如果您不是Adobe Analytics客戶，請參閱 [Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html) 以控制Adobe如何使用您的資訊。*
-
 >[!IMPORTANT]
 >
->Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務總覽](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)。
+> **此說明頁面可讓Adobe Analytics客戶為其使用者提供選擇退出連結。 如果您不是Adobe Analytics客戶，請參閱 [Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html) 以控制Adobe如何使用您的資訊。**
 
-網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實作類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
+網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 
-當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。如果使用者選擇不進行追蹤且設定選擇退出 Cookie，您的 JavaScript 檔案會繼續將資料傳送至 Adobe 伺服器。不過這些資料不會經過處理，也不會納入報表。
+您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議使用 [Adobe Experience Cloud選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) 而非。 選擇加入服務更加健全，可跨多個Adobe Experience Cloud產品運作，包括Adobe Analytics和AppMeasurement。
+
+當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。如果使用者選擇不被追蹤且已設定選擇退出Cookie，AppMeasurement會繼續將資料傳送至Adobe。 不過這些資料不會經過處理，也不會納入報表。
 
 >[!TIP]
 >
@@ -58,34 +58,30 @@ ht-degree: 92%
 
 加入 `locale` 查詢字串參數，自動切換選擇退出頁面的語言。將以下任一值指派給此查詢字串參數：
 
-* en_US (英文，預設)
-* bg_BG (保加利亞文)
-* zh_CN (簡體中文)
-* zh_TW (繁體中文)
-* cs_CZ (捷克文)
-* da_NK (丹麥文)
-* nl_NL (荷蘭文)
-* et_EE (愛沙尼亞文)
-* fi_FI (芬蘭文)
-* fr_FR (法文)
-* de_DE (德文)
-* el_GR (希臘文)
-* it_IT (義大利文)
-* jp_JP (日文)
-* ko_KR (韓文)
-* lv_LV (拉脫維亞文)
-* lt_LT (立陶宛文)
-* nb_NO (挪威文)
-* pl_PL (波蘭文)
-* pt_BR (葡萄牙文)
-* sk_SK (斯洛伐克文)
-* es_ES (西班牙文)
+* `en_US` （英文，預設）
+* `bg_BG` （保加利亞文）
+* `zh_CN` （簡體中文）
+* `zh_TW` （繁體中文）
+* `cs_CZ` （捷克文）
+* `da_NK` （丹麥文）
+* `nl_NL` （荷蘭文）
+* `et_EE` （愛沙尼亞文）
+* `fi_FI` （芬蘭文）
+* `fr_FR` （法文）
+* `de_DE` （德文）
+* `el_GR` （希臘文）
+* `it_IT` （義大利文）
+* `jp_JP` （日文）
+* `ko_KR` （韓文）
+* `lv_LV` （拉脫維亞文）
+* `lt_LT` （立陶宛文）
+* `nb_NO` （挪威文）
+* `pl_PL` （波蘭文）
+* `pt_BR` （葡萄牙文）
+* `sk_SK` （斯洛伐克文）
+* `es_ES` （西班牙文）
 
 例如，`https://example.data.adobedc.net/optout.html?locale=ko_KR` 會以韓文載入選擇退出頁面。
-
->[!TIP]
->
->`en_US` 查詢字串值不是必要值，因為頁面預設會以英文載入。
 
 ### 快顯視窗
 
