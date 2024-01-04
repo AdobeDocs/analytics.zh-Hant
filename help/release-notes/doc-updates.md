@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4959'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 12 月** | |
-| 改善機器人規則檔案 | 更新資訊： [瞭解並設定機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) 以提升清晰度。<p>改善專案包括：</p> <ul><li>更新文章標題，以提供更多說明性</li><li>改善資訊的組織</li><li>新增步驟以指出工作型資訊</li><li>已新增有關上傳機器人規則時CSV檔案要求的更多詳細資料</li></ul> |
+| 改進機器人規則文件 | 已更新[了解和設定機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)中的資訊，以改善明確度。<p>改善項目包括：</p> <ul><li>更新文章標題，使其更能說明內容</li><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li><li>新增有關上傳機器人規則時 CSV 檔案需求的更多詳細資料</li></ul> |
 | 新報告區段 | 新增了新的報告部分，其中包括有關「[使用預先建立報告](/help/analyze/analysis-workspace/reports/use-reports.md)」以及「[建立和管理公司報告](/help/analyze/analysis-workspace/reports/create-company-reports.md)」的資訊。 |
 | 更新了異常偵測和貢獻分析文件 | 異常偵測和貢獻分析的文件以前位於 Virtual Analyst 區段中。以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li><li>貢獻分析文件已合併到異常偵測文件中。</li></ul> |
 | 「Attribution IQ」改為「歸因」 | 將整份文件中所有出現的「Attribution IQ」變更為「[歸因](/help/analyze/analysis-workspace/attribution/overview.md)」。 |
