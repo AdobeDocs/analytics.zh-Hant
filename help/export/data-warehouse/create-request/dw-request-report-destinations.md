@@ -3,9 +3,9 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2167'
 ht-degree: 10%
 
 ---
@@ -38,7 +38,9 @@ ht-degree: 10%
 
    ![報表目的地索引標籤](assets/dw-report-destination.png)
 
-1. （視條件而定）如果您先前已設定帳戶（以及該帳戶上的目的地），而您想將該帳戶用作報表目的地：
+1. （視條件而定）如果已設定帳戶（以及該帳戶上的目的地），而您想要將其用作報表目的地：
+
+   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
 
    1. 從中選擇帳戶 [!UICONTROL **選取帳戶**] 下拉式功能表。
 
@@ -123,7 +125,7 @@ ht-degree: 10%
       |---------|----------|
       | [!UICONTROL **收件者**] | 可在傳送報告時傳送電子郵件通知給特定使用者。 指定單一電子郵件地址或以逗號分隔的電子郵件地址清單。 <!-- How does this differ from the Notification email tab? --> |
 
-   1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊： |欄位 |函式 | ---------|----------| | [!UICONTROL **名稱**] |位置名稱。  | | [!UICONTROL **說明**] |提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **位置帳戶**] |選取您在中建立的位置帳戶 [新增帳戶](#add-an-account). |
+   1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **名稱**] | 位置的名稱。  | | [!UICONTROL **說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **位置帳戶**] | 選取您在中建立的位置帳戶 [新增帳戶](#add-an-account). |
 
    1. 在 [!UICONTROL **位置屬性**] 區段，指定您位置帳戶之帳戶型別的專屬資訊。
 

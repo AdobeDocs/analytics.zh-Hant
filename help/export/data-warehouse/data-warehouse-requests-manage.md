@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1103'
 ht-degree: 4%
 
 ---
@@ -153,7 +153,7 @@ ht-degree: 4%
    | 報表套裝 | 與請求相關聯的報表套裝。 |
    | 請求者 | 建立請求的使用者。 |
    | 請求日期 | 提出請求的日期。 |
-   | 狀態 | 可使用下列狀態：<ul><li><p>**已完成**：要求已成功執行。</p></li><li><p>**已取消**：使用者已取消要求。</p></li><li><p>**已排程**：要求已設定為依排程執行。</p></li><!-- Are there other statuses? Failed? --> |
+   | 狀態 | 可使用下列狀態：<ul><li><p>**已完成**：要求已成功執行。</p></li><li><p>**已取消**：使用者已取消要求。</p></li><li><p>**已排程**：要求已設定為依排程執行。</p></li><li><p>**已失敗**：要求無法完成。 如果要求持續失敗，請聯絡客戶支援。</p></li></ul> |
 
    {style="table-layout:auto"}
 
