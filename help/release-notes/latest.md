@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bed7f1def35defc63ffa890f1e2d13e5a7b8159b
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 89%
+source-wordcount: '1002'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 89%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Data Warehouse更新** | 現已推出下列Data Warehouse改良功能：<ul><li>建立Data Warehouse請求時，使用者現在可以啟用名為的新切換按鈕，讓組織中的所有使用者都能使用請求。 [!UICONTROL **讓您組織中的使用者也能使用**].<!--<p>For more information, see [Data Warehouse request general settings](/help/export/data-warehouse/create-request/dw-general-settings.md).</p>--></li><li>建立或管理Data Warehouse報表目的地時，系統管理員現在可以透過啟用名為的切換功能，顯示組織中使用者建立的帳戶和位置 [!UICONTROL **顯示所有目的地**].<!--<p>For more information, see [Configure a report destination for a Data Warehouse request](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p>--></li> | 不適用 | 2024年1月10日 |
+| **Data Warehouse更新** | 現已推出下列Data Warehouse改良功能：<ul><li>建立Data Warehouse請求時，使用者現在可以啟用名為的新切換按鈕，讓組織中的所有使用者都能使用請求。 [!UICONTROL **讓您組織中的使用者也能使用**].<p>如需詳細資訊，請參閱 [Data Warehouse請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md).</p></li><li>建立或管理Data Warehouse報表目的地時，系統管理員現在可以透過啟用名為的切換功能，顯示組織中使用者建立的帳戶和位置 [!UICONTROL **顯示所有目的地**].<p>如需詳細資訊，請參閱 [設定Data Warehouse請求的報表目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).</p></li> | 不適用 | 2024年1月10日 |
 
 {style="table-layout:auto"}
 

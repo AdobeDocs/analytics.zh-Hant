@@ -3,9 +3,9 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2204'
 ht-degree: 10%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 10%
 
 1. （視條件而定）如果已設定帳戶（以及該帳戶上的目的地），而您想要將其用作報表目的地：
 
-   <!--1. (Optional) If you are a system administrator, the [!UICONTROL **Show all destinations**] option is available. Enable this option if you want to have access to all accounts and locations that were created by any user in the organization.-->
+   1. （選擇性）如果您是系統管理員， [!UICONTROL **顯示所有目的地**] 選項可供使用。 如果您想要存取組織中任何使用者建立的所有帳戶和位置，請啟用此選項。
 
    1. 從中選擇帳戶 [!UICONTROL **選取帳戶**] 下拉式功能表。
 

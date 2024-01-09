@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: Data Warehouse請求一般設定
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: b5095574c31d77b77d310acca8ca6000aa7c5891
+source-git-commit: baac0c0384b714cf2ca536149ca10eec3a7065ad
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 27%
+source-wordcount: '327'
+ht-degree: 24%
 
 ---
 
@@ -32,7 +32,8 @@ ht-degree: 27%
    |---------|----------|
    | 請求名稱 | 管理請求時，此名稱會顯示在主Data Warehouse頁面上。 |
    | 日期範圍 | 選取要納入報表的日期範圍。 <p>您可以選擇自訂日期或預設的日期範圍。 預設範圍是相對於報表傳送日期。</p><p>下列預設集選項可供使用：</p><ul><li>今天</li><li>昨天</li><li>最近 7 天</li><li>最近 30 天</li><li>本週</li><li>上週</li><li>過去2週</li><li>最近3週</li><li>最近4週</li><li>本月</li><li>上個月</li><li>過去一小時</li></ul> |
-   | 詳細程度 | <!--what does this setting do? It's not the schedule/frequency... --> 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報表粒度需要更多的處理時間。如果是報告一整年的每月粒度，若是針對每個月提交一個報告請求，報告的處理速度會快很多。</p> <!-- Make this into a new row: Make available to users in your organization - All data warehouse requests are visible only to you and any system administrators. Enable this option if you want to make the request visible to everyone in your organization. <p>Enabling this option is useful if you want other users in your organization to help create or update the request.</p>--> |
+   | 詳細程度 | <!--what does this setting do? It's not the schedule/frequency... --> 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報表粒度需要更多的處理時間。如果是報告一整年的每月粒度，若是針對每個月提交一個報告請求，報告的處理速度會快很多。</p> |
+   | 設為可供您組織中的使用者使用 | 只有您和任何系統管理員可看見所有Data Warehouse請求。 如果您想要讓組織中的所有人都能看到請求，請啟用此選項。 <p>如果您希望組織中的其他使用者協助建立或更新請求，啟用此選項會很有用。</p> |
 
    {style="table-layout:auto"}
 
