@@ -3,55 +3,57 @@ title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: dd9046bbb8d640d7392cddfab7ce34c4310e6eb7
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 86%
+source-wordcount: '34'
+ht-degree: 41%
 
 ---
 
 # Adobe 外掛程式：getPageLoadTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式已不再受支援。 其程式碼會使用performance.timing方法，根據MDN，該方法已 [已棄用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
 
-`getPageLoadTime` 外掛程式使用 JavaScript 效能物件，可讓您測量頁面完全載入所花的時間。如果您想要測量頁面載入所需的時間，Adobe 建議使用此外掛程式。
+<!-- The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 
->注意/警告：如果您從以前的版本升級此外掛程式，您很可能還需要變更呼叫此函數的程式碼。 在部署到生產環境之前，請徹底檢查您的實施和測試
+>NOTE/WARNING: If you are upgrading this plugin from a previous version, you will most likely need to change the code that calls this function as well.  Please check your implementation and test thoroughly before deploying to production.
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## Install the plug-in using the Web SDK or Web SDK extension
 
-此外掛程式尚不支援在Web SDK中使用。
+This plug-in is supported for use within the Web SDK.
 
-## 使用Adobe Analytics擴充功能安裝外掛程式
+## Install the plug-in using the Adobe Analytics extension
 
-Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
+Adobe offers an extension that allows you to use most commonly-used plug-ins with Adobe Analytics.
 
-1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
-1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
-1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
-   * 條件：無
-   * 事件：核心 - 已載入資料庫 (頁面頂端)
-1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常用 Analytics 外掛程式
-   * 動作類型：初始化 getPageLoadTime
-1. 儲存並發佈規則的變更。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getPageLoadTime
+1. Save and publish the changes to the rule.
 
-## 使用自訂程式碼編輯器安裝外掛程式
+## Install the plug-in using custom code editor
 
-如果您不想使用常見Analytics外掛程式外掛程式擴充功能，可以使用自訂程式碼編輯器。
+If you do not want to use the Common Analytics Plugins plug-in extension, you can use the custom code editor.
 
-1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
-1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
-1. 儲存並發佈 Analytics 擴充功能的變更。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click on the desired property.
+1. Go to the [!UICONTROL Extensions] tab, then click the **[!UICONTROL Configure]** button under the Adobe Analytics extension.
+1. Expand the [!UICONTROL Configure tracking using custom code] accordion, which reveals the [!UICONTROL Open Editor] button.
+1. Open the custom code editor and paste the plug-in code provided below into the edit window.
+1. Save and publish the changes to the Analytics extension.
 
-## 使用 AppMeasurement 安裝外掛程式
+## Install the plug-in using AppMeasurement
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Copy and paste the following code anywhere in the AppMeasurement file after the Analytics tracking object is instantiated (using [`s_gi`](../functions/s-gi.md)). Preserving comments and version numbers of the code in your implementation helps Adobe with troubleshooting any potential issues.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,22 +62,22 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## 使用外掛程式
+## Use the plug-in
 
-`getPercentPageViewed` 函數會使用以下引數：
+The `getPercentPageViewed` function uses the following arguments:
 
-* **`pv`** (選項，字串)：與頁面載入時間相關聯的維度。 此值應等於識別頁面本身的值。 未設定時，此參數預設為 Adobe AppMeasurement pageName 變數 (即 s.pageName) 或未設定 s.pageName 時的 URL
+* **`pv`** (optional, string):  The dimension to correlate the page load time with.  This value should be equal to a value that identifies the page itself. When not set, this argument defaults to the Adobe AppMeasurement pageName variable (i.e. s.pageName) or the URL when s.pageName is not set 
 
-呼叫此函數不會傳回任何內容，而是會設定以下變數：
+Calling this function returns nothing; instead, it sets the following variables:
 
-* `window._pltPreviousPage`：上一個頁面的值 (即傳遞給 pv 參數的內容)
-* `window._pltLoadTime`：上一頁載入所花費的秒數
+* `window._pltPreviousPage`: The value of the previous page (i.e. what was passed into the pv argument)
+* `window._pltLoadTime`: The time in seconds that the previous page took to load
 
-getPageLoadTime 外掛程式會建立一個第一方 Cookie：
+The getPageLoadTime plug-in creates one first-party cookie:
 
-* `s_plt`：上一頁載入所花費的秒數。同時會含有傳遞給 pv 參數的內容值。 瀏覽器作業階段結束時會到期。
+* `s_plt`: The time, in seconds, that the previous page took to load.  Also contains the value of what was passed into the pv argument.  Expires at the end of the browser session.
 
-## 範例
+## Example
 
 ```js
 // 1. Run the getPageLoadTime function if the pageName variable is set
@@ -92,23 +94,23 @@ if(window._pltPreviousPage)
 }
 ```
 
-## 版本記錄
+## Version History
 
-### 3.0 (2022 年 12 月 6 日)
+### 3.0 (December 6, 2022)
 
-* 全面重寫外掛程式，使其與解決方案無關。 例如，現在與Adobe Experience Platform Web SDK相容
-* 在視窗物件中建立 `_pltPreviousPage` 和 `_pltLoadTime` 變數 (而不是在 AppMeasurement 物件中)
-* 移除對 s_pltp cookie 的需要 - 現在所有內容都只儲存在 s_plt cookie 中
-* 包括 getVersion 函數以幫助進行故障排除
+* Complete rewrite of plugin to make it solution-agnostic.  For instance, this is now compatible with the Adobe Experience Platform Web SDK.
+* Creates the `_pltPreviousPage` and `_pltLoadTime` variables in the window object (rather than in the AppMeasurement s object)
+* Removes the need for the s_pltp cookie - everything is now stored in only the s_plt cookie
+* Includes the getVersion function to help with troubleshooting
 
-### 2.0.1 (2021 年 3 月 26 日)
+### 2.0.1 (March 26, 2021)
 
-* 已修復外掛程式未在 S 物件上正確設定值的問題。
+* Fixed issue where plugin was not correctly setting values on the s object.
 
-### 2.0 (2021 年 3 月 19 日)
+### 2.0 (March 19, 2021)
 
-* 將版本編號加入為內容資料。
+* Added version number as context data.
 
-### 1.0 (2018 年 5 月 22 日)
+### 1.0 (May 22, 2018)
 
-* 首次發行。
+* Initial release.-->
