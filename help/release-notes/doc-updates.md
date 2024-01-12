@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 52631b840ed04856480a2c9dae365ae46c844a97
-workflow-type: ht
-source-wordcount: '4959'
-ht-degree: 100%
+source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
+workflow-type: tm+mt
+source-wordcount: '4994'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 * 如需 Adobe Media Analytics 的相關資訊，請參閱[在 Analytics 中測量音訊和影片](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
 
 ## 主要文件更新的詳細資訊
+
+### 2024 {#24}
+
+| 功能 | 說明 |
+| --- | --- |
+| **2024 年 1 月** | |
+| 更新「媒體平均每分鐘觀眾數」檔案 | 更新資訊： [「媒體平均每分鐘觀眾數」面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 以提升清晰度。<p>改善項目包括：</p> <ul><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li></ul> |
 
 ### 2023 {#23}
 
