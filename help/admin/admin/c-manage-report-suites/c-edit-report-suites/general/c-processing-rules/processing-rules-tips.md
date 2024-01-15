@@ -3,10 +3,11 @@ description: 本章節包含測試處理規則的指引，以及應避免的常�
 subtopic: Processing rules
 title: 處理規則提示與秘訣
 feature: Processing Rules
+role: Admin
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---

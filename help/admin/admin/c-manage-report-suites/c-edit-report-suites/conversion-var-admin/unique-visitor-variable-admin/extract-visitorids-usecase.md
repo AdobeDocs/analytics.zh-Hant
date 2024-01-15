@@ -2,11 +2,12 @@
 description: Data Warehouse 提供可讓您擷取訪客 ID 清單的功能。這些 ID 並不是 Cookie ID，而是您在其中一個轉換變數中擷取的 ID。雖然您有其他方式可取得這項資訊，但下列範例會是您產生 Data Warehouse 請求要求的捷徑。
 title: 使用案例 - 擷取訪客 ID
 feature: Admin Tools
+role: Admin
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 Data Warehouse 提供可讓您擷取訪客 ID 清單的功能。這些 ID 並不是 Cookie ID，而是您在其中一個轉換變數中擷取的 ID。雖然您有其他方式可取得這項資訊，但下列範例會是您產生 Data Warehouse 請求要求的捷徑。
 
-例如，假設您的公司傳送行銷電子郵件給客戶與潛在客戶。其中每個電子郵件收件者在您的電子郵件系統中都有一個唯一 ID (例如 *`EMAIL Contact ID`*)。您可以設定電子郵件，讓聯絡人在收到電子郵件並點按其中一個連結時，即可透過促銷活動 ID 與唯一的電子郵件聯絡人 ID 造訪您的網站。例如，您的電子郵件連結可能會解析為：
+例如，假設您的公司傳送行銷電子郵件給客戶與潛在客戶。這些電子郵件收件者在您的電子郵件系統中各有一個唯一的ID (例如 *`EMAIL Contact ID`*)。 您可以設定電子郵件，讓聯絡人在收到電子郵件並點按其中一個連結時，即可透過促銷活動 ID 與唯一的電子郵件聯絡人 ID 造訪您的網站。例如，您的電子郵件連結可能會解析為：
 
 ```js
 https://www.test.com/?cid=springmailblast&mid=1363660158

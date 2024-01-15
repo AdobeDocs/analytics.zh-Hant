@@ -2,11 +2,12 @@
 description: 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「付費搜尋」行銷活動歸類為「流行音樂術語」類別，並報告該類別相對於「例項」(即點進次數) 等量度的成功狀況，以及成功事件的轉換。
 title: 轉換分類
 feature: Classifications
+role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 96%
+source-wordcount: '566'
+ht-degree: 93%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 96%
 
 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「[!UICONTROL 付費搜尋]」行銷活動歸類為「*流行音樂術語*」類別，並報告該類別相對於「例項」(即點進次數) 等量度的成功狀況，以及成功事件的轉換。您可以新增多達 255 個分類至一個變數中。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**
 
 轉換分類可讓您歸類轉換變數。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的資料屬性產生。
 
-啟用分類後，請使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)將特定值指派給適當的分類。
+啟用分類後，請使用 [分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md) 將特定值指派給適當的分類。
 
 >[!WARNING]
 >

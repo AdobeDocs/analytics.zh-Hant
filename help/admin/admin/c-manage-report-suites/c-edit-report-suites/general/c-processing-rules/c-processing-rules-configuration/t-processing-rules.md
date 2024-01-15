@@ -3,11 +3,12 @@ description: 處理規則是在報告套裝中設定。
 subtopic: Processing rules
 title: 建立處理規則
 feature: Processing Rules
+role: Admin
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -28,4 +29,4 @@ ht-degree: 100%
 
    如果有多個規則，請在頁面上拖放這些規則，以變更處理順序。
 
-   請參閱[處理規則的範例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)，以瞭解您可以建立的規則種類。
+   另請參閱 [處理規則的範例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) 瞭解您可以建立的規則種類。

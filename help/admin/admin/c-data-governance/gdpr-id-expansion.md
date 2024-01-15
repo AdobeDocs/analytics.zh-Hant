@@ -1,12 +1,13 @@
 ---
-description: 您提交的 ID 並不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求)
+description: 您提交的 ID 並不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics可建立擴增ID集，將這項相關聯資料納入資料隱私權請求中。
 title: ID 擴增
 feature: Data Governance
+role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 96%
 
 ---
 
@@ -59,4 +60,4 @@ ht-degree: 97%
 
 另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的結果，這也突顯出 Privacy Service API 不適合此用途的原因。
 
-請連絡您的Adobe客戶團隊，與我們的工程架構顧問團隊協調，以進一步檢閱，並提供移除任何PII或解決資料問題的精力。
+請聯絡您的Adobe客戶團隊，以協調我們的工程架構顧問團隊，以進一步檢視及著手移除任何PII或解決資料問題。

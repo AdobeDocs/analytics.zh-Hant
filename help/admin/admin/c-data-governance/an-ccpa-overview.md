@@ -2,11 +2,12 @@
 description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作，以支援資料主體的 CCPA 存取和刪除權限。
 title: Adobe Analytics 和 CCPA
 feature: Data Governance
+role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 97%
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +37,7 @@ Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資�
 
 Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
 
-請參閱[標籤報表套裝資料](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)，以瞭解如何設定標籤的詳細資訊。
+另請參閱 [標籤報表套裝資料](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) 有關如何設定標籤的詳細資訊。
 
 ## 先決條件
 
@@ -44,7 +45,7 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 * 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 CCPA 刪除與存取請求。
 
-   若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請連絡您的Adobe帳戶團隊，以設定您的資料保留期。
+  若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡您的Adobe客戶團隊，以設定您的資料保留時間。
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
 * 請考慮實施[「同意管理變數」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)以追蹤點擊層級的同意狀態。

@@ -3,10 +3,11 @@ description: 成功事件是可追蹤的動作。 成功事件的條件由您決
 keywords: 事件
 title: 成功事件概觀
 feature: Event
+role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '702'
 ht-degree: 100%
 
 ---

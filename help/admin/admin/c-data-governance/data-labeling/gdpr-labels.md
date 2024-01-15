@@ -2,10 +2,11 @@
 description: Adobe Analytics 變數的資料隱私權標籤範例
 title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
+role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '3578'
+source-wordcount: '3576'
 ht-degree: 99%
 
 ---
@@ -52,7 +53,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
-| 無 | 如果此變數所包含的資料，不包括資料隱私權存取請求傳回至資料主體的必要資料，請選取此選項。 |  |
+| 無 | 如果此變數所包含的資料，不包括資料隱私權存取請求傳回至資料主體的必要資料，請選取此選項。 | |
 | ACC-ALL | 所有資料隱私權存取請求皆應包含此欄位中的值。 如果此值來自多人共享的裝置，則您身為資料控管者可藉由套用此標籤，表明此欄位資料可與任何具備該共享裝置存取權限的人共享。 | 將會為所有資料隱私權請求傳回帶有此標籤的欄位。 |
 | ACC-PERSON | 只有在您合理確定該點擊是來自資料主體時 (可透過符合 ID-PERSON 欄位值的資料隱私權請求 ID 來判斷)，此欄位的值才可納入資料隱私權存取請求。 | 您也必須在該報表套裝中某個變數上設定 ID-PERSON 標籤，並使用該 ID 提交請求，否則不會套用該標籤。 |
 
@@ -136,7 +137,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | <ul><li>自訂成功事件</li><li>銷售 eVar</li><li>多值變數 (mvVars)</li><li>階層變數</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 | 分類 | <ul><li>I1/I2、S1/S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 | <ul><li>流量變數 (prop)</li><li>商務變數 (非銷售 eVar)</li></ul> | 所有標籤 | - |
-| 大部分其他變數  (*請參閱下表以瞭解例外情況*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
+| 大部分其他變數(*請參閱下表以瞭解例外情況*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -166,7 +167,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
    <td colname="col1"> <p>流量變數 </p> </td> 
    <td colname="col2"> <p>清單 Prop </p> </td> 
    <td colname="col3"> <p>無 / S1 / S2 </p> </td> 
-   <td colname="col4"> <p>清單屬性可包含多個值，且不得作為隱私權識別碼。</p> </td> 
+   <td colname="col4"> <p>清單屬性可包含多個值，而且不允許作為隱私權識別碼。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>分類 </p> </td> 

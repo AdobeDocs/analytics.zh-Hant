@@ -3,8 +3,9 @@ description: 「分類階層」頁面可讓您定義分類階層，以便用來�
 subtopic: Classifications
 title: 分類階層
 feature: Classifications
+role: Admin
 exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 97%
@@ -15,7 +16,7 @@ ht-degree: 97%
 
 「分類階層」頁面可讓您定義分類階層，以便用來建立具有相同名稱的階層報告。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 分類階層]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 分類階層]**
 
 ## 分類階層 {#concept_10A956342D7D4C3E9114CCFCE1364741}
 

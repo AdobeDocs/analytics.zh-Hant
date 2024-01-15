@@ -2,8 +2,9 @@
 title: 清單變數
 description: 建立並設定清單變數，以供報表使用。
 feature: Admin Tools
+role: Admin
 exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
-source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 90%
@@ -12,9 +13,9 @@ ht-degree: 90%
 
 # 清單變數
 
-建立並設定清單變數以用於報告。設定其分隔字元、有效期、配置和最大值。
+建立並設定清單變數以用於報告。設定其分隔字元、有效期、配置和值的數量上限。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 尋找方法]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 尋找方法]**
 
 * **名稱**：每個分隔值最多可包含 255 個字元 (若使用多位元組字元則更低)。此為單一元素的最大長度。
 * **值分隔字元**：在清單變數中用來分隔值的字元。最常用的分隔字元包括逗號、冒號、垂直線或類似字元。

@@ -2,10 +2,11 @@
 description: 您可以提供 eVar、prop、分類和事件的自訂報表說明。說明會顯示給所有使用者。
 title: 自訂報表說明
 feature: Admin Tools
+role: Admin
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 100%
 
 * 報告的標題列：
 
-   ![](/help/admin/admin/assets/report_description_2.png)
+  ![](/help/admin/admin/assets/report_description_2.png)
 
 * 滑鼠移到左側導覽器中報告上方時的工具提示。
 
-   ![](/help/admin/admin/assets/report_description_3.png)
+  ![](/help/admin/admin/assets/report_description_3.png)

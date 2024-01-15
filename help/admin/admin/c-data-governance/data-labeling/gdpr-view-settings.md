@@ -2,10 +2,11 @@
 description: 「資料控管的隱私標籤」對話框概述了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。
 title: 檢視/管理資料控管隱私標籤
 feature: Data Governance
+role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '820'
 ht-degree: 95%
 
 ---

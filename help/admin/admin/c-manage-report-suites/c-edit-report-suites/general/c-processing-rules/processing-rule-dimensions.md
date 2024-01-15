@@ -3,10 +3,11 @@ description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維
 subtopic: Processing rules
 title: 可用於處理規則的維度
 feature: Processing Rules
+role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -84,7 +85,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>報告套裝 ID (唯讀) </p> </td> 
+   <td colname="col1"> <p>報表套裝 ID (唯讀) </p> </td> 
    <td colname="col2"> <p>處理規則據以執行的報表套裝，可能不是 AppMeasurement 中指定的原始報表套裝。 </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +209,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>事件1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
+   <td colname="col1"> <p>事件 1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 

@@ -2,8 +2,9 @@
 description: 機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可針對使用者在您網站上的活動提供更準確的測量。
 title: 瞭解並設定機器人規則
 feature: Bot Removal
+role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 7813900a7c104acdb9b1a3ebfadf597a5070a3e7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 71%

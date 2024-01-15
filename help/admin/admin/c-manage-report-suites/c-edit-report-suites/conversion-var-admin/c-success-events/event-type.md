@@ -1,15 +1,16 @@
 ---
 description: 說明收集資料後，變更事件類型的後果。
-title: 關於變更事件類型
+title: 變更事件型別
 feature: Event
+role: Admin
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 100%
+source-wordcount: '41'
+ht-degree: 80%
 
 ---
 
-# 關於變更事件類型
+# 變更事件型別
 
 您可以將計數器、數值或貨幣等事件變更為另一種類型，而且仍然可存取先前擷取的資料。

@@ -3,11 +3,12 @@ description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量
 subtopic: Classifications
 title: 流量分類
 feature: Admin Tools
+role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 100%
 
 「流量分類」頁面可讓您建立選定報表套裝的分類。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的屬性產生。
 
-啟用分類後，請使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)，將特定值指派給適當的分類。
+啟用分類後，請使用 [分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md) 將特定值指派給適當的分類。
 
 ## 新增流量分類 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 

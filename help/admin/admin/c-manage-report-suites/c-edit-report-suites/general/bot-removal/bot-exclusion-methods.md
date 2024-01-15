@@ -2,17 +2,18 @@
 title: 不同的機器人排除方法比較
 description: 讓您比較不同的排除機器人方法。
 exl-id: c54ba98a-b396-479e-bfe8-dc6211b26f61
+role: Admin
 feature: Bot Removal
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 94%
 
 ---
 
 # 不同的機器人排除方法比較
 
-以下表格會顯示不同的排除機器人方法以及它們如何彼此堆疊。
+下表顯示不同的排除機器人方法以及彼此的比較結果。
 
 | 方法 | 機器人規則 | 依 IP 位址排除 | 客戶屬性 | 區段 | 協力廠商評分 + 分段 | 抑制在執行階段的伺服器呼叫 | 自訂 DB VISTA 規則 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
