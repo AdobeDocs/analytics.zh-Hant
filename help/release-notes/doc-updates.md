@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4994'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 1 月** | |
-| 更新「媒體平均每分鐘觀眾數」檔案 | 更新資訊： [「媒體平均每分鐘觀眾數」面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md) 以提升清晰度。<p>改善項目包括：</p> <ul><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li></ul> |
+| 媒體平均每分鐘觀眾數文件更新 | 已更新[媒體平均每分鐘觀眾數面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的資訊，以改善內容清晰度。<p>改善部份包括：</p> <ul><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li></ul> |
 
 ### 2023 {#23}
 
@@ -235,7 +235,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2020 年 2 月** |  |
 | 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs](/help/analyze/labs.md) 的文件。 |
 | 2020 年 2 月 25 日 | 新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
-| 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新工作區範本。此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱「[設定 Cross-Device Analytics](/help/components/cda/setup.md)」。 |
+| 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新工作區範本。此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱[設定 Cross-Device Analytics](/help/components/cda/setup.md)。 |
 | 2020 年 2 月 20 日 | 工作區中的全新快速鍵：<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant) |
 | 2020 年 2 月 20 日 | 工作區增強功能： <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 2020 年 2 月 20 日 | 已在「說明」選單中新增工作區偵錯程式，好讓您更順暢地啟用它來偵錯工作區請求。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
