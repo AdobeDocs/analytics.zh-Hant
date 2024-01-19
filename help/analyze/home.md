@@ -4,9 +4,9 @@ description: Analysis Workspace、Adobe Analytics 儀表板 (行動應用程式)
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: c659d85ce0dea98245eb25f1432720d69cfe77cf
-workflow-type: ht
-source-wordcount: '569'
+source-git-commit: 11ef092984f37547ed408bedb977fccb8b53dba8
+workflow-type: tm+mt
+source-wordcount: '456'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,6 @@ ht-degree: 100%
 | **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)** | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。<br> Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷計劃，以及針對觀眾需求和行為採取行動。」 |
 | **[Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)** |  Report Builder 是 Microsoft Excel 的增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
 | **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | 使用 Analytics API 就能直接呼叫 Adobe 的伺服器，執行幾乎所有使用者介面中可以執行的動作。您可以建立報告來探索、取得深入分析，或是回答資料相關的重要問題。您也可以管理 Adobe Analytics 的元件，例如建立區段或計算量度。 |
-| **[Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html)** | Reports &amp; Analytics 這種工具包含數十種預先建立的報表和視覺化內容。這些工具現在都能在 Analysis Workspace 中使用。**自 2023 年 12 月 31 日起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。**&#x200B;如需其他資訊，請參閱 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). |
 
 如果要了解 Adobe Analytics 的基礎知識，請查看 *Adobe Analytics 簡介 - Skill Builder 網路研討會*&#x200B;下的影片。影片中介紹了如何擷取資料、如何將資料發送到 Adobe Analytics，以及您可以在 Adobe Analytics 中使用哪些視覺化功能的基礎知識。影片能為您建置、部署、收集和解譯資料提供基礎…讓您能夠根據收集的資料，提供可操作分析和建議。
 
