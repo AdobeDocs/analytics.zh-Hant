@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca6d5040aac3fd5b8df4e7cb4601ee41c9ad4998
-workflow-type: ht
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
 source-wordcount: '4994'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -142,7 +142,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | Adobe Analytics 登陸頁面更新 | [更新](/help/analyze/landing.md)工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。 |
 | 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | 此面板可讓您瀏覽您所選維度項目之後或之前的項目。 |
 | 「[!UICONTROL 頁面摘要]」工作區面板 | 此面板可為您選擇的頁面提供深入分析。 |
-| 有關暫停較舊排程報告的新主題 | 自 **2022 年 4 月 15 日**&#x200B;起， Adobe 打算[暫停所有建立日期超過兩年的排程報告](/help/analyze/reports-analytics/scheduled-reports-eol.md)。 |
+| 有關暫停較舊排程報告的新主題 | 有效 **2022年4月15日**，Adobe打算暫停所有建立日期超過兩年的排程報告 |
 | **2022 年 2 月** |
 | 行動計分卡專案預覽模式 | [預覽模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#preview)允許您在儲存並共用計分卡之前預覽體驗。 |
 | API 專案端點 | 使用 API 新增、編輯或刪除 Analysis Workspace 專案。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |

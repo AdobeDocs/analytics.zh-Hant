@@ -3,10 +3,10 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: ht
-source-wordcount: '1227'
-ht-degree: 100%
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 97%
 
 ---
 
@@ -24,28 +24,9 @@ ht-degree: 100%
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果在 Analysis Workspace 中有無法執行的任務，請考慮以下其他介面。**
 
-**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)** 使用時機：
+**[Report Builder](/help/analyze/report-builder/home.md)** 是Microsoft Excel的增益集。 這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
 
-* 入門使用者需要存取預先建立的報告以便導覽。
-* 用於存取 UI 中的即時資料。
-* 用於設定行事曆事件。
-* 用於設定目標。
-* 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
-
->[!IMPORTANT]
->
->自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
-
-**[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant)** 使用時機：
-
-* 用於預測性的統計模型 (傾向評分、叢集、關聯性)。
-* 用於延遲分析 (事件發生前/後的時間).
-* 用於識別並匯出整個 Adobe Experience Cloud 的複雜區段。
-
->[!IMPORTANT]
->
->進一步了解 Data Workbench 的[生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)。
-
+**[Adobe Analytics儀表板](/help/analyze/mobile-app/home.md)** 可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
 
 ## 將資料匯入 Adobe Analytics 中  {#import}
 
@@ -93,7 +74,7 @@ ht-degree: 100%
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
 * 若自訂的 Workspace 配置選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
-* 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
+* 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。繫結資料的更永久解決方案為資料來源（請參閱將資料匯入至Analytics）。
 * 用於合併來自不同維度報告的資料 (例如，將促銷印象報告與促銷一鍵轉換報告合併).
 * 若要合併不同報告套裝的資料，可在同一表格中併排匯總或顯示。
 * 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT)。

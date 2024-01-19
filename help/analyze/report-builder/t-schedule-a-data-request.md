@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '970'
 ht-degree: 96%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 96%
 您可以排程活頁簿、指定進階傳送選項、指定收件者及檢視排程歷史記錄。進階傳送選項可設定在特定時間或依照時間間隔傳送活頁簿。您也可以指定傳送活頁簿時的檔案格式。
 
 例如，您可以將活頁簿排程為立即傳送或按照週期傳送，然後在「[!DNL Advanced Delivery Options]」中指定檔案格式。活頁簿上傳的檔案大小限制為 5 MB。
-
-此外，在 Report Builder 中建立活頁簿排程後，您可以前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**&#x200B;檢視及編輯排程(請參閱「Reports &amp; Analytics」說明中的[報表排程與分發](/help/analyze/reports-analytics/scheduling.md))。
 
 >[!NOTE]
 >
@@ -40,7 +38,7 @@ ht-degree: 96%
 1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程」]**。
 
    [!UICONTROL 「排程報表」]索引標籤會總結您建立的所有任務和剩餘的任務數量。
-1. 在&#x200B;**[!UICONTROL 「排程報表」]**&#x200B;索引標籤中按一下&#x200B;**[!UICONTROL 「新增」]**。「基本排程精靈」會顯示用來定義排程報告的選項。
+1. 在 **[!UICONTROL 排程報告]** 標籤，按一下 **[!UICONTROL 新增]**. 「基本排程精靈」會顯示用來定義排程報告的選項。
 
    ![顯示「基本排程精靈」的熒幕擷圖。](assets/simple-schedule-wizard.png)
 

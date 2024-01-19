@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2535'
 ht-degree: 97%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 97%
 * **內容資料變數：**&#x200B;僅用於處理規則的暫時變數。如果處理規則未將內容資料變數值複製到轉換或流量變數中，便會永久遺失內容資料變數值。請參閱實施作業使用手冊中的[內容資料變數](../implement/vars/page-vars/contextdata.md)。
 * **轉換變數：**&#x200B;也稱為 eVar。用於儲存自訂值及保留變數值，直到變數值過期為止。請參閱「元件」使用指南中的 [eVar](/help/components/dimensions/evar.md) 維度。
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
-* **目前資料：**&#x200B;某些報表中的選項，可用來納入最近收集但尚未完全處理的資料。請參閱分析使用手冊中的[目前資料](/help/analyze/reports-analytics/current-data.md)。
 * **自訂連結：**&#x200B;包含非頁面瀏覽數資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
 * **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 * **客戶支援委派：**&#x200B;經授權可直接與 Adobe 客戶服務互動的指定使用者。請參閱 Experience Cloud 知識庫中的[客戶支援委派](https://helpx.adobe.com/experience-cloud/supported-users.html)。
