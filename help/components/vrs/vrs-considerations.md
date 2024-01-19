@@ -4,10 +4,10 @@ keywords: 虛擬報表套裝
 title: 虛擬報表套裝和多套裝標記考量事項
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 86%
+source-wordcount: '1652'
+ht-degree: 85%
 
 ---
 
@@ -30,12 +30,6 @@ ht-degree: 86%
 虛擬報告套裝不支援共用區段至 Adobe Experience Cloud。想要與 Experience Cloud 共用區段的用戶必須具備來源套裝的存取權。
 
 區段目前無法從虛擬報告套裝發佈至 Adobe Experience Cloud 來進行個人化和鎖定目標。如果您有上述目的，發佈區段時都需要來源報告套裝的存取權。舉例來說，您希望用戶僅能存取其所在地理位置的虛擬報告套裝，但卻想要讓對方可從 Adobe Analytics 建立和共用區段至 Adobe Experience Cloud，以便在 Adobe Target 中設定目標。在此情況下，Adobe 建議使用多套裝標記。如果您不介意讓用戶存取全域報告套裝，或您不需要發佈區段供其他解決方案使用，則可使用虛擬報告套裝。
-
-### 即時報表與目前資料
-
-虛擬報告套裝不支援即時報表，因為資料會進行分段。虛擬報告套裝也無法呈現目前資料，因為它不支援分段功能。上述兩項功能都是 Reports &amp; Analytics 專用。
-
-虛擬報告套裝不提供[即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)和[目前的資料](/help/technotes/latency.md)。這項限制對於需要在收集資料後的數秒或數分鐘內對 Reports &amp; Analytics 中的趨勢做出回應的用戶有影響。舉例來說，這類用戶可能包括必須在新聞編輯室中，根據即時內容的消耗而調整標題的編輯。如果您的個別報告套裝具有專門的重大即時資料需求，建議使用多套裝標記。即時報表與目前資料仍可用於全域報告套裝。
 
 ### 不重複項目上限
 

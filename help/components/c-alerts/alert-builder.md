@@ -3,10 +3,10 @@ description: 在 Analysis Workspace 中使用警報。
 title: 警報產生器概觀
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 98%
 
 ---
 
@@ -16,14 +16,13 @@ ht-degree: 100%
 >
 >智慧型警報僅供 Adobe [!DNL Analytics] Prime 與 Adobe [!DNL Analytics] Ultimate 的客戶使用。
 
-存取警報產生器有四種方法：
+存取警報產生器有三種方法：
 
 * 在 Analysis Workspace 中使用下列快速鍵：
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * 前往「**[!UICONTROL 工作區]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
 * 選取一或多個自由表格條列項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。
-* 在 [!UICONTROL Reports &amp; Analytics] 報表中，前往&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。
 
 警報產生器的介面與在 [!DNL Analytics] 中建立區段或計算量度時所用的介面類似：
 
@@ -59,7 +58,7 @@ ht-degree: 100%
 
 * 拖放量度到畫布以新增觸發。
 
-   請注意，如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，則會出現&#x200B;**「不相容的元件清單」**&#x200B;訊息。
+  請注意，如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，則會出現&#x200B;**「不相容的元件清單」**&#x200B;訊息。
 
 * 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件：
 

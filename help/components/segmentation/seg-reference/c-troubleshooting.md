@@ -3,9 +3,9 @@ description: 區段相關問題的疑難排解與修正。
 title: 區段疑難排解
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '220'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,6 @@ ht-degree: 100%
 可能的原因包括：
 
 * 有些維度只能在 Data Warehouse 中看到，在區段管理員中看不到。
-* 區段與「Reports &amp; Analytics」不相容。
 * 區段只為特定報表套裝而勾選。
 * 共用區段已由其他使用者刪除。
 * 由於資料中心或瀏覽器快取問題，區段無法載入。

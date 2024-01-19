@@ -3,10 +3,10 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 483e1b3f566003ca4433de891834338a852ba8b3
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 79%
+source-wordcount: '1148'
+ht-degree: 75%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 79%
 
 區段是根據 [!UICONTROL 訪客]， [!UICONTROL 造訪]、和 [!UICONTROL 點選] 使用巢狀容器模型的層級階層。 巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
 
-您可以在區段產生器中建立並儲存區段，或從流失報表 (在 Analysis Workspace 中）產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+您可以在區段產生器中建立並儲存區段，或從流失報表 (在 Analysis Workspace 中）產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可一起用作 [棧疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
-區段 識別
+區段識別
 
 - 您的訪客是誰（國家、性別、咖啡館）、
 - 他們使用的裝置和服務（瀏覽器、搜尋引擎、行動裝置）、
@@ -126,7 +126,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## Adobe 提供的區段
 
-畫面左側的「元件」邊欄會顯示您與貴公司建立的區段，以及現成可用的Adobe區段。 當您按一下&#x200B;**[!UICONTROL 全部顯示]**&#x200B;時，這些區段通常會出現在清單底部，並可由右側的 Adobe 標誌識別。
+畫面左側的「元件」邊欄會顯示您與貴公司建立的區段，以及現成可用的Adobe區段。 當您按一下 **[!UICONTROL 顯示全部]**，這些區段通常會顯示在清單底部，並在右側以Adobe標誌識別。
 
 ## 循序區段 {#sequential}
 
@@ -282,7 +282,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **我是否可以看見公司中的所有區段？**
 
-是的，管理員可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
+是的，管理員可以在以下位置看見所有區段： [!DNL Analysis Workspace] 使用者介面。
 
 「Report Builder」會顯示您所擁有和已共用給您的區段。
 
@@ -292,7 +292,7 @@ Analysis Workspace 包含以下附加功能：
 
 是的，在「循序分段」中可管理所有區段。「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
 
-管理員可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
+管理員可以在Analysis Workspace使用者介面中看見所有區段。
 
 Report Builder 只會顯示由您所建置的區段或特定與您共用的區段。
 

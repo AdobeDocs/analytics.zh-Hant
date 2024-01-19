@@ -1,18 +1,18 @@
 ---
-description: Analysis Workspace 範本的詳細資料，以及在 Reports & Analytics 和 Report Builder 的報告功能。
+description: Analysis Workspace範本的詳細資訊以及Report Builder中的報告。
 title: 報告 Adobe Analytics 的 Advertising 資料
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 93%
 
 ---
 
 # 報告 Adobe Analytics 的 Advertising 資料
 
-Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和 Report Builder 的報告功能。
+Analysis Workspace範本的詳細資訊以及Report Builder中的報告。
 
 >[!NOTE]
 >
@@ -43,12 +43,6 @@ Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和
 | 廣告總計 | 前幾名廣告的自由表格 (依相關聯量度劃分)。 |
 | 關鍵字 | 所有關鍵字/符合類型組合的曝光率、點選次數和成本的散佈圖。 |
 | 關鍵字總計 | 前幾名關鍵字/符合類型組合的自由表格 (依相關聯量度劃分)。 |
-
-## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
-
-當您設定 Advertising Analytics 帳戶後，便能使用 Advertising Analytics 報表。
-
-![](assets/aa_randa.png)
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 

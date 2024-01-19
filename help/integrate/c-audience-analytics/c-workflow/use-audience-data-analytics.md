@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 90%
+source-wordcount: '573'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 90%
 
 ## Analysis Workspace 中的客戶歷程 (流程) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-Adobe Audience Manager區段資料會逐次傳遞至Analytics，並及時表示訪客的對象成員資格。 也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
+Adobe Audience Manager區段資料是以逐次點選的方式傳入Analytics，並會在該時間點即時表示訪客的對象成員資格。 也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
 
 1. 前往 **[!UICONTROL Workspace]**，然後從左欄選取&#x200B;**[!UICONTROL 「流量」]**&#x200B;視覺效果。
 
@@ -81,9 +81,3 @@ Adobe Audience Manager區段資料會逐次傳遞至Analytics，並及時表示�
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics 及 Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
-
-1. 若要檢視 Analytics 報表，請前往&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 訪客資料]** > **[!UICONTROL 對象 ID 報表」]**。
-1. 在此資料夾中，您可以同時存取「對象 ID」和「對象名稱」維度。
-
-   ![](assets/mc-audiences.png)

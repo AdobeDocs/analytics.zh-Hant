@@ -3,9 +3,9 @@ title: 不重複訪客
 description: 不重複訪客識別碼的數目。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: ht
-source-wordcount: '556'
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 100%
 如果您使用「[跨裝置分析](../cda/overview.md)」，此量度會被「[不重複裝置](unique-devices.md)」量度取代。
 
 ## 每日、每週、每月、每季和每年的不重複訪客
-
-Reports &amp; Analytics 提供每日、每週、每月、每季和每年不重複訪客的選項。不重複訪客不會計算整個時段的單一不重複訪客，而會根據選取的量度計算數量。例如，假設您想要查看網站上的每日不重複訪客。如果訪客在早上和晚上各造訪您的網站一次，則會計為單一每日不重複訪客。如果訪客分別在星期一和星期二造訪您的網站，則會計為兩個每日不重複訪客。
 
 Analysis Workspace 會根據報表的詳細程度來處理不重複訪客。例如，如果您使用[日](../dimensions/day.md)維度，則會看到每個維度項目的每日不重複訪客。但在計算報表總計時，則會針對自由表格的日期範圍刪除不重複訪客的重複項目。
 

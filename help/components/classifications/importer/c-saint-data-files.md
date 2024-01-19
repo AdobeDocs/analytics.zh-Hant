@@ -3,10 +3,10 @@ description: 匯入工具可讓您大量上傳分類資料至檔案中的分析�
 title: 分類資料檔案
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1798'
-ht-degree: 98%
+source-wordcount: '1768'
+ht-degree: 95%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 匯入工具可讓您大量上傳分類資料至檔案中的分析報告。匯入功能須有特定的檔案格式才能成功上傳資料。
 
-為了協助您建立有效的資料檔案，您可以下載範本檔案，它能提供檔案結構以供您將分類資料貼入。有關詳細資訊，請參閱[下載分類範本](/help/components/classifications/importer/c-download-saint-data.md)。
+為了協助您建立有效的資料檔案，您可以下載範本檔案，它能提供檔案結構以供您將分類資料貼入。如需詳細資訊，請參閱 [下載分類範本](/help/components/classifications/importer/c-download-saint-data.md).
 
 請參閱[一般檔案結構](/help/components/classifications/importer/c-saint-data-files.md)，取得關於分類中字元限制的相關資訊。
 
@@ -29,16 +29,16 @@ ht-degree: 98%
 * 分類不能具有 0 (零) 的值。
 * Adobe 建議您將匯入和匯出上限設為 30 欄。
 * 更新檔案應使用 UTF-8 不含 BOM 字元編碼。
-* 可以在儲存格中內嵌定位字元、新行字元和引號等特殊字元，前提是已指定 v2.1 檔案格式且儲存格已正確[逸出](/help/components/classifications/importer/t-classifications-escape-data.md)。特殊字元包括：
+* 若已指定v2.1檔案格式且儲存格正確，則可在儲存格中嵌入特殊字元（例如定位點、換行符號和引號） [逸出](/help/components/classifications/importer/t-classifications-escape-data.md). 特殊字元包括：
 
-   ```text
-   \t     tab character 
-   \r     form feed character 
-   \n    newline character 
-   "       double quote
-   ```
+  ```text
+  \t     tab character 
+  \r     form feed character 
+  \n    newline character 
+  "       double quote
+  ```
 
-   逗號不是特殊字元。
+  逗號不是特殊字元。
 
 * 分類不可包含脫字符號 (^)，因為此字元用於標示子分類。
 * 請謹慎使用連字號。例如，您若是在 Social 詞語中使用連字號 (-)，Social 會將連字號辨識為 [!DNL Not] 運算元 (減號)。例如，您若使用匯入項目指定 *`fragrance-free`* 為詞語，Social 會將詞語辨識為 fragrance *`minus`* free，並收集提及 *`fragrance`* 但不包含 *`free`* 的字。
@@ -55,7 +55,7 @@ ht-degree: 98%
    * 如果在檔案中指定 v2.1，但實際需要的卻是 v2.0 (亦即以違反 Excel 格式的方法使用引號)，便可能出現問題。例如，如果檔案中有下列值：&quot;VP NO REPS&quot; S/l Dress w/ Overlay，且您使用 v2.1，則這是不正確的格式 (此值應置於左右引號之間，且屬於實際值一部分的引號應該逸出引號)，因此分類無法繼續進行後續程序。
    * 請務必執行下列任一作業：變更上傳檔案的標題 (C1 儲存格) 以將檔案格式變更為 v2.0，「或是」在檔案中正確置入 Excel 引號。
 
-* 資料檔案的第一個資料行 (非註解) 含有識別該欄之分類資料所用的欄標題。匯入工具須有特定的欄標題格式。有關詳細資訊，請參閱[欄標題格式](/help/components/classifications/importer/c-saint-data-files.md)。
+* 資料檔案的第一個資料行 (非註解) 含有識別該欄之分類資料所用的欄標題。匯入工具須有特定的欄標題格式。如需詳細資訊，請參閱 [欄標題格式](/help/components/classifications/importer/c-saint-data-files.md).
 * 在資料檔案中，緊接在標題行後方的是資料行。每個資料行都應包含每個欄標題的資料欄位。
 * 資料檔案支援以下控制代碼，Adobe 會將這些代碼用於提供檔案結構，以及正確匯入分類資料：
 
@@ -94,7 +94,6 @@ ht-degree: 98%
 >
 >* [常見的 上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)
 
-
 ## 欄標題格式
 
 >[!NOTE]
@@ -109,11 +108,9 @@ ht-degree: 98%
 
 ### 分類欄標題
 
-範例：您的Reports &amp; Analytics實作會自動包含 [!UICONTROL 行銷活動] 變數： [!UICONTROL 行銷活動] 和 [!UICONTROL 創作元素]. 若要將資料新增至「[!UICONTROL 促銷活動]」分類，則分類資料檔案中的欄標題應是「[!UICONTROL 促銷活動]」。
-
 >[!NOTE]
 >
-> [!UICONTROL 分類]欄標題中的值必須與分類的命名慣例完全相符，否則匯入會失敗。例如，若管理員在「[!UICONTROL 促銷活動設定管理員]」中將「[!UICONTROL 促銷活動]」變更為[!UICONTROL 內部促銷活動名稱]，則檔案欄標題也必須一併變更。「索引鍵」是保留的分類（標題）值。 不支援名為「索引鍵」的新分類。
+> [!UICONTROL 分類]欄標題中的值必須與分類的命名慣例完全相符，否則匯入會失敗。例如，如果管理員變更 [!UICONTROL 行銷活動] 至 [!UICONTROL 內部行銷活動名稱] 在 [!UICONTROL 行銷活動設定管理員]，檔案欄標題必須變更以相符。 「索引鍵」是保留的分類（標題）值。 不支援名為「Key」的新分類。
 
 此外，資料檔案支援以下額外的標題慣例，以便識別子分類和其他專業的資料欄：
 

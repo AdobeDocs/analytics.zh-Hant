@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c3f59a07d51f5e6a73fa87aed573450c133d5bd6
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 50%
+source-wordcount: '1077'
+ht-degree: 39%
 
 ---
 
@@ -53,8 +53,8 @@ AN-323975、AN-325383、AN-325809、AN-326787、AN-331611、AN-331818、AN-33212
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** EOL | 2024 年 1 月 10 日 | **2024 年 1 月 17 日**&#x200B;起，Adobe 打算停止支援 [!DNL Reports & Analytics] 及其隨附的報表和功能。支援 [!DNL Reports & Analytics] 的報表、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>在 2023 年 12 月 31 日，我們將終止許多關聯的 Reports and Analytics 功能，包括但不限於：排程報表、資料擷取和 DL 報表。2023 年 12 月 31 日之後，將不再傳送任何排程報表。**2023 年 4 月**，任何排程在 2023 年 12 月 31 日之後到期的報告，都已自動更新並恢復到 2023 年 12 月 31 日到期。此外，您不能再排程 2023 年 12 月 31 日之後的未來報表。 |
-| **結束[!UICONTROL 發佈清單]功能生命週期** | 2024 年 1 月 10 日 | 作為 Reports &amp; Analytics EOL 的一部分，[!UICONTROL 發佈清單]預定在 **2024 年 1 月 17 日**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有[!UICONTROL 發佈清單]，來傳送或排程 [!UICONTROL Analysis Workspace] 專案。 |
+| **[!DNL Reports & Analytics]** EOL | 2024 年 1 月 10 日 | 有效 **2024年1月17日**，已終止Adobe [!DNL Reports & Analytics] 及其隨附的報告和功能。 支援的報告、視覺效果和基礎技術 [!DNL Reports & Analytics] 不再符合Adobe的技術標準。 大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>自2024年1月17日起，我們終止了許多與Reports &amp; Analytics相關的功能，其中包含但不限於：排程報表、資料擷取和DL報表。 2024年1月17日後，不再傳送任何排程報告。 此外，自2024年1月17日起，您將無法再排程未來的報表。 |
+| **結束[!UICONTROL 發佈清單]功能生命週期** | 2024 年 1 月 10 日 | 作為Reports &amp; Analytics EOL的一部分， [!UICONTROL 發佈清單] 生命週期結束日期： **2024年1月17日**. 您無法再建立新的或存取現有的 [!UICONTROL 發佈清單] 傳送或排程 [!UICONTROL Analysis Workspace] 專案。 |
 | **Data Workbench 的 EOL** | 2024 年 1 月 2 日 | Adobe 自 **2023 年 12 月 31 日**&#x200B;起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://express.adobe.com/page/GSu6oKOD88GAj/)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
 | **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API 和 Livestream 客戶必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證從 2024 年 5 月 1 日開始，Adobe I/O 將不允許建立新的 JWT 認證。使用 JWT 的客戶必須建立新的 OAuth Server-to-Server 認證，或將他們現有的 JWT 認證移轉到 OAuth Server-to-Server 認證。客戶還必須更新他們的用戶端應用程式，才能使用新的 OAuth Server-to-Server 認證。 <ul><li>[從 Service Account (JWT) 認證移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth Server-to-Server 認證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常見問題集](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 

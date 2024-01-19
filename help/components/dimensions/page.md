@@ -3,9 +3,9 @@ title: 頁面
 description: 頁面名稱。
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '186'
 ht-degree: 94%
 
 ---
@@ -28,4 +28,4 @@ AppMeasurement 會使用 [`pageName`](/help/implement/vars/page-vars/pagename.md
 
 >[!NOTE]
 >
->在 Reports &amp; Analytics 中，轉換量度會使用此維度的線性歸因。例如，收入會均分給造訪中在 `purchase` 事件前檢視的所有頁面。Analysis Workspace 依預設會使用「最後」歸因，並提供使用任何歸因模型的選項。
+>Analysis Workspace 依預設會使用「最後」歸因，並提供使用任何歸因模型的選項。

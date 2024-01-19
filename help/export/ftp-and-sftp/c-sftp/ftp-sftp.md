@@ -4,16 +4,16 @@ keywords: ftp;sftp
 title: 安全檔案傳輸通訊協定 - 概觀
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: 04ece4265ff270cc221a79def9494a95d0fdbb0e
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 88%
 
 ---
 
 # 安全檔案傳輸通訊協定 - 概觀
 
-SFTP 是一種傳輸資料的安全通訊協定，可確保除了您以外，其他人都看不到您的資料。Adobe 工程技術服務可以設定 SFTP 帳戶，安全地保留您的資料。
+SFTP是一種傳輸資料的安全通訊協定，可確保除了您以外，其他人都看不到您的資料。 Adobe 工程技術服務可以設定 SFTP 帳戶，安全地保留您的資料。
 
 ## 推送傳遞 {#section_A47831BB1DCA490BB57F0940617AA506}
 
@@ -21,11 +21,7 @@ SFTP 是一種傳輸資料的安全通訊協定，可確保除了您以外，其
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 和 [ Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant)可透過 SFTP 推送資料。
 
-下列 Analytics 工具&#x200B;**無法**&#x200B;透過 SFTP 推送資料：
-
-* Reports &amp; Analytics
-* Ad Hoc Analysis
-* Report Builder
+Report Builder **無法** 透過SFTP推送資料。
 
 ## 提取傳遞 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

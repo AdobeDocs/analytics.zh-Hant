@@ -3,10 +3,10 @@ description: 在此詳細指南中探索您可以使用 Advertising Analytics �
 title: Advertising Analytics 指南
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 100%
+source-wordcount: '1218'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 >
 >Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。
 
-我們將來自這些搜尋引擎的資料全都帶到 Adobe Analytics 中，以便您運用 Analysis Workspace 的強大功能分析相同的資料。新的[工作區付費搜尋績效](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)範本有助於進行此分析。
+我們將來自這些搜尋引擎的資料全都帶到 Adobe Analytics 中，以便您運用 Analysis Workspace 的強大功能分析相同的資料。新 [付費搜尋績效](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) 工作區中的範本有助於進行此分析。
 
 ![](assets/aa_aw.png)
 
@@ -70,7 +70,7 @@ Analytics 會自動授予 Analytics 管理員兩項權限。之後，管理員�
 
 ## Advertising Analytics 維度和量度 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
 
-Advertising Analytics 將以下維度和量度新增至 Analysis Workspace、Reports &amp; Analytics、Report Builder 及 Analytics 報表 API。
+Advertising Analytics將下列維度和量度新增至Analysis Workspace、Report Builder及Analytics Reporting API。
 
 **維度**
 

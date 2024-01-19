@@ -3,10 +3,10 @@ description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以�
 title: 虛擬報表套裝元件策劃
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->管理員與非管理員可在已組織的工作區專案和虛擬報表套裝中檢視的元件有所變動。 過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未監管的元件。[更新的組織體驗](/help/analyze/analysis-workspace/curate-share/curate.md)能讓您對可查看的元件執行更細微的控制。
+>管理員與非管理員可在已監管的 Workspace 專案和虛擬報告套裝中查看哪些元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未監管的元件。[更新的組織體驗](/help/analyze/analysis-workspace/curate-share/curate.md)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理：
 
@@ -35,7 +35,6 @@ ht-degree: 90%
    >
    >如已啟用元件自訂，則&#x200B;**只能在 Analysis Workspace 中**&#x200B;存取虛擬報表套裝，且無法在以下項目中存取：
    >
-   >* [!UICONTROL Reports &amp; Analytics]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]

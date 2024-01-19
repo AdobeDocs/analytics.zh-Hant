@@ -3,10 +3,10 @@ description: 進一步了解
 title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 73%
+source-wordcount: '383'
+ht-degree: 69%
 
 ---
 
@@ -46,9 +46,3 @@ ht-degree: 73%
 
 在本範例中，A、B和 C 值在點擊 1、3、4 和 6 時傳入，然後在點擊 7 時進行 $10 的購物。在第二列中，這些值會持續存在於上次接觸瀏覽的所有點擊間。第三列說明首次接觸瀏覽持續性最後，最後一列說明如何針對不具持續性的 PROP 記錄資料。
 
-## 線性配置在 Reports &amp; Analytics 與 Workspace 中的運作方式差異
-
-線性歸因在這兩種工具中的運作方式有一些差異：
-
-* 在 Reports &amp; Analytics 中，(已處理的) 線性歸因一律以造訪為基礎，而在 Workspace 中，線性歸因可以造訪或訪客為基礎。
-* 在 Reports &amp; Analytics 中，如果造訪的首次點擊未傳遞任何值，則會保存上次造訪的 (初始) 值。在Workspace （歸因）中則非如此。 如果造訪的首次點擊未傳遞任何值，則初始值將是「無」。

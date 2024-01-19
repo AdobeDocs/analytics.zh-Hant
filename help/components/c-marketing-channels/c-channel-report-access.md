@@ -3,10 +3,10 @@ description: 說明如何執行行銷管道報表、授予有限的管理員使�
 title: 行銷管道權限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 100%
+source-wordcount: '227'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->為了讓 Attribution 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>為了最大化歸因和Customer Journey Analytics的行銷管道效率，我們已發佈一些 [修訂後的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md).
 >
 >Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
@@ -24,7 +24,6 @@ ht-degree: 100%
 |---|---|---|
 | 報表套裝工具 | 頻道 | 授予「報表套裝管理器」中行銷管道的存取權，包括「行銷管道管理器」、「行銷管道處理規則」和「行銷管道有效期」。 |
 | 報表套裝工具 | 成本 | 授予「報表套裝管理器」中「行銷管道 > 行銷管道成本」的權限。 |
-| 報表套裝工具 | 頻道報表 | 授予「Reports &amp; Analytics」中「行銷管道 > 管道概觀報表」的存取權。 |
 | 報表套裝工具 | 分類 | 授予「報表套裝管理器」中所有分類設定的存取權限，包括「行銷管道 > 行銷管道分類」。 |
 | Analytics 工具 | Analysis Workspace 存取 | 授予 Analysis Workspace 的存取權限。使用者必須屬於此群組 (偏好設定) 或「Reports &amp; Analytics Access」，才能在 Workspace 中使用「行銷管道」維度。 |
 | Analytics 工具 | Reports and Analytics Access | 授予 Reports and Analytics 的存取權。使用者必須屬於此群組或 Analysis Workspace 存取 (偏好設定)，才能使用 Adobe Analytics。 |

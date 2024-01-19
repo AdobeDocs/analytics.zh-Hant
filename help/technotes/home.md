@@ -2,10 +2,10 @@
 title: Analytics 技術備忘稿
 description: 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
-feature: Attribution, Visualizations, Reports & Analytics Basics, Segmentation, Real-time
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Attribution, Visualizations, Segmentation, Real-time
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---

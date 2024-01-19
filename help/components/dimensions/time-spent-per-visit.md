@@ -3,10 +3,10 @@ title: 每次造訪逗留時間 (維度)
 description: 造訪花費的總時間。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 95%
+source-wordcount: '302'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,6 @@ ht-degree: 95%
 每次造訪逗留時間有多個維度：
 
 * **每次造訪逗留時間 - 分段**：時間量會分段。維度項目的範圍介於 `"Less than 1 minute"` 到 `"More than 15 hours"` 之間。造訪通常不超過 12 個小時；不過，如果使用時間戳記點擊或資料來源，造訪可能會超過 12 個小時。
-* **每次造訪逗留時間 - 精細**：每個秒數都是一個不重複的維度項目。Reports &amp; Analytics 或 Data Warehouse 無法使用此維度。
+* **每次造訪逗留時間 - 精細**：每個秒數都是一個不重複的維度項目。Data Warehouse中沒有此維度。
 
 如需更多關於逗留時間的一般資訊，請參閱[逗留時間概觀](../metrics/time-spent.md)。

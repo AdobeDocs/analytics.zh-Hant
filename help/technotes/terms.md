@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '2535'
+source-wordcount: '2541'
 ht-degree: 97%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 97%
 * **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：** Microsoft Excel 增益集，可讓您從 Adobe Analytics 資料建立自訂請求。
 * **報表套裝：**&#x200B;您所傳送資料的目的地總體容器。Adobe Analytics 中的所有報表都會參照報表套裝。
-* **Reports &amp; Analytics：**&#x200B;先前稱為 SiteCatalyst。 用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。
+* **Reports &amp; Analytics：**&#x200B;先前稱為 SiteCatalyst。 用於報告和分析的瀏覽器解決方案。Analytics套件中的入門工具。 此工具已 [生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=en).
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。例如，顯示過去 7 天的報表可視為滾動式日期範圍。另請見「靜態日期範圍」。
 * **RSID：**&#x200B;報表套裝 ID 的縮寫。報表套裝同時具有好記的名稱和報表套裝 ID。
 * **s.t()：**&#x200B;傳送頁面瀏覽影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.track()`。請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。

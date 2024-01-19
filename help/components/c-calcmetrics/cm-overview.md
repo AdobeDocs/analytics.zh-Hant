@@ -4,10 +4,10 @@ keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 88%
+source-wordcount: '542'
+ht-degree: 59%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 88%
 
 您可以
 
-* 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]以及[!UICONTROL 貢獻分析]。
-* 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度是根據區段，所以可查看其歷史資料。 
+* 建立以下範圍的量度 [!UICONTROL Analysis Workspace]， [!UICONTROL Report Builder]， [!UICONTROL 異常偵測]、和 [!UICONTROL 貢獻分析].
+* 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度的根據是區段，所以可查看其歷史資料。
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
 
@@ -54,60 +54,19 @@ ht-degree: 88%
 
 部分 [!DNL Analytics] 功能可讓您使用事件，但無法使用計算量度：
 
-* Reports &amp; Analytics 中的「漏斗」
 * Analysis Workspace 中的「副產品」
 * [!UICONTROL Analysis Workspace 中的「同類群組分析」]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL 區段]
-* [!UICONTROL 即時報表]
-* [!UICONTROL 目前的資料報表]
 * [!DNL Analytics] for [!DNL Target]
 
 ## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
 以下為「 」的簡短概覽 [!UICONTROL 計算量度] 工具：
 
-<table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 工具 </th> 
-   <th colname="col2" class="entry"> 功能 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md"  > 計算量度產生器</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E6F02AB9DF204C2F9A0AC92A31594B3E"> 
-     <li id="li_A4A6E716374243A190C539A3F4A41C0C">使用進階配置模型建立計算量度和進階計算量度。 </li> 
-     <li id="li_C8C97BA4E227463E98077ABA5818FFC6">新增區段內嵌至量度公式。 </li> 
-     <li id="li_8503D9E06A3C46569B5CDB4B90F72446">比較同一份報表中的區段。例如，比較當地訪客和國際訪客。 </li> 
-     <li id="li_4B528FDE1F96400DBA0D3276408FF919">使用統計函數。 </li> 
-     <li id="li_C1162B1EA6784B8189A8A87E2B0DA79A">提供詳細的量度說明 (顯示其用途、使用位置、不應使用的位置)。 </li> 
-     <li id="li_DEA13F5E8BF94AF1B311C467FE6E2A74">複製定義至新量度。 </li> 
-     <li id="li_8C21F55015D44910904202D2BF74221C">提供內嵌量度預覽。 </li> 
-     <li id="li_3704F66C321C477F9D4F52E068C231BD">設定量度極性，指定當特定自訂事件 (量度) 上升時是好事還是壞事。 </li> 
-     <li id="li_9D45319FA965476FB1C90DE8AA72BBD7">標記量度。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md"  > 計算量度管理員</a> </td> 
-   <td colname="col2"> 
-    <ul id="ul_E4D20D5DD3904CC6A85785B5BD4C1B1E"> 
-     <li id="li_E0B216BA1478406EB6212263DF71D85B">與他人共用量度。 </li> 
-     <li id="li_96EB16FAF3454211AAEF78EA5B08927F">核准和管理量度。 </li> 
-     <li id="li_3ADBD2428EAC4B0AA61222D87C3AF2B7">組織 (標記) 量度，讓別人找得到。 </li> 
-     <li id="li_726F3C3390744E49BA63606FE196880E">刪除量度。 </li> 
-     <li id="li_F306BA4FA8AF4A6E987BA62634659A2F">重新命名量度。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 量度選擇器邊欄 </td> 
-   <td colname="col2"> <p>取代 <span class="uicontrol"> Reports &amp; Analytics</span> 中的<span class="uicontrol">顯示量度</span>快顯功能表。 </p> <p>此邊欄可讓您搜尋並新增/套用量度至報表。您也可以變更<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >排序</a>順序 (選項為：字母順序、建議、經常使用、最近使用。)此外，您也可以篩選報表套裝，只顯示在特定報表套裝中建立的量度。 </p> <p>若要存取此量度選擇器，請按一下報表左側的「量度」圖示 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度選擇器的外觀如下： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 計算量度的 API</a> </td> 
-   <td colname="col2"> <p>Adobe Analytics 2.0 API 集的一部分。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 工具 | 功能 |
+|--- |--- |
+| 計算量度產生器 | <ul><li>使用進階配置模型建立計算量度和進階計算量度。</li><li>將內嵌區段新增至量度公式</li><li>比較同一份報表中的區段。例如，比較當地訪客和國際訪客。</li><li>使用統計函式</li><li>提供詳細的量度說明（顯示其用途、使用位置和不使用位置）</li><li>將定義複製到新量度中</li><li>提供內嵌量度預覽</li><li>設定量度極性，以指出當特定自訂事件（量度）上升時是有利還是不利</li><li>標籤量度</li></ul> |
+| 計算量度管理員 | <ul><li>與其他人共用量度&lt;/li><li>核准和管理量度</li><li>組織（標籤）量度，方便使用者尋找</li><li>刪除量度</li><li>重新命名量度</li></ul> |
+| 量度選擇器邊欄 | 可讓您搜尋量度，並將其新增/套用至報表。 您也可以變更排序順序（選項為：字母順序、建議、經常使用、最近使用。） 此外，您可以篩選報表套裝，以僅顯示特定報表套裝中建立的量度。  若要存取此「量度選擇器」，請按一下報表左側的「量度」圖示。 |
+| 計算量度的 API | Adobe Analytics 2.0 API 集的一部分。 |

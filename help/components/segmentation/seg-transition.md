@@ -1,18 +1,18 @@
 ---
-description: 關於管理舊式區段的常見問題集。
-title: 舊式區段的常見問題
+description: 與管理舊式區段相關的常見問題。
+title: 舊版區段的常見問題集
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 91%
+source-wordcount: '1445'
+ht-degree: 88%
 
 ---
 
-# 舊式區段的常見問題
+# 舊版區段的常見問題集
 
-關於管理舊式區段（2014年之前建立的區段）最佳實務的常見問題解答。
+回答有關管理舊式區段最佳實務（2014年之前建立的區段）的常見問題。
 
 ## 管理舊式區段 {#legacy}
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 您現有的區段將繼續如往常般運作。任何已套用這些區段的報表都將繼續正常運作。[更多...](/help/components/segmentation/seg-transition.md)
 
-原本預先定義的區段與套裝區段多半會以區段範本的形式移轉至「區段產生器」。區段範本的用途是快速建立具有常見對象的自訂區段。區段範本無法直接套用至報表，但可以輕易儲存成自訂區段。
+大部分先前的預先定義和套裝區段都會以區段範本的形式移轉至「區段產生器」。 區段範本的用途是快速建立具有常見對象的自訂區段。區段範本無法直接套用至報表，但可以輕易儲存成自訂區段。
 
 區段範本在「區段產生器」中有特殊的圖示標記：
 
@@ -44,7 +44,7 @@ ht-degree: 91%
 
 +++ **Data Warehouse區段有什麼改變？**
 
-所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大多數的 Data Warehouse 區段也將在其他元件中運作，例如 Analysis Workspace 以及 Reports &amp; Analytics。
+所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分的Data Warehouse區段也可以在其他元件中運作，例如Analysis Workspace。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
 
@@ -62,7 +62,7 @@ ht-degree: 91%
 
 +++
 
-+++ **Experience Cloud（套裝）區段有何改變：**
++++ **Experience Cloud（套裝）區段有什麼改變：**
 
 * 非購買者
 * 購買者
@@ -74,7 +74,7 @@ ht-degree: 91%
 
 這些區段（具有星號*標籤者除外）多半會以區段範本的形式移轉至區段產生器。 另外，新增了數個新的區段範本。
 
-已套用這些區段的現有報表仍可正常運作。
+已套用這些區段的現有報表可繼續正常運作。
 
 +++
 
@@ -103,7 +103,7 @@ ht-degree: 91%
 * 檢閱您現有的區段。
 * 適時將這些區段新增至區段庫。
 * 核准要做為標準區段的區段。
-* 標記區段時依照[最佳做法](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+* 根據以下條件標籤區段： [最佳實務](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 +++
 
@@ -114,7 +114,7 @@ ht-degree: 91%
 * 地域城市/地區/國家 - 搜尋並選取特定城市、地區或國家，而不是使用局部比對。
 * 瀏覽器 - 使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如 Google Chrome
 * 作業系統 - 使用「作業系統類型」維度來取得某個類型的所有作業系統，例如 Microsoft Windows。
-* 請參閱「新Dimension和已重新命名的區段」（請參閱下方）
+* 請參閱「新增和重新命名的Dimension」（請參閱下文）
 
 ## 新維度和經過重新命名的維度 {#renamed}
 
@@ -171,7 +171,7 @@ ht-degree: 91%
 
 ## 對於具有已知值之整數式維度的變更 {#integer-based-dims}
 
-具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面顯示使用舊版和新版區段產生器介面時，這些維度的分段方式：
+具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面顯示如何使用舊版和新的區段產生器介面來劃分這些維度：
 
 ![](assets/seg_browser_dimension.png)
 

@@ -4,16 +4,16 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: ht
-source-wordcount: '2171'
-ht-degree: 100%
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
+source-wordcount: '2168'
+ht-degree: 97%
 
 ---
 
 # Adobe Analytics 登陸頁面
 
-Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、更新的報告選單、現代化報告，以及可幫助您更有效地開始體驗的學習區段。以下是影片概觀：
+Adobe Analytics的登陸頁面會整合兩者 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] （生命週期結束）於下的單一介面和存取點中 [!DNL Workspace] 雨傘。 此頁面包含專案經理首頁、更新的報告選單、現代化報告，以及可幫助您更有效地開始體驗的學習區段。以下是影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -43,7 +43,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 ### 術語
 
 * **[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
-* **[!UICONTROL 報告]**&#x200B;是指由 Adobe 預先建立的任何內容，例如在 Reports &amp; Analytics 中的報告和工作區中的範本。
+* **[!UICONTROL 報表]** 是指由Adobe預先建立的任何內容，例如工作區中的範本。
 * **[!UICONTROL 範本]**&#x200B;不再用作 Adobe 預先建立的工作區專案的詞彙。範本現在歸類在[!UICONTROL 報告]下面。[!UICONTROL 範本]這個詞彙仍用於您的公司建立的範本。
 
 ## 瀏覽至「[!UICONTROL 專案]」索引標籤。 {#navigate-projects}
@@ -159,7 +159,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | --- | --- |
 | 我以前在[!UICONTROL 工作區]看到的範本在哪裡？ | 這些範本分類列在「[!UICONTROL 報告]」標籤下。 |
 | 我在 Beta 版計劃 UI 中進行的工作是否會移轉至生產環境的[!UICONTROL 工作區]體驗？ | 是，在 Beta 版中完成的任何工作都會移轉至舊有/現有的[!UICONTROL 工作區]體驗。 |
-| 我現有的 [!DNL Reports & Analytics]「我的最愛」是否可移轉過來？ | 否，這些不會移轉過來。但是，[!UICONTROL 工作區]中任何「我的最愛」會移轉過來。 |
+| 我先前的Reports &amp; Analytics「我的最愛」是否可移轉過來？ | 否，這些不會移轉過來。但是，[!UICONTROL 工作區]中任何「我的最愛」會移轉過來。 |
 | 我可釘選的專案數量是否有上限？ | 沒有，您可以釘選的專案數量沒有限制。 |
 | 管理員是否可以為他們的使用者指定此登陸頁面？ | 否，管理員不可以代表他們的使用者指定此登陸頁面。 個人使用者必須自己開啟切換功能。 |
-| [!DNL Reports & Analytics] 已有的全部報告是否仍然可用？ | 否，以下報告已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報告</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點擊 ype VISTA 規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |
+| 是否所有存在於下列專案的報表： [!DNL Reports & Analytics] 仍可使用？ | 否，以下報告已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報告</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點選型別VISTA規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |

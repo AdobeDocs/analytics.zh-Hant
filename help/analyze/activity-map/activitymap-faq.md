@@ -5,10 +5,10 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 0570bea923edc21a0f185f49fd6f604115d4a6e1
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 +++
 
 +++區段是否適用於即時模式？
-否，區段不適用於即時模式。此功能等同於 Reports &amp; Analytics 中不支援區段的即時報告。
+否，區段不適用於即時模式。
 +++
 
 +++Activity Map 是否可與虛擬報表套裝相容？
@@ -89,9 +89,9 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 * 從 JS 檔刪除 `AppMeasurement_Module_ActivityMap` 功能
 * 例如，透過空白內文新增重寫上述函數的自訂程式碼:
 
-   ```js
-   function AppMeasurement_Module_ActivityMap() {}
-   ```
+  ```js
+  function AppMeasurement_Module_ActivityMap() {}
+  ```
 
 * 透過設定 `s.trackClickMap` 和 `s.trackInlineStats` 到 `false` 來設定 AppMeasurement 
 +++

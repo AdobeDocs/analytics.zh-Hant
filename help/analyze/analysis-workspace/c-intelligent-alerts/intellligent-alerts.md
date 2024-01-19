@@ -4,10 +4,10 @@ title: 智慧型警報概述
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '320'
+ht-degree: 88%
 
 ---
 
@@ -19,23 +19,22 @@ ht-degree: 100%
 
 ## 概觀
 
-Analysis Workspace 中的新「警報產生器」和「警報管理員」取代了「Reports &amp; Analytics」中的現有警報功能。智慧型警報可讓您：
+智慧型警報可讓您：
 
 * 根據異常 (90％、95％、99%、99.75% 或 99.9% 臨界值；% 變化；以上/以下) 建立警報
 * 預覽警報觸發的頻率
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結
 * 建立在單一警報中擷取多個量度的「堆疊」警報
 
-取得「警報產生器」有四種方式：
+取得「警報產生器」有三種方式：
 
 | 方法 | 詳細資料 |
 | --- | --- |
 | 直接前往警報產生器 | **[!UICONTROL 元件]** > **[!UICONTROL 警報]** |
 | 使用工作區中的鍵盤快速鍵 | `Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac) |
 | 選取一個或多個自由表格的條列項目 | 以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 從選取範圍建立警報]**。 這樣會開啟[!UICONTROL 警報產生器]，並預先填入從表格套用的適當量度和篩選條件。 您可以視需要編輯警報。 ![從選取範圍建立警報](assets/create-alert-from-selection.png) |
-| 從 Reports &amp; Analytics 報表中 | 前往&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 新增警報]**。 這樣會開啟警報產生器，並預先填入從報表套用的適當量度和篩選條件。 您可以視需要編輯警報。 ![新增警報](assets/add-alert.png) |
 
-百分比臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 依您選擇的時間詳細程度而定，[不同模式](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
+百分比臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 根據您選擇的時間詳細程度， [不同模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 用於計算每個資料點距離基準有多遠（多少標準差）。 若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
 
 >[!IMPORTANT]
 >
