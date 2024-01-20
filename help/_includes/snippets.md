@@ -1,8 +1,8 @@
 ---
-source-git-commit: d857d1cf9f4aa23d7fd60c19bb6533090d956086
+source-git-commit: 33ac467cd73e3099ce0ca03aa41cbd4192eb2384
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 98%
+source-wordcount: '1131'
+ht-degree: 96%
 
 ---
 # 程式碼片段
@@ -11,7 +11,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。如需在Analysis Workspace中使用報表的相關資訊，請參閱 [使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md).
+>有效 **2024年1月17日**，Adobe已停止使用的Reports &amp; Analytics及其隨附的報告和功能。 Reports &amp; Analytics及其所有報表和排程目前均已停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。如需在Analysis Workspace中使用報表的相關資訊，請參閱 [使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md).
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
@@ -21,22 +21,22 @@ ht-degree: 98%
 
 1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
-   | 選項 | 功能 |
-   |---------|----------|
-   | [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
-   | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
-   | [!UICONTROL **維度**] | 僅顯示維度的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
-   | [!UICONTROL **量度**] | 僅顯示量度的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
-   | [!UICONTROL **區段**] | 僅顯示區段的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) <!--this is Filters in Customer Journey Analytics--> |
-   | [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
-   | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **缺少說明**] | 僅顯示在說明欄位中還沒有說明的元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **顯示重複項目**] | <p>僅顯示與所選報告套裝中的另一個元件具有相同名稱或相同定義的元件。名稱或定義必須完全相符才能顯示為重複項目。</p><p>此選項僅提供給管理員使用。</p><p>**注意：**&#x200B;對於定義，包括您建立的元件和 Adobe 提供的元件。對於名稱，目前僅包括您建立的元件，不包括 Adobe 提供的元件。顯示 Adobe 提供元件的重複名稱會在未來版本中新增。</p> |
-   | [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **建立者：Adobe**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
+| 選項 | 功能 |
+|---------|----------|
+| [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
+| [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
+| [!UICONTROL **維度**] | 僅顯示維度的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
+| [!UICONTROL **量度**] | 僅顯示量度的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
+| [!UICONTROL **區段**] | 僅顯示區段的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) <!--this is Filters in Customer Journey Analytics--> |
+| [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
+| [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
+| [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
+| [!UICONTROL **缺少說明**] | 僅顯示在說明欄位中還沒有說明的元件。此選項僅提供給管理員使用。 |
+| [!UICONTROL **顯示重複項目**] | <p>僅顯示與所選報告套裝中的另一個元件具有相同名稱或相同定義的元件。名稱或定義必須完全相符才能顯示為重複項目。</p><p>此選項僅提供給管理員使用。</p><p>**注意：**&#x200B;對於定義，包括您建立的元件和 Adobe 提供的元件。對於名稱，目前僅包括您建立的元件，不包括 Adobe 提供的元件。顯示 Adobe 提供元件的重複名稱會在未來版本中新增。</p> |
+| [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。此選項僅提供給管理員使用。 |
+| [!UICONTROL **由Adobe建立**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
 
-   {style="table-layout:auto"}
+{style="table-layout:auto"}
 
 ## 資料字典元件資訊 {#dd-component-information}
 

@@ -4,10 +4,10 @@ title: 新增相依請求以篩選路徑報表
 feature: Report Builder
 role: User, Admin
 exl-id: 41aca5a4-7bda-4be5-ae93-a6d1dae6a554
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 85%
+source-wordcount: '172'
+ht-degree: 62%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 85%
 
 說明如何使用預先定義的篩選條件建立路徑報表。
 
-行銷 Reports &amp; Analytics 提供一些獨立報表，作為帶有預先定義篩選條件的最上層路徑報表，例如[!UICONTROL 「下一個]與[!UICONTROL 上一個網站區域」]報表、「登入與[!UICONTROL 退出網站區域」]報表，以及[!UICONTROL 「單一網站區域」]報表。
-
-Report Builder 未提供這些作為獨立報表，但您可以透過&#x200B;**[!UICONTROL 「新增相依請求]** > **[!UICONTROL 路徑」]**&#x200B;內容功能表自行建立。可使用的報表包括：
+Report Builder不提供獨立報表形式的路徑報表，但您可以透過以下方式建立路徑報表： **[!UICONTROL 新增相依請求]** > **[!UICONTROL 路徑]** 內容功能表。 可使用的報表包括：
 
 * 路徑 > 頁面流失
 * 路徑 > 登入路徑
@@ -29,7 +27,7 @@ Report Builder 未提供這些作為獨立報表，但您可以透過&#x200B;**[
 * 路徑 > 登入路徑 > 作為登入頁面
 * 路徑 > 退出路徑 > 作為退出頁面
 
-1. 從現有請求選取多個列，然後按一下滑鼠右鍵，按一下&#x200B;**[!UICONTROL 「新增相依請求]** > **[!UICONTROL 路徑」]** 如果您想檢視 **[!UICONTROL 頁面流失]** 功能表專案。
+1. 從現有請求選取多個列，然後按一下滑鼠右鍵 **[!UICONTROL 新增相依請求]** > **[!UICONTROL 路徑]**. 如果您想檢視 **[!UICONTROL 頁面流失]** 功能表專案。
 
    ![此熒幕擷圖顯示選取了三個列，並選取「新增相依請求」選項。](assets/dependen_request.png)
 

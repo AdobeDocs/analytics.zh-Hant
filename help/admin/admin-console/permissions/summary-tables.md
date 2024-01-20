@@ -3,9 +3,9 @@ title: Adobe Analytics 權限 - 摘要表
 description: 摘要說明 Adobe Admin Console 中可用 Adobe Analytics 權限的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 512c348bda14654daa155f774dd384cba4aed2bd
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1130'
 ht-degree: 98%
 
 ---
@@ -44,13 +44,6 @@ ht-degree: 98%
 | 異常偵測 |  | x |  |  | 授與 Analysis Workspace 中異常偵測功能的存取權。 |
 | 貢獻分析 |  | x |  |  | 授與 Analysis Workspace 中滑鼠右鍵功能表的「執行貢獻分析」存取權。 |
 | 自訂 Data Warehouse 報表 |  | x |  |  | 授與 Analytics 頂端導覽列中「工具 > Data Warehouse」的存取權。 |
-| 機器人頁面 |  |  | x |  | 授與「Reports &amp; Analytics」中「網站量度 > 機器人 > 機器人頁面」報表的存取權。 |
-| 機器人 |  |  | x |  | 授與「Reports &amp; Analytics」中「網站量度 > 機器人 > 機器人報表」的存取權。 |
-| 管道報表 |  |  | x |  | 授與「Reports &amp; Analytics」中「行銷管道 > 管道總覽報表」的存取權。 |
-| 每日回訪 |  |  | x |  | 授與「Reports &amp; Analytics」中「訪客保留率 > 每日回訪」的存取權。 |
-| 我的建議報表 |  |  | x |  | 授與「Reports &amp; Analytics」中「網站量度 > 我的建議報表」的存取權。 |
-|  即時報表 |  |  | x |  | 授與「Reports &amp; Analytics」中「網站量度 > 即時」的存取權。會使用權限項目「即時報表設定」來授與存取權，以便設定此報表。 |
-| 回訪 |  |  | x |  | 授與「Reports &amp; Analytics」中「訪客保留率 > 回訪」的存取權。 |
 | Advertising Analytics 設定 |  |  |  | x | 未使用。 |
 | 公司摘要報表 |  |  |  | x | 未使用。 |
 | Data Warehouse |  |  |  | x | 未使用。請改用「自訂 Data Warehouse 報表」。 |
@@ -94,7 +87,7 @@ ht-degree: 98%
 | 與任何人分享專案連結 | x |  |  |  | 授與使用者的存取權以與任何人共用工作區專案 — >共用 — >與任何人共用。 |
 | Activity Map |  | x |  |  | 授與「工具 > Activity Map」的存取權。允許用戶使用 Activity Map 擴充功能。 |
 | Ad Hoc Analysis 授權用戶 |  | x |  |  | Ad Hoc Analysis 生命週期已結束。[更多資訊](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
-| Analysis Workspace 存取 |  | x |  |  | 授與 Analysis Workspace 的存取權限。用戶必須屬於此群組 (偏好設定) 或 Reports &amp; Analytics 存取，才能使用 Adobe Analytics。 |
+| Analysis Workspace 存取 |  | x |  |  | 授予Analysis Workspace的存取權。 |
 | Analysis Workspace：另存範本 |  | x |  |  | 授與對 Analysis Workspace 中「專案 > 另存範本」的存取權。 |
 | 建立計算量度 |  | x |  |  | 授與在所有 Analytics 功能中建立計算量度的能力。 |
 | Labs 存取 |  | x |  |  | 授與 Labs 的存取權。 |
@@ -102,8 +95,6 @@ ht-degree: 98%
 | 區段建立 |  | x |  |  | 授與在所有 Analytics 功能中建立與共用區段的能力。 |
 | 區段發佈 |  | x |  |  | 授與建立或編輯區段時，將區段設為 Experience Cloud 對象的能力。 |
 | 網路服務存取 |  | x |  |  | 授與使用 API 的能力，包括驗證第三方網站與傳送 API 呼叫的能力。 |
-| 目前的資料 |  |  | x |  | 啟用在「Reports &amp; Analytics」報表中查看目前資料的選項。 |
-| Reports &amp; Analytics 存取 |  |  | x |  | 授與 Reports &amp; Analytics 的存取權。用戶必須屬於此群組或 Analysis Workspace 存取 (偏好設定)，才能使用 Adobe Analytics。 |
 | Advertising Analytics 管理 |  |  |  | x | 未使用。 |
 | 品牌結合 |  |  |  | x | 已不再使用。授與「管理員 > 所有管理員 > 公司設定 > 品牌結合」的存取權。 |
 | Excel 授權用戶 |  |  |  | x | 未使用。 |

@@ -4,9 +4,9 @@ title: 警報產生器 (Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 100%
 
 * 在 Analysis Workspace 中使用下列快速鍵：
 
-   `ctrl (or cmd) + shift + a`
+  `ctrl (or cmd) + shift + a`
 * 前往「**[!UICONTROL 工作區]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
 * 選取一或多個自由表格條列項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。
-* 在「Reports &amp; Analytics」報表中，前往「**[!UICONTROL 更多]** > **[!UICONTROL 新增警報]**」。
 
 ## 產生警報
 
@@ -70,7 +69,7 @@ ht-degree: 100%
 
 * 拖放量度到畫布以新增觸發。
 
-   如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，系統會顯示&#x200B;**「不相容的元件」**&#x200B;訊息。
+  如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，系統會顯示&#x200B;**「不相容的元件」**&#x200B;訊息。
 * 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件：
 
    * 存在異常
@@ -81,7 +80,7 @@ ht-degree: 100%
    * 變更者
    * 您可以設定 90%、95%、99%、99.75% 或 99.9% 的臨界值。
 
-   請注意您也可以使用計算量度。
+  請注意您也可以使用計算量度。
 
 *... 包含這些篩選*
 

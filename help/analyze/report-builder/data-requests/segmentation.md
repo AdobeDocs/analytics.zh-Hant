@@ -1,13 +1,13 @@
 ---
 description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
-title: 管理區段 (Report Builder)
+title: 管理區段(Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 85%
+source-wordcount: '959'
+ht-degree: 74%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
 
-Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓您建立和管理區段。
+Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立和管理區段。
 
 ![熒幕擷圖顯示「新增、編輯或清除區段」的「區段」選項，並反白顯示「控制」、「篩選」和「重新整理」圖示。](assets/seg_dialog.png)
 
@@ -50,9 +50,9 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 1. 返回Report Builder並按一下重新整理圖示，以重新整理區段清單。
 1. 現在，您已可套用此區段。
 
-## 搜尋及套用區段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## 搜尋及套用區段 {#search}
 
-在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中建立的任何區段都會出現在此區段清單中。 若要重新整理清單，請按一下重新整理圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+在Reports &amp; Analytics （現已終止服務）、Report Builder或Data Warehouse中建立的任何區段，都會出現在此區段清單中。 若要重新整理清單，請按一下重新整理圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 您可以套用一或多個區段至任何指定的請求。這包含依序排列的區段。
 
@@ -64,9 +64,9 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!NOTE]
 >
-> 無論您是否擔任管理員，都只能在 Report Builder 中查看您擁有的區段以及與您共用的區段。(在 Marketing Reports &amp; Analytics 使用者介面中，管理員可查看組織中的所有區段)。
+>無論您是否擔任管理員，都只能在Report Builder中檢視您擁有的區段以及與您共用的區段。
 
-## 篩選區段 {#section_376E986D3E684999A7CDB08E53854159}
+## 篩選區段 {#filter}
 
 **篩選** 按一下「篩選」圖示建立區段：  ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
@@ -76,13 +76,13 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 |---|---|
 | 標記 | 可讓您利用特定標記篩選區段。請注意，「標記」篩選條件使用 AND 運算子。如果您勾選兩個標記，右側窗格會顯示同時擁有&#x200B;**兩個**&#x200B;標記的區段。 |
 | 擁有者 | 可讓您依擁有者篩選區段。請注意，「擁有者」篩選條件使用 OR 運算子。如果您勾選兩個擁有者，右側窗格會顯示&#x200B;**其中一位**&#x200B;擁有者擁有的區段。 |
-| 其他篩選條件 > 僅&#x200B;*報表套裝名稱* | 如果您在 [!DNL marketing reports & analytics] 的「區段產生器」中套用&#x200B;*「僅限報表套裝名稱」*&#x200B;篩選條件，接著在 [!DNL Report Builder] 中顯示「進階篩選」，則進階篩選只會顯示所選報表套裝的區段。 |
+| 其他篩選條件 > 僅&#x200B;*報表套裝名稱* | 如果您套用「僅 *報告套裝名稱*「篩選」(在Adobe Analytics的「區段產生器」中)，然後顯示「進階篩選」 [!DNL Report Builder]，進階篩選器只會顯示所選報表套裝的區段。 |
 | 其他篩選器 > 我的 | 顯示您擁有的所有區段。 |
 | 其他篩選器 > 與我共用 | 顯示所有其他人與您共用的區段。 |
 | 其他篩選條件 > 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |
 | 其他篩選條件 > 批准 | 顯示所有已正式批准的區段。 |
 
-## 將區段控制項新增至活頁簿 {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 將區段控制項新增至活頁簿 {#segment-control}
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
@@ -103,11 +103,11 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![熒幕擷圖顯示「選擇區段」欄位下拉式欄位。](assets/seg_control2.png)
 
-## 重新整理區段清單 {#section_22E4A86789444B4A998532396B476EFB}
+## 重新整理區段清單 {#refresh}
 
 每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 以重新整理區段的快取清單。
 
-## 管理各請求中的區段 {#section_C3D63FCBE1A94369A319243313B03C93}
+## 管理各請求中的區段 {#manage}
 
 5.4 版之前，Report Builder 可讓使用者變更多個請求上的區段。然而，該過程一律會取代現有區段。使用者無法將新區段新增至每個請求，由於新增區段將移除先前指派給每個請求的區段集。
 
@@ -122,7 +122,7 @@ Report Builder 5.4 可讓您在多個目標請求當中新增、移除、取代�
 
    | 選項 | 說明 |
    |---|---|
-   | 新增區段 | 可讓您選擇一個或多個區段，以便新增至現有的區段清單。 |
+   | 「新增區段」 | 可讓您選擇一個或多個區段，以便新增至現有的區段清單。 |
    | 「取代區段」 | 可讓您選擇要以一個或多個區段來取代的區段。 |
    | 「取代所有區段依據」 | 可讓您選擇要以一個或多個區段來取代的一個或多個區段。 |
    | 「移除區段」 | 可讓您從請求中移除區段。 |

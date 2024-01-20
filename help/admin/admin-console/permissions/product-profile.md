@@ -3,10 +3,10 @@ title: Adobe Analytics 產品設定檔
 description: 了解如何使用產品設定檔來進行權限預設，讓產品管理員可以指定權限給組織內的使用者。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 1a7b853d6f5fc627223ea69e64b4a240c61aef2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 98%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 產品設定檔管理員是一個選用群組，可對該產品設定檔新增或移除使用者。請注意，產品設定檔管理員與產品管理員並不相同：
 
 * 產品設定檔管理員無法完整存取 Adobe Analytics。Adobe Analytics 的完整存取權會保留給產品管理員。
-* 產品設定檔管理員無法調整其產品設定檔中的許可權專案。
+* 產品設定檔管理員無法調整產品設定檔中的許可權專案。
 * 產品設定檔管理員可以對使用者群組，指派或移除其得使用的產品設定檔。
 * 需要為團隊授予和管理 Adobe Analytics 存取權限的團隊領導者或經理，都非常適合出任產品資料管理員。且不需經由系統管理員或產品管理員即可執行這項操作。
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 產品設定檔要存取 Adobe Analytics 所需的最低權限如下：
 
 * 產品設定檔必須至少擁有一個報告套裝的存取權-
-* 產品設定檔必須屬於 Analytics 工具權限項目&#x200B;**「Analysis Workspace 存取」**(或&#x200B;**「Reports &amp; Analytics 存取」**)
+* 產品設定檔必須屬於Analytics工具許可權專案 **Analysis Workspace存取**.
 
 ### 報告套裝
 
@@ -40,13 +40,13 @@ ht-degree: 98%
 
 ### 量度
 
-授予報告套裝中量度的存取權。量度會在 Analysis Workspace 中各自列為元件；如果量度可在「Reports &amp; Analytics」中使用，則會列為「網站量度」下的功能表項目。
+授予報告套裝中量度的存取權。量度會在Analysis Workspace中各自列為元件。
 
 自訂量度會以編號 1 到 1000 標籤為「自訂事件」，以便在報告套裝中各自獨立。如果「自訂事件 1」是啟用的權限項目，則該使用者可存取產品設定檔中所有報告套裝的 event1。
 
 ### 維度
 
-授予報告套裝中維度的存取權。維度會在 Analysis Workspace 中各自列為元件；如果維度可在「Reports &amp; Analytics」中使用，則會列為「網站維度」下的功能表項目。
+授予報告套裝中維度的存取權。Dimension會在Analysis Workspace中各自列為元件。
 
 自訂維度 (例如 eVar) 會以編號 1 到 250 標籤為「自訂轉換」，以便在報告套裝中各自獨立。如果「自訂轉換 1」是啟用的權限項目，則該使用者可存取產品設定檔中所有報告套裝的 eVar1。
 

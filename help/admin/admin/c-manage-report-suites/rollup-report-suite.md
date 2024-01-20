@@ -3,10 +3,10 @@ description: 報表套裝類型的說明，以及全域報表套裝和統計報�
 title: 報表套裝做法
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -42,11 +42,7 @@ Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 是唯一支援統計報表的工具，Adobe 不再建議使用統計。 請考慮改為搭配多套裝標記或虛擬報表套裝使用全域報表套裝。
-
-統計報表是多個報表套裝中資料的簡單彙總，不會刪除重複資料，也沒有任何區段或資料劃分。 統計不需要實作程式碼。 若要使用統計報表，請[實作子報表套裝](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)然後[將其合併到統計報表中](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-rollups.md) (使用[!UICONTROL 管理員工具])。
-
-統計報表是免費的：子報表套裝會產生自己的伺服器呼叫，但統計報表不會產生額外的呼叫。 統計報表是舊的功能，有許多限制。
+>[!DNL Reports & Analytics] 是唯一支援統計報表的工具。 Reports &amp; Analytics已於2024年1月17日終止服務。
 
 ### 統計報表的限制 {#limitations-rollups}
 
@@ -80,6 +76,6 @@ Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[
 
 **報表**：全域報表套裝會針對所有維度提供資訊；統計只提供高階報表的彙整資料。
 
-**支援的產品**：統計只能用於 Reports &amp; Analytics，在 Analysis Workspace 或 Data Warehouse 中都不支援。 全域報表套裝可用於所有產品。
+**支援的產品**：統計只能用於Reports &amp; Analytics， 在 Analysis Workspace 或 Data Warehouse 中都不支援。 全域報表套裝可用於所有產品。
 
 **彙總報表套裝數量**：統計最多只支援 40 個子報表套裝。無論您擁有多少網域或應用程式，皆可實作全域報表套裝。

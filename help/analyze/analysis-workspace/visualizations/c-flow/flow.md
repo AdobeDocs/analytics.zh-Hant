@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: aba4beb51446cdd54afc92047254a0ddd1c55ce3
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 84%
+source-wordcount: '199'
+ht-degree: 82%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 84%
 * 將客戶在您網站或應用程式中的歷程視覺化呈現
 * 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置
 * 指定選定路徑中的特定點，建立區段
-
->[!NOTE]
->
->如需了解對「流量」套用區段後，Analysis Workspace 和 Reports &amp; Analytics 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
 以下是流量視覺效果教學影片：
 

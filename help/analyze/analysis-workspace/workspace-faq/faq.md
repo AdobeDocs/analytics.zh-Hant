@@ -4,10 +4,10 @@ title: 常見問題集和疑難排解工作區
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 5bad2982cc8883701be3c63a6ca179933fb59d2a
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 +++
 
 +++Analysis Workspace 會改變 Adobe Analytics 中預先設定的報表嗎？
-否。因為這是單獨的環境，所以不會改變 Adobe Analytics 中您現有或預先設定的報表。您仍可應用採用 Analysis Workspace 的標準「Reports &amp; Analytics」和「Report Builder」報表。
+否。因為這是單獨的環境，所以不會改變 Adobe Analytics 中您現有或預先設定的報表。您仍然可以使用Analysis Workspace來使用標準Report Builder報告。
 +++
 
 +++可以將 Analysis Workspace 用於 Data Warehouse 嗎？

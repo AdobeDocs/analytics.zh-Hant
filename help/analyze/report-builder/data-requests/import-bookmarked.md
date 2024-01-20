@@ -4,10 +4,10 @@ title: 匯入書籤化報表與儀表板報表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 82%
+source-wordcount: '241'
+ht-degree: 72%
 
 ---
 
@@ -25,16 +25,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->在 Report Builder 中，可用的儀表板和書籤清單除了僅限於該使用者，也僅限於您在精靈步驟 1 中，套用至所選報表套裝的儀表板和書籤清單。 反之，在 Marketing Reports &amp; Analytics 中，無論儀表板和書籤使用哪些報表套裝，您都可以存取您有存取權的所有書籤和儀表板。
-
->[!NOTE]
->
 >系統只會匯入資料，因此，如果書籤中包含圖表，或是儀表板小報表僅由圖表組成，系統只會匯入用來填寫圖表的資料。
 
 一旦您匯入儀表板報表 (或書籤) 建立請求後，請求便會與報表 (或書籤) 的主要維度建立關聯。因此，如果您編輯請求，樹狀檢視就不會再選取儀表板報表樹狀檢視節點 (或書籤節點)，而會選取請求的主要維度。
 
-匯入的書籤小程式會適當地將報表套裝、已選取區段、維度及選取的度量，設定為「Reports &amp; Analytics」書籤中公開的相同參數。
-
->[!IMPORTANT]
->
->日期範圍會設定為相同的日期範圍，但即使該日期範圍是「Reports &amp; Analytics」書籤中的滾動式日期範圍，仍會設定為靜態日期範圍。

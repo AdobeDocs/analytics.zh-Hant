@@ -4,10 +4,10 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 87%
+source-wordcount: '979'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 轉換率 | 成功量度/標準化量度 |
 | 提升度 | 對照控制體驗來比較每一個體驗的轉換率。注意：提升度是 Target 體驗的「鎖定量度」；您無法加以劃分，也無法與其他維度搭配使用。 |
 | 提升度 (下限) | 表示 95％ 信賴區間中，變異數體驗對控制的最壞提升度。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
-| 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
+| 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
 | 提升度 (上限) | 表示 95％ 信賴區間中，變異數體驗對控制的最佳提升度。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
 | 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
 

@@ -3,10 +3,10 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 警報系統的元件包括：警報產生器、警報管理器、警報預覽，以及更出色的內容感知存取權 (可用來建立警報)。 舊的警報系統使用者介面將會停用，而警報則會遷移。 部分舊型警報功能[將不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hant)。
 
-取得「警報產生器」有四種方式：
+取得「警報產生器」有三種方式：
 
 * 在 Analysis Workspace 中使用下列快速鍵：
 
@@ -43,13 +43,10 @@ ht-degree: 100%
 
   ![](assets/create-alert-from-selection.png)
 
-* 在 [!UICONTROL Reports &amp; Analytics] 報表中，前往&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。如此會開啟新的「警報產生器」，並從報表套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
 
-  ![](assets/add-alert.png)
+## 常見問答：系統如何計算及觸發警報 {#trigger}
 
-## 常見問答：系統如何計算及觸發警報 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
-
-% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 依您選擇的時間詳細程度而定，[不同模式](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
+% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 根據您選擇的時間詳細程度， [不同模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 用於計算每個資料點距離基準有多遠（多少標準差）。 若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 

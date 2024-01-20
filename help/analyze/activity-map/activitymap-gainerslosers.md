@@ -4,10 +4,10 @@ title: 可自訂覆蓋圖
 feature: Activity Map
 role: User, Admin
 exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 覆蓋圖提供多種設定資料視覺效果的方式，讓您輕鬆查看並了解頁面上連結的人氣高低。
 
-覆蓋圖可讓您在頁面上直接視覺化點按資料。這正是 Activity Map 視覺化分析工具與大部分表格與圖形工具 (例如「Reports &amp; Analytics」) 之間的最大差異。
+覆蓋圖可讓您直接在頁面上以視覺效果呈現點選資料。
 
 Activity Map 提供下列三種覆蓋圖：
 
@@ -29,7 +29,7 @@ Activity Map 提供下列三種覆蓋圖：
 
 將滑鼠暫留在某個覆蓋圖上，會顯示其[詳細資料](/help/analyze/activity-map/activitymap-overlay-details.md)。
 
-## 漸層覆蓋圖 (熱度圖) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## 漸層覆蓋圖（熱度圖） {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 漸層覆蓋圖中的色彩強度是根據該連結的人氣高低。此強度可以針對前 30 名排行進行標準化，也可以做為絕對量度值的函數。
 
@@ -51,7 +51,7 @@ Activity Map 提供下列三種覆蓋圖：
 
 >[!NOTE]
 >
-> 您必須顯示子功能表，才會顯示子功能表的氣泡覆蓋圖：
+>您必須顯示子功能表，才會顯示子功能表的氣泡覆蓋圖：
 >
 >![](assets/bubbles_submenu.png)>
 

@@ -3,20 +3,16 @@ description: Adobe 需要事先收到有關新帳戶設定、流量尖峰及流�
 title: 流量增加所需的前置時間
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: ht
-source-wordcount: '337'
+source-git-commit: 726e5ee71be60838e48bb682d7fd48bfc1f96ec3
+workflow-type: tm+mt
+source-wordcount: '325'
 ht-degree: 100%
 
 ---
 
 # 流量增加所需的前置時間
 
-## 流量增加所需的前置時間
-
 Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的通知。必須事先配置硬體，方可降低延遲並減少對整體系統的不利影響。
-
-配置硬體是由透過 Reports &amp; Analytics 使用者介面提交的警報驅動。
 
 >[!IMPORTANT]
 >
@@ -24,7 +20,7 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 
 使用以下準則判斷您必須在多久之前提交流量警報。
 
-### 硬體配置前置時間
+## 硬體配置前置時間
 
 
 <table id="table_A67CC3B164F740088797BD8913244E47">
@@ -65,6 +61,6 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 
 * 當流量減少或某報表套裝停用時，也需要用到客戶提醒。
 
-### 因未達成流量而解除配置硬體
+## 因未達成流量而解除配置硬體
 
 如果客戶提醒中的預計流量沒有在「上線日期」後的 4 週內實現，系統將解除配置新帳戶、流量尖峰及流量增加所用的硬體。如果流量仍合乎預期，就必須產生新客戶提醒作為流量增加。

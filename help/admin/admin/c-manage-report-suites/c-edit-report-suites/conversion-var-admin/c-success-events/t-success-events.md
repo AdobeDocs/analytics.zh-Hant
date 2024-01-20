@@ -4,9 +4,9 @@ title: 設定成功事件
 feature: Event
 role: Admin
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -38,9 +38,9 @@ ht-degree: 100%
 
    | 設定 | 可見於 | 不可見於 |
    |---------|----------|---------|
-   | [!UICONTROL **隨處可見**] | <ul><li>Reports &amp; Analytics (功能表和量度選擇器)</li><li>Analysis Workspace</li><li>區段產生器</li><li>計算量度產生器</li></ul> | 不適用 |
-   | [!UICONTROL **產生器**] | <ul><li>區段產生器</li><li>計算量度產生器</li></ul> | <ul><li>Reports &amp; Analytics (功能表和量度選擇器)</li><li>Analysis Workspace</li></ul> |
-   | [!UICONTROL **隨處隱藏**] | 不適用 | <ul><li>Reports &amp; Analytics (功能表和量度選擇器)</li><li>Analysis Workspace</li><li>區段產生器</li><li>計算量度產生器</li></ul> |
+   | [!UICONTROL **隨處可見**] | <ul><li>Analysis Workspace</li><li>區段產生器</li><li>計算量度產生器</li></ul> | 不適用 |
+   | [!UICONTROL **產生器**] | <ul><li>區段產生器</li><li>計算量度產生器</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **隨處隱藏**] | 不適用 | <ul><li>Analysis Workspace</li><li>區段產生器</li><li>計算量度產生器</li></ul> |
 
 1. 提供說明。
 1. 檢查是否一律記錄事件。

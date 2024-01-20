@@ -3,10 +3,10 @@ title: Analytics 工具的產品設定檔權限
 description: 使用 Analytics 工具權限項目，以授與權限來存取 Adobe Analytics 中的功能。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 93%
+source-wordcount: '440'
+ht-degree: 91%
 
 ---
 
@@ -18,14 +18,13 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 |----|----|
 | [!UICONTROL Activity Map] | 授與「工具 > Activity Map」的存取權。允許用戶使用 Activity Map 擴充功能。 |
 | [!UICONTROL Advertising Analytics 管理] | 可讓使用者設定/編輯/檢視廣告搜尋帳戶。 |
-| [!UICONTROL Analysis Workspace 存取] | 授與 Analysis Workspace 的存取權限。用戶必須屬於此群組 (偏好設定) 或 Reports &amp; Analytics 存取，才能使用 Adobe Analytics。 |
+| [!UICONTROL Analysis Workspace 存取] | 授予Analysis Workspace的存取權。 |
 | [!UICONTROL Analysis Workspace：另存範本] | 授與對 Analysis Workspace 中「專案 > 另存範本」的存取權。 |
 | [!UICONTROL 建立註解] | 授予建立註解的能力。 |
 | [!UICONTROL 建立計算量度] | 授與在所有 Analytics 功能中建立計算量度的能力。 |
 | [!UICONTROL 品牌結合] | 未使用 |
 | [!UICONTROL 代碼管理器] | 保留供舊版使用。 授與「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用 Adobe Experience Platform 資料收集中的 Adobe Analytics 擴充功能所含的資料庫。 |
 | [!UICONTROL 代碼管理器 - 網頁服務] | 透過 1.4 API 授與對代碼管理器的存取權。 |
-| [!UICONTROL 目前資料] | 啟用在「Reports &amp; Analytics」報表中查看目前資料的選項。 |
 | [!UICONTROL Excel 授權用戶] | 未使用。 |
 | [!UICONTROL 隱藏報表套裝] | 授與「管理員 > 所有管理員 > 公司設定 > 隱藏報告套裝」的存取權。 授與隱藏組織中任何報告套裝的能力，不論組織對報告套裝是否具備存取權。 |
 | [!UICONTROL 整合 (建立)] | 未使用。資料連接器已終止服務。 |
@@ -38,7 +37,6 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 | [!UICONTROL 未決行動] | 授與對「管理員 > 所有管理員 > 公司設定 > 未決行動」的存取權。 |
 | [!UICONTROL 偏好設定] | 未使用 |
 | [!UICONTROL Report Builder] | 啟用「工具 > Report Builder」底下的下載按鈕，並允許用戶在 Microsoft Excel 內進行驗證。 |
-| [!UICONTROL Reports &amp; Analytics 存取] | 授與 Reports &amp; Analytics 的存取權。用戶必須屬於此群組或 Analysis Workspace 存取 (偏好設定)，才能使用 Adobe Analytics。 |
 | [!UICONTROL 安全性] | 授與對「管理員 > 所有管理員 > 公司設定 > 安全管理器」的存取權。 |
 | [!UICONTROL 建立區段] | 授與在所有 Analytics 功能中建立與共用區段的能力。 |
 | [!UICONTROL 區段發佈] | 授與建立或編輯區段時，將區段設為 Experience Cloud 對象的能力。 |

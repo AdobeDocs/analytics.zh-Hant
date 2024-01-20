@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: 管理行銷管道
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >
 > 有關行銷管道的一般資訊，請參閱[行銷管道入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
-> 為了讓 Attribution 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+> 為了最大化歸因和Customer Journey Analytics的行銷管道效率，我們已發佈一些 [修訂後的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道管理員]**。
 
@@ -77,7 +77,6 @@ ht-degree: 100%
 | 覆蓋上次接觸管道 | 可讓您選擇是否使用選取的管道覆蓋現有的永續性上次接觸管道。如果勾選此核取方塊，任何管道 (包括直接和內部) 都會覆蓋現有的上次接觸管道。產生的結果會將轉換歸因於可能不值得該評價的管道。例如，若之前已透過免費搜尋管道獲得使用者，則此選項可確保直接管道不會接收用於轉換的評價。 |
 | 管道劃分 | 允許您依該值劃分管道。建立[行銷管道分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)時，您可新增可能的管道劃分 (子管道)。 |
 | 類型 | 指定使用者前往您網站的方式。您可選擇「線上」或「離線」。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」管道。「離線」管道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線管道通常包括從報告資料來源匯入的資料。請參閱 [Data Sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)。請參閱[新增離線資料](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
-| 色彩 | 僅限 Reports &amp; Analytics：與此行銷管道相關聯的色彩。該色彩代表行銷管道報表中的管道。 |
 
 ### 覆寫最佳做法
 
