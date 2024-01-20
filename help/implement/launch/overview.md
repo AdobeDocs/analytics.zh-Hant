@@ -1,12 +1,12 @@
 ---
 title: 使用 Analytics 擴充功能實施 Adobe Analytics
 description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe Analytics
-feature: Launch Implementation
+feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 87%
+source-wordcount: '364'
+ht-degree: 89%
 
 ---
 

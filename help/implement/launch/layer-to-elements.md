@@ -1,11 +1,11 @@
 ---
 title: 將資料層物件對應至資料元素
 description: 設定標記以從資料層讀取。
-feature: Launch Implementation
+feature: Tags
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 94%
 
 ---
@@ -29,8 +29,8 @@ ht-degree: 94%
    ![建立資料元素](assets/createelement.png)
 
 1. 輸入您的資料元素名稱。可為符合您要追蹤之資料層中 JavaScript 變數的簡單標記。
-1. 在 **[!UICONTROL 擴充功能]** 下拉清單，選擇 **[!UICONTROL 核心]**.
-1. 在 **[!UICONTROL 資料元素類型]** 下拉清單，選擇 **[!UICONTROL JavaScript變數]**. 右側會出現一個文字欄位，可讓您輸入 JavaScript 變數以對應至此資料元素。
+1. 在 **[!UICONTROL 副檔名]** 下拉式清單，選取 **[!UICONTROL 核心]**.
+1. 在 **[!UICONTROL 資料元素型別]** 下拉式清單，選取 **[!UICONTROL javascript變數]**. 右側會出現一個文字欄位，可讓您輸入 JavaScript 變數以對應至此資料元素。
 1. 輸入所需的 Javascript 變數，通常在您的資料層中。例如，如果貴組織的資料層與 Adobe 的建議作法幾乎相符，則值可能是 `digitalData.page.pageInfo.pageName`。您可以使用瀏覽器的主控台，驗證 JavaScript 變數語法和值。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 

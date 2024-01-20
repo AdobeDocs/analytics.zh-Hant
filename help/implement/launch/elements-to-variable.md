@@ -1,11 +1,11 @@
 ---
 title: 將標記資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，好讓您可以在 Analysis Workspace 中將其當成維度使用。
-feature: Launch Implementation
+feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '433'
 ht-degree: 96%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 96%
 1. 按一下所需的標籤屬性。
 1. 按一下[!UICONTROL 「規則」]標記，然後按一下所需的規則 (或建立規則)。
 1. 按一下[!UICONTROL 「動作」]中的[!UICONTROL 「新增」]按鈕。
-1. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] 來設定變數。
+1. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 以設定變數。
 1. 按一下所需 Analytics 變數右側的![「資料元素」](assets/data-element.png)圖示。您組織的[解決方案設計文件](../prepare/solution-design.md)會規定要使用的 Analytics 變數。
 1. 在強制回應視窗中選取所需的資料元素。按一下[!UICONTROL 「選取」]。
 1. 資料元素名稱會新增至由 `%` 符號包住的文字欄位。例如，如果您將資料元素命名為「Page name」，會在將資料元素指派至變數時看到字串 `%Page name%`。

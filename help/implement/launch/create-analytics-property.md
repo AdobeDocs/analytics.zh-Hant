@@ -1,11 +1,11 @@
 ---
 title: 在標記中建立 Analytics 屬性
 description: 使用標記建立空間來自訂資料收集的方式。
-feature: Launch Implementation
+feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '500'
 ht-degree: 100%
 
 ---
@@ -47,9 +47,9 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
    * 資料元素類型：JavaScript 變數
    * JavaScript 變數名稱：`window.document.title`
 
-      >[!NOTE]
-      >
-      >此值用作協助入門的示例。如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
+     >[!NOTE]
+     >
+     >此值用作協助入門的示例。如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
    * 已勾選簡潔文字
    * 儲存期限：無
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。

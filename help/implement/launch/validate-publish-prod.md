@@ -1,9 +1,9 @@
 ---
 title: 驗證開發實作並發佈至生產環境
 description: 了解如何使用 Adobe Experience Platform 標記，將 Adobe Analytics 部署至您的生產環境中。
-feature: Launch Implementation
+feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 89088d11846e2d3eac83a834658e4755141655e5
+source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 89%
