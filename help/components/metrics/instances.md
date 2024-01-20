@@ -3,10 +3,10 @@ title: 例項
 description: 變數經設定 (且不持續存在) 的點擊次數。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 813d209980ad02c412970a698c282c1358921ed6
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '263'
+ht-degree: 44%
 
 ---
 
@@ -20,4 +20,9 @@ ht-degree: 57%
 
 例如，某個訪客進入您的網站並使用內部搜尋。 您在eVar1中追蹤內部搜尋。 使用內部搜尋一次後，使用者在離開前會再造訪五個頁面。
 
-如果在工作區中檢視報表，您會看到一個eVar1例項和六個發生次數。 在搜尋結果頁面上觸發的單一例項，而發生次數會計入初始值和持續值。
+如果在工作區中檢視報表，您會看到一個eVar1例項和六個發生次數。 搜尋結果頁面上會計入一個執行個體，而發生次數量度會計入初始值和後續儲存值。
+
+## 與類似量度比較
+
+* **例項與 [發生次數](occurrences.md)**：例項不包含維度專案持續存在的點選。 發生次數會計入維度專案經設定或持續存在的點選。
+* **例項與 [頁面檢視](page-views.md)**：例項包含所有點選型別，包括頁面檢視追蹤呼叫([`t()`](/help/implement/vars/functions/t-method.md))，連結追蹤呼叫([`tl()`](/help/implement/vars/functions/tl-method.md))，以及摘要中的資料 [資料來源](/help/import/data-sources/overview.md). 頁面檢視量度僅包含頁面檢視追蹤呼叫，不包括連結追蹤呼叫和摘要資料來源。
