@@ -3,10 +3,10 @@ description: 報表套裝類型的說明，以及全域報表套裝和統計報�
 title: 報表套裝做法
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 93%
+source-wordcount: '448'
+ht-degree: 89%
 
 ---
 
@@ -44,38 +44,38 @@ Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[
 >
 >[!DNL Reports & Analytics] 是唯一支援統計報表的工具。 Reports &amp; Analytics已於2024年1月17日終止服務。
 
-### 統計報表的限制 {#limitations-rollups}
+<!---### Limitations of Rollup Reports {#limitations-rollups}
 
-* 統計報表會提供總計資料，但不會報告報表中的個別值。 例如，eVar1 值不會納入其中，但其彙總值則可納入。
-* 當統計報表結合各報表套裝中的資料時，不會進行重複資料刪除。
-* 統計會在半夜執行。
-* 當您新增報表套裝至現有的統計時，歷史資料不包含在統計中。
-* 若要讓統計有效運作，所有子報表套裝都必須含有資料。 如果新的報表套裝被納入統計中，請務必至少傳送一個頁面檢視給各個報表套裝。
-* 統計報表套裝最多可包含 40 個子報表套裝。
-* 統計報表套裝最多可包含 100 個事件。
-* 統計報表套裝中包含的資料不支援劃分或區段功能。
-* 頁面報表已替換為最受歡迎的網站報表，後者會報告子套裝層級的量度。
+* Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
+* Data is not deduplicated when the rollup combines data across report suites.
+* Rollups run nightly at midnight.
+* When you add a report suite to an existing rollup, historical data is not included in the rollup.
+* All child report suites must have data in them for a rollup to function. If new report suites are included in a rollup, make sure to send at least one page view to each of those report suites.
+* Rollup report suites can include a maximum of 40 child report suites.
+* Rollup report suites can include a maximum of 100 events.
+* Data contained in rollup report suites does not support breakdowns or segments.
+* The Pages report is replaced with the Most Popular Sites report, which reports on metrics at the child-suite level.
 
-## 全域報表套裝和統計報表功能的比較
+## Comparison of Global Report Suite and Rollup Report  Features
 
-**次要伺服器呼叫**：統計不會產生任何超出單一報表套裝收集範圍的額外伺服器呼叫。如果您的組織使用多套裝標記，系統會針對影像請求中所包含的每個額外報表套裝進行次要伺服器呼叫。
+**Secondary server calls**: Rollups do not incur any additional server calls beyond what a single report suite collects. If your organization uses multi-suite tagging, secondary server calls are made for each additional report suite included in an image request.
 
 >[!TIP]
 >
->如果您只搭配[虛擬報表套裝](/help/components/vrs/vrs-considerations.md)使用全域報表套裝，就不需要進行次要伺服器呼叫。
+>If you use only a global report suite with [virtual report suites](/help/components/vrs/vrs-considerations.md), no secondary server calls are needed.
 
-**實作變更**：統計不需要變更任何實作，而全域報表套裝則需要您在實作中加入全域報表套裝 ID。
+**Implementation changes**: Rollups do not require any implementation changes, while global report suites require you to include the global report suite ID in your implementation.
 
-**複製**：全域報表套裝會複製獨特訪客，但是統計不會。例如，使用者若在同一天內瀏覽您的三個網域，統計會計算三個每日獨特訪客。全域報表套裝會記錄一個獨特訪客。
+**Duplication**: Global report suites deduplicate unique visitors, while rollups do not. For example, if a user visits three of your domains in the same day, rollups would count three daily unique visitors. Global report suites would record one unique visitor.
 
-**時段**：統計只會在每晚的午夜處理，而全域報表套裝會以標準延遲報告資料。
+**Time frame**: Rollups are only processed at midnight each night, while global report suites report data with standard latency.
 
-**幅度**：統計無法在報表套裝之間通訊。全域報表套裝可歸因於報表套裝之間的轉換變數，也能提供所有報表套裝的路徑分析。
+**Breadth**: Rollups have no way to communicate between report suites. Global report suites can attribute credit to conversion variables between report suites and provide pathing across report suites.
 
-**歷史資料**：統計可以彙總歷史資料，而全域報表套裝只會報告從其實作的點開始的資料。
+**Historical data**: Rollups can aggregate historical data, while global report suites only report data from the point they were implemented.
 
-**報表**：全域報表套裝會針對所有維度提供資訊；統計只提供高階報表的彙整資料。
+**Reports**: Global report suites provide data on all dimensions; rollups provide aggregate data on only high-level reports.
 
-**支援的產品**：統計只能用於Reports &amp; Analytics， 在 Analysis Workspace 或 Data Warehouse 中都不支援。 全域報表套裝可用於所有產品。
+**Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**彙總報表套裝數量**：統計最多只支援 40 個子報表套裝。無論您擁有多少網域或應用程式，皆可實作全域報表套裝。
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->

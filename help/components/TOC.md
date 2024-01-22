@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
-workflow-type: ht
-source-wordcount: '757'
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+workflow-type: tm+mt
+source-wordcount: '749'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ ht-degree: 100%
    + [頁面事件](metrics/page-events.md)
    + [頁面瀏覽數](metrics/page-views.md)
    + [找不到頁面](metrics/pages-not-found.md)
-   + [使用者 具有 Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
+   + [具有 Experience Cloud ID 的使用者](metrics/people-with-exp-cloud-id.md)
    + [使用者](metrics/people.md)
    + [產品瀏覽數](metrics/product-views.md)
    + [重新載入](metrics/reloads.md)
@@ -280,7 +280,6 @@ ht-degree: 100%
    + [地點管理員](/help/components/locations/locations-manager.md)
    + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
    + [雲端匯入位置](/help/components/locations/configure-import-locations.md)
-+ [行事曆事件](t-calendar-event.md)
 + [已排程的專案](scheduled-projects-manager.md)
 + [排程報告佇列](scheduled-reports-admin.md)
 + 即時報告 {#real-time-reporting}

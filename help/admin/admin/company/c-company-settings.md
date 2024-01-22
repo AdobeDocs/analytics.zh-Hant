@@ -3,9 +3,9 @@ description: 進行設定的總覽頁面，適用於貴組織管理的所有報�
 title: 公司設定概觀
 feature: Company Settings
 exl-id: 3c86288a-817f-42da-90f9-b5220a2c2c23
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 09f44ce0b89acf70499e2bcdaa31307028d2fe92
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '62'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,5 @@ ht-degree: 100%
 + [Report Builder 報表](report-builder-reports-admin.md)
 + [單一登入](single-signon-admin.md)
 + [待定動作](pending-actions-admin.md)
-+ [品牌結合](co-branding-admin.md)
 + [隱藏報表套裝](c-hide-report-suites.md)
 + [安全管理員](security-manager.md)

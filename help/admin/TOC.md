@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 59d4ade5e16fdd8c9cea266b7c352ce2057381d9
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '633'
 ht-degree: 94%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 94%
             + 付費搜尋偵測 {#paid-search-detection}
                + [付費搜尋偵測總覽](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [設定付費搜尋偵測](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + [自訂功能表](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
             + 處理規則 {#c-processing-rules}
                + [處理規則總覽](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
                + 處理規則 {#c-processing-rules-configuration}
@@ -133,7 +132,6 @@ ht-degree: 94%
       + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的報表套裝 {#c-new-report-suite}
          + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [建立統計報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
          + [建立報表套裝群組](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
          + [新的報表套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [並非從來源報表套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
@@ -153,8 +151,7 @@ ht-degree: 94%
       + [網路服務](admin/company/web-services-admin.md)
       + [Report Builder 報表](admin/company/report-builder-reports-admin.md)
       + [單一登入](admin/company/single-signon-admin.md)
-      + [品牌結合](admin/company/co-branding-admin.md)
-      + [隱藏報表套裝](admin/company/c-hide-report-suites.md)
+      + [隱藏報告套裝](admin/company/c-hide-report-suites.md)
       + [偏好設定管理器](admin/company/preferences-manager.md)
       + [擱置中的動作](admin/company/pending-actions-admin.md)
       + [功能存取層級](admin/company/feature-access-levels.md)

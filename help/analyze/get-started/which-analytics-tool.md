@@ -3,10 +3,10 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 99156dd9d898ce0abf214561cb0040c647d7e6ab
+source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,11 @@ ht-degree: 97%
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果在 Analysis Workspace 中有無法執行的任務，請考慮以下其他介面。**
 
+**[Adobe Analytics儀表板](/help/analyze/mobile-app/home.md)** 可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
+
 **[Report Builder](/help/analyze/report-builder/home.md)** 是Microsoft Excel的增益集。 這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
 
-**[Adobe Analytics儀表板](/help/analyze/mobile-app/home.md)** 可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
+**[Activity Map](/help/analyze/activity-map/activity-map.md)** 是Adobe Analytics中的一項功能，可針對使用者在網頁和行動應用程式上的參與提供視覺化表示。 它可讓行銷人員和分析師追蹤和分析使用者互動，例如點按數、暫留和捲動行為。
 
 ## 將資料匯入 Adobe Analytics 中  {#import}
 
