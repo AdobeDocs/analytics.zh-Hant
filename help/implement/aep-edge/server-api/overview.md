@@ -3,10 +3,10 @@ title: 使用Adobe Experience Platform Edge Network Server API實作Adobe Analyt
 description: 使用Adobe Experience Platform Edge Network Server API傳送資料給Adobe Analytics。
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
-source-git-commit: 5a57f4d2d73f16a72fbe8b198b1609a8bffc38b6
+source-git-commit: c865d66ce72260acff29d483af59b6c3468aa6d2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 40%
+source-wordcount: '260'
+ht-degree: 33%
 
 ---
 
@@ -34,8 +34,8 @@ ht-degree: 40%
 
 <tr>
 <td>2</td>
-<td><b>設定綱要和資料集</b>。為了標準化資料彙集以跨利用 Adobe Experience Platform 的應用程式使用，Adobe 建立了開放且公開記錄標準，即體驗資料模型 (XDM)。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant">綱要 UI 概觀</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=zh-Hant">資料集 UI 概觀</a></td>
+<td><b>設定綱要</b>. 為了標準化資料彙集以跨利用 Adobe Experience Platform 的應用程式使用，Adobe 建立了開放且公開記錄標準，即體驗資料模型 (XDM)。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant">結構描述UI總覽</a></td>
 </tr>
 
 <tr>
