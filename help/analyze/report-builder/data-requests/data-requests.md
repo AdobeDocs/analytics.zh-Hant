@@ -4,10 +4,10 @@ title: 資料請求 - 請求精靈步驟 1
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 98%
+source-wordcount: '388'
+ht-degree: 90%
 
 ---
 
@@ -17,15 +17,17 @@ ht-degree: 98%
 
 ![熒幕擷圖顯示「請求精靈：步驟1」表單。](assets/rw1_overview.png)
 
-1. **[!UICONTROL 報表套裝]**：根據登入憑證，提供給您使用的報表套裝清單。請參閱[選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
+1. **[!UICONTROL 報表套裝]**：根據登入憑證，提供給您使用的報表套裝清單。另請參閱 [選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **範圍選取器**：讓您從 Excel 的儲存格選取報表套裝軟體。請參閱[選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
+1. **範圍選取器**：讓您從 Excel 的儲存格選取報表套裝軟體。另請參閱 [選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
    例如，您可以執行[!UICONTROL 頁面報告]，然後套用首次瀏覽次數區段。
 
-1. **報表類型**：指定要在資料請求中執行基礎報表。您可以針對每個請求執行一份報表，且報表能具有一對多維度和一對多度量。報表類型的度量和維度會顯示在「[!UICONTROL 請求精靈: 步驟 2]」介面中。請參閱[選擇報表類型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
+1. **允許發佈清單覆寫**：發佈清單是Reports &amp; Analytics的功能，一直 [生命週期結束](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
+
+1. **報表類型**：指定要在資料請求中執行基礎報表。您可以針對每個請求執行一份報表，且報表能具有一對多維度和一對多度量。報表類型的度量和維度會顯示在「[!UICONTROL 請求精靈: 步驟 2]」介面中。另請參閱 [選取報表型別](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md).
 
 1. **日期範圍**：定義請求涵蓋的時間間隔。有幾種請求期間類型可使用，如預置、固定及遞延。期間的最大值為 366。您也可以選擇由儲存格指定的日期範圍，然後再將日期範圍儲存為範本以供日後使用。請參閱[設定報表日期](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 

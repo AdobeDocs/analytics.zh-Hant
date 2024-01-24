@@ -4,10 +4,10 @@ title: 自訂日曆
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 244af34b463ea5df55eaca31f3b2df4ada552b5d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 
@@ -44,7 +44,7 @@ Report Builder 使用 Analytics 自訂日曆。您可以使用日曆來定義一
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月有四週，二月有五週，三月有四週，依此類推。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月有四週，二月有四週，三月有五週，依此類推。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：一月有五週，二月有五週，三月有四週，依此類推。 </li> 
-    </ul> <p>注意：所有 Adobe Analytics 工具 (Analysis Workspace、Reports &amp; Analytics、Report Builder 和 Activity Map) 都支援這個日曆選項。 唯一例外為 Data Warehouse，它不支援自訂日曆。 </p> </td> 
+    </ul> <p>注意：所有Adobe Analytics工具都支援此行事曆選項：Analysis Workspace、Report Builder和Activity Map。 唯一例外為 Data Warehouse，它不支援自訂日曆。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
