@@ -3,10 +3,10 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 75%
 
 區段是根據 [!UICONTROL 訪客]， [!UICONTROL 造訪]、和 [!UICONTROL 點選] 使用巢狀容器模型的層級階層。 巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
 
-您可以在區段產生器中建立並儲存區段，或從流失報表 (在 Analysis Workspace 中）產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可一起用作 [棧疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+您可以在「區段產生器」中建立並儲存區段，或從流失報表(位於 [!UICONTROL Analysis Workspace])。 您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可一起用作 [棧疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 區段識別
 
