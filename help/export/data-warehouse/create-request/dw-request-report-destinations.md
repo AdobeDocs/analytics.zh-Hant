@@ -3,9 +3,9 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 7edee01a5a5399762f10037cf920863af35cc4d7
+source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2188'
 ht-degree: 10%
 
 ---
@@ -22,11 +22,10 @@ ht-degree: 10%
 >
 >* 我們建議您使用雲端帳戶或電子郵件作為報表目的地。 可以使用舊版FTP和SFTP帳戶，但不建議使用。
 >
->* Data Warehouse請求與您的Adobe Analytics使用者帳戶相關聯。 依預設，其他使用者無法使用或檢視您設定的請求。 您可以啟用「 」以讓組織中的其他使用者可以使用Data Warehouse請求 **顯示所有目的地** 切換，如所述 [Data Warehouse請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md).
+>* 您先前設定的任何雲端帳戶 [資料摘要](/help/export/analytics-data-feed/create-feed.md) 或 [匯入Adobe Analytics分類資料](/help/components/locations/locations-manager.md) 可用於Data Warehouse。 不過，任何設定為匯入分類資料的位置都無法使用。
 >
->* 您之前的任何雲端帳戶 [已為資料摘要設定](/help/export/analytics-data-feed/create-feed.md) 可用於Data Warehouse。
+>* 雲端帳戶與您的Adobe Analytics使用者帳戶相關聯。 其他使用者無法使用或檢視您設定的雲端帳戶。
 >
->* 為設定的雲端帳戶 [匯入Adobe Analytics分類資料](/help/components/locations/locations-manager.md) 設定報表目的地時，可以使用來自雲端目的地的流量。 不過，任何設定為匯入分類資料的位置都無法使用。
 
 若要設定Data Warehouse報表的傳送目的地：
 
