@@ -3,10 +3,11 @@ title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 76%
+source-wordcount: '1884'
+ht-degree: 67%
 
 ---
 
@@ -29,8 +30,8 @@ ht-degree: 76%
 ## 先決條件
 
 * 檢視[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念資訊。
-* 建立一個或多個管道，以便為它們指定規則。請參閱[新增行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)。
-* 檢閱搭配 [!UICONTROL Attribution ] 使用[!UICONTROL 行銷管道]的最佳做法。
+* 建立一個或多個管道，以便為它們指定規則。另請參閱 [新增行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+* 檢閱使用的最佳實務 [!UICONTROL 行銷管道] 替換為 [!UICONTROL 歸因].
 
 ## 建立行銷管道處理規則
 
@@ -57,7 +58,7 @@ ht-degree: 76%
 
 ### 設定行銷管道值
 
-**[!UICONTROL 設定管道的值]**&#x200B;會定義該管道可用的行銷管道詳細資料維度。 
+**[!UICONTROL 設定該管道的值]** 會定義該管道可用的行銷管道詳細資料維度。
 
 ### 規則條件
 
@@ -74,12 +75,12 @@ ht-degree: 76%
 | AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤代碼。當其中一項整合啟用時，追蹤代碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用AMO ID時，點選/成本/曝光量度可歸因到正確的管道（若未設定，這些量度會變成「直接」或「無」）。 |
 | AMO ED ID | Advertising Cloud 使用的次要追蹤代碼。此追蹤代碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為結尾為「AMO EF ID」設定行銷管道邏輯 `:d` 用於顯示點進次數，或結尾為 `:i` 用於顯示ViewThrough。 如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
 | 轉換變數 | 包含為該報表套裝啟用的 eVar，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。 |
-| 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**: 例如，讓您指定某反向連結網域不包含特定數值 (與選項「&quot;包含&quot;.)</li></ul> |
+| 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**：例如讓您指定某反向連結網域不包含特定值（與使用「包含」選項相反）。</li></ul> |
 | 將該管道識別為 | 將規則與新增至行銷管道管理員頁面的行銷管道相關聯。 |
 | 匹配付費搜尋的偵測規則 | Adobe 偵測的付費搜尋。付費搜尋是指公司付款以將其網站列入搜尋引擎。付費搜尋通常顯示在搜尋結果的頂部或右側。 |
 | 匹配免費搜尋的偵測規則 | Adobe 報表偵測的免費搜尋。 |
 | 反向連結匹配內部 URL 篩選器 | 瀏覽的頁面 URL 與內部 URL 篩選器匹配，該內部 URL 篩選器是為「管理工具」的報表套裝而定義的。 |
-| 反向連結不匹配內部 URL 篩選器 | 反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。此設定可搭配使用  頁面 URL 和存在來設定範圍廣泛的規則，如此一來就不會有任何造訪落在報表的未識別管道區段中。 |
+| 反向連結不匹配內部 URL 篩選器 | 反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。您可以將此設定與頁面URL和存在一起使用來設定範圍廣泛的規則，如此一來就不會有任何造訪落在報表的未識別管道區段中。 |
 | 忽略符合內部 URL 篩選條件的點按 | (適用於反向連結) 僅跟蹤來自外部反向連結網站的點按。通常，除非您想要包含內部流量，否則此設定保留啟用。 |
 | 是第一個瀏覽的頁面 | 由 Adobe 報表偵測到的瀏覽首頁。 |
 | 頁面 | [頁面](/help/components/dimensions/page.md)維度。 |
@@ -95,7 +96,7 @@ ht-degree: 76%
 | 反向連結根網域 | 反向連結的根網域。反向連結存在於您所定義網域之外。 |
 | 搜尋引擎 | 類似 Google 或 Yahoo! 將訪客帶至您網站的搜尋引擎。 |
 | 搜尋關鍵字 | 使用搜尋引擎來執行搜尋的一個詞。 |
-| 搜尋引擎 + 關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。例如，如果搜尋 computer，則搜尋引擎和關鍵字的識別如下所示：`Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**注意：** n = 免費; p = 付費 |
+| 搜尋引擎 + 關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。例如，如果您搜尋computer，搜尋引擎和關鍵字的識別如下所示： `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**注意：** n =免費； p =付費 |
 | 設定該管道的值為 | 設定 [行銷管道詳細資料](/help/components/dimensions/marketing-detail.md) 維度。 您可以決定在規則內容中哪個值最好。 範例包括橫幅廣告ID、搜尋關鍵字或電子郵件促銷活動。 |
 
 ## 行銷管道規則的順序和定義 {#channel-rules}
@@ -106,7 +107,7 @@ ht-degree: 76%
 
 ### 付費搜尋 {#paid-search}
 
-付費搜尋是指您為顯示在搜索結果中而需要向搜尋引擎付款的字詞或片語。此管道通常會根據查詢字串參數 (請參閱顯示管道範例) 或付費搜尋偵測規則來定義。
+付費搜尋是指您為顯示在搜索結果中而需要向搜尋引擎付款的字詞或片語。此管道通常會根據查詢字串引數（請參閱顯示管道範例）或付費搜尋偵測規則來定義。
 
 #### 付費搜尋偵測
 
@@ -130,7 +131,7 @@ Adobe會根據搜尋引擎的內部查詢來決定搜尋流量。 如果反向�
 
 ### 顯示 {#display}
 
-該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為    *`Ad_01`*。 查詢字串參數以及它尋找的值會評估為不區分大小寫的值。
+該規則可識別源自橫幅廣告的訪客。透過目標URL中的查詢字串引數來識別，本例中為 *`Ad_01`*. 查詢字串參數以及它尋找的值會評估為不區分大小寫的值。
 
 ![](assets/example_display.png)
 

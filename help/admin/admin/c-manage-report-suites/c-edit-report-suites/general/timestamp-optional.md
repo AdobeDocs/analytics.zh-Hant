@@ -4,9 +4,10 @@ title: 可選時間戳記
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 100%
 
 * 如果是從範本建立，新的報表套裝預設為使用「可選時間戳記」。
 
-   (若要從範本建立新的報表套裝，請至&#x200B;**「管理員 > 報表套裝 > 新建 > 報表套裝」**。)
+  (若要從範本建立新的報表套裝，請至&#x200B;**「管理員 > 報表套裝 > 新建 > 報表套裝」**。)
 * 若是從現有的報表套裝複製，則新的報表套裝會繼承原始報表套裝的時間戳記設定，包括：
 
    * **不允許時間戳記** (支援設定 s.visitorID)

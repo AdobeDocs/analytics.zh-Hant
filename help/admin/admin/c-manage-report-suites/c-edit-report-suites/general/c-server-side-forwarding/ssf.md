@@ -4,10 +4,11 @@ solution: Analytics
 title: 伺服器端轉送總覽
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 94%
+source-wordcount: '795'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 94%
 >使用 Analytics 的 Audience Manager 現有客戶應改為使用伺服器端轉送。Adobe Analytics 和 Audience Manager 的新客戶應實施伺服器端轉送 (而不是 DIL) 作為預設的資料收集和傳送方法。
 
 >[!IMPORTANT]
->現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager. 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 變數在設定後，可防止在收到同意前將這些點選傳送至Adobe Audience Manager。 如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
+>根據歐盟Cookie法規規範，資料控管單位（Analytics客戶）現在可以選擇將預先許可的資料限制在Adobe Analytics，並防止其從伺服器端轉送至Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 變數一經設定，在收到同意之前不會將這些點選傳送至Adobe Audience Manager。 如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
 
 若要瞭解貴組織實施伺服器端轉送的狀況，請進行以下驗證步驟：
 

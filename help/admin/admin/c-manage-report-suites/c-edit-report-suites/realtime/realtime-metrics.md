@@ -1,13 +1,13 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
-title: 支援的即時量度和維度 (管理)
+title: 支援的即時量度和維度（管理）
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
 
-## 支援的量度 {#section_514ED8B382494C47BFC0657894D1AF94}
+## 支援的量度 {#metrics}
 
 * 收入
 * 訂購
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 例項
 * 自訂事件 1-100 (若已在報表套裝中啟用)
 
-## 支援的維度 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## 支援的維度 {#dimensions}
 
 * 頁面
 * 搜尋關鍵字

@@ -3,10 +3,10 @@ description: 即時顯示網頁流量和排名頁面檢視。提供可操作的�
 title: 即時報表
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 96%
 
 ---
 
@@ -14,9 +14,11 @@ ht-degree: 100%
 
 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 
+
+
 >[!NOTE]
 >
->即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實作。若要設定即時報表，請參閱 [即時報表設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 以下是影片概觀：
 
@@ -46,7 +48,7 @@ ht-degree: 100%
 
 * 舉例來說，可以比較上週的值和去年的值 (以及今日總計)。
 
-請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱[設定即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
+請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。如需詳細資訊，請參閱中擷取的警告訊息 [設定即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 

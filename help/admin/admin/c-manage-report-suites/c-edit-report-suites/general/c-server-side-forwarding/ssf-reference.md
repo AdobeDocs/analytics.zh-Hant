@@ -3,10 +3,11 @@ description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊�
 title: 伺服器端轉送資料和程式碼參考
 feature: Server-Side Forwarding
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 97%
 
 ---
 
@@ -53,12 +54,12 @@ ht-degree: 100%
 | `c_colorDepth` | 指定為 16 或 32 位元色彩。 |
 | `c_connectionType` | 指定連線類型。選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
 | `c_contextData.*` | 範例：<ul><li>AppMeasurement：`s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>訊號：`c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | 指定 Cookie 是否可啟用。選項包括:是、否、未知 |
+| `c_cookiesEnabled` | 指定 Cookie 是否可啟用。選項包括：是、否、未知 |
 | `c_currencyCode` | 用於交易的貨幣類型。 |
 | `c_evar#` | 自訂 eVar |
 | `c_events` | 由 `s.events` 所設定。 |
 | `c_hier#` | 自訂階層變數。 |
-| `c_javaEnabled` | 指定 Java 是否可啟用。選項包括:是、否、未知 |
+| `c_javaEnabled` | 指定 Java 是否可啟用。選項包括：是、否、未知 |
 | `c_javaScriptVersion` | 瀏覽器支援的 JavaScript 版本。 |
 | `c_latitude` | 緯度數值 |
 | `c_linkClick` | 選項包括：自訂、下載退出 |
@@ -67,7 +68,7 @@ ht-degree: 100%
 | `c_linkExitURL` | 退出連結 URL。 |
 | `c_list#` | 自訂清單變數。 |
 | `c_longitude` | 經度數值。 |
-| `c_mediaPlayerType` | 適用於媒體串流追蹤請求。選項包括：    其他，Primetime |
+| `c_mediaPlayerType` | 適用於媒體串流追蹤請求。選項包括：其他、primetime |
 | `c_pageName` | 頁面名稱 (如果有設定)。 |
 | `c_pageURL` | 瀏覽器網址列中的頁面位址。 |
 | `c_products` | 產品字串 (由 `s.products` 所設定)。 |
