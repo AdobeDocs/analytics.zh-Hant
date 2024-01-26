@@ -3,10 +3,10 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 31487111111575e267306d5f68eede23276e79a8
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 3%
+source-wordcount: '1389'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Cu
 >
 >在依本節所述將任何專案移轉至Customer Journey Analytics之前，請先瞭解更多有關移轉專案的資訊，請參閱 [準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->您對應之任何維度或量度對於此專案及整個組織移轉的所有未來專案而言都是永久性的。 移轉完成之後，就無法修改您所做的任何對應。
+>您對映的任何維度或量度都會永久存在，不僅適用於此專案，也適用於所有在整個IMS組織中移轉的未來專案。 移轉完成之後，就無法修改您所做的任何對應。
 
 1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**]」索引標籤，然後選取「[!UICONTROL **所有管理員**]」。
 
@@ -58,7 +58,7 @@ Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Cu
 
 1. 在 [!UICONTROL **專案所有者**] 欄位，開始輸入Customer Journey Analytics中要設定為專案所有者的使用者名稱，然後在下拉式選單中選取其名稱。
 
-   您指定的所有者擁有此專案的完整管理權限.
+   您指定的擁有者擁有專案的完整管理許可權。
 
 1. 在 [!UICONTROL **對應報表套裝的結構描述**] 區段，選取報表套裝。
 
@@ -156,7 +156,7 @@ Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Cu
 
 | 篩選器 | 說明 |
 |---------|----------|
-| [!UICONTROL **狀態**] | 移轉的狀態： <ul><li>[!UICONTROL **尚未開始**]</li><li>[!UICONTROL **已開始**]</li><li>[!UICONTROL **完成**]</li><li>[!UICONTROL **已失敗**]</li></ul>。 |
+| [!UICONTROL **狀態**] | 移轉的狀態： <ul><li>[!UICONTROL **尚未開始**]</li><li>[!UICONTROL **已開始**]</li><li>[!UICONTROL **已完成**]</li><li>[!UICONTROL **已失敗**]</li></ul>。 |
 | [!UICONTROL **標記**] | 選取標籤清單中的任何標籤。 只會顯示已套用選取標籤的專案。 |
 | [!UICONTROL **報告套裝**] | 在報表套裝清單中選取任何報表套裝。 系統只會顯示使用選定報表套裝的專案。 |
 | [!UICONTROL **擁有者**] | 在擁有者清單中選取任何擁有者。 系統只會顯示您所選取使用者擁有的專案。 |

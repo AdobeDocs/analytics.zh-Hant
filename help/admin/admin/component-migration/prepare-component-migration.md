@@ -3,10 +3,10 @@ description: 說明準備將元件和專案從Adobe Analytics移轉至Customer J
 title: 準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: cc7267cc7f6d0223d151fb6378fce149742258d7
+source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 14%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
@@ -16,38 +16,38 @@ ht-degree: 14%
 
 ## 先決條件
 
-在專案及其相關元件準備好移轉之前，您首先需要：
+在專案及其相關元件準備好移轉之前，您必須先依照下列步驟操作 [Adobe Analytics的演化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant) Adobe Customer Journey Analytics指南中的。 這些步驟包括：
 
-* 使用下列其中一種方法將資料內嵌至Adobe Experience Platform，以便在Customer Journey Analytics檢視Adobe Analytics報表套裝資料：
+1. 使用下列其中一種方法將資料內嵌至Adobe Experience Platform，以便在Customer Journey Analytics檢視Adobe Analytics報表套裝資料：
 
-  >[!NOTE]
-  >
-  >  當您使用WebSDK來內嵌資料時，所有結構欄位都必須手動對應。 (如需對應程式的詳細資訊，請參閱 [將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
+   >[!NOTE]
+   >
+   >  當您使用WebSDK來內嵌資料時，所有結構欄位都必須手動對應。 (如需對應程式的詳細資訊，請參閱 [將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
 
 
    * 若要使用Adobe Analytics來源聯結器，您需要：
 
-      * [設定報表套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [設定報表套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [擷取及使用資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hant)
+      1. [擷取及使用資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hant)
 
    * 若要使用WebSDK，您需要：
 
-      * [設定報表套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [設定報表套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=en#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      * [透過Adobe Experience Platform Web SDK內嵌資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
+      1. [透過Adobe Experience Platform Web SDK內嵌資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-* 建立 [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=zh-Hant) 和 [資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 並擷取資料。
+1. 建立 [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 和 [資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 並擷取資料。
 
-* 確保Customer Journey Analytics中的使用者已布建至資料對應的資料檢視。
+1. 確保Customer Journey Analytics中的使用者已布建至資料對應的資料檢視。
 
-  如需詳細資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   如需詳細資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
-  Admin Console 中每個產品設定檔都有 權限 索引標籤。您可以將使用者新增到特定的產品設定檔。然後，將權限指派給指定的資料檢視，並指定產品設定檔中的使用者擁有哪些權限。
+   「許可權」索引標籤是Admin Console中每個產品設定檔的一部分。 您可以將使用者新增到特定的產品設定檔。然後，將許可權指派給特定的資料檢視，並指定產品設定檔中的使用者擁有哪些許可權。
 
-* 以組織身分決定要如何對應元件。
+1. 以組織身分決定要如何對應元件。
 
-  如需詳細資訊，請參閱以下章節， [以組織身分決定要如何對應元件](#decide-as-an-organization-how-you-will-map-components).
+   如需詳細資訊，請參閱以下章節， [以組織身分決定要如何對應元件](#decide-as-an-organization-how-you-will-map-components).
 
 ## 瞭解移轉包含的內容
 
@@ -123,7 +123,7 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 >
 >移轉程式會識別Adobe Analytics專案中無法自動對應至Customer Journey Analytics中元件的元件，並允許您手動對應這些元件。
 >
->**針對一個專案所做的任何對應都會套用至整個組織中的所有未來專案，無論哪位使用者正在執行移轉。 除非連絡客戶服務，否則無法修改或復原這些對應。**
+>**對單一專案所做的任何對應都會套用至您整個IMS組織中的所有未來專案，無論哪位使用者正在執行移轉。 除非連絡客戶服務，否則無法修改或復原這些對應。**
 >
 >因此，您的組織在移轉任何專案之前，必須先決定維度和量度的對應方式，這一點很重要。 這樣做可避免個別管理員在僅考慮單一專案時，於穀倉中做出決策。
 >
