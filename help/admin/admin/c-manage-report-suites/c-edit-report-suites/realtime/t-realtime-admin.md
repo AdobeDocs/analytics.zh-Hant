@@ -3,10 +3,10 @@ description: 設定即時報表的管理步驟。
 title: 即時報表設定
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 90%
+source-wordcount: '288'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 設定即時報表的管理步驟。
 
-在Adobe Analytics中設定即時報表，包括選取報表套裝，以及為其選取最多3個報表。
+在Adobe Analytics中設定即時報表，包括選取報表套裝，以及為其選取最多3個報表。 依預設，所有使用者都能存取即時報告。
 
 1. 選取您要啟用即時報告的報表套裝。
 
@@ -53,8 +53,11 @@ ht-degree: 90%
 
    ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/warning_dimensions.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;或&#x200B;**[!UICONTROL 「儲存並檢視報表」]**。
+1. 按一下「**[!UICONTROL 儲存]**」。
 
    初始設定報告後，最多可能需要 20 分鐘，才會開始串流資料。從那時起，資料立即可用。
 
-1. 依預設，所有使用者都能存取即時報告。
+1. 若要檢視即時報表，請導覽至：
+
+   **[!UICONTROL 工作區]** > **[!UICONTROL 報表]** > **[!UICONTROL 參與]** > **[!UICONTROL 即時]**.
+

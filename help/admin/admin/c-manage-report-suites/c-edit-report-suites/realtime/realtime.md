@@ -3,10 +3,10 @@ description: 即時顯示網頁流量和排名頁面檢視。提供可操作的�
 title: 即時報表
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: b8efacacf7fca792b4a4fa41dd3f9d6ac1448578
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 96%
+source-wordcount: '582'
+ht-degree: 94%
 
 ---
 
@@ -14,17 +14,13 @@ ht-degree: 96%
 
 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 
-
-
 >[!NOTE]
 >
 >即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實作。若要設定即時報表，請參閱 [即時報表設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
 
-以下是影片概觀：
+若要檢視即時報表，請導覽至：
 
->[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
-
-**[!UICONTROL 網站量度]** > **[!UICONTROL 即時]**
+**[!UICONTROL 工作區]** > **[!UICONTROL 報表]** > **[!UICONTROL 參與]** > **[!UICONTROL 即時]**.
 
 請即時回答下列問題：我的網站有何趨勢、原因為何？它可讓身為行銷人員的您，迅速回應、積極管理行銷內容和促銷活動的效能。所報告的即時資料延遲不超過兩分鐘，並且每分鐘自動更新一次。
 
@@ -52,7 +48,7 @@ ht-degree: 96%
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 
-## 因為 A4T 設定造成的資料延遲 {#section_806CE36354FC4C539A0DED9266A5C704}
+## 因為 A4T 設定造成的資料延遲 {#latency}
 
 Adobe Target 中的 A4T 整合啟用後，您就會在 Adobe Analytics 中遇到 5 至 10 分鐘的額外延遲。增加此延遲可使 Analytics 和 Target 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
 
