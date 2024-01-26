@@ -3,7 +3,8 @@ title: Adobe Analytics 產品設定檔
 description: 了解如何使用產品設定檔來進行權限預設，讓產品管理員可以指定權限給組織內的使用者。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 93%

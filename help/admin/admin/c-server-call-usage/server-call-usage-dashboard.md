@@ -3,9 +3,10 @@ description: 如何在 Adobe Analytics 中檢視目前伺服器呼叫使用量�
 title: 檢視目前伺服器呼叫使用量
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '291'
 ht-degree: 100%
 
 ---
@@ -23,13 +24,13 @@ ht-degree: 100%
 * 顯示每種伺服器呼叫類型的伺服器呼叫耗用量和承諾使用量的明細。對於不同的客戶，此檢視可能不同，並且與您的合約包含的內容一致。例如，您可能已註冊 4 種不同類型的伺服器呼叫，分別是適用於 Web 的主要和次要伺服器，以及適用於行動的主要和次要伺服器。在這種情況下，此檢視包含 4 個標籤，每種類型一個標籤。在每個標籤中，您可以檢視目前使用期間的耗用量。
 * 將目前使用量 (綠線) 與合約使用限制 (紅線) 進行比較。
 
-   ![](/help/admin/admin/c-server-call-usage/assets/current_period.png)
+  ![](/help/admin/admin/c-server-call-usage/assets/current_period.png)
 
 * 將您目前期間的使用量與去年的使用量 (藍線) 進行比較。很顯然地，只有當貴公司擁有去年的伺服器呼叫使用量資料時，才會出現藍線。
 
-   >[!NOTE]
-   >
-   > 如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/admin/c-server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
+  >[!NOTE]
+  >
+  > 如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/admin/c-server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
 
 * 列出使用的呼叫百分比 (百分比和原始資料)，以及實際使用期間的百分比 (百分比和原始資料)。
 * 預設情況下會每天更新，有 5 天的處理延遲。

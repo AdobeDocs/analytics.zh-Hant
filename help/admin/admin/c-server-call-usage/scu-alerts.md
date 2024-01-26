@@ -3,9 +3,10 @@ description: 新增或管理伺服器所有使用量警報。當您設定警報�
 title: 伺服器呼叫使用量警報
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 100%
 
 ---
@@ -13,8 +14,6 @@ ht-degree: 100%
 # 伺服器呼叫使用量警報
 
 當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
-
-## 概觀
 
 名稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量警報」]**&#x200B;的新警報類別位於現有[「警報管理」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)使用者介面。
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 * 按一下「目前使用量」標籤或「報表套裝使用量」標籤右上角的&#x200B;**[!UICONTROL 「管理警報」]**，或
 * 導覽至 Adobe Analytics 中的&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 警報」]**。
 
-## 建立伺服器呼叫使用量警報 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
+## 建立伺服器呼叫使用量警報 {#create}
 
 若要建立其他警報，
 
@@ -58,7 +57,7 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-## 管理伺服器呼叫使用量警報 {#section_8FF98170763C4B5CBEC6DD43F893177A}
+## 管理伺服器呼叫使用量警報 {#manage}
 
 ![](/help/admin/admin/c-server-call-usage/assets/alert_mgmt.png)
 
@@ -75,5 +74,7 @@ ht-degree: 100%
    | 重新命名 | 您可以重新命名預設警報以外的所有警報。 |
    | 核准 | 核准警報即可使其成為「正式」警報。 |
    | 啟用/停用 | 您可以啟用或停用所有警報，甚至是預設警報。 |
-   | 續訂 | 選取一或多個警報後，即可續訂警報。如此一來，到期日將從按一下[!UICONTROL 「續訂」]之日算起延長 1 年，無論原始到期日為何。 |
+   | 續訂 | 選取一或多個警報後，可續訂這些警報。這將延長警報到期日，無論其原始到期日為何，將從按下[!UICONTROL 「更新」]之日起延長 1 年。 |
    | 匯出至 CSV | 請參閱[下載使用情況報表](/help/admin/admin/c-server-call-usage/report-suite-usage.md) |
+
+   {style="table-layout:auto"}

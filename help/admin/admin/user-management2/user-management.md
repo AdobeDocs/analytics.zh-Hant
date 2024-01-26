@@ -4,9 +4,10 @@ subtopic: Users and groups
 title: 使用者和產品管理
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 100%
 >
 >使用者和產品管理功能已移至 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 若要開始管理 Adobe Analytics 使用者的使用者權限，請參閱 [Adobe Admin Console 中的分析](/help/admin/admin-console/home.md)。
 
-## Adobe Admin Console 管理員的說明資源 {#section_C13BBB89E4F248F193358BB3A59DD502}
+## Adobe Admin Console 管理員的說明資源 {#help}
 
 | 工作或資源 | 說明 |
 | --- | --- |

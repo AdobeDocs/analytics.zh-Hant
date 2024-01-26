@@ -1,11 +1,13 @@
 ---
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
-title: 報告活動管理器概述
+title: 報告活動管理器總覽
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
@@ -13,7 +15,7 @@ ht-degree: 23%
 
 此 [!UICONTROL 報告活動管理器] 可供管理員使用。
 
-如果您的組織在報告高峰期遇到報告效能降低的情況，報告活動管理器可讓您自行診斷和修正容量問題，無需Adobe客戶服務的介入。 您可以在單一介面中輕鬆管理報告佇列並立即採取行動，以改善使用者體驗。
+如果您的組織在報告高峰期遇到報告效能降低的情況，報告活動管理器可讓您自行診斷和修正容量問題，無需Adobe客戶服務的介入。 您可以在單一介面中輕鬆管理報告佇列，並立即採取行動&#x200B;&#x200B;以改善使用者體驗。
 
 ## 優點
 
@@ -38,4 +40,3 @@ ht-degree: 23%
 ## 取消報告請求
 
 如需有關在報告活動管理器中取消報告請求的資訊，請參閱 [取消報告活動管理器中的報告請求](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
-

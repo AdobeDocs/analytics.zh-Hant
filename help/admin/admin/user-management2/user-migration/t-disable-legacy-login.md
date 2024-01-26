@@ -3,14 +3,15 @@ description: 瞭解如何為 Analytics 使用者停用舊版登入。
 title: 停用舊版登入
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
 ---
 
-# 停用舊版登入{#disable-legacy-logins}
+# 停用舊版登入
 
 瞭解如何為 Analytics 使用者停用舊版登入。
 

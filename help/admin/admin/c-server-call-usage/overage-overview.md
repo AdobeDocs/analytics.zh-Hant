@@ -3,16 +3,15 @@ description: Adobe Analytics 伺服器呼叫使用量功能概觀。
 title: 伺服器呼叫使用量概觀
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1039'
 ht-degree: 100%
 
 ---
 
-# 伺服器呼叫使用量概觀
-
-## 為何要對伺服器呼叫使用量進行監控和傳送警報？ {#section_060C29BF1D00444B85892AD1FCF55290}
+# 伺服器呼叫使用量
 
 Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服器呼叫使用量資料透明化的請求。其可讓您存取：
 
@@ -31,7 +30,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
 * **權限：**&#x200B;若要存取「伺服器呼叫使用量」控制面板和「警報產生器/管理器」，您必須是 Adobe Analytics 管理員。
 * **權限：**&#x200B;管理員可以向非管理員授予存取權： 該權限稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量」]**。請參閱[伺服器呼叫使用量權限](/help/admin/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
 
-## 重要術語 {#section_CBA348A039F34563B097CD8890AB358D}
+## 重要術語 {#terminology}
 
 以下是伺服器呼叫使用量之基本術語的簡短入門：
 
@@ -80,7 +79,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
  </tbody> 
 </table>
 
-## 伺服器呼叫使用量權限 {#section_FCC58EB635954A32990D4E67B52B4369}
+## 伺服器呼叫使用量權限 {#permission}
 
 伺服器呼叫使用量權限會自動授予 Analytics 管理員。該權限可讓使用者檢視控制面板，並建立伺服器呼叫警報。管理員可以選擇將這些權限授予非管理員使用者。
 

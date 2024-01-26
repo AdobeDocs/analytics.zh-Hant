@@ -3,10 +3,11 @@ title: 依 IP 位址排除
 description: 防止某些 IP 位址產生的資料出現在報表中。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 95%
+source-wordcount: '219'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 95%
 >
 >依 IP 位址排除的點擊在帳單中會計為[伺服器呼叫](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)。
 
-您可以使用萬用字元指示器(&#42;)來排除位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
+您可以使用萬用字元指標(&#42;)以排除某個位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
 
 >[!TIP]
 >

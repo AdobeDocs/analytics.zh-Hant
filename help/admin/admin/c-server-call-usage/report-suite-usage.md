@@ -3,10 +3,11 @@ description: 「報表套裝使用量」索引標籤針對目前使用期間，�
 title: 檢視報表套裝使用量
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 99%
 
 ---
 
@@ -30,6 +31,8 @@ ht-degree: 100%
 
 ![](/help/admin/admin/c-server-call-usage/assets/report-suite-usage.png)
 
+## 儀表板設定 {#settings}
+
 | 欄目 | 定義 |
 |--- |--- |
 | 報表套裝名稱 | 報表套裝的易記名稱。 |
@@ -39,8 +42,9 @@ ht-degree: 100%
 | 主要行動裝置 (%) | 目前使用期間內發生的所有行動主要伺服器呼叫次數 (及其總計百分比)。 |
 | 次要行動裝置 (%) | 目前使用期間內發生的所有行動次要伺服器呼叫次數 (及其總計百分比)。 |
 
+{style="table-layout:auto"}
 
-## 下載使用情況報表 {#section_D7345660B5E043CD8850954216509A3D}
+## 下載使用情況報表 {#download}
 
 此選項可讓您下載目前使用資料，以及目前使用期間之前時段的資料 (可追溯至 2015 年 1 月)。該報表將下載為 .csv 檔案。
 
@@ -55,6 +59,8 @@ ht-degree: 100%
 | 隨附報表套裝 | 您在「報表伺服器使用量」頁面上選取的任何報表套裝都包含在此清單中。 |
 | 包含的呼叫類型 | 指定以下任意組合：所有呼叫 (預設)、主要、次要、行動主要、行動次要。 |
 | 時間範圍 | 您可以選擇目前使用期間或指定自訂範圍。對於自訂範圍，請指定「範圍開始」和「範圍結束」。<br>**注意：**&#x200B;您無法下載 2015 年 1 月之前的使用量資料</br>。 |
+
+{style="table-layout:auto"}
 
 1. 按一下&#x200B;**[!UICONTROL 「下載」]**。
 

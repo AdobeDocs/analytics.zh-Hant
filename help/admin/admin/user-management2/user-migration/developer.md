@@ -3,9 +3,10 @@ description: 列出受使用者移轉影響的 API
 title: 受使用者移轉影響的 API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+role: Admin, Developer
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 100%
 
 Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.omniture.com] 登入，改成透過 Adobe Experience Cloud 驗證。一旦開始移轉作業，原本的 Analytics 專用權限，以及 Analytics Admin API 1.3 和 1.4 等版本所提供的 `GetLoginKey` 方法都將停用，屆時系統將不支援以這些方法建立及管理程式使用者。Experience Cloud 中的所有此類動作，現在都將透過 [!DNL adobe.io] 啟用。
 
-## 受影響的 API 方法 {#section-d19051ac26cc49aeb124f767c4760254}
+## 受影響的 API 方法 {#methods}
 
 一旦開始移轉使用者，系統將不再支援 Admin API 1.3 和 1.4 版的以下 API 方法：
 
@@ -33,7 +34,7 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## 可執行的動作 {#section-8b0b89a862614f729ebdbe092ce99027}
+## 可執行的動作 {#actions}
 
 如果貴公司目前仍在使用以上方法，請尋找最早於 2018 年 3 月 31 日發送的預先移轉通知。系統會在貴公司開始改用 Experience Cloud 驗證的至少 30 天前傳送通知，屆時這些方法將停止支援。
 

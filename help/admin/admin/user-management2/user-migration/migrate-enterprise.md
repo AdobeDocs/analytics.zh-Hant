@@ -3,14 +3,15 @@ description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶
 title: 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
-source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '743'
+ht-degree: 97%
 
 ---
 
-# 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶
 
 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Adobe Admin Console。
 
@@ -127,7 +128,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確認<span class="term">「網域」</span>和<span class="term">「電子郵件」</span>欄中的網域符合在「先決條件」</a>中建立的網域。 </p> </td> 
+   <td colname="col2"> <p>確定中的網域 <span class="term"> 網域</span> 和 <span class="term"> 電子郵件</span> 資料行符合在「先決條件」中建立的網域</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>國家/地區代碼 </p> </td> 

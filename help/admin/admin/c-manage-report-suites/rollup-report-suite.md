@@ -1,26 +1,21 @@
 ---
-description: 報表套裝類型的說明，以及全域報表套裝和統計報表套裝的比較。
-title: 報表套裝做法
+description: 全域報表套裝的說明
+title: 全域報表套裝
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
-source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 89%
+source-wordcount: '404'
+ht-degree: 90%
 
 ---
 
-# 報表套裝做法
-
-<!-- change filename since page name changed? -->
-
-您可以將報表套裝設定為&#x200B;*全域報表套裝*&#x200B;或&#x200B;*統計報表套裝*。
-
-## 全域報表套裝
+# 全域報表套裝
 
 全域報表套裝可從您的組織擁有的所有網域和應用程式中收集資料。 它需要實作，才能傳送所有影像要求給單一報表套裝。
 
-Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[全域報表套裝考量事項](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)」，以了解實作全域報表套裝的優點。
+Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[全域報表套裝考量事項](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html?lang=zh-Hant)」，以了解實作全域報表套裝的優點。
 
 您可以使用&#x200B;*多套裝標記*&#x200B;和&#x200B;*虛擬報表套裝*&#x200B;做法，將貴公司的部分全域報表套裝資料提供給不同的一般用戶：
 
@@ -38,13 +33,13 @@ Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[
 
 使用虛擬報表套裝來取代多套裝標記通常是最佳做法，但虛擬報表套裝有一些限制。 請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」，以判斷哪一種報表套裝做法是符合貴公司需求的最佳選擇。 如需虛擬報表套裝與多套裝標籤功能的深入比較，請參閱「[虛擬報表套裝和多套裝標籤](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).」
 
-## 統計報表
+<!---## Rollup reports
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 是唯一支援統計報表的工具。 Reports &amp; Analytics已於2024年1月17日終止服務。
+>[!DNL Reports & Analytics] is the only tool that supported rollup reports. Reports & Analytics was end-of-lifed on January 17, 2024.
 
-<!---### Limitations of Rollup Reports {#limitations-rollups}
+Limitations of Rollup Reports {#limitations-rollups}
 
 * Rollups provide total data, but they do not report individual values in reports. For example, eVar1 values are not included, but their aggregate total can be.
 * Data is not deduplicated when the rollup combines data across report suites.

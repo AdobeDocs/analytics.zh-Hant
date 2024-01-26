@@ -1,14 +1,16 @@
 ---
 description: 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。這項資料在匯入後，即可比照以原生方式收集的資料並透過類似方式處理。
-title: 資料來源適用於管理員
+title: 適用於管理員的資料來源
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+role: Admin
+source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 97%
 
 ---
+
 
 # 資料來源
 
