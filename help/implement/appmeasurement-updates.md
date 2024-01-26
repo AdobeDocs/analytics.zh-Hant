@@ -3,10 +3,11 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+role: Admin, Developer, Leader, User
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 92%
+source-wordcount: '2618'
+ht-degree: 89%
 
 ---
 
@@ -20,14 +21,14 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 ## 2.25.0 版本
 
-發行日期：**2023 年 9 月 12 日**
+發行日期： **2023年9月12日**
 
 * 新增選用方法 [`bufferRequests()`](vars/functions/bufferrequests.md) 提升瀏覽器不支援Beacon API或頁面取消載入時取消要求時擷取要求的可靠性。
 * 已新增保護機制，以防止單一追蹤請求出現多個追蹤後回呼。
 
 ## 2.24.0 版本
 
-發行日期：**2023 年 7 月 18 日**
+發行日期： **2023年7月18日**
 
 * 新增可選的設定變數 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 將包含雙位元組編碼字元的連結URL解碼。
 * 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器新增其他錯誤處理。
@@ -353,8 +354,8 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 發行日期：**2015 年 5 月 21 日**
 
-* 從 iOS SDK 4.5 版本開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。
-* 從 Android SDK 4.5 版本開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。
+* 從iOS SDK 4.5版開始，新的iOS擴充功能可讓您從Apple Watch應用程式、「今天」小工具、「照片編輯」小工具和所有其他iOS擴充應用程式中收集使用資料。
+* 從Android SDK 4.5版開始，新的Android擴充功能可讓您透過Android穿戴式裝置應用程式中收集資料。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版本。
 
@@ -375,7 +376,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 發行日期：**2015 年 2 月 19 日**
 
 * 將所有延遲追蹤呼叫的處理改為一致，以修正延遲期間的備份變數問題，例如已點按物件。
-* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定&#x200B;*`s.referrer`*&#x200B;時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。
+* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定 *`s.referrer`* 時，以免第二個、第三個……追蹤呼叫（通常是連結追蹤）重複計算反向連結。
 * 已更新分送 Zip 檔，現在包含 Visitor API 1.3.5。
 
 ## 1.4.2 版本

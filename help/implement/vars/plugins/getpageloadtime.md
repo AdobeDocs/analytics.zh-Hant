@@ -3,10 +3,11 @@ title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: dd9046bbb8d640d7392cddfab7ce34c4310e6eb7
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '34'
-ht-degree: 41%
+ht-degree: 61%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 41%
 
 >[!IMPORTANT]
 >
->此外掛程式已不再受支援。 其程式碼會使用performance.timing方法，根據MDN，該方法已 [已棄用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
+>不再支援此外掛程式。其程式碼會使用performance.timing方法，根據MDN，該方法已 [已棄用](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming).
 
 <!-- The `getPageLoadTime` plug-in uses the JavaScript performance object to allow you to measure the amount of time a page takes to completely load. Adobe recommends using this plug-in if you want to measure how long pages take to load.
 

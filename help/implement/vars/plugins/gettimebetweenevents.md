@@ -3,9 +3,10 @@ title: getTimeBetweenEvents
 description: 測量兩個事件之間的時間長度。
 feature: Variables
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '786'
 ht-degree: 91%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 91%
 
 ## 使用Web SDK或Web SDK擴充功能安裝外掛程式
 
-Web SDK尚不支援此外掛程式。
+此外掛程式尚不支援在Web SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
-Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛程式。
+Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -66,9 +67,9 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`stp`** (必要，字串)：停止計時器事件。用於「停止計時器」的 Analytics 事件字串 (以逗號分隔)。
 * **`res`** (必要，布林值)：重設計時器選項。如果要記錄計時器啟動後的時間，並在計時器停止後重設計時器，請設為 `true`。如果要記錄時間但不要停止計時器，請設為 `false`。如果設為 `false`，則計時器會在事件變數記錄停止事件後繼續執行。
 
-   >[!TIP]
-   >
-   >如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
+  >[!TIP]
+  >
+  >如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
 * **`cn`** (選用，字串)：儲存第一個事件時間的 Cookie 名稱。預設為 `"s_tbe"`。
 * **`etd`** (選用，整數)：Cookie 的到期時間 (以天為單位)。設為 `0`，在瀏覽器作業階段結束時到期。若未設定，則預設為 1 天。
 * **`fmt`** (選用，字串)：傳回秒數的時間格式 (無預設值)

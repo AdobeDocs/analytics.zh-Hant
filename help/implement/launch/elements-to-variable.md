@@ -3,7 +3,8 @@ title: 將標記資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，好讓您可以在 Analysis Workspace 中將其當成維度使用。
 feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 96%

@@ -3,7 +3,8 @@ title: forceOffline
 description: 手動設定 AppMeasurement 的線上狀態。
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 80%

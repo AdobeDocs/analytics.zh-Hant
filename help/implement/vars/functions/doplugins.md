@@ -3,35 +3,36 @@ title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 62%
+source-wordcount: '309'
+ht-degree: 63%
 
 ---
 
 # doPlugins
 
-`doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。這是呼叫的理想場所 [外掛程式方法](../plugins/impl-plugins.md) 並在傳送影像要求之前設定任何所需的變數。 如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
+`doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。這是致電的理想場所 [外掛程式方法](../plugins/impl-plugins.md) 並在傳送影像要求之前設定任何需要的變數。 如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
 
 * 所有頁面瀏覽 ([`t()`](t-method.md)) 呼叫
 * 所有連結追蹤 ([`tl()`](tl-method.md)) 呼叫，包括自動下載連結和退出連結
 
 使用 `doPlugins` 變數來呼叫外掛程式程式碼，並在影像要求編譯並傳送至 Adobe 之前設定最終變數值。
 
-## 在事件前使用使用Web SDK擴充功能傳送回呼程式碼
+## 使用Web SDK擴充功能在Before Event傳送回呼代碼前使用
 
-而非 `doPlugins`,Web SDK使用 `onBeforeEventSend` 功能類似。
+而非 `doPlugins`，Web SDK會使用 `onBeforeEventSend` 具有類似功能。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件傳送回呼程式碼之前編輯]** 按鈕。
+1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 在事件傳送回呼代碼前編輯]** 按鈕。
 1. 將所需的程式碼放入編輯器中。
 
 ## 使用 `onBeforeEventSend` 手動實作Web SDK
 
-而非 `doPlugins`,Web SDK使用 `onBeforeEventSend` 功能類似。 請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 如需詳細資訊，請參閱網頁SDK檔案。
+而非 `doPlugins`，Web SDK會使用 `onBeforeEventSend` 具有類似功能。 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
 
 ```js
 // Set the trackingCode XDM field to "New value"

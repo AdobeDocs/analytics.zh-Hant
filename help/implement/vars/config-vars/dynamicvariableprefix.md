@@ -3,9 +3,10 @@ title: dynamicVariablePrefix
 description: 可讓您自訂用來辨識動態變數的字串。
 feature: Variables
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '255'
 ht-degree: 76%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 76%
 
 ## 使用Web SDK的動態變數首碼
 
-Web SDK不使用動態變數格式。 反之，您可以使用資料流對應，使用單一來源欄位填入多個目標欄位。 請參閱 [使用Web SDK的動態變數](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 以取得更多資訊。
+Web SDK未使用動態變數格式。 您可以改用資料流對應，以使用單一來源欄位填入多個目標欄位。 另請參閱 [使用Web SDK的動態變數](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 以取得詳細資訊。
 
 ## 使用Adobe Analytics擴充功能的動態變數首碼
 

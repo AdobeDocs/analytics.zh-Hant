@@ -3,9 +3,10 @@ title: hier
 description: 在 Adobe Analytics 中實施階層變數。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '350'
 ht-degree: 95%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 95%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
 6. 找出[!UICONTROL 「階層」]區段。
 
 您可以將階層值設定為靜態字串或參考資料元素。您也可以設定所需的分隔符號。確保您在此處設定的分隔符號與報表套裝設定中所設的分隔符號相符。

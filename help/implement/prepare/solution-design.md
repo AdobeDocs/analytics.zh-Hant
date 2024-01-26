@@ -3,7 +3,8 @@ title: 建立解決方案設計文件
 description: 瞭解什麼是解決方案設計文件，以及可如何將其用於您的組織。
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 97%
@@ -41,7 +42,7 @@ ht-degree: 97%
 
 ## 其他資源
 
-定義解決方案設計文件是相當複雜的專案，對未曾建立這類文件的組織來說更是如此。如需其他協助，Adobe 可提供專業諮詢服務，協助您的組織快速上手並開始執行 Adobe Analytics。如果您想要獲得Adobe的專業服務，請與Adobe客戶團隊聯繫。 您可以填寫[技術預先實施問卷](assets/technical-pre-implementation-questionnaire.pdf)，讓 Adobe 確切瞭解如何根據您的組織需求提供協助。
+定義解決方案設計文件是相當複雜的專案，對未曾建立這類文件的組織來說更是如此。如需其他協助，Adobe 可提供專業諮詢服務，協助您的組織快速上手並開始執行 Adobe Analytics。如果您想要獲得Adobe的專業服務，請聯絡您的Adobe客戶團隊。 您可以填寫[技術預先實施問卷](assets/technical-pre-implementation-questionnaire.pdf)，讓 Adobe 確切瞭解如何根據您的組織需求提供協助。
 
 此外，也有一些 Adobe 合作夥伴可專門協助您建立解決方案設計文件，以及在您的網站上實施 Adobe Analytics。
 

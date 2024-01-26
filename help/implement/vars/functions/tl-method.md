@@ -3,9 +3,10 @@ title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 80%
 
 ---
@@ -18,11 +19,11 @@ ht-degree: 80%
 
 ## 使用Web SDK進行連結追蹤
 
-Web SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者皆使用 `sendEvent` 命令。 如果您想要Adobe Analytics將指定的XDM事件計為連結追蹤呼叫，請確定您的XDM資料包含或已對應至 `web.webInteraction.name`, `web.webInteraction.URL`，和 `web.webInteraction.type`.
+Web SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者都使用 `sendEvent` 命令。 如果您希望Adobe Analytics將特定XDM事件計算為連結追蹤呼叫，請確定您的XDM資料包含或對應至 `web.webInteraction.name`， `web.webInteraction.URL`、和 `web.webInteraction.type`.
 
 * 連結名稱對應至 `web.webInteraction.name`.
 * 連結URL對應至 `web.webInteraction.URL`.
-* 連結類型對應至 `web.webInteraction.type`. 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
+* 連結型別對應至 `web.webInteraction.type`. 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
 
 ```js
 alloy("sendEvent", {
@@ -38,20 +39,20 @@ alloy("sendEvent", {
 });
 ```
 
-## 使用Adobe Analytics擴充功能進行連結追蹤
+## 使用Adobe Analytics擴充功能的連結追蹤
 
-Adobe Analytics擴充功能有可設定連結追蹤呼叫的專用位置。
+Adobe Analytics擴充功能有設定連結追蹤呼叫的專屬位置。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
-1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
+1. 在 [!UICONTROL 動作]，按一下所需的動作或按一下 **&#39;+&#39;** 圖示以新增動作。
+1. 設定 [!UICONTROL 副檔名] 下拉式清單至 **[!UICONTROL Adobe Analytics]**，以及 [!UICONTROL 動作型別] 至 **[!UICONTROL 傳送信標]**.
 1. 按一下 `s.tl()` 選擇鈕。
 
 您無法在Analytics擴充功能中設定任何選用引數。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.tl()方法
+## AppMeasurement中的s.tl()方法和Analytics擴充功能自訂程式碼編輯器
 
 當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.tl()` 方法。
 
@@ -78,7 +79,7 @@ s.tl(this,"e","Example exit link");
 s.tl(true,"e","Example exit link");
 ```
 
-### 連結類型 (必填)
+### 連結型別（必要）
 
 連結類型引數是個單一字元的字串，用於判斷連結追蹤呼叫的類型。 有三個有效值。
 

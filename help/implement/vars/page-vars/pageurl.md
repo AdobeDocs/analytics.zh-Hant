@@ -3,10 +3,11 @@ title: pageURL
 description: 覆寫在網站上自動收集的頁面 URL。
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 80%
+source-wordcount: '305'
+ht-degree: 79%
 
 ---
 
@@ -20,17 +21,17 @@ AppMeasurement 會自動收集每次點擊中的頁面 URL。如果您想要覆�
 
 ## 使用Web SDK的頁面URL
 
-頁面URL為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.URL`.
+頁面URL為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.URL`.
 
 ## 使用Adobe Analytics擴充功能的頁面URL
 
-Adobe Experience Platform資料收集中的Analytics擴充功能會自動填入頁面URL。 不過，您可以在設定 Analytics 擴充功能 (全域變數) 時設定頁面 URL 覆寫，或依據規則進行設定。
+Adobe Experience Platform Data Collection中的Analytics擴充功能會自動填入頁面URL。 不過，您可以在設定 Analytics 擴充功能 (全域變數) 時設定頁面 URL 覆寫，或依據規則進行設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
 3. 前往&#x200B;**[!UICONTROL 規則]**&#x200B;標籤，然後按一下所需的規則 (或建立規則)。
 4. 在&#x200B;**[!UICONTROL 「動作」]**&#x200B;下方按一下現有的&#x200B;**[!UICONTROL 「Adobe Analytics - 設定變數」]**&#x200B;動作，或按一下「+」圖示。
-5. 設定 **[!UICONTROL 擴充功能]** 下拉式清單至Adobe Analytics，以及 **[!UICONTROL 動作類型]** to **[!UICONTROL 設定變數]**.
+5. 設定 **[!UICONTROL 副檔名]** Adobe Analytics的下拉式清單，以及 **[!UICONTROL 動作型別]** 至 **[!UICONTROL 設定變數]**.
 6. 找出&#x200B;**[!UICONTROL 「頁面 URL」]**&#x200B;區段。
 
 您可以將頁面 URL 設為任何字串值。

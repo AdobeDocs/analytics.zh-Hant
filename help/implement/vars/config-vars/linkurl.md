@@ -3,10 +3,11 @@ title: linkURL
 description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生連結 URL。
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 76%
+source-wordcount: '138'
+ht-degree: 75%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 76%
 
 ## 使用Web SDK的連結URL
 
-連結URL為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `web.webInteraction.URL`.
+連結URL [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `web.webInteraction.URL`.
 
-## 使用Adobe Analytics擴充功能連結URL
+## 使用Adobe Analytics擴充功能的連結URL
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 

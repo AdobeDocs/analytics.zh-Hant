@@ -3,10 +3,11 @@ title: 購買事件
 description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 75%
+source-wordcount: '451'
+ht-degree: 74%
 
 ---
 
@@ -22,11 +23,11 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->收入不會乘以數量欄位。例如， `s.products="Womens;Socks;5;4.50"` 不會傳入$22.50;傳入$4.50。請確定您的實作傳入的是所列數量的收入總額。 例如，`s.products="Womens;Socks;5;22.50"`。
+>收入不會乘以數量欄位。例如， `s.products="Womens;Socks;5;4.50"` 不會傳入收入$22.50，而是傳入$4.50。請確定您的實作傳遞了所列數量的總收入。 例如，`s.products="Womens;Socks;5;22.50"`。
 
 ## 使用Web SDK設定購買事件
 
-購買事件為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在數個XDM欄位下：
+購買事件為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多個XDM欄位底下：
 
 * 訂單會對應到 `commerce.purchases.value`。
 * 單位會對應到所有 `productListItems[].quantity` 欄位的總和。
@@ -38,10 +39,10 @@ ht-degree: 75%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
-6. 找出 [!UICONTROL 事件] ，並設定 [!UICONTROL 事件] 下拉清單至 [!UICONTROL 購買].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+6. 找到 [!UICONTROL 活動] 部分，並設定 [!UICONTROL 活動] 下拉式清單至 [!UICONTROL 購買].
 
-其他相依變數，例如 `products` 和 `purchaseID` Adobe Experience Platform Data Collection中的Analytics擴充功能中沒有專用欄位。 請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
+其他相依變數，例如 `products` 和 `purchaseID` Adobe Experience Platform資料收集內的Analytics擴充功能中沒有專用欄位。 請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
 
 ## 在AppMeasurement和Analytics擴充功能自訂程式碼編輯器中設定購買事件
 

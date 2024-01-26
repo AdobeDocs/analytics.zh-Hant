@@ -3,10 +3,11 @@ title: getGeoCoordinates
 description: 追蹤訪客的 geoLocation。
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 72%
+source-wordcount: '562'
+ht-degree: 71%
 
 ---
 
@@ -18,25 +19,25 @@ ht-degree: 72%
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
-Adobe提供的擴充功能可讓您將最常用的外掛程式與Web SDK搭配使用。
+Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 標籤]** 在左側，按一下所需的標籤屬性。
-1. 按一下 **[!UICONTROL 擴充功能]** 在左側，按一下 **[!UICONTROL 目錄]** 標籤
-1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 擴充功能。
-1. 按一下 **[!UICONTROL 資料元素]** 在左側，然後按一下所需的資料元素。
-1. 使用下列設定設定所需的資料元素名稱：
+1. 按一下 **[!UICONTROL 標籤]** 然後，按一下所需的標籤屬性。
+1. 按一下 **[!UICONTROL 擴充功能]** 然後按一下左側的 **[!UICONTROL 目錄]** 標籤
+1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 副檔名。
+1. 按一下 **[!UICONTROL 資料元素]** 然後按一下所需的資料元素。
+1. 使用下列設定來設定所需的資料元素名稱：
    * 擴充功能：常見Web SDK外掛程式
-   * 資料元素: `getGeoCoordinates`
+   * 資料元素： `getGeoCoordinates`
 1. 儲存並發佈資料元素的變更。
 
-## 手動安裝外掛程式以實作Web SDK
+## 手動實作Web SDK安裝外掛程式
 
-手動實作Web SDK時尚不支援此外掛程式。
+此外掛程式尚不支援在Web SDK的手動實作中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
-Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛程式。
+Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。

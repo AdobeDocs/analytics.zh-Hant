@@ -3,9 +3,10 @@ title: 疑難排解 JavaScript 實施
 description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務。
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 97%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 97%
 
 ### 混合引號以定義變數
 
-作為最佳實務，請確定您與使用的引號類型一致。 如果以單引號指定字串的開頭，就必須使用單引號來結束該字串。
+作為最佳實務，請務必與您使用的引號型別一致。 如果以單引號指定字串的開頭，就必須使用單引號來結束該字串。
 
 例如 `s.eVar1 = 'Value'` 和 `s.eVar1 = "Value"` 都有效。`s.eVar1 = 'Value"` 無效.
 
@@ -89,24 +90,24 @@ s.pageName = "        Home Page";
 * **使用 Experience Cloud ID 服務**：AppMeasurement 程式庫 1.4.1和更新版本會在影像要求過長時，使用 HTTP POST 來自動傳送影像要求。不論資料長度為何，使用此方法傳送的資料都不會遭截斷。如需詳細資訊，請參閱 [Adobe Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 * **使用處理規則**：[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)可將值從一個變數複製到另一個變數。此方法可讓您省去在多個變數中設定相同值的繁瑣操作。例如：
 
-   一律執行：<br>
+  一律執行：<br>
 以 eVar1 覆寫 Prop1 的值<br>
 以 eVar1 覆寫 eVar2 的值<br>
 以 eVar1 覆寫 prop2 的值<br>
 
-   然後在您的實作中設定 eVar1：
+  然後在您的實作中設定 eVar1：
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  ```
 
 * **使用動態變數**：如果您的實作會將相同的值填入許多變數中，您可以使用[動態變數](/help/implement/vars/page-vars/dynamic-variables.md)來縮短要求 URL：
 
-   ```js
-   s.eVar1 = "The quick brown fox jumps over the lazy dog";
-   s.eVar2 = "D=v1";
-   s.prop1 = "D=v1";
-   s.prop2 = "D=v1";
-   ```
+  ```js
+  s.eVar1 = "The quick brown fox jumps over the lazy dog";
+  s.eVar2 = "D=v1";
+  s.prop1 = "D=v1";
+  s.prop2 = "D=v1";
+  ```
 
 * **使用分類**：如果產品或頁面名稱異常地長，您可以使用識別值或代碼，然後使用[分類](/help/components/classifications/c-classifications.md)來顯示更好記的名稱。

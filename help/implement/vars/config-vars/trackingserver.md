@@ -3,10 +3,11 @@ title: trackingServer
 description: 決定影像要求的傳送位置。
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 74%
+source-wordcount: '540'
+ht-degree: 72%
 
 ---
 
@@ -20,22 +21,22 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ## 使用Web SDK擴充功能的邊緣網域
 
-Web SDK使用 [!UICONTROL 邊緣網域] 來處理追蹤伺服器和安全追蹤伺服器。 您可以設定所需 [!UICONTROL 邊緣網域] 值。
+Web SDK使用 [!UICONTROL 邊緣網域] 以處理追蹤伺服器和安全追蹤伺服器。 您可以設定所需的 [!UICONTROL 邊緣網域] 設定Web SDK擴充功能時的值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 設定所需 **[!UICONTROL 邊緣網域]** 文字欄位。
+1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 設定所要的 **[!UICONTROL 邊緣網域]** 文字欄位。
 
-請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant) 如需詳細資訊，請參閱網頁SDK檔案。
+另請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant) 詳細資訊，請參閱Web SDK檔案。
 
 >[!TIP]
 >
->如果貴組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
+>如果您的組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
 
-## 邊緣網域手動實作Web SDK
+## Edge網域手動實作Web SDK
 
-使用 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant). 欄位是字串，可決定要將資料傳送至哪個網域。
+設定SDK，使用 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant). 欄位是字串，可決定要將資料傳送至哪個網域。
 
 ```json
 alloy("configure", {
@@ -43,7 +44,7 @@ alloy("configure", {
 });
 ```
 
-## 使用Adobe Analytics擴充功能追蹤伺服器
+## 使用Adobe Analytics擴充功能的追蹤伺服器
 
 「追蹤伺服器」是在設定 Adobe Analytics 擴充功能時，位在「[!UICONTROL 一般]」摺疊式功能表底下的欄位。
 
@@ -54,11 +55,11 @@ alloy("configure", {
 
 如果此欄位留空，其預設值為 `[rsid].data.adobedc.net`。
 
-## AppMeasurement中的s.trackingServer和Analytics擴充功能自訂程式碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.trackingServer
 
 `s.trackingServer` 變數是包含資料傳送位置的字串。
 
-## 決定 的值`trackingServer`
+## 決定值 `trackingServer`
 
 此變數的值取決於您是使用第一方 Cookie 或協力廠商 Cookie。Adobe 強烈建議您在實作中使用第一方 Cookie。
 

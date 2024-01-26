@@ -3,10 +3,11 @@ title: channel
 description: 填入「網站區域」維度。
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 77%
+source-wordcount: '193'
+ht-degree: 76%
 
 ---
 
@@ -14,11 +15,11 @@ ht-degree: 77%
 
 `channel` 變數通常會儲存指定頁面所在的網站區域。這個變數有助於判斷網站的哪些群組最受歡迎。此變數會填入「網站區域」維度。
 
-## 使用Web SDK的通道
+## 使用Web SDK的管道
 
-管道為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.siteSection`.
+頻道是 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.siteSection`.
 
-## 使用Adobe Analytics擴充功能的管道
+## 使用Adobe Analytics擴充功能的頻道
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定管道，或依據規則進行設定。
 
@@ -26,7 +27,7 @@ ht-degree: 77%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
 6. 找出[!UICONTROL 「管道」]區段。
 
 您可以將管道設為任何字串值或資料元素。

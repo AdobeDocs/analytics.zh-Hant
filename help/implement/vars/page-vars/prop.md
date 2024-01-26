@@ -3,9 +3,10 @@ title: prop
 description: 可在實施中使用的自訂變數。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '602'
 ht-degree: 94%
 
 ---
@@ -18,7 +19,7 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 
 >[!TIP]
 >
->Adobe 建議在大部分情況下使用 [eVar](evar.md)。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過，Adobe已改善eVar，現在幾乎能完成prop的所有使用案例。
+>Adobe 建議在大部分情況下使用 [eVar](evar.md)。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過，Adobe已大幅改善eVar，現在幾乎能完成prop的所有使用案例。
 
 如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。可用的 Prop 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
 
@@ -34,7 +35,7 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
 6. 找出[!UICONTROL 「prop」]區段。
 
 您可以將 Prop 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。

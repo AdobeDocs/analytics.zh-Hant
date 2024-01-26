@@ -3,9 +3,10 @@ title: pageName
 description: 網站上各個頁面的名稱。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '257'
 ht-degree: 81%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的頁面名稱
 
-頁面是 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.name`.
+頁面為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.name`.
 
 ## 使用Adobe Analytics擴充功能的頁面名稱
 
@@ -32,7 +33,7 @@ ht-degree: 81%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
 6. 找出[!UICONTROL 「頁面名稱」]區段。
 
 您可以將頁面名稱設為任何字串值，包括資料元素。

@@ -3,9 +3,10 @@ title: fpcookieDomainPeriods
 description: 如果您的網域尾碼有句號，AppMeasurement 便可瞭解要儲存 Cookie 的網域。
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 86%
 
 ---
@@ -21,11 +22,11 @@ ht-degree: 86%
 >
 > 使用此變數時請勿將子網域列入考量。例如，請勿在範例 URL `store.toys.example.com` 上設定 `fpCookieDomainPeriods`。依預設，AppMeasurement 會辨識 Cookie 應儲存在 `example.com` 上，即使在具有許多子網域的 URL 上亦然。
 
-## 使用Web SDK的第一方網域句號
+## 使用Web SDK的第一方網域週期
 
-Web SDK可在不使用此變數的情況下，判斷正確的Cookie儲存網域。
+若無此變數，Web SDK便可判斷正確的Cookie儲存網域。
 
-## 使用Adobe Analytics擴充功能的第一方網域句號
+## 使用Adobe Analytics擴充功能的第一方網域週期
 
 「第一方網域週期」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL Cookie]」摺疊式功能表下方的欄位。
 

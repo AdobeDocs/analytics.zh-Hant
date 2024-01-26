@@ -3,9 +3,10 @@ title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '945'
 ht-degree: 100%
 
 ---

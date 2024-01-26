@@ -3,7 +3,8 @@ title: 頁面變數
 description: 在個別頁面上設定值。
 feature: Variables
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%

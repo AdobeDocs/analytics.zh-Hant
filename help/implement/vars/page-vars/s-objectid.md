@@ -3,9 +3,10 @@ title: s_objectID
 description: 協助 Activity Map 辨識網站上的獨特連結。
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 95%
 
 ---

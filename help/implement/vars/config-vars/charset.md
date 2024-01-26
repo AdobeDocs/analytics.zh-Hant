@@ -3,10 +3,11 @@ title: charSet
 description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: ef82c34f97a0c8172f097b83b521860a1897c82c
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 66%
+source-wordcount: '227'
+ht-degree: 65%
 
 ---
 
@@ -22,7 +23,7 @@ Web SDK目前僅支援UTF-8，不提供變更編碼的選項。
 
 ## Adobe Analytics擴充功能中的字元集
 
-字元集是 [!UICONTROL 一般] 在Adobe Experience Platform Data Collection中設定Adobe Analytics擴充功能時的摺疊式功能表。
+字元集是 [!UICONTROL 一般] 在Adobe Experience Platform資料彙集中設定Adobe Analytics擴充功能時的摺疊式功能表。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。

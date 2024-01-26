@@ -3,10 +3,11 @@ title: t
 description: 傳送頁面瀏覽數追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 57%
+source-wordcount: '453'
+ht-degree: 56%
 
 ---
 
@@ -38,17 +39,17 @@ Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參�
 
 ## 使用Web SDK擴充功能傳送事件
 
-使用動作來設定傳送XDM事件資料至Adobe。 Datastream會接收此資料、套用任何已設定的對應，以及如果該資料是該Datastream的新增服務，則將該資料轉送至Adobe Analytics。
+使用動作來設定傳送XDM事件資料至Adobe。 資料流會接收此資料、套用任何已設定的對應，然後將該資料轉送至Adobe Analytics （如果它是該資料流的新增服務）。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
-1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送事件]**.
+1. 在 [!UICONTROL 動作]，按一下所需的動作或按一下 **&#39;+&#39;** 圖示以新增動作。
+1. 設定 [!UICONTROL 副檔名] 下拉式清單至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作型別] 至 **[!UICONTROL 傳送事件]**.
 
-## 手動實作Web SDK的傳送事件
+## 手動傳送事件以實作Web SDK
 
-使用 `sendEvent` 命令將資料發送到Adobe。 Datastream會接收此資料、套用任何已設定的對應，以及如果該資料是該Datastream的新增服務，則將該資料轉送至Adobe Analytics。
+使用 `sendEvent` 將資料傳送至Adobe的命令。 資料流會接收此資料、套用任何已設定的對應，然後將該資料轉送至Adobe Analytics （如果它是該資料流的新增服務）。
 
 ```js
 alloy("sendEvent", {
@@ -56,20 +57,20 @@ alloy("sendEvent", {
 });
 ```
 
-請參閱 [追蹤事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant) 如需詳細資訊，請參閱網頁SDK檔案。
+另請參閱 [追蹤事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant) 詳細資訊，請參閱Web SDK檔案。
 
 ## 使用Adobe Analytics擴充功能的頁面檢視追蹤呼叫
 
-Adobe Experience Platform Data Collection中的Adobe Analytics擴充功能有設定頁面檢視追蹤呼叫的專用位置。
+Adobe Experience Platform資料收集中的Adobe Analytics擴充功能有設定頁面檢視追蹤呼叫的專用位置。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
-1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
+1. 在 [!UICONTROL 動作]，按一下所需的動作或按一下 **&#39;+&#39;** 圖示以新增動作。
+1. 設定 [!UICONTROL 副檔名] 下拉式清單至 **[!UICONTROL Adobe Analytics]**，以及 [!UICONTROL 動作型別] 至 **[!UICONTROL 傳送信標]**.
 1. 按一下 `s.t()` 選擇鈕。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.t()方法
+## AppMeasurement中的s.t()方法和Analytics擴充功能自訂程式碼編輯器
 
 當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.t()` 方法。
 

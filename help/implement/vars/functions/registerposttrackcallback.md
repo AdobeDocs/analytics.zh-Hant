@@ -3,10 +3,11 @@ title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '349'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +27,7 @@ ht-degree: 71%
 
 ## 使用Web SDK擴充功能的後續追蹤回呼
 
-即將推出!
+即將推出！
 
 ## 手動實作Web SDK的後追蹤回呼
 

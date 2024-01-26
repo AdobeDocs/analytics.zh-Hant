@@ -3,9 +3,10 @@ title: cookieLifetime
 description: 覆寫 AppMeasurement 所建立 Cookie 的有效期。
 feature: Variables
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '264'
 ht-degree: 64%
 
 ---
@@ -20,23 +21,23 @@ AppMeasurement 所設定的 Cookie 通常有效期為 2 年。可使用 `cookieL
 
 ## 使用Web SDK的Cookie期限
 
-Web SDK尚未針對其設定的Cookie存留期提供自訂。
+Web SDK尚未針對其設定的Cookie存留期提供自訂功能。
 
 ## 使用Adobe Analytics擴充功能的Cookie期限
 
-Cookie期限是 [!UICONTROL Cookie] 設定Adobe Analytics擴充功能時設定折疊式功能表。
+Cookie Lifetime是 [!UICONTROL Cookie] 設定Adobe Analytics擴充功能時的摺疊式功能表。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
-1. 展開 [!UICONTROL Cookie] 折疊式功能表，可顯示 [!UICONTROL Cookie期限] 下拉式清單。
+1. 展開 [!UICONTROL Cookie] 摺疊式功能表，可顯示 [!UICONTROL Cookie期限] 下拉式清單。
 
 此下拉式清單包含下列值：
 
 * **預設值**：Cookie 會在 2 年後到期。
 * **無**：AppMeasurement 不設定 Cookie。
 * **作業階段**：Cookie 會在訪客的作業階段結束時到期。
-* **秒**：Cookie 會在指定的秒數過後到期。例如，將此下拉式清單設為 [!UICONTROL 秒] 放置 `86400` 在自訂欄位中，會強制cookie在24小時後過期。
+* **秒**：Cookie 會在指定的秒數過後到期。例如，將此下拉式清單設定為 [!UICONTROL 秒] 和配售 `86400` 放入自訂欄位會強制Cookie在24小時後過期。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.cookieLifetime
 

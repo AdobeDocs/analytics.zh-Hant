@@ -3,9 +3,10 @@ title: apl (appendToList)
 description: 將值附加至支援多個值的變數。
 feature: Variables
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '672'
 ht-degree: 90%
 
 ---
@@ -24,11 +25,11 @@ ht-degree: 90%
 
 ## 使用Web SDK或Web SDK擴充功能安裝外掛程式
 
-Web SDK尚不支援此外掛程式。
+此外掛程式尚不支援在Web SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
-Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛程式。
+Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。

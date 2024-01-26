@@ -3,7 +3,8 @@ title: useLinkTrackSessionStorage
 description: 將連結追蹤資料存放在工作階段存放區中，而非 Cookie。
 feature: Variables
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 86%
@@ -25,11 +26,11 @@ ht-degree: 86%
 
 AppMeasurement 會在傳送點擊至 Adobe 後，移除工作階段存放區連結追蹤資料。關閉瀏覽器標記時，此資料也會自動過期。
 
-## 使用Web SDK使用連結追蹤工作階段儲存
+## 使用Web SDK來使用連結追蹤工作階段存放區
 
 Web SDK不支援此功能。
 
-## 使用Adobe Analytics擴充功能使用連結追蹤工作階段儲存空間
+## 透過Adobe Analytics擴充功能使用連結追蹤工作階段存放區
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 

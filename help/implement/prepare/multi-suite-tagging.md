@@ -3,9 +3,10 @@ description: 了解如何實作多套裝標記，以傳送影像要求給多個�
 title: 實作多套裝標記
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '282'
 ht-degree: 93%
 
 ---

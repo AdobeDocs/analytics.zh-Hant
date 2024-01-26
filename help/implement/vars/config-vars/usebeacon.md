@@ -3,10 +3,11 @@ title: useBeacon
 description: useBeacon 可強制 AppMeasurement 使用瀏覽器 sendBeacon API
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '391'
+ht-degree: 62%
 
 ---
 
@@ -22,22 +23,22 @@ ht-degree: 61%
 
 當訪客使用不支援 `useBeacon` 的瀏覽器時，`navigator.sendBeacon()` 變數會遭到忽略。使用此變數需有 AppMeasurement 2.16.0 或更新版本。
 
-## 使用Web SDK擴充功能的sendBeacon API
+## 透過Web SDK擴充功能使用sendBeacon API
 
-此 **[!UICONTROL 文檔將卸載]** 「動作設定」中的核取方塊會決定傳送至「Adobe」的資料是否使用sendBeacon API。
+此 **[!UICONTROL 檔案將解除安裝]** 動作設定內的核取方塊會判斷傳送至Adobe的資料是否使用sendBeacon API。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 前往 [!UICONTROL 規則] 標籤，然後按一下所需的規則。
-1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送事件]**
-1. 按一下核取方塊 **[!UICONTROL 文檔將卸載]** 在右邊。
+1. 在 [!UICONTROL 動作]，按一下所需的動作或按一下 **&#39;+&#39;** 圖示以新增動作。
+1. 設定 [!UICONTROL 副檔名] 下拉式清單至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作型別] 至 **[!UICONTROL 傳送事件]**
+1. 按一下核取方塊 **[!UICONTROL 檔案將解除安裝]** 在右邊。
 
-如果核取此方塊，則會使用sendBeacon API將資料傳送至Adobe。 這項設定預設為未勾選。
+如果勾選此方塊，會使用sendBeacon API將資料傳送至Adobe。 這項設定預設為未勾選。
 
 ## 使用sendBeacon API手動實作Web SDK
 
-設定 `documentUnloading` to `true` 傳送事件時。 若未設定，其預設值為 `false`.
+設定 `documentUnloading` 至 `true` 傳送事件時。 如果未設定，其預設值為 `false`.
 
 ```json
 alloy("sendEvent", {
@@ -46,9 +47,9 @@ alloy("sendEvent", {
 });
 ```
 
-請參閱 [使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 如需詳細資訊，請參閱網頁SDK檔案。
+另請參閱 [使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api) 詳細資訊，請參閱Web SDK檔案。
 
-## 使用Adobe Analytics擴充功能使用信標
+## 透過Adobe Analytics擴充功能使用信標
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 

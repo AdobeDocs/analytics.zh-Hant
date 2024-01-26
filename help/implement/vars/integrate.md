@@ -3,9 +3,10 @@ title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '883'
 ht-degree: 98%
 
 ---
@@ -41,7 +42,7 @@ ht-degree: 98%
 
 ### 將整合模組放置在實作中
 
-在您的網站上實作整合模組需要存取Adobe Experience Platform資料收集。 如果您使用舊版 JavaScript 實作，則需要存取貴組織的網站原始碼。
+若要在網站上實作整合模組，您必須擁有Adobe Experience Platform Data Collection的存取權。 如果您使用舊版 JavaScript 實作，則需要存取貴組織的網站原始碼。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下您要編輯的標記屬性。

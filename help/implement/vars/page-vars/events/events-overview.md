@@ -3,9 +3,10 @@ title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 90%
 
 ---
@@ -52,12 +53,12 @@ ht-degree: 90%
 
 * 可讓您選取要包含之事件的下拉式清單
 * 供序列化使用的選用文字欄位。如需詳細資訊，請參閱[事件序列化](event-serialization.md)。
-* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，選取 `event1` 在下拉式清單底下並包含 `10` 在此欄位中增加 `event1` 報表中按10。
+* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，選取 `event1` 位於下拉式清單下方，並包含 `10` 在此欄位中增加 `event1` 報表中按10。
 * 新增其他事件的按鈕。您可以在合理的範圍內向單一規則新增任意數量的事件。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.events
 
-`s.events` 變數是字串，其中包含您要納入點擊中的逗號分隔事件清單。變數最多可允許64,000個位元組，實際上可依點選需求允許任意數量的事件。 有效值包括：
+`s.events` 變數是字串，其中包含您要納入點擊中的逗號分隔事件清單。變數最多可允許64,000個位元組，實際可視點選需求允許多個事件。 有效值包括：
 
 * `event1` - `event1000`：自訂事件，視需要設定。請將每個事件的使用方式記錄在貴組織的[解決方案設計文件](../../../prepare/solution-design.md)中。可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請聯絡您的Adobe客戶團隊。
 * `purchase`：將[訂單](/help/components/metrics/orders.md)量度增加 1，並使用在 `products` 變數中設定的值來計算[件數](/help/components/metrics/units.md)和[收入](/help/components/metrics/revenue.md)。如需詳細資訊，請參閱[購買事件](event-purchase.md)。

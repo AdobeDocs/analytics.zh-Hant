@@ -3,10 +3,11 @@ title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中納入哪些事件。
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 67%
+source-wordcount: '313'
+ht-degree: 68%
 
 ---
 
@@ -16,17 +17,17 @@ ht-degree: 67%
 
 此變數不適用於頁面瀏覽數呼叫 ([`t()`](../functions/t-method.md) 方法)。
 
-## 使用Web SDK決定要在XDM事件中納入哪些Analytics事件
+## 使用Web SDK決定要包含在XDM事件中的Analytics事件
 
-Web SDK不會排除連結追蹤呼叫的特定欄位。 不過，您可以使用 `onBeforeEventSend` 回撥，在資料傳送至Adobe之前清除或設定所需欄位。 請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 如需詳細資訊，請參閱網頁SDK檔案。
+Web SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可以使用 `onBeforeEventSend` 回撥以在資料傳送至Adobe之前清除或設定所需欄位。 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
 
-## 使用Adobe Analytics擴充功能之連結追蹤呼叫中的事件
+## 使用Adobe Analytics擴充功能的連結追蹤呼叫中的事件
 
 如果您未使用自訂程式碼，Adobe Experience Platform 會自動將已定義的事件納入連結追蹤點擊中。
 
 >[!IMPORTANT]
 >
->如果您在Analytics擴充功能的自訂程式碼編輯器中設定事件，則必須在 `linkTrackEvents` 也使用自訂程式碼。
+>如果您在Analytics擴充功能的自訂程式碼編輯器中設定事件，必須將事件納入 `linkTrackEvents` 使用自訂程式碼。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkTrackEvents
 

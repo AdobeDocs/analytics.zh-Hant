@@ -3,10 +3,11 @@ title: visitorID
 description: 使用自訂訪客 ID。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 71%
+source-wordcount: '333'
+ht-degree: 72%
 
 ---
 
@@ -47,4 +48,4 @@ s.visitorID = "abc123";
 
 ## 使用Web SDK和Experience Edge的訪客ID
 
-Experience Edge可讓您使用XDM來提供多個識別碼 [身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). 「身分對應」中的每個身分都有不同的名稱空間。 您可以指定哪一個名稱空間應該用於訪客ID，做為的一部分 [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#analytics). 完成設定後，當您傳送具有為此名稱空間指定值的事件時，系統會自動將其用作Analytics中的訪客ID。
+Experience Edge可讓您使用XDM來提供多個識別碼 [身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). 「身分對應」中的每個身分都有不同的名稱空間。 您可以指定哪一個名稱空間應該用於訪客ID，做為的一部分 [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#analytics). 完成設定後，當您傳送具有為此名稱空間指定值的事件時，系統會自動將其用作Analytics中的訪客ID。

@@ -3,10 +3,11 @@ title: 比較實施方法
 description: 查看發送資料至 Adobe Analytics 的每種方法優點。
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+role: Admin, Developer, Leader
+source-git-commit: c476a1a19ae514f75fce8bd8e6d447d85de67a84
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 43%
+source-wordcount: '489'
+ht-degree: 39%
 
 ---
 
@@ -16,13 +17,13 @@ ht-degree: 43%
 
 ## Web
 
-| | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics 擴充功能](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK 擴充功能](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
+| | [AppMeasurement](/help/implement/js/overview.md) | [Adobe Analytics擴充功能](/help/implement/launch/overview.md) | [Web SDK](/help/implement/aep-edge/web-sdk/overview.md#web-sdk) | [Web SDK擴充功能](/help/implement/aep-edge/web-sdk/overview.md#web-sdk-extension) |
 | --- | --- | --- | --- | --- |
-| 實施需求 | 在每個頁面參考 `AppMeasurement.js`、定義變量，使用 `s.t()` 發送資料 至Adobe Analytics | 在每個頁面上載入參考標籤載入器，使用資料收集UI來定義變數並傳送資料至Adobe Analytics | 參考 `Alloy.js` 在每個頁面上，使用 `alloy("sendEvent",{})` 構成XDM物件，並使用Edge Network將所需資料傳送到Adobe Analytics | 在每個頁面上載入參考標籤載入器，使用資料收集UI來撰寫XDM物件，並使用Edge Network將所需的資料傳送到Adobe Analytics |
+| 實施需求 | 參考 `AppMeasurement.js` 在每個頁面上，定義變數，使用傳送資料 `s.t()` 至Adobe Analytics | 在每個頁面上載入參考標籤載入器，使用資料收集UI來定義變數並傳送資料至Adobe Analytics | 參考 `Alloy.js` 在每個頁面上，使用 `alloy("sendEvent",{})` 構成XDM物件，並使用Edge Network將所需資料傳送到Adobe Analytics | 在每個頁面上載入參考標籤載入器，使用資料收集UI來撰寫XDM物件，並使用Edge Network將所需的資料傳送到Adobe Analytics |
 | 資料目的地 | 直接傳送到 Adobe Analytics | 直接傳送到 Adobe Analytics | 已傳送至 Adobe Experience Platform Edge，這可將資料傳送至 Adobe Analytics | 已傳送至 Adobe Experience Platform Edge，這可將資料傳送至 Adobe Analytics |
 | 難以進行實施調整 | 每次實施變更都需要存取網站程式碼 | 變更網站程式碼一次，以安裝載入器標籤；所有進一步的實作更新都可在資料收集UI中進行 | 每次實施變更都需要存取網站程式碼 | 變更網站程式碼一次，以安裝載入器標籤；所有進一步的實作更新都可在資料收集UI中進行 |
 | 如何處理 A4T | A4T 呼叫包含在傳送至 Adobe 的點擊中 | A4T 呼叫包含在傳送至 Adobe 的點擊中 | A4T 呼叫是以單獨點擊發送 | A4T 呼叫是以單獨點擊發送 |
-| 上下文資料 | 使用 `s.contextData`. | 使用 `s.contextData` 在自訂程式碼區塊中 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數。 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數。 |
+| 內容資料 | 使用 `s.contextData`. | 使用 `s.contextData` 在自訂程式碼區塊中 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數。 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數。 |
 
 {style="table-layout:auto"}
 
@@ -39,6 +40,6 @@ ht-degree: 43%
 | 資料目的地 | 已傳送至 Adobe Experience Platform Edge，這可將資料傳送至 Adobe Analytics | 已傳送至 Adobe Experience Platform Edge，這可將資料傳送至 Adobe Analytics |
 | 難以進行實施調整 | 變更直接API呼叫所在的應用程式程式碼，或在資料收集UI中進行變更 | 每次實作變更都需要存取應用程式程式碼 |
 | 如何處理 A4T | A4T 呼叫是以單獨點擊發送 | A4T 呼叫是以單獨點擊發送 |
-| 上下文資料 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數。 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數 |
+| 內容資料 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數。 | 所有未對應的欄位都會自動傳送為 `a.x.*` 內容資料變數 |
 
 {style="table-layout:auto"}

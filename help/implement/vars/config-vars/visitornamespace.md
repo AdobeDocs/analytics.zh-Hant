@@ -3,9 +3,10 @@ title: visitorNameSpace
 description: 決定 Cookie 網域的淘汰變數。
 feature: Variables
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 92%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 92%
 >
 > Adobe 建議您在網站上使用第一方 Cookie。第一方 Cookie 不使用此變數。
 
-## 使用Adobe Analytics擴充功能的訪客命名空間
+## 使用Adobe Analytics擴充功能的訪客名稱空間
 
 「[!UICONTROL 訪客命名空間]」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL Cookie]」摺疊式功能表下方的欄位。
 

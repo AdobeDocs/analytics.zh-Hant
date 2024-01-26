@@ -3,10 +3,11 @@ title: 負責現有的 Adobe Analytics 實施
 description: 最新接管現有 Adobe Analytics 實施作業的管理員指示。
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
-source-git-commit: ff719a996260aea108afb80665cacb6a7dbbf923
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 87%
+source-wordcount: '161'
+ht-degree: 71%
 
 ---
 
@@ -18,12 +19,12 @@ ht-degree: 87%
 
 ![Playbook](assets/inherited-impl-playbook.png)
 
-查看您的技術所有者同事 Sarah Owen 提出的這些提示。Sarah 是 Adobe Analytics Champion，她分享了關於如何使用固有實施作業 PlayBook 來負責現有實施作業：
+查看您的技術所有者同事 Sarah Owen 提出的這些提示。Sarah是Adobe Analytics Champion，她分享了關於如何使用固有實施作業PlayBook來負責現有實施作業：
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 另請參閱：
 
-* [「重點檢視」檢查清單可供您在每個網站推出後檢視您的實施作業](/help/implement/review/focused-review.md)
-* [「全面檢視」清單是供每六個月檢視一次您的實施作業](/help/implement/review/full-review.md)
+* [「重點檢視」清單是供您在每個網站推出後檢視您的實施作業。](/help/implement/review/focused-review.md)
+* [「完整審視」檢查清單可供您每六個月檢閱一次實作](/help/implement/review/full-review.md)
 * [定義您的前 5 大 KPI](/help/implement/review/define-kpis.md)

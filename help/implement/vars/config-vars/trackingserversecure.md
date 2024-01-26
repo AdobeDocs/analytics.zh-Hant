@@ -3,10 +3,11 @@ title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 68%
+source-wordcount: '431'
+ht-degree: 66%
 
 ---
 
@@ -20,22 +21,22 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ## 使用Web SDK擴充功能的邊緣網域
 
-Web SDK使用 [!UICONTROL 邊緣網域] 來處理追蹤伺服器和安全追蹤伺服器。 您可以設定所需 [!UICONTROL 邊緣網域] 值。
+Web SDK使用 [!UICONTROL 邊緣網域] 以處理追蹤伺服器和安全追蹤伺服器。 您可以設定所需的 [!UICONTROL 邊緣網域] 設定Web SDK擴充功能時的值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 設定所需 **[!UICONTROL 邊緣網域]** 文字欄位。
+1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 設定所要的 **[!UICONTROL 邊緣網域]** 文字欄位。
 
-請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant) 如需詳細資訊，請參閱網頁SDK檔案。
+另請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant) 詳細資訊，請參閱Web SDK檔案。
 
 >[!TIP]
 >
->如果貴組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
+>如果您的組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
 
-## 邊緣網域手動實作Web SDK
+## Edge網域手動實作Web SDK
 
-使用 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant). 欄位是字串，可決定要將資料傳送至哪個網域。
+設定SDK，使用 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant). 欄位是字串，可決定要將資料傳送至哪個網域。
 
 ```json
 alloy("configure", {

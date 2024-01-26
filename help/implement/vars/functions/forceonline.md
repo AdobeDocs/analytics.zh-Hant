@@ -3,7 +3,8 @@ title: forceOnline
 description: 手動設定 AppMeasurement 的線上狀態。
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 80%
@@ -20,7 +21,7 @@ ht-degree: 80%
 
 AppMeasurement 會自動偵測裝置的線上狀態。您可以使用 `forceOnline()` 方法強迫 AppMeasurement 將點擊視為裝置上線。此方法不採用任何引數，也不會傳回任何值。其唯一用途是覆寫 AppMeasurement 中的線上狀態。
 
-## 使用Web SDK強制聯機
+## 使用Web SDK強制上線
 
 Web SDK不支援離線追蹤。
 

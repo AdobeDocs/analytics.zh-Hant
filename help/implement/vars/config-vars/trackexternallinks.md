@@ -3,10 +3,11 @@ title: trackExternalLinks
 description: 啟用或停用退出連結的自動連結追蹤。
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 59%
+source-wordcount: '324'
+ht-degree: 60%
 
 ---
 
@@ -16,18 +17,18 @@ Adobe 提供追蹤對外連結的功能，使用者不需要手動設定每個�
 
 啟用後，AppMeasurement 會將任何點按的連結 URL 與 [`linkInternalFilters`](linkinternalfilters.md) 和 [`linkExternalFilters`](linkexternalfilters.md) 中的值比較。如果有相符項目，退出連結追蹤呼叫就會自動引發。
 
-## 使用Web SDK擴充功能啟用或停用點按集合
+## 使用Web SDK擴充功能啟用或停用點選收集
 
-使用 [!UICONTROL 啟用點按資料收集] 核取方塊。 此核取方塊可同時處理退出連結和下載連結。
+使用 [!UICONTROL 啟用點選資料收集] 核取方塊。 此核取方塊會處理退出和下載連結。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 啟用點按資料收集]** 核取方塊。
+1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 啟用點選資料收集]** 核取方塊。
 
-## 啟用或停用手動實作Web SDK的點按集合
+## 啟用或停用手動實作Web SDK的點選收集
 
-使用 [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). 欄位是布林值，可判斷是否會自動收集與連結點按次數相關聯的資料。 其預設值為 `true`。將此值設為 `false` 如果您想要停用自動連結追蹤。 此設定可處理下載和退出連結的自動連結追蹤。
+設定SDK，使用 [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。將此值設為 `false` 如果您想要停用自動連結追蹤。 此設定會處理下載和退出連結的自動連結追蹤。
 
 ```json
 alloy("configure", {

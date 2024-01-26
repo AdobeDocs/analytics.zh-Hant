@@ -3,10 +3,11 @@ title: 使用JavaScript適用的AppMeasurement實作Adobe Analytics
 description: 瞭解如何在不使用標記管理系統的情況下使用 JavaScript 實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 49%
+ht-degree: 42%
 
 ---
 
@@ -16,7 +17,7 @@ JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方
 
 實施任務的高層級概觀：
 
-![如何實作具有Javascript適用的AppMeasurement的AdobeAnalytics，如本節所述。](../assets/appmeasurement-annotated.png)
+![如何透過Javascript的AppMeasurement實施AdobeAnalytics，如本節所述。](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -29,7 +30,7 @@ JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方
 </tr>
 
 <tr>
-<td>2</td><td><b>下載必要的JavaScript程式碼以進行AppMeasurement</b> 從「代碼管理器」。 解壓縮檔案。</td><td><a href="../../admin/admin/code-manager-admin.md">程式碼管理員</a></td>
+<td>2</td><td><b>下載AppMeasurement所需的JavaScript程式碼</b> 從「代碼管理器」。 解壓縮檔案。</td><td><a href="../../admin/admin/code-manager-admin.md">程式碼管理員</a></td>
 </tr>
 
 <tr>
@@ -46,7 +47,7 @@ JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方
 </tr>
 
 <tr>
-<td>4</td><td><b>在中定義設定 <code>AppMeasurement.js</code></b> 變數。Analytics物件例項化時，這些變數可確保資料收集設定正確無誤。
+<td>4</td><td><b>在中定義設定變數 <code>AppMeasurement.js</code></b>. Analytics物件例項化時，這些變數可確保資料收集設定正確無誤。
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -61,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>在網站的頁面程式碼中定義頁面層級變數</b>. 這些變數會決定傳送至 Adobe 的特定維度和量度。
+<td>5</td><td><b>在網站的頁面程式碼中定義頁面層級變數</b>. 這些變數會決定傳送至Adobe的特定維度和量度。
 
 ```js
 s.pageName = "Example page";

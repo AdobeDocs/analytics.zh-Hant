@@ -3,9 +3,10 @@ title: linkLeaveQueryString
 description: 允許保留連結追蹤維度中的查詢字串。
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 84%
 
 ---
@@ -26,9 +27,9 @@ ht-degree: 84%
 
 ## 使用Web SDK處理連結查詢字串
 
-查詢字串不會從XDM欄位中移除 `web.webInteraction.URL`. 如果您想從此XDM欄位中移除查詢字串，可使用 `onBeforeEventSend`.
+查詢字串不會從XDM欄位中移除 `web.webInteraction.URL`. 如果您想從此XDM欄位中移除查詢字串，可以使用以下方式編輯它 `onBeforeEventSend`.
 
-## 使用Adobe Analytics擴充功能保留URL參數
+## 使用Adobe Analytics擴充功能保留URL引數
 
 「[!UICONTROL 保留 URL 參數]」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 連結追蹤]」摺疊式功能表下方的勾選方塊。
 

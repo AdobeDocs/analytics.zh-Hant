@@ -3,10 +3,11 @@ title: 對數位助理實施 Analytics
 description: 在數位助理 (例如 Amazon Alexa 或 Google首頁) 上實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1258'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +112,7 @@ Cache-Control: no-cache
 
 每個數位助理都有演算法可偵測意圖，再將意圖傳遞至「應用程式」，讓應用程式知道要做哪些工作。這些意圖都以精簡方式表示要求。
 
-舉例來說，若使用者說「從我的銀行應用程式轉給小明 20 美元，付昨晚的晚餐錢」，則意圖可能會表示為&#x200B;*sendMoney*。
+例如，如果使用者說「Siri，從我的銀行應用程式轉給小明20美元，付昨天的晚餐錢。」目的可能如下 *sendMoney*.
 
 以 eVar 形式傳入各個要求，便能為對話型應用程式產生各個意圖的路徑報表。請確認您的應用程式也能處理不具意圖的要求。Adobe 建議您將「未指定意圖」傳遞至意圖內文資料變數，不要移除變數。
 

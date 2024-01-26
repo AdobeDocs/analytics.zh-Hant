@@ -3,7 +3,8 @@ title: dynamicAccountList
 description: 建立邏輯，讓實施根據此邏輯決定其報表套裝。
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 94%
@@ -14,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
-> 動態帳戶僅支援使用舊版 JavaScript 實作 (H Code)。目前的AppMeasurement程式庫或Adobe Experience Platform資料收集不支援這些變數。
+> 動態帳戶僅支援使用舊版 JavaScript 實作 (H Code)。目前的AppMeasurement程式庫或Adobe Experience Platform資料彙集中不支援這些變數。
 
 `s.dynamicAccountList` 變數會以動態方式決定 `s_account` 的值。如果 `dynamicAccountSelection` 設為 `true`，則會比較 `dynamicAccountMatch` 變數與 `dynamicAccountList`。如果找到相符項目，則會使用相符的報表套裝 ID。
 

@@ -3,7 +3,8 @@ title: 函數與方法
 description: 瞭解如何在實施中使用 Adobe 提供的函數和方法。
 feature: Variables
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%

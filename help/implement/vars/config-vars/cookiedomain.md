@@ -3,7 +3,8 @@ title: cookieDomain
 description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 81%
@@ -27,7 +28,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的Cookie網域
 
-Web SDK可在不使用此變數的情況下，判斷正確的Cookie儲存網域。
+若無此變數，Web SDK便可判斷正確的Cookie儲存網域。
 
 ## 使用Adobe Analytics擴充功能的Cookie網域
 

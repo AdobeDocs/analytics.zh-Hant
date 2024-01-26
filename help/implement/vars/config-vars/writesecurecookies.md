@@ -3,10 +3,11 @@ title: writeSecureCookies
 description: 允許 AppMeasurement 以 Secure 屬性設定 Cookie。
 feature: Variables
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 77%
+source-wordcount: '263'
+ht-degree: 76%
 
 ---
 
@@ -20,11 +21,11 @@ ht-degree: 77%
 
 >[!WARNING]
 >
-> 如果您啟用 `writeSecureCookies` 變數，請確認網站上的所有內容都是安全地透過 HTTPS 提供。如果啟用此變數，且您的頁面上有不安全的內容，資料收集便無法正常運作。
+> 如果您啟用 `writeSecureCookies` 變數，請確認網站上的所有內容都是安全地透過 HTTPS 提供。如果啟用此變數，而且您的頁面上有不安全的內容，資料收集就無法正常運作。
 
-## 透過Web SDK使用安全Cookie
+## 搭配Web SDK使用安全Cookie
 
-若您的網站使用HTTPS通訊協定，Web SDK所設定之所有Cookie都會設定Secure屬性。
+如果您的網站使用HTTPS通訊協定，則會針對Web SDK設定的所有Cookie設定Secure屬性。
 
 ## 使用Adobe Analytics擴充功能撰寫Secure Cookie
 

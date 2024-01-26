@@ -3,9 +3,10 @@ title: 移轉至 JavaScript 適用的 AppMeasurement
 description: 決定將實作從 H 程式碼移出時所需的項目。
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 91%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 91%
 
 1. **下載新的 AppMeasurement 檔案**：登入 Adobe Analytics，然後導覽至「管理員 > 代碼管理器」存取新檔案。 下載的壓縮檔包含精簡的 `AppMeasurement.js` 檔案，以及媒體和整合模組。
 1. **將您的 `s_code.js` 自訂內容複製到`AppMeasurement.js`**：將 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 區段之前的所有程式碼複製到 `AppMeasurement.js` 的開頭。
-1. **更新所有外掛程式**:請務必使用 `s_code.js` 檔案。 此步驟包括「媒體」和「整合」模組。
+1. **更新所有外掛程式**：請務必使用中列出的每個外掛程式，而且請務必使用最新版本， `s_code.js` 檔案。 此步驟包含媒體和整合模組。
 1. **部署 AppMeasurement.js 檔案**：將 `AppMeasurement.js` 檔案上傳至網頁伺服器。
 1. **更新指令碼參考以指向`AppMeasurement.js`**：確認所有頁面都參考 `AppMeasurement.js`，而非 `s_code.js`。
 

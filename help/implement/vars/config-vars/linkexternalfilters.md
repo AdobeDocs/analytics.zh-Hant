@@ -3,9 +3,10 @@ title: linkExternalFilters
 description: 使用 linkExternalFilters 變數來協助自動退出連結追蹤。
 feature: Variables
 exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '388'
 ht-degree: 91%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 91%
 
 AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外部的連結。如果啟用 [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) 或 [`clickCollectionEnabled`](trackexternallinks.md) (Web SDK)，當訪客按一下連結離開您的網站時，系統會將影像要求立即傳送給 Adobe。 `linkExternalFilters` 和 [`linkInternalFilters`](linkinternalfilters.md) 變數決定要將哪些連結視為內部/外部連結。
 
-如果此變數包含值，自動退出連結追蹤會表現出類似允許清單的行為。 如果連結點擊與任何 `linkExternalFilters` 值不符，則不視為退出連結。系統會針對此變數檢查整個 URL。如果啟用 [`linkLeaveQueryString`](linkleavequerystring.md)，也會檢查查詢字串。
+如果此變數包含值，自動退出連結追蹤將會表現出類似允許清單的行為。 如果連結點擊與任何 `linkExternalFilters` 值不符，則不視為退出連結。系統會針對此變數檢查整個 URL。如果啟用 [`linkLeaveQueryString`](linkleavequerystring.md)，也會檢查查詢字串。
 
 >[!TIP]
 >
@@ -28,7 +29,7 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 
 有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)。
 
-## 對外連結 — 使用Adobe Analytics擴充功能追蹤
+## 使用Adobe Analytics擴充功能追蹤對外連結
 
 「追蹤」欄位是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 連結追蹤]」摺疊式功能表下方的逗號分隔篩選清單 (通常是網域)。
 

@@ -3,7 +3,8 @@ title: 在標記中建立 Analytics 屬性
 description: 使用標記建立空間來自訂資料收集的方式。
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 2aef8de290399f234921b09cf094485fc06f1c24
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%

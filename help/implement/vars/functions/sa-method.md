@@ -3,10 +3,11 @@ title: sa
 description: 隨時在您的實施中變更報表套裝。
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 44%
+source-wordcount: '430'
+ht-degree: 42%
 
 ---
 
@@ -16,28 +17,28 @@ ht-degree: 44%
 
 ## 使用Web SDK處理報表套裝
 
-Web SDK的運作方式是傳送資料至特定的資料流，該資料流會將資料轉送至所需的Analytics報表套裝。 單一資料流可將資料轉送至多個報表套裝。 本節適用於Web SDK擴充功能和手動實作Web SDK。
+Web SDK的運作方式是將資料傳送至特定資料流，該資料流會將資料轉送至所需的Analytics報表套裝。 單一資料流可轉送資料至多個報表套裝。 本節同時適用於Web SDK擴充功能和手動實作Web SDK。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 資料流]** 左邊。
-1. 按一下所需的資料流，或按一下 **[!UICONTROL 新資料流]**.
-1. 按一下 **[!UICONTROL 添加服務]**，然後選取 **[!UICONTROL Adobe Analytics]**.
+1. 按一下 **[!UICONTROL 資料串流]** 左側。
+1. 按一下所需的資料流，或按一下 **[!UICONTROL 新增資料串流]**.
+1. 按一下 **[!UICONTROL 新增服務]**，然後選取 **[!UICONTROL Adobe Analytics]**.
 1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下 **[!UICONTROL 新增報表套裝]**.
 1. 輸入所有需要的報表套裝後，按一下 **[!UICONTROL 儲存]**.
 
-## 使用Web SDK擴充功能設定所需的資料流
+## 使用Web SDK擴充功能設定所需的資料串流
 
-Web SDK擴充功能提供每個環境的資料流下拉式清單。 或者，您也可以手動輸入資料流ID。
+Web SDK擴充功能提供每個環境的資料串流下拉式清單。 或者，您可以手動輸入資料串流ID。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料流]，請在下拉式清單中針對每個環境選擇所需的資料流。
+1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 資料串流]，從每個環境的下拉式清單中選擇所需的資料串流。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-## 手動設定實作Web SDK所需的資料流
+## 手動設定所需資料流以實作Web SDK
 
-設定 `edgeConfigId` 設定變數至資料流ID。 在Adobe Experience Platform資料收集中檢視資料流時，可在右側找到資料流ID。
+設定 `edgeConfigId` 設定變數重新命名為Datastream ID。 在Adobe Experience Platform Data Collection中檢視資料流時，可在右側找到資料流ID。
 
 ```js
 alloy("configure", {
@@ -45,7 +46,7 @@ alloy("configure", {
 });
 ```
 
-請參閱 [配置Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) 如需詳細資訊，請參閱網頁SDK檔案。
+另請參閱 [設定Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) 詳細資訊，請參閱Web SDK檔案。
 
 ## 使用Adobe Analytics擴充功能變更報表套裝
 

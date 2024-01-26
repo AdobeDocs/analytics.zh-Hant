@@ -3,10 +3,11 @@ title: 動態變數
 description: 複製變數而不增加影像要求長度。
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 79%
+source-wordcount: '429'
+ht-degree: 78%
 
 ---
 
@@ -26,13 +27,13 @@ ht-degree: 79%
 
 ## 使用Web SDK的動態變數
 
-使用資料流對應，從單一XDM欄位將資料傳送至多個Analytics變數。
+使用資料流對應，從單一XDM欄位傳送資料至多個Analytics變數。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 資料流]** 在左側邊欄。
+1. 按一下 **[!UICONTROL 資料串流]** 在左側邊欄中。
 1. 按一下所需的資料流。
 1. 按一下 **[!UICONTROL 編輯對應]** 在右邊。
-1. 對應所需 [!UICONTROL 源欄位] 到所需 [!UICONTROL 目標欄位]. 單一來源欄位可對應至任何數量的目標欄位。
+1. 對應所要的 [!UICONTROL 來源欄位] 至所需的 [!UICONTROL 目標欄位]. 單一來源欄位可對應至任意數量的目標欄位。
 
 ## 使用Adobe Analytics擴充功能的動態變數
 
@@ -42,7 +43,7 @@ ht-degree: 79%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
 6. 找出所需的維度項目。
 
 將動態變數首碼放置在文字欄位中，隨後加上您要參考的查詢字串參數或 HTTP 標題。依預設，動態變數首碼為 `D=`。

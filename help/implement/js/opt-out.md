@@ -3,7 +3,8 @@ title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
+role: Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 71%

@@ -3,9 +3,10 @@ title: cookieDomainPeriods
 description: 如果您的網域尾碼有句號，AppMeasurement 便可瞭解要儲存 Cookie 的網域。
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 88%
 
 ---
@@ -26,7 +27,7 @@ AppMeasurement 會查看網域和網域尾碼來判斷其 Cookie 位置。針對
 
 ## 使用Web SDK的網域句號
 
-Web SDK可在不使用此變數的情況下，判斷正確的Cookie儲存網域。
+若無此變數，Web SDK便可判斷正確的Cookie儲存網域。
 
 ## 使用Adobe Analytics擴充功能的網域句號
 

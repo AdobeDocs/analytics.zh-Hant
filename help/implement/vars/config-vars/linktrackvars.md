@@ -3,10 +3,11 @@ title: linkTrackVars
 description: 指定要將哪些變數納入連結追蹤影像要求中。
 feature: Variables
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+role: Admin, Developer
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 61%
+source-wordcount: '331'
+ht-degree: 62%
 
 ---
 
@@ -16,17 +17,17 @@ ht-degree: 61%
 
 此變數不適用於頁面瀏覽數呼叫 ([`t()`](../functions/t-method.md) 方法)。
 
-## 決定要使用Web SDK加入XDM事件的變數
+## 使用Web SDK決定要納入XDM事件的變數
 
-Web SDK不會排除連結追蹤呼叫的特定欄位。 不過，您可以使用 `onBeforeEventSend` 回撥，在資料傳送至Adobe之前清除或設定所需欄位。 請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 如需詳細資訊，請參閱網頁SDK檔案。
+Web SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可以使用 `onBeforeEventSend` 回撥以在資料傳送至Adobe之前清除或設定所需欄位。 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
 
-## 使用Adobe Analytics擴充功能之連結追蹤呼叫中的變數
+## 使用Adobe Analytics擴充功能時連結追蹤呼叫中的變數
 
 此變數會根據介面中設定的變數自動填入後端，因此在使用Adobe Analytics擴充功能的實施中一律會設定。
 
 >[!IMPORTANT]
 >
->如果您使用自訂程式碼編輯器設定變數，則必須在 `linkTrackVars` 也使用自訂程式碼。
+>如果您使用自訂程式碼編輯器設定變數，您必須在下列專案中包含變數： `linkTrackVars` 使用自訂程式碼。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkTrackVars
 

@@ -3,9 +3,10 @@ title: 搭配 iframe 使用 AppMeasurement
 description: 在 iframe 內時，存取 iframe 或上層頁面內的 Adobe Analytics 變數。
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+role: Admin, Developer, Leader
+source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
