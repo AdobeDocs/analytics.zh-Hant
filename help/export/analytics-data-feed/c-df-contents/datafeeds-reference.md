@@ -6,9 +6,9 @@ title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3897'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 | **`color`** | 以`c_color`欄的值為基礎的色階 ID。請參考`color_depth.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`connection_type`** | 表示連線類型的數值 ID。用於[連線類型](/help/components/dimensions/connection-type.md)維度的變數。請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`cookies`** | 用於 [Cookie 支援](/help/components/dimensions/cookie-support.md)維度的變數。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
-| **`country`** | 數值ID代表 `country.tsv` 查詢。 | 不帶正負號的 smallint |
+| **`country`** | 數值 ID 代表 `country.tsv` 查詢中找到的值。 | 不帶正負號的 smallint |
 | **`ct_connect_type`** | 和`connection_type`欄相關。最常見的值是 LAN/Wifi、行動電信業者和數據機。 | char(20) |
 | **`curr_factor`** | 決定貨幣小數位數，並用於貨幣轉換。例如，USD 使用兩個小數位數，因此該欄值為 2。 | tinyint |
 | **`curr_rate`** | 交易發生當時的匯率。Adobe 與 XE 合作，以決定當日匯率。 | decimal(24,12) |
@@ -112,10 +112,10 @@ ht-degree: 99%
 | **`mcvisid`** | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
 | **`mobile_id`** | 如果使用者使用行動裝置，則為裝置的數值 ID。`mobile_attributes.tsv` [動態查詢](dynamic-lookups.md)的索引鍵值。 | int |
 | **`mobileaction`** | 行動動作。在行動服務中呼叫`trackAction`時自動收集。允許應用程式中的自動動作路徑。 | varchar(100) |
-| **`mobileappid`** | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本： `[AppName] [BundleVersion]` | varchar(255) |
+| **`mobileappid`** | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本：`[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用於 Apteligent 資料連接器。Apteligent 中使用的應用程式 ID。 | varchar(255) |
 | **`mobileappperformancecrashid`** | 用於 Apteligent 資料連接器。Apteligent 中使用的當機 ID。 | varchar(255) |
-| **`mobileappstoreobjectid`** | 用於 Appfigures 資料連接器。應用程式商店物件ID。 | varchar(255) |
+| **`mobileappstoreobjectid`** | 用於 Appfigures 資料連接器。應用程式商店物件 ID。 | varchar(255) |
 | **`mobilebeaconmajor`** | 行動服務主要信標 | varchar(100) |
 | **`mobilebeaconminor`** | 行動服務次要信標 | varchar(100) |
 | **`mobilebeaconproximity`** | 行動服務鄰近地區信標 | varchar(255) |
