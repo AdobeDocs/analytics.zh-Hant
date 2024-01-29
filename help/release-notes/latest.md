@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ AN-323975；AN-325383；AN-325809；AN-326787；AN-331611；AN-331818；AN-33212
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| Adobe API 物件會員新增 | 2024 年 1 月 17 日 | Adobe 可能會為現有 API 物件新增選擇性請求和回應會員 (名稱/值對)，恕不另行通知或變更版本控制。此類新增對於您的實施來說應該是非破壞性的變更。Adobe 建議您參考與我們的 API 整合的任何第三方工具的 API 文件，以便在不理解的情況下在處理過程中忽略此類新增。Adobe 不會在未事先透過發行說明提供標準通知下刪除參數或新增所需參數。 |
+| Adobe API 物件會員新增 | 2024 年 1 月 17 日 | Adobe 可能會為現有 API 物件新增選擇性請求和回應會員 (名稱/值對)，恕不另行通知或變更版本設定。此類新增對於您的實施來說應該是非破壞性的變更。Adobe 建議您參考與我們的 API 整合的任何協力廠商工具的 API 文件，以便在不理解的情況下在處理過程中忽略此類新增。Adobe 不會在未事先透過發行說明提供標準通知下刪除參數或新增所需參數。 |
 | `getPageLoadTime` 外掛程式已過時 | 2024 年 1 月 10 日 | 不再支援此外掛程式。其程式碼使用了 performance.timing 方法，該方法 (根據 MDN) 已[過時](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。已經開始更新外掛程式的工作。 |
 
 {style="table-layout:auto"}
@@ -53,8 +53,8 @@ AN-323975；AN-325383；AN-325809；AN-326787；AN-331611；AN-331818；AN-33212
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** EOL | 2024 年 1 月 10 日 | 有效 **2024年1月17日**，已終止Adobe [!DNL Reports & Analytics] 及其隨附的報告和功能。 支援的報告、視覺效果和基礎技術 [!DNL Reports & Analytics] 不再符合Adobe的技術標準。 大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>自2024年1月17日起，我們終止了許多與Reports &amp; Analytics相關的功能，其中包含但不限於：排程報表、資料擷取和DL報表。 2024年1月17日後，不再傳送任何排程報告。 此外，自2024年1月17日起，您將無法再排程未來的報表。 |
-| **結束[!UICONTROL 發佈清單]功能生命週期** | 2024 年 1 月 10 日 | 作為Reports &amp; Analytics EOL的一部分， [!UICONTROL 發佈清單] 生命週期結束日期： **2024年1月17日**. 您無法再建立新的或存取現有的 [!UICONTROL 發佈清單] 傳送或排程 [!UICONTROL Analysis Workspace] 專案。 |
+| **[!DNL Reports & Analytics]** EOL | 2024 年 1 月 10 日 | **2024 年 1 月 17 日**&#x200B;起，Adobe 停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術已經不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>我們已在 2024 年 1 月 17 日終止許多相關的 Reports and Analytics 功能，包括但不限於：排程報告、資料擷取和 DL 報告。2024 年 1 月 17 日之後，不再傳送任何排程報告。此外，自 2024 年 1 月 17 日起，您無法再進行未來報告排程。 |
+| **結束[!UICONTROL 發佈清單]功能生命週期** | 2024 年 1 月 10 日 | 隨著 Reports &amp; Analytics 終止服務，[!UICONTROL 發佈清單]的生命週期也在 **2024 年 1 月 17 日**&#x200B;屆滿。您無法再建立新的發佈清單或存取既有的[!UICONTROL 發佈清單]來傳送或排程 [!UICONTROL Analysis Workspace] 專案。 |
 | **Data Workbench 的 EOL** | 2024 年 1 月 2 日 | Adobe 自 **2023 年 12 月 31 日**&#x200B;起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://express.adobe.com/page/GSu6oKOD88GAj/)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
 | **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API 和 Livestream 客戶必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證從 2024 年 5 月 1 日開始，Adobe I/O 將不允許建立新的 JWT 認證。使用 JWT 的客戶必須建立新的 OAuth Server-to-Server 認證，或將他們現有的 JWT 認證移轉到 OAuth Server-to-Server 認證。客戶還必須更新他們的用戶端應用程式，才能使用新的 OAuth Server-to-Server 認證。 <ul><li>[從 Service Account (JWT) 認證移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth Server-to-Server 認證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常見問題集](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 

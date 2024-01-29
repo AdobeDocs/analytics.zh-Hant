@@ -6,7 +6,7 @@ exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 4545c3839586231918ba5ebbf17fcac5a366abab
 workflow-type: tm+mt
 source-wordcount: '1151'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 93%
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果在 Analysis Workspace 中有無法執行的任務，請考慮以下其他介面。**
 
-**[Adobe Analytics儀表板](/help/analyze/mobile-app/home.md)** 可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
+**[Adobe Analytics 儀表板](/help/analyze/mobile-app/home.md)**&#x200B;允許使用者透過行動裝置存取直覺易用的計分卡。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
 
-**[Report Builder](/help/analyze/report-builder/home.md)** 是Microsoft Excel的增益集。 這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
+**[Report Builder](/help/analyze/report-builder/home.md)** 是 Microsoft Excel 的增益集。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
 
 **[Activity Map](/help/analyze/activity-map/activity-map.md)** 是Adobe Analytics中的一項功能，可針對使用者在網頁和行動應用程式上的參與提供視覺化表示。 它可讓行銷人員和分析師追蹤和分析使用者互動，例如點按數、暫留和捲動行為。
 
@@ -76,7 +76,7 @@ ht-degree: 93%
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
 * 若自訂的 Workspace 配置選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
-* 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。繫結資料的更永久解決方案為資料來源（請參閱將資料匯入至Analytics）。
+* 用於將使用者輸入內容或離線資料來源 (印象、費用) 與 Adobe 資料鬆散連結。連結資料更加持久的解決方案是資料來源 (請參閱〈將資料匯入 Analytics〉)。
 * 用於合併來自不同維度報告的資料 (例如，將促銷印象報告與促銷一鍵轉換報告合併).
 * 若要合併不同報告套裝的資料，可在同一表格中併排匯總或顯示。
 * 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT)。
