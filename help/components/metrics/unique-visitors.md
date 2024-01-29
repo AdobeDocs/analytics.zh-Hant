@@ -4,7 +4,7 @@ description: 不重複訪客識別碼的數目。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 如果您使用「[跨裝置分析](../cda/overview.md)」，此量度會被「[不重複裝置](unique-devices.md)」量度取代。
 
-## 每日、每週、每月、每季和每年的不重複訪客
+## 每日、每週、每月、每季和每年不重複訪客
 
-Analysis Workspace 會根據報表的詳細程度來處理不重複訪客。例如，如果您使用[日](../dimensions/day.md)維度，則會看到每個維度項目的每日不重複訪客。但在計算報表總計時，則會針對自由表格的日期範圍刪除不重複訪客的重複項目。
+Analysis Workspace 會根據報告的詳細程度處理不重複訪客。例如，如果您使用[日](../dimensions/day.md)維度，則會看到每個維度項目的每日不重複訪客。但在計算報表總計時，則會針對自由表格的日期範圍刪除不重複訪客的重複項目。
 
 ## 此量度的計算方式
 
