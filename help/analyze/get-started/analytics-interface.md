@@ -4,9 +4,9 @@ title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2101'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
 
 ## 「報告」標籤
 
-使用 [!UICONTROL **報表**] 左側邊欄中的區域 [!UICONTROL **工作區**] 標籤。 如需詳細資訊，請參閱 [Adobe Analytics 登陸頁面](/help/analyze/landing.md)中的&#x200B;*瀏覽至報告索引標籤*。
+使用「[!UICONTROL **工作區**]」索引標籤左側邊欄中的「[!UICONTROL **報告**]」區域。如需詳細資訊，請參閱 [Adobe Analytics 登陸頁面](/help/analyze/landing.md)中的&#x200B;*瀏覽至報告索引標籤*。
 
 ## 「元件」標籤
 
@@ -113,8 +113,8 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 記錄檔 | 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報告套裝以及管理員變更。 | [記錄檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hant) |
    | Advertising Analytics | 將 Adobe Analytics 設定為以並排方式顯示所有 Google 和 Bing 付費搜尋資料。 | [設定 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=zh-Hant) |
    | 資料摘要 | 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 | [Analytics 資料摘要概觀](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant) |
-   | 依 IP 排除 | 您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。 | [依 IP 位址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
-   | 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並幫助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+   | 依 IP 排除 | 您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。 | [依 IP 位址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hant) |
+   | 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並幫助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hant) |
    | 資料治理隱私權標籤 | 為報告套裝資料加上標籤，代表您可為特定報告套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。 | [標籤報告套裝資料](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=zh-Hant) |
    | 公司設定首頁 | 公司設定頁面可讓您設定要對您的組織所管理的所有報告套裝套用的設定。 | [公司設定概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hant) |
    | 安全管理員 | 安全管理員可讓您控制報告資料的存取權。選項包括增強式密碼、密碼過期、IP 登入限制及電子郵件網域限制。 | [安全管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=zh-Hant) |
