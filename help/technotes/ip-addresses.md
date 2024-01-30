@@ -3,16 +3,16 @@ title: Adobe Analytics 使用的 IP 和網域
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 96f45211211e632de0aa9e35afc601f0c242aff9
+source-git-commit: e4f8467e9c2e3f461857b4ea3d4e5cbe643d57a0
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 71%
+source-wordcount: '393'
+ht-degree: 65%
 
 ---
 
 # Adobe Analytics 使用的 IP 和網域
 
-有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統（例如資料摘要）。
+有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。 此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統（例如資料摘要）。
 
 >[!IMPORTANT]
 >
@@ -69,6 +69,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建�
 | 奧勒岡州 | `130.248.130.0/23` |
 | 奧勒岡州 | `130.248.150.0/24` |
 | 奧勒岡州 | `130.248.160.0/21` |
+| 奧勒岡州 | `192.243.242.0/24` |
 | 新加坡 | `130.248.170.0/23` |
 | 新加坡 | `130.248.240.0/24` |
 | 新加坡 | `63.140.44.0/22` |
