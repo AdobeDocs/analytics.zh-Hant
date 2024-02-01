@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
 workflow-type: tm+mt
 source-wordcount: '5047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 1 月** | |
-| 元件移轉適用於個別IMS組織 | 澄清以下事項 [元件移轉](/help/admin/admin/component-migration/component-migration.md) 不支援跨IMS組織移轉。 |
-| 澄清某些資訊僅供管理員使用 | 新增資訊以陳述中說明的「上次使用」和「用於」欄。 [計算量度管理員](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 和 [區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md) 僅供系統管理員使用。 |
+| 元件移轉適用於個別 IMS 組織 | 澄清[元件移轉](/help/admin/admin/component-migration/component-migration.md)不支援跨 IMS 組織的移轉。 |
+| 澄清某些資訊僅供管理員使用 | 新增了一些資訊，說明[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |
 | 媒體平均每分鐘觀眾數文件更新 | 已更新[媒體平均每分鐘觀眾數面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的資訊，以改善內容清晰度。<p>改善部份包括：</p> <ul><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li></ul> |
 
 ### 2023 {#23}
