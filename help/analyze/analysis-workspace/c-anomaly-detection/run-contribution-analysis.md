@@ -4,7 +4,7 @@ title: 執行貢獻分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: ht
 source-wordcount: '566'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [「貢獻分析」是密集型機器學習程序，專門設計來找出 Adobe Analytics 中所觀察到異常值的貢獻者。](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)目的是要協助使用者比以往更快找出重點區域或機會以便進行其他分析。
 
-## 執行貢獻分析 {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## 執行貢獻分析 {#run}
 
 在專案中叫用貢獻分析有兩個分法：
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
   ![](assets/contribution-analysis.png)
 
-1. (選擇性) 在線性圖或表格中按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**&#x200B;後，您可藉由[排除維度](#section_F6932F4BF74544B5872164E7B1E0C6FC)來縮小分析範圍 (並加快分析速度)。
+1. (選擇性) 在線性圖或表格中按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**&#x200B;後，您可藉由[排除維度](#exclude)來縮小分析範圍 (並加快分析速度)。
 
 1. 等候貢獻分析載入。取決於您報表套裝的大小以及維度數目，這可能需要相當長的時間。貢獻分析會對每個維度的前 50,000 個項目執行分析。
 1. Analysis Workspace 隨後會在此專案內直接載入新的「貢獻分析」面板。
@@ -56,7 +56,7 @@ ht-degree: 100%
 >
 >我們會在「貢獻分析」及與其連結的「智慧型警報」專案內，以藍點標示出正在接受分析的異常項目。如此即可以更清楚的方式指明分析所得的異常項目。
 
-## 排除貢獻分析中的維度 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## 排除貢獻分析中的維度 {#exclude}
 
 有時候，您可能會想要從「貢獻分析」排除部分維度。例如，您可能不在意任何與瀏覽器或硬體相關的維度，因此希望藉由移除這些項目來加快分析速度。
 
