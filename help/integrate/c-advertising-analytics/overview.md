@@ -1,16 +1,16 @@
 ---
-description: 在此詳細指南中探索您可以使用 Advertising Analytics 進行的所有功能，包括所需的權限以及可用的維度和量度。
-title: Advertising Analytics 指南
+description: 探索您可以使用Advertising Analytics執行的所有功能，包括所需的許可權以及可用的維度和量度。
+title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 97%
+source-wordcount: '1176'
+ht-degree: 96%
 
 ---
 
-# Advertising Analytics 指南
+# Advertising Analytics
 
 Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。您現在可以在 Adobe Analytics 中直接透過搜尋引擎以及 AMO ID 實例 (按一下實例) 獲得以下資料：曝光數、點選次數、成本資料。Google 於 2019 年 9 月起不再使用這些量度，因此將不再收集品質分數和平均排名。
 
@@ -27,19 +27,16 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 * 需要為付費搜尋行銷人員收集績效報告的&#x200B;**分析人員**。
 * 想要了解向自己網站傳送多少流量以及客戶轉換率的&#x200B;**付費搜尋行銷人員**。我有哪些符合成本效益的廣告促銷活動？
 
-## 先決條件 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
+## 先決條件 {#prerequisites}
 
 * Advertising Analytics 只適用於 Adobe Analytics [Select](https://www.adobe.com/tw/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/prime.html) 及 [Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/ultimate.html) 的 SKU。
-
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
-* 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
+* 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#permissions)非管理員使用者。
 * 針對您要檢視 Google/Bing 搜尋資料的任何報告套裝，請[啟用 Advertising Analytics 報告套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL 「管理員]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**)。
-
 * 若要將搜尋帳戶整合至 Adobe Analytics，您需要擁有具備編輯權限之帳戶的使用者登入憑證，例如 Google 帳戶 ID 和密碼。
 * 若是 Bing 廣告，則需要使用 Bing 客戶 ID。
-* 如果您使用 Internet Explorer 11 (或更早版本)，便無法成功為這三個搜尋引擎[設定廣告帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。請改用其他網頁瀏覽器。
 
-## Advertising Analytics 權限 {#section_FCC58EB635954A32990D4E67B52B4369}
+## Advertising Analytics 權限 {#permissions}
 
 Analytics 會自動授予 Analytics 管理員兩項權限。之後，管理員便可以選擇將這些權限授予非管理員使用者。
 
@@ -68,11 +65,11 @@ Analytics 會自動授予 Analytics 管理員兩項權限。之後，管理員�
  </tbody> 
 </table>
 
-## Advertising Analytics 維度和量度 {#section_C0DF4A08EA9E46ADABE9E465AFC11E32}
+## Advertising Analytics 維度和量度 {#dimensions-metrics}
 
 Advertising Analytics將下列維度和量度新增至Analysis Workspace、Report Builder及Analytics Reporting API。
 
-**維度**
+### 維度
 
 >[!IMPORTANT]
 >
@@ -101,7 +98,7 @@ Advertising Analytics將下列維度和量度新增至Analysis Workspace、Repor
 | 最佳化 (AMO ID) | Advertising Analytics 不使用。僅 Advertising Cloud 客戶會使用。 |
 | 裝置 (AMO ID) | 目前不使用。廣告指定目標裝置 (而非訪客實際使用的裝置) 類型 (例如行動裝置或桌上型電腦)，未來可能的產品增強功能預留位置。 |
 
-**量度**
+### 量度
 
 >[!IMPORTANT]
 >

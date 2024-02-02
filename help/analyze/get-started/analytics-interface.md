@@ -3,9 +3,9 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
-workflow-type: ht
-source-wordcount: '2101'
+source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
+workflow-type: tm+mt
+source-wordcount: '2066'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 日期範圍 | Analysis Workspace 包含使用者在建置分析時可以使用的預設日期範圍清單。此外，您可以建立自訂日期範圍並將其提供給 Analysis Workspace 的使用者。 | [建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虛擬報告套裝 | 虛擬報告套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。 | [虛擬報告套裝概觀](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant) |
    | 警報 | 智慧型警報可提供更細緻的警報控制能力，並整合警報系統與異常偵測功能。 | [智慧型警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=zh-Hant) |
-   | 行事曆事件 | 對於特定時段的趨勢報告，行事曆事件可讓您以圖形顯示事件，並查看促銷活動或其他事件是否已對您的網站流量、收入或任何其他度量產生影響。 | [行事曆事件](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=zh-Hant) |
    | 註解 | 工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。註解可讓您將行事曆事件和特定的維度和量度連結起來。 | [管理註解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=zh-Hant) |
    | 分類集 | 分類集會提供管理分類和規則的單一介面。 <p>分類是將 Analytics 變數資料分類，然後在您產生報告時以不同方式顯示資料的方式。您在變數值和與其相關之中繼資料之間建立關係。分類可用於大多數自訂維度，例如追蹤程式碼、prop 和 eVar。</p> | [分類集概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hant) |
    | 位置 | 為了從雲端目的地匯入 Adobe Analytics 分類資料，您首先需要新增並設定要收集分類資料的位置。您可以建立、編輯或刪除位置。 | [位置管理員](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=zh-Hant) |
