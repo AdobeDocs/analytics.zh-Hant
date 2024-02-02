@@ -1,12 +1,12 @@
 ---
 title: 建立註解
 description: 如何在工作區中建立註解。
-role: User, Admin
+role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 10fb26d425130fddf485b150f26f894b0b967735
+source-git-commit: ee4772913c8b702658646755a2a11598c8530236
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '631'
 ht-degree: 100%
 
 ---

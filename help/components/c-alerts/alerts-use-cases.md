@@ -3,7 +3,7 @@ description: 建立及管理智慧型警報的使用案例。
 title: 智慧型警報 - 使用案例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
@@ -12,17 +12,11 @@ ht-degree: 100%
 
 # 智慧型警報 - 使用案例
 
-## 建立依兩個區段篩選的簡單警報 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
-
-<!-- 
-
-Update screenshots for better readability.
-
- -->
+## 建立依兩個區段篩選的簡單警報 {#filter}
 
 ![](assets/alerts_example1.png)
 
-## 從表格選取範圍建立警報 {#section_AE6D42E1255D498D908A2FA60370A419}
+## 從表格選取範圍建立警報 {#from-selection}
 
 在自由表格中，此時可以用滑鼠右鍵按一下表格列並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**，建立內容感知警報。
 
@@ -32,7 +26,7 @@ Update screenshots for better readability.
 
 ![](assets/prepopulated_alert.png)
 
-## 合併 (堆疊) 警報，而非建立多個警報 {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 合併 (堆疊) 警報，而非建立多個警報 {#stacking}
 
 堆疊警報可確保結合警報，以免您收到大量的單獨警報。
 

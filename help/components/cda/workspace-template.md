@@ -3,10 +3,11 @@ title: CDA 工作區範本
 description: 說明 Analysis Workspace 中 CDA 範本的各個欄位。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 93%
 
 ---
 
@@ -32,5 +33,5 @@ Adobe 提供可檢視重要跨裝置效能資料的範本。
    * 報表粒度：依日計算的壓縮通常比依月或年計算的壓縮還小。依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
 * **以人物為基礎的區段**：包含區段下拉式清單，可讓您檢視裝置特定資料。 此面板鼓勵您試用區段，以便了解納入或排除裝置類型對報表有何影響。
 * **分析跨裝置歷程**：根據裝置類型提供流量和流失報表。
-* **跨裝置歸因**：結合 Journey 和 Attribution IQ 的功能。
+* **跨裝置歸因**：結合Journey IQ和歸因的功能。
 * **其他秘訣與技巧**：可協助您更順利使用 CDA 的實用主題。

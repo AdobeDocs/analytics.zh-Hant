@@ -3,10 +3,11 @@ title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 92%
+source-wordcount: '533'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 92%
 >
 >執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)及所需的拚接方法 (分別是[依欄位拚接](field-based-stitching.md)或[裝置圖表](device-graph.md))。
 
-## 向客戶服務提交票證，以便在跨裝置報表套裝上佈建 CDA
+## 1.向客戶服務提交票證，以便在跨裝置報表套裝上布建CDA
 
 Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要開始此程序，請聯絡客戶服務，並備妥以下資訊：
 
@@ -31,7 +32,7 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 向客戶服務提供此資訊後，他們就會與 Adobe 工程部門合作，好讓您選擇的報表套裝進行 CDA 處理。
 
-## 建立跨裝置虛擬報表套裝以查看跨裝置檢視
+## 2.建立跨裝置虛擬報表套裝以檢視跨裝置檢視
 
 有權限建立虛擬報表套裝的管理員可依下列步驟建立 CDA 虛擬報表套裝：
 

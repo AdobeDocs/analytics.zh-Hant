@@ -3,9 +3,10 @@ title: 重播的運作方式
 description: 了解跨裝置分析中「重播」的概念
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '649'
 ht-degree: 100%
 
 ---

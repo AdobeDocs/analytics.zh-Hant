@@ -3,10 +3,10 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: a979fc8787fa96f8fa8317996ac66341a6f54354
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 68%
 
 ---
 
@@ -44,39 +44,37 @@ ht-degree: 93%
   ![](assets/create-alert-from-selection.png)
 
 
-## 常見問答：系統如何計算及觸發警報 {#trigger}
+## 常見問題集：系統如何計算及觸發警報 {#trigger}
 
 % 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 根據您選擇的時間詳細程度， [不同模型](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md) 用於計算每個資料點距離基準有多遠（多少標準差）。 若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
 
-<table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 問題 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>問：警報的異常偵測能多早判斷出資料異常？</b> </p> </td> 
-   <td colname="col2"> <p>培訓期間會依選擇的詳細程度而有所不同。請參閱<a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">異常偵測</a>所使用的統計技術，以取得詳細資訊。摘要如下： </p> 
-    <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
-     <li id="li_E246091A3F1E484C8444AF4052FCA784">每月 = 15 個月 + 去年的相同範圍 </li> 
-     <li id="li_CC014FB38AE1492B9647E990C29BFB3C">每週 = 15 週 + 去年的相同範圍 </li> 
-     <li id="li_2517EE2097534324BE9C1B54CD181A62">每天 = 35 天 + 去年的相同範圍 </li> 
-     <li id="li_710BC8B009354542AA4962A59A646099">每小時 = 336 小時 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>問：如果我只希望在行為狀況突然減少或增加時收到警報，是否適合使用異常功能？還是我需要使用絕對值？</b> </p> </td> 
-   <td colname="col2"> <p>使用絕對值仍會觸發突然減少或增加的警報。您無法獨立隔離突然減少或增加的警報。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>問：我是否能將警報設定為只在一天中的特定時段觸發 (例如只在營業時間觸發，不在非營業時間觸發)？</b> </p> </td> 
-   <td colname="col2"> <p>目前沒辦法。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>問：我能否取得包含虛線的「預期值」表格 (或某種顯示相關數值的輸出資料)？</b> </p> </td> 
-   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請觀看此影片：<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hant"  >Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。此方式是使用固定 30 天培訓期，固定 95％ 間隔。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ 警報的異常偵測能多早判斷出資料異常？
+
+培訓期間會依選擇的詳細程度而有所不同。請參閱<a href="/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md">異常偵測</a>所使用的統計技術，以取得詳細資訊。摘要如下：
+
+* 每月 = 15 個月 + 去年的相同範圍
+* 每週 = 15 週 + 去年的相同範圍
+* 每天 = 35 天 + 去年的相同範圍
+* 每小時 = 336 小時
+
++++
+
++++ 若只收到行為狀況突然減少或增加警報，是否適合使用異常功能？還是我需要使用絕對值？
+
+使用絕對值仍會在下降時觸發警報，並在尖峰時觸發。 您無法獨立隔離突然減少或增加的警報。
+
++++
+
++++ 我是否可以將警報設定為只在一天中的特定時段觸發（例如只在營業時間觸發，不在非營業時間觸發）？
+
+目前沒辦法。
+
++++
+
++++ 我能否取得包含虛線的「預期值」表格（或某種顯示相關數值的輸出資料）？
+
+不在工作區中，但您可以在Report Builder中進行。 另請參閱 [此影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html?lang=zh-Hant) 在Report Builder中的異常偵測上。
+
+請留意，Report Builder 使用的是較簡單的異常偵測方式。此方式是使用固定 30 天培訓期，固定 95％ 間隔。
+
++++

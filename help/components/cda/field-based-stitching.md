@@ -3,7 +3,8 @@ title: 欄位式拚接
 description: 了解使用欄位式拚接方式來結合資料的先決條件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 93%
@@ -24,7 +25,7 @@ ht-degree: 93%
 
 * [總覽頁面](overview.md)上列出的所有先決條件。
 * 您的實作必須設定 prop 或 eVar，才能盡可能唯一識別個人身分，例如當使用者登入或開啟電子郵件時。 這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。 請避免為 prop 或 eVar 指派預設值。
-* 針對欄位式銜接進行布建時，請將所需的識別變數傳達給您的Adobe客戶團隊。
+* 為欄位式拚接進行布建時，請將所需的識別變數傳達給您的Adobe客戶團隊。
 
 ## 欄位式拚接的專屬限制
 

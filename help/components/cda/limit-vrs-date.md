@@ -1,16 +1,17 @@
 ---
-title: 將虛擬報表套裝限製為特定日期
+title: 將虛擬報告套裝限制在特定日期
 description: 瞭解如何限制虛擬報表套裝日期範圍，以僅限著重銜接的資料。
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+role: Admin
+source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 35%
+source-wordcount: '284'
+ht-degree: 41%
 
 ---
 
-# 將虛擬報表套裝限製為特定日期
+# 將虛擬報告套裝限制在特定日期
 
 當我們開啟銜接功能時，系統會在特定日期開始銜接。假設該日期是 6 月 1 日。CDA虛擬報告套裝將包含6月1日之前未銜接的資料。 您可能想要在6月1日之前隱藏虛擬報表套裝中的任何資料，以便分析著重在銜接開始後的日期範圍。
 
