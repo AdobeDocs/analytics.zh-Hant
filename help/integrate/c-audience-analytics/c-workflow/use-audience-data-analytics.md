@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 89%
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。這些維度目前在 Data Workbench 或直播串流中均不可用。可以利用 Audiences 維度的部分例子包括：
 
-## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
+## Analysis Workspace {#workspace}
 
 在Analysis Workspace中，Adobe Audience Manager區段會顯示為兩個維度。
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
    ![](assets/aw-mcaudiences.png)
 
-## 區段比較 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
+## 區段比較 {#compare}
 
 [區段比較](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hant)會找出兩個區段之間在統計上最顯著的差異。您可以兩種方式在「區段比較」中使用對象資料：1) 作為要比較的兩個區段，2) 作為「排名最前的維度項目」表格中的項目。
 
@@ -41,7 +41,7 @@ ht-degree: 89%
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace 中的客戶歷程 (流程) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Analysis Workspace 中的客戶歷程 (流程) {#flow}
 
 Adobe Audience Manager區段資料是以逐次點選的方式傳入Analytics，並會在該時間點即時表示訪客的對象成員資格。 也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
 
@@ -55,7 +55,7 @@ Adobe Audience Manager區段資料是以逐次點選的方式傳入Analytics，�
 
 對象也可用於[流失視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)中。
 
-## Analysis Workspace 中的文氏圖表視覺效果 {#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace 中的文氏圖表視覺效果 {#venn}
 
 [文氏圖表視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=zh-Hant)可顯示最多 3 個區段之間的重疊部分。
 
@@ -69,7 +69,7 @@ Adobe Audience Manager區段資料是以逐次點選的方式傳入Analytics，�
 
 ![](assets/venn-viz.png)
 
-## 區段產生器 {#section_2AA81852A1404AB894472CA8959461B6}
+## 區段產生器 {#builder}
 
 您可以將「對象」維度連同 Analytics 收集的行為資訊整合到 Analytics [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
 

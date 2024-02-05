@@ -3,10 +3,10 @@ description: 有關 Advertising Analytics 的常見問題集。
 title: Advertising Analytics 的常見問題集
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 591b82e271cc7474e9b413015804d4fe37d9050c
+source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 51%
+source-wordcount: '1303'
+ht-degree: 37%
 
 ---
 
@@ -161,29 +161,18 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 ## 自動與手動追蹤 {#section_7437C4698A6D482EB7ED94A948390119}
 
-<table id="table_9738FF8459574ED2937A860A665BE739"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 問題 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>問：在設定 Advertising 帳戶時，系統指出<b>自動追蹤</b>可能會產生非預期的結果。可能會發生哪幾種結果？ </p> </td> 
-   <td colname="col2"> <p>答： 
-     <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
-      <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">自動模式會嘗試以正確格式將 URL 參數附加到追蹤範本/目的地 URL 的結尾。<b>儘管如此，您還是必須負責確認新增的 URL 參數正確無誤，才能順利前往最終的登陸頁面。</b> </li> 
-      <li id="li_1202FE1FC88342378A60E8FE65E5426B">自動模式能將關鍵字插入登陸 URL，不過網站伺服器可能不支援含特殊字元的關鍵字。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>問：若一開始設定了手動或自動追蹤，稍後<b>可以切換</b>至另一個追蹤模式嗎？有什麼影響？ </p> </td> 
-   <td colname="col2"> <p>答：可以切換，但在切換之前需要先移除舊的追蹤邏輯。這可能導致切換當天的追蹤中斷 (特別是從手動切換至自動的情況)。因此，除非絕對必要，否則建議不要進行切換。 </p> 
-    <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>從手動切換至自動</b>：移除追蹤範本的手動新增項目，然後在 Advertising Analytics 使用者介面中，從手動切換至自動並儲存設定。請注意，系統可能需要花費長達數小時以填入自動追蹤代碼。 </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>從自動切換至手動</b>：在 Advertising Analytics 設定使用者介面中，從自動切換至手動，然後盡可能快速地部署手動追蹤代碼。部署手動追蹤代碼時，若在搜尋引擎追蹤範本中看到自動追蹤代碼，請將其移除。 </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
++++ 設定我的Advertising帳戶時，系統會指出<b> 自動追蹤</b> 可能導致意想不到的後果。 可能會發生哪幾種結果？
+
+自動模式會嘗試以正確格式將URL引數附加至追蹤範本/目的地URL的結尾。 <b>不過，您還是必須負責確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。 自動模式能將關鍵字插入登陸 URL，不過網站伺服器可能不支援含特殊字元的關鍵字。
+
++++
+
++++ 如果一開始設定了手動或自動追蹤，稍後可以切換至另一個追蹤模式嗎？ 有什麼影響？
+
+可以，您可以切換追蹤模式，但在切換之前需要移除舊的追蹤邏輯。 這可能導致切換當天的追蹤中斷 (特別是從手動切換至自動的情況)。因此，除非絕對必要，否則建議不要切換。
+
+* 從手動切換至自動：移除追蹤範本的手動新增專案，然後在Advertising Analytics使用者介面中，從手動切換至自動並儲存設定。 請注意，系統可能需要幾個小時才能填入自動追蹤代碼。
+
+* 從自動切換至手動：在Advertising Analytics設定使用者介面中，從自動切換至手動，然後儘可能快速地部署手動追蹤代碼。 部署手動追蹤代碼時，若在搜尋引擎追蹤範本中看到自動追蹤代碼，請將其移除。
+
++++
