@@ -4,9 +4,9 @@ title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1160'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 使用時機：
 
-* 當您需要將資料上傳到Adobe Analytics，且無法使用Adobe AppMeasurement或行動SDK程式碼時。 我們建議使用大量資料插入API （請參閱下文）。
+* 當您必須將資料上傳到 Adobe Analytics，且無法使用 Adobe AppMeasurement 或行動 SDK 程式碼時。 我們建議使用大量 Data Insertion API (詳見以下內容)。
 
 **[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
