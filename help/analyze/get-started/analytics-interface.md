@@ -4,7 +4,7 @@ title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 4de9fe6725210e18ce06ab33cda7daf856f1cc54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2066'
 ht-degree: 100%
 
