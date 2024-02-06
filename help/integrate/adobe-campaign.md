@@ -1,23 +1,25 @@
 ---
-description: 了解如何在Adobe Analytics中啟用Adobe Campaign Standard報表
-title: 如何將Adobe Campaign Standard報表整合至Adobe Analytics?
+description: 瞭解如何在Adobe Analytics中啟用Adobe Campaign Standard報告
+title: 如何將Adobe Campaign Standard報表整合至Adobe Analytics？
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 0a039668af52a0e5433f9b0c4e643db566b95702
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 68%
+source-wordcount: '512'
+ht-degree: 67%
 
 ---
+
 
 # Adobe Campaign Standard報告
 
 如需如何設定整合的詳細資訊，請前往 [Adobe Campaign 文件](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
 >[!IMPORTANT]
->本文適用於Adobe Campaign **標準** 僅報告。 請參閱 [此處](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) 添加Adobe Campaign **Classic** 報告。
+>本文適用於Adobe Campaign **標準** 僅限報告。 另請參閱 [此處](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=en) 新增Adobe Campaign **Classic** 報告。
 
-Adobe Analytics與Adobe Campaign Standard的整合：
+Adobe Analytics與Adobe Campaign Standard之間的整合：
 
 * 讓您從 Adobe Campaign Standard 共用您的 KPI (關鍵績效指標) 資料至 Adobe Analytics。
 * 使用 Adobe Analytics 參數充實追蹤公式。
@@ -27,9 +29,9 @@ Adobe Analytics與Adobe Campaign Standard的整合：
 * 增加 6 個全新 Adobe Campaign 維度。
 * 透過自動布建的資料來源，每15分鐘將資料同步至Analytics。
 
-## 步驟 1.啟用Adobe Campaign Standard報表 {#section_C685EF10505045708A6536BB13F6CD58}
+## 步驟 1.啟用Adobe Campaign Standard報告 {#section_C685EF10505045708A6536BB13F6CD58}
 
-若要在Analytics中檢視Campaign Standard資料，您必須先在「報表套裝管理器」中啟用「促銷活動」報告功能。
+若要在Analytics中檢視Campaign Standard資料，必須先在「報表套裝管理器」中啟用「促銷活動報表」 。
 
 1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 報表」]**。
 1. 按一下&#x200B;**[!UICONTROL 啟用 Campaign 報告功能]**。
@@ -40,7 +42,7 @@ Adobe Analytics與Adobe Campaign Standard的整合：
 
 Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**&#x200B;下新增報表
 
-* **[!UICONTROL Adobe Campaign執行的傳送ID]**:顯示從Adobe Campaign匯入的有關從Adobe Campaign傳送之電子郵件的資料。 |
+* **[!UICONTROL Adobe Campaign執行的傳送ID]**：顯示從Adobe Campaign匯入的、有關從Adobe Campaign傳送之電子郵件的資料。 |
 
 ## 步驟 3.使用 Adobe Campaign 分類 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
@@ -50,13 +52,13 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 
 | 分類 | 說明 |
 | --- | --- |
-| [!UICONTROL 傳送 ID] | 您在Campaign中看到的內部傳送名稱 |
-| [!UICONTROL 傳送標籤] | 行銷活動中的傳送 — 個別傳送/循環傳送/交易傳送 |
-| [!UICONTROL 行銷活動 ID] | 您在促銷活動中看到的內部促銷活動名稱 |
+| [!UICONTROL 傳遞ID] | 您在Campaign中看到的內部傳遞名稱 |
+| [!UICONTROL 傳遞標籤] | Campaign中的傳遞 — 個別傳遞/循環傳遞/交易傳遞 |
+| [!UICONTROL 行銷活動 ID] | 您在Campaign中看到的內部行銷活動名稱 |
 | [!UICONTROL 行銷活動標籤] | Adobe Campaign中的行銷活動 |
-| [!UICONTROL 已執行傳送標籤] | 個別已執行傳送的清單 |
+| [!UICONTROL 已執行的傳遞標籤] | 個別執行的傳遞清單 |
 
-## Adobe Campaign StandardAdobe Analytics中可用的維度和量度 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics中可用的Adobe Campaign Standard維度和量度 {#section_F33385C9660644AF84172EC39601469B}
 
 以下&#x200B;**量度**&#x200B;可透過 Adobe Analytics 報表套裝中的 Campaign 使用：
 

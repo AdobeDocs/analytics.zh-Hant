@@ -5,10 +5,10 @@ title: 訪客移轉
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 88%
+source-wordcount: '689'
+ht-degree: 67%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->如果您已實作Experience Cloud訪客ID服務，則寬限期不適用於您，且不應啟用。
+>如果您已實作Experience Cloud訪客ID服務，則寬限期不適用於您，不應加以啟用。
 
 訪客移轉是將訪客ID Cookie(s_vi)從一個網域移轉至另一個網域的程式。
 
@@ -32,7 +32,7 @@ ht-degree: 88%
 
 設定好訪客移轉後，當使用者未使用訪客 ID Cookie 瀏覽新網域時，伺服器會重新導向至先前的資料收集主機名稱、擷取可用的訪客 ID Cookie，然後重新導向回新網域。如果在先前的主機名稱上找不到訪客 ID，則會產生新 ID。每個訪客只會發生一次。
 
-## 訪客移轉程序 {#section_FF0C5C5CAEF343FFA1892B29311F7160}
+## 訪客移轉程序 {#process}
 
 下表列出訪客移轉的必要任務:
 
@@ -45,7 +45,7 @@ ht-degree: 88%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>開始使用：</b><a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html"  >請聯絡客戶服務</a>，提供您要移轉的網域以及您想啟用的移轉期間 (30、60 或 90 天)。請確定您包含不安全和安全的網域。 </p> </td> 
+   <td colname="col1"> <p> <b>開始使用：</b><a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html"  >請聯絡客戶服務</a>，提供您要移轉的網域以及您想啟用的移轉期間 (30、60 或 90 天)。請務必加入不安全和安全的網域。 </p> </td> 
    <td colname="col3"> <p>使用移轉來源和目標網域的<i>確實</i>語法，建立清單。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -67,3 +67,10 @@ ht-degree: 88%
   </tr> 
  </tbody> 
 </table>
+
+| 工作 | 說明 |
+|--- |--- |
+| 開始使用：請聯絡客戶服務，提供您要移轉的網域以及您想啟用的移轉期間（30、60或90天）。 請務必加入不安全和安全的網域。 | 使用您要移轉至和從中移轉之網域的確切語法建立清單。<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>移轉主機名稱在 Adobe 資料收集伺服器上設定。客戶服務會告知您何時進行變更，讓您規劃下一步驟。 |
+| 組態變更後6小時以上：更新 `s.trackingServer` 和 `s.trackingServerSecure` 變數來使用新的資料收集伺服器。 | 進行此變更後，請使用 [Experience Cloud偵錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant) 驗證Analytics影像要求正在前往更新的資料收集伺服器。 |
+| 緊接在更新Analytics程式碼後：測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 | 使用 [封包監視器](../implement/validate/packet-monitor.md) 若要驗證第一次存取您的網站或是清除Cookie後，您會先看到兩個302 （重新導向） HTTP狀態碼，接著才是200 （確定） HTTP狀態碼。 如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 |
+| 在整個移轉期間：保留DNS記錄，讓先前的主機名稱作用中。 | 先前的主機名稱必須透過 DNS 解析，否則無法進行 Cookie 移轉。 |

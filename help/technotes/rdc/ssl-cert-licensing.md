@@ -3,9 +3,10 @@ title: SSL 憑證授權
 description: 由客戶管理的憑證之憑證程序
 feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+role: Admin
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---

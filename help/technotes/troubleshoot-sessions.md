@@ -3,10 +3,10 @@ title: 排解 Adobe Analytics 中工作階段的疑難問題
 description: 瞭解如何解決登出 Adobe Analytics 時遇到的相關問題。
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 97%
+source-wordcount: '339'
+ht-degree: 99%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 97%
 
 幾乎所有因工作階段產生的問題都源自組織的自訂公司網路。如果您能登入 Adobe Analytics 但無法保持登入狀態，請使用本文章協助判斷原因。
 
-## 判斷問題是否緣起於貴組織的網路
+## 判斷問題是否緣起於貴組織的網路 {#network}
 
 許多組織都部署了額外的網路功能來增強安全性，例如 Proxy 伺服器或防火牆。這些自訂功能有時會干擾 Adobe Analytics 中保留作用中工作階段的能力。
 
 若要判斷您所連線的公司網路是否造成 Adobe Analytics 使用上的問題，請在公司網路以外的裝置上使用您的 Experience Cloud 登入憑證。例如可透過您的家庭網路或行動裝置的行動數據方案使用裝置。如果您能夠在未登出的狀態下成功在頁面間移動，表示貴組織的網路可能是系統將您登出 Adobe Analytics 的原因。
 
-## Proxy 造成的問題
+## Proxy 造成的問題 {#proxy}
 
 向 Adobe 提出請求時，Adobe 會使用授權標頭。某些 Proxy (例如 Edge Secure Web Gateway (先前稱為 Bluecoat)) 會去除 Adobe Analytics 所使用的關鍵授權標頭資訊。 當 Adobe 沒有看到授權標題，工作階段便會過期。
 
