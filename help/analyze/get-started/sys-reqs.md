@@ -4,13 +4,13 @@ description: 使用 Adobe Analytics 的系統需求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: ee4772913c8b702658646755a2a11598c8530236
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics系統需求和先決條件
+# Adobe Analytics 系統需求和必備條件
 
 在開始以管理員身分實施 Adobe Analytics 或以分析師或一般使用者身分使用 Adobe Analytics 之前，您應先熟悉以下先決條件和系統需求：
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 * 有效的 Adobe Analytics 授權
 
-  Adobe Analytics 需要網站授權。如需詳細資訊，請聯絡您的Adobe客戶代表。
+  Adobe Analytics 需要網站授權。如需詳細資訊，請聯絡您的 Adobe 客戶代表。
 
 * 支援的瀏覽器
 
@@ -43,5 +43,5 @@ ht-degree: 90%
 
 請參閱連結的解決方案頁面，以了解該解決方案的系統需求。
 
-* [Report Builder系統需求](/help/analyze/report-builder/setup/system-requirements.md)
+* [Report Builder 系統需求](/help/analyze/report-builder/setup/system-requirements.md)
 
