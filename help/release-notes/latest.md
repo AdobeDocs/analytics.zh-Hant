@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d52e4d41ac0fc6ce6db04e491fc33bac2284f040
+source-git-commit: e9abbc03cf01abecab4ea0627624b5272b503d5c
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 42%
+source-wordcount: '722'
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 42%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Web SDKActivity Map，不需額外付費** | 目前，Activity Map連結事件會計為自己的事件，並產生額外費用。 此增強功能會擷取一些連結事件，並將它們封裝到下一次點選中，類似於AppMeasurement處理事件的方式。 |  | 2024年3月6日 |
-| **增加預設低流量臨界值** | 在 **2024年4月中旬**，Adobe將會開始增加預設報表套裝的低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定在新的臨界值以下的變數。 這些變更將以漸進方式進行，我們預計工作將由 **5月底**. 隨著這些增加的推出，您可能會注意到高基數變數的變更：<ul><li>可能有更多維度值可用於報表。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為基礎的虛擬報表套裝可能包含更多資料。</li></ul> | 2024年4月中旬 | 2024年5月底 |
+| **增加預設低流量臨界值** | 在 **2024年4月中旬**，Adobe將會開始增加預設報表套裝的低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定在新的臨界值以下的變數。 這些變更將以漸進方式進行，我們預計工作將由 **5月底**. 隨著這些增加的推出，您可能會注意到高基數變數的變更：<ul><li>可能有更多維度值可用於報表。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為基礎的虛擬報表套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024年4月中旬 | 2024年5月底 |
 
 {style="table-layout:auto"}
 
