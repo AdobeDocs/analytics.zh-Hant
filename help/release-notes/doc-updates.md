@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '5047'
-ht-degree: 100%
+source-wordcount: '5095'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 2 月** | |
+| 新增在Data Warehouse和資料摘要中將檔案上傳至Amazon S3和GCP貯體的許可權要求 | 新增當檔案上傳至Amazon S3和Google Cloud Platform貯體時的確切許可權要求 [設定Data Warehouse目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [設定資料摘要的目的地時](/help/export/analytics-data-feed/create-feed.md). |
 | **2024 年 1 月** | |
 | 元件移轉適用於個別 IMS 組織 | 澄清[元件移轉](/help/admin/admin/component-migration/component-migration.md)不支援跨 IMS 組織的移轉。 |
 | 澄清某些資訊僅供管理員使用 | 新增了一些資訊，說明[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |

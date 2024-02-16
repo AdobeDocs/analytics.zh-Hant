@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 19%
+source-wordcount: '3215'
+ht-degree: 17%
 
 ---
 
@@ -93,18 +93,18 @@ ht-degree: 19%
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | 帳戶的名稱。 這可以是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | 帳戶說明。 |
-         | [!UICONTROL **角色 ARN**] | 您必須提供角色ARN (Amazon資源名稱)，Adobe才能使用該角色來存取Amazon S3帳戶。 若要這麼做，請建立來源帳戶的IAM許可權原則、將原則附加至使用者，然後建立目的地帳戶的角色。 如需特定資訊，請參閱 [此AWS檔案](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
-         | [!UICONTROL **使用者 ARN**] | 使用者ARN (Amazon資源名稱)由Adobe提供。 您必須將此使用者附加至您建立的原則。 |
+         | [!UICONTROL **角色ARN**] | 您必須提供角色ARN (Amazon資源名稱)，Adobe才能使用該角色來存取Amazon S3帳戶。 若要這麼做，請建立來源帳戶的IAM許可權原則、將原則附加至使用者，然後建立目的地帳戶的角色。 如需特定資訊，請參閱 [此AWS檔案](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+         | [!UICONTROL **使用者ARN**] | 使用者ARN (Amazon資源名稱)由Adobe提供。 您必須將此使用者附加至您建立的原則。 |
 
          {style="table-layout:auto"}
 
-         1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
+      1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
 
          | 欄位 | 函數 |
          |---------|----------|
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
          | [!UICONTROL **說明**] | 帳戶說明。 |
-         | [!UICONTROL **分段**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 確保Adobe提供的使用者ARN有權將檔案上傳到此貯體。 |
+         | [!UICONTROL **貯體**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 此許可權可讓使用者ARN上傳初始檔案並覆寫後續上傳的檔案。</p> |
          | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
 
          {style="table-layout:auto"}
@@ -151,9 +151,9 @@ ht-degree: 19%
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | Azure RBAC帳戶的名稱。 此名稱會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | Azure RBAC帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
-         | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **Secret**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **應用程式ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **租使用者ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **密碼**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -211,11 +211,11 @@ ht-degree: 19%
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | Azure SAS帳戶的名稱。 此名稱會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | Azure SAS帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
-         | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-         | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中，位於 **金鑰儲存庫** 設定頁面。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **Secret**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **應用程式ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **租使用者ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **金鑰儲存庫URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **金鑰儲存庫秘密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中，位於 **金鑰儲存庫** 設定頁面。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+         | [!UICONTROL **密碼**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
@@ -236,7 +236,7 @@ ht-degree: 19%
 
 +++
 
-   +++Google Cloud Platform
+   +++Google雲端平台
 
    您可以直接將摘要傳送至Google Cloud Platform (GCP)貯體。 此目的地型別只需要您的GCP帳戶名稱與地點（貯體）名稱。
 
@@ -274,14 +274,14 @@ ht-degree: 19%
 
          {style="table-layout:auto"}
 
-         1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
+      1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
 
          | 欄位 | 函數 |
          |---------|----------|
          | [!UICONTROL **主體**] | 主體由Adobe提供。 您必須授予許可權才能接收此主體的摘要。 |
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
          | [!UICONTROL **說明**] | 帳戶說明。 |
-         | [!UICONTROL **分段**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 |
+         | [!UICONTROL **貯體**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 <p>確保您已授予Adobe提供的主體下列任一許可權：<ul><li>`roles/storage.objectCreator`：如果您想要將主體限製為僅在GCP帳戶中建立檔案，請使用此許可權。 </br>**重要：** 如果您將此許可權用於排程報告，則對於每個新的排程匯出都必須使用唯一的檔案名稱。 否則，報告產生將失敗，因為主體無權覆寫現有檔案。</li><li>（建議） `roles/storage.objectUser`：如果您希望主參與者有權檢視、列出、更新及刪除GCP帳戶中的檔案，請使用此許可權。</br>此許可權可讓主體覆寫現有檔案以供後續上傳，而不需要為每個新的排程匯出自動產生唯一的檔案名稱。</li></ul><p>如需授與許可權的詳細資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。</p> |
          | [!UICONTROL **前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
 
          {style="table-layout:auto"}
@@ -297,11 +297,11 @@ ht-degree: 19%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **移除逸出字元**] | 在收集資料時，有些字元（例如新的行）可能會造成問題。 如果您想要從摘要檔案中移除這些字元，請勾選此方塊。 |
-   | [!UICONTROL **壓縮格式**] | 使用的壓縮型別。 **** Gzip 會輸出 `.tar.gz` 格式的檔案。**** Zip 會輸出 `.zip` 格式的檔案。 |
+   | [!UICONTROL **壓縮格式**] | 使用的壓縮型別。 **Gzip** 輸出檔案 `.tar.gz` 格式。 **Zip** 輸出檔案 `.zip` 格式。 |
    | [!UICONTROL **封裝型別**] | 選取 **多個檔案** 用於大多數的資料摘要。 此選項會將您的資料分頁為未壓縮的2GB區塊。 （如果選取了多個檔案，且報表回溯期的未壓縮資料少於2GB，則會傳送一個檔案。） 選取 **單一檔案** 輸出 `hit_data.tsv` 在單一的、可能為大型的檔案中。 |
    | [!UICONTROL **資訊清單**] | Adobe是否應該傳遞 [資訊清單檔案](c-df-contents/datafeeds-contents.md#feed-manifest) 在摘要間隔內未收集到資料時到達目的地。 如果您選取 **資訊清單檔案**，您會在未收集資料時收到類似下列的資訊清單檔案：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **欄範本**] | 建立許多資料摘要時，Adobe建議建立欄範本。 選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。 |
-   | [!UICONTROL **適用欄**] | Adobe Analytics中所有可用的資料欄。 按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。 |
+   | [!UICONTROL **可用欄**] | Adobe Analytics中所有可用的資料欄。 按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。 |
    | [!UICONTROL **包含的欄**] | 要包含在資料摘要中的欄。 按一下[!UICONTROL 全部移除]，從資料摘要中移除所有欄。 |
    | [!UICONTROL **下載 CSV**] | 下載包含所有已包含欄的CSV檔案。 |
 

@@ -3,9 +3,9 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: bd192c3c985a41676b3b0f0faa13757eabb7e335
+source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
 workflow-type: tm+mt
-source-wordcount: '2188'
+source-wordcount: '2308'
 ht-degree: 10%
 
 ---
@@ -136,7 +136,7 @@ ht-degree: 10%
 
       | 欄位 | 函數 |
       |---------|----------|
-      | [!UICONTROL **貯體名稱**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 確保Adobe提供的使用者ARN有權將檔案上傳到此貯體。 |
+      | [!UICONTROL **貯體名稱**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 此許可權可讓使用者ARN上傳初始檔案並覆寫後續上傳的檔案。</p> |
       | [!UICONTROL **金鑰前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， folder_name/ |
 
       {style="table-layout:auto"}
@@ -149,7 +149,7 @@ ht-degree: 10%
 
       | 欄位 | 函數 |
       |---------|----------|
-      | [!UICONTROL **貯體名稱**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 如需授與許可權的詳細資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。 |
+      | [!UICONTROL **貯體名稱**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 <p>確保您已授予Adobe提供的主體下列任一許可權：<ul><li>`roles/storage.objectCreator`：如果您想要將主體限製為僅在GCP帳戶中建立檔案，請使用此許可權。 </br>**重要：** 如果您將此許可權用於排程報告，則對於每個新的排程匯出都必須使用唯一的檔案名稱。 否則，報告產生將失敗，因為主體無權覆寫現有檔案。</li><li>`roles/storage.objectUser`：如果您希望主參與者有權檢視、列出、更新及刪除GCP帳戶中的檔案，請使用此許可權。</br>此許可權可讓主體覆寫現有檔案以供後續上傳，而不需要為每個新的排程匯出自動產生唯一的檔案名稱。</li></ul><p>如需授與許可權的詳細資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。</p> |
       | [!UICONTROL **金鑰前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， folder_name/ |
 
       {style="table-layout:auto"}
