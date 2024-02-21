@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
+source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
 workflow-type: tm+mt
-source-wordcount: '3215'
-ht-degree: 17%
+source-wordcount: '3348'
+ht-degree: 16%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 17%
          | [!UICONTROL **說明**] | 位置的說明。 此說明會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶**] | Azure儲存體帳戶。 |
          | [!UICONTROL **容器**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 請確定您授與許可權，可以將檔案上傳至您先前建立的Azure應用程式。 |
-         | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
+         | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/`<p>請確定您在設定Azure RBAC帳戶時指定的應用程式ID已被授予 `Storage Blob Data Contributor` 角色以存取容器（資料夾）。</p> <p>如需詳細資訊，請參閱 [Azure內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p> |
 
          {style="table-layout:auto"}
 
@@ -213,7 +213,7 @@ ht-degree: 17%
          | [!UICONTROL **帳戶說明**] | Azure SAS帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **應用程式ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **租使用者ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **金鑰儲存庫URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **金鑰儲存庫URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI之後：<ul><li>在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。</li><li>請確定應用程式ID已獲授與 `Key Vault Certificate User` 內建角色，以存取金鑰儲存庫URI。</br><p>如需詳細資訊，請參閱 [Azure內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles).</p></li></ul><p>如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **金鑰儲存庫秘密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中，位於 **金鑰儲存庫** 設定頁面。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **密碼**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -226,7 +226,7 @@ ht-degree: 17%
          | [!UICONTROL **名稱**] | 位置的名稱。 此名稱會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **說明**] | 位置的說明。 此說明會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **容器**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 |
-         | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
+         | [!UICONTROL **前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/`<p>設定Azure SAS帳戶時，請確定您在「金鑰儲存庫機密名稱」欄位中指定的SAS權杖存放區具有 `Write` 許可權。 這可讓SAS權杖在您的Azure容器中建立檔案。 <p>如果您也希望SAS權杖覆寫檔案，請確定SAS權杖存放區具有 `Delete` 許可權。</p><p>如需詳細資訊，請參閱 [Blob儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources) Azure Blob儲存檔案。</p> |
 
          {style="table-layout:auto"}
 

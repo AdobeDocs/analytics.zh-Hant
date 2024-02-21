@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 206f601b2bce76dd51564d839135fbdcea1186fa
+source-git-commit: 9fbe0f8a7933e5ff047a270523ea53d9489b223c
 workflow-type: tm+mt
-source-wordcount: '5095'
-ht-degree: 99%
+source-wordcount: '5161'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 2 月** | |
+| 專案共用檔案的更新 | 已新增如何操作的資訊 [檢視共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>也簡化以下資訊： [共用個別或多個專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
+| 新增在Data Warehouse和資料摘要中上傳檔案至Azure SAS和Azure RBAC的許可權要求 | 新增在下列情況下將檔案上傳至Azure SAS和Azure RBAC的確切許可權要求 [設定Data Warehouse目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [設定資料摘要的目的地時](/help/export/analytics-data-feed/create-feed.md). |
 | 新增在Data Warehouse和資料摘要中將檔案上傳至Amazon S3和GCP貯體的許可權要求 | 新增當檔案上傳至Amazon S3和Google Cloud Platform貯體時的確切許可權要求 [設定Data Warehouse目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [設定資料摘要的目的地時](/help/export/analytics-data-feed/create-feed.md). |
 | **2024 年 1 月** | |
 | 元件移轉適用於個別 IMS 組織 | 澄清[元件移轉](/help/admin/admin/component-migration/component-migration.md)不支援跨 IMS 組織的移轉。 |
