@@ -4,9 +4,9 @@ title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: ht
-source-wordcount: '532'
+source-git-commit: 48e75fc4e9cc60bfd6865f7e80060c07ecf25ad8
+workflow-type: tm+mt
+source-wordcount: '526'
 ht-degree: 100%
 
 ---
@@ -65,8 +65,6 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
   ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
   <!--update screenshot; this was taken from a mock-->
-
-* 從選單：[!UICONTROL **說明**] > [!UICONTROL **資料字典**]。
 
 有關資料字典中可用的各種選項詳細資訊，請參閱[查看資料字典中的元件資訊](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)。
 
