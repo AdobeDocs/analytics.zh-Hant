@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '3897'
-ht-degree: 100%
+source-git-commit: dfec68a0ecdf691ab1005919fa3df01158a9cec9
+workflow-type: tm+mt
+source-wordcount: '3899'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 | **`clickmaplinkbyregion`** | Activity Map 連結 (依地區) | varchar(255) |
 | **`clickmappage`** | Activity Map 頁面 | varchar(255) |
 | **`clickmapregion`** | Activity Map 地區 | varchar(255) |
-| **`code_ver`** | 用於編譯及傳送影像要求的 AppMeasurement 資料庫版本。 | char(16) |
+| **`code_ver`** | 用於編譯及傳送影像要求的API或使用者端SDK版本。 | char(16) |
 | **`color`** | 以`c_color`欄的值為基礎的色階 ID。請參考`color_depth.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`connection_type`** | 表示連線類型的數值 ID。用於[連線類型](/help/components/dimensions/connection-type.md)維度的變數。請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`cookies`** | 用於 [Cookie 支援](/help/components/dimensions/cookie-support.md)維度的變數。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
