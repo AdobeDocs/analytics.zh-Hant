@@ -4,10 +4,10 @@ description: 與資料來源相關的常見問題。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: f7d07525c97f4aa145dc46198f883a37cde80158
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 4%
+source-wordcount: '400'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 +++可以刪除使用資料來源匯入的資料嗎？
 
-**不適用。** 使用資料來源上傳至報表的資料為 **永久**. 匯入後即無法移除，甚至無法透過Adobe移除。 Adobe強烈建議先將資料來源上傳至測試報表套裝，再上傳至生產報表套裝。
+是。您可以使用刪除這項資料 [資料修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). 此外，Adobe強烈建議先將資料來源上傳到測試報表套裝中，再上傳至生產報表套裝。
 +++
 
 +++一次可匯入多少資料？
