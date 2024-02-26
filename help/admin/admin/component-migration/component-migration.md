@@ -3,22 +3,22 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: df9c6d59ef5f5c43d0e1ef822bd23bc0e09ff20e
+source-git-commit: 86e4856ec44ee0c6b676e2f145f4e63587368d4c
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 2%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
 # 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 
-Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Customer Journey Analytics。
+Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移轉到 Customer Journey Analytics。
 
-移轉程式包括：
+移轉過程包括：
 
-* 在Customer Journey Analytics中重新建立Adobe Analytics專案。
+* 在 Customer Journey Analytics 中重新建立 Adobe Analytics 專案。
 
-* 從Adobe Analytics報表套裝對應維度和量度至Customer Journey Analytics資料檢視中的維度和量度。
+* 將 Adobe Analytics 報表套件中的維度和指標對應到 Customer Journey Analytics 資料視圖中的維度和指標。
 
   有些維度和量度會自動對應，有些則必須在移轉程式中手動對應。 區段也會移轉，但在移轉過程中不需要進行對應。
 
@@ -124,7 +124,7 @@ Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Cu
 
 如果移轉失敗，您可以重試移轉。
 
-在重試失敗的移轉之前，請務必移除所有 [不支援的元素](#understand-unsupported-elements-that-cause-errors) 從專案中移除。
+在重試失敗的移轉之前，請務必移除所有 [不支援的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=en#understand-unsupported-elements-that-cause-errors) 從專案中移除。
 
 >[!NOTE]
 >
