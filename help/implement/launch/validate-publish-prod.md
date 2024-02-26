@@ -4,7 +4,7 @@ description: 了解如何使用 Adobe Experience Platform 標記，將 Adobe Ana
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 89%
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標記的擴充功能。
 
-1. 安裝擴充功能，用於 [鉻黃](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或Firefox。
+1. 安裝擴充功能，用於 [鉻黃](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或Firefox。
 2. 瀏覽至您已在上面實作標記的開發網站。
 3. 按一下瀏覽器上的 Adobe Experience Cloud Debugger 圖示。
 4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、標記及 Adobe Experience Cloud 訪客 ID 服務中看到內容。

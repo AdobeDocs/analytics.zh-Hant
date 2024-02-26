@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: ae1c2ff1987e2fe5d147bfe74874b53492d48b5e
+source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 28%
+source-wordcount: '622'
+ht-degree: 23%
 
 ---
 
@@ -40,7 +40,7 @@ Activity Map模組是AppMeasurement.js、Adobe Experience Platform標籤和Web S
 
 Adobe Experience Platform Debugger：
 
-1. 下載並安裝 [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. 下載並安裝 [Adobe Experience Platform debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. 前往 [!UICONTROL 記錄檔] > [!UICONTROL Edge] > [!UICONTROL 連線到邊緣].
 
    ![](assets/validation2.jpg)
@@ -56,7 +56,7 @@ Adobe Experience Platform Debugger：
 * **如何忽略PII的集合？**
 在&lt;&lt;on before link中新增個別條件，然後按一下「傳送回撥>」，並傳回false以忽略這些值。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)
 
-  程式碼範例:
+  程式碼範例：
 
   ![](assets/sample-code.png)
 
@@ -68,7 +68,7 @@ Adobe Experience Platform Debugger：
 
 >[!NOTE]
 >
->啟用Web SDK的連結追蹤目前會在客戶從某一頁面導覽至下一頁面時，傳送連結事件。 這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。
+>啟用Web SDK的連結追蹤目前會在客戶從某一頁面導覽至下一頁面時，傳送連結事件。 這與AppMeasurement的運作方式不同，並可能導致傳送至Adobe的額外計費點選。
 
 +++
 
