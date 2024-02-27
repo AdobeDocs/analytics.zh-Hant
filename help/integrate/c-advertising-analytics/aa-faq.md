@@ -3,9 +3,9 @@ description: 有關 Advertising Analytics 的常見問題集。
 title: Advertising Analytics 的常見問題集
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1300'
 ht-degree: 37%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 37%
 
 +++ 我需要是Adobe Advertising Cloud或Adobe Advertising Cloud (AMO)客戶才能存取這項功能嗎？
 
-否，此功能適用於非Advertising Cloud和非AMO客戶。 </p> <p>AMO 客戶能運用現有的 Analytics-AMO 整合，因此不需要使用 Ad Analytics。
+否，此功能適用於非Advertising Cloud和非AMO客戶。
+
+AMO 客戶能運用現有的 Analytics-AMO 整合，因此不需要使用 Ad Analytics。
 
 +++
 
@@ -104,7 +106,7 @@ Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將
 +++ 我正在嘗試將我的Advertising Analytics帳戶對應到特定的報表套裝，不過在報表套裝強制回應中找不到帳戶。 原因為何？
 
 將報表套裝指派至Advertising Analytics帳戶前，您需要先執行下列動作：指派所需的報表套裝 [已針對Advertising Analytics報告進行布建](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-您可以透過個別的「管理員」頁面完成指派作業，請前往： 「管理員>報表套裝> 」 [選取報表套裝] >編輯設定> Advertising Analytics設定。
+您可以透過個別的「管理員」頁面完成指派作業，請前往： 「管理員>報表套裝> 」 `[select report suite]` >編輯設定> Advertising Analytics設定。
 
 +++
 
@@ -114,7 +116,7 @@ Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將
 
 +++
 
-+++ Advertising Analytics量度是否可報告於 <b>行銷管道</b> 報告？
++++ Advertising Analytics量度是否可報告於 *行銷管道* 報告？
 
 不可以，行銷管道報表不含這些度量。
 
@@ -126,13 +128,13 @@ Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將
 
 +++
 
-+++ 什麼可以是 <b>已擷取點選前</b>？ 我們是否在未點擊前就帶來了曝光數、成本、平均位置等資料？ </p> </td>
++++ 什麼可以是 *已擷取點選前*？ 我們是否在未點擊前就帶來了曝光數、成本、平均位置等資料？
 
 AMO ID會擷取搜尋引擎量度：曝光數、成本、點按數、平均位置和平均品質分數。 如果沒有點擊次數，但是有曝光次數，則曝光數/位置/品質分數仍然會傳送到 Analytics。一般來說，如果沒有點擊數，也就不會有成本。
 
 +++
 
-+++ 會在哪個層級擷取此資料？ <b>訪客？點擊？</b>
++++ 會在哪個層級擷取此資料？ *訪客？點擊？*
 
 搜尋引擎量度會在點選層級擷取，並連結至AMO ID （及其分類）。 這是屬於摘要層級資料，不會連結至造訪/訪客。因此，搜尋引擎量度只能用在屬於點擊層級範圍並且是以 AMO ID (而非其分類) 為基礎的區段。
 
@@ -140,7 +142,7 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 +++
 
-+++ 我們是隻擷取google.com還是 <b>國家/地區版本</b> (例如google.co.uk、google.it、google.fr或google.de)也一樣？
++++ 我們是隻擷取google.com還是 *國家/地區版本* (例如google.co.uk、google.it、google.fr或google.de)也一樣？
 
 「廣告平台」分類會擷取「Google Adwords」和「Bing Ads」等值。 常用的最佳作法就是將國碼納入行銷活動命名的一部分。接著，您就可以往下篩選或區隔 (例如，如果所有的行銷活動是以 countrycode_ 開頭，您可建立一個區段，讓其中的行銷活動 (AMO ID) 是以「UK_」為開頭，就能取得英國的資料)。
 
@@ -152,7 +154,7 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 +++
 
-+++ 是否有包括其他廣告管道的計畫，例如 <b>顯示</b> 或 <b>社交</b>？
++++ 是否有包括其他廣告管道的計畫，例如 *顯示* 或 *社交*？
 
 否，目前我們在藍圖中沒有針對這些其他管道的計畫。
 
@@ -161,9 +163,9 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 ## 自動與手動追蹤 {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ 設定我的Advertising帳戶時，系統會指出<b> 自動追蹤</b> 可能導致意想不到的後果。 可能會發生哪幾種結果？
++++ 設定我的Advertising帳戶時，系統會指出 *自動追蹤* 可能導致意想不到的後果。 可能會發生哪幾種結果？
 
-自動模式會嘗試以正確格式將URL引數附加至追蹤範本/目的地URL的結尾。 <b>不過，您還是必須負責確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。 自動模式能將關鍵字插入登陸 URL，不過網站伺服器可能不支援含特殊字元的關鍵字。
+自動模式會嘗試以正確格式將URL引數附加至追蹤範本/目的地URL的結尾。 不過，您還是必須負責確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。 自動模式能將關鍵字插入登陸 URL，不過網站伺服器可能不支援含特殊字元的關鍵字。
 
 +++
 
