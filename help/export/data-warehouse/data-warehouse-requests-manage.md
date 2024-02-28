@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: abfc67abdba5e35b12a583fafe9a6e42192af631
+source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1148'
 ht-degree: 4%
 
 ---
@@ -19,9 +19,13 @@ ht-degree: 4%
 
 ## 檢視請求
 
+依預設，您只能檢視您建立的請求，除非使用者已選擇讓組織中的其他人看到其請求（如所述） [Data Warehouse請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md))。 系統管理員可以檢視所有要求。
+
+若要檢視Data Warehouse請求，請執行下列步驟：
+
 1. 在Adobe Analytics中，選取 [!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**].
 
-   Data Warehouse頁面會顯示您提出的所有請求。 <!-- just those you have made? -->資料會顯示在每一欄中。 您可以 [設定哪些欄](#configure-columns) 是可見的。
+   Data Warehouse頁面會顯示您提出的所有請求。 資料會顯示在每一欄中。 您可以 [設定哪些欄](#configure-columns) 是可見的。
 
    <!-- add screenshot of main page -->
 
@@ -41,7 +45,7 @@ ht-degree: 4%
 
 * 並非所有與請求相關的欄位都可以編輯。 無法編輯的欄位會變暗。
 
-* 編輯其他使用者請求的管理員需要選擇他們可以存取的新帳戶和位置。
+* 編輯其他使用者請求的管理員必須選擇他們可以存取的新帳戶和位置。
 
 若要編輯排程請求：
 
