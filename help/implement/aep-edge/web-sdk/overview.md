@@ -4,10 +4,10 @@ description: 在 Adobe Experience Platform 資料彙集中使用 Web SDK 擴充�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 91%
+source-wordcount: '676'
+ht-degree: 76%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=zh-Hant) 傳送資料給 Adobe Analytics。 此實施方法的運作方式是將[體驗資料模型 (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 轉譯成 Analytics 所使用的格式。
 
-您可以直接使用 Web SDK 或透過標籤中的 Web SDK 擴充功能將資料發送到 Experience Edge。
+您可以使用直接將資料傳送至Experience Edge [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)或透過Tags中的Web SDK擴充功能存取。
 
 ## Web SDK
 
@@ -60,14 +60,14 @@ ht-degree: 91%
 </tr>
 
 <td>6</td>
-<td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
+<td><b>將 Adobe Analytics 服務</b>新增到您的資料流。此服務可控制資料是否及如何傳送至Adobe Analytics，以及特定要將資料傳送到哪些報表套裝。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 
 <tr>
 <td>7</td>
-<td><b>設定 Web SDK</b>。確定您在步驟 4 中安裝的程式庫正確設定了資料流 ID (先前稱為邊緣設定 ID (<code>edgeConfigId</code>))、組織 ID (<code>orgId</code>) 和其他可用選項。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant">設定 Web SDK</a></td>
+<td><b>設定 Web SDK</b>。請確認您在步驟4安裝的程式庫已正確設定資料串流ID (先前稱為邊緣設定ID (<code>edgeConfigId</code>)，組織id (<code>orgId</code>)，以及其他可用選項。 請確定變數對應正確。 </td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant">設定Web SDK</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics變數對應</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">手動對應變數</a></td>
 </tr>
 
 <tr>
@@ -121,7 +121,7 @@ ht-degree: 91%
 
 <tr>
 <td>5</td> 
-<td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
+<td><b>將 Adobe Analytics 服務</b>新增到您的資料流。此服務可控制資料是否及如何傳送至Adobe Analytics，以及特定要將資料傳送到哪些報表套裝。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 

@@ -4,20 +4,20 @@ description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe A
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 89%
+source-wordcount: '365'
+ht-degree: 83%
 
 ---
 
 # 使用 Analytics 擴充功能實施 Adobe Analytics
 
-在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。Adobe 目前的建議方法是透過 Adobe Experience Platform 中的標記。
+在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。Adobe目前的建議方法為 [標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant) 在Adobe Experience Platform中。
 
 Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
-所有擁有有效 Adobe Experience Cloud 合約的客戶都可以使用標記。 如果您不確定您是否擁有存取權，請聯絡貴組織的任一位 Experience Cloud 系統管理員。
+所有擁有有效Adobe Experience Cloud合約的客戶都可以使用標籤。 如果您不確定您是否擁有存取權，請聯絡貴組織的任一位 Experience Cloud 系統管理員。
 
 實施任務的高層級概觀：
 
@@ -48,7 +48,7 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 <tr>
 <td>3</td>
 <td><b><b>建立標記屬性</b>。屬性是用來參照標記管理資料的總體容器。</td>
-<td><a ref="../launch/create-analytics-property.md">建立 Adobe Analytics 標記屬性</a></td>
+<td><a href="../launch/create-analytics-property.md">建立 Adobe Analytics 標記屬性</a></td>
 </tr>
 
 <tr>

@@ -4,22 +4,22 @@ description: 使用Adobe Experience Platform Edge Network Server API傳送資料
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 33%
+source-wordcount: '268'
+ht-degree: 32%
 
 ---
 
 # 使用Adobe Experience Platform Edge Network Server API實作Adobe Analytics
 
-您通常會使用Experience PlatformEdge Network Server API從IoT裝置、機上盒、案頭應用程式等裝置收集資料。 然後將該資料傳送至Edge Network，再傳送至Adobe Analytics等服務。
+從IoT裝置、機上盒、案頭應用程式等裝置收集資料時，您通常使用Experience PlatformEdge Network Server API在伺服器端收集資料，而非使用者端。 然後您將該資料傳送至Edge網路和Adobe Analytics等服務。
 
 如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考量邊緣網路伺服器API。 另請參閱 [驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) 以取得詳細資訊。
 
 實施任務的高層級概觀：
 
-![使用 Analytics 擴充功能工作流程的 Adobe Analytics](../../assets/edge-network-server-api.png)
+![使用 Analytics 擴充功能工作流程的 Adobe Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
 
