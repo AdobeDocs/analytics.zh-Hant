@@ -4,10 +4,10 @@ description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f397aaba5b32ad226e930e983f4b087d29c16b89
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 89%
+source-wordcount: '2670'
+ht-degree: 88%
 
 ---
 
@@ -18,6 +18,13 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以從以下位置下載最新版本的AppMeasurement： [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 2.26.0 版本
+
+發行日期： **2024年3月4日**
+
+* AppMeasurement會自動辨識並利用國家/地區程式碼最上層網域的根網域，而這之前需要特定的Cookie網域設定。 更新可能會因為此自動識別而產生影響。 另請參閱 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 以取得詳細資訊。
+* 此發行版本包含Identity Service Library 5.5.0和Data Integration Library9.6。
 
 ## 2.25.0 版本
 

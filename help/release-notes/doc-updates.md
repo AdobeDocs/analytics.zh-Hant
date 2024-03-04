@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
-source-wordcount: '5186'
+source-wordcount: '5205'
 ht-degree: 97%
 
 ---
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 3 月** | |
+| AppMeasurement更新 | [發行說明](/help/implement/appmeasurement-updates.md) 於AppMeasurement更新v2.26.0。<br/>包含對的參考和更新 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定變數檔案。 |
 | **2024 年 2 月** | |
 | 管理Data Warehouse請求相關資訊的更新 | 澄清使用者預設只能檢視他們建立時的請求 [管理Data Warehouse請求](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
 | 專案共用檔案的更新 | 已新增如何操作的資訊 [檢視共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>也簡化以下資訊： [共用個別或多個專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
