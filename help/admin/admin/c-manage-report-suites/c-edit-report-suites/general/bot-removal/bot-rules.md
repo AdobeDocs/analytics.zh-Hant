@@ -1,17 +1,17 @@
 ---
 description: 機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可針對使用者在您網站上的活動提供更準確的測量。
-title: 瞭解並設定機器人規則
+title: 了解和設定機器人規則
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 71%
+source-wordcount: '1669'
+ht-degree: 69%
 
 ---
 
-# 瞭解並設定機器人規則
+# 了解和設定機器人規則
 
 機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可針對使用者在您網站上的活動提供更準確的測量。
 
@@ -20,6 +20,10 @@ ht-degree: 71%
 移除機器人流量通常會減少流量和轉換度量的數量。許多客戶發現移除機器人流量會導致轉換率增加，並導致其他可用性量度增加。
 
 機器人流量資料儲存在單獨的存放庫中，以便顯示在機器人和機器人頁面報表中。
+
+>[!NOTE]
+>
+>Adobe Experience Edge提供 [機器人偵測服務](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些標籤會指出點選來自機器人。 Adobe Analytics的機器人偵測程式與此不同，不會參考透過Experience Edge到達的資料中所包含的機器人分數。 這兩個系統使用相同的IAB機器人清單，因此在這方面的行為應該相同。
 
 ## 更新或上傳機器人規則
 
