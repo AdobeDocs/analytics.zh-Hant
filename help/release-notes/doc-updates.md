@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
 workflow-type: tm+mt
 source-wordcount: '5205'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | AppMeasurement更新 | [發行說明](/help/implement/appmeasurement-updates.md) 於AppMeasurement更新v2.26.0。<br/>包含對的參考和更新 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定變數檔案。 |
 | **2024 年 2 月** | |
 | 管理Data Warehouse請求相關資訊的更新 | 澄清使用者預設只能檢視他們建立時的請求 [管理Data Warehouse請求](/help/export/data-warehouse/data-warehouse-requests-manage.md). |
-| 專案共用檔案的更新 | 已新增如何操作的資訊 [檢視共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you).<p>也簡化以下資訊： [共用個別或多個專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role).</p> |
-| 新增在Data Warehouse和資料摘要中上傳檔案至Azure SAS和Azure RBAC的許可權要求 | 新增在下列情況下將檔案上傳至Azure SAS和Azure RBAC的確切許可權要求 [設定Data Warehouse目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [設定資料摘要的目的地時](/help/export/analytics-data-feed/create-feed.md). |
-| 新增在Data Warehouse和資料摘要中將檔案上傳至Amazon S3和GCP貯體的許可權要求 | 新增當檔案上傳至Amazon S3和Google Cloud Platform貯體時的確切許可權要求 [設定Data Warehouse目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 和 [設定資料摘要的目的地時](/help/export/analytics-data-feed/create-feed.md). |
+| 專案共用文件更新 | 新增有關如何[檢視共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的資訊。<p>同時也簡化有關[共用個別或多個專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的資訊。</p> |
+| 新增權限要求，可將檔案上傳到 Data Warehouse 和資料摘要中的 Azure SAS 和 Azure RBAC | 新增當[設定 Data Warehouse 目標](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)以及[當設定資料摘要目標](/help/export/analytics-data-feed/create-feed.md)時，將檔案上傳至 Azure SAS 和 Azure RBAC 的明確權限要求。 |
+| 新增權限要求，可將檔案上傳到 Data Warehouse 和資料摘要中的 Amazon S3 和 GCP 貯體 | 新增當[設定 Data Warehouse 目標](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)以及[當設定資料摘要目標時](/help/export/analytics-data-feed/create-feed.md)將檔案上傳到 Amazon S3 和 Google Cloud Platform 貯體的 Cloud Platform 的明確權限要求。 |
 | **2024 年 1 月** | |
 | 元件移轉適用於個別 IMS 組織 | 澄清[元件移轉](/help/admin/admin/component-migration/component-migration.md)不支援跨 IMS 組織的移轉。 |
 | 澄清某些資訊僅供管理員使用 | 新增了一些資訊，說明[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |
@@ -50,7 +50,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=zh-Hant) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
 | **2023 年 10 月** | |
 | 報告活動管理員新增了記錄資訊 | 新增了以下資訊：「報告活動管理員」中[報告活動的任何取消和後續限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)都會在[記錄](/help/admin/admin/logs.md)中擷取。 |
-| Data Warehouse 元件支援更新 | 新增一些 Data Warehouse 可用元件，並移除其他可用元件。這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對瀏覽深度維度的支援 (移除不支援維度清單的瀏覽深度)</li><li>移除對參與率量度的支援 (新增不支援量度清單的參與率量度)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (移除不支援維度清單中這些維度) <p>之前，Data Warehouse 唯有在選取「詳細程度」的情況下，才會在自由表格的第一欄支援這些維度。現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。年份依 1900 年位移，月份從零開始。</li></ul> |
+| Data Warehouse 元件支援更新 | 新增一些 Data Warehouse 可用元件，並移除其他可用元件。這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對造訪深度維度的支援 (移除不支援維度清單的造訪深度)</li><li>移除對參與率量度的支援 (新增不支援量度清單的參與率量度)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (移除不支援維度清單中這些維度) <p>之前，Data Warehouse 唯有在選取「詳細程度」的情況下，才會在自由表格的第一欄支援這些維度。現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。年份依 1900 年位移，月份從零開始。</li></ul> |
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
 | 開始使用內容增強功能 | 已新增概述管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
@@ -84,7 +84,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 排序左側邊欄中的元件 | 左側邊欄內新增關於元件清單排序的資訊。請參閱[元件概覽](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)中的「搜尋、篩選和排序元件清單」一節。 |
 | 從自由格式表格中刪除包含動態維度的列 | 已新增如何使用 x 圖示快速刪除包含動態維度的特定列的資訊。請參閱[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「從表格中快速排除特定列」一節。 |
-| 在面板中新增視覺效果的按鈕 | 已在 Analysis Workspace 中每個面板底部新增有關新按鈕的資訊，讓您可快速新增視覺效果。請參閱[視覺效果概觀](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的「將視覺效果效果新增到面板」一節。 |
+| 在面板中新增視覺效果的按鈕 | 已在 Analysis Workspace 中每個面板底部新增有關新按鈕的資訊，讓您可快速新增視覺效果。請參閱[視覺效果概觀](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的「將視覺效果新增到面板」一節。 |
 | **2023 年 4 月** | |
 | 轉移使用者資產並設定帳戶到期日 | 新增有關如何[轉移使用者資產並設定帳戶到期日](/help/admin/admin/user-management2/users-assets.md)的資訊。 |
 | Adobe Analytics 2.0 API 的 2 個新端點指南 | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
