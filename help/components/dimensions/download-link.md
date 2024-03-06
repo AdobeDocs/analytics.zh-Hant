@@ -3,10 +3,10 @@ title: 下載連結
 description: 下載連結的名稱。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 33d837cfa7909bd93d5a4f675aa0d8894a403266
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 92%
 
 此維度會針對同時具有 `pe` 查詢字串且字串值為 `lnk_d` 的點擊，從影像要求中的 [`pev2` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。如果 `pe` 查詢字串在點擊中有不同的值，則此維度不會收集資料。
 
-如果您想使用 AppMeasurement 將資料傳送至此維度，請傳送連結類型引數為 `"d"` 的 [`tl()`](/help/implement/vars/functions/tl-method.md) 影像要求。將所需的值填入連結名稱引數。
+如果您想使用 AppMeasurement 將資料傳送至此維度，請傳送連結類型引數為 `"d"` 的 [`tl()`](/help/implement/vars/functions/tl-method.md) 影像要求。將所需的值填入連結名稱引數中：
+
+```js
+s.tl(true,"d","Example download link");
+```
 
 ## 維度項目
 
