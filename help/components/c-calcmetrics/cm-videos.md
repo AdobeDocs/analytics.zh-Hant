@@ -1,22 +1,24 @@
 ---
-description: 這些短片 (8 分鐘以內) 概述如何最佳化計算量度工具的使用方式。
+description: 這些短片概述如何最佳化計算量度工具的使用方式。
 title: 作法影片
 feature: Calculated Metrics
+role: User
+level: Beginner
 exl-id: 1227f68f-b4cd-4fa6-8fa9-0e8cc4e86cb3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 36d74c4cc579b8bacabb62288addd49fa1cde4a7
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 100%
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
 # 作法影片
 
-這些短片 (8 分鐘以內) 概述如何最佳化計算量度工具的使用方式。
+這些短片概述如何最佳化計算量度工具的使用方式。
 
-* [量度選擇器](https://youtu.be/jCJ7XEJxcYo)
-* [量度產生器](https://youtu.be/wpdWYWaf0uo)
-* [分段量度](https://youtu.be/YtikkXvOrS8)
-* [不需實施作業的量度](https://youtu.be/CuQTm9RaUpY)
-* [函數](https://youtu.be/SSyWvomnewI)
-* [管理員專屬提示](https://youtu.be/-wqHOvzz0P0)
+* [Analysis Workspace中的快速計算量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+* [量度產生器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+* [區段量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html){target="_blank"}
+* [不需實作的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant){target="_blank"}
+* [函式](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+* [管理您的計算量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
