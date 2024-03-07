@@ -4,10 +4,10 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
-source-wordcount: '3576'
-ht-degree: 99%
+source-wordcount: '3569'
+ht-degree: 97%
 
 ---
 
@@ -262,4 +262,4 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 
 針對按資料隱私權存取請求傳回的檔案，產生這些檔案的程式碼會要求存取請求 (有適用這類要求的 ACC 標籤) 中，須納入前三個時間戳記變數中的其中一個。如未納入任一變數，則自訂點擊時間 UTC 會視同具有 ACC-ALL 標籤。
 
-針對資料隱私權存取請求傳回的點擊層級 CSV 檔案會將這些欄位中採 Unix 時間戳記的值轉換為日期/時間欄位的格式，即 YYYY-MM-DD HH:MM:SS (例如，2018-05-01 13:49:22)。 在摘要 HTML 檔案中，這些時間戳記值將會遭截斷，使其僅包括日期 (YYYY-MM-DD)，以減少這些欄位所產生的不重複值數量。
+針對資料隱私權存取請求傳回的點選層級CSV檔案，會將這些欄位中採Unix時間戳記的值轉換為格式的日期/時間欄位 `YYYY-MM-DD HH:MM:SS` (例如， `2018-05-01 13:49:22`)。 在摘要HTML檔案中，這些時間戳記值將會被截斷，以僅包含日期、 `YYYY-MM-DD`，減少這些欄位所產生的不重複值數量。

@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 31%
@@ -105,7 +105,7 @@ ht-degree: 31%
 
 +++
 
-+++ 我的Analytics報表中為何顯示「已達對象上限」？ (注意：這也會呈現為「對象ID = -1」和「：:max_audiences_exceeded:：&quot;在Data Warehouse中)
++++ 我的Analytics報表中為何顯示「已達對象上限」？ (注意：這也會呈現為「對象ID = -1」和 `::max_audiences_exceeded::` 在Data Warehouse)
 
 根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段， **150個最近符合資格的區段** 都會傳送至Analytics，而其餘清單則會遭截斷。 系統會傳送額外標幟給 Analytics，表示區段清單已遭截斷，並在「對象名稱」維度中顯示為「已達對象上限」，在「對象 ID」維度中則會顯示「-1」。
 
