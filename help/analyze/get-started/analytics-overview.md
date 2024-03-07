@@ -1,11 +1,12 @@
 ---
-description: Adobe Analytics 一般概觀包含 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
+description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
 short-description: 了解分析師、一般使用者和管理員的關鍵功能、常見使用案例和第一步。
 title: Adobe Analytics 概觀
 feature: Analytics Basics
-source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
+exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
@@ -51,4 +52,3 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 * **跨報表套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
 
 如需更多資訊，請參閱 [Customer Journey Analytics 概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。
-

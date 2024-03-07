@@ -1,34 +1,34 @@
 ---
-title: Adobe Experience Edge 中的 Analytics 變數對應
+title: 使用Web SDK XDM物件的Analytics變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bc1311171e7cec6538dcdb44ad13761b0d39851b
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 82%
+source-wordcount: '1149'
+ht-degree: 98%
 
 ---
 
-# Adobe Experience Edge 中的 Analytics 變數對應
+# 使用Web SDK XDM物件的Analytics變數對應
 
-下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。如果您使用這些XDM欄位路徑，則傳送資料給Adobe Analytics不需要額外的設定。 這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent范]** 欄位群組。
+下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。如果您使用 XDM 欄位路徑，則傳送資料給 Adobe Analytics 不需要額外的設定。這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent 範本]** 欄位類組中。
 
 您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md)上找到之前對此表格的更新。
 
-| XDM欄位路徑 | Analytics 維度和說明 |
+| XDM 欄位路徑 | Analytics 維度和說明 |
 | --- | --- |
-| `application.isClose` | 協助定義行動生命週期量度 [當機](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isInstall` | 協助判斷何時增加行動生命週期量度 [首次啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isLaunch` | 協助判斷何時增加行動生命週期量度 [首次啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.closeType` | 判斷某個關閉事件是否損毀。有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。協助設定行動生命週期量度 [當機](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 量度。 |
-| `application.isInstall` | 行動生命週期量度 [安裝](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isLaunch` | 行動生命週期量度 [啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.name` | 協助設定行動生命週期維度 [應用程式ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.isUpgrade` | 行動生命週期量度 [升級](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.version` | 協助設定行動生命週期維度 [應用程式ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `application.sessionLength` | 行動生命週期量度 [前一個作業長度](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `application.isClose` | 協助定義行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isInstall` | 協助判斷何時增加行動生命週期量度[首次啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isLaunch` | 協助判斷何時增加行動生命週期量度[首次啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.closeType` | 判斷某個關閉事件是否損毀。有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。幫助設定行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 指標。 |
+| `application.isInstall` | 行動生命週期量度[安裝](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isLaunch` | 行動生命週期量度[啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.name` | 協助設定行動生命週期維度[應用程式 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.isUpgrade` | 行動生命週期量度[升級](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.version` | 協助設定行動生命週期維度[應用程式 ID](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `application.sessionLength` | 行動生命週期量度[前一個工作階段長度](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `commerce.checkouts.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[結帳](../../components/metrics/checkouts.md)量度。 |
 | `commerce.checkouts.value` | 讓[結帳](../../components/metrics/checkouts.md)量度遞增所需的金額。 |
 | `commerce.order.currencyCode` | 設定 [currencyCode](../vars/config-vars/currencycode.md) 設定變數。 |
@@ -45,7 +45,7 @@ ht-degree: 82%
 | `commerce.productViews.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[產品檢視](../../components/metrics/product-views.md)量度。 |
 | `commerce.productViews.value` | 增加[產品檢視](../../components/metrics/product-views.md)量度。 |
 | `commerce.purchases.value` | 增加[訂單](../../components/metrics/orders.md)量度。 |
-| `device.model` | 行動生命週期維度 [裝置名稱](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `device.model` | 行動生命週期維度[裝置名稱](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `device.colorDepth` | 協助設定[色彩深度](../../components/dimensions/color-depth.md)維度。 |
 | `device.screenHeight` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 |
 | `device.screenWidth` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 |
@@ -53,23 +53,23 @@ ht-degree: 82%
 | `environment.browserDetails.acceptLanguage` | 協助設定[語言](../../components/dimensions/language.md)維度。 |
 | `environment.browserDetails.cookiesEnabled` | 設定 [Cookie 支援](../../components/dimensions/cookie-support.md)維度。有效值包括 `Y` (瀏覽器接受 Cookie) 和 `N` (瀏覽器拒絕 Cookie)。 |
 | `environment.browserDetails.javaEnabled` | 設定 [Java 已啟用](../../components/dimensions/java-enabled.md)維度。有效值包括 `Y` (Java 已啟用) 和 `N` (Java 已停用)。 |
-| `environment.browserDetails.userAgent` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `User-Agent` HTTP 請求標頭填入。如果您想要在報表中使用這個欄位，可以將它對應到 eVar。 |
+| `environment.browserDetails.userAgent` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `User-Agent` HTTP 請求標頭填入。如果您想要在報告中使用這個欄位，可以將它對應到 eVar。 |
 | `environment.browserDetails.viewportHeight` | 設定[瀏覽器高度](../../components/dimensions/browser-height.md)維度。 |
 | `environment.browserDetails.viewportWidth` | 設定[瀏覽器寬度](../../components/dimensions/browser-width.md)維度。 |
-| `environment.carrier` | 行動生命週期維度 [電信業者名稱](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.carrier` | 行動生命週期維度[電信業者名稱](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `environment.connectionType` | 協助設定[連線類型](../../components/dimensions/connection-type.md)維度。 |
 | `environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
 | `environment.language` | 行動維度地區設定。 |
-| `environment.operatingSystem` | 行動生命週期維度 [作業系統](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
-| `environment.operatingSystemVersion` | 協助設定行動生命週期維度 [作業系統版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/). |
+| `environment.operatingSystem` | 行動生命週期維度[作業系統](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
+| `environment.operatingSystemVersion` | 協助設定行動生命週期維度[作業系統版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定個別 [eVar](../../components/dimensions/evar.md) 維度。 |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | 設定個別[階層](/help/components/dimensions/hierarchy.md)維度。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 清單屬性分隔符號覆寫。不建議使用此欄位，因為分隔符號是根據報告套裝設定，從[流量變數管理員](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)自動擷取。使用此欄位可能會造成所使用的分隔符號與 Analytics 預期使用的分隔符號不相符。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 字串陣列含有個別[清單流量變數](../vars/page-vars/prop.md#list-props)值。 |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 將個別 `list[]` 陣列中的所有 `value` 字串都串連到其個別[清單變數](../vars/page-vars/list.md)。分隔符號是根據[報告套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中設置的值來自動選擇。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](../../components/dimensions/prop.md)維度。 |
-| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 套用 [事件序列化](../vars/page-vars/events/event-serialization.md) 至個別 [自訂事件](../../components/metrics/custom-events.md) 量度。 每個事件ID都位在其100個群組的父項中。 例如，若要套用序列化至 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 增加個別 [自訂事件](../../components/metrics/custom-events.md) 量度所需的金額。 每個事件都位在其100個群組的父項中。 例如，的欄位 `event567` 是 `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 套用[事件序列化](../vars/page-vars/events/event-serialization.md)至個別[自訂事件](../../components/metrics/custom-events.md)量度。每個事件 ID 位於其 100 群組父系中。例如，若要將序列化應用於 `event678`，請使用 `_experience.analytics.event601to700.event678.id`。 |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](../../components/metrics/custom-events.md)量度增加所需的數量。每個事件位於其 100 群組父系中。例如，`event567` 的欄位是 `_experience.analytics.event501to600.event567.value`。 |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 |
 | `marketing.trackingCode` | 設定[追蹤程式碼](../../components/dimensions/tracking-code.md)維度。 |
 | `media.mediaTimed.completes.value` | Media Analytics 量度[內容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete)。 |

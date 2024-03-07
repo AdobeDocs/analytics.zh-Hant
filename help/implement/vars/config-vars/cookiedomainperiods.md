@@ -4,7 +4,7 @@ description: 如果您的網域尾碼有句號，AppMeasurement 便可瞭解要�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: fe33da47c109adacb8162c7165ad4c63bd65c08d
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 43%
@@ -51,7 +51,7 @@ AppMeasurement 會查看網域和網域尾碼來判斷其 Cookie 位置。針對
 >
 >正確設定時 `cookieDomainPeriods` 將能改善AppMeasurement與Analytics功能，建議您評估升級您的AppMeasurement程式庫而導致的變更，是否會影響您。
 >
-> 另請參閱 [Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) 以取得有關CookieAppMeasurement使用的詳細資訊。
+> 另請參閱 [Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html) 以取得有關CookieAppMeasurement使用的詳細資訊。
 
 ## 使用Web SDK的Cookie網域句號
 

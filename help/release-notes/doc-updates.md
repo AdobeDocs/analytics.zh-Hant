@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: efe0f96db6a65389c94faf4f8d24b026e53a403c
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '5205'
-ht-degree: 99%
+source-wordcount: '5207'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 更新了異常偵測和貢獻分析文件 | 異常偵測和貢獻分析的文件以前位於 Virtual Analyst 區段中。以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li><li>貢獻分析文件已合併到異常偵測文件中。</li></ul> |
 | 「Attribution IQ」改為「歸因」 | 將整份文件中所有出現的「Attribution IQ」變更為「[歸因](/help/analyze/analysis-workspace/attribution/overview.md)」。 |
 | **2023 年 11 月** | |
-| Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html?lang=zh-Hant) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
+| Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
 | **2023 年 10 月** | |
 | 報告活動管理員新增了記錄資訊 | 新增了以下資訊：「報告活動管理員」中[報告活動的任何取消和後續限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)都會在[記錄](/help/admin/admin/logs.md)中擷取。 |
 | Data Warehouse 元件支援更新 | 新增一些 Data Warehouse 可用元件，並移除其他可用元件。這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對造訪深度維度的支援 (移除不支援維度清單的造訪深度)</li><li>移除對參與率量度的支援 (新增不支援量度清單的參與率量度)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (移除不支援維度清單中這些維度) <p>之前，Data Warehouse 唯有在選取「詳細程度」的情況下，才會在自由表格的第一欄支援這些維度。現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。年份依 1900 年位移，月份從零開始。</li></ul> |
@@ -57,12 +57,12 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 改善 Media Analytics 報告文件 | 重新組織了串流媒體指南報告部分中的一些內容，包括將 API 文件合併到其區段中，並調整了一些文章順序。 <p>將媒體工作區範本文章重命名為 [Workspace 媒體報告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)，以與產品內的名稱保持一致。 </p> |
 | **2023 年 8 月** | |
 | 資料摘要釐清 | 更新[開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md)，以釐清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料之前的任何日期。 |
-| Experience Edge 資料處理 | 已新增關於 Adobe Analytics 如何[處理 Experience Edge 資料](../implement/aep-edge/overview.md)的內容。 |
+| Adobe Experience Platform Edge Network資料處理 | 已新增Adobe Analytics使用方式的相關內容 [處理來自Edge Network的資料](../implement/aep-edge/overview.md). |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)的內容以提高可讀性。 |
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
 | 比較實作方法 | 已更新比較不同實作方法的文件。[了解更多](../implement/prepare/comparison.md) |
 | 澄清資料摘要的 SFTP 設定不需要 Adobe 客戶服務 | 在[使用 SFTP 將 Adobe 資料傳送到外部 FTP 帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中，澄清不需要求助 Adobe 客戶服務即可為資料摘要設定 SFTP。 <p>同時，新增注意事項，表示不再建議使用 SFTP，客戶在設定資料摘要時應使用雲端目的地。</p> |
-| 串流媒體的文件改善 | 串流媒體已進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hant)，明確區分邊緣實作和僅限 Analytics 實作。還新增圖表，說明各種實作方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=zh-Hant)和[僅限 Analytics 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=zh-Hant)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=zh-Hant)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=zh-Hant) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hant)區域文章的內容和組織。這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=zh-Hant)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
+| 串流媒體的文件改善 | 串流媒體已進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)，明確區分邊緣實作和僅限 Analytics 實作。還新增圖表，說明各種實作方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[僅限 Analytics 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)區域文章的內容和組織。這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 新增可更全面說明何時與如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 透過 Adobe Analytics 實作資料收集的文件。例如，在桌面應用程式、IoT 裝置、機上盒中透過 Adobe Analytics 實作資料收集。 |
 | 全球公司 ID | 以文件說明針對您登入的 Analytics 公司，[如何找到全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
@@ -132,15 +132,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 高平圴資訊量的用戶端提示 | 有關 Adobe 如何在使用者代理程式之外使用[用戶端提示](/help/technotes/client-hints.md)來確定裝置資訊的新主題。 |
 | 處理順序 | 匯總了各種說明頁面以提供有關[處理順序](/help/technotes/processing-order.md)的單一說明主題 |
 | **2022 年 8 月** | |
-| XDM 中用於 Edge 集合的清單變數支援 | 使透過 Experience Edge/Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hant#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
-| 設定產品字串變數時，為 Edge 集合使用 XDM 中的 SKU 欄位 | 使透過 Experience Edge/Web SDK 收集資料的客戶能使用 SKU 值在產品變數中設定產品欄位。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant#products-using-the-web-sdk) |
+| XDM 中用於 Edge 集合的清單變數支援 | 讓使用Web SDK收集資料的客戶能使用XDM來指定清單變數內容。 [了解更多](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 設定產品字串變數時，為 Edge 集合使用 XDM 中的 SKU 欄位 | 讓使用Web SDK收集資料的客戶能使用SKU值在產品變數中設定產品欄位。 [了解更多](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](/help/components/dimensions/evar-merchandising.md)的文件 |
 | Experience Platform Edge 文件 | 透過 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 發表在 Adobe Analytics 實作上的新文章。 |
 | 已更新的流量視覺化文件 | 根據[新的 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 有關以行動計分卡共用註解的文件 | 您可以在行動計分卡上顯示[在工作區中建立的註解](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |
-| 透過 Experience Edge 填入生命週期維度和量度 | 透過 Experience Edge 傳送的行動生命週期資料現在會出現在 Analytics 報告中。如需瞭解哪些 XDM 欄位對應到現有的行動生命週期報告，請參閱[分析變數對應](/help/implement/aep-edge/variable-mapping.md)。 |
+| 透過Edge Network填入生命週期維度和量度 | 傳送至Edge Network的行動生命週期資料現在會出現在Analytics報告中。 如需瞭解哪些 XDM 欄位對應到現有的行動生命週期報告，請參閱[分析變數對應](/help/implement/aep-edge/variable-mapping.md)。 |
 | **2022 年 4 月** | |
 | Adobe Analytics 登陸頁面更新 | 更新[工作區/Reports &amp; Analytics 聯合登陸頁面](/help/analyze/landing.md)，可改善可用性並方便瀏覽。 |
 | 「[!UICONTROL 頁面摘要]」面板的新主題 | [頁面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |

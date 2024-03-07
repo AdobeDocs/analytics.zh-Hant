@@ -4,7 +4,7 @@ title: ID 擴增
 feature: Data Governance
 role: Admin
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 96%
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 | 類型 | 考量事項 |
 | --- | --- |
-| Cookie ID 擴增 | 許多 Analytics 客戶原本使用 (舊版) [Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html?lang=zh-Hant)，現在則使用 [Experience Cloud 身分服務 (ECID)](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。然而，對於那些在只有舊版 Cookie 可用時首次造訪，但此後又造訪過的使用者：他們的部分資料會具有這兩種 Cookie。但是，較舊的資料只有 Analytics Cookie，而在極少數情況下，最新的資料可能只有 ECID。<p>確定您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 `expandIds` 選項。當您指定 `expandIds` 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 |
+| Cookie ID 擴增 | 許多 Analytics 客戶原本使用 (舊版) [Analytics Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-privacy.html)，現在則使用 [Experience Cloud 身分服務 (ECID)](https://experienceleague.adobe.com/docs/id-service/using/home.html)。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。然而，對於那些在只有舊版 Cookie 可用時首次造訪，但此後又造訪過的使用者：他們的部分資料會具有這兩種 Cookie。但是，較舊的資料只有 Analytics Cookie，而在極少數情況下，最新的資料可能只有 ECID。<p>確定您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 `expandIds` 選項。當您指定 `expandIds` 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 |
 | 自訂 ID 至 Cookie ID 擴增 | 在電子商務網站上，訪客經常會先瀏覽網站的各個頁面，將商品加入購物車，在進入結帳程序後才會登入網站。若用來識別資料隱私權請求使用者的 ID，只會在使用者登入時儲存在自訂變數中，則此預先登入活動不會與此 ID 建立關聯。使用 Analytics Cookie ID 時，由於 Cookie ID 在整個登入過程都會存在，因此客戶可選擇將登入前所進行的瀏覽動作與登入後的購買動作相關聯。<p>假設您的實施會將登入 ID (CRM ID、使用者名稱、忠誠度編號、電子郵件地址等等，或這些值的任意雜湊) 儲存在自訂變數 (prop 或 eVar) 或自訂訪客 ID 中，然後將此 ID 用於資料隱私權存取請求。資料主體可能會訝異於系統並未將他們的所有瀏覽資訊做為存取請求的一部分回傳，特別是在您的促銷商品已被瀏覽過但尚未購買的時候。因此，Analytics 資料隱私權處理程序將僅支援 ID 擴增，Analytics 可在其中找到點擊產生的所有 Cookie ID (這和能產生自訂 ID 的點擊相同)，然後擴增請求以一併納入這些 ID。<p>在指定 `expandIDs` 以及 Cookie 命名空間以外的任何命名空間時，系統會擴增請求以納入在包含任何指定 ID 的點擊中找到的任何 Cookie ID (ECID 或 Analytics Cookie)。接著，就會在任何新發現的 Cookie ID 上執行 Cookie ID 擴增 (如上所述)。<p>在將 `expandIDs` 選項用於存取請求，而指定的 ID 具有 ID-PERSON 標籤時，將會傳回兩組檔案。第一組 (人員組) 只會納入找到指定 ID 的點擊中的資料。第二組 (裝置組) 則只會納入來自 expanded ID，但沒有指定 ID 的點擊資料。 |
 
 {style="table-layout:auto"}

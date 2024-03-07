@@ -4,9 +4,9 @@ title: 了解和設定機器人規則
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: b5cca97861216751c5feae23e3c0121fa9c356b1
+source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1668'
 ht-degree: 69%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Adobe Experience Edge提供 [機器人偵測服務](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些標籤會指出點選來自機器人。 Adobe Analytics的機器人偵測程式與此不同，不會參考透過Experience Edge到達的資料中所包含的機器人分數。 這兩個系統使用相同的IAB機器人清單，因此在這方面的行為應該相同。
+>Adobe Experience Platform邊緣網路提供 [機器人偵測服務](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) 哪些標籤會指出點選來自機器人。 Adobe Analytics中使用的機器人偵測程式是獨立的，不會參照透過Edge Network到達的資料中所包含的機器人分數。 不過，這兩個系統使用相同的IAB機器人清單。
 
 ## 更新或上傳機器人規則
 
@@ -57,7 +57,7 @@ ht-degree: 69%
 
      如需詳細資訊，請參閱以下章節， [上傳機器人規則](#upload-bot-rules).
 
-1. 選取&#x200B;[!UICONTROL **「儲存」**]。
+1. 選取「[!UICONTROL **儲存**]」。
 
 ## 標準 IAB 機器人規則
 
@@ -151,7 +151,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 1. 在 [!UICONTROL **規則集**] 區域，檢閱匯入的規則。
 
-1. 選取&#x200B;[!UICONTROL **「儲存」**]。
+1. 選取「[!UICONTROL **儲存**]」。
 
 ## 匯出機器人規則
 

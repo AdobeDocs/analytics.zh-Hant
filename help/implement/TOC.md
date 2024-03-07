@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: '407'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
       + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
-      + [Decodlinkparameters](vars/config-vars/decodelinkparameters.md)
+      + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
       + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
@@ -134,15 +134,15 @@ ht-degree: 98%
    + [實作多套裝標記](prepare/multi-suite-tagging.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
-+ 使用 Experience Platform Edge 實作 Analytics {#aep-edge}
-   + [Experience Edge 總覽](aep-edge/overview.md)
-   + [變數對應](aep-edge/variable-mapping.md)
++ 使用Adobe Experience Platform Edge Network實作Analytics {#aep-edge}
+   + [Edge Network概述](aep-edge/overview.md)
+   + [xdm物件變數對應](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 總覽](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
-   + 伺服器API {#server-api}
-      + [伺服器API總覽](aep-edge/server-api/overview.md)
+   + 伺服器 API {#server-api}
+      + [伺服器 API 概觀](aep-edge/server-api/overview.md)
 + 使用 Adobe Analytics 擴充功能實作 Analytics。{#launch}
    + [標記總覽](launch/overview.md)
    + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)

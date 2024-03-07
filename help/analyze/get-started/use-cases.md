@@ -2,10 +2,11 @@
 description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
 title: Analytics 使用案例
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +35,7 @@ Adobe Analytics 可協助組織了解客戶在何處與其品牌互動、客戶�
 
 * [多管道資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant)
 
-* [離線資料整合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hant)。
+* [離線資料整合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)。
 
 * [Analysis Workspace 中的臨機分析](/help/analyze/analysis-workspace/home.md)
 

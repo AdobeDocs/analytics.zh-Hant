@@ -4,7 +4,7 @@ description: 使用Adobe Experience Platform Edge Network Server API傳送資料
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c72ca1da5491ff3afde8b401b2e4e140744eecf2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 32%
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 從IoT裝置、機上盒、案頭應用程式等裝置收集資料時，您通常使用Experience PlatformEdge Network Server API在伺服器端收集資料，而非使用者端。 然後您將該資料傳送至Edge網路和Adobe Analytics等服務。
 
-如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考量邊緣網路伺服器API。 另請參閱 [驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=en) 以取得詳細資訊。
+如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考量邊緣網路伺服器API。 另請參閱 [驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) 以取得詳細資訊。
 
 實施任務的高層級概觀：
 
@@ -42,18 +42,18 @@ ht-degree: 32%
 <tr>
 <td>3</td>
 <td><b>設定資料流</b>。資料流代表使用Adobe Experience Platform Edge Network API的API時的伺服器端設定。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant">設定資料流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">設定資料流<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td><b>實作及測試資料收集</b> 使用單一事件資料和批次事件資料收集API。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en">單一事件資料收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=en">批次事件資料收集</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">單一事件資料收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件資料收集</a>
 </tr>
 
 <td>5</td>
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=ens">與Adobe Analytics互動</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.htmls">與Adobe Analytics互動</a></td>
 </tr>
 
 

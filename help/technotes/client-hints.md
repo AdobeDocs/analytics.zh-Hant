@@ -4,7 +4,7 @@ description: 了解用戶端提示如何逐漸取代使用者代理程式成為�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
-若是透過 API 提交的資料，例如透過[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)或[批量資料插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html?lang=zh-Hant)，提示必須明確地包含在承載中。 查看各別文件以取得詳細資料。
+若是透過 API 提交的資料，例如透過[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)或[批量資料插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html)，提示必須明確地包含在承載中。 查看各別文件以取得詳細資料。
 
 +++
 

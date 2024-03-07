@@ -4,18 +4,16 @@ description: 在 Adobe Experience Platform 資料彙集中使用 Web SDK 擴充�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 9d9212313f54e4b44c5341754942ac0e0c78b84c
+source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 76%
+source-wordcount: '670'
+ht-degree: 72%
 
 ---
 
 # 使用 Adobe Experience Platform Web SDK 實施 Adobe Analytics
 
-您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/sdk/overview.html?lang=zh-Hant) 傳送資料給 Adobe Analytics。 此實施方法的運作方式是將[體驗資料模型 (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 轉譯成 Analytics 所使用的格式。
-
-您可以使用直接將資料傳送至Experience Edge [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/overview.html?lang=en)或透過Tags中的Web SDK擴充功能存取。
+您可以使用 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/web-sdk/home.html) 傳送資料給 Adobe Analytics。 此實作方法的運作方式為轉譯 [體驗資料模型(XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 轉換為Analytics使用的格式。 您可以使用Web SDK JavaScript程式庫或Web SDK標籤擴充功能，將資料傳送至Adobe Experience Platform Edge Network。
 
 ## Web SDK
 
@@ -32,7 +30,7 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td>確定您<b>已定義報表套裝</b>。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
 </tr>
 
 <tr>
@@ -50,7 +48,7 @@ ht-degree: 76%
 <tr>
 <td> 4</td>
 <td><b>安裝預先建立的獨立版本</b>。您可以直接在您的頁面上參考 CDN 上的程式庫 (<code>alloy.js</code>)，或將其下載並託管在您自己的基礎結構上。或者，您可以使用 NPM 套件。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant#option-2%3A-installing-the-prebuilt-standalone-version">安裝預先建立的獨立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant#option-3%3A-using-the-npm-package">使用 NPM 套件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">安裝預先建立的獨立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">使用 NPM 套件</a></td>
 </tr>
 
 <tr>
@@ -61,20 +59,20 @@ ht-degree: 76%
 
 <td>6</td>
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。此服務可控制資料是否及如何傳送至Adobe Analytics，以及特定要將資料傳送到哪些報表套裝。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>設定 Web SDK</b>。請確認您在步驟4安裝的程式庫已正確設定資料串流ID (先前稱為邊緣設定ID (<code>edgeConfigId</code>)，組織id (<code>orgId</code>)，以及其他可用選項。 請確定變數對應正確。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant">設定Web SDK</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">Analytics變數對應</a><br/><a href="https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en">手動對應變數</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">設定Web SDK</a><br/><a href="../variable-mapping.md">xdm物件變數對應</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>執行命令</b> 和/或<b>追蹤事件</b>。在您的網頁上實施基礎程式碼後，您可以開始使用 SDK 執行命令和追蹤事件。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/executing-commands.html?lang=zh-Hant">執行命令</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant">追蹤事件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">傳送事件</a></td>
 </tr>
 
 <tr>
@@ -98,7 +96,7 @@ ht-degree: 76%
 <tr>
 <td>1</td>
 <td>確定您<b>已定義報表套裝</b>。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
+<td><a href="/help/admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
 </tr>
 
 <tr>
@@ -122,13 +120,13 @@ ht-degree: 76%
 <tr>
 <td>5</td> 
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。此服務可控制資料是否及如何傳送至Adobe Analytics，以及特定要將資料傳送到哪些報表套裝。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>建立標記屬性</b>。屬性是用來參照標記管理資料的總體容器。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hant#for-web">為網路建立或設定標記屬性</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">為網路建立或設定標記屬性</a></td>
 </tr>
 
 <tr>
@@ -140,7 +138,7 @@ ht-degree: 76%
 <tr>
 <td>8</td>
 <td><b>迭代、驗證並發佈</b>至生產環境。內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">內嵌程式碼</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant">發佈概觀</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">內嵌程式碼</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant">發佈概觀</a></td>
 </tr>
 
 </table>
