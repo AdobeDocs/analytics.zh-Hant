@@ -4,10 +4,10 @@ description: 擷取訪客所檢視的頁面比例。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d53a2aba80455c2d807bc47e579cad4483c99c3b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 91%
+source-wordcount: '764'
+ht-degree: 85%
 
 ---
 
@@ -78,7 +78,11 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 將上述一或多個變數指派給 eVar，便可在報表中查看維度資料。
 
-此外掛程式會建立包含上述值且名為 `s_ppv` 的第一方 Cookie。它會在瀏覽器作業階段結束時到期。
+此外掛程式會建立三個第一方Cookie，在瀏覽器作業階段結束時過期：
+
+* `s_ppv`：儲存每個透過呼叫函式公開的值
+* `s_tp`：儲存上一頁的總畫素高度
+* `s_ips`：儲存上一頁的初始捲動百分比
 
 ## 範例
 
