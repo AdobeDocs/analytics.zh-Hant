@@ -8,17 +8,17 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
 workflow-type: tm+mt
 source-wordcount: '3928'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # 資料欄參考
 
-參閱本頁內容，了解各欄包含哪些資料。大部分實作不會用到每一欄，因此在決定要將哪些欄包含在資料摘要匯出中時，可參考此頁面。
+參閱本頁內容，了解各欄包含哪些資料。大部分實施不會用到每一欄，因此在決定要將哪些欄包含在資料摘要匯出中時，可參考此頁面。
 
 >[!IMPORTANT]
 >
->對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。如果您的實作經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
+>對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。如果您的實施經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
 
 ## 欄、說明和資料類型
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 | **`clickmaplinkbyregion`** | Activity Map 連結 (依地區) | varchar(255) |
 | **`clickmappage`** | Activity Map 頁面 | varchar(255) |
 | **`clickmapregion`** | Activity Map 地區 | varchar(255) |
-| **`code_ver`** | 用於編譯及傳送影像要求的API或使用者端SDK版本。 | char(16) |
+| **`code_ver`** | 用於編譯及傳送影像要求的 API 或客戶端 SDK 版本。 | char(16) |
 | **`color`** | 以`c_color`欄的值為基礎的色階 ID。請參考`color_depth.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`connection_type`** | 表示連線類型的數值 ID。用於[連線類型](/help/components/dimensions/connection-type.md)維度的變數。請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`cookies`** | 用於 [Cookie 支援](/help/components/dimensions/cookie-support.md)維度的變數。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
@@ -156,7 +156,7 @@ ht-degree: 98%
 | **`mobilerelaunchcampaigntrackingcode`** | 從內容資料變數`a.launch.campaign.trackingcode`中收集。用於贏取中，作為上市促銷活動的追蹤代碼。 | varchar(255) |
 | **`mobileresolution`** | 行動裝置的解析度。`[Width] x [Height]` 像素。 | varchar(255) |
 | **`monthly_visitor`** | 此旗標可標示當月的不重複訪客。 | 不帶正負號的 tinyint |
-| **`mvvar1`** - `mvvar3` | 清單變數值。根據實作包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
+| **`mvvar1`** - `mvvar3` | 清單變數值。根據實施包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
 | **`mvvar1_instances`** - `mvvar3_instances` | 在目前點擊上設定的清單變數值。以 `--**--` 取代原始的分隔符號。沒有 `post` 欄。 | 文字 |
 | **`namespace`** | 未使用。屬於已報廢功能。 | varchar(50) |
 | **`new_visit`** | 此旗標可確定目前的點擊是否為新造訪。造訪閒置 30 分鐘後，由 Adobe 伺服器設定。 | 不帶正負號的 tinyint |

@@ -1,5 +1,5 @@
 ---
-title: 使用 Adobe Experience Platform Edge 實作 Adobe Analytics
+title: 使用 Adobe Experience Platform Edge 實施 Adobe Analytics
 description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料 - 總覽
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
@@ -7,13 +7,13 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 46%
+ht-degree: 50%
 
 ---
 
 # 使用Adobe Experience Platform Edge Network實作Adobe Analytics
 
-Adobe Experience Platform Edge Network可讓您將預計要送給多個產品的資料傳送到一個集中位置。 Edge網路會將適當的資訊轉送給所需的產品。 此概念可讓您整合實作工作，特別是橫跨多個資料解決方案時。
+Adobe Experience Platform Edge Network可讓您將預計要送給多個產品的資料傳送到一個集中位置。 Edge網路會將適當的資訊轉送給所需的產品。 此概念可讓您整合實施工作，特別是橫跨多個資料解決方案時。
 
 Adobe提供三種主要方法將資料傳送至Edge Network：
 
@@ -42,4 +42,4 @@ Edge Network會使用下列邏輯來判斷Adobe Analytics頁面檢視和連結�
 
 {style="table-layout:auto"}
 
-請參閱 [Adobe Analytics ExperienceEvent完整擴充功能結構欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html) 以取得詳細資訊。
+請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能綱要欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)，了解更多資訊。

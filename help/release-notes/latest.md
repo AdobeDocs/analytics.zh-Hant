@@ -20,7 +20,7 @@ ht-degree: 99%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **AppMeasurement更新** | [AppMeasurement版本2.26.0](/help/implement/appmeasurement-updates.md) 可用。 | | 2024年3月4日 |
+| **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
 | **Data Warehouse 更新** | 現在可以使用以下 Data Warehouse 改良功能：<ul><li>在建立 Data Warehouse 請求時，使用者現在可以啟用名為「[!UICONTROL **設為可供您組織中使用者所使用**]」的新切換，讓組織中的所有使用者都可以使用請求。<p>有關詳細資訊，請參閱 [Data Warehouse 請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)。</p></li><li>在建立或管理 Data Warehouse 報表目的地時，系統管理員現在可以啟用名為「[!UICONTROL **顯示所有目的地**]」的切換，用來顯示組織中使用者建立的帳戶和位置。<p>有關詳細資訊，請參閱[為 Data Warehouse 請求設定報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。</p></li> | 不適用 | 2024 年 1 月 10 日 |
 | **關鍵量度摘要視覺效果更新** | 使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。[了解更多](/help/analyze/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024 年 1 月 17 日 |
 | **Data Warehouse API 文件** | 請參閱「[Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API)」以了解更多。前往「[!UICONTROL 選取一個定義]」，並選取「[!UICONTROL Data Warehouse API]」。 | | 2024 年 2 月 19 日 |
