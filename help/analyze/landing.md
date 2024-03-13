@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
-workflow-type: ht
-source-wordcount: '2168'
-ht-degree: 100%
+source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+workflow-type: tm+mt
+source-wordcount: '1803'
+ht-degree: 90%
 
 ---
 
@@ -17,44 +17,51 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## 全新登陸頁面功能 {#new-features}
+Adobe Analytics登陸頁面包含下列子標籤：專案、報表和學習。
 
-| 功能 | 說明 | 螢幕擷圖 |
-| --- | --- | --- |
-| 展開[!UICONTROL 專案]表格至全螢幕 | 若要展開表格，僅需按一下漢堡選單圖示。這個動作將收合左側欄索引標籤。 | ![展開表格](assets/landing-collapse2.png) |
-| 自訂欄寬 | 以前欄寬是固定的。現在您可以透過拖曳欄分隔元來調整它。 | ![欄寬](assets/column-width.png) |
-| 重新排序釘選項目 | 若要將釘選項目上下移動，請按一下釘選項目旁的省略符號，並選取&#x200B;**[!UICONTROL 向上移動]**&#x200B;或是&#x200B;**[!UICONTROL 向下移動]**。 | ![移動釘選項目](assets/move-up-down.png) |
-| 新表格欄位 | 按一下表格右上角的[!UICONTROL 自訂表格]圖示。新表格欄位包括： <ul><li>**[!UICONTROL 排程]**：設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。</li><li>**[!UICONTROL 專案 ID]**：專案 ID 可用於偵錯專案。</li><li>**[!UICONTROL 最大日期範圍]**：更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 </li><li>**[!UICONTROL 查詢數]**：專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 </li></ul> | ![新欄位](assets/new-columns.png) |
-| 按一下即可開啟報告。 | 之前您必須按兩下。 |  |
-| **[!UICONTROL Report &amp; Analytics]** 報告的新連結 | <ul><li>**[!UICONTROL 報告]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人頁面]**<li>**[!UICONTROL 報告]** > **[!UICONTROL 參與度]** > **[!UICONTROL 即時]**</li></ul> | ![新連結](assets/report-links.png) |
-| 全新現成可用的報告 | <ul><li>**[!UICONTROL 報告]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 參與杜]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>注意，這些報告為[!UICONTROL 工作區]格式，並需要設定和建置。輸出由高層級量度的面板、趨勢資料、[!UICONTROL 流量]視覺化等組成。您可修改這些報告並變更維度、維度項目等。這些報告也能在工作區面板下以面板的方式提供。 | ![下一頁](assets/next-page.png) |
-| **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
-| 在 Customer Journey Analytics 中也可取得 | Customer Journey Analytics 中也可以找到此登陸頁面修改後的格式。 |  |
+**[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
 
-{style="table-layout:auto"}
+**[!UICONTROL 報告]**&#x200B;是指由 Adobe 預先建立的任何內容，例如在 Workspace 中的範本。
 
-## 最上方選單結構 {#top-menu}
-
-![最上方選單](assets/top-menus.png)
-
-* Analytics 最上方選單：大多數報告現在都在左側欄的「[!UICONTROL 報告]」選單中。
-* 左側欄有三個索引標籤：[!UICONTROL 專案]、[!UICONTROL 報告]和[!UICONTROL 學習]。
-
-### 術語
-
-* **[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
-* **[!UICONTROL 報告]**&#x200B;是指由 Adobe 預先建立的任何內容，例如在 Workspace 中的範本。
-* **[!UICONTROL 範本]**&#x200B;不再用作 Adobe 預先建立的工作區專案的詞彙。範本現在歸類在[!UICONTROL 報告]下面。[!UICONTROL 範本]這個詞彙仍用於您的公司建立的範本。
+此 **[!UICONTROL 學習]** 索引標籤包含實作影片導覽、教學課程和檔案連結。
 
 ## 瀏覽至「[!UICONTROL 專案]」索引標籤。 {#navigate-projects}
 
-「[!UICONTROL 專案]」可用作  [!UICONTROL 工作區] 首頁。「專案」索引標籤會顯示公司資料夾、您建立的任何個人資料夾、您的專案和 Mobile 計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
+此 [!UICONTROL 專案] 標籤的作用為 [!UICONTROL 工作區] 首頁。 它會顯示公司資料夾、您建立的所有個人資料夾、您的專案以及行動計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
 
 ![登陸 - 所有項目](assets/landing-all2.png)
 
 >[!NOTE]
 >
 >下列數項設定會在工作階段和跨工作階段期間持續存在。例如，您選取的索引標籤、選取的篩選器、選取的欄，以及欄排序方向。 搜尋結果不會持續存在。
+
+### 自訂表格欄
+
+若要自訂欄寬，請拖曳分隔各欄的垂直條。
+
+若要從專案清單中新增或移除欄，請按一下右上方的欄圖示 (![登陸 - 所有項目](/help/analyze/assets/select-column.png))，然後選取或取消選取欄標題。
+
+可用的欄包括：
+
+| 欄名稱 | 說明 |
+|---------|----------|
+| [!UICONTROL **名稱**] | 識別專案名稱。 |
+| [!UICONTROL **類型**] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
+| [!UICONTROL **標籤**] | 標記專案，可方便分類整理。 |
+| [!UICONTROL **已排程**] | 設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。 按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
+| [!UICONTROL **專案角色**] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
+| [!UICONTROL **報告套裝**] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報告套裝，多寡視您的分析使用情形而定。報告套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
+| [!UICONTROL **所有者**] | 識別建立專案的人員。 |
+| [!UICONTROL **共用對象**] | 顯示目前與誰共用專案。 |
+| [!UICONTROL **上次修改日期**] | 上次修改專案的日期與時間。 |
+| [!UICONTROL **上次開啟時間**] | 識別目前檢視專案頁面的使用者上次開啟專案的日期。 |
+| [!UICONTROL **上次使用日期**] | 顯示組織內任何使用者上次開啟專案的日期與時間，有助於判斷專案對您組織中的使用者是否有價值。<p>此欄僅供系統管理員使用。</p> |
+| [!UICONTROL **專案 ID**] | 可用於偵錯專案。 |
+| [!UICONTROL **最大日期範圍**] | 更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 |
+| [!UICONTROL **查詢數**] | 專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
+| [!UICONTROL **位置**] | 顯示專案所在的資料夾。 |
+
+### 專案頁面上的其他UI元素
 
 | UI 元素 | 定義 |
 | --- | --- |
@@ -73,31 +80,8 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | 釘選圖示 | 釘選項目，使其一直出現在清單的頂部，但您可以將其順序上下移動來重新調整順序。 使用省略符號選項選單，並選擇在清單中&#x200B;**上移** 或&#x200B;**下移**。 |
 | 資訊 (i) 圖示 | 顯示以下有關專案的資訊：類型、專案角色、所有者、說明，以及共用對象。 此資訊也會指明誰可以[編輯或重複](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)此專案。 |
 | 省略 (...) | 顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。 您可能沒有執行所列出所有操作的權限。 |
-| [!UICONTROL 類型] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
-| [!UICONTROL 標籤] | 標記專案，可方便分類整理。 |
-| [!UICONTROL 專案角色] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
-| [!UICONTROL 報告套裝] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報告套裝，多寡視您的分析使用情形而定。報告套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
-| [!UICONTROL 所有者] | 識別建立專案的人員。 |
-| [!UICONTROL 上次開啟時間] | 識別您上次開啟專案的日期。 |
-| 自訂表格圖示 | 選取要在表格中查看的欄。 若要從專案清單中新增或移除欄，請按一下右上方的欄圖示 (![登陸 - 所有項目](/help/analyze/assets/select-column.png))，然後選取或取消選取欄標題。 |
 | 顯示：資料夾與專案或所有專案 | 變更表格上的視圖設定，以根據資料夾組織顯示資料夾和專案&#x200B;**或**&#x200B;以無組織的清單顯示所有專案。 |
 | &lt; (返回按鈕) | 將您傳回至工作區專案或壣表中最新的登陸頁面設定。 離開登陸頁面時您擁有頁面設定，會在您返回時持續留在該頁面。 |
-
-### 不再使用專案管理員頁面 {#deprecate-pm-page}
-
-隨著新登陸頁面的發布，我們已棄用「元件管理員」下所列的專案管理員。 新版登陸頁面會處理舊「專案管理員」頁面的所有功能，以及更多功能。
-
-「專案管理員」頁面的一個常見使用案例是檢視您的所有專案。
-
-若要使用篩選器邊欄在新登陸頁面上檢視所有專案，請選取&#x200B;**「其他篩選器」**，然後選取&#x200B;**「全部顯示」**。
-
-![顯示所有專案](assets/show-all-fIlter.png)
-
-如果您位於「資料夾與專案」檢視中，會出現一個強制回應快顯視窗，詢問您是否要切換至「所有專案」檢視，這可讓您在可能組織的任何資料夾之外，更輕鬆地檢視所有專案。選取&#x200B;**「切換至「所有專案」檢視」**，以便更完整地檢視您有權存取的所有專案。
-
-![切換至所有專案](assets/switch-all-projects-view.png)
-
-管理員的另一個使用案例是管理公司報告，以便刪除、重命名、核准報告或加標記。 有關管理報告的資訊，請參閱[管理公司報告](#manage-company-reports)。
 
 ## 瀏覽至「[!UICONTROL 報告]」標籤。 {#navigate-reports}
 

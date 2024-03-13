@@ -3,53 +3,54 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3c6e11dd9d0044dbf79fa0ba97e55a547966d120
+source-git-commit: 401365705caed37cff219d8000c86a0b05495050
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 99%
+source-wordcount: '1056'
+ht-degree: 47%
 
 ---
 
-# Adobe Analytics 目前的發行說明 (2024 年 2 月)
+# Adobe Analytics 目前的版本注意事項 (2024 年 3 月)
 
-**上次更新日期**：2024 年 2 月 21 日
+**上次更新**：2024年3月13日
 
-這些發行說明涵蓋 2024 年 2 月 14 日至 2024 年 3 月 11 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年3月12日至2024年4月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
-| **Data Warehouse 更新** | 現在可以使用以下 Data Warehouse 改良功能：<ul><li>在建立 Data Warehouse 請求時，使用者現在可以啟用名為「[!UICONTROL **設為可供您組織中使用者所使用**]」的新切換，讓組織中的所有使用者都可以使用請求。<p>有關詳細資訊，請參閱 [Data Warehouse 請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)。</p></li><li>在建立或管理 Data Warehouse 報表目的地時，系統管理員現在可以啟用名為「[!UICONTROL **顯示所有目的地**]」的切換，用來顯示組織中使用者建立的帳戶和位置。<p>有關詳細資訊，請參閱[為 Data Warehouse 請求設定報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。</p></li> | 不適用 | 2024 年 1 月 10 日 |
-| **關鍵量度摘要視覺效果更新** | 使用關鍵量度摘要視覺效果時，比較日期範圍現在可以自動更新，具體取決於您選擇的比較日期範圍選項是相對於主要日期範圍還是固定的。[了解更多](/help/analyze/analysis-workspace/visualizations/key-metric.md)。 | 不適用 | 2024 年 1 月 17 日 |
-| **Data Warehouse API 文件** | 請參閱「[Adobe Analytics Data Warehouse API 2.0](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Warehouse%20APIs#/Data%20Warehouse%20Scheduled%20Requests%20API)」以了解更多。前往「[!UICONTROL 選取一個定義]」，並選取「[!UICONTROL Data Warehouse API]」。 | | 2024 年 2 月 19 日 |
-| **Web SDK 的 Activity Map，無需額外費用** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 |  | 2024年4月3日 |
-| **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月下旬 |
+| **「專案」登陸頁面上可用的新欄** | 此 **[!UICONTROL 上次使用日期]** 現在當您在檢視專案標籤時 [Adobe Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html). <p>此資訊可顯示專案上次開啟的日期和時間，以協助您判斷專案是否對貴組織中的使用者有用。</p> <p>先前， **[!UICONTROL 上次使用日期]** 欄僅在計算量度管理員、區段管理員和警報管理員中可用。</p> |  | 2024 年 3 月 13 日 |
+| **Analytics支援Google所需的DMA同意標幟** | 由於新的歐洲隱私權法規，Google要求歐洲收集的資料若已傳送給他們，必須指出是否已授予兩種特定型別的同意。 **從3月6日開始**，Google將不再接受無法指出已獲授相關同意的事件資料。 Adobe Analytics預計會在3月中旬發佈擷取這些資料的支援。 我們很快將傳達更多詳細資訊。 |  | 2024年3月中旬 |
+| **對資料摘要、Data Warehouse和分類集使用相同的雲端帳戶** | 您建立的雲端帳戶和位置現在可用於匯出資料(搭配資料摘要和Data Warehouse)和匯入資料（搭配分類集）。<p> **設定帳戶時的變更：** 使用者可以設定雲端匯入和匯出帳戶，以及設定雲端匯入和匯出位置，這些位置可用於以下任一用途：<ul><li>使用分類集匯入資料</li><li>使用資料摘要匯出資料</li><li>使用Data Warehouse匯出資料。</li></ul><p>**管理帳戶時的變更**：使用者可使用「位置」頁面（在「元件>位置」下方）來檢視及管理其建立的所有帳戶和位置，無論其建立於何處。 <p>以前，「位置」頁面僅套用至為匯入具有「分類設定」的資料而建立的帳戶。</p> | | 2024 年 4 月 |
+| **管理員可以管理其組織中的所有位置** | 「位置」頁面上的新選項可讓管理員檢視及管理組織中的所有位置。 <p>以前，管理員只能檢視和管理他們建立的位置。</p> |  | 2024 年 4 月 |
+| **Activity Map對Web SDK使用的伺服器呼叫較少** | 目前，Activity Map連結事件會計為自己的事件，並產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024年4月3日 |
+| **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | | 2024 年 4 月中旬 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 修正了以下分類問題：AN-319515；AN-337559；AN-338149；AN-338702；AN-338769；AN-338891；AN-339327；AN-339649；AN-339668；AN-339669；AN-339776；AN-339822；AN-340017；AN-340202；AN-340476；
-* 修正了以下分類規則產生器問題：AN-338385；AN-338399；AN-338592；AN-338810；AN-338893；AN-339431；AN-339894；AN-339933；AN-340201；AN-340309；
-* 修正了以下 A4T 問題：AN-334830；AN-336194；AN-338309；AN-338650；
-* 修正了以下資料收集問題：AN-339323
-* 修正了以下 Data Warehouse 問題：AN-335542；AN-331425；AN-337215；AN-338445；AN-338643；AN-338651；AN-339461；AN-340066；AN-340207；AN-340460
-* 修正了以下資料摘要問題：AN-335952；AN-338653；AN-339508；AN-339681；AN-340418
-* 修正了以下資料來源問題：AN-338648
-* 修正了以下 Analysis Workspace 問題：AN-326509；AN-336186；AN-336190；AN-336309；AN-337922；AN-338094；AN-338323；AN-338556；AN-339600；AN-340445
+* 修正下列分類問題：AN-335632、AN-337559、AN-340164、AN-340370、AN-341089、AN-341211、AN-341284、AN-341469、AN-341481、AN-341760、AN-341778、AN-342144、AN-342258、AN-342338、AN-342400
+* 修正下列分類規則產生器問題：AN-340921、AN-341269、AN-341292、AN-341467、AN-341666、AN-342145、AN-342329
+* 修正下列智慧型警報問題： AN-340736
+* 修正下列區段問題： AN-336242
+* 修正下列Data Warehouse問題：AN-335354、AN-339446、AN-339774、AN-340221、AN-340599、AN-341277、AN-342009、AN-342088、AN-342592
+* 已修正下列資料摘要問題： AN-335508、AN-340887、AN-341050、AN-341208、AN-341403、AN-341479、AN-341524、AN-341661、AN-342000、AN-342125、AN-342256、AN-342301、AN-342410、AN-342502、AN-342525
+* 已修正下列Report Builder問題： AN-340540
+* 修正下列Analysis Workspace問題：AN-295889、AN-330981、AN-338818、AN-339730、AN-341114、AN-341520；
 
 ### Analytics 其他修正
 
-AN-328239；AN-332908；AN-335449；AN-335517；AN-336075；AN-336100；AN-336128；AN-338088；AN-338270；AN-338393；AN-338494；AN-339326；AN-339742；AN-339883；AN-340419；
+AN-312198、AN-338009、AN-339549、AN-333970、AN-334790、AN-336461、AN-336572、AN-339549、AN-341119、AN-341246、AN-341268、AN-341272、AN-341475、AN-341547、AN-341558、AN-341680、AN-342017；
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| Adobe API 物件會員新增 | 2024 年 1 月 17 日 | Adobe 可能會為現有 API 物件隨時新增選擇性請求和回應會員 (名稱/值對)，恕不另行通知或變更版本設定。Adobe 建議您參考與我們的 API 整合的任何協力廠商工具的 API 文件，以便在不理解的情況下在處理過程中忽略此類新增。如果實施得當，此類新增對於您的實施來說是非破壞性的變更。Adobe 不會在未事先透過發行說明提供標準通知下刪除參數或新增所需參數。 |
-| `getPageLoadTime` 外掛程式已過時 | 2024 年 1 月 10 日 | 不再支援此外掛程式。其程式碼使用了 performance.timing 方法，該方法 (根據 MDN) 已[過時](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。已經開始更新外掛程式的工作。 |
+| **新增AdobeAPI物件成員** | 2024 年 1 月 17 日 | Adobe 可能會為現有 API 物件隨時新增選擇性請求和回應會員 (名稱/值對)，恕不另行通知或變更版本設定。Adobe 建議您參考與我們的 API 整合的任何協力廠商工具的 API 文件，以便在不理解的情況下在處理過程中忽略此類新增。如果實施得當，此類新增對於您的實施來說是非破壞性的變更。Adobe 不會在未事先透過發行說明提供標準通知下刪除參數或新增所需參數。 |
+| **`getPageLoadTime`外掛程式已棄用** | 2024 年 1 月 10 日 | 不再支援此外掛程式。其程式碼使用了 performance.timing 方法，該方法 (根據 MDN) 已[過時](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。已經開始更新外掛程式的工作。 |
 
 {style="table-layout:auto"}
 
@@ -63,7 +64,7 @@ AN-328239；AN-332908；AN-335449；AN-335517；AN-336075；AN-336100；AN-33612
 
 ## AppMeasurement
 
-如需 AppMeasurement 版本 (版本 2.25.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
+如需 AppMeasurement 版本 (版本 2.26.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
 
 
 ## 相關資源
