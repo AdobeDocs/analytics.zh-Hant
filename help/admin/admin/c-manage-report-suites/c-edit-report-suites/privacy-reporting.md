@@ -3,16 +3,20 @@ description: 啟用同意管理維度。
 title: 隱私權報告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
+source-git-commit: a102242b98967d578918f358166e13d90f06e070
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 71%
+source-wordcount: '112'
+ht-degree: 55%
 
 ---
 
 # 隱私權報告
 
 隱私權報表可讓您啟用 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)， [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md) 和 [廣告同意](/help/components//dimensions/ad-consent.md) 用於報表的維度。
+
+>[!NOTE]
+>
+>我們最近新增了新的廣告平台同意標幟。 如果您希望此新變數生效，必須重新啟用資料隱私權報表。
 
 若要存取此頁面：
 

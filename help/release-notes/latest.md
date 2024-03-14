@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 401365705caed37cff219d8000c86a0b05495050
+source-git-commit: 7cb7953e3321f2e8fa814ef6f1607cbe8d0f44de
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 47%
+source-wordcount: '1085'
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 47%
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
 | **「專案」登陸頁面上可用的新欄** | 此 **[!UICONTROL 上次使用日期]** 現在當您在檢視專案標籤時 [Adobe Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html). <p>此資訊可顯示專案上次開啟的日期和時間，以協助您判斷專案是否對貴組織中的使用者有用。</p> <p>先前， **[!UICONTROL 上次使用日期]** 欄僅在計算量度管理員、區段管理員和警報管理員中可用。</p> |  | 2024 年 3 月 13 日 |
-| **Analytics支援Google所需的DMA同意標幟** | 由於新的歐洲隱私權法規，Google要求歐洲收集的資料若已傳送給他們，必須指出是否已授予兩種特定型別的同意。 **從3月6日開始**，Google將不再接受無法指出已獲授相關同意的事件資料。 Adobe Analytics預計會在3月中旬發佈擷取這些資料的支援。 我們很快將傳達更多詳細資訊。 |  | 2024年3月中旬 |
+| **Analytics支援Google所需的DMA同意標幟** | 由於新的歐洲隱私權法規，Google要求歐洲收集的資料若已傳送給他們，必須指出是否已授予兩種特定型別的同意。 **從3月6日開始**，Google將不再接受無法指出已獲授相關同意的事件資料。 Adobe Analytics已發行支援，可透過新的adConsent變數擷取此資料。 您可以在中看到新變數已列出 [隱私權報表UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md). 如果您想要啟用此專案，而且先前同意的變數已啟用隱私權，您將需要重新啟用隱私權。 |  | 2024 年 3 月 13 日 |
 | **對資料摘要、Data Warehouse和分類集使用相同的雲端帳戶** | 您建立的雲端帳戶和位置現在可用於匯出資料(搭配資料摘要和Data Warehouse)和匯入資料（搭配分類集）。<p> **設定帳戶時的變更：** 使用者可以設定雲端匯入和匯出帳戶，以及設定雲端匯入和匯出位置，這些位置可用於以下任一用途：<ul><li>使用分類集匯入資料</li><li>使用資料摘要匯出資料</li><li>使用Data Warehouse匯出資料。</li></ul><p>**管理帳戶時的變更**：使用者可使用「位置」頁面（在「元件>位置」下方）來檢視及管理其建立的所有帳戶和位置，無論其建立於何處。 <p>以前，「位置」頁面僅套用至為匯入具有「分類設定」的資料而建立的帳戶。</p> | | 2024 年 4 月 |
 | **管理員可以管理其組織中的所有位置** | 「位置」頁面上的新選項可讓管理員檢視及管理組織中的所有位置。 <p>以前，管理員只能檢視和管理他們建立的位置。</p> |  | 2024 年 4 月 |
 | **Activity Map對Web SDK使用的伺服器呼叫較少** | 目前，Activity Map連結事件會計為自己的事件，並產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024年4月3日 |
