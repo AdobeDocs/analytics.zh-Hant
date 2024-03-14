@@ -3,10 +3,10 @@ description: 啟用同意管理維度。
 title: 隱私權報告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 22cef24f344ac6f90059eac1e021b32c63dc4e7c
+source-git-commit: f3a37319811299dde255235b31e2874bc2681cfb
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 77%
+source-wordcount: '87'
+ht-degree: 71%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 77%
 
    ![編輯設定](assets/rsm-privacy-select.png)
 
-1. 按一下「**[!UICONTROL 啟用資料隱私權報表]**」按鈕。
+1. 按一下 **[!UICONTROL 啟用資料隱私權報表]**.
 
    >[!NOTE]
    >
