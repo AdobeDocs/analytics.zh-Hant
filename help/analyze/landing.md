@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a75c807c1f54676e359cf502781ba1de5fd6c51c
+source-git-commit: 416725e01f469e3fafc1d52971535ab63e998f5f
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 90%
+source-wordcount: '1818'
+ht-degree: 89%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Analytics登陸頁面包含下列子標籤：專案、報表和學習。
 | [!UICONTROL **共用對象**] | 顯示目前與誰共用專案。 |
 | [!UICONTROL **上次修改日期**] | 上次修改專案的日期與時間。 |
 | [!UICONTROL **上次開啟時間**] | 識別目前檢視專案頁面的使用者上次開啟專案的日期。 |
-| [!UICONTROL **上次使用日期**] | 顯示組織內任何使用者上次開啟專案的日期與時間，有助於判斷專案對您組織中的使用者是否有價值。<p>此欄僅供系統管理員使用。</p> |
+| [!UICONTROL **上次使用日期**] | 顯示組織內任何使用者上次開啟專案的日期與時間，有助於判斷專案對您組織中的使用者是否有價值。<p>檢視此欄時，請考量下列事項：</p><ul><li>自2023年9月起，即可使用相關資訊。</li><li>此欄僅供系統管理員使用。</li></ul> |
 | [!UICONTROL **專案 ID**] | 可用於偵錯專案。 |
 | [!UICONTROL **最大日期範圍**] | 更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 |
 | [!UICONTROL **查詢數**] | 專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
