@@ -1,17 +1,17 @@
 ---
 description: 描述 Analysis Workspace 如何篩選及排序表格的文件。
-title: 篩選和排序自由表格
+title: 篩選和排序自由格式表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
+source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 68%
+source-wordcount: '878'
+ht-degree: 71%
 
 ---
 
-# 篩選和排序自由表格
+# 篩選和排序自由格式表格
 
 Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
@@ -48,12 +48,14 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    按住Shift鍵以選取一定範圍的列，或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）以選取多個列。
 
-### 按一下右鍵>刪除選取的列
+<!--### Right-click > Delete selected rows
 
-1. 選取1或多個列。
-1. 按一下右鍵並選取 **[!UICONTROL 刪除選取的列]**.
+Note: this option does not seem to work. AN-338422
 
-   此動作將從表格中移除列並套用表格篩選器。
+1. Select 1 or more rows. 
+1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
+
+   This action will remove the rows from the table and apply a table filter.-->
 
 ### 套用簡單或進階篩選器至表格
 
@@ -67,7 +69,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    提供下列選項：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **搜尋字詞或片語**] | 指定您要用來篩選的字詞或片語。 只顯示包含指定字詞或確切片語的行。 |
    | [!UICONTROL **包含未指定 (無)**] | 選擇此選項可在表格中顯示不屬於任何表格維度的資料。<!--what is this?--> |
