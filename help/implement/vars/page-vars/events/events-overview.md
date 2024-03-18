@@ -4,10 +4,10 @@ description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 90%
+source-wordcount: '845'
+ht-degree: 85%
 
 ---
 
@@ -19,24 +19,26 @@ ht-degree: 90%
 
 ## 使用 Web SDK 的事件
 
-自訂事件會為 [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 進行對應，在下列 XDM 欄位底下：
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，自訂事件會使用下列XDM欄位：
 
-* 自訂事件 1-100 會對應到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`。
-* 自訂事件 101-200 會對應到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`。
-* 此模式每 100 個事件重複一次到 `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`。 `eventx.value` 是用來指定要增加的數量。 `eventx.id` 是用來[序列化](event-serialization.md)。 
-* 訂單會對應到 `commerce.purchases.value`。
+* 自訂事件 1-100 會對應到 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`。
+* 自訂事件 101-200 會對應到 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`。
+* 此模式每 100 個事件重複一次到 `xdm._experience.analytics.event901to1000.event901` - `xdm._experience.analytics.event901to1000.event1000`。 `eventx.value` 是用來指定要增加的數量。 `eventx.id` 是用來[序列化](event-serialization.md)。 
+* 訂單會對應到 `xdm.commerce.purchases.value`。
 * 單位會對應到所有 `productListItems[].quantity` 欄位的總和。
 * 營收會對應到所有 `productListItems[].priceTotal` 欄位的總和。
-* 產品視圖會對應到 `commerce.productListViews.value`。
-* 購物車會對應到 `commerce.productListOpens.value`。
-* 購物車新增會對應到 `commerce.productListAdds.value`。
-* 購物車移除會對應到 `commerce.productListRemovals.value`。
-* 購物車檢視會對應到 `commerce.productListViews.value`。
-* 結帳會對應到 `commerce.checkouts.value`。
+* 產品視圖會對應到 `xdm.commerce.productListViews.value`。
+* 購物車會對應到 `xdm.commerce.productListOpens.value`。
+* 購物車新增會對應到 `xdm.commerce.productListAdds.value`。
+* 購物車移除會對應到 `xdm.commerce.productListRemovals.value`。
+* 購物車檢視會對應到 `xdm.commerce.productListViews.value`。
+* 結帳會對應到 `xdm.commerce.checkouts.value`。
 
 >[!NOTE]
 >
 >如果在 `productListItems` 下設定事件 (例如 `productListItems._experience.analytics.event1.value`)，並且該事件尚未在此欄位中，則該事件會自動新增到此欄位中。
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，所有事件使用 `data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。 如果您設定此欄位，在XDM物件中設定的任何事件都會被覆寫，且不會傳送至Adobe Analytics。
 
 ## 使用 Adobe Analytics 擴充功能的事件
 

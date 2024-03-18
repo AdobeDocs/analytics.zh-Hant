@@ -4,10 +4,10 @@ description: 此變數可用來將線上和離線資料連結在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 96%
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -25,7 +25,10 @@ ht-degree: 96%
 
 ## 使用 Web SDK 的交易 ID
 
-交易 ID 會[為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `commerce.order.payments[0].transactionID` 底下。
+交易ID會對應至下列變數：
+
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.payments[0].transactionID`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.transactionID` 或 `data.__adobe.analytics.xact`
 
 ## 使用 Adobe Analytics 擴充功能的交易 ID
 

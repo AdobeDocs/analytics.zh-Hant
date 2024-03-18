@@ -4,10 +4,10 @@ description: 使用購買事件來收集「訂購」、「件數」和「收入�
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 74%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
 
@@ -27,11 +27,13 @@ ht-degree: 74%
 
 ## 使用Web SDK設定購買事件
 
-購買事件為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多個XDM欄位底下：
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，購買事件會使用下列XDM欄位：
 
-* 訂單會對應到 `commerce.purchases.value`。
-* 單位會對應到所有 `productListItems[].quantity` 欄位的總和。
-* 營收會對應到所有 `productListItems[].priceTotal` 欄位的總和。
+* 訂單會對應到 `xdm.commerce.purchases.value`。
+* 單位會對應到所有 `xdm.productListItems[].quantity` 欄位的總和。
+* 營收會對應到所有 `xdm.productListItems[].priceTotal` 欄位的總和。
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，購買事件會使用 `data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。
 
 ## 使用Adobe Analytics擴充功能設定購買事件
 

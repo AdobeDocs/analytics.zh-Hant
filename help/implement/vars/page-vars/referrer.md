@@ -4,9 +4,9 @@ description: 覆寫點擊的自動收集反向連結。
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 80%
 
 ---
@@ -17,9 +17,12 @@ ht-degree: 80%
 
 ## 使用Web SDK的反向連結
 
-反向連結為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webReferrer.URL`.
+反向連結會對應至下列變數：
 
-Web SDK會在每個事件點選上包含此維度。
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webReferrer.URL`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.referrer`
+
+Web SDK會自動包含 `web.webReferrer.URL` 每個傳送的事件時（如果有的話）。
 
 ## 使用Adobe Analytics擴充功能的反向連結
 

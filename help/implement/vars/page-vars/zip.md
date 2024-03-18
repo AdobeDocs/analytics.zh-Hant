@@ -4,10 +4,10 @@ description: 如果報表套裝設定允許，手動填入「郵遞區號」維�
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '270'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
-> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 「geo zip」]，便無法使用此變數。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。在下列情況下，您無法使用此變數： [!UICONTROL 地理郵遞區號] 一律使用。 如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
-## 使用 Adobe Analytics 擴充功能的 zip
+## 使用Web SDK的郵遞區號
 
-您可以在設定 Analytics 擴充功能 (全域變數) 時設定郵遞區號，或依據規則進行設定。
+郵遞區號會對應至下列變數：
+
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.placeContext.geo.postalCode`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.zip`
+
+## 使用Adobe Analytics擴充功能的郵遞區號
+
+您可以在設定Analytics擴充功能（全域變數）時設定郵遞區號，或依據規則進行設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。

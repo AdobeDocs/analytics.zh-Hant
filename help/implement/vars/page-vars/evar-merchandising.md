@@ -5,10 +5,10 @@ feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 *此說明頁面說明如何實施作業銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用手冊中的 [eVars (銷售維度)](/help/components/dimensions/evar-merchandising.md)*。
 
-如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html)」。
+如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)」。
 
 ## 在報表套裝設定中設定 eVar
 
@@ -45,10 +45,10 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ### 使用 Web SDK 的產品語法
 
-產品語法銷售變數會在幾個不同的 XDM 欄位底下[和 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)。
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品語法銷售變數使用以下XDM欄位：
 
-* 產品語法銷售 eVar 在 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下對應至 `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
-* 產品語法銷售事件在 `productListItems[]._experience.analytics.event1to100.event1.value` 對應至 `productListItems[]._experience.analytics.event901to1000.event1000.value`。[事件序列化](events/event-serialization.md) XDM 欄位在 `productListItems[]._experience.analytics.event1to100.event1.id` 下對應至 `productListItems[]._experience.analytics.event901to1000.event1000.id`。
+* 產品語法銷售 eVar 在 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下對應至 `xdm.productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
+* 產品語法銷售事件在 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 對應至 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.value`。[事件序列化](events/event-serialization.md) XDM 欄位在 `xdm.productListItems[]._experience.analytics.event1to100.event1.id` 下對應至 `xdm.productListItems[]._experience.analytics.event901to1000.event1000.id`。
 
 >[!NOTE]
 >
@@ -56,36 +56,38 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 以下範例顯示單一[產品](products.md) 使用多個銷售 eVar 和事件：
 
-```js
+```json
 "productListItems": [
-    {
-        "name": "Bahama Shirt",
-        "priceTotal": "12.99",
-        "quantity": 3,
-        "_experience": {
-            "analytics": {
-                "customDimensions" : {
-                    "eVars" : {
-                        "eVar10" : "green",
-                        "eVar33" : "large"
-                    }
-                },
-                "event1to100" : {
-                    "event4" : {
-                        "value" : 1
-                    },
-                    "event10" : {
-                        "value" : 2,
-                        "id" : "abcd"
-                    }
-                }
-            }
+  {
+    "name": "Bahama Shirt",
+    "priceTotal": "12.99",
+    "quantity": 3,
+    "_experience": {
+      "analytics": {
+        "customDimensions" : {
+          "eVars" : {
+            "eVar10" : "green",
+            "eVar33" : "large"
+          }
+        },
+        "event1to100" : {
+          "event4" : {
+            "value" : 1
+          },
+          "event10" : {
+            "value" : 2,
+            "id" : "abcd"
+          }
         }
+      }
     }
+  }
 ]
 ```
 
 上述範例物件將傳送到 Adobe Analytics 做為 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`。
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，eVar銷售用途 `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` 遵循AppMeasurement語法。
 
 ## 使用轉換變數語法進行實施作業
 
@@ -109,33 +111,60 @@ s.products = ";Canary";
 
 ### 使用 Web SDK 的轉換變數語法
 
-使用 Web SDK 的轉換變數語法的運作方式和實作其他 [eVar](evar.md) 和[事件](events/events-overview.md) 類似。鏡像上述範例的 XDM 如下所示：
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，語法的運作方式與實作其他類似 [eVar](evar.md) 和 [事件](events/events-overview.md). 鏡像上述範例的 XDM 如下所示：
 
 在相同或上一個事件呼叫上設定 eVar：
 
-```js
+```json
 "_experience": {
-    "analytics": {
-        "customDimensions": {
-            "eVars": {
-                "eVar1" : "Aviary"
-            }
-        }
+  "analytics": {
+    "customDimensions": {
+      "eVars": {
+        "eVar1" : "Aviary"
+      }
     }
+  }
 }
 ```
 
 設定產品字串的繫結事件和值：
 
-```js
+```json
 "commerce": {
-    "productViews" : {
-        "value" : 1
-    }
+  "productViews" : {
+    "value" : 1
+  }
 },
 "productListItems": [
-    {
-        "name": "Canary"
-    }
+  {
+    "name": "Canary"
+  }
 ]
+```
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，映象上述範例的資料物件看起來會像這樣：
+
+在相同或上一個事件呼叫上設定 eVar：
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "eVar1": "Aviary"
+    }
+  }
+}
+```
+
+設定產品字串的繫結事件和值：
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "events": "prodView",
+      "products": ";Canary"
+    }
+  }
+}
 ```

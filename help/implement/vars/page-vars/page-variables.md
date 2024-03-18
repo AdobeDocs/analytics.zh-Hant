@@ -4,14 +4,14 @@ description: 在個別頁面上設定值。
 feature: Variables
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-# 頁面變數
+# 頁面變數總覽
 
 頁面變數會決定報表中維度和量度的值。
 

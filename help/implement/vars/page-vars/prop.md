@@ -4,10 +4,10 @@ description: 可在實施中使用的自訂變數。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 94%
+source-wordcount: '615'
+ht-degree: 85%
 
 ---
 
@@ -25,7 +25,10 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 
 ## 使用 Web SDK 的屬性
 
-屬性會 [為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `_experience.analytics.customDimensions.props.prop1` 至 `_experience.analytics.customDimensions.props.prop75` 底下。 清單屬性是在一組單獨的欄位中指定。
+Prop會對應至下列變數：
+
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75`  — 清單屬性指定於 [單獨的欄位集](#list-props-web-sdk).
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；或 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`  — 清單屬性包含在這些欄位中。
 
 ## 使用 Adobe Analytics 擴充功能的屬性
 
@@ -60,9 +63,11 @@ s.prop1 = "Example custom value";
 >
 > 實施作業中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的非加強式 ASCII。
 
-### 使用 Web SDK 設定清單變數
+### 使用 Web SDK 設定清單變數 {#list-props-web-sdk}
 
-使用所需的分隔字元在報表套裝設定中設定清單屬性後，清單屬性會為 Adobe Analytics 進行對應，在 `_experience.analytics.customDimensions.listProps.prop1.values[]` 至 `_experience.analytics.customDimensions.listProps.prop75.values[]` 底下。 Web SDK 會自動使用報表套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`_experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單屬性會對應至 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK 會自動使用報表套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單prop會使用與標準prop相同的欄位，並遵循AppMeasurement語法。
 
 ### 使用 Adobe Analytics 擴充功能和 AppMeasurement 來設定清單屬性
 

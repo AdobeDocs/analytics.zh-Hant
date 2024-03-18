@@ -4,10 +4,10 @@ description: 手動設定點擊的時間戳記。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 82%
 
 ## 使用Web SDK的時間戳記
 
-時間戳記為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `xdm.timestamp`. 此欄位僅支援Unix時間。
+時間戳記為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) 在XDM欄位下 `xdm.timestamp`. 此欄位僅支援Unix時間。
 
 ## 使用Adobe Analytics擴充功能的時間戳記
 
@@ -33,7 +33,7 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2020-01-01T00:00:00Z";
+s.timestamp = "2024-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -52,19 +52,19 @@ s.timestamp = new Date().toISOString();
 * 日期與時間都必須提供，使用 `T` 分隔。
 * 小時和分鐘都是必要值；秒數是選用值，不過建議提供。
 * 不支援週日期和序數日期。
-* 日期可採用標準或延伸格式。例如 `2020-01-01T00:00:00Z` 和 `20200101T000000Z` 都有效。
+* 日期可採用標準或延伸格式。例如 `2024-01-01T00:00:00Z` 和 `20240101T000000Z` 都有效。
 * 技術上來說，分數形式的分鐘和秒是有效值，不過 Adobe 會忽略分數部分。
 * 支援的標準和延伸格式的時區。
 
 以下是 `timestamp` 變數中的有效範例 ISO 8601 值：
 
 ```text
-2020-01-01T00:00:00+00:00
-2020-01-01T00:00:00Z
-2020-01-01T00:00:00
-2020-01-01T00:00
-20200101T000000+0000
-20200101T000000Z
-20200101T000000
-20200101T0000
+2024-01-01T00:00:00+00:00
+2024-01-01T00:00:00Z
+2024-01-01T00:00:00
+2024-01-01T00:00
+20240101T000000+0000
+20240101T000000Z
+20240101T000000
+20240101T0000
 ```

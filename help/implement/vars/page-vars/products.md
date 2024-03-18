@@ -4,10 +4,10 @@ description: 傳送目前顯示哪些產品或購物車內有哪些產品等相�
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 68%
+source-wordcount: '688'
+ht-degree: 64%
 
 ---
 
@@ -21,18 +21,20 @@ ht-degree: 68%
 
 ## 使用Web SDK的產品
 
-產品為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多個XDM欄位底下：
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品會對應至下列變數：
 
-* 類別已對應至 `productListItems[].productCategories[].categoryID`. 這會使用 `productCategories[]` 陣列。 `lineItemId` 也正確對應，但我們建議 `categoryID` 因為這是標準XDM。 如果兩個XDM欄位都存在 `lineItemId` 優先。
-* 產品已對應至 `productListItems[].SKU` 或 `productListItems[].name`. 如果兩個XDM欄位都存在， `productListItems[].SKU` 已使用。
-* 數量對應至 `productListItems[].quantity`.
-* 價格已對應至 `productListItems[].priceTotal`.
-* 銷售eVar對應至 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，視您要繫結至產品的eVar而定。
-* 銷售事件對應至 `productListItems[]._experience.analytics.event1to100.event1.value` 至 `productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 如果您在其中某個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 傳送至Adobe Analytics的字串。
+* 類別已對應至 `xdm.productListItems[].productCategories[].categoryID`. 這會使用 `productCategories[]` 陣列。 `lineItemId` 也正確對應，但Adobe建議 `categoryID` 因為這是標準XDM。 如果兩個XDM欄位都存在， `lineItemId` 優先。
+* 產品已對應至 `xdm.productListItems[].SKU` 或 `xdm.productListItems[].name`. 如果兩個XDM欄位都存在， `xdm.productListItems[].SKU` 已使用。
+* 數量對應至 `xdm.productListItems[].quantity`.
+* 價格已對應至 `xdm.productListItems[].priceTotal`.
+* 銷售eVar對應至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，視您要繫結至產品的eVar而定。
+* 銷售事件對應至 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 至 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 如果您在其中某個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 傳送至Adobe Analytics的字串。
 
 >[!NOTE]
 >
 >`lineItemId` 尚未成為標準Analytics事件結構描述的一部分，必須新增為自訂欄位。 Adobe計畫在未來新增專用的「類別」欄位。
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，產品變數會使用 `data.__adobe.analytics.products` 遵循AppMeasurement語法。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
 
 ## 使用Adobe Analytics擴充功能的產品
 

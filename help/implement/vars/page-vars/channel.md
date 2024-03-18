@@ -4,10 +4,10 @@ description: 填入「網站區域」維度。
 feature: Variables
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 76%
+source-wordcount: '194'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 76%
 
 ## 使用Web SDK的管道
 
-頻道是 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.siteSection`.
+管道已對應至下列變數：
+
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `web.webPageDetails.siteSection`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.channel` 或 `data.__adobe.analytics.ch`
 
 ## 使用Adobe Analytics擴充功能的頻道
 

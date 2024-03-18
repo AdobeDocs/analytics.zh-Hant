@@ -4,7 +4,7 @@ description: 在 Adobe Experience Platform 資料彙集中使用 Web SDK 擴充�
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0eafb750d63b89ea27a8773810ce79614f0abc63
+source-git-commit: 10ecae46424758fc5b19b58b733b49bb23cda222
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 72%
@@ -65,7 +65,7 @@ ht-degree: 72%
 <tr>
 <td>7</td>
 <td><b>設定 Web SDK</b>。請確認您在步驟4安裝的程式庫已正確設定資料串流ID (先前稱為邊緣設定ID (<code>edgeConfigId</code>)，組織id (<code>orgId</code>)，以及其他可用選項。 請確定變數對應正確。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">設定Web SDK</a><br/><a href="../variable-mapping.md">xdm物件變數對應</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">設定Web SDK</a><br/><a href="../xdm-var-mapping.md">xdm物件變數對應</a></td>
 </tr>
 
 <tr>

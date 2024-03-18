@@ -4,10 +4,10 @@ description: 傳送連結追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 80%
+source-wordcount: '749'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 80%
 
 ## 使用Web SDK進行連結追蹤
 
-Web SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者都使用 `sendEvent` 命令。 如果您希望Adobe Analytics將特定XDM事件計算為連結追蹤呼叫，請確定您的XDM資料包含或對應至 `web.webInteraction.name`， `web.webInteraction.URL`、和 `web.webInteraction.type`.
+Web SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者都使用 `sendEvent` 命令。
 
-* 連結名稱對應至 `web.webInteraction.name`.
-* 連結URL對應至 `web.webInteraction.URL`.
-* 連結型別對應至 `web.webInteraction.type`. 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
+如果您使用XDM物件，並希望Adobe Analytics將特定事件計算為連結追蹤呼叫，請確定您的XDM資料包括：
+
+* 連結名稱：已對應至 `xdm.web.webInteraction.name`.
+* 連結URL：已對應至 `xdm.web.webInteraction.URL`.
+* 連結型別：對應至 `xdm.web.webInteraction.type`. 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
 
 ```js
 alloy("sendEvent", {
@@ -33,6 +35,26 @@ alloy("sendEvent", {
         "name": "My Custom Link",
         "URL": "https://example.com",
         "type": "other"
+      }
+    }
+  }
+});
+```
+
+如果您使用資料物件，且希望Adobe Analytics將特定事件計算為連結追蹤呼叫，請確定您的資料物件包含：
+
+* 連結名稱：已對應至 `data.__adobe.analytics.linkName`.
+* 連結URL：已對應至 `data.__adobe.analytics.linkURL`.
+* 連結型別：對應至 `data.__adobe.analytics.linkType`. 有效值包括 `o` (自訂連結)、`d` (下載連結) 和 `e` (退出連結)。
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "linkName": "My custom link",
+        "linkURL": "https://example.com",
+        "linkType": "o"
       }
     }
   }

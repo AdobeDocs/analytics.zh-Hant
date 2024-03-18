@@ -4,10 +4,10 @@ description: 判斷目前頁面是否為 404 錯誤。
 feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 
 ## 使用 Web SDK 的頁面類型
 
-頁面類型會在 XDM 欄位 `web.webPageDetails.isErrorPage` 底下，[為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant)。此 XDM 欄位是一個布林值；可將其設定為 `true` 以將它標記為錯誤頁面，如果它不是錯誤頁面，則將其設定為 `false`。將布林值發送到 Analytics 報表套裝時，Adobe 會自動將其轉換為字串值 `errorPage`。
+管道已對應至下列變數：
+
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.isErrorPage`  — 此XDM欄位是布林值；請將其設為 `true` 將其標幟為錯誤頁面，或 `false` 如果不是錯誤頁面。
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageType`  — 此資料物件欄位是字串；請將其設為 `"errorPage"` 以標示其為本身。
 
 ## 使用 Adobe Analytics 擴充功能的頁面類型
 

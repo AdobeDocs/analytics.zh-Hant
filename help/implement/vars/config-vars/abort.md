@@ -4,10 +4,10 @@ description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料
 feature: Variables
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 44%
+source-wordcount: '329'
+ht-degree: 39%
 
 ---
 
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->`abort` 變數會在每個追蹤呼叫後重設為 `false`。如需中止相同頁面上的後續追蹤呼叫，請重新將 `abort` 設為 `true`。
+>`abort` 變數會在每個追蹤呼叫後重設為 `false`。如果您想要中止相同頁面上的後續追蹤呼叫，請設定 `abort` 至 `true` 再來一次。
 
-例如， `abort` 變數可在以下位置設定： [`doPlugins()`](../functions/doplugins.md) 函式：將影像要求傳送至Adobe前要執行的最後一個函式。 此範例的運作方式與 `onBeforeEventSend` 使用Web SDK的回呼。
+此 `abort` 變數可在以下位置設定： [`doPlugins()`](../functions/doplugins.md) 函式：將影像要求傳送至Adobe前要執行的最後一個函式。 此範例的運作方式與 `onBeforeEventSend` 使用Web SDK的回呼。
 
 ```js
 s.doPlugins = function(s) {

@@ -4,10 +4,10 @@ description: 建立裝置重新上線時的點擊頻率。
 feature: Variables
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '195'
+ht-degree: 83%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 90%
 離線追蹤是在 Adobe Analytics 中收集資料的選用方式。如果訪客中斷網際網路連線但繼續瀏覽您的網站，點擊會儲存在離線佇列中，直到裝置重新連接網際網路為止。離線追蹤大多用於行動應用程式。
 
 當裝置重新上線時，儲存在裝置上的所有點擊都會傳送至 Adobe 資料收集伺服器。大量佇列的點擊可能會影響舊裝置的效能。使用 `offlineThrottleDelay` 變數來建立佇列點擊傳送至 Adobe 的頻率。
+
+## 使用Web SDK的離線節流延遲
+
+Web SDK不支援離線追蹤。
 
 ## 使用Adobe Analytics擴充功能的離線節流延遲
 

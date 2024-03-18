@@ -4,10 +4,10 @@ description: 在同一次點擊中容納多個值的自訂變數。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 使用 Web SDK 的清單變數
 
-清單變數會[為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `_experience.analytics.customDimensions.lists.list1.list[]` 至 `_experience.analytics.customDimensions.lists.list3.list[]` 底下。每個陣列元素包含一個 `"value"` 物件，其中包含每個字串。不需提供分隔符號，系統會自動使用[報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中指定的值加入。例如，如果逗號 (&#39;`,`) 設定為清單變數 1 的分隔符號，接下來的 XDM 物件會將 `"Example value 1,Example value 2,Example value 3"` 填入 `list1` 變數。
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單變數使用XDM欄位 `xdm._experience.analytics.customDimensions.lists.list1.list[]` 至 `xdm._experience.analytics.customDimensions.lists.list3.list[]`. 每個陣列元素包含一個 `"value"` 物件，其中包含每個字串。不需要提供分隔符號；Adobe資料收集伺服器會自動偵測並包含中設定的正確分隔符號 [報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
 
 ```json
 "xdm": {
@@ -58,6 +58,18 @@ ht-degree: 100%
 >[!NOTE]
 >
 >Adobe XDM 結構描述在每個 `list[]` 陣列中，除了 `value` 物件，也包含 `key` 物件。Adobe 在傳送資料給 Adobe Analytics 時，不會使用這些 `key` 物件。
+
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單變數使用 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` 遵循AppMeasurement語法。 請務必使用中設定的正確分隔字元 [報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "list1": "Example value 1,Example value 2,Example value 3"
+    }
+  }
+}
+```
 
 ## 使用 Adobe Analytics 擴充功能的清單變數
 

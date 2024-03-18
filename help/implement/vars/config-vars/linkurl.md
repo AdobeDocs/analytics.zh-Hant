@@ -4,10 +4,10 @@ description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 75%
+source-wordcount: '139'
+ht-degree: 74%
 
 ---
 
@@ -17,7 +17,10 @@ ht-degree: 75%
 
 ## 使用Web SDK的連結URL
 
-連結URL [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `web.webInteraction.URL`.
+連結URL已對應至下列變數：
+
+* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `web.webInteraction.URL`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.linkURL` 或 `data.__adobe.analytics.pev1`
 
 ## 使用Adobe Analytics擴充功能的連結URL
 

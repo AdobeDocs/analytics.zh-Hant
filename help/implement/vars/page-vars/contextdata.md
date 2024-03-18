@@ -4,10 +4,10 @@ description: 上下文資料變數可讓您在每個頁面上定義處理規則�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,26 @@ ht-degree: 100%
 
 ## 使用 Web SDK 的內容資料變數
 
-如果 XDM 欄位未[和 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，此欄位會以內容資料變數自動包含在內。然後，您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)將此內容資料變數指派到所需的 Analytics 變數。
+若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，所有未對應至Adobe Analytics變數的欄位都會自動納入為內容資料變數。 然後，您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)將此內容資料變數指派到所需的 Analytics 變數。
 
-雖然將資料對應到資料流中正確的 XDM 欄位是最佳實務，但此方法可獲得類似的結果。
+若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，所有上下文資料變數都位在 `data.__adobe.analytics.contextData` 做為機碼值組：
+
+```js
+alloy("sendEvent", {
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "contextData": {
+          "example_variable": "Example value",
+          "second_example": "Another value"
+        }
+      }
+    }
+  }
+});
+```
+
+此 [處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 介面會顯示 `c.example_variable` 和 `c.second_example` 在適用的下拉式功能表中。
 
 ## 使用 Adobe Analytics 擴充功能的內容資料變數
 
