@@ -2,10 +2,10 @@
 title: 廣告同意
 description: 請參閱第三方廣告提供者的廣告同意設定。
 feature: Dimensions
-source-git-commit: 31f61c64fef707e2d2499b853a9b54caf847634b
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 1%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,6 @@ ht-degree: 1%
 此維度目前僅用於Google。 由於歐洲的隱私權法規，數位市場法(DMA)要求Google傳送至其伺服器並在歐洲收集的資料必須指出是否獲得同意。 部分Analytics客戶會透過Adobe Advertising將事件資料當作轉換事件傳送至Google。
 
 未來，此維度可用於支援為其他協力廠商廣告提供者編碼其他同意資訊。
-
 
 ## 將資料填入此維度中
 
@@ -58,3 +57,5 @@ contextData.['adConsent'] = "YN..."
 您的組織會決定實作此內容資料變數的邏輯。 值在其設定所在的點選過後即不存在，因此您必須在每個頁面上設定內容資料變數。
 
 Adobe Analytics當您透過Adobe Advertising將廣告資料作為轉換事件傳送到Google時，請洽詢Adobe Advertising團隊以協助整合。
+
+如需詳細資訊，請參閱 [隱私權報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md).

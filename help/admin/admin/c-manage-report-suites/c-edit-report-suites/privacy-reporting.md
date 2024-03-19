@@ -3,10 +3,10 @@ description: 啟用同意管理維度。
 title: 隱私權報告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-source-git-commit: 90d9e2962307060ed95b0e8cf0c6fbce6d54edb1
+source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 55%
+source-wordcount: '136'
+ht-degree: 45%
 
 ---
 
@@ -36,3 +36,7 @@ ht-degree: 55%
 1. 啟用後會顯示一則確認訊息。報表中已可使用維度。
 
    ![報表](assets/consent-management.png)
+
+## 廣告同意維度
+
+此 [廣告同意維度](/help/components/dimensions/ad-consent.md) 顯示是否已收集同意將資料傳送給第三方廣告提供者，例如Google、Meta等。
