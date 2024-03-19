@@ -1,17 +1,17 @@
 ---
-title: 廣告同意
+title: 廣告平台同意
 description: 請參閱第三方廣告提供者的廣告同意設定。
 feature: Dimensions
-source-git-commit: b5aba8a42f524ef3367a779e6fb1a731de680750
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 3%
 
 ---
 
-# 廣告同意
+# 廣告平台同意
 
-「廣告同意」 [維度](overview.md) 顯示是否已收集同意將資料傳送給第三方廣告提供者，例如Google、Meta等。
+「廣告平台同意」 [維度](overview.md) 顯示是否已收集同意將資料傳送給第三方廣告提供者，例如Google、Meta等。
 
 此維度目前僅用於Google。 由於歐洲的隱私權法規，數位市場法(DMA)要求Google傳送至其伺服器並在歐洲收集的資料必須指出是否獲得同意。 部分Analytics客戶會透過Adobe Advertising將事件資料當作轉換事件傳送至Google。
 
@@ -52,7 +52,6 @@ contextData.['adConsent'] = "YN..."
 
 * 資料摘要：廣告同意資料可使用 `dataprivacydmaconsent` [欄](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md).
 * Data Warehouse報表：廣告同意資料可使用 **[!UICONTROL 廣告平台同意]** 維度。
-
 
 您的組織會決定實作此內容資料變數的邏輯。 值在其設定所在的點選過後即不存在，因此您必須在每個頁面上設定內容資料變數。
 

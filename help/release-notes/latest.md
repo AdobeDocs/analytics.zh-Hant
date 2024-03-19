@@ -3,9 +3,9 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d80b45f95f9be9a83f2ae9eccad1e0990213dd3
+source-git-commit: 043f2c2b2e3e50570e2f0367680274a1f2670492
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1189'
 ht-degree: 91%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 91%
 | ----------- | ---------- | ------- | ---- |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
 | **專案登陸頁面珼在提供新欄** | 現在，在 [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定專案對您組織中的使用者是否重要。</p> <p>以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
-| **Analytics 支援 Google 要求取得 DMA 的同意標籤** | 由於新的歐洲隱私權法規，Google 要求在歐洲收集並發送給他們的資料必須表明是否取得兩種特定類型的同意授權。 **從 3 月 6 日開始**，Google 將不再接受未表明是否已獲得相關同意授權的事件資料。Adobe Analytics 已發布對透過新的 adConsent 變數擷取此資料的支援。您可以看到[隱私權報告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中所列的新變數。如果您想啟動此功能並且已經為先前的同意變數啟用隱私權，則您將需要再次啟用隱私權。<p>此 [廣告同意維度](/help/components/dimensions/ad-consent.md) 顯示是否已收集同意將資料傳送給第三方廣告提供者，例如Google、Meta等。 |  | 2024 年 3 月 13 日 |
+| **Analytics 支援 Google 要求取得 DMA 的同意標籤** | 由於新的歐洲隱私權法規，Google 要求在歐洲收集並發送給他們的資料必須表明是否取得兩種特定類型的同意授權。 **從 3 月 6 日開始**，Google 將不再接受未表明是否已獲得相關同意授權的事件資料。Adobe Analytics 已發布對透過新的 adConsent 變數擷取此資料的支援。您可以看到[隱私權報告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中所列的新變數。如果您想啟動此功能並且已經為先前的同意變數啟用隱私權，則您將需要再次啟用隱私權。<p>此 [廣告平台同意維度](/help/components/dimensions/ad-consent.md) 顯示是否已收集同意將資料傳送給第三方廣告提供者，例如Google、Meta等。 |  | 2024 年 3 月 13 日 |
 | **計算量度管理員和區段管理員中「使用位置」欄包含的Report Builder使用情形** | 檢視 **使用位置** 欄（位於計算量度管理員或區段管理員中），現在已可為Report Builder使用資料。<p>以往，「區段管理器」中的使用情況資料僅適用於「警報」、「專案」、「已排程專案」和「計算量度」；而「計算量度管理器」中的使用情況資料僅適用於「警報」、「專案」和「已排程專案」。</p> |  | 3月底或4月初 |
 | **為資料摘要、Data Warehouse 和分類集使用相同的雲端帳戶** | 您建立的雲端帳戶和位置現在可用來匯出資料 (使用資料摘要和 Data Warehouse) 並匯入資料 (使用分類集)。<p> **設定帳戶時的變更：** 使用者可以設定雲端匯入和匯出帳戶，以及設定可用於以下任意目的雲端匯入和匯出位置：<ul><li>使用分類集匯入資料</li><li>使用資料來源匯出數據</li><li>使用 Data Warehouse 匯出資料。</li></ul><p>**管理帳戶時的變更**：使用者可以使用「位置」頁面 (在「元件 > 位置」下) 來查看和管理他們建立的所有帳戶和位置，無論這些是在何處建立。 <p>以前，「位置」頁面僅適用於為使用分類集匯入資料而建立的帳戶。</p> | | 2024 年 4 月 |
 | **管理員可以管理他乞組織中的所有位置** | 「位置」頁面上的新選項可讓管理員查看和管理組織中的所有位置。 <p>以前，管理員只能查看和管理他們建立的位置。</p> |  | 2024 年 4 月 |
