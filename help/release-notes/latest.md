@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9636b8e4e8596449cb37bbab9bc46d660fac4a4b
+source-git-commit: 06d1dcf1c6823555f044842a1cc5c10c2bbc12a0
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 85%
+source-wordcount: '1303'
+ht-degree: 80%
 
 ---
 
@@ -50,6 +50,7 @@ AN-312198、AN-338009、AN-339549、AN-333970、AN-334790、AN-336461、AN-33657
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **已儲存的13個月到期`cust_visids`** | 2024年3月20日 | 即將發行的Analytics點選處理引擎預定在4月或5月發行，將開始強制執行13個月的儲存有效期 `cust_visids`. 如果報表套裝已啟用「啟用訪客聯絡」，此設定會用於尋找 `cust_visid` 針對 `visid_high/visid_low value` 不含 `cust_visid` 在點選上。 目前，的對應沒有到期日 `cust_visid` 針對 `visid_high/visid_low`. 在此版本中，如果自以下時間以來已過13個月或更久 `visid_high/visid_low` 曾經 `cust_visid` 在點選上，對應將會過期。 |
 | **Adobe API 物件會員新增** | 2024 年 1 月 17 日 | Adobe 可能會為現有 API 物件隨時新增選擇性請求和回應會員 (名稱/值對)，恕不另行通知或變更版本設定。Adobe 建議您參考與我們的 API 整合的任何協力廠商工具的 API 文件，以便在不理解的情況下在處理過程中忽略此類新增。如果實施得當，此類新增對於您的實施來說是非破壞性的變更。Adobe 不會在未事先透過發行說明提供標準通知下刪除參數或新增所需參數。 |
 | **`getPageLoadTime`外掛程式已過時** | 2024 年 1 月 10 日 | 不再支援此外掛程式。其程式碼使用了 performance.timing 方法，該方法 (根據 MDN) 已[過時](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。已經開始更新外掛程式的工作。 |
 
