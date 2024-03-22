@@ -3,24 +3,24 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表選項
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 9%
+source-wordcount: '453'
+ht-degree: 19%
 
 ---
 
 # 設定Data Warehouse請求的報表選項
 
-建立Data Warehouse請求時，有多種可用的設定選項。 以下資訊說明如何設定請求的報表選項。
+建立 Data Warehouse 請求時有多種可用的設定選項。以下資訊說明如何設定請求的報表選項。
 
-如需有關如何開始建立請求的資訊，以及其他重要組態選項的連結，請參閱 [建立Data Warehouse請求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
 若要設定Data Warehouse請求的報表選項：
 
-1. 透過選取「 」，開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
+1. 如果您尚未這樣做，請透過選取「 」開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
 
-   如需其他詳細資訊，請參閱 [建立Data Warehouse請求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
 1. 在新Data Warehouse請求頁面上，選取 [!UICONTROL **報表選項**] 標籤。
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 1. 填入下列欄位：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **檔案名稱**] | 識別報表。 <p>如果檔案名稱中使用了下列任何特殊字元，將無法儲存請求： <code>！ &quot; # $ &amp; &#39; ( ) * + ， / ： ； > = &lt; ？@ [ ] \ ^ &#39; { } \| ~</code> </p><p>%字元後面必須有&quot;R&quot;、&quot;rsid&quot;或&quot;id&quot;，才能使用，如下所示： <code>%R</code>， <code>%rsid</code>、和 <code>%id</code>。</p> |
    | [!UICONTROL **將報表日期範圍附加至檔案名稱**] | 新增日期範圍至報表檔案名稱。 <p>例如，如果您請求從2024年5月1日到2024年5月7日的資料，則檔案名稱包含20240501 - 20240507日期範圍。</p> |

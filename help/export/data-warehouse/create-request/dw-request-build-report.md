@@ -3,24 +3,24 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為Data Warehouse請求建立報告
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: '172'
+ht-degree: 39%
 
 ---
 
 # 為Data Warehouse請求建立報告
 
-建立Data Warehouse請求時，有多種可用的設定選項。 以下資訊說明如何建立請求的報告。
+建立 Data Warehouse 請求時有多種可用的設定選項。以下資訊說明如何建立請求的報告。
 
-如需有關如何開始建立請求的資訊，以及其他重要組態選項的連結，請參閱 [建立Data Warehouse請求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
 若要建立Data Warehouse請求的報表：
 
-1. 透過選取「 」，開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
+1. 如果您尚未這樣做，請透過選取「 」開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
 
-   如需其他詳細資訊，請參閱 [建立Data Warehouse請求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
 1. 在新Data Warehouse請求頁面上，選取 [!UICONTROL **建置報告**] 標籤。
 
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 1. 將任何區段、量度和維度拖曳至產生器。 您建置的報表會決定Data Warehouse請求中包含哪些資料。
 
-1. 繼續在「 」上設定您的Data Warehouse請求 [!UICONTROL **報表目的地**] 標籤。 如需詳細資訊，請參閱 [設定Data Warehouse請求的報表目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. 繼續在「 」上設定您的Data Warehouse請求 [!UICONTROL **報表目的地**] 標籤。 有關詳細資訊，請參閱[為 Data Warehouse 請求設定報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。
 
 <!--
 

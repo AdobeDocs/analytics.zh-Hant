@@ -1,26 +1,26 @@
 ---
 description: 說明如何建立 Data Warehouse 請求的步驟。
-title: 設定Data Warehouse請求的報表目的地
+title: 為 Data Warehouse 請求設定報告目標
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
+source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 9%
+source-wordcount: '291'
+ht-degree: 27%
 
 ---
 
 # 設定Data Warehouse請求的排程選項
 
-建立Data Warehouse請求時，有多種可用的設定選項。 以下資訊說明如何設定請求的排程選項。
+建立 Data Warehouse 請求時有多種可用的設定選項。以下資訊說明如何設定請求的排程選項。
 
-如需有關如何開始建立請求的資訊，以及其他重要組態選項的連結，請參閱 [建立Data Warehouse請求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
 若要設定Data Warehouse請求的排程選項：
 
-1. 透過選取「 」，開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
+1. 如果您尚未這樣做，請透過選取「 」開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
 
-   如需其他詳細資訊，請參閱 [建立Data Warehouse請求](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
 1. 在新Data Warehouse請求頁面上，選取 [!UICONTROL **排程選項**] 標籤。
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 1. 填入下列欄位：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **立即傳送報告**] | 以一次性報表的形式傳送報表。 選取此選項時，會隱藏所有排程選項。 |
    | [!UICONTROL **排程於稍後進行**] | 提供排程報表傳送的選項。 所有選項說明如下。 |
