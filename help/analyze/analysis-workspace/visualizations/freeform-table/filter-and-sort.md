@@ -4,10 +4,10 @@ title: 篩選和排序自由格式表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 461497d6c01866237dccacb9e34d7402ac1012ef
+source-git-commit: 398d4ae264ce108c16a03cef086ae2614b442a2b
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 71%
+source-wordcount: '874'
+ht-degree: 72%
 
 ---
 
@@ -28,7 +28,6 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 您可以使用數種方法來篩選自由格式表格中的列。 
 
 - 按一下列中的「X」
-- 按一下右鍵>刪除選取的列
 - 表格篩選器
 - 區段
 
