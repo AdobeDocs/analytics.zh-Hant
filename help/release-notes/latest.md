@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b38cdaaf79e22902c4a0fa0e9b782baba9cf0b26
+source-git-commit: b3f2f503cabd45aebd3bc200c8f9abaeb033d419
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 99%
+source-wordcount: '1351'
+ht-degree: 95%
 
 ---
 
 # Adobe Analytics 目前的發行說明 (2024 年 3 月)
 
-**上次更新日期**：2024 年 3 月 21 日
+**上次更新**：2024年4月3日
 
 這些發行說明涵蓋 2024 年 3 月 12 日至 2024 年 4 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **變更工作區專案的刪除通訊協定** | 以前，刪除的專案從不會從系統中清除。 我們現在會在180天後開始清除已刪除的專案。 刪除後的180天內，如果使用者擁有直接專案的URL，他們仍可透過Web介面存取專案。 | | 2024 年 3 月 14 日 |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
 | **專案登陸頁面珼在提供新欄** | 現在，在 [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定專案對您組織中的使用者是否重要。</p> <p>以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
 | **Analytics 支援 Google 要求取得 DMA 的同意標籤** | 由於新的歐洲隱私權法規，Google 要求在歐洲收集並發送給他們的資料必須表明是否取得兩種特定類型的同意授權。 **從 3 月 6 日開始**，Google 將不再接受未表明是否已獲得相關同意授權的事件資料。Adobe Analytics 已發布對透過新的 adConsent 變數擷取此資料的支援。您可以看到[隱私權報告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中所列的新變數。如果您想啟動此功能並且已經為先前的同意變數啟用隱私權，則您將需要再次啟用隱私權。<p>[廣告平台同意維度](/help/components/dimensions/ad-consent.md)顯示是否收集同意將資料傳送給第三方廣告提供者 (例如 Google)。 |  | 2024 年 3 月 13 日 |
