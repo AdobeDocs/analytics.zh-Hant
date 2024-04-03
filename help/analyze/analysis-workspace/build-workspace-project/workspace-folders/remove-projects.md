@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 從資料夾中移除專案
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+source-git-commit: d5be835eef175c3c314065dff40f6ca0d51dc345
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 79%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 您可以將專案從一個資料夾移動至您建立的另一個資料夾。
 
-1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
+1. 從專案資料夾中，選取專案名稱旁邊的「**...**」省略符號。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## 從專案資料夾中刪除專案 {#delete-project-in-folder}
 
-當您從資料夾中刪除專案時，該專案將被完全刪除。
+當您從資料夾中刪除專案時，會在180天後從系統中清除該專案。 在刪除後的180天內，如果使用者擁有專案的直接URL，他們仍可透過Web介面存取專案。
 
 1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
 
