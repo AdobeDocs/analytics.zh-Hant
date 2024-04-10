@@ -1,18 +1,18 @@
 ---
 description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段進行促銷活動。
-title: 發佈區段至 Experience Cloud
+title: 發佈區段至Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5ef087f1fa4f55b98e9160bc90b8d10c6709a425
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 88%
+source-wordcount: '1313'
+ht-degree: 74%
 
 ---
 
-# 發佈區段至 Experience Cloud
+# 將區段發佈至Experience Cloud
 
-將 Adobe Analytics 區段發佈至 Experience Cloud，可讓您在 [!DNL Audience Manager] 和其他啟動管道 (包括 Adobe 的 [!DNL Advertising Cloud]、[!DNL Target] 和 [!DNL Campaign]) 中，使用該區段進行促銷活動。近期的更新已大幅最佳化發佈工作流程。現在，您可以在 8 小時內便將 Analytics 區段發佈至 Experience Cloud。使用這些區段，在 Audience Manager 中將對象啟動至所有下游目的地。
+將Adobe Analytics區段發佈至Experience Cloud，可讓您在中的行銷活動使用該區段 [!DNL Audience Manager] 和其他啟用管道，包括Adobe [!DNL Advertising Cloud]， [!DNL Target] 和 [!DNL Campaign]. 近期的更新已大幅最佳化發佈工作流程。現在，您可以在 8 小時內便將 Analytics 區段發佈至 Experience Cloud。使用這些區段，在 Audience Manager 中將對象啟動至所有下游目的地。
 
 我們也將可發佈的 Adobe Analytics 區段數量上限從 20 個增加到 75 個。您可以在[!UICONTROL 「Analytics > 元件 > 區段」]中檢視已發佈的區段。
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 ## 先決條件
 
-* 請確認您要儲存此區段的目標報表套裝[已在 Experience Cloud 上啟用](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hant)，否則無法將它發佈至 Experience Cloud。
+* 請確認您要儲存此區段的目標報表套裝為 [已啟用Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hant). 否則，您無法將其發佈到Experience Cloud。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
@@ -64,15 +64,15 @@ ht-degree: 88%
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段發佈至 Experience Cloud (適用於 *`<report suite>`*)]** | 此選項啟用時，區段標題和定義 (即廣告平台中常用的殼層對象) 會立即與 Experience Cloud 共用，而系統每 4 小時會評估和共用區段成員資格一次。<br>例如，將對象與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 對象資格的訪客。此時，Experience Cloud 對象頁面上會開始顯示對象名稱和相應的資料。</br> |
+| **[!UICONTROL 將此區段發佈至Experience Cloud(適用於 *`<report suite>`*)]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將對象與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 對象資格的訪客。此時，對象名稱和對應的資料會開始顯示在 [!DNL Audience Library] 頁面的Experience Cloud。 </br> |
 | **[!UICONTROL 建立對象視窗]** | 您選取的時間範圍會用於依時序建立對象。例如，「最近 30 天」(預設值) 包含自當天 (並非建立區段的原始日期) 起的過去 30 天內符合對象資格的訪客。 |
-| **[!UICONTROL 在對象庫中建立]** | 您所建立和發佈的區段可在 Experience Cloud 對象庫中無延遲提供使用，這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
-| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至 Experience Cloud 的區段數。按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
+| **[!UICONTROL 在對象庫中建立]** | 您建立和發佈的區段可在 [!DNL Audience Library] 頁面的Experience Cloud。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
+| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至Experience Cloud的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
 ## 取消發佈或刪除區段
 
-若要刪除已發佈至 Experience Cloud 的區段，必須先將其取消發佈。若要取消發佈區段，只需&#x200B;**取消勾選**&#x200B;您用來發佈該區段的核取方塊即可。
+若要刪除已發佈至Experience Cloud的區段，必須先將其取消發佈。 若要取消發佈區段，只需&#x200B;**取消勾選**&#x200B;您用來發佈該區段的核取方塊即可。
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ ht-degree: 88%
 ## 在[!UICONTROL 區段管理器]中檢視區段發佈狀態
 
 1. 導覽至 [!UICONTROL Analytics > 元件 > 區段]。
-1. 請注意新的[!UICONTROL 已發佈]欄。「是/否」指的是區段是否已發佈至 Experience Cloud。
+1. 請注意新的[!UICONTROL 已發佈]欄。「是/否」指的是區段是否已發佈至Experience Cloud。
 
 ![發佈狀態](assets/publish-status.png)
 
@@ -92,7 +92,7 @@ ht-degree: 88%
 * Adobe Experience Cloud Debugger
 * 瀏覽器中的原生開發者工具 (例如 Chrome 開發者工具)
 
-下列熒幕擷取畫面顯示如何在瀏覽器上擷取Adobe Audience Manager UUID，並在Audience Manager訪客資料檢視器中使用它來驗證特徵和區段成員資格。
+下列熒幕擷取畫面顯示如何在瀏覽器上擷取Adobe Audience Manager UUID，並在Audience Manager訪客資料檢視器中使用該UUID，以驗證特徵和區段成員資格。
 
 ### 方法 1：使用 Adobe Experience Cloud Debugger
 
@@ -105,7 +105,7 @@ ht-degree: 88%
 ### 方法 2：使用 Chrome 開發者工具 (或其他瀏覽器開發者工具)
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
-1. 載入頁面並勾選「應用程式 > Cookie」。Adobe Audience Manager UUID應在第三方Demdex Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant) （在以下範例中）。 demdex欄位是瀏覽器上設定的Adobe Audience Manager UUID (`50814298273775797762943354787774730612` （在以下範例中）。
+1. 載入頁面並勾選「應用程式 > Cookie」。Adobe Audience Manager UUID應在第三方Demdex Cookie ([adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant) 在以下範例中)。 demdex欄位是瀏覽器上設定的Adobe Audience Manager UUID (`50814298273775797762943354787774730612` 在以下範例中)。
 
 ![Chrome 開發者工具](assets/ggogle-uuid.png)
 
