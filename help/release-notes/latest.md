@@ -4,9 +4,9 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 97%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **變更 Workspace 專案的刪除通訊協定** | 以前，刪除的專案從不會從系統中清除。 我們現在將在 180 天後開始清除已刪除的專案。在刪除後的180天內，如果使用者擁有專案的URL，他們仍可透過Web介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
+| **變更 Workspace 專案的刪除通訊協定** | 在以前，已刪除的專案不會從系統中清除。我們現在將在 180 天後開始清除已刪除的專案。在刪除後的 180 天內，如果使用者有專案的 URL，他們仍然可以透過 Web 介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
 | **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
-| **專案登陸頁面珼在提供新欄** | 現在，在 [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定專案對您組織中的使用者是否重要。</p> <p>以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
+| **專案登陸頁面珼在提供新欄** | 現在，在 [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=zh-Hant)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定專案對您組織中的使用者是否重要。</p> <p>以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
 | **Analytics 支援 Google 要求取得 DMA 的同意標籤** | 由於新的歐洲隱私權法規，Google 要求在歐洲收集並發送給他們的資料必須表明是否取得兩種特定類型的同意授權。 **從 3 月 6 日開始**，Google 將不再接受未表明是否已獲得相關同意授權的事件資料。Adobe Analytics 已發布對透過新的 adConsent 變數擷取此資料的支援。您可以看到[隱私權報告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中所列的新變數。如果您想啟動此功能並且已經為先前的同意變數啟用隱私權，則您將需要再次啟用隱私權。<p>[廣告平台同意維度](/help/components/dimensions/ad-consent.md)顯示是否收集同意將資料傳送給第三方廣告提供者 (例如 Google)。 |  | 2024 年 3 月 13 日 |
 | **Report Builder 使用情況包含在計算量度管理器和區段管理器的「使用於」欄中** | 現在，在計算量度管理器或區段管理器中檢視「**使用於**」欄時，可以看到 Report Builder 使用情況資料。<p>之前，區段管理器僅提供警報、專案、已排程專案和計算量度的使用情況資料；而計算量度管理器僅提供警報、專案、已排程專案的使用情況資料。</p> |  | 7 月 |
 | **為資料摘要、Data Warehouse 和分類集使用相同的雲端帳戶** | 您建立的雲端帳戶和位置現在可用來匯出資料 (使用資料摘要和 Data Warehouse) 並匯入資料 (使用分類集)。<p> **設定帳戶時的變更：** 使用者可以設定雲端匯入和匯出帳戶，以及設定可用於以下任意目的雲端匯入和匯出位置：<ul><li>使用分類集匯入資料</li><li>使用資料來源匯出數據</li><li>使用 Data Warehouse 匯出資料。</li></ul><p>**管理帳戶時的變更**：使用者可以使用「位置」頁面 (在「元件 > 位置」下) 來查看和管理他們建立的所有帳戶和位置，無論這些是在何處建立。 <p>以前，「位置」頁面僅適用於為使用分類集匯入資料而建立的帳戶。</p> | | 2024 年 4 月 |
