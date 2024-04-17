@@ -5,24 +5,24 @@ feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1884'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 # 行銷管道的處理規則
 
-行銷管道處理規則會藉由處理訪客在您的網站上進行的每次點擊，來判斷訪客點擊是否符合指派給管道的標準。系統會依照您指定的順序處理規則，在符合規則時，即停止處理剩餘規則。
+行銷管道處理規則會藉由處理訪客在您的網站上進行的每次點擊，來判斷訪客點擊是否符合指派給管道的標準。系統會以您指定的順序來處理規則，在符合規則時，即停止處理剩餘規則。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道處理規則]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道處理規則]**。
 
 ![](assets/buckets_2.png)
 
 關於處理的其他注意事項：
 
-* 使用這些規則收集的資料是永久性的。 在資料收集後更改的規則不可回溯。 Adobe強烈建議您在儲存前檢閱並考慮所有情況 [!UICONTROL 行銷管道處理規則] 以遷移在不正確的管道中收集的資料。
-* 您最多可以設定25個不同的行銷管道。
+* 使用這些規則收集的資料是永久性的資料。資料收集後變更的規則不具追溯力。Adobe 強烈建議您在儲存[!UICONTROL 行銷管道處理規則]前先檢閱並考量所有情況，以減少在錯誤管道中收集的資料。
+* 您最多可以設定 25 個獨立的行銷管道。
 * 規則可以存取 VISTA 已設定的變數，但無法存取 VISTA 已刪除的資料。
 * 兩個行銷管道絕不接收同一事件 (例如購買或點按) 的評分。這將行銷管道與 eVars (兩個 eVars 可接收同一事件的評分) 區分開來。
 * 如果規則的涵蓋範圍有間隙，您可能會看到[未識別管道](/help/components/c-marketing-channels/c-faq.md)。
@@ -30,8 +30,8 @@ ht-degree: 67%
 ## 先決條件
 
 * 檢視[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念資訊。
-* 建立一個或多個管道，以便為它們指定規則。另請參閱 [新增行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
-* 檢閱使用的最佳實務 [!UICONTROL 行銷管道] 替換為 [!UICONTROL 歸因].
+* 建立一個或多個管道，以便為它們指定規則。請參閱「[新增行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)」。
+* 檢閱搭配 [!UICONTROL Attribution] 使用[!UICONTROL 行銷管道]的最佳做法。
 
 ## 建立行銷管道處理規則
 
@@ -48,7 +48,7 @@ ht-degree: 67%
 
    ![步驟結果](assets/marketing_channel_rules.png)
 
-4. 如果要新增規則，請從 **[!UICONTROL 新增規則集]** 功能表。 如果您選取某個管道，系統會提供您規則範本，如果您選取「自訂」，您會從空白顯示窗開始。 這兩個選項都可讓您視需要修改規則集。
+4. 如果您想要新增規則，請從「**[!UICONTROL 新增規則集]**」選單中選取。 如果您選取某個管道，系統會提供您規則範本，如果您選取「自訂」，您會從空白顯示窗開始。 這兩個選項都可讓您視需要修改規則集。
 
    ![步驟結果](assets/example_email.png)
 
@@ -58,7 +58,7 @@ ht-degree: 67%
 
 ### 設定行銷管道值
 
-**[!UICONTROL 設定該管道的值]** 會定義該管道可用的行銷管道詳細資料維度。
+**[!UICONTROL 設定管道的值]**&#x200B;會定義該管道可用的行銷管道詳細資料維度。
 
 ### 規則條件
 
@@ -66,21 +66,21 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->您定義的任何文字欄位（例如查詢字串引數或比對的值清單）都會評估為 **不區分大小** 值。 例如，如果您有查詢字串引數所在的規則 `cmp = abc123`，兩者全部大寫和小寫變化 `cmp` 和 `abc123` 相符。
+>您定義的任何文字欄位 (例如查詢字串參數或是比對的值清單) 都會評估為&#x200B;**不區分大小寫**&#x200B;的值。 例如，如果您有一條規則，其中查詢字串參數 `cmp = abc123` 的 `cmp` 和 `abc123` 大小寫變體都相符。
 
 | 詞語 | 定義 |
 |--- |--- |
-| 全部 | 只有當規則中的所有條件皆為true時，才會啟用此管道。 |
-| 任何 | 當規則中的任何條件為true時，啟用此管道。 只有在規則中存在多個條件時，才可使用此選項。 |
-| AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤代碼。當其中一項整合啟用時，追蹤代碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用AMO ID時，點選/成本/曝光量度可歸因到正確的管道（若未設定，這些量度會變成「直接」或「無」）。 |
-| AMO ED ID | Advertising Cloud 使用的次要追蹤代碼。此追蹤代碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為結尾為「AMO EF ID」設定行銷管道邏輯 `:d` 用於顯示點進次數，或結尾為 `:i` 用於顯示ViewThrough。 如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
+| 全部 | 僅當規則中的全部條件均為 true 時啟動此管道。 |
+| 任何 | 當規則中的任何條件為 true 時啟動此管道。此選項僅在規則中存在一個準則時才適用。 |
+| AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤代碼。當其中一項整合啟用時，追蹤代碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用 AMO ID 時，點按/成本/曝光量度可歸因為正確的管道 (若未設定，這些量度會變為「直接」或「無」)。 |
+| AMO ED ID | Advertising Cloud 使用的次要追蹤代碼。此追蹤代碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為以 `:d` 結尾 (代表 Display ClickThroughs) 或結尾為 `:i` (代表 Display ViewThroughs) 的「AMO EF ID」設定行銷管道邏輯。如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
 | 轉換變數 | 包含為該報表套裝啟用的 eVar，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。 |
-| 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**：例如讓您指定某反向連結網域不包含特定值（與使用「包含」選項相反）。</li></ul> |
+| 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**：例如讓您指定某反向連結網域不包含特定值 (與使用包含選項相反)。</li></ul> |
 | 將該管道識別為 | 將規則與新增至行銷管道管理員頁面的行銷管道相關聯。 |
 | 匹配付費搜尋的偵測規則 | Adobe 偵測的付費搜尋。付費搜尋是指公司付款以將其網站列入搜尋引擎。付費搜尋通常顯示在搜尋結果的頂部或右側。 |
 | 匹配免費搜尋的偵測規則 | Adobe 報表偵測的免費搜尋。 |
 | 反向連結匹配內部 URL 篩選器 | 瀏覽的頁面 URL 與內部 URL 篩選器匹配，該內部 URL 篩選器是為「管理工具」的報表套裝而定義的。 |
-| 反向連結不匹配內部 URL 篩選器 | 反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。您可以將此設定與頁面URL和存在一起使用來設定範圍廣泛的規則，如此一來就不會有任何造訪落在報表的未識別管道區段中。 |
+| 反向連結不匹配內部 URL 篩選器 | 反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。您可以使用這個「頁面 URL」和「存在」的設定來設定範圍廣泛的規則，如此一來就不會有任何造訪落在報表的未識別管道區段中。 |
 | 忽略符合內部 URL 篩選條件的點按 | (適用於反向連結) 僅跟蹤來自外部反向連結網站的點按。通常，除非您想要包含內部流量，否則此設定保留啟用。 |
 | 是第一個瀏覽的頁面 | 由 Adobe 報表偵測到的瀏覽首頁。 |
 | 頁面 | [頁面](/help/components/dimensions/page.md)維度。 |
@@ -88,26 +88,26 @@ ht-degree: 67%
 | 頁面網域和路徑 | 網域和路徑，例如 `products.example.com/mens/pants/overview.html`。 |
 | 頁面根網域 (TLD+1) | 訪客著陸的頁面根網域，例如 example.co.uk。 |
 | 頁面 URL | 您網站某個網頁的 URL。 |
-| 反向連結網域 | 此 [反向連結網域](/help/components/dimensions/referring-domain.md) 維度 |
-| 查詢字串參數 | 使用個別查詢字串引數。 每個條件只能指定一個查詢字串引數。 若要新增其他查詢字串引數，請使用 `ANY` 作為運運算元，然後將查詢字串引數新增至規則。 |
+| 反向連結網域 | [反向連結網域](/help/components/dimensions/referring-domain.md)維度。 |
+| 查詢字串參數 | 使用單獨的查詢字串參數。您可為每個準則僅指定一個查詢字串參數。若要新增其他查詢字串參數，請使用 `ANY` 作為運算元，然後新增查詢字串參數至此規則。 |
 | 反向連結 | 訪客在來到您網站之前所處的網頁位置 (完整 URL)。反向連結存在於您所定義網域之外。 |
-| 反向連結網域和路徑 | 反向連結網域和 URL 路徑的串連例如：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
+| 反向連結網域和路徑 | 反向連結網域和 URL 路徑的串連。範例包含：`www.example.com/products/id/12345` 或 `ad.example.com/foo` |
 | 反向連結參數 | 反向連結 URL 上的查詢字串參數。例如，如果訪客來自 `example.com/?page=12345&cat=1`，則 page 和 cat 為反向連結參數。 |
 | 反向連結根網域 | 反向連結的根網域。反向連結存在於您所定義網域之外。 |
 | 搜尋引擎 | 類似 Google 或 Yahoo! 將訪客帶至您網站的搜尋引擎。 |
 | 搜尋關鍵字 | 使用搜尋引擎來執行搜尋的一個詞。 |
-| 搜尋引擎 + 關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。例如，如果您搜尋computer，搜尋引擎和關鍵字的識別如下所示： `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**注意：** n =免費； p =付費 |
-| 設定該管道的值為 | 設定 [行銷管道詳細資料](/help/components/dimensions/marketing-detail.md) 維度。 您可以決定在規則內容中哪個值最好。 範例包括橫幅廣告ID、搜尋關鍵字或電子郵件促銷活動。 |
+| 搜尋引擎 + 關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。例如，如果搜尋 computer，則搜尋引擎和關鍵字的識別如下所示：`Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**。備註：** n = natural; p = paid |
+| 設定該管道的值為 | 設定「[行銷管道詳細資訊](/help/components/dimensions/marketing-detail.md)」維度。您要確定在規則範圍內哪個值最好。例如橫幅廣告 ID、搜尋關鍵字或電子郵件活動。 |
 
 ## 行銷管道規則的順序和定義 {#channel-rules}
 
-管道規則會以您指定的順序進行處理。 Adobe建議您先放置付費或受管理的管道（例如付費搜尋、免費搜尋、顯示或電子郵件），這樣就能透過自然管道（例如直接、內部、反向連結網域）獲得評分。
+管道規則會以您指定的順序進行處理。Adobe 建議您先放置付費或受管理的管道 (例如付費搜尋、免費搜尋、顯示或電子郵件)，可因為使用這些自然管道 (例如直接、內部、反向連結網域) 而獲得信用額度。
 
-以下是管道規則和範例定義的建議順序：
+以下是管道規則的建議順序和範例定義：
 
 ### 付費搜尋 {#paid-search}
 
-付費搜尋是指您為顯示在搜索結果中而需要向搜尋引擎付款的字詞或片語。此管道通常會根據查詢字串引數（請參閱顯示管道範例）或付費搜尋偵測規則來定義。
+付費搜尋是指您為顯示在搜尋結果中而需要向搜尋引擎付款的字詞或片語。此管道通常會根據查詢字串參數 (請參閱顯示管道範例) 或付費搜尋偵測規則來定義。
 
 #### 付費搜尋偵測
 
@@ -117,13 +117,13 @@ ht-degree: 67%
 
 ![](assets/example_paid_search.png)
 
-另請參閱 [付費搜尋偵測](../general/paid-search-detection/paid-search-detection.md) 以取得詳細資訊。
+如需詳細資訊，請參閱「[付費搜尋偵測](../general/paid-search-detection/paid-search-detection.md)」。
 
 ### 免費搜尋 {#natural-search}
 
-免費搜尋是指訪客透過搜尋引擎找到您的網站，且搜尋引擎將您的網站排名排名，而您無須支付排名費用。
+當訪客經由搜尋引擎找到您的網站，且該搜尋引擎為您的網站排名 (但您未支付排名費用)，這就是免費搜尋。
 
-Adobe會根據搜尋引擎的內部查詢來決定搜尋流量。 如果反向連結符合搜尋引擎的條件，則會判斷使用是付費還是免費 [付費搜尋偵測](../general/paid-search-detection/paid-search-detection.md) 您已設定的規則。 當點選不符合任何付費搜尋偵測規則時，即視為免費搜尋。
+Adobe 會根據搜尋引擎的內部查詢來決定搜尋流量。如果反向連結符合搜尋引擎的條件，則搜尋引擎會使用您設定的[付費搜尋偵測](../general/paid-search-detection/paid-search-detection.md)規則來確定這是付費或免費的搜尋。當搜尋不符合任何付費搜尋檢測規則時，這就會被視為是免費搜尋。
 
 對於行銷管道規則，免費搜尋設定如下：
 
@@ -131,7 +131,7 @@ Adobe會根據搜尋引擎的內部查詢來決定搜尋流量。 如果反向�
 
 ### 顯示 {#display}
 
-該規則可識別源自橫幅廣告的訪客。透過目標URL中的查詢字串引數來識別，本例中為 *`Ad_01`*. 查詢字串參數以及它尋找的值會評估為不區分大小寫的值。
+該規則可識別源自橫幅廣告的訪客。搜尋引擎會透過目標 URL 中的查詢字串參數來識別，在此案例中為 *`Ad_01`*。查詢字串參數以及它尋找的值會評估為不區分大小寫的值。
 
 ![](assets/example_display.png)
 
@@ -155,7 +155,7 @@ Adobe會根據搜尋引擎的內部查詢來決定搜尋流量。 如果反向�
 
 ### 社交網路 {#social-networks}
 
-此規則可識別源自社交網路(例如Facebook)的訪客。 此管道常會重新命名為「自然社交」。設定值如下：
+此規則可識別來自社交網路 (例如 Facebook) 的訪客。 此管道常會重新命名為「自然社交」。設定值如下：
 
 ![](assets/example_social.png)
 

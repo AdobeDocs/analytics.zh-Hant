@@ -1,13 +1,13 @@
 ---
-description: 全域報表套裝的說明
+description: 全域報表套裝說明
 title: 全域報表套裝
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '404'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Adobe 建議您在大多數情況下都實作全域報表套裝。 請參閱「[
 
 * **虛擬報表套裝**：[虛擬報表套裝](/help/components/vrs/vrs-about.md)是對全域報表套裝中所收集的指定區段的查詢，可提供給指定的使用者群組使用。 虛擬報表套裝可讓您為不同的一般用戶組織報表元素，而不需要使用多套裝標記，所以可避免次要伺服器呼叫。
 
-  若要使用虛擬報表套裝，請實作全域報表套裝，然後剖析資料來建立已套用特定區段並包含特定群組權限的虛擬報表套裝。 您可以在虛擬報表套裝管理員([!UICONTROL 元件] > [!UICONTROL 虛擬報表套裝])。 如需詳細資訊，請參閱「[虛擬報表套裝工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)」。
+  若要使用虛擬報表套裝，請實作全域報表套裝，然後剖析資料來建立已套用特定區段並包含特定群組權限的虛擬報表套裝。 您可以在虛擬報表套裝管理員 ([!UICONTROL 元件] > [!UICONTROL 虛擬報表套裝]) 中建立虛擬報表套裝。 如需詳細資訊，請參閱「[虛擬報表套裝工作流程](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)」。
 
-使用虛擬報表套裝來取代多套裝標記通常是最佳做法，但虛擬報表套裝有一些限制。 請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」，以判斷哪一種報表套裝做法是符合貴公司需求的最佳選擇。 如需虛擬報表套裝與多套裝標籤功能的深入比較，請參閱「[虛擬報表套裝和多套裝標籤](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78).」
+使用虛擬報表套裝來取代多套裝標記通常是最佳做法，但虛擬報表套裝有一些限制。 請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」，以判斷哪一種報表套裝做法是符合貴公司需求的最佳選擇。 若要了解虛擬報表套裝與多套裝標記功能的深入比較，請參閱「[虛擬報表套裝和多套裝標記的比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)」。
 
 <!---## Rollup reports
 

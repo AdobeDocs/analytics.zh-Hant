@@ -4,9 +4,9 @@ title: 報表套裝管理員
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理�
 
 >[!NOTE]
 >
->虛擬報表套裝可透過以下方式管理： **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**. 請參閱 [虛擬報表套裝檔案](/help/components/vrs/vrs-about.md).
+>虛擬報表套裝可透過「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**」來管理。請參閱「[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)」。
 
 ## 報表套裝管理員說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 

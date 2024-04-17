@@ -6,9 +6,9 @@ feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 >使用 Analytics 的 Audience Manager 現有客戶應改為使用伺服器端轉送。Adobe Analytics 和 Audience Manager 的新客戶應實施伺服器端轉送 (而不是 DIL) 作為預設的資料收集和傳送方法。
 
 >[!IMPORTANT]
->根據歐盟Cookie法規規範，資料控管單位（Analytics客戶）現在可以選擇將預先許可的資料限制在Adobe Analytics，並防止其從伺服器端轉送至Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 變數一經設定，在收到同意之前不會將這些點選傳送至Adobe Audience Manager。 如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
+>現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager。新的實作內容變數可讓您在未收到同意的地方標籤點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 Adobe Audience Manager。如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
 
 若要瞭解貴組織實施伺服器端轉送的狀況，請進行以下驗證步驟：
 
@@ -50,12 +50,12 @@ ht-degree: 89%
 * **「狀態」：「SUCCESS」**：您已實施「對象管理模組」，但未正確設定伺服器端轉送。繼續進行步驟 3。
 * **2 x 2 影像**：您尚未實施伺服器端轉送或「對象管理模組」。若要修正此問題：
 
-   * **具有DIL的Adobe Audience Manager客戶**：密切協調下列2個專案：
+   * **具有 DIL 的 Adob&#x200B;&#x200B;e Audience Manager 客戶**：密切協調下列兩個項目：
 
       1. 移除 DIL 程式碼，並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼。
       1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。未移除 DIL 程式碼即啟用此設定將會使資料重複，並建立對 Audience Manager 的其他計費伺服器呼叫。
 
-   * **新的Adobe Audience Manager客戶**  — 安裝 [對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) 頁面程式碼並繼續進行步驟3。 在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
+   * **新 Adobe Audience Manager 客戶** - 安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼，並繼續進行步驟 3。在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
 
 ## ![step3_icon.png image](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png) 確認報表套裝的伺服器端轉送實施情形
 
@@ -65,7 +65,7 @@ ht-degree: 89%
 
 前往&#x200B;**「Analytics** > **管理員** > **報表套裝** > (選取&#x200B;**「報表套裝」**) > **編輯設定** > **一般** > **伺服器端轉送」**。如果核取方塊為：
 
-* **非作用中** (您無法進行選擇或選單不存在)：您沒有將選定的報表套裝對應到組織 ID。 聯絡客戶服務部 (Customer Care) 以確保報表裝的對應正確無誤。
+* **非作用中** (您無法進行選擇或選單不存在)：您沒有將選定的報表套裝對應到組織 ID。 聯絡客戶服務部 (Customer Care) 以確保報表套裝的對應正確無誤。
 * **已停用**：您未開啟新的伺服器端轉送。閱讀頁面中的內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。您也可以設定此 Audience Analytics 整合。
 
