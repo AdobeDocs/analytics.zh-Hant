@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -140,6 +140,10 @@ ht-degree: 100%
    + [XDM 物件變數對應](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 總覽](aep-edge/web-sdk/overview.md)
+      + [使用標籤移轉至Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [使用JavaScript移轉至Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [使用標籤的新實作](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [使用JavaScript的新實作](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
    + 伺服器 API {#server-api}
