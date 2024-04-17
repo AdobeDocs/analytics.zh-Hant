@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d2b2ebdbc6a3c0f20b8684ba5c1b4b89cefb8e5a
+source-git-commit: 89e13606ef85cc2a227b42838a43768703c80efd
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 50%
+source-wordcount: '1346'
+ht-degree: 46%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 50%
 | **串流媒體：將Roku資料傳送至Adobe Experience PlatformEdge Network** | 現在，當 [使用Experience Platform Edge安裝Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)，您可以使用Adobe Experience Platform Roku SDK傳送串流媒體資料給Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
 | **改善Web SDK移轉的工作流程** | Adobe Experience Platform資料收集現在會自動將資料物件的許多欄位直接對應到Adobe Analytics。 此改良的工作流程提供下列優點：<ul><li>它可讓您的組織移轉至Web SDK，而不需擔心建立或遵守 [!UICONTROL XDM結構描述]. 另請參閱 [資料物件變數對應](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping) 以取得詳細資訊。 （如需檢視更多檔案連結，請前往）</li><li>移轉至Web SDK後，貴組織就能更妥善地從Adobe Analytics移轉至Customer Journey Analytics。 這是因為Web SDK可讓您更順暢地移轉至Customer Journey Analytics。</li></ul> （我們即將提供有關此移轉選項與其他移轉選項的詳細資訊。） |  | 2024 年 4 月 |
 | **僅限專案的許可權增強功能 [!UICONTROL 工作區] 元件** | 先前，如果使用者（使用者A）與另一個使用者（使用者B）共用專案，並授予使用者B專案的編輯許可權，則使用者B將能夠編輯專案。 但是，使用者B無法編輯 [!UICONTROL 快速區段] 內嵌在專案中。 該限制現已移除 — 使用者B可以編輯 [!UICONTROL 快速區段] 和嵌入共用專案的其他僅限專案元件。 |  | 2024 年 4 月 17 日 |
-| **對使用相同的雲端帳戶 [!UICONTROL 資料摘要]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分類設定]** | 您建立的雲端帳戶和位置現在可用於匯出資料(具有 [!UICONTROL 資料摘要] 和 [!UICONTROL Data Warehouse])和匯入資料(使用 [!UICONTROL 分類設定])。<p> **設定帳戶時的變更：** 使用者可以 [設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [設定雲端匯入和匯出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 其用途如下：<ul><li>使用匯入資料 [!UICONTROL 分類設定]</li><li>匯出資料，使用 [!UICONTROL 資料摘要]</li><li>匯出資料，使用 [!UICONTROL Data Warehouse].</li></ul><p>**管理帳戶時的變更**：使用者可使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 頁面（在下） [!UICONTROL 元件] > Loc動作)以檢視及管理其建立的所有帳戶與位置，無論其建立於何處。 <p>先前， [!UICONTROL 位置] 頁面僅套用至使用建立以匯入資料的帳戶 [!UICONTROL 分類設定].</p> | | 2024 年 4 月 17 日 |
+| **對使用相同的雲端帳戶 [!UICONTROL 資料摘要]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分類設定]** | 您建立的雲端帳戶和位置現在可用於匯出資料(具有 [!UICONTROL 資料摘要] 和 [!UICONTROL Data Warehouse])和匯入資料(使用 [!UICONTROL 分類設定])。<p> **設定帳戶時的變更：** 使用者可以 [設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [設定雲端匯入和匯出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 其用途如下：<ul><li>使用匯入資料 [!UICONTROL 分類設定]</li><li>匯出資料，使用 [!UICONTROL 資料摘要]</li><li>匯出資料，使用 [!UICONTROL Data Warehouse].</li></ul><p>**從管理帳戶和位置時的變更 [!UICONTROL 位置] 頁面**：使用者可使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 頁面（在下） [!UICONTROL 元件] > Loc動作)以檢視及管理其建立的所有帳戶與位置，無論其建立於何處。 <p>先前， [!UICONTROL 位置] 頁面僅套用至使用建立以匯入資料的帳戶 [!UICONTROL 分類設定].</p>**從管理位置時變更 [!UICONTROL Data Warehouse] 或 [!UICONTROL 分類設定]**<p>在指定的應用程式區域內管理位置時([!UICONTROL Data Warehouse] 或 [!UICONTROL 分類設定])，則只有在該特定應用程式區域中建立的位置才可使用。 例如，檢視 [!UICONTROL Data Warehouse] 僅應用程式區域 [!UICONTROL Data Warehouse] 位置可供使用。 無論帳戶建立於哪個應用程式區域，所有帳戶仍可在每個應用程式區域使用。 以前，無論帳戶和位置建立於哪個應用程式區域，都可在每個應用程式區域使用它們。 在檢視 [!UICONTROL 資料摘要] 應用程式區域。 | | 2024 年 4 月 17 日 |
 | **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。<p>上的新選項 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 帳號標籤（在「元件>位置」頁面上）可讓管理員檢視及管理組織中的所有帳號。</p> <p>以前，管理員只能檢視和管理他們建立的位置和帳戶。</p> |  | 2024 年 4 月 17 日 |
 | **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024年5月31日 |
 | **Activity Map 使用更少的 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024年5月31日 |
