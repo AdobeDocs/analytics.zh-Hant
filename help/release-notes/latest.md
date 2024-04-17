@@ -3,7 +3,7 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 627a813d0d5595521d72f0cf832b3a1ceb7655f8
+source-git-commit: d2b2ebdbc6a3c0f20b8684ba5c1b4b89cefb8e5a
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 50%
@@ -26,7 +26,7 @@ ht-degree: 50%
 | **對使用相同的雲端帳戶 [!UICONTROL 資料摘要]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分類設定]** | 您建立的雲端帳戶和位置現在可用於匯出資料(具有 [!UICONTROL 資料摘要] 和 [!UICONTROL Data Warehouse])和匯入資料(使用 [!UICONTROL 分類設定])。<p> **設定帳戶時的變更：** 使用者可以 [設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [設定雲端匯入和匯出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 其用途如下：<ul><li>使用匯入資料 [!UICONTROL 分類設定]</li><li>匯出資料，使用 [!UICONTROL 資料摘要]</li><li>匯出資料，使用 [!UICONTROL Data Warehouse].</li></ul><p>**管理帳戶時的變更**：使用者可使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 頁面（在下） [!UICONTROL 元件] > Loc動作)以檢視及管理其建立的所有帳戶與位置，無論其建立於何處。 <p>先前， [!UICONTROL 位置] 頁面僅套用至使用建立以匯入資料的帳戶 [!UICONTROL 分類設定].</p> | | 2024 年 4 月 17 日 |
 | **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。<p>上的新選項 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 帳號標籤（在「元件>位置」頁面上）可讓管理員檢視及管理組織中的所有帳號。</p> <p>以前，管理員只能檢視和管理他們建立的位置和帳戶。</p> |  | 2024 年 4 月 17 日 |
 | **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024年5月31日 |
-| **Activity Map 使用更少的 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024年5月1日 |
+| **Activity Map 使用更少的 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024年5月31日 |
 
 {style="table-layout:auto"}
 
