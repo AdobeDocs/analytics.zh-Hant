@@ -3,49 +3,50 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+source-git-commit: 627a813d0d5595521d72f0cf832b3a1ceb7655f8
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 50%
 
 ---
 
-# Adobe Analytics 目前的發行說明 (2024 年 3 月)
+# Adobe Analytics 目前的版本注意事項 (2024 年 4 月)
 
-**上次更新日期**：2024 年 4 月 3 日
+**上次更新**：2024年4月17日
 
-這些發行說明涵蓋 2024 年 3 月 12 日至 2024 年 4 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年4月17日至5月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **變更 Workspace 專案的刪除通訊協定** | 在以前，已刪除的專案不會從系統中清除。我們現在將在 180 天後開始清除已刪除的專案。在刪除後的 180 天內，如果使用者有專案的 URL，他們仍然可以透過 Web 介面存取已刪除的專案。 | | 2024 年 3 月 14 日 |
-| **AppMeasurement 更新** | [AppMeasurement 版本 v2.26.0](/help/implement/appmeasurement-updates.md) 現已推出。 | | 2024 年 3 月 4 日 |
-| **專案登陸頁面珼在提供新欄** | 現在，在 [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/docs/analytics/analyze/landing.html?lang=zh-Hant)上檢視「專案」標籤時，會提供&#x200B;**[!UICONTROL 「上次使用」]**&#x200B;欄。 <p>這項資訊可顯示專案上次開啟的日期和時間，幫助您確定專案對您組織中的使用者是否重要。</p> <p>以前，**[!UICONTROL 「上次使用」]**&#x200B;欄只適用於計算量度管理器、區段管理器以及警報管理器。</p> |  | 2024 年 3 月 13 日 |
-| **Analytics 支援 Google 要求取得 DMA 的同意標籤** | 由於新的歐洲隱私權法規，Google 要求在歐洲收集並發送給他們的資料必須表明是否取得兩種特定類型的同意授權。 **從 3 月 6 日開始**，Google 將不再接受未表明是否已獲得相關同意授權的事件資料。Adobe Analytics 已發布對透過新的 adConsent 變數擷取此資料的支援。您可以看到[隱私權報告 UI](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) 中所列的新變數。如果您想啟動此功能並且已經為先前的同意變數啟用隱私權，則您將需要再次啟用隱私權。<p>[廣告平台同意維度](/help/components/dimensions/ad-consent.md)顯示是否收集同意將資料傳送給第三方廣告提供者 (例如 Google)。 |  | 2024 年 3 月 13 日 |
-| **Report Builder 使用情況包含在計算量度管理器和區段管理器的「使用於」欄中** | 現在，在計算量度管理器或區段管理器中檢視「**使用於**」欄時，可以看到 Report Builder 使用情況資料。<p>之前，區段管理器僅提供警報、專案、已排程專案和計算量度的使用情況資料；而計算量度管理器僅提供警報、專案、已排程專案的使用情況資料。</p> |  | 7 月 |
-| **為資料摘要、Data Warehouse 和分類集使用相同的雲端帳戶** | 您建立的雲端帳戶和位置現在可用來匯出資料 (使用資料摘要和 Data Warehouse) 並匯入資料 (使用分類集)。<p> **設定帳戶時的變更：** 使用者可以設定雲端匯入和匯出帳戶，以及設定可用於以下任意目的雲端匯入和匯出位置：<ul><li>使用分類集匯入資料</li><li>使用資料來源匯出數據</li><li>使用 Data Warehouse 匯出資料。</li></ul><p>**管理帳戶時的變更**：使用者可以使用「位置」頁面 (在「元件 > 位置」下) 來查看和管理他們建立的所有帳戶和位置，無論這些是在何處建立。 <p>以前，「位置」頁面僅適用於為使用分類集匯入資料而建立的帳戶。</p> | | 2024 年 4 月 |
-| **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。<p>「位置」帳戶標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有帳戶。</p> <p>以前，管理員只能檢視和管理他們建立的位置和帳戶。</p> |  | 2024 年 4 月 |
-| **Activity Map 使用更少的 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024 年 4 月 31 日 |
-| **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | | 2024 年 4 月中旬 |
+| **串流媒體：將Roku資料傳送至Adobe Experience PlatformEdge Network** | 現在，當 [使用Experience Platform Edge安裝Media Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge)，您可以使用Adobe Experience Platform Roku SDK傳送串流媒體資料給Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
+| **改善Web SDK移轉的工作流程** | Adobe Experience Platform資料收集現在會自動將資料物件的許多欄位直接對應到Adobe Analytics。 此改良的工作流程提供下列優點：<ul><li>它可讓您的組織移轉至Web SDK，而不需擔心建立或遵守 [!UICONTROL XDM結構描述]. 另請參閱 [資料物件變數對應](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/data-var-mapping) 以取得詳細資訊。 （如需檢視更多檔案連結，請前往）</li><li>移轉至Web SDK後，貴組織就能更妥善地從Adobe Analytics移轉至Customer Journey Analytics。 這是因為Web SDK可讓您更順暢地移轉至Customer Journey Analytics。</li></ul> （我們即將提供有關此移轉選項與其他移轉選項的詳細資訊。） |  | 2024 年 4 月 |
+| **僅限專案的許可權增強功能 [!UICONTROL 工作區] 元件** | 先前，如果使用者（使用者A）與另一個使用者（使用者B）共用專案，並授予使用者B專案的編輯許可權，則使用者B將能夠編輯專案。 但是，使用者B無法編輯 [!UICONTROL 快速區段] 內嵌在專案中。 該限制現已移除 — 使用者B可以編輯 [!UICONTROL 快速區段] 和嵌入共用專案的其他僅限專案元件。 |  | 2024 年 4 月 17 日 |
+| **對使用相同的雲端帳戶 [!UICONTROL 資料摘要]， [!UICONTROL Data Warehouse]、和 [!UICONTROL 分類設定]** | 您建立的雲端帳戶和位置現在可用於匯出資料(具有 [!UICONTROL 資料摘要] 和 [!UICONTROL Data Warehouse])和匯入資料(使用 [!UICONTROL 分類設定])。<p> **設定帳戶時的變更：** 使用者可以 [設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-accounts) 和 [設定雲端匯入和匯出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations) 其用途如下：<ul><li>使用匯入資料 [!UICONTROL 分類設定]</li><li>匯出資料，使用 [!UICONTROL 資料摘要]</li><li>匯出資料，使用 [!UICONTROL Data Warehouse].</li></ul><p>**管理帳戶時的變更**：使用者可使用 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 頁面（在下） [!UICONTROL 元件] > Loc動作)以檢視及管理其建立的所有帳戶與位置，無論其建立於何處。 <p>先前， [!UICONTROL 位置] 頁面僅套用至使用建立以匯入資料的帳戶 [!UICONTROL 分類設定].</p> | | 2024 年 4 月 17 日 |
+| **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。<p>上的新選項 [位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/locations-manager) 帳號標籤（在「元件>位置」頁面上）可讓管理員檢視及管理組織中的所有帳號。</p> <p>以前，管理員只能檢視和管理他們建立的位置和帳戶。</p> |  | 2024 年 4 月 17 日 |
+| **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024年5月31日 |
+| **Activity Map 使用更少的 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024年5月1日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 修正以下分類問題：AN-335632；AN-337559；AN-340164；AN-340370；AN-341089；AN-341211；AN-341284；AN-341469；AN-341481；AN-341760；AN-341778；AN-342144；AN-342258；AN-342338；AN-342400
-* 修正以下分類規則產生器問題：AN-340921；AN-341269；AN-341292；AN-341467；AN-341666；AN-342145；AN-342329
-* 修正以下智慧型警報問題：AN-340736
-* 修正以下分段問題：AN-336242
-* 修正了以下 Data Warehouse 問題：AN-335354；AN-339446；AN-339774；AN-340221；AN-340599；AN-341277；AN-342009；AN-342088；AN-342592
-* 修正了以下資料摘要問題：AN-335508；AN-340887；AN-341050；AN-341208；AN-341403；AN-341479；AN-341524；AN-341661；AN-342000；AN-342125；AN-342256；AN-342301；AN-342410；AN-342502；AN-342525
-* 修正以下 Report Builder 問題：AN-340540
-* 修正以下 Analysis Workspace 問題：AN-295889；AN-330981；AN-338818；AN-339730；AN-341114；AN-341520；
+* 修正下列分類問題：AN-343439、AN-343503、AN-343504、AN-343986、AN-344262、AN-344564、AN-345204、AN-345234
+* 修正下列分類規則產生器問題：AN-341488、AN-342501、AN-345751
+* 修正下列智慧型警報的問題： AN-343466；
+* 修正以下分段問題：AN-342313
+* 已修正下列Data Warehouse問題： AN-344292
+* 已修正下列資料摘要問題： AN-339545、AN-340092、AN-342124、AN-342862、AN-343737、AN-344035、AN-344329、AN-344703、AN-344721、AN-344940、AN-345180、AN-345196、AN-345225、AN-345236、AN-345326、AN-345631、AN-345659
+* 已修正下列資料來源問題： AN-343541
+* 修正下列Analysis Workspace問題：AN-336303、AN-336472、AN-338422、AN-338556、AN-339718、AN-340147、AN-340301、AN-340421、AN-340951、AN-341172、AN-342905、AN-342909、AN-343448、AN-343570、AN-344050、AN-344182、AN-344763、AN-344768；
+* 修正下列Analytics管理問題：AN-342519、AN-342523、AN-343623、AN-343882、AN-344237、AN-344829、AN-345235；
+* 已修正下列A4T問題：AN-341619；AN-344402
+* 已修正下列行動應用程式問題： AN-342010
 
 ### Analytics 其他修正
 
-AN-312198、AN-338009、AN-339549、AN-333970、AN-334790、AN-336461、AN-336572、AN-339549、AN-341119、AN-341246、AN-341268、AN-341272、AN-341475、AN-341547、AN-341558、AN-341680、AN-342017；
+AN-336099、AN-337474、AN-337993、AN-339718、AN-339901、AN-340014、AN-341356、AN-343021、AN-343102、AN-343353、AN-343416、AN-340014、AN-344037、AN-344525、AN-345737
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
@@ -53,7 +54,6 @@ AN-312198、AN-338009、AN-339549、AN-333970、AN-334790、AN-336461、AN-33657
 | ----------- | ---------- | ---------- |
 | **13 個月的儲存有效期`cust_visids`** | 2024 年 3 月 20 日 | 即將發行的 Analytics Hit 處理引擎 (預計於 4 月或 5 月發行) 將開始強制執行 13 個月的 `cust_visids` 儲存有效期。如果報告套裝已啟用「啟用訪客聯繫」，則此設定用於尋找 `cust_visid` 是否有點擊時無 `cust_visid` 的 `visid_high/visid_low value`。目前，`visid_high/visid_low` 的 `cust_visid` 對應不會過期。在此版本中，如果自點擊時 `visid_high/visid_low` 有 `cust_visid` 以來已過去 13 個月或更長時間，對應將過期。 |
 | **Adobe API 物件會員新增** | 2024 年 1 月 17 日 | Adobe 可能會為現有 API 物件隨時新增選擇性請求和回應會員 (名稱/值對)，恕不另行通知或變更版本設定。Adobe 建議您參考與我們的 API 整合的任何協力廠商工具的 API 文件，以便在不理解的情況下在處理過程中忽略此類新增。如果實施得當，此類新增對於您的實施來說是非破壞性的變更。Adobe 不會在未事先透過發行說明提供標準通知下刪除參數或新增所需參數。 |
-| **`getPageLoadTime`外掛程式已過時** | 2024 年 1 月 10 日 | 不再支援此外掛程式。其程式碼使用了 performance.timing 方法，該方法 (根據 MDN) 已[過時](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming)。已經開始更新外掛程式的工作。 |
 
 {style="table-layout:auto"}
 
