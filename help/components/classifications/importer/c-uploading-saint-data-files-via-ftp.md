@@ -3,10 +3,10 @@ description: 如何透過 FTP 上傳資料檔案。
 title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
+source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 91%
+source-wordcount: '724'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >
 >不建議使用FTP，因為這是共用檔案的未加密方法，這表示任何人都可以攔截檔案內容以及帳戶使用的使用者名稱和密碼。
 >
->請改為依照所述設定雲端帳戶 [設定雲端匯入帳戶](/help/components/locations/configure-import-accounts.md).
+>請改為依照所述設定雲端帳戶 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md).
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
