@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c81f0b8dffe07789fce1dda6efcb5ce17406be71
+source-git-commit: de1aaf1cc4f59567582c7802117226e859e52b08
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 40%
+source-wordcount: '1190'
+ht-degree: 38%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 40%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體名稱**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 |
+   | [!UICONTROL **貯體名稱**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 </p><p>貯體名稱必須符合特定的命名規則。 例如，其長度必須介於3到63個字元之間，只能由小寫字母、數字、點(.)和連字型大小(-)組成，而且開頭和結尾必須是字母或數字。 [AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **金鑰前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如，folder_name/ |
 
    {style="table-layout:auto"}
