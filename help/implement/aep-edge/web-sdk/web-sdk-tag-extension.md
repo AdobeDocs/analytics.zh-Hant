@@ -1,9 +1,8 @@
 ---
 title: 使用Web SDK標籤擴充功能將資料傳送至Adobe Analytics
 description: 從簡潔的Adobe Experience Platform資料收集實作開始，以便使用XDM和Adobe Analytics ExperienceEvent欄位群組將資料傳送至Adobe Analytics。
-hide: true
-hidefromtoc: true
-source-git-commit: d6c16d8841110e3382248f4c9ce3c2f2e32fe454
+exl-id: 235b3d68-92dd-4ca4-8889-1e1f2d83f47e
+source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 17%
@@ -26,7 +25,7 @@ ht-degree: 17%
 | --- | --- |
 | <ul><li>**最直接的方法**：此實施路徑最直接，通常是新Web SDK實施的建議路徑。 如果您不需擔心目前的Adobe Analytics實作，請填入適用的Web SDK XDM欄位。</li><li>**預先定義的結構描述**：如果您的組織不需要自己的結構描述，您只需使用針對Adobe Analytics的結構描述即可。 即使您邁向Customer Journey Analytics，此概念仍適用；prop和eVar的概念不適用於Customer Journey Analytics，但您可以繼續使用prop和eVar作為簡單的自訂維度。</li><li>**無需開發人員干預即可管理標籤**：標籤可讓您管理實作，而不需要開發人員對您的實作進行程式碼變更。 您的開發人員會安裝標籤載入器指令碼，而您可以完全控制資料的收集方式。</li></ul> | <ul><li>**使用特定結構描述鎖定到**：當您的組織移至Customer Journey Analytics時，您必須選擇繼續使用Adobe Analytics結構描述，或移轉至您自己的組織結構描述（這將是獨立的資料集）。 如果您的組織想要在移至Customer Journey Analytics時同時避免Adobe Analytics結構描述和移轉至個別的資料集，Adobe建議使用下列兩種方法之一：<ul><li>使用 `data` 物件： `data` 物件可讓您在不符合XDM結構描述的情況下將資料傳送至Adobe Analytics。 建立組織的結構描述後，您就可以使用資料流對應來對應 `data` 物件欄位新增至XDM。 兩者 [Analytics擴充功能新增至Web SDK擴充功能](analytics-extension-to-web-sdk.md) 和 [AppMeasurement至Web SDK JavaScript資料庫](appmeasurement-to-web-sdk.md) 使用此 `data` 物件。</li><li>完全略過Adobe Analytics：如果您正在實作Web SDK，可以將該資料傳送到Adobe Experience Platform中的資料集，以用於Customer Journey Analytics。 您可以使用任何您喜歡的結構描述；Adobe Analytics完全不參與此工作流程，因此不需要Adobe Analytics ExperienceEvent欄位群組。 此方法產生最少的技術債，但也會將Adobe Analytics完全排除在外。</li></ul></ul> |
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >此實作方法需要您使用為Adobe Analytics設定的結構描述。 如果您的組織計畫在未來使用您自己的方案進行Customer Journey Analytics，使用Adobe Analytics方案可能會對資料管理員或架構師造成混淆。 有幾個選項可以緩解此障礙：
 >
