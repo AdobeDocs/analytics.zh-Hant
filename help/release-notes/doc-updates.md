@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 674f8a0002834d9765fbb41a598c71d432088cfa
-workflow-type: ht
-source-wordcount: '5243'
-ht-degree: 100%
+source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
+workflow-type: tm+mt
+source-wordcount: '5273'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 4 月** | |
+| 移除檔案中有關設定雲端匯入和匯出位置的可摺疊區段 | 已移除中的可摺疊區段 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md) 以取得說明雲端帳戶型別的資訊。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | [發行說明](/help/implement/appmeasurement-updates.md) - AppMeasurement 更新 v2.26.0。<br/>包括對 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定變數文件的參考和更新。 |
 | 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/analyze/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
