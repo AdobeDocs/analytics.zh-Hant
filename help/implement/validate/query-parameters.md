@@ -4,9 +4,9 @@ description: 列出影像要求中使用的所有查詢字串參數。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 100%
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | 用於[找不到頁面](/help/components/dimensions/pages-not-found.md)維度。 |
 | `pccr` | 無 | 僅為新訪客設定，且一律設為 `true`。如果訪客拒絕 Cookie，則可防止無限重新導向。 |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 判斷自訂連結的類型。[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)和[退出連結](/help/components/dimensions/exit-link.md)的必要項目。 |
-| `pev1` | 無 | 發生自訂連結的 URL。 |
+| `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | 發生自訂連結的 URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | 自訂連結友好名稱。 |
 | `pev3` | 無 | 已不再使用。追蹤舊版視訊報表中的里程碑。 |
 | `pf` | 無 | 平台標幟；僅供 Adobe 使用。不可變更。 |

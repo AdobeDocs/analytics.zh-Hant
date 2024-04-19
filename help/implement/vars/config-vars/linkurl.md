@@ -4,16 +4,18 @@ description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 74%
+source-wordcount: '158'
+ht-degree: 65%
 
 ---
 
 # linkURL
 
 每當連結追蹤呼叫傳送至 Adobe 時，資料收集伺服器都會自動偵測 URL。使用 `linkURL` 變數來覆寫偵測到的 URL。
+
+Analysis Workspace中沒有報告此變數的維度。 它會填入 `page_event_var1` 中的欄 [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md).
 
 ## 使用Web SDK的連結URL
 

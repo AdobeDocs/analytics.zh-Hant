@@ -1,9 +1,10 @@
 ---
 title: 從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能
 description: 更新Adobe Experience Platform資料收集標籤上的Analytics實作，以使用Web SDK擴充功能。
-source-git-commit: d4c9bddf18311e13d025ed9d62c0636a33eb7b85
+exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
+source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1706'
 ht-degree: 1%
 
 ---
@@ -46,7 +47,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在服務下拉式功能表中，選取 **[!UICONTROL Adobe Analytics]**.
 1. 輸入與您目前傳送分析資料的目標網站相同的報表套裝ID。 按一下「**[!UICONTROL 儲存]**」。
 
-![新增Adobe Analytics服務](assets/datastream-rsid.png) {style="border:1px solid gray"}
+![新增Adobe Analytics服務](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
 您的資料流現在已準備好接收資料並傳遞給Adobe Analytics。
 
@@ -62,11 +63,11 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 選取 **[!UICONTROL 目錄]** 在頂端附近，檢視所有可用擴充功能的清單。
 1. 搜尋並選取 **[!UICONTROL Adobe Experience Platform Web SDK]** 擴充功能，然後按一下 **[!UICONTROL 安裝]** 在右邊。
 
-   ![目錄](assets/catalog.png) {style="border:1px solid gray"}
+   ![目錄](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. 擴充功能組態設定隨即顯示。 找出「資料串流」段落，然後選取您在上一步中建立的資料串流。
 
-   ![資料流選擇](assets/datastream-select.png) {style="border:1px solid gray"}
+   ![資料流選擇](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. 選取「**[!UICONTROL 儲存]**」。
 
@@ -83,14 +84,14 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 為資料元素執行下列設定：
    * [!UICONTROL 名稱]：您想要的任何專案，例如「資料層」或「資料物件」
    * [!UICONTROL 副檔名]： [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL 變數]： [!UICONTROL 變數]
+   * [!UICONTROL 資料元素型別]： [!UICONTROL 變數]
    * 核取方塊可以保持原樣
 1. 在右側，選取下列設定：
    * 屬性選項按鈕： [!UICONTROL 資料]
    * 解決方案： [!UICONTROL Adobe Analytics]
 1. 選取「**[!UICONTROL 儲存]**」。
 
-![建立資料元素](assets/create-data-element.png) {style="border:1px solid gray"}
+![建立資料元素](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 您的標籤屬性現在擁有更新每個規則所需的一切。
 
@@ -103,7 +104,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在標籤介面的左側導覽中，選取 **[!UICONTROL 規則]**.
 1. 選取要編輯的規則。
 1. 選取動作 **[!UICONTROL Adobe Analytics — 設定變數]**
-1. 記下此規則內設定的所有Analytics變數。 請記下在下拉式功能表中設定的變數，以及在自訂程式碼中設定的變數。
+1. 記下此規則內設定的所有Analytics變數。 納入在下拉式功能表中設定的變數，以及在自訂程式碼中設定的變數。
 1. 變更 [!UICONTROL 動作設定] 變更為下列設定：
    * [!UICONTROL 副檔名]： [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL 動作型別]：更新變數
@@ -146,7 +147,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在開發環境中測試您的變更，以確保所有規則皆正確引發，且資料物件會填入預期值。
 1. 準備就緒後，請提交程式庫進行核准、建置到測試環境，最後核准並發佈到生產環境。
 
-![發佈流程](assets/publishing-flow.png) {style="border:1px solid gray"}
+![發佈流程](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 
