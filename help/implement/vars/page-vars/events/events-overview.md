@@ -4,7 +4,7 @@ description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 7723e064a572b33d71cf298f87dca599f7cf9d14
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -27,7 +27,7 @@ ht-degree: 85%
 * 訂單會對應到 `xdm.commerce.purchases.value`。
 * 單位會對應到所有 `productListItems[].quantity` 欄位的總和。
 * 營收會對應到所有 `productListItems[].priceTotal` 欄位的總和。
-* 產品視圖會對應到 `xdm.commerce.productListViews.value`。
+* 產品視圖會對應到 `xdm.commerce.productViews.value`。
 * 購物車會對應到 `xdm.commerce.productListOpens.value`。
 * 購物車新增會對應到 `xdm.commerce.productListAdds.value`。
 * 購物車移除會對應到 `xdm.commerce.productListRemovals.value`。
