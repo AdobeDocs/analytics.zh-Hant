@@ -4,10 +4,10 @@ description: 決定影像要求的傳送位置。
 feature: Variables
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 72%
+source-wordcount: '702'
+ht-degree: 52%
 
 ---
 
@@ -59,9 +59,14 @@ alloy("configure", {
 
 `s.trackingServer` 變數是包含資料傳送位置的字串。
 
-## 決定值 `trackingServer`
+## 決定值時的考量事項 `trackingServer`
 
-此變數的值取決於您是使用第一方 Cookie 或協力廠商 Cookie。Adobe 強烈建議您在實作中使用第一方 Cookie。
+您可以選擇使用Adobe的追蹤伺服器網域(例如 `adobedc.net`)或您可以透過特殊程式來設定符合您網站網域的追蹤伺服器(例如 `data.mydomain.com`)，也稱為CNAME實作。 根據您實作的其他方面，擁有符合您網站網域的trackingserver可能會有一些優點。 當追蹤伺服器不符合目前頁面的網域時，AppMeasurement設定的Cookie必須設定為第三方。 如果瀏覽器不支援第三方Cookie，這種不相符可能會干擾某些Analytics功能：
+
+- 設定識別碼：如果您正在使用Experience Cloud識別服務，追蹤伺服器不會影響Cookie的設定方式。 不過，如果您有使用Analytics舊型識別碼(亦即 `s_vi` Cookie)和收集伺服器不符合目前的網域，則Cookie必須設定為第三方。 在此案例中，如果瀏覽器封鎖第三方Cookie，Analytics會設定第一方備援ID (`s_fid`)而非標準 `s_vi` Cookie。
+- 連結追蹤無法用於內部連結。
+- 內部連結的Activity Map無法運作。
+- Cookie檢查。
 
 ### 第一方 Cookie
 
@@ -73,7 +78,7 @@ alloy("configure", {
 s.trackingServer = "data.example.com";
 ```
 
-### 協力廠商 Cookie
+### 協力廠商追蹤伺服器
 
 >[!TIP]
 >
