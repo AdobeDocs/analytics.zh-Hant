@@ -3,10 +3,10 @@ title: Adobe Analytics 中的即時報表
 description: 瞭解如何在 Adobe Analytics 中提取即時報表，讓較熟悉 Google Analytics 的使用者也能檢視。
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 8f08ff46d33d050d0bdb4e0555611ba37ccc8474
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 100%
+source-wordcount: '981'
+ht-degree: 94%
 
 ---
 
@@ -16,13 +16,14 @@ ht-degree: 100%
 
 ![即時報表](/help/technotes/ga-to-aa/assets/realtime.png)
 
-即時報表是尚未引入 Analysis Workspace 的幾項少數功能之一。使用 Reports &amp; Analytics 來取得此資料。需要一些簡單的設定才能開始收集資料。
+即時報表是尚未引入 Analysis Workspace 的幾項少數功能之一。使用「報表」來取得此資料。 需要一些簡單的設定才能開始收集資料。
 
 進入即時報表設定頁面的方式 (需要管理員權限)：
 
-1. 按一下 Adobe Analytics 標頭導覽列中的[!UICONTROL 報表]。
-2. 在左側功能表中，按一下&#x200B;*[!UICONTROL 網站量度]* > *[!UICONTROL 即時]*。
-3. 如果報表套裝尚未啟用即時功能，則會顯示含有一個連結的訊息，可用此連結來設定報表套裝。如果報表套裝已啟用即時功能，請按一下即時報表標題附近的[!UICONTROL 設定]。
+1. 按一下 **[!UICONTROL 工作區]** ，位於Adobe Analytics頂端導覽列中。
+1. 選取 **[!UICONTROL 報表]** 從左側導覽列。
+1. 選取 **[!UICONTROL 參與]** ![V形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 即時]**. 您也可以 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 搜尋即時。
+1. 如果報表套裝尚未啟用即時功能，則會顯示含有一個連結的訊息，可用該連結來設定報表套裝。
 
 Adobe 最多可同時收集三份即時報表。每個報表都必須先進行設定，才能開始即時收集資料。
 
