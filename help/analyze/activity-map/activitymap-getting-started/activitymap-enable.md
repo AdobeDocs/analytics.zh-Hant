@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 75d50a5b2cd31aa11df22fa6a271f7ab937a770c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,10 @@ Activity Map 模組是 AppMeasurement.js、Adobe Experience Platform 標記和 W
 
 +++Web SDK (Adobe Experience Platform 標記擴充功能)
 
-1. 在 Adob&#x200B;&#x200B;e Experience Platform 標記中，導覽至您要實施 Analytics 的屬性。在「[!UICONTROL 擴充功能] -> [!UICONTROL Adobe Experience Platform Web SDK]」下，依下面醒目提示選取「**[!UICONTROL 啟用按一下資料收集]**」。
+注意： Web SDK目前會記錄個別連結點選事件，以收集Activity Map資訊。 這與記錄內部連結Activity Map資訊的AppMeasurement不同，因為它會在後續的頁面載入中包含該資訊。 因此，Web SDK收集會導致額外的伺服器呼叫。 Web SDK的未來版本將可設定Web SDK，以封裝後續點選的Activity Map資訊，基本上符合AppMeasurement的行為。
+
+1. 在Adobe Experience Platform標籤中，導覽至您要實作Analytics的屬性。
+1. 在 [!UICONTROL 擴充功能] > [!UICONTROL Adobe Experience Platform Web SDK]，選取 **[!UICONTROL 啟用點選資料收集]** 如下方醒目提示之處。
 1. 進行變更來建立資料庫。
 1. 將資料庫發佈至生產環境。
 
