@@ -4,9 +4,9 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7468463e2fe1de16221b4528919b6abd6c8aedcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1445'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 76%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **串流媒體：將 Roku 資料傳送至 Adobe Experience Platform Edge Network** | 現在，[透過 Experience Platform Edge 安裝 Media Analytics](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) 時，您可以使用 Adobe Experience Platform Roku SDK 將串流媒體資料傳送至 Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
-| **改進 Web SDK 移轉的工作流程** | 資料串流現在會自動將Web SDK資料物件的欄位直接對應到Adobe Analytics。 [資料物件對應](/help/implement/aep-edge/data-var-mapping.md) 類似 [XDM物件對應](/help/implement/aep-edge/xdm-var-mapping.md)，但不需要XDM結構描述。 改進的工作流程提供以下優點：<ul><li>這會延遲使用結構描述的需求，直到您準備好將資料傳送至Adobe Experience Platform為止。 如果在此實作移轉階段需要結構描述，您將被強制使用以Adobe Analytics欄位為基礎的結構描述。 Adobe Experience Platform服務(例如Customer Journey Analytics)沒有prop或eVar的概念。 如果您的組織想要在未來使用自己的結構描述，以Analytics為主的結構描述可能會造成困難。</li><li>在對Web SDK進行實作變更後，您的組織就能更妥善地從Adobe Analytics移轉至Customer Journey Analytics。 如果您使用Web SDK傳送資料至Adobe Analytics，便不需要進行額外的實作變更即可將資料傳送至Adobe Experience Platform。 您可以改用資料準備將資料物件欄位對應到您的XDM結構描述。</li></ul>另請參閱 [從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md) 和 [從AppMeasurement移轉至Web SDK](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md) 以取得詳細資訊。 |  | 2024 年 4 月 |
+| **串流媒體：將 Roku 資料傳送至 Adobe Experience Platform Edge Network** | 現在，[透過 Experience Platform Edge 安裝 Media Analytics](https://experienceleague.adobe.com/zh-hant/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) 時，您可以使用 Adobe Experience Platform Roku SDK 將串流媒體資料傳送至 Adobe Experience Platform。 |  | 2024 年 4 月 12 日 |
+| **改進 Web SDK 移轉的工作流程** | 資料流現在會自動將 Web SDK 資料物件中的欄位直接對應到 Adob&#x200B;&#x200B;e Analytics。[資料物件對應](/help/implement/aep-edge/data-var-mapping.md)類似於 [XDM 物件對應](/help/implement/aep-edge/xdm-var-mapping.md)，但不需要 XDM 結構描述。這個改善的工作流程提供以下優點：<ul><li>此對應會延遲使用結構描述的要求，直到您準備好將資料傳送到 Adob&#x200B;&#x200B;e Experience Platform。如果在這個實施移轉的階段中需要架構，您將被迫使用以 Adob&#x200B;&#x200B;e Analytics 欄位為主的結構描述。Adobe Experience Platform 服務 (例如 Customer Journey Analytics) 沒有 props 或 eVar 的概念。如果您的組織希望將來使用自己的結構描述，則著重分析的結構描述可能會帶來困難。</li><li>在進行對 Web SDK 的實施變更後，您的組織就能更順利地從 Adobe Analytics 移轉到 Customer Journey Analytics。如果您使用 Web SDK 將資料傳送至 Adob&#x200B;&#x200B;e Analytics，則無需進行其他實施變更即可將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform。相反，您可以使用資料準備功能，將資料物件欄位對應到 XDM 結構描述。</li></ul>請參閱「[從 Adobe Analytics 標記擴充功能移轉至 Web SDK 標記擴充功能](/help/implement/aep-edge/web-sdk/analytics-extension-to-web-sdk.md)」和「[從 AppMeasurement 移轉到 Web SDK](../implement/aep-edge/web-sdk/appmeasurement-to-web-sdk.md)」，可了解更多。 |  | 2024 年 4 月 |
 | **僅限專案 [!UICONTROL Workspace] 元件的權限增強** | 在過去，如果使用者 (使用者 A) 與另一個使用者 (使用者 B) 共用專案，並授予使用者 B 對專案的編輯權限，則使用者 B 將可編輯該專案。但是，使用者 B 無法編輯專案中嵌入的[!UICONTROL 快速區段]。這項限制現已移除：使用者 B 可以編輯[!UICONTROL 快速區段]，以及共用專案中嵌入的其他僅限專案的元件。 |  | 2024 年 4 月 17 日 |
-| **針對[!UICONTROL 資料摘要]、[!UICONTROL Data Warehouse] 和[!UICONTROL 分類集]**&#x200B;使用相同的雲端帳戶 | 您建立的雲端帳戶和位置現在可用來匯出資料 (使用[!UICONTROL 資料摘要]和 [!UICONTROL Data Warehouse]) 並匯入資料 (使用[!UICONTROL 分類集])。<p> **設定帳戶時的變更：**&#x200B;使用者可以[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)以及[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)，用於以下任一目的：<ul><li>使用[!UICONTROL 分類集]匯入資料</li><li>使用[!UICONTROL 資料摘要]匯出資料</li><li>使用 [!UICONTROL Data Warehouse] 匯出資料。</li></ul><p>**從管理帳戶和位置時的變更 [!UICONTROL 位置] 頁面**：使用者可使用 [位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/locations-manager) 頁面（在下） [!UICONTROL 元件] > Loc動作)以檢視及管理其建立的所有帳戶與位置，無論其建立於何處。 <p>在過去，「[!UICONTROL 位置]」頁面僅適用於為使用[!UICONTROL 分類集]匯入資料而建立的帳戶。</p>**從管理位置時變更 [!UICONTROL Data Warehouse] 或 [!UICONTROL 分類設定]**<p>在指定的應用程式區域內管理位置時([!UICONTROL Data Warehouse] 或 [!UICONTROL 分類設定])，則只有在該特定應用程式區域中建立的位置才可使用。 例如，檢視 [!UICONTROL Data Warehouse] 僅應用程式區域 [!UICONTROL Data Warehouse] 位置可供使用。 無論帳戶建立於哪個應用程式區域，所有帳戶仍可在每個應用程式區域使用。 以前，無論帳戶和位置建立於哪個應用程式區域，都可在每個應用程式區域使用它們。 在檢視 [!UICONTROL 資料摘要] 應用程式區域。 | | 2024 年 4 月 17 日 |
-| **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。<p>「[位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/locations-manager)」帳戶標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有帳戶。</p> <p>在過去，管理員只能檢視和管理他們建立的位置和帳戶。</p> |  | 2024 年 4 月 17 日 |
+| **針對[!UICONTROL 資料摘要]、[!UICONTROL Data Warehouse] 和[!UICONTROL 分類集]**&#x200B;使用相同的雲端帳戶 | 您建立的雲端帳戶和位置現在可用來匯出資料 (使用[!UICONTROL 資料摘要]和 [!UICONTROL Data Warehouse]) 並匯入資料 (使用[!UICONTROL 分類集])。<p> **設定帳戶時的變更：**&#x200B;使用者可以[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/zh-hant/docs/analytics/components/locations/configure-import-accounts)以及[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/zh-hant/docs/analytics/components/locations/configure-import-locations)，用於以下任一目的：<ul><li>使用[!UICONTROL 分類集]匯入資料</li><li>使用[!UICONTROL 資料摘要]匯出資料</li><li>使用 [!UICONTROL Data Warehouse] 匯出資料。</li></ul><p>**從「[!UICONTROL 位置]」頁面管理帳戶和位置時的變更**：使用者可以使用「[位置](https://experienceleague.adobe.com/zh-hant/zh-hant/docs/analytics/components/locations/locations-manager)」頁面 (在「[!UICONTROL 元件] > 位置」下) 來查看和管理他們建立的所有帳戶和位置，無論這些是在何處建立。 <p>在過去，「[!UICONTROL 位置]」頁面僅適用於為使用[!UICONTROL 分類集]匯入資料而建立的帳戶。</p>**從 [!UICONTROL Data Warehouse] 或「[!UICONTROL 分類集]**」管理位置時的變更<p>當管理特定應用區域 ([!UICONTROL Data Warehouse] 或[!UICONTROL 分類集]) 內的位置時，只有在該特定應用區域內建立的位置可使用。例如，當查看 [!UICONTROL Data Warehouse] 應用區域時，只有 [!UICONTROL Data Warehouse] 位置可使用。在每個應用區域中，所有帳戶仍然可使用，無論這些帳戶是在哪個應用區域中建立。以前，無論是在哪個應用區域建立，所有帳戶和位置在每個應用區域中都可使用。查看[!UICONTROL 資料摘要]應用區域時仍然是如此。 | | 2024 年 4 月 17 日 |
+| **管理員可以管理其組織中的所有位置和帳戶** | 「位置」標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有位置。<p>「[位置](https://experienceleague.adobe.com/zh-hant/zh-hant/docs/analytics/components/locations/locations-manager)」帳戶標籤 (在「元件 > 位置」頁面上) 上的新選項可以讓管理員檢視和管理組織中的所有帳戶。</p> <p>在過去，管理員只能檢視和管理他們建立的位置和帳戶。</p> |  | 2024 年 4 月 17 日 |
 | **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
 | **Activity Map 使用更少的 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。 <p>此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。</p> |  | 2024 年 5 月 31 日 |
 
@@ -67,12 +67,12 @@ AN-336099；AN-337474；AN-337993；AN-339718；AN-339901；AN-340014；AN-34135
 
 ## AppMeasurement
 
-如需 AppMeasurement 版本 (版本 2.26.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
+如需 AppMeasurement 版本 (版本 2.26.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
 
 
 ## 相關資源
 
 * [2023 年舊版發行說明](/help/release-notes/2023.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [Media Analytics 發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
+* [Media Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。

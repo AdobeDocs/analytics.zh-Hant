@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
 source-git-commit: 8727d6167a2c161ba646ae2217b0a6e7c4656dd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
 + Analytics 變數、函數和方法 {#vars}
    + [總覽](vars/overview.md)
@@ -140,10 +140,10 @@ ht-degree: 94%
    + [XDM 物件變數對應](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
       + [Web SDK 總覽](aep-edge/web-sdk/overview.md)
-      + [使用標籤移轉至Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
-      + [使用JavaScript移轉至Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
-      + [使用標籤的新實作](aep-edge/web-sdk/web-sdk-tag-extension.md)
-      + [使用JavaScript的新實作](aep-edge/web-sdk/web-sdk-javascript-library.md)
+      + [使用標記移轉至 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
+      + [使用 JavaScript 移轉至 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
+      + [使用標記的全新實施](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [使用 JavaScript 的全新實施](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
    + 伺服器 API {#server-api}
