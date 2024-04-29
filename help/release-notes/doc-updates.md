@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9b36cfef9fbc3f6ce4e1fc1485a3eb8c2240a96c
-workflow-type: ht
-source-wordcount: '5273'
-ht-degree: 100%
+source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+workflow-type: tm+mt
+source-wordcount: '5315'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 4 月** | |
+| 移除與「分類設定」中的「所有者」相關的檔案 | 「所有者」篩選器和欄已從 [分類設定管理員](/help/components/classifications/sets/manage/set-manager.md) 而「所有者」欄位已從 [「分類設定」設定](/help/components/classifications/sets/manage/settings.md). <p>檔案已更新，以移除此篩選器、欄和欄位。</p> |
 | 刪除了文件中有關設定雲端匯入和匯出位置的可摺疊區段 | 刪除了[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中的可摺疊區段，可獲得說明雲端帳戶類型的資訊。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | [發行說明](/help/implement/appmeasurement-updates.md) - AppMeasurement 更新 v2.26.0。<br/>包括對 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定變數文件的參考和更新。 |
