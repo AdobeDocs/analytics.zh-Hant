@@ -3,9 +3,9 @@ title: Analytics 技術備忘稿
 description: 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ Adobe Analytics 的一些主要功能包括：
 ## 重要技術備忘稿文章
 
 * [從協力廠商分析平台轉換成 Adobe Analytics](ga-to-aa/home.md)
-* [地區資料收集](/help/technotes/rdc/regional-data-collection.md)
 
 ## 更多 Analytics 使用手冊
 

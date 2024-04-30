@@ -4,10 +4,10 @@ description: 傳送目前顯示哪些產品或購物車內有哪些產品等相�
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 64%
+source-wordcount: '658'
+ht-degree: 67%
 
 ---
 
@@ -30,11 +30,42 @@ ht-degree: 64%
 * 銷售eVar對應至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，視您要繫結至產品的eVar而定。
 * 銷售事件對應至 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 至 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 如果您在其中某個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 傳送至Adobe Analytics的字串。
 
->[!NOTE]
->
->`lineItemId` 尚未成為標準Analytics事件結構描述的一部分，必須新增為自訂欄位。 Adobe計畫在未來新增專用的「類別」欄位。
+```json
+{
+  "xdm": {
+    "productListItems": [{
+      "productCategories": [{
+        "categoryID": "Men's"
+      }],
+      "name": "Hiking boot",
+      "quantity": 1,
+      "priceTotal": 49.99
+    },
+    {
+      "productCategories": [{
+        "categoryID": "Camping"
+      }],
+      "name": "Hunting blind",
+      "quantity": 3,
+      "priceTotal": 699.69
+    }]
+  }
+}
+```
 
 若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，產品變數會使用 `data.__adobe.analytics.products` 遵循AppMeasurement語法。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
+
+```json
+{
+  "data": {
+    "__adobe": {
+      "analytics": {
+        "products": "Archery;Fletched arrow;12;159.99"
+      }
+    }
+  }
+}
+```
 
 ## 使用Adobe Analytics擴充功能的產品
 

@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: f9d06b8222f557e40792e1fad4714ce97b9a02c9
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '190'
 ht-degree: 100%
 
 ---
@@ -52,10 +52,6 @@ ht-degree: 100%
 + [處理順序](processing-order.md)
 + [漸進式網頁應用程式](pwa.md)
 + [重新導向與別名](redirects.md)
-+ 地區資料彙集 {#rdc}
-   + [地區資料彙集說明](rdc/regional-data-collection.md)
-   + [SSL 認證授權](rdc/ssl-cert-licensing.md)
-   + [支援的 HTTPS 加密算法](rdc/encryption-algos.md)
 + [安全性資源](security.md)
 + [使用詞彙 (字彙表)](terms.md)
 + [可選時間戳記](timestamps-optional.md)

@@ -4,10 +4,10 @@ description: 了解預防追蹤措施如何影響 Adobe Analytics 所設定的�
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
+source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 97%
+source-wordcount: '1909'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 ## 瀏覽器如何限制了 Cookie 的使用？
 
 >[!NOTE]
->[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) 可使用人員ID （例如雜湊登入ID）來跨Cookie連結（如果可用）。
+>[跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda)和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) 可以使用人員 ID (例如雜湊登入 ID) 來跨 Cookie 彙整 (如果可用)。
 
 ### 第三方 Cookie 限制
 
@@ -75,7 +75,7 @@ ITP 限制的影響會因您使用者的行為而有很大的差異。 只有當
 
 第三方 Cookie 並不是由用戶造訪的網站所建立。
 
-雖然瀏覽器目前對所有第三方 Cookie 的處理方式相同，並據此方式加以儲存，但第三方 Cookie 本身可能會有不同的行為方式。 有了客戶的Analytics第三方Cookie實作，瀏覽器會儲存Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID作為第三方Cookie，但使用者端僅會對Adobe發出呼叫，而不會對不明或可疑的第三方網域發出呼叫。 此 Cookie 可跨網域提供永續性識別碼，且允許安全 (HTTPS) 內容。 如需詳細資訊，請參閱「[Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)」。
+雖然瀏覽器目前對所有第三方 Cookie 的處理方式相同，並據此方式加以儲存，但第三方 Cookie 本身可能會有不同的行為方式。 透過客戶的 Analytics 協力廠商 Cookie 實作，瀏覽器會將 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID 儲存為協力廠商 Cookie，但用戶端只會對 Adobe 發出呼叫，不會對不明或可疑的協力廠商網域發出呼叫。此 Cookie 可跨網域提供永續性識別碼，且允許安全 (HTTPS) 內容。 如需詳細資訊，請參閱「[Cookie 和 Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)」。
 
 有了 Analytics 實作，第三方 Cookie 會用於跨網域追蹤及推廣使用案例，包括重定廣告目標受眾。 第三方 Cookie 可在訪客造訪您擁有的不同網域或是在非您擁有的網站上對訪客顯示廣告時，讓您識別這些訪客。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -105,7 +105,7 @@ ITP 限制的影響會因您使用者的行為而有很大的差異。 只有當
 
 對於使用訪客 ID 服務的客戶，Cookie 預設會設定 `SameSite=None` 和 `secure` 屬性，如此可讓這些 Cookie 支援第三方使用案例。
 
-對於使用 Analytics 舊型識別碼 (&quot;s_vi&quot; 和 &quot;s_fid&quot; Cookie) 的客戶，Cookie 還被設定為啟用具有標準收集網域的第三方使用案例：adobedc.net、2o7.net 和 omtrdc.net。 對於使用 CNAME 實作的客戶，Analytics 會設定 `SameSite=Lax`。
+對於使用Analytics舊型識別碼的客戶(`s_vi` 和 `s_fid` Cookie)、Cookie也設定為可使用標準收集網域來啟用協力廠商使用案例： `adobedc.net`， `2o7.net`、和 `omtrdc.net`. 對於使用 CNAME 實作的客戶，Analytics 會設定 `SameSite=Lax`。
 
 >[!NOTE]
 >
