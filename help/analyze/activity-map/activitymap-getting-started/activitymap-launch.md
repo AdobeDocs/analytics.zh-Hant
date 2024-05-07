@@ -1,24 +1,32 @@
 ---
-description: 直接從您的網頁啟動Activity Map。
+description: 直接從您的網頁啟動 Activity Map。
 title: 啟動 Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 87%
+source-wordcount: '73'
+ht-degree: 35%
 
 ---
 
 
 # 啟動 Activity Map
 
-如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
+假設正確的瀏覽器/擴充功能為 [已安裝](/help/analyze/activity-map/activitymap-getting-started/activitymap-install.md)，您可以直接從網頁啟動Activity Map。
 
-1. 按一下瀏覽器位址列右邊的 Adobe Analytics 圖示：\
-   <br/><img src="./assets/an_icon.png" width="150px"/><br/>
+## Chrome中的Launch
 
-2. 使用您的登入公司、用戶名稱和密碼登入。
+1. 
+   1. 按一下右上角的Chrome擴充功能圖示。
+      ![Activity Map延伸模組](assets/chrome2.png)
+1. 按一下「Activity Map」。
+   ![啟動 Activity Map](assets/chrome3.png)
+1. 使用您的設定檔、使用者名稱和密碼登入。
+1. 應用程式應該隨即就會啟動，顯示工具列和覆蓋圖。
 
-3. 應用程式應該隨即就會啟動，顯示工具列和覆蓋圖。
+## Firefox中的Launch
+
+
+
