@@ -4,7 +4,7 @@ title: 啟動 Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: ecd6921f-2071-4abf-9d0f-c408b5adb5be
-source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
+source-git-commit: ec294f1cb3b4d23758dc1d96ba3a5e226560a14c
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 35%
@@ -18,9 +18,8 @@ ht-degree: 35%
 
 ## Chrome中的Launch
 
-1. 
-   1. 按一下右上角的Chrome擴充功能圖示。
-      ![Activity Map延伸模組](assets/chrome2.png)
+1. 按一下右上角的Chrome擴充功能圖示。
+   ![Activity Map延伸模組](assets/chrome2.png)
 1. 按一下「Activity Map」。
    ![啟動 Activity Map](assets/chrome3.png)
 1. 使用您的設定檔、使用者名稱和密碼登入。
