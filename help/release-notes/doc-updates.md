@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
+source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
 workflow-type: tm+mt
-source-wordcount: '5315'
-ht-degree: 98%
+source-wordcount: '5448'
+ht-degree: 97%
 
 ---
 
@@ -25,8 +25,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 5 月** | |
+| 有關從Adobe Analytics升級至Customer Journey Analytics的新檔案 | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的檔案資源，協助您更清楚瞭解：</p><ul><li>現有的各種升級路徑</li><li>根據組織目前的Adobe Analytics實作，提供哪些升級路徑</li><li>每個升級路徑的優缺點</li><li>各升級路徑的逐步指引</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級至Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
+| 更新自訂日期範圍的相關檔案 | 更新相關熒幕擷取畫面和程式 [建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 以符合目前的產品功能與設計。 |
 | **2024 年 4 月** | |
-| 移除與「分類設定」中的「所有者」相關的檔案 | 「所有者」篩選器和欄已從 [分類設定管理員](/help/components/classifications/sets/manage/set-manager.md) 而「所有者」欄位已從 [「分類設定」設定](/help/components/classifications/sets/manage/settings.md). <p>檔案已更新，以移除此篩選器、欄和欄位。</p> |
+| 與分類集中的「所有者」相關的文件已移除 | 「所有者」篩選器和欄已從[分類集管理員](/help/components/classifications/sets/manage/set-manager.md)中移除，「所有者」欄位已從[分類集設定](/help/components/classifications/sets/manage/settings.md)中移除。 <p>文件已更新以刪除此篩選器、欄和欄位。</p> |
 | 刪除了文件中有關設定雲端匯入和匯出位置的可摺疊區段 | 刪除了[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中的可摺疊區段，可獲得說明雲端帳戶類型的資訊。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | [發行說明](/help/implement/appmeasurement-updates.md) - AppMeasurement 更新 v2.26.0。<br/>包括對 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定變數文件的參考和更新。 |
@@ -150,7 +153,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 「[!UICONTROL 頁面摘要]」面板的新主題 | [頁面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | 「[!UICONTROL 下一個/前一個項目]」面板的新主題 | [下一個/前一個維度項目面板](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022 年 3 月** | |
-| 有關受支援的 HTTPS 加密演算法的新主題 | 為加密安全等級設定為「高度」的客戶提供的受支援HTTPS加密演演算法。 |
+| 有關受支援的 HTTPS 加密演算法的新主題 | 為加密安全等級設定為「高度」的客戶提供支援的 HTTPS 加密演算法。 |
 | 有關工作區中註解的新文件 | [工作區中的註解](/help/analyze/analysis-workspace/components/annotations/overview.md)讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 |
 | Adobe Analytics 登陸頁面更新 | [更新](/help/analyze/landing.md)工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。 |
 | 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | 此面板可讓您瀏覽您所選維度項目之後或之前的項目。 |
@@ -296,7 +299,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 5 月 9 日 | 已在「流量」視覺效果中新增設定：「包含重複執行個體」。請參閱[流量設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 2019 年 4 月 11 日 | 工作區最佳化增強功能的最佳做法：[效能最佳化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
-| 2019 年 3 月 14 日 | 大幅更新地區資料收集。 |
+| 2019 年 3 月 14 日 | 大幅更新區域資料收集。 |
 | 2019 年 2 月 7 日 | 微幅更新[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中的「將 IP 位址的最後八位數字取代為 0 」和「IP 模糊化」設定。 |
 | 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 實施外掛程式。 |
 | 2019 年 1 月 17 日 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 同類群組分析的重大改良可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
