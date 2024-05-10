@@ -5,9 +5,9 @@ feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
 source-git-commit: ac9221bd7d9397ed0f085245663f1f0056f7d68f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1909'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ITP 限制的影響會因您使用者的行為而有很大的差異。 只有當
 
 對於使用訪客 ID 服務的客戶，Cookie 預設會設定 `SameSite=None` 和 `secure` 屬性，如此可讓這些 Cookie 支援第三方使用案例。
 
-對於使用Analytics舊型識別碼的客戶(`s_vi` 和 `s_fid` Cookie)、Cookie也設定為可使用標準收集網域來啟用協力廠商使用案例： `adobedc.net`， `2o7.net`、和 `omtrdc.net`. 對於使用 CNAME 實作的客戶，Analytics 會設定 `SameSite=Lax`。
+對於使用 Analytics 舊型識別碼 (`s_vi` 和 `s_fid` Cookie) 的客戶，Cookie 還被設定為啟用具有標準收集網域的第三方使用案例：`adobedc.net`、`2o7.net` 和 `omtrdc.net`。對於使用 CNAME 實作的客戶，Analytics 會設定 `SameSite=Lax`。
 
 >[!NOTE]
 >
