@@ -1,51 +1,55 @@
 ---
-description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
-title: 追蹤手動模式和自動模式
+description: 追蹤型別會決定Adobe Analytics實作如何追蹤您的搜尋引擎資料。 此追蹤型別是必要步驟，可讓搜尋引擎資料正確增加Adobe Analytics資料。
+title: 追蹤型別
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 32%
 
 ---
 
-# 追蹤：手動模式和自動模式
+# 追蹤型別
 
-「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
+追蹤型別會決定Adobe Analytics實作如何追蹤您的搜尋引擎資料。 此追蹤型別是必要步驟，可讓搜尋引擎資料正確增加Adobe Analytics資料。
 
-以下是有關如何實作 Advertising Analytics 追蹤範本的影片概觀：
+<!--
+
+Here is a video overview of how to implement the Advertising Analytics tracking template:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
-支援兩種追蹤模式：自動模式和手動模式。
+-->
 
-## 自動模式追蹤 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+支援兩種追蹤模式： [!UICONTROL 自動] 和 [!UICONTROL 手動].
 
-在自動模式中，讓 Advertising Cloud 引擎決定如何處理搜尋引擎資料。這是比較簡單的方法，但可能不會產生最佳的整合資料集。
+## [!UICONTROL 自動] 追蹤 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-因此，在選取自動模式時，需要先勾選確認核取方塊，才能儲存帳戶設定。
+[!UICONTROL 自動] 追蹤可讓Advertising Cloud引擎決定應如何處理搜尋引擎資料。 自動追蹤是比較簡單的方法，但可能不會產生最佳的整合資料集。
 
-請注意，若要在「自動模式」中設定搜尋引擎帳戶，您必須執行以下動作：
+因此，當您選取時，必須勾選確認核取方塊 **[!UICONTROL 自動]** 儲存帳戶設定之前。
 
-* `s_kwcid` 參數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**您還是必須負責確認新增的 URL 參數正確無誤，才能順利前往最終的登陸頁面。**
-* 此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元。例如：常見的特殊字元為「+」，用於「加上廣泛比對修飾符」的關鍵字中。
+請注意，若要使用設定搜尋引擎帳戶 **[!UICONTROL 自動]** 型別，您需負責執行下列動作：
+
+* 此 `s_kwcid` 引數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面URL。 此引數和值會插入在URL的結尾。 如果您的網頁伺服器需要 `key=value` 配對於URL結尾。 或更新以支援任何新的 `key=value` 與URL配對。 您有責任確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。
+* 此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元。例如，常見的特殊字元為 `+`，用於「已修改廣泛比對」關鍵字。
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)。
 
-## 手動模式追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## 手動追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
-在手動模式中，您需要指定 Advertising Analytics 資料整合程序該如何處置搜尋引擎資料。
+手動追蹤可讓您指定Advertising Analytics資料整合程式應如何處理搜尋引擎資料。
 
-### 將手動追蹤新增至 Google 帳戶 {#section_41C1EB1AEB034544A5BC291F53C05C67}
+### 將手動追蹤新增至Google帳戶 {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
 以下是需要新增至 Google 帳戶的字串。您需要將字串新增至帳戶使用的所有追蹤範本中。
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` 值 (下文中的&#x200B;**粗體字**) 是通用值，**請務必替換為您專屬的帳戶 ID 字串**。您可以在帳戶設定畫面的「追蹤」區段下方取得專屬的帳戶 ID。
+>*`<Advertising Analytics ID>`* 值 (下文中的&#x200B;**粗體字**) 是通用值，**請務必替換為您專屬的帳戶 ID 字串**。您可以從帳戶畫面下方取得您的特定帳戶ID字串 [!UICONTROL 追蹤] 區段。
 
 **活動的追蹤字串：**
 
@@ -54,7 +58,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![](assets/Google.png)
+![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
 
 各種追蹤範本格式的追蹤程式碼範例：
 
@@ -78,19 +82,23 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **第三方 (DoubleClick)`{lpurl}`**
 
-如果 URL 需經過重新導向，而且未使用「unescapedlpurl」值，則您為字串編碼的次數必須夠多，使其能存留至完成重新導向，順利抵達最終的登陸頁面 URL。
+若要確保字串在重新導向至最終登陸頁面URL期間持續存在，您必須將字串充分編碼：
+
+* 如果URL需經過重新導向，且
+* 並未使用「unescapedlpurl」值。
+
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### 將手動追蹤新增至 Bing 帳戶 {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### 將手動追蹤新增至Bing帳戶 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
 以下是需要新增至 Bing 帳戶的字串。您需要將字串新增至帳戶使用的所有最終 URL 尾碼中。
 
 >[!IMPORTANT]
 >
->`<Advertising Analytics ID>` 值 (下文中的&#x200B;**粗體字**) 是通用值，**請務必替換為您專屬的帳戶 ID 字串**。您可以在帳戶設定畫面的「追蹤」區段下方取得專屬的帳戶 ID。
+>_`<Advertising Analytics ID>`_值 (下文中的&#x200B;**粗體字**) 是通用值，**請務必替換為您專屬的帳戶 ID 字串**。您可以在「追蹤」區段下方的帳戶畫面中取得特定帳戶ID字串。
 
 **活動的追蹤字串：**
 
@@ -98,7 +106,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![](assets/Bing.png)
+![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 各種最終 URL 尾碼格式的追蹤程式碼範例：
 
@@ -123,7 +131,10 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **第三方 (DoubleClick)`{lpurl}`**
 
-如果 URL 需經過重新導向，而且未使用「unescapedlpurl」值，則您為字串編碼的次數必須夠多，使其能存留至完成重新導向，順利抵達最終的登陸頁面 URL。
+若要確保字串在重新導向至最終登陸頁面URL期間持續存在，您必須將字串充分編碼：
+
+* 如果URL需經過重新導向，且
+* 並未使用「unescapedlpurl」值。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}

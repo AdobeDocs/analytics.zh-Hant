@@ -3,34 +3,35 @@ description: 設定 Experience Cloud 對應的報表套裝，以供 Advertising 
 title: 啟用 Advertising Analytics 的報表套裝
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 47%
 
 ---
 
 # 啟用 Advertising Analytics 的報表套裝
 
-若要在 Analytics 檢視任何 Advertising Analytics 搜尋資料，您需要為 Advertising Analytics 報表設定每一個已與 Experience Cloud 對應的報表套裝。
+若要在Analytics中檢視任何Advertising Analytics搜尋資料，您需要為Advertising Analytics報表設定每個Experience Cloud對應的報表套裝。
 
 1. 導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**」。
 
 1. 選取已對應至您 Experience Cloud 組織的報表套裝。
 1. 按一下 **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定]**。
 
-   ![報表](assets/aa_reporting.png)
+   ![報表](assets/aa-reporting.png)
 
    >[!IMPORTANT]
    >
-   >AMO ID 代表要插入搜尋資料的 Adobe Advertising Cloud 變數。
+   >AMO ID指的是要插入搜尋資料的Adobe Advertising Cloud (也稱為Adobe Media Optimizer)變數。
 
-1. 請設定您想要 AMO ID 變數使用的變數配置和到期日。轉換變數 (eVars) 可讓 Adobe Analytics 將成功事件歸因於特定變數值。有時候，變數在感應到成功事件之前會遇到一個以上的值。在此情況下，配置會決定哪個變數值可以取得該事件的評分。
+1. 選取 **[!UICONTROL 不熟悉Advertising Analytics？ 按一下這裡以瞭解更多資訊]** 以取得有關Advertising Analytics的詳細資訊。
+
+1. 設定您希望AMO ID變數使用的變數配置和到期日。 轉換變數 (eVars) 可讓 Adobe Analytics 將成功事件歸因於特定變數值。有時候，變數在感應到成功事件之前會遇到一個以上的值。在此情況下，配置會決定哪個變數值可以取得該事件的評分。
 
    | 設定 | 定義 |
    |--- |--- |
-   | 原始值 (首次) | 第一個顯示的值擁有完全分配評價，無論該變數後續的值為何。 |
-   | 最近 (最後一個) | 最後一個顯示的值擁有成功事件的完全分配評價，無論先前引發的變數為何。 |
-   | 過期時間 | 可讓您指定時段或事件，在經過此時段或事件發生後 eVar 值就會過期 (即不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。 |
+   | **[!UICONTROL 配置]** | 選取範圍：<br/> **[!UICONTROL 原始值（第一個）]**：看到的第一個值會獲得完整分配評分，無論該變數的後續值為何。 <br/>**[!UICONTROL 最近（上一個）]**：最後一個出現的值會獲得成功事件的完整配置評分，無論之前觸發了哪些變數。 |
+   | **[!UICONTROL 有效期限]** | 可讓您指定時段或事件，在發生此時段或事件後，eVar值就會過期（即不再接收成功事件的評分）。  如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。 |
 
-1. 按一下&#x200B;**[!UICONTROL 「啟用 Advertising Analytics 報表」]**(首次)，或&#x200B;**[!UICONTROL 「更新 Advertising Analytics 報表」]**(後續)。您的報表套裝現在已準備就緒，可以接收 Advertising Analytics 搜尋資料。您現在已經準備就緒，可以[建立 Advertising 帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)了。
+1. 按一下&#x200B;**[!UICONTROL 「啟用 Advertising Analytics 報表」]**(首次)，或&#x200B;**[!UICONTROL 「更新 Advertising Analytics 報表」]**(後續)。您的報表套裝現在已準備就緒，可以接收 Advertising Analytics 搜尋資料。您現在已準備就緒 [建立Advertising帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).

@@ -1,45 +1,48 @@
 ---
 title: 如何在 Advertising Analytics 中設定 Advertising 帳戶
-description: 可讓您建立新的 Advertising 帳戶，並將多個帳戶對應到多個報表套裝。
+description: 本文說明如何建立新的Advertising帳戶，並將多個帳戶對應至多個報表套裝。
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 100%
+source-wordcount: '798'
+ht-degree: 33%
 
 ---
 
 # 設定 Advertising 帳戶
 
-Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。
+Adobe Analytics管理員可以建立新的Advertising帳戶，並將多個帳戶對應至多個報表套裝（1 ：1， 1 ：許多、許多：許多）。
 
 管理員還可[授權給非管理員](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)，使其得以設定廣告帳戶。
 
+<!--
 ![](assets/aa_accounts.png)
+-->
 
 1. 在 Adobe Analytics 中，導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL Advertising 帳戶」]**。
 1. (僅限首次使用) 接受「一般使用者授權合約」的條款。
-1. 按一下&#x200B;**[!UICONTROL 「+ 新增」]**。
-1. [!UICONTROL 「新增搜尋引擎帳戶」]對話方塊隨即出現：
+1. 選取 **[!UICONTROL +新增]**.
+1. 此 [!UICONTROL 新的搜尋引擎設定] 對話方塊顯示：
 
-   ![](assets/aa_new_se_account.png)
+   ![](assets/aa-new-se-account.png)
 
-1. 依照以下準則填入&#x200B;**[!UICONTROL 「搜尋引擎設定」]**：
-
-   | 設定 | 說明 |
-   | --- | --- |
-   | 類型 | 您有 2 個選項：Google AdWords 和 Microsoft Bing Ads。 注意：Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。 |
-   | 帳戶名稱 | 您可以選擇將此帳戶名稱設定為任何合適的名稱。這是方便記憶的帳戶名稱，並且會顯示於使用者介面中。 |
-   | OAuth 代號 | **注意:** OAuth 是存取權限委派的開放標準，普遍用來授權給網站或應用程式，以便在不提供密碼的情況下，使其得以存取自身在其他網站上的資訊。 您將發現自己被導向至協力廠商 URL (efrontier.com)。 Adobe 使用 efrontier 來推動這三個搜尋引擎的 OAuth 驗證程序。 如果您使用 Internet Explorer 11 (或較舊版本)，將無法成功擷取這三個搜尋引擎的 Oauth 權杖。 請改用其他網頁瀏覽器。<p>按一下&#x200B;**[!UICONTROL 擷取權杖]**，隨即啟動 OAuth2 驗證程序。 系統將會要求您使用自己的認證登入您的 Google/Bing 搜尋帳戶。 根據您選擇的搜尋引擎，操作程序會有些微差異： <ul><li>Google Adwords：提供 Google 帳戶 ID</li><li>Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。</li></ul>如需這些 ID 的相關資訊，請參閱[尋找您的帳戶 ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)。 當您成功登入後，**[!UICONTROL OAuth 權杖]**&#x200B;欄位會顯示&#x200B;**[!UICONTROL 已擷取]**。 |
-
-1. 在&#x200B;**[!UICONTROL 「追蹤」]**&#x200B;區段，您可以提供 Adobe Analytics 實施作業如何追蹤搜尋引擎資料的相關資訊。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。依照以下準則填入&#x200B;**[!UICONTROL 「追蹤設定」]**：
+1. 填入 **[!UICONTROL 搜尋引擎設定]** 請遵循下列准則：
 
    | 設定 | 說明 |
    | --- | --- |
-   | 類型 | <ul><li>**自動：**&#x200B;讓 Advertising Cloud 引擎決定如何將追蹤參數附加到搜尋引擎的追蹤範本/目的地 URL。這是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**&#x200B;若要在「自動模式」中設定搜尋引擎帳戶，您必須執行下列動作：<br>-「s_kwcid」參數和值將新增至要新增之帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**注意：**&#x200B;進一步瞭解您是否應將此參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)。<br>- 此外，關鍵字可以作為 &quot;S_kwcid&quot; 值的一部分，插入至著陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。</li><li>**手動：**&#x200B;讓您管理如何將追蹤參數新增到搜尋引擎的追蹤範本/目的地 URL。[如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | **[!UICONTROL 類型]** | 您有2個選項： **[!UICONTROL Google Adwords]** 和 **[!UICONTROL Bing Ads]**.  注意：Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。 |
+   | 帳戶名稱 | 您可以選擇將此帳戶名稱設為適合您的任何名稱。  帳戶名稱是出現在UI中的帳戶的易記名稱。 |
+   | OAuth 代號 | **注意**：OAuth是存取許可權委派的開放標準，普遍用來授權給網站或應用程式，以便在不提供密碼的情況下存取網站上的資訊。 您注意到您被導向至協力廠商URL (efrontier.com)。 Adobe使用Adobe Media Optimizer來推動這三個搜尋引擎的OAuth驗證程式。 如果您使用Internet Explorer 11 （或更舊版本），將無法擷取這三個搜尋引擎的Oauth權杖。 請改用其他網頁瀏覽器。<p>選取 **[!UICONTROL 擷取Token]** 以啟動OAuth2驗證程式。 系統會要求您使用自己的認證登入您的Google/Bing搜尋帳戶。 根據您的選擇，程式會有些微差異： <ul><li>Google Adwords：提供 Google 帳戶 ID</li><li>Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。</li></ul>如需這些 ID 的相關資訊，請參閱[尋找您的帳戶 ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)。 當您成功登入後，**[!UICONTROL OAuth 權杖]**&#x200B;欄位會顯示&#x200B;**[!UICONTROL 已擷取]**。 |
 
-1. 在&#x200B;**[!UICONTROL 「對應」]**&#x200B;區段，您可以選擇要與這個搜尋引擎帳戶相連結的報表套裝。在儲存 Advertising 帳戶之前，您必須先提供至少一個報表套裝。您可以將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。請注意，系統只會將 AMO 從搜尋引擎提取的資料複製到任何對應的報表套裝，因此資料不會遭到分割。
+1. 在 **[!UICONTROL 追蹤]** 區段，您會提供如何使用Adobe Analytics實作追蹤資料的相關資訊。 追蹤是使用搜尋引擎資料適度增加Adobe Analytics資料的必要步驟。
+依照以下準則填入**[!UICONTROL 「追蹤設定」]**：
+
+   | 設定 | 說明 |
+   | --- | --- |
+   | 類型 | <ul><li>**自動**：讓Advertising Cloud引擎決定如何將追蹤引數附加到的追蹤範本/目的地URL。 [!UICONTROL 自動型別追蹤] 是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：** 若要設定搜尋引擎帳戶，請使用 [!UICONTROL 自動型別追蹤]時，您必須負責執行下列動作：<ul><li>此 `s_kwcid` 引數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面URL。 引數和值會插入在URL的結尾。 如果您的網頁伺服器需要 `key=value` 配對於URL結尾。 或更新以支援任何新的 `key=value` URL中的配對為必填。 **注意**：進一步瞭解您是否應將此引數新增至 [內容安全性原則](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).</li><li>此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。如果關鍵字包含特殊字元或符號，請確認您的網頁伺服器可以支援這些字元。 常見特殊字元的範例為 `+`，用於「已修改廣泛比對」關鍵字。</li></ul></li><li>**手動**：讓您管理如何將追蹤引數新增到搜尋引擎的追蹤範本/目的地URL。 [如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+
+1. 在 **[!UICONTROL 對應]** 區段，選取一或多個報表套裝以連結至此搜尋引擎帳戶。 在儲存 Advertising 帳戶之前，您必須先提供至少一個報表套裝。您可以將多個帳戶對應至多個報表套裝（1 ：1， 1 ：許多、許多：許多）。 請注意，Adobe Media Optimizer從搜尋引擎提取的資料只會複製到任何對應的報表套裝，因此不會分割資料。
 
    >[!IMPORTANT]
    >
@@ -52,11 +55,11 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
    | 報表套裝對應 | 報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 |
 
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-1. 儲存後，免責聲明會顯示一系列警語。系統會要求確認您已閱讀合約並了解其中的條款。按一下核取方塊，再按一下&#x200B;**[!UICONTROL 「確定」]**。
+1. 選取「**[!UICONTROL 儲存]**」。
+1. 免責宣告會顯示警告清單。 確認您已閱讀並瞭解本合約。 選取核取方塊，然後選取 **[!UICONTROL 確定]**.
 
    此時，系統會將您導向 Advertising 帳戶[管理使用者介面](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，而新建立的帳戶應該會列示在其中。
 
 >[!NOTE]
 >
->搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。
+>搜尋引擎資料會在24小時之後開始填入Analytics報表，請耐心等候。

@@ -3,10 +3,10 @@ description: 在 Advertising Analytics 中管理帳戶。
 title: 管理 Advertising 帳戶
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '167'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 若要存取管理使用者介面，您可以導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL Advertising 帳戶」]**。
 
-![](assets/manage_ad_accounts.png)
+![Advertising帳戶](assets/manage_ad_accounts.png)
 
 <table id="table_BE318026CF024E94A885EED86AA7077F"> 
  <thead> 
@@ -30,7 +30,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 新增 </p> </td> 
-   <td colname="col2"> <p>系統會將您導向<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >「Advertising 帳戶」</a>使用者介面。 </p> </td> 
+   <td colname="col2"> <p>系統會將您導向<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md" >「Advertising 帳戶」</a>使用者介面。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新命名 </p> </td> 
@@ -42,7 +42,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>暫停 </p> </td> 
-   <td colname="col2"> <p>停用帳戶。若要再次啟動，請按一下<span class="uicontrol">「啟動」</span>。 </p> </td> 
+   <td colname="col2"> <p>停用帳戶。若要再次啟動，請選取 <span class="uicontrol">啟動</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>欄標題</b> </p> </td> 
@@ -54,11 +54,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>報表套裝 </p> </td> 
-   <td colname="col2"> <p>與此廣告帳戶對應的報表套裝。 </p> </td> 
+   <td colname="col2"> <p>報表套裝已對應至此廣告帳戶。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>類型 </p> </td> 
-   <td colname="col2"> <p>我們目前只支援一種類型：搜尋。 </p> </td> 
+   <td colname="col2"> <p>僅支援一種型別：搜尋。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶 </p> </td> 

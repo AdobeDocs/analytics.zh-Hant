@@ -1,30 +1,30 @@
 ---
 description: Analysis Workspace範本的詳細資訊以及Report Builder中的報告。
-title: 報告 Adobe Analytics 的 Advertising 資料
+title: 報告 Adobe Analytics 中的 Advertising 資料
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 49%
 
 ---
 
-# 報告 Adobe Analytics 的 Advertising 資料
+# 廣告資料報表
 
-Analysis Workspace範本的詳細資訊以及Report Builder中的報告。
-
->[!NOTE]
->
->搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。也請注意，Analytics 報告不會傳回每小時精細度的資料，因為 AMO 資料不支援每小時精細度。
-
-## Analysis Workspace：搜尋引擎 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
-
-透過此範本，任何實施作業此搜尋引擎整合作業的使用者得以存取 Analytics 豐富的搜尋引擎資料。您可以依序選擇&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 範本]** > **[!UICONTROL 廣告]** > **[!UICONTROL 搜尋引擎」]**，加以存取。
+本文提供Analysis Workspace報表的詳細資訊，以及Report Builder中的報表。
 
 >[!NOTE]
 >
->即使您並未實施作業任何廣告帳戶，所有客戶仍可看見「廣告範本」類別。然而，如果嘗試開啟尚未針對特定公司佈建的「搜尋引擎」範本，系統便會顯示錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。在此情況下，按一下&#x200B;**[!UICONTROL 「立即設定」]**&#x200B;即可前往[「Advertising 帳戶設定」](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)畫面。
+>搜尋引擎資料會在24小時之後開始填入Analytics報表，請耐心等候。 另請注意，Analytics報表不會傳回每小時精細度的資料，因為Advertising Cloud資料不支援每小時精細度。
+
+## 付費搜尋報告 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
+
+此報表可讓任何實作搜尋引擎整合的人員存取Analytics中的搜尋引擎資料。 您可以透過以下方式存取它： **[!UICONTROL 工作區]** > **[!UICONTROL 報表]** > **[!UICONTROL 贏取]** > **[!UICONTROL Advertising Analytics：付費搜尋]**
+
+>[!NOTE]
+>
+>即使您並未實作任何Advertising帳戶，所有客戶仍可看見「付費」搜尋報表。 如果您嘗試為尚未布建的公司開啟付費搜尋報告，則會出現錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。 選取 **[!UICONTROL 立即設定]**，這會將您導向 [Advertising帳戶設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 畫面。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
@@ -46,4 +46,4 @@ Analysis Workspace範本的詳細資訊以及Report Builder中的報告。
 
 ## Report Builder {#section_8E0371CF81144C33990D909685D1726E}
 
-當您設定 Advertising Analytics 帳戶後，便能使用 Advertising Analytics 報表。
+當您設定Advertising Analytics帳戶後，Advertising Analytics報表即可供使用。
