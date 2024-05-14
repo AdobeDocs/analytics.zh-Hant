@@ -4,16 +4,16 @@ description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 80%
+source-wordcount: '1426'
+ht-degree: 71%
 
 ---
 
 # XDM物件變數對應至Adobe Analytics
 
-下表顯示Adobe Experience Platform Edge Network自動對應至Adobe Analytics的XDM變數。 如果您使用這些XDM欄位路徑，則傳送資料給Adobe Analytics不需要額外的設定。 這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent范]** 欄位群組。 如果您想要將資料傳送至Adobe Analytics和Adobe Experience Platform，建議您使用這些欄位。
+下表顯示Adobe Experience PlatformEdge Network自動對應至Adobe Analytics的XDM變數。 如果您使用這些XDM欄位路徑，則傳送資料給Adobe Analytics不需要額外的設定。 這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent范]** 欄位群組。 如果您想要將資料傳送至Adobe Analytics和Adobe Experience Platform，建議您使用這些欄位。
 
 如果您的組織計畫改用Customer Journey Analytics，Adobe建議改用 `data` 物件，用來直接將資料傳送至Adobe Analytics而不遵從結構描述。 此策略可讓您的組織使用自己的結構描述，而非使用 [!UICONTROL Adobe Analytics ExperienceEvent范] (不太適用於Customer Journey Analytics)。 另請參閱 [資料物件變數對應至Adobe Analytics](data-var-mapping.md) 類似的對應表格。
 
@@ -143,7 +143,11 @@ ht-degree: 80%
 
 ## 將其他 XDM 欄位對應到 Analytics 變數
 
-如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。所有不會自動對應的 XDM 欄位元素都會當作前置詞為 a.x 的內容資料傳送到 Adobe Analytics。然後您可以使用[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)將此內容資料變數對應到所要的 Analytics 變數。例如，如果您傳送以下事件︰
+如果您想要將任何維度或量度新增至Adobe Analytics，可以透過以下方式進行 [上下文資料變數](../vars/page-vars/contextdata.md).
+
+### 隱含對應
+
+任何未自動對應的XDM欄位元素都會當作前置詞為的內容資料傳送至Adobe Analytics `a.x.` 然後您可以使用將此內容資料變數對應到所需的Analytics變數 [處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html). 例如，如果您傳送以下事件︰
 
 ```js
 alloy("event",{
@@ -157,6 +161,28 @@ alloy("event",{
 })
 ```
 
-Web SDK 會將該資料當作內容資料變數 `a.x._atag.search.term` 傳送給 Adobe Analytics。然後您可以使用處理規則將該內容資料變數值指派給所需的 Analytics 變數 (例如 eVar)：
+Web SDK 會將該資料當作內容資料變數 `a.x._atag.search.term` 傳送給 Adobe Analytics。然後您可以使用處理規則將該內容資料變數值指派給所需的Analytics變數，例如 `eVar`：
 
 ![搜尋字詞處理規則](assets/examplerule.png)
+
+## 明確對應
+
+您也可以將XDM欄位元素明確對應為內容資料。 任何明確對應的XDM欄位元素，使用 `contextData` 元素，會當作無首碼的內容資料傳送至Adobe Analytics。 您可以使用[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)將此內容資料變數對應到所需的 Analytics 變數。 例如，如果您傳送以下事件︰
+
+```js
+alloy("event",{
+    "xdm":{
+        "_atag":{
+            "analytics": {
+                "contextData" : {
+                    "someValue" : "1"
+                }
+            }
+        }
+    }
+})
+```
+
+Web SDK會將該資料當作內容資料變數傳送給Adobe Analytics `somevalue` 含值 `1`.  然後您可以使用處理規則將該內容資料變數值指派給所需的Analytics變數，例如 `eVar`：
+
+![搜尋字詞處理規則](assets/examplerule-explicit.png)
