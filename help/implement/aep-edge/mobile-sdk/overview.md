@@ -4,10 +4,10 @@ description: 在 Adobe Experience Platform 資料彙集中使用 Mobile SDK 擴�
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 0121e2f36ea833cc2421c4699ab79e4b3e7a861a
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 97%
+source-wordcount: '487'
+ht-degree: 98%
 
 ---
 
@@ -106,30 +106,24 @@ Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Ado
 
 <tr>
 <td>2</td>
-<td><b>設定綱要</b>. 為了標準化資料彙集以跨利用 Adobe Experience Platform 的應用程式使用，Adobe 建立了開放且公開記錄標準，即體驗資料模型 (XDM)。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant">結構描述UI總覽</a></td>
-</tr>
-
-<tr>
-<td>3</td>
 <td>在行動裝置標記屬性中<b>安裝 Adobe Analytics 擴充功能</b>，並將擴充功能設定為指向您的報表套裝。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/adobe-analytics/">適用於行動裝置屬性的 Adobe Analytics 擴充功能</a>
 </tr>
 
 <tr>
-<td>4</td>
+<td>3</td>
 <td><b>在您的應用程式中使用程式碼</b>來註冊必要的擴充功能，並載入您的標記設定。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration">設定配置</a></td>
 </tr>
 
 <tr>
-<td>5</td>
+<td>4</td>
 <td>在您的應用程式中使用標記的資料元素、規則、附加擴充功能和 SDK API 呼叫組合，來<b>實施和測試功能</b>。檢查、驗證和偵錯行動應用程式的資料彙集和體驗。</td>
 <td><a href="https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application">使用範例應用程式</a>
 </tr>
 
 <tr>
-<td>6</td>
+<td>5</td>
 <td><b>先擴充和驗證您的行動應用程式實施</b>，再將其投入生產。</td>
 <td></td> 
 </tr>
