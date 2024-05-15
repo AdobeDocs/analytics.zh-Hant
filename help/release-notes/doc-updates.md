@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
+source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
-source-wordcount: '5448'
+source-wordcount: '5471'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,12 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 ## 主要文件更新的詳細資訊
 
-### 2024 {#24}
+### 2024 {#year2024}
 
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 5 月** | |
+| 將XDM物件變數明確對應到內容資料變數 | 將以下功能記錄在案： [使用XDM物件變數對應明確設定上下文資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
 | 有關從Adobe Analytics升級至Customer Journey Analytics的新檔案 | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的檔案資源，協助您更清楚瞭解：</p><ul><li>現有的各種升級路徑</li><li>根據組織目前的Adobe Analytics實作，提供哪些升級路徑</li><li>每個升級路徑的優缺點</li><li>各升級路徑的逐步指引</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級至Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | 更新自訂日期範圍的相關檔案 | 更新相關熒幕擷取畫面和程式 [建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 以符合目前的產品功能與設計。 |
 | **2024 年 4 月** | |
@@ -44,7 +45,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 澄清某些資訊僅供管理員使用 | 新增了一些資訊，說明[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |
 | 媒體平均每分鐘觀眾數文件更新 | 已更新[媒體平均每分鐘觀眾數面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的資訊，以改善內容清晰度。<p>改善部份包括：</p> <ul><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li></ul> |
 
-### 2023 {#23}
+### 2023 {#year2023}
 
 | 功能 | 說明 |
 | --- | --- |
@@ -118,7 +119,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 專案自動儲存 | 更新內容以加入「[儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)」中的自動儲存功能。 |
 | 登陸頁面 | 全新[登陸頁面更新](/help/analyze/landing.md) |
 
-### 2022 {#22}
+### 2022 {#year22}
 
 | 功能 | 說明 |
 | --- | --- |
@@ -139,13 +140,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 高平圴資訊量的用戶端提示 | 有關 Adobe 如何在使用者代理程式之外使用[用戶端提示](/help/technotes/client-hints.md)來確定裝置資訊的新主題。 |
 | 處理順序 | 匯總了各種說明頁面以提供有關[處理順序](/help/technotes/processing-order.md)的單一說明主題 |
 | **2022 年 8 月** | |
-| XDM 中用於 Edge 集合的清單變數支援 | 讓使用 Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。[了解更多](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| XDM 中用於 Edge 集合的清單變數支援 | 讓使用 Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。[了解更多](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | 設定產品字串變數時，為 Edge 集合使用 XDM 中的 SKU 欄位 | 讓使用 Web SDK 收集資料的客戶能使用 SKU 值在產品變數中設定產品欄位。[了解更多](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](/help/components/dimensions/evar-merchandising.md)的文件 |
 | Experience Platform Edge 文件 | 透過 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 發表在 Adobe Analytics 實施上的新文章。 |
 | 已更新的流量視覺化文件 | 根據[新的 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 有關以行動計分卡共用註解的文件 | 您可以在行動計分卡上顯示[在工作區中建立的註解](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
+| 有關以行動計分卡共用註解的文件 | 您可以顯示 [在行動計分卡的工作區中建立的註解](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
 | **2022 年 5 月** | |
 | 透過 Edge Network 填入生命週期維度和量度 | 傳送至 Edge Network 的行動生命週期資料現在會出現在 Analytics 報告中。如需瞭解哪些 XDM 欄位對應到現有的行動生命週期報告，請參閱[分析變數對應](/help/implement/aep-edge/xdm-var-mapping.md)。 |
 | **2022 年 4 月** | |
@@ -159,12 +160,12 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | 此面板可讓您瀏覽您所選維度項目之後或之前的項目。 |
 | 「[!UICONTROL 頁面摘要]」工作區面板 | 此面板可為您選擇的頁面提供深入分析。 |
 | 有關暫停較舊排程報告的新主題 | 自 **2022 年 4 月 15 日**&#x200B;起生效，Adobe 打算暫停所有建立日期超過兩年的排程報告。 |
-| **2022 年 2 月** |
+| **2022 年 2 月** | |
 | 行動計分卡專案預覽模式 | [預覽模式](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#preview)允許您在儲存並共用計分卡之前預覽體驗。 |
 | API 專案端點 | 使用 API 新增、編輯或刪除 Analysis Workspace 專案。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 有關暫停較舊已排程 Report Builder 工作的最新主題 | **自 2022 年 4 月 15 日起**，Adobe 打算[暫停所有建立日期超過兩年的已排程 Report Builder 工作](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
 
-### 2021 {#21}
+### 2021 {#year2021}
 
 | 功能 | 說明 |
 | --- | --- |
@@ -200,7 +201,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 1 月 14 日 | 已新增有關如何藉由參照公用影像 URL 將影像新增至工作區專案的文件。 |
 | 2021 年 1 月 14 日 | 已合併工作區視覺效果的來源和設定管理員：視覺效果的[!UICONTROL 資料來源]管理員 (點) 和設定管理員 (齒輪) 已合併為單一彈出視窗，以便您能輕鬆地從相同位置管理來源和設定。 |
 
-### 2020 {#20}
+### 2020 {#year2020}
 
 | 功能 | 說明 |
 | --- | --- |
@@ -267,7 +268,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 已修改「[我該使用哪種 Adobe Analytics 工具呢](/help/analyze/get-started/which-analytics-tool.md)」頁面。 |
 
-### 2019 {#19}
+### 2019 {#year2019}
 
 | 功能 | 說明 |
 | --- | --- |
@@ -287,7 +288,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 9 月 12 日 | 更新[計算量度總計](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hant)文件。 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/technotes/pwa.md)的相關新文章 |
 | 2019 年 8 月 8 日 | 新增[計算量度總計](/help/components/c-calcmetrics/cm-totals.md)文章 |
-| 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md) | 2019 年 8 月 8 日 | 在工作區中，Adobe 將靜態下拉式篩選器中可放置的項目數上限從 50 個增加到 200 個。此增強功能適合多種使用案例，例如將所有國家/區域 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
+| 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md) |
+| 2019 年 8 月 8 日 | 在工作區中，Adobe 將靜態下拉式篩選器中可放置的項目數上限從 50 個增加到 200 個。此增強功能適合多種使用案例，例如將所有國家/區域 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
 | 2019 年 8 月 2 日 | [Analytics 字彙表](/help/technotes/terms.md)重大更新 |
 | 2019 年 7 月 22 日 | [Analysis Workspace 範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文件新增「Magento：行銷和商務」範本。 |
 | 2019 年 7 月 18 日 | 更新[「同類群組表格」設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
