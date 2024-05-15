@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a4efa48df735eacbda0f53ba30064da7d8f71028
+source-git-commit: 97a63c42a121204e043d308525518d16e44b21f9
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 51%
+source-wordcount: '960'
+ht-degree: 50%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 51%
 | **有關從Adobe Analytics升級至Customer Journey Analytics的新檔案** | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。 現在提供新的文件資源來協助您更加瞭解：<ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li></ul>[開始升級至Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 現在可用 |
 | **設定 `contextData` 欄位透過XDM** | 透過體驗Edge Network傳送資料至Adobe Analytics的客戶可以 [設定內容資料值](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/contextdata) 直接在XDM中或裝載的「資料」部分中。 |  | 現在可用 |
 | **Analytics即時報表2.0 API** | Adobe Analytics中的新即時報告API 2.0改善了客戶整合併提供快速的報告結果。 這些結果可以以程式設計方式用於基本、趨勢和劃分報表。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024年5月30日 |
-| **串流媒體：使用Web SDK傳送Web資料至Adobe Experience Platform Edge Network** | 您現在可以使用Adobe Experience Platform Web SDK將串流媒體網頁資料傳送到Adobe Experience Platform Edge Network。 此增強功能可讓您建立更個人化的行銷活動，並提供更個人化的內容，產生更多可報告的追蹤資料。<p>這項變更針對所有平台解決方案(例如Customer Journey Analytics、Adobe即時CDP、Adobe Journey Optimizer和事件轉送)的Web實作提供統一的收集方法。 過去，將串流媒體網頁資料傳送至Edge Network的唯一方式是使用Media Edge API。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/implementation-edge) | | 2024 年 5 月 31 日 |
+| **串流媒體：使用Web SDK傳送Web資料至Adobe Experience Platform Edge Network** | 您現在可以使用Adobe Experience Platform Web SDK將串流媒體網頁資料傳送到Adobe Experience Platform Edge Network。 此增強功能可讓您建立更個人化的行銷活動，並提供更個人化的內容，產生更多可報告的追蹤資料。<p>這項變更針對所有平台解決方案(例如Customer Journey Analytics、Adobe即時CDP、Adobe Journey Optimizer和事件轉送)的Web實作提供統一的收集方法。 過去，將串流媒體網頁資料傳送至Edge Network的唯一方式是使用Media Edge API。 [瞭解更多即將關注的內容] | | 2024 年 5 月 31 日 |
 | **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
-| **Activity Map減少Web SDK的伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會擷取一些連結事件，並將它們封裝到下一次點選中，類似於AppMeasurement處理事件的方式。 (後續文件) |  | 2024 年 5 月 31 日 |
+| **Activity Map減少Web SDK的伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會擷取一些連結事件，並將它們封裝到下一次點選中，類似於AppMeasurement處理事件的方式。 (後續文件) | Beta版於2024年5月31日開始 | 待定 |
 
 {style="table-layout:auto"}
 
