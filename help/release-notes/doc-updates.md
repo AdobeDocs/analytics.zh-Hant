@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: e33d5ed955109f01949d95d826d5f7d48b572131
 workflow-type: tm+mt
 source-wordcount: '5471'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2024 年 5 月** | |
 | 將XDM物件變數明確對應到內容資料變數 | 將以下功能記錄在案： [使用XDM物件變數對應明確設定上下文資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| 有關從Adobe Analytics升級至Customer Journey Analytics的新檔案 | 對於從Adobe Analytics升級至Customer Journey Analytics的組織，根據組織目前的Adobe Analytics實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的檔案資源，協助您更清楚瞭解：</p><ul><li>現有的各種升級路徑</li><li>根據組織目前的Adobe Analytics實作，提供哪些升級路徑</li><li>每個升級路徑的優缺點</li><li>各升級路徑的逐步指引</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級至Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
-| 更新自訂日期範圍的相關檔案 | 更新相關熒幕擷取畫面和程式 [建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) 以符合目前的產品功能與設計。 |
+| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| 關於自訂日期範圍的更新文件 | 與[建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
 | **2024 年 4 月** | |
 | 與分類集中的「所有者」相關的文件已移除 | 「所有者」篩選器和欄已從[分類集管理員](/help/components/classifications/sets/manage/set-manager.md)中移除，「所有者」欄位已從[分類集設定](/help/components/classifications/sets/manage/settings.md)中移除。 <p>文件已更新以刪除此篩選器、欄和欄位。</p> |
 | 刪除了文件中有關設定雲端匯入和匯出位置的可摺疊區段 | 刪除了[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中的可摺疊區段，可獲得說明雲端帳戶類型的資訊。 |
