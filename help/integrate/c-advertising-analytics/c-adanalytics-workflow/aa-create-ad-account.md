@@ -3,7 +3,7 @@ title: 如何在 Advertising Analytics 中設定 Advertising 帳戶
 description: 本文說明如何建立新的Advertising帳戶，並將多個帳戶對應至多個報表套裝。
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 33%
@@ -23,7 +23,7 @@ Adobe Analytics管理員可以建立新的Advertising帳戶，並將多個帳戶
 1. 在 Adobe Analytics 中，導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL Advertising 帳戶」]**。
 1. (僅限首次使用) 接受「一般使用者授權合約」的條款。
 1. 選取 **[!UICONTROL +新增]**.
-1. 此 [!UICONTROL 新的搜尋引擎設定] 對話方塊顯示：
+1. 此 [!UICONTROL 新的搜尋引擎設定] 對話方塊隨即顯示。
 
    ![](assets/aa-new-se-account.png)
 
