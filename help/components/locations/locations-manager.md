@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 地點管理員
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 7b293c962428c7b8fac62a9f70ce62a0fe8f0cea
+source-git-commit: 273fea86cde8880d9c9e03ac9c6a99b75f70f6cd
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,9 @@ ht-degree: 1%
 >
 >如果您刪除位置，您應： [編輯您的資料摘要](/help/export/analytics-data-feed/create-feed.md)， [Data Warehouse報表](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、和 [分類集結構描述](/help/components/classifications/sets/manage/schema.md) 以使用功能位置。
 
-若要刪除位置：
+若要在Adobe Analytics的「位置」管理員中刪除位置：
+
+1. 選取 **[!UICONTROL 元件]** > **[!UICONTROL 位置]**，然後選取 [!UICONTROL **位置**] 標籤。
 
 1. 選取「 」中的3點選單 [!UICONTROL **位置名稱**] 要刪除的位置欄。
 

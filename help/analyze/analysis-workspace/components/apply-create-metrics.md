@@ -4,10 +4,10 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 94%
 
 ---
 
@@ -33,15 +33,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ## 使用 Analysis Workspace 中的量度
 
-在 Analysis Workspace 中能以多種方式使用量度。您可以：
-
-* 將量度拖移到空白的自由表格中，以查看該量度在專案日期期間的趨勢。
-
-* 存在維度時可將量度拖移，以查看該量度和每個維度項目的比較。
-
-* 將量度拖移到現有量度標頭的頂部，即可將其取代。
-
-* 將量度拖移到標頭旁邊，即可並排查看兩個量度。
+在 Analysis Workspace 中能以多種方式使用量度。如需如何新增量度和其他元件型別至Analysis Workspace的相關資訊，請參閱 [在Analysis Workspace中使用元件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
