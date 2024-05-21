@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 5bf6ed9b71a87d79fec960b6618667238019ac7f
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 31%
+source-wordcount: '1450'
+ht-degree: 37%
 
 ---
 
@@ -23,16 +23,15 @@ ht-degree: 31%
 
 您必須使用存取雲端帳戶的必要資訊來設定Adobe Analytics。 此程式包括新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，如所述 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)，然後新增並設定該帳戶中的位置（如本文所述）。
 
-## 開始建立或編輯雲端匯出位置
+如需有關如何管理現有位置（包括檢視、編輯和刪除位置）的資訊，請參閱 [位置管理員](/help/components/locations/locations-manager.md).
+
+## 開始建立雲端匯出位置
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **元件**] > [!UICONTROL **位置**].
 1. 在 [!UICONTROL 位置] 頁面，選取 [!UICONTROL **位置**] 標籤。
-1. 若要建立新位置，請選取 [!UICONTROL **新增位置**]. （如果您尚未新增帳戶，請依照中的說明新增帳戶） [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md).)
+1. 選取 [!UICONTROL **新增位置**]. （如果您尚未新增帳戶，請依照中的說明新增帳戶） [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md).)
 
-   或
-
-   若要編輯現有位置，請選取 [!UICONTROL **位置名稱**] 要編輯的位置欄，然後選取 [!UICONTROL **編輯**].
-「位置」對話方塊隨即顯示。
+   「位置」對話方塊隨即顯示。
 
 1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **名稱**] | 位置的名稱。  |
 | [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。| | [!UICONTROL **搭配使用**] | 選擇您是否想要將此位置與 [!UICONTROL **資料摘要**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分類設定**]. <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於「Data Warehouse」或「分類設定」。</li><li>若要避免位置內的檔案衝突，請勿變更 [!UICONTROL **搭配使用**] 位置之後的欄位。</li></ul> | | [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱 [新增帳戶](#add-an-account). |
@@ -51,7 +50,7 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體名稱**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 </p><p>貯體名稱必須符合特定的命名規則。 例如，其長度必須介於3到63個字元之間，只能由小寫字母、數字、點(.)和連字型大小(-)組成，而且開頭和結尾必須是字母或數字。 [AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **貯體名稱**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有 `S3:PutObject` 許可權可將檔案上傳至此貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **金鑰前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -69,7 +68,7 @@ ht-degree: 31%
 
 ### Google Cloud Platform
 
-若要設定Google Cloud Platform位置，請指定下列資訊：
+若要設定 Google Cloud Platform 位置，請註明以下資訊：
 
 1. [開始建立或編輯雲端匯出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
 
@@ -93,7 +92,7 @@ ht-degree: 31%
 
 ### Azure SAS
 
-若要設定Azure SAS位置，請指定下列資訊：
+若要設定 Azure SAS 位置，請註明以下資訊：
 
 1. [開始建立或編輯雲端匯出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
 
@@ -117,7 +116,7 @@ ht-degree: 31%
 
 ### Azure RBAC
 
-若要設定Azure RBAC位置，請指定下列資訊：
+若要設定 Azure RBAC 位置，請註明以下資訊：
 
 1. [開始建立或編輯雲端匯出位置](#begin-creating-or-editing-a-cloud-export-location)，如上所述。
 

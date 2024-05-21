@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 888f7bef389f113538f0e62ab0098d9e809a905e
+source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 56%
+source-wordcount: '1205'
+ht-degree: 61%
 
 ---
 
@@ -23,21 +23,15 @@ ht-degree: 56%
 
 您需要為Adobe Analytics設定存取雲端帳戶所需的必要資訊。 此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照所述新增及設定該帳戶內的位置（例如帳戶內的資料夾） [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
 
+如需有關如何管理現有帳戶（包括檢視、編輯和刪除帳戶）的資訊，請參閱 [位置管理員](/help/components/locations/locations-manager.md).
+
 若要設定雲端匯入或匯出帳戶：
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **元件**] > [!UICONTROL **位置**].
 1. 在 [!UICONTROL 位置] 頁面，選取 [!UICONTROL **位置帳戶**] 標籤。
-1. 若要建立新帳戶，請選取 [!UICONTROL **新增帳戶**].
+1. 選取 [!UICONTROL **新增帳戶**].
 
    新增帳戶對話方塊隨即顯示。
-
-   或
-
-   若要編輯現有帳戶，請選取 [!UICONTROL **檢視詳細資料**] ，此圖磚會列出您要編輯的帳戶。
-「位置」對話方塊隨即顯示。
-
-   位置帳戶詳細資訊對話方塊隨即顯示
-
 
 1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 | | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶型別設定單一帳戶，並視需要在該帳戶內設立多個位置。 |
 1. 在 [!UICONTROL **帳戶屬性**] 區段，指定您所選取之帳戶型別的特定資訊。
@@ -48,7 +42,7 @@ ht-degree: 56%
 
    +++Amazon S3角色ARN
 
-   若要設定Amazon S3角色ARN帳戶，請指定下列資訊：
+   若要設定 Amazon S3 角色 ARN 帳戶，請註明以下資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -60,7 +54,7 @@ ht-degree: 56%
 
    +++Google Cloud Platform
 
-   若要設定Google Cloud Platform帳戶，請指定下列資訊：
+   若要設定 Google Cloud Platform 帳戶，請註明以下資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -72,7 +66,7 @@ ht-degree: 56%
 
    +++Azure SAS
 
-   若要設定Azure SAS帳戶，請指定下列資訊：
+   若要設定 Azure SAS 帳戶，請註明以下資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -88,7 +82,7 @@ ht-degree: 56%
 
    +++Azure RBAC
 
-   若要設定Azure RBAC帳戶，請指定下列資訊：
+   若要設定 Azure RBAC 帳戶，請註明以下資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
