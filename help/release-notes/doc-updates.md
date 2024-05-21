@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
 workflow-type: tm+mt
 source-wordcount: '5511'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,8 +28,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2024 年 5 月** | |
 | 有關新增元件至專案的檔案 | 已新增關於如何 [將各種型別的元件新增到Analysis Workspace中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | 已更新Advertising Analytics檔案 | 根據對進行的更新更新更新了檔案 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 使用者介面。 |
-| 將XDM物件變數明確對應到內容資料變數 | 將以下功能記錄在案： [使用XDM物件變數對應明確設定上下文資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping). |
-| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| 將 XDM 物件變數明確地對應到內容資料變數 | 記錄了[使用 XDM 物件變數對應來明確設定內容資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)的功能。 |
+| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | 關於自訂日期範圍的更新文件 | 與[建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
 | **2024 年 4 月** | |
 | 與分類集中的「所有者」相關的文件已移除 | 「所有者」篩選器和欄已從[分類集管理員](/help/components/classifications/sets/manage/set-manager.md)中移除，「所有者」欄位已從[分類集設定](/help/components/classifications/sets/manage/settings.md)中移除。 <p>文件已更新以刪除此篩選器、欄和欄位。</p> |
@@ -148,7 +148,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](/help/components/dimensions/evar-merchandising.md)的文件 |
 | Experience Platform Edge 文件 | 透過 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/server-api/overview.md) 發表在 Adobe Analytics 實施上的新文章。 |
 | 已更新的流量視覺化文件 | 根據[新的 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 有關以行動計分卡共用註解的文件 | 您可以顯示 [在行動計分卡的工作區中建立的註解](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md). |
+| 有關以行動計分卡共用註解的文件 | 您可以[在行動計分卡上顯示在工作區中建立的註解](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** | |
 | 透過 Edge Network 填入生命週期維度和量度 | 傳送至 Edge Network 的行動生命週期資料現在會出現在 Analytics 報告中。如需瞭解哪些 XDM 欄位對應到現有的行動生命週期報告，請參閱[分析變數對應](/help/implement/aep-edge/xdm-var-mapping.md)。 |
 | **2022 年 4 月** | |
