@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為 Data Warehouse 請求設定報告目標
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
-workflow-type: ht
-source-wordcount: '2584'
-ht-degree: 100%
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+workflow-type: tm+mt
+source-wordcount: '2615'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++電子郵件
 
@@ -142,11 +142,11 @@ ht-degree: 100%
       | [!UICONTROL **收件者**] | 傳送報告時可以向特定使用者傳送電子郵件通知。指定單一電子郵件地址或逗號分隔的電子郵件地址清單。<!-- How does this differ from the Notification email tab? --> |
 
    1. 選取「[!UICONTROL **新增位置**]」，然後註明以下資訊：
-      |Field |功能|
-      |---------|----------|
-      | [!UICONTROL **姓名**] |位置的名稱。|
-      | [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。|
-      | [!UICONTROL **位置帳戶**] | 選取您建立的位置帳戶[新增帳戶](#add-an-account)。|
+|Field |功能|
+|---------|----------|
+| [!UICONTROL **姓名**] |位置的名稱。|
+| [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。|
+| [!UICONTROL **位置帳戶**] | 選取您建立的位置帳戶[新增帳戶](#add-an-account)。|
 
    1. 在「[!UICONTROL **位置屬性**]」部分，指明您位置帳戶特定的帳戶類型資訊。
 
@@ -163,7 +163,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -171,12 +171,12 @@ ht-degree: 100%
 
       | 欄位 | 函數 |
       |---------|----------|
-      | [!UICONTROL **貯體名稱**] | 在您的 GCP 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保您已向 Adob&#x200B;&#x200B;e 提供的主體授予以下任何一個權限：<ul><li>`roles/storage.objectCreator`：如果您想限制主體僅在您的 GCP 帳戶中建立文件，請使用此權限。</br>**注意：** 如果您在排程報告時使用此權限，您必須為每個新的排程匯出使用唯一的檔案名稱。否則，報告產生將會失敗，因為主體沒有覆寫現有文件的存取權。</li><li>`roles/storage.objectUser`：如果您希望主體有存取權來查看、列出、更新和刪除您 GCP 帳戶中的檔案，請使用此權限。</br>此權限允許主體覆寫現有檔案以進行後續上傳，而無需為每個新排程的匯出自動產生唯一的檔案名稱。</li></ul><p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p> |
+      | [!UICONTROL **貯體名稱**] | 在您的 GCP 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保您已授與Adobe所提供的主體下列任一許可權： (如需授與許可權的相關資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。<ul><li>`roles/storage.objectCreator`：如果您想限制主體僅在您的 GCP 帳戶中建立文件，請使用此權限。</br>**注意：** 如果您在排程報告時使用此權限，您必須為每個新的排程匯出使用唯一的檔案名稱。否則，報告產生將會失敗，因為主體沒有覆寫現有文件的存取權。</li><li>`roles/storage.objectUser`：如果您希望主體有存取權來查看、列出、更新和刪除您 GCP 帳戶中的檔案，請使用此權限。</br>此權限允許主體覆寫現有檔案以進行後續上傳，而無需為每個新排程的匯出自動產生唯一的檔案名稱。</li></ul><p>如果您的組織使用 [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 若要在允許清單中僅允許Google Cloud Platform帳戶，您需要下列Adobe擁有的Google Cloud Platform組織ID： <ul><li>`DISPLAY_NAME`： `adobe.com`</li><li>`ID`： `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`： `C02jo8puj`</li></ul> </p> |
       | [!UICONTROL **金鑰前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如，folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +189,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +203,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 在「[!UICONTROL **報告選項**]」標籤中，繼續設定您的 Data Warehouse 請求。有關詳細資訊，請參閱「[為 Data Warehouse 請求設定報告選項](/help/export/data-warehouse/create-request/dw-request-report-options.md)」。
 

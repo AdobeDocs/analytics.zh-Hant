@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
-source-wordcount: '5511'
-ht-degree: 99%
+source-wordcount: '5562'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 5 月** | |
+| 在資料摘要和Data Warehouse中透過Google Cloud Platform使用組織原則限制時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [資料摘要](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 檔案。 <p>只有使用下列專案的組織才需要此資訊： [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 在Google Cloud Platform中。</p> |
 | 有關新增元件至專案的檔案 | 已新增關於如何 [將各種型別的元件新增到Analysis Workspace中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
 | 已更新Advertising Analytics檔案 | 根據對進行的更新更新更新了檔案 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 使用者介面。 |
 | 將 XDM 物件變數明確地對應到內容資料變數 | 記錄了[使用 XDM 物件變數對應來明確設定內容資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)的功能。 |

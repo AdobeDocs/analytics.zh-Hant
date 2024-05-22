@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 40c64e104dbc3ba97807ef9fee653252d2fdd55e
+source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
 workflow-type: tm+mt
-source-wordcount: '4043'
-ht-degree: 42%
+source-wordcount: '4074'
+ht-degree: 52%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 42%
    >設定報告目標時，請考慮以下事項：
    >
    >* 我們建議將雲端帳戶用於您的報表目的地。 [舊版FTP和SFTP帳戶](#legacy-destinations) 可使用，但不建議使用。
-   >* 您先前設定的任何雲端帳戶都可用於資料摘要。 您可以透過下列任何方式設定雲端帳戶：
+   >* 您先前設定的任何雲端帳戶都可用於資料摘要。 您可以透過以下任一方式設定雲端帳戶：
    >
    >   * 設定雲端帳戶時 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
    >   
@@ -61,7 +61,7 @@ ht-degree: 42%
    >
    >* 雲端帳戶與您的 Adob&#x200B;&#x200B;e Analytics 使用者帳戶有關聯。其他使用者無法使用或查看您設定的雲端帳戶。
    >
-   >* 您可以編輯從位置管理員建立的任何位置 [元件>位置](/help/components/locations/configure-import-accounts.md)
+   >* 您可以在「[元件 > 位置](/help/components/locations/configure-import-accounts.md)」中，編輯從「位置」管理員建立的任何位置
 
    ![資料摘要目的地下拉式功能表](assets/datafeed-destinations-dropdown.png)
 
@@ -89,17 +89,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >您必須先設定帳戶，或帳戶已與您所屬的某個組織共用，才能使用該帳戶。
+      >只有在您已設定帳戶或您已與所屬組織共用帳戶時，您才可以使用這些帳戶。
 
       1. 從「[!UICONTROL **選取帳戶**]」下拉式選單中選取帳戶。
 
          在下列任一Adobe Analytics區域中設定的任何雲端帳戶都可以使用：
 
-         * 匯入Adobe Analytics分類資料時，如所述 [結構描述](/help/components/classifications/sets/manage/schema.md).
+         * 匯入 Adob&#x200B;&#x200B;e Analytics 分類資料時，如[結構描述](/help/components/classifications/sets/manage/schema.md)中所述。
 
            但是，為匯入分類資料所設定的任何位置無法供使用。相反地，請依照下面說明新增目標。
 
-         * 在「位置」區域中設定帳戶和位置時，如所述 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
+         * 在「位置」區域中設定帳戶和位置時，請參閱「[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)」和「[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)」。
 
       1. 從中選擇位置 [!UICONTROL **選取位置**] 下拉式功能表。
 
@@ -126,7 +126,7 @@ ht-degree: 42%
          |---------|----------|
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
          | [!UICONTROL **說明**] | 帳戶說明。 |
-         | [!UICONTROL **貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保 Adob&#x200B;&#x200B;e 提供的使用者 ARN 擁有 `S3:PutObject` 權限，以便該使用者將檔案上傳到此貯體。此權限允許使用者 ARN 上傳原始檔案，並覆寫後續上傳的檔案。</p><p>貯體名稱必須符合特定的命名規則。 例如，其長度必須介於3到63個字元之間，只能由小寫字母、數字、點(.)和連字型大小(-)組成，而且開頭和結尾必須是字母或數字。 [AWS檔案中提供完整的命名規則清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+         | [!UICONTROL **貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保 Adob&#x200B;&#x200B;e 提供的使用者 ARN 擁有 `S3:PutObject` 權限，以便該使用者將檔案上傳到此貯體。此權限允許使用者 ARN 上傳原始檔案，並覆寫後續上傳的檔案。</p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
          | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如， `folder_name/` |
 
          {style="table-layout:auto"}
@@ -161,17 +161,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >您必須先設定帳戶，或帳戶已與您所屬的某個組織共用，才能使用該帳戶。
+      >只有在您已設定帳戶或您已與所屬組織共用帳戶時，您才可以使用這些帳戶。
 
       1. 從「[!UICONTROL **選取帳戶**]」下拉式選單中選取帳戶。
 
-      您在下列任一Adobe Analytics區域中設定的任何雲端帳戶都可以使用：
+      您在 Adob&#x200B;&#x200B;e Analytics 的以下任何區域中設定的任何雲端帳戶都可供使用：
 
-      * 匯入Adobe Analytics分類資料時，如所述 [結構描述](/help/components/classifications/sets/manage/schema.md).
+      * 匯入 Adob&#x200B;&#x200B;e Analytics 分類資料時，如[結構描述](/help/components/classifications/sets/manage/schema.md)中所述。
 
         但是，為匯入分類資料所設定的任何位置無法供使用。相反地，請依照下面說明新增目標。
 
-      * 在「位置」區域中設定帳戶和位置時，如所述 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
+      * 在「位置」區域中設定帳戶和位置時，請參閱「[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)」和「[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)」。
 
       1. 從中選擇位置 [!UICONTROL **選取位置**] 下拉式功能表。
 
@@ -235,17 +235,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >您必須先設定帳戶，或帳戶已與您所屬的某個組織共用，才能使用該帳戶。
+      >只有在您已設定帳戶或您已與所屬組織共用帳戶時，您才可以使用這些帳戶。
 
       1. 從「[!UICONTROL **選取帳戶**]」下拉式選單中選取帳戶。
 
-         您在下列任一Adobe Analytics區域中設定的任何雲端帳戶都可以使用：
+         您在 Adob&#x200B;&#x200B;e Analytics 的以下任何區域中設定的任何雲端帳戶都可供使用：
 
-         * 匯入Adobe Analytics分類資料時，如所述 [結構描述](/help/components/classifications/sets/manage/schema.md).
+         * 匯入 Adob&#x200B;&#x200B;e Analytics 分類資料時，如[結構描述](/help/components/classifications/sets/manage/schema.md)中所述。
 
            但是，為匯入分類資料所設定的任何位置無法供使用。相反地，請依照下面說明新增目標。
 
-         * 在「位置」區域中設定帳戶和位置時，如所述 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
+         * 在「位置」區域中設定帳戶和位置時，請參閱「[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)」和「[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)」。
 
       1. 從中選擇位置 [!UICONTROL **選取位置**] 下拉式功能表。
 
@@ -263,7 +263,7 @@ ht-degree: 42%
          | [!UICONTROL **帳戶說明**] | Azure SAS帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
          | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-         | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure金鑰儲存庫中SAS URI的路徑。  若要設定Azure SAS，您必須使用Azure金鑰儲存庫將SAS URI儲存為秘密。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。</li><li>確保已將應用程式 ID 授予 `Key Vault Certificate User` 內建角色，以便存取金鑰保存庫 URI。</br><p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul><p>若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p> |
+         | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS URI 的路徑。若要設定 Azure SAS，需要使用 Azure Key Vault 將 SAS URI 儲存為密碼。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。</li><li>確保已將應用程式 ID 授予 `Key Vault Certificate User` 內建角色，以便存取金鑰保存庫 URI。</br><p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul><p>若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p> |
          | [!UICONTROL **金鑰保存庫祕密名稱**] | 您將密碼新增至 Azure Key Vault 時建立的密碼名稱。在 Microsoft Azure 中，此資訊位於您建立的 Key Vault 中，位於 **Key Vault** 設定頁面。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
          | [!UICONTROL **密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
@@ -276,7 +276,7 @@ ht-degree: 42%
          | [!UICONTROL **名稱**] | 位置的名稱。 此名稱會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **說明**] | 位置的說明。 此說明會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **容器**] | 在您指定的帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的容器。 |
-         | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如， `folder_name/`<p>設定Azure SAS帳戶時，請確定您在「金鑰儲存庫機密名稱」欄位中指定的SAS URI存放區具有 `Write` 許可權。 這可讓SAS URI在您的Azure容器中建立檔案。 <p>如果您也希望SAS URI覆寫檔案，請確定SAS URI存放區具有 `Delete` 許可權。</p><p>有關詳細資訊，請參閱 Azure Blob 儲存文件中的「[Blob 儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)」 。</p> |
+         | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如， `folder_name/`<p>確保設定 Azure SAS 帳戶時，在 Key Vault 密碼名稱欄位中指定的 SAS URI 儲存體擁有 `Write` 權限。這樣可讓 SAS URI 在您的 Azure 容器中建立檔案。 <p>如果您希望 SAS URI 也覆寫檔案，請確保 SAS URI 儲存體擁有 `Delete` 權限。</p><p>有關詳細資訊，請參閱 Azure Blob 儲存文件中的「[Blob 儲存資源](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction#blob-storage-resources)」 。</p> |
 
          {style="table-layout:auto"}
 
@@ -308,17 +308,17 @@ ht-degree: 42%
 
       >[!NOTE]
       >
-      >您必須先設定帳戶，或帳戶已與您所屬的某個組織共用，才能使用該帳戶。
+      >只有在您已設定帳戶或您已與所屬組織共用帳戶時，您才可以使用這些帳戶。
 
       1. 從「[!UICONTROL **選取帳戶**]」下拉式選單中選取帳戶。
 
-         您在下列任一Adobe Analytics區域中設定的任何雲端帳戶都可以使用：
+         您在 Adob&#x200B;&#x200B;e Analytics 的以下任何區域中設定的任何雲端帳戶都可供使用：
 
-         * 匯入Adobe Analytics分類資料時，如所述 [結構描述](/help/components/classifications/sets/manage/schema.md).
+         * 匯入 Adob&#x200B;&#x200B;e Analytics 分類資料時，如[結構描述](/help/components/classifications/sets/manage/schema.md)中所述。
 
            但是，為匯入分類資料所設定的任何位置無法供使用。相反地，請依照下面說明新增目標。
 
-         * 在「位置」區域中設定帳戶和位置時，如所述 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
+         * 在「位置」區域中設定帳戶和位置時，請參閱「[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)」和「[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)」。
 
       1. 從中選擇位置 [!UICONTROL **選取位置**] 下拉式功能表。
 
@@ -345,7 +345,7 @@ ht-degree: 42%
          | [!UICONTROL **主體**] | 主體由Adobe提供。 您必須授予許可權才能接收此主體的摘要。 |
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
          | [!UICONTROL **說明**] | 帳戶說明。 |
-         | [!UICONTROL **貯體**] | 在您的 GCP 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保您已向 Adob&#x200B;&#x200B;e 提供的主體授予以下任何一個權限：<ul><li>`roles/storage.objectCreator`：如果您想限制主體僅在您的 GCP 帳戶中建立文件，請使用此權限。</br>**注意：** 如果您在排程報告時使用此權限，您必須為每個新的排程匯出使用唯一的檔案名稱。否則，報告產生將會失敗，因為主體沒有覆寫現有文件的存取權。</li><li>（建議） `roles/storage.objectUser`：如果您希望主參與者有權檢視、列出、更新及刪除GCP帳戶中的檔案，請使用此許可權。</br>此權限允許主體覆寫現有檔案以進行後續上傳，而無需為每個新排程的匯出自動產生唯一的檔案名稱。</li></ul><p>有關授予權限的資訊，請參閱 Google Cloud 文件中的「[新增主體至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add)」。</p> |
+         | [!UICONTROL **貯體**] | 在您的 GCP 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保您已授與Adobe所提供的主體下列任一許可權： (如需授與許可權的相關資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。<ul><li>`roles/storage.objectCreator`：如果您想限制主體僅在您的 GCP 帳戶中建立文件，請使用此權限。</br>**注意：** 如果您在排程報告時使用此權限，您必須為每個新的排程匯出使用唯一的檔案名稱。否則，報告產生將會失敗，因為主體沒有覆寫現有文件的存取權。</li><li>（建議） `roles/storage.objectUser`：如果您希望主參與者有權檢視、列出、更新及刪除GCP帳戶中的檔案，請使用此許可權。</br>此權限允許主體覆寫現有檔案以進行後續上傳，而無需為每個新排程的匯出自動產生唯一的檔案名稱。</li></ul><p>如果您的組織使用 [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 若要在允許清單中僅允許Google Cloud Platform帳戶，您需要下列Adobe擁有的Google Cloud Platform組織ID： <ul><li>`DISPLAY_NAME`： `adobe.com`</li><li>`ID`： `178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`： `C02jo8puj`</li></ul> </p> |
          | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如， `folder_name/` |
 
          {style="table-layout:auto"}
