@@ -4,10 +4,10 @@ title: 加上標籤範例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 99%
+source-wordcount: '932'
+ht-degree: 78%
 
 ---
 
@@ -35,12 +35,14 @@ ht-degree: 99%
 
 ## 範例存取請求 {#access}
 
-如果我提交存取請求，摘要檔案將會含有下表指出的值。請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。唯有使用人員 ID 且 expandIds 設為 true 時，系統才會傳回兩個摘要檔案。
+如果您提交存取請求，將會收到兩個可傳回給資料主體的檔案。 CSV檔案的一個檔案包含資料主體收到的每個點選的一列，以及具有適當存取標籤的每個變數的一欄。 另一個檔案是摘要HTML檔案，其列出每個變數，接著是資料主體該變數看到的所有唯一值，以及看到每個唯一值的次數。
+
+例如，摘要檔案包含下表指出的值。 請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。只有在使用人員ID且符合下列條件時，才會傳回兩個摘要檔案 `expandIds` 為true。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 值</th>
-    <th rowspan="2">傳回的<br>檔案類型</th>
+    <th rowspan="2">摘要<br/>檔案型別<br/>已傳回</th>
     <th colspan="5" style="text-align:center">摘要存取檔案中的資料</th>
   </tr>
   <tr>
@@ -140,7 +142,7 @@ ht-degree: 99%
   </tr>
 </table>
 
-請注意，使用 cookie ID 時，expandIDs 的設定不會影響輸出。
+請注意， `expandIDs` 使用Cookie ID時不會對輸出產生任何差異。
 
 ## 樣本刪除請求 {#delete}
 
@@ -217,7 +219,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> 只有包含 AAID = 77 和 DEL-DEVICE 標籤的資料列儲存格會受到影響。
+>僅限包含下列專案的資料列上的欄： `AAID=77` 和 `DEL-DEVICE` 標籤受到影響。
 
 <table>
   <tr>
@@ -290,7 +292,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
-> 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。此外，實際上，包含 A_ID 的變數可能是 prop 或 eVar。 其取代值會是開頭為「Privacy-」、後接隨機數字 (GUID) 的字串，而非將數值取代為不同的隨機數值。
+>僅包含下列專案的資料列上的celcolumnsls `user=Mary` 和 `DEL-PERSON` 標籤受到影響。 此外，實際上，包含 `A_ID` 可能是prop或eVar。 其取代值會是開頭為的字串 `Privacy-`，接著再新增隨機數字(GUID)，而非將數值取代為不同的隨機數值。
 
 <table>
   <tr>

@@ -4,10 +4,10 @@ title: 命名空間
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 94%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 100%
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
 * 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
 
-如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)。
+請參閱 [Experience Cloud資料隱私權API檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant) 以取得詳細資訊和 [標準身分名稱空間清單](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces). 另請參閱 [建立存取/刪除工作](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) 以取得範例要求。
 
 ## Cookie ID
 
 舊版 Analytics 追蹤 Cookie，亦稱為 Adobe Analytics ID (AAID)：
 
-```
+```json
 {
-   namespace: "AAID",
-   type: "standard",
-   value: "2CCEEAE88503384F-1188000089CA"
+   "namespace": "AAID",
+   "type": "standard",
+   "value": "2CCEEAE88503384F-1188000089CA"
 }
 ```
 
@@ -41,25 +41,23 @@ ht-degree: 100%
 
 ## 舊版 Analytics 追蹤 Cookie：已廢止的形式
 
-```
+```json
 {
-   "namespace": "visitorId",
-   "type": "analytics",
+   "namespace": "visitorId",
+   "type": "analytics",
    "value": "2cceeae88503384f-00001188000089ca"
 }
 ```
-
-已廢止的形式：
 
 指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
 
 ## 身分識別服務 Cookie
 
-```
+```json
 {
-    namespace: "ECID",
-    type: "standard",
-    value: "00497781304058976192356650736267671594"
+   "namespace": "ECID",
+   "type": "standard",
+   "value": "00497781304058976192356650736267671594"
 }
 ```
 
@@ -81,11 +79,11 @@ ht-degree: 100%
 
 ## 自訂訪客 ID
 
-```
+```json
 {
-     namespace: "customVisitorID",
-     type: "analytics",
-     value: "<ID>"
+    "namespace": "customVisitorID",
+    "type": "analytics",
+    "value": "<ID>"
 }
 ```
 
@@ -93,15 +91,16 @@ ht-degree: 100%
 
 ## 自訂變數中的 ID
 
-```
+```json
 {
-    namespace: "Email Address",
-    type: "analytics", 
-    value: "john@xyz.com" }, 
+"namespace":"Email Address",
+"type": "analytics", 
+"value": "john@xyz.com" 
+}, 
 {
-    namespace: "CRM ID", 
-    type: "analytics", 
-    value: "123456-ABCD" 
+    "namespace": "CRM ID", 
+    "type": "analytics",
+    "value": "123456-ABCD" 
 }
 ```
 
@@ -115,6 +114,6 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
+>名稱空間 `visitorId` 和 `customVisitorId` 會保留以識別Analytics舊版追蹤Cookie和Analytics客戶的訪客ID。 請勿將這些命名空間用於自訂流量或轉換變數。
 
 如需詳細資訊，請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)。

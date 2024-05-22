@@ -4,10 +4,10 @@ title: Adobe Analytics 和 CCPA
 feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 ## Adobe 如何處理 CCPA 資料
 
-Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資料控管基礎結構連接其用於建立和管理消費者體驗的 Adobe 工具。Adobe Cloud Platform 的資料控管功能，可啟用資料控管策略與資料使用情況之間直接關聯。
+Adobe Experience Cloud提供整合式解決方案，可連線您品牌的資料控管基礎架構，與用來建立和管理消費者體驗的Adobe工具。 Adobe Experience Cloud的資料控管功能可將資料控管原則與資料使用直接連結。
 
 請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解隱私權整備步驟，以及如何與 Adobe Experience Cloud 隱私權服務 API 整合。
 

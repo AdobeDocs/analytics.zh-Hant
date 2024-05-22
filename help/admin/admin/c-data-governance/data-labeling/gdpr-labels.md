@@ -4,7 +4,7 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 97%
@@ -93,9 +93,9 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 如果您先前曾將 ID 標籤指派給登入公司中任何報表套裝的其他變數，您可以選取任何一個現有的命名空間。 如果此變數包含的 ID 類型與先前以此命名空間為標籤的其他變數相同，而且您想要在提交請求時搜尋所有的變數，您應重複使用該命名空間。
 
 1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]**，然後選取任何一個現有的命名空間。
+   ![](assets/namespace.png)
 1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
-![](assets/namespace.png)
 
 ### 定義新的命名空間
 
