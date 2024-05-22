@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9821150194e6bc89a5a2dec15a7957aaa177948e
+source-git-commit: 49e7e64254a6466af852ee6dd48c7b37a15c744c
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 81%
+source-wordcount: '1150'
+ht-degree: 79%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2024 年 5 月)
 
-**上次更新**：2024年5月21日
+**上次更新**：2024年5月22日
 
 這些發行說明涵蓋 2024 年 5 月 15 日至 6 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -48,8 +48,8 @@ AN-327749、AN-332949、AN-342881、AN-343171、AN-343708、AN-344034、AN-34555
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **13 個月的儲存有效期`cust_visids`** | 2024年5月22日 | 即將發行的Analytics點選處理引擎， **預計於2024年7月推出**，將開始強制執行13個月的儲存到期日期 `cust_visids`. 如果報告套裝已啟用「啟用訪客聯繫」，則此設定用於尋找 `cust_visid` 是否有點擊時無 `cust_visid` 的 `visid_high/visid_low value`。目前，`visid_high/visid_low` 的 `cust_visid` 對應不會過期。在此版本中，如果自點擊時 `visid_high/visid_low` 有 `cust_visid` 以來已過去 13 個月或更長時間，對應會過期。 |
 | **ISO 區域更新** | 2024 年 5 月 10 日 | Adobe 將於 2022 年 6 月 10 日執行 2022 ISO 區域更新。 預計此版本後將會有較小的地區資訊 (區域) 更新。 |
-| **13 個月的儲存有效期`cust_visids`** | 2024 年 3 月 20 日 | 即將發行的 Analytics Hit 處理引擎 (預計於 4 月或 5 月發行) 將開始強制執行 13 個月的 `cust_visids` 儲存有效期。如果報告套裝已啟用「啟用訪客聯繫」，則此設定用於尋找 `cust_visid` 是否有點擊時無 `cust_visid` 的 `visid_high/visid_low value`。目前，`visid_high/visid_low` 的 `cust_visid` 對應不會過期。在此版本中，如果自點擊時 `visid_high/visid_low` 有 `cust_visid` 以來已過去 13 個月或更長時間，對應會過期。 |
 
 {style="table-layout:auto"}
 
