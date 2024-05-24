@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
 source-git-commit: b844fb354c16a80e4044e3bae8cb47aa042a0d59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 | 錯誤訊息 | 為何發生這項錯誤？ | 最佳化 |
 | --- | --- | --- |
-| [!UICONTROL 報告套裝目前已超出其報告容量。 請簡化請求或稍後再試。] | 您的報表請求太複雜，需要簡化。 | 請縮小報告條件，然後再次嘗試請求。 |
+| [!UICONTROL 該報告套件目前已超出其報告容量。請簡化要求或稍後重試。] | 您的報告要求過於複雜，請將其簡化。 | 請縮小報告，然後再次嘗試傳送要求。 |
 | [!UICONTROL 發生系統錯誤。請在「說明 > 提交支援服務單」中提出客戶服務請求，並附上錯誤代碼。] | Adobe 遇到需要解決的問題。 | 將錯誤代碼提交給客戶服務。 |
 | [!UICONTROL 發生非預期的錯誤；請再次嘗試重新整理您的專案。如果問題仍然存在，請提交此錯誤 ID 給 Adobe 客戶服務以取得進一步的診斷。] | Adobe 遇到需要解決的問題。 | 如果問題仍然存在，請嘗試重新整理您的專案，提交錯誤代碼給客戶服務。 |
 | [!UICONTROL 錯誤 500：無法載入頁面] | 您的本機網路問題 (例如公司[防火牆設定](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant)) 是造成此錯誤的因素。此外，Adobe 可能遇到需要解決的問題。 | 請在幾分鐘後再次嘗試登入。如果問題持續發生，請將 EIM 例項 ID 代碼提交給客戶服務。 |
