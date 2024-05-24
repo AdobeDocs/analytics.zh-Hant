@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
 workflow-type: tm+mt
 source-wordcount: '5562'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2024 年 5 月** | |
 | 在資料摘要和Data Warehouse中透過Google Cloud Platform使用組織原則限制時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [資料摘要](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 檔案。 <p>只有使用下列專案的組織才需要此資訊： [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 在Google Cloud Platform中。</p> |
-| 有關新增元件至專案的檔案 | 已新增關於如何 [將各種型別的元件新增到Analysis Workspace中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md). |
-| 已更新Advertising Analytics檔案 | 根據對進行的更新更新更新了檔案 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 使用者介面。 |
+| 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般資訊。 |
+| 更新了 Advertising Analytics 文件 | 根據 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 使用者介面的更新內容更新了文件。 |
 | 將 XDM 物件變數明確地對應到內容資料變數 | 記錄了[使用 XDM 物件變數對應來明確設定內容資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)的功能。 |
 | 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
 | 關於自訂日期範圍的更新文件 | 與[建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
@@ -302,7 +302,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 6 月 4 日 | 全新指南撰寫完成，標題為[從協力廠商的分析平台改用 Adobe Analytics](/help/technotes/ga-to-aa/home.md)。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
 | 2019 年 5 月 9 日 | 已在「流量」視覺效果中新增設定：「包含重複執行個體」。請參閱[流量設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
-| 2019 年 4 月 11 日 | 工作區最佳化增強功能的最佳實務：效能最佳化 |
+| 2019 年 4 月 11 日 | 工作區最佳化增強功能的最佳做法：效能最佳化 |
 | 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 大幅更新區域資料收集。 |
 | 2019 年 2 月 7 日 | 微幅更新[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中的「將 IP 位址的最後八位數字取代為 0 」和「IP 模糊化」設定。 |
