@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: a56723b3e1e15a3f07e41132d3dd0c82a45411c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5562'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 5 月** | |
-| 在資料摘要和Data Warehouse中透過Google Cloud Platform使用組織原則限制時的必要資訊 | 將Adobe擁有的Google Cloud Platform組織ID新增至 [資料摘要](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 檔案。 <p>只有使用下列專案的組織才需要此資訊： [組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints) 在Google Cloud Platform中。</p> |
+| 在資料摘要和 Data Warehouse 中透過 Google Cloud Platform 使用組織原則限制時的必要資訊 | 將 Adobe 擁有的 Google Cloud Platform 組織 ID 新增至[資料摘要](/help/export/analytics-data-feed/create-feed.md)和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 文件中。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般資訊。 |
 | 更新了 Advertising Analytics 文件 | 根據 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 使用者介面的更新內容更新了文件。 |
 | 將 XDM 物件變數明確地對應到內容資料變數 | 記錄了[使用 XDM 物件變數對應來明確設定內容資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)的功能。 |
