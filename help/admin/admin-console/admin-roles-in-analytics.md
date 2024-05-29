@@ -4,10 +4,10 @@ description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 100%
+source-wordcount: '1141'
+ht-degree: 96%
 
 ---
 
@@ -26,8 +26,9 @@ Adobe Analytics 支持各種類型的管理員。 有完整權限的 Adobe Analy
 
 * **完整存取權的 Adobe Analytics 管理員**：這類使用者可完整存取 Adobe Analytics 中的所有項目，包括報表套裝設定和使用者權限。 根據組織結構而定，Analytics 管理的不同層面可能會交由不同的人員或團隊負責。例如，某人負責指定要在實施作業過程中使用哪些變數，另一人則可負責確認每個人都擁有正確的權限，以便讓使用者能夠正確提取報表。請至少指定一名使用者負責 Analytics 報表套裝設定和使用者權限，該人員可再從 Analytics 中邀請其他人成為管理員。
 * **資料收集管理員**：這類使用者可完整存取 Adobe Experience Platform 資料收集的所有功能，包括發佈權限、建立容器和使用者權限。 這類使用者不必非程式設計人員不可，但如果至少具備 HTML、CSS 和 JavaScript 的新手知識，則會很有幫助。 他們負責與貴組織的網站負責人合作，以便在您的網站上實施標記。 請至少確定一個使用者來負責貴組織的實作，該使用者可以從這裡邀請其他資料收集管理員。
+* **產品管理員：** 產品管理員管理Admin Console中的產品，以及該產品的使用者權益。
 * **產品設定檔管理員：** 這些使用者可以在產品設定檔中新增或刪除用戶、調整其產品設定檔的權限項目，以及將產品設定檔指定至使用者群組，或從群組刪除產品設定檔。 產品設定檔管理員無法完整存取 Adobe Analytics。 但是，需要為團隊授予和管理 Adobe Analytics 存取權限的團隊領導者或經理，都非常適合出任產品資料管理員。有關產品設定檔的更多資訊，請參閱 [Adobe Analytics 產品設定檔](/help/admin/admin-console/permissions/product-profile.md)。
-* **支援委派**：也稱為受支援使用者，他們在 Analytics 介面中沒有額外的權限。而是當他們與 Adobe 客戶服務溝通時，會獲得額外的權限。這些使用者幾乎永遠都是 Analytics 管理員，因為可協助客戶服務疑難排解他們的問題。請至少找出一位負責協助使用者與 Adobe 客戶服務互動的 Analytics 管理員。
+* **支援管理員**：也稱為受支援使用者，他們在Analytics介面中沒有額外的許可權。 而是當他們與 Adobe 客戶服務溝通時，會獲得額外的權限。這些使用者幾乎永遠都是 Analytics 管理員，因為可協助客戶服務疑難排解他們的問題。請至少找出一位負責協助使用者與 Adobe 客戶服務互動的 Analytics 管理員。
 * **網站負責人**：這類人員或團隊需負責網站的編碼和開發。 他們不需要帳戶，但他們會想要與資料收集管理員合作，以取得標記程式碼，並在您的網站上實作這些程式碼。
 * **一般使用者**：這類使用者通常只需要檢視報表，並針對業務問題尋求解答。Analytics 管理員可向這些使用者授與在產品中進行操作的權限。
 
