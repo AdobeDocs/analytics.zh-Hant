@@ -3,10 +3,10 @@ description: 當報表中有許多不重複值時，Adobe 會使用低流量維�
 title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: fe6b1a2d503bbc423d3ebcacad2ce3c29e1ebbed
+source-git-commit: ba0d4c0897ab50ab40cdfdfbffe50f6cf3bd8c7b
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 93%
+source-wordcount: '769'
+ht-degree: 100%
 
 ---
 
@@ -17,10 +17,8 @@ ht-degree: 93%
 ## 「[!UICONTROL 低流量]」的運作方式
 
 * Adobe Analytics 會使用兩個臨界值來判斷每月報告中顯示哪些不重複值：**[!UICONTROL 低臨界值]**&#x200B;和&#x200B;**[!UICONTROL 高臨界值]**。Adobe 可能會不時調整這些臨界值。目前的臨界值限制是：
-   * **[!UICONTROL 低臨界值]**：當月超過 500,000 個不重複值。
-   * **[!UICONTROL 高臨界值]**：當月超過 1,000,000 個不重複值。
-* 在 **2024年4月中旬**，Adobe將會開始增加預設報表套裝的低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png)
-這只會影響目前設定在新的臨界值以下的變數。 這些改變將逐步進行，我們預計這項工作將在**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul>
+   * **[!UICONTROL 低臨界值]**：當月超過 2,000,000 個不重複值。
+   * **[!UICONTROL 高臨界值]**：當月超過 2,100,000 個不重複值。
 * 如果指定月分中的變數未達到低臨界值，就不會影響報告。
 * 變數達到低臨界值時，資料會開始在「[!UICONTROL 低流量]」下方分段。超過此臨界值的每個值都會依照下列邏輯執行後續作業：
    * 如果值已存在於報表中，則照常新增該值。
@@ -37,7 +35,7 @@ ht-degree: 93%
 
 ## 變更不重複限制臨界值
 
-臨界值限制有時候可依各變數來變更。請聯絡 Adobe 客戶服務或您的 Adobe 帳戶團隊，以便提出這項變更請求。臨界值可以增加的程度取決於多個因素，而Adobe可能無法在所有情況下容納臨界值增加。 要求變更時，請提供以下資料：
+臨界值限制有時候可依各變數來變更。請聯絡 Adobe 客戶服務或您的 Adobe 帳戶團隊，以便提出這項變更請求。臨界值可以增加的程度取決於多種因素，Adobe 可能無法在所有情況下都處理臨界值增加。要求變更時，請提供以下資料：
 
 * 報告套裝 ID
 * 您想要提高臨界值的變數
