@@ -5,8 +5,8 @@ keywords: 工作; 疑難排解; 錯誤; ftp; chdir; 連接; 登入; put
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
-source-wordcount: '470'
+workflow-type: ht
+source-wordcount: '466'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
    2. 找出所需的資料摘要，然後按一下您想要重新執行的每個資料摘要旁邊的核取方塊。
    3. 按一下「**[!UICONTROL 重新執行]**」。
 
-   ![重新執行](assets/rerun.png)
+  ![重新執行](assets/rerun.png)
 
 如果您在重新執行資料摘要後還是沒有收到資料摘要檔案，請聯絡客戶服務。
 

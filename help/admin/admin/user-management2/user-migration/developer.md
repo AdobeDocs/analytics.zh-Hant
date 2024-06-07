@@ -5,7 +5,7 @@ feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
 ht-degree: 100%
 

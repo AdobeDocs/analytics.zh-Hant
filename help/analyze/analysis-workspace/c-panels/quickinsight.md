@@ -1,12 +1,12 @@
 ---
-description: 「快速深入分析」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺效果
+description: 「快速深入分析」是適用於新 Workspace 使用者的工具，可引導他們建立資料表格和視覺效果
 title: 快速深入分析面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
 workflow-type: ht
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 | [!UICONTROL 維度] | 維度是量度資料的描述或特性，您可以在專案中加以檢視、劃分及比較。這是可劃分為維度項目的非數值和日期。例如，「瀏覽器」或「頁面」都是維度。 |
 | [!UICONTROL 維度項目] | 維度項目是維度的個別值。例如，瀏覽器維度的維度項目為「Chrome」、「Firefox」、「Edge」等。 |
 | [!UICONTROL 量度] | 量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
-| [!UICONTROL 視覺效果] | 工作區提供[許多視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，可讓您建立資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。 |
+| [!UICONTROL 視覺效果] | Workspace 提供[許多視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，可讓您建立資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。 |
 | [!UICONTROL 維度劃分] | 維度劃分是以其他維度來實際劃分某個維度的一種方式。在我們的範例中，您可以依行動裝置來劃分美國各州，以取得每州的行動裝置造訪次數，或依行動裝置類型、地區、內部促銷活動等來劃分行動裝置。 |
 | [!UICONTROL 區段] | 區段可讓您根據特性或網站互動來識別訪客的子集。例如，您可以根據屬性來建立[!UICONTROL 訪客]區段：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或根據互動來建立：行銷活動、關鍵字搜尋、搜尋引擎；或根據退出點和登入點：來自 Facebook 的訪客、已定義的登陸頁面、反向連結網域；或根據自訂變數：表單欄位、已定義的類別、客戶 ID。 |
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 1. 當您已新增至少一個維度和一個量度時，系統就會為您建立下列項目：
 
-   * 自由表格，最上方會有垂直方向的維度 (此案例中為「美國州」) 和水平方向的量度 (此案例中為「造訪」)。請查看下表：
+   * 自由形式表格，最上方會有垂直方向的維度 (此案例中為「美國州」) 和水平方向的量度 (此案例中為「造訪」)。請查看下表：
 
    ![](assets/qibuilder3.png)
 

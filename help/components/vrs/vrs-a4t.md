@@ -4,8 +4,8 @@ title: 虛擬報表套裝和 Analytics for Target (A4T)
 feature: VRS
 exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
-source-wordcount: '143'
+workflow-type: ht
+source-wordcount: '137'
 ht-degree: 100%
 
 ---

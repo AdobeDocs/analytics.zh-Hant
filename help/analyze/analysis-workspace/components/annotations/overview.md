@@ -1,13 +1,13 @@
 ---
 title: 註解總覽
-description: 如何在工作區中使用註解。
+description: 如何在 Workspace 中使用註解。
 role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
-source-wordcount: '298'
+workflow-type: ht
+source-wordcount: '291'
 ht-degree: 100%
 
 ---

@@ -4,9 +4,9 @@ title: 時間分段維度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
-source-wordcount: '237'
+source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
+workflow-type: ht
+source-wordcount: '233'
 ht-degree: 100%
 
 ---

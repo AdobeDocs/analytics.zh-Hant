@@ -3,8 +3,8 @@ description: 要組織區段以方便使用，將區段標記為我的最愛是�
 title: 將區段標示為最愛
 feature: Segmentation
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
+workflow-type: ht
 source-wordcount: '74'
 ht-degree: 100%
 

@@ -5,9 +5,9 @@ title: 快速鍵
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
-source-wordcount: '290'
+source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
+workflow-type: ht
+source-wordcount: '296'
 ht-degree: 100%
 
 ---
@@ -59,11 +59,11 @@ Analysis Workspace 提供快速鍵 (鍵盤快速鍵)，方便無縫導覽、分�
 | 新增 Analytics for Target 面板 | Alt+G |
 | 新增歸因面版 | Alt+E |
 | 新增空白面板 | Alt+B |
-| 新增自由格式面板 | Alt+A |
+| 新增自由形式面板 | Alt+A |
 | 全新媒體同時檢閱者面板 | Alt+H |
 | 新增快速深入分析面板 | Alt+F |
 | 新增區段比較面板 | Alt+C |
-| 新增自由表格 | Alt+1 |
+| 新增自由形式表格 | Alt+1 |
 | 新增折線圖 | Alt+2 |
 | 新增長條圖 | Alt+3 |
 

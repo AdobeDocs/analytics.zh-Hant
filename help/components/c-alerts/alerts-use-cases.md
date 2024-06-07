@@ -4,7 +4,7 @@ title: 智慧型警報 - 使用案例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
 source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '92'
 ht-degree: 100%
 

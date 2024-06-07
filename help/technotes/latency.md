@@ -5,8 +5,8 @@ title: 資料可用性與延遲
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
-source-wordcount: '806'
+workflow-type: ht
+source-wordcount: '818'
 ht-degree: 100%
 
 ---

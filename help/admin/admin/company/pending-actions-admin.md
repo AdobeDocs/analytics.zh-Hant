@@ -5,7 +5,7 @@ feature: Company Settings
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 role: Admin
 source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 

@@ -6,8 +6,8 @@ feature: Report Builder
 role: User, Admin
 exl-id: 96c3b93a-9adf-4993-b6fc-9146ee5be4bd
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
-source-wordcount: '151'
+workflow-type: ht
+source-wordcount: '160'
 ht-degree: 100%
 
 ---

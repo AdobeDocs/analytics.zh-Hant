@@ -4,7 +4,7 @@ title: 標記區段
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
    * 選取現有標記或是
    * 加入新標記並按 **[!UICONTROL Enter]**。
 
-      ![](assets/tagging_ui.png)
+     ![](assets/tagging_ui.png)
 
 1. 再按一下「**[!UICONTROL 標記]**」來標記區段。
 

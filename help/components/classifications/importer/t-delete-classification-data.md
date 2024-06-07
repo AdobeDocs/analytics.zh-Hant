@@ -4,8 +4,8 @@ title: 刪除分類資料
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
-source-wordcount: '363'
+workflow-type: ht
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
