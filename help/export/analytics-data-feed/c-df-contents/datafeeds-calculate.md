@@ -4,10 +4,10 @@ keywords: 資料摘要；量度；預先欄位；後置欄位；bots；日期篩
 title: 計算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
@@ -23,14 +23,18 @@ ht-degree: 100%
 
 1. 計算 `post_pagename` 或 `post_page_url` 中有值的列數。
 
+## 發生次數
+
+1. 計算總列數。
+
 ## 瀏覽
 
 1. 串連 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 1. 計算值的唯一數目。
 
->[!NOTE]
+>[!TIP]
 >
->網際網路違規、系統不正確或使用自訂訪客 ID，可能會在極少數情況中針對不同的瀏覽使用相同的 `visit_num` 值。計算瀏覽次數時使用 `visit_start_time_gmt`，以確定已計算這些瀏覽次數。
+>網際網路違規、系統不正確或使用自訂訪客 ID，可能會在極少數情況中針對不同的瀏覽使用相同的 `visit_num` 值。若為選用，請使用 `visit_start_time_gmt` 計算瀏覽次數以確定已計算這些瀏覽次數。
 
 ## 訪客
 

@@ -4,9 +4,9 @@ description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 95c79a3085f87cbc1e28f14993f56feb4582a081
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1414'
 ht-degree: 71%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 71%
 | --- | --- |
 | `xdm.application.isClose` | 協助定義行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isInstall` | 協助判斷何時增加行動生命週期量度[首次啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
-| `xdm.application.isLaunch` | 協助判斷何時增加行動生命週期量度[首次啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.closeType` | 判斷某個關閉事件是否損毀。有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。幫助設定行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) 指標。 |
 | `xdm.application.isInstall` | 行動生命週期量度[安裝](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isLaunch` | 行動生命週期量度[啟動](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |

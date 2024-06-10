@@ -4,10 +4,10 @@ description: 根據唯一的購買識別碼去除重複點擊。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 83%
+source-wordcount: '361'
+ht-degree: 73%
 
 ---
 
@@ -28,7 +28,16 @@ ht-degree: 83%
 
 ## 使用Adobe Analytics擴充功能的購買ID
 
-Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+您可以在設定Analytics擴充功能（全域變數）時設定購買ID，或依據規則進行設定。
+
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+6. 找到 [!UICONTROL 購買ID] 區段。
+
+您可以將購買ID設為值或資料元素。 您也可以複製其他 Analytics 變數的值。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.purchaseID
 
