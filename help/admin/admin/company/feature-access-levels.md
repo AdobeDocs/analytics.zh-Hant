@@ -3,8 +3,8 @@ description: 如何檢視貴公司有權擁有的 Adobe Analytics 套件和功�
 title: 功能存取層級
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
-source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
-workflow-type: ht
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
 

@@ -3,8 +3,8 @@ description: 說明如何執行行銷管道報表、授予有限的管理員使�
 title: 行銷管道權限
 feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
-source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
-workflow-type: ht
+source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
 

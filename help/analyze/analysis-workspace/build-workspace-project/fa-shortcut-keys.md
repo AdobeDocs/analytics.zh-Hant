@@ -5,8 +5,8 @@ title: 快速鍵
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: e912f29a712269203643318a687831d68c9bfeb5
-workflow-type: ht
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 
