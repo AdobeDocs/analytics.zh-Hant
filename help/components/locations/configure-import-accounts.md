@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 66c846dd64ee3ed8f421c834ab82b53b1f0f00a5
+source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 61%
+source-wordcount: '1513'
+ht-degree: 54%
 
 ---
 
 # 設定雲端匯入和匯出帳戶
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
+
+>[!NOTE]
+>
+>建立和編輯帳戶時，請考量下列事項： <ul><li>系統管理員可以限制使用者建立帳戶，如中所述 [設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</li><li>只有建立帳號的使用者或系統管理員才能編輯帳號。</li></ul>
 
 您可以設定雲端帳戶，用於下列任何或所有用途：
 
@@ -23,17 +27,25 @@ ht-degree: 61%
 
 您需要為Adobe Analytics設定存取雲端帳戶所需的必要資訊。 此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照所述新增及設定該帳戶內的位置（例如帳戶內的資料夾） [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
 
-如需有關如何管理現有帳戶（包括檢視、編輯和刪除帳戶）的資訊，請參閱 [位置管理員](/help/components/locations/locations-manager.md).
+如需有關如何檢視和刪除現有帳戶的資訊，請參閱 [位置管理員](/help/components/locations/locations-manager.md).
 
 若要設定雲端匯入或匯出帳戶：
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **元件**] > [!UICONTROL **位置**].
 1. 在 [!UICONTROL 位置] 頁面，選取 [!UICONTROL **位置帳戶**] 標籤。
-1. 選取 [!UICONTROL **新增帳戶**].
+1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的帳戶**] 檢視組織中所有使用者所建立帳號的選項。
+   ![檢視所有使用者的帳戶](assets/accounts-all-users.png)
+1. 若要建立新帳戶，請選取 [!UICONTROL **新增帳戶**].
 
-   新增帳戶對話方塊隨即顯示。
+   此 [!UICONTROL **位置帳戶詳細資料**] 對話方塊隨即顯示。
 
-1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 | | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶型別設定單一帳戶，並視需要在該帳戶內設立多個位置。 |
+   或
+
+   若要編輯現有帳戶，請找到您要編輯的帳戶，然後選取 [!UICONTROL **編輯詳細資料**] 按鈕。
+
+   此 [!UICONTROL **新增帳戶**] 對話方塊隨即顯示。
+
+1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 | | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **讓您組織中的所有使用者都可以使用帳戶**] | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。 <p>啟用此選項可允許組織中的其他使用者使用該帳戶。</p> <p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> | | [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如中所述 [設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
 1. 在 [!UICONTROL **帳戶屬性**] 區段，指定您所選取之帳戶型別的特定資訊。
 
    如需設定指示，請展開以下對應至 [!UICONTROL **帳戶型別**] 您已選取的專案。 （也可使用其他舊帳戶型別，但不建議使用。）
@@ -89,6 +101,22 @@ ht-degree: 61%
    | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+
+   {style="table-layout:auto"}
+
++++
+
+   +++電子郵件
+
+   >[!NOTE]
+   >
+   >電子郵件帳戶只能用於 [資料摘要](/help/export/analytics-data-feed/create-feed.md). (電子郵件帳戶不支援 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或 [分類設定](/help/components/classifications/sets/overview.md))。
+
+   若要設定 Azure RBAC 帳戶，請註明以下資訊：
+
+   | 欄位 | 函數 |
+   |---------|----------|
+   | [!UICONTROL **收件者**] | 傳送報告時可以向特定使用者傳送電子郵件通知。指定單一電子郵件地址或逗號分隔的電子郵件地址清單。 |
 
    {style="table-layout:auto"}
 
