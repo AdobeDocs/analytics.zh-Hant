@@ -3,46 +3,45 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: aabf3b2ef75206938f559af9376e5af483687dbf
+source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 97%
+source-wordcount: '987'
+ht-degree: 57%
 
 ---
 
-# Adobe Analytics 目前的版本注意事項 (2024 年 5 月)
+# 最新 Adobe Analytics 版本注意事項 (2024 年 6 月)
 
-**上次更新日期**：2024 年 6 月 3 日
+**上次更新**：2024年6月12日
 
-這些發行說明涵蓋 2024 年 5 月 15 日至 6 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年6月12日到7月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件** | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。現在提供新的文件資源來協助您更加瞭解：<ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li></ul>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted) | | 現已提供 |
-| **透過 XDM 設定 `contextData` 欄位** | 若客戶透過 Experience Edge Network 向 Adob&#x200B;&#x200B;e Analytics 發送資料，他們可以直接在 XDM 或承載的「資料」部分[設定內容資料值](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/page-vars/contextdata) 。 |  | 現已提供 |
-| **分析即時報告 2.0 API** | Adobe Analytics 中的新即時報告 API 2.0 改善了客戶整合並提供快速報告結果。這些結果可以透過程式設計方式來處理，運用在基本報告、趨勢報告和劃分報告中。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/real-time/) | | 2024 年 5 月 30 日 |
-| **串流媒體：使用 Web SDK，將 Web 資料傳送至 Adobe Experience Platform Edge Network** | 您現在可以使用 Adob&#x200B;&#x200B;e Experience Platform Web SDK，將串流 Web 資料傳送至 Adob&#x200B;&#x200B;e Experience Platform Edge Network。此增強功能可讓您建立更個人化的行銷活動並提供更個人化的內容，最後獲得更多追蹤資訊以進行報告。<p>此變更可為所有平台解決方案 (例如 Customer Journey Analytics、Adobe Real-time CDP、Adobe Journey Optimizer 和事件轉送) 的 Web 實施提供了統一的資料收集方法。以前，將串流媒體 Web 資料傳送到 Edge Network 時，唯一的方法就是使用 Media Edge API。 <p>[了解更多](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/media-edge-sdk/edge-web-sdk)</p> | | 2024 年 5 月 29 日 |
-| **提高預設低流臨界值** | 在 **2024 年 4 月中旬**，Adobe 將開始提高預設報告套裝低流量臨界值，如下所示： ![低流量臨界值](assets/thresholds.png) 這只會影響目前設定低於新臨界值的變數。這些改變將逐步進行，我們預計這項工作將在&#x200B;**五月底**&#x200B;結束。隨著這些增加的推出，您可能會注意到高基數變數的變化：<ul><li>更多維度值可用於報告。</li><li>區段和計算量度可能包含更多資料。</li><li>以區段為主的虛擬報告套裝可能包含更多資料。</li><li>分類匯出可能包含更多資料。</li></ul> | 2024 年 4 月中旬 | 2024 年 5 月 31 日 |
-| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | 位置管理器中的新「管理設定」標籤可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者設定雲端匯入和匯出帳戶和設定雲端匯入和匯出位置時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p><p>如需詳細資訊，請參閱 [設定全公司設定（僅限管理員）](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 在 [位置管理員](/help/components/locations/locations-manager.md).</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
-| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者設定雲端匯入和匯出帳戶和設定雲端匯入和匯出位置時，將可使用這些設定。 </p> <p>如需詳細資訊，請參閱 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
+| **自由表格的下拉式選單中提供多個篩選器時，請選取這些篩選器** | 當多個篩選器以下拉式選單形式新增至自由表格時，自由表格的使用者現在可以一次選取多個篩選器。 自由表格會經過篩選，加入任何選取的篩選器。 過去，使用者只能在篩選器下拉式選單中一次選取一個篩選器。<p>（請遵循檔案連結。） |  | 2024年6月19日 |
+| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 目錄可為個別專案或特定使用者的所有專案啟用。<p>（請遵循檔案連結。） |  | 2024年6月19日 |
+| **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>（請遵循檔案連結。）<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024年6月19日 |
+| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | 新 [位置管理員中的「管理員設定」索引標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 可讓管理員控制使用者是否可以建立和編輯帳戶與位置。 這些設定適用於使用者 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md). <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
+| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
 | **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 6 月 19 日開始 | 待定 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 修正了以下分類問題：AN-343186；AN-344711；AN-344856；AN-345094；AN-345179；AN-346265；AN-345288；AN-346339；AN-346560；AN-347572；AN-347681；AN-347768；AN-348024
-* 修正以下 Data Warehouse 問題：AN-346789；AN-347031；AN-347568；
-* 修正了以下資料摘要問題：AN-343616；AN-345831；AN-345988；AN-346124；AN-346232；AN-346972；AN-347680；AN-347755；AN-347954
-* 修正以下資料來源問題：AN-347890；
-* 修正了以下 Analysis Workspace 問題：AN-321503；AN-343103；AN-343471；AN-345171；AN-345223；AN-345912；AN-346026；AN-346330；AN-346839；AN-347679
-* 修正以下 A4T 問題：AN-345118；
+* 修正下列分類問題：AN-347682、AN-348396、AN-348625、AN-348668、AN-348926、AN-348936、AN-349040、AN-349191、AN-349195、AN-349443、AN-349697、AN-349758、AN-349862、AN-350051、AN-350054、AN-350208、AN-350497、AN-350525、AN-351067、AN-、AN-
+* 已修正下列Data Warehouse問題：AN-346862、AN-349409、AN-349926、AN-350629、AN-350996
+* 修正下列資料摘要問題：AN-346727、AN-348282、AN-348334、AN-348725、AN-348726、AN-348823、AN-349081、AN-349207、AN-349307、AN-349539、AN-349710、AN-349729、AN-349742、AN-349878、AN-349943、AN-350527；
+* 修正以下資料來源問題：AN-350038
+* 已修正下列Analysis Workspace問題：AN-342953、AN-346346、AN-349590、AN-349717、AN-350057、AN-350697、AN-350904
+* 已修正下列Report Builder問題：AN-348903；AN-350691
+* 修正以下 A4T 問題：AN-347690；AN-350853
 
 ### Analytics 其他修正
 
-AN-327749、AN-332949、AN-342881、AN-343171、AN-343708、AN-344034、AN-345559、AN-346023、AN-346230、AN-346330、AN-346469、AN-346606、AN-346750、AN-346973、AN-347026、AN-347110、AN-347439；
+AN-346470、AN-346850、AN-347227、AN-348145、AN-348564、AN-349001、AN-349008、AN-349211、AN-349719、AN-350523；
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
@@ -68,7 +67,7 @@ AN-327749、AN-332949、AN-342881、AN-343171、AN-343708、AN-344034、AN-34555
 
 ## 相關資源
 
-* [2023 年舊版發行說明](/help/release-notes/2023.md)
+* [2024 年舊版發行說明](/help/release-notes/2024.md)
 * [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
 * [Media Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。

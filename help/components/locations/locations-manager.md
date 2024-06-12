@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 地點管理員
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,8 @@ ht-degree: 1%
 {{release-limited-testing-section}}
 
 系統管理員可以限制使用者建立帳戶和位置，也可以限制使用者可以建立和使用的帳戶型別。
+
+![管理員設定索引標籤](assets/locations-admin-settings.png)
 
 ### 設定使用者是否可以建立和編輯帳戶
 
