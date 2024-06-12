@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: efad9aa1ac204f0ded52ab8253bf1fcbfbf39e9c
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 總覽](analysis-workspace/home.md)
    + 專案 {#build-workspace-project}
-      + [專案總覽](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [專案概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](analysis-workspace/build-workspace-project/create-projects.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾{#workspace-folders}
@@ -47,7 +47,7 @@ ht-degree: 100%
       + [使用預先建立的報告](analysis-workspace/reports/use-reports.md)
       + [建立和管理公司報告](analysis-workspace/reports/create-company-reports.md)
    + 元件 {#components}
-      + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
+      + [元件概觀](analysis-workspace/components/analysis-workspace-components.md)
       + [在工作區中使用元件](analysis-workspace/components/use-components-in-workspace.md)
       + [新增元件說明](analysis-workspace/components/add-component-descriptions.md)
       + 註解 {#annotations}
@@ -74,7 +74,7 @@ ht-degree: 100%
          + [編輯資料字典中的元件條目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [監視資料字典健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 視覺效果 {#visualizations}
-      + [視覺效果總覽](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [視覺效果概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
       + 自由表格 {#freeform-table}
          + [自由表格](analysis-workspace/visualizations/freeform-table/freeform-table.md)
@@ -89,12 +89,12 @@ ht-degree: 100%
          + [設定同類群組分析報告](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [同類群組分析使用案例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
-         + [流失總覽](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [流失概觀](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [設定流失視覺效果](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [多維度流失](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [在流失分析中套用區段](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
-         + [流量總覽](analysis-workspace/visualizations/c-flow/flow.md)
+         + [流量概觀](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [維度間流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [區域圖和堆疊區域圖](analysis-workspace/visualizations/area.md)
@@ -145,16 +145,16 @@ ht-degree: 100%
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + 異常偵測 {#anomaly-detection}
-      + [異常偵測總覽](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [異常偵測概觀](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [在 Analysis Workspace 中檢視異常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [關閉異常偵測](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [執行貢獻分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [用於異常偵測的統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
       + 智慧型警報 {#intelligent-alerts}
          + [智慧型警報總覽](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [警報管理員](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+         + [建立警報](analysis-workspace/c-intelligent-alerts/alert-builder.md)
+         + [管理警報](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](analysis-workspace/workspace-faq/faq.md)

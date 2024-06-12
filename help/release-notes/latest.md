@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6349edc65b953ce7f41d5a5990c8afd6efa20d8d
+source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 57%
+source-wordcount: '969'
+ht-degree: 58%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 57%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **自由表格的下拉式選單中提供多個篩選器時，請選取這些篩選器** | 當多個篩選器以下拉式選單形式新增至自由表格時，自由表格的使用者現在可以一次選取多個篩選器。 自由表格會經過篩選，加入任何選取的篩選器。 過去，使用者只能在篩選器下拉式選單中一次選取一個篩選器。<p>（請遵循檔案連結。） |  | 2024年6月19日 |
+| **在下拉式篩選器中選取多個欄位** | 將多個欄位新增至下拉篩選器時，使用者現在可以一次選取多個欄位。 會篩選面板以包含任何選取的欄位。 <p>以前，使用者在下拉式篩選器中一次只能選取一個欄位。</p><p>（請遵循檔案連結。）</p> |  | 2024年6月19日 |
 | **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 目錄可為個別專案或特定使用者的所有專案啟用。<p>（請遵循檔案連結。） |  | 2024年6月19日 |
 | **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>（請遵循檔案連結。）<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024年6月19日 |
 | **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | 新 [位置管理員中的「管理員設定」索引標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 可讓管理員控制使用者是否可以建立和編輯帳戶與位置。 這些設定適用於使用者 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md). <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
