@@ -4,10 +4,10 @@ title: 警報管理器(Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
-source-git-commit: d6d42b079a013eb5608ad85ae311d8bf0f7a5d21
+source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 7%
+source-wordcount: '327'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,22 @@ ht-degree: 7%
 
 1. 選取 [!UICONTROL **新增**] (或 [!UICONTROL **建立新警報**] 如果您沒有任何現有的警示)。
 
-1. 繼續使用 [建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) 以取得有關建立警示的詳細資訊。
+1. 選取對應至您要建立之警示的警示型別：
+
+   * [!UICONTROL **Analytics資料警報**]：當資料中發生異常事件時通知您的警報。
+
+     如果您選取此選項，請繼續 [建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md) 以取得有關建立警示的詳細資訊。
+
+   * [!UICONTROL **伺服器呼叫使用量警報**]：警報，通知您伺服器呼叫耗用量和承諾使用量資料中出現超額的風險或發生次數。
+
+     如果您選取此選項，請繼續 [伺服器呼叫使用量警報](/help/admin/admin/c-server-call-usage/scu-alerts.md).
+
+     >[!NOTE]
+     >
+     >您必須是Analytics管理員或具有伺服器呼叫使用量許可權的使用者，才能存取伺服器呼叫使用量。
+
+
+
 
 ## 管理現有警報
 
