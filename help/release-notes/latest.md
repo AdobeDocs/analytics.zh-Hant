@@ -3,7 +3,7 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a85150e1299e0d5164c4eaa0fe9d5d6f67ef15b3
+source-git-commit: d28dee410fe5ea7fec65dfc9e86f9d8a3c242d13
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 58%
@@ -12,7 +12,7 @@ ht-degree: 58%
 
 # 最新 Adobe Analytics 版本注意事項 (2024 年 6 月)
 
-**上次更新**：2024年6月12日
+**上次更新**：2024年6月13日
 
 這些發行說明涵蓋2024年6月12日到7月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
