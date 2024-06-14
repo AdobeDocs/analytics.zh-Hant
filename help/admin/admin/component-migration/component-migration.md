@@ -3,9 +3,9 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1398'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 >
 >在依本節所述將任何專案移轉至Customer Journey Analytics之前，請先瞭解更多有關移轉專案的資訊，請參閱 [準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md).
 >
->您對映的任何維度或量度都會永久存在，不僅適用於此專案，也適用於所有在整個IMS組織中移轉的未來專案。 移轉完成之後，就無法修改您所做的任何對應。
+>**無論此專案或是在整個IMS組織中移轉的所有未來專案，您對映的任何維度或量度都是永久性的，無論執行移轉的使用者為何。 除非連絡客戶服務，否則無法修改或復原這些對應。**
 
 1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**]」索引標籤，然後選取「[!UICONTROL **所有管理員**]」。
 

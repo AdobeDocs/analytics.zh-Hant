@@ -4,7 +4,7 @@ title: 智慧型警報概述
 feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 52%
@@ -39,7 +39,7 @@ Adobe Analytics中的智慧型警報（或只是「警報」）可讓您在資�
 
 ## 建立警報
 
-如需如何在Adobe Analytics中建立警報的詳細資訊，請參閱 [建立警報](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+如需如何在Adobe Analytics中建立警報的詳細資訊，請參閱 [建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
 
 >[!IMPORTANT]
 >
