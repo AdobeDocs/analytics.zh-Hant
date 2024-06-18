@@ -1,16 +1,17 @@
 ---
 description: 瞭解如何在Analysis Workspace中新增元件至專案
-title: 在Analysis Workspace中使用元件
+title: 在 Analysis Workspace 中使用元件
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 0928628c9cffa91f90fa5d8af535eb834bb7502d
+exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 15%
+source-wordcount: '873'
+ht-degree: 16%
 
 ---
 
-# 在Analysis Workspace中使用元件
+# 在 Analysis Workspace 中使用元件
 
 元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、區段和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
 
@@ -32,11 +33,15 @@ ht-degree: 15%
 
    ![](assets/build-components.png)
 
-1. 捲動至或搜尋您要新增的元件，然後將其拖曳至專案中的面板或視覺效果。
+1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺化效果中。
 
-   例如，您可以將區段拖曳至面板標頭中的區段放置區。
+1. （可選）將元件拖曳至面板標頭中的區段托放區。
 
-   ![將區段拖放至拖放區域](assets/segment-dropzone.png)
+   區段會套用至面板內的所有內容。
+
+   如需如何在面板上使用區段放置區域來篩選面板的相關資訊，請參閱 [拖放區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).
+
+   ![將區段放入放置區](assets/segment-dropzone.png)
 
 1. 如需更多詳細資訊，請根據您新增的元件型別，繼續下列其中一節：
 
@@ -62,7 +67,11 @@ ht-degree: 15%
 
    * 從左側邊欄將一或多個維度拖曳至區段托放區以建立臨機區段，如所述 [將區段新增至專案](#add-segments-to-a-project).
 
-     ![將區段拖放至拖放區域](assets/segment-dropzone.png)
+     ![將區段放入放置區](assets/segment-dropzone.png)
+
+1. （選用）您可以在Analysis Workspace中搭配其他元件來劃分維度和維度專案。
+
+   如需詳細資訊，請參閱 [劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 如需如何在Analysis Workspace中使用維度的詳細資訊，請參閱 [預覽維度](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md)， [劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)、和 [時間分段維度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
@@ -92,31 +101,23 @@ ht-degree: 15%
 
 [區段](/help/components/segmentation/seg-overview.md) 可讓您根據特性或特定互動來識別訪客的子集。
 
-若要在Analysis Workspace中新增區段至專案：
+您可以透過下列任何方式在Analysis Workspace中使用區段：
 
-1. 如所述，開始在Analysis Workspace中將區段新增至您的專案 [開始新增元件至專案](#begin-adding-components-to-a-project).
+### 新增區段至面板
 
-1. 選擇下列其中一個方法，開始篩選面板：
+將區段新增至面板時，區段會套用至面板內的所有內容。
 
-   * 將個別區段從左側邊欄拖曳至區段托放區。
+如需如何在面板上使用區段放置區域來篩選面板的相關資訊，請參閱 [拖放區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-     ![將區段拖放至拖放區域](assets/segment-dropzone.png)
+### 在自由格式表格中新增區段至欄
 
-   * 按住Shift或Ctrl鍵，在左側邊欄中選取多個區段，然後按住Shift鍵，將區段拖放至區段拖放區域。
+將區段新增至自由表格中的欄時，區段會套用至表格欄中的所有內容。
 
-     ![在拖放區域中拖放多個區段](assets/segment-dropzoone-multiple.png)
+### 建立計算量度時使用區段
 
-     這會建立下拉式功能表，讓面板的使用者選擇要套用的篩選器。 下拉式功能表包含 [!UICONTROL **無篩選器**] 使用者可選取的選項，此選項會讓面板保持未篩選狀態。
+在計算量度產生器中，您可以在量度定義中套用區段。
 
-     您可以從下拉式選單中選取(x)以移除任何選項。 如果您移除 [!UICONTROL **無篩選器**] 選項，則需要篩選。
-
-   * 將非區段元件拖放至拖放區域，以建立臨時區段。 這可讓您節省前往「區段產生器」的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
-
-     臨時區段是一種快速區段，屬於專案的本機型別。 除非您將其公開，否則它們不會顯示在左側邊欄中。
-
-     如需更多資訊，請參閱[快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。
-
-如需有關如何使用面板上的區段放置區域來篩選面板的詳細資訊，請參閱 [拖放區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).
+如需詳細資訊，請參閱 [區段量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
 ## 新增日期範圍至專案
 

@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d28dee410fe5ea7fec65dfc9e86f9d8a3c242d13
+source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 58%
+source-wordcount: '987'
+ht-degree: 57%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 58%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在下拉式篩選器中選取多個欄位** | 將多個欄位新增至下拉篩選器時，使用者現在可以一次選取多個欄位。 會篩選面板以包含任何選取的欄位。 <p>以前，使用者在下拉式篩選器中一次只能選取一個欄位。</p><p>（請遵循檔案連結。）</p> |  | 2024年6月19日 |
-| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 目錄可為個別專案或特定使用者的所有專案啟用。<p>（請遵循檔案連結。） |  | 2024年6月19日 |
-| **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>（請遵循檔案連結。）<!--For more information, see "Add hyperlinks to dimensions in a freeform table."--></p> |  | 2024年6月19日 |
+| **在下拉式篩選器中選取多個欄位** | 將多個欄位新增至下拉篩選器時，使用者現在可以一次選取多個欄位。 會篩選面板以包含任何選取的欄位。 <p>以前，使用者在下拉式篩選器中一次只能選取一個欄位。</p><p>如需詳細資訊，請參閱 [靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | 2024年6月19日 |
+| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 目錄可為個別專案或特定使用者的所有專案啟用。<p>如需詳細資訊，請參閱 [專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | 2024年6月19日 |
+| **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱 [在自由表格中建立維度的超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024年6月19日 |
 | **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | 新 [位置管理員中的「管理員設定」索引標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 可讓管理員控制使用者是否可以建立和編輯帳戶與位置。 這些設定適用於使用者 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md). <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
 | **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
 | **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 6 月 19 日開始 | 待定 |
