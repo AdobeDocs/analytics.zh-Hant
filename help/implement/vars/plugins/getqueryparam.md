@@ -4,10 +4,10 @@ description: 擷取 URL 查詢字串參數的值。
 feature: Variables
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 74%
+source-wordcount: '760'
+ht-degree: 73%
 
 ---
 
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (2021 年 3 月 19 日)
 
 * 將版本編號加入為內容資料。
-* 已移除 pt 外掛程式上的相依性。
+* 已移除的相依性 `pt` 外掛程式。
 
 ### 3.3 (2019 年 9 月 24 日)
 

@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d48f74d4fa642e34de601466737f16fc228a8199
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '5586'
 ht-degree: 99%
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 6 月** | |
-| 改善智慧型警報說明檔案 | 更新並改善警示相關檔案。 這些更新包括關於以下內容的資訊 [建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)， [管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)、和 [總覽資訊](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md). |
+| 經過改善的智慧警報文件 | 更新並改進了有關警報的文件。這些更新包括有關[建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)的資訊，和[概觀資訊](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)。 |
 | **2024 年 5 月** | |
 | 在資料摘要和 Data Warehouse 中透過 Google Cloud Platform 使用組織原則限制時的必要資訊 | 將 Adobe 擁有的 Google Cloud Platform 組織 ID 新增至[資料摘要](/help/export/analytics-data-feed/create-feed.md)和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 文件中。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般資訊。 |
@@ -140,7 +140,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | VISTA | 說明[VISTA 規則](/help/technotes/vista.md)基本概念的新頁面。 |
 | **2022 年 9 月** | |
 | 組合圖 | 在[組合圖](/help/analyze/analysis-workspace/visualizations/combo-charts.md)視覺化上的新主題。 |
-| 更新外掛程式 | 更新版本的 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 實施外掛程式。 |
+| 已更新外掛程式 | 已更新版本的 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 實作外掛程式。 |
 | 新的設定變數 | 有關 [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) 的文件 |
 | 高平圴資訊量的用戶端提示 | 有關 Adobe 如何在使用者代理程式之外使用[用戶端提示](/help/technotes/client-hints.md)來確定裝置資訊的新主題。 |
 | 處理順序 | 匯總了各種說明頁面以提供有關[處理順序](/help/technotes/processing-order.md)的單一說明主題 |

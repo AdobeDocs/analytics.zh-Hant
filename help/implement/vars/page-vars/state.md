@@ -1,13 +1,13 @@
 ---
 title: 州別
-description: 在 Reports and Analytics 中填入「訪客州報表」。
+description: （已淘汰）填入無法再使用的「訪客州報表」。
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 93%
+source-wordcount: '225'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->此變數已遭到淘汰，在 Analysis Workspace 中不是可用維度。請改用「美國州」維度；AppMeasurement 會根據訪客的位置自動收集該維度。
+>此變數已遭到淘汰，在 Analysis Workspace 中不是可用維度。使用 [美國各州](/help/components/dimensions/us-states.md) AppMeasurement會根據訪客的位置自動收集維度。
 
 在舊版 Adobe Analytics 中，當訪客在零售網站上填寫運送資訊時，會使用 `state` 變數。它的功能與 prop 相同，不過在 Analysis Workspace 中無法使用。
 

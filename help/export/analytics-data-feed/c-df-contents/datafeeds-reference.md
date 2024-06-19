@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6fbfaf295899b77fc22f79ee58b70a19c7e5563c
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '3928'
 ht-degree: 99%
@@ -68,7 +68,7 @@ ht-degree: 99%
 | **`daily_visitor`** | 確定點擊是否為新每日訪客的旗標。 | 不帶正負號的 tinyint |
 | **`dataprivacyconsentoptin`** | 在[同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
 | **`dataprivacyconsentoptout`** | 在[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
-| **`dataprivacydmaconsent`** | 識別透過Adobe Advertising將資料從Adobe Analytics傳送至第三方廣告提供者(如Google)時是否獲得同意的值。 另請參閱 [廣告同意](/help/components/dimensions/ad-consent.md) 以取得詳細資訊。 | varchar(100) |
+| **`dataprivacydmaconsent`** | 此值識別是否需要同意才能從 Adobe Analytics 透過 Adobe Advertising 將資料傳送到第三方廣告提供者 (例如 Google)。如需詳細資訊，請參閱[廣告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
 | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
 | **`domain`** | 用於[網域](/help/components/dimensions/domain.md)維度的變數。根據訪客的網際網路存取點而定。 | varchar(100) |
 | **`duplicate_events`** | 列出每個計為重複項目的事件。 | varchar(255) |
@@ -161,7 +161,7 @@ ht-degree: 99%
 | **`namespace`** | 未使用。屬於已報廢功能。 | varchar(50) |
 | **`new_visit`** | 此旗標可確定目前的點擊是否為新造訪。造訪閒置 30 分鐘後，由 Adobe 伺服器設定。 | 不帶正負號的 tinyint |
 | **`os`** | 表示訪客的作業系統的數值 ID。依據`user_agent`欄而定。`operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | 不帶正負號的 int |
-| **`p_plugins`** | 已不再使用。瀏覽器的可用外掛程式清單.使用的 JavaScript 函數 `navigator.plugins()`。 | 文字 |
+| **`p_plugins`** | 已不再使用。瀏覽器可用的外掛程式清單。 使用的 JavaScript 函數 `navigator.plugins()`。 | 文字 |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
 | **`page_event_var1`** | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
 | **`page_event_var2`** | 僅用於連結追蹤影像要求。連結的自訂名稱 (若有)。 | varchar(100) |
@@ -173,7 +173,7 @@ ht-degree: 99%
 | **`paid_search`** | 如果點擊符合付費搜尋偵測，則會設定此旗標。 | 不帶正負號的 tinyint |
 | **`partner_plugins`** | 未使用。屬於已報廢功能。 | varchar(255) |
 | **`persistent_cookie`** | 用於[持續性 Cookie 支援](/help/components/dimensions/persistent-cookie-support.md)維度。指出訪客是否支援每次點擊後未捨棄的 Cookie。 | char(1) |
-| **`plugins`** | 已不再使用。與瀏覽器中可用外掛程式對應的數值 ID 清單。使用`plugins.tsv`查詢。 | varchar(180) |
+| **`plugins`** | 已不再使用。與瀏覽器中可用外掛程式對應的數值ID清單。 使用`plugins.tsv`查詢。 | varchar(180) |
 | **`pointofinterest`** | 行動服務興趣點名稱 | varchar(255) |
 | **`pointofinterestdistance`** | 行動服務與興趣點中心的距離 | varchar(255) |
 | **`post_`**&#x200B;欄 | 包含報表中最終使用的值。每個後置欄會填入伺服器端邏輯、處理規則和 VISTA 規則之後。Adobe 建議在大多數情況下使用後置欄。 | 請參閱各個非後置欄 |

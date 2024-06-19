@@ -4,10 +4,10 @@ description: 利用滑鼠的移動動態地辨認出機器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 ## 使用外掛程式
 
-如果偵測到非機器人流量，`websiteBot` 外掛程式會引發 `s.tl` 呼叫。
+此 `websiteBot` 外掛程式觸發 `s.tl` 如果偵測到非機器人流量，則呼叫。
 
 ## 範例
 

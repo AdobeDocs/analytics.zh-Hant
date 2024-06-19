@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '2541'
 ht-degree: 99%
@@ -34,7 +34,7 @@ ht-degree: 99%
    * 管道變數，會填入「網站區段」維度。請參閱實施作業使用手冊中的[頁面變數](/help/implement/vars/page-vars/page-variables.md)。
    * 行銷管道，此元件有助於瞭解使用者如何到達您的網站。請參閱元件使用手冊中的[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **分類：** Adobe Analytics 的一項功能，用於將維度項目分組。請參閱元件使用手冊中的[分類](/help/components/classifications/c-classifications.md)。
-* **點按圖：**&#x200B;已停止使用。一種舊版瀏覽器外掛程式，可顯示網站上哪些區域的點按頻率最高。此工具已淘汰，改用 Activity Map。
+* **點按圖：**&#x200B;已停止使用。一種舊版瀏覽器外掛程式，可顯示網站上哪些區域的點按頻率最高。此工具已淘汰，改用Activity Map。
 * **點按流資料摘要：**&#x200B;請見「資料摘要」。
 * **同類群組：**&#x200B;指定的一段時間內具有共同特徵的一群人。請參閱分析使用手冊中的[同類群組分析是什麼？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集伺服器：**&#x200B;請見「資料收集伺服器」。

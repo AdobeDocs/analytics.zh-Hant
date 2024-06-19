@@ -3,7 +3,7 @@ title: 如何在 Adobe Analytics 中計算逗留時間
 description: 逗留時間維度和量度的彙總頁面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 72%
@@ -24,7 +24,7 @@ ht-degree: 72%
 | [!UICONTROL 逗留時間/使用者（狀態）] | 大約 *行動應用程式總逗留秒數/不重複行動應用程式訪客*<br>&#x200B;代表行動應用程式訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
 | [!UICONTROL 網站平均逗留時間] (秒數) | 代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。這不只限於名稱所建議的「網站」平均值。 如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意**：因為在計算中使用不同的分母，此量度與維度項目層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace，Report Builder（以分鐘為單位顯示） |
 | [!UICONTROL 網站平均逗留時間] | 這是與相同的量度 *網站平均逗留時間（秒數）*，但時間格式除外(`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL 平均頁面逗留時間] | 已停用的量度。<br> 反之，我們建議您在需要維度專案的平均時間量時，使用「網站平均逗留時間」。 | Report Builder (請求中包含維度時) |
+| [!UICONTROL 平均頁面逗留時間] | 已停用的量度。<br> 反之，Adobe建議您在需要維度專案的平均時間量時，使用「網站平均逗留時間」。 | Report Builder (請求中包含維度時) |
 | [!UICONTROL 工作階段長度總計]，又稱為[!UICONTROL 上一個工作階段長度] | 僅限於行動應用程式 SDK。<br>針對前一個作業，在下一次應用程式啟動時決定。計算單位為秒，當應用程式在背景中執行時不會計算此量度，只有在使用中才會計算。這是作業層級量度。<br>範例：我們安裝了應用程式 ABC，啟動後使用了 2 分鐘，然後關閉應用程式。在此工作階段中，系統不會傳送任何相關資料。下次啟動應用程式時，系統將會傳送值為 120 的[!UICONTROL 上一個工作階段長度]。 | Analysis Workspace、Report Builder、Mobile Services UI |
 | [!UICONTROL 平均工作階段長度] (行動) | *工作階段長度總計/(啟動次數 - 首次啟動)*<br>&#x200B;僅限行動應用程式 SDK。這是作業層級量度。 | Report Builder、Mobile Services UI |
 

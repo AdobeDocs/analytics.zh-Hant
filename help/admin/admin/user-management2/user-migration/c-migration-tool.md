@@ -4,9 +4,9 @@ title: Analytics 使用者移轉至 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3084'
 ht-degree: 98%
 
 ---
@@ -269,7 +269,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>登入身分 </p> </td> 
-   <td colname="col2"> <p> 移轉至 Adobe Admin Console 的管理員，將無法繼續使用「登入身分」功能存取已移轉至 Adobe Admin Console 的非管理員使用者帳戶。 我們即將從 Analytics 廢除此功能。 </p> </td> 
+   <td colname="col2"> <p> 移轉至 Adobe Admin Console 的管理員，將無法繼續使用「登入身分」功能存取已移轉至 Adobe Admin Console 的非管理員使用者帳戶。 此功能已淘汰。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用者有效期和資產傳送 </p> </td> 

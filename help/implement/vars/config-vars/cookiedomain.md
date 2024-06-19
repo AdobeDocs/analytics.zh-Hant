@@ -1,20 +1,19 @@
 ---
 title: cookieDomain
-description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
+description: （已淘汰）協助判斷要設定Cookie的網域。
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 81%
+source-wordcount: '197'
+ht-degree: 77%
 
 ---
 
 # cookieDomain
 
 >[!IMPORTANT]
->
 >此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
 
 `cookieDomain` 變數決定了 AppMeasurement 在哪個網域設定 Cookie。您可以使用此變數來明確設定 Cookie 網域，而非使用 [`cookieDomainPeriods`](cookiedomainperiods.md) 變數。
