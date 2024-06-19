@@ -4,10 +4,10 @@ description: （已棄用）協助AppMeasurement判斷當網站最上層網域�
 feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: c7e525b68898a6663f3b40e2293f959d4bd129b2
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 19%
+source-wordcount: '372'
+ht-degree: 18%
 
 ---
 
@@ -15,7 +15,13 @@ ht-degree: 19%
 # cookieDomainPeriods
 
 >[!IMPORTANT]
->此變數已遭取代。 如果您使用AppMeasurement v2.26.x或更新版本，或Adobe Analytics擴充功能v1.9.4或更新版本，程式庫會自動偵測網域以設定Cookie。
+>此變數已遭取代。 如果您使用下列任何一項：
+>
+>* AppMeasurement v2.26.x或更新版本
+>* Adobe Analytics擴充功能v1.9.4或更新版本
+>* Adobe Experience Cloud ID服務
+>
+>此變數不會產生任何效用，因為適用的程式庫會自動偵測要設定Cookie的網域。
 
 此 `cookieDomainPeriods` 變數指出最上層網域中含有額外的句號，有助於AppMeasurement判斷應在何處設定Analytics Cookie。 此變數允許AppMeasurement在頂層網域中容納額外的句號，並在正確位置設定Cookie。 如果您的網站最上層網域未包含額外的句號，則不需要此變數。
 
