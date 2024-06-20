@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要匯出原始資料，以及如何使用 Data Warehouse 擷取試算表輸出資料。了解如何使用 FTP 和 SFTP 傳輸檔案。
-source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
-workflow-type: ht
-source-wordcount: '309'
-ht-degree: 100%
+source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)
-   + 建立 Data Warehouse 請求 {#dw-create-request}
+   + 建立Data Warehouse請求 {#dw-create-request}
       + [建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [建置您的報告](/help/export/data-warehouse/create-request/dw-request-build-report.md)
@@ -57,7 +57,6 @@ ht-degree: 100%
       + [設定 FTP 帳戶 - 概觀](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分類](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [資料來源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [資料連接器](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [資料摘要](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)

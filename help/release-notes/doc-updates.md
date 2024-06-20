@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 9a44c2df3cb65a23c0e38a8af3892d045a279818
 workflow-type: tm+mt
-source-wordcount: '5586'
+source-wordcount: '5617'
 ht-degree: 99%
 
 ---
@@ -27,6 +27,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2024 年 6 月** | |
 | 經過改善的智慧警報文件 | 更新並改進了有關警報的文件。這些更新包括有關[建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)的資訊，和[概觀資訊](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)。 |
+| 已棄用 `cookieDomainPeriods` | 現在，該AppMeasurement會自動偵測要設定Cookie的正確網域， [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 變數已遭取代。 |
+| 淘汰Data Connectors檔案 | 將Data Connectors生命週期結束頁面移至 [停產的產品](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **2024 年 5 月** | |
 | 在資料摘要和 Data Warehouse 中透過 Google Cloud Platform 使用組織原則限制時的必要資訊 | 將 Adobe 擁有的 Google Cloud Platform 組織 ID 新增至[資料摘要](/help/export/analytics-data-feed/create-feed.md)和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 文件中。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般資訊。 |
