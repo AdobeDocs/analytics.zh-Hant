@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 82c6d1e6d748a9b52b5988af5abb78d2c27ca077
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1470'
 ht-degree: 54%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 54%
 
    此 [!UICONTROL **新增帳戶**] 對話方塊隨即顯示。
 
-1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 | | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **讓您組織中的所有使用者都可以使用帳戶**] | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。 <p>啟用此選項可允許組織中的其他使用者使用該帳戶。</p> <p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> | | [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如中所述 [設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
+1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 | | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **讓您組織中的所有使用者都可以使用帳戶**] | 啟用此選項可允許組織中的其他使用者使用該帳戶。<p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> | | [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如中所述 [設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
 1. 在 [!UICONTROL **帳戶屬性**] 區段，指定您所選取之帳戶型別的特定資訊。
 
    如需設定指示，請展開以下對應至 [!UICONTROL **帳戶型別**] 您已選取的專案。 （也可使用其他舊帳戶型別，但不建議使用。）

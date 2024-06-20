@@ -3,45 +3,45 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 57%
+ht-degree: 96%
 
 ---
 
 # 最新 Adobe Analytics 版本注意事項 (2024 年 6 月)
 
-**上次更新**：2024年6月13日
+**上次更新日期**：2024 年 13 月 13 日
 
-這些發行說明涵蓋2024年6月12日到7月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋的發行期間為 2024 年 6 月 12 日至 7 月。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在下拉式篩選器中選取多個欄位** | 將多個欄位新增至下拉篩選器時，使用者現在可以一次選取多個欄位。 會篩選面板以包含任何選取的欄位。 <p>以前，使用者在下拉式篩選器中一次只能選取一個欄位。</p><p>如需詳細資訊，請參閱 [靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | 2024年6月19日 |
-| **工作區專案的目錄** | 專案現在有新的目錄可用。 目錄提供的連結可讓使用者快速跳至專案內的面板和視覺效果。 目錄可為個別專案或特定使用者的所有專案啟用。<p>如需詳細資訊，請參閱 [專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | 2024年6月19日 |
-| **在自由表格中建立維度專案的超連結** | 您可以為一或多個維度專案建立超連結，以便在Analysis Workspace的自由格式表格內點選這些專案。 <p>您可以為具有URL值的維度專案建立超連結，或為具有非URL值的維度專案建立自訂URL。</p><p>您可以使用變數，為多個維度專案建立動態自訂URL。 變數可參考維度專案的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱 [在自由表格中建立維度的超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024年6月19日 |
-| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | 新 [位置管理員中的「管理員設定」索引標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only) 可讓管理員控制使用者是否可以建立和編輯帳戶與位置。 這些設定適用於使用者 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md) 和 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md). <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
-| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024 年 6 月 30 日 |
+| **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>如需詳細資訊，請參閱 [靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | 2024 年 6 月 19 日 |
+| **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者能快速跳到專案中的面板和視覺化內容。可為單一專案或指定使用者的所有專案啟用目錄。<p>如需詳細資訊，請參閱 [專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | 2024 年 6 月 19 日 |
+| **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使它們在 Analysis Workspace 的自由格式表格中可進行點選。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱 [在自由表格中建立維度的超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024 年 6 月 19 日 |
+| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024年6月20日 |
+| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024年6月20日 |
 | **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 6 月 19 日開始 | 待定 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 修正下列分類問題：AN-347682、AN-348396、AN-348625、AN-348668、AN-348926、AN-348936、AN-349040、AN-349191、AN-349195、AN-349443、AN-349697、AN-349758、AN-349862、AN-350051、AN-350054、AN-350208、AN-350497、AN-350525、AN-351067、AN-、AN-
-* 已修正下列Data Warehouse問題：AN-346862、AN-349409、AN-349926、AN-350629、AN-350996
-* 修正下列資料摘要問題：AN-346727、AN-348282、AN-348334、AN-348725、AN-348726、AN-348823、AN-349081、AN-349207、AN-349307、AN-349539、AN-349710、AN-349729、AN-349742、AN-349878、AN-349943、AN-350527；
+* 修正以下分類問題：AN-347682；AN-348396；AN-348625；AN-348668；AN-348926；AN-348936；AN-349040；AN-349191；AN-349195；AN-349443；AN-349697；AN-349758；AN-349862；AN-350051；AN-350054；AN-350208；AN-350497；AN-350525；AN-351067
+* 修正以下資料倉儲問題：AN-346862；AN-349409；AN-349926；AN-350629；AN-350996
+* 修正以下資料饋送問題：AN-346727；AN-348282；AN-348334；AN-348725；AN-348726；AN-348823；AN-349081；AN-349207；AN-349307；AN-349539；AN-349710；AN-349729；AN-349742；AN-349878；AN-349943；AN-350527；
 * 修正以下資料來源問題：AN-350038
-* 已修正下列Analysis Workspace問題：AN-342953、AN-346346、AN-349590、AN-349717、AN-350057、AN-350697、AN-350904
-* 已修正下列Report Builder問題：AN-348903；AN-350691
+* 修正以下 Analysis Workspace 問題：AN-342953； AN-346346； AN-349590； AN-349717； AN-350057； AN-350697； AN-350904
+* 修正以下 Report Builder 問題：AN-348903；AN-350691
 * 修正以下 A4T 問題：AN-347690；AN-350853
 
 ### Analytics 其他修正
 
-AN-346470、AN-346850、AN-347227、AN-348145、AN-348564、AN-349001、AN-349008、AN-349211、AN-349719、AN-350523；
+AN-346470；AN-346850；AN-347227；AN-348145；AN-348564；AN-349001；AN-349008；AN-349211；AN-349719；AN-350523；
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 

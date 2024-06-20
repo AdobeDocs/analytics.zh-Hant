@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 地點管理員
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: c42ad8d3e0c21cc1fb13f9a8993aca4825286d4f
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 1%
@@ -128,8 +128,6 @@ ht-degree: 1%
 1. 在您要編輯的帳戶上選取3點圖示，然後選取「 」 [!UICONTROL **刪除帳戶**]
 
 ## 設定全公司設定（僅限管理員）
-
-{{release-limited-testing-section}}
 
 系統管理員可以限制使用者建立帳戶和位置，也可以限制使用者可以建立和使用的帳戶型別。
 

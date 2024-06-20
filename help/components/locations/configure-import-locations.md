@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 04d05fe10e46ca99dd1bd8019161143dab47e61d
+source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
 workflow-type: tm+mt
-source-wordcount: '1730'
-ht-degree: 31%
+source-wordcount: '1687'
+ht-degree: 30%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 31%
    此 [!UICONTROL **位置詳細資料**] 對話方塊隨即顯示。
 
 1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **名稱**] | 位置的名稱。  |
-| [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。| | [!UICONTROL **搭配使用**] | 選擇您是否想要將此位置與 [!UICONTROL **資料摘要**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分類設定**]. <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於「Data Warehouse」或「分類設定」。</li><li>若要避免位置內的檔案衝突，請勿變更 [!UICONTROL **搭配使用**] 位置之後的欄位。</li><li>如果您要建立電子郵件帳戶的位置，請選取 [!UICONTROL **Data Warehouse**] 在此欄位中。 資料摘要和分類集不支援電子郵件位置。</li></ul> | | [!UICONTROL **讓位置可供組織中的所有使用者使用**] | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。 <p>啟用此選項可允許組織中的其他使用者使用該位置。</p> <p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> | | [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md). |
+| [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。| | [!UICONTROL **搭配使用**] | 選擇您是否想要將此位置與 [!UICONTROL **資料摘要**]， [!UICONTROL **Data Warehouse**]，或 [!UICONTROL **分類設定**]. <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於「Data Warehouse」或「分類設定」。</li><li>若要避免位置內的檔案衝突，請勿變更 [!UICONTROL **搭配使用**] 位置之後的欄位。</li><li>如果您要建立電子郵件帳戶的位置，請選取 [!UICONTROL **Data Warehouse**] 在此欄位中。 資料摘要和分類集不支援電子郵件位置。</li></ul> | | [!UICONTROL **讓位置可供組織中的所有使用者使用**] | 啟用此選項可允許組織中的其他使用者使用該位置。<p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> | | [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md). |
 
 1. 若要完成設定位置的表單，請繼續以下對應於您在 [!UICONTROL **位置帳戶**] 欄位。 （也可使用其他舊帳戶型別，但不建議使用。）
 
