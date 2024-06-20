@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 96%
+source-wordcount: '1051'
+ht-degree: 90%
 
 ---
 
 # 最新 Adobe Analytics 版本注意事項 (2024 年 6 月)
 
-**上次更新日期**：2024 年 13 月 13 日
+**上次更新**：2024年6月20日
 
 這些發行說明涵蓋的發行期間為 2024 年 6 月 12 日至 7 月。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 | **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024年6月20日 |
 | **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024年6月20日 |
 | **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 6 月 19 日開始 | 待定 |
+| **新資料來源API指南** | 此 [Adobe Analytics 2.0資料來源API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) 端點提供建立、檢視、刪除和上傳資料來源帳戶的方法。 |  | 現已提供 |
+| **分類API指南中的新方法** | 分類API指南新增了兩種擷取檔案分割的新方法。<ul><li>[取得分類工作檔案分割](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[取得分類匯出工作檔案部分](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | 現已提供 |
 
 {style="table-layout:auto"}
 
