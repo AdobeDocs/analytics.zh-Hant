@@ -3,9 +3,10 @@ title: 在Analysis Workspace的自由格式表格中建立超連結
 description: 瞭解如何在Analysis Workspace的自由格式表格中建立維度專案的超連結
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
+source-git-commit: 00a0288616401045585f70c768a20fc122e584c9
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -35,6 +36,8 @@ ht-degree: 0%
   如果您建立具有無效URL的超連結，或您建立參照沒有URL值的維度專案的超連結(直接參照維度專案或使用 `$value` 或 `$breakdown` 變數)，則按一下超連結的使用者會看到錯誤訊息，指出URL無效。
 
 * 為單一維度專案建立的超連結會覆寫在維度上建立的超連結。
+
+* 超連結在中無法運作 [下載的PDF檔案](/help/analyze/analysis-workspace/curate-share/download-send.md).
 
 若要建立一或多個維度專案的超連結：
 
@@ -130,4 +133,3 @@ ht-degree: 0%
    超連結會從單一維度專案（如果您選取了單一維度專案）或所有維度專案（如果您在維度欄標題中選取維度名稱）中移除。
 
 1. [儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) 以儲存變更。
-
