@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 6 月** | |
-| 經過改善的智慧警報文件 | 更新並改進了有關警報的文件。這些更新包括有關[建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)的資訊，和[概觀資訊](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)。 |
+| 改善智慧警報文件 | 更新並改善有關警報的文件。這些更新包括有關[建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)的資訊，和[概觀資訊](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)。 |
 | 已棄用 `cookieDomainPeriods` | 現在，該AppMeasurement會自動偵測要設定Cookie的正確網域， [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 變數已遭取代。 |
 | 淘汰Data Connectors檔案 | 將Data Connectors生命週期結束頁面移至 [停產的產品](https://experienceleague.adobe.com/en/docs/discontinued/using/data-connectors). |
 | **2024 年 5 月** | |
