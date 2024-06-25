@@ -5,9 +5,9 @@ user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要匯出原始資料，以及如何使用 Data Warehouse 擷取試算表輸出資料。了解如何使用 FTP 和 SFTP 傳輸檔案。
 source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)
-   + 建立Data Warehouse請求 {#dw-create-request}
+   + 建立 Data Warehouse 請求{#dw-create-request}
       + [建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)
       + [一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)
       + [建置您的報告](/help/export/data-warehouse/create-request/dw-request-build-report.md)

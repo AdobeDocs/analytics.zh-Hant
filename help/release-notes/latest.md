@@ -4,15 +4,15 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 54be0400a76b1f8dbbf2aab99ed8d771d67e5bc3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 最新 Adobe Analytics 版本注意事項 (2024 年 6 月)
 
-**上次更新**：2024年6月20日
+**上次更新日期**：2024 年 20 月 20 日
 
 這些發行說明涵蓋的發行期間為 2024 年 6 月 12 日至 7 月。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,14 +20,14 @@ ht-degree: 90%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>如需詳細資訊，請參閱 [靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments) 在 [面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md).</p> |  | 2024 年 6 月 19 日 |
-| **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者能快速跳到專案中的面板和視覺化內容。可為單一專案或指定使用者的所有專案啟用目錄。<p>如需詳細資訊，請參閱 [專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md).</p> |  | 2024 年 6 月 19 日 |
-| **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱 [在自由表格中建立維度的超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md).</p> |  | 2024 年 6 月 19 日 |
-| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024年6月20日 |
-| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024年6月20日 |
+| **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>有關詳細資訊，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments)。</p> |  | 2024 年 6 月 19 日 |
+| **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者能快速跳到專案中的面板和視覺化內容。可為單一專案或指定使用者的所有專案啟用目錄。<p>有關詳細資訊，請參閱[專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)。</p> |  | 2024 年 6 月 19 日 |
+| **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>有關詳細資訊，請參閱[為自由格式表格中的維度建立超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。</p> |  | 2024 年 6 月 19 日 |
+| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 20 日 |
+| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024 年 6 月 20 日 |
 | **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 6 月 19 日開始 | 待定 |
-| **新資料來源API指南** | 此 [Adobe Analytics 2.0資料來源API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) 端點提供建立、檢視、刪除和上傳資料來源帳戶的方法。 |  | 現已提供 |
-| **分類API指南中的新方法** | 分類API指南新增了兩種擷取檔案分割的新方法。<ul><li>[取得分類工作檔案分割](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[取得分類匯出工作檔案部分](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | 現已提供 |
+| **新資料來源 API 指南** | [Adobe Analytics 2.0 資料來源 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) 端點提供了建立、檢視、刪除和上傳到資料來源帳戶的方法。 |  | 現已提供 |
+| **分類 API 指南中的新方法** | 分類 API 指南中新增了兩種擷取檔案分區的新方法。<ul><li>[取得分類工作檔案分區](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[取得分類匯出工作檔案部分](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | 現已提供 |
 
 {style="table-layout:auto"}
 
