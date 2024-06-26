@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 77401e3e4f69c67d1010905be15bc9ccb4b73e90
+source-git-commit: aacba26d0eb612146a9e0bf6386f9e755a9e8f07
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 51%
+source-wordcount: '1582'
+ht-degree: 54%
 
 ---
 
@@ -62,7 +62,7 @@ Analysis Workspace 中有以下面板類型:
 
 ### 區段篩選
 
-將任何區段從左側邊欄拖放至面板空投區，即可開始篩選您的面板。 重複此程式，將其他篩選器新增至面板。 篩選器會並排顯示在面板頂端。
+將任何區段從左側邊欄拖放至面板空投區，即可開始篩選您的面板。 重複此程序，即可為面板新增其他篩選器。篩選器會並排顯示於面板頂部。
 
 ![篩選器](assets/segment-filter.png)
 
@@ -86,32 +86,34 @@ Analysis Workspace 中有以下面板類型:
 
 * 對於使用維度專案的下拉式區段，請從左側邊欄選取單一維度並將其拖放至面板的下拉區域中 **同時保留`[Shift]`**. 這會建立一個下拉式區段，其中包含與該維度相關聯的所有維度專案。
 
-  或者，如果您希望下拉式區段僅包含與維度相關聯的特定維度專案，請在左側邊欄中按一下所需維度旁的向右箭頭圖示。 此動作會公開所有可用的維度項目。使用以下方式從此清單中選取多個維度專案 `[Shift + Click]` 或 `[Ctrl + Click]`，然後將它們拖放至面板的下拉區域中 **同時保留** `[Shift]`.
+  或者，如果您希望下拉式區段僅包含與維度相關聯的特定維度專案，請在左側邊欄中按一下所需維度旁的向右箭頭圖示。 此動作會公開所有可用的維度項目。使用 `[Shift + Click]` 或 `[Ctrl + Click]` 從此清單中選取多個維度項目，然後&#x200B;**在按住** 時`[Shift]`，將它們放入面板放置區。
 
 * 對於使用單一元件型別的下拉式區段（例如，僅限維度、僅限區段或僅限量度），請在左側邊欄中選取相同型別的多個專案，使用 `[Shift + Click]` 或 `[Ctrl + Click]`，然後將它們拖放至面板的下拉區域中 **同時保留`[Shift]`**.
 
   系統會使用您選取的元件建立單一下拉式區段。
 
-* 針對混合使用元件型別（例如2個量度和3個篩選器）的下拉式區段，選擇多個元件，使用 `[Shift + Click]` 或 `[Ctrl + Click]`. 在&#x200B;**按住`[Shift]`** 時，將選取內容拖曳到面板放置區中。在此情境下，所有元件型別都會視為個別的下拉式區段。 例如，如果在選取範圍中同時包含量度和維度專案，則會建立兩個個別的下拉式區段：一個下拉式區段包含維度專案，另一個包含量度。
+* 針對混合使用元件型別（例如2個量度和3個篩選器）的下拉式區段，選擇多個元件，使用 `[Shift + Click]` 或 `[Ctrl + Click]`. **在按住`[Shift]`** 的同時，將選取內容拖曳到面板放置區中。在此情境下，所有元件型別都會視為個別的下拉式區段。 例如，如果在選取範圍中同時包含量度和維度專案，則會建立兩個個別的下拉式區段：一個下拉式區段包含維度專案，另一個包含量度。
 
   ![面板視窗中的行動客戶區段欄位可供拖放靜態下拉式區段。 ](assets/create-dropdown.png)
 
 以滑鼠右鍵按一下下拉式區段，可提供下列選項：
 
 * **[!UICONTROL 刪除下拉式清單]**：從面板中移除下拉式區段。
-* **[!UICONTROL 刪除標籤]**：移除下拉式區段上方的文字。 若要修改標籤，請選取鉛筆圖示。
+* **[!UICONTROL 刪除標籤]**：移除下拉式區段上方的文字。 如要修改標籤，請選取鉛筆圖示。
 * **[!UICONTROL 新增標籤]**：將下拉式區段新增至專案時，系統會自動為元件名稱設定標籤。 如果您刪除該標籤，就可以使用此選項再次新增。
 * **[!UICONTROL 需要選取]**：需要在面板上設定區段。
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，深入了解如何將下拉式篩選器新增到專案。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，深入了解如何為專案新增下拉式篩選器。
 
 #### 使用靜態下拉式區段
 
-使用者可以使用下拉式區段功能表，透過下列任何方式篩選面板：
+若要篩選面板，請使用下拉式區段功能表，方法如下：
 
 * 從下拉式選單中選取區段，將單一區段套用至面板。
 
 * 從下拉式選單中選取多個區段，以將多個區段套用至面板。 面板會經過篩選，以包含任何選取的區段。
+
+  若要從清單中移除區段，請在下拉式選單中再次選取該區段。
 
   ![選取多個區段](assets/dropdown-filter-multiselect.png)
 
