@@ -4,9 +4,9 @@ description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '928'
 ht-degree: 73%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 「媒體播放時間」面板可讓您分析一段時間內的播放，提供尖峰同時觀看人數的詳細資訊，並具備分解和比較的能力。
 
-Media Analytics客戶可分析所花費的播放時間，以取得內容品質和檢視者參與度的寶貴見解，並有助於疑難排解或完成數量和規模的相關規劃。
+已購買串流媒體收集附加元件的客戶可分析所花費的播放時間，以獲得內容品質和檢視者參與度的寶貴見解，並有助於疑難排解或規劃數量或規模。
 
 播放時間可協助您瞭解：
 
@@ -31,7 +31,7 @@ Media Analytics客戶可分析所花費的播放時間，以取得內容品質�
 
 ## 使用「媒體播放時間」面板
 
-1. 前往已啟用Media Analytics元件的報表套裝。
+1. 前往已啟用串流媒體元件的報表套裝。
 1. 選取最左側的面板圖示，然後將面板拖曳至您的Analysis Workspace專案。
 1. 繼續下列章節，以自訂「媒體播放時間」面板
 
