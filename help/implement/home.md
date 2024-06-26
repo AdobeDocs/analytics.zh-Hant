@@ -4,10 +4,10 @@ description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: e033f32fb3394bb9e2a9ec47766febfbe8d5bfd7
-workflow-type: ht
-source-wordcount: '752'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -92,6 +92,6 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 ## 重要 Analytics 資源
 
 * [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新發行說明](../release-notes/latest.md)

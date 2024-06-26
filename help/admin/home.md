@@ -4,10 +4,10 @@ description: Adobe Analytics 管理員的管理說明，包括 Admin Console 的
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 91%
+source-wordcount: '311'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Analytics 目前有兩個管理員區域：
 
 ## 重要文章
 
-* [Analytics首位管理員入門指南](admin-console/first-admin-guide.md)：如果您的組織剛開始接觸Adobe Analytics，請遵照本指南操作，開始發揮Adobe Analytics的價值。
+* [Analytics 首位管理員入門指南](admin-console/first-admin-guide.md)：如果您的組織剛開始接觸 Adobe Analytics，請遵循本指南操作，開始發揮 Adobe Analytics 的價值。
 * [報表套裝管理器](admin/c-manage-report-suites/report-suites-admin.md)：Analytics 中最常使用的管理員工具。「報表套裝管理器」包含變數管理、分類管理、時區等設定。
 
 ## 更多 Analytics 使用手冊
@@ -45,6 +45,6 @@ Adobe Analytics 目前有兩個管理員區域：
 ## 重要 Analytics 資源
 
 * [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)

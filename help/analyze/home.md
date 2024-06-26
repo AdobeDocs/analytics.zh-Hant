@@ -4,10 +4,10 @@ description: Analysis Workspace、Adobe Analytics 儀表板 (行動應用程式)
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 11ef092984f37547ed408bedb977fccb8b53dba8
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Ana
 ## 重要 Analytics 資源
 
 * [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
 

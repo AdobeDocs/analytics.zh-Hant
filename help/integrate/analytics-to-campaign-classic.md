@@ -3,13 +3,13 @@ description: 於整合 Adobe Analytics 與 Adobe Campaign 時，實施人員應�
 title: 如何整合 Analytics 與 Adobe Campaign
 feature: Campaign Integration
 exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 85%
+source-wordcount: '53'
+ht-degree: 69%
 
 ---
 
 # 整合 Adobe Analytics 與 Campaign Classic
 
-如需將 Adobe Analytics 資料整合到 Campaign Classic 中的詳細資訊，請參閱 [Adobe Analytics Connector 佈建](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html)：
+另請參閱 [Adobe Analytics聯結器布建](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/analytics-connector/adobe-analytics-provisioning.html) 以取得將Adobe Analytics資料整合到Campaign Classic中的詳細資訊。
