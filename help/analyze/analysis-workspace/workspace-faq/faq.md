@@ -4,10 +4,10 @@ title: 常見問題集和疑難排解工作區
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 +++
 
 +++使用 Analysis Workspace 是否會影響資料收集？
-Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方選單中的**[!UICONTROL 「專案]** > **[!UICONTROL 新專案」]**，以空白顯示窗開始操作。
+Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方選單中的「**[!UICONTROL 專案]** > **[!UICONTROL 新專案]**」，以空白顯示窗開始操作。
 +++
 
 +++Analysis Workspace 專案中可以顯示多少報表套裝？
@@ -31,10 +31,6 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 
 +++如何實作 Analysis Workspace？
 不需要特別實作。所有已安裝 Analytics Standard 或 Premium 的公司都能使用 Analysis Workspace。但是將套用內容的標準權限 (例如報表套裝和專案元件)，以及適用於組織和共用專案。請參閱[管理和存取需求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。
-+++
-
-+++Analysis Workspace 會改變 Adobe Analytics 中預先設定的報表嗎？
-否。因為這是單獨的環境，所以不會改變 Adobe Analytics 中您現有或預先設定的報表。您仍然可以使用Analysis Workspace來使用標準Report Builder報告。
 +++
 
 +++可以將 Analysis Workspace 用於 Data Warehouse 嗎？
@@ -71,4 +67,8 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
 * 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證資料正在收集中。
++++
+
++++身為唯讀使用者，我可以在Analysis Workspace中執行哪些動作？
+將專案共用為唯讀時，所有編輯功能和功能都會完全停用，收件者只能變更下拉式清單，以預先定義的方式將篩選器套用至面板。
 +++
