@@ -4,9 +4,9 @@ description: 瞭解如何在Analysis Workspace的自由格式表格中建立維�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: b440fd6a0cd04b411489e6b7346be6b1b0a9f4f8
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1737'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,11 @@ ht-degree: 1%
 
 * Dimension含有您要連結至URL之值的一部分的專案或劃分（例如，屬於URL一部分的「頁面名稱」維度）
 
-以下是此功能的影片示範：
++++ 觀看此功能的示範影片。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430412/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430411/?learn=on)
+
++++
 
 ## 建立一或多個維度專案的超連結
 
