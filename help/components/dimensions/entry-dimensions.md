@@ -4,10 +4,10 @@ description: 列出登入維度及其使用情形。
 keywords: 登入頁面, 登入網站區域, 登入伺服器, 登入客戶分析
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 89%
+source-wordcount: '289'
+ht-degree: 75%
 
 ---
 
@@ -16,6 +16,9 @@ ht-degree: 89%
 *此說明頁面說明登入作為 [維度](overview.md). 若要瞭解登入作為量度時的運作方式，請參閱[登入](../metrics/entries.md)量度。*
 
 登入維度為 [造訪型](../metrics/visits.md). 這類維度會記錄第一個維度項目，並在該次造訪的整個期間加以持續保存。報表套裝設定中的[流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用登入維度。
+
+>[!TIP]
+>如果您是根據造訪的首次點選而非造訪中看到的第一個值來檢視資料，您可使用 [區段](/help/components/segmentation/seg-overview.md). 使用點選容器，其中 [點選深度](hit-depth.md) 等於1，然後將該區段與所需的變數搭配使用。
 
 ## 將資料填入登入維度中
 
