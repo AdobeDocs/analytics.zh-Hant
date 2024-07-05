@@ -4,9 +4,9 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 97%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>有關詳細資訊，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters).</p> |  | 2024 年 6 月 19 日 |
-| **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者能快速跳到專案中的面板和視覺化內容。可為單一專案或指定使用者的所有專案啟用目錄。<p>有關詳細資訊，請參閱[專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace).</p> |  | 2024 年 6 月 19 日 |
-| **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱[為自由格式表格中的維度建立超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables).</p> |  | 2024 年 6 月 19 日 |
+| **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>有關詳細資訊，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters)。</p> |  | 2024 年 6 月 19 日 |
+| **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者能快速跳到專案中的面板和視覺化內容。可為單一專案或指定使用者的所有專案啟用目錄。<p>有關詳細資訊，請參閱[專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace)。</p> |  | 2024 年 6 月 19 日 |
+| **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱[為自由格式表格中的維度建立超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables)。</p> |  | 2024 年 6 月 19 日 |
 | **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 20 日 |
 | **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024 年 6 月 20 日 |
 | **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 7 月 10 日開始 | 待定 |
@@ -64,12 +64,12 @@ AN-346470；AN-346850；AN-347227；AN-348145；AN-348564；AN-349001；AN-34900
 
 ## AppMeasurement
 
-如需 AppMeasurement 版本 (版本 2.26.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
+如需 AppMeasurement 版本 (版本 2.26.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
 
 
 ## 相關資源
 
 * [2024 年舊版發行說明](/help/release-notes/2024.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體收集附加元件發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
-* [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
+* [串流媒體收集附加元件發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新。

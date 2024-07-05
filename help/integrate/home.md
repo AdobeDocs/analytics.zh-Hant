@@ -4,9 +4,9 @@ description: 了解如何將其他位置的資料整合到 Adobe Analytics 中�
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 ![橫幅](../../assets/doc_banner_integrate.png)
 
-這份指南的重點是關於整合多個 Adobe Experience Cloud 解決方案，例如 Audience Manager、Advertising Cloud 或 Target。 其功能包括：
+這份指南的重點是關於整合多個 Adobe Experience Cloud 解決方案，例如 Audience Manager、Advertising Cloud 或 Target。 內容包括：
 
 * **Audience Analytics：**&#x200B;整合 Adobe Audience Manager 與 Adobe Analytics。
 * **Advertising Analytics：**&#x200B;並排顯示付費搜尋資料與 Adobe Analytics 資料。
@@ -41,6 +41,6 @@ ht-degree: 96%
 ## 重要 Analytics 資源
 
 * [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
