@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
    + [資料來源](admin/data-sources.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + 報告活動管理器 {#reporting-activity-manager}
+   + 報告活動管理員 {#reporting-activity-manager}
       + [概觀](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [檢視報告活動](admin//reporting-activity-manager/reporting-activity.md)
       + [取消報告請求](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -70,7 +70,7 @@ ht-degree: 94%
                + [處理規則提示與秘訣](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
             + 機器人規則 {#bot-removal}
                + [移除機器人](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
-               + [瞭解並設定機器人規則](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [了解和設定機器人規則](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
                + [常見的機器人簽名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [排除機器人的方法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [隱私權設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
@@ -126,8 +126,8 @@ ht-degree: 94%
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [支援的即時量度和維度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
-      + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
-      + [全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [管理報告套裝](admin/c-manage-report-suites/report-suites-admin.md)
+      + [全域報告套裝](admin/c-manage-report-suites/rollup-report-suite.md)
       + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
       + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的報表套裝 {#c-new-report-suite}
@@ -175,7 +175,7 @@ ht-degree: 94%
       + [伺服器呼叫使用量常見問題](admin/c-server-call-usage/overage-faq.md)
    + 使用者和產品管理 (舊版) {#user-product-management}
       + [使用者和產品管理 (舊版)](admin/user-management2/user-management.md)
-      + [轉移使用者資產或設定帳戶有效期](admin/user-management2/users-assets.md)
+      + [管理舊版使用者帳戶、資產和到期日](admin/user-management2/users-assets.md)
       + 將使用者移轉至 Adobe Admin Console {#migrate-users}
          + [Analytics 使用者移轉至 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [移轉 Adobe ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/t-migrate-users.md)

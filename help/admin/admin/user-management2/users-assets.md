@@ -4,43 +4,44 @@ title: 管理Analytics使用者和資產
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 869b44b826de5cb35d13000133092397cb16ccaa
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 2%
 
 ---
 
-# 轉移使用者資產或設定帳戶有效期
+# 管理舊版使用者帳戶、資產、有效期
 
-大部分的使用者和產品管理功能已移至 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html). (若要開始管理Adobe Analytics使用者的使用者許可權，請參閱 [Adobe Admin Console中的Analytics](/help/admin/admin-console/home.md).)
+您可以使用管理舊版使用者帳戶、其移轉狀態、到期資料、將資產轉移給其他使用者等內容 **[!UICONTROL 管理員] > [!UICONTROL 所有管理員] >  [!UICONTROL Analytics使用者與管理員]**.
 
-雖然大多數使用者和產品管理功能現在只能在Adobe Admin Console中使用，但本頁所述的管理功能只能從Adobe Analytics管理區域使用。
+使用者畫面會顯示目前的Adobe Analytics使用者清單，其中包含下列欄：
 
-## 將資產從一名Analytics使用者轉移給另一使用者 {#transfer}
+| 欄 | 說明 |
+|---|---|
+| [!UICONTROL 使用者 ID] | 使用者用來登入Adobe Analytics的使用者ID。 |
+| [!UICONTROL 名稱] | 使用者的名稱。 |
+| [!UICONTROL 移轉狀態] | 從舊版使用者帳戶移轉至Enterprise ID或Adobe ID的狀態。  狀態可以是Not initiated、Queued或Migrated。 |
+| [!UICONTROL 電子郵件] | 使用者的電子郵件。 |
+| [!UICONTROL 舊版登入] | 舊版登入的狀態，可為「啟用」或「停用」。 |
+| [!UICONTROL 建立日期] | 在Adobe Analytics中建立使用者帳戶時的時間戳記。 |
+| [!UICONTROL 上次Analytics存取日期] | 使用者帳戶最近一次存取Adobe Analytics的時間戳記， |
+| [!UICONTROL 有效期] | 使用者帳戶的到期日期；若使用者帳戶沒有到期，則為「無」。 |
 
-1. 前往 **管理員** > [!UICONTROL **Analytics使用者和資產**].
-將會顯示「使用者」頁面。
-1. （選用）使用下列任一選項，輕鬆找到您要尋找的任何使用者：
-   * 在搜尋欄位中，開始輸入您要設定帳戶到期日的使用者名稱。
-   * 選取 **篩選** 圖示 ![篩選圖示](assets/filter-users-page.png) 來顯示或隱藏篩選設定。 您可以依移轉狀態或舊版登入狀態來篩選。
-1. 選取您要轉移其資產的使用者。
-   ![設定使用者帳戶的有效期](assets/manage-user-assets.png)
-1. 選取 [!UICONTROL **轉移資產**].
-1. 在「轉移資產」頁面的 [!UICONTROL **將資產轉移到**] 欄位，開始輸入您要轉移資產的使用者名稱，然後在下拉式功能表中出現時選取其名稱。
-1. 在 [!UICONTROL **選取要轉移的帳戶專案**] 區段，導覽至並選取您要轉移的資產，然後選取 [!UICONTROL **轉移**].
+![使用者](assets/users.png)
 
-   您選取的任何資產都會轉移給指定的使用者。
+- 若要搜尋特定使用者，請使用 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) *依標題搜尋* 欄位。
+- 若要篩選移轉狀態清單，請選取「 」 ![V形](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 移轉狀態]**.
+- 若要篩選舊版登入狀態的清單，請選取「 」 ![V形](https://spectrum.adobe.com/static/icons/ui_18/ChevronSize100.svg) **[!UICONTROL 舊版登入]**.
+- 若要變更欄的顯示，請選取 ![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) 並從快顯視窗中選取欄。
 
+從清單中選取一或多個使用者時，您可以套用各種動作：
 
-## 設定使用者帳戶的到期日 {#expiration}
+| 動作 | 說明 |
+|---|---|
+| ![移轉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL 移轉]** | 您可以將一或多個使用者移轉至Enterprise ID或AdobeID。 |
+| ![行事曆已鎖定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL 設定有效期]** | 您可以為選取的使用者設定使用舊版Adobe Analytics登入的有效日期。  選取日期，以使用行事曆快顯視窗來指定日期。 選取 **[!UICONTROL 完成]** 以確認過期。 |
+| ![轉移資產](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL 轉移資產]** | 只有選取一位使用者時，才能使用此動作。 如果使用者擁有可轉移的資產，您可以選取帳戶專案（如書籤、控制面板等）。 選取 **[!UICONTROL 轉移]** 以完成轉移。<br/>![轉移資產](assets/transfer-assets.png) |
+| ![刪除帳戶](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除帳戶]** | 畫面會顯示一個對話方塊，確認刪除選取的帳戶。 選取 **[!UICONTROL 確定]** 以刪除帳戶。 選取 **[!UICONTROL 取消]** 以取消。 |
+| ![匯出至CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 匯出至CSV]** | 此動作會立即下載檔案，檔案中包含所選使用者的逗號分隔值清單及其詳細資料（名稱、移轉狀態、電子郵件等）。 |
 
-1. 前往 **管理員** > [!UICONTROL **Analytics使用者和資產**].
-將會顯示「使用者」頁面。
-（選用）使用下列任一選項，輕鬆找到您要尋找的任何使用者：
-   * 在搜尋欄位中，開始輸入您要設定帳戶到期日的使用者名稱。
-   * 選取 **篩選** 圖示 ![篩選圖示](assets/filter-users-page.png) 來顯示或隱藏篩選設定。 您可以依移轉狀態或舊版登入狀態來篩選。
-1. 選取您要設定帳戶到期日的使用者。
-   ![設定使用者帳戶的有效期](assets/manage-user-assets.png)
-1. 選取 [!UICONTROL **設定有效期**].
-1. 選擇到期日，然後選取 [!UICONTROL **完成**].
