@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
-workflow-type: ht
-source-wordcount: '5695'
-ht-degree: 100%
+source-git-commit: b60a25d7b9ff28b7b9f0488acaa4380c4093d78f
+workflow-type: tm+mt
+source-wordcount: '5709'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 7 月** | |
+| 更新常見錯誤訊息 | 已對「 」進行小幅更新 [常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **2024 年 6 月** | |
 | 已更新提及串流媒體功能的產品名稱 | 當提到專門收集串流媒體資料並將其顯示在 Analysis Workspace 的一組串流媒體功能時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」。 <p>這些更新可在 Adobe Analytics 文件以及 [串流媒體收集附加元件文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中找到。</p> |
 | 改善智慧警報文件 | 更新並改善有關警報的文件。這些更新包括有關[建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)、[管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)的資訊，和[概觀資訊](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)。 |
