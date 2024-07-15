@@ -3,10 +3,10 @@ title: 資料摘要 UI
 description: 瞭解如何使用資料摘要介面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: 3916115169f526bb91442d251e6159496efd547f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 29%
+source-wordcount: '1142'
+ht-degree: 28%
 
 ---
 
@@ -46,7 +46,9 @@ ht-degree: 29%
 
    針對您正在編輯的資料摘要更新&#x200B;[!UICONTROL **目的地**]&#x200B;區段時，您可以在&#x200B;[!UICONTROL **帳戶**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉式欄位中選擇要用於新資料摘要的其他帳戶和位置。
 
-   如果您想要編輯所有使用資料摘要的帳戶和位置，可以直接編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 無法編輯非雲端帳戶和位置。
+   可以編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 編輯帳戶或地點將會影響與該帳戶或地點相關聯的所有專案。
+
+   舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
 
 1. 選取「[!UICONTROL **儲存**]」。
 
@@ -84,7 +86,9 @@ ht-degree: 29%
 
    針對您正在複製的資料摘要更新&#x200B;[!UICONTROL **目的地**]&#x200B;區段時，您可以在&#x200B;[!UICONTROL **帳戶**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉式欄位中選擇要用於新資料摘要的其他帳戶和位置。
 
-   如果您想要編輯所有使用資料摘要的帳戶和位置，可以直接編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 無法編輯非雲端帳戶和位置。
+   可以編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 編輯帳戶或地點將會影響與該帳戶或地點相關聯的所有專案。
+
+   舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
 
 ## 暫停資料摘要
 
