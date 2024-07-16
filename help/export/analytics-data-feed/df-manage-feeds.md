@@ -3,10 +3,10 @@ title: 資料摘要 UI
 description: 瞭解如何使用資料摘要介面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 3916115169f526bb91442d251e6159496efd547f
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 28%
+source-wordcount: '1160'
+ht-degree: 27%
 
 ---
 
@@ -122,7 +122,9 @@ ht-degree: 28%
 
 ## 刪除資料摘要
 
-當您刪除資料摘要時，其狀態會設為[!UICONTROL 已刪除]。
+當您刪除資料摘要時，其狀態會設為[!UICONTROL 已刪除]。 資料摘要必須先處於「作用中」狀態，才能被刪除。
+
+若要刪除資料摘要：
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
 

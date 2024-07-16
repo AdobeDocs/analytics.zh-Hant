@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 293af518a8d190acbd5d3e10010f338ec6baa23a
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '5771'
+source-wordcount: '5788'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 7 月** | |
-| 管理資料摘要的更新檔案 | 更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊，以提高清晰度。 <p>更新包括：</p><ul><li>為各種工作建立個別區段，讓資訊更易於掃描和使用。</li><li>已新增關於已重新啟動之即時摘要行為的變更資訊。 這些變更目前處於「有限可用性」，尚未開放所有客戶使用。</li> |
+| 管理資料摘要的更新檔案 | 更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊，以提高清晰度。 <p>更新包括：</p><ul><li>為各種工作建立個別區段，讓資訊更易於掃描和使用。</li><li>已新增關於已重新啟動之即時摘要行為的變更資訊。 這些變更目前處於「有限可用性」，尚未開放所有客戶使用。</li><li>新增資訊以陳述資料摘要必須先具有「作用中」狀態，才能被刪除。</li> |
 | 更新常見錯誤訊息 | 已對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行小幅更新。 |
 | **2024 年 6 月** | |
 | 已更新提及串流媒體功能的產品名稱 | 當提到專門收集串流媒體資料並將其顯示在 Analysis Workspace 的一組串流媒體功能時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」。 <p>這些更新可在 Adobe Analytics 文件以及 [串流媒體收集附加元件文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中找到。</p> |

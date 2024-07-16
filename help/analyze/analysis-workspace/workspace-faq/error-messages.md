@@ -4,10 +4,10 @@ title: Analysis Workspace 的常見錯誤訊息
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 6412fc0027c84df3b02ef2e7cbf35d24b4ee9319
+source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 | 錯誤訊息 | 為何發生這項錯誤？ | 最佳化 |
 | --- | --- | --- |
-| [!UICONTROL 報告套裝出現了異常繁重的報告。請稍後再試。] | 您的組織針對特定報表套裝同時執行過多請求。造成此錯誤的因素包括 API 請求、已排程專案、已排程報表、已排程警報，以及同時提出報表請求的用戶數量。 | 在一天中更平均地分佈報表套裝的要求和排程。 |
+| [!UICONTROL 報告套裝出現了異常繁重的報告。請稍後再試。] | 您的組織針對特定報表套裝同時執行過多請求。造成此錯誤的因素包括API請求、已排程專案，以及同時提出報表請求的使用者。 | 在一天中更平均地分佈報表套裝的要求和排程。 <p>管理員可以使用[報告活動管理員來識別及取消消耗報告容量的要求](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。 |
 | [!UICONTROL 該報告套件目前已超出其報告容量。請簡化要求或稍後重試。] | 您的組織針對特定報表套裝同時執行過多請求。造成此錯誤的因素包括 API 請求、已排程專案、已排程報表、已排程警報，以及同時提出報表請求的用戶數量。 | 在一天中更平均地分佈報表套裝的要求和排程。 |
 | [!UICONTROL 發生系統錯誤。請在「說明 > 提交支援服務單」中提出客戶服務請求，並附上錯誤代碼。] | Adobe 遇到需要解決的問題。 | 將錯誤代碼提交給客戶服務。 |
 | [!UICONTROL 發生非預期的錯誤；請再次嘗試重新整理您的專案。如果問題仍然存在，請提交此錯誤 ID 給 Adobe 客戶服務以取得進一步的診斷。] | Adobe 遇到需要解決的問題。 | 如果問題仍然存在，請嘗試重新整理您的專案，提交錯誤代碼給客戶服務。 |
