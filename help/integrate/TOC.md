@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 整合指南
 breadcrumb-title: 整合指南
 user-guide-description: 設定與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager 和 Advertising Cloud) 的整合作業。
-source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 96%
+source-wordcount: '151'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [Audience Analytics 概觀](c-audience-analytics/mc-audiences-aam.md)
    + Audience Analytics 工作流程 {#audience-analytics-workflow}
       + [工作流程概觀](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [建立Analytics目的地 — Adobe Audience Manager指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
+      + [建立 Analytics 目的地 - Adobe Audience Manager 指南](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)
       + [在 Analytics 中使用對象資料](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Audience Analytics 使用案例](c-audience-analytics/aam-audience-use-cases.md)
       + [常見問答](c-audience-analytics/mc-audiences-faqs.md)
@@ -43,5 +43,4 @@ ht-degree: 96%
 + [Adobe Analytics 中的 Adobe Campaign 報表](adobe-campaign.md)
 + [將 Adobe Analytics 資料和 Adobe Campaign Classic 整合](analytics-to-campaign-classic.md)
 + [AEM Assets 報表](aem-assets-reporting.md)
-+ [Activity Map 報表](activitmap-reporting.md)
 + [Adobe Exchange](https://exchange.adobe.com)

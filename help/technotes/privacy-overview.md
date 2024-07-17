@@ -4,8 +4,8 @@ keywords: 隱私權
 title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: ht
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Adobe Analytics 可以收集以下類型的資料：
 | 地理位置資訊 | Adobe 提供功能可將 IP 位址最後一個八位元組設為 0，以防止識別出詳細地理位置。這樣會讓地理資訊變成不那麼精確，並可在[報表套裝設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html)中進行設定。 | [城市](../components/dimensions/cities.md)、[區域](../components/dimensions/regions.md)、[國家/地區](../components/dimensions/countries.md) |
 | IP 位址 | Adobe 提供功能可在儲存此資料時混淆 (雜湊) 或完全移除訪客的 IP 位址。歐洲、中東和非洲 (EMEA) 客戶依預設通常會混淆 IP 位址設定。無論混淆設定如何，IP 位址都不可在 Analysis Workspace 中作為維度；只會包含在[資料摘要](../export/analytics-data-feed/data-feed-overview.md)中。請參閱管理員指南中的「[一般帳戶設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」，了解有關適用混淆設定的詳細資訊。 | 無 |
 | 您網站上提供的表單資訊 | 所有實施類型都需要收集此資料的設定。您可以將此資料包含在自訂變數中。 | [eVar](../components/dimensions/evar.md) |
-| 您網站上的已點擊廣告或連結 | 如果 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) 已啟用則已收集。啟用 Activity Map 時，系統將提供更多資訊，例如點擊位置。 | [Activity Map](../analyze/activity-map/activity-map.md)、[退出連結](../components/dimensions/exit-link.md)、[下載連結](../components/dimensions/download-link.md) |
+| 您網站上的已點擊廣告或連結 | 如果 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) 已啟用則已收集。啟用 Activity Map 時，系統將提供更多資訊，例如點擊位置。 | [Activity Map](../analyze/activity-map/overview.md)、[退出連結](../components/dimensions/exit-link.md)、[下載連結](../components/dimensions/download-link.md) |
 | 在您網站上購買的產品 | 所有實施類型都需要收集此資料的設定。Adobe 提供多個預設變數來收集此資訊。 | [產品](../components/dimensions/product.md)、[訂單](../components/metrics/orders.md)、[收入](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}

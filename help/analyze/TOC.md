@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
-workflow-type: ht
-source-wordcount: '1017'
-ht-degree: 100%
+source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
+workflow-type: tm+mt
+source-wordcount: '930'
+ht-degree: 99%
 
 ---
 
@@ -278,34 +278,14 @@ ht-degree: 100%
    + [Report Builder 疑難排解](report-builder/troubleshoot.md)
    + [Report Builder 常見問題](report-builder/faq.md)
 + Activity Map {#activity-map}
-   + [Activity Map 總覽](activity-map/activity-map.md)
-   + 快速入門 {#getting-started}
-      + [啟動並啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
-      + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-install.md)
-      + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
-   + [強大的連結追蹤](activity-map/lnk-tracking-overview.md)
-   + 連結追蹤 {#link-tracking}
-      + [連結追蹤方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [連結追蹤常見問題](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [區別參照相同連結 ID 和區域的連結](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [停止連結追蹤](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [使用 s.tl() 函數](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
-   + [標準模式和即時模式的比較](activity-map/activitymap-standard-live.md)
-   + [連結報告](activity-map/activitymap-links-report.md)
-   + [頁面細節](activity-map/activitymap-page-flow.md)
-   + [完整的量度集](activity-map/activitymap-complete-metrics.md)
-   + [即時頁面分析](activity-map/activitymap-realtime.md)
-   + [客戶分段](activity-map/activitymap-multiple-segments.md)
-   + [可自訂覆蓋圖](activity-map/activitymap-gainerslosers.md)
-   + [覆蓋圖詳細資料](activity-map/activitymap-overlay-details.md)
-   + [匯出至 CSV 檔案](activity-map/activitymap-csv.md)
-   + [支援的系統和需求](activity-map/activitymap-sysreqs.md)
-   + [Activity Map 常見問題](activity-map/activitymap-faq.md)
-   + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
-   + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
-   + [Analytics 中的 Activity Map 報告](activity-map/activitymap-reporting-analytics.md)
-   + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
-   + [疑難排解資料彙集](activity-map/troubleshoot-data-collection.md)
+   + [概觀](activity-map/overview.md)
+   + [快速入門](activity-map/getting-started.md)
+   + 覆蓋{#overlay}
+      + [擴充功能概觀](activity-map/overlay/overview.md)
+      + [Launch擴充功能](activity-map/overlay/launch.md)
+      + [擴充功能設定](activity-map/overlay/settings.md)
+   + [疑難排解](activity-map/troubleshooting.md)
+   + [常見問題](activity-map/faq.md)
 + Adobe Analytics 儀表板 {#mobapp}
    + [Adobe Analytics 儀表板 - 總覽](mobile-app/home.md)
    + [組織者介紹](mobile-app/curator.md)

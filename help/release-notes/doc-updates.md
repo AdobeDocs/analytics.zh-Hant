@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
+source-git-commit: 00bc3e039957b0e7f9bc171d7075def3fc8fb838
 workflow-type: tm+mt
-source-wordcount: '5811'
+source-wordcount: '5806'
 ht-degree: 98%
 
 ---
@@ -67,7 +67,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 更新了異常偵測和貢獻分析文件 | 異常偵測和貢獻分析的文件以前位於 Virtual Analyst 區段中。以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li><li>貢獻分析文件已合併到異常偵測文件中。</li></ul> |
 | 「Attribution IQ」改為「歸因」 | 將整份文件中所有出現的「Attribution IQ」變更為「[歸因](/help/analyze/analysis-workspace/attribution/overview.md)」。 |
 | **2023 年 11 月** | |
-| Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/activity-map/getting-started/activitymap-enable.html) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
+| Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](/help/analyze/activity-map/getting-started.md) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
 | **2023 年 10 月** | |
 | 報告活動管理員新增了記錄資訊 | 新增了以下資訊：「報告活動管理員」中[報告活動的任何取消和後續限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)都會在[記錄](/help/admin/admin/logs.md)中擷取。 |
 | Data Warehouse 元件支援更新 | 新增一些 Data Warehouse 可用元件，並移除其他可用元件。這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對造訪深度維度的支援 (移除不支援維度清單的造訪深度)</li><li>移除對參與率量度的支援 (新增不支援量度清單的參與率量度)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (移除不支援維度清單中這些維度) <p>之前，Data Warehouse 唯有在選取「詳細程度」的情況下，才會在自由表格的第一欄支援這些維度。現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。年份依 1900 年位移，月份從零開始。</li></ul> |
@@ -111,7 +111,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 專案區段 (臨時和快速區段) | 簡化了專案區段的文件，並刪除重複資訊。建立臨時區段的步驟現在已經和下列步驟相結合，用於[建立快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。 |
 | 動態查詢 | 新增更多關於[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的資訊。以前，只有行動屬性的資訊，這是幾個動態查詢之一。 |
 | **2023 年 3 月** | |
-| Web SDK 支援 Activity Map | 已更新[實施 Adobe Analytics](/help/implement/home.md) 和[啟用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-enable.md)。 |
+| Web SDK 支援 Activity Map | 更新[實作Adobe Analytics](/help/implement/home.md)。 |
 | 流量變數 (props) 概觀 | 新增區段和逐步程序以說明和改善文章內容。合併了標題為「啟用流量變數報告」一文中的內容，並移除了該文章。請參閱[流量變數 (props) 概觀](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
 | 內部 URL 篩選器 | 新增區段和逐步程序以說明和改善文章內容。請參閱[內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。 |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |

@@ -3,8 +3,8 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
-workflow-type: ht
+source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 是 Microsoft Excel 的增益集。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
 
-**[Activity Map](/help/analyze/activity-map/activity-map.md)** 是 Adobe Analytics 中的一項功能，可提供網頁和行動應用程式上使用者參與度的視覺化表示。此功能可讓行銷人員和分析師追蹤和分析使用者的互動情形，例如點擊、暫留和捲動行為。
+**[Activity Map](/help/analyze/activity-map/overview.md)** 是 Adobe Analytics 中的一項功能，可提供網頁和行動應用程式上使用者參與度的視覺化表示。此功能可讓行銷人員和分析師追蹤和分析使用者的互動情形，例如點擊、暫留和捲動行為。
 
 ## 將資料匯入 Adobe Analytics 中  {#import}
 

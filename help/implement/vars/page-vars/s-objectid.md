@@ -4,18 +4,18 @@ description: 協助 Activity Map 辨識網站上的獨特連結。
 feature: Variables
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 80%
 
 ---
 
 # s_objectID
 
-`s_objectID` 變數提供連結的唯一識別碼。它可用來讓 [Activity Map](/help/analyze/activity-map/activity-map.md) 中的報表更準確。如果您的頁面上有經常變更的連結，可以使用 `s_objectID` 變數來告知 Activity Map 留意唯一連結位置，讓它能夠正常地將資料正確分組。
+`s_objectID` 變數提供連結的唯一識別碼。它可用來讓 [Activity Map](/help/analyze/activity-map/overview.md) 中的報表更準確。如果您的頁面上有經常變更的連結，可以使用 `s_objectID` 變數來告知 Activity Map 留意唯一連結位置，讓它能夠正常地將資料正確分組。
 
-如果 Activity Map 的正確性對貴組織至關重要，Adobe 建議您在網站上於連結的 `onClick` 事件中加入 `s_objectID` 變數。如需詳細資訊，請參閱「Analyze 使用指南」中的 [Activity Map 連結追蹤使用案例](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)。
+如果Activity Map正確性對貴組織至關重要，Adobe建議在網站上連結的`onClick`事件中加入`s_objectID`變數。
 
 ## 使用Adobe Analytics擴充功能的物件ID
 
@@ -23,7 +23,7 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s_objectID
 
-`s_objectID` 變數是全域變數，表示它能獨立於 Analytics 追蹤物件 (預設為 `s`) 之外運作。此變數的有效值可以是任何字串，長度最多 100 個位元組。如果此變數未定義，Activity Map 會將連結 URL 當做連結的識別碼。
+`s_objectID` 變數是全域變數，表示它能獨立於 Analytics 追蹤物件 (預設為 `s`) 之外運作。此變數的有效值可以是任何字串，長度最多 100 個位元組。如果此變數未定義，Activity Map會將連結文字當作連結的識別碼。
 
 此變數通常設定在 HTML 連結的 `onClick` 事件中。
 
@@ -60,4 +60,4 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 <a href="index.html" onClick="s_objectID='Footer home link';">Example link in Footer</a>
 ```
 
-即使連結指向相同的 URL，Activity Map 依然可以使用 `s_objectID` 變數在報表中正確區分。
+即使連結指向相同的URL，Activity Map仍可使用`s_objectID`變數在報表中正確區分。
