@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
-source-wordcount: '5788'
+source-wordcount: '5811'
 ht-degree: 98%
 
 ---
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 7 月** | |
+| 將threads.net新增至「反向連結型別」維度 | 將threads.net新增至[「反向連結型別」維度](/help/components/dimensions/referrer-type.md)中所使用的社交網路清單。 |
 | 管理資料摘要的更新檔案 | 更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊，以提高清晰度。 <p>更新包括：</p><ul><li>為各種工作建立個別區段，讓資訊更易於掃描和使用。</li><li>已新增關於已重新啟動之即時摘要行為的變更資訊。 這些變更目前處於「有限可用性」，尚未開放所有客戶使用。</li><li>新增資訊以陳述資料摘要必須先具有「作用中」狀態，才能被刪除。</li> |
 | 更新常見錯誤訊息 | 已對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行小幅更新。 |
 | **2024 年 6 月** | |

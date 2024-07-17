@@ -3,7 +3,7 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 24608d7058b8e7ddbf255c2a67dbdc2bf1bc9cca
+source-git-commit: 6a62540bd4a8d86951165714d44d5e969e62722f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 # 反向連結類型
 
-「反向連結型別」 [維度](overview.md) 報告訪客從哪些通用管道點進您的網站。 Adobe 會維護每個維度項目的規則，不同於由您的組織維護各個管道之規則的[行銷管道](marketing-channel.md)。
+「反向連結型別」[維度](overview.md)會報告訪客在點進哪些通用管道後到達您的網站。 Adobe 會維護每個維度項目的規則，不同於由您的組織維護各個管道之規則的[行銷管道](marketing-channel.md)。
 
 ## 將資料填入此維度中
 
@@ -168,6 +168,7 @@ ht-degree: 96%
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.net`
 * `tiktok.com`
 * `toutiao.com`
 * `tripit.com`
