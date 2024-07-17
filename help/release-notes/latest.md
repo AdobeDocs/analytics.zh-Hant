@@ -3,54 +3,44 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
-workflow-type: ht
-source-wordcount: '1077'
-ht-degree: 100%
+source-git-commit: cb0eab15dac6d679e9f912010045e6be2e47df4a
+workflow-type: tm+mt
+source-wordcount: '732'
+ht-degree: 45%
 
 ---
 
-# 最新 Adobe Analytics 版本注意事項 (2024 年 6 月)
+# 最新 Adobe Analytics 發行說明 (2024 年 7 月)
 
-**上次更新日期**：2024 年 6 月 26 日
+**上次更新日期**：2024年7月17日
 
-這些發行說明涵蓋的發行期間為 2024 年 6 月 12 日至 7 月。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年7月17日至2024年8月的發行期。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在下拉篩選器中選擇多個欄位** | 當多個欄位新增至下拉篩選器時，使用者便可以一次選擇多個欄位。此面板經過篩選，以包含任何已選取的欄位。 <p>先前，使用者在下拉篩選器中一次只能選擇一個欄位。</p><p>有關詳細資訊，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[靜態下拉式區段](/help/analyze/analysis-workspace/c-panels/panels.md#static-drop-down-segments)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/use-multi-select-drop-down-filters)。</p> |  | 2024 年 6 月 19 日 |
-| **Workspace 專案的目錄** | 現在可為專案提供新的目錄。目錄提供的連結可讓使用者能快速跳到專案中的面板和視覺化內容。可為單一專案或指定使用者的所有專案啟用目錄。<p>有關詳細資訊，請參閱[專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace)。</p> |  | 2024 年 6 月 19 日 |
-| **為自由格式表格中的維度項目建立超連結** | 您可以為一個或多個維度項目建立超連結，以使這些在 Analysis Workspace 的自由格式表格中成為可點選項目。 <p>您可以為具有 URL 值的維度項目建立超連結，也可以為具有非 URL 值的維度項目建立自訂 URL。</p><p>您可以使用變數，為多個維度項目建立動態自訂 URL。變數可以參考維度項目的值，也可以參考劃分維度。</p><p>如需詳細資訊，請參閱[為自由格式表格中的維度建立超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。</p><p>[觀看此功能的影片示範](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables)。</p> |  | 2024 年 6 月 19 日 |
-| **用於控制帳戶和位置 (用來匯出和匯入) 的管理員設定** | [位置管理器中的新「管理設定」標籤](/help/components/locations/locations-manager.md#configure-company-wide-settings-administrators-only)可讓管理員控制使用者是否可以建立和編輯帳戶和位置。當使用者[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)時，將會套用這些設定。 <p>管理員也可以限制使用者能夠建立和使用的帳戶類型 (如 Google Cloud Platform、Azure RBAC、Amazon S3 等)。</p><p>先前任何使用者都可以建立、編輯和使用所有類型帳戶的帳戶和位置。</p> | 2024 年 6 月 12 日 | 2024 年 6 月 20 日 |
-| **共用帳戶和位置 (用於匯出和匯入)** | 使用者現在可以將其建立的帳戶和位置提供給組織中的所有使用者。只有帳戶和位置擁有者以及系統管理員才能編輯和刪除帳戶與位置。<p>先前，帳戶和位置只能由建立它們的使用者使用。</p><p>當使用者[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)和[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)時，將可使用這些設定。 </p> | 2024 年 6 月 12 日 | 2024 年 6 月 20 日 |
-| **Activity Map 可使用更少 Web SDK 伺服器呼叫** | 目前，Activity Map 連結事件被視為是其本身事件並會產生額外費用。此增強功能會產生一些連結事件，並將這些事件封裝至下一個點擊中，類似於 AppMeasurement 處理事件的方式。 <p>(更新的後續文件連結)</p> | 公開 Beta 版將於 2024 年 7 月 10 日開始 | 待定 |
-| **新資料來源 API 指南** | [Adobe Analytics 2.0 資料來源 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-sources/) 端點提供了建立、檢視、刪除和上傳到資料來源帳戶的方法。 |  | 現已提供 |
-| **分類 API 指南中的新方法** | 分類 API 指南中新增了兩種擷取檔案分區的新方法。<ul><li>[取得分類工作檔案分區](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-job-file-partition-list)</li><li>[取得分類匯出工作檔案部分](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/#get-classification-export-job-file-part)</li></ul> |  | 現已提供 |
+| 連結追蹤的&#x200B;**Web SDK改善** | 最新版Web SDK的連結追蹤功能有幾項顯著改善，對Activity Map有直接的好處。 這些新功能在Web SDK JavaScript程式庫和Web SDK標籤擴充功能中均可用。<ul><li>事件分組：當訪客按一下內部連結時，您可以選擇將下一頁上的事件資料分組，而不是觸發連結追蹤的個別事件呼叫。 此項改善可減少Web SDK違反合約限制使用的事件數量。</li><li>篩選點按屬性：取代`OnBeforeLinkClickSend`的新回呼。 您可以使用這個回呼來篩選或模糊化連結相關資料，再傳送給Adobe。</li></ul><p>如需詳細資訊，請參閱Web SDK使用手冊中的[clickCollection](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | 開啟Beta 2024年7月10日開始 | 待定 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 修正以下分類問題：AN-347682；AN-348396；AN-348625；AN-348668；AN-348926；AN-348936；AN-349040；AN-349191；AN-349195；AN-349443；AN-349697；AN-349758；AN-349862；AN-350051；AN-350054；AN-350208；AN-350497；AN-350525；AN-351067
-* 修正以下資料倉儲問題：AN-346862；AN-349409；AN-349926；AN-350629；AN-350996
-* 修正以下資料饋送問題：AN-346727；AN-348282；AN-348334；AN-348725；AN-348726；AN-348823；AN-349081；AN-349207；AN-349307；AN-349539；AN-349710；AN-349729；AN-349742；AN-349878；AN-349943；AN-350527；
-* 修正以下資料來源問題：AN-350038
-* 修正以下 Analysis Workspace 問題：AN-342953； AN-346346； AN-349590； AN-349717； AN-350057； AN-350697； AN-350904
-* 修正以下 Report Builder 問題：AN-348903；AN-350691
-* 修正以下 A4T 問題：AN-347690；AN-350853
+* 修正使用者無法登入Analytics UI的問題(AN-352953)
+* 修正使用者無法登入Analytics行動應用程式的問題(AN-352463)
+* 修正無法將專案下載為PDF的問題(AN-352680)
+* 修正未匯入分類的問題(AN-352178)
 
 ### Analytics 其他修正
 
-AN-346470；AN-346850；AN-347227；AN-348145；AN-348564；AN-349001；AN-349008；AN-349211；AN-349719；AN-350523；
+AN-352905、AN-352902、AN-352693、AN-352659、AN-352619；
+AN-352577、AN-352575、AN-352572、AN-352571、AN-352549、AN-352501、AN-352499、AN-352478、AN-352466、AN-352437、AN-352378、AN-352355、AN-352341、AN-352318、AN-352297、AN-352272、AN-352267、AN-352263、AN-352088、AN-352019、AN-352018、AN-351978、AN-351908、AN-351809、AN-351750、AN-351689 -351624； AN-351564； AN-351524； AN-351507； AN-351416； AN-351414； AN-351405； AN-351299； AN-351283； AN-351231； AN-350710； AN-349912； AN-349786； AN-348300； AN-348061； AN-347865； AN-347676； AN-347478； AN-343611； AN-343114； AN-334124； AN-； AN-； AN-； AN-； AN-
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | **13 個月的儲存有效期`cust_visids`** | 2024 年 5 月 22 日 | 即將發行的 Analytics Hit 處理引擎 (**預計於 2024 年 7 月發行**) 將開始強制執行 13 個月的 `cust_visids` 儲存有效期。如果報告套裝已啟用「啟用訪客聯繫」，則此設定用於尋找 `cust_visid` 是否有點擊時無 `cust_visid` 的 `visid_high/visid_low value`。目前，`visid_high/visid_low` 的 `cust_visid` 對應不會過期。在此版本中，如果自點擊時 `visid_high/visid_low` 有 `cust_visid` 以來已過去 13 個月或更長時間，對應會過期。 |
-| **ISO 區域更新** | 2024 年 5 月 10 日 | Adobe 將於 2022 年 6 月 10 日執行 2022 ISO 區域更新。 預計此版本後將會有較小的地區資訊 (區域) 更新。 |
 
 {style="table-layout:auto"}
 
@@ -58,6 +48,7 @@ AN-346470；AN-346850；AN-347227；AN-348145；AN-348564；AN-349001；AN-34900
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
+| Adobe Analytics API （版本1.4）**的** EOL | 2024年7月17日 | 下列Analytics Legacy API服務將在2026年8月12日&#x200B;**結束生命週期並關閉，目前使用這些服務建立的整合功能將停止運作：**<ul><li>Adobe Analytics API （1.4版）</li><li>Adobe Analytics WSSE驗證</li></ul><p>使用Adobe Analytics API （版本1.4）的整合必須移轉至[Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而WSSE整合則必須移轉至[Adobe Developer Console](https://developer.adobe.com/console)中的OAuth驗證通訊協定。</p><p>請參閱[Adobe Analytics 1.4 API EOL常見問答集](/help/admin/c-admin-api/c-admin-14-api-eol.md)，以取得常見問題和進一步指引的解答。</p> |
 | **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API 和 Livestream 客戶必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證從 2024 年 5 月 1 日開始，Adobe I/O 將不允許建立新的 JWT 認證。使用 JWT 的客戶必須建立新的 OAuth Server-to-Server 認證，或將他們現有的 JWT 認證移轉到 OAuth Server-to-Server 認證。客戶還必須更新他們的用戶端應用程式，才能使用新的 OAuth Server-to-Server 認證。 <ul><li>[從 Service Account (JWT) 認證移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth Server-to-Server 認證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常見問題集](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 {style="table-layout:auto"}
