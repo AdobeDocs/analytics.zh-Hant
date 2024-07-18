@@ -6,19 +6,19 @@ exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
 source-git-commit: 1bd46f104c5ebcca78d624b49c56b2992c3d62cb
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 25%
+ht-degree: 35%
 
 ---
 
 # 建立 Data Warehouse 請求
 
-建立Data Warehouse請求時，有多種可用的設定選項。 下列資訊說明如何開始建立請求，然後提供完成請求的詳細資訊連結。
+建立 Data Warehouse 請求時有多種可用的設定選項。下列資訊說明如何開始建立請求，然後提供完成請求的詳細資訊連結。
 
 ## 開始建立請求
 
-1. 在Adobe Analytics中，選取 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**.
+1. 在Adobe Analytics中，選取&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]**。
 
-1. 在 [!UICONTROL **Data Warehouse**] 頁面，選取 [!UICONTROL **新增**].
+1. 在&#x200B;[!UICONTROL **Data Warehouse**]&#x200B;頁面上，選取&#x200B;[!UICONTROL **新增**]。
 
    ![新增請求的按鈕](assets/dw-add-request.png)
 

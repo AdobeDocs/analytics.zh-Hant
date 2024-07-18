@@ -33,7 +33,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ## 使用 Analysis Workspace 中的量度
 
-在 Analysis Workspace 中能以多種方式使用量度。如需如何新增量度和其他元件型別至Analysis Workspace的相關資訊，請參閱 [在Analysis Workspace中使用元件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md).
+在 Analysis Workspace 中能以多種方式使用量度。如需有關如何將量度和其他型別的元件新增到Analysis Workspace的資訊，請參閱[在Analysis Workspace中使用元件](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 

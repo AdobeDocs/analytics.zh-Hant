@@ -21,7 +21,7 @@ SFTP是一種傳輸資料的安全通訊協定，可確保除了您以外，其�
 
 [Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 和 [ Analytics 資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant)可透過 SFTP 推送資料。
 
-Report Builder **無法** 透過SFTP推送資料。
+Report Builder **無法透過SFTP**&#x200B;推送資料。
 
 ## 提取傳遞 {#section_FA29FAEF02FE40B8B32452146A036F48}
 

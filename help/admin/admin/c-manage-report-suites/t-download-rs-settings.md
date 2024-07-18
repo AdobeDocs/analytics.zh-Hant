@@ -4,7 +4,7 @@ title: 下載報表套裝設定值
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 

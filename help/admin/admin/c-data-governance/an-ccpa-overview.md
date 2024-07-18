@@ -37,7 +37,7 @@ Adobe Experience Cloud提供整合式解決方案，可連線您品牌的資料�
 
 Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
 
-另請參閱 [標籤報表套裝資料](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md) 有關如何設定標籤的詳細資訊。
+如需如何設定標籤的詳細資訊，請參閱[標籤報表套裝資料](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)。
 
 ## 先決條件
 

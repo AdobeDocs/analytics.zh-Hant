@@ -36,32 +36,32 @@ ht-degree: 75%
 | **`aemassetsource`** | 識別資產事件的來源。用於 Adobe Experience Manager。 | varchar(255) |
 | **`aemclickedassetid`** | Adobe Experience Manager 資產的資產 ID。增加點擊事件 | varchar(255) |
 | **`browser`** | 表示瀏覽器的數值ID。 請參考`browser.tsv`查詢表。 | 不帶正負號的 int |
-| **`browser_height`** | 此 [瀏覽器高度](/help/components/dimensions/browser-height.md) 維度。 | 不帶正負號的 smallint |
-| **`browser_width`** | 此 [瀏覽器寬度](/help/components/dimensions/browser-width.md) | 不帶正負號的 smallint |
+| **`browser_height`** | [瀏覽器高度](/help/components/dimensions/browser-height.md)維度。 | 不帶正負號的 smallint |
+| **`browser_width`** | [瀏覽器寬度](/help/components/dimensions/browser-width.md) | 不帶正負號的 smallint |
 | **`c_color`** | 調色盤的位元深度。用於計算[色階](/help/components/dimensions/color-depth.md)維度的一部分。AppMeasurement 使用 JavaScript 函數`screen.colorDepth()`。 | char(20) |
 | **`campaign`** | [追踪Code](/help/components/dimensions/tracking-code.md)維度。 | varchar(255) |
 | **`carrier`** | Adobe Advertising 整合變數。指定行動電信業者。`carrier.tsv` [動態查詢](dynamic-lookups.md)的索引鍵值。 | varchar(100) |
 | **`ch_hdr`** | 透過 HTTP 請求標頭收集的用戶端提示。 | 文字 |
 | **`ch_js`** | 透過使用者代理用戶端提示 JavaScript API 收集的用戶端提示。 | 文字 |
-| **`channel`** | 此 [網站區域](/help/components/dimensions/site-section.md) 維度。 | varchar(100) |
+| **`channel`** | [網站區段](/help/components/dimensions/site-section.md)維度。 | varchar(100) |
 | **`clickmaplink`** | Activity Map 連結 | varchar(255) |
 | **`clickmaplinkbyregion`** | Activity Map 連結 (依地區) | varchar(255) |
 | **`clickmappage`** | Activity Map 頁面 | varchar(255) |
 | **`clickmapregion`** | Activity Map 地區 | varchar(255) |
 | **`code_ver`** | 用於編譯及傳送影像要求的 API 或客戶端 SDK 版本。 | char(16) |
 | **`color`** | 以`c_color`欄的值為基礎的色階 ID。請參考`color_depth.tsv`查詢表。 | 不帶正負號的 smallint |
-| **`connection_type`** | 表示連線型別的數值ID。 此 [連線型別](/help/components/dimensions/connection-type.md) 維度。 請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
-| **`cookies`** | 此 [Cookie支援](/help/components/dimensions/cookie-support.md) 維度。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
+| **`connection_type`** | 表示連線型別的數值ID。 [連線型別](/help/components/dimensions/connection-type.md)維度。 請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
+| **`cookies`** | [Cookie支援](/help/components/dimensions/cookie-support.md)維度。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
 | **`country`** | 表示訪客所在國家/地區的數值ID。 請參考`country.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`ct_connect_type`** | 和`connection_type`欄相關。最常見的值為LAN/Wifi、行動電信業者和資料機。 | char(20) |
-| **`curr_factor`** | 決定貨幣小數位數，並用於貨幣轉換。例如，USD使用兩位小數，因此此欄值為 `2`. | tinyint |
+| **`curr_factor`** | 決定貨幣小數位數，並用於貨幣轉換。例如，USD使用兩位小數，所以此欄值為`2`。 | tinyint |
 | **`curr_rate`** | 交易發生當時的匯率。Adobe 與 XE 合作，以決定當日匯率。 | decimal(24,12) |
-| **`currency`** | 交易期間使用的貨幣代碼。 使用設定 [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
+| **`currency`** | 交易期間使用的貨幣代碼。 使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)設定。 | char(8) |
 | **`cust_hit_time_gmt`** | 僅限啟用時間戳記的報告套裝。時間戳記根據 UNIX® 時間隨點擊傳送。 | int |
-| **`cust_visid`** | 自訂訪客ID （如果使用設定） [`visitorID`](/help/implement/vars/config-vars/visitorid.md). | varchar(255) |
+| **`cust_visid`** | 自訂訪客ID （如果使用[`visitorID`](/help/implement/vars/config-vars/visitorid.md)設定）。 | varchar(255) |
 | **`daily_visitor`** | 此旗標可確定點選是否為新的每日訪客。 | 不帶正負號的 tinyint |
-| **`dataprivacyconsentoptin`** | 此 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md) 維度。 每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
-| **`dataprivacyconsentoptout`** | 此 [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md) 維度。 每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptin`** | [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)維度。 每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptout`** | [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度。 每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
 | **`dataprivacydmaconsent`** | 此值可識別透過Adobe Advertising將資料從Adobe Analytics傳送至第三方廣告提供者(例如Google)時是否獲得同意。 如需詳細資訊，請參閱[廣告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
 | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
 | **`domain`** | 域[](/help/components/dimensions/domain.md)維度。根據訪客的互聯網接入点。 | varchar(100) |
@@ -69,12 +69,12 @@ ht-degree: 75%
 | **`duplicate_purchase`** | 此旗標可判斷此點選的購買事件是否因為重複而被忽略。 | 不帶正負號的 tinyint |
 | **`duplicated_from`** | 僅用於包含點擊複製 VISTA 規則的報告套裝。指出從中複製點擊的報告套裝。 | varchar(40) |
 | **`ef_id`** | `ef_id`用於 Adobe Advertising 整合。 | varchar(255) |
-| **`evar1 - evar250`** | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用不同的 eVar。若要進一步瞭解貴組織如何填入個別eVar，最佳位置應為 [解決方案設計檔案](/help/implement/prepare/solution-design.md) 特定於您的組織。 | varchar(255) |
-| **`event_list`** | 以逗號分隔的數值ID清單，代表點選時觸發的事件。 包含預設事件和 [自訂事件1-1000](/help/components/metrics/custom-events.md). 使用`event.tsv`查詢。 | 文字 |
+| **`evar1 - evar250`** | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用不同的 eVar。若要瞭解貴組織如何填入個別eVar的詳細資訊，最佳方式是貴組織專屬的[解決方案設計檔案](/help/implement/prepare/solution-design.md)。 | varchar(255) |
+| **`event_list`** | 以逗號分隔的數值ID清單，代表點選時觸發的事件。 包含預設事件和[自訂事件1-1000](/help/components/metrics/custom-events.md)。 使用`event.tsv`查詢。 | 文字 |
 | **`exclude_hit`** | 決定點選是否從報表中排除的旗標。 此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報告套裝上遺失時間戳記的點擊，或非時間戳記報告套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
 | **`first_hit_page_url`** | 訪客的第一個 URL。 | varchar(255) |
-| **`first_hit_pagename`** | 此 [登入頁面原始](/help/components/dimensions/entry-dimensions.md) 維度。 訪客的原始登入頁面名稱。 | varchar(100) |
-| **`first_hit_ref_domain`** | 此 [原始反向連結網域](/help/components/dimensions/original-referring-domain.md) 維度。 根據`first_hit_referrer`而定。訪客的第一個反向連結網域。 | varchar(100) |
+| **`first_hit_pagename`** | [登入頁面原始](/help/components/dimensions/entry-dimensions.md)維度。 訪客的原始登入頁面名稱。 | varchar(100) |
+| **`first_hit_ref_domain`** | [原始反向連結網域](/help/components/dimensions/original-referring-domain.md)維度。 根據`first_hit_referrer`而定。訪客的第一個反向連結網域。 | varchar(100) |
 | **`first_hit_ref_type`** | 表示訪客第一個反向連結的反向連結型別數值ID。 請參考`referrer_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`first_hit_referrer`** | 訪客的第一個反向連結 URL。 | varchar(255) |
 | **`first_hit_time_gmt`** | 訪客初次點擊的時間戳記 (根據 UNIX® 時間)。 | int |
@@ -91,11 +91,11 @@ ht-degree: 75%
 | **`ip`** | IPv4 位址，根據影像請求 HTTP 標頭。與 `ipv6` 互斥；如果此欄包含非模糊 IP 位址，`ipv6` 為空白。 | char(20) |
 | **`ipv6`** | 壓縮的 IPv6 位址 (若有)。與 `ip` 互斥；如果此欄包含非模糊 IP 位址，`ip` 為空白。 | varchar(40) |
 | **`j_jscript`** | 瀏覽器支援的 JavaScript 版本。 | char(5) |
-| **`java_enabled`** | 此 [[!UICONTROL Java已啟用]](/help/components/dimensions/java-enabled.md). <br>Y：啟用 <br>N：停用 <br>U：未知 | char(1) |
-| **`javascript`** | JavaScript版本的查詢ID，根據 `j_jscript`. 請參考`javascript_version`查詢表。 | 不帶正負號的 tinyint |
+| **`java_enabled`** | [[!UICONTROL Java已啟用]](/help/components/dimensions/java-enabled.md)。 <br>Y：啟用 <br>N：停用 <br>U：未知 | char(1) |
+| **`javascript`** | JavaScript版本的查詢識別碼，根據`j_jscript`。 請參考`javascript_version`查詢表。 | 不帶正負號的 tinyint |
 | **`language`** | 代表訪客語言的 數值 ID。 請參考`languages.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`last_hit_time_gmt`** | 先前點擊的時間戳記 (根據 UNIX® 時間)。用於計算[[!UICONTROL 和上次造訪間隔天數]](/help/components/dimensions/days-since-last-visit.md)維度。 | int |
-| **`last_purchase_num`** | 此 [客戶忠誠度](/help/components/dimensions/customer-loyalty.md) 維度。 訪客之前已購買的次數。<br>0：沒有先前購買 (非客戶) <br>1：先前購買 1 次 (新客戶) <br>2：先前購買 2 次 (回頭客戶) <br>3：先前購買 3 次以上 (忠實客戶) | 不帶正負號的 int |
+| **`last_purchase_num`** | [客戶忠誠度](/help/components/dimensions/customer-loyalty.md)維度。 訪客之前已購買的次數。<br>0：沒有先前購買 (非客戶) <br>1：先前購買 1 次 (新客戶) <br>2：先前購買 2 次 (回頭客戶) <br>3：先前購買 3 次以上 (忠實客戶) | 不帶正負號的 int |
 | **`last_purchase_time_gmt`** | 用於[[!UICONTROL 和上次購買間隔天數]](/help/components/dimensions/days-since-last-purchase.md)維度。上次進行購買的時間戳記 (根據 UNIX® 時間)。對於首次購買和之前未購買的訪客，此值為 `0`。 | int |
 | **`latlon1`** | 位置 (10 公里以內) | varchar(255) |
 | **`latlon23`** | 位置 (100 公尺以內) | varchar(255) |
@@ -103,11 +103,11 @@ ht-degree: 75%
 | **`mc_audiences`** | 訪客所屬的 Audience Manager 區段 ID 清單。`post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | 文字 |
 | **`mcvisid`** | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
 | **`mobile_id`** | 如果使用者使用行動裝置，則為裝置的數值 ID。`mobile_attributes.tsv` [動態查詢](dynamic-lookups.md)的索引鍵值。 | int |
-| **`mobileaction`** | 行動動作。發生以下情況時自動收集： `trackAction` 在行動實作中呼叫。 允許應用程式中的自動動作路徑。 | varchar(100) |
+| **`mobileaction`** | 行動動作。在行動實作中呼叫`trackAction`時自動收集。 允許應用程式中的自動動作路徑。 | varchar(100) |
 | **`mobileappid`** | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本：`[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用於 Apteligent 資料連接器。Apteligent 中使用的應用程式 ID。 | varchar(255) |
 | **`mobileappperformancecrashid`** | 用於 Apteligent 資料連接器。Apteligent 中使用的當機 ID。 | varchar(255) |
-| **`mobileappstoreobjectid`** | 用於 [!DNL Appfigures] 資料聯結器。 應用程式商店物件 ID。 | varchar(255) |
+| **`mobileappstoreobjectid`** | 用於[!DNL Appfigures]資料聯結器。 應用程式商店物件 ID。 | varchar(255) |
 | **`mobilebeaconmajor`** | 行動服務主要信標 | varchar(100) |
 | **`mobilebeaconminor`** | 行動服務次要信標 | varchar(100) |
 | **`mobilebeaconproximity`** | 行動服務鄰近地區信標 | varchar(255) |
@@ -143,16 +143,16 @@ ht-degree: 75%
 | **`mobilerelaunchcampaigntrackingcode`** | 從內容資料變數`a.launch.campaign.trackingcode`中收集。用於贏取中，作為上市促銷活動的追蹤代碼。 | varchar(255) |
 | **`mobileresolution`** | 行動裝置的解析度。`[Width] x [Height]` 像素。 | varchar(255) |
 | **`monthly_visitor`** | 此旗標可判斷訪客是否屬於當月的不重複訪客。 | 不帶正負號的 tinyint |
-| **`mvvar1`** - `mvvar3` | [清單變數](/help/implement/vars/page-vars/list.md) 值。 根據實施包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
+| **`mvvar1`** - `mvvar3` | [清單變數](/help/implement/vars/page-vars/list.md)值。 根據實施包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
 | **`mvvar1_instances`** - `mvvar3_instances` | 在目前點擊上設定的清單變數值。以 `--**--` 取代原始的分隔符號。沒有 `post` 欄。 | 文字 |
 | **`new_visit`** | 此旗標可確定目前的點選是否為新造訪。 造訪閒置30分鐘後由Adobe設定。 | 不帶正負號的 tinyint |
 | **`os`** | 表示訪客的作業系統的數值ID。 依據`user_agent`欄而定。`operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | 不帶正負號的 int |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
 | **`page_event_var1`** | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
-| **`page_event_var2`** | 僅用於連結追蹤影像要求。連結的自訂名稱（如果已指定）。 設定 [自訂連](/help/components/dimensions/custom-link.md)， [下載連](/help/components/dimensions/download-link.md)，或 [退出連結](/help/components/dimensions/exit-link.md) 視中的值而定 `page_event`. | varchar(100) |
+| **`page_event_var2`** | 僅用於連結追蹤影像要求。連結的自訂名稱（如果已指定）。 根據`page_event`中的值設定[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)或[退出連結](/help/components/dimensions/exit-link.md)。 | varchar(100) |
 | **`page_type`** | 找不到 [頁面](/help/components/dimensions/pages-not-found.md) 維度，通常用於 404 頁面。 | char(20) |
 | **`page_url`** | 點擊的 URL。請注意， `post_page_url` 連結追蹤圖像請求 （[`tl()`](/help/implement/vars/functions/tl-method.md)） 被剝離，並使用數據類型 varchar（255）。 | 文字 |
-| **`pagename`** | 此 [頁面](/help/components/dimensions/page.md) 維度。 如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
+| **`pagename`** | [頁面](/help/components/dimensions/page.md)維度。 如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
 | **`pagename_no_url`** | 與 `pagename` 類似，但不會回復到 `page_url`。只有 `post` 列適用。 | varchar(100) |
 | **`paid_search`** | 決定點選是否符合付費搜尋偵測的旗標。 | 不帶正負號的 tinyint |
 | **`persistent_cookie`** | 用於[持續性 Cookie 支援](/help/components/dimensions/persistent-cookie-support.md)維度。指出訪客是否支援每次點擊後未捨棄的 Cookie。 | char(1) |
@@ -163,13 +163,13 @@ ht-degree: 75%
 | **`prop1`** - `prop75` | 自訂流量變數 1 - 75。用於 [Prop](/help/components/dimensions/prop.md) 維度。 | varchar(100) |
 | **`purchaseid`** | 使用[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)變數設定之購買的唯一識別碼。由`duplicate_purchase`欄使用。 | char(20) |
 | **`quarterly_visitor`** | 此旗標可確定點選是否為新的每季訪客。 | 不帶正負號的 tinyint |
-| **`ref_domain`** | 此 [反向連結網域](/help/components/dimensions/referring-domain.md) 維度。 根據 `referrer` 欄。 | varchar(100) |
+| **`ref_domain`** | [反向連結網域](/help/components/dimensions/referring-domain.md)維度。 根據`referrer`資料行。 | varchar(100) |
 | **`ref_type`** | 表示點選的反向連結型別的數值ID。 用於[反向連結類型](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站 <br>3：搜尋引擎 <br>4：硬碟 <br>5：USENET <br>6：分類/建立書籤 (無反向連結) <br>7：電子郵件 <br>8：無 JavaScript <br>9：社交網路 | 不帶正負號的 tinyint |
-| **`referrer`** | 此 [反向連結](/help/components/dimensions/referrer.md) 維度。 請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255) |
+| **`referrer`** | [反向連結](/help/components/dimensions/referrer.md)維度。 請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255) |
 | **`resolution`** | 表示監視解析度的數值 ID。 用於[螢幕解析度](/help/components/dimensions/monitor-resolution.md)維度。使用`resolution.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`s_kwcid`** | 用於 Adobe Advertising 整合的關鍵字 ID。 | varchar(255) |
 | **`s_resolution`** | 原始螢幕解析度值。使用 JavaScript 函數`screen.width x screen.height`收集。 | char(20) |
-| **`search_engine`** | 表示將訪客反向連結至您網站的搜尋引擎數值ID。 使用位置 [搜尋引擎](/help/components/dimensions/search-engine.md) 維度。 請參考`search_engines.tsv`查詢表。 | 不帶正負號的 smallint |
+| **`search_engine`** | 表示將訪客反向連結至您網站的搜尋引擎數值ID。 用於[搜尋引擎](/help/components/dimensions/search-engine.md)維度。 請參考`search_engines.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。在使用者點進您的網站之前，指示您的網站要顯示哪個搜尋結果頁面。 | 不帶正負號的 smallint |
 | **`secondary_hit`** | 此旗標可判斷點選是否為次要點選。 此標幟通常源自複製點選的多套裝標籤和VISTA規則。 | 不帶正負號的 tinyint |
 | **`sourceid`** | 來源 ID | 不帶正負號的 int |
@@ -186,10 +186,10 @@ ht-degree: 75%
 | **`user_server`** | 用於[伺服器](/help/components/dimensions/server.md)維度。 | varchar(100) |
 | **`userid`** | 未使用。報告套裝 ID 的數值 ID。請改用 `username`。 | 不帶正負號的 int |
 | **`username`** | 點擊的報告套裝 ID。 | char(40) |
-| **`va_closer_detail`** | 此 [上次接觸詳情](/help/components/dimensions/last-touch-detail.md) 維度。 | varchar(255) |
-| **`va_closer_id`** | 可識別 [上次接觸管道](/help/components/dimensions/last-touch-channel.md) 維度。 您可於行銷管道管理員中查詢此ID。 | 不帶正負號的 tinyint |
-| **`va_finder_detail`** | 此 [首次接觸詳情](/help/components/dimensions/first-touch-detail.md) 維度。 | varchar(255) |
-| **`va_finder_id`** | 可識別 [首次接觸管道](/help/components/dimensions/first-touch-channel.md) 維度。 您可於行銷管道管理員中查詢此ID。 | 不帶正負號的 tinyint |
+| **`va_closer_detail`** | [上次接觸詳細資料](/help/components/dimensions/last-touch-detail.md)維度。 | varchar(255) |
+| **`va_closer_id`** | 可識別[上次接觸管道](/help/components/dimensions/last-touch-channel.md)維度的數值ID。 您可於行銷管道管理員中查詢此ID。 | 不帶正負號的 tinyint |
+| **`va_finder_detail`** | [首次接觸詳細資料](/help/components/dimensions/first-touch-detail.md)維度。 | varchar(255) |
+| **`va_finder_id`** | 可識別[首次接觸管道](/help/components/dimensions/first-touch-channel.md)維度的數值ID。 您可於行銷管道管理員中查詢此ID。 | 不帶正負號的 tinyint |
 | **`va_instance_event`** | 識別行銷管道 [例項](/help/components/metrics/instances.md)的標幟。 | 不帶正負號的 tinyint |
 | **`va_new_engagement`** | 識別行銷管道 [新參與的](/help/components/metrics/new-engagements.md)標幟。 | 不帶正負號的 tinyint |
 | **`video`** | 影片內容 | varchar(255) |
@@ -241,9 +241,9 @@ ht-degree: 75%
 | **`visid_new`** | 此旗標可確定點選是否包含新產生的訪客ID。 | char(1) |
 | **`visid_timestamp`** | 如果是新產生訪客ID，則會提供產生訪客ID時的時間戳記(UNIX®)。 | int |
 | **`visid_type`** | 不供外部使用；供 Adobe 在內部用來處理最佳化。此數值ID代表用來識別訪客的方法。<br>`0`：自訂訪客 ID 或未知/不適用<br>`1`：IP 和用戶代理備援<br>`2`：HTTP 行動訂閱者標題<br>`3`：舊版 Cookie 值 (`s_vi`) <br>`4`：備援 Cookie 值 (`s_fid`) <br>`5`：身分識別服務 | 不帶正負號的 tinyint |
-| **`visit_keywords`** | 此 [搜尋關鍵字](/help/components/dimensions/search-keyword.md) 維度。 此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 | varchar(244) |
-| **`visit_num`** | 此 [造訪次數](/help/components/dimensions/visit-number.md) 維度。 從 1 開始，隨著每次訪客開始新的造訪而遞增。 | 不帶正負號的 int |
-| **`visit_page_num`** | 此 [點選深度](/help/components/dimensions/hit-depth.md) 維度。 對於訪客產生的每個點擊增加 1。 重設每次造訪。 | 不帶正負號的 int |
+| **`visit_keywords`** | [搜尋關鍵字](/help/components/dimensions/search-keyword.md)維度。 此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 | varchar(244) |
+| **`visit_num`** | [造訪次數](/help/components/dimensions/visit-number.md)維度。 從 1 開始，隨著每次訪客開始新的造訪而遞增。 | 不帶正負號的 int |
+| **`visit_page_num`** | [點選深度](/help/components/dimensions/hit-depth.md)維度。 對於訪客產生的每個點擊增加 1。 重設每次造訪。 | 不帶正負號的 int |
 | **`visit_ref_domain`** | 依據`visit_referrer`欄而定。造訪的第一個反向連結網域。 | varchar(100) |
 | **`visit_ref_type`** | 表示造訪的第一個反向連結的反向連結型別數值ID。 請參考`referrer_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`visit_referrer`** | 造訪的第一個反向連結。 | varchar(255) |

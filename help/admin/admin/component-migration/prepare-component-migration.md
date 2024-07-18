@@ -12,42 +12,42 @@ ht-degree: 9%
 
 # 準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 
-在您組織中的任何人開始移轉專案之前，如所述 [將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md)，請完成下列章節。
+在您組織中的任何人開始移轉專案之前(如[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md)中所述)，請完成下列章節。
 
 ## 先決條件
 
-在專案及其相關元件準備好移轉之前，您必須先依照下列步驟操作 [Adobe Analytics的演化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant) Adobe Customer Journey Analytics指南中的。 這些步驟包括：
+在專案及其相關元件準備好移轉之前，您必須先遵循Adobe Customer Journey Analytics指南中[從Adobe Analytics演化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant)的步驟。 這些步驟包括：
 
 1. 使用下列其中一種方法將資料內嵌至Adobe Experience Platform，以便在Customer Journey Analytics檢視Adobe Analytics報表套裝資料：
 
    >[!NOTE]
    >
-   >  當您使用WebSDK來內嵌資料時，所有結構欄位都必須手動對應。 (如需對應程式的詳細資訊，請參閱 [將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
+   >  當您使用WebSDK來內嵌資料時，所有結構欄位都必須手動對應。 (如需對應程式的詳細資訊，請參閱[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/component-migration.md))
 
 
    * 若要使用Adobe Analytics來源聯結器，您需要：
 
-      1. [設定報表套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [設定報告套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [擷取及使用資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hant)
 
    * 若要使用WebSDK，您需要：
 
-      1. [設定報表套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [設定報告套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [透過Adobe Experience Platform Web SDK內嵌資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 建立 [連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) 和 [資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) 並擷取資料。
+1. 建立已擷取資料的[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html)和[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)。
 
 1. 確保Customer Journey Analytics中的使用者已布建至資料對應的資料檢視。
 
-   如需詳細資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
+   如需詳細資訊，請參閱[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)中Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)的[Customer Journey Analytics許可權。
 
    「許可權」索引標籤是Admin Console中每個產品設定檔的一部分。 您可以將使用者新增到特定的產品設定檔。然後，將許可權指派給特定的資料檢視，並指定產品設定檔中的使用者擁有哪些許可權。
 
 1. 以組織身分決定要如何對應元件。
 
-   如需詳細資訊，請參閱以下章節， [以組織身分決定要如何對應元件](#decide-as-an-organization-how-you-will-map-components).
+   如需詳細資訊，請參閱以下章節，[決定作為組織如何對應元件](#decide-as-an-organization-how-you-will-map-components)。
 
 ## 瞭解移轉包含的內容
 
@@ -55,15 +55,15 @@ ht-degree: 9%
 
 ### 已移轉的元件元素
 
-Dimension和量度會隨著對應程式進行移轉，如所述 [將Adobe Analytics專案移轉至Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+Dimension和量度已移轉為[將Adobe Analytics專案移轉至Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)中所述的對應程式的一部分。
 
 Customer Journey Analytics中尚未存在的區段、日期範圍和計算量度，會根據對應的維度和量度在那裡重新建立。
 
 |  | 「已移轉」 |
 |---------|---------|
-| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimension和量度：否<p>區段和日期範圍： ![核取標籤](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimension和量度：否<p>區段和日期範圍： ![核取記號](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[共用](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension和量度：否<p>區段和日期範圍：否</p> |
-| **[說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimension和量度：否<p>區段和日期範圍： ![核取標籤](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimension和量度：否<p>區段和日期範圍： ![核取記號](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[標記](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension和量度：否<p>區段和日期範圍：否</p> |
 | **[歸因（在維度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimension和量度：否<p>區段和日期範圍：否</p> |
 
@@ -73,23 +73,23 @@ Customer Journey Analytics中尚未存在的區段、日期範圍和計算量度
 
 |  | 「已移轉」 |
 |---------|----------|
-| **[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
-| **[區段](/help/components/segmentation/seg-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
-| **[快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
-| **[維度](/help/components/dimensions/overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 自動或手動對應 |
-| **[量度](/help/components/metrics/overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 自動或手動對應 |
-| **[面板](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
-| **[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
-| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 由進行移轉的使用者定義 |
+| **[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
+| **[區段](/help/components/segmentation/seg-overview.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
+| **[快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
+| **[維度](/help/components/dimensions/overview.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg)自動或手動對應 |
+| **[量度](/help/components/metrics/overview.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg)自動或手動對應 |
+| **[面板](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
+| **[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg)由進行移轉的使用者定義 |
 | **[組織](/help/analyze/analysis-workspace/curate-share/curate.md)** | 否 |
 | **[共用](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 |
 | **[註解](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
-| **[檔案夾結構](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
-| **[說明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[資料夾結構](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
+| **[說明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
 | **[標記](/help/analyze/landing.md)** | 否 |
 | **[我的最愛](/help/analyze/landing.md)** | 否 |
-| **[時程表](/help/components/scheduled-projects-manager.md)** | 否 |
-| **[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[排程](/help/components/scheduled-projects-manager.md)** | 否 |
+| **[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
 
 {style="table-layout:auto"}
 
@@ -123,7 +123,7 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 >
 >移轉程式會識別Adobe Analytics專案中無法自動對應至Customer Journey Analytics中元件的元件，並允許您手動對應這些元件。
 >
->**對單一專案所做的任何對應都會套用至您整個IMS組織中的所有未來專案，無論哪位使用者正在執行移轉。 除非連絡客戶服務，否則無法修改或復原這些對應。**
+>**針對一個專案所做的任何對應都會套用至您整個IMS組織中的所有未來專案，無論執行移轉的使用者為何。 除非連絡客戶服務，否則無法修改或復原這些對應。**
 >
 >因此，您的組織在移轉任何專案之前，必須先決定維度和量度的對應方式，這一點很重要。 這樣做可避免個別管理員在僅考慮單一專案時，於穀倉中做出決策。
 >

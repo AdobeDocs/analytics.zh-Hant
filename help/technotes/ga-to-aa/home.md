@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Google Analytics 和 Adobe Analytics 都是功能強大的平台，可針對您的網站效能提供寶貴分析。各平台都有各自的處理架構和使用者介面，為每個平台提供獨特優勢。本指南旨在協助熟悉 Google Analytics 的使用者適應 Adobe Analytics。
 
-在Adobe Analytics中，登入Adobe Experience Cloud後提取基本報表的主要方式是使用 **Analysis Workspace**. 左側功能表可讓使用者拖放元件，以建立自己專屬的報表。它提供更大的自由度，以符合確切的報表需求。 有建立 Google Analytics 儀表板和自訂報表使用經驗的使用者可能會發現此版面很熟悉。
+在Adobe Analytics中，登入Adobe Experience Cloud後提取基本報表的主要方式是使用&#x200B;**Analysis Workspace**。 左側功能表可讓使用者拖放元件，以建立自己專屬的報表。它提供更大的自由度，以符合確切的報表需求。 有建立 Google Analytics 儀表板和自訂報表使用經驗的使用者可能會發現此版面很熟悉。
 
 ## 建議的學習路徑
 

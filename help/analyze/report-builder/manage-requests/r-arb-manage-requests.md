@@ -8,7 +8,7 @@ exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 77%
+ht-degree: 74%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 77%
 
 ## 概觀 {#section_75C288C945FA4781A4EDF806711A5660}
 
-此 [!UICONTROL 請求管理員] 提供您為所有工作表或僅一個作用中活頁簿建立之所有請求狀態的詳細檢視。 您也可以新增、編輯、重新整理和刪除請求。 這些函式通常與 [!UICONTROL 請求精靈] 和 [!UICONTROL 請求管理員] 當您以滑鼠右鍵按一下包含先前請求的Excel試算表中的可用儲存格時。
+[!UICONTROL 請求管理員]提供您為所有工作表或僅一個作用中活頁簿建立的所有請求狀態的詳細檢視。 您也可以新增、編輯、重新整理和刪除請求。 當您以滑鼠右鍵按一下包含先前請求的Excel試算表中的可用儲存格時，這些函式通常會與[!UICONTROL 請求精靈]和[!UICONTROL 請求管理員]相關聯。
 
-此 [!UICONTROL 請求管理員] 按一下時顯示 **[!UICONTROL 管理]**  ![](assets/edit_request.gif) Report Builder工具列中的。
+按一下Report Builder工具列中的&#x200B;**[!UICONTROL 管理]** ![](assets/edit_request.gif)，會顯示[!UICONTROL 請求管理員]。
 
 >[!NOTE]
 >
-> Adobe Report Builder 只會在同一個工作表中執行請求相依性，不會跨工作表執行。將相依性限制在單一工作表中，可確保執行的時效性。
+>Adobe Report Builder只會在同一個工作表中執行請求相依性，不會跨工作表執行。 將相依性限制在單一工作表中，可確保執行的時效性。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -62,7 +62,7 @@ ht-degree: 77%
   </tr> 
   <tr> 
    <td colname="col1"> <p>新增 </p> </td> 
-   <td colname="col2"> <p>顯示「請求精靈」對話方塊。請參閱<a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >建立資料請求</a>。 </p> </td> 
+   <td colname="col2"> <p>顯示「請求精靈」對話方塊。請參閱<a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >建立資料要求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>編輯 </p> </td> 
@@ -82,7 +82,7 @@ ht-degree: 77%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 重新整理 </p> </td> 
-   <td colname="col2"> <p>重新整理單一請求或選擇的請求(請參閱 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 重新整理請求</a>.) </p> </td> 
+   <td colname="col2"> <p>重新整理單一請求或選擇的請求（請參閱<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >重新整理請求</a>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新整理清單 </p> </td> 

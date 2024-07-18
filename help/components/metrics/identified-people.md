@@ -12,7 +12,7 @@ ht-degree: 68%
 
 # 已識別的使用者
 
-「已識別的使用者」 [量度](overview.md) 是 [跨裝置分析](../cda/overview.md) 計算CDA所識別訪客數的量度。
+「已識別的使用者」 [量度](overview.md)是計算CDA識別的訪客人數的[跨裝置分析](../cda/overview.md)量度。
 
 ## 此量度的計算方式
 

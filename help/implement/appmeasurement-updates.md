@@ -17,41 +17,41 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以從以下位置下載最新版本的AppMeasurement： [GitHub](https://github.com/adobe/appmeasurement/releases).
+您可以從[GitHub](https://github.com/adobe/appmeasurement/releases)下載最新版的AppMeasurement。
 
 ## 2.26.0 版本
 
 發行日期： **2024年3月4日**
 
-* AppMeasurement會自動辨識並利用國家/地區程式碼最上層網域的根網域，而這之前需要特定的Cookie網域設定。 更新可能會因為此自動識別而產生影響。 另請參閱 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 以取得詳細資訊。
+* AppMeasurement會自動辨識並利用國家/地區程式碼最上層網域的根網域，而這之前需要特定的Cookie網域設定。 更新可能會因為此自動識別而產生影響。 如需詳細資訊，請參閱[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)。
 * 此發行版本包含Identity Service Library 5.5.0和Data Integration Library9.6。
 
 ## 2.25.0 版本
 
 發行日期： **2023年9月12日**
 
-* 新增選用方法 [`bufferRequests()`](vars/functions/bufferrequests.md) 提升瀏覽器不支援Beacon API或頁面取消載入時取消要求時擷取要求的可靠性。
+* 新增選用方法[`bufferRequests()`](vars/functions/bufferrequests.md)，以在瀏覽器不支援Beacon API或取消頁面解除安裝時的要求時，增強擷取要求的可靠性。
 * 已新增保護機制，以防止單一追蹤請求出現多個追蹤後回呼。
 
 ## 2.24.0 版本
 
 發行日期： **2023年7月18日**
 
-* 新增可選的設定變數 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 將包含雙位元組編碼字元的連結URL解碼。
+* 已新增選用組態變數[`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md)，以將包含雙位元組編碼字元的連結URL解碼。
 * 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器新增其他錯誤處理。
-* 變更要使用的POST內容型別標頭 `x-www-form-urlencoded` 依預設。
+* 已將POSTContent-Type標頭變更為預設使用`x-www-form-urlencoded`。
 
 ## 2.23.0 版本
 
 發行日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可以透過「標籤」設定使用者端提示或使用 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 設定變數。 高平均資訊量提示的收集預設為停用。 進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
+* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可以透過「標籤」設定使用者端提示或使用[`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md)設定變數。 高平均資訊量提示的收集預設為停用。 進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
 
 ## 2.22.4 版本
 
 發行日期：**2022 年 1 月 18 日**
 
-* 連結追蹤呼叫 `s.tl()` 現在會驗證傳遞給它的物件是否包含 `string` 類型的 `href` 屬性。如果它不是 `string`，則會適當地忽略 `href` 屬性而不是失敗。 當您通過時，可能會發生這種情況 `svg` 連結追蹤呼叫的物件。
+* 連結追蹤呼叫 `s.tl()` 現在會驗證傳遞給它的物件是否包含 `string` 類型的 `href` 屬性。如果它不是`string`，則會適當地忽略`href`屬性而不是失敗。 當您將`svg`物件傳遞至連結追蹤呼叫時，可能會發生這種情況。
 
 ## 2.22.3 版本
 
@@ -63,7 +63,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 發行日期：**2021 年 9 月 7 日**
 
-* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。請參閱 [隱私權報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) （在管理員使用手冊中）以取得詳細資訊。
+* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。如需詳細資訊，請參閱「管理員」使用指南中的[隱私權報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)。
 
 ## 2.22.1 版本
 
@@ -347,7 +347,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 發行日期：**2015 年 9 月 17 日**
 
 * 納入 Visitor API 1.5.2
-* 已更新 [!DNL Audience Manager] 使用Adobe Audience ManagerDIL6.2的模組 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
+* 更新[!DNL Audience Manager]模組以使用Adobe Audience ManagerDIL6.2 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
 
 ## 1.5 版本
 
@@ -383,7 +383,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 發行日期：**2015 年 2 月 19 日**
 
 * 將所有延遲追蹤呼叫的處理改為一致，以修正延遲期間的備份變數問題，例如已點按物件。
-* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定 *`s.referrer`* 時，以免第二個、第三個……追蹤呼叫（通常是連結追蹤）重複計算反向連結。
+* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定&#x200B;*`s.referrer`*&#x200B;時，以免第二個、第三個……追蹤呼叫（通常是連結追蹤）重複計算反向連結。
 * 已更新分送 Zip 檔，現在包含 Visitor API 1.3.5。
 
 ## 1.4.2 版本

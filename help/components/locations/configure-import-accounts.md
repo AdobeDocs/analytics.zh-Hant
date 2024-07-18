@@ -17,38 +17,44 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->建立和編輯帳戶時，請考量下列事項： <ul><li>系統管理員可以限制使用者建立帳戶，如中所述 [設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</li><li>只有建立帳號的使用者或系統管理員才能編輯帳號。</li></ul>
+>建立和編輯帳戶時，請考量下列事項： <ul><li>系統管理員可以限制使用者建立帳戶，如[設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</li><li>只有建立帳號的使用者或系統管理員才能編輯帳號。</li></ul>
 
 您可以設定雲端帳戶，用於下列任何或所有用途：
 
-* 匯出檔案，使用 [資料摘要](/help/export/analytics-data-feed/create-feed.md)
-* 匯出報告，使用 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* 使用匯入結構描述 [分類設定](/help/components/classifications/sets/overview.md)
+* 使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)匯出檔案
+* 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)匯出報告
+* 使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述
 
-您需要為Adobe Analytics設定存取雲端帳戶所需的必要資訊。 此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照所述新增及設定該帳戶內的位置（例如帳戶內的資料夾） [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
+您需要為Adobe Analytics設定存取雲端帳戶所需的必要資訊。 此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照[設定雲端匯入及匯出位置](/help/components/locations/configure-import-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
 
-如需有關如何檢視和刪除現有帳戶的資訊，請參閱 [位置管理員](/help/components/locations/locations-manager.md).
+如需有關如何檢視和刪除現有帳戶的資訊，請參閱[位置管理員](/help/components/locations/locations-manager.md)。
 
 若要設定雲端匯入或匯出帳戶：
 
-1. 在Adobe Analytics中，選取 [!UICONTROL **元件**] > [!UICONTROL **位置**].
-1. 在 [!UICONTROL 位置] 頁面，選取 [!UICONTROL **位置帳戶**] 標籤。
-1. （視條件而定）如果您是系統管理員，則可以啟用 [!UICONTROL **檢視所有使用者的帳戶**] 檢視組織中所有使用者所建立帳號的選項。
+1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **位置**]。
+1. 在[!UICONTROL 位置]頁面上，選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;索引標籤。
+1. （視條件而定）如果您是系統管理員，可以啟用&#x200B;[!UICONTROL **檢視所有使用者的帳戶**]選項，以檢視貴組織中的所有使用者建立的帳戶。
    ![檢視所有使用者的帳戶](assets/accounts-all-users.png)
-1. 若要建立新帳戶，請選取 [!UICONTROL **新增帳戶**].
+1. 若要建立新帳戶，請選取&#x200B;[!UICONTROL **新增帳戶**]。
 
-   此 [!UICONTROL **位置帳戶詳細資料**] 對話方塊隨即顯示。
+   [!UICONTROL **位置帳戶詳細資料**]&#x200B;對話方塊隨即顯示。
 
    或
 
-   若要編輯現有帳戶，請找到您要編輯的帳戶，然後選取 [!UICONTROL **編輯詳細資料**] 按鈕。
+   若要編輯現有帳戶，請找到您要編輯的帳戶，然後選取&#x200B;[!UICONTROL **編輯詳細資料**]&#x200B;按鈕。
 
-   此 [!UICONTROL **新增帳戶**] 對話方塊隨即顯示。
+   [!UICONTROL **新增帳戶**]&#x200B;對話方塊隨即顯示。
 
-1. 指定下列資訊： |欄位 | 函式 | ---------|----------| | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 | | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 | | [!UICONTROL **讓您組織中的所有使用者都可以使用帳戶**] | 啟用此選項可允許組織中的其他使用者使用該帳戶。<p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> | | [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如中所述 [設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
-1. 在 [!UICONTROL **帳戶屬性**] 區段，指定您所選取之帳戶型別的特定資訊。
+1. 指定下列資訊：
+|欄位 | 函式 |
+---------|----------|
+| [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會顯示此名稱 |
+| [!UICONTROL **位置帳戶描述**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 |
+| [!UICONTROL **讓您的組織中的所有使用者都可以使用帳戶**] | 啟用此選項可允許組織中的其他使用者使用該帳戶。<p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> |
+| [!UICONTROL **帳戶型別**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如[設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
+1. 在&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定您所選取帳戶型別的特定資訊。
 
-   如需設定指示，請展開以下對應至 [!UICONTROL **帳戶型別**] 您已選取的專案。 （也可使用其他舊帳戶型別，但不建議使用。）
+   如需設定指示，請展開下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的區段。 （也可使用其他舊帳戶型別，但不建議使用。）
 
    **帳戶型別**
 
@@ -85,7 +91,7 @@ ht-degree: 54%
    | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定Azure SAS，您必須使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p> |
-   | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中，位於 **金鑰儲存庫** 設定頁面。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
+   | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中（位於&#x200B;**金鑰儲存庫**&#x200B;設定頁面上）。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
    | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
@@ -110,7 +116,7 @@ ht-degree: 54%
 
    >[!NOTE]
    >
-   >電子郵件帳戶只能用於 [資料摘要](/help/export/analytics-data-feed/create-feed.md). (電子郵件帳戶不支援 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或 [分類設定](/help/components/classifications/sets/overview.md))。
+   >電子郵件帳戶只能與[資料摘要](/help/export/analytics-data-feed/create-feed.md)搭配使用。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件帳戶)。
 
    若要設定 Azure RBAC 帳戶，請註明以下資訊：
 
@@ -122,9 +128,9 @@ ht-degree: 54%
 
 +++
 
-   **舊版帳戶型別**
+   **舊帳戶型別**
 
-   這些舊帳戶型別僅在透過匯出資料時可用 [資料摘要](/help/export/analytics-data-feed/create-feed.md) 和 [Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md). 使用匯入資料時，這些選項無法使用 [分類設定](/help/components/classifications/sets/manage/schema.md).
+   這些舊帳戶型別只有在使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)和[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)匯出資料時才可用。 當匯入具有[分類集](/help/components/classifications/sets/manage/schema.md)的資料時，這些選項無法使用。
 
    +++FTP
 
@@ -135,7 +141,7 @@ ht-degree: 54%
    | [!UICONTROL **Host**] | 輸入所需的FTP目的地URL。 例如，`ftp://ftp.omniture.com`。 |
    | [!UICONTROL **路徑**] | 可留空。 |
    | [!UICONTROL **使用者名稱**] | 輸入要登入FTP網站的使用者名稱。 |
-   | [!UICONTROL **密碼和確認密碼**] | 輸入密碼以登入FTP站台。 |
+   | [!UICONTROL **密碼並確認密碼**] | 輸入密碼以登入FTP站台。 |
 
    {style="table-layout:auto"}
 
@@ -194,4 +200,4 @@ ht-degree: 54%
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-1. 繼續使用 [設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md).
+1. 繼續[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)。

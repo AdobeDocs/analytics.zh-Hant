@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 77%
+source-wordcount: '377'
+ht-degree: 73%
 
 ---
 
 # 美國各州
 
-&#39;美國各州&#39; [維度](overview.md) 報告美國的訪客所在州。 此維度與[地區](regions.md)維度相仿，差別在於此維度是美國特有維度。如果您想要有比[國家/地區](countries.md)更精細、但比[城市](cities.md)粗略的深入分析，使用此維度將有所幫助。
+「美國各州」[維度](overview.md)會報告美國的訪客所在州。 此維度與[地區](regions.md)維度相仿，差別在於此維度是美國特有維度。如果您想要有比[國家/地區](countries.md)更精細、但比[城市](cities.md)粗略的深入分析，使用此維度將有所幫助。
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，共同維護 IP 位址與國家/區域之間的查閱。
+此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。與[Digital Element](https://www.digitalelement.com/)合作Adobe，以維護IP位址與國家/地區之間的查閱。
 
 * 對於AppMeasurement實作，此維度可立即運作。
-* 對於Web SDK實作，啟用 [!UICONTROL 地理查閱] 當 [設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
 
 ## 維度項目
 
@@ -35,4 +35,4 @@ ht-degree: 77%
 * **行動 IP 位址**：行動 IP 定位會根據位置與網路而在不同層級運作。有些電信業者會透過集中化或區域性網路節點取回IP流量。
 * **衛星 ISP 使用者**：要識別這些使用者的特定位置並不容易，因為他們通常看似源自於上行位置。
 * **軍事和政府 IP**：此類 IP 通常屬於在全球各地旅行、而透過其居住地 (而非其目前駐在基地或辦公室) 進入的工作人員。
-* **基於隱私權原因模糊化IP位址的代理**：Apple的私人轉送之類的服務會透過中介或Proxy隨機傳送資料，以隱藏真正的IP位址。 然後，此Proxy會取代其他IP位址，再轉送至Adobe。
+* **因隱私權原因而遮蔽IP位址的代理程式**：Apple的私人轉送之類的服務會透過中介或Proxy隨機傳送資料，以隱藏真正的IP位址。 然後，此Proxy會取代其他IP位址，再轉送至Adobe。

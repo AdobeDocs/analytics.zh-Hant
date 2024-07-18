@@ -22,7 +22,7 @@ ht-degree: 79%
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 資料元素]標記，然後按一下所需的資料元素 (或建立資料元素)。
-4. 設定 [!UICONTROL 副檔名] 下拉式清單至 **[!UICONTROL 核心]**，以及 [!UICONTROL 資料元素型別] 至 **[!UICONTROL 查詢字串引數]**.
+4. 將[!UICONTROL 擴充功能]下拉式清單設定為&#x200B;**[!UICONTROL 核心]**，並將[!UICONTROL 資料元素型別]設定為&#x200B;**[!UICONTROL 查詢字串引數]**。
 5. 在文字欄位中輸入查詢字串參數。
 
 查詢字串參數值會儲存在資料元素中。接著，您可以參考規則中的資料元素，以指派所需的變數。

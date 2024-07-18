@@ -16,7 +16,7 @@ ht-degree: 94%
 
 處理規則可讓您根據已定義條件來對資料進行變更。當屬性或值符合定義條件時，可以設定或刪除值，以及設定事件。
 
-處理規則會在收集資料時套用至資料上，規則則會套用至透過 AppMeasurement 庫和「資料插入 API」而來的所有資料。處理規則也適用於完整和記錄檔資料來源。這些來源包含的資料代表 *`hit`* 或使用者採取的動作。 處理規則不適用於其他資料來源。
+處理規則會在收集資料時套用至資料上，規則則會套用至透過 AppMeasurement 庫和「資料插入 API」而來的所有資料。處理規則也適用於完整和記錄檔資料來源。這些來源包含代表&#x200B;*`hit`*&#x200B;或使用者採取動作的資料。 處理規則不適用於其他資料來源。
 
 ## 重要概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
@@ -40,7 +40,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>系統儲存處理規則後，會將它們立即套用至報表套裝。 </p> </td> 
-   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，我們建議設定 <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md"> 即時報表</a> ，以便快速檢視處理規則的結果。 </p> </td> 
+   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議您在測試報表套裝中設定<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">個即時報表</a>，以便快速檢視處理規則的結果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則是存取內容資料變數的唯一方法。 </p> </td> 

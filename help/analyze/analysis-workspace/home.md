@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '733'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與�
 
 ### 面板
 
-**面板**&#x200B;是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂部的「**[!UICONTROL 面板]**」圖示可檢視完整的可用面板清單。
+**面板**&#x200B;是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂部的「**[!UICONTROL 面板]**」圖示可檢視完整的可用面板清單。
 
 若要深入了解面板，請參閱[面板概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)。
 
@@ -66,9 +66,9 @@ Analysis Workspace 中的元件包含以下內容：
 
 若要深入了解各種元件類型，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。
 
-這些每個元件類型都可以新增到視覺效果 (例如自由表格) ，以開始回答您的業務問題。
+這些每個元件類型都可以新增到視覺效果 (例如自由形式表格) ，以開始回答您的業務問題。
 
-了解元件術語之後，您可以將元件拖曳進入視覺效果 (包括自由表格) 以[建立分析](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。
+了解元件術語之後，您可以將元件拖曳進入視覺效果 (包括自由形式表格) 以[建立分析](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。
 
 ![](assets/build-components.png)
 
@@ -106,8 +106,8 @@ Analysis Workspace 中的分析稱為[專案](/help/analyze/analysis-workspace/b
 
 * Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hant)。
 * 如需有關新功能的更新，請參閱 [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics)。
-* 熟悉 Analysis Workspace 的絕佳方法是透過 Analysis Workspace 培訓教學課程範本。此範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。若要開始進行教學課程：
-   1. 在 Adobe Analytics 「的&#x200B;[!UICONTROL **工作區**]」標籤上，選取左側的「**[!UICONTROL 學習]**」。
+* 熟悉 Analysis Workspace 的絕佳方法是透過 Analysis Workspace 培訓教學課程範本。此範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若要開始進行教學課程：
+   1. 在 Adobe Analytics 的「[!UICONTROL **Workspace**]」標籤上，選取左側的「**[!UICONTROL 學習]**」。
    1. 選取「**[!UICONTROL 開啟教學課程]**」。
       ![](assets/training-tutorial.png)
 

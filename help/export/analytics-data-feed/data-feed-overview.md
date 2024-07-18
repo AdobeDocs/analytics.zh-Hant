@@ -5,9 +5,9 @@ title: Analytics 資料摘要總覽
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * [資料摘要最佳實務](/help/export/analytics-data-feed/data-feeds-best-practices.md)：建立和管理資料摘要的最佳實務。
 * [建立資料摘要](create-feed.md)：建立資料摘要的技術詳細資訊，詳細說明個別欄位
 * [管理資料摘要](df-manage-feeds.md)：深入了解如何導覽資料摘要介面
-* [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案內容 <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案<!-- Is this still the output users can download from the destination? I aske Jun. -->內的內容
 * [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單。
 * 資料摘要介面影片導覽：
 

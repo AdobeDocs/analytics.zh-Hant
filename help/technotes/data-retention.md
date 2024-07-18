@@ -4,7 +4,7 @@ description: 資料保留原則可決定 Adobe 儲存您資料的時間長度。
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance, Privacy
 source-git-commit: d3d5b01fe17f88d07a748fac814d2161682837c2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 100%
 

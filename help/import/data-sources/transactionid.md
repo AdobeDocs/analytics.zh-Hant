@@ -20,9 +20,9 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->在使用交易ID資料來源之前，您必須先在中啟用它 [一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) 以取得所需的報表套裝。
+>在使用交易ID資料來源之前，您必須先在所需報表套裝的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中啟用它。
 
-當您傳送包含下列專案的線上點選時： [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 值，Adobe會對所有當時設定或儲存的變數拍攝「快照」。 如果找到透過資料來源上傳的相符交易ID，離線和線上資料就會繫結在一起。
+當您傳送包含[`transactionID`](/help/implement/vars/page-vars/transactionid.md)值的線上點選時，Adobe會對當時所有已設定或持續存在的變數拍攝「快照」。 如果找到透過資料來源上傳的相符交易ID，離線和線上資料就會繫結在一起。
 
 交易ID資料來源有下列屬性：
 
@@ -37,19 +37,19 @@ ht-degree: 7%
 例如：
 
 1. 您從AppMeasurement傳送頁面檢視，其中：
-   * `eVar1` 等於 `blue`
-   * `eVar2` 等於 `water`
-   * `events` 等於 `event1`
-   * `transactionID` 等於 `1256`
+   * `eVar1`等於`blue`
+   * `eVar2`等於`water`
+   * `events`等於`event1`
+   * `transactionID`等於`1256`
 2. 收集並處理點選後，您可上傳交易ID資料來源，其中：
-   * `eVar1` 等於 `yellow`
-   * `eVar3` 等於 `bird`
-   * `events` 等於 `event2`
-   * `transactionID` 等於 `1256`
+   * `eVar1`等於`yellow`
+   * `eVar3`等於`bird`
+   * `events`等於`event2`
+   * `transactionID`等於`1256`
 3. 處理資料來源點選後，您即可在工作區中檢視報表。 資料會顯示下列內容：
-   * `eVar1` 等於 `yellow`
-   * `eVar2` 等於 `water`
-   * `eVar3` 等於 `bird`
-   * `events` 等於 `event2`
+   * `eVar1`等於`yellow`
+   * `eVar2`等於`water`
+   * `eVar3`等於`bird`
+   * `events`等於`event2`
 
-eVar1值 `blue` 和 `event1` 量度不存在於報表中，因為交易ID點選會覆寫這些個別值。
+報表中不存在eVar1值`blue`和`event1`量度，因為交易ID點選會覆寫這些個別值。

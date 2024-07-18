@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # 上午/下午
 
-&#39;上午/下午&#39; [維度](overview.md) 提供點選發生在上午還是下午。 點擊的時間根據[報表套裝的時區](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)而定。
+&#39;AM/PM&#39; [維度](overview.md)可讓您深入瞭解點選發生在上午還是下午。 點擊的時間根據[報表套裝的時區](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)而定。
 
 ## 將資料填入此維度中
 

@@ -12,11 +12,11 @@ ht-degree: 72%
 
 # 產品檢視
 
-「產品檢視」 [量度](overview.md) 顯示檢視任何產品的次數。 如果您想要查看檢視次數最多的產品，或想瞭解產品檢視總數在一段時間內的趨勢，此量度就十分實用。
+「產品檢視」[量度](overview.md)會顯示任何產品被檢視的次數。 如果您想要查看檢視次數最多的產品，或想瞭解產品檢視總數在一段時間內的趨勢，此量度就十分實用。
 
 ## 此量度的計算方式
 
 此量度會計算符合下列&#x200B;**任一條件**&#x200B;的點擊次數：
 
 * 值 `prodView` 存在於 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中；或
-* 此 [`products`](/help/implement/vars/page-vars/products.md) 變數已設定，且 `events` 變數空白。
+* 已設定[`products`](/help/implement/vars/page-vars/products.md)變數，且`events`變數是空的。

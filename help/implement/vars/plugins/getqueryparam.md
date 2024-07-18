@@ -17,17 +17,17 @@ ht-degree: 73%
 
 `getQueryParam` 外掛程式讓您可擷取 URL 中所含任何查詢字串參數的值。如需從登陸頁面 URL 擷取內部和外部促銷活動程式碼，此外掛程式非常有用。擷取搜尋詞或其他查詢字串參數時，它也很有用。
 
-此外掛程式提供完善的功能，可剖析複雜的 URL，包括雜湊和包含多個查詢字串參數的 URL。如果您只有簡單的查詢字串引數需求，Adobe建議您使用Web SDK、Adobe Analytics擴充功能或 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) AppMeasurement中包含的方法。
+此外掛程式提供完善的功能，可剖析複雜的 URL，包括雜湊和包含多個查詢字串參數的 URL。如果您只有簡單的查詢字串引數需求，Adobe建議您使用Web SDK或Adobe Analytics擴充功能，或AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法來使用URL引數功能。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
 Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 標籤]** 然後，按一下所需的標籤屬性。
-1. 按一下 **[!UICONTROL 擴充功能]** 然後按一下左側的 **[!UICONTROL 目錄]** 標籤
-1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 副檔名。
-1. 按一下 **[!UICONTROL 資料元素]** 然後按一下所需的資料元素。
+1. 按一下左側的&#x200B;**[!UICONTROL 標籤]**，然後按一下所需的標籤屬性。
+1. 按一下左側的&#x200B;**[!UICONTROL 擴充功能]**，然後按一下&#x200B;**[!UICONTROL 目錄]**&#x200B;標籤
+1. 尋找並安裝&#x200B;**[!UICONTROL 常用Web SDK外掛程式]**&#x200B;擴充功能。
+1. 按一下左側的&#x200B;**[!UICONTROL 資料元素]**，然後按一下所需的資料元素。
 1. 使用下列設定來設定所需的資料元素名稱：
    * 擴充功能：常見Web SDK外掛程式
    * 資料元素： `getQueryParam`
@@ -136,7 +136,7 @@ s.eVar2 = getQueryParam('ecid,cid,location,pos','|',s.eVar1);
 ### 4.0 (2021 年 3 月 19 日)
 
 * 將版本編號加入為內容資料。
-* 已移除的相依性 `pt` 外掛程式。
+* 已移除`pt`外掛程式上的相依性。
 
 ### 3.3 (2019 年 9 月 24 日)
 

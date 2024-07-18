@@ -33,4 +33,4 @@ ht-degree: 43%
 
 為您的組織布建第一個管理員後，第一個管理員隨後可為組織中的使用者布建其他關鍵角色。
 
-如需如何在您的組織中布建具有Adobe Analytics關鍵角色的使用者的相關資訊，請參閱 [Adobe Analytics中的管理員角色](/help/admin/admin-console/admin-roles-in-analytics.md).
+如需如何在組織中布建具有Adobe Analytics主要角色的使用者的相關資訊，請參閱[Adobe Analytics中的管理員角色](/help/admin/admin-console/admin-roles-in-analytics.md)。

@@ -6,7 +6,7 @@ exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此說明頁面說明「單頁造訪次數」作為量度時的運作方式。如需詳細資訊，請參閱[單頁造訪次數](../dimensions/single-page-visits.md)維度。*
 
-[!UICONTROL 單頁造訪次數][](overview.md)量度會顯示[頁面](../dimensions/page.md)維度項目在整個造訪期間僅包含單一唯一值的造訪次數。 當您想要了解短期造訪次數維度，但沒有設定像是[[!UICONTROL 跳出數]](bounces.md)那樣嚴格的規則時，此量度就會很有用。
+[!UICONTROL 單頁造訪次數] [量度](overview.md)會顯示[頁面](../dimensions/page.md)維度專案在整個造訪中僅包含單一不重複值的造訪次數。 當您想要了解短期造訪次數維度，但沒有設定像是[[!UICONTROL 跳出數]](bounces.md)那樣嚴格的規則時，此量度就會很有用。
 
 ## 此量度的計算方式
 

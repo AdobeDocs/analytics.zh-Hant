@@ -141,4 +141,4 @@ Adobe 在 Analysis Workspace 中使用名為「Advertising Analytics」(廣告�
 
 ## 成本分析
 
-此報表會顯示您付費行銷管道的造訪、成本和收入成績資料。Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果貴組織有興趣使用此產品，請連絡您的Adobe帳戶團隊。
+此報表會顯示您付費行銷管道的造訪、成本和收入成績資料。Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果您的組織有興趣使用本產品，請聯絡您的Adobe客戶團隊。

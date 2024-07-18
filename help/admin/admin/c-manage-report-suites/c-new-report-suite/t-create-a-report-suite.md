@@ -1,18 +1,18 @@
 ---
 description: 在 Adobe Analytics 中建立資料收集的基本容器
-title: 建立報表套裝
+title: 建立報告套裝
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 100%
 
 ---
 
-# 建立報表套裝
+# 建立報告套裝
 
-報表套裝是 Adobe Analytics 用來提取報表的獨立資料單位。組織可以有許多報表套裝，每個報表套裝都包含不同的資料集。雖然過去使用者較重視個別產生報表，但如今使用單一報表套裝已變得更具優勢了。[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites)和報表時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
+報告套裝是 Adobe Analytics 用來提取報告的獨立資料單位。組織可以有許多報告套裝，每個報告套裝都包含不同的資料集。雖然過去使用者較重視個別產生報告，但如今使用單一報告套裝已變得更具優勢了。[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites)和報告時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
 
 本文的適用對象為系統層級管理員或 Adobe Analytics 管理員，目的在方便這些人員準備資料收集。
 
@@ -20,20 +20,20 @@ ht-degree: 100%
 
 [Adobe Analytics 優先管理員指南](/help/admin/admin-console/first-admin-guide.md)：確保系統層級管理員已透過 Experience Cloud Admin Console 授與您 Adobe Analytics 的存取權限。
 
-## 建立報表套裝 {#create-report-suite}
+## 建立報告套裝 {#create-report-suite}
 
-1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
-1. 按一下&#x200B;**[!UICONTROL 「新增]** > **[!UICONTROL 報表套裝」]**。
-1. 選取預先定義的範本或現有的報表套裝，以當成[範本](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)使用。
+1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增]** > **[!UICONTROL 報告套裝」]**。
+1. 選取預先定義的範本或現有的報告套裝，以當成[範本](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)使用。
 
    >[!NOTE]
    >
-   >只能複製設定，不能複製資料。如果由客戶服務複製設定，您需要提供客戶服務針對有關風險之免責聲明的書面確認。請參閱[不會從來源報表套裝複製的設定值](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)以瞭解詳細資訊。
+   >只能複製設定，不能複製資料。如果由客戶服務複製設定，您需要提供客戶服務針對有關風險之免責聲明的書面確認。請參閱「[並非從來源報告套裝複製的設定](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)」，了解詳細資訊。
 
-1. 填寫[「新報表套裝」](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)中所述的欄位。
-1. 按一下&#x200B;**[!UICONTROL 「建立報表套裝」]**。
+1. 填寫[「新報告套裝」](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)中所述的欄位。
+1. 按一下&#x200B;**[!UICONTROL 「建立報告套裝」]**。
 
-報表套裝 ID 的長度上限為 40 個位元組。 報表套裝易記名稱的長度上限為 255 個位元組。
+報告套裝 ID 的長度上限為 40 個位元組。 報告套裝易記名稱的長度上限為 255 個位元組。
 
 ## 疑難排解
 

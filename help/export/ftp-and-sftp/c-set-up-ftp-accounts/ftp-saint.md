@@ -6,8 +6,8 @@ feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 89%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 成功的匯入可立即在匯出中顯示正確變更，但使用瀏覽器匯入的 Analytics 中資料變更可能需要 4 小時，而使用 FTP 匯入則可能需要高達 24 小時。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱 [FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
+如需FTP限制和資料保留的詳細資訊，請參閱[FTP限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## 關於`.fin`分類和資料來源上傳的檔案 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-當您上傳分類或資料來源檔案 (`.tab` 或 `.txt`) 時，還需要上傳與正在匯入的資料檔案具有相同名稱，但副檔名為 `.fin` 的空白檔案。 此 `.fin` 檔案是完成檔案。此檔案的用途是告知系統，資料檔案已完全上傳至 FTP 帳戶。`.fin` 檔案可讓 Adobe 識別您已完成匯入作業。
+當您上傳分類或資料Source檔案（`.tab`或`.txt`）時，還需要上傳與正在匯入的資料檔案具有相同名稱，但含有一個的空白檔案。`.fin`延伸。 此 `.fin` 檔案是完成檔案。此檔案的用途是告知系統，資料檔案已完全上傳至 FTP 帳戶。`.fin` 檔案可讓 Adobe 識別您已完成匯入作業。
 
 當您提交來源檔案和 `.fin` 檔案後，一定要從 FTP 網站登出。 這是因為 Adobe Analytics 會使用登出事件當做檔案已準備好進行處理的觸發條件。 匯入完成後，Adobe 會從 FTP 位置移除這兩個檔案。
 

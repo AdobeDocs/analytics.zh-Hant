@@ -82,7 +82,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 * `s_ppv`：儲存每個透過呼叫函式公開的值
 * `s_tp`：儲存上一頁的總畫素高度
-* `s_ips`：儲存上一頁的初始捲動百分比
+* `s_ips`：儲存上一個頁面的初始捲動百分比
 
 ## 範例
 

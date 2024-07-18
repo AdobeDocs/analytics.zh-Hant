@@ -16,25 +16,25 @@ ht-degree: 6%
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 合併]**
 
-執行合併後，會移除原始分類設定，而合併的分類設定會取而代之。 按一下 **[!UICONTROL 新增]** 至 [建立合併](process.md).
+執行合併後，會移除原始分類設定，而合併的分類設定會取而代之。 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;至[建立合併](process.md)。
 
 ## 篩選「分類設定」
 
-分類設定合併管理員的左側會提供篩選設定，以找出所需的合併。 按一下篩選圖示切換篩選設定可見度。您可以依下列方式篩選合併： **[!UICONTROL 狀態]**， **[!UICONTROL 完成時間]**，或 **[!UICONTROL 建立時間]**.
+分類設定合併管理員的左側會提供篩選設定，以找出所需的合併。 按一下篩選圖示切換篩選設定可見度。您可以依&#x200B;**[!UICONTROL 狀態]**、**[!UICONTROL 完成時間]**&#x200B;或&#x200B;**[!UICONTROL 建立時間]**&#x200B;來篩選合併。
 
-![「分類設定」合併篩選器](../../assets/classification-set-consolidation-filters.png)
+![分類集合併篩選器](../../assets/classification-set-consolidation-filters.png)
 
 「分類設定合併管理員」欄的上方有其他篩選選項：
 
 * **[!UICONTROL 依標題搜尋]**：依名稱搜尋合併。
-* **顯示/隱藏欄**：切換任何欄的可見度，除了 [!UICONTROL 名稱].
+* **顯示/隱藏欄**：除了[!UICONTROL 名稱]之外，還切換任何欄的可見度。
 
 ## 分類集合併管理員欄
 
 分類集合併管理員中有以下欄：
 
 * **[!UICONTROL 名稱]**：合併的名稱。
-* **[!UICONTROL 目前的工作]**：目前的工作。 <!-- todo: better description -->
-* **[!UICONTROL 狀態]**：合併的狀態。 <!-- todo: get list of possible statuses -->
+* **[!UICONTROL 目前的工作]**：目前的工作。<!-- todo: better description -->
+* **[!UICONTROL 狀態]**：合併的狀態。<!-- todo: get list of possible statuses -->
 * **[!UICONTROL 建立日期]**：建立合併的日期和時間。
 * **[!UICONTROL 完成日期]**：合併完成（或失敗）的日期和時間。

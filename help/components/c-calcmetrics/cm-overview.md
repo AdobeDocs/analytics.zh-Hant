@@ -24,7 +24,7 @@ ht-degree: 59%
 
 以下是計算量度與進階計算量度功能的比較：
 
-| Builder 選項 | 計算量度 | 進階計算（衍生）量度 |
+| 產生器選項 | 計算量度 | 進階計算（衍生）量度 |
 |---|---|---|
 | [格式類型 (小數、時間、百分比、貨幣)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 是 | 是 |
 | [歸因變更 (預設、線性、參與率等)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |
@@ -38,7 +38,7 @@ ht-degree: 59%
 
 您可以
 
-* 建立以下範圍的量度 [!UICONTROL Analysis Workspace]， [!UICONTROL Report Builder]， [!UICONTROL 異常偵測]、和 [!UICONTROL 貢獻分析].
+* 建立跨[!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]的量度。
 * 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度的根據是區段，所以可查看其歷史資料。
 
   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
@@ -62,11 +62,11 @@ ht-degree: 59%
 
 ## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-以下為「 」的簡短概覽 [!UICONTROL 計算量度] 工具：
+以下是[!UICONTROL 計算量度]工具的簡短概觀：
 
 | 工具 | 功能 |
 |--- |--- |
 | 計算量度產生器 | <ul><li>使用進階配置模型建立計算量度和進階計算量度。</li><li>將內嵌區段新增至量度公式</li><li>比較同一份報表中的區段。例如，比較當地訪客和國際訪客。</li><li>使用統計函式</li><li>提供詳細的量度說明（顯示其用途、使用位置和不使用位置）</li><li>將定義複製到新量度中</li><li>提供內嵌量度預覽</li><li>設定量度極性，以指出當特定自訂事件（量度）上升時是有利還是不利</li><li>標籤量度</li></ul> |
-| 計算量度管理員 | <ul><li>與其他人共用量度&lt;/li><li>核准和管理量度</li><li>組織（標籤）量度，方便使用者尋找</li><li>刪除量度</li><li>重新命名量度</li></ul> |
+| 計算量度管理員 | <ul><li>與其他人共用量度&lt;/li<li>核准和管理量度</li><li>組織（標籤）量度，方便使用者尋找</li><li>刪除量度</li><li>重新命名量度</li></ul> |
 | 量度選擇器邊欄 | 可讓您搜尋量度，並將其新增/套用至報表。 您也可以變更排序順序（選項為：字母順序、建議、經常使用、最近使用。） 此外，您可以篩選報表套裝，以僅顯示特定報表套裝中建立的量度。  若要存取此「量度選擇器」，請按一下報表左側的「量度」圖示。 |
 | 計算量度的 API | Adobe Analytics 2.0 API 集的一部分。 |

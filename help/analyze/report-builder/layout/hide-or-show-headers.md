@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d643b55d-dfe8-4f34-bb49-044c1166536c
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 57%
+source-wordcount: '53'
+ht-degree: 58%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 57%
 
 在「[!UICONTROL 請求精靈: 步驟 2]」表單內按一下「[!UICONTROL 樞紐配置]」或「[!UICONTROL 自訂配置]」輸出中的「**[!UICONTROL 隱藏/顯示]**」。
 
-![熒幕擷圖顯示量度標題的「隱藏/顯示」圖示。](assets/hide_show_header.png)
+![熒幕擷圖顯示量度標頭的「隱藏/顯示」圖示。](assets/hide_show_header.png)

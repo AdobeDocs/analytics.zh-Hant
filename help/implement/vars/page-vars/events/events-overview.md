@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 使用 Web SDK 的事件
 
-若使用 [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)，自訂事件會使用下列XDM欄位：
+如果使用[XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)，自訂事件會使用下列XDM欄位：
 
 * 自訂事件 1-100 會對應到 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`。
 * 自訂事件 101-200 會對應到 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`。
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >如果在 `productListItems` 下設定事件 (例如 `productListItems._experience.analytics.event1.value`)，並且該事件尚未在此欄位中，則該事件會自動新增到此欄位中。
 
-若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，所有事件使用 `data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。 如果您設定此欄位，在XDM物件中設定的任何事件都會被覆寫，且不會傳送至Adobe Analytics。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則所有事件都會使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。 如果您設定此欄位，在XDM物件中設定的任何事件都會被覆寫，且不會傳送至Adobe Analytics。
 
 ## 使用 Adobe Analytics 擴充功能的事件
 
@@ -48,14 +48,14 @@ ht-degree: 85%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「事件」]區段。
 
 您可以使用幾個功能：
 
 * 可讓您選取要包含之事件的下拉式清單
 * 供序列化使用的選用文字欄位。如需詳細資訊，請參閱[事件序列化](event-serialization.md)。
-* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，選取 `event1` 位於下拉式清單下方，並包含 `10` 在此欄位中增加 `event1` 報表中按10。
+* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，在下拉式清單中選取`event1`並在此欄位中包含`10`，可在報告中將`event1`增加10。
 * 新增其他事件的按鈕。您可以在合理的範圍內向單一規則新增任意數量的事件。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.events

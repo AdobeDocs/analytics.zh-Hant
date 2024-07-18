@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 93%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
 # eVar (銷售)
 
-*此說明頁面說明銷售eVar作為 [維度](overview.md). 如需如何實作銷售eVar的相關資訊，請參閱 [eVar（銷售變數）](/help/implement/vars/page-vars/evar-merchandising.md) （在實作使用手冊中）。*
+*此說明頁面說明銷售eVar作為[維度](overview.md)時的運作方式。 如需如何實作銷售eVar的相關資訊，請參閱實作使用手冊中的[eVar（銷售變數）](/help/implement/vars/page-vars/evar-merchandising.md)。*
 
 如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)」。
 

@@ -7,7 +7,7 @@ exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: a012aca08740428671f216793dbd12aa15f21448
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 52%
+ht-degree: 54%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Adobe Analytics中的智慧型警報（或只是「警報」）可讓您在資料中發生異常事件時立即收到通知。
 
-您可以設定要根據異常臨界值、變更的百分比或特定資料點觸發的警報。 警報提供整合了下列專案的精細控制項： [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)，會在您最需要它們時觸發。
+您可以設定要根據異常臨界值、變更的百分比或特定資料點觸發的警報。 警示提供與[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)整合的精細控制項，在您最需要時觸發。
 
 智慧型警報可讓您：
 
@@ -24,7 +24,7 @@ Adobe Analytics中的智慧型警報（或只是「警報」）可讓您在資�
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結
 * 建立在單一警報中擷取多個量度的「堆疊」警報
 
-下列影片教學課程提供警報的基本概覽： [智慧型警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
+下列影片教學課程提供警示的基本概觀： [智慧型警示](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)
 
 ## 警報的異常回顧
 
@@ -35,11 +35,11 @@ Adobe Analytics中的智慧型警報（或只是「警報」）可讓您在資�
 * 每日粒度：35 天 + 去年的相同範圍
 * 每小時粒度：336小時
 
-如需詳細資訊，請參閱 [異常偵測所使用的統計技術](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md).
+如需詳細資訊，請參閱[異常偵測所使用的統計技術](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)。
 
 ## 建立警報
 
-如需如何在Adobe Analytics中建立警報的詳細資訊，請參閱 [建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+如需有關如何在Adobe Analytics中建立警示的資訊，請參閱[建立警示](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)。
 
 >[!IMPORTANT]
 >
@@ -49,4 +49,4 @@ Adobe Analytics中的智慧型警報（或只是「警報」）可讓您在資�
 
 您可以在「警報管理員」中管理現有警報。 您可以對警示執行各種管理工作，例如標籤、重新命名、刪除等等。
 
-如需如何在Adobe Analytics中管理現有警報的詳細資訊，請參閱 [管理警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md).
+如需有關如何在Adobe Analytics中管理現有警示的詳細資訊，請參閱[管理警示](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)。

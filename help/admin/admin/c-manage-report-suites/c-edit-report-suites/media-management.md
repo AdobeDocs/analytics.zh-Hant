@@ -27,4 +27,4 @@ ht-degree: 71%
 
   媒體分類頁面會提供串流媒體收集附加元件的特定分類。 如需分類的資訊，請參閱[轉換分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)。
 
-如需在Adobe Analytics中合併串流媒體資料的一般資訊，請參閱 [串流媒體收集附加元件指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant).
+如需在Adobe Analytics中合併串流媒體資料的一般資訊，請參閱[串流媒體收集附加元件指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。

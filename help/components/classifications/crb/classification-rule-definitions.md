@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>規則編號。 </p> <p>請參閱<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >規則的處理方式</a>以取得詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>規則編號。 </p> <p>如需詳細資訊，請參閱<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >規則的處理方式</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 選擇規則類型</span> </td> 
@@ -129,7 +129,7 @@ ht-degree: 100%
 | 匹配群組 | 顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。 |
 | 匹配結果 | 顯示字串中與規則運算式成功匹配的部分。 |
 
-請參閱[分類規則裡的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)。
+請參閱分類規則](/help/components/classifications/crb/classification-quickstart-rules.md)中的[規則運算式。
 
 ## 測試頁面 {#section_EC926F97901C4E65901413F9683AA70A}
 

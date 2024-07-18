@@ -5,14 +5,14 @@ exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 93%
 
 ---
 
 # 同意管理選擇退出
 
-「同意管理選擇退出」 [維度](overview.md) 顯示訪客明確選擇退出哪些隱私設定。 您可以使用此維度根據隱私設定篩選資料，或查看最常見的隱私選擇退出原因。
+「同意管理選擇退出」[維度](overview.md)顯示訪客已明確選擇退出哪些隱私設定。 您可以使用此維度根據隱私設定篩選資料，或查看最常見的隱私選擇退出原因。
 
 ## 將資料填入此維度中
 

@@ -35,11 +35,11 @@ ht-degree: 83%
 
 ## 透過 Web SDK 使用事件 ID
 
-若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，事件序列化會使用所需事件的XDM欄位 `id`. 完整的 XDM 路徑取決於您要序列化的事件。
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，事件序列化會使用所需事件的XDM欄位`id`。 完整的 XDM 路徑取決於您要序列化的事件。
 
-例如，如果您想要序列化購物車新增量度，請設定 `xdm.commerce.productListAdds.id` 至所需的序列化值。 如果您想要序列化自訂事件20，請設定 `xdm._experience.analytics.event1to100.event20` 至所需的序列化值。
+例如，如果您想要序列化購物車新增量度，請將`xdm.commerce.productListAdds.id`設定為所要的序列化值。 如果您想要序列化自訂事件20，請將`xdm._experience.analytics.event1to100.event20`設定為所要的序列化值。
 
-若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化使用 `data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化會使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。
 
 ## 透過 Adobe Analytics 擴充功能使用事件 ID
 
@@ -49,7 +49,7 @@ ht-degree: 83%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「事件」]區段，其中每個事件都包含[!UICONTROL 「事件 ID」]欄位。
 
 有效值是長度最多 20 個位元組的英數字元。 如果輸入的值超過 20 個位元組，系統會截斷至前 20 個位元組。

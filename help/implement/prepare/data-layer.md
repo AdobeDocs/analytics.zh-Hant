@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `adobeDataLayer.page.title`。
 1. **使用 Adobe Experience Platform 資料彙集將資料層物件對應至資料元素**：此步驟因您組織的實作方法而異：
-   * **如果使用 Web SDK**：將所需的資料層物件對應至 Adobe Experience Platform Edge 的所需 XDM 欄位。另請參閱 [Analytics XDM變數對應](../aep-edge/xdm-var-mapping.md) 以決定所需的資料層對應。
+   * **如果使用 Web SDK**：將所需的資料層物件對應至 Adobe Experience Platform Edge 的所需 XDM 欄位。請參閱[Analytics XDM變數對應](../aep-edge/xdm-var-mapping.md)，以決定所需的資料層對應。
    * **如果使用 Analytics 擴充功能**：在 Adobe Experience Platform 資料彙集的「標記」下建立資料元素，並將它們指派給所需的資料層物件。然後在 Analytics 擴充功能中，將每個資料元素指派給適當的 Analytics 變數。
 
 ## 規格

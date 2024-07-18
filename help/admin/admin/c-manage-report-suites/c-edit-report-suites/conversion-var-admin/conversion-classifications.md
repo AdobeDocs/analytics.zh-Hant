@@ -19,7 +19,7 @@ ht-degree: 93%
 
 轉換分類可讓您歸類轉換變數。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的資料屬性產生。
 
-啟用分類後，請使用 [分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md) 將特定值指派給適當的分類。
+啟用分類後，請使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)將特定值指派給適當的分類。
 
 >[!WARNING]
 >

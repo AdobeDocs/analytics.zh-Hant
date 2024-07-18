@@ -17,13 +17,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實作。若要設定即時報表，請參閱 [即時報表設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md).
+>即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實作。若要設定即時報表，請參閱[即時報表設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
 
 ## 存取即時報表
 
 1. 在 Analysis Workspace 中，選取「[!UICONTROL **工作區**]」標籤。
 
-1. 選取 [!UICONTROL **報表**] > [!UICONTROL **參與**] > **[!UICONTROL 即時]**.
+1. 選取&#x200B;[!UICONTROL **報表**] > [!UICONTROL **參與**] > **[!UICONTROL 即時]**。
 
 ## 瞭解即時報告
 
@@ -49,7 +49,7 @@ ht-degree: 90%
 
 * 舉例來說，可以比較上週的值和去年的值 (以及今日總計)。
 
-請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。如需詳細資訊，請參閱中擷取的警告訊息 [設定即時報表](/help/components/c-real-time-reporting/t-realtime-admin.md).
+請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。如需詳細資訊，請參閱[設定即時報表](/help/components/c-real-time-reporting/t-realtime-admin.md)中擷取的警告訊息。
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 

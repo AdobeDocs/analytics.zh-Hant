@@ -19,7 +19,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->清單變數會根據每個訪客最近使用的值來儲存它 [!UICONTROL 最大值] 設定於 [報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md). 最多可支援250個值。 如果唯一值的數量多於 [!UICONTROL 最大值] 設定允許時，最舊的值不會歸屬於量度。
+>清單變數會根據[報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中的[!UICONTROL 最大值]設定，儲存每位訪客最近的值。 最多可支援250個值。 如果唯一值的數量超過[!UICONTROL 最大值]設定所允許的數量，則最早的值不會歸屬於量度。
 
 ## 在報表套裝設定中設定清單變數
 
@@ -27,7 +27,7 @@ ht-degree: 74%
 
 ## 使用 Web SDK 的清單變數
 
-若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單變數使用XDM欄位 `xdm._experience.analytics.customDimensions.lists.list1.list[]` 至 `xdm._experience.analytics.customDimensions.lists.list3.list[]`. 每個陣列元素包含一個 `"value"` 物件，其中包含每個字串。不需要提供分隔符號；Adobe資料收集伺服器會自動偵測並包含中設定的正確分隔符號 [報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單變數會使用XDM欄位`xdm._experience.analytics.customDimensions.lists.list1.list[]`至`xdm._experience.analytics.customDimensions.lists.list3.list[]`。 每個陣列元素包含一個 `"value"` 物件，其中包含每個字串。不需要提供分隔符號；Adobe資料收集伺服器會自動偵測並包含[報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中設定的正確分隔符號。
 
 ```json
 "xdm": {
@@ -59,7 +59,7 @@ ht-degree: 74%
 >
 >Adobe XDM 結構描述在每個 `list[]` 陣列中，除了 `value` 物件，也包含 `key` 物件。Adobe 在傳送資料給 Adobe Analytics 時，不會使用這些 `key` 物件。
 
-若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單變數使用 `data.__adobe.analytics.list1` - `data.adobe.analytics.list3` 遵循AppMeasurement語法。 請務必使用中設定的正確分隔字元 [報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md).
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單變數會使用`data.__adobe.analytics.list1` - `data.adobe.analytics.list3`下列AppMeasurement語法。 請確定您在[報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中使用正確的分隔符號集。
 
 ```json
 "data": {

@@ -87,4 +87,4 @@ Adobe 建議對此維度使用&#x200B;**造訪**&#x200B;量度。
 
 ## 發佈者報表
 
-如同 Google 需要與 Google Ad Manager 連線，Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果貴組織有興趣使用此產品，請連絡您的Adobe帳戶團隊。
+如同 Google 需要與 Google Ad Manager 連線，Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果您的組織有興趣使用本產品，請聯絡您的Adobe客戶團隊。

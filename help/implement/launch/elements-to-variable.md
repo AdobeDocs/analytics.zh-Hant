@@ -43,7 +43,7 @@ ht-degree: 96%
 1. 按一下所需的標籤屬性。
 1. 按一下[!UICONTROL 「規則」]標記，然後按一下所需的規則 (或建立規則)。
 1. 按一下[!UICONTROL 「動作」]中的[!UICONTROL 「新增」]按鈕。
-1. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 以設定變數。
+1. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定變數。
 1. 按一下所需 Analytics 變數右側的![「資料元素」](assets/data-element.png)圖示。您組織的[解決方案設計文件](../prepare/solution-design.md)會規定要使用的 Analytics 變數。
 1. 在強制回應視窗中選取所需的資料元素。按一下[!UICONTROL 「選取」]。
 1. 資料元素名稱會新增至由 `%` 符號包住的文字欄位。例如，如果您將資料元素命名為「Page name」，會在將資料元素指派至變數時看到字串 `%Page name%`。

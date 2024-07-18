@@ -23,8 +23,8 @@ ht-degree: 75%
 
 管道已對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.isErrorPage`  — 此XDM欄位是布林值；請將其設為 `true` 將其標幟為錯誤頁面，或 `false` 如果不是錯誤頁面。
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageType`  — 此資料物件欄位是字串；請將其設為 `"errorPage"` 以標示其為本身。
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.isErrorPage` — 此XDM欄位是布林值；將其設為`true`以將其標幟為錯誤頁面，或若不是錯誤頁面則設為`false`。
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageType` — 此資料物件欄位是字串；請將其設定為`"errorPage"`以標示其為字串。
 
 ## 使用 Adobe Analytics 擴充功能的頁面類型
 

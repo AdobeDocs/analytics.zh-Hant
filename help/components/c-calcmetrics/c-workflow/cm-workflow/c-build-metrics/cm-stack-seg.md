@@ -16,7 +16,7 @@ ht-degree: 26%
 
 ## 堆疊區段 {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-1. 開始建立量度，如所述 [建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. 開始建立量度，如[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
 
 1. 在「定義」畫布中，將新區段拖曳至現有區段旁：
 
@@ -24,7 +24,7 @@ ht-degree: 26%
 
 ## 以另一個區段取代一個區段 {#section_3DA899DF522A44D7A583C5DC8C0A033E}
 
-1. 開始建立量度，如所述 [建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+1. 開始建立量度，如[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
 
 1. 在「定義」畫布中，將新區段拖曳至現有區段上方：
 

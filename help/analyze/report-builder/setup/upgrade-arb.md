@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 53%
+source-wordcount: '229'
+ht-degree: 51%
 
 ---
 
@@ -29,16 +29,16 @@ ht-degree: 53%
 
    ![熒幕擷圖顯示[選項]對話方塊以及目前版本和新版本。](assets/upgrade.png)
 
-1. 如果有可用的新版本，請按一下「**[!UICONTROL 更新...]**」。按鈕會顯示您要更新至哪個版本，例如： *更新至5.0.50版*
+1. 如果有可用的新版本，請按一下「**[!UICONTROL 更新...]**」。按鈕會顯示您更新至哪個版本，例如： *更新至5.0.50*&#x200B;版
 
    >[!NOTE]
    >
    >如果此按鈕呈現灰色，表示沒有可用的新 Report Builder 版本。
 
-1. （可選）選取 **[!UICONTROL 在有新版本時更新]** 核取方塊。 日後有可用的新版本時，就會自動啟動更新程序。
+1. （選擇性）選取&#x200B;**[!UICONTROL 有新版本可用時進行更新]**&#x200B;核取方塊。 日後有可用的新版本時，就會自動啟動更新程序。
 1. 出現設定畫面時，按&#x200B;**[!UICONTROL 「下一步 >」]**。
 
-   ![顯示Report Builder設定畫面的熒幕擷圖。](assets/setup.png)
+   ![顯示Report Builder設定熒幕的熒幕擷圖。](assets/setup.png)
 
 1. 升級完成後，重新登入Report Builder。
 

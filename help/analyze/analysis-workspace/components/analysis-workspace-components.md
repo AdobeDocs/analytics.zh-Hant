@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1044'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 [**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html)是訪客行為的量化量度。這些量度可在左側「元件」邊欄 (綠色區段) 中找到，通常可作為表格欄套用。
 
-量度的範例包括[!UICONTROL 頁面檢視次數]、[!UICONTROL 瀏覽次數]、[!UICONTROL 訂購]、[!UICONTROL 平均逗留時間]和[!UICONTROL 收入/訂購]。維度是由 Adobe 提供，或是透過您的自訂實作 ([!UICONTROL 成功事件]) 擷取，或是使用[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)建立。
+量度的範例包括[!UICONTROL 頁面檢視次數]、[!UICONTROL 造訪次數]、[!UICONTROL 訂購]、[!UICONTROL 平均逗留時間]和[!UICONTROL 收入/訂購]。維度是由 Adobe 提供，或是透過您的自訂實作 ([!UICONTROL 成功事件]) 擷取，或是使用[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)建立。
 
 ![](assets/metrics.png)
 
@@ -45,7 +45,7 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 [**區段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)是套用至分析的對象篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
 
-區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的瀏覽次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)建立。
+區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的造訪次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)建立。
 
 ![](assets/segments.png)
 
@@ -81,9 +81,9 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
    |--- |--- |
    | [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後，您可以按一下篩選或輸入 #，依左側欄中的標籤進行搜尋。標籤也會當作元件管理員中的篩選器。 |
    | [!UICONTROL **我的最愛**] | 將元件新增至我的最愛清單。如同標籤，您可以依左側邊欄的「我的最愛」搜尋，並在元件管理員中這些條件篩選。 |
-   | [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的用戶表示此元件已獲得組織核准。如同標籤，您可以依左側邊欄的「已核准」搜尋，並在元件管理員中這些條件篩選。 |
-   | [!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
-   | [!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標籤，您可以依左側邊欄的「已核准」搜尋，並在元件管理員中這些條件篩選。 |
+   | [!UICONTROL **共用**] | 與組織中的使用者共用元件。此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | [!UICONTROL **刪除**] | 刪除您不再需要的元件。此選項僅適用於自訂元件，例如區段或計算量度。 |
 
 自訂元件也可透過其各自的元件管理員來管理。例如[區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)。
 
@@ -113,7 +113,7 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 3. 選取以下任一篩選器選項以篩選元件清單：
 
-   | 選項 | 功能 |
+   | 選項 | 函數 |
    |---------|----------|
    | [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
    | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |

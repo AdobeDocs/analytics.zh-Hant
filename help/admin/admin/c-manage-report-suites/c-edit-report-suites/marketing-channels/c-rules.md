@@ -5,7 +5,7 @@ feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
 source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1884'
 ht-degree: 100%
 

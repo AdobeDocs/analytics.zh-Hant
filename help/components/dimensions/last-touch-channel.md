@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '252'
 ht-degree: 90%
 
 ---
 
 # 上次接觸管道
 
-「上次接觸管道」 [維度](overview.md) 報告訪客在其參與期間（預設為30天）遇到的最新相符行銷管道。 若要了解哪些行銷管道促進網站流量進而發生轉換，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
+「上次接觸管道」維度[維度](overview.md)會報告訪客在其參與期間（預設為30天）遇到的最新相符行銷管道。 若要了解哪些行銷管道促進網站流量進而發生轉換，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
 
 ## 將資料填入此維度中
 

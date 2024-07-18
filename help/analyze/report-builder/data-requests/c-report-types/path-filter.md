@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '426'
 ht-degree: 62%
 
 ---
@@ -54,9 +54,9 @@ ht-degree: 62%
 
 您可以在選取陣列後編輯預先定義的陣列。
 
-1. 繼續上述步驟，選取模式。 例如，您可以選取&#x200B;**[!UICONTROL 「退出網站模式」]**：
+1. 繼續上述步驟，選取模式。 例如，您可以選取「**[!UICONTROL 退出網站模式]**」:
 
-   ![熒幕擷圖會醒目顯示選取的圖樣。](assets/exited_site_pattern.png)
+   ![熒幕擷圖反白顯示選取的模式。](assets/exited_site_pattern.png)
 
 1. 定義使用者在退出前所依循的網站區域路徑。 按一下&#x200B;**[!UICONTROL 「特定項目: 已選取 0 項」]**。如果您正在編輯現有請求，您可以從儲存格範圍中選取或從區段清單中選取，以定義此路徑。
 
@@ -66,10 +66,10 @@ ht-degree: 62%
 
 1. 若要從網站區域清單選取，請選取&#x200B;**[!UICONTROL 「從清單」]**，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-1. 選取元素，然後按一下橘色箭頭，以將元素從&#x200B;**[!UICONTROL 「可用元素」]**&#x200B;欄移至&#x200B;**[!UICONTROL 「選擇的元素」]**&#x200B;欄。按一下&#x200B;**[!UICONTROL 「確定」]**。
+1. 選取元素，然後按一下橘色箭頭，以將元素從&#x200B;**[!UICONTROL 「可用元素」]**&#x200B;欄移至&#x200B;**[!UICONTROL 「選擇的元素」]**&#x200B;欄。按一下「**[!UICONTROL 確定]**」。
 
-   ![顯示可用元素和所選元素的熒幕擷圖。](assets/move_site_section_elements.png)
+   ![熒幕擷圖顯示可用的元素和選取的元素。](assets/move_site_section_elements.png)
 
 1. 若要儲存您剛剛建立的模式，請按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-1. 按一下 **[!UICONTROL 確定]** 三次，然後按一下 **[!UICONTROL 完成]** 以產生篩選路徑。
+1. 按三次「確定」****，然後按一下「完成」**[!UICONTROL 以產生篩選路徑]**。

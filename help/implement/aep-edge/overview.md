@@ -7,15 +7,15 @@ role: Admin, Developer, Leader
 source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
-# 使用Adobe Experience Platform Edge Network實作Adobe Analytics
+# 使用 Adobe Experience Platform Edge Network 實施 Adobe Analytics
 
-Adobe Experience Platform Edge Network可讓您將預計要送給多個產品的資料傳送到一個集中位置。 Edge網路會將適當的資訊轉送給所需的產品。 此概念可讓您整合實施工作，特別是橫跨多個資料解決方案時。
+Adobe Experience Platform Edge Network 可讓您將預計要送給多個產品的資料傳送到一個集中位置。Edge Network 會將適當的資訊轉送給所需的產品。此概念可讓您整合實施工作，特別是橫跨多個資料解決方案時。
 
-Adobe提供三種主要方法將資料傳送至Edge Network：
+Adobe 提供三個主要方法將資料傳送給 Edge Network：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：在 Adobe Experience Platform Data Collection 中，使用 Web SDK 擴充功能傳送資料給 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：在 Adobe Experience Platform Data Collection 中，使用 Mobile SDK 擴充功能傳送資料給 Edge。
@@ -23,15 +23,15 @@ Adobe提供三種主要方法將資料傳送至Edge Network：
 
 
 
-## Adobe Analytics如何處理Edge Network資料
+## Adobe Analytics 如何處理 Edge Network 資料
 
-傳送至Adobe Experience Platform Edge Network的資料可遵循兩種格式：
+傳送至 Adobe Experience Platform Edge Network 的資料可以採用兩種格式：
 
-* XDM物件：根據以下原則符合結構描述： [XDM （體驗資料模型）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant). XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。事件到達Adobe Analytics時，會轉換為Adobe Analytics可處理的格式。
-* 資料物件：使用對應至Adobe Analytics的特定欄位，將資料傳送至Edge Network。 Edge Network會偵測這些欄位是否存在，並將這些欄位轉送至Adobe Analytics，而不需要遵守結構描述。
+* XDM 物件：符合 [XDM (體驗資料模型)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 為主的綱要。XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。當事件到達 Adobe Analytics 時，它們會轉換為 Adobe Analytics 可以處理的格式。
+* 資料物件：使用對應至 Adobe Analytics 的特定欄位將資料傳送到 Edge Network。Edge Network 會偵測這些欄位的存在並將其轉送到 Adobe Analytics，而無需符合綱要。
 
 
-Edge Network會使用下列邏輯來判斷Adobe Analytics頁面檢視和連結事件
+Edge Network 使用以下邏輯來確定 Adobe Analytics 頁面檢視和連結事件
 
 | XDM 承載包含... | Adobe Analytics... |
 |---|---|

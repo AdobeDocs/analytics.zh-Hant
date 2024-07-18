@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 90%
 
 1. 建立或編輯請求，然後前往[!UICONTROL 「請求精靈: 步驟 2」]。
 
-   ![熒幕擷圖顯示「依選項篩選：應用程式、使用者和專案」。](/help/admin/admin/assets/filter.png)
+   ![熒幕擷圖顯示篩選依據選項：應用程式、使用者和專案。](/help/admin/admin/assets/filter.png)
 
 1. 在[!UICONTROL 「請求精靈: 步驟 2」]中，於格線內按一下維度旁的連結，然後選擇&#x200B;**[!UICONTROL 「篩選」]**。
 
-1. 啟用 **[!UICONTROL 特定]**.
+1. 啟用&#x200B;**[!UICONTROL 特定]**。
 
-   ![「選擇頁面」對話方塊的熒幕擷圖中已選取「特定」選項。](assets/choose_page_specific01.png)
+   ![選取特定選項的[選擇頁面]對話方塊熒幕擷圖。](assets/choose_page_specific01.png)
 
 1. 啟用下列其中一個特定選項：
 

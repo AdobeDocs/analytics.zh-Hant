@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 88%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 1. 在[!UICONTROL 「請求精靈: 步驟 2」]中，於格線內按一下維度旁的連結，然後選擇&#x200B;**[!UICONTROL 「篩選」]**。
 
-   ![熒幕擷圖顯示「定義篩選」對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/admin/assets/filter.png)
+   ![熒幕擷圖顯示[定義篩選]對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/admin/assets/filter.png)
 
 1. 在[!UICONTROL 「選擇頁面」]表單中啟用&#x200B;**[!UICONTROL 「最受歡迎」]**，然後設定以下選項：
 
@@ -43,15 +43,15 @@ ht-degree: 88%
 1. 在[!UICONTROL 「定義篩選」]表單中，根據需求設定合適的條件。
 
 
-   ![熒幕擷圖顯示「定義篩選」對話方塊。](assets/expressions_define_filter.png)
+   ![顯示[定義篩選]對話方塊的熒幕擷圖。](assets/expressions_define_filter.png)
 
    選取儲存格圖示可讓您找出在儲存格值中定義的條件。 ![選取儲存格圖示。](assets/select_cell_icon.png)
 
-   此 **新增條件** 連結可讓您將條件新增至運算式。 可新增的條件數量沒有限制。
+   **新增條件**&#x200B;連結可讓您新增條件至運算式。 可新增的條件數量沒有限制。
 
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
-   ![「定義篩選」對話方塊的熒幕擷圖，右下角顯示「確定」按鈕。](assets/choose_page_02.png)
+   ![右下角顯示[定義篩選]對話方塊熒幕擷圖。](assets/choose_page_02.png)
 
 1. 在[!UICONTROL 「選擇頁面」]表單中按一下&#x200B;**[!UICONTROL 「儲存」]**，儲存運算式。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。

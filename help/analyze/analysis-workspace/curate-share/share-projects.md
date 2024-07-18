@@ -8,7 +8,7 @@ exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
 workflow-type: tm+mt
 source-wordcount: '1929'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -55,26 +55,26 @@ ht-degree: 83%
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。
 
-* 獲得&#x200B;**[!UICONTROL 編輯副本]**&#x200B;或&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。管理員可將其角色變更為 **[!UICONTROL 編輯原始檔案]** 透過與自己共用專案並授予 **編輯** 角色，如下列程式所述。
+* 獲得&#x200B;**[!UICONTROL 編輯副本]**&#x200B;或&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。管理員可以透過與自己共用專案並授予&#x200B;**編輯**&#x200B;角色，將其角色變更為&#x200B;**[!UICONTROL 編輯原始項目]**，如下列程序中所述。
 
 * 如果選取了多個要共用的專案，收件者將會新增至每個專案的現有收件者清單。
 
-  例如，專案A已和收件者1、2和3共用，而專案B已和收件者4、5和6共用。
+  例如，專案 A 已有收件者 1、2 和 3 共用，而專案 B 已有收件者 4、5 和 6 共用。
 
-  然後與收件者4和7共用專案A和B。 專案A的新共用清單現在是1、2、3、4和7，而專案B的新共用清單是4、5、6和7。
+  然後，專案 A 以及 B 有收件者 4 和 7 共用。新的專案 A 共用清單現在為 1、2、3、4 和 7，而新的專案 B 共用清單為 4、5、6 和 7。
 
 若要與組織中的使用者或群組共用特定專案角色：
 
-1. 在Adobe Analytics中，選取 [!UICONTROL **工作區**] 索引標籤，然後選取 [!UICONTROL **專案**] 在左側邊欄中。
+1. 在 AdAdobe Analytics 中，選取「[!UICONTROL **Workspace**]」標籤，然後選取左側邊欄中的「[!UICONTROL **專案**]」。
 
-1. 選取一或多個要共用的專案旁的核取方塊，然後選取 [!UICONTROL **共用**].
+1. 選取您要共用的一個或多個專案旁邊的勾選方框，然後選取「[!UICONTROL **共用**]」。
 
    或
 
-   若只要共用個別專案，您可以開啟要共用的專案，然後選取 **[!UICONTROL 共用]** > **[!UICONTROL 與Workspace使用者共用]**.
+   若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。
 如果有未儲存的變更，系統會提示您先儲存專案。
 
-   共用專案對話方塊隨即顯示。 此 [!UICONTROL **透過連結共用**] 和 [!UICONTROL **設定**] 對話方塊的區段僅在共用單一專案時可見。
+   共用專案對話框會顯示。對話框的「[!UICONTROL **透過連結共用**]」和「[!UICONTROL **設定**]」部份只會在共用單一專案時可見到。
 
    ![](assets/share-proj-modal.png)
 
@@ -86,17 +86,17 @@ ht-degree: 83%
 
    **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側邊欄。專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。深入了解[唯讀專案體驗](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。
 
-1. （視條件而定）如果您要共用單一專案，請選擇在共用專案時是否啟用下列選項：
+1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
    * **共用內嵌的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式清單中。系統不會沿用此設定，此動作僅在單次共用中有效。
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。系統不會沿用此設定，此動作僅在單次共用中有效。
 
-1. 選取 **[!UICONTROL 共用]**. (如果專案已共用，請選取 [!UICONTROL **更新**].)
+1. 選取「**[!UICONTROL 共用]**」。(如果專案已有人共用，請選取「[!UICONTROL **更新**]」。)
 
    或
 
-   選取 **[!UICONTROL 組織與共用]** 以自動套用專案組織。 (如果專案已共用，請選取 **[!UICONTROL 組織與更新]**.) 深入了解[專案監管](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
+   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已有人共用，請選取「**[!UICONTROL 監管與更新]**」。)深入了解[專案監管](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
 
 ## 共用專案的連結
 
@@ -180,11 +180,11 @@ ht-degree: 83%
 
 1. 選取「**[!UICONTROL 關閉]**」以關閉共用對話框。您的變更會自動儲存。
 
-## 檢視與您共用的專案
+## 查看與您共用的專案
 
-當有人透過以下方式與您共用專案時 [共用特定專案角色](#share-a-specific-project-role)，您可從以下位置存取共用專案： [Analytics登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab).
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
 
-當有人透過共用連結(來自 [共用專案索引標籤](#share-a-link-to-a-project) 或使用 [與任何人共用](#share-a-project-with-anyone-no-login-required) 連結)，您必須使用與您共用的連結才能存取專案。 例如，該連結可能已透過電子郵件、內部網站等共用。
+當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。例如，該連結可能已在電子郵件、內部網站等中提供。
 
 ## 共用內嵌元件
 

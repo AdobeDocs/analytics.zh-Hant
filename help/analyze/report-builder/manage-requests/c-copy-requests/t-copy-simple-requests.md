@@ -8,7 +8,7 @@ exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
 
-[參考請求](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)會將儲存格的值視為參數的輸入值，如資料篩選或關聯篩選。這些篩選會使用比對或趨勢，而且會以先前請求的結果或使用者輸入名為輸入儲存格的儲存格內容為基礎。
+[參考請求](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)會將儲存格的值視為參數的輸入值，如資料篩選或關聯篩選。這些篩選器會使用比對或趨勢，而且會以先前請求的結果或使用者輸入的儲存格（稱為輸入儲存格）內容為基礎。
 
 複製簡單請求
 

@@ -33,7 +33,7 @@ ht-degree: 93%
 產品設定檔要存取 Adobe Analytics 所需的最低權限如下：
 
 * 產品設定檔必須至少擁有一個報告套裝的存取權-
-* 產品設定檔必須屬於Analytics工具許可權專案 **Analysis Workspace存取**.
+* 產品設定檔必須屬於Analytics工具許可權專案&#x200B;**Analysis Workspace存取**。
 
 ### 報告套裝
 

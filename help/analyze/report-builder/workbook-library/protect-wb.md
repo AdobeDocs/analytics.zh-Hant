@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '473'
+ht-degree: 69%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 77%
 
 身為分析師，您可以鎖定活頁簿，讓組織內的其他使用者無法竄改，以保護您的活頁簿請求。同時，這些使用者仍然可以重新整理活頁簿中的請求。
 
-若要禁止編輯活頁簿，請按一下 Report Builder 工具列上的&#x200B;**[!UICONTROL 「鎖定」]**(![](assets/locked_icon.png))。
+若要防止編輯活頁簿，請按一下Report Builder工具列( ![](assets/locked_icon.png))上的&#x200B;**[!UICONTROL 鎖定]**。
 
-若要取消活頁簿保護機制，請按一下&#x200B;**[!UICONTROL 「解除鎖定」]**(![](assets/unlocked_icon.png))。
+若要取消活頁簿保護機制，請按一下[解除鎖定] ]**( ![](assets/unlocked_icon.png))。**[!UICONTROL 
 
 若要將已鎖定的活頁簿解鎖，您必須具備下列其中一項權限：
 
@@ -29,7 +29,7 @@ ht-degree: 77%
 
 >[!NOTE]
 >
-> 您必須具備解除活頁簿鎖定的權限，才能將請求新增至受保護的活頁簿。
+>您必須具備解除活頁簿鎖定的許可權，才能將請求新增至受保護的活頁簿。
 
 當活頁簿已鎖定而無法編輯請求時，
 
@@ -40,11 +40,11 @@ ht-degree: 77%
 * 使用者可以重新整理單一請求，或群組中的部分請求。
 * 如果請求使用的是儲存格的輸入值 (日期範圍、區段、篩選條件)，使用者可以變更這些儲存格的值，然後經由重新整理來間接編輯請求。
 
-如果您嘗試透過內容功能表編輯受保護的活頁簿，或 **[!UICONTROL 請求管理員]**，或 **[!UICONTROL 編輯多個請求]**，您或許可以/不可以進行此動作：
+如果您嘗試透過內容功能表、**[!UICONTROL 請求管理員]**&#x200B;或&#x200B;**[!UICONTROL 編輯多項請求]**&#x200B;編輯受保護的活頁簿，您或許可以/不可以進行編輯：
 
 * 如果您沒有解除鎖定請求的許可權，將會看到一則訊息，指出您沒有解除鎖定和編輯活頁簿的許可權。
 
-  ![熒幕擷圖顯示您沒有解除鎖定請求的許可權時的錯誤訊息。](assets/locked_workbook_error.png)
+  ![熒幕擷圖顯示您沒有解除鎖定要求的許可權時的錯誤訊息。](assets/locked_workbook_error.png)
 
 ## 工作流程 {#section_260D05FF632B41DB97DB43E2ADBE2E75}
 

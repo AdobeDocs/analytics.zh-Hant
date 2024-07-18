@@ -81,7 +81,7 @@ ht-degree: 96%
 
 此選項不適用於標準 eVar。 「[!UICONTROL 銷售]」設定可讓您挑選「[!UICONTROL 轉換變數語法]」或「[!UICONTROL 產品語法]」當做擷取銷售 eVar 值的方法。
 
-「**[!UICONTROL 轉換變數語法]**」代表您會在 eVar 變數中設定 eVar 值。 例如，在使用轉換變數語法時， `eVar1` 「內部關鍵字搜尋」的值在頁面代碼(或AppMeasurement代碼、Adobe Experience Platform Web SDK代碼等)中的設定如下：
+「**[!UICONTROL 轉換變數語法]**」代表您會在 eVar 變數中設定 eVar 值。 例如，在使用轉換變數語法時，「內部關鍵字搜尋」的`eVar1`值在頁面代碼(或AppMeasurement代碼、Adobe Experience Platform Web SDK代碼等)中的設定如下：
 
 `s.eVar1="internal keyword search";`
 
@@ -388,7 +388,7 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 例如，自行設定 `s.eVar1="Internal Keyword Search"` 並不會將任何實例量度點數提供給「內部關鍵字搜尋」的 eVar1 值。 此時會記錄一個實例。 然而，除非產品在設定 `eVar1` 的同時與該「內部關鍵字搜尋」值綁定，否則此實例會歸因於未指定的貯體。 換言之，「內部關鍵字搜尋」的 `eVar1` 值可以取得實例。 但是只有當與「內部關鍵字搜尋」值綁定的產品出現在相同影像要求中的產品變數內時，才會發生這個情形。
 
-總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe已發行 [歸因](/help/analyze/analysis-workspace/attribution/overview.md). 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用「歸因」中的功能，針對所有使用轉換變數語法的銷售eVar取得正確歸因的例項量度。
+總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe已發行[歸因](/help/analyze/analysis-workspace/attribution/overview.md)。 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用「歸因」中的功能，針對所有使用轉換變數語法的銷售eVar取得正確歸因的例項量度。
 
 ![歸因選取](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/assets/attribution-select.png)
 

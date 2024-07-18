@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 範例 | 日期範圍 | 自訂運算式 | 報表的日期範圍 |
 |---|---|---|---|
-|  |  | **從** | **結束日期** |  |
+|  | | **從** | **結束日期** | |
 | 1 | 兩週前 | cw-2w | cw-1w-1d | 10 月 26 日到 11 月 1 日 |
 | 2 | 去年第五個月的前 3 天 | cy-1y+4m | cy-1y+4m+2d | 2010 年 5 月 1 日到 5 月 3 日 |
 | 3 | 4 週前開始的一整週 | cw-4w | cw-3w-1d | 10 月 12 日到 10 月 18 日 |

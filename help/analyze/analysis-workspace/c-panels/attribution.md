@@ -7,13 +7,13 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
 # 歸因面板
 
-建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。這是[歸因 ](/help/analyze/analysis-workspace/attribution/overview.md) 中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
+建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。這是[歸因](/help/analyze/analysis-workspace/attribution/overview.md)中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 

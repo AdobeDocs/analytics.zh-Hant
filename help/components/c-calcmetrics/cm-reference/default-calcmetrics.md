@@ -21,8 +21,8 @@ Adobe Analytics提供各種計算量度，以涵蓋最常見的使用案例。 �
 >除了此頁面所述的預設計算量度外，您也可以新增其他計算量度至報表套裝。
 >
 >您可以：
-> * 為串流媒體收集附加元件新增預設計算量度（如所述） [計算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)
-> * 從現有量度建立自訂計算量度，如所述 [計算與進階計算（衍生）量度](/help/components/c-calcmetrics/cm-overview.md).
+> * 新增適用於串流媒體收集附加元件的預設計算量度，如[計算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)中所述
+> * 從現有量度建立自訂計算量度，如[計算與進階計算（衍生）量度](/help/components/c-calcmetrics/cm-overview.md)中所述。
 
 
 | 計算量度名稱 | 函數 | 公式 |
@@ -37,7 +37,7 @@ Adobe Analytics提供各種計算量度，以涵蓋最常見的使用案例。 �
 | 內容速度 | 在網站上建立和發佈新內容的速度，以及新內容產生使用者參與的速度。 | `[Page Views] / [Visits]` |
 | 轉換率 | 採取所需動作 (例如購買) 的訪客的百分比。 | `[Orders] / [Visits]` |
 | 登入率 | 從指定頁面進入網站的訪客佔網站訪問總數的百分比。 | `[Entries] / [Visits]` |
-| 預估不重複訪客(ITP 2.1) | 若為ITP訪客（Safari瀏覽器的使用者），請將不重複訪客除以2或更少。 此計算量度假設您是使用使用者端JavaScript （而非使用CNAME實作）設定Cookie。 從ITP 2.1開始，使用使用者端JavaScript設定Cookie的實作會受到影響。另請參閱 [智慧型追蹤預防](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) 以取得詳細資訊。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 預估不重複訪客(ITP 2.1) | 若為ITP訪客（Safari瀏覽器的使用者），請將不重複訪客除以2或更少。 此計算量度假設您是使用使用者端JavaScript （而非使用CNAME實作）設定Cookie。 從ITP 2.1開始，使用使用者端JavaScript設定Cookie的實作會受到影響。如需詳細資訊，請參閱[智慧型追蹤預防](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID 涵蓋範圍 | 擁有 Experience Cloud ID 的訪客的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 退出率 | 檢視特定頁面後離開網站的訪客的百分比。 | `[Exits] / [Visits]` |
 | ITP 2.1不重複訪客/不重複訪客 | 使用受ITP 2.1 Cookie限制影響的瀏覽器之不重複訪客的百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

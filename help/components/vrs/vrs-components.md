@@ -24,10 +24,10 @@ ht-degree: 94%
 
 啟用元件管理：
 
-1. 前往 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]** > **[!UICONTROL 建立新的虛擬報表套裝]**.
+1. 移至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]** > **[!UICONTROL 建立新的虛擬報表套裝]**。
 1. 定義&#x200B;**[!UICONTROL 「設定」]**&#x200B;後，按一下&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤。
 
-1. 選取核取方塊 **[!UICONTROL 啟用虛擬報表套裝元件的自訂]**：
+1. 選取&#x200B;**[!UICONTROL 啟用虛擬報表套裝元件自訂核取方塊]**：
 
    ![](assets/vrs-enable.png)
 

@@ -21,10 +21,10 @@ Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法�
 在將資料傳送到 Adobe 之前，通常會使用以下其中一種方法在用戶端對其進行編譯：
 
 * **AppMeasurement**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料直接傳送到 Adobe Analytics。
-* **Adobe Experience Platform Web SDK**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料傳送到Adobe Experience Platform Edge Network。
+* **Adobe Experience Platform Web SDK**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料會傳送至Adobe Experience PlatformEdge Network。
 * **Adobe Experience Cloud 資料彙集中的標籤**：每個頁面上參考的 JavaScript 檔案，包含在資料彙集 UI 中建立的規則。Adobe Analytics 擴充功能可讓您用更簡單的方法實作 AppMeasurement。Web SDK 擴充功能可讓您用更簡單的方法執行 Web SDK。
 
-如果您將資料傳送到Edge Network，您可以將其設定為將資料轉送到Adobe Analytics (以及許多其他Adobe Experience Cloud解決方案)。 不管執行方法如何，最終都會將具有所需變數的影像要求傳送到 Adobe 資料彙集伺服器。
+如果您將資料傳送至Edge Network，您可以將其設定為將資料轉送至Adobe Analytics (以及許多其他Adobe Experience Cloud解決方案)。 不管執行方法如何，最終都會將具有所需變數的影像要求傳送到 Adobe 資料彙集伺服器。
 
 ## 資料到達 Adobe Analytics 資料彙集伺服器時
 

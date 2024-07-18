@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
 source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 69%
 
 ---
@@ -24,31 +24,31 @@ ht-degree: 69%
 * 相較於國際訪客，德國訪客瀏覽特定頁面佔總訪客人數的百分比為多少？
 * 就這兩個不同區段所存取的內容來說，最大差異為何？
 
-建立並儲存名為「德國訪客」的量度及名為「國際訪客」的量度：
+建立並儲存名為「德國訪客」的量度，以及名為「國際訪客」的量度：
 
 1. 在計算量度產生器中建立一個名為「德國訪客」的臨時區段，其中「國家/地區」等於「德國」。
 
-   將「國家/地區」維度拖曳至「定義」畫布並選取「 」 [!UICONTROL **德國**] 作為值：
+   將「國家/地區」維度拖曳至「定義」畫布，並選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值：
 
    ![](assets/segment-from-dimension.png)
 
    >[!NOTE]
    >
-   >您也可以在以下位置執行此操作： [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)，但我們已藉由在計算量度產生器中提供維度簡化了工作流程。 「臨時」表示左側邊欄的「**[!UICONTROL 區段]**」清單中不會顯示此區段。但您可以將滑鼠游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
+   >您也可以在[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中進行此步驟。但我們已透過在計算量度產生器中提供維度簡化了工作流程。 「臨時」表示左側邊欄的「**[!UICONTROL 區段]**」清單中不會顯示此區段。但您可以將滑鼠游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
 
 1. 將「德國」區段拖曳至「定義」畫布，並將「不重複訪客」量度拖曳至其中：
 
    ![](assets/german-visitors.png)
 
-1. 選取 [!UICONTROL **儲存**] 以儲存計算量度。
+1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
 
 1. 在計算量度產生器中建立一個名為「國際訪客」的臨時區段，其中「國家/地區」不等於「德國」。
 
-   將「國家/地區」維度拖曳至「定義」畫布，然後選取「 」 [!UICONTROL **德國**] 作為值，然後選取 [!UICONTROL **不等於**] 作為運運算元。
+   將「國家/地區」維度拖曳至「定義」畫布，選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值，然後選取&#x200B;[!UICONTROL **does not equal**]&#x200B;作為運運算元。
 
 1. 將「不重複訪客」量度拖曳至其中。
 
-1. 選取 [!UICONTROL **儲存**] 以儲存計算量度。
+1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
 
 1. 在 Analysis Workspace 中，將&#x200B;**[!UICONTROL 「頁面]**&#x200B;維度」拖曳至「自由表格」中，並將 2 個相鄰的新計算量度拖曳到最上方：
 

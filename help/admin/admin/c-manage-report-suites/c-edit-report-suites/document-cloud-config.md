@@ -4,7 +4,7 @@ title: 設定 Document Cloud 報告
 feature: Admin Tools
 exl-id: eb58d011-c4b0-4c0c-9241-83b2bccc2c77
 source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
 

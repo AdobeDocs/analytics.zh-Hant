@@ -22,18 +22,18 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 -->
 
-支援兩種追蹤模式： [!UICONTROL 自動] 和 [!UICONTROL 手動].
+支援兩種追蹤模式： [!UICONTROL 自動]和[!UICONTROL 手動]。
 
-## [!UICONTROL 自動] 追蹤 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL 自動]追蹤 {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-[!UICONTROL 自動] 追蹤可讓Advertising Cloud引擎決定應如何處理搜尋引擎資料。 自動追蹤是比較簡單的方法，但可能不會產生最佳的整合資料集。
+[!UICONTROL 自動]追蹤可讓Advertising Cloud引擎決定如何處理搜尋引擎資料。 自動追蹤是比較簡單的方法，但可能不會產生最佳的整合資料集。
 
-因此，當您選取時，必須勾選確認核取方塊 **[!UICONTROL 自動]** 儲存帳戶設定之前。
+因此，當您選取&#x200B;**[!UICONTROL 自動]**&#x200B;時，必須先核取確認核取方塊，才能儲存帳戶設定。
 
-請注意，若要使用設定搜尋引擎帳戶 **[!UICONTROL 自動]** 型別，您需負責執行下列動作：
+請注意，若要使用&#x200B;**[!UICONTROL Auto]**&#x200B;型別設定搜尋引擎帳戶，您必須執行下列動作：
 
-* 此 `s_kwcid` 引數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面URL。 此引數和值會插入在URL的結尾。 如果您的網頁伺服器需要 `key=value` 配對於URL結尾。 或更新以支援任何新的 `key=value` 與URL配對。 您有責任確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。
-* 此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元。例如，常見的特殊字元為 `+`，用於「已修改廣泛比對」關鍵字。
+* `s_kwcid`引數和值已新增至帳戶中的帳戶追蹤範本或登陸頁面URL。 此引數和值會插入在URL的結尾。 如果您的網頁伺服器在URL末端需要特定`key=value`配對，您可能需要執行其他動作。 或更新以支援URL中的任何新`key=value`配對。 您有責任確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。
+* 此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元。例如，常見的特殊字元為`+`，用於「修改廣泛比對」關鍵字。
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->*`<Advertising Analytics ID>`* 值 (下文中的&#x200B;**粗體字**) 是通用值，**請務必替換為您專屬的帳戶 ID 字串**。您可以從帳戶畫面下方取得您的特定帳戶ID字串 [!UICONTROL 追蹤] 區段。
+>*`<Advertising Analytics ID>`* 值 (下文中的&#x200B;**粗體字**) 是通用值，**請務必替換為您專屬的帳戶 ID 字串**。您可以從[!UICONTROL 追蹤]區段下的帳戶畫面取得您的特定帳戶ID字串。
 
 **活動的追蹤字串：**
 

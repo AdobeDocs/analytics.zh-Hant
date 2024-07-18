@@ -12,11 +12,11 @@ ht-degree: 80%
 
 # 平日/週末
 
-&#39;平日/週末&#39; [維度](overview.md) 提供點選是發生在工作日（星期一至星期五）還是週末（星期六至星期日）的分析。 點擊的時間根據[報表套裝的時區](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)而定。
+「工作日/週末」[維度](overview.md)可讓您深入分析點選是發生在工作日（星期一 — 星期五）還是週末（星期六 — 星期日）。 點擊的時間根據[報表套裝的時區](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)而定。
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報告套裝包含資料，此維度即會運作。
 
 ## 維度項目
 

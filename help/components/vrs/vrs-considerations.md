@@ -49,7 +49,7 @@ Adobe客戶服務有時可針對小量維度提高不重複值的上限，藉此
 
 >[!TIP]
 >
->隨著以下產品的推出 [組織](/help/analyze/analysis-workspace/curate-share/curate.md)，您可以根據虛擬報表套裝來變更指定維度或量度的名稱。
+>隨著[組織](/help/analyze/analysis-workspace/curate-share/curate.md)的推出，您可以根據每個虛擬報表套裝來變更指定維度或量度的名稱。
 
 ### 區段的細微差別
 

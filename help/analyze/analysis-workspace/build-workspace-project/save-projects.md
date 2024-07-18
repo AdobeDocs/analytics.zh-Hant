@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: 954af58cc2f37f3c94f62320f3706f4360872ed8
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 96%
+source-wordcount: '724'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。
 
-您也可以手動儲存專案。手動儲存專案時，您可使用新增標籤或附註等其他選項。
+您也可以手動儲存專案。手動儲存專案時，您可使用新增標記或附註等其他選項。
 
 ## 手動儲存專案 {#Save}
 
@@ -30,7 +30,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。
    | **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您提供專案名稱、(選用) 說明和新增 (選用) 標籤。  |
    | **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
    | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
-   | **[!UICONTROL 另存為公司報表]** | 將專案儲存為 [公司報表](/help/analyze/analysis-workspace/reports/create-company-reports.md) 您的組織可在 **[!UICONTROL 專案>新增]** |
+   | **[!UICONTROL 另存為公司報告]** | 將專案儲存為[公司報告](/help/analyze/analysis-workspace/reports/create-company-reports.md)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
 
 ## 自動儲存 {#Autosave}
 
@@ -84,7 +84,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 若為從未儲存的&#x200B;**新**&#x200B;專案，未儲存的變更無法復原。
 
-## 開啟先前版本 {#previous-version}
+## 開啟先前版本  {#previous-version}
 
 若要開啟專案的先前版本：
 
@@ -94,4 +94,4 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 1. 檢視現有的先前版本清單。
    除了顯示[!UICONTROL 註釋]外，也會顯示[!UICONTROL 時間戳記]和 [!UICONTROL 編輯者] (如果[!UICONTROL 編輯者]儲存時都加入這些內容)。未附註釋的版本會儲存達 90 天；附註釋的版本會儲存達 1 年。
-1. 選取先前版本並按一下「**[!UICONTROL 載入]**」。先前版本然後載入通知。在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。如果您瀏覽時離開載入的版本，當您回來時，您將看到專案最後儲存的版本。
+1. 選取先前版本並按一下「**[!UICONTROL 載入]**」。先前版本然後載入通知。在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。如果您導覽時離開載入的版本，當您回來時，您將看到專案最後儲存的版本。

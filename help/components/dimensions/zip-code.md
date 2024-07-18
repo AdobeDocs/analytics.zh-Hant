@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 80%
+source-wordcount: '266'
+ht-degree: 79%
 
 ---
 
 # 郵遞區號
 
-「郵遞區號」 [維度](overview.md) 報告訪客的郵遞區號。 您可以使用此維度進一步瞭解當地廣告是否成功，或瞭解您的網站在全世界的哪些地點表現最佳。
+「郵遞區號」[維度](overview.md)會報告訪客的郵遞區號。 您可以使用此維度進一步瞭解當地廣告是否成功，或瞭解您的網站在全世界的哪些地點表現最佳。
 
 ## 將資料填入此維度中
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 如果您選擇使用任何涉及地域郵遞區號的選項：
 
 * 對於AppMeasurement實作，此維度可立即運作。
-* 對於Web SDK實作，啟用 [!UICONTROL 地理查閱] 當 [設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
 
 ## 維度項目
 

@@ -18,7 +18,7 @@ ht-degree: 90%
 >
 >不建議使用FTP，因為這是共用檔案的未加密方法，這表示任何人都可以攔截檔案內容以及帳戶使用的使用者名稱和密碼。
 >
->請改為依照所述設定雲端帳戶 [設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md).
+>請依照[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的說明來設定雲端帳戶。
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 

@@ -19,9 +19,9 @@ ht-degree: 79%
 
 ## 使用 Web SDK 的內容資料變數
 
-若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，所有未對應至Adobe Analytics變數的欄位都會自動納入為內容資料變數。 您也可以使用XDM物件明確設定內容資料。 然後您可以使用 [處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 將內容資料變數指派給所需的Analytics變數。  另請參閱 [將其他XDM欄位對應到Analytics變數](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) 以取得詳細資訊。
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則所有未對應至Adobe Analytics變數的欄位都會自動納入為內容資料變數。 您也可以使用XDM物件明確設定內容資料。 然後您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)將內容資料變數指派給所需的Analytics變數。  如需詳細資訊，請參閱[將其他XDM欄位對應到Analytics變數](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
 
-若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，所有上下文資料變數都位在 `data.__adobe.analytics.contextData` 做為機碼值組：
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則所有內容資料變數都會以索引鍵值配對的形式存在於`data.__adobe.analytics.contextData`中：
 
 ```js
 alloy("sendEvent", {
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-此 [處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 介面會顯示 `c.example_variable` 和 `c.second_example` 在適用的下拉式功能表中。
+[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)介面會在適用的下拉式功能表中顯示`c.example_variable`和`c.second_example`。
 
 ## 使用 Adobe Analytics 擴充功能的內容資料變數
 
@@ -64,8 +64,8 @@ s.contextData["example_variable"] = "Example value";
 >處理規則執行後，上下文資料變數便會遭到捨棄。如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
 
 1. 請更新您的實施以設定上下文資料變數名稱和值。
-2. 登入Adobe Analytics並前往 **[!UICONTROL 管理員]** > **[!UICONTROL 報告]** 套裝。
-3. 選取所需的報表套裝，然後前往「 」 **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則]**.
+2. 登入Adobe Analytics並移至&#x200B;**[!UICONTROL 管理員]** > **[!UICONTROL 報表]**&#x200B;套裝。
+3. 選取所需的報表套裝，然後前往&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則]**。
 4. 建立處理規則，將 Analytics 變數設定為上下文資料變數值。
 5. 儲存變更。
 

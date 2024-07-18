@@ -5,21 +5,21 @@ feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
 source-git-commit: 206df584deab5f6f9b8eeb09d9c8ad4983424eea
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 59%
+source-wordcount: '195'
+ht-degree: 58%
 
 ---
 
 # 瀏覽器
 
-「[!UICONTROL 瀏覽器]『 [維度](overview.md) 報告傳送點選的瀏覽器名稱和版本。 如果您想要測量訪客最常使用的瀏覽器，此維度就十分實用。 測試新版網站時，您可以在此維度的前幾大瀏覽器上執行這些測試，以發揮最佳品質控制效果。
+&#39;[!UICONTROL 瀏覽器]&#39; [維度](overview.md)會報告傳送點選的瀏覽器名稱和版本。 如果您想要測量訪客最常使用的瀏覽器，此維度就十分實用。 測試新版網站時，您可以在此維度的前幾大瀏覽器上執行這些測試，以發揮最佳品質控制效果。
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱表格。查閱值以影像要求中 `User-Agent` 的 HTTP 標題為基礎。與合作夥伴Adobe [DeviceAtlas](https://deviceatlas.com/) 維護使用者代理程式與瀏覽器之間的查閱。
+此維度會參考 Adobe 內部的查閱表格。查閱值以影像要求中 `User-Agent` 的 HTTP 標題為基礎。Adobe與[DeviceAtlas](https://deviceatlas.com/)合作，以維持使用者代理程式與瀏覽器之間的查閱。
 
 * 對於AppMeasurement實作，此維度可立即運作。
-* 對於Web SDK實作，啟用 [!UICONTROL 裝置查詢] 當 [設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 裝置查詢]。
 
 ## 維度項目
 

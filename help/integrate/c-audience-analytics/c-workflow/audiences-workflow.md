@@ -17,6 +17,6 @@ ht-degree: 54%
 
 | 步驟 # | 工作說明 | 附註 |
 |--- |--- |--- |
-| 步驟 1 | 開啟伺服器端轉送。 | 另請參閱 [伺服器端轉送功能](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md) 在管理員使用手冊中。 |
+| 步驟 1 | 開啟伺服器端轉送。 | 請參閱管理員使用手冊中的[伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)。 |
 | 步驟 2 | 在Adobe Audience Manager中設定Analytics目的地。 | 請參閱[建立 Analytics 目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)。 |
-| 步驟 3 | [在 Analytics 中使用資料](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md)。 | 您可以在Analysis Workspace中使用新的「Adobe Audience Manager對象」維度及其相關功能（「區段比較」、「流量」、「文氏圖表」等）。 <br>「對象」維度也適用於「Report Builder」、「Data Warehouse」和「資料摘要」。 <br>**注意**：「資料摘要」僅包含「對象 ID」，不含「對象名稱」。 |
+| 步驟 3 | [在 Analytics 中使用資料](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md)。 | 您可以在Analysis Workspace中使用新的「Adobe Audience Manager對象」維度及其相關功能（「區段比較」、「流量」、「文氏圖表」等）。 <br>Report Builder、Data Warehouse和資料摘要中也提供「對象」維度。 <br>**注意**：「資料摘要」僅包含「對象 ID」，不含「對象名稱」。 |

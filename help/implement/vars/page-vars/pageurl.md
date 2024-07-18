@@ -23,8 +23,8 @@ AppMeasurement 會自動收集每次點擊中的頁面 URL。如果您想要覆�
 
 頁面URL已對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.URL`
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageURL` 或 `data.__adobe.analytics.g`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webPageDetails.URL`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.pageURL`或`data.__adobe.analytics.g`
 
 ## 使用Adobe Analytics擴充功能的頁面URL
 
@@ -34,7 +34,7 @@ Adobe Experience Platform Data Collection中的Analytics擴充功能會自動填
 2. 按一下所需的標籤屬性。
 3. 前往&#x200B;**[!UICONTROL 規則]**&#x200B;標籤，然後按一下所需的規則 (或建立規則)。
 4. 在&#x200B;**[!UICONTROL 「動作」]**&#x200B;下方按一下現有的&#x200B;**[!UICONTROL 「Adobe Analytics - 設定變數」]**&#x200B;動作，或按一下「+」圖示。
-5. 設定 **[!UICONTROL 副檔名]** Adobe Analytics的下拉式清單，以及 **[!UICONTROL 動作型別]** 至 **[!UICONTROL 設定變數]**.
+5. 將&#x200B;**[!UICONTROL 擴充功能]**&#x200B;下拉式清單設定為Adobe Analytics，並將&#x200B;**[!UICONTROL 動作型別]**&#x200B;設定為&#x200B;**[!UICONTROL 設定變數]**。
 6. 找出&#x200B;**[!UICONTROL 「頁面 URL」]**&#x200B;區段。
 
 您可以將頁面 URL 設為任何字串值。

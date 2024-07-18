@@ -13,15 +13,15 @@ ht-degree: 74%
 
 # 重點審視 (每次網站發佈後)
 
-為何應每幾個月審視實施作業一次？您可把關資料品質，趁問題還不嚴重時儘早解決。如果能在每次網站發佈後重點審視一番，您會發現每兩年會有一次 [完整審視](/help/implement/review/full-review.md) 容易多了。 您也會防止小問題惡化，進而影響相關人員的信心。
+為何應每幾個月審視實施作業一次？您可把關資料品質，趁問題還不嚴重時儘早解決。如果能在每次網站發佈後重點審視一番，您會發現兩年一次的[完整審視](/help/implement/review/full-review.md)比較容易。 您也會防止小問題惡化，進而影響相關人員的信心。
 
 ## 1. 從您的 5 大 KPI 開始
 
-明瞭 5 大關鍵績效指標 (KPI) 有助於確定必須檢查哪些相關量度和維度。如果您已有6個月未更新KPI，或您的企業尚未建立KPI，請依照 [這些指示](/help/implement/review/define-kpis.md).
+明瞭 5 大關鍵績效指標 (KPI) 有助於確定必須檢查哪些相關量度和維度。如果您已有6個月未更新KPI，或您的企業尚未建立KPI，請依照[這些指示](/help/implement/review/define-kpis.md)操作。
 
 ## 2. 確認您的 KPI 量度和變數仍正常運作
 
-請記住，隨時間更新程式碼可能會有無預期的影響。建議確認與 [5 大 KPI](/help/implement/review/define-kpis.md) 相關的所有量度和維度仍正常運作。理想情況下，發佈網站後就應立即完成這項工作；如果您最近幾個月從未執行此作業，請直接確認 *now*. 執行方法：
+請記住，隨時間更新程式碼可能會有無預期的影響。建議確認與 [5 大 KPI](/help/implement/review/define-kpis.md) 相關的所有量度和維度仍正常運作。理想情況下，發佈網站後就應立即完成這項工作；如果您最近幾個月從未執行此作業，請&#x200B;*立即*。 執行方法：
 
 * 建立控制面板，檢視這些重要度量和變數每小時的趨勢 (或為每個度量設定[智慧型提醒](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html))。監控一兩天，確認資料走勢符合預期，且資料正確無誤。 尋找轉折點。做好準備，以便在發現任何重大問題時能立即解決。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://express.adobe.com/page/tnNQGNlfzta3b/)，監控 KPI 量度和變數的主要趨勢。
@@ -36,7 +36,7 @@ ht-degree: 74%
 
 如果您最近曾新增或變更任何量度或變數，請務必更新業務需求文件 (BRD) 和解決方案設計參考資料 (SDR)。
 
-如果您沒有這些實施作業檔案，請先匯出變數清單，再使用建立BRD或SDR [此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation).
+如果您沒有這些實作檔案，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)建立BRD或SDR。
 
 ## 5. 立即解決資料品質不如預期的問題
 

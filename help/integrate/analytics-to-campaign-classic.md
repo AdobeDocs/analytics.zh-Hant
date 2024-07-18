@@ -12,4 +12,4 @@ ht-degree: 67%
 
 # 整合 Adobe Analytics 與 Campaign Classic
 
-另請參閱 [Adobe Analytics聯結器布建](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/analytics-connector/adobe-analytics-provisioning) 以取得將Adobe Analytics資料整合到Campaign Classic中的詳細資訊。
+如需將Adobe Analytics資料整合到Campaign Classic中的詳細資訊，請參閱[Adobe Analytics聯結器布建](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/analytics-connector/adobe-analytics-provisioning)。

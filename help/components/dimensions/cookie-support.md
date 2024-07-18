@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Cookie 支援
 
-「Cookie支援」 [維度](overview.md) 報告瀏覽器是否支援指定點選的Cookie。 這可用來判斷使用支援 Cookie 的瀏覽器之訪客與有意停用 Cookie 的訪客比例。
+「Cookie支援」 [維度](overview.md)會報告瀏覽器是否支援指定點選的Cookie。 這可用來判斷使用支援 Cookie 的瀏覽器之訪客與有意停用 Cookie 的訪客比例。
 
 ## 將資料填入此維度中
 

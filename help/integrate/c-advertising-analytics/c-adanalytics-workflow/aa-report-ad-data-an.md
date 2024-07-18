@@ -20,11 +20,11 @@ ht-degree: 49%
 
 ## 付費搜尋報告 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-此報表可讓任何實作搜尋引擎整合的人員存取Analytics中的搜尋引擎資料。 您可以透過以下方式存取它： **[!UICONTROL 工作區]** > **[!UICONTROL 報表]** > **[!UICONTROL 贏取]** > **[!UICONTROL Advertising Analytics：付費搜尋]**
+此報表可讓任何實作搜尋引擎整合的人員存取Analytics中的搜尋引擎資料。 您可以透過&#x200B;**[!UICONTROL Workspace]** > **[!UICONTROL 報表]** > **[!UICONTROL 贏取]** > **[!UICONTROL Advertising Analytics：付費搜尋]**&#x200B;存取它
 
 >[!NOTE]
 >
->即使您並未實作任何Advertising帳戶，所有客戶仍可看見「付費」搜尋報表。 如果您嘗試為尚未布建的公司開啟付費搜尋報告，則會出現錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。 選取 **[!UICONTROL 立即設定]**，這會將您導向 [Advertising帳戶設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 畫面。
+>即使您尚未實作任何Advertising帳戶，所有客戶仍可看見「付費」搜尋報表。 如果您嘗試為尚未布建的公司開啟付費搜尋報告，則會出現錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。 選取「**[!UICONTROL 立即設定]**」，系統會將您導向[Advertising帳戶設定](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)畫面。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 

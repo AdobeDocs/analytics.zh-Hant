@@ -23,7 +23,7 @@ ht-degree: 67%
 >- MCC （我的使用者端中心）帳戶，以及
 >- 標準帳戶。
 >
->針對與Adobe Analytics的整合， **您必須使用標準帳戶登入**，而非MCC帳戶登入。 原因在於 MCC 帳戶就像是「傘狀」帳戶，使用者只要憑藉同一組登入資訊，就能存取多個 AdWords 帳戶，但標準帳戶登入的每組登入資訊只能存取一個 AdWords 帳戶。 雖然 Google 支援連結一個電子郵件來管理 5 個帳戶，但 Advertising Analytics 還無法支援此功能。 一個電子郵件只能與一個 Adwords 帳戶綁定。
+>為了與Adobe Analytics整合，**您必須使用標準帳戶登入**，而不是MCC帳戶登入。 原因在於 MCC 帳戶就像是「傘狀」帳戶，使用者只要憑藉同一組登入資訊，就能存取多個 AdWords 帳戶，但標準帳戶登入的每組登入資訊只能存取一個 AdWords 帳戶。 雖然 Google 支援連結一個電子郵件來管理 5 個帳戶，但 Advertising Analytics 還無法支援此功能。 一個電子郵件只能與一個 Adwords 帳戶綁定。
 
 請按一下右上角的「帳戶」圖示來檢視 AdWords 帳號 (客戶 ID)。
 

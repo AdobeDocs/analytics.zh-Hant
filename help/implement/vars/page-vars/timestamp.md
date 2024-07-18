@@ -21,7 +21,7 @@ ht-degree: 81%
 
 ## 使用Web SDK的時間戳記
 
-時間戳記為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html) 在XDM欄位下 `xdm.timestamp`. 此欄位僅支援Unix時間。
+XDM欄位`xdm.timestamp`下的Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html)時間戳記為[對應。 此欄位僅支援Unix時間。
 
 ## 使用Adobe Analytics擴充功能的時間戳記
 
@@ -29,7 +29,7 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.timestamp
 
-`s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix時間](https://en.wikipedia.org/wiki/Unix_time) 以秒為單位。
+`s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)和[Unix時間](https://en.wikipedia.org/wiki/Unix_time) （以秒為單位）。
 
 ```js
 // Timestamp using ISO 8601

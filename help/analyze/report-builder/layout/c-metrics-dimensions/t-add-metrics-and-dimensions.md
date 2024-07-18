@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 39%
+source-wordcount: '582'
+ht-degree: 38%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 39%
 
 將度量和維度新增至請求的步驟。
 
-1. 使用 [!UICONTROL 請求精靈：步驟1] 表單至 [建立資料請求](/help/analyze/report-builder/data-requests/data-requests.md)  然後按一下 **[!UICONTROL 下一個]**.
-1. 在 [!UICONTROL 請求精靈：步驟2] 表單、按兩下量度，或將量度拖曳至所需位置。
+1. 使用[!UICONTROL 請求精靈：步驟1]表單來[建立資料請求](/help/analyze/report-builder/data-requests/data-requests.md)，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+1. 在[!UICONTROL 請求精靈：步驟2]表單中，按兩下度量，或將度量拖曳到需要的位置。
 
-   ![熒幕擷圖顯示「請求精靈：步驟2」 ，其箭頭從量度清單指向所需的頁面檢視區段。](assets/adding_metrics.png)
+   ![顯示「請求精靈」的熒幕擷圖：步驟2，其箭頭從量度清單指向所需的頁面檢視區段。](assets/adding_metrics.png)
 
    由於您可以在請求中顯示度量多次，因此在新增度量時，系統不會移除「[!UICONTROL 度量]」索引標籤中的度量。例如，您可以顯示小計度量以指出每個值相加的結果。然而，可用度量的清單會在您每次新增或移除維度時改變。
 
@@ -27,17 +27,17 @@ ht-degree: 39%
 
    請注意，搜尋列會顯示在「度量」標籤上，位在「度量」清單正上方。
 
-   ![顯示「量度」搜尋列的熒幕擷圖。](assets/search_bar_metric.png)
+   ![熒幕擷圖顯示量度搜尋列。](assets/search_bar_metric.png)
 
 ## 準則
 
 新增量度和維度時，請考量下列准則。
 
 * 當您輸入搜尋詞時，清單會自動更新，以顯示標籤與搜尋詞相符的量度。
-* 相符專案不區分大小寫，並等同於 *包含* 搜尋。
+* 相符專案不區分大小寫，並等同於&#x200B;*包含*&#x200B;搜尋。
 * 全字搜尋和其他特殊搜尋旗標（開頭為、結尾為、AND或OR等） 。
 
-如果您在按一下後結束「請求精靈」，則會清除搜尋字詞 [!UICONTROL 完成] 或 [!UICONTROL 取消]，或返回「請求精靈：步驟1」或變更「量度」類別。
+如果您在按一下[!UICONTROL 完成]或[!UICONTROL 取消]後結束「請求精靈」，或返回「請求精靈步驟1」或變更「量度類別」，搜尋字詞就會被清除。
 
 未清除搜尋字詞：
 
@@ -59,9 +59,9 @@ ht-degree: 39%
 若要依量度排序請求
 
 1. 按一下量度標籤。
-1. 新增維度. 以新增量度的相同方式新增維度。 請參閱上述步驟1和2。
+1. 新增維度。 以新增量度的相同方式新增維度。 請參閱上述步驟1和2。
 
-   在 [!UICONTROL Dimension] 索引標籤上，系統會顯示劃分的維度，或您選取之任何基礎報表的分類 [!UICONTROL 請求精靈：步驟1]，以及報表套裝的設定上。 將維度拖放到版面格點時，它會從樹狀檢視中移除，並重新計算剩餘可用維度的清單。
+   在「[!UICONTROL Dimension]」標籤上，系統會顯示劃分維度，或您在「[!UICONTROL 請求精靈：步驟1]」以及報表套裝設定上選取的任何基礎報表的分類。 將維度拖放到版面格點時，它會從樹狀檢視中移除，並重新計算剩餘可用維度的清單。
 
    系統會自動新增[!UICONTROL 「日期」]維度。可用的日期維度會隨著在[!UICONTROL 「請求精靈: 步驟 1」]中選擇的粒度而改變。有效值為：
 
@@ -73,6 +73,6 @@ ht-degree: 39%
    * 日期範圍 (未指定詳細程度時)
 
 1. 設定[格式選項](/help/analyze/report-builder/layout/t-format-display-headers.md)和篩選器，修改量度和維度。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。在以下範例中，維度與[!UICONTROL 「頁面」]度量相關。此 [!UICONTROL 反向連結網域] 維度會建立劃分報表，介於 [!UICONTROL 頁面] 和 [!UICONTROL 反向連結網域]. 只會針對您可以新增至劃分報表的維度更新[!UICONTROL 「維度」]索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 完成]**。在以下範例中，維度與[!UICONTROL 「頁面」]度量相關。[!UICONTROL 反向連結網域]維度會建立介於[!UICONTROL 頁面]和[!UICONTROL 反向連結網域]之間的劃分報表。 只會針對您可以新增至劃分報表的維度更新[!UICONTROL 「維度」]索引標籤。
 
    ![熒幕擷圖顯示與量度相關的維度。](assets/page_pageview_02.png)

@@ -15,17 +15,17 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與 [!UICONTROL 儲存期間] Adobe Experience Platform資料彙集中之Adobe Analytics擴充功能的功能。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果 [!UICONTROL 儲存期間] Analytics擴充功能中的功能即足夠。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與Adobe Experience Platform資料收集中Adobe Analytics擴充功能的[!UICONTROL 儲存期間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果Analytics擴充功能中的[!UICONTROL 儲存持續時間]功能已足夠，就不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
 Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 標籤]** 然後，按一下所需的標籤屬性。
-1. 按一下 **[!UICONTROL 擴充功能]** 然後按一下左側的 **[!UICONTROL 目錄]** 標籤
-1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 副檔名。
-1. 按一下 **[!UICONTROL 資料元素]** 然後按一下所需的資料元素。
+1. 按一下左側的&#x200B;**[!UICONTROL 標籤]**，然後按一下所需的標籤屬性。
+1. 按一下左側的&#x200B;**[!UICONTROL 擴充功能]**，然後按一下&#x200B;**[!UICONTROL 目錄]**&#x200B;標籤
+1. 尋找並安裝&#x200B;**[!UICONTROL 常用Web SDK外掛程式]**&#x200B;擴充功能。
+1. 按一下左側的&#x200B;**[!UICONTROL 資料元素]**，然後按一下所需的資料元素。
 1. 使用下列設定來設定所需的資料元素名稱：
    * 擴充功能：常見Web SDK外掛程式
    * 資料元素： `getAndPersistValue`

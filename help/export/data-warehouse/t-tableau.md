@@ -14,4 +14,4 @@ ht-degree: 42%
 
 Data Warehouse可以傳送Tableau資料擷取(TDE)檔案格式的報告，這些格式可用來在Tableau中顯示其他資料中的資料和圖層。
 
-如需如何設定Data Warehouse報表以TDE格式傳送的詳細資訊，請參閱 [設定Data Warehouse請求的報表選項](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+如需有關如何設定Data Warehouse報表以TDE格式傳送的資訊，請參閱[設定Data Warehouse請求的報表選項](/help/export/data-warehouse/create-request/dw-request-report-options.md)。

@@ -12,12 +12,12 @@ ht-degree: 50%
 
 # Advertising Analytics 疑難排解
 
-* [我在「對應」區段中看不到我的報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [我在對應區段中看不到我的報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [我在驗證 Google Adwords 帳戶時發生錯誤...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 我在「對應」區段中看不到我的報表套裝 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在嘗試 [設定新的Advertising帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) 而且您不會在「 」中看到您的報表套裝 **[!UICONTROL 對應的報表套裝]** 下拉式清單。 這種情況有兩個可能的原因：
+您正在嘗試[設定新的Advertising帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，但您在&#x200B;**[!UICONTROL 已對應的報表套裝]**&#x200B;下拉式清單中並沒有看到您的報表套裝。 這種情況有兩個可能的原因：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 

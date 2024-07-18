@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '188'
 ht-degree: 72%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 72%
 
    若要新增度量，請按一下&#x200B;**[!UICONTROL 「無」]**&#x200B;連結。
 
-   ![熒幕擷圖顯示「異常偵測」，接著顯示「插入」，然後插入「下限」和「上限」的選項，而且必須插入。](assets/anomaly_select.png)
+   ![熒幕擷圖顯示異常偵測，然後插入，再插入上下界限的選項，而且必須是。](assets/anomaly_select.png)
 
 1. 選取&#x200B;**[!UICONTROL 「異常偵測]** > **[!UICONTROL `<selection>`]**」。
 
-   ![熒幕擷圖顯示「請求精靈步驟2 — 流量報告」。](assets/anomaly_visit.png)
+   ![熒幕擷圖顯示「請求精靈：步驟2 — 流量報告」。](assets/anomaly_visit.png)
 
    當您選取其中一選項時，系統會建立原始度量異常偵測的複本。例如，對於造訪次數度量，將新增下界限造訪次數至[!UICONTROL 度量]群組。
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**，並選取要輸出成 Excel 的儲存格。

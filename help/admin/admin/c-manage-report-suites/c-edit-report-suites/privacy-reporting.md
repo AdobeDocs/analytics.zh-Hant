@@ -12,7 +12,7 @@ ht-degree: 54%
 
 # 隱私權報告
 
-隱私權報表可讓您啟用 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)， [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md) 和 [廣告平台同意](/help/components//dimensions/ad-consent.md) 用於報表的維度。
+隱私權報告可讓您啟用[同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)、[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)和[廣告平台同意](/help/components//dimensions/ad-consent.md)維度，以用於報告。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 54%
 
    ![編輯設定](assets/rsm-privacy-select.png)
 
-1. 按一下 **[!UICONTROL 啟用資料隱私權報表]**.
+1. 按一下&#x200B;**[!UICONTROL 啟用資料隱私權報表]**。
 
    >[!NOTE]
    >

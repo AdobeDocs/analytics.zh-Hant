@@ -34,8 +34,8 @@ ht-degree: 98%
 
 貨幣代碼會對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.currencyCode`
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.currencyCode` 或 `data.__adobe.analytics.cc`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.currencyCode`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.currencyCode`或`data.__adobe.analytics.cc`
 
 ## 使用 Adobe Analytics 擴充功能的貨幣代碼
 

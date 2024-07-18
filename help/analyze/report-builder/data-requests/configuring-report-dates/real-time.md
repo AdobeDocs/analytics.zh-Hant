@@ -1,13 +1,13 @@
 ---
 description: 顯示網頁流量與頁面訪問量即時排名，如此您便可更快速了解網站的趨勢。
-title: 即時報表概述
+title: 即時報表總覽
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---

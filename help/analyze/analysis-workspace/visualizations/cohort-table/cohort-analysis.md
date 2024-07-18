@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '492'
 ht-degree: 96%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析] 不支援無法設為區段的量度（包括計算量度）、非整數量度（例如收入）或發生次數。
+>[!UICONTROL 同類群組分析]不支援無法設為區段的量度（包括計算量度）、非整數量度（例如收入）或發生次數。
 >
 >只有可以在區段中使用的量度才能用於[!UICONTROL 同類群組分析]，而且這些量度一次只能遞增 >1 的值。
 

@@ -20,9 +20,9 @@ ht-degree: 94%
 
 進入即時報表設定頁面的方式 (需要管理員權限)：
 
-1. 按一下 **[!UICONTROL 工作區]** ，位於Adobe Analytics頂端導覽列中。
-1. 選取 **[!UICONTROL 報表]** 從左側導覽列。
-1. 選取 **[!UICONTROL 參與]** ![V形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 即時]**. 您也可以 ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) 搜尋即時。
+1. 按一下Workspace頂端導覽列中的&#x200B;**[!UICONTROL Adobe Analytics]**。
+1. 從左側導覽列中選取&#x200B;**[!UICONTROL 報表]**。
+1. 選取&#x200B;**[!UICONTROL 參與]** ![V形](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ChevronRight_18_N.svg) **[!UICONTROL 即時]**。 您也可以![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)即時搜尋。
 1. 如果報表套裝尚未啟用即時功能，則會顯示含有一個連結的訊息，可用該連結來設定報表套裝。
 
 Adobe 最多可同時收集三份即時報表。每個報表都必須先進行設定，才能開始即時收集資料。

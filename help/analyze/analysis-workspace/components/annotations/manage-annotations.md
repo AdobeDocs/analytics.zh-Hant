@@ -1,19 +1,19 @@
 ---
 title: 管理註解
-description: 如何在工作區中管理註解。
+description: 如何在 Workspace 中管理註解。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
 source-git-commit: 4f0bd39b64535be8ba55e97d65177f6ef291ef6c
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 61%
 
 ---
 
 # 管理註解
 
-此 [!UICONTROL 註解管理員] 顯示您所擁有或他人與您共用的所有註解。 特定專案的註解不會顯示在這裡。 您可以使用此介面來共用、篩選、標籤、複製、刪除註解以及將註解加入最愛。 管理員可以管理和核准註解。
+[!UICONTROL 註解管理員]會顯示您所擁有或他人與您共用的所有註解。 特定專案的註解不會顯示在這裡。 您可以使用此介面來共用、篩選、標籤、複製、刪除註解以及將註解加入最愛。 管理員可以管理和核准註解。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 註解]**
 
@@ -36,7 +36,7 @@ ht-degree: 61%
 
 編輯附註表示您可以調整日期範圍、顏色、範圍，或者附註是否套用於所有報表套裝或專案。 編輯註解有兩個方法：
 
-* 在線圖中，將滑鼠游標停留在註解上，然後在彈出視窗內按一下鉛筆圖示。
+* 在折線圖中，將滑鼠游標停留在註解上，然後在彈出視窗內按一下鉛筆圖示。
 * 在[!UICONTROL 註解管理員]中，按一下註解標題。
 
 這兩個選項都會帶您回到[!UICONTROL 註解產生器]。在這裡，您可以進行必要調整並儲存新版本。

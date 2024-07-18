@@ -30,10 +30,10 @@ ht-degree: 78%
 使用資料流對應，從單一XDM欄位傳送資料至多個Analytics變數。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 資料串流]** 在左側邊欄中。
+1. 按一下左側邊欄中的&#x200B;**[!UICONTROL 資料串流]**。
 1. 按一下所需的資料流。
-1. 按一下 **[!UICONTROL 編輯對應]** 在右邊。
-1. 對應所要的 [!UICONTROL 來源欄位] 至所需的 [!UICONTROL 目標欄位]. 單一來源欄位可對應至任意數量的目標欄位。
+1. 按一下右側的&#x200B;**[!UICONTROL 編輯對應]**。
+1. 將所需的[!UICONTROL Source欄位]對應到所需的[!UICONTROL 目標欄位]。 單一來源欄位可對應至任意數量的目標欄位。
 
 ## 使用Adobe Analytics擴充功能的動態變數
 
@@ -43,7 +43,7 @@ ht-degree: 78%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出所需的維度項目。
 
 將動態變數首碼放置在文字欄位中，隨後加上您要參考的查詢字串參數或 HTTP 標題。依預設，動態變數首碼為 `D=`。

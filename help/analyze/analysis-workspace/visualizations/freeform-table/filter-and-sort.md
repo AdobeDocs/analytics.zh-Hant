@@ -21,7 +21,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
-> 如本節所述，只能篩選動態維度專案。 無法篩選靜態維度專案。 如需詳細資訊，請參閱 [自由表格中的動態與靜態維度專案](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
+> 如本節所述，只能篩選動態維度專案。 無法篩選靜態維度專案。 如需詳細資訊，請參閱自由表格中的[動態與靜態維度專案](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
 
 ## 篩選自由表格列
 
@@ -31,7 +31,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 - 表格篩選器
 - 區段
 
-請務必閱讀每種方法的影響 [自由格式表格總計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
+請務必閱讀每個方法如何影響[自由表格總計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
 ### 從表格中快速排除特定列
 
@@ -39,7 +39,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
->如本節所述排除列時， [!UICONTROL **永遠排除專案**] 規則會自動套用到進階篩選器對話方塊中。 (您可以選取「篩選」圖示，然後選取 [**[!UICONTROL 顯示進階]**](#apply-a-simple-or-advanced-filter-to-a-table).)
+>如本節所述，當您排除資料列時，會自動在進階篩選對話方塊中套用&#x200B;[!UICONTROL **永遠排除專案**]&#x200B;規則。 （您可以選取「篩選」圖示，然後選取[**[!UICONTROL 顯示進階]**](#apply-a-simple-or-advanced-filter-to-a-table)，以檢視套用的規則。）
 
 若要快速從自由格式表格中排除特定列：
 
@@ -60,7 +60,7 @@ Note: this option does not seem to work. AN-338422
 
 若要篩選自由表格中的資料：
 
-1. 將游標停留在包含要篩選之資料的欄上。 <!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. 將游標停留在包含要篩選之資料的欄上。<!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. 選取出現的&#x200B;**篩選**&#x200B;圖示。
 
@@ -90,7 +90,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 區段
 
-請參閱我們的 [細分檔案](/help/components/segmentation/seg-home.md) 以取得更多詳細資料。
+如需詳細資訊，請參閱我們的[分段檔案](/help/components/segmentation/seg-home.md)。
 
 ## 排序表格
 

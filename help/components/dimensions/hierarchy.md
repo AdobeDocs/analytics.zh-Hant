@@ -14,7 +14,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->此維度已遭到淘汰，無法使用 [維度](overview.md) 在Analysis Workspace中。 Adobe 建議改用 [eVar](evar.md) 和分類。
+>此維度已遭到淘汰，在Analysis Workspace中不是可用的[維度](overview.md)。 Adobe 建議改用 [eVar](evar.md) 和分類。
 
 階層是自訂變數，您可以視需要使用。這類變數在其設定所在的點擊過後即不存在。在您的 Adobe 合約支援的前提下，最多可使用 5 個階層。
 

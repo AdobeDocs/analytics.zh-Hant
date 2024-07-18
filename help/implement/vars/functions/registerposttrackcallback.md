@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!WARNING]
 >
->請勿進行任何追蹤呼叫，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 內部 `registerPostTrackCallback` 變數中。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
+>請勿在`registerPostTrackCallback`變數內進行任何追蹤呼叫，例如[`t()`](t-method.md)或[`tl()`](tl-method.md)。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
 
 每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
@@ -25,11 +25,11 @@ ht-degree: 72%
 >
 >對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用Web SDK擴充功能的後續追蹤回呼
+## 使用Web SDK擴充功能的Post — 追蹤回呼
 
 即將推出！
 
-## 手動實作Web SDK的後追蹤回呼
+## Post — 追蹤手動實作Web SDK的回呼
 
 資料成功傳送至Adobe後，您可以在傳送事件以註冊函式時使用JavaScript Promise 。
 
@@ -41,9 +41,9 @@ alloy("sendEvent",{
 });
 ```
 
-另請參閱 [處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 詳細資訊，請參閱Web SDK檔案。
+如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
 
-## 使用Adobe Analytics擴充功能註冊後續追蹤回呼
+## 使用Post擴充功能註冊Adobe Analytics追蹤回呼
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 

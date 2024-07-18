@@ -128,7 +128,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確定中的網域 <span class="term"> 網域</span> 和 <span class="term"> 電子郵件</span> 資料行符合在「先決條件」中建立的網域</a>. </p> </td> 
+   <td colname="col2"> <p>確定<span class="term">網域</span>和<span class="term">電子郵件</span>資料行中的網域符合先決條件</a>中建立的網域。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>國家/地區代碼 </p> </td> 

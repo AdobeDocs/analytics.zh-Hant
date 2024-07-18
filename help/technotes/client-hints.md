@@ -31,7 +31,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 >
 > 截至 2023 年 1 月，部分版本的 Mac 和 Windows 作業系統在使用者代理中顯示不正確，但在高平均資訊量用戶端提示中顯示正確。 如需詳細資訊，請參閱[作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)。
 
-Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您使用 [伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant) 之後，您可能會想要啟用高平均資訊量提示收集功能。
+Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您正在使用[伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 ## 常見問題
 
@@ -75,7 +75,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 | platformVersion | 作業系統/平台版本 | 高 | `"10"` |
 
 * 透過請求標頭收集的低平均資訊量提示。
-* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串引數使用 `h.` 做為影像要求中的前置詞。 請注意，目前不會收集fullVersionList，因為系統會將瀏覽器主要版本擷取為低平均資訊量提示。
+* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串引數使用`h.`做為影像要求中的前置詞。 請注意，目前不會收集fullVersionList，因為系統會將瀏覽器主要版本擷取為低平均資訊量提示。
 
 高平圴資訊量提示是透過 JavaScript 呼叫收集並透過查詢參數來傳遞
 
@@ -145,7 +145,7 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++
 
-+++**透過Adobe來源聯結器傳送至Adobe Experience Platform和Customer Journey Analytics的資料中是否會提供使用者端提示？**
++++**透過AdobeSource Connector傳送到Adobe Experience Platform和Customer Journey Analytics的資料中是否提供使用者端提示？**
 
 Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包含用戶端提示。
 
@@ -159,6 +159,6 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++**Adobe Audience Manager伺服器端轉送是否支援使用者端提示？**
 
-是。使用者端提示將包含在轉送至Adobe Audience Manager的資料中。 請注意，Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您使用 [伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant) 之後，您可能會想要啟用高平均資訊量提示收集功能。
+是。使用者端提示將包含在轉送至Adobe Audience Manager的資料中。 請注意，Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您正在使用[伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++

@@ -17,13 +17,13 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
-> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。在下列情況下，您無法使用此變數： [!UICONTROL 地理郵遞區號] 一律使用。 如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 地理zip]，便無法使用此變數。 如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
 ## 使用Web SDK的郵遞區號
 
 郵遞區號會對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.placeContext.geo.postalCode`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.placeContext.geo.postalCode`
 * [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.zip`
 
 ## 使用Adobe Analytics擴充功能的郵遞區號
@@ -34,7 +34,7 @@ ht-degree: 75%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「Zip」]區段。
 
 您可以將郵遞區號設為任何字串值，包括資料元素。

@@ -3,8 +3,9 @@ description: 如何在 Analysis Workspace 中使用預設報告的概觀。
 title: 使用報告
 feature: Analysis Workspace
 role: User, Admin
-source-git-commit: 7132cd4cbbb79a4240a5d0b65844343284de2123
-workflow-type: ht
+exl-id: d2b4edca-b8f5-4c17-b470-ae0cf5d66fb2
+source-git-commit: dcc517c2cd24a1aeeb2594094d09b9187ea7d144
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 

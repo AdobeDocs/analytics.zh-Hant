@@ -11,11 +11,11 @@ ht-degree: 70%
 
 ---
 
-# 管理虛擬報程套裝
+# 管理虛擬報告套裝
 
 虛擬報表套裝管理員可讓管理員編輯、新增、標籤、刪除、重新命名、核准、複製、匯出以及篩選虛擬報表套裝。 但不會顯示給非管理員使用者。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報告套裝]**
 
 ![](assets/vrs-manage.png)
 

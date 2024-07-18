@@ -7,11 +7,11 @@ exl-id: 727d4f7a-d7d1-40cf-bdcd-c783ca47f51c
 source-git-commit: 62132284ca70f3bdb1a8896e4548b8b63a5c03c8
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 58%
 
 ---
 
-# 使用 SFTP 連線至 FTP 帳戶
+# 使用SFTP連線至FTP帳戶
 
 若要設定使用FTP的安全傳輸：
 
@@ -19,7 +19,7 @@ ht-degree: 64%
 
    1. 申請 Adobe 託管的 FTP 帳戶 (50 MB 配額)。
 
-   1. 建立公開/私密 RSA 金鑰。
+   1. 建立公開/私人RSA金鑰。
 
       * 在Linux環境中，執行：
 

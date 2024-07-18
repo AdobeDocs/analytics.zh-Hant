@@ -2,8 +2,9 @@
 name: Mobile lifecycle metrics
 description: 此量度是以使用 Mobile SDK 收集之資料為基礎。
 feature: Metrics
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: ht
+exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 100%
 

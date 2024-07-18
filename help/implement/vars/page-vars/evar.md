@@ -27,8 +27,8 @@ eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設�
 
 eVar會對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.eVars.eVar1` 至 `xdm._experience.analytics.customDimensions.eVars.eVar250`
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.eVar1` 至 `data.__adobe.analytics.eVar250`；或 `data.__adobe.analytics.v1` 至 `data.__adobe.analytics.v250`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.eVars.eVar1`至`xdm._experience.analytics.customDimensions.eVars.eVar250`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.eVar1`至`data.__adobe.analytics.eVar250`；或`data.__adobe.analytics.v1`至`data.__adobe.analytics.v250`
 
 ## 使用 Adobe Analytics 擴充功能的 eVar
 
@@ -38,7 +38,7 @@ eVar會對應至下列變數：
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「eVar」]區段。
 
 您可以將 eVar 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。

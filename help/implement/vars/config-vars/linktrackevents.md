@@ -19,7 +19,7 @@ ht-degree: 68%
 
 ## 使用Web SDK決定要包含在XDM事件中的Analytics事件
 
-Web SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可以使用 `onBeforeEventSend` 回撥以在資料傳送至Adobe之前清除或設定所需欄位。 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
+Web SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可以在傳送資料給Adobe之前，使用`onBeforeEventSend`回呼來清除或設定所要的欄位。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 使用Adobe Analytics擴充功能的連結追蹤呼叫中的事件
 
@@ -27,7 +27,7 @@ Web SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可以使用
 
 >[!IMPORTANT]
 >
->如果您在Analytics擴充功能的自訂程式碼編輯器中設定事件，必須將事件納入 `linkTrackEvents` 使用自訂程式碼。
+>如果您在Analytics擴充功能的自訂程式碼編輯器中設定事件，也必須使用自訂程式碼在`linkTrackEvents`中納入事件。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkTrackEvents
 

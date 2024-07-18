@@ -38,9 +38,9 @@ ht-degree: 96%
 1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程」]**。
 
    [!UICONTROL 「排程報表」]索引標籤會總結您建立的所有任務和剩餘的任務數量。
-1. 在 **[!UICONTROL 排程報告]** 標籤，按一下 **[!UICONTROL 新增]**. 「基本排程精靈」會顯示用來定義排程報告的選項。
+1. 在&#x200B;**[!UICONTROL 排程報告]**&#x200B;索引標籤上，按一下&#x200B;**[!UICONTROL 新增]**。 「基本排程精靈」會顯示用來定義排程報告的選項。
 
-   ![顯示「基本排程精靈」的熒幕擷圖。](assets/simple-schedule-wizard.png)
+   ![顯示[基本排程精靈]的熒幕擷圖。](assets/simple-schedule-wizard.png)
 
 1. 在[!UICONTROL 「基本排程精靈」]中設定下列選項：
 

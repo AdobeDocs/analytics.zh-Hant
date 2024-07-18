@@ -6,7 +6,7 @@ feature: Processing Rules
 role: Admin
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 100%
 

@@ -84,7 +84,7 @@ ht-degree: 98%
 | 支援 | x |  |  |  | 授與對「管理員 > 所有管理員 > 公司設定 > 支援資訊」的存取權。 |
 | 流量管理 | x |  |  |  | 授與對「管理員 > 所有管理員 > 流量管理」的存取權。 |
 | 網路服務 | x |  |  |  | 授與對「管理員 > 所有管理員 > 公司設定 > 網頁服務」的存取權。 |
-| 與任何人分享專案連結 | x |  |  |  | 授與使用者的存取權以與任何人共用工作區專案 — >共用 — >與任何人共用。 |
+| 與任何人分享專案連結 | x |  |  |  | 授與使用者的存取權，以便「與任何人共用」Workspace專案 — >「共用 — >與任何人共用」。 |
 | Activity Map |  | x |  |  | 授與「工具 > Activity Map」的存取權。允許用戶使用 Activity Map 擴充功能。 |
 | Ad Hoc Analysis 授權用戶 |  | x |  |  | Ad Hoc Analysis 生命週期已結束。[更多資訊](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace 存取 |  | x |  |  | 授予Analysis Workspace的存取權。 |

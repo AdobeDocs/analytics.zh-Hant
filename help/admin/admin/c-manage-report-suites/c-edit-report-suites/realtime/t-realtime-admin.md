@@ -18,9 +18,9 @@ ht-degree: 77%
 
 1. 選取您要啟用即時報告的報表套裝。
 
-   瀏覽至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員>報表套裝]**.
+   導覽至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理員>報表套裝]**。
 
-1. 按一下 **[!UICONTROL 編輯設定]** > **[!UICONTROL 即時]**.
+1. 按一下&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 即時]**。
 
 1. 設定最多 3 個報告的即時資料收集，每個報告各一個量度和三個維度或分類。
 
@@ -50,5 +50,5 @@ ht-degree: 77%
 
 1. 若要檢視即時報表，請導覽至：
 
-   **[!UICONTROL 工作區]** > **[!UICONTROL 報表]** > **[!UICONTROL 參與]** > **[!UICONTROL 即時]**.
+   **[!UICONTROL Workspace]** > **[!UICONTROL 報表]** > **[!UICONTROL 參與]** > **[!UICONTROL 即時]**。
 

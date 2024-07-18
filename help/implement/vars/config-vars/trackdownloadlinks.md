@@ -19,16 +19,16 @@ Adobe 提供追蹤下載連結功能，使用者不需要手動設定每個下�
 
 ## 使用Web SDK擴充功能啟用或停用點選收集
 
-使用 [!UICONTROL 啟用點選資料收集] 核取方塊。 此核取方塊會處理退出和下載連結。
+設定Web SDK時，請使用[!UICONTROL 啟用按一下資料彙集]核取方塊。 此核取方塊會處理退出和下載連結。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 啟用點選資料收集]** 核取方塊。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 啟用「按一下資料彙集]**」核取方塊。
 
 ## 啟用或停用手動實作Web SDK的點選收集
 
-設定SDK，使用 [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。將此值設為 `false` 如果您想要停用自動連結追蹤。 此設定會處理下載和退出連結的自動連結追蹤。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)設定SDK。 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。如果您要停用自動連結追蹤，請將此值設為`false`。 此設定會處理下載和退出連結的自動連結追蹤。
 
 ```json
 alloy("configure", {

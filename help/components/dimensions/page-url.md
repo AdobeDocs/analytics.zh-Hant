@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '224'
 ht-degree: 95%
 
 ---
 
 # 頁面 URL
 
-「頁面URL」 [維度](overview.md) 列出您網站上的URL。
+「頁面URL」[維度](overview.md)會列出您網站上的URL。
 
 >[!IMPORTANT]
 >

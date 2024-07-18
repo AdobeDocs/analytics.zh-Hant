@@ -13,16 +13,16 @@ ht-degree: 39%
 
 # abort
 
-此 `abort` 變數是布林值，可防止將下個追蹤呼叫傳送至Adobe。 Web SDK中存在類似的功能，可讓您傳回 `false` 傳送XDM事件之前。
+`abort`變數是布林值，可防止將下一個追蹤呼叫傳送到Adobe。 Web SDK中存在類似的功能，可讓您在傳送XDM事件之前傳回`false`。
 
 ## 取消使用Web SDK擴充功能傳送事件
 
-使用 [!UICONTROL 在事件傳送回撥前開啟] 程式碼編輯器和傳回 `false`.
+在事件傳送回呼]程式碼編輯器之前使用[!UICONTROL On並傳回`false`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 在事件傳送回呼代碼前編輯]** 按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 在事件傳送回撥代碼前編輯]**&#x200B;按鈕。
 1. 在程式碼編輯器中，將下列程式碼置於您想要中止傳送資料至Edge的任何條件下：
 
 ```js
@@ -31,7 +31,7 @@ return false;
 
 ## 取消手動實作Web SDK時傳送事件
 
-使用 `onBeforeEventSend` 回呼和傳回 `false`. 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
+使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {
@@ -58,9 +58,9 @@ s.abort = true;
 
 >[!NOTE]
 >
->`abort` 變數會在每個追蹤呼叫後重設為 `false`。如果您想要中止相同頁面上的後續追蹤呼叫，請設定 `abort` 至 `true` 再來一次。
+>`abort` 變數會在每個追蹤呼叫後重設為 `false`。若要中止相同頁面上的後續追蹤呼叫，請再次將`abort`設為`true`。
 
-此 `abort` 變數可在以下位置設定： [`doPlugins()`](../functions/doplugins.md) 函式：將影像要求傳送至Adobe前要執行的最後一個函式。 此範例的運作方式與 `onBeforeEventSend` 使用Web SDK的回呼。
+`abort`變數可在[`doPlugins()`](../functions/doplugins.md)函式中設定，該函式是將影像要求傳送至Adobe之前執行的最後一個函式。 此範例的運作方式與使用Web SDK的`onBeforeEventSend`回呼類似。
 
 ```js
 s.doPlugins = function(s) {

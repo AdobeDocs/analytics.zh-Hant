@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 76%
+source-wordcount: '409'
+ht-degree: 71%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 76%
    | 報告名稱 | 顯示您在「請求精靈: 步驟 1」的樹狀檢視中選擇的報表類型名稱 (如「[!DNL Traffic Report]」)，或您在「[!DNL Name this Request]」欄位中輸入的名稱。 |
    | 篩選參數 | 顯示維度篩選，例如搜尋篩選。 |
    | 區段 | 顯示區段參數。 |
-   | 資料時近 | 顯示資料時近參數。例如:資料時近：頁面檢視 (1.5 小時前)、退出點 (30分鐘前)  如需目前資料處理的資訊，請參閱[選項](/help/analyze/report-builder/options.md)。 |
+   | 資料時近 | 顯示資料時近參數。例如：    資料時近：頁面檢視（1.5小時前）、退出點（30分鐘前）如需目前資料處理的資訊，請參閱[選項](/help/analyze/report-builder/options.md)。 |
 
    至於顯示順序，如果「[!UICONTROL 列標籤]」格線 (於步驟 2) 含有項目，則會最先顯示在請求中。如果不含項目，系統會使用「[!UICONTROL 欄標籤]」格線中的第一個項目。如果沒有任何列項目或欄項目，系統會顯示「[!UICONTROL 度量]」格線中的第一個項目。
 
@@ -41,8 +41,8 @@ ht-degree: 76%
    >
    >Excel 僅支援在每個工作表中使用一個自動篩選。如果在已有自動篩選的工作表中建立新的自動篩選，Excel 不會警告您即將取代現有的自動篩選。
 
-   **執行自動大綱：** 將Report Builder傳回的日期從清單檢視轉換為樹狀檢視。
+   **執行自動外框：**&#x200B;將Report Builder傳回的日期從清單檢視轉換為樹狀檢視。
 
-   **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。另請參閱 [為請求命名](/help/analyze/report-builder/layout/name-a-request.md).
+   **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。請參閱[為請求命名](/help/analyze/report-builder/layout/name-a-request.md)。
 
 1. 按一下「**[!UICONTROL 確定]**」。

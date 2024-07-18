@@ -6,7 +6,7 @@ feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 88%
 
 ---
@@ -25,6 +25,6 @@ ht-degree: 88%
 
   在罕見的情況下，您可能會看到重複的 `hitid_high` 和 `hitid_low` 值。 如果發生這種狀況，請確認之前並未傳送及處理該檔案。 如果檔案中只有一些列重複，請考慮新增 `visit_num` 和 `visit_page_num` 來協助判斷唯一性。
 
-* 如果使用FTP （不建議使用），請確保您的FTP站台有足夠的空間。 請定期移除目的地中的檔案，以免無意間用盡磁碟空間。
+* 若使用FTP （不建議），請確保您的FTP站台有足夠的空間。 請定期移除目的地中的檔案，以免無意間用盡磁碟空間。
 
-* 如果使用sFTP （不建議使用），請勿讀取或刪除具有 `.part` 字尾。 `.part` 尾碼表示已部分傳輸的檔案。一旦檔案傳輸完成，`.part` 尾碼就會消失。
+* 如果使用sFTP （不建議），請勿讀取或刪除尾碼為`.part`的檔案。 `.part` 尾碼表示已部分傳輸的檔案。一旦檔案傳輸完成，`.part` 尾碼就會消失。

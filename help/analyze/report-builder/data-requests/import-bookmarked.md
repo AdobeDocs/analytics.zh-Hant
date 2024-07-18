@@ -19,7 +19,7 @@ ht-degree: 72%
 
 以下說明「請求精靈步驟 1」如何顯示儀表板及其報表：
 
-![此熒幕擷圖顯示「請求精靈：步驟2之1」醒目提示「擷取您的儀表板」和「擷取您的書籤」。](assets/import_dashboard_reportlet.png)
+![熒幕擷圖顯示「請求精靈」步驟2之1 (反白顯示「擷取您的儀表板」及「擷取您的書籤」。](assets/import_dashboard_reportlet.png)
 
 按一下「**[!UICONTROL 擷取您的儀表板]**」或「**[!UICONTROL 擷取您的書籤]**」時，就會擷取您現有的儀表板和/或書籤資料並貼入工作表中。
 

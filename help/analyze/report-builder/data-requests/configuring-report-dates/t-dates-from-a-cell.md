@@ -19,7 +19,7 @@ ht-degree: 78%
 **設定來自儲存格的日期**
 
 1. 在[!UICONTROL 「請求精靈: 步驟 1」]中選擇&#x200B;**[!UICONTROL 「儲存格的日期」]**。
-1. 在中輸入儲存格參照 **[!UICONTROL 從]** 和 **[!UICONTROL 至]** 欄位，或按一下選擇器，然後選取包含具有開始和結束日期之請求的儲存格。
+1. 在&#x200B;**[!UICONTROL From]**&#x200B;與&#x200B;**[!UICONTROL To]**&#x200B;欄位中輸入儲存格參考，或按一下選取器並選取包含具有開始與結束日期之請求的儲存格。
 
    例如，建立具有日期範圍設定為 &quot;yesterday&quot; 的 Report Builder 要求，並在相同的儲存格中輸出要求日期 &quot;today()-1&quot;。
 

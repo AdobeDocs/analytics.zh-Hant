@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 90%
 ## 元件 > 區段
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法設為區段。
-* 在中建立的臨時區段 [面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) 是快速篩選的型別。 除非將它們設為公開，否則它們不會顯示在Workspace的左側邊欄或「區段」元件管理員中。 如需詳細資訊，請參閱 [快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
+* 在[面板放置區](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中建立的臨時區段是一種快速篩選器。除非設定為公開，否則它們不會顯示在 Workspace 或「區段」元件管理器的左側邊欄中。如需更多資訊，請參閱[快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。
 
 ## 元件 > 計算量度
 
@@ -58,4 +58,4 @@ ht-degree: 90%
 
 ## 歸因
 
-* 有一組量度子集不受 [!UICONTROL Attribution ] 支援。如需完整清單，請參閱 [Attribution 常見問答](/help/analyze/analysis-workspace/attribution/faq.md)。
+* 有一部分的量度不受「[!UICONTROL 歸因]」支援。如需完整清單，請參閱[歸因常見問題集](/help/analyze/analysis-workspace/attribution/faq.md)。

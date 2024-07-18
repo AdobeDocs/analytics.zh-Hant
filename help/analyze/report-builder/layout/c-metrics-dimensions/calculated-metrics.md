@@ -25,13 +25,13 @@ Report Builder5.2支援Adobe Analytics統一的計算量度。 除了其他創�
 
 ## 篩選計算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-**篩選** 若要計算量度，請按一下「篩選」圖示：  ![顯示「應用程式」、「使用者」、「專案」欄位的「篩選」選項熒幕擷圖。](/help/admin/admin/assets/filter.png)
+**按一下「篩選」圖示來篩選**&#x200B;計算量度： ![顯示「應用程式」、「使用者」、「專案」欄位的「篩選」選項熒幕擷圖。](/help/admin/admin/assets/filter.png)
 
 「進階篩選器」對話方塊會同時填入標準和計算量度。
 
 可用的篩選條件包括：
 
-![此熒幕擷圖顯示下表描述的「進階篩選」選項。](assets/advanced_filters.png)
+![熒幕擷圖顯示下表描述的「進階篩選」選項。](assets/advanced_filters.png)
 
 | 篩選器名稱 | 說明 |
 |---|---|
@@ -47,4 +47,4 @@ Report Builder5.2支援Adobe Analytics統一的計算量度。 除了其他創�
 
 選取篩選器後，按一下「**[!UICONTROL 套用]**」可將量度套用至您的請求。選取的量度現在會新增至報表配置。
 
-![熒幕擷圖顯示「請求精靈：步驟2 — 網站總計」 ，其中指向「進階篩選器」視窗並套用報表量度。](assets/filtering_for_metric.png)
+![熒幕擷圖顯示「請求精靈：步驟2 — 網站總計」，指向「進階篩選器」視窗並套用報表量度。](assets/filtering_for_metric.png)

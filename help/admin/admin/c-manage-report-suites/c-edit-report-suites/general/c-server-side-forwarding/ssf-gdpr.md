@@ -19,7 +19,7 @@ ht-degree: 55%
 
 在過去，伺服器端轉送無法區分同意與預先同意的事件/點擊。 自2018年11月1日起，您做為資料控管單位(Adobe Analytics客戶)可以選擇將預先許可的資料限制在Adobe Analytics，並防止其轉送至Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 變數一經設定，在收到同意之前不會將這些點選傳送至Adobe Audience Manager。
 
-當這個新的上下文變數， `cm.ssf=1`，存在於點選中，系統會標籤此點選，且不會將其從伺服器端轉送至Adobe Audience Manager。 相反地，如果此字串未出現在點選上，則點選會轉送至Adobe Audience Manager。
+這個新的內容變數`cm.ssf=1`存在於點選時，系統會標籤該點選，且不會將其從伺服器端轉送至Adobe Audience Manager。 相反地，如果此字串未出現在點選上，則點選會轉送至Adobe Audience Manager。
 
 伺服器端轉送是雙向的，這表示當點選套用至點選，且該點選轉送至Adobe Audience Manager時，Audience Analytics會從Adobe Audience Manager接收該點選的區段資訊，並將其傳回Analytics。 因此，任何非伺服器端轉送自Analytics至Adobe Audience Manager的點選，都不會富含Adobe Audience Manager的區段ID清單。 因此，將有流量/點選的子集，不會從Adobe Audience Manager取得區段ID資訊。
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 | 實作方法 | 步驟 |
 |--- |--- |
 | Adobe Experience Platform 中的標記 | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的內容資料變數定義加到自訂程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為 *0*。 |
-| AppMeasurement | 將內容資料變數定義新增至AppMeasurement.js檔案：  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：若客戶不同意目標式行銷，請定義contextData變數，並將其設為「1」。 對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
+| AppMeasurement | 將內容資料變數定義新增至AppMeasurement.js檔案： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：若客戶不同意目標式行銷，請定義contextdata變數，並將其設為「1」。 對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
 ## 報告 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '646'
 ht-degree: 100%
 
 ---
@@ -57,10 +57,10 @@ Analysis Workspace 中的地圖視覺效果
       * 顯示負數：舉例來說，如果您繪製的是逐年比較量度，則地圖可以在紐約上顯示 -33％。
       * 對於類型為「百分比」的量度，叢集會一併平均分配百分比。
       * 綠/紅色彩配置：正值/負值
+
    * 按住 [!UICONTROL Ctrl] 鍵並移動地圖，以&#x200B;**旋轉** 2D 或 3D 地圖。
 
    * 使用下述[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切換**&#x200B;至不同的檢視 (例如熱度圖)。請注意，泡泡圖檢視是預設設定。
-
 
 1. **儲存**&#x200B;專案，以儲存所有地圖設定 (座標、縮放、旋轉)。
 1. 您可從左側欄拖曳位置維度和量度，填入視覺效果下方的自由表格：

@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 72%
 1. 在請求精靈的步驟 1 選取項目，例如&#x200B;**[!UICONTROL 「頁面」]**&#x200B;報表。
 1. 在&#x200B;**[!UICONTROL 「常用的日期」]**&#x200B;下拉式清單旁，按一下&#x200B;**[!UICONTROL 「控制設定」]**&#x200B;圖示：
 
-   ![「請求精靈：步驟1」的熒幕擷圖，醒目提示「控制設定」圖示。 ](assets/date_range_control.png)
+   ![ 「請求精靈」步驟1熒幕擷圖，醒目提示「控制項設定」圖示。](assets/date_range_control.png)
 
 1. 在「控制設定」對話方塊中，選取所有您想要在互動式控制項中顯示的日期範圍項目。此外，請指定控制項的左上方儲存格位置。
 
@@ -51,7 +51,7 @@ ht-degree: 72%
 
 1. 您現在可以變更日期範圍，請求會依據該日期範圍重新整理。
 
-   ![顯示所選日期範圍的熒幕擷圖。](assets/date_range_control_interactive.png)
+   ![熒幕擷圖顯示選取的日期範圍。](assets/date_range_control_interactive.png)
 
 1. 您也可以複製請求，然後按一下滑鼠右鍵，使用下列其中一個「貼上請求」選項：
 
@@ -69,12 +69,12 @@ ht-degree: 72%
 
 1. 在請求精靈的步驟 1 中，在&#x200B;**[!UICONTROL 「區段」]**&#x200B;下拉式清單旁，選取「區段控制設定」圖示：
 
-   ![「區段控制設定」圖示的熒幕擷圖。](assets/segment_interactive_1.png)
+   ![區段控制項設定圖示的熒幕擷圖。](assets/segment_interactive_1.png)
 
 1. 在「區段控制設定」對話方塊中，選取您要包含在下拉式清單中的區段。此外，請指定控制項的左上方儲存格位置。
 
-   ![熒幕擷圖顯示具有所選區段和儲存格位置的「區段控制設定」 。](assets/segment_drop_down_properties.png)
+   ![熒幕擷圖顯示選取區段和儲存格位置的「區段控制設定」。](assets/segment_drop_down_properties.png)
 
 1. 新的互動式控制項便會顯示在活頁簿中：
 
-   ![熒幕擷圖顯示選取的新互動式控制項。](assets/segment_interactive_3.png)
+   ![熒幕擷圖顯示選取的新互動控制項。](assets/segment_interactive_3.png)

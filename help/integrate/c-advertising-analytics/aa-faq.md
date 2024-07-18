@@ -68,7 +68,7 @@ Advertising Analytics僅適用於Adobe Analytics管理員，不過管理員可�
 
 +++ 若要存取Advertising Analytics，我該前往何處？
 
-登入Adobe Analytics後，導覽至 [!UICONTROL 管理員]. 然後選取 [!UICONTROL Advertising Analytics] 以新增您的搜尋引擎帳戶。
+登入Adobe Analytics後，請導覽至[!UICONTROL 管理員]。 然後選取[!UICONTROL Advertising Analytics]以新增您的搜尋引擎帳戶。
 
 +++
 
@@ -105,8 +105,8 @@ Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將
 
 +++ 我正在嘗試將我的Advertising Analytics帳戶對應到特定的報表套裝，不過在報表套裝強制回應中找不到帳戶。 原因為何？
 
-將報表套裝指派至Advertising Analytics帳戶前，您需要先執行下列動作：指派所需的報表套裝 [已針對Advertising Analytics報告進行布建](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
-您可以透過個別的「管理員」頁面完成指派作業，請前往： 「管理員>報表套裝> 」 `[select report suite]` >編輯設定> Advertising Analytics設定。
+您必須先[布建所需的報表套裝，才能將報表套裝指派給Advertising Analytics帳戶，以進行Advertising Analytics報表](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+您可以透過個別的「管理員」頁面完成指派作業，請依序存取： 「管理員>報表套裝> `[select report suite]` >編輯設定> Advertising Analytics設定」。
 
 +++
 
@@ -116,7 +116,7 @@ Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將
 
 +++
 
-+++ Advertising Analytics量度是否可報告於 *行銷管道* 報告？
++++ Advertising Analytics量度可以在&#x200B;*行銷管道*&#x200B;報表中報告嗎？
 
 不可以，行銷管道報表不含這些度量。
 
@@ -128,7 +128,7 @@ Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將
 
 +++
 
-+++ 什麼可以是 *已擷取點選前*？ 我們是否在未點擊前就帶來了曝光數、成本、平均位置等資料？
++++ 在點按&#x200B;*之前*&#x200B;可擷取哪些內容？ 我們是否在未點擊前就帶來了曝光數、成本、平均位置等資料？
 
 AMO ID會擷取搜尋引擎量度：曝光數、成本、點按數、平均位置和平均品質分數。 如果沒有點擊次數，但是有曝光次數，則曝光數/位置/品質分數仍然會傳送到 Analytics。一般來說，如果沒有點擊數，也就不會有成本。
 
@@ -142,7 +142,7 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 +++
 
-+++ 我們是隻擷取google.com還是 *國家/地區版本* (例如google.co.uk、google.it、google.fr或google.de)也一樣？
++++ 我們是否僅擷取google.com或&#x200B;*國家/地區版本* (例如google.co.uk、google.it、google.fr或google.de)？
 
 「廣告平台」分類會擷取「Google Adwords」和「Bing Ads」等值。 常用的最佳作法就是將國碼納入行銷活動命名的一部分。接著，您就可以往下篩選或區隔 (例如，如果所有的行銷活動是以 countrycode_ 開頭，您可建立一個區段，讓其中的行銷活動 (AMO ID) 是以「UK_」為開頭，就能取得英國的資料)。
 
@@ -154,7 +154,7 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 +++
 
-+++ 是否有包括其他廣告管道的計畫，例如 *顯示* 或 *社交*？
++++ 是否計畫包含其他廣告管道，例如&#x200B;*顯示*&#x200B;或&#x200B;*社交*？
 
 否，目前我們在藍圖中沒有針對這些其他管道的計畫。
 
@@ -163,7 +163,7 @@ AMO ID 也會在點擊登陸頁面時在該頁面擷取 (連結至造訪/訪客)
 
 ## 自動與手動追蹤 {#section_7437C4698A6D482EB7ED94A948390119}
 
-+++ 設定我的Advertising帳戶時，系統會指出 *自動追蹤* 可能導致意想不到的後果。 可能會發生哪幾種結果？
++++ 設定我的Advertising帳戶時，系統指出&#x200B;*自動追蹤*&#x200B;可能會導致非預期的結果。 可能會發生哪幾種結果？
 
 自動模式會嘗試以正確格式將URL引數附加至追蹤範本/目的地URL的結尾。 不過，您還是必須負責確認新增的URL引數正確無誤，才能順利前往最終的登陸頁面。 自動模式能將關鍵字插入登陸 URL，不過網站伺服器可能不支援含特殊字元的關鍵字。
 

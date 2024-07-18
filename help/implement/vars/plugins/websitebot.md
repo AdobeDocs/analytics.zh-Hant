@@ -94,7 +94,7 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 ## 使用外掛程式
 
-此 `websiteBot` 外掛程式觸發 `s.tl` 如果偵測到非機器人流量，則呼叫。
+如果偵測到非機器人流量，`websiteBot`外掛程式會引發`s.tl`呼叫。
 
 ## 範例
 

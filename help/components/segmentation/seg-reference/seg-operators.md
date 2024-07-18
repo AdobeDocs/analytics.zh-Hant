@@ -5,7 +5,7 @@ feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1105'
 ht-degree: 95%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 95%
 
 「區段產生器」可讓您使用選取的運算子來比較和限制值。 運算子分為三類：標準、Data Warehouse 和不重複計數。
 
-唯一支援的萬用字元是星號： &#42;. 如果您需要搜尋 &#42;，您可以使用反斜線將其逸出。
+唯一支援的萬用字元是星號： &#42;。 如果您需要搜尋&#42;，可以使用反斜線將其逸出。
 
-**範例**：假設您的頁面名稱為「My cool product」。區段規則「頁面名稱符合My&#42;product」與上述頁面名稱相符。 不過，規則「頁面名稱符合My\\&#42;product」僅符合頁面名稱「My&#42;產品」。
+**範例**：假設您的頁面名稱為「My cool product」。區段規則「頁面名稱與My&#42;product相符」將會符合上述頁面名稱。 但是，規則「頁面名稱符合My\\&#42;product」只符合頁面名稱「My&#42;Product」。
 
 ## 標準運算子
 

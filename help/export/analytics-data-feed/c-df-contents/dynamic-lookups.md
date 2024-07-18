@@ -14,19 +14,19 @@ ht-degree: 1%
 
 動態查詢可讓您在資料摘要中接收其他查詢檔案（若未提供）。 此設定可讓以下查閱表格隨每個資料摘要檔案一起傳送：
 
-* **電信業者名稱**：為提供額外的內容 `carrier` 欄。 包含的檔案名稱為 `carrier.tsv`.
-* **行動屬性**：為提供額外的內容 `mobile_id` 欄，包含針對每個行動裝置追蹤的所有功能。 包含的檔案名稱為 `mobile_attributes.tsv`.
-* **作業系統型別**：提供替代的內容 `os` 欄。 兩者 `operating_systems.tsv` 和 `operating_system_type.tsv` 使用 `os` 欄做為索引鍵，但僅限 `operating_system_type.tsv` 是動態查詢。
+* **電信業者名稱**：提供`carrier`資料行的額外內容。 包含的檔案名稱為`carrier.tsv`。
+* **行動屬性**：為`mobile_id`欄提供額外內容，包括每個行動裝置追蹤的所有功能。 包含的檔案名稱為`mobile_attributes.tsv`。
+* **作業系統型別**：提供`os`資料行的替代內容。 `operating_systems.tsv`和`operating_system_type.tsv`都使用`os`資料行做為索引鍵，但只有`operating_system_type.tsv`是動態查詢。
 
 ## 啟用動態查詢
 
 若要接收上述的查閱檔案，您必須符合下列所有必要條件：
 
 * 資料摘要中必須包含索引鍵資料行。
-   * 的 `carrier.tsv`，您必須包含 `carrier`.
-   * 的 `mobile_attributes.tsv`，您必須包含 `mobile_id`.
-   * 的 `operating_system_type.tsv`，您必須包含 `os`.
-* 下列欄必須 **已排除**. 若資料摘要中包含這些欄中的任何一欄，則 `mobile_attributes.tsv` 動態查詢不包含在內。
+   * 針對`carrier.tsv`，您必須包含`carrier`。
+   * 針對`mobile_attributes.tsv`，您必須包含`mobile_id`。
+   * 針對`operating_system_type.tsv`，您必須包含`os`。
+* 下列資料行必須是&#x200B;**已排除**。 如果資料摘要中包含這些資料行的任一項，則不會包含`mobile_attributes.tsv`動態查詢。
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
@@ -35,17 +35,17 @@ ht-degree: 1%
 
 ## 查詢標頭參考
 
-這些查詢檔案的欄標題不會隨著時間改變，因此標題不會包含在每個資料摘要檔案中。 使用這些欄標題作為參考，或下載它們各自的標題 `.tsv` 檔案。
+這些查詢檔案的欄標題不會隨著時間改變，因此標題不會包含在每個資料摘要檔案中。 使用這些欄標題作為參考，或下載它們各自的`.tsv`檔案。
 
 +++**電信業者名稱**
-下載 [carrier_headers.tsv](assets/carrier_headers.tsv) 或參考下方的標題。
+下載[carrier_headers.tsv](assets/carrier_headers.tsv)或參考以下標題。
 
 `carrier`
 `Carrier Name`
 +++
 
 +++**行動屬性**
-下載 [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv) 或參考下方的標題。
+下載[mobile_attributes_headers.tsv](assets/mobile_attributes_headers.tsv)或參考下列標題。
 
 `mobile_id`
 `Manufacturer`
@@ -100,7 +100,7 @@ ht-degree: 1%
 +++
 
 +++**作業系統型別**
-下載 [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) 或參考下方的標題。
+下載[operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv)或參考下列標頭。
 
 `os`
 `Operating System Type`

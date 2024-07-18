@@ -7,7 +7,7 @@ exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 在「[!UICONTROL 管理資料來源]」視窗中，尋找資料來源與選取 FTP 資訊連結。您的 FTP 登入資訊會顯示在「[!UICONTROL 啟動資料來源]」視窗的「[!UICONTROL 上載/FTP 資訊]」區段中。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱 [FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
+如需FTP限制和資料保留的詳細資訊，請參閱[FTP限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## 關於分類和資料來源上傳的 .fin 檔案 {#section_1484719F8A134EAE91212DBD8F15174F}
 

@@ -12,7 +12,7 @@ ht-degree: 69%
 
 # 量度類型和歸因
 
-時間 [建立計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)，您可以指定量度型別和歸因模型。
+當[建立計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)時，您可以指定量度型別和歸因模型。
 
 ## 量度型別
 
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 ## 線性配置的運作方式
 
-[歸因](/help/analyze/analysis-workspace/attribution/overview.md) 是計算量度中配置模型的評估方式。
+[歸因](/help/analyze/analysis-workspace/attribution/overview.md)是計算量度中配置模型的評估方式。
 
 如需非預設歸因模式及支援的回顧期間的完整清單，請參閱[歸因模式與回顧期間](/help/analyze/analysis-workspace/attribution/models.md)。
 

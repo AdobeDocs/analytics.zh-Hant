@@ -27,13 +27,13 @@ Analytics管理工具區域是管理Adobe Analytics執行個體的主要區域�
 >
 > 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。例如，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或拍攝熒幕快照以比較規則集。
 
-若要存取管理工具，請導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]**.
+若要存取管理工具，請瀏覽至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]**。
 
 ## Adobe管理控制檯
 
 使用此工具提供使用者並修改存取許可權。
 
-對於移轉至Adobe IMS的所有組織，這些工作會在AdobeAdmin Console中執行。 如需詳細資訊，請參閱 [Adobe Analytics的第一個管理指南](/help/admin/admin-console/first-admin-guide.md). 如果您的組織尚未移轉至Adobe IMS，請參閱 [Analytics使用者移轉至Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md).
+對於移轉至Adobe IMS的所有組織，這些工作會在AdobeAdmin Console中執行。 如需詳細資訊，請參閱[Adobe Analytics的第一個管理指南](/help/admin/admin-console/first-admin-guide.md)。 如果貴組織尚未移轉至Adobe IMS，請參閱[Analytics使用者移轉至Adobe Admin Console](/help/admin/admin/user-management2/user-migration/c-migration-tool.md)。
 
 
 

@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 100%
+source-wordcount: '67'
+ht-degree: 80%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 函數可讓您篩選/排序資料以及執行統計分析。
 
-如需完整函數清單，請參閱[基本函數](/help/components/c-calcmetrics/cm-reference/cm-functions.md)和[進階函數](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)。
+如需所有函式的清單，請參閱[基本函式](/help/components/c-calcmetrics/cm-reference/cm-functions.md)和[進階函式](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)。
 
 >[!NOTE]
 >

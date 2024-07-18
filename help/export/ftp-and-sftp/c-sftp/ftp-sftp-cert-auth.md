@@ -6,7 +6,7 @@ feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 97%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 1. 已建立 FTP 帳戶 (Adobe)。
 
-   如果還沒有 FTP 帳戶，可由 Adobe 代表為您建立 FTP 帳戶。請連絡您的Adobe帳戶團隊或Adobe客戶服務，以建立帳戶。
+   如果還沒有 FTP 帳戶，可由 Adobe 代表為您建立 FTP 帳戶。請聯絡您的Adobe客戶團隊或Adobe客戶服務，以取得已建立的帳戶。
 1. 建立公開/私密金鑰 (客戶)。
 
    建立公開和私密金鑰組合。私密金鑰是存在於您的電腦/伺服器上，並由其專用的檔案。公開金鑰檔案則必須上傳至 Adobe 帳戶。使用這種方式時，您可不用密碼驗證而連線。Adobe 上的公開金鑰檔案會與您電腦/伺服器上的私密金鑰進行比對，透過此方式加以驗證。

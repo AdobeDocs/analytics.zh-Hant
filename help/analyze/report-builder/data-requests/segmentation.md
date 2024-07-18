@@ -17,7 +17,7 @@ ht-degree: 74%
 
 Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立和管理區段。
 
-![熒幕擷圖顯示「新增、編輯或清除區段」的「區段」選項，並反白顯示「控制」、「篩選」和「重新整理」圖示。](assets/seg_dialog.png)
+![熒幕擷圖顯示[新增]、[編輯]或[清除]區段的[區段]選項，並反白顯示[控制]、[篩選]和[重新整理]圖示。](assets/seg_dialog.png)
 
 ## 新增或編輯區段 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
@@ -41,7 +41,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 1. 選取您要轉換成區段的報表輸出項目。
 1. 按一下滑鼠右鍵選取「**[!UICONTROL 建立內文中區段於]**」，並指定正確的容器 (點擊數容器、瀏覽次數容器、訪客容器)。
 
-   ![熒幕擷圖顯示所選和可用容器選項中的「建立內文中區段」 。](assets/seg_in_context.png)
+   ![熒幕擷圖顯示所選和可用容器選項中的「建立內文中區段」。](assets/seg_in_context.png)
 
    如需容器的詳細資訊，請參閱[劃分指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
@@ -52,7 +52,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 ## 搜尋及套用區段 {#search}
 
-在Reports &amp; Analytics （現已終止服務）、Report Builder或Data Warehouse中建立的任何區段，都會出現在此區段清單中。 若要重新整理清單，請按一下重新整理圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+在Reports &amp; Analytics （現已終止服務）、Report Builder或Data Warehouse中建立的任何區段，都會出現在此區段清單中。 若要重新整理清單，請按一下[重新整理]圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)。
 
 您可以套用一或多個區段至任何指定的請求。這包含依序排列的區段。
 
@@ -68,7 +68,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 ## 篩選區段 {#filter}
 
-**篩選** 按一下「篩選」圖示建立區段：  ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+按一下「篩選」圖示： ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，即可篩選&#x200B;**區段**
 
 可用的篩選條件包括：
 
@@ -76,7 +76,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 |---|---|
 | 標記 | 可讓您利用特定標記篩選區段。請注意，「標記」篩選條件使用 AND 運算子。如果您勾選兩個標記，右側窗格會顯示同時擁有&#x200B;**兩個**&#x200B;標記的區段。 |
 | 擁有者 | 可讓您依擁有者篩選區段。請注意，「擁有者」篩選條件使用 OR 運算子。如果您勾選兩個擁有者，右側窗格會顯示&#x200B;**其中一位**&#x200B;擁有者擁有的區段。 |
-| 其他篩選條件 > 僅&#x200B;*報表套裝名稱* | 如果您套用「僅 *報告套裝名稱*「篩選」(在Adobe Analytics的「區段產生器」中)，然後顯示「進階篩選」 [!DNL Report Builder]，進階篩選器只會顯示所選報表套裝的區段。 |
+| 其他篩選條件 > 僅&#x200B;*報表套裝名稱* | 如果您在Adobe Analytics的「區段產生器」中套用「僅&#x200B;*報表套裝名稱*」篩選條件，然後在[!DNL Report Builder]中顯示「進階篩選」，則進階篩選只會顯示所選報表套裝的區段。 |
 | 其他篩選器 > 我的 | 顯示您擁有的所有區段。 |
 | 其他篩選器 > 與我共用 | 顯示所有其他人與您共用的區段。 |
 | 其他篩選條件 > 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |
@@ -86,11 +86,11 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
-1. 按一下控制項圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 區段下拉式清單旁。
+1. 按一下區段下拉式清單旁的控制項圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)。
 
 1. 勾選所有您希望在區段控制項中出現的區段，或勾選「**[!UICONTROL 選取全部]**」。
 
-   ![「控制項設定」對話方塊的熒幕擷圖，其中包含所有選取的區段。](assets/seg_control.png)
+   ![選取所有區段的[控制項設定]對話方塊熒幕擷圖。](assets/seg_control.png)
 
 1. 請注意「**[!UICONTROL 項目選取時自動重新整理連結的請求]**」選項。
 
@@ -101,11 +101,11 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 1. 按一下「**[!UICONTROL 確定]**」，區段控制項便會出現在指定的位置。
 
-   ![熒幕擷圖顯示「選擇區段」欄位下拉式欄位。](assets/seg_control2.png)
+   ![熒幕擷圖顯示[選擇區段]欄位下拉式欄位。](assets/seg_control2.png)
 
 ## 重新整理區段清單 {#refresh}
 
-每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 以重新整理區段的快取清單。
+每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)，以重新整理區段的快取清單。
 
 ## 管理各請求中的區段 {#manage}
 
@@ -116,7 +116,7 @@ Report Builder 5.4 可讓您在多個目標請求當中新增、移除、取代�
 1. 選取活頁簿中的多個請求。
 1. 按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 「編輯請求]** > **[!UICONTROL 依區段」]**。
 
-   ![熒幕擷圖顯示編輯請求和依選取的區段。](assets/edit_by_segment.png)
+   ![熒幕擷圖顯示編輯要求及選取的區段。](assets/edit_by_segment.png)
 
 1. 在「編輯群組」對話方塊中，選取四個選項其中一個：
 

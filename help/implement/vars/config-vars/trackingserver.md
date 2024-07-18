@@ -19,24 +19,24 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 >
 >變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報告中的不重複訪客計數可能會暫時激增。
 
-## 使用Web SDK擴充功能的邊緣網域
+## 使用Web SDK擴充功能的Edge網域
 
-Web SDK使用 [!UICONTROL 邊緣網域] 以處理追蹤伺服器和安全追蹤伺服器。 您可以設定所需的 [!UICONTROL 邊緣網域] 設定Web SDK擴充功能時的值。
+Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺服器。 設定Web SDK擴充功能時，您可以設定所要的[!UICONTROL Edge網域]值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 設定所要的 **[!UICONTROL 邊緣網域]** 文字欄位。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 設定所需的&#x200B;**[!UICONTROL Edge網域]**&#x200B;文字欄位。
 
-另請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant) 詳細資訊，請參閱Web SDK檔案。
+如需詳細資訊，請參閱Web SDK檔案中的[設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant)。
 
 >[!TIP]
 >
->如果您的組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
+>如果您的組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用`trackingServerSecure` （或`trackingServer`）中包含的相同值。
 
 ## Edge網域手動實作Web SDK
 
-設定SDK，使用 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant). 欄位是字串，可決定要將資料傳送至哪個網域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)設定SDK。 欄位是字串，可決定要將資料傳送至哪個網域。
 
 ```json
 alloy("configure", {
@@ -59,11 +59,11 @@ alloy("configure", {
 
 `s.trackingServer` 變數是包含資料傳送位置的字串。
 
-## 決定值時的考量事項 `trackingServer`
+## 決定`trackingServer`值的考量事項
 
-您可以選擇使用Adobe的追蹤伺服器網域(例如 `adobedc.net`)或您可以透過特殊程式來設定符合您網站網域的追蹤伺服器(例如 `data.mydomain.com`)，也稱為CNAME實作。 根據您實作的其他方面，擁有符合您網站網域的trackingserver可能會有一些優點。 當追蹤伺服器不符合目前頁面的網域時，AppMeasurement設定的Cookie必須設定為第三方。 如果瀏覽器不支援第三方Cookie，這種不相符可能會干擾某些Analytics功能：
+您可以選擇使用Adobe的追蹤伺服器網域（例如`adobedc.net`），或透過特殊程式來設定符合您網站網域（例如`data.mydomain.com`）的追蹤伺服器，也稱為CNAME實作。 根據您實作的其他方面，擁有符合您網站網域的trackingserver可能會有一些優點。 當追蹤伺服器不符合目前頁面的網域時，AppMeasurement設定的Cookie必須設定為第三方。 如果瀏覽器不支援第三方Cookie，這種不相符可能會干擾某些Analytics功能：
 
-- 設定識別碼：如果您正在使用Experience Cloud識別服務，追蹤伺服器不會影響Cookie的設定方式。 不過，如果您有使用Analytics舊型識別碼(亦即 `s_vi` Cookie)和收集伺服器不符合目前的網域，則Cookie必須設定為第三方。 在此案例中，如果瀏覽器封鎖第三方Cookie，Analytics會設定第一方備援ID (`s_fid`)而非標準 `s_vi` Cookie。
+- 設定識別碼：如果您正在使用Experience Cloud識別服務，追蹤伺服器不會影響Cookie的設定方式。 不過，如果您正在使用Analytics舊型識別碼（亦即`s_vi` Cookie），且收集伺服器不符合目前的網域，則Cookie必須設定為第三方。 在此情況下，如果瀏覽器封鎖第三方Cookie，則Analytics會設定第一方備援ID (`s_fid`)，而非標準`s_vi` Cookie。
 - 連結追蹤無法用於內部連結。
 - 內部連結的Activity Map無法運作。
 - Cookie檢查。

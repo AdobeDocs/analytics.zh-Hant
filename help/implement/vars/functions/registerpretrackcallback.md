@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->請勿進行任何追蹤呼叫，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 內部 `registerPreTrackCallback` 變數中。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
+>請勿在`registerPreTrackCallback`變數內進行任何追蹤呼叫，例如[`t()`](t-method.md)或[`tl()`](tl-method.md)。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
 
 每次呼叫 `registerPreTrackCallback` 變數時，您都可以連結該函數，以便在影像要求編譯完成時執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
@@ -27,17 +27,17 @@ ht-degree: 55%
 
 ## 使用Web SDK擴充功能預先追蹤回呼
 
-Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 註冊函式以在資料傳送前執行。
+Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式。
 
-1. 登入 [Adobe Experience Platform資料彙集](https://experience.adobe.com/data-collection) UI使用您的AdobeID認證。
+1. 使用您的AdobeID認證登入[Adobe Experience Platform資料彙集](https://experience.adobe.com/data-collection) UI。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 在事件傳送回呼代碼前編輯]** 按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 在事件傳送回撥代碼前編輯]**&#x200B;按鈕。
 1. 將所需的程式碼放入編輯器中。
 
 ## 手動實作Web SDK的預先追蹤回呼
 
-Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 若要在資料傳送前註冊要執行的函式，請類似 `doPlugins`. 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
+Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式，類似`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

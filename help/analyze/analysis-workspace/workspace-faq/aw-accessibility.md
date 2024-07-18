@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 99%
 
 [!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。以下是可輔助協助工具的導覽元素：
 
-* `Tab` 鍵可讓您找出快速鍵，在 Workspace 內的較大區段之間移動。 在左側欄中，`Tab` 也可讓您在不同的可拖曳選項之間移動。
+* `Tab` 鍵會啟用地標捷徑，從而在 Workspace 中較大的區段之間移動。在左側欄中，`Tab` 也可讓您在不同的可拖曳選項之間移動。
 * 在 `Tab` 標示 `left/right arrows` 之後，它就會在個別元素之間移動。
 * `F6` 會瀏覽至專案中的第一個面板，並在該面板內的視覺化效果之間移動。 然後它會移到專案中的下一個面板，然後重複此程序。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
-   ![焦點指標](assets/focus-indicator.png)
+  ![焦點指標](assets/focus-indicator.png)
 
 ### 功能表列的鍵盤導覽
 
@@ -49,13 +49,13 @@ ht-degree: 99%
 
 ### 鍵盤快速鍵 (熱鍵)
 
-[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
+[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
 
 #### 導覽
 
 | 快速鍵 | 動作 |
 | --- | --- |
-| `[Alt + Shift + 1 / 2 / 3]` | 跳至不同的側邊欄：[!UICONTROL 面板]、[!UICONTROL 視覺效果]或[!UICONTROL 元件] |
+| `[Alt + Shift + 1 / 2 / 3]` | 跳至不同的邊欄：[!UICONTROL 面板]、[!UICONTROL 視覺效果]或[!UICONTROL 元件] |
 | `[Alt + Left / Right]` | 在面板之間導覽 |
 | `[Alt + M]` | 摺疊/展開所有面板 |
 | `[Alt + Ctrl + M]` | 摺疊/展開作用中的面板 |
@@ -65,7 +65,7 @@ ht-degree: 99%
 
 | 快速鍵 | 動作 |
 | --- | --- |
-| `[Alt + 1]` | 新增自由表格 |
+| `[Alt + 1]` | 新增自由形式表格 |
 | `[Ctrl + Shift + C]` | 新增計算量度 |
 | `[Ctrl + Shift + D]` | 新增日期範圍 |
 | `[Ctrl + Shift + E]` | 新增區段 |
@@ -77,7 +77,7 @@ ht-degree: 99%
 | 快速鍵 | 動作 |
 | --- | --- |
 | `[Ctrl + S]` | 儲存 |
-| `[Ctrl + Shift + G]` | 監管 |
+| `[Ctrl + Shift + G]` | 組織 |
 | `[Ctrl + G]` | 共用 |
 | `[Alt + Shift + S]` | 排程 |
 | `[Alt + L]` | 取得專案的連結 |

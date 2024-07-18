@@ -6,7 +6,7 @@ exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,16 +14,16 @@ ht-degree: 73%
 
 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成對象分析，您可針對自己的獨特需求加以建置，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 
-區段是根據 [!UICONTROL 訪客]， [!UICONTROL 造訪]、和 [!UICONTROL 點選] 使用巢狀容器模型的層級階層。 巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
+區段是根據使用巢狀容器模式的[!UICONTROL 訪客]、[!UICONTROL 造訪]和[!UICONTROL 點擊]層級階層。巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報告、內建至儀表板報告，或加入書籤供快速存取。
 
-您可以在「區段產生器」中建立並儲存區段，或從流失報表(位於 [!UICONTROL Analysis Workspace])。 您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可一起用作 [棧疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+您可以在區段產生器中建立並儲存區段，或從流失報告 (在 [!UICONTROL Analysis Workspace] 中）產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報告。此外，多個區段可作為[堆疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)搭配使用。
 
-區段識別
+區段可識別
 
-- 您的訪客是誰（國家、性別、咖啡館）、
-- 他們使用的裝置和服務（瀏覽器、搜尋引擎、行動裝置）、
-- （搜尋引擎、上一個退出頁面、免費搜尋）、
-- 加上更多內容。
+- 您的訪客身分 (國家、性別、咖啡店)、
+- 他們使用的裝置和服務 (瀏覽器、搜尋引擎、行動裝置)、
+- 他們從何處導覽過來 (搜尋引擎、先前的退出頁面、免費搜尋)，
+- 還有許多功能。
 
 <!--![](assets/seg.png)-->
 
@@ -45,7 +45,7 @@ ht-degree: 73%
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -55,12 +55,12 @@ ht-degree: 73%
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">和</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">AND</td></td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -79,7 +79,7 @@ ht-degree: 73%
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -89,12 +89,12 @@ ht-degree: 73%
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td colspan="2">或</td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">OR</td></td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -108,8 +108,8 @@ ht-degree: 73%
 
 這類區段會篩選根據以 [!UICONTROL AND] 和 [!UICONTROL OR] 運算子連結的特性來篩選資料集。
 
-- 您可以[將多個區段套用至報表或專案](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-- 區段在所有報表套裝中都通用。
+- 您可以[將多個區段套用至報告或專案](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+- 區段在所有報告套裝中都通用。
 - [區段生產器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)簡化了區段的建立流程。
 - [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 - 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用檔案夾的方式。
@@ -126,22 +126,22 @@ Analysis Workspace 包含以下附加功能：
 
 ## Adobe 提供的區段
 
-畫面左側的「元件」邊欄會顯示您與貴公司建立的區段，以及現成可用的Adobe區段。 當您按一下 **[!UICONTROL 顯示全部]**，這些區段通常會顯示在清單底部，並在右側以Adobe標誌識別。
+螢幕左側的元件邊欄顯示由您和您的公司建立的區段以及立即可用的 Adobe 區段。當您按一下「**[!UICONTROL 全部顯示]**」時，這些區段通常會出現在清單底部，並可由右側的 Adobe 標誌識別。
 
 ## 循序區段 {#sequential}
 
-循序區段可讓您根據網站上的瀏覽和頁面檢視來識別訪客，提供定義動作和互動的區段。循序區段可協助您識別訪客的好惡。建立循序區段時，會使用 [!UICONTROL THEN] 運算子來定義和排序訪客的瀏覽。
+循序區段可讓您根據網站上的導覽和頁面檢視來識別訪客，提供定義動作和互動的區段。循序區段可協助您識別訪客的好惡。建立循序區段時，會使用 [!UICONTROL THEN] 運算子來定義和排序訪客的導覽。
 
 <!--![](assets/sequential_seg.png)-->
 
-| 瀏覽一 | 瀏覽二 | 瀏覽三 |
+| 造訪一 | 造訪二 | 造訪三 |
 |---|---|---|
-| 在第一次造訪中，訪客前往主要登陸頁面A，排除促銷活動頁面B，然後檢視產品頁面C。 | 在第二次造訪中，訪客再次進入主要登陸頁面A，排除了促銷活動頁面B，再次進入產品頁面C，然後進入新頁面D。 | 在第三次造訪中，訪客進入並按照第一和第二次造訪中的相同路徑操作，然後排除頁面F，直接進入目標產品頁面G。 |
+| 在第一次造訪中，訪客到主要登陸頁面 A，排除了促銷活動頁面 B，然後檢視了「產品」頁面 C。 | 在第二次造訪中，訪客再次到主要登陸頁面 A，排除了促銷活動頁面 B，再次進入「產品」頁面 C，然後到新頁面 D。 | 在第三次造訪中，訪客進入並走過與第一次和第二次造訪相同的路徑，然後排除頁面 F，直接進入目標產品頁面 G。 |
 
 循序區段可以是根據下列點擊值：
 
-- 根據頁面點選序列的訪客：單次造訪中的頁面檢視、跨個別造訪的頁面檢視、排除頁面檢視的造訪。
-- 根據頁面檢視之間和之後的時間的訪客：在時間限制後、點選之間、事件之後。
+- 根據頁面點擊序列的訪客：單次造訪中的頁面檢視、不同次造訪間的頁面檢視、排除了頁面檢視的造訪。
+- 根據頁面檢視之間和之後的時間的訪客：在時限之後、在點擊之間、在事件之後。
 
 <table style="table-layout:fixed; border: none;">
 
@@ -152,7 +152,7 @@ Analysis Workspace 包含以下附加功能：
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -167,7 +167,7 @@ Analysis Workspace 包含以下附加功能：
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -186,7 +186,7 @@ Analysis Workspace 包含以下附加功能：
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -196,7 +196,7 @@ Analysis Workspace 包含以下附加功能：
 </tr>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>和</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>AND</td></td>
 </tr>
 
 <tr>
@@ -211,7 +211,7 @@ Analysis Workspace 包含以下附加功能：
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
 </tr>
 
 <tr>
@@ -220,7 +220,7 @@ Analysis Workspace 包含以下附加功能：
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
 
 <tr>
-<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>或</td></td>
+<td style="background-color: #E5E4E2;"></td><td style="background-color: #D3D3D3;"></td><td>OR</td></td>
 </tr>
 
 <tr>
@@ -237,7 +237,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## 分段操作說明影片 {#segment-video}
 
-此影片簡要概述什麼是區段容器以及如何加以使用：
+此影片提供區段容器的定義以及如何使用的簡短概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
 
@@ -248,7 +248,7 @@ Analysis Workspace 包含以下附加功能：
 
 存取「區段產生器」的方法有：
 
-- 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。 在顯示的區段欄中，按一下「**[!UICONTROL 新增]**」，或
+- 顯示現有報告並按一下左側導覽中的「區段」圖示 ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。 在顯示的區段欄中，按一下「**[!UICONTROL 新增]**」，或
 
 - 在「區段管理員」最上方，按一下「**[!UICONTROL + 新增]**」。 ![「新增」按鈕](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
@@ -264,7 +264,7 @@ Analysis Workspace 包含以下附加功能：
 
 - 前往頂端導覽中的「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
-- 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
+- 顯示現有報告並按一下左側導覽中的「區段」圖示 ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
 - 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
@@ -282,7 +282,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **我是否可以看見公司中的所有區段？**
 
-是的，管理員可以在以下位置看見所有區段： [!DNL Analysis Workspace] 使用者介面。
+是的，管理員可以在 [!DNL Analysis Workspace] 使用者介面中看見所有區段。
 
 「Report Builder」會顯示您所擁有和已共用給您的區段。
 
@@ -292,7 +292,7 @@ Analysis Workspace 包含以下附加功能：
 
 是的，在「循序分段」中可管理所有區段。「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
 
-管理員可以在Analysis Workspace使用者介面中看見所有區段。
+管理員可以在 Analysis Workspace 使用者介面中看見所有區段。
 
 Report Builder 只會顯示由您所建置的區段或特定與您共用的區段。
 

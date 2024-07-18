@@ -8,7 +8,7 @@ exl-id: 2e02d469-13a4-416d-823d-c8693cb0359b
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 87%
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
-> 只能上傳含 Report Builder 請求的活頁簿。您也可以將 Report Builder 報表分送給未使用 Report Builder 的使用者(使用者不需要登入即可查閱資料)。
+>只能上傳含Report Builder請求的活頁簿。 您也可以將 Report Builder 報表分送給未使用 Report Builder 的使用者(使用者不需要登入即可查閱資料)。
 
 1. 建立及執行請求。
 1. 在儲存報表後，按一下&#x200B;**[!UICONTROL 「共用」]**。

@@ -2,8 +2,9 @@
 description: 查看並管理組織內全部排程報表。
 title: 已排程的專案管理員
 feature: Admin Tools
-source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
-workflow-type: ht
+exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 

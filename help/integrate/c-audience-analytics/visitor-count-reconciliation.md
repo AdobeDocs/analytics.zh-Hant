@@ -5,8 +5,8 @@ feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 86%
+source-wordcount: '285'
+ht-degree: 85%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-Adobe Audience Manager即時區段母體與Audience Analytics報表中使用的Experience CloudID為Analytics訪客最相像。 不過近期由於一些因素，兩者之間將會存在著些許差異。貢獻因子包括：
+Adobe Audience Manager即時區段母體與Audience Analytics報表中使用的Experience CloudID為Analytics訪客最相似。 不過近期由於一些因素，兩者之間將會存在著些許差異。貢獻因子包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

@@ -137,7 +137,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | <ul><li>自訂成功事件</li><li>銷售 eVar</li><li>多值變數 (mvVars)</li><li>階層變數</li></ul> | <ul><li>S1/S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>I1/I2</li>  <li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 | 分類 | <ul><li>I1/I2、S1/S2</li><li>ACC-ALL、ACC-PERSON</li></ul> | <ul><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON</li></ul> |
 | <ul><li>流量變數 (prop)</li><li>商務變數 (非銷售 eVar)</li></ul> | 所有標籤 | - |
-| 大部分其他變數(*請參閱下表以瞭解例外情況*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
+| 大部分其他變數（*請參閱下表以瞭解例外狀況*） | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -262,4 +262,4 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 
 針對按資料隱私權存取請求傳回的檔案，產生這些檔案的程式碼會要求存取請求 (有適用這類要求的 ACC 標籤) 中，須納入前三個時間戳記變數中的其中一個。如未納入任一變數，則自訂點擊時間 UTC 會視同具有 ACC-ALL 標籤。
 
-針對資料隱私權存取請求傳回的點選層級CSV檔案，會將這些欄位中採Unix時間戳記的值轉換為格式的日期/時間欄位 `YYYY-MM-DD HH:MM:SS` (例如， `2018-05-01 13:49:22`)。 在摘要HTML檔案中，這些時間戳記值將會被截斷，以僅包含日期、 `YYYY-MM-DD`，減少這些欄位所產生的不重複值數量。
+針對資料隱私權存取請求傳回的點選層級CSV檔案會將這些欄位中採Unix時間戳記的值轉換為格式`YYYY-MM-DD HH:MM:SS`的日期/時間欄位（例如`2018-05-01 13:49:22`）。 在摘要HTML檔案中，這些時間戳記值將會被截斷，僅包括日期`YYYY-MM-DD`，以減少這些欄位中出現的不重複值數量。

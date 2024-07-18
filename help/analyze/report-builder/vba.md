@@ -7,7 +7,7 @@ exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
 source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 68%
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ Visual Basic (VBA)巨集提供的功能可協助您重新整理Excel活頁簿。
 >
 >基於安全理由，您無法排程包含巨集的活頁簿。
 
-Adobe 支援三種 Report Builder API 方法。
+Adobe支援三種Report Builder API方法。
 
 ## `RefreshAllReportBuilderRequests()`
 

@@ -18,9 +18,9 @@ ht-degree: 39%
 | | **從AppMeasurement移轉** | **清除Web SDK實作** |
 | --- | --- | --- |
 | **使用標籤** | [從Analytics擴充功能移轉至Web SDK擴充功能](analytics-extension-to-web-sdk.md) | [使用Web SDK擴充功能將資料傳送至Adobe Analytics](web-sdk-tag-extension.md) |
-| **使用JavaScript** | [從AppMeasurement移轉至Web SDK JavaScript程式庫](appmeasurement-to-web-sdk.md) | [使用Web SDK JavaScript程式庫傳送資料給Adobe Analytics](web-sdk-javascript-library.md) |
+| **使用JavaScript** | [從AppMeasurement移轉至Web SDK JavaScript資料庫](appmeasurement-to-web-sdk.md) | [使用Web SDK JavaScript資料庫，將資料傳送至Adobe Analytics](web-sdk-javascript-library.md) |
 
-如果您的組織需要新的Web SDK實作，並且計畫在未來使用Customer Journey Analytics，Adobe會建議使用您自己的結構描述來使用乾淨的Web SDK實作。 另請參閱 [透過Adobe Experience Platform Web SDK內嵌資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) 在Customer Journey Analytics使用手冊中。
+如果您的組織需要新的Web SDK實作，並且計畫在未來使用Customer Journey Analytics，Adobe會建議使用您自己的結構描述來使用乾淨的Web SDK實作。 請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 其他資源
 

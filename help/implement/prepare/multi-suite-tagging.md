@@ -37,4 +37,4 @@ ht-degree: 93%
 
 使用虛擬報表套裝來取代多套裝標記通常是最佳做法，但您的業務需求會決定最適合貴組織的報表套裝做法。
 
-若要了解虛擬報表套裝是否為最佳做法，請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」。 另請參閱&quot;[虛擬報表套裝和多套裝標籤](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;，以比較多套裝標籤和虛擬報表套裝功能。
+若要了解虛擬報表套裝是否為最佳做法，請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」。 另請參閱&quot;[虛擬報表套裝與，多套裝標籤](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;，以取得多套裝標籤與虛擬報表套裝功能的比較。

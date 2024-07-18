@@ -13,7 +13,7 @@ ht-degree: 65%
 
 # 智慧型警報 - 使用案例
 
-您可以建立智慧型警報，如中所述 [建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md).
+您可以依照[建立警報](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-builder.md)中的說明建立智慧型警報。
 
 以下幾節將說明建立警報時要考慮的範例使用案例。
 

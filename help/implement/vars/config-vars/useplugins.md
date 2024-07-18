@@ -15,13 +15,13 @@ ht-degree: 34%
 
 如果 `usePlugins` 已啟用，[`doPlugins()`](../functions/doplugins.md) 函數會在 AppMeasurement 編譯前執行，並將點擊傳送至 Adobe。如果您使用 `doPlugins()` 函數，請啟用此變數。
 
-## 使用 `onBeforeEventSend` 使用Web SDK的回呼
+## 使用Web SDK使用`onBeforeEventSend`回呼
 
-雖然Web SDK沒有布林值可在將資料傳送至Adobe之前處理其他邏輯的執行，但您可以註冊 `onBeforeEventSend` 用於修改資料的callback。 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
+雖然Web SDK沒有布林值可在將資料傳送至Adobe之前處理其他邏輯的執行，但您可以註冊`onBeforeEventSend`回呼以修改資料。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 使用Adobe Analytics擴充功能的外掛程式
 
-Adobe提供標示為「常見Analytics外掛程式」的擴充功能，可讓您呼叫最多 [外掛程式](../plugins/impl-plugins.md). 安裝擴充功能，並在規則中呼叫所需的外掛程式。
+Adobe提供標示為「常用Analytics外掛程式」的擴充功能，可讓您呼叫大部分的[外掛程式](../plugins/impl-plugins.md)。 安裝擴充功能，並在規則中呼叫所需的外掛程式。
 
 如果Adobe擴充功能中未包含所需的外掛程式，請依照AppMeasurement語法使用自訂程式碼編輯器。
 

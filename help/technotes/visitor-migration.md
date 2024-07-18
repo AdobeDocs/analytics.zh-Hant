@@ -54,7 +54,7 @@ ht-degree: 67%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>組態變更後 6 小時以上</b>：更新 Analytics JavaScript 程式碼中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 變數，以使用新的資料收集伺服器。 </p> </td> 
-   <td colname="col3"> <p>進行此變更後，請使用<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant"> Experience Cloud debugger</a> 驗證，確認 Analytics 影像要求正在前往更新的資料收集伺服器。
+   <td colname="col3"> <p>進行此變更後，請使用<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html"> Experience Cloud debugger</a> 驗證，確認 Analytics 影像要求正在前往更新的資料收集伺服器。
  </p> </td> 
   </tr> 
   <tr> 
@@ -71,6 +71,6 @@ ht-degree: 67%
 | 工作 | 說明 |
 |--- |--- |
 | 開始使用：請聯絡客戶服務，提供您要移轉的網域以及您想啟用的移轉期間（30、60或90天）。 請務必加入不安全和安全的網域。 | 使用您要移轉至和從中移轉之網域的確切語法建立清單。<ul><li>example.112.2o7.net > metrics.example.com</li><li>example.102.112.2o7.net > smetrics.example.com</li></ul>移轉主機名稱在 Adobe 資料收集伺服器上設定。客戶服務會告知您何時進行變更，讓您規劃下一步驟。 |
-| 組態變更後6小時以上：更新 `s.trackingServer` 和 `s.trackingServerSecure` 變數來使用新的資料收集伺服器。 | 進行此變更後，請使用 [Experience Cloud偵錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant) 驗證Analytics影像要求正在前往更新的資料收集伺服器。 |
-| 緊接在更新Analytics程式碼後：測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 | 使用 [封包監視器](../implement/validate/packet-monitor.md) 若要驗證第一次存取您的網站或是清除Cookie後，您會先看到兩個302 （重新導向） HTTP狀態碼，接著才是200 （確定） HTTP狀態碼。 如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 |
+| 組態變更後6小時以上：更新Analytics JavaScript程式碼中的`s.trackingServer`和`s.trackingServerSecure`變數，以使用新的資料收集伺服器。 | 進行此變更後，請使用[Experience Cloud偵錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，驗證Analytics影像要求正在前往更新的資料收集伺服器。 |
+| 緊接在更新Analytics程式碼後：測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 | 使用[封包監視器](../implement/validate/packet-monitor.md)，驗證第一次存取您的網站或是清除Cookie後，您會先看到兩個302 （重新導向） HTTP狀態碼，接著才是200 （確定） HTTP狀態碼。 如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 |
 | 在整個移轉期間：保留DNS記錄，讓先前的主機名稱作用中。 | 先前的主機名稱必須透過 DNS 解析，否則無法進行 Cookie 移轉。 |

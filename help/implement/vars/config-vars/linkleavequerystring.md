@@ -27,7 +27,7 @@ ht-degree: 84%
 
 ## 使用Web SDK處理連結查詢字串
 
-查詢字串不會從XDM欄位中移除 `web.webInteraction.URL`. 如果您想從此XDM欄位中移除查詢字串，可以使用以下方式編輯它 `onBeforeEventSend`.
+未從XDM欄位`web.webInteraction.URL`中移除查詢字串。 如果您想從此XDM欄位中移除查詢字串，可以使用`onBeforeEventSend`編輯它。
 
 ## 使用Adobe Analytics擴充功能保留URL引數
 

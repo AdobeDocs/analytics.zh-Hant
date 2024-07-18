@@ -7,7 +7,7 @@ exl-id: f5685653-ed31-4183-a6d9-b36bdfecd85c
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 1. 在 Power BI 中，按一下畫面左下方的&#x200B;**[!UICONTROL 「取得資料」]**。
 1. 在&#x200B;**[!UICONTROL 「匯入或連線至資料]** > **[!UICONTROL 檔案」]**&#x200B;底下，按一下&#x200B;**[!UICONTROL 「取得」]**。
 
-   ![按一下「匯入」或「連線至資料」下的「取得」圖示。](assets/get-data.png)
+   ![在「匯入或連線至資料」下面，按一下「取得圖示」。](assets/get-data.png)
 
 1. 按一下「本機檔案」。
 
@@ -27,6 +27,6 @@ ht-degree: 80%
 1. 選擇要上傳的檔案，然後按一下&#x200B;**[!UICONTROL 「開啟」]**。
 1. 在&#x200B;**[!UICONTROL 「上傳 Excel 檔案至 Power BI」]**&#x200B;下，按一下&#x200B;**[!UICONTROL 「上傳」]**。
 
-   ![按一下「上傳」即可上傳您的Excel檔案。](assets/upload-excel-file.png)
+   ![按一下「上傳」，上傳您的 Excel 檔案。](assets/upload-excel-file.png)
 
 1. 畫面應會出現「檔案已上傳」的訊息。

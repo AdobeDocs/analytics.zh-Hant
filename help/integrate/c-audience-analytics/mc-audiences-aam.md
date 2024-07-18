@@ -34,7 +34,7 @@ Audience Analytics 整合具有以下主要優點：
 ![](assets/mc-aud-dataflow.png)
 
 1. 每次訪客瀏覽您的數位內容時，系統都會收集點擊數並傳送到 Analytics。
-1. 替換為 [伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，Analytics收到的每次點選都會即時自動傳送至Adobe Audience Manager。
+1. 透過[伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，Analytics收到的每次點選都會即時自動傳送至Adobe Audience Manager。
 1. 透過Audience Analytics整合，系統會針對各個點選，在Adobe Audience Manager中查詢訪客的對象成員資格，並將區段ID清單傳回Analytics即時處理。
 
 由於Adobe Audience Manager區段是在相同點選的基礎上插入，因此您可以確定Adobe Audience Manager中有關訪客的任何可用資料都不會遺失，並且不會為該點選提供最新資訊。 這一點優於 AppMeasurement 外掛程式，因為外掛程式必須等到下次點擊時 (而非目前點擊) 才能提供這些區段。

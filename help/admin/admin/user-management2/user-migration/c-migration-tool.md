@@ -121,7 +121,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">確認自己是 Adobe Admin Console 的 Analytics 產品管理員。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">聯絡您的使用者群，告知他們在移轉開始後，其登入體驗將有所變動。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">審核您目前的使用者與權限，並執行清除活動。 </li> 
-    </ul> <p>若要加快移轉速度，請連絡您的Adobe客戶團隊： <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html"> Adobe客戶服務</a> 並提交提早開始日期的請求。 </p> </td> 
+    </ul> <p>若要加快移轉速度，請透過<a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe客戶服務</a>聯絡您的Adobe客戶團隊，並提交提早開始日期的請求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我是 Analytics 管理員，但沒有 Adobe Admin Console 的存取權。 誰能協助我取得 Adobe Admin Console 的存取權？ </p> </td> 
@@ -318,7 +318,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
 
 敝公司所有的 Adobe Analytics 帳戶即將從 [!DNL https://my.omniture.com/login/] 移轉至 Adobe Experience Cloud ([experiencecloud.adobe.com](https://experiencecloud.adobe.com/))。藉由本次移轉，您的 Adobe Analytics 帳戶將可升級，以啟用透過 Adobe Experience Cloud 的 Analytics 存取權。儘管存取 Analytics 的方式將會改變，您對報表套裝和工具的全部現有權限仍會保留。
 
-**後續步驟：** 我們將於以下日期開始移轉使用者： **插入日期**. 請使用新的登入資訊 (列於 Analytics 帳戶底下的電子郵件 ID) 尋找歡迎郵件。如果您尚未設定連結至電子郵件地址的 [Adobe ID](https://helpx.adobe.com/tw/x-productkb/global/adobe-id-account-change.html)，系統會要求您設定帳戶。
+**後續步驟：**&#x200B;我們將從&#x200B;**插入日期**&#x200B;開始移轉使用者。 請使用新的登入資訊 (列於 Analytics 帳戶底下的電子郵件 ID) 尋找歡迎郵件。如果您尚未設定連結至電子郵件地址的 [Adobe ID](https://helpx.adobe.com/tw/x-productkb/global/adobe-id-account-change.html)，系統會要求您設定帳戶。
 
 **實用資源：**
 

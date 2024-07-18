@@ -5,7 +5,7 @@ feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
@@ -24,12 +24,12 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 此模式中的每個分類各自獨立，並且與所選報告變數的新子報告相對應。此外，每個分類都是由資料檔案中的一個資料欄所組成，其分類名稱即是欄標題。例如：
 
-| 代碼 | PROPERTY 1 | PROPERTY 2 |
+| 代碼 | 屬性 1 | 屬性 2 |
 |---|---|---|
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-如需資料檔案的詳細資訊，請參閱[分類資料檔案](/help/components/classifications/importer/c-saint-data-files.md)。
+如需資料檔案的詳細資訊，請參閱「[分類資料檔案](/help/components/classifications/importer/c-saint-data-files.md)」。
 
 多級分類是由父分類和子分類所組成。例如：
 
@@ -47,7 +47,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 例如：
 
-| 代碼 | PROPERTY 1 | Property 1^Property 1-1 | Property 1^Property 1-2 | 屬性 2 |
+| 代碼 | 屬性 1 | 屬性 1^屬性 1-1 | 屬性 1^屬性 1-2 | 屬性 2 |
 |---|---|---|---|---|
 | 123 | ABC | 綠色 | 小 | A12B |
 | 456 | DEF | 紅色 | 大 | C3D4 |

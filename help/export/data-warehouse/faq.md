@@ -5,7 +5,7 @@ feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '136'
 ht-degree: 84%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 Data Warehouse 常見問答。
 
-## 建立請求時使用「粒度」下拉式清單時，日期的格式為何？
+## 如果在建立請求時使用詳細程度下拉式清單，日期會採用什麼格式？
 
 在 Data Warehouse 請求中套用詳細程度時，「日期欄」會加至報告中。依所選的詳細程度，日期格式會有不同。
 

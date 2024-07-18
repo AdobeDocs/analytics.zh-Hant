@@ -24,7 +24,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 | 標準 IAB 機器人規則 | 選取&#x200B;**[!UICONTROL 「啟用 IAB 機器人篩選規則」]**，系統會使用 [IAB](https://www.iab.com/) (國際廣告局) 的「國際編目程式與機器人清單」來移除機器人流量。多數客戶至少都會選取此選項。 |
 | 自訂機器人規則 | 您可以根據使用者代理、IP 位址或 IP 範圍來定義與新增自訂機器人規則。 |
 
-如需詳細資訊，請參閱 [瞭解並設定機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md).
+如需詳細資訊，請參閱[瞭解並設定機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
 
 ## 使用 [!UICONTROL websiteBot] 外掛程式來識別機器人
 
@@ -72,9 +72,9 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 收到 Data Warehouse 報表後，您就取得需要從歷史資料中篩選掉的 ECID 清單了。複製這些 ECID 並貼到空白的 .CSV 檔案，檔案中只需包含「ECID」和「機器人標幟」兩欄。
 
 * **ECID**：此欄的標題務須符合您為上述新宣告 ID 所設的名稱。
-* **機器人標幟**：新增「機器人標幟」為「客戶」屬性結構維度。
+* **機器人標幟**：新增「機器人標幟」為「客戶」屬性結構描述維度。
 
-將這份.CSV檔案匯入為「客戶」屬性，然後依照此說明將報表套裝訂閱「客戶」屬性 [部落格貼文](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers).
+將這份.CSV檔案匯入為「客戶」屬性，然後依照這篇[部落格](https://blog.adobe.com/en/publish/2016/10/20/link-digital-behavior-customers)所述，使報表套裝訂閱「客戶」屬性。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
@@ -86,7 +86,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ### 步驟6：將此區段設為虛擬報表套裝篩選條件
 
-最後，建立 [虛擬報表套裝](/help/components/vrs/vrs-about.md) 會使用此區段來篩選掉已識別的機器人：
+最後，建立[虛擬報告套裝](/help/components/vrs/vrs-about.md)，並使用此區段來篩選掉已識別的機器人：
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

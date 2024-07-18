@@ -22,10 +22,10 @@ ht-degree: 70%
 Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下 **[!UICONTROL 標籤]** 然後，按一下所需的標籤屬性。
-1. 按一下 **[!UICONTROL 擴充功能]** 然後按一下左側的 **[!UICONTROL 目錄]** 標籤
-1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 副檔名。
-1. 按一下 **[!UICONTROL 資料元素]** 然後按一下所需的資料元素。
+1. 按一下左側的&#x200B;**[!UICONTROL 標籤]**，然後按一下所需的標籤屬性。
+1. 按一下左側的&#x200B;**[!UICONTROL 擴充功能]**，然後按一下&#x200B;**[!UICONTROL 目錄]**&#x200B;標籤
+1. 尋找並安裝&#x200B;**[!UICONTROL 常用Web SDK外掛程式]**&#x200B;擴充功能。
+1. 按一下左側的&#x200B;**[!UICONTROL 資料元素]**，然後按一下所需的資料元素。
 1. 使用下列設定來設定所需的資料元素名稱：
    * 擴充功能：常見Web SDK外掛程式
    * 資料元素： `getVisitDuration`

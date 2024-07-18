@@ -182,11 +182,11 @@ ht-degree: 95%
 
 例如：
 
-* **排除頁面**。使用區段規則來移除特定頁面(例如 *`Home Page`*)、建立頁面等於「首頁」的點選規則，然後排除它。 此規則會自動包含「首頁」以外的所有值。
+* **排除頁面**。使用區段規則從報告中移除特定頁面（例如&#x200B;*`Home Page`*）、建立頁面等於「首頁」的點選規則，然後排除它。 此規則會自動包含「首頁」以外的所有值。
 * **排除反向連結網域**。使用僅包含來自 Google.com 之反向連結網域的規則，然後排除所有其他值。
 * **找出未購買者**。找出訂單大於零的情形，然後排除該[!UICONTROL 訪客]。
 
-可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點] 也可包含在 [邏輯群組](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點]也可以包含在[邏輯群組](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)中。
 
 ### 查核點之間排除
 
@@ -203,7 +203,7 @@ ht-degree: 95%
 
 **建立此區段**
 
-像建立簡單、混合層級或巢狀循序區段一樣建立區段，然後設定 [!UICONTROL 排除] 容器元素的運運算元。 以下範例為彙總區段，其中將三個[!UICONTROL 點擊]容器拖曳至畫布，並指派 [!UICONTROL THEN] 運算子來連結容器邏輯，接著排除中間頁面檢視容器，僅包含依序從頁面 A 前往頁面 C 的訪客。
+像建立簡單、混合層級或巢狀循序區段一樣建立區段，然後設定容器元素的[!UICONTROL EXCLUDE]運運算元。 以下範例為彙總區段，其中將三個[!UICONTROL 點擊]容器拖曳至畫布，並指派 [!UICONTROL THEN] 運算子來連結容器邏輯，接著排除中間頁面檢視容器，僅包含依序從頁面 A 前往頁面 C 的訪客。
 
 ![](assets/exclude_between_checkpoints.png)
 
@@ -346,11 +346,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->在類似命名的元素之間有評估差異，例如 **天** 或 **日**. 針對「之內」和「之後」的時間定義，請利用彈出式視窗中第一個列出的選項：
+>在類似命名的元素（如&#x200B;**天**&#x200B;或&#x200B;**天**）之間評估有差異。 針對「之內」和「之後」的時間定義，請利用彈出式視窗中第一個列出的選項：
 >
 >![影像](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
 >
->針對「內」和「之後」的維度定義，請利用子功能表下的選項 *其他Dimension*：
+>針對Within和After的維度定義，請利用子功能表&#x200B;*其他Dimension*&#x200B;下的選項：
 >
 >![影像](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
 

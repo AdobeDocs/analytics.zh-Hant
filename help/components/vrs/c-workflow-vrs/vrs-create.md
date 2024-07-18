@@ -6,8 +6,8 @@ feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 65%
+source-wordcount: '681'
+ht-degree: 64%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 65%
 * 虛擬報告套裝無法共用。「共用」是透過群組/權限達成。
 * 在虛擬報表套裝管理員中，您只看得到您自己的虛擬報表套裝。 必須按一下「全部顯示」才能查看其他人的虛擬報告套裝。
 
-1. 瀏覽至 **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**.
+1. 導覽至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增 +」]**。
 
    ![](assets/new_vrs.png)
@@ -53,7 +53,7 @@ ht-degree: 65%
 | 啟用報表時間處理功能 | 使用報表時間處理功能，以變更預設造訪逾時長度。這些設定不具破壞性，只會套用至 Analysis Workspace。[了解更多](/help/components/vrs/vrs-report-time-processing.md) |
 | 造訪逾時 | 定義自動開始新的造訪之前，不重複訪客需達到的閒置時間。這會影響造訪量度、造訪區段容器，以及在造訪時過期的 eVar。 |
 | 因事件而開始新的造訪 | 不論工作階段是否逾期，只要觸發了指定事件，就會作為新的工作階段開始。 |
-| **行動應用程式造訪設定** | 修改Adobe行動SDK收集之行動應用程式點選的造訪次數定義方式。這些設定不具破壞性，只會套用至Analysis Workspace。 |
+| **行動應用程式造訪設定** | 修改Adobe行動SDK收集之行動應用程式點選的造訪次數定義方式。 這些設定不具破壞性，只會套用至Analysis Workspace。 |
 | 避免將背景點擊動作計為新的造訪 | 避免將背景點擊動作計為新的造訪，以及避免造訪次數和不重複訪客量度誇大不實。 |
 | 每次應用程式啟動時，即開始新的造訪 | 應用程式啟動後，便開始新的工作階段。[了解更多](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
@@ -62,9 +62,9 @@ ht-degree: 65%
 ![](assets/components.png)
 
 1. 在「[!UICONTROL 元件]」索引標籤上，選取核取方塊以套用組織至 Analysis Workspace 中此虛擬報告套裝的包含、排除和重新命名元件。
-如需虛擬報表套裝組織的詳細資訊，請參閱 [虛擬報表套裝元件組織](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites).
+如需虛擬報表套裝組織的詳細資訊，請參閱[虛擬報表套裝元件組織](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)。
 
-1. 將要包含在虛擬報表套裝中的元件（維度、量度、區段或日期範圍）拖曳至 [!UICONTROL 包含的元件] 區段。
+1. 將要包含在虛擬報表套裝中的元件（維度、量度、區段或日期範圍）拖曳至「[!UICONTROL 包含的元件]」區段。
 
 1. 完成後，按一下「**[!UICONTROL 儲存]**」。
 

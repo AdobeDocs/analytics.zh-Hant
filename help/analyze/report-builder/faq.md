@@ -7,7 +7,7 @@ exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 83f199a3bb76147b98aba014b62ea3c02c766ddd
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,6 +33,6 @@ Report Builder 支援的活頁簿的上限如下：
 * **每家公司每小時 2 萬個請求**： Report Builder 會使用 Analytics 報表 API 來擷取資料。每個個別請求在建立或重新整理時都會使用 API 呼叫。 如果您的組織在指定小時內累積超過 20,000 個 API 呼叫，您必須等到下一小時再擷取資料。
 * **4 小時處理時間**: 排程報告在處理經過 4 小時後逾時。如果您的活頁簿包含許多使用大型資料集的複雜請求，排程報告可能會失敗。
 
-## 我如何知道我是否有Report Builder的存取權？ {#access}
+## 我如何知道自己是否有權限存取 Report Builder？ {#access}
 
-您需要由Adobe Analytics管理員授予Report Builder存取權。 管理員可設定中的產品設定檔 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home). 要求管理員授與您存取權。
+您必須獲得 Adobe Analytics 管理員授予 Report Builder 的存取權限。管理員在 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home) 中設定產品設定檔。要求您的管理員授予您存取權限。

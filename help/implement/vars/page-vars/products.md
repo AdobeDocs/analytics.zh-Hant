@@ -21,14 +21,14 @@ ht-degree: 67%
 
 ## 使用Web SDK的產品
 
-若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品會對應至下列變數：
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品會對應至下列變數：
 
-* 類別已對應至 `xdm.productListItems[].productCategories[].categoryID`. 這會使用 `productCategories[]` 陣列。 `lineItemId` 也正確對應，但Adobe建議 `categoryID` 因為這是標準XDM。 如果兩個XDM欄位都存在， `lineItemId` 優先。
-* 產品已對應至 `xdm.productListItems[].SKU` 或 `xdm.productListItems[].name`. 如果兩個XDM欄位都存在， `xdm.productListItems[].SKU` 已使用。
-* 數量對應至 `xdm.productListItems[].quantity`.
-* 價格已對應至 `xdm.productListItems[].priceTotal`.
-* 銷售eVar對應至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，視您要繫結至產品的eVar而定。
-* 銷售事件對應至 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 至 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 如果您在其中某個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 傳送至Adobe Analytics的字串。
+* 類別對應至`xdm.productListItems[].productCategories[].categoryID`。 它使用`productCategories[]`陣列中的第一個專案。 `lineItemId`也正確對應，但Adobe建議`categoryID`，因為它是標準XDM。 如果兩個XDM欄位都存在，則會以`lineItemId`優先。
+* 產品對應至`xdm.productListItems[].SKU`或`xdm.productListItems[].name`。 如果兩個XDM欄位都存在，則會使用`xdm.productListItems[].SKU`。
+* 數量對應至`xdm.productListItems[].quantity`。
+* 價格已對應至`xdm.productListItems[].priceTotal`。
+* 銷售eVar對應至`xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1`至`xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，端視您要繫結至產品的eVar而定。
+* 銷售事件對應至`xdm.productListItems[]._experience.analytics.event1to100.event1.value`至`xdm.productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 若您在這些欄位之一中設定事件，該事件會自動包含在傳送至Adobe Analytics的[事件](events/events-overview.md)字串中。
 
 ```json
 {
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，產品變數會使用 `data.__adobe.analytics.products` 遵循AppMeasurement語法。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，產品變數會使用下列AppMeasurement語法`data.__adobe.analytics.products`。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
 
 ```json
 {
@@ -82,7 +82,7 @@ Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；�
 
 `s.products` 變數是字串，其中包含每個產品的多個分隔欄位。 在字串中以分號 (`;`) 分隔每個欄位。
 
-* **類別** （選用）：產品類別。 此欄位的長度上限為 100 個位元組。
+* **類別** （選擇性）：產品類別。 此欄位的長度上限為 100 個位元組。
 * **產品名稱** (必要)：產品的名稱。 此欄位的長度上限為 100 個位元組。
 * **數量** (選用)：此產品在購物車內的數量有多少。此欄位僅適用於購買事件的點擊。
 * **價格** (選用)：小數形式的產品總價。如果數量超過一個，請將價格設定為總價，而非個別產品價格。調整此值的貨幣，使其與 [`currencyCode`](../config-vars/currencycode.md) 變數相符。請勿在此欄位中加入貨幣符號。此欄位僅適用於購買事件的點擊。
@@ -94,7 +94,7 @@ Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。整個檔案的最大長度 `products` 字串為64k位元組。 請在字串中以逗號 (`,`) 分隔每項產品。
+此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。整個`products`字串的長度上限為64,000個位元組。 請在字串中以逗號 (`,`) 分隔每項產品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

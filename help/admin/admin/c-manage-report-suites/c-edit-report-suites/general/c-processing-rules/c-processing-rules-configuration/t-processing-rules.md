@@ -29,4 +29,4 @@ ht-degree: 90%
 
    如果有多個規則，請在頁面上拖放這些規則，以變更處理順序。
 
-   另請參閱 [處理規則的範例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md) 瞭解您可以建立的規則種類。
+   請參閱[處理規則的範例](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)，瞭解您可以建立的規則種類。

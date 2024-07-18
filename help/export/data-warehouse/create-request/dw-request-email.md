@@ -6,7 +6,7 @@ exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
 source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 30%
 
 若要設定Data Warehouse請求的通知電子郵件：
 
-1. 如果您尚未這樣做，請透過選取「 」開始在Adobe Analytics中建立請求 **[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**].
+1. 如果還沒有，可選取「**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**]」，開始在 Adobe Analytics 中建立請求。
 
    有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-1. 在新Data Warehouse請求頁面上，選取 [!UICONTROL **通知電子郵件**] 標籤。
+1. 在「新Data Warehouse請求」頁面上，選取「[!UICONTROL **通知電子郵件**]」標籤。
 
    ![報告目標標籤](assets/dw-notification-email.png)
 
@@ -30,11 +30,11 @@ ht-degree: 30%
 
    | 選項 | 函數 |
    |---------|----------|
-   | [!UICONTROL **傳送通知電子郵件至**] | 指定應在傳送報告時收到電子郵件通知之人員的電子郵件地址。 <p>您可以指定單一電子郵件地址，或以逗號分隔的電子郵件地址清單。</p> |
+   | [!UICONTROL **傳送通知電子郵件給**] | 指定應在傳送報告時收到電子郵件通知之人員的電子郵件地址。 <p>您可以指定單一電子郵件地址，或以逗號分隔的電子郵件地址清單。</p> |
    | [!UICONTROL **進階選項**] | 選取此選項可在傳送通知時包含電子郵件的主旨和附註。 |
 
    {style="table-layout:auto"}
 
-1. 選取 [!UICONTROL **儲存請求**] 以儲存Data Warehouse報表請求。
+1. 選取&#x200B;[!UICONTROL **儲存請求**]&#x200B;以儲存Data Warehouse報表請求。
 
    您現在可以將資料匯出至您設定的帳戶和位置。

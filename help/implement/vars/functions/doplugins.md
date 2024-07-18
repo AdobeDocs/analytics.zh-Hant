@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # doPlugins
 
-`doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。這是致電的理想場所 [外掛程式方法](../plugins/impl-plugins.md) 並在傳送影像要求之前設定任何需要的變數。 如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
+`doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。這是呼叫[外掛程式方法](../plugins/impl-plugins.md)並在傳送影像要求之前設定任何所需變數的理想位置。 如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
 
 * 所有頁面瀏覽 ([`t()`](t-method.md)) 呼叫
 * 所有連結追蹤 ([`tl()`](tl-method.md)) 呼叫，包括自動下載連結和退出連結
@@ -22,17 +22,17 @@ ht-degree: 63%
 
 ## 使用Web SDK擴充功能在Before Event傳送回呼代碼前使用
 
-而非 `doPlugins`，Web SDK會使用 `onBeforeEventSend` 具有類似功能。
+Web SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 在事件傳送回呼代碼前編輯]** 按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 在事件傳送回撥代碼前編輯]**&#x200B;按鈕。
 1. 將所需的程式碼放入編輯器中。
 
-## 使用 `onBeforeEventSend` 手動實作Web SDK
+## 使用`onBeforeEventSend`手動實作Web SDK
 
-而非 `doPlugins`，Web SDK會使用 `onBeforeEventSend` 具有類似功能。 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
+Web SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

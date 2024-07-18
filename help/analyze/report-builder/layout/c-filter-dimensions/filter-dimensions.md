@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 92%
+source-wordcount: '451'
+ht-degree: 73%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 在&#x200B;**[!UICONTROL 「熱門篩選]** > **[!UICONTROL 定義篩選」]**&#x200B;面板中的篩選相關資訊。
 
-![熒幕擷圖顯示「定義篩選」對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/admin/assets/filter.png)
+![熒幕擷圖顯示[定義篩選]對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/admin/assets/filter.png)
 
 下列表格會提供篩選的範例和相關資訊：
 
@@ -40,31 +40,31 @@ ht-degree: 92%
    <td colname="col1"> <p>包含所有字詞 </p> </td> 
    <td colname="col02"> <p>包含每個以空格分隔的值，順序不拘。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>會比對<span class="term">a b c</span> 和 <span class="term">b a c</span> 等其他組合。 </p> </td> 
+   <td colname="col3"> <p>符合<span class="term"> a b c</span>和<span class="term"> b a c</span>，依此類推。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>包含任何字詞 </p> </td> 
    <td colname="col02"> <p>包含至少其中一個篩選器 (以空格分隔)。 </p> </td> 
    <td colname="col2"> <p>ABC </p> </td> 
-   <td colname="col3"> <p>會比對<span class="term">A1</span>、<span class="term">B2</span>、<span class="term">C3</span> 而非 <span class="term">D4</span>。 </p> </td> 
+   <td colname="col3"> <p>符合<span class="term"> A1</span>、<span class="term"> B2</span>、<span class="term"> C3</span>，但不符合<span class="term"> D4</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>包含片語 </p> </td> 
    <td colname="col02"> <p>包含搜尋篩選器，也可能包含其他詞語。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>會比對<span class="term">abc</span> 和 <span class="term">abc def</span>。 </p> </td> 
+   <td colname="col3"> <p>符合<span class="term"> abc</span>和<span class="term"> abc def</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不包含任何字詞 </p> </td> 
    <td colname="col02"> <p>傳回不包含您輸入值的所有項目。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>會比對<span class="term">d e f</span> 而非 <span class="term">c d e f</span>。 </p> </td> 
+   <td colname="col3"> <p>符合<span class="term"> d e f</span>，但不符合<span class="term"> c d e f</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不包含此片語 </p> </td> 
    <td colname="col02"> <p>傳回不包含您片語的所有項目。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>排除<span class="term">abc</span>、<span class="term">abc def</span>，並比對 <span class="term">def</span> </p> </td> 
+   <td colname="col3"> <p>排除<span class="term"> abc</span>、<span class="term"> abc def</span>，並符合<span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>等於 </p> </td> 
@@ -82,7 +82,7 @@ ht-degree: 92%
    <td colname="col1"> <p>開始於 </p> </td> 
    <td colname="col02"> <p>傳回以特定值作為開頭的結果。 </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>會比對<span class="term">Abcd</span> 而非 <span class="term">1abc</span> </p> </td> 
+   <td colname="col3"> <p>符合<span class="term"> abcd</span>，但不符合<span class="term"> 1abc</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>終止於 </p> </td> 
@@ -94,7 +94,7 @@ ht-degree: 92%
    <td colname="col1"> <p>進階 (特殊字元) </p> </td> 
    <td colname="col02"> <p>可讓您使用規則運算式字元： </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Home*Page$" | sports </p> </td> 
-   <td colname="col3"> <p> 這會定義一個篩選器，開始於<span class="term">Home</span>，接著尋找零個或多個字元，然後以 <span class="term">Page</span> 結束。 </p> <p>此外，也會尋找任何含有 <span class="term">sports</span> 的頁面。 </p> <p>以下是一些比對的範例： </p> 
+   <td colname="col3"> <p> 這會定義一個篩選器，其開頭為<span class="term">首頁</span>，然後尋找零個或多個字元，最後以<span class="term">頁面</span>結束。 </p> <p>此外，也會尋找任何含有 <span class="term">sports</span> 的頁面。 </p> <p>以下是一些比對的範例： </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">HomePage </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Home 和 (其他字元) Page </li> 
@@ -119,7 +119,7 @@ ht-degree: 92%
   <tr> 
    <td colname="col1"> 「 」 </td> 
    <td colname="col2"> 等於 </td> 
-   <td colname="col3"> <p>除非未與另一個引號成對，否則不會予以逸出。例如，<span class="term">17" Display</span> 不是片語。 </p> </td> 
+   <td colname="col3"> <p>除非未與另一個引號成對，否則不會予以逸出。例如，<span class="term"> 17" Display</span>不是片語。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -144,7 +144,7 @@ ht-degree: 92%
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> 或 </td> 
-   <td colname="col3"> <p>只有在<span class="term">進階 (特殊字元)</span> 篩選器中支援。 </p> </td> 
+   <td colname="col3"> <p>僅在<span class="term">進階（特殊字元）</span>篩選器中支援。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

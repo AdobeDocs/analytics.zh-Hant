@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: e51eff7729f94e60239f34c43f77a533fa53910a
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1310'
 ht-degree: 85%
 
 ---
@@ -23,24 +23,24 @@ Analysis Workspace 中有以下視覺效果類型：
 | 視覺效果名稱 | 說明 |
 | --- | --- |
 | [區域](/help/analyze/analysis-workspace/visualizations/area.md)<p>![區域圖示](assets/Smock_GraphArea_18_N.svg)</p> | 類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
-| [長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![長條圖示](assets/Smock_GraphBarVertical_18_N.svg)</p> | 顯示代表一或多個量度多個值的垂直長條。 |
+| [長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![條圖示](assets/Smock_GraphBarVertical_18_N.svg)</p> | 顯示代表一或多個量度多個值的垂直長條。 |
 | [項目圖表](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![專案符號圖示](assets/Smock_GraphBullet_18_N.svg)</p> | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
 | [同類群組表格](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![同類群組表格圖示](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;是指一段指定時間內，共享相同特徵的一組人。Cohort Analysis (同類群組分析) 對保留、攪動或延遲分析很有用處。 |
 | [環形圖](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![環形圖示](assets/Smock_GraphDonut_18_N.svg)</p> | 此視覺效果類似圓餅圖，以整體的部分或區段顯示資料。 |
-| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![「流失」圖示](assets/Smock_ConversionFunnel_18_N.svg)</p> | 流失報告可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。可以設定為最終或精確的序列 |
+| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![流失圖示](assets/Smock_ConversionFunnel_18_N.svg)</p> | 流失報告可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。可以設定為最終或精確的序列 |
 | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![流量圖示](assets/flow-icon.png)</p> | 顯示使用您網站和應用程式的正確客戶路徑。 |
 | [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![自由表格圖示](assets/Smock_ViewTable_18_N.svg)</p> | 自由表格不僅是資料表格，也是互動式視覺效果。這是 Workspace 的資料分析基礎。 |
 | [長條圖](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![長條圖圖示](assets/Smock_GraphHistogram_18_N.svg)</p> | 長線圖會根據量度數量，將訪客人數、瀏覽次數或點擊數放入值區內。 |
 | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![橫條圖示](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 顯示代表一或多個量度多個值的橫條。 |
 | [關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![關鍵量度圖示](assets/key-metric-icon.png)</p> | 顯示量度在單一時間範圍內的趨勢分析，或讓您比較兩個時間範圍內的量度成效。 |
-| [折線圖](/help/analyze/analysis-workspace/visualizations/line.md)<p>![折線圖示](assets/Smock_GraphTrend_18_N.svg)</p> | 使用線條呈現量度，顯示一段時間內值的變化。線形圖會延 X 軸使用時間。 |
+| [折線圖](/help/analyze/analysis-workspace/visualizations/line.md)<p>![行圖示](assets/Smock_GraphTrend_18_N.svg)</p> | 使用線條呈現量度，顯示一段時間內值的變化。線形圖會延 X 軸使用時間。 |
 | [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![地圖圖示](assets/map-icon.png)</p> | 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。 |
-| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散佈圖圖示](assets/Smock_GraphScatter_18_N.svg)</p> | 顯示維度項目與最多三個量度之間的關係。 |
+| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散佈圖示](assets/Smock_GraphScatter_18_N.svg)</p> | 顯示維度項目與最多三個量度之間的關係。 |
 | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![摘要數字圖示](assets/summary-number-icon.png)</p> | 以 1 個大數字來顯示選取的儲存格。 |
 | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![摘要變更圖示](assets/summary-change-icon.png)</p> | 以 1 個大數字/百分比來顯示選取儲存格之間的變化。 |
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md)<p>![文字圖示](assets/Smock_Text_18_N.svg)</p> | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![樹狀圖圖示](assets/Smock_GraphTree_18_N.svg)</p> | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![「文氏圖表」圖示](assets/venn-icon.png)</p> | 使用圓圈描繪最多 3 個區段的量度重疊。 |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![文氏圖示](assets/venn-icon.png)</p> | 使用圓圈描繪最多 3 個區段的量度重疊。 |
 
 ## 將視覺效果新增至面板
 
@@ -48,19 +48,19 @@ Analysis Workspace 中有以下視覺效果類型：
 
 1. 使用下列任一種方法來新增視覺效果：
 
-   * 在左側邊欄中，選取 **視覺效果** 圖示 <!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
+   * 在左側欄中，選取「**視覺效果**」圖示<!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
 
      ![](assets/viz-rail.png)
 
-   * 在您想要新增視覺效果的面板上，選取 **加號** 圖示，然後選擇代表您要新增之視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可檢視其名稱。
+   * 在您想要新增視覺效果的面板上，選取&#x200B;**加號**&#x200B;圖示，然後選擇代表您要新增的視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可檢視其名稱。
 
-     ![新增視覺效果的按鈕](assets/visualization-add-to-panel.png)
+     用於新增視覺效果的![按鈕](assets/visualization-add-to-panel.png)
 
-   * 新增 [空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇要新增的視覺效果。
+   * 新增[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇要新增的視覺效果。
 
      ![空白面板](assets/blank_panel.png)
 
-   * 以滑鼠右鍵按一下Analysis Workspace專案中的現有面板，然後選取「 」 [!UICONTROL **複製視覺效果**] 或 [!UICONTROL **複製視覺效果**].
+   * 以滑鼠右鍵按一下Analysis Workspace專案中的現有面板，然後選取「[!UICONTROL **複製視覺效果**]」或「[!UICONTROL **複製視覺效果**]」。
 
 ## 自訂視覺效果設定
 

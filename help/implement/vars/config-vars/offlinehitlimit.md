@@ -27,7 +27,7 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.offlineHitLimit
 
-此 `s.offlineHitLimit` 變數是整數，代表裝置離線時儲存的最大點選數。 如果此變數未定義，其預設值為 `10`. 您可以將其設為任何整數值。 設定高值時，請留意訪客瀏覽器中的本機儲存上限。 此限制通常為5 - 10 MB。
+`s.offlineHitLimit`變數是整數，代表裝置離線時儲存的最大點選數。 如果此變數未定義，其預設值為`10`。 您可以將其設為任何整數值。 設定高值時，請留意訪客瀏覽器中的本機儲存上限。 此限制通常為5 - 10 MB。
 
 ```js
 s.offlineHitLimit = 100;

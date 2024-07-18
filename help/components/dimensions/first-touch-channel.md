@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 92%
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
 # 首次接觸管道
 
-「首次接觸管道」 [維度](overview.md) 報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道。 若要了解哪些行銷管道促進網站的初始流量，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
+「首次接觸管道」維度[1}會報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道。 ](overview.md)若要了解哪些行銷管道促進網站的初始流量，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
 
 ## 將資料填入此維度中
 

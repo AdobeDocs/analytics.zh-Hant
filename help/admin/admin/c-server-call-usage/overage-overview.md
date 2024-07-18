@@ -16,7 +16,7 @@ ht-degree: 80%
 Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服器呼叫使用量資料的透明度要求。 其可讓您存取：
 
 * 伺服器呼叫使用量儀表板，可追蹤您的伺服器呼叫使用量資料，並將其與合約限制進行比較。 (在Adobe Analytics中，選取> [!UICONTROL **管理員**] > [!UICONTROL **伺服器呼叫使用量**])
-* 警報產生器中的伺服器呼叫使用量警報型別可用於設定警報，避免使用過量(在Adobe Analytics中，選取「 」 [!UICONTROL **元件**] > [!UICONTROL **警報**])
+* 警報產生器中的伺服器呼叫使用量警報型別可讓您設定警報，避免使用過量(在Adobe Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **警報**])
 
 伺服器呼叫使用量的主要優點包括：
 
@@ -25,8 +25,8 @@ Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服�
 
 ## 先決條件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **許可權：** 若要存取伺服器呼叫使用量控制面板和警報產生器或警報管理員，您必須是Adobe Analytics管理員。
-* **許可權：** 管理員可以向非管理員授予存取權：許可權稱為 **[!UICONTROL 伺服器呼叫使用量]**. 另請參閱 [伺服器呼叫使用量許可權](#server-call-usage-permission).
+* **許可權：**&#x200B;若要存取伺服器呼叫使用量控制面板和警報產生器或警報管理員，您必須是Adobe Analytics管理員。
+* **許可權：**&#x200B;系統管理員可以授與非管理員的存取權：該許可權稱為&#x200B;**[!UICONTROL 伺服器呼叫使用量]**。 請參閱[伺服器呼叫使用量許可權](#server-call-usage-permission)。
 
 ## 重要術語 {#terminology}
 
@@ -99,13 +99,13 @@ Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">透過 sc.omniture.com 登入 Analytics。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">瀏覽至 <span class="ignoretag"> <span class="uicontrol"> 管理員 </span>  &gt; <span class="uicontrol"> 所有管理員 </span>  &gt; <span class="uicontrol"> 使用者管理 </span>  &gt; <span class="uicontrol"> 群組 </span>  &gt; <span class="uicontrol"> 編輯所有報表存取 </span>  &gt; <span class="uicontrol"> Analytics工具 </span>  &gt; <span class="uicontrol"> 自訂 </span>  &gt; <span class="uicontrol"> 伺服器呼叫使用量 </span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">瀏覽至<span class="ignoretag"> <span class="uicontrol">管理員</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">自訂</span> &gt; <span class="uicontrol">伺服器呼叫使用量</span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
      <li id="li_56FF685A3B454ECEA5F16BB591A60034">登入 login.experiencecloud.adobe.com。</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">按一下<span class="uicontrol">「Analytics」</span>。 </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">瀏覽至 <span class="ignoretag"> <span class="uicontrol"> 產品 </span>  &gt; <span class="uicontrol"> 產品設定檔 </span>  &gt; <span class="uicontrol"> 許可權 </span>  &gt; <span class="uicontrol"> Analytics工具 </span>  &gt; <span class="uicontrol"> 伺服器呼叫使用量 </span> </span> </li> 
+     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">導覽至<span class="ignoretag"> <span class="uicontrol">產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">許可權</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">伺服器呼叫使用量</span> </span> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 

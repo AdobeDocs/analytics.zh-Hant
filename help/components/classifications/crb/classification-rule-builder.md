@@ -5,8 +5,8 @@ feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 | 步驟 3：設定報表套裝與變數。 | [!UICONTROL 分類規則產生器] > &lt;您的規則集> | 套用規則集至報表套裝和變數。 |
 | 步驟 4：[將分類規則新增到規則集](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類規則產生器] > &lt;您的規則集> | 匹配條件和分類，然後指定要針對規則採取的動作。請詳閱[規則的處理方式](/help/components/classifications/crb/classification-quickstart-rules.md)中的資訊。 |
 | 步驟 5：[測試分類規則集](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | 您要在「草稿」模式中編輯規則，以測試驗證的規則。無法在「草稿」模式中執行規則。<br>使用[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)時，此步驟很重要。 |
-| 步驟 6：[啟用有效規則](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 一旦規則有效，就啟動規則集。如果有必要，可以覆寫現有的索引鍵。請參閱[規則的處理方式](/help/components/classifications/crb/classification-quickstart-rules.md)。 |
+| 步驟 6：[啟用有效規則](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 一旦規則有效，就啟動規則集。如果有必要，可以覆寫現有的索引鍵。檢視[規則的處理方式](/help/components/classifications/crb/classification-quickstart-rules.md)。 |
 | 步驟 7 (選用)：[刪除不要的規則](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 刪除規則集裡不要的規則。<br>附註：刪除規則不會刪除已上傳的分類資料。如需刪除已分類的資料，請參閱[刪除分類資料](/help/components/classifications/importer/t-delete-classification-data.md)。 |
 
 >[!NOTE]

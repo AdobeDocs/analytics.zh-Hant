@@ -15,14 +15,14 @@ ht-degree: 65%
 
 每當連結追蹤呼叫傳送至 Adobe 時，資料收集伺服器都會自動偵測 URL。使用 `linkURL` 變數來覆寫偵測到的 URL。
 
-Analysis Workspace中沒有報告此變數的維度。 它會填入 `page_event_var1` 中的欄 [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md).
+Analysis Workspace中沒有報告此變數的維度。 它會填入[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)中的`page_event_var1`欄。
 
 ## 使用Web SDK的連結URL
 
 連結URL已對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `web.webInteraction.URL`
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.linkURL` 或 `data.__adobe.analytics.pev1`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `web.webInteraction.URL`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.linkURL`或`data.__adobe.analytics.pev1`
 
 ## 使用Adobe Analytics擴充功能的連結URL
 

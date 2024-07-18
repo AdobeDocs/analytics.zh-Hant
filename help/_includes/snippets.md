@@ -11,7 +11,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->有效 **2024年1月17日**，Adobe已停止使用的Reports &amp; Analytics及其隨附的報告和功能。 Reports &amp; Analytics及其所有報表和排程目前均已停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。如需在Analysis Workspace中使用報表的相關資訊，請參閱 [使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md).
+>自&#x200B;**2024年1月17日起**，Adobe已停止支援Reports &amp; Analytics及其隨附的報告和功能。 Reports &amp; Analytics及其所有報表和排程目前均已停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。如需有關在Analysis Workspace中使用報表的資訊，請參閱[使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md)。
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
-| 選項 | 功能 |
+| 選項 | 函數 |
 |---------|----------|
 | [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
 | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 ## 資料字典元件資訊 {#dd-component-information}
 
-| 選項 | 功能 |
+| 選項 | 函數 |
 |---------|----------|
 | [!UICONTROL **已核准**] | <p>指出該元件已經過管理員檢閱與核准。</p><p>元件獲得核准後，管理員可以選取&#x200B;**已核准**&#x200B;按鈕來取消核准。</p> |
 | [!UICONTROL **需要核准**] | <p>指出該元件尚未經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;[!UICONTROL **核准**]&#x200B;的選項。選擇此選項會讓使用者看到元件標記為「已核准」。</p> |

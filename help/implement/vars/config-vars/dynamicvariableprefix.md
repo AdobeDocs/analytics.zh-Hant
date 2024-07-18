@@ -19,7 +19,7 @@ ht-degree: 70%
 
 ## 使用Web SDK的動態變數首碼
 
-Web SDK未使用動態變數格式。 您可以改用資料流對應，以使用單一來源欄位填入多個目標欄位。 另請參閱 [使用Web SDK的動態變數](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk) 以取得詳細資訊。
+Web SDK未使用動態變數格式。 您可以改為使用資料流對應，透過單一Source欄位填入多個目標欄位。 如需詳細資訊，請參閱使用Web SDK的[動態變數](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)。
 
 如果您在不遵循結構描述的情況下直接將資料傳送到Adobe Analytics，它會使用以下變數：
 

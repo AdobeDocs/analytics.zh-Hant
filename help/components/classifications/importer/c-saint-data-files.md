@@ -4,7 +4,7 @@ title: 分類資料檔案
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
 source-git-commit: eb6703dc4079678020954984905ee210cbcbbf8f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1787'
 ht-degree: 100%
 

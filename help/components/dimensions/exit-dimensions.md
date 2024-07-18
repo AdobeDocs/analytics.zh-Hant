@@ -13,7 +13,7 @@ ht-degree: 94%
 
 # 退出維度
 
-*此說明頁面說明退出作為 [維度](overview.md). 若要瞭解退出作為量度時的運作方式，請參閱[退出](../metrics/exits.md)量度。*
+*此說明頁面說明退出作為[維度](overview.md)時的運作方式。 若要瞭解退出作為量度時的運作方式，請參閱[退出](../metrics/exits.md)量度。*
 
 退出維度會記錄最後一個維度項目，並將其回溯套用至造訪中所有的點擊。報表套裝設定中的[流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用退出維度。
 

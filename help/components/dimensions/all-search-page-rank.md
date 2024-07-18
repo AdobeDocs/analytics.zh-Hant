@@ -5,14 +5,14 @@ feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '146'
 ht-degree: 85%
 
 ---
 
 # 所有搜尋頁面排名
 
-「所有搜尋頁面排名」 [維度](overview.md) 提供訪客在搜尋結果的哪一頁上點進您網站的分析。 例如，若您的網站出現在搜尋引擎搜尋結果的第二頁，此變數的維度項目則為「搜尋頁面 2」。
+「所有搜尋頁面排名」[維度](overview.md)可讓您深入分析訪客在搜尋結果的哪一頁上點進您的網站。 例如，若您的網站出現在搜尋引擎搜尋結果的第二頁，此變數的維度項目則為「搜尋頁面 2」。
 
 ## 將資料填入此維度中
 

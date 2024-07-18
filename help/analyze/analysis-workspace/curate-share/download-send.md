@@ -26,8 +26,8 @@ ht-degree: 90%
 * 將專案下載為PDF時：
    * 匯出下載可能需要幾分鐘的時間，因為專案會先在Adobe伺服器上重新執行，然後才會以PDF格式呈現。 建議您在 PDF 下載到瀏覽器之前不要退出專案。 不過，您可以在等待時繼續變更專案。 如果呈現 PDF 需要 5 分鐘以上的時間，系統將提示您改為透過電子郵件發送。
    * 下載內容會呈現為單一頁面，未套用任何分頁。
-   * PDF轉譯包含Workspace頁面上的內容。 如果專案有自訂大小的視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
-   * 任何 [超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md) 存在於自由表格中的無法在下載的PDF中運作。
+   * PDF呈現包含Workspace頁面上的內容。 如果專案有自訂大小的視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
+   * 任何存在於自由表格中的[超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)在下載的PDF中都無法運作。
 
 若要將專案下載為CSV或PDF檔案：
 

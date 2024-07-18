@@ -2,16 +2,17 @@
 title: 語音分析維度
 description: 語音分析維度
 feature: Dimensions
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+exl-id: 6e1275c4-3b17-4c65-a308-d420ea1acdf6
+source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 18%
+ht-degree: 32%
 
 ---
 
 # 語音分析維度
 
-| Dimension名稱 | 說明 | 內容資料變數 |
+| 維度名稱 | 說明 | 上下文資料變數 |
 | --- | --- | --- |
 | 語音錯誤型別 | | 待定 |
 | 語音語言 | | 待定 |

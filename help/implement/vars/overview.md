@@ -22,7 +22,7 @@ Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的�
 
 ## 變數與實作方法
 
-Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用Web SDK、使用Adobe Analytics擴充功能和JavaScript適用的AppMeasurement來實作變數的區段。
+Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用Web SDK、使用Adobe Analytics擴充功能和JavaScriptAppMeasurement來實作變數的區段。
 
 以下是有關在 Adobe Analytics 中設定變數的影片：
 
@@ -32,8 +32,8 @@ Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如
 
 Adobe Analytics 發佈的 AppMeasurement 資料庫在傳送資料至 Adobe 時，會遵循特定順序。如果您未按照順序執行這些任務，資料可能會不完整。
 
-1. 若您的網站使用資料層，請先確認所有適用的變數均會填入。例如，若您將 `adobeDataLayer.page.title` 和頁面標題。 如需詳細資訊，請參閱[資料層](../prepare/data-layer.md)。
-2. 使用資料層填入 Analytics 變數。<br/>如果您使用Adobe Experience Platform中的標籤，此工作可透過在兩者之間使用資料元素來完成。 資料元素會填入資料層的值。 例如資料元素 `Page Title` 從資料層變數取得值 `adobeDataLayer.page.title`. <br/>然後您可以使用資料元素來填入Analytics變數。 例如 `eVar4` 從資料元素取得值 `Page Title`. <br/>如需詳細資訊，請參閱 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)， [將資料層物件對應至資料元素](../launch/layer-to-elements.md)、和 [將標籤資料元素對應至Analytics變數](../launch/elements-to-variable.md)
+1. 若您的網站使用資料層，請先確認所有適用的變數均會填入。例如，您以頁面標題填入`adobeDataLayer.page.title`。 如需詳細資訊，請參閱[資料層](../prepare/data-layer.md)。
+2. 使用資料層填入 Analytics 變數。<br/>如果您使用Adobe Experience Platform中的標籤，這項工作會透過在兩者之間使用資料元素來完成。 資料元素會填入資料層的值。 例如，資料元素`Page Title`從資料層變數`adobeDataLayer.page.title`取得值。 <br/>然後您可以使用資料元素來填入Analytics變數。 例如，`eVar4`從資料元素`Page Title`取得值。 <br/>如需詳細資訊，請參閱[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)、[將資料層物件對應至資料元素](../launch/layer-to-elements.md)以及[將標籤資料元素對應至Analytics變數](../launch/elements-to-variable.md)
 3. 最後，呼叫追蹤函式。 大部分的 AppMeasurement 資料庫都使用 `t()` 方法，不過有些行動 SDK 使用 `track()`。呼叫追蹤函數時，Analytics 物件中定義的所有支援變數，都會以影像要求的形式傳送至 Adobe。
 
 ## 非法字元

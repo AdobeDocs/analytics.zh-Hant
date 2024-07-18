@@ -16,7 +16,7 @@ ht-degree: 5%
 與資料來源相關的常見問題。
 
 +++使用資料來源的成本為何？
-資料來源不會產生任何費用，也不會計入伺服器呼叫使用量。 [完整處理資料來源](full-processing-eol.md) 在伺服器呼叫淘汰前計入這些呼叫。
+資料來源不會產生任何費用，也不會計入伺服器呼叫使用量。 [完全處理資料來源](full-processing-eol.md)在停用之前計入伺服器呼叫。
 +++
 
 +++資料來源如何影響eVar的歸因和到期日？
@@ -26,12 +26,12 @@ ht-degree: 5%
 +++
 
 +++資料來源對預設量度（例如頁面檢視、造訪或不重複訪客）有何影響？
-透過資料來源上傳的資料不會影響 [頁面檢視](/help/components/metrics/page-views.md)， [造訪](/help/components/metrics/visits.md)，或 [不重複訪客](/help/components/metrics/unique-visitors.md) 任何方式。 它們影響的唯一預設量度包括 [發生次數](/help/components/metrics/occurrences.md).
+透過資料來源上傳的資料不會以任何方式影響[頁面檢視](/help/components/metrics/page-views.md)、[造訪](/help/components/metrics/visits.md)或[不重複訪客](/help/components/metrics/unique-visitors.md)。 它們影響的唯一預設量度包括[發生次數](/help/components/metrics/occurrences.md)。
 +++
 
 +++可以刪除使用資料來源匯入的資料嗎？
 
-是。您可以使用刪除這項資料 [資料修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). 此外，Adobe強烈建議先將資料來源上傳到測試報表套裝中，再上傳至生產報表套裝。
+是。您可以使用[資料修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)刪除此資料。 此外，Adobe強烈建議先將資料來源上傳到測試報表套裝中，再上傳至生產報表套裝。
 +++
 
 +++一次可匯入多少資料？
@@ -45,13 +45,13 @@ ht-degree: 5%
 +++
 
 +++副檔名是否區分大小寫？
-是。副檔名為 `.TXT` 或 `.FIN` 不會處理。 請確認副檔名全部為小寫。
+是。不會處理副檔名為`.TXT`或`.FIN`的檔案。 請確認副檔名全部為小寫。
 +++
 
 +++我可以新增多少欄到資料來源檔案？
-您可以視需要在資料來源檔案中加入儘可能多的欄（如果全部都是有效欄）。 另請參閱 [檔案格式](file-format.md) 以取得有效的變數/欄名稱清單。
+您可以視需要在資料來源檔案中加入儘可能多的欄（如果全部都是有效欄）。 如需有效的變數/資料行名稱清單，請參閱[檔案格式](file-format.md)。
 +++
 
 +++我可以不使用Adobe提供的FTP位置而使用資料來源嗎？
-您可以使用 [資料來源API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)，可讓您直接將API呼叫傳送至Adobe。 這些API呼叫包括 `UploadData` 方法，可讓您透過JSON物件裝載傳送資料。
+您可以使用[資料來源API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/)，讓您直接將API呼叫傳送給Adobe。 這些API呼叫包含`UploadData`方法，可讓您透過JSON物件裝載傳送資料。
 +++

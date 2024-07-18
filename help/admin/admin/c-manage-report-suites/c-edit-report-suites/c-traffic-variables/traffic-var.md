@@ -23,10 +23,10 @@ ht-degree: 34%
 
 ## 新增及啟用流量變數報表
 
-1. 選取 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**，然後選取報表套裝。
-1. 選取 **[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量變數]**.
-1. 選取 **[!UICONTROL 新增]**，然後為報表命名。
-1. 在 [!UICONTROL **已啟用**] 欄，選取 [!UICONTROL **已啟用**] 從下拉式功能表1.選取 **[!UICONTROL 儲存]**.
+1. 選取「**[!UICONTROL Analytics]**」>「**[!UICONTROL 管理員]**」>「**[!UICONTROL 報表套裝]**」，然後選取報表套裝。
+1. 選取&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量變數]**。
+1. 選取「**[!UICONTROL 新增]**」，然後為報表命名。
+1. 在&#x200B;[!UICONTROL **已啟用**]&#x200B;欄中，從下拉式功能表選取&#x200B;[!UICONTROL **已啟用**]。1選取&#x200B;**[!UICONTROL 儲存]**。
 
 ## 停用流量變數報表
 
@@ -34,18 +34,18 @@ ht-degree: 34%
 
 若要停用流量變數報表：
 
-1. 選取 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**，然後選取報表套裝。
-1. 選取 **[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量變數]**.
+1. 選取「**[!UICONTROL Analytics]**」>「**[!UICONTROL 管理員]**」>「**[!UICONTROL 報表套裝]**」，然後選取報表套裝。
+1. 選取&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量變數]**。
 1. 選取您要停用的流量變數報表。
-1. 在 [!UICONTROL **已啟用**] 欄，選取 [!UICONTROL **已停用**] （從下拉式功能表）。
-1. 選取&#x200B;[!UICONTROL **「儲存」**]。
+1. 在&#x200B;[!UICONTROL **已啟用**]&#x200B;欄中，從下拉式功能表中選取&#x200B;[!UICONTROL **已停用**]。
+1. 選取「[!UICONTROL **儲存**]」。
 
 ## 重新命名流量變數報表
 
-1. 選取 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**，然後選取報表套裝。
-1. 選取 **[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量變數]**.
+1. 選取「**[!UICONTROL Analytics]**」>「**[!UICONTROL 管理員]**」>「**[!UICONTROL 報表套裝]**」，然後選取報表套裝。
+1. 選取&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量變數]**。
 1. 選取您要重新命名的流量變數報表。
-1. 在 [!UICONTROL **名稱**] 欄，為報表指定新名稱。
-1. 選取&#x200B;[!UICONTROL **「儲存」**]。
+1. 在&#x200B;[!UICONTROL **名稱**]&#x200B;欄中，指定報表的新名稱。
+1. 選取「[!UICONTROL **儲存**]」。
 
-另請參閱 [prop](/help/implement/vars/page-vars/prop.md) （在實施使用手冊中）。
+另請參閱實作使用手冊中的[prop](/help/implement/vars/page-vars/prop.md)。

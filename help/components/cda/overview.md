@@ -50,7 +50,7 @@ ht-degree: 90%
 * Adobe Analytics 報告套裝無法對應至多個組織識別碼。由於 CDA 會連結一個指定報表套裝中的裝置，因此 CDA 無法用於連結跨多個組織識別碼的資料。
 * CDA 使用複雜的處理管道，其中包含多個相依元件。 這會和基本 Analytics 報表工作流程並行執行。因此，來源報表套裝和 CDA 虛擬報表套裝之間約 1% 的點擊總數差距是預期的狀況。 
 * Cross-Device Analytics 使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。例如，它們目前並不支援行銷管道變數。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)和[報表時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations)。
-* 專用圖表是使用與使用者相同的ID同步 [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#customer-attributes) 在Experience Cloud和Adobe Analytics中找到的功能。 不過，CDA虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在CDA虛擬報表套裝中使用。
+* 專用圖表使用與Experience Cloud和Adobe Analytics中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#customer-attributes)功能所使用的相同ID同步功能。 不過，CDA虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在CDA虛擬報表套裝中使用。
 * CDA 目前與 A4T 不相容。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * Adobe 的主動監控 CDA 拚接程序僅限於生產報表套裝。

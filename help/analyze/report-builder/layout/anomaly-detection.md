@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
 source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 95%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-Report Builder 將這些值套用至所選取度量。例如，若您選取「頁面檢視」度量並套用異常偵測，則&#x200B;*`Page Views Lower Bound`*&#x200B;度量已使用。
+Report Builder 將這些值套用至所選取度量。例如，如果您選取「頁面檢視」量度並套用異常偵測，則會使用&#x200B;*`Page Views Lower Bound`*&#x200B;量度。
 
 **如何計算異常偵測**
 

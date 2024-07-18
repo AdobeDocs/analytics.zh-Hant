@@ -27,8 +27,8 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 
 Prop會對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75`  — 清單屬性指定於 [單獨的欄位集](#list-props-web-sdk).
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；或 `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75`  — 清單屬性包含在這些欄位中。
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm._experience.analytics.customDimensions.props.prop1` - `xdm._experience.analytics.customDimensions.props.prop75` — 清單屬性是在[獨立的欄位集](#list-props-web-sdk)中指定的。
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75`；或`data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` — 清單屬性包含在這些欄位中。
 
 ## 使用 Adobe Analytics 擴充功能的屬性
 
@@ -38,7 +38,7 @@ Prop會對應至下列變數：
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「prop」]區段。
 
 您可以將 Prop 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。
@@ -65,9 +65,9 @@ s.prop1 = "Example custom value";
 
 ### 使用 Web SDK 設定清單變數 {#list-props-web-sdk}
 
-若使用 [**xdm物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單屬性會對應至 `xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK 會自動使用報表套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單屬性會對應至`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 會自動使用報表套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
 
-若使用 [**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單prop會使用與標準prop相同的欄位，並遵循AppMeasurement語法。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則清單prop會使用與標準prop相同的欄位，並遵循AppMeasurement語法。
 
 ### 使用 Adobe Analytics 擴充功能和 AppMeasurement 來設定清單屬性
 

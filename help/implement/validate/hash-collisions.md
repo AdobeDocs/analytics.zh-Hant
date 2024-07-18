@@ -24,7 +24,7 @@ Adobe Analytics中的Dimension會收集字串值。 有時這些字串長達數�
 
 ## 雜湊碰撞的機率
 
-Adobe Analytics對大部分的維度使用32位元雜湊，表示有2個<sup>32</sup> 可能的雜湊組合（約43億）。 每個月都會為每個維度建立新的雜湊表。 根據唯一值數目，發生雜湊碰撞的大致機率如下。 這些賠率是根據單一維度的單一月計算。
+Adobe Analytics對大部分的維度使用32位元雜湊，這表示有2<sup>32</sup>個可能的雜湊組合（約43億）。 每個月都會為每個維度建立新的雜湊表。 根據唯一值數目，發生雜湊碰撞的大致機率如下。 這些賠率是根據單一維度的單一月計算。
 
 | 唯一值 | 賠率 |
 | --- | --- |
@@ -35,13 +35,13 @@ Adobe Analytics對大部分的維度使用32位元雜湊，表示有2個<sup>32<
 
 {style="table-layout:auto"}
 
-類似於 [生日悖論](https://en.wikipedia.org/wiki/Birthday_problem)，雜湊碰撞發生的可能性會隨著唯一值數量的增加而大幅增加。 該維度至少會有100萬個不重複值，且可能至少有100個雜湊碰撞。
+與[生日悖論](https://en.wikipedia.org/wiki/Birthday_problem)類似，雜湊碰撞的可能性會隨著唯一值數目的增加而大幅增加。 該維度至少會有100萬個不重複值，且可能至少有100個雜湊碰撞。
 
 ## 緩解雜湊碰撞
 
 大部分的雜湊碰撞都會發生於兩個不常見的值，而這些值對報表沒有實質影響。 即使雜湊與通用和不常用的值發生衝突，結果也微不足道。 但是，在少數情況下，當兩個常用的值遇到雜湊碰撞時，可以清楚看到其影響。 Adobe建議採取以下措施減少其在報表中的影響：
 
 * **變更日期範圍**：雜湊表格每個月都會變更。 將日期範圍變更為跨越另一個月，可能會為每個值提供互不抵觸的不同雜湊。
-* **減少不重複值的數量**：您可以調整實施或使用 [處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 以協助減少維度收集的不重複值數量。 例如，如果您的維度收集URL，您可以移除查詢字串或通訊協定。
+* **減少唯一值的數量**：您可以調整實作或使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)，協助減少維度所收集的唯一值的數量。 例如，如果您的維度收集URL，您可以移除查詢字串或通訊協定。
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

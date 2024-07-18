@@ -5,7 +5,7 @@ feature: Privacy
 role: Admin
 exl-id: c364b364-6d77-4b2c-88ab-65daf812f242
 source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%
 

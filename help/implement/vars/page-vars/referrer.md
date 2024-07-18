@@ -19,10 +19,10 @@ ht-degree: 80%
 
 反向連結會對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webReferrer.URL`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.web.webReferrer.URL`
 * [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.referrer`
 
-Web SDK會自動包含 `web.webReferrer.URL` 每個傳送的事件時（如果有的話）。
+Web SDK會在每個已傳送的事件上自動包含`web.webReferrer.URL` （如果有的話）。
 
 ## 使用Adobe Analytics擴充功能的反向連結
 
@@ -32,7 +32,7 @@ Web SDK會自動包含 `web.webReferrer.URL` 每個傳送的事件時（如果�
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「反向連結」]區段。
 
 您可以將反向連結設為任何字串值，包括資料元素。

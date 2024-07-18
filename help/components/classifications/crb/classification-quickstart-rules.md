@@ -57,13 +57,13 @@ about_classification_rules.xml
 
 ## 關於規則的重要資訊
 
-* 指定 [群組許可權](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hant) 中的分類 [!UICONTROL 管理工具].
+* 在[!UICONTROL 管理工具]中指定分類的[群組許可權](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hant)。
 
 * **規則運算式**：[分類規則中的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)底下提供說明。
 
 * **報告套裝**：至少要選取一個報告套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報告套裝。
 
-  當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。(此 [key](/help/components/classifications/importer/c-saint-data-files.md) 是要分類的變數，或是分類上傳表格中的第一欄)。
+  當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。（[索引鍵](/help/components/classifications/importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄）。
 
 * **規則優先順序**：如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。請參閱[關於規則優先順序](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
@@ -76,11 +76,11 @@ about_classification_rules.xml
 
 ## 規則什麼時候不會將索引鍵分類？
 
-當您啟動規則時，可以覆寫現有的分類。在下列情況下，分類規則不會將 [key](/help/components/classifications/importer/c-saint-data-files.md)（變數）分類：
+當您啟動規則時，可以覆寫現有的分類。在下列情況下，分類規則不會分類[索引鍵](/help/components/classifications/importer/c-saint-data-files.md)（變數），如果：
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」。
 
-  您可以在下列情況覆寫分類： [新增和啟用](/help/components/classifications/crb/classification-quickstart-rules.md) 規則，以及啟用Data Connectors整合時覆寫分類。 (若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
+  [新增和啟用](/help/components/classifications/crb/classification-quickstart-rules.md)規則以及啟用Data Connectors整合時，您可以覆寫分類。 (若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
 
 * 覆寫索引鍵時，在指定的時間範圍後，即使在您啟用「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」後，分類的索引鍵仍未在資料中顯示。
 * 索引鍵並未分類，而且在約一個月之前開始的時間範圍之後，索引鍵從未傳入 [!DNL Adobe Analytics]。
@@ -151,7 +151,7 @@ regex_classification_rules.xml
 
 | 規則運算式 | 字串或匹配結果 | 對應的匹配群組 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`： `em:JuneSale:20130601`  `$1`：em  `$2`： JuneSale  `$3`：20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`： `em:JuneSale:20130601` `$1`： em `$2`： JuneSale `$3`： 20130601 |
 | 建立語法 | `^` = 以該行開始 () = 將字元分組，並且讓您以括號擷取相符字元。`(.+)` = 擷取一個 ( .) 字元和 ( + ) 任何其他項目 \ = 字串的開始。`$` = 指示前面的字元 (或字元群組) 是行裡面最後一個。 |
 
 關於規則運算式中的字元代表意義的詳細資訊，請參閱[規則運算式 - 參考表格](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
@@ -198,12 +198,12 @@ regex_classification_rules.xml
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |--- |--- |--- |--- |
-| 規則運算式 — 用於比對字串 `a:b` | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 規則運算式 — 用於比對字串 `a:b` | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 規則運算式 — 用於比對字串 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 規則運算式 — 用於比對字串 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 規則運算式 — 用於比對字串 `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 規則運算式 — 用於比對字串 `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 比對字串`a:b`的規則運算式 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 比對字串`a:b`的規則運算式 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 比對字串`a:b:c`的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 比對字串`a:b:c`的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 比對字串`a:b:c`的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 比對字串`a:b:c:d`的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 規則運算式 - &quot;Does Not Contain&quot; 範例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
-如果使用者搜尋 *`Cowboys fantasy Tony Romo`*，術語 *`Player`* 會進行分類，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
+如果使用者搜尋&#x200B;*`Cowboys fantasy Tony Romo`*，會分類字詞&#x200B;*`Player`*，因為它符合「設定分類」欄中顯示的最後一個指定分類。
 
 同樣地，假設您在一個規則集裡面為下列搜尋詞設定兩個規則：
 
@@ -294,7 +294,7 @@ rule_priority.xml
 | 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
-使用者搜尋 *`Cowboys vs. Broncos`*. 如果規則產生器在規則比對中發現衝突，則會將第二個規則的分類 (Denver) 套用到這項搜尋。
+使用者搜尋&#x200B;*`Cowboys vs. Broncos`*。 如果規則產生器在規則比對中發現衝突，則會將第二個規則的分類 (Denver) 套用到這項搜尋。
 
 ## 將分類規則新增至規則集 {#add-classification-to-rule-set}
 
@@ -308,7 +308,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在這個程序中，您必須套用規則到一個或多個報告套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有超過100個規則，請考慮使用 [子分類](/help/components/classifications/c-sub-classifications.md).
+>在這個程序中，您必須套用規則到一個或多個報告套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有超過100個規則，請考慮使用[子分類](/help/components/classifications/c-sub-classifications.md)來簡化規則集。
 
 若要新增或編輯分類規則：
 
@@ -380,7 +380,7 @@ t_classifications_test_rule.xml
    * 追蹤程式碼
    * 搜尋關鍵字或片語
 
-   另請參閱 [分類規則裡的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md) 以取得有關測試規則運算式的資訊。
+   如需有關測試規則運算式的資訊，請參閱分類規則中的[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)。
 1. 按一下&#x200B;**[!UICONTROL 「執行測試」]**。
 
    符合的規則會在「[!UICONTROL 結果]」表格裡顯示。

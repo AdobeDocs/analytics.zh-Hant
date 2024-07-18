@@ -4,7 +4,7 @@ description: 使用分類匯入工具時的常見上傳問題。
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 

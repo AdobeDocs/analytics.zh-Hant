@@ -5,8 +5,8 @@ feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 56%
+source-wordcount: '404'
+ht-degree: 59%
 
 ---
 
@@ -20,15 +20,15 @@ Data Warehouse架構中的獨特處理可允許某些在Adobe Analytics的其他
 
 ### 專門支援的維度
 
-* **EXPERIENCE CLOUDID**：針對使用Experience CloudID服務(ECID)的實作，128位元數字由兩個串連的64位元數字組成，兩個數字皆補至19位數。
+* **Experience Cloud識別碼**：對於使用Experience Cloud識別碼服務(ECID)的實作，由兩個串連的64位元數字組成的128位元數字補至19位數。
 * **頁面URL**：點選發生的頁面URL。
-* **購買ID**：購買的唯一識別碼，請使用purchaseID變數來設定。
-* **訪客ID**：提供訪客的唯一識別碼。 此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+* **購買ID**：購買的唯一識別碼，請使用purchaseID變數設定。
+* **訪客識別碼**：提供訪客的唯一識別碼。 此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ### 專門支援的量度
 
-* **造訪**：在Data Warehouse中，此量度會排除非永久性Cookie造訪。
-* **造訪 — 所有訪客**：在Data Warehouse中，此量度與Adobe Analytics內其他工具中的「造訪」量度更接近。
+* **造訪次數**：在Data Warehouse內容中，此量度會排除非永久性Cookie造訪次數。
+* **瀏覽次數 — 所有訪客**：在Data Warehouse內容中，此量度與Adobe Analytics內其他工具中的瀏覽量度更接近。
 
 ## Data Warehouse 中不支援的支援元件
 
@@ -67,11 +67,11 @@ Data Warehouse 中不支援某些維度和量度。
    * 重新載入
    * 單次存取
    * 「逗留時間」量度
-* 參與率量度（如所述） [建立「參與率」量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* 參與率量度（如[建立「參與率」量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)中所述）
 
 ### 以不同方式支援的Dimension
 
-支援下列以時間為基礎的維度。 但是，使用這些維度時，日期的輸出是非標準值。 具體來說，年份會以1900為單位進行偏移，而月份則以零為基準。
+支援下列以時間為基礎的維度。 但使用這些維度時，日期輸出不是使用標準格式。具體來說，年份會以1900為單位進行偏移，而月份則以零為基準。
 
 * 年
 * 季

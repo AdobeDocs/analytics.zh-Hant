@@ -19,24 +19,24 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 >
 >變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報告中的不重複訪客計數可能會暫時激增。
 
-## 使用Web SDK擴充功能的邊緣網域
+## 使用Web SDK擴充功能的Edge網域
 
-Web SDK使用 [!UICONTROL 邊緣網域] 以處理追蹤伺服器和安全追蹤伺服器。 您可以設定所需的 [!UICONTROL 邊緣網域] 設定Web SDK擴充功能時的值。
+Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺服器。 設定Web SDK擴充功能時，您可以設定所要的[!UICONTROL Edge網域]值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 設定所要的 **[!UICONTROL 邊緣網域]** 文字欄位。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 設定所需的&#x200B;**[!UICONTROL Edge網域]**&#x200B;文字欄位。
 
-另請參閱 [設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant) 詳細資訊，請參閱Web SDK檔案。
+如需詳細資訊，請參閱Web SDK檔案中的[設定Adobe Experience Platform Web SDK擴充功能](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant)。
 
 >[!TIP]
 >
->如果您的組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用中包含的相同值 `trackingServerSecure` (或 `trackingServer`)。
+>如果您的組織從AppMeasurement或Analytics擴充功能實作移至Web SDK，此欄位可使用`trackingServerSecure` （或`trackingServer`）中包含的相同值。
 
 ## Edge網域手動實作Web SDK
 
-設定SDK，使用 [`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant). 欄位是字串，可決定要將資料傳送至哪個網域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)設定SDK。 欄位是字串，可決定要將資料傳送至哪個網域。
 
 ```json
 alloy("configure", {

@@ -4,7 +4,7 @@ title: 設定 Advertising Analytics
 feature: Admin Tools
 exl-id: 2b107f7a-fd24-458a-a1cb-af42f9d9bfd6
 source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 

@@ -1,6 +1,6 @@
 ---
-title: 使用Adobe Experience Platform Edge Network Server API實作Adobe Analytics
-description: 使用Adobe Experience Platform Edge Network Server API傳送資料給Adobe Analytics。
+title: 使用Adobe AnalyticsEdge Network伺服器API實作Adobe Experience Platform
+description: 使用Adobe Experience PlatformEdge Network伺服器API傳送資料給Adobe Analytics。
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -11,11 +11,11 @@ ht-degree: 33%
 
 ---
 
-# 使用Adobe Experience Platform Edge Network Server API實作Adobe Analytics
+# 使用Adobe AnalyticsEdge Network伺服器API實作Adobe Experience Platform
 
-從IoT裝置、機上盒、案頭應用程式等裝置收集資料時，您通常使用Experience PlatformEdge Network Server API在伺服器端收集資料，而非使用者端。 然後您將該資料傳送至Edge網路和Adobe Analytics等服務。
+從IoT裝置、機上盒、案頭應用程式等裝置收集資料時，您通常會使用Experience PlatformEdge Network伺服器API來收集伺服器端資料，而非使用者端。 然後，將該資料傳送至Edge網路和Adobe Analytics等服務。
 
-如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考量邊緣網路伺服器API。 另請參閱 [驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html) 以取得詳細資訊。
+如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考慮Edge Network伺服器API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)。
 
 實施任務的高層級概觀：
 
@@ -35,20 +35,20 @@ ht-degree: 33%
 
 <tr>
 <td>2</td>
-<td><b>設定綱要</b>. 為了標準化資料彙集以跨利用 Adobe Experience Platform 的應用程式使用，Adobe 建立了開放且公開記錄標準，即體驗資料模型 (XDM)。</td>
+<td><b>設定結構描述</b>。 為了標準化資料彙集以跨利用 Adobe Experience Platform 的應用程式使用，Adobe 建立了開放且公開記錄標準，即體驗資料模型 (XDM)。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant">結構描述UI總覽</a></td>
 </tr>
 
 <tr>
 <td>3</td>
-<td><b>設定資料流</b>。資料流代表使用Adobe Experience Platform Edge Network API的API時的伺服器端設定。</td>
+<td><b>設定資料流</b>。資料流代表使用Adobe Experience PlatformEdge NetworkAPI的API時的伺服器端設定。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">設定資料流<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
-<td><b>實作及測試資料收集</b> 使用單一事件資料和批次事件資料收集API。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">單一事件資料收集</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件資料收集</a>
+<td><b>使用單一事件資料和批次事件資料收集API實作及測試資料收集</b>。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">單一事件資料集合</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件資料集合</a>
 </tr>
 
 <td>5</td>
@@ -59,5 +59,5 @@ ht-degree: 33%
 
 </table>
 
-另請參閱 [Edge Network伺服器API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hant)、和範例 [與Adobe Analytics整合](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=zh-Hant) 以取得詳細資訊。
+如需詳細資訊，請參閱[Edge Network伺服器API檔案](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=zh-Hant)，以及範例[與Adobe Analytics整合](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=zh-Hant)。
 

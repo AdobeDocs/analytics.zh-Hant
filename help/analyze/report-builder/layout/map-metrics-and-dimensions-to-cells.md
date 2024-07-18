@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 72%
+source-wordcount: '671'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 在將項目映射至試算表之前，請確認試算表的保護機制已解除。如果工作表的保護機制禁止任何使用者動作，您將無法選擇試算表中的儲存格。因此，請先解除工作表的保護機制，然後再新增儲存格映射。
 
-可對映的區域和儲存格數量會根據您選取的量度、粒度、日期範圍及您設定的篩選而有所不同。 例如，如果您選取 [!UICONTROL 網站量度] > [!UICONTROL 流量報表]，設定 [!UICONTROL 周] 粒度，並設定日期範圍 [!UICONTROL 過去2週]，系統會提示您對映三個儲存格（使用時） [!UICONTROL 自訂配置])在 [!UICONTROL 請求精靈：步驟2]. 該請求會擷取第一週的資料及第二週的資料，其中每個資料點值等於頁面檢視的值。 您的第三個儲存格可作為列標題，使用[!UICONTROL 「格式選項」]進行設定。
+可對映的區域和儲存格數量會根據您選取的量度、粒度、日期範圍及您設定的篩選而有所不同。 例如，如果您選取[!UICONTROL 網站度量] > [!UICONTROL 流量報表]、設定[!UICONTROL 周]粒度，並設定[!UICONTROL 最近2週]的日期範圍，系統會在[!UICONTROL 請求精靈：步驟2]中提示您對映三個儲存格（使用[!UICONTROL 自訂配置]時）。 該請求會擷取第一週的資料及第二週的資料，其中每個資料點值等於頁面檢視的值。 您的第三個儲存格可作為列標題，使用[!UICONTROL 「格式選項」]進行設定。
 
 如果您誤將不相容的位置對應到試算表上，Report Builder會發出錯誤。
 
@@ -26,11 +26,11 @@ ht-degree: 72%
 * [選擇儲存格的技巧](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [映射時發生的問題](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
-## 選擇儲存格範圍 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
+## 選取儲存格範圍 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 在「[!UICONTROL 請求精靈: 步驟 2]」中，當您啟用趨勢化請求的「[!UICONTROL 自訂配置]」時，可以將請求映射至某個範圍內的儲存格。
 
-按一下&#x200B;**[!UICONTROL 「範圍選擇器」]** ![select_cell_icon.png](assets/select_cell_icon.png)，位於要映射的項目旁。
+按一下您要對應的專案旁的&#x200B;**[!UICONTROL 範圍選擇器]** ![select_cell_icon.png](assets/select_cell_icon.png)。
 
 * **範圍內的所有儲存格：**&#x200B;要求您為[!UICONTROL 「自訂配置」]樣式的請求選擇一組儲存格。
 * **範圍的第一個儲存格：**&#x200B;可讓您選擇範圍內左上角的儲存格，並顯示[!UICONTROL 「範圍」]方向以便指定水平或垂直方向的輸入和輸出儲存格 (欄或列)。使用此選項可讓您Report Builder選取儲存格。
@@ -57,7 +57,7 @@ ht-degree: 72%
 
 ## 疑難排解對應問題{#section_CC1BCF841291447EB3A994EB08F3A099}
 
-如果您錯誤地選擇對映到已有作用中對應的儲存格，範圍選擇器圖示旁邊的文字方塊中就不會出現任何儲存格參照。 當您按一下 [!UICONTROL 確定]，Report Builder會顯示錯誤， *選取的範圍與其他請求的範圍相交。 請變更您的選擇。*
+如果您錯誤地選擇對映到已有作用中對應的儲存格，範圍選擇器圖示旁邊的文字方塊中就不會出現任何儲存格參照。 當您按一下[!UICONTROL 確定]時，Report Builder會顯示錯誤，*選取的範圍與另一個要求的範圍相交。 請變更您的選擇。*
 
 * 如果您仍然需要使用該儲存格，請在需要的儲存格上按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL 「刪除請求」]**。
 

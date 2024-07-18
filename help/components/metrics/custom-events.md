@@ -5,7 +5,7 @@ feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 83%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 83%
 
 *此說明頁面說明自訂事件作為量度時的運作方式。若要瞭解自訂事件作為實施作業變數時的運作方式，請參閱「實施作業」使用指南中的[事件概觀](/help/implement/vars/page-vars/events/events-overview.md)。*
 
-自訂事件 [量度](overview.md) 顯示在影像要求中設定特定自訂事件的點選次數。 這些量度可用來深入分析每個組織的特定事件，因此對許多實施作業而言都十分重要。
+自訂事件[量度](overview.md)會顯示影像要求中設定特定自訂事件的點選次數。 這些量度可用來深入分析每個組織的特定事件，因此對許多實施作業而言都十分重要。
 
 ## 此量度的計算方式
 

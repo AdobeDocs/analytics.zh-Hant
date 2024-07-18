@@ -14,7 +14,7 @@ ht-degree: 72%
 
 # 報表時間處理功能
 
-[!UICONTROL 報表時間處理功能] 是虛擬報表套裝設定，可讓您以非破壞性的追溯方式處理Analysis Workspace中的資料。
+[!UICONTROL 報表時間處理]是虛擬報表套裝設定，可讓Analysis Workspace中的資料以非破壞性的追溯方式處理。
 
 [!UICONTROL 報表時間處理]僅會影響虛擬報表套裝中的資料，不會影響基本報表套裝中的任何資料或資料集合。 您可透過下列圖表，詳細了解[!UICONTROL 報表時間處理]與傳統 Analytics 處理功能的差異：
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 
 此處理架構可提供更具彈性的報告選項。例如，您可以採用非破壞性方式，將造訪逾時期間變更為任何時間長度，而這些變更會反映在整個報告期間的eVar持續性和區段容器中。 此外，您可以建立任意數量的虛擬報表套裝，並根據相同的基本報表套裝，讓每個套裝使用不同的「報表時間處理功能」選項，而不變更基本報表套裝中的任何資料。
 
-[!UICONTROL 報表時間處理功能] 也可讓Analytics防止背景點選開始新的造訪，並可讓 [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) 以便在每次應用程式啟動事件被觸發時，開始新的造訪。
+[!UICONTROL 報表時間處理]也可讓Analytics防止背景點選開始新的造訪，並可讓[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant)在每次應用程式啟動事件被觸發時，開始新的造訪。
 
 ## 設定選項
 
@@ -58,7 +58,7 @@ ht-degree: 72%
 * [**首次購買間隔天數**](/help/components/dimensions/days-before-first-purchase.md)
 * [**上次購買間隔天數**](/help/components/dimensions/days-since-last-purchase.md)
 * [**上次造訪間隔天數**](/help/components/dimensions/days-since-last-visit.md)
-* **登入頁面原始**
+* **原始登入頁面**
 * **線性配置eVar**
 * **清單變數**
 * [**「行銷管道」維度**](/help/components/dimensions/marketing-channel.md)
@@ -73,16 +73,16 @@ ht-degree: 72%
 以下為根據選取之「報表時間處理功能」設定，而受影響的維度與量度清單：
 
 * 若啟用「避免背景點擊數開始一次新造訪」，便會發生下列變更。如需詳細資訊，請參閱[內容感知作業化](vrs-mobile-visit-processing.md)。
-   * [**跳出數**](/help/components/metrics/bounces.md) / [**跳出率：**](/help/components/metrics/bounce-rate.md) 系統不會將前景點選未追蹤的背景點選視為跳出，也不會對跳出率產生任何影響。
+   * [**彈回數**](/help/components/metrics/bounces.md) / [**彈回率：**](/help/components/metrics/bounce-rate.md)&#x200B;系統不會將前景點選未追蹤的背景點選視為彈回，也不會對彈回率產生任何影響。
    * [**每次造訪逗留秒數：**](/help/components/metrics/time-spent-per-visit.md)&#x200B;只有包含前景點擊的造訪會歸入此量度。
    * **每次造訪逗留時間：**&#x200B;只有包含前景點擊的造訪會歸入此量度。
-   * [**登入量度**](/help/components/metrics/entries.md) / [**退出量度：**](/help/components/metrics/exits.md) 此維度中只會顯示包含前景點選的登入與退出造訪。
-   * [**登入維度**](/help/components/dimensions/entry-dimensions.md) / [**退出維度：**](/help/components/dimensions/exit-dimensions.md) 此維度中只會顯示包含前景點選的登入與退出造訪。
+   * [**登入量度**](/help/components/metrics/entries.md) / [**退出量度：**](/help/components/metrics/exits.md)&#x200B;此維度中只會顯示包含前景點選的登入與退出造訪。
+   * [**登入維度**](/help/components/dimensions/entry-dimensions.md) / [**退出維度：**](/help/components/dimensions/exit-dimensions.md)&#x200B;此維度中只會顯示包含前景點選的登入與退出造訪。
    * [**獨特訪客量度：**](/help/components/metrics/unique-visitors.md)&#x200B;獨特訪客不包含在報表日期範圍內只有背景點擊的訪客。
 * [**造訪數：**](/help/components/metrics/visits.md)&#x200B;造訪數會反映虛擬報表套裝的所有設定，而這些設定可能會與基本報表套裝有所差異。
 * **具有事件 ID 的序列化事件：**&#x200B;使用事件序列化與事件 ID 的事件，只會針對訪客在報表日期範圍內發生的事件刪除重複項目。由於「報表時間處理」日期範圍的緣故，不會針對所有日期或訪客刪除這些事件的全域重複項目。
-* **購買** / [**收入**](/help/components/metrics/revenue.md) / [**訂購**](/help/components/metrics/orders.md) / [**單位：**](/help/components/metrics/units.md) 使用購買ID時，這些量度僅會因為「報表時間處理」日期範圍的緣故，針對報表日期範圍內某訪客所發生的重複購買ID刪除重複的專案，而非針對所有日期或所有訪客刪除全域的重複專案。
-* [**非銷售eVar**](/help/components/dimensions/evar.md) / **保留的eVar：** 由於「報表時間處理」日期範圍的緣故，只有在報表日期範圍內設定值時，在eVar中設定的值才會持續存在。 此外，如果持續存在期間跨越日光節約時間轉換，則過期時間可能會提前或延後一小時。
-* [**銷售eVar**](/help/components/dimensions/evar-merchandising.md) / **保留的eVar：** 請參閱上文。 此外，針對轉換語法方面，其中設定為「any event」(任何事件) 的綁定項目，將會改用「any hit」(任何點擊)。
+* **購買** / [**收入**](/help/components/metrics/revenue.md) / [**訂單**](/help/components/metrics/orders.md) / [**單位：**](/help/components/metrics/units.md)&#x200B;使用購買ID時，這些量度僅會因為「報表時間處理」日期範圍的緣故，針對報表日期範圍內某訪客所發生的重複購買ID刪除重複的專案，而非針對所有日期或所有訪客刪除全域的重複專案。
+* [**非銷售eVars**](/help/components/dimensions/evar.md) / **保留的eVars：**&#x200B;在報表中設定的值只有在因為「報表時間處理」日期範圍的緣故而設定於報表日期範圍內時，才會持續存在eVar。 此外，如果持續存在期間跨越日光節約時間轉換，則過期時間可能會提前或延後一小時。
+* [**銷售eVar**](/help/components/dimensions/evar-merchandising.md) / **保留的eVar：**&#x200B;請參閱上文。 此外，針對轉換語法方面，其中設定為「any event」(任何事件) 的綁定項目，將會改用「any hit」(任何點擊)。
 * [**點擊類型：**](/help/components/dimensions/hit-type.md)&#x200B;此維度會將點擊類型指定為前景或背景。
 * **具有 (低流量) 或「已超出不重複限制」的維度：**(低流量) 條列項目在使用報告時間處理時的決定稍有不同，並且不能保證符合在基本報表套裝上產生報表時所觀察到的結果。不屬於低流量的Dimension條列專案不能保證代表該條列專案的100%資料。 維度中存在的唯一值數量越多，這些差異就越明顯。

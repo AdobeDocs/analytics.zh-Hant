@@ -12,11 +12,11 @@ ht-degree: 94%
 
 # 點擊深度
 
-「點選深度」 [維度](overview.md) 報告指定的點選在造訪中的深入程度。 此維度十分有助於瞭解訪客在您的網站上執行動作時深入造訪的程度。點擊深度會計算所有類型的點擊，包括頁面檢視 ([`t()`](/help/implement/vars/functions/t-method.md)) 和連結追蹤點擊 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+「點選深度」[維度](overview.md)會報告指定的點選在造訪中的深入程度。 此維度十分有助於瞭解訪客在您的網站上執行動作時深入造訪的程度。點擊深度會計算所有類型的點擊，包括頁面檢視 ([`t()`](/help/implement/vars/functions/t-method.md)) 和連結追蹤點擊 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報告套裝包含資料，此維度即會運作。
 
 ## 維度項目
 

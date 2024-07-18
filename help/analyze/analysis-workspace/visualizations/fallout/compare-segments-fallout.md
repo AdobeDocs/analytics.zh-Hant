@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
 source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 96%
+source-wordcount: '433'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 
 ## 比較流失率中的區段 {#section_E0B761A69B1545908B52E05379277B56}
 
-您可以在「流失」視覺效果中比較無數區段。（請注意，以下影片說明您最多可以比較3個區段，這是錯誤的。）
+您可以在「流失」視覺效果中比較無數區段。 （請注意，以下影片說明您最多可以比較3個區段，這是錯誤的。）
 
 以下是有關比較流失中的區段的影片：
 

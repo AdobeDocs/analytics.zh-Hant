@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # 色彩深度
 
-「色彩深度」 [維度](overview.md) 報告裝置支援的色彩數量。 此維度可用來判斷有多少流量源自不支援 1600 萬色的裝置。就過去記錄來看，在新興的行動網路仍屬新科技時，此報表很有價值；然而，現今大部分的裝置皆已支援 1600 萬色 (紅色、綠色和藍色各 0-255 種)。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+「色彩深度」[維度](overview.md)會報告裝置支援的色彩數量。 此維度可用來判斷有多少流量源自不支援 1600 萬色的裝置。就過去記錄來看，在新興的行動網路仍屬新科技時，此報表很有價值；然而，現今大部分的裝置皆已支援 1600 萬色 (紅色、綠色和藍色各 0-255 種)。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## 將資料填入此維度中
 

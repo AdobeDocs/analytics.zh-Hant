@@ -5,14 +5,14 @@ feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 91%
+source-wordcount: '264'
+ht-degree: 92%
 
 ---
 
 # 不重複裝置
 
-「不重複裝置」 [量度](overview.md) 是 [跨裝置分析](../cda/overview.md) 此量度會計算獨特、未識別裝置和獨特虛擬裝置的數量。 未識別裝置指產生匿名點擊的裝置。獨特的虛擬裝置指依裝置識別的不同使用者。
+「不重複裝置」[量度](overview.md)是計算獨特、未識別裝置和獨特虛擬裝置數的[跨裝置分析](../cda/overview.md)量度。 未識別裝置指產生匿名點擊的裝置。獨特的虛擬裝置指依裝置識別的不同使用者。
 
 ## 此量度的計算方式
 

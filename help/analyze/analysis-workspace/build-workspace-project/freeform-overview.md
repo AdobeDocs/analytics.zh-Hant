@@ -31,21 +31,21 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | [編輯偏好設定](/help/analyze/analysis-workspace/user-preferences.md) | 管理您建立的所有新專案或面板的Analysis Workspace設定及其相關元件。 |
 | [建立資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/create-folders.md) | 將新的資料夾或子資料夾新增至專案和資料夾清單。 |
 | [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) | 從頭開始或從報表開始新專案。 |
-| 顯示更多 | 此選取範圍顯示建立空白專案或行動計分卡的選項， [檢視訓練教學課程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction)，或 [檢視發行說明](/help/release-notes/latest.md). |
+| 顯示更多 | 這個選取範圍顯示建立空白專案或行動計分卡的選項、[檢視訓練教學課程](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction)或[檢視發行說明](/help/release-notes/latest.md)。 |
 | ![顯示篩選器](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) | 顯示或隱藏篩選器。 您可以按標籤、報表套裝、所有者、型別（專案、資料夾、行動計分卡）和其他篩選器來篩選。 |
 | ![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg) | 使用搜尋欄位來搜尋資料夾、Workspace專案或行動計分卡。 |
 | 顯示資料夾和專案 | 選擇是否要顯示專案的資料夾結構。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。 |
-| ![自訂表格](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | 此圖示可讓您自訂專案清單中每個專案所顯示的欄。 |
+| ![自訂資料表](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg) | 此圖示可讓您自訂專案清單中每個專案所顯示的欄。 |
 
 專案清單可顯示下列欄：
 
 | 欄 | 說明 |
 |---|---|
-| [!UICONTROL 名稱] | Workspace專案名稱。 選取 ![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg) 以顯示包含專案或資料夾詳細資訊的快顯視窗。 選取 ![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) 以顯示可用的動作。 另請參閱 [管理專案](#manage-projects) 以取得更多詳細資料。 |
-| [!UICONTROL 類型] | 指示此專案是Workspace專案、資料夾還是 [行動計分卡](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home). |
+| [!UICONTROL 名稱] | Workspace專案名稱。 選取![資訊](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)以顯示包含專案或資料夾詳細資訊的快顯視窗。 選取![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)以顯示可用的動作。 如需詳細資訊，請參閱[管理專案](#manage-projects)。 |
+| [!UICONTROL 類型] | 指出此專案是Workspace專案、資料夾還是[行動計分卡](https://experienceleague.adobe.com/en/docs/analytics/analyze/mobapp/home)。 |
 | [!UICONTROL 標記] | 已套用到專案中的標籤。 |
-| [!UICONTROL 已排程] | 表示專案是否已排程以電子郵件傳送給收件者。 另請參閱 [排程專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
-| 共用連結 (任何人) | 您可與任何人共用專案，即使對方無權存取Analysis Workspace。 此欄顯示是否已以這種方式共用專案。 另請參閱 [與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md) 以取得詳細資訊。 |
+| [!UICONTROL 已排程] | 表示專案是否已排程以電子郵件傳送給收件者。 請參閱[排程專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
+| 共用連結 (任何人) | 您可與任何人共用專案，即使對方無權存取Analysis Workspace。 此欄顯示是否已以這種方式共用專案。 如需詳細資訊，請參閱[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 |
 | [專案角色](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/share-projects) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
 | [!UICONTROL 報告套裝] | 與專案相關聯的報表套裝。 |
 | [!UICONTROL 所有者] | 建立此專案的人 (您或與您共用專案的人)。 |
@@ -66,25 +66,25 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 動作 | 說明 |
 |---|---|
-| ![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) 刪除 | 選取後，確認對話方塊會提示您確認刪除Workspace專案或行動計分卡。 選取 **[!UICONTROL 確定]** 以確認。 |
-| ![共用](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg) 共用 | 此動作可讓您共用專案。 另請參閱 [共用專案](../curate-share/share-projects.md). |
-| ![重新命名](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) 重新命名 | 開啟 **[!UICONTROL 重新命名： *名稱&#x200B;*]**對話方塊以重新命名專案。 選取**[!UICONTROL 儲存&#x200B;]**以儲存專案的新名稱。 |
-| ![複製](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg) 複製 | 立即將選取的專案複製到名稱為的新專案 *原始名稱* （複製）。 |
-| ![釘選](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) 釘選 | 立即將專案釘選到清單頂端。 新增 ![釘選](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg) 指標。 |
-| ![標籤](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg) 標籤 | 開啟 **[!UICONTROL 標籤專案]** 對話方塊。 您可以選取現有標籤或新增標籤。 選取 **[!UICONTROL 儲存]** 以儲存專案的標籤。 |
-| ![（取消）核准](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg) 核准或取消核准 | 核准或取消核准專案。 |
-| ![匯出CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) 匯出CSV | 立即下載包含逗號分隔專案值清單的檔案。 |
-| ![移至](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg) 移至 | 此動作可讓您將專案移動到資料夾。 在 **[!UICONTROL 選取資料夾]** 對話方塊中，選取資料夾 **[!UICONTROL 資料夾]** 清單，然後選取 **[!UICONTROL 移動]**. |
+| ![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg)刪除 | 選取後，確認對話方塊會提示您確認刪除Workspace專案或行動計分卡。 選取「**[!UICONTROL 確定]**」以確認。 |
+| ![共用](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)共用 | 此動作可讓您共用專案。 請參閱[共用專案](../curate-share/share-projects.md)。 |
+| ![重新命名](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)重新命名 | 開啟&#x200B;**[!UICONTROL 重新命名： *名稱&#x200B;*]**對話方塊以重新命名專案。 選取**[!UICONTROL 儲存&#x200B;]**以儲存專案的新名稱。 |
+| ![副本](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg)副本 | 立即將選取的專案複製到名稱為&#x200B;*原始名稱*&#x200B;的新專案（複製）。 |
+| ![釘選](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg)釘選 | 立即將專案釘選到清單頂端。 新增![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg)指標。 |
+| ![標籤](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg)標籤 | 開啟&#x200B;**[!UICONTROL 標籤專案]**&#x200B;對話方塊。 您可以選取現有標籤或新增標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存專案的標籤。 |
+| ![（取消）核准](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CheckmarkCircle_18_N.svg)核准或取消核准 | 核准或取消核准專案。 |
+| ![匯出CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg)匯出CSV | 立即下載包含逗號分隔專案值清單的檔案。 |
+| ![移至](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FolderAddTo_18_N.svg)移至 | 此動作可讓您將專案移動到資料夾。 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;清單中選取資料夾，然後選取&#x200B;**[!UICONTROL 移動]**。 |
 
 
 ## 功能表列 {#menu-bar}
 
-在專案中，功能表會提供管理專案、新增元件、尋找說明等功能的選項。您也可以使用鍵盤來存取每個功能表選項 [捷徑](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys).
+在專案中，功能表會提供管理專案、新增元件、尋找說明等功能的選項。您也可以使用鍵盤[捷徑](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys)來存取每個功能表選項。
 
 
 | 功能表項目 | 說明 |
 |---|---|
-| 專案 | 此選單包含專案管理的常見操作，包括新增、開啟、儲存、另存新檔和 [另存為公司報表](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send)」選項可讓您從 Workspace 匯出資料。「[專案資訊和設定](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview)」提供管理專案的多個選項。 |
+| 專案 | 此選單包含專案管理的常見動作，包括新增、開啟、儲存、另存新檔和[另存為公司報告](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)。 您也可以按一下「重新整理專案」來重新整理整個專案，以擷取最新資料和定義。「[下載 CSV 和 PDF](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/curate-share/download-send)」選項可讓您從 Workspace 匯出資料。「[專案資訊和設定](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview)」提供管理專案的多個選項。 |
 | 編輯 | 還原或重做您的上一個操作。「全部清除」會將您的專案重設為空白起點。 |
 | 插入 | 從此功能表插入新面板或視覺效果。您也可以從左側欄插入新面板和視覺效果。 |
 | [元件](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components) | 從您的專案建立新區段、計算量度、日期範圍或警報元件。您也可以從左側欄建立新元件。如果您的元件定義最近已變更，「重新整理元件」會擷取最新定義。 |
@@ -94,7 +94,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 ### 專案資訊和設定 {#info-settings}
 
-**[!UICONTROL Workspace]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]** 提供目前使用中專案的專案層級資訊。
+**[!UICONTROL Workspace]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊與設定]**&#x200B;提供目前作用中專案的專案層級資訊。
 
 ![專案資訊](assets/projectinfo.png)
 
@@ -118,7 +118,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 | 圖示 | 功能 |
 |---|---|
-| ![面板圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [面板](/help/analyze/analysis-workspace/c-panels/panels.md) |
+| ![個面板圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg) | [面板](/help/analyze/analysis-workspace/c-panels/panels.md) |
 | ![視覺效果圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphBarVertical_18_N.svg) | [視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
 | ![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) | [元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | ![資料字典圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Bookmark_18_N.svg) | [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) |
@@ -139,6 +139,6 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 
 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。作用中面板的周圍有彩色邊框，而且可決定左側邊欄中有哪些元件可用。
 
-根據您為專案選擇的起點，您可以 [自由表格](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) 或 [空白面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel) 開始之前。 開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統會自動為您呈現資料表格。 [瞭解更多](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table) 關於建立表格的不同選項，或利用可用的 [訓練教學課程](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home) 以取得建立第一個專案的詳細指引。
+根據您為專案選擇的起點，您一開始可以在畫布中使用[自由格式表格](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)或[空白面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)。 開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統會自動為您呈現資料表格。 [深入瞭解](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table)建立資料表的不同選項，或利用可用的[訓練教學課程](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/home)取得建立第一個專案的更多指導。
 
 ![](assets/canvas.png)

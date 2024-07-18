@@ -5,7 +5,7 @@ feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '263'
 ht-degree: 90%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 *此說明頁面說明「每次造訪逗留時間」作為量度時的運作方式。如需詳細資訊，請參閱[每次造訪逗留時間](../dimensions/time-spent-per-visit.md)維度。*
 
-「每次造訪逗留時間（秒數）」 [量度](overview.md) 顯示訪客在每次造訪期間與指定維度專案互動的平均時間量。
+「每次造訪逗留時間（秒）」 [量度](overview.md)會顯示訪客在其各個造訪期間與指定維度專案互動的平均時間量。
 
 由於處理架構不同，此量度在 Data Warehouse 中無法使用。
 

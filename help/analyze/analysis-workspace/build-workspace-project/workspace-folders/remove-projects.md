@@ -7,7 +7,7 @@ exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 79%
 
 ## 從專案資料夾中刪除專案 {#delete-project-in-folder}
 
-當您從資料夾中刪除專案時，會在180天後從系統中清除該專案。 在刪除後的180天內，如果使用者擁有專案的URL，他們仍可透過Web介面存取已刪除的專案。
+當您從資料夾中刪除專案時，該專案會在 180 天後從系統中清除。在刪除後的 180 天內，如果使用者有專案的 URL，他們仍然可以透過 Web 介面存取已刪除的專案。
 
 1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
 

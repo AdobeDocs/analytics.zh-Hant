@@ -5,7 +5,7 @@ feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 90%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 90%
 
    ![內容變數](assets/context-var.png)
 
-1. 在Experience Cloud中，切換至Adobe Analytics，並確保您在行動服務中檢視的行動報表套裝中。
+1. 在Experience Cloud中，切換至Adobe Analytics，並確保您是在行動服務中檢視的相同行動報表套裝中。
 1. 前往「**[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則]**。
 1. 按一下「**[!UICONTROL 新增規則]**」。
 1. 無需理會條件限制，繼續新增行動服務內存在的相同內容變數。
@@ -59,7 +59,7 @@ ht-degree: 90%
 若要存取範本：
 
 1. 登入 `experience.adobe.com` 並選取「Analytics」。
-1. 請確認您位於已啟用Mobile Services的報告套裝中。
+1. 確保您是在為行動服務啟用的報表套裝中。
 1. 按一下「**[!UICONTROL Workspace]**」標籤。
 1. 按一下「**[!UICONTROL 建立新專案]**」。
 1. 選取任何行動範本，並按一下「**[!UICONTROL 建立]**」。
@@ -77,4 +77,4 @@ ht-degree: 90%
 
 * 若需要擷取連結，我們可將您導向 Adobe 合作夥伴以滿足您的需求。
 * 推送訊息和應用程式內的傳送訊息適用於 Adobe Campaign Standard 和 Adobe Campaign Classic (僅限推送)。但是，目標定位所用的基本資料集不同。我們建議您找 Adobe 帳戶團隊，以確定傳送訊息資料的移轉選項。
-* 就位置功能而言，建議您採用新的 [Adobe Experience Platform定位服務](https://www.adobe.com/experience-platform/location-service.html)，所有Adobe Experience Platform客戶均可免費使用。
+* 關於定位功能，請您採用新的[Adobe Experience Platform定位服務](https://www.adobe.com/experience-platform/location-service.html)，所有Adobe Experience Platform客戶均可免費使用。

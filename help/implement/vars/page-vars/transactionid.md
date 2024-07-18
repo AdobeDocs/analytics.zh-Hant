@@ -27,8 +27,8 @@ ht-degree: 93%
 
 交易ID會對應至下列變數：
 
-* [xdm物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.payments[0].transactionID`
-* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.transactionID` 或 `data.__adobe.analytics.xact`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.payments[0].transactionID`
+* [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.transactionID`或`data.__adobe.analytics.xact`
 
 ## 使用 Adobe Analytics 擴充功能的交易 ID
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
+5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
 6. 找出[!UICONTROL 「交易 ID」]區段。
 
 您可以將交易 ID 設為任何字串值，包括資料元素。

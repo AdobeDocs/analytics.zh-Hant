@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 | 維度/量度 | 定義 |
 | --- | --- |
-| 行銷管道 | 這是我們建議使用的「行銷管道」維度。執行時，可將歸因 模型套用至此維度。此維度的運作方式與「上次接觸管道」維度相同，但標籤不同，這是為了避免在搭配不同歸因模型使用行銷管道時產生混淆。 |
+| 行銷管道 | 這是我們建議使用的「行銷管道」維度。可在執行階段將歸因模型套用至該維度。 此維度的運作方式與「上次接觸管道」維度相同，但標籤不同，這是為了避免在搭配不同歸因模型使用行銷管道時產生混淆。 |
 | 上次接觸管道 | 舊版維度，已預先套用上次接觸歸因模型，且不可變更。 |
 | 首次接觸管道 | 舊版維度，已預先套用首次接觸歸因模型，且不可變更。 |
 | 行銷管道實例 | 此量度會測量行銷管道定義於影像要求中的次數，包括標準頁面檢視和自訂連結呼叫。不包含保存的值。 |
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ## 套用歸因模型
 
-您可以使用[歸因 ](/help/analyze/analysis-workspace/attribution/overview.md)，即時套用不同的歸因模型：
+您可以使用[歸因](/help/analyze/analysis-workspace/attribution/overview.md)，即時套用不同的歸因模型：
 
 ![](assets/mc-viz5.png)
 
