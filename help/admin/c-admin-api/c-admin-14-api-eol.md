@@ -3,9 +3,9 @@ description: 連結到 github 上的 Adobe Analytics 管理員 API。
 title: Adobe Analytics 1.4 API EOL常見問題集
 feature: Admin Tools
 role: Admin
-source-git-commit: 0aaeb60528f8ff1b1067f059710c9d9fa8e1886f
+source-git-commit: da96c049f7cfb73496416c2d8a7f4dcbc8f2303e
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,11 @@ WSSE客戶必須更新其驗證，才能使用Adobe Developer Console中布建�
 
 問：**這會影響資料收集嗎？**
 
-答：Adobe Analytics 1.4 EOL不會影響您的標籤解決方案，例如Tags (先前稱為Adobe Launch)、WebSDK或AppMeasurement.js。 不過，如果您使用1.4資料來源、資料插入或分類API來收集或增強資料，您必須將這些工作流程移轉至Adobe Analytics 2.0 API。 如需詳細資訊，請參閱[2.0 API端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/)。
+答：Adobe Analytics 1.4 EOL不會影響您的標籤解決方案，例如Tags (先前稱為Adobe Launch)、WebSDK或AppMeasurement.js。 不過，如果您使用1.4資料來源或分類API來收集或增強資料，您必須將這些工作流程移轉至Adobe Analytics 2.0 API。 如需詳細資訊，請參閱[2.0 API端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/)。
+
+問：**資料插入API是否受到影響？**
+
+答：否，資料插入API不會受到Adobe Analytics 1.4 EOL的影響。
 
 問：**如果我的問題沒有在這個FAQ中回答，該怎麼辦？**
 
