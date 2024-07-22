@@ -4,7 +4,7 @@ description: 隨時在您的實施中變更報表套裝。
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -38,11 +38,12 @@ Web SDK擴充功能提供每個環境的資料串流下拉式清單。 或者，
 
 ## 手動設定所需資料流以實作Web SDK
 
-將`edgeConfigId`設定變數設定為資料流ID。 在Adobe Experience Platform Data Collection中檢視資料流時，可在右側找到資料流ID。
+將`datastreamId`設定變數設定為資料流ID。 在Adobe Experience Platform Data Collection中檢視資料流時，可在右側找到資料流ID。
 
 ```js
 alloy("configure", {
-  "edgeConfigId": "example-a01f-4458-8cec-ef61de241c93",
+  datastreamId: "example-a01f-4458-8cec-ef61de241c93",
+  orgId: "ADB3LETTERSANDNUMBERS@AdobeOrg"
 });
 ```
 

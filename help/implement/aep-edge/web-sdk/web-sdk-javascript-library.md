@@ -2,7 +2,7 @@
 title: 使用Web SDK JavaScript資料庫傳送資料給Adobe Analytics
 description: 從乾淨的Web SDK實作開始，以便使用JavaScript程式庫傳送資料給Adobe Analytics。
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: 316ca1074de36db0d7c9545691e7c6d72a2ed2c4
+source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 18%
@@ -82,7 +82,7 @@ ht-degree: 18%
 
 <tr>
 <td>7</td>
-<td><b>設定 Web SDK</b>。請確認您在步驟4安裝的程式庫已正確設定資料串流ID (先前稱為邊緣組態ID (<code>edgeConfigId</code>))、組織ID (<code>orgId</code>)及其他可用選項。 請確定變數對應正確。 </td>
+<td><b>設定 Web SDK</b>。請確認您在步驟4安裝的程式庫已正確設定資料串流ID (先前稱為邊緣組態ID (<code>datastreamId</code>))、組織ID (<code>orgId</code>)及其他可用選項。 請確定變數對應正確。 </td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">設定Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM物件變數對應</a></td>
 </tr>
 
