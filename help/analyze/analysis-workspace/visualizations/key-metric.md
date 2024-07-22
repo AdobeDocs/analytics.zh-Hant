@@ -4,10 +4,10 @@ title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 98%
 
 ---
 
@@ -51,6 +51,8 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
 1. 按一下&#x200B;**[!UICONTROL 「建置」]**。
 
 ## 檢視輸出
+
+選擇退出的視覺效果看起來應該像這樣：
 
 ![](assets/key-metric-output.png)
 

@@ -4,10 +4,10 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: ec466d2a503278b05d19eda09e2a2244897ce1f3
+source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 100%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    >
    >計算量度不能在「**[!UICONTROL 開頭為]**」或「**[!UICONTROL 結束於]**」的欄位中使用。
 
-1. 如果您選擇一個量度，您還需要提供一個&#x200B;[!UICONTROL **路徑分析維度**]&#x200B;以用作通往或離開所選元件的路徑 (如此處所示)。預設為&#x200B;[!UICONTROL **「頁面」**]。
+1. 如果您選擇量度，則還需要提供&#x200B;[!UICONTROL **路徑Dimension**]，以作為前往或來自您所選元件的路徑，如下所示。 預設為&#x200B;[!UICONTROL **「頁面」**]。
 
    ![路徑分析維度](assets/pathing-dim.png)
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 > 
 >1. 依上面所述開始建立流量視覺效果。
 >1. 拖曳&#x200B;[!UICONTROL **頁面**]&#x200B;維度至「**[!UICONTROL 包含]**」欄位，然後選取「[!UICONTROL **建立**]」。
->1. 檢視次數最多的頁面 (可在視覺效果中央的焦點節點內看到) 會建立流量視覺效果。您也可以看到會引導至該頁面的上層頁面 (位於焦點節點的左側) 以及引導出該焦點頁面的上層頁面 (位於焦點節點的右側)。
+>1. 檢視次數最多的頁面 (可在視覺效果中央的焦點節點內看到) 會建立流量視覺效果。您也會看見前導至該頁面的前幾頁（焦點節點的左側），以及前導至該頁面的前幾頁（焦點節點的右側）。
 >1. 分析流量的資料，如[查看和變更流量輸出](#view-and-change-the-flow-output)中所述。
 
 
