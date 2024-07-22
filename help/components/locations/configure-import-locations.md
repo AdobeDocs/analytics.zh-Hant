@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
 workflow-type: tm+mt
 source-wordcount: '1687'
-ht-degree: 30%
+ht-degree: 31%
 
 ---
 
@@ -49,13 +49,14 @@ ht-degree: 30%
    [!UICONTROL **位置詳細資料**]&#x200B;對話方塊隨即顯示。
 
 1. 指定下列資訊：
-|欄位 | 函式 |
----------|----------|
-| [!UICONTROL **名稱**] | 位置的名稱。  |
-| [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。|
-| [!UICONTROL **搭配**]&#x200B;使用 | 選取您要將此位置與&#x200B;[!UICONTROL **資料摘要**]、[!UICONTROL **Data Warehouse**]&#x200B;或&#x200B;[!UICONTROL **分類集**]&#x200B;搭配使用。 <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於「Data Warehouse」或「分類設定」。</li><li>為避免某個位置內的檔案衝突，使用此位置後，請勿變更&#x200B;[!UICONTROL **與**]&#x200B;搭配使用欄位的值。</li><li>如果您正在建立電子郵件帳戶的位置，請在此欄位中選取&#x200B;[!UICONTROL **Data Warehouse**]。 資料摘要和分類集不支援電子郵件位置。</li></ul> |
-| [!UICONTROL **讓位置可供您組織中的所有使用者使用**] | 啟用此選項可允許組織中的其他使用者使用該位置。<p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> |
-| [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)。 |
+
+   | 欄位 | 函數 |
+   |---------|----------|
+   | [!UICONTROL **名稱**] | 位置的名稱。 |
+   | [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
+   | [!UICONTROL **搭配**]&#x200B;使用 | 選取您要將此位置與&#x200B;[!UICONTROL **資料摘要**]、[!UICONTROL **Data Warehouse**]&#x200B;或&#x200B;[!UICONTROL **分類集**]&#x200B;搭配使用。 <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於「Data Warehouse」或「分類設定」。</li><li>為避免某個位置內的檔案衝突，使用此位置後，請勿變更&#x200B;[!UICONTROL **與**]&#x200B;搭配使用欄位的值。</li><li>如果您正在建立電子郵件帳戶的位置，請在此欄位中選取&#x200B;[!UICONTROL **Data Warehouse**]。 資料摘要和分類集不支援電子郵件位置。</li></ul> |
+   | [!UICONTROL **讓位置可供您組織中的所有使用者使用**] | 啟用此選項可允許組織中的其他使用者使用該位置。<p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> |
+   | [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)。 |
 
 1. 若要完成設定位置的表單，請繼續下列對應您在&#x200B;[!UICONTROL **位置帳戶**]&#x200B;欄位中所選帳戶型別的區段。 （也可使用其他舊帳戶型別，但不建議使用。）
 
