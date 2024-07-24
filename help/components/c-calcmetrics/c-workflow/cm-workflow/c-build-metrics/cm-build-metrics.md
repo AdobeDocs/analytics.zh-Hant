@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 40%
 
 ---
 
@@ -16,11 +16,17 @@ Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便�
 
 ## 開始建立計算量度
 
-您可以透過下列任何方式開始建立計算量度：
+您可以使用計算量度產生器建立計算量度。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。 或者，您也可以建立快速計算量度，如[在[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中為單一專案](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)建立計算量度中所述。
 
-* 在Analysis Workspace中，開啟專案，然後選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 建立量度]**。
-* 在Analysis Workspace中，開啟專案，然後選取左側邊欄中&#x200B;[!UICONTROL **量度**]&#x200B;區段旁的&#x200B;**加號**&#x200B;圖示。
-* 在[!DNL Analytics]中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**，然後選取計算量度頁面頂端的&#x200B;**[!UICONTROL +新增]**。
+存取計算量度產生器，以開始建立元件清單中可用的計算量度。
+
+1. 以下列任何方式存取計算量度產生器：
+
+   * 在Analysis Workspace中，開啟專案，然後選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 建立量度]**。
+   * 在Analysis Workspace中，開啟專案，然後選取左側邊欄中&#x200B;[!UICONTROL **量度**]&#x200B;區段旁的&#x200B;**加號**&#x200B;圖示。
+   * 在[!DNL Customer Journey Analytics]中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**，然後選取計算量度頁面頂端的&#x200B;**[!UICONTROL +新增]**。
+
+1. 繼續使用計算量度產生器](#areas-of-the-calculated-metrics-builder)的[區域。
 
 ## 計算量度產生器的區域
 

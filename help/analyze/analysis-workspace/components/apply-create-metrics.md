@@ -4,10 +4,10 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 564fb1cd65daf7efb03e1258ee378939f37c9426
+source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 94%
+source-wordcount: '505'
+ht-degree: 51%
 
 ---
 
@@ -37,13 +37,41 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
-## 計算量度
+## 建立計算量度
 
-計算量度可讓您使用簡單的運算子或統計函式輕鬆查看量度彼此間的關係。建立計算量度的方式有好幾種：
+計算量度可讓您使用簡單的運運算元或統計函式，輕鬆檢視量度彼此間的關聯性。
 
-* 按一下左側元件清單下量度標頭旁的加號圖示。
-* 瀏覽至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]** > **[!UICONTROL 新增]**。
-* 已選取一個或多個標頭欄儲存格時，在欄標頭上按一下右鍵 > **[!UICONTROL 根據選取範圍建立量度]**。此選項會自動為您建立計算量度，無需使用計算量度規則產生器。
+建立計算量度有數種方式。 您選擇的方法會決定計算量度是否可從所有專案的元件清單中使用，或僅用於建立該量度的專案。
+
+### 為所有專案建立計算量度
+
+您可以使用計算量度產生器建立計算量度。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
+
+如需如何存取計算量度產生器的詳細資訊，請參閱[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
+
+### 為單一專案建立計算量度
+
+您可以建立快速計算量度，這些量度只適用於建立所在的專案。
+
+若要建立單一專案的計算量度：
+
+1. 在Analysis Workspace中，開啟您要建立計算量度的專案。
+
+1. 在自由表格中，以滑鼠右鍵按一下一或多個標題欄儲存格，然後選取&#x200B;**[!UICONTROL 從選取範圍建立量度]**
+
+   ![Workspace面板反白顯示「從選取專案建立」](assets/create-metric-from-selection.png)
+
+1. 若要僅為此專案建立計算量度，請從下列選項中選擇：
+
+   * [!UICONTROL **除**]
+
+   * [!UICONTROL **減去**]
+
+   * [!UICONTROL **新增**]
+
+   * [!UICONTROL **乘**]
+
+   或者，若要開啟計算量度產生器並為所有專案建立計算量度，請選取「在計算量度產生器中開啟」[!UICONTROL ****]，然後繼續執行[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
 
 [計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
 
