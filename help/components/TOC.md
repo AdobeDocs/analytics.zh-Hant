@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 11e98d35ba52fb777a08f950725b0e8dbb99fa22
+source-git-commit: 45b371bd20223b86d0f17d9bdb48cffb2de15468
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 94%
 
 ---
 
@@ -98,6 +98,12 @@ ht-degree: 100%
    + [伺服器](dimensions/server.md)
    + [單頁造訪次數](dimensions/single-page-visits.md)
    + [網站區段](dimensions/site-section.md)
+   + [串流媒體核心維度](dimensions/sm-core.md)
+   + [串流媒體廣告](dimensions/sm-ads.md)
+   + [串流媒體章節](dimensions/sm-chapters.md)
+   + [串流媒體品質](dimensions/sm-quality.md)
+   + [串流媒體音訊中繼資料](dimensions/sm-audio-metadata.md)
+   + [串流媒體視訊中繼資料](dimensions/sm-video-metadata.md)
    + [事件之前時間](dimensions/time-prior-to-event.md)
    + [頁面逗留時間](dimensions/time-spent-on-page.md)
    + [每次造訪逗留時間](dimensions/time-spent-per-visit.md)
@@ -151,6 +157,12 @@ ht-degree: 100%
    + [搜尋](metrics/searches.md)
    + [單次存取](metrics/single-access.md)
    + [單頁造訪次數](metrics/single-page-visits.md)
+   + [串流媒體核心量度](metrics/sm-core.md)
+   + [串流媒體廣告](metrics/sm-ads.md)
+   + [串流媒體章節](metrics/sm-chapters.md)
+   + [串流媒體播放器狀態追蹤](metrics/sm-player-state.md)
+   + [串流媒體品質](metrics/sm-quality.md)
+   + [串流媒體視訊中繼資料](metrics/sm-video-metadata.md)
    + [每次造訪逗留時間](metrics/time-spent-per-visit.md)
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間總覽](metrics/time-spent.md)
