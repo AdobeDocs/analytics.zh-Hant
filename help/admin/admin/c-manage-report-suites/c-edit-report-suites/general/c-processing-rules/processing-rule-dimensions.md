@@ -1,220 +1,99 @@
 ---
-description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
+description: 您可使用處理規則讀取和寫入的可用維度和量度。
 subtopic: Processing rules
 title: 可用於處理規則的維度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '714'
+ht-degree: 13%
 
 ---
 
-# 可用於處理規則的維度
+# 可用於處理規則的Dimension和量度
 
-您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
+您可使用處理規則讀取和寫入的可用維度和量度。
 
-## 自訂值和內容資料 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## 自訂值和內容資料
 
-<table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 值 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>自訂值 </p> </td> 
-   <td colname="col2"> <p>直接輸入至處理規則之動作的自訂文字或值。這些值可用於後續條件和規則。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>串連值 </p> </td> 
-   <td colname="col2"> <p>結合兩個值而建立的值。例如，可以結合類別和頁面名稱來建立一個子類別。這些值可用於後續條件和規則。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>已修改的值 </p> </td> 
-   <td colname="col2"> <p>如果使用處理規則變更了變數值，已變更的值將用於後續條件和規則。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>內容資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意：內容資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。內容資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製內容資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用內容資料變數設定事件</a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 內容資料變數</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 值 | 讀取/寫入狀態 | 說明 |
+| --- | --- | --- |
+| 自訂值 | 唯讀 | 自訂文字或直接在處理規則的動作中輸入的值。 |
+| 串連值 | 唯讀 | 結合兩個值所建立的值。 例如，管道和頁面名稱可以結合以建立子類別。 |
 
-## 流量變數 {#section_225156106F8B41F8BC1E68D58DDC2652}
+{style="table-layout:auto"}
 
-<table id="table_575F618C59DC4933BC77F935518EAE39"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 變數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>prop 1-75 </p> </td> 
-   <td colname="col2"> <p> <code> prop1 - prop75</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>階層 1-5 </p> </td> 
-   <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>網站區段 </p> </td> 
-   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>伺服器 </p> </td> 
-   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## 點選屬性
 
-## 點擊屬性 {#section_07E69A86A47741A083FD84F112EB80D0}
+| 屬性 | 讀取/寫入狀態 | 說明 |
+| --- | --- | --- |
+| 頁面 URL | 讀取+寫入 | [頁面URL](/help/components/dimensions/page-url.md)維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面URL值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
+| 頁面名稱 | 讀取+寫入 | [頁面](/help/components/dimensions/page.md)維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
+| 報表套裝 ID | 唯讀 | 處理規則執行所在的報表套裝。 此報告套裝可能與最初透過AppMeasurement傳送的報告套裝不同，例如使用VISTA規則時。 |
+| AppMeasurement程式碼版本 | 唯讀 | 用來產生影像要求的AppMeasurement庫版本。 |
+| IP 位址 | 唯讀 | 訪客的IP位址。 |
+| 使用者代理 | 唯讀 | 訪客的使用者代理。 |
+| 反向連結 | 唯讀 | [反向連結](/help/components/dimensions/referrer.md)維度。 |
+| 查詢字串參數 | 唯讀 | 目前URL中指定查詢字串引數的值。 |
+| 反向連結查詢字串引數 | 唯讀 | 反向連結URL中指定查詢字串引數的值，或空字串（如果不存在的話）。 |
+| 反向連結網域 | 唯讀 | 反向連結URL的頁面網域，包括子網域。 |
+| 反向連結根網域 | 唯讀 | 反向連結URL的頁面網域，不包括子網域。 |
+| 頁面查詢字串 | 唯讀 | 目前URL中的所有查詢字串引數及其值。 |
+| 反向連結查詢字串 | 唯讀 | 反向連結URL中的所有查詢字串引數及其值。 |
+| 頁面路徑 | 唯讀 | 目前URL的頁面路徑。 頁面路徑不包含通訊協定、網域或查詢字串引數。 |
+| 頁面網域 | 唯讀 | 目前URL的頁面網域，包括子網域。 頁面網域不包含頁面路徑或查詢字串引數。 |
+| 頁面根網域 | 唯讀 | 目前URL的頁面網域，不包括子網域。 |
+| 客戶角度 | 讀取+寫入 | 此旗標可確定點選是否為行動背景點選。 |
 
-<table id="table_9011B1FA462B4DBBAA58FC2D6D638DA1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 屬性 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>報表套裝 ID (唯讀) </p> </td> 
-   <td colname="col2"> <p>處理規則據以執行的報表套裝，可能不是 AppMeasurement 中指定的原始報表套裝。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>頁面名稱 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：連結追蹤呼叫在到達處理規則之前會移除 <code>pageName</code> 變數。 如果您使用處理規則重新插入頁面名稱值，則點擊會被視為頁面檢視，而不是連結追蹤呼叫。 Adobe 建議您詳加檢查，確保頁面名稱已設定妥當，然後再修改。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>頁面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 <p>注意：連結追蹤呼叫在到達處理規則之前會移除 <code>pageURL</code> 變數。 如果您使用處理規則重新插入頁面 URL 值，則點擊會被視為頁面檢視，而不是連結追蹤呼叫。 Adobe 建議您詳加檢查，確保頁面 URL 已設定妥當，然後再修改。 </p></td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>查詢字串參數 </p> </td> 
-   <td colname="col2"> <p>目前 URL 中指定之查詢字串參數的值，或為空 (如果沒有參數)。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> 中，查詢字串參數 <span class="syntax codeph">cid</span> 的值為 <b>ad1</b>，而查詢字串參數 <span class="syntax codeph">node</span> 的值為 <b>4</b>。 </p> <p>如果您執行的是 JavaScript AppMeasurement H.25.2 或更早的版本，頁面 URL 可能會在 255 個字元之後截斷。JavaScript AppMeasurement H.25.3 (2013 年 1 月發佈) 和更新的版本提供處理規則的完整 URL。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>頁面路徑 </p> </td> 
-   <td colname="col2"> <p>頁面 URL 的路徑。URL <b>https://www.example.com/news/a.html?cid=ad1</b> 的路徑是 <span class="syntax codeph">news/a.html</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>頁面網域 </p> </td> 
-   <td colname="col2"> <p>URL 中指定的完整主機名稱。https://<span class="syntax codeph">en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>頁面根網域 </p> </td> 
-   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>頁面查詢字串 </p> </td> 
-   <td colname="col2"> <p>URL 的完整查詢字串。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>反向連結* (唯讀) </p> </td> 
-   <td colname="col2"> <p>HTTP 反向連結。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>反向連結查詢字串參數 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中指定之查詢字串參數的值，或為空 (如果沒有參數)。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> 中，查詢字串參數 <span class="syntax codeph">cid</span> 的值為 <b>ad1</b>，而查詢字串參數 <span class="syntax codeph">node</span> 的值為 <b>4</b>。 </p> <p>如果您執行的是 JavaScript AppMeasurement H.25.2 或更早的版本，頁面 URL 可能會在 255 個字元之後截斷。JavaScript AppMeasurement H.25.3 (2013 年 1 月發佈) 和更新的版本提供處理規則的完整 URL。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>反向連結網域 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結的完整主機名稱。https://<span class="syntax codeph">en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>反向連結根網域 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>反向連結查詢字串 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>IP 位址 (唯讀) </p> </td> 
-   <td colname="col2"> <p>瀏覽器所報告的 IP 位址。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>使用者代理 (唯讀) </p> </td> 
-   <td colname="col2"> <p>瀏覽器所報告的使用者代理。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AppMeasurement 代碼版本 (唯讀) </p> </td> 
-   <td colname="col2"> <p>用來進行請求的 appMeasurement 庫版本。使用影像信標時，可以用採用處理規則讀取的自訂值來填入。這個值會出現在 URL 中的下列位置： </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}
 
-## 轉換變數 {#section_311856B21B3B49DBAA0539CFA06C409F}
+## 轉換變數
 
-<table id="table_E28729026EDA485989178A3B887B5983"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 變數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>行銷活動追蹤代碼 </p> </td> 
-   <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>貨幣代碼 </p> </td> 
-   <td colname="col2"> <p> <code> s.currencyCode</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>清單變數 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>購買 ID </p> </td> 
-   <td colname="col2"> <p> <code> s.purchaseID</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>交易 ID </p> </td> 
-   <td colname="col2"> <p> <code> s.transactionID </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>訪客所在州 </p> </td> 
-   <td colname="col2"> <p> <code> s.state</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>訪客郵遞區號 </p> </td> 
-   <td colname="col2"> <p> <code> s.zip</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 變數 | 讀取/寫入狀態說明 |
+| --- | --- | --- |
+| eVar1-250 | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md)維度。 |
+| 促銷活動 | 讀取+寫入 | [追蹤代碼](/help/components/dimensions/tracking-code.md)維度。 |
+| 購買 ID | 讀取+寫入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)實作變數。 |
+| 州別 | 讀取+寫入 | [`state`](/help/implement/vars/page-vars/state.md)實作變數已淘汰。 |
+| Zip | 讀取+寫入 | [郵遞區號](/help/components/dimensions/zip-code.md)維度。 |
+| 貨幣代碼 | 讀取+寫入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md)實作變數。 重要：如果您將此變數設為無效值，點選會被捨棄。 |
+| 交易 ID | 讀取+寫入 | [`transactionID`](/help/import/data-sources/transactionid.md)實作變數。 |
 
-## 成功事件 {#section_C1946FEB64FC4F579671EC5E0D06AE8A}
+{style="table-layout:auto"}
 
-處理規則可以設定事件但無法將其讀取作為條件。
+>[!NOTE]
+>Adobe不支援使用處理規則設定[`products`](/help/implement/vars/page-vars/products.md)實作變數。
 
-<table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Event </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>事件 1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>purchase、scView、scAdd 和其他購物車事件 </p> </td> 
-   <td colname="col2"> <p>預先定義的事件。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## 流量變數
+
+| 變數 | 讀取/寫入狀態 | 說明 |
+| --- | --- | --- |
+| Prop 1-75 | 讀取+寫入 | [Prop](/help/components/dimensions/prop.md)維度。 |
+| 階層 1-5 | 讀取+寫入 | [階層](/help/components/dimensions/hierarchy.md)維度。 |
+| 伺服器 | 讀取+寫入 | [伺服器](/help/components/dimensions/server.md)維度。 |
+| 管道 | 讀取+寫入 | [網站區段](/help/components/dimensions/site-section.md)維度。 |
+
+{style="table-layout:auto"}
+
+## 內容變數
+
+此報表套裝已在先前的影像要求中看到的所有[內容資料變數](/help/implement/vars/page-vars/contextdata.md)。 如果處理規則未將內容資料放入另一個變數，該資料會永久遺失。 如需使用範例，請參閱[將內容資料變數複製到eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用內容資料變數設定事件](processing-rules-examples/processing-rules-copy-context-data-event.md)。
+
+## 成功事件
+
+處理規則可以設定事件，但無法將其讀取為條件。 將規則動作下拉式清單設定為&#x200B;**[!UICONTROL 設定事件]**&#x200B;以檢視可用的遞增量度。
+
+| 變數 | 讀取/寫入狀態 | 說明 |
+| --- | --- | --- |
+| 訂購 | 僅寫入 | [訂單](/help/components/metrics/orders.md)量度。 |
+| 購物車 | 僅寫入 | [購物車](/help/components/metrics/carts.md)量度。 |
+| 購物車檢視 | 僅寫入 | [購物車檢視](/help/components/metrics/cart-views.md)量度。 |
+| 結帳 | 僅寫入 | [結帳](/help/components/metrics/checkouts.md)量度。 |
+| 購物車新增 | 僅寫入 | [購物車新增](/help/components/metrics/cart-additions.md)量度。 |
+| 購物車移除 | 僅寫入 | [購物車移除](/help/components/metrics/cart-removals.md)量度。 |
+| 事件 1-1000 | 僅寫入 | [自訂事件](/help/components/metrics/custom-events.md)。 |
+| 產品瀏覽數 | 僅寫入 | [產品檢視](/help/components/metrics/product-views.md)量度。 |
+
+{style="table-layout:auto"}
