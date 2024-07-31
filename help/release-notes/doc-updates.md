@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
 workflow-type: tm+mt
 source-wordcount: '5910'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2024 年 7 月** | |
 | 新增快速計算量度的相關資訊 | 更新[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的資訊，以釐清在計算量度產生器](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)中建立的[計算量度與單一專案](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中建立為快速計算量度的[計算量度之間的差異。 也新增了建立快速計算量度的相關詳細資訊。<p>在計算量度產生器中建立的計算量度可在元件清單中取得，並可套用至整個組織的專案，而建立為快速計算量度的計算量度只能在其建立所在的專案中使用。</p><p>也更新了[建置量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中的資訊，以進行類似的澄清。</p> |
-| 將threads.net新增至「反向連結型別」維度 | 將threads.net新增至[「反向連結型別」維度](/help/components/dimensions/referrer-type.md)中所使用的社交網路清單。 |
+| 將 threads.net 新增至「推薦者類型」維度 | 將 threads.net 新增至[「推薦者類型」維度](/help/components/dimensions/referrer-type.md)中使用的社交網路清單。 |
 | 已更新管理資料摘要的文件 | 已更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊以改善明確度。 <p>更新包括：</p><ul><li>為各種任務建立單獨章節，使資訊更易於瀏覽和使用。</li><li>已新增有關重新啟動之即時摘要行為變更的資訊。這些變更目前為「有限可用性」的狀態，尚未提供給所有客戶使用。</li><li>已新增表示資料摘要必須為「使用中」狀態才能刪除。</li> |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
@@ -112,7 +112,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 專案區段 (臨時和快速區段) | 簡化了專案區段的文件，並刪除重複資訊。建立臨時區段的步驟現在已經和下列步驟相結合，用於[建立快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。 |
 | 動態查詢 | 新增更多關於[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的資訊。以前，只有行動屬性的資訊，這是幾個動態查詢之一。 |
 | **2023 年 3 月** | |
-| Web SDK 支援 Activity Map | 更新[實作Adobe Analytics](/help/implement/home.md)。 |
+| Web SDK 支援 Activity Map | 更新「[實施 Adobe Analytics](/help/implement/home.md)」。 |
 | 流量變數 (props) 概觀 | 新增區段和逐步程序以說明和改善文章內容。合併了標題為「啟用流量變數報告」一文中的內容，並移除了該文章。請參閱[流量變數 (props) 概觀](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
 | 內部 URL 篩選器 | 新增區段和逐步程序以說明和改善文章內容。請參閱[內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。 |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
