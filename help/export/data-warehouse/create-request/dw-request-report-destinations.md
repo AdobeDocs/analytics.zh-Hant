@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為 Data Warehouse 請求設定報告目標
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 23d519975111dc43b515c6c5bc67d7001d05c0d8
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '2615'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -117,7 +117,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++電子郵件
 
@@ -141,12 +141,13 @@ ht-degree: 100%
       |---------|----------|
       | [!UICONTROL **收件者**] | 傳送報告時可以向特定使用者傳送電子郵件通知。指定單一電子郵件地址或逗號分隔的電子郵件地址清單。<!-- How does this differ from the Notification email tab? --> |
 
-   1. 選取「[!UICONTROL **新增位置**]」，然後註明以下資訊：
-|Field |功能|
-|---------|----------|
-| [!UICONTROL **姓名**] |位置的名稱。|
-| [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。|
-| [!UICONTROL **位置帳戶**] | 選取您建立的位置帳戶[新增帳戶](#add-an-account)。|
+   1. 選取&#x200B;[!UICONTROL **新增位置**]，然後指定下列資訊：
+
+      | 欄位 | 函數 |
+      |---------|----------|
+      | [!UICONTROL **名稱**] | 位置的名稱。 |
+      | [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
+      | [!UICONTROL **位置帳戶**] | 選取您在[新增帳戶](#add-an-account)中建立的位置帳戶。 |
 
    1. 在「[!UICONTROL **位置屬性**]」部分，指明您位置帳戶特定的帳戶類型資訊。
 
@@ -163,7 +164,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
@@ -176,7 +177,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
@@ -189,7 +190,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
@@ -203,7 +204,7 @@ ht-degree: 100%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
 1. 在「[!UICONTROL **報告選項**]」標籤中，繼續設定您的 Data Warehouse 請求。有關詳細資訊，請參閱「[為 Data Warehouse 請求設定報告選項](/help/export/data-warehouse/create-request/dw-request-report-options.md)」。
 

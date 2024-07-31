@@ -3,7 +3,7 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 98%
@@ -54,6 +54,7 @@ ht-degree: 98%
    | 重複 | X | X | X | - | X | - |
    | 例項 | X | X | - | - | X | - |
    | 非重複的例項 | X | - | - | - | X | - |
+
 1. **[!UICONTROL And/Or/Then]**：在容器或規則之間指派 [!UICONTROL AND/OR/THEN] 運算子。THEN 運算子可用來[定義循序區段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 1. **[!UICONTROL 量度]**：(綠色側欄) 從「量度」清單拖放過來的量度。
 1. **[!UICONTROL 比較]**&#x200B;運算子：可使用選取的運算子來比較和限制值。
