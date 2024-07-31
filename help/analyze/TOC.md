@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '930'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -280,10 +280,10 @@ ht-degree: 99%
 + Activity Map {#activity-map}
    + [概觀](activity-map/overview.md)
    + [快速入門](activity-map/getting-started.md)
-   + 覆蓋{#overlay}
+   + 覆蓋 {#overlay}
       + [擴充功能概觀](activity-map/overlay/overview.md)
-      + [Launch擴充功能](activity-map/overlay/launch.md)
-      + [擴充功能設定](activity-map/overlay/settings.md)
+      + [Launch 擴充功能](activity-map/overlay/launch.md)
+      + [擴充設定](activity-map/overlay/settings.md)
    + [疑難排解](activity-map/troubleshooting.md)
    + [常見問題](activity-map/faq.md)
 + Adobe Analytics 儀表板 {#mobapp}
