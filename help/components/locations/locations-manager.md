@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 地點管理員
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: df9470f1870879ac91f00a021ed890bc6fb10cda
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -202,6 +202,8 @@ ht-degree: 1%
 1. 找到&#x200B;[!UICONTROL **允許的帳戶型別**]&#x200B;區段。
 
    使用者預設可使用下列帳戶型別。 取消選取您要限制使用者使用的任一帳戶型別。
+
+   至少必須選取一種帳戶型別。
 
    * [!UICONTROL **Amazon S3角色ARN**]
 

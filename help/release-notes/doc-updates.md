@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
 workflow-type: tm+mt
-source-wordcount: '5910'
-ht-degree: 98%
+source-wordcount: '5945'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 7 月** | |
-| 新增快速計算量度的相關資訊 | 更新[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的資訊，以釐清在計算量度產生器](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)中建立的[計算量度與單一專案](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)中建立為快速計算量度的[計算量度之間的差異。 也新增了建立快速計算量度的相關詳細資訊。<p>在計算量度產生器中建立的計算量度可在元件清單中取得，並可套用至整個組織的專案，而建立為快速計算量度的計算量度只能在其建立所在的專案中使用。</p><p>也更新了[建置量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中的資訊，以進行類似的澄清。</p> |
+| 管理位置時，至少必須選取一種帳戶型別 | 澄清當管理員[限制用於匯出和匯入](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)的帳戶型別時，必須至少選擇一個帳戶型別。 |
+| 已新增快速計算量度的相關資訊。 | 已更新[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的資訊，以釐清這兩者之間的差異：[在計算量度產生器中建立的計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)，[在單一專案中作為快速計算量度建立的計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。也新增更多有關如何建立快速計算量度的詳細資料。<p>在計算量度產生器中建立的計算量度可在元件清單中使用，並可套用到整個組織的專案，而作為快速計算量度建立的計算量度只能在建立它們的專案中使用。</p><p>也更新[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中的資訊以做出類似的釐清。</p> |
 | 將 threads.net 新增至「推薦者類型」維度 | 將 threads.net 新增至[「推薦者類型」維度](/help/components/dimensions/referrer-type.md)中使用的社交網路清單。 |
 | 已更新管理資料摘要的文件 | 已更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊以改善明確度。 <p>更新包括：</p><ul><li>為各種任務建立單獨章節，使資訊更易於瀏覽和使用。</li><li>已新增有關重新啟動之即時摘要行為變更的資訊。這些變更目前為「有限可用性」的狀態，尚未提供給所有客戶使用。</li><li>已新增表示資料摘要必須為「使用中」狀態才能刪除。</li> |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
