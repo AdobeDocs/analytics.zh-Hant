@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 6cf277667230a56da9793deb550df1980f1d33b0
+source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -140,7 +140,7 @@ ht-degree: 56%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **Host**] | 輸入所需的FTP目的地URL。 例如，`ftp://ftp.omniture.com`。 |
+   | [!UICONTROL **Host**] | 輸入所需的FTP目的地URL。 例如，`ftp.adobe.com`。 |
    | [!UICONTROL **路徑**] | 可留空。 |
    | [!UICONTROL **使用者名稱**] | 輸入要登入FTP網站的使用者名稱。 |
    | [!UICONTROL **密碼並確認密碼**] | 輸入密碼以登入FTP站台。 |
