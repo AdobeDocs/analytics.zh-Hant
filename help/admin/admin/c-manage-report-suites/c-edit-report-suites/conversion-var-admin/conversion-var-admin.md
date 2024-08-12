@@ -5,10 +5,10 @@ title: 轉換變數 (eVar)
 feature: Admin Tools
 role: Admin
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1715'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,7 @@ ht-degree: 100%
 
 ## 轉換變數 (eVar) 概觀
 
-以下是影片概觀：
-
->[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
+如需轉換變數的影片概觀，請參閱Analytics教學課程指南中的[轉換變數簡介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)。
 
 當 eVar 被設定為某個訪客的值，Adobe 會自動記住該值，直到其過期。訪客在 eVar 值活動期間遇到的任何成功事件都會被計入 eVar 值。
 
