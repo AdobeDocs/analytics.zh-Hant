@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 72f223cd1962a468aa6c0772958ad6a99cfc1c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5957'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2024 年 7 月** | |
-| 成功事件 | 簡化有關[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)的檔案。 更新，以求清晰明瞭。 |
+| 成功事件 | 簡化了有關[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)的文件。清晰度和準確性的更新。 |
 | 管理位置時，必須至少選取一個帳戶類型 | 釐清了管理員[限制用於匯出和匯入的帳戶類型](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)時，必須至少選取一個帳戶類型。 |
 | 已新增快速計算量度的相關資訊。 | 已更新[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的資訊，以釐清這兩者之間的差異：[在計算量度產生器中建立的計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)，[在單一專案中作為快速計算量度建立的計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。也新增更多有關如何建立快速計算量度的詳細資料。<p>在計算量度產生器中建立的計算量度可在元件清單中使用，並可套用到整個組織的專案，而作為快速計算量度建立的計算量度只能在建立它們的專案中使用。</p><p>也更新[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中的資訊以做出類似的釐清。</p> |
 | 將 threads.net 新增至「推薦者類型」維度 | 將 threads.net 新增至[「推薦者類型」維度](/help/components/dimensions/referrer-type.md)中使用的社交網路清單。 |
