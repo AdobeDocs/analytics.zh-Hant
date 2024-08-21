@@ -4,7 +4,7 @@ title: 伺服器呼叫使用量警報
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 58e1d3025b455de7fa07037b3b0659330c8324c7
+source-git-commit: 373a1ecffafdcefe3c7b60954f14c2f3a5ca386d
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
 
-伺服器呼叫使用量警示是[警示](/help/analyze/analysis-workspace/c-intelligent-alerts/alert-manager.md)使用者介面的一部分。
+伺服器呼叫使用量警示是[警示](/help/components/c-alerts/alert-manager.md)使用者介面的一部分。
 
 這項類別已預先填入 **1 個預設警報**，顯示在任何可存取「伺服器呼叫使用量」功能的登入公司中。如果滿足以下其中一項條件，該警報就會觸發通知，傳送給所有登入公司的管理員：
 
