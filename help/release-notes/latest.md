@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 72%
+ht-degree: 95%
 
 ---
 
@@ -14,24 +14,24 @@ ht-degree: 72%
 
 **上次更新日期**：2024年8月20日
 
-這些發行說明涵蓋2024年8月14日至2024年9月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋 2024 年 8 月 14 日至 2024 年 9 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **針對連結追蹤的 Web SDK 改善** | 最新版本的 Web SDK 在連結追蹤方面提供了一些顯著的改善，使 Activity Map 直接受益。這些新功能在 Web SDK JavaScript 程式庫和 Web SDK 標記擴充功能中均可使用。<ul><li>事件分組：當訪客點擊內部連結時，您可以選擇對下一頁上的事件資料進行分組，而不是觸發單獨的事件呼叫以進行連結追蹤。此改善減少了 Web SDK 所用違反合約限制的事件數量。</li><li>篩選器點擊屬性：取代 `OnBeforeLinkClickSend` 的新回呼。您可以使用此回呼來篩選或混淆連結相關資料，然後再將其傳送到 Adobe。</li></ul><p>如需詳細資訊，請參閱 Web SDK 使用手冊中的 [clickCollection](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | 公開 Beta 版於 2024 年 7 月 10 日開始 | 2024年7月18日 |
+| **針對連結追蹤的 Web SDK 改善** | 最新版本的 Web SDK 在連結追蹤方面提供了一些顯著的改善，使 Activity Map 直接受益。這些新功能在 Web SDK JavaScript 程式庫和 Web SDK 標記擴充功能中均可使用。<ul><li>事件分組：當訪客點擊內部連結時，您可以選擇對下一頁上的事件資料進行分組，而不是觸發單獨的事件呼叫以進行連結追蹤。此改善減少了 Web SDK 所用違反合約限制的事件數量。</li><li>篩選器點擊屬性：取代 `OnBeforeLinkClickSend` 的新回呼。您可以使用此回呼來篩選或混淆連結相關資料，然後再將其傳送到 Adobe。</li></ul><p>如需詳細資訊，請參閱 Web SDK 使用手冊中的 [clickCollection](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | 公開 Beta 版於 2024 年 7 月 10 日開始 | 2024 年 7 月 18 日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 修正Workspace中顯示多個未知值的問題(AN-353632)
-* 修正在Admin Console中新增新客戶或新Analytics產品設定檔後，通知電子郵件未傳送的問題(AN-350930)
+* 修正 Workspace 中顯示多個未知值的問題 (AN-353632)
+* 修正在 Admin console 中加入新客戶或新 Analytics 產品設定檔後未傳送通知電子郵件的問題 (AN-350930)
 
 ### Analytics 其他修正
 
-AN-354361、AN-354248、AN-354211、AN-354324、AN-351532、AN-349808、AN-347831、AN-353777、AN-354092、AN-354064、AN-354202、AN-354006、AN-354097、AN-352548、AN-353819、AN-353818、AN-353628、AN-353747、AN-353527、AN-353490、AN-352647、AN-352656、AN-351274、AN-352135、AN-351519、AN-344906 AN-353697； AN-354499； AN-354402； AN-354062； AN-353905； AN-353932； AN-354142； AN-354194； AN-354182； AN-353758； AN-353039； AN-353612； AN-350799； AN-354414； AN-354636； AN-354249； AN-353637； AN-350949； AN-349402； AN-355103； AN-354174； AN-353823； AN-354819； AN-354215； AN-354219； AN-354040； AN-354763 AN-354597； AN-354478； AN-354528； AN-354335
+AN-354361；AN-354248；AN-354211；AN-354324；AN-351532；AN-349808；AN-347831；AN-353777；AN-354092；AN-354064；AN-354202；AN-354006；AN-354097；AN-352548；AN-353819；AN-353818；AN-353628；AN-353747；AN-353527；AN-353490；AN-352647；AN-352656；AN-351274；AN-352135；AN-351519；AN-344906；AN-353697；AN-354499；AN-354402；AN-354062；AN-353905；AN-353932；AN-354142；AN-354194；AN-354182；AN-353758；AN-353039；AN-353612；AN-350799；AN-354414；AN-354636；AN-354249；AN-353637；AN-350949；AN-349402；AN-355103；AN-354174；AN-353823；AN-354819；AN-354215；AN-354219；AN-354040；AN-354763；AN-354597；AN-354478；AN-354528；AN-354335
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
