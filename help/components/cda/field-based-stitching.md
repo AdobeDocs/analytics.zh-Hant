@@ -4,7 +4,7 @@ description: 了解使用欄位式拚接方式來結合資料的先決條件和�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # 欄位式拚接
+
+{{available-existing-customers}}
 
 跨裝置分析提供將資料拚接在一起的兩種不同方法。此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。使用該變數作為將裝置連結在一起的基礎。Adobe 建議使用此拚接選項，以提高訪客追踪的透明度和可預測性。
 

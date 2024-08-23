@@ -1,8 +1,8 @@
 ---
-source-git-commit: 33ac467cd73e3099ce0ca03aa41cbd4192eb2384
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 96%
+source-wordcount: '1171'
+ht-degree: 93%
 
 ---
 # 程式碼片段
@@ -84,3 +84,10 @@ ht-degree: 96%
 >
 >此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的 Adobe 客戶團隊。他們可幫您安排顧問會議，以尋求協助。
 
+
+## 僅供現有客戶使用 {#available-existing-customers}
+
+>[!AVAILABILITY]
+>
+>本節所述的功能僅適用於已擁有該功能授權的現有客戶。 此功能不再作為現有或新客戶的額外附加元件提供。
+>

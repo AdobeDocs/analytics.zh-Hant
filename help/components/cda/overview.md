@@ -4,7 +4,7 @@ description: 將裝置資料連結在一起，將資料從以裝置為中心轉�
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 90%
@@ -12,6 +12,8 @@ ht-degree: 90%
 ---
 
 # 跨裝置分析
+
+{{available-existing-customers}}
 
 跨裝置分析 (CDA) 功能將 Analytics 從裝置導向檢視轉變為以人為導向的檢視。因此分析師可以瞭解跨瀏覽器、裝置或應用程式的使用者行為。Adobe 支援將裝置資料連結在一起的兩個重要工作流程：
 

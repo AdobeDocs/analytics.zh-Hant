@@ -4,14 +4,17 @@ description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 98%
 
 ---
 
+
 # 常見問題集
+
+{{available-existing-customers}}
 
 +++ 如何使用 CDA 來瞭解人們如何從一種類型的裝置移至另一種類型的裝置上操作？
 

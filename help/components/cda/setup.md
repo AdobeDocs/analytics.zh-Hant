@@ -4,7 +4,7 @@ description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 87%
@@ -12,6 +12,8 @@ ht-degree: 87%
 ---
 
 # 設定跨裝置分析
+
+{{available-existing-customers}}
 
 滿足所有必要條件後，請依照下列步驟啟用跨裝置分析。您必須屬於「產品設定檔管理員」群組，或在 Adobe Analytics 中擁有管理員權限，才能依照這些步驟操作。
 

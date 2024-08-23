@@ -4,14 +4,17 @@ description: 了解使用裝置圖表銜接資料的先決條件和限制。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 60%
 
 ---
 
+
 # 裝置圖表
+
+{{available-existing-customers}}
 
 跨裝置分析功能可使用私密圖表將資料彙整在一起。 專用圖表是組織專屬之雜湊裝置ID的存放庫。 CDA 會定期與裝置圖表通訊，以將裝置連結在一起。
 
@@ -22,6 +25,7 @@ ht-degree: 60%
 >[!WARNING]
 >
 >若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
+>
 
 * [總覽頁面](overview.md)上列出的所有先決條件。
 * 您的組織必須使用[Adobe Experience Platform Identity Service私密圖表](https://business.adobe.com/products/experience-platform/identity-service.html)。 另請參閱Identity Service使用手冊中的[首頁](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)。

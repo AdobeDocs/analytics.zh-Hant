@@ -4,7 +4,7 @@ description: 說明 Analysis Workspace 中 CDA 範本的各個欄位。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 feature: CDA
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 93%
@@ -12,6 +12,8 @@ ht-degree: 93%
 ---
 
 # CDA 工作區範本
+
+{{available-existing-customers}}
 
 Adobe 提供可檢視重要跨裝置效能資料的範本。
 
@@ -26,7 +28,7 @@ Adobe 提供可檢視重要跨裝置效能資料的範本。
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **使用者身分識別**：顯示使用以 Cross-Device Analytics 為基礎之方法識別網站訪客的頻率。
-* **衡量對象規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此轉換量度取決於多種因素：
+* **衡量客群規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此轉換量度取決於多種因素：
    * 登入率：登入您網站的使用者越多，Adobe 就越能跨裝置識別並連結訪客。登入率低的網站壓縮率也會很低。
    * Experience Cloud ID 涵蓋範圍：系統只會連結具有 ECID 的訪客。使用 ECID 造訪您網站的訪客比例較低，與壓縮率較低有關。
    * 使用多部裝置：若您網站的訪客沒有使用多部裝置，則壓縮率會較低。
