@@ -26,7 +26,7 @@ Analysis Workspace 中有以下面板類型:
 | [Analytics for Target 面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
 | [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。 |
 | [自由形式面板](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現一個有豐富資料的故事。 |
-| [「媒體平均每分鐘觀眾數」面板](average-minute-audience-panel.md) | 分析一段時間的平均每分鐘觀眾數，包含尖峰觀看次數的詳細資訊，並能夠加以細分及比較。 |
+| [「媒體平均分鐘觀眾數」面板](average-minute-audience-panel.md) | 分析一段時間的平均每分鐘觀眾數，包含尖峰觀看次數的詳細資訊，並能夠加以細分及比較。 |
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關的差異。 |

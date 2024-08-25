@@ -3,10 +3,11 @@ title: ActivityMap.regionExclusions
 description: 依地區篩選Activity Map資料。
 role: Admin, Developer
 feature: Variables
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 

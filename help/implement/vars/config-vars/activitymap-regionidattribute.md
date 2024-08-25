@@ -3,10 +3,11 @@ title: ActivityMap.regionIDAttribute
 description: 變更Activity Map尋找的屬性以決定區域。
 feature: Variables
 role: Admin, Developer
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

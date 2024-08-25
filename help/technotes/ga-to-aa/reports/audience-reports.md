@@ -1,6 +1,6 @@
 ---
-title: Adobe Analytics 中的對象報表
-description: 瞭解如何使用 Analysis Workspace 建立對象型報表。
+title: Adobe Analytics 中的客群報告
+description: 瞭解如何使用 Analysis Workspace 建立客群型報告。
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
@@ -10,9 +10,9 @@ ht-degree: 98%
 
 ---
 
-# 對象報表
+# 客群報告
 
-對象報表會顯示有關造訪您網站之訪客類型的資訊。
+客群報告會顯示有關造訪您網站之訪客類型的資訊。
 
 本頁假設使用者具備使用 Analysis Workspace 的基本知識。如果您尚不熟悉 Adobe Analytics 中的工具，請參閱[在 Analysis Workspace 中建立基本報表 (Google Analytics 使用者適用)](create-report.md)。
 
@@ -44,9 +44,9 @@ ht-degree: 98%
 
 如需同類群組視覺效果的其他自訂詳細資訊，請參閱 Analysis Workspace 使用指南中的[同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 
-## 對象
+## 客群
 
-Google Analytics 中的「對象」報表需要設定對象。對象也需要透過 Adobe Audience Manager 在 Adobe 中進行設定。如需詳細資訊，請參閱 Audience Manager 使用指南。
+Google Analytics 中的「目標對象報表」需要設定客群 (Google 稱之為「目標對象」)。對象也需要透過 Adobe Audience Manager 在 Adobe 中進行設定。如需詳細資訊，請參閱 Audience Manager 使用指南。
 
 ## 使用者總管
 

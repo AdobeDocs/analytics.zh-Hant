@@ -15,7 +15,7 @@ ht-degree: 96%
 
 2020 年 10 月 1 日，法國資料保護局 (「CNIL」) 發布了其 Cookie 指南 (以下簡稱「指南」) 的修訂版，以及有關取得使用者同意在使用者的裝置或瀏覽器上儲存或讀取非必要 Cookie 和類似技術的最終建議 (以下簡稱「建議」)。
 
-本指南對同意要求提供了有限的豁免 (以下簡稱「同意豁免」)。同意豁免適用於 Analytics Cookie，其目的僅限於代表 Web 發行者測量網站或應用程式的對象。該指南規定，若要套用同意豁免，必須滿足以下條件：
+本指南對同意要求提供了有限的豁免 (以下簡稱「同意豁免」)。同意豁免適用於 Analytics Cookie，其目的僅限於代表 Web 發行者測量網站或應用程式的客群。該指南規定，若要套用同意豁免，必須滿足以下條件：
 
 * 最多保留 25 個月的資料。您可以在[!UICONTROL 「Analytics >]>[!UICONTROL  管理員] > [!UICONTROL 資料管控]」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hant)
 * 在 ECID 中停用協力廠商 Cookie。[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hant#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hant#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hant#id-service-api)

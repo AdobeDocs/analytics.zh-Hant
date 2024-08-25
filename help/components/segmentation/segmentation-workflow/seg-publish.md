@@ -33,15 +33,15 @@ ht-degree: 74%
 ## 考量事項
 
 * **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
-* **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的對象不能超過 2,000 萬名不重複成員。
-* **資料隱私權**：系統不會根據訪客的驗證狀態篩選對象。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解對象共享的完整隱私權意涵。
+* **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的客群不能超過 2,000 萬名不重複成員。
+* **資料隱私權**：系統不會根據訪客的驗證狀態篩選客群。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入客群。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解客群共享的完整隱私權意涵。
 * 有關 **[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中區段之間差異的探討，請前往[這裡](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hant)。
 
 ## 區段發佈時間軸
 
 | 可用功能 | 可用時間 | 可用位置 |
 |---|---|---|
-| 中繼資料 (區段標題和定義) | 發佈後立即生效 | [!DNL Audience Manager]、[!UICONTROL Experience Cloud 對象庫]、[!DNL Target] |
+| 中繼資料 (區段標題和定義) | 發佈後立即生效 | [!DNL Audience Manager]、[!UICONTROL Experience Cloud 客群庫]、[!DNL Target] |
 | 可用的具成員資格區段 | 發佈後 8 小時內 | [!DNL Audience Manager] 中的訪客資料檢視器 |
 | 特徵與成員母群體 | 24 - 48小時內 | [!DNL Audience Manager] |
 
@@ -64,9 +64,9 @@ ht-degree: 74%
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段Publish至Experience Cloud（針對&#x200B;*`<report suite>`*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將對象與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 對象資格的訪客。此時，對象名稱和對應的資料會開始在Experience Cloud的[!DNL Audience Library]頁面上顯示。</br> |
-| **[!UICONTROL 建立對象視窗]** | 您選取的時間範圍會用於依時序建立對象。例如，「最近 30 天」(預設值) 包含自當天 (並非建立區段的原始日期) 起的過去 30 天內符合對象資格的訪客。 |
-| **[!UICONTROL 在對象庫中建立]** | 您建立和發佈的區段可在Experience Cloud的[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
+| **[!UICONTROL 將此區段Publish至Experience Cloud（針對&#x200B;*`<report suite>`*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將客群與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 客群資格的訪客。此時，對象名稱和對應的資料會開始在Experience Cloud的[!DNL Audience Library]頁面上顯示。</br> |
+| **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依時序建立客群。例如，「最近 30 天」(預設值) 包含自當天 (並非建立細分群體的原始日期) 起的過去 30 天內符合客群資格的訪客。 |
+| **[!UICONTROL 在客群庫中建立]** | 您建立和發佈的區段可在Experience Cloud的[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
 | **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至Experience Cloud的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
@@ -122,8 +122,8 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
 在Adobe Audience Manager中，當Analytics與Experience Cloud共用區段時，會以串流方式評估指定區段的訪客清單（含ECID）。
 
-1. 在 [!DNL Audience Manager] 中，前往[!UICONTROL 對象資料 > 特徵 > Analytics 特徵]。您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報表套裝的資料夾。當設定檔和對象/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、區段和資料來源)。
-1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報表套裝資料夾。這時會看到您建立的區段/對象。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
+1. 在 [!DNL Audience Manager] 中，前往[!UICONTROL 客群資料 > 特徵 > Analytics 特徵]。您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報表套裝的資料夾。當輪廓和客群/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、細分群體和資料來源)。
+1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報表套裝資料夾。這時會看到您建立的細分群體/客群。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
    * 系統會建立一個特徵，一開始不含任何資料。大約在區段發佈 8 小時後，[!DNL Analytics] ECID 清單就會上線並與 [!DNL Audience Manager] 及其他 Experience Cloud 解決方案共用。
 
      ![Audience Manager 特徵](assets/aam-traits.png)
@@ -133,7 +133,7 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
 ## 在 [!DNL Adobe Target] 中檢視區段
 
-[!UICONTROL 將此區段發佈至 Experience Cloud] 核取方塊會在 Adobe Analytics 區段建立程序進行期間顯示，勾選後該區段將可供 Adobe Target 的自訂對象庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和受眾區隔來建立行銷活動。
+[!UICONTROL 將此細分群體發佈至 Experience Cloud] 核取方塊會在 Adobe Analytics 細分群體建立程序進行期間顯示，勾選後該細分群體將可供 Adobe Target 的自訂客群庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
 
-1. 按一下[!UICONTROL 「對象」]。
-1. 在[!UICONTROL 對象]頁面上，找到來源為 [!DNL Experience Cloud] 的對象。這些對象可在 [!DNL Target] 活動中使用。
+1. 按一下[!UICONTROL 「客群」]。
+1. 在[!UICONTROL 客群]頁面上，找到來源為 [!DNL Experience Cloud] 的客群。這些客群可在 [!DNL Target] 活動中使用。

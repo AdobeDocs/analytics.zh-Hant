@@ -109,7 +109,7 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 
 * [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-* [媒體平均每分鐘觀眾數](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+* [媒體平均分鐘觀眾數](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
 
 * [下一個或上一個專案](/help/analyze/analysis-workspace/c-panels/next-previous.md)
 

@@ -43,7 +43,7 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 ## 區段 {#segments}
 
-[**區段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)是套用至分析的對象篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
+[**細分群體**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)是套用至分析的客群篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
 
 區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的造訪次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)建立。
 

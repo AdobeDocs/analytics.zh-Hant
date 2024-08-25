@@ -46,7 +46,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ## 如何使用 Markdown 設定主題格式
 
-此存放庫中的所有文章皆使用GitHub Flavored Markdown。 如果您不熟悉Markdown，請參閱 [基本撰寫和格式語法](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 在GitHub檔案上。
+此存放庫中的所有文章皆使用GitHub Flavored Markdown。 如果您不熟悉Markdown，請參閱GitHub檔案上的[基本撰寫和格式化語法](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)。
 
 ## 標籤
 

@@ -23,7 +23,7 @@ ht-degree: 96%
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |---|---|
 | 目標分析 | `targetraw` |
-| 適用對象 ID | `mcaudiences` |
+| 適用客群 ID | `mcaudiences` |
 | 瀏覽器 | `browser` |
 | 瀏覽器類型 | `browsertype` |
 | 類別 | `category` |

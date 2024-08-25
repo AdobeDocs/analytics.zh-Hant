@@ -3,10 +3,11 @@ title: ActivityMap.link
 description: 自訂Activity Map收集連結點選的方式。
 feature: Variables
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 

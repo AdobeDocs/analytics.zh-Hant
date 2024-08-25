@@ -3,7 +3,8 @@ title: Activity Map 頁面
 description: 點按連結時的頁面名稱。
 feature: Dimensions
 role: User, Admin
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+exl-id: 8dc5d5a1-ee44-4c98-80fa-13dd1cf4edf2
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 6%

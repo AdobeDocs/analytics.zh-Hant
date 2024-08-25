@@ -1,6 +1,6 @@
 ---
 title: 什麼是「同類群組分析」？這又是如何運作的？
-description: 透過「同類群組分析」，深入了解使用對象資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
+description: 透過「同類群組分析」，深入了解使用客群資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09

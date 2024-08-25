@@ -21,6 +21,6 @@ ht-degree: 88%
 | [標籤](cm-tagging.md)計算量度 | 標記計算量度以方便進行組織和共用。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。 |
 | [核准](cm-approving.md)計算量度 | 核准計算量度可讓它們成為遵循標準。 |
 | 套用計算量度 | 您可從報表、量度選擇器 (若要存取，請按一下「顯示量度」) 直接套用量度。 |
-| [共用](cm-sharing.md)計算，量度 | 將量度與其他 [!DNL Analytics] 工具、Adobe Target 和 Adobe Experience Cloud 中的預定對象共用。 |
+| [共用](cm-sharing.md)計算，量度 | 將量度與其他 [!DNL Analytics] 工具、Adobe Target 和 Adobe Experience Cloud 中的預定客群共用。 |
 | 篩選計算量度 | 在量度選擇器中，按一下「進階選擇」並依標記、擁有者及其他篩選器 (全部顯示、我的、與我共用、我的最愛與已核准) 進行篩選。 |
 | 將計算量度標示為[我的最愛](cm-finding.md) | 要組織量度以方便使用，將量度標記為我的最愛是另一種方法。 |

@@ -25,11 +25,11 @@ ht-degree: 73%
 >
 >對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用Web SDK擴充功能的Post — 追蹤回呼
+## 使用Web SDK擴充功能的後續追蹤回呼
 
 即將推出！
 
-## Post — 追蹤手動實作Web SDK的回呼
+## 手動實作Web SDK的後追蹤回呼
 
 資料成功傳送至Adobe後，您可以在傳送事件以註冊函式時使用JavaScript Promise 。
 
@@ -43,7 +43,7 @@ alloy("sendEvent",{
 
 如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
 
-## 使用Post擴充功能註冊Adobe Analytics追蹤回呼
+## 使用Adobe Analytics擴充功能註冊後續追蹤回呼
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 

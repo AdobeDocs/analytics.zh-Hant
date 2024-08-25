@@ -5,7 +5,7 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
 source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

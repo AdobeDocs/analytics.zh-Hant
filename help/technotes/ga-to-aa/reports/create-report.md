@@ -68,7 +68,7 @@ Adobe 已將許多功能放入 Analysis Workspace 的滑鼠右鍵內容功能表
 如果您熟悉 Analysis Workspace，並想要重新建立通常在 Google Analytics 中檢視的特定報表，請在其各自的頁面上找出報表：
 
 * [即時報表](realtime-reports.md)
-* [對象報表](audience-reports.md)
+* [客群報告](audience-reports.md)
 * [贏取報表](acquisition-reports.md)
 * [行為報表](behavior-reports.md)
 * [轉換報表](conversions-reports.md)

@@ -80,8 +80,8 @@ ht-degree: 91%
 
 區段 IQ (也稱為區段比較) 包括以下功能：
 
-* [區段比較面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)區段 IQ 的核心功能。將兩個區段拖曳至面板中，並透過資料全面的報表，檢視兩種目標對象之間在統計數據上的顯著差異和重疊之處。
-* [比較區段的流失：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)透過流失率視覺效果，互相比較不同目標對象的流失情況。
+* [區段比較面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)區段 IQ 的核心功能。將兩個細分群體拖曳至面板中，並透過資料全面的報告，檢視兩種目標客群之間在統計數據上的顯著差異和重疊之處。
+* [比較細分群體的流失：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)透過流失率視覺效果，互相比較不同目標客群的流失情況。
 
 ## 更多資訊
 

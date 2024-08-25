@@ -161,7 +161,7 @@ ht-degree: 13%
 * Analysis Workspace UI
 * Workspace 排程專案
 * Report Builder
-* 產生器 UI：區段、計算量度、註解、對象等。
+* 產生器 UI：細分群體、計算量度、註解、客群等。
 * 1.4 或 2.0 API 的 API 呼叫
 * 智慧型警報
 * 與任何人共用連結

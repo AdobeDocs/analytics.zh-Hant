@@ -61,7 +61,7 @@ ht-degree: 98%
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL X]**：(刪除) 可用來刪除這個部分的區段定義。
 1. **[!UICONTROL Experience Cloud 發佈]**：將 Adobe Analytics 區段發佈至 Experience Cloud，可讓您在 [!DNL Audience Manager] 和其他啟用管道中，使用該區段進行行銷活動。[更多詳情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 受眾庫]**：Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL 客群庫]**：Adobe 的客群服務可管理將訪客資料轉譯為客群細分的過程。因此，建立和管理客群類似於建立和使用細分群體，附贈可與 Experience Cloud 共用客群細分群體的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
 1. **[!UICONTROL 搜尋]**：搜尋維度、區段或量度清單。
 1. **[!UICONTROL 維度]**：(清單) 按一下標題可展開。
 1. **[!UICONTROL 量度]**：按一下標題可展開。

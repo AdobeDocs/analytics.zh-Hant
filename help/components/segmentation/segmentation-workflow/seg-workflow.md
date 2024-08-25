@@ -43,7 +43,7 @@ ht-degree: 87%
 
 ![](assets/step6_icon.png) [共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
 
-將區段共用給其他 Analytics 工具、Adobe Target 和 Adobe Experience Cloud 中的預定對象。
+將細分群體共用給其他 Analytics 工具、Adobe Target 和 Adobe Experience Cloud 中的預定客群。
 
 ![](assets/step7_icon.png) [篩選區段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
 

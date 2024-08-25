@@ -23,7 +23,7 @@ ht-degree: 100%
       + [為 GA 使用者在 Analysis Workspace 建立基本報表](ga-to-aa/reports/create-report.md)
       + [用於其他 Analytics 平台的通用量度](ga-to-aa/reports/common-metrics.md)
       + [即時](ga-to-aa/reports/realtime-reports.md)
-      + [對象](ga-to-aa/reports/audience-reports.md)
+      + [客群](ga-to-aa/reports/audience-reports.md)
       + [贏取](ga-to-aa/reports/acquisition-reports.md)
       + [行為](ga-to-aa/reports/behavior-reports.md)
       + [轉換](ga-to-aa/reports/conversions-reports.md)

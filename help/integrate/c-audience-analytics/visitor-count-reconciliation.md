@@ -67,7 +67,7 @@ Adobe Audience Manager即時區段母體與Audience Analytics報表中使用的E
   <tr> 
    <td colname="col1"> <p>150 個區段上限 </p> </td> 
    <td colname="col2"> <p>否 </p> </td> 
-   <td colname="col3"> <p>有，150 個區段整合上限可能會影響 Analytics 計數最高達 5%。若發生截斷情況，「對象名稱」維度中會顯示「已達對象上限」。 </p> </td> 
+   <td colname="col3"> <p>有，150 個區段整合上限可能會影響 Analytics 計數最高達 5%。若發生截斷情況，「客群名稱」維度中會顯示「已達客群上限」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

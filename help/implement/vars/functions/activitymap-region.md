@@ -3,10 +3,11 @@ title: ActivityMap.region
 description: 自訂Activity Map收集所點按地區的方法。
 feature: Variables
 role: Admin, Developer
-source-git-commit: 1fb57590714ad2412323416289dee967eef07fad
+exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 

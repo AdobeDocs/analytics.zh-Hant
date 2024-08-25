@@ -27,7 +27,7 @@ Adobe 建議從取得報表資料的絕對基礎概念開始：
 在您熟悉 [!UICONTROL Analysis Workspace] 中的元件後，便可了解如何使用正確的元件來重新建立大部分的報表。
 
 * [在 Adobe Analytics 中建立即時報表](reports/realtime-reports.md)
-* [在 Adobe Analytics 中建立對象報表](reports/audience-reports.md)
+* [在 Adobe Analytics 中建立客群報告](reports/audience-reports.md)
 * [在 Adobe Analytics 中建立贏取報表](reports/acquisition-reports.md)
 * [在 Adobe Analytics 中建立行為報表](reports/behavior-reports.md)
 * [在 Adobe Analytics 中建立轉換報表](reports/conversions-reports.md)

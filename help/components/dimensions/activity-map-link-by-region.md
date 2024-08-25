@@ -3,7 +3,8 @@ title: Activity Map 連結 (依地區)
 description: 連結和區域的串連值。
 feature: Dimensions
 role: User, Admin
-source-git-commit: 65e75a1c2b39823e72abfb0e5b61122c62f1f013
+exl-id: 33014dc1-da4e-47b7-b73c-3e89e04f3ed6
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 11%

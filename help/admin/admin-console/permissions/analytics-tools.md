@@ -40,7 +40,7 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 | [!UICONTROL Report Builder] | 啟用「工具 > Report Builder」底下的下載按鈕，並允許用戶在 Microsoft Excel 內進行驗證。 |
 | [!UICONTROL 安全性] | 授與對「管理員 > 所有管理員 > 公司設定 > 安全管理器」的存取權。 |
 | [!UICONTROL 建立區段] | 授與在所有 Analytics 功能中建立與共用區段的能力。 |
-| [!UICONTROL 區段發佈] | 授與建立或編輯區段時，將區段設為 Experience Cloud 對象的能力。 |
+| [!UICONTROL 區段發佈] | 授與建立或編輯細分群體時，將細分群體設為 Experience Cloud 客群的能力。 |
 | [!UICONTROL 伺服器呼叫使用量] | 授與對「管理員 > 伺服器呼叫使用量」的存取權。 |
 | [!UICONTROL 與任何人共用專案連結] | 授予無法存取Analysis Workspace之人員對Adobe Analytics專案的唯讀存取許可權的能力。 |
 | [!UICONTROL 支援] | 授與對「管理員 > 所有管理員 > 公司設定 > 支援資訊」的存取權。 |

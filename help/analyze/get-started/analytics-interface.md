@@ -45,7 +45,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
 
    | 產品功能 | 功能 | 詳細資訊 |
    |---------|----------|----------|
-   | 區段 | Adobe Analytics 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報告。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
+   | 區段 | Adobe Analytics 可讓您使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合的 Adobe 產品來建立、管理、分享強大的、有針對性的客群細分群體並將其應用到您的報告中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
    | 計算量度 | 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。無論行銷人員、產品經理和分析人員，都不需變更 Analytics 實作就能詢問資料相關問題。 | [計算與進階計算 (衍生) 量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 日期範圍 | Analysis Workspace 包含使用者在建置分析時可以使用的預設日期範圍清單。此外，您可以建立自訂日期範圍並將其提供給 Analysis Workspace 的使用者。 | [建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虛擬報告套裝 | 虛擬報告套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。 | [虛擬報告套裝概觀](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant) |
@@ -74,7 +74,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 產品功能 | 功能 | 詳細資訊 |
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 是指儲存和自訂報告所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html) |
-   | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷計劃，以及針對觀眾需求和行為採取行動。 | [Activity Map 概觀](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
+   | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。它可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。 | [Activity Map 概觀](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
    | Recommendations Classic | Recommendations 是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支援此功能。 |  |
    | 行動服務 | 不再支援此功能。 |  |

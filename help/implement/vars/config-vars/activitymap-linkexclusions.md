@@ -3,10 +3,11 @@ title: ActivityMap.linkExclusions
 description: 依連結名稱篩選Activity Map資料。
 role: Admin, Developer
 feature: Variables
-source-git-commit: 05010d58ba2a3376473097e9d4543ee4415e83e1
+exl-id: 9fc95016-362d-4c21-806e-e23adce9b6f7
+source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 

@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
 source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ ht-degree: 100%
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [媒體平均每分鐘觀眾數面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [媒體平均分鐘觀眾數面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
       + [「媒體同時檢閱者」面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [「媒體播放時間」面板](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個項目面板](analysis-workspace/c-panels/next-previous.md)
