@@ -4,24 +4,26 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
+source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
 workflow-type: tm+mt
-source-wordcount: '3569'
-ht-degree: 97%
+source-wordcount: '3790'
+ht-degree: 91%
 
 ---
 
 # Analytics 變數的資料隱私權標籤
 
-## 為何要為您的資料加標籤？ {#why-label}
-
-身為資料管控單位，Adobe 的客戶有責任遵守適用的資料隱私權法律，例如 GDPR 和 CCPA。客戶應諮詢自己的法律團隊，以確定應該如何處理其資料以遵守資料隱私權法律。Adobe 了解其每個客戶都有與隱私權相關的獨特需求，這就是為什麼 Adobe 允許其客戶自訂其所需的資料隱私權資料處理設定。這讓每個獨特客戶都能夠針對其品牌和獨特的資料集，透過最適合的方式處理資料隱私權請求。
+Adobe的客戶身為資料控管者，有責任遵守適用的資料隱私權法律，例如一般資料保護規範(GDPR)和加州消費者隱私保護法(CCPA)。 客戶應諮詢自己的法律團隊，以確定應該如何處理其資料以遵守資料隱私權法律。Adobe 了解其每個客戶都有與隱私權相關的獨特需求，這就是為什麼 Adobe 允許其客戶自訂其所需的資料隱私權資料處理設定。這讓每個獨特客戶都能夠針對其品牌和獨特的資料集，透過最適合的方式處理資料隱私權請求。
 
 Adobe Analytics 會根據資料敏感程度和契約限制提供標籤資料的工具。標籤是一項重要的步驟，有助於: (1) 識別資料主體、(2) 判斷要傳回做為存取請求之一部分的資料，以及 (3) 識別做為部分刪除請求所必須刪除的資料欄位。
 
 在確定應將哪些標籤套用至哪些變數/欄位之前，您需要先[瞭解在 Analytics 資料中擷取的 ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)，並決定要將哪個 ID 用於資料隱私權請求。
 
 Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和資料控管的標籤。
+
+>[!NOTE]
+>
+>I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤具有相同的含義。 不過，它們的用途大不相同。 在Adobe Analytics中，這些標籤用於協助識別應因Privacy Service請求而匿名的欄位。 在Adobe Experience Platform中，它們用於存取控制、同意管理，以及在標籤欄位上強制執行行銷限制。 Adobe Experience Platform支援許多Adobe Analytics未使用的其他標籤。 此外，Adobe Experience Platform中的標籤會套用至結構描述。 如果您利用Analytics Data Connector將Adobe Analytics資料匯入Adobe Experience Platform，您需要確保在Adobe Experience Platform中為每個報表套裝使用的結構描述設定適當的DULE標籤。 在Adobe Analytics中指派的標籤不會自動套用至Adobe Experience Platform中的這些結構描述，因為它們只會代表您可能需要套用的DULE標籤的子集。 此外，不同的報表套裝可能會共用結構描述，但將不同的標籤指派給具有相同編號的prop和evar，而且該結構描述可能會由其他資料來源的資料集共用，這可能會造成某些欄位收到這些標籤的原因混淆。
 
 ## 身分資料標籤 {#identity-data-labels}
 
@@ -49,7 +51,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 資料控管標籤提供使用者進行資料分類以反映其隱私權相關考量與契約條件的能力，以協助 Adobe 客戶遵循法規和公司政策。
 
-### 資料隱私權存取標籤
+### 資料隱私權存取標籤 {#access}
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
@@ -61,7 +63,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 儘管有幾個變數會接收到其他標籤，不過我們還是希望您將存取標籤套用至大部分變數中。然而，要決定與資料主體共用哪些所收集的資料，最終取決於您與法律團隊的諮詢結果。
 
-### 資料隱私權刪除標籤
+### 資料隱私權刪除標籤 {#delete}
 
 刪除標籤與其他標籤的相異之處在於它們並非互斥。您可以選取任一個標籤、同時選取兩者或兩者皆不選。您不一定要加上個別的「[!UICONTROL 無]」標籤，只要不勾選任何一個「刪除」選項就會顯示「[!UICONTROL 無]」。
 
@@ -74,7 +76,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 {style="table-layout:auto"}
 
-### 資料隱私權身分標籤
+### 資料隱私權身分標籤 {#identity}
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
@@ -88,7 +90,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 當您將變數標示為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。您可以使用先前定義的命名空間或定義新的命名空間。
 
-### 使用先前定義的命名空間
+### 使用先前定義的命名空間 {#previously-defined}
 
 如果您先前曾將 ID 標籤指派給登入公司中任何報表套裝的其他變數，您可以選取任何一個現有的命名空間。 如果此變數包含的 ID 類型與先前以此命名空間為標籤的其他變數相同，而且您想要在提交請求時搜尋所有的變數，您應重複使用該命名空間。
 
@@ -97,7 +99,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 
-### 定義新的命名空間
+### 定義新的命名空間 {#define}
 
 您也可以定義新的命名空間。我們建議將命名空間字串限制為英數字元，再加上底線、破折號及空格字元。所有字元都會轉換為小寫。
 
