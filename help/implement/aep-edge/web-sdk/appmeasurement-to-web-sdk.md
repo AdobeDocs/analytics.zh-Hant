@@ -2,7 +2,7 @@
 title: 從AppMeasurement移轉至Web SDK
 description: 將Adobe Analytics實作從AppMeasurementJavaScript資料庫更新至Web SDK JavaScript資料庫。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
 
-在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamId)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)屬性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)屬性：
 
 * 將`datastreamId`設定為在上一步中擷取的資料串流識別碼。
 * 將`orgId`設定為您組織的IMS組織。
