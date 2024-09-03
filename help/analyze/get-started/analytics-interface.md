@@ -3,10 +3,10 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 100%
+source-wordcount: '2065'
+ht-degree: 99%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 產品功能 | 功能 | 詳細資訊 |
    |---------|----------|----------|
    | 區段 | Adobe Analytics 可讓您使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合的 Adobe 產品來建立、管理、分享強大的、有針對性的客群細分群體並將其應用到您的報告中。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-   | 計算量度 | 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。無論行銷人員、產品經理和分析人員，都不需變更 Analytics 實作就能詢問資料相關問題。 | [計算與進階計算 (衍生) 量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
+   | 計算量度 | 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。無論行銷人員、產品經理和分析人員，都不需變更 Analytics 實作就能詢問資料相關問題。 | [計算量度和進階計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 日期範圍 | Analysis Workspace 包含使用者在建置分析時可以使用的預設日期範圍清單。此外，您可以建立自訂日期範圍並將其提供給 Analysis Workspace 的使用者。 | [建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虛擬報告套裝 | 虛擬報告套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。 | [虛擬報告套裝概觀](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant) |
    | 警報 | 智慧型警報可提供更細緻的警報控制能力，並整合警報系統與異常偵測功能。 | [智慧型警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
@@ -120,7 +120,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 網站服務 | 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。 | [網頁服務](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |
    | Report Builder 報告 | 管理指派給 Report Builder 使用者的授權。 | [Report Builder 報告](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html) |
    | 單一登入服務 | Adobe Experience Cloud 的單一登入是透過 Admin Console 實作。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
-   | 隱藏報告套裝 | 如果您不再想要您和您的使用者使用報告套裝，可以在 Adobe Analytics 使用者介面中隱藏報告套裝。 | [隱藏報告套裝](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |  |
+   | 隱藏報告套裝 | 如果您不再想要您和您的使用者使用報告套裝，可以在 Adobe Analytics 使用者介面中隱藏報告套裝。 | [隱藏報告套裝](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html) |
 
    {style="table-layout:auto"}
 

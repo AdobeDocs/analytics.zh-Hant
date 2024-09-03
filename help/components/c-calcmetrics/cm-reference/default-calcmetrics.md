@@ -3,9 +3,9 @@ description: Adobe提供您能使用的各種計算量度。 此頁面列出這�
 title: 預設計算量度
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '736'
 ht-degree: 40%
 
 ---
@@ -21,8 +21,9 @@ Adobe Analytics提供各種計算量度，以涵蓋最常見的使用案例。 �
 >除了此頁面所述的預設計算量度外，您也可以新增其他計算量度至報表套裝。
 >
 >您可以：
+>
 > * 新增適用於串流媒體收集附加元件的預設計算量度，如[計算量度](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html)中所述
-> * 從現有量度建立自訂計算量度，如[計算與進階計算（衍生）量度](/help/components/c-calcmetrics/cm-overview.md)中所述。
+> * 從現有量度建立自訂計算量度，如[計算與進階計算量度](/help/components/c-calcmetrics/cm-overview.md)中所述。
 
 
 | 計算量度名稱 | 函數 | 公式 |
