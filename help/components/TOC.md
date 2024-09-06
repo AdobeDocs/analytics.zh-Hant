@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 99%
    + [關於管理舊式區段的常見問題集](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
-   + [計算量度和進階計算量度](c-calcmetrics/cm-overview.md)
+   + [計算與進階計算量度](c-calcmetrics/cm-overview.md)
    + [作法影片](c-calcmetrics/cm-videos.md)
    + 計算量度工作流程 {#calcmetric-workflow}
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
