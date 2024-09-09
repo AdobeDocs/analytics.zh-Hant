@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bb7c5489a38ab6e8164f7d8feeb8f0d918d75853
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 0f05faf76c26000f714e95ed2469ff13b7e3b72e
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 85%
 
 ---
 
 # 最新 Adobe Analytics 發行說明 (2024 年 8 月)
 
-**最後更新**：2024 年 8 月 20 日
+**上次更新日期**： 2024年9月9日
 
 這些發行說明涵蓋 2024 年 8 月 14 日至 2024 年 9 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,6 +20,7 @@ ht-degree: 100%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **在計算量度管理員和區段管理員的「使用中」欄位中的其他資訊** | 計算量度管理員和區段管理員中的「使用位置」欄包含下列新報告區域：<ul><li>**Report Builder：**&#x200B;顯示Report Builder中使用的計算量度或區段數。</li><li>**臨時元件：**&#x200B;顯示專案中使用的臨時計算量度或臨時區段數目。 這些臨時計算量度和區段（又稱為「快速計算量度」和「快速區段」）只能用於其建立的專案中，因此會與「使用位置」欄中的「專案」報告區域分開報告。</li></ul><p>（更新說明檔案連結，請前往。）</p> | 不適用 | 2024年9月11日 |
 | **針對連結追蹤的 Web SDK 改善** | 最新版本的 Web SDK 在連結追蹤方面提供了一些顯著的改善，使 Activity Map 直接受益。這些新功能在 Web SDK JavaScript 程式庫和 Web SDK 標記擴充功能中均可使用。<ul><li>事件分組：當訪客點擊內部連結時，您可以選擇對下一頁上的事件資料進行分組，而不是觸發單獨的事件呼叫以進行連結追蹤。此改善減少了 Web SDK 所用違反合約限制的事件數量。</li><li>篩選器點擊屬性：取代 `OnBeforeLinkClickSend` 的新回呼。您可以使用此回呼來篩選或混淆連結相關資料，然後再將其傳送到 Adobe。</li></ul><p>如需詳細資訊，請參閱 Web SDK 使用手冊中的 [clickCollection](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollection)。</p> | 公開 Beta 版於 2024 年 7 月 10 日開始 | 2024 年 7 月 18 日 |
 
 {style="table-layout:auto"}
