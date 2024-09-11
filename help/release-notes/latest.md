@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: a74d47cf99545305c9b7d99d934dfedafdd9233b
+source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 56%
+source-wordcount: '750'
+ht-degree: 55%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 56%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 |--- | --- | --- | --- |
-| **在計算量度管理員和區段管理員的「使用中」欄位中的其他資訊** | 計算量度管理員和區段管理員中的「使用位置」欄包含下列新報告區域：<ul><li>**Report Builder**：顯示Report Builder中使用的計算量度或區段數。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時區段數目。 這些臨時計算量度和區段（又稱為「快速計算量度」和「快速區段」）只能用於其建立的專案中，因此會與「使用位置」欄中的「專案」報告區域分開報告。</li></ul> |  | 2024年9月11日 |
+| **在計算量度管理員和區段管理員的「使用中」欄位中的其他資訊** | 計算量度管理員和區段管理員中的「使用位置」欄包含下列新報告區域：<ul><li>**Report Builder**：顯示Report Builder中使用的計算量度或區段數。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時區段數目。 這些臨時計算量度和區段（又稱為「快速計算量度」和「快速區段」）只能用於其建立的專案中，因此會與「使用位置」欄中的「專案」報告區域分開報告。</li></ul>如需詳細資訊，請參閱[計算量度管理員](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager)和[區段管理員](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)。 |  | 2024年9月11日 |
 | **Activity Mapv3延伸模組** | Activity Map v3擴充功能現已推出。 如果您已安裝v2擴充功能，請先解除安裝再安裝v3擴充功能。 導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]**，以取得最新版本的擴充功能。 |  | 2024年9月3日 |
 
 
