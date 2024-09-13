@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為Data Warehouse請求建立報告
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 49%
+source-wordcount: '232'
+ht-degree: 42%
 
 ---
 
@@ -25,6 +25,12 @@ ht-degree: 49%
 1. 在「新Data Warehouse請求」頁面上，選取「[!UICONTROL **建置您的報表**]」標籤。
 
    ![建置報告標籤](assets/build-report.png)
+
+1. 在左上角，選擇建置Data Warehouse報表時要使用的報表套裝。
+
+   並非所有在「區段產生器」中建立的區段都與 Data Warehouse 相容。如果您選擇的虛擬報表套裝包含不相容的區段，則會顯示錯誤。
+
+   如需區段內支援的函式清單，請參閱[Data Warehouse區段相容性](/help/components/segmentation/seg-reference/seg-compatibility.md)。
 
 1. 將任何區段、量度和維度拖曳至產生器。 您建置的報表會決定Data Warehouse請求中包含哪些資料。
 
