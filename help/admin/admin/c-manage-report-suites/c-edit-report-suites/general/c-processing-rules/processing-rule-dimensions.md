@@ -5,7 +5,7 @@ title: 可用於處理規則的維度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: d17067b3ab58612cdfc3ac640a7530b326260c89
+source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
@@ -22,8 +22,6 @@ ht-degree: 13%
 | --- | --- | --- |
 | 自訂值 | 唯讀 | 自訂文字或直接在處理規則的動作中輸入的值。 |
 | 串連值 | 唯讀 | 結合兩個值所建立的值。 例如，管道和頁面名稱可以結合以建立子類別。 |
-
-{style="table-layout:auto"}
 
 ## 點選屬性
 
@@ -47,11 +45,9 @@ ht-degree: 13%
 | 頁面根網域 | 唯讀 | 目前URL的頁面網域，不包括子網域。 |
 | 客戶角度 | 讀取+寫入 | 此旗標可確定點選是否為行動背景點選。 |
 
-{style="table-layout:auto"}
-
 ## 轉換變數
 
-| 變數 | 讀取/寫入狀態說明 |
+| 變數 | 讀取/寫入狀態 | 說明 |
 | --- | --- | --- |
 | eVar1-250 | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md)維度。 |
 | 促銷活動 | 讀取+寫入 | [追蹤代碼](/help/components/dimensions/tracking-code.md)維度。 |
@@ -60,8 +56,6 @@ ht-degree: 13%
 | Zip | 讀取+寫入 | [郵遞區號](/help/components/dimensions/zip-code.md)維度。 |
 | 貨幣代碼 | 讀取+寫入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md)實作變數。 重要：如果您將此變數設為無效值，點選會被捨棄。 |
 | 交易 ID | 讀取+寫入 | [`transactionID`](/help/import/data-sources/transactionid.md)實作變數。 |
-
-{style="table-layout:auto"}
 
 >[!NOTE]
 >Adobe不支援使用處理規則設定[`products`](/help/implement/vars/page-vars/products.md)實作變數。
@@ -74,8 +68,6 @@ ht-degree: 13%
 | 階層 1-5 | 讀取+寫入 | [階層](/help/components/dimensions/hierarchy.md)維度。 |
 | 伺服器 | 讀取+寫入 | [伺服器](/help/components/dimensions/server.md)維度。 |
 | 管道 | 讀取+寫入 | [網站區段](/help/components/dimensions/site-section.md)維度。 |
-
-{style="table-layout:auto"}
 
 ## 內容變數
 
@@ -96,4 +88,3 @@ ht-degree: 13%
 | 事件 1-1000 | 僅寫入 | [自訂事件](/help/components/metrics/custom-events.md)。 |
 | 產品瀏覽數 | 僅寫入 | [產品檢視](/help/components/metrics/product-views.md)量度。 |
 
-{style="table-layout:auto"}
