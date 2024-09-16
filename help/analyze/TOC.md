@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: c043a5ea4176d9d9e6beb1d49ceb91cd266a1721
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '919'
 ht-degree: 100%
 
 ---
@@ -152,11 +152,6 @@ ht-degree: 100%
       + [關閉異常偵測](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [執行貢獻分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [用於異常偵測的統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
-      + 智慧型警報 {#intelligent-alerts}
-         + [智慧型警報總覽](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
-         + [建立警報](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [管理警報](analysis-workspace/c-intelligent-alerts/alert-manager.md)
-         + [使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
    + 工作區常見問題 {#workspace-faq}
       + [常見問題](analysis-workspace/workspace-faq/faq.md)

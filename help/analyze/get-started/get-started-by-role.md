@@ -3,7 +3,7 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 100%
@@ -109,7 +109,7 @@ Analytics 管理員應了解以下可協助監控 Analytics 環境重要方面�
 | 歸因 | 分析師可以透過在 Analysis Workspace 中採用各種歸因模型和回顧期間，自訂維度項目獲得成功事件評分的方式。<p>線性歸因模型會將相等的評分歸給每個帶來轉換的接觸點，而首次接觸則會將全部的評分歸給第一個接觸點。還有許多其他歸因模型可用，包括演算法模型，該模型使用統計技術來動態決定最佳評分配置。 </p> | [歸因模型與回顧期間](/help/analyze/analysis-workspace/attribution/models.md) |
 | 異常偵測 | Analysis Workspace 中的統計建模透過分析量度並確定值的下限、上限和預期範圍，自動找出資料中意外的趨勢。當發生意外的尖峰或下降時，系統會在報告中發出警報。 | [異常偵測概觀](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 貢獻分析 | 使用 Analysis Workspace 探索您資料中的隱藏模式，解釋統計異常並識別客群細分群體間非預期客戶動作、界外值、量度突升或突降背後的關聯。 | [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)中的[貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)概觀 |
-| 智慧型警報 | 根據資料異常和「堆疊」警報來建立和管理警報，這些警報在單一警報中擷取多個量度。 | [智慧型警報概觀](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
+| 智慧型警報 | 根據資料異常和「堆疊」警報來建立和管理警報，這些警報在單一警報中擷取多個量度。 | [智慧型警報概觀](/help/components/c-alerts/intellligent-alerts.md) |
 | 資料匯出 | Data Warehouse 和資料摘要可讓您將資料匯出到各種雲端目的地，例如 Google Cloud Platform、Azure RBAC、Azure SAS 和 Amazon S3。 | [Analytics 匯出指南](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=zh-Hant) |
 | Activity Map | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。<p>Activity Map 可讓您設定不同的視圖，以直觀地識別客戶活動的加速情況、量化行銷計劃並根據客群需求和行為採取行動。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder |  Report Builder 是 Microsoft Excel 的增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |

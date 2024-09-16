@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
-workflow-type: ht
-source-wordcount: '808'
+source-git-commit: 2b8688da1400857b7f5093197d06c04681cd87ff
+workflow-type: tm+mt
+source-wordcount: '803'
 ht-degree: 100%
 
 ---
@@ -253,10 +253,10 @@ ht-degree: 100%
    + [將虛擬報告套裝限制在特定日期](cda/limit-vrs-date.md)
    + [跨裝置分析常見問答](cda/faq.md)
 + 警報 {#alerts}
-   + [智慧型警報](c-alerts/intellligent-alerts.md)
-   + [警報產生器](c-alerts/alert-builder.md)
-   + [警報管理員](c-alerts/alert-manager.md)
-   + [智慧型警報 - 使用案例](c-alerts/alerts-use-cases.md)
+   + [概觀](c-alerts/intellligent-alerts.md)
+   + [建立](c-alerts/alert-builder.md)
+   + [管理](c-alerts/alert-manager.md)
+   + [使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類總覽](classifications/c-classifications.md)
    + 分類集 {#sets}
