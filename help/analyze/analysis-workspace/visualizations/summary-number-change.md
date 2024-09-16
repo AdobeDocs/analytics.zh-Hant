@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 8f63211c3fd9070b1ef47ad409364507b7a9c4b4
+source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 
 ## [!UICONTROL 摘要變更]視覺效果 {#summary-change}
 
-使用[!UICONTROL 摘要變更]視覺效果可顯示兩個數字間的差異 (變更)。 可透過[自訂事件極性](https://experienceleague.adobe.com/docs/analytics/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)或計算量度的[顯示上升趨勢的方式](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)選項，控制[!UICONTROL 摘要變更]的綠色和紅色。
+使用[!UICONTROL 摘要變更]視覺效果可顯示兩個數字間的差異 (變更)。 可透過[自訂事件極性](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)或計算量度的[顯示上升趨勢的方式](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)選項，控制[!UICONTROL 摘要變更]的綠色和紅色。
 
 此視覺效果的運作方式如下：
 
