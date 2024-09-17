@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 55%
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 |--- | --- | --- | --- |
-| **在計算量度管理員和區段管理員的「使用中」欄位中的其他資訊** | 計算量度管理員和區段管理員中的「使用位置」欄包含下列新報告區域：<ul><li>**Report Builder**：顯示Report Builder中使用的計算量度或區段數。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時區段數目。 這些臨時計算量度和區段（又稱為「快速計算量度」和「快速區段」）只能用於其建立的專案中，因此會與「使用位置」欄中的「專案」報告區域分開報告。</li></ul>如需詳細資訊，請參閱[計算量度管理員](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager)和[區段管理員](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)。 |  | 2024年9月11日 |
+| **計算量度管理器和區段管理器的「使用於」欄中的額外資訊** | 計算量度管理器和區段管理器的「使用於」欄包含以下新報告區域：<ul><li>**Report Builder**：顯示Report Builder中使用的計算量度或區段數。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時區段數目。 這些臨時計算量度和區段 (也稱為「快速計算量度」和「快速區段」) 只能在建立這些量度和區段的專案中使用，因此在「使用於」欄中，這些量度和區段會與「專案」報告區域分開報告。</li></ul>如需詳細資訊，請參閱[計算量度管理員](https://experienceleague.adobe.com/en/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager)和[區段管理員](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)。 |  | 2024年9月11日 |
 | **Activity Mapv3延伸模組** | Activity Map v3擴充功能現已推出。 如果您已安裝v2擴充功能，請先解除安裝再安裝v3擴充功能。 導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]**，以取得最新版本的擴充功能。 |  | 2024年9月3日 |
 
 
@@ -49,7 +49,7 @@ Target報告： AN-355748
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | **13 個月的儲存有效期`cust_visids`** | 2024 年 8 月 20 日 | **2024 年 8 月 20 日**&#x200B;的 Analytics Hit 處理引擎版本，強制儲存期限 13 個月`cust_visids`。如果報告套裝已啟用「啟用訪客聯繫」，則此設定用於尋找 `cust_visid` (點擊 `visid_high/visid_low value` 時無 `cust_visid`)。先前，`cust_visid`( 屬於 `visid_high/visid_low`) 的對應不會過期。在此版本中，如果自點擊時 `visid_high/visid_low` 有 `cust_visid` 以來已過去 13 個月或更長時間，對應會過期。 |
-| **其他實作詳細資料XDM欄位會自動對應** | 2024年9月11日 | 使用Adobe Experience PlatformEdge Network傳送資料至Adobe Analytics時，XDM欄位`xdm.implementationdetails.name`和`xdm.implementationdetails.environment`現在一律對應到內容資料變數`c.a.x.implementationdetails.name`和`c.a.x.implementationdetails.environment`。 以前，有些情況會阻止這些值填入。 請調整任何相關的處理規則，以符合這些值的可用性。 |
+| **其他實作詳細資料XDM欄位會自動對應** | 2024 年 9 月 11 日 | 使用Adobe Experience PlatformEdge Network傳送資料至Adobe Analytics時，XDM欄位`xdm.implementationdetails.name`和`xdm.implementationdetails.environment`現在一律對應到內容資料變數`c.a.x.implementationdetails.name`和`c.a.x.implementationdetails.environment`。 以前，有些情況會阻止這些值填入。 請調整任何相關的處理規則，以符合這些值的可用性。 |
 
 {style="table-layout:auto"}
 
