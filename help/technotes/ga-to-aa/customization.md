@@ -3,10 +3,10 @@ title: Adobe Analytics 中的報表自訂功能
 description: 瞭解如何在 Adobe Analytics 中自訂報表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -72,4 +72,4 @@ ht-degree: 96%
 
 ## 自訂警報
 
-警報可在兩種平台上使用。在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。如需詳細資訊，請參閱元件使用指南中的[智慧型警報](/help/components/c-alerts/intellligent-alerts.md)。
+警報可在兩種平台上使用。在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。如需詳細資訊，請參閱「元件使用指南」中的[警示概觀](/help/components/c-alerts/intellligent-alerts.md)。

@@ -4,9 +4,9 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1938'
+source-wordcount: '1935'
 ht-degree: 11%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 11%
 | [!UICONTROL **時間執行**] | 要求已執行多久。 |
 | [!UICONTROL **開始時間**] | 要求開始處理的時間（根據管理員的當地時間）。 |
 | [!UICONTROL **等待時間**] | 請求在處理之前已等待多長時間。 當有足夠的容量時，此值通常為「0」。 |
-| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：細分群體、計算量度、註解、客群等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li><li>與任何人共用連結</li><li>查詢Analytics報表引擎的任何其他應用程式</li></ul> |
+| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：細分群體、計算量度、註解、客群等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>警報</li><li>與任何人共用連結</li><li>查詢Analytics報表引擎的任何其他應用程式</li></ul> |
 | [!UICONTROL **使用者**] | 起始請求的使用者。 <p>**注意：**&#x200B;如果此資料行的值為&#x200B;[!UICONTROL **無法辨識**]，這表示使用者所在的登入公司您沒有系統管理許可權。</p> |
 | [!UICONTROL **專案**] | 儲存的 Workspace 專案名稱、API 報告 ID 等。(中繼資料可能因各種應用程式而異。) |
 | [!UICONTROL **狀態**] | 狀態指示器： <ul><li>**執行中**：請求目前正處理中。</li><li>**擱置中**：請求正等待處理中。</li></ul> |
@@ -164,7 +164,7 @@ ht-degree: 11%
 | [!UICONTROL **使用者**] | 起始請求的使用者。 如果此資料行的值為&#x200B;[!UICONTROL **無法辨識**]，這表示使用者所在的登入公司您沒有系統管理許可權。 |
 | [!UICONTROL **要求數目**] | 使用者起始的請求數。 |
 | [!UICONTROL **專案數目**] | 與使用者相關聯的專案數。<!-- ??? --> |
-| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：細分群體、計算量度、註解、客群等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li><li>與任何人共用連結</li><li>查詢Analytics報表引擎的任何其他應用程式</li></ul> |
+| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：細分群體、計算量度、註解、客群等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>警報</li><li>與任何人共用連結</li><li>查詢Analytics報表引擎的任何其他應用程式</li></ul> |
 | [!UICONTROL **平均複雜性**] | 使用者起始的要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均資料行**]</li><li>[!UICONTROL **平均區段**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均資料行**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
@@ -181,7 +181,7 @@ ht-degree: 11%
 | [!UICONTROL **專案**] | 起始要求的專案。 |
 | [!UICONTROL **要求數目**] | 與專案相關聯的請求數。 |
 | [!UICONTROL **使用者數目**] | 與專案相關聯的使用者人數。<!-- ??? --> |
-| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：細分群體、計算量度、註解、客群等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li><li>與任何人共用連結</li><li>查詢Analytics報表引擎的任何其他應用程式</li></ul> |
+| [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：細分群體、計算量度、註解、客群等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>警報</li><li>與任何人共用連結</li><li>查詢Analytics報表引擎的任何其他應用程式</li></ul> |
 | [!UICONTROL **平均複雜性**] | 專案中包含之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均資料行**]</li><li>[!UICONTROL **平均區段**]</li></ul> |
 | [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
 | [!UICONTROL **平均資料行**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |

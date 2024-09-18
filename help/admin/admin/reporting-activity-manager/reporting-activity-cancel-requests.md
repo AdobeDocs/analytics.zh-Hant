@@ -4,9 +4,9 @@ title: 取消報告活動管理器中的報告請求
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1438'
 ht-degree: 13%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 13%
 * Report Builder
 * 產生器 UI：細分群體、計算量度、註解、客群等。
 * 1.4 或 2.0 API 的 API 呼叫
-* 智慧型警報
+* 警報
 * 與任何人共用連結
 * 查詢Analytics報表引擎的任何其他應用程式
 

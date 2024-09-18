@@ -3,9 +3,9 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: Analytics 使用案例
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -51,8 +51,8 @@ Adobe Analytics 可協助組織了解客戶在何處與其品牌互動、客戶�
 
 以下 Adobe Analytics 主要功能提供了這些預測功能：
 
-* [異常偵測](#anomaly-detection)
+* [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)
 
-* [貢獻分析](#contribution-analysis)
+* [貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [智慧型警報](#intelligent-alerts)
+* [警報](/help/components/c-alerts/intellligent-alerts.md)
