@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為 Data Warehouse 請求設定報告目標
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
+source-git-commit: d213befd0fd8d530d95b8d3ac3c4f3b808558244
 workflow-type: tm+mt
-source-wordcount: '1925'
-ht-degree: 84%
+source-wordcount: '1970'
+ht-degree: 83%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 84%
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
       | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-      | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定Azure SAS，您必須使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p> |
+      | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定Azure SAS，您必須使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p><p>或</p><p>如果您要直接授與存取角色而不建立存取原則，請參閱[Microsoft Azure檔案，瞭解如何使用Azure入口網站](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)指派Azure角色。 這會新增應用程式ID的角色指派，以存取金鑰儲存庫URI。 </p> |
       | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中（位於&#x200B;**金鑰儲存庫**&#x200B;設定頁面上）。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
       | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身份識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
