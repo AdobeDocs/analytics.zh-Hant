@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 07a252c9093d47173cc0fe6b1b42b2f14a63870c
+source-git-commit: 8a9c51d46195737b5321cc617913261c059f651d
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 56%
@@ -118,7 +118,7 @@ ht-degree: 56%
 
    >[!NOTE]
    >
-   >電子郵件帳戶只能與[資料摘要](/help/export/analytics-data-feed/create-feed.md)搭配使用。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件帳戶)。
+   >電子郵件帳戶只能與[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)搭配使用。 （[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件帳戶）。
 
    若要設定 Azure RBAC 帳戶，請註明以下資訊：
 
