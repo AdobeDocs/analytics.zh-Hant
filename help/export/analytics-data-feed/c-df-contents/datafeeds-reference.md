@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 6a534c13e1a3a54eba62733cf4802acc40f77f46
+source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
 workflow-type: tm+mt
-source-wordcount: '3578'
-ht-degree: 68%
+source-wordcount: '3580'
+ht-degree: 67%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 68%
 | **`color`** | 以`c_color`欄的值為基礎的色階 ID。請參考`color_depth.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`connection_type`** | 表示連線型別的數值ID。 [連線型別](/help/components/dimensions/connection-type.md)維度。 請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`cookies`** | [Cookie支援](/help/components/dimensions/cookie-support.md)維度。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
-| **`country`** | 代表訪客國家/地區的 數值 ID。 請參考`country.tsv`查詢表。 | 不帶正負號的 smallint |
+| **`country`** | 表示訪客所在國家/地區的數值ID。 請參考`country.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`ct_connect_type`** | 和`connection_type`欄相關。最常見的值為LAN/Wifi、行動電信業者和資料機。 | char(20) |
 | **`curr_factor`** | 決定貨幣小數位數，並用於貨幣轉換。例如，USD使用兩位小數，所以此欄值為`2`。 | tinyint |
 | **`curr_rate`** | 交易發生當時的匯率。Adobe 與 XE 合作，以決定當日匯率。 | decimal(24,12) |
@@ -144,7 +144,7 @@ ht-degree: 68%
 | **`mobileresolution`** | 行動裝置的解析度。`[Width] x [Height]` 像素。 | varchar(255) |
 | **`monthly_visitor`** | 此旗標可判斷訪客是否屬於當月的不重複訪客。 | 不帶正負號的 tinyint |
 | **`mvvar1`** - `mvvar3` | [清單變數](/help/implement/vars/page-vars/list.md)值。 根據實施包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
-| **`mvvar1_instances`** - `mvvar3_instances` | 在目前點擊上設定的清單變數值。以 `--**--` 取代原始的分隔符號。沒有 `post` 欄。 | 文字 |
+| **`mvvar1_instances`** - `mvvar3_instances` | 在目前點擊上設定的清單變數值。以 `--**--` 取代原始的分隔符號。這些 `post` 列通常不包含數據。 | 文字 |
 | **`new_visit`** | 此旗標可確定目前的點選是否為新造訪。 造訪閒置30分鐘後由Adobe設定。 | 不帶正負號的 tinyint |
 | **`os`** | 表示訪客的作業系統的數值ID。 依據`user_agent`欄而定。`operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | 不帶正負號的 int |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |

@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料 - 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 4453c2aa2ea70ef4d00b2bc657285287f3250c65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 85%
 
 ---
 
@@ -30,15 +30,18 @@ Adobe 提供三個主要方法將資料傳送給 Edge Network：
 * XDM 物件：符合 [XDM (體驗資料模型)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 為主的綱要。XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。當事件到達 Adobe Analytics 時，它們會轉換為 Adobe Analytics 可以處理的格式。
 * 資料物件：使用對應至 Adobe Analytics 的特定欄位將資料傳送到 Edge Network。Edge Network 會偵測這些欄位的存在並將其轉送到 Adobe Analytics，而無需符合綱要。
 
-
-Edge Network 使用以下邏輯來確定 Adobe Analytics 頁面檢視和連結事件
+Edge Network會使用以下邏輯來判斷Adobe Analytics頁面檢視和連結事件：
 
 | XDM 承載包含... | Adobe Analytics... |
 |---|---|
-| `web.webPageDetails.name` 或 `web.webPageDetails.URL` 且無 `web.webInteraction.type` | 考慮承載一個&#x200B;**頁面檢視** |
-| `web.webInteraction.type` 和 (`web.webInteraction.name` 或 `web.webInteraction.url`) | 考慮承載一個&#x200B;**連結事件** |
+| `xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.URL` 且無 `xdm.web.webInteraction.type` | 考慮承載一個&#x200B;**頁面檢視** |
+| `xdm.web.webInteraction.type` 和 (`xdm.web.webInteraction.name` 或 `xdm.web.webInteraction.url`) | 考慮承載一個&#x200B;**連結事件** |
 | `web.webInteraction.type` 和 (`web.webPageDetails.name` 或 `web.webPageDetails.url`) | 考慮承載一個&#x200B;**連結事件** <br/>`web.webPageDetails.name`和 `web.webPageDetails.URL` 被設定為 `null` |
 | 無 `web.webInteraction.type` 和 (無 `webPageDetails.name` 和無 `web.webPageDetails.URL`) | 放棄負載並忽略資料 |
+| `xdm.eventType = display`或<br/>`xdm.eventType = decisioning.propositionDisplay`或<br/>`xdm.eventType = personalization.request`或<br/>`xdm.eventType = decisioning.propositionFetch`和`xdm._experience.decisioning` | 將裝載視為&#x200B;**A4T**&#x200B;呼叫。 |
+| `xdm.eventType = display`、<br/>`xdm.eventType = decisioning.propositionDisplay`、<br/>`xdm.eventType = personalization.request`或<br/>`xdm.eventType = decisioning.propositionFetch`，但沒有`xdm._experience.decisioning` | 放棄負載並忽略資料 |
+| `xdm.eventType = click`或`xdm.eventType = decisioning.propositionInteract`和`xdm._experience.decisioning`，沒有`web.webInteraction.type` | 將裝載視為&#x200B;**A4T**&#x200B;呼叫。 |
+| `xdm.eventType = click`或`xdm.eventType = decisioning.propositionInteract`且沒有`xdm._experience.decisioning`且沒有`web.webInteraction.type` | 會捨棄裝載並忽略資料。 |
 
 {style="table-layout:auto"}
 
