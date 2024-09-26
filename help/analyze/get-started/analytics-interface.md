@@ -4,9 +4,9 @@ title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2064'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 計算量度 | 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。無論行銷人員、產品經理和分析人員，都不需變更 Analytics 實作就能詢問資料相關問題。 | [計算與進階計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) |
    | 日期範圍 | Analysis Workspace 包含使用者在建置分析時可以使用的預設日期範圍清單。此外，您可以建立自訂日期範圍並將其提供給 Analysis Workspace 的使用者。 | [建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | 虛擬報告套裝 | 虛擬報告套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。 | [虛擬報告套裝概觀](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant) |
-   | 警報 | 警報可提供更細微的警報控制能力，並整合警報系統與異常偵測功能。 | [警示概述](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
+   | 警報 | 警報提供更詳細的警報控制能力，並將警報系統與異常偵測功能整合。 | [警報概觀](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html) |
    | 註解 | 工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。註解可讓您將行事曆事件和特定的維度和量度連結起來。 | [管理註解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html) |
    | 分類集 | 分類集會提供管理分類和規則的單一介面。 <p>分類是將 Analytics 變數資料分類，然後在您產生報告時以不同方式顯示資料的方式。您在變數值和與其相關之中繼資料之間建立關係。分類可用於大多數自訂維度，例如追蹤程式碼、prop 和 eVar。</p> | [分類集概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hant) |
    | 位置 | 為了從雲端目的地匯入 Adobe Analytics 分類資料，您首先需要新增並設定要收集分類資料的位置。您可以建立、編輯或刪除位置。 | [位置管理員](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html) |

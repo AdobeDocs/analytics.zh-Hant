@@ -4,9 +4,9 @@ title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
 source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Analytics 管理員應先完成以下任務，再將 Adobe Analytics 提供給�
 | 異常偵測 | 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 | [異常偵測概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | 貢獻分析 | 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合客群細分群體間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。 | [貢獻分析概觀](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics 分段 | 可讓您建立、管理、共用功能強大且目標專一的客群細分群體，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報告。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) |
-| 將對象發佈到 Audience Manager | Adobe Audience Manager 是一個功能強大的資料管理平台，可協助您從第一方、第二方 (合作夥伴) 與協力廠商資料整合建置不重複對象設定檔。 | [Audience Analytics 概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
+| 將對象發佈到 Audience Manager | Adobe Audience Manager 是一個功能強大的資料管理平台，可協助您從第一方、第二方 (合作夥伴) 與第三方資料整合建置不重複對象輪廓。 | [Audience Analytics 概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant">串流媒體收集附加元件</a></li> | [Analytics 整合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hant) |
 
 {style="table-layout:auto"}
@@ -109,7 +109,7 @@ Analytics 管理員應了解以下可協助監控 Analytics 環境重要方面�
 | 歸因 | 分析師可以透過在 Analysis Workspace 中採用各種歸因模型和回顧期間，自訂維度項目獲得成功事件評分的方式。<p>線性歸因模型會將相等的評分歸給每個帶來轉換的接觸點，而首次接觸則會將全部的評分歸給第一個接觸點。還有許多其他歸因模型可用，包括演算法模型，該模型使用統計技術來動態決定最佳評分配置。 </p> | [歸因模型與回顧期間](/help/analyze/analysis-workspace/attribution/models.md) |
 | 異常偵測 | Analysis Workspace 中的統計建模透過分析量度並確定值的下限、上限和預期範圍，自動找出資料中意外的趨勢。當發生意外的尖峰或下降時，系統會在報告中發出警報。 | [異常偵測概觀](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | 貢獻分析 | 使用 Analysis Workspace 探索您資料中的隱藏模式，解釋統計異常並識別客群細分群體間非預期客戶動作、界外值、量度突升或突降背後的關聯。 | [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)中的[貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)概觀 |
-| 警報 | 根據資料異常和「堆疊」警報來建立和管理警報，這些警報在單一警報中擷取多個量度。 | [警示概述](/help/components/c-alerts/intellligent-alerts.md) |
+| 警報 | 根據資料異常以及在單一警報中擷取多個量度的「堆疊」警報來建立和管理警報。 | [警報概觀](/help/components/c-alerts/intellligent-alerts.md) |
 | 資料匯出 | Data Warehouse 和資料摘要可讓您將資料匯出到各種雲端目的地，例如 Google Cloud Platform、Azure RBAC、Azure SAS 和 Amazon S3。 | [Analytics 匯出指南](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=zh-Hant) |
 | Activity Map | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。<p>Activity Map 可讓您設定不同的視圖，以直觀地識別客戶活動的加速情況、量化行銷計劃並根據客群需求和行為採取行動。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder |  Report Builder 是 Microsoft Excel 的增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
