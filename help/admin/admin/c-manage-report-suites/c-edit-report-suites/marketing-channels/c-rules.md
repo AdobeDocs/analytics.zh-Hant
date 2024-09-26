@@ -4,10 +4,10 @@ description: 行銷管道處理規則確定了訪客點按是否符合要指定�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
 workflow-type: tm+mt
-source-wordcount: '1884'
-ht-degree: 100%
+source-wordcount: '1878'
+ht-degree: 91%
 
 ---
 
@@ -72,8 +72,8 @@ ht-degree: 100%
 |--- |--- |
 | 全部 | 僅當規則中的全部條件均為 true 時啟動此管道。 |
 | 任何 | 當規則中的任何條件為 true 時啟動此管道。此選項僅在規則中存在一個準則時才適用。 |
-| AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤代碼。當其中一項整合啟用時，追蹤代碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用 AMO ID 時，點按/成本/曝光量度可歸因為正確的管道 (若未設定，這些量度會變為「直接」或「無」)。 |
-| AMO ED ID | Advertising Cloud 使用的次要追蹤代碼。此追蹤代碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為以 `:d` 結尾 (代表 Display ClickThroughs) 或結尾為 `:i` (代表 Display ViewThroughs) 的「AMO EF ID」設定行銷管道邏輯。如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
+| AMO ID | Adobe Advertising與Advertising Analytics整合所使用的主要追蹤程式碼。 當其中一項整合啟用時，追蹤程式碼首碼可用來識別Advertising專用的管道。 對於Search and Social，請使用以「AL」開頭的「AMO ID」；對於Display，請使用以「AC」開頭的「AMO ID」。 行銷管道中使用AMO ID時，點選/成本/曝光量度可歸因到正確的管道。 若未設定AMO ID，這些量度會變成「直接」或「無」。 |
+| AMO EF ID | Adobe Advertising使用的次要追蹤程式碼。 此追蹤程式碼的主要用途是作為將資料傳回Advertising的金鑰。 不過，它也可用來將「顯示點進次數」和「顯示檢視次數」識別為兩個獨立的行銷管道。 若要這麼做，請針對顯示點進設定「AMO EF ID」的行銷管道邏輯，結尾為`:d`，或針對Display ViewThroughs設定「AMO EF ID」結尾為`:i`。 如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
 | 轉換變數 | 包含為該報表套裝啟用的 eVar，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。 |
 | 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**：例如讓您指定某反向連結網域不包含特定值 (與使用包含選項相反)。</li></ul> |
 | 將該管道識別為 | 將規則與新增至行銷管道管理員頁面的行銷管道相關聯。 |
