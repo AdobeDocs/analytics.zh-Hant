@@ -3,52 +3,40 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7dd42948073b56a33c1d00f9b4292d1cc3416470
-workflow-type: ht
-source-wordcount: '750'
-ht-degree: 100%
+source-git-commit: d9dd297a510b2f5056429f5938154c59f0a53cfa
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 85%
 
 ---
 
-# 最新 Adobe Analytics 版本發行說明 (2024 年 9 月)
+# Adobe Analytics 目前發行說明 (2024 年 10 月)
 
+**上次更新日期**：2024年10月2日
 
-**上次更新日期**：2024 年 9 月 11 日
-
-這些發行說明涵蓋 2024 年 9 月 11 日至 10 月初的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2024年10月2日至2024年10月22日的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
-|--- | --- | --- | --- |
-| **計算量度管理器和區段管理器的「使用於」欄中的額外資訊** | 計算量度管理器和區段管理器的「使用於」欄包含以下新報告區域：<ul><li>**Report Builder**：顯示在 Report Builder 中使用的計算量度或區段的數量。</li><li>**臨時元件**：顯示專案中使用的臨時計算量度或臨時區段的數量。這些臨時計算量度和區段 (也稱為「快速計算量度」和「快速區段」) 只能在建立這些量度和區段的專案中使用，以便在「專案」報告區域的「使用於」欄中分開報告這些量度和區段。</li></ul>若要了解更多資訊，請參閱「[計算量度管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager)」和「[區段管理器](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/segmentation/segmentation-workflow/seg-manage)」。 |  | 2024 年 9 月 11 日 |
-| **Activity Map v3 擴充功能** | 現已可用 Activity Map v3 擴充功能。如果您已安裝 v2 擴充功能，請先解除安裝，然後才能安裝 v3 擴充功能。導覽至「**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]**」以取得最新版本的擴充功能。 |  | 2024 年 9 月 3 日 |
+| ----------- | ---------- | ------- | ---- |
+| 不適用 | 不適用 | 不適用 | 不適用 |
+
 
 
 ## Adobe Analytics 中的修正
 
-A4T：AN-355736
-Activity Map：AN-353779
-Analysis Workspace：AN-348485；AN-349693；AN-357247
-Analytics 行動應用程式：AN-352645
-分類：AN-355636；AN-355651；AN-355753；AN-356005；AN-356439；AN-356540；AN-356577；AN-356622
-跨裝置 Analytics：AN-355138
-資料摘要：AN-356258；AN-357133
-Data Warehouse：AN-339292；AN-353807
-匯出位置：AN-356912
-隱私權 API：AN-352420
-Report Builder：AN-352555；AN-354316
-排程專案：AN-355971
-分段：AN-352095；
-目標報告：AN-355748
-
-其他修正：AN-349698；AN-349880；AN-354860；AN-355355；AN-356289；
+Analysis Workspace： AN-343611； AN-355870； AN-357100； AN-358364； AN-358756； AN-359269
+Analytics行動應用程式： AN-354085
+分類： AN-353074、AN-357533、AN-358308、AN-358350、AN-358732、AN-358925、AN-359249
+跨裝置分析： AN-357968
+資料摘要： AN-358489； AN-358542
+Data Warehouse： AN-352181； AN-356701； AN-356802； AN-356804； AN-359162
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **13 個月的儲存有效期`cust_visids`** | 2024 年 8 月 20 日 | **2024 年 8 月 20 日**&#x200B;的 Analytics Hit 處理引擎版本，強制儲存期限 13 個月`cust_visids`。如果報告套裝已啟用「啟用訪客聯繫」，則此設定用於尋找 `cust_visid` (點擊 `visid_high/visid_low value` 時無 `cust_visid`)。先前，`cust_visid`( 屬於 `visid_high/visid_low`) 的對應不會過期。在此版本中，如果自點選時 `visid_high/visid_low` 有 `cust_visid` 以來已過去 13 個月或更長時間，對應會過期。 |
 | **自動對應其他實施細節 XDM 欄位** | 2024 年 9 月 11 日 | 使用 Adobe Experience Platform Edge Network 將資料傳送至 Adobe Analytics 時，XDM 欄位 `xdm.implementationdetails.name` 和 `xdm.implementationdetails.environment` 現在總是對應到內容資料變數 `c.a.x.implementationdetails.name` 和 `c.a.x.implementationdetails.environment`。過去某些情境會防止填入這些值。請調整任何相關的處理規則以配合這些值的可用性。 |
 
 {style="table-layout:auto"}
