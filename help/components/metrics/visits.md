@@ -3,10 +3,10 @@ title: 瀏覽
 description: 某一段時間的頁面檢視順序。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 如果訪客執行下列任一動作，就會起始新的造訪：
 
-* 在工作階段期間清除其快取，並繼續瀏覽您的網站
+* 在工作階段期間刪除其Cookie並繼續瀏覽您的網站
 * 讓您的網站在索引標籤中開啟超過 30 分鐘，然後繼續瀏覽
 * 開啟不同的瀏覽器，並在同一部電腦上導覽至您的網站
 * 同一人在不同裝置上瀏覽您的網站
