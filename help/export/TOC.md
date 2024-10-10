@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要匯出原始資料，以及如何使用 Data Warehouse 擷取試算表輸出資料。了解如何使用 FTP 和 SFTP 傳輸檔案。
-source-git-commit: 29f9ab575a5fcb09e64356bff0997fc8737b93cd
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 100%
    + [依量度排序](data-warehouse/sorting-by-metric.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援的元件](data-warehouse/component-support.md)
-   + [Data Warehouse 常見問答](data-warehouse/faq.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [透過 Adobe Experience Cloud 使用 FTP 和 SFTP](ftp-and-sftp/ftp-overview.md)

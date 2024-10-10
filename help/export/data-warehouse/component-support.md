@@ -3,10 +3,10 @@ title: Data Warehouse 中的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
+source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 61%
 
 ---
 
@@ -80,3 +80,10 @@ Data Warehouse 中不支援某些維度和量度。
 * 日
 * 小時
 * 分鐘
+
+## Data Warehouse中作為維度的區段
+
+當您在 Data Warehouse 中使用區段作為維度時，報告會傳回一欄含有 `"0"` 或 `"1"`：
+
+* **`"0"`**：該維度項目不符合區段標準。
+* **`"1"`**：該維度項目符合區段標準。
