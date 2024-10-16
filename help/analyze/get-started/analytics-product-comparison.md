@@ -3,7 +3,7 @@ description: Analysis Workspace、Report Builder、Data Warehouse 與 Data Workb
 title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 若要了解關於使用哪種 Adobe Analytics 產品的資訊，請參閱「[我應該使用哪種 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)」。
 
-| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
-| **存取方法** | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。[了解更多](/help/analyze/get-started/sys-reqs.md) | 透過瀏覽器進行設定。[了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 憑證登入。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **存取方法** | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。[了解更多](/help/analyze/get-started/sys-reqs.md) | 透過瀏覽器進行設定。[了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 憑證登入。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **資料粒度** | 彙總 | 彙總 | 彙總 | 點擊 | 彙總 |
 | **可用 Experience Cloud ID (ECID)** | 否 | 否 | 是 | 是 | 否 |
 | **可用時間戳記** | 否 | 否 | 否 | 是 | 否 |
@@ -36,5 +36,5 @@ ht-degree: 100%
 | **組織** <br> [了解更多](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 專案和虛擬報告套裝 | 否 | 否 | 否 | 是 - 僅限虛擬報告套裝 |
 | **專案共用** <br> [了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，且具有專案角色 | 有 | 否 | 否 | 否 |
 | **排程傳送** | 有 | 有 | 有 | 是 | 否 |
-| **傳送目的地** | 電子郵件 | 電子郵件、FTP、SFTP、[發佈至 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC 和電子郵件 | Amazon S3、Azure RBAC、Azure SAS 和 Google Cloud Platform | - |
+| **傳送目的地** | 電子郵件 | 電子郵件、FTP、SFTP、[發佈至 Microsoft PowerBI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3、Google Cloud Platform、Azure SAS、Azure RBAC 和電子郵件 | Amazon S3、Azure RBAC、Azure SAS 和 Google Cloud Platform | - |
 | **虛擬報告套裝報告時間處理**<br> [了解更多](/help/components/vrs/vrs-report-time-processing.md) | 有 | 否 | 否 | 否 | 是 |

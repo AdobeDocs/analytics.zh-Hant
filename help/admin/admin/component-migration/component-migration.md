@@ -3,7 +3,7 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: b8d47e8802198365b348f94efc3f71ff424e83d1
+source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 5%
@@ -106,7 +106,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
    對包含警告圖示的每個維度或量度重複此程式。
 
-   在Adobe Analytics報表套裝中的所有維度和量度都對應至Customer Journey Analytics資料檢視中的維度或量度後，[!UICONTROL **對應報表套裝的結構描述**]&#x200B;區段中的報表套裝名稱旁會出現綠色勾號![勾號](assets/report-suite-check.png)。
+   在Adobe Analytics報表套裝中的所有維度和量度都對應至Customer Journey Analytics報表套裝中的維度或量度後，[!UICONTROL **對應報表套裝的結構描述**]&#x200B;區段中的報表套裝名稱旁會出現綠色勾號![勾號](assets/report-suite-check.png)。
 
 1. （視條件而定）如果您要移轉的專案包含多個報表套裝，請在&#x200B;[!UICONTROL **對應報表套裝的結構描述**]&#x200B;區段中選取另一個報表套裝，然後重複步驟6到步驟10。<!-- double-check that the step numbers are still correct -->
 
