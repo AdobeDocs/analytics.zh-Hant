@@ -5,7 +5,7 @@ uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 81%
@@ -13,6 +13,8 @@ ht-degree: 81%
 ---
 
 # 格式化日期
+
+{{legacy-arb}}
 
 除了可透過Excel的「格式>儲存格(Ctrl+1)」功能使用的標準儲存格格式選項外，您還可以將有限的格式套用至具有Report Builder的儲存格範圍。 這些格式選擇取決於您選擇的度量。
 

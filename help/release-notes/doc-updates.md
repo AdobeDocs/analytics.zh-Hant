@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: 23282c1a2793a7113117c62ce195f9714ab5a7f2
 workflow-type: tm+mt
-source-wordcount: '5971'
-ht-degree: 100%
+source-wordcount: '5994'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2024 年 10 月** |  |
+| 新Report Builder | [Mac、Windows和網頁瀏覽器支援的簡化Report Builder增益集的新檔案](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview)。 |
 | **2024 年 8 月** | |
 | 警報管理器 | 簡化了有關 [警報管理器](/help/components/c-alerts/alert-manager.md) 的文件。清晰度和準確性的更新。 |
 | **2024 年 7 月** | |

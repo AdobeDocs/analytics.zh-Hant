@@ -5,7 +5,7 @@ uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
 exl-id: 6e3881c8-3e1c-4df8-ba38-e8bc84cfc3d4
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 91%
@@ -13,6 +13,8 @@ ht-degree: 91%
 ---
 
 # 異常偵測{#anomaly-detection}
+
+{{legacy-arb}}
 
 異常偵測使用統計模型來自動尋找資料中的意外趨勢。此模型會分析量度並決定上下界限和值的預期範圍。當發生意外的尖峰或下降時，系統會在報告中發出警報。
 

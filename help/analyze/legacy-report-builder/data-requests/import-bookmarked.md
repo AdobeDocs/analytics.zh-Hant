@@ -4,7 +4,7 @@ title: 匯入書籤化報表與儀表板報表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 72%
@@ -12,6 +12,8 @@ ht-degree: 72%
 ---
 
 # 匯入書籤化報表與儀表板報表
+
+{{legacy-arb}}
 
 現在，所有書籤化報表與控制面板報表都已列為「請求精靈步驟1」中的維度，並且可匯入作為Report Builder請求。
 

@@ -5,7 +5,7 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 89%
@@ -13,6 +13,8 @@ ht-degree: 89%
 ---
 
 # 請求精靈定義 - 預設日期
+
+{{legacy-arb}}
 
 預設日期可讓您選擇常用日期或您以儲存的日期。在「請求精靈: 步驟 1」中選擇預設日期。以下是 Report Builder 中預設日期的欄位定義。
 

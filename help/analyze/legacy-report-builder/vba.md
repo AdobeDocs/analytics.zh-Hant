@@ -4,7 +4,7 @@ description: 瞭解如何使用VBA巨集擴展Excel活頁簿的功能和Report B
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 64%
@@ -12,6 +12,8 @@ ht-degree: 64%
 ---
 
 # Report Builder 中的 Visual Basic 巨集
+
+{{legacy-arb}}
 
 Visual Basic (VBA)巨集提供的功能可協助您重新整理Excel活頁簿。 Visual Basic可以存取活頁簿、Excel和Windows。
 

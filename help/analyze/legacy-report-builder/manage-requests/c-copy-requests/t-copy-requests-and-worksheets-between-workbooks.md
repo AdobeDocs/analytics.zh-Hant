@@ -5,7 +5,7 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 54%
@@ -14,8 +14,12 @@ ht-degree: 54%
 
 # 在活頁簿之間複製請求和工作表
 
+{{legacy-arb}}
+
 將來源活頁簿中的整份試算表複製到一或多個目標活頁簿中的試算表。 若要這麼做，您必須在同一個Excel例項中開啟至少兩個活頁簿：
+
 * 第一個來源活頁簿包含試算表（工作表），其請求會對映至儲存格。
+
 * 其他目標活頁簿則是目的地。 對於每個新的目標活頁簿，您應該先登入與來源活頁簿相同的報表套裝，才能貼上包含請求的試算表。
 
 >[!NOTE]

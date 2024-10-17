@@ -5,7 +5,7 @@ uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin
 exl-id: 5b929821-e7ca-48e4-9196-0a6734a9566e
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 81%
@@ -13,6 +13,8 @@ ht-degree: 81%
 ---
 
 # 建立多個請求副本
+
+{{legacy-arb}}
 
 您可以在選定區域內填入符合區域且滿足所需數量的請求副本，以建立多個原始請求的副本。
 

@@ -5,7 +5,7 @@ uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 98%
@@ -13,6 +13,8 @@ ht-degree: 98%
 ---
 
 # 使用自訂運算式的日期範圍範例
+
+{{legacy-arb}}
 
 提供在自訂運算式中使用日期範圍的範例、附註及語法附註。
 

@@ -5,7 +5,7 @@ uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
 role: User, Admin
 exl-id: a53f0d22-9edf-4040-a40b-bdd920a670f5
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 65%
@@ -13,6 +13,8 @@ ht-degree: 65%
 ---
 
 # 建立 Microchart
+
+{{legacy-arb}}
 
 在「自訂配置」中，您可以將度量欄變成含有對應百分比值的長條圖，或是含有對應長條圖的百分比值。百分比值是某期間內整體未篩選請求的度量值或總計。
 

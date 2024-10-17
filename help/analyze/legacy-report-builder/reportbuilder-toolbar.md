@@ -5,7 +5,7 @@ uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
 role: User, Admin
 exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 72%
@@ -13,6 +13,8 @@ ht-degree: 72%
 ---
 
 # Report Builder 工具列
+
+{{legacy-arb}}
 
 協助您了解 Report Builder 工具列之按鈕功能的資訊。
 

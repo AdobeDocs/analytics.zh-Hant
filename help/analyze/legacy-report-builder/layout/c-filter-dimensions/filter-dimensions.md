@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -13,6 +13,8 @@ ht-degree: 73%
 ---
 
 # 篩選維度概觀
+
+{{legacy-arb}}
 
 您可以篩選新增至「列標籤」格線的維度。篩選能減少請求傳回的資料數量，您可以從「樞紐配置」或「自訂配置」套用篩選。在「樞紐配置」中設定維度篩選時，您可以額外指定來自儲存格的項目數量。
 

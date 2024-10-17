@@ -4,7 +4,7 @@ title: 設定即時報表請求
 feature: Report Builder
 role: User, Admin
 exl-id: 818fc9ca-aa78-4a21-abd7-8e3144f5d1c0
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 80%
@@ -12,6 +12,8 @@ ht-degree: 80%
 ---
 
 # 設定即時報表請求
+
+{{legacy-arb}}
 
 若要設定即時請求日期：
 

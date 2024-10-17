@@ -5,7 +5,7 @@ uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
 role: User, Admin
 exl-id: 4b26df2e-22c5-435a-815b-fc3d36d5ed02
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 44%
@@ -13,6 +13,8 @@ ht-degree: 44%
 ---
 
 # 將流量與商務度量合併為同一請求
+
+{{legacy-arb}}
 
 您可以將流量與商務量度型別結合在一個請求中，而非建立個別請求。
 

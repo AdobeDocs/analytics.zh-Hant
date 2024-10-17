@@ -5,7 +5,7 @@ uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
 role: User, Admin
 exl-id: ceed28d5-cb7f-4343-96fd-2ce09f5a3515
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 82%
@@ -13,6 +13,8 @@ ht-degree: 82%
 ---
 
 # 複製簡單請求
+
+{{legacy-arb}}
 
 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
 

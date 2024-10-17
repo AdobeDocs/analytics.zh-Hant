@@ -4,7 +4,7 @@ title: 關於排程工作管理員
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 91%
@@ -12,6 +12,8 @@ ht-degree: 91%
 ---
 
 # 排程工作管理員
+
+{{legacy-arb}}
 
 此[!UICONTROL 排程工作管理員]可讓您查看現有的排程報告清單，以及其收件者、排程詳細資料和檔案格式。還可讓您重新啟用原本無法執行的排程活頁簿。
 

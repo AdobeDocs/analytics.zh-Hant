@@ -5,7 +5,7 @@ uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
 role: User, Admin
 exl-id: b850197e-b3bd-4318-a827-61faa41b2db3
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 65%
@@ -13,6 +13,8 @@ ht-degree: 65%
 ---
 
 # 固定日期和儲存的日期範圍
+
+{{legacy-arb}}
 
 當您指定固定日期或日期範圍時，Report Builder會顯示報表行事曆，讓您選取日期、日期範圍或預設日期。 您也可以將固定日期儲存為範本，然後再指定目前的報表套裝或所有報表套裝是否要使用儲存的日期。
 

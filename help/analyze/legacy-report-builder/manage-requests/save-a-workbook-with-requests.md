@@ -5,7 +5,7 @@ uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 78%
@@ -13,6 +13,8 @@ ht-degree: 78%
 ---
 
 # 儲存含請求的活頁簿
+
+{{legacy-arb}}
 
 當您建立含內嵌請求的報表時，可以在Excel中使用&#x200B;**檔案** > **儲存**&#x200B;或&#x200B;**檔案** > **另存新檔**&#x200B;來儲存這些報表。 Report Builder會偵測報表是否包含請求。 當您選取其中一個儲存選項時，請完成&#x200B;**將活頁簿儲存為**&#x200B;表單。
 

@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 69%
@@ -13,6 +13,8 @@ ht-degree: 69%
 ---
 
 # 鎖定和解鎖活頁簿
+
+{{legacy-arb}}
 
 您可以鎖定活頁簿，保護活頁簿中的所有請求，不讓他人新增及編輯。這樣可暫停所有報表請求，啟用活頁簿的離線編輯功能，進行更有效率的編輯。
 

@@ -5,14 +5,18 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1202'
+ht-degree: 79%
 
 ---
 
 # 排程活頁簿
+
+>[!NOTE]
+>
+>Adobe Analytics上此版本Report Builder的活頁簿排程功能尚未發行，但將於2025年初推出。 您可以立即開始使用不需要排程的活頁簿。
 
 儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。「排程」功能可讓您建立排程，自動更新活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的客群。設定排程可讓收件者定期自動更新。您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
 

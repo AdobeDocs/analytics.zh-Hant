@@ -5,7 +5,7 @@ uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
-source-git-commit: 12d048b42c6a61e03dbbe73acb9d34df3e37693c
+source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 68%
@@ -13,6 +13,8 @@ ht-degree: 68%
 ---
 
 # 將度量和維度映射至儲存格
+
+{{legacy-arb}}
 
 在將項目映射至試算表之前，請確認試算表的保護機制已解除。如果工作表的保護機制禁止任何使用者動作，您將無法選擇試算表中的儲存格。因此，請先解除工作表的保護機制，然後再新增儲存格映射。
 

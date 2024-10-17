@@ -3,7 +3,7 @@ description: 了解 Adob​​e Analytics 內容套件以及預先建立的 Powe
 feature: Report Builder
 role: User, Admin
 exl-id: 835b24e2-0959-4aab-83c0-ba89badfc294
-source-git-commit: bb908f8dd21f7f11d93eb2e3cc843f107b99950d
+source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # 適用於 Power BI 的 Adobe Analytics 內容套件
+
+{{legacy-arb}}
 
 Adobe Analytics 內容套件提供預先建置的 Power BI 儀表板及一組 Power BI 報告，可讓您掌握網站流量和使用者維度。您可以使用提供的儀表板和報告，或自訂兩者的內容以反白標示您最在意的資訊。資料每天自動重新整理一次。
 
