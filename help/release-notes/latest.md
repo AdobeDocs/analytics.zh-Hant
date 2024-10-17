@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29b799eb778dda4d5c529249f1898e92607e51aa
+source-git-commit: 21cf08af6922aaaed2f0b3e4c0fcd701b54473ee
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 90%
+source-wordcount: '509'
+ht-degree: 91%
 
 ---
 
 # Adobe Analytics 目前發行說明 (2024 年 10 月)
 
-**上次更新日期**：2024年10月16日
+**上次更新日期**：2024年10月17日
 
 這些發行說明涵蓋 2024 年 10 月 2 日至 2024 年 10 月 22 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Adobe Analytics的新Report Builder | 新的Report Builder應用程式為Adobe Analytics提供更新功能，例如改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 [要遵循的檔案連結] |  | 2024年10月16日 |
+| Adobe Analytics的新Report Builder | 新的Report Builder應用程式為Adobe Analytics提供更新功能，例如改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日 |
 
 ## Adobe Analytics 中的修正
 
