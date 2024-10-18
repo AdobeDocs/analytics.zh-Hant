@@ -5,7 +5,7 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 60%
@@ -20,25 +20,25 @@ ht-degree: 60%
 
 為資料區塊位置、報表套裝和日期範圍設定初始資料區塊引數。
 
-1. 按一下&#x200B;**建立資料區塊**。
+1. 按一下&#x200B;**[!UICONTROL 建立資料區塊]**。
 
    ![顯示[建立資料區塊]選項的熒幕擷圖。](./assets/create_db.png)
 
-1. 設定&#x200B;**資料區塊地點**。
+1. 設定&#x200B;**[!UICONTROL 資料區塊地點]**。
 
    此資料區塊地點選項會定義 Report Builder 將資料新增至您的工作表的工作表位置。
 
    若要指定資料區塊位置，可在工作表中選取單一儲存格或是輸入儲存格位址，例如 a3、\\\$a3、a\\\$3 或 sheet1!a2。當擷取資料時，指定的儲存格將會位於資料區塊的左上角。
 
-1. 選擇&#x200B;**報表套裝**。
+1. 選擇&#x200B;**報告套裝**。
 
    報表套裝選項可讓您從下拉式功能表選擇報表套裝，或從儲存格位置參考報表套裝。
 
-1. 設定&#x200B;**日期範圍**。
+1. 設定&#x200B;**[!UICONTROL 日期範圍]**。
 
    「日期範圍」選項可讓您選擇日期範圍。日期範圍可以是固定或滾動式。如需更多有關日期範圍選項的資訊，請參閱[選取日期範圍](select-date-range.md)。
 
-1. 按一下「**下一步**」。
+1. 按一下「**[!UICONTROL 下一步]**」。
 
    ![顯示日期範圍選項和作用中[下一步]按鈕的熒幕擷圖。](./assets/choose_date_data_view3.png)
 
