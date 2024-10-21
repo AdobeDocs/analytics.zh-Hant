@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 695931b3c87acada7ce7650a38b841da24723691
+source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 60%
+ht-degree: 59%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 60%
 
    「日期範圍」選項可讓您選擇日期範圍。日期範圍可以是固定或滾動式。如需更多有關日期範圍選項的資訊，請參閱[選取日期範圍](select-date-range.md)。
 
-1. 按一下「**[!UICONTROL 下一步]**」。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
    ![顯示日期範圍選項和作用中[下一步]按鈕的熒幕擷圖。](./assets/choose_date_data_view3.png)
 
