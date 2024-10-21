@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ae03f0d9e5f22c8e8ff6550a33a6f9d18432f46f
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 85%
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| Adobe Analytics的新Report Builder | 新的Report Builder應用程式為Adobe Analytics提供更新功能，例如改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024年10月16日 |
+| 適用於 Adobe Analytics 的新 Report Builder | 新的 Report Builder 應用程式為 Adobe Analytics 帶來了更新的功能，例如改進的效能、簡化的使用者介面、2.0 API 支援以及對 Mac、Windows 和網頁瀏覽器上的 Microsoft Excel 的支援。[了解更多](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
 
 ## Adobe Analytics 中的修正
 
