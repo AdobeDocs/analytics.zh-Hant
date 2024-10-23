@@ -3,15 +3,14 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2d42a824510fa03825a10da3837801ee662f687c
+source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 51%
 
 ---
 
 # 最新Adobe Analytics發行說明（2024年10月23日發行）
-
 
 **上次更新日期**：2024年10月23日
 
@@ -38,12 +37,11 @@ Analysis Workspace： AN-356287； AN-358435； AN-359456； AN-359826； AN-360
 Data Warehouse： AN-359820
 超額警報：AN-358132
 
-
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **非Campaign客戶將失去對觸發程式的存取權** | 2024 年 10 月 16 日 | 在2025年1月30日，沒有Adobe Campaign授權的Adobe Analytics客戶將無法存取設定和使用[觸發器](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers)的功能。 客戶需要購買Campaign、計畫停止使用觸發器，或檢視其他提供觸發器功能的Adobe工具。 |
+| **非Campaign客戶將失去對觸發程式的存取權** | 2023 年 10 月 16 日 | 自2025年1月30日起，沒有Adobe Campaign授權的Adobe Analytics客戶將無法存取設定和使用觸發程式。 客戶需要購買Campaign、計畫停止使用觸發器，或檢視其他提供觸發器功能的Adobe工具。 |
 | **自動對應其他實施細節 XDM 欄位** | 2024 年 9 月 11 日 | 使用 Adobe Experience Platform Edge Network 將資料傳送至 Adobe Analytics 時，XDM 欄位 `xdm.implementationdetails.name` 和 `xdm.implementationdetails.environment` 現在總是對應到內容資料變數 `c.a.x.implementationdetails.name` 和 `c.a.x.implementationdetails.environment`。過去某些情境會防止填入這些值。請調整任何相關的處理規則以配合這些值的可用性。 |
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
