@@ -3,7 +3,7 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c8d38d67590c0422ed898d20ffa788b5fd34041c
+source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 51%
@@ -21,7 +21,7 @@ ht-degree: 51%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Adobe Analytics的新Report Builder** | 新的Report Builder應用程式為Adobe Analytics帶來重大更新，包括改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 此應用程式可與舊版應用程式搭配使用，但不能在相同檔案上使用。 提供升級功能，將舊版活頁簿升級至新應用程式。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
-| 將標籤實作移轉至Web SDK標籤的&#x200B;**JSON匯出** | Analytics標籤擴充功能的這項更新會與移轉至Web SDK相關。 您可以使用此Adobe Analytics擴充功能更新，作為工作流程的一部分，透過Web SDK擴充功能重新建立您的擴充功能組態。 在Adobe Analytics標籤擴充功能中，您可以以JSON檢視eVar、prop和事件設定，這些設定可匯出以供編輯，並包含在Web SDK擴充功能中。 |  | 2024 年 10 月 23 日 |
+| 將標籤實作移轉至Web SDK標籤的&#x200B;**JSON匯出** | Analytics標籤擴充功能的這項更新會與移轉至Web SDK相關。 您可以使用此Adobe Analytics擴充功能更新，作為工作流程的一部分，透過Web SDK擴充功能重新建立您的擴充功能組態。 在Adobe Analytics標籤擴充功能中，您可以以JSON檢視eVar、prop和事件設定，這些設定可匯出以供編輯，並包含在Web SDK擴充功能中。 |  | 2024 年 10 月 31 日 |
 
 ## Adobe Analytics 中的修正
 
