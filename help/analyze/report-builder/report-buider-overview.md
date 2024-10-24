@@ -5,10 +5,10 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 04d663559aa82f93eb59c787f6110bdfd3448099
+source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
@@ -75,4 +75,4 @@ Report Builder可讓您使用Adobe Analytics資料輕鬆建立、編輯和重新
 
 >[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
 
-您可以從[Microsoft市集](https://www.microsoft.com/en-us/store/apps/windows)下載Report Builder。
+您可以從[Microsoft市集](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview)下載Report Builder。

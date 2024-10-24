@@ -3,9 +3,9 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b8eec77d1ff626306573f91efa8b3a747ca102f1
+source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -20,8 +20,9 @@ ht-degree: 51%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analytics的新Report Builder** | 新的Report Builder應用程式為Adobe Analytics帶來重大更新，包括改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 此應用程式可與舊版應用程式搭配使用，但不能在相同檔案上使用。 提供升級功能，將舊版活頁簿升級至新應用程式。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
+| **Adobe Analytics的新Report Builder** | 新的Report Builder應用程式為Adobe Analytics帶來重大更新，包括改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 此應用程式可與舊版應用程式搭配使用，但不能在相同檔案上使用。 提供升級功能，將舊版活頁簿升級至新應用程式。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
 | 將標籤實作移轉至Web SDK標籤的&#x200B;**JSON匯出** | Analytics標籤擴充功能的這項更新會與移轉至Web SDK相關。 您可以使用此Adobe Analytics擴充功能更新，作為工作流程的一部分，透過Web SDK擴充功能重新建立您的擴充功能組態。 在Adobe Analytics標籤擴充功能中，您可以以JSON檢視eVar、prop和事件設定，這些設定可匯出以供編輯，並包含在Web SDK擴充功能中。 |  | 2024 年 10 月 31 日 |
+| **Analysis Workspace效能中要求因素的新資訊** | 現在在Analysis Workspace中分析效能時，會提供新的「請求因數」區段。 若要進一步瞭解如何處理要求以及影響處理時間的各種因素，請參閱[最佳化Analysis Workspace效能](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)中的「要求因素」。 |  | 2024年10月1日 |
 
 ## Adobe Analytics 中的修正
 
@@ -48,7 +49,7 @@ Data Warehouse： AN-359820
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
-| **Adobe Analytics API 終止更新 (版本 1.4)** | 2024 年 7 月 17 日 | 下列Analytics Legacy API服務將在2026年8月12日&#x200B;**結束生命週期並關閉，目前使用這些服務建立的整合功能將停止運作：**<ul><li>Adobe Analytics API (版本 1.4)</li><li>Adobe Analytics WSSE 驗證</li></ul><p>使用 Adobe Analytics API (版本 1.4) 的整合必須移轉到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 整合必須移轉到 [Adobe Developer Console](https://developer.adobe.com/console) 中的 OAuth 型驗證通訊協定。</p><p>請參閱「[Adobe Analytics 1.4 API EOL 常見問題](/help/admin/c-admin-api/c-admin-14-api-eol.md)」，以了解常見問題的解答和進一步指引。</p> |
+| **Adobe Analytics API 終止更新 (版本 1.4)** | 2024 年 7 月 17 日 | **2026 年 8 月 12 日**，以下 Analytics 舊版 API 服務將終止並關閉，目前使用這些服務建置的整合將停止運作：<ul><li>Adobe Analytics API (版本 1.4)</li><li>Adobe Analytics WSSE 驗證</li></ul><p>使用 Adobe Analytics API (版本 1.4) 的整合必須移轉到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 整合必須移轉到 [Adobe Developer Console](https://developer.adobe.com/console) 中的 OAuth 型驗證通訊協定。</p><p>請參閱「[Adobe Analytics 1.4 API EOL 常見問題](/help/admin/c-admin-api/c-admin-14-api-eol.md)」，以了解常見問題的解答和進一步指引。</p> |
 | **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API 和 Livestream 客戶必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證從 2024 年 5 月 1 日開始，Adobe I/O 將不允許建立新的 JWT 認證。使用 JWT 的客戶必須建立新的 OAuth Server-to-Server 認證，或將他們現有的 JWT 認證移轉到 OAuth Server-to-Server 認證。客戶還必須更新他們的用戶端應用程式，才能使用新的 OAuth Server-to-Server 認證。 <ul><li>[從 Service Account (JWT) 認證移轉](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)</li><li>[OAuth 新舊應用程式的實施指南](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)<li>[使用新的 OAuth Server-to-Server 認證](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)</li><li>[常見問題集](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)</li></ul> |
 
 
