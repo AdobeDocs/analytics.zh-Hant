@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: 瞭解如何使用Analytics工具，包括Analysis Workspace、Analytics儀表板、Report Builder和舊版Report Builder，以及Activity Map。
+user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
 workflow-type: tm+mt
 source-wordcount: '966'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 96%
 + Report Builder {#report-builder}
    + [Report Builder 概觀](report-builder/report-buider-overview.md)
    + [Report Builder 設定](report-builder/report-builder-setup.md)
-   + [轉換舊版請求](report-builder/convert-workbooks.md)
+   + [轉換舊請求](report-builder/convert-workbooks.md)
    + [建立資料區塊](report-builder/create-a-data-block.md)
    + [Report Builder 中心](report-builder/report-builder-hub.md)
    + [選擇報表套裝](report-builder/select-report-suite.md)
@@ -174,9 +174,9 @@ ht-degree: 96%
    + [排程活頁簿](report-builder/schedule-reportbuilder.md)
    + [受限制的標籤](report-builder/restricted-labels.md)
    + [Report Builder 設定](report-builder/report-builder-settings.md)
-+ 舊版Report Builder{#legacy-report-builder}
-   + [舊版Adobe Report Builder說明](legacy-report-builder/home.md)
-   + 舊版Report Builder設定{#legacy-report-builder-setup}
++ 舊版 Report Builder {#legacy-report-builder}
+   + [舊版 Adobe Report Builder 說明](legacy-report-builder/home.md)
+   + 舊版 Report Builder 設定{#legacy-report-builder-setup}
       + [系統需求](legacy-report-builder/setup/system-requirements.md)
       + [安裝 Report Builder](legacy-report-builder/setup/t-install-arb.md)
       + [升級 Report Builder](legacy-report-builder/setup/upgrade-arb.md)
