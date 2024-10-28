@@ -3,10 +3,10 @@ title: 發生次數
 description: 變數經設定或持續存在的點擊次數。
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 57%
 
 ---
 
@@ -22,3 +22,9 @@ ht-degree: 100%
 
 * **發生次數與[例項](instances.md)**：發生次數會計入維度項目經設定或持續存在的點擊。例項不包含維度項目持續存在的點擊。
 * **發生次數與[頁面檢視](page-views.md)**：發生次數包含所有點擊類型，包括頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))、連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))，以及來自摘要[資料來源](/help/import/data-sources/overview.md)笉的資料。頁面檢視量度僅包括頁面檢視追蹤呼叫，不包括連結追蹤呼叫和摘要資料來源。
+
+## 持續性
+
+持續性是給定維度值在其設定的事件之外與量度相關的能力。 它使用配置和到期日的組合。 配置可讓您確定當一個列中可以同時保留多個維度專案時保留哪個值。 有效期可讓您確定維度專案在其設定的事件之後持續多長時間。
+
+持續性僅在維度上可用，並且可追溯至套用到的資料。 它是發生在套用篩選或其他分析作業之前的立即資料轉換。 如果未啟用持續性，則維度僅與相同事件中存在的量度相關。
