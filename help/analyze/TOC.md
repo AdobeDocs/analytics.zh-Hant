@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
 source-git-commit: 1957c4114d9682c358f101bdd561d594835e3f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
 ht-degree: 100%
 
@@ -166,7 +166,7 @@ ht-degree: 100%
    + [轉換舊請求](report-builder/convert-workbooks.md)
    + [建立資料區塊](report-builder/create-a-data-block.md)
    + [Report Builder 中心](report-builder/report-builder-hub.md)
-   + [選擇報表套裝](report-builder/select-report-suite.md)
+   + [選取報告套裝](report-builder/select-report-suite.md)
    + [選取日期範圍](report-builder/select-date-range.md)
    + [使用區段](report-builder/work-with-segments.md)
    + [篩選器維度](report-builder/filter-dimensions.md)

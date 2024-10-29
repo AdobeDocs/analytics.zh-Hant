@@ -4,45 +4,45 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 04a6b5ac6e60f1cc2d1579306581a1025eb83230
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
-# 最新Adobe Analytics發行說明（2024年10月23日發行）
+# 最新 Adobe Analytics 發行說明 (2024 年 10 月 23 日發行)
 
-**上次更新日期**：2024年10月23日
+**上次更新日期**：2024 年 10 月 23 日
 
-這些發行說明涵蓋2024年10月16日到2024年底的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋 2024 年 10 月 16 日至 2024 年底的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Adobe Analytics的新Report Builder** | 新的Report Builder應用程式為Adobe Analytics帶來重大更新，包括改善效能、簡化使用者介面、2.0 API支援，以及Mac、Windows和網頁瀏覽器上的Microsoft Excel支援。 此應用程式可與舊版應用程式搭配使用，但不能在相同檔案上使用。 提供升級功能，將舊版活頁簿升級至新應用程式。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
-| 將標籤實作移轉至Web SDK標籤的&#x200B;**JSON匯出** | Analytics標籤擴充功能的這項更新會與移轉至Web SDK相關。 您可以使用此Adobe Analytics擴充功能更新，作為工作流程的一部分，透過Web SDK擴充功能重新建立您的擴充功能組態。 在Adobe Analytics標籤擴充功能中，您可以以JSON檢視eVar、prop和事件設定，這些設定可匯出以供編輯，並包含在Web SDK擴充功能中。 |  | 2024 年 10 月 31 日 |
-| **Analysis Workspace效能中要求因素的新資訊** | 現在在Analysis Workspace中分析效能時，會提供新的「請求因數」區段。 若要進一步瞭解如何處理要求以及影響處理時間的各種因素，請參閱[最佳化Analysis Workspace效能](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)中的「要求因素」。 |  | 2024年10月1日 |
+| **適用於 Adobe Analytics 的新 Report Builder** | 新的 Report Builder 應用程式為 Adobe Analytics 帶來重大更新，包含改進的效能、簡化的使用者介面、2.0 API 支援以及對 Mac、Windows 和網頁瀏覽器上的 Microsoft Excel 的支援。此應用程式可以與舊版應用程式一起使用，但不能在同一檔案上使用。提供升級功能以將舊版活頁簿升級到新應用程式。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview) |  | 2024 年 10 月 16 日 |
+| **JSON Export 用於將標記實施遷移到 Web SDK 標記** | 此 Analytics 標記擴充功能的更新與遷移到 Web SDK 有關。您可以使用此 Adobe Analytics 標記擴充功能的更新作為工作流程的一部分，透過 Web SDK 擴充功能重新建立擴充功能設定。在 Adobe Analytics 標記擴充功能中，您可以將 eVar、Prop 和事件設定視為 JSON 格式，這些可以匯出以進行編輯並包含在 Web SDK 擴充功能中。 |  | 2024 年 10 月 31 日 |
+| **有關 Analysis Workspace 效能的請求因素的新資訊** | 在 Analysis Workspace 中分析效能時，現在可以使用新的「請求因素」部分。如需深入了解如何處理請求以及影響處理時間的各種因素，請參閱 [Analysis Workspace 效能最佳化](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance)中的「請求因素」部分。 |  | 2024 年 10 月 1 日 |
 
 ## Adobe Analytics 中的修正
 
-Analysis Workspace： AN-356287； AN-358435； AN-359456； AN-359826； AN-360215
-管理工具：AN-342485、AN-347931、AN-348704、AN-357723、AN-358453、AN-358717、AN-359548、AN-360136
-分類：AN-359025、AN-359283、AN-359368、AN-359710、AN-359752、AN-359759、AN-359799、AN-359887、AN-360543、AN-360566、AN-360612、AN-360741、AN-360942、AN-360952
-跨裝置分析： AN-359210
+Analysis Workspace：AN-356287；AN-358435；AN-359456；AN-359826；AN-360215
+管理工具：AN-342485；AN-347931；AN-348704；AN-357723；AN-358453；AN-358717；AN-359548；AN-360136
+分類：AN-359025；AN-359283；AN-359368；AN-359710；AN-359752；AN-359759；AN-359799；AN-359887；AN-360543；AN-360566；AN-360612；AN-360741；AN-360942；AN-360952
+跨裝置分析：AN-359210
 客戶屬性：AN-357897
-資料彙集：AN-351131；AN-351309；AN-355678；AN-359856
-資料摘要： AN-359699
-資料修復API： AN-360256
+資料收集：AN-351131；AN-351309；AN-355678；AN-359856
+資料摘要：AN-359699
+資料修復 API：AN-360256
 資料來源：AN-359290
-Data Warehouse： AN-359820
-超額警報：AN-358132
+Data Warehouse：AN-359820
+超額警示：AN-358132
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **非Campaign客戶將失去對觸發程式的存取權** | 2023 年 10 月 16 日 | 自2025年1月30日起，沒有Adobe Campaign授權的Adobe Analytics客戶將無法存取設定和使用觸發程式。 客戶需要購買Campaign、計畫停止使用觸發器，或檢視其他提供觸發器功能的Adobe工具。 |
+| **非 Campaign 客戶將無法存取觸發程序** | 2023 年 10 月 16 日 | 2025 年 1 月 30 日，沒有 Adobe Campaign 授權的 Adobe Analytics 客戶將無法設定和使用觸發程序。客戶需要購買 Campaign，或計劃停止使用觸發程序，或研究提供觸發程序功能的其他 Adobe 工具。 |
 | **自動對應其他實施細節 XDM 欄位** | 2024 年 9 月 11 日 | 使用 Adobe Experience Platform Edge Network 將資料傳送至 Adobe Analytics 時，XDM 欄位 `xdm.implementationdetails.name` 和 `xdm.implementationdetails.environment` 現在總是對應到內容資料變數 `c.a.x.implementationdetails.name` 和 `c.a.x.implementationdetails.environment`。過去某些情境會防止填入這些值。請調整任何相關的處理規則以配合這些值的可用性。 |
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
