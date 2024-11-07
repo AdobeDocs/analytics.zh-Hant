@@ -4,8 +4,8 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要匯出原始資料，以及如何使用 Data Warehouse 擷取試算表輸出資料。了解如何使用 FTP 和 SFTP 傳輸檔案。
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
-workflow-type: ht
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
@@ -75,4 +75,4 @@ ht-degree: 100%
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace 下載](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant)
++ [Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview)

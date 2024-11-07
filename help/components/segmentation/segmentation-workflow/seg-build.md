@@ -3,7 +3,7 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f41144d5889d03441f06806256ec79aa25d242cf
+source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 98%
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 * **Analytics 頂端導覽**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段」]**。
 * **[!UICONTROL Analysis Workspace]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Workspace」]**，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立區段」]**。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=zh-Hant)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments)。
 
 ## 產生器條件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 1. **[!UICONTROL 說明]**：提供區段的說明。
 1. **[!UICONTROL 標記]**：選擇現有標記清單中的標記或建立新標記，[標記您正在建立的區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 1. **[!UICONTROL 定義]**：可在此[建立和設定區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)、新增規則、巢狀內嵌及排序容器。
-1. **[!UICONTROL 顯示]**：(頂端容器選擇器)可讓您選取頂層[容器](/help/components/segmentation/seg-overview.md)層級 ([!UICONTROL 訪客]、[!UICONTROL 造訪]、[!UICONTROL 點擊])。預設的頂層容器為「點擊」容器。
+1. **[!UICONTROL 顯示]**： （頂端容器選擇器。） 可讓您選取最上層[容器](/help/components/segmentation/seg-overview.md) （ [!UICONTROL 訪客]，[!UICONTROL 造訪]，[!UICONTROL 點選]）。 預設的頂層容器為「點擊」容器。
 1. **[!UICONTROL 選項]**：(齒輪) 圖示
 
    * **[!UICONTROL + 新增容器]**：可讓您新增新的容器 (在頂層容器下) 至區段定義。
