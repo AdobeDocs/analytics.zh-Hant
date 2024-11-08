@@ -3,10 +3,10 @@ title: 瀏覽
 description: 某一段時間的頁面檢視順序。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: a3a23e1d13bc10305a8cb991b73c2873a58baf63
+source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 98%
+source-wordcount: '694'
+ht-degree: 88%
 
 ---
 
@@ -45,8 +45,8 @@ ht-degree: 98%
 
 您可將造訪的定義變更為 30 分鐘以外的時間。
 
-* 對於[虛擬報告套裝](../vrs/vrs-about.md)，您可以使用「[!UICONTROL 造訪逾時]」下拉式清單來變更造訪逾時。您可以將造訪逾時變更為任何合理的值。
-* 對於標準報表套裝，請與客戶服務聯絡，以要求縮短指定報表套裝的造訪時長。標準報表套裝的造訪時長不可超過 30 分鐘，因此您只能加以縮短。
+* 若為[虛擬報表套裝](../vrs/vrs-about.md)，您可以使用[!UICONTROL 造訪逾時]下拉式清單來變更造訪逾時（造成新造訪開始的點選之間的時間）。 您可以將造訪逾時變更為任何合理的值。
+* 若是標準報表套裝，請聯絡客戶服務，以要求縮短指定報表套裝的造訪逾時（造成新造訪開始的點選之間的時間）。 標準報表套裝的造訪逾時不能超過30分鐘，因此您只能加以縮短。
 
 ## 跨日期界限的造訪
 
