@@ -3,7 +3,7 @@ title: 瀏覽
 description: 某一段時間的頁面檢視順序。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 59582c9fa910c789b44798eae21566aa6fd99124
+source-git-commit: fb25807a0f34409bb3a27f344ff7508a9dd414a4
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 88%
