@@ -4,9 +4,9 @@ title: Adobe Analytics 儀表板高階主管指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
+source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1262'
 ht-degree: 92%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 1. 點選您要檢視的計分卡。
 
-   如果您透過一次登入即可存取多個組織，則您組織中的所有計分卡都可在計分卡清單中使用。
+   如果您透過一次登入即可存取多個組織，首頁畫面會在一個位置顯示所有可用公司的所有計分卡。
 
    您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單進行排序。 您甚至可以搜尋特定計分卡。
 
