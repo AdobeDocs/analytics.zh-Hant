@@ -3,9 +3,9 @@ description: 在 Analysis Workspace 中使用警報。
 title: 警報產生器概觀
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: a71c3c6911ed2c2eb9202c8f149a44d6364017b8
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 36%
 
 ---
@@ -43,7 +43,7 @@ Adobe Analytics中的警報可讓您根據變更的百分比或特定資料點�
    |---------|----------|
    | [!UICONTROL **標題**] | 指定警報的名稱。警報名稱中可以包含報表的名稱或量度臨界值。 |
    | [!UICONTROL **描述（選擇性）**] | 指定警示的說明。 |
-   | [!UICONTROL **時間粒度**] | 選取您希望檢查量度的頻率：每日、每週或每月。<p><b>注意：</b>對於使用自訂日曆的資料檢視，警報產生器不支援每月粒度。<!--true?--></p> |
+   | [!UICONTROL **時間粒度**] | 選取您希望檢查量度的頻率：每小時、每日、每週或每月。<p><b>注意：</b>對於使用自訂日曆的資料檢視，警報產生器不支援每月粒度。<!--true?--></p> |
    | [!UICONTROL **收件者**] | 指定可傳送警報的位置。警報可以傳送給 Analytics 用戶、Analytics 群組、原始電子郵件地址或電話號碼。<p><b>重要：</b>電話號碼前面必須加上「+」和[國家/地區代碼](https://countrycode.org/)。</p><p>一旦觸發警報，用戶收到的電子郵件顯示如下：</p><p>![](assets/alerts-email.PNG)</p> |
    | [!UICONTROL **到期日**] | 設定您想要警報到期的日期和時間。 |
    | [!UICONTROL **傳送警報的時機**] | [!UICONTROL **這些量度觸發器的任一項**]：將量度（包括計算量度）拖放到這裡，以建立警示的觸發器。<p>如果警報中並非所有量度、維度或區段都與目前選取的資料檢視相容，則會出現&#x200B;**「不相容的元件」**&#x200B;訊息。</p><p>確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件：</p><ul><li>存在異常</li><li>異常超出預期</li><li>異常低於預期</li><li>高於或等於</li><li>低於或等於</li><li>變更者</li><li>您可以設定 90%、95%、99%、99.75% 或 99.9% 的臨界值。</li></ul><p>[!UICONTROL **包含所有這些篩選器**]：拖放區段或維度以新增篩選器。 例如，新增「僅限行動裝置」區段表示規則僅會針對行動裝置觸發。 您可以使用AND陳述式來新增其他篩選器。 您可按一下齒輪圖示，新增 AND 或 OR 規則。</p><p>檢視[警示 — 使用案例](/help/components/c-alerts/alerts-use-cases.md)的使用案例範例。</p> |
