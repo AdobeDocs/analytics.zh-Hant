@@ -3,9 +3,9 @@ description: 警報可讓您精細地控制通知，並整合異常偵測。
 title: 警報概觀
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: e5f832bcedfa1c483fb31f5cff733bad4ed85be1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Adobe Analytics中的警報可讓您根據變更的百分比或特定資料點�
 
 >[!NOTE]
 >
->使用具有異常偵測的警報（也稱為&#x200B;_智慧型警報_）僅適用於具有Adobe Analytics Select、Prime或Ultimate套件的組織。
+>使用具有異常偵測的警報（也稱為&#x200B;_智慧型警報_）僅適用於具有Adobe Analytics Prime或Ultimate套件的組織。
 
 如果警報使用異常偵測，訓練期會依您為警報選擇的粒度而有所不同。
 
