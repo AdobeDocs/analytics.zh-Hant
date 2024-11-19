@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: a8cb45c11089a0b69373ef3cf2a49687cd20da09
+exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
+source-git-commit: c35d5bdc29ce80f0c9357339b04fd2d656cfbe52
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +29,9 @@ ht-degree: 55%
 
    此資料區塊地點選項會定義 Report Builder 將資料新增至您的工作表的工作表位置。
 
-   若要指定資料區塊位置，可在工作表中選取單一儲存格或是輸入儲存格位址，例如 a3、\\\$a3、a\\\$3 或 sheet1!a2。擷取資料時，指定的儲存格會標籤資料區塊的左上角。
+   若要指定資料區塊位置，請在工作表中選取單一儲存格，然後按一下&#x200B;**[!UICONTROL 資料區塊位置]**&#x200B;旁的圖示：
+
+   您也可以輸入儲存格位址，例如a3、\\\$a3、a\\\$3或sheet1！a2。 擷取資料時，指定的儲存格會標籤資料區塊的左上角。
 
 1. 選擇&#x200B;**報告套裝**。
 
@@ -40,7 +43,7 @@ ht-degree: 55%
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
-   ![顯示日期範圍選項和作用中[下一步]按鈕的熒幕擷圖。](./assets/choose_date_data_view3.png)
+   ![顯示日期範圍選項和作用中[下一步]按鈕的熒幕擷圖。](./assets/choose_date_report_suite.png)
 
    設定資料區塊後，您可以選取維度、量度和區段來建置資料區塊。 「維度」、「量度」和「篩選器」索引標籤會顯示在「表格產生器」窗格上方。
 
@@ -48,7 +51,7 @@ ht-degree: 55%
 
 若要建置資料區塊，請選取報表元件，然後自訂版面配置。
 
-1. 新增「維度」、「量度」和「篩選器」。
+1. 新增Dimension、量度和區段。
 
    捲動元件清單或使用&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位來尋找元件。 將元件拖放至「表格」窗格或是在清單中的元件名稱上按兩下，就能將元件自動加入「表格」窗格。
 
@@ -56,7 +59,7 @@ ht-degree: 55%
 
    - 如果您在欄中已經有維度，可將維度元件新增到「列」區段或「欄」區段。
    - 將日期元件新增到「欄」區段。
-   - 將「篩選器」元件新增到「篩選器」區段。
+   - 區段元件會新增至「區段」區段。
 
    **開始日期為Dimension**
 
@@ -91,8 +94,6 @@ ht-degree: 55%
 1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
 
    擷取分析資料的同時，會顯示一則處理訊息。
-
-   ![處理訊息。](./assets/image11.png)
 
    Report Builder 會擷取資料，並在工作表中顯示已完成的資料區塊。
 

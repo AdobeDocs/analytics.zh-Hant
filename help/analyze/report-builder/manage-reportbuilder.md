@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 63e169b3-7e13-405e-83a4-17f2a9917ed2
+source-git-commit: 0e275dafb9d6562bf10fba1e0ecd9930e0e97f48
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 58%
+source-wordcount: '627'
+ht-degree: 59%
 
 ---
 
@@ -26,8 +27,6 @@ ht-degree: 58%
 ![檢視所有資料區塊清單的管理選項。](./assets/image53.png)
 
 資料區塊管理員會列出活頁簿中顯示的所有資料區塊。 
-
-![活頁簿中存在的所有資料區塊清單。](./assets/image52.png)
 
 ## 排序資料區塊清單
 
