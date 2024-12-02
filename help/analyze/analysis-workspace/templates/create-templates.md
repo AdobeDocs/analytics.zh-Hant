@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 6%
    |---------|----------|
    | **[!UICONTROL 名稱]** | 提供範本的描述性名稱。 |
    | **[!UICONTROL 說明]** | 提供範本的簡短說明，以說明其預期用途。 |
-   | **[!UICONTROL 為何使用此範本]** | 提供簡短說明，告知組織內人員可如何使用此範本。 |
+   | **[!UICONTROL 為何使用此範本]** | 提供簡短說明，告知組織內人員可如何使用此範本。 此說明會顯示在範本的「預覽」頁面上。 |
    | **[!UICONTROL 頻道]** | 選擇任何適用於此範本的適用管道。 您可以選取多個管道： **[!UICONTROL 網頁]**、**[!UICONTROL 行動裝置]**、**[!UICONTROL 跨管道]**、**[!UICONTROL 客服中心]**&#x200B;以及&#x200B;**[!UICONTROL 店內]**。<p>您選擇的選項決定顯示範本的位置，以及哪些篩選器適用於從「組織範本」頁面存取範本的使用者。</p> |
    | **[!UICONTROL 使用案例]** | 選擇適用於此範本的任何使用案例。 您可以選取多個使用案例： **[!UICONTROL 參與]**、**[!UICONTROL 轉換]**、**[!UICONTROL 對象]**&#x200B;以及&#x200B;**[!UICONTROL 贏取]**。 <p>您選擇的選項決定顯示範本的位置，以及哪些篩選器適用於從「組織範本」頁面存取範本的使用者。</p> |
    | **[!UICONTROL 標記]** | 指定您要套用至範本的任何標籤。 人員可依您新增的標籤來篩選範本清單。 |

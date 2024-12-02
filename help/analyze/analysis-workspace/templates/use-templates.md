@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 3eb996179b359bc77e04cdc8a469b79a9b2cc621
+source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
 workflow-type: tm+mt
-source-wordcount: '18050'
+source-wordcount: '18051'
 ht-degree: 61%
 
 ---
@@ -45,7 +45,11 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
      公司範本只能由管理員建立。 如需有關如何建立公司範本的詳細資訊，請參閱[建立和管理範本](/help/analyze/analysis-workspace/reports/create-company-reports.md)。
 
-1. 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
+1. 使用下列任一選項來變更您檢視可用範本的方式：
+
+   * 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
+
+   * 使用卡片檢視![卡片檢檢視示](assets/card-view-icon.png)時，請從下列排序順序中選擇： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受歡迎]**、**[!UICONTROL 字母順序]**、**[!UICONTROL 類別]**。
 
 1. 在搜尋欄位中，開始輸入您要尋找的範本名稱，然後從範本清單中選取它。 您也可以依據prop、eVar和事件編號來搜尋範本清單。<!-- still true? -->
 
@@ -58,8 +62,6 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
    >若要使用方向鍵瀏覽選單，請按正斜線鍵 (/)，然後按向下鍵。按Enter載入選取的範本。
 
    如需可用的範本清單，請參閱下方的[可用的範本](#available-reports)區段。
-
-1. （選用）檢視並使用包含報表套裝中無法使用之元件的範本。 （依預設，只會顯示使用報表套裝中可用元件的範本。） <!--does this apply to AA? -->
 
 ## 根據範本建立專案 {#use-reports}
 
