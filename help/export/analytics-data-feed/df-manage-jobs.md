@@ -1,12 +1,12 @@
 ---
-title: 管理資料摘要作業
-description: 瞭解如何管理資料摘要中的個別作業。
+title: 管理資料摘要工作
+description: 瞭解如何管理資料摘要中的個別作業。 瀏覽介面、使用篩選和搜尋，以及尋找欄定義。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 

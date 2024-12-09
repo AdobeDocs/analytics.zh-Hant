@@ -1,12 +1,12 @@
 ---
-description: 在 Data Warehouse 中提供排名劃分報表，可依遞減的量度順序排序。
+description: 瞭解依量度排序如何讓Data Warehouse報表易於解譯，並與其他Analytics劃分報表檢視進行比較。
 title: 依量度排序
 feature: Data Warehouse
 exl-id: 6bd82951-c3b4-4ba2-8e4d-b7c9b351911b
-source-git-commit: 42c95198a4d4389308c78c312b5bb37572350cc1
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 99%
+source-wordcount: '337'
+ht-degree: 92%
 
 ---
 

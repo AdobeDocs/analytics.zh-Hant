@@ -1,11 +1,11 @@
 ---
 title: 建立資料摘要
-description: 瞭解如何建立資料摘要。
+description: 瞭解如何建立資料摘要，以及提供給Adobe的相關檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '4119'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -364,7 +364,7 @@ ht-degree: 53%
    |---------|----------|
    | [!UICONTROL **移除逸出字元**] | 在收集資料時，有些字元（例如新的行）可能會造成問題。 如果您想要從摘要檔案中移除這些字元，請勾選此方塊。 |
    | [!UICONTROL **壓縮格式**] | 使用的壓縮型別。 **Gzip**&#x200B;會輸出`.tar.gz`格式的檔案。 **Zip**&#x200B;會輸出`.zip`格式的檔案。 |
-   | [!UICONTROL **封裝型別**] | 針對大部分的資料摘要選取&#x200B;[!UICONTROL **多個檔案**]。 此選項會將您的資料分頁為未壓縮的2GB區塊。 （如果選取了&#x200B;[!UICONTROL **多個檔案**]&#x200B;選項，且報表回溯期的未壓縮資料小於2GB，則會傳送一個檔案。） 選取&#x200B;**單一檔案**&#x200B;會將`hit_data.tsv`檔案輸出為單一的、可能是大型的檔案。 |
+   | [!UICONTROL **封裝型別**] | 針對大部分的資料摘要選取&#x200B;[!UICONTROL **多個檔案**]。 此選項會將您的資料分頁為未壓縮的2GB區塊。 （如果選取了&#x200B;[!UICONTROL **多個檔案**]&#x200B;選項，且報表回溯期的未壓縮資料小於2GB，則會傳送一個檔案。） 選取&#x200B;**單一檔案**&#x200B;會將`hit_data.tsv`檔案輸出為單一的、可能非常大型的檔案。 |
    | [!UICONTROL **資訊清單**] | 決定當在摘要間隔內未收集資料時，Adobe是否應該將[資訊清單檔案](c-df-contents/datafeeds-contents.md#feed-manifest)傳送到目的地。 如果您選取&#x200B;**資訊清單檔案**，則在未收集資料時，您會收到類似下列的資訊清單檔案：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **資料行範本**] | 建立許多資料摘要時，Adobe建議建立欄範本。 選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。 |
    | [!UICONTROL **可用的資料行**] | Adobe Analytics中所有可用的資料欄。 按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。 |

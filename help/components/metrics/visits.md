@@ -1,16 +1,16 @@
 ---
-title: 瀏覽
-description: 某一段時間的頁面檢視順序。
+title: 造訪
+description: 瞭解Analytics中的造訪量度。 瞭解其計算方式、影響其的行為、如何變更其定義等。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: fb25807a0f34409bb3a27f344ff7508a9dd414a4
+source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 88%
+source-wordcount: '710'
+ht-degree: 85%
 
 ---
 
-# 瀏覽
+# 造訪
 
 「造訪」[量度](overview.md)會顯示您的網站上所有訪客的工作階段數量。
 

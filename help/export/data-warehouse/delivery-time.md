@@ -1,12 +1,12 @@
 ---
-title: 疑難排解 Data Warehouse 請求傳送時間
+title: 疑難排解Data Warehouse請求傳送時間
 description: 判斷可能延長 Data Warehouse 請求傳送時間的潛在問題。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: fc6a2deabaf2012cefebf4864db19aef1825adf2
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 61%
+ht-degree: 59%
 
 ---
 

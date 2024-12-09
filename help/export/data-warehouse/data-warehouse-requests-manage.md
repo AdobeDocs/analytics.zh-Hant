@@ -1,13 +1,13 @@
 ---
-description: 「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。
+description: 瞭解如何檢視、複製和重新排定Data Warehouse請求的優先順序。
 title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 4c9451c1df31ec22bf3f7b0198f294d8e57d79d5
+source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 

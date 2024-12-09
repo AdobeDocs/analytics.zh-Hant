@@ -1,13 +1,12 @@
 ---
 title: 資料摘要的疑難排解
-description: 了解如何判斷及解決資料摘要的問題。
-keywords: 工作; 疑難排解; 錯誤; ftp; chdir; 連接; 登入; put
+description: 瞭解資料摘要工作可能無法處理或傳送資料的原因。 解決資料摘要的潛在問題。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 95%
 
 ---
 

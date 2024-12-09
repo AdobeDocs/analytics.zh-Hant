@@ -1,13 +1,13 @@
 ---
-description: 以下是資料摘要處理和交付的幾個最佳做法。
+description: 瞭解Analytics中資料摘要處理和傳送的最佳實務。
 keywords: 資料摘要；最佳做法；流量尖峰；每小時；ftp
 title: 最佳作法和一般資訊
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 88%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 

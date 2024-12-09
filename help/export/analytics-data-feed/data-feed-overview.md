@@ -1,13 +1,13 @@
 ---
-description: 從網站、行動應用程式收集或使用網站服務 API 或資料來源上傳的資料會儲存在 Adobe 的 Data Warehouse。這些原始點按流資料形成 Adobe Analytics 所使用的資料集。
+description: 瞭解如何使用資料摘要從Adobe Analytics中取得原始資料。 瞭解使用資料摘要的先決條件，以及後續步驟。
 keywords: 點按資料流；資料摘要；資料摘要；資料摘要
-title: Analytics 資料摘要總覽
+title: Analytics資料摘要概觀
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 

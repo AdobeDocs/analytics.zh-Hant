@@ -1,12 +1,12 @@
 ---
-title: 資料摘要 UI
-description: 瞭解如何使用資料摘要介面。
+title: 管理資料摘要
+description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: e7e03531454bd56ebe6152edc08765f42ebec728
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 28%
+source-wordcount: '1171'
+ht-degree: 26%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 28%
 
    * 在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。您可以收合或展開篩選類別。 選取您要套用之任何篩選器旁的核取方塊。
 
-![篩選器](assets/filters.png)
+![篩選](assets/filters.png)
 
 ## 檢視資料摘要工作
 

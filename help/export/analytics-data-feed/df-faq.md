@@ -1,13 +1,13 @@
 ---
-description: 與資料摘要有關的常見問答
+description: 取得有關Adobe Analytics中資料摘要的常見問題解答。
 keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
-title: 資料摘要常見問答
+title: 資料摘要常見問題集
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 100%
+source-wordcount: '1456'
+ht-degree: 98%
 
 ---
 
