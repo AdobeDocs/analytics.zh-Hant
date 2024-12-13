@@ -2,9 +2,10 @@
 title: 串流媒體品品質度
 description: 為報表套裝啟用[!UICONTROL 媒體品質]時可用的量度。
 feature: Metrics
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *此頁面說明您為報表套裝啟用[!UICONTROL 媒體品質]時可用的量度。 如需可用的維度，請參閱[串流媒體品質維度](../dimensions/sm-quality.md)。*
 
-串流媒體品品質度透過串流媒體收集程式庫，為資料收集提供補充報告功能。 使用這些量度需要&#x200B;**[!UICONTROL Adobe串流媒體集合附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+串流媒體品品質度透過串流媒體收集程式庫，為資料收集提供補充報告功能。 使用這些量度需要&#x200B;**[!UICONTROL Adobe串流媒體集合]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
 當您在[媒體報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下啟用&#x200B;**[!UICONTROL 媒體品質]**&#x200B;時，可以使用下列量度：
 

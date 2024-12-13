@@ -2,10 +2,11 @@
 title: 串流媒體核心維度
 description: 為報表套裝啟用[!UICONTROL 媒體核心]時可用的維度。
 feature: Dimensions
-source-git-commit: 26c131a37fa1f30c83fd99b290523a97d3c954db
+exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 9%
+source-wordcount: '410'
+ht-degree: 10%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 9%
 
 *此頁面說明您為報表套裝啟用[!UICONTROL 媒體核心]時可用的維度。 如需可用的量度，請參閱[串流媒體核心量度](../metrics/sm-core.md)。*
 
-串流媒體核心維度為透過串流媒體收集程式庫收集的資料提供基本報告功能。 使用這些維度需要&#x200B;**[!UICONTROL Adobe串流媒體集合附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+串流媒體核心維度為透過串流媒體收集程式庫收集的資料提供基本報告功能。 使用這些維度需要&#x200B;**[!UICONTROL Adobe串流媒體集合]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
 當您在[媒體報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下啟用&#x200B;**[!UICONTROL 媒體核心]**&#x200B;時，可以使用下列維度：
 

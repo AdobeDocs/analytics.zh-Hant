@@ -3,10 +3,10 @@ description: 您可以在 Adobe Analytics 中檢視 Document Cloud 資料
 title: 設定 Document Cloud Analytics
 feature: Admin Tools
 exl-id: 4bcc5be7-cad1-4969-9d19-0db8f3f6a374
-source-git-commit: 1382d8901b980db016521a3051de23d8d5b71f57
+source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 86%
+source-wordcount: '109'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 * [!UICONTROL **Document Cloud 報告**]
 
-  媒體報表頁面會提供適用於串流媒體收集附加元件的報表。 有關媒體報告的更多資訊，請參閱[設定 Document Cloud 報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)。
+  媒體報表頁面會提供串流媒體收集的特定報表。 有關媒體報告的更多資訊，請參閱[設定 Document Cloud 報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)。
 
 * [!UICONTROL **Document Cloud 分類**]
 
