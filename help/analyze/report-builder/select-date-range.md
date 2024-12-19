@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
+source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +32,7 @@ ht-degree: 89%
 
 **從儲存格**
 
-「從儲存格」選項可讓您引用工作表儲存格中輸入的日期。
+**[!UICONTROL 從儲存格]**&#x200B;選項可讓您參照工作表儲存格中輸入的日期。
 
 您可選擇在任何選取的日期範圍中排除當天。
 
