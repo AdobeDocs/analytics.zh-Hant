@@ -5,10 +5,11 @@ role: Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: d158ad45-d467-4355-b091-f015bde7a243
+source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 88%
+source-wordcount: '274'
+ht-degree: 83%
 
 ---
 
@@ -24,7 +25,7 @@ ht-degree: 88%
 
 1. 按一下&#x200B;**「套用」**。
 
-   顯示[取消並套用]按鈕的![Report Builder日期範圍窗格。](./assets/image38.png)
+   ![Report Builder設定。](./assets/image38.png)
 
 ## 離線模式
 
@@ -32,13 +33,13 @@ ht-degree: 88%
 
 如欲啟用離線模式
 
-1. 按一下&#x200B;**設定**&#x200B;圖示。
+1. 按一下&#x200B;**[!UICONTROL 設定]**&#x200B;圖示。
 
-1. 選取&#x200B;**啟用離線模式**。
+1. 選取&#x200B;**[!UICONTROL 啟用離線模式]e**。
 
-1. 在&#x200B;**將量度資料顯示為**&#x200B;欄位輸入正整數。
+1. 在&#x200B;**[!UICONTROL 將量度資料顯示為]**&#x200B;欄位輸入正整數。
 
-1. 按一下&#x200B;**「套用」**。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 ## 語言
 
@@ -48,14 +49,14 @@ ht-degree: 88%
 
 1. 按一下「設定」。
 
-1. 從&#x200B;**語言**&#x200B;下拉式選單中選取語言。
+1. 從&#x200B;**[!UICONTROL 語言]**&#x200B;下拉式選單中選取語言。
 
    ![Report Builder日期範圍窗格，顯示已選取英文的語言清單。](./assets/image39.png)
 
-1. 按一下&#x200B;**套用。**
+1. 按一下&#x200B;**[!UICONTROL 套用].**
 
 ## 疑難排解
 
 使用「疑難排解」設定，將所有用戶端/伺服器資料紀錄在本機檔案中。使用此選項來協助解決支援申請單。
 
-若要啟用「疑難排解」選項，請選取&#x200B;**將 Report Builder 請求紀錄在本機檔案中**。
+若要啟用「疑難排解」選項，請選取&#x200B;**[!UICONTROL 將Report Builder資料區塊記錄到網頁主控台]**。
