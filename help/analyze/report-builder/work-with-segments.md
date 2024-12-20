@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 2cb8f72a37699aa45135c9d26686f93ee20f20d7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -83,9 +83,7 @@ ht-degree: 4%
 
    選取篩選器並將其新增至&#x200B;**[!UICONTROL 取代為]** ... 清單。
 
-   ![已選取「應用程式上的人員」資料區塊且已更新「取代為」清單的「取代」標籤，其中顯示「應用程式上的人員」已修訂。](./assets/replace_screen_new.png)
-
-1. 按一下&#x200B;**[!UICONTROL 套用]**。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
    Report Builder會更新區段清單以反映取代結果。
 
@@ -103,7 +101,7 @@ ht-degree: 4%
 
 1. 選取您要資料區塊參照區段的儲存格。
 
-1. 連按兩下區段或將區段拖放至「已包含區段」區段，即可新增您要新增至儲存格的區段選擇。
+1. 按兩下區段或將區段拖放至&#x200B;**[!UICONTROL 已包含區段]**&#x200B;區段，即可新增您想要新增至儲存格的區段選擇。
 
    注意：一次只能為指定的儲存格選取一個選項。
 
