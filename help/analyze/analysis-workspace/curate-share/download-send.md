@@ -4,10 +4,10 @@ title: 下載 PDF 或 CSV 檔案
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 830d9cd13db1a0767cce4e3d2574a120d00a9ac8
+source-git-commit: 04c588cbe8cd4cc9b8d6fe162e3623c2be076325
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 90%
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 90%
    ![](assets/download-project.png)
 
 1. (視情況而定) 如果您選擇下載 PDF，則在專案準備好下載後會顯示一則訊息。按一下「[!UICONTROL **下載**]」。
+1. 按一下&#x200B;**[!UICONTROL 下載此檔案]**&#x200B;圖示，並將檔案儲存至您選擇的資料夾。
 
 ## 將資料複製到剪貼簿 (快速鍵：Ctrl+C) {#copy-data}
 
