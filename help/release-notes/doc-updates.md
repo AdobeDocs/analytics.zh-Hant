@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6026'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 * 如需 [!UICONTROL Customer Journey Analytics] 的相關資訊，請前往[此處](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-hant)。
-* 如需串流媒體集合的相關資訊，請參閱[在Analytics中測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hant)。
+* 如需有關串流媒體收集的資訊，請參閱[在 Analytics 中測量音訊和影片](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hant)。
 
 ## 主要文件更新的詳細資訊
 
@@ -38,7 +38,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 已更新管理資料摘要的文件 | 已更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊以改善明確度。 <p>更新包括：</p><ul><li>為各種任務建立單獨章節，使資訊更易於瀏覽和使用。</li><li>已新增有關重新啟動之即時摘要行為變更的資訊。這些變更目前為「有限可用性」的狀態，尚未提供給所有客戶使用。</li><li>已新增表示資料摘要必須為「使用中」狀態才能刪除。</li> |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
-| 已更新提及串流媒體功能的產品名稱 | 在提及收集串流媒體資料並在Analysis Workspace中呈現的串流媒體功能集時，將「Media Analytics」和「串流媒體」的例項取代為「串流媒體收集附加元件」和「串流媒體收集」。 <p>這些更新可在Adobe Analytics檔案以及[串流媒體收集檔案](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中取得。</p> |
+| 已更新提及串流媒體功能的產品名稱 | 提及用來收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」之處已替換為「串流媒體收集附加元件」和「串流媒體收集」等名稱。 <p>這些更新可在 Adobe Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中找到。</p> |
 | 已改善的警報文件 | 更新並改善有關警報的文件。這些更新包括有關[建立警報](/help/components/c-alerts/alert-builder.md)、[管理警報](/help/components/c-alerts/alert-manager.md)的資訊，和[概觀資訊](/help/components/c-alerts/intellligent-alerts.md)。 |
 | 已棄用 `cookieDomainPeriods` | 現在，AppMeasurement 會自動偵測要設定 Cookie 的正確網域，因此已棄用 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 變數。 |
 | 停用 Data Connectors 文件 | 將 Data Connectors 生命週期終止頁面移至[停產產品](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-connectors)。 |
@@ -82,7 +82,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
 | 開始使用內容增強功能 | 已新增概述管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 改進串流媒體集合的報表檔案 | 重新組織串流媒體收集指南報告區段中的一些內容，包括將API檔案合併到其自己的區段中，並調整一些文章的順序。 <p>將媒體工作區範本文章重命名為 [Workspace 媒體報告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)，以與產品內的名稱保持一致。 </p> |
+| 改善串流媒體收集的報告文件 | 重新整理串流媒體收集指南之「報告」區段中的一些內容，包括將 API 文件合併到其自有區段中，以及調整一些文章的順序。 <p>將媒體工作區範本文章重命名為 [Workspace 媒體報告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)，以與產品內的名稱保持一致。 </p> |
 | **2023 年 8 月** | |
 | 資料摘要釐清 | 更新[開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md)，以釐清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料之前的任何日期。 |
 | Adobe Experience Platform Edge Network 資料處理 | 已新增內容說明 Adobe Analytics 如何[處理來自 Edge Network 的資料](../implement/aep-edge/overview.md)。 |
@@ -90,7 +90,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
 | 比較實施方法 | 已更新比較不同實施方法的文件。[了解更多](../implement/prepare/comparison.md) |
 | 澄清資料摘要的 SFTP 設定不需要 Adobe 客戶服務 | 在[使用 SFTP 將 Adobe 資料傳送到外部 FTP 帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中，澄清不需要求助 Adobe 客戶服務即可為資料摘要設定 SFTP。 <p>同時，新增注意事項，表示不再建議使用 SFTP，客戶在設定資料摘要時應使用雲端目的地。</p> |
-| 串流媒體收集的檔案改善 | 已針對串流媒體收集進行下列檔案改良： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hant)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實施概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)，明確區分邊緣實施和僅限 Analytics 實施。還新增圖表，說明各種實施方式。</li><li>已新增 [Edge 實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[僅限 Analytics 實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實施方法*&#x200B;的新欄。</li><li>已簡化文件中[實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)區域文章的內容和組織。這包括用邊緣實施和僅限 Analytics 實施，對實施加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/tracking/track-core-overview.html)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
+| 串流媒體收集的文件改善 | 已針對串流媒體收集進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hant)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實施概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)，明確區分邊緣實施和僅限 Analytics 實施。還新增圖表，說明各種實施方式。</li><li>已新增 [Edge 實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[僅限 Analytics 實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實施方法*&#x200B;的新欄。</li><li>已簡化文件中[實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)區域文章的內容和組織。這包括用邊緣實施和僅限 Analytics 實施，對實施加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/tracking/track-core-overview.html)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 新增可更全面說明何時與如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 透過 Adobe Analytics 實施資料收集的文件。例如，在桌面應用程式、IoT 裝置、機上盒中透過 Adobe Analytics 實施資料收集。 |
 | 全球公司 ID | 以文件說明針對您登入的 Analytics 公司，[如何找到全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
