@@ -4,9 +4,9 @@ description: 與Activity Map相關的常見問題。
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: 64964972410911c2bea1460039def39b7c6dfa38
+source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 15%
 
 ---
@@ -35,7 +35,7 @@ Activity Map所需的[許可權專案](/help/admin/admin-console/permissions/pro
 
 +++所有Analytics客戶都可以存取Activity Map嗎？
 
-凡是擁有Adobe Analytics Standard、Premium和Ultimate合約的組織，都可以存取Activity Map。 這些合約型別代表大多數Adobe Analytics客戶。
+凡是擁有Adobe Analytics Standard、Premium和Ultimate合約的組織皆可存取Activity Map。 這些合約型別代表大多數Adobe Analytics客戶。
 
 +++
 
@@ -63,7 +63,7 @@ Activity Map 支援最新版本的最新瀏覽器。
 
 +++Activity Map是否會增加伺服器呼叫？
 
-Activity Map 本身不會傳送伺服器呼叫。反之，Activity Map內容資料變數會包含在後續頁面上的Analytics頁面檢視呼叫中。 不過，Web SDK上某些舊版的Activity Map會針對Activity Map資料傳送個別呼叫。 如果您使用最新版Web SDK，Activity Map資料將會與以下事件合併。
+Activity Map 本身不會傳送伺服器呼叫。反之，Activity Map內容資料變數會包含在後續頁面上的Analytics頁面檢視呼叫中。 不過，網路SDK上某些舊版的Activity Map會針對Activity Map資料傳送個別呼叫。 如果您使用最新版的Web SDK，Activity Map資料將會與以下事件合併。
 
 +++
 
@@ -137,7 +137,7 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 停用Activity Map的方法取決於您的實作型別：
 
-* **Web SDK擴充功能**：在擴充功能組態設定中，取消勾選&#x200B;**[!UICONTROL 收集內部連結點選次數]**、**[!UICONTROL 收集外部連結點選次數]**&#x200B;和&#x200B;**[!UICONTROL 收集下載連結點選次數]**&#x200B;方塊。
+* **Web SDK擴充功能**：在擴充功能組態設定中，取消勾選&#x200B;**[!UICONTROL 收集內部連結點按次數]**、**[!UICONTROL 收集外部連結點按次數]**&#x200B;和&#x200B;**[!UICONTROL 收集下載連結點按次數]**&#x200B;方塊。
 * **Web SDK JavaScript資料庫**：將[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設為`false`。
 * **Analytics擴充功能**：在擴充功能組態設定中，取消勾選標示為&#x200B;**[!UICONTROL 使用Activity Map]**&#x200B;的方塊。
 * **AppMeasurement**：移除或註解`AppMeasurement.js`中的Activity Map模組，或使用空白內文覆寫模組函式呼叫：
@@ -203,7 +203,11 @@ Activity Map會追蹤下列元素：
 
 +++Activity Map不會自動追蹤的連結有哪些範例？
 
-以下是Activity Map不會追蹤點按的一些範例。
+* 錨點標籤沒有有效的`href`
+* [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md)或[`tl()`](/help/implement/vars/functions/tl-method.md)方法皆不存在
+* 表單輸入元素上缺少`src`屬性
+
+以下是Activity Map不會追蹤點按的一些範例：
 
 ```html
 <!-- Anchor tag does not have a valid href -->
