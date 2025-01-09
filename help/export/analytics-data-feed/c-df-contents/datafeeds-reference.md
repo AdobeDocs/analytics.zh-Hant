@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 9138a6ae20b5c74a5eaf3b11fb7fcc406d9605e7
+source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
 workflow-type: tm+mt
-source-wordcount: '3580'
+source-wordcount: '3617'
 ht-degree: 67%
 
 ---
@@ -259,7 +259,7 @@ ht-degree: 67%
 
 ## 未使用或已淘汰的欄
 
-以下清單為未使用的欄，通常不包含資料。 目前的資料收集程式庫不支援不含資料的欄，且在Analysis Workspace中不是可用維度。
+下列清單為未使用、已淘汰的欄，或報表中不包含值。 這些欄中有些是繫結至已淘汰的功能，有些則是因為新增且更強大的功能而不再需要。 這些欄大多不包含資料；目前資料收集程式庫不支援可能仍包含資料的欄，而且在Analysis Workspace中不是可用的維度。
 
 * `adclassificationcreative`
 * `click_action`
@@ -338,6 +338,7 @@ ht-degree: 67%
 * `plugins`
 * `prev_page`
 * `product_merchandising`
+* `sampled_hit`
 * `service`
 * `socialaccountandappids`
 * `socialassettrackingcode`
