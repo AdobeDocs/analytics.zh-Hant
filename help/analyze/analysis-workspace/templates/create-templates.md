@@ -6,10 +6,10 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: 4b124c628d7cbe67807b9a080362a31e68ee923c
+source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 6%
+source-wordcount: '691'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 6%
    | **[!UICONTROL 名稱]** | 提供範本的描述性名稱。 |
    | **[!UICONTROL 說明]** | 提供範本的簡短說明，以說明其預期用途。 |
    | **[!UICONTROL 為何使用此範本]** | 提供簡短說明，告知組織內人員可如何使用此範本。 此說明會顯示在範本的「預覽」頁面上。 |
-   | **[!UICONTROL 頻道]** | 選擇任何適用於此範本的適用管道。 您可以選取多個管道： **[!UICONTROL 網頁]**、**[!UICONTROL 行動裝置]**、**[!UICONTROL 跨管道]**、**[!UICONTROL 客服中心]**&#x200B;以及&#x200B;**[!UICONTROL 店內]**。<p>您選擇的選項決定顯示範本的位置，以及哪些篩選器適用於從「組織範本」頁面存取範本的使用者。</p> |
    | **[!UICONTROL 使用案例]** | 選擇適用於此範本的任何使用案例。 您可以選取多個使用案例： **[!UICONTROL 參與]**、**[!UICONTROL 轉換]**、**[!UICONTROL 對象]**&#x200B;以及&#x200B;**[!UICONTROL 贏取]**。 <p>您選擇的選項決定顯示範本的位置，以及哪些篩選器適用於從「組織範本」頁面存取範本的使用者。</p> |
    | **[!UICONTROL 標記]** | 指定您要套用至範本的任何標籤。 人員可依您新增的標籤來篩選範本清單。 |
 
@@ -71,6 +70,22 @@ ht-degree: 6%
    1. 選取「更多」圖示，然後選取&#x200B;**[!UICONTROL 編輯]**&#x200B;或&#x200B;**[!UICONTROL 刪除]**。
 
       ![公司範本卡片編輯或刪除](assets/company-template-card-edit-delete.png)
+
+1. 如果您正在編輯範本，請進行任何需要的編輯，然後選取&#x200B;[!UICONTROL **專案**] > **[!UICONTROL 另存為範本……]**。
+
+   ![公司範本](assets/company-template-save.png)
+
+1. 在[!UICONTROL 另存為範本]對話方塊中指定下列資訊：
+
+   | 欄位 | 說明 |
+   |---------|----------|
+   | **[!UICONTROL 名稱]** | 提供範本的描述性名稱。 |
+   | **[!UICONTROL 說明]** | 提供範本的簡短說明，以說明其預期用途。 |
+   | **[!UICONTROL 為何使用此範本]** | 提供簡短說明，告知組織內人員可如何使用此範本。 此說明會顯示在範本的「預覽」頁面上。 |
+   | **[!UICONTROL 使用案例]** | 選擇適用於此範本的任何使用案例。 您可以選取多個使用案例： **[!UICONTROL 參與]**、**[!UICONTROL 轉換]**、**[!UICONTROL 對象]**&#x200B;以及&#x200B;**[!UICONTROL 贏取]**。 <p>您選擇的選項決定顯示範本的位置，以及哪些篩選器適用於從「組織範本」頁面存取範本的使用者。</p> |
+   | **[!UICONTROL 標記]** | 指定您要套用至範本的任何標籤。 人員可依您新增的標籤來篩選範本清單。 |
+
+1. 選取&#x200B;[!UICONTROL **另存為範本**]。
 
 ## 重新命名、標籤或核准範本
 
