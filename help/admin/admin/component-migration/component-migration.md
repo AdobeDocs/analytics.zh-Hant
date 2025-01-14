@@ -3,9 +3,9 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 03c8b0e08ac524216d7d9383fa12751e573601ee
+source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1453'
 ht-degree: 5%
 
 ---
@@ -58,7 +58,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
 1. 在&#x200B;[!UICONTROL **專案所有者**]&#x200B;欄位中，開始輸入Customer Journey Analytics中要設定為專案所有者之使用者的名稱，然後在下拉式選單中選取其名稱。
 
-   您指定的擁有者擁有專案的完整管理許可權。
+   您指定的擁有者擁有專案的完整管理許可權。 擁有者必須是Customer Journey Analytics的管理員。 您可以在稍後步驟中變更專案的所有權。
 
 1. 在「[!UICONTROL **對應報表套裝的結構描述**]」區段中，選取報表套裝。
 
@@ -119,6 +119,8 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
    移轉完成後，[!UICONTROL **移轉狀態**]&#x200B;頁面會提供已移轉專案的摘要。
 
    如果移轉失敗，請參閱下面的[重試失敗的移轉](#retry-a-failed-migration)一節以取得詳細資訊。
+
+1. （選用）專案移轉後，您就可以將專案的所有權轉移給Customer Journey Analytics中的任何使用者。 如需詳細資訊，請參閱Customer Journey Analytics指南中的[轉移資產](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
 
 ## 重試失敗的移轉
 
