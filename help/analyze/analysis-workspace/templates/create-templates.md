@@ -3,13 +3,11 @@ description: 如何在 Analysis Workspace 中使用預設報告的概觀。
 title: 使用報告
 feature: Analysis Workspace
 role: User, Admin
-hide: true
-hidefromtoc: true
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: f56836bb5c9e83ec3b0eee8e118f9781cd9588ab
+source-git-commit: 436b2ced6335b5d4b3d8acd4bdb026d7db1d7ad8
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 5%
+source-wordcount: '720'
+ht-degree: 6%
 
 ---
 
@@ -118,3 +116,10 @@ ht-degree: 5%
 就像Adobe提供的範本一樣，組織中的使用者可以存取管理員建立的範本。
 
 如需有關如何存取公司範本的資訊，請參閱[使用範本](/help/analyze/analysis-workspace/templates/use-templates.md)中的[存取並執行範本](/help/analyze/analysis-workspace/templates/use-templates.md#access-and-run-a-template)。
+
+## 隱藏「範本」標籤 {#hide-reports}
+
+管理員可以為其組織內的所有使用者隱藏「範本」標籤。
+
+1. 前往「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 偏好設定]** > **[!UICONTROL 公司]**」。
+1. 選取&#x200B;**[!UICONTROL 隱藏範本索引標籤]**&#x200B;的選項。
