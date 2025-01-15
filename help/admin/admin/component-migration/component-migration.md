@@ -3,9 +3,9 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 9e3c82214256a37df311f31c886a52f1ec8398b5
+source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1501'
 ht-degree: 5%
 
 ---
@@ -23,6 +23,13 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
   有些維度和量度會自動對應，有些則必須在移轉程式中手動對應。 區段也會移轉，但在移轉過程中不需要進行對應。
 
   移轉完成時，所有移轉的元件都會顯示在移轉摘要中。
+
+>[!NOTE]
+>
+>此頁面上的資訊說明如何使用使用者介面移轉專案及其相關元件。
+>
+>或者，您可以使用API執行移轉。 如需詳細資訊，請參閱[Adobe Analytics API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs)。 所有API定義都可在&#x200B;**[!UICONTROL 選取定義]**&#x200B;下拉式功能表中取得。
+
 
 ## 準備移轉
 
