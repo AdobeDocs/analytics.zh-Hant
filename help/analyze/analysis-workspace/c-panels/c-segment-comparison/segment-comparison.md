@@ -5,10 +5,10 @@ keywords: Analysis Workspace, 區段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 60836f5632cfd19d94f33441eaa9d949609d5712
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 91%
+source-wordcount: '1223'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="區段比較"
->abstract="快速比較所有資料點的兩個區段，以自動找出相關差異"
+>abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-*本文會在![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中記錄區段比較面板。<br/>![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**中沒有對應的面板。*
+*本文會在&#x200B;**Adobe Analytics**中記錄區段比較面板。<br/>**Customer Journey Analytics**中沒有對應的面板。*
 
 >[!ENDSHADEBOX]
 

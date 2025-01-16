@@ -4,14 +4,33 @@ title: 頁面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 9%
+source-wordcount: '547'
+ht-degree: 8%
 
 ---
 
-# 頁面摘要面板
+# 頁面摘要面板 {#page-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_button"
+>title="頁面摘要"
+>abstract="快速檢閱部分高階量度，以及特定頁面的來回移動。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_pagesummary_panel"
+>title="頁面摘要面板"
+>abstract="快速檢閱部分高階量度，以及特定頁面的來回移動。<br/><br/>**引數&#x200B;**<br/>**新增頁面維度專案**：開啟元件邊欄，找出頁面維度，然後按一下胡蘿蔔來展開維度，以檢視維度專案。 然後，將您想要瞭解的特定頁面拖放至產生器。 拖放維度專案後，報表會自動填入頁面的重要資訊。"
+
+<!-- markdownlint-enable MD034 -->
+
 
 此面板可讓您輕鬆探索有關特定頁面的關鍵統計資料。
 
@@ -53,7 +72,7 @@ ht-degree: 9%
 | [!UICONTROL 重新載入] | [!UICONTROL 重新載入]量度會顯示重新載入期間維度專案出現的次數。 訪客重新整理瀏覽器是觸發重新載入的最常見方式。 |
 | [!UICONTROL 登入點] | [!UICONTROL 登入點]量度會顯示指定的維度專案在造訪中被擷取為第一個值的次數。 |
 | [!UICONTROL 退出點] | [!UICONTROL 退出]量度會顯示指定的維度專案在造訪中被擷取為最後一個值的次數。 |
-| [!UICONTROL 流量] | 以所選頁面為焦點的流量圖。 您可以像在任何[流量圖](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)中一樣深入鑽研資料。 |
+| [!UICONTROL 流程] | 以所選頁面為焦點的流量圖。 您可以像在任何[流量圖](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)中一樣深入鑽研資料。 |
 
 {style="table-layout:auto"}
 
