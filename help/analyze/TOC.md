@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 551fe910eab986a628885a4b12fa47b961ee4ba6
-workflow-type: ht
-source-wordcount: '971'
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+workflow-type: tm+mt
+source-wordcount: '973'
 ht-degree: 100%
 
 ---
@@ -107,12 +107,13 @@ ht-degree: 100%
       + [項目符號圖表](analysis-workspace/visualizations/bullet-graph.md)
       + [組合圖表](analysis-workspace/visualizations/combo-charts.md)
       + [環形圖](analysis-workspace/visualizations/donut.md)
-      + [長條圖](analysis-workspace/visualizations/histogram.md)
+      + [直方圖](analysis-workspace/visualizations/histogram.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
       + [關鍵量度摘要](analysis-workspace/visualizations/key-metric.md)
       + [折線圖](analysis-workspace/visualizations/line.md)
       + [地圖](analysis-workspace/visualizations/map-visualization.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
+      + [區段標題](/help/analyze/analysis-workspace/visualizations/section-header.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
       + [文字](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)

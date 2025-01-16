@@ -4,15 +4,14 @@ title: 項目符號圖表
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 80e748c3e6e6610b5b34d64080db3b206feda92c
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 88%
 
 ---
 
 # 項目符號圖表 {#bullet-graph}
-
 
 <!-- markdownlint-disable MD034 -->
 
@@ -31,6 +30,12 @@ ht-degree: 100%
 >abstract="建立項目符號圖視覺效果以顯示量度與效能範圍 (目標) 相比較或進行衡量的結果。"
 
 <!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文會記錄&#x200B;**Adobe Analytics**中的「專案符號」視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[專案符號](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)。*
+
+>[!ENDSHADEBOX]
 
 可讓您查看您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。
 
