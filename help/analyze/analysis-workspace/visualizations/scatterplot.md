@@ -4,14 +4,30 @@ description: 顯示與最多三個量度之間關係的視覺效果。
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '156'
+ht-degree: 86%
 
 ---
 
-# 散點圖
+# 散點圖 {#scatter}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_scatter_button"
+>title="散佈圖"
+>abstract="建立散佈圖視覺效果，顯示維度項目與最多三個量度之間的關係。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會記錄&#x200B;**Adobe Analytics**中的散佈圖視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[散佈圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)。*
+
+>[!ENDSHADEBOX]
 
 散點圖視覺效果顯示維度項目與最多三個量度之間的關係。此視覺效果需要三個元件，且支援視覺化最多四個元件。
 

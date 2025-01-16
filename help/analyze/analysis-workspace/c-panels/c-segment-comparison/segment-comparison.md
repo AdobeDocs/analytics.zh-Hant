@@ -5,31 +5,61 @@ keywords: Analysis Workspace, 區段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 100%
+source-wordcount: '1225'
+ht-degree: 91%
 
 ---
 
-# 區段比較面板概述
+# 區段比較面板概述 {#segment-comparison-overview}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_button"
+>title="區段比較"
+>abstract="快速比較所有資料點的兩個區段，以自動找出相關差異"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_segmentcomparison_panel"
+>title="區段比較面板"
+>abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。<br/><br/>**引數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**比較對象**：您要比較的第二個區段。 這會自動填入&#x200B;*其他所有人*，這與您的第一個區段相反。 如有需要，您可以使用不同的區段來取代。<br/>**進階設定**：在區段比較中排除要分析的元件的功能。"
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文會在![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中記錄區段比較面板。<br/>![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**中沒有對應的面板。*
+
+>[!ENDSHADEBOX]
 
 「區段比較」面板是[「區段 IQ」](../../segment-iq.md)中的工具，可從不限數量的區段中找出統計數據上最顯著的差異。此功能會針對您存取的所有維度和量度進行反覆自動分析。它會從提升公司 KPI 的客群細分群體當中找出關鍵特性，讓您查看任何細分群體重疊的程度。
 
-以下是有關區段比較的影片：
++++ 以下是有關區段比較的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
-## 建立區段比較面板
++++
 
-1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-1. 在上方的導覽列按一下「工作區」。
-1. 按一下「建立新專案」按鈕。
-1. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
-1. 按一下左側的「面板」按鈕，然後將「區段比較」面板拖曳至自動建立的自由表格面板上方或下方。
+## 使用
 
-   ![比較面板](assets/seg-compare-panel.png)
+若要使用&#x200B;**[!UICONTROL 歸因]**&#x200B;面板：
+
+1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](../panels.md#create-a-panel)。
+
+1. 指定面板的[輸入](#panel-input)。
+
+1. 觀察面板的[輸出](#panel-output)。
+
+
+
+### 面板輸入
+
+![比較面板](assets/seg-compare-panel.png)
 
 1. 請選取區段進行比較並將它們拖曳至面板內。
 
@@ -56,7 +86,7 @@ ht-degree: 100%
 
 ![排除的維度](assets/excluded-dimensions.png)
 
-## 檢視區段比較報表
+### 面板輸出
 
 Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結果：
 
@@ -64,19 +94,19 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 ![視覺效果 2](assets/new-viz2.png)
 
-### 大小和重疊
+#### 大小和重疊
 
 透過文氏圖表呈現每個所選區段的相對大小，以及彼此重疊的程度。您可以在視覺效果上暫留以查看每個重疊或非重疊區段中的訪客數。您也可在重疊上按一下滑鼠右鍵來建立全新區段以供進一步分析。如果兩個區段互斥，兩個圓圈不會彼此重疊 (通常使用點擊容器的區段會有此現象)。
 
 ![大小和重疊](assets/size-overlap.png)
 
-### 人口摘要
+#### 人口摘要
 
 「大小和重疊」視覺效果的右側會顯示每個區段和重疊中的不重複訪客總數。
 
 ![人口摘要](assets/population_summaries.png)
 
-### 排名在前的量度
+#### 排名在前的量度
 
 顯示兩個區段之間最具統計顯著性的量度。此表格中的每一列代表一個差異量度，依其在每個區段之間的差異程度排名。差異積分為 1 表示該量度具有統計顯著性，積分為 0 則表示沒有顯著性。
 
@@ -88,13 +118,13 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 ![排名在前的量度](assets/top-metrics.png)
 
-### 一段時間後的量度 (依區段)
+#### 一段時間後的量度 (依區段)
 
 量度表格右側是連結的視覺效果。再按一下表格左側的條列項目，此視覺效果就會更新，顯示一段時間後量度的變化趨勢。
 
 ![排名在前的量度行](assets/linked-viz.png)
 
-### 排名在前的維度
+#### 排名在前的維度
 
 顯示所有維度中最具統計顯著性的維度項目。每一列會顯示展示此維度項目的每個區段的百分比。例如，此表格可能會顯示「區段 A」中 100% 的訪客採用「瀏覽器類型：Google」維度項目，而「區段 B」只有 19.6% 的採用此維度項目。差異積分為 1 表示該量度具有統計顯著性，積分為 0 則表示沒有顯著性。
 
@@ -106,13 +136,13 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 ![排名在前的維度](assets/top-dimension-item1.png)
 
-### 維度項目 (依區段)
+#### 維度項目 (依區段)
 
 維度表格右側是已連結的長條圖視覺效果。表格會呈現長條圖中所有已顯示的維度項目。按一下表格左側的條列項目，就會更新右側的視覺效果。
 
 ![排名在前的維度長條圖](assets/top-dimension-item.png)
 
-### 排名在前的區段
+#### 排名在前的區段
 
 顯示哪些其他區段 (用於比較的兩個所選區段以外的區段) 具有統計上的顯著重疊。舉例來說，此表格可能會顯示第三個區段「重複訪客」與「區段 A」高度重疊，但與「區段 B」不重疊。差異積分為 1 表示該量度具有統計顯著性，積分為 0 則表示沒有顯著性。
 
@@ -124,7 +154,7 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 ![排名在前的區段](assets/top-segments.png)
 
-### 區段重疊
+#### 區段重疊
 
 區段表格右側是已連結的文氏圖表視覺效果。它會顯示套用在比較區段上最具統計顯著性的區段。例如，「區段 A」+「具統計顯著性的區段」與「區段 B」+「具統計顯著性的區段」。按一下表格左側的區段條列項目，就會更新右側的文氏圖表。
 

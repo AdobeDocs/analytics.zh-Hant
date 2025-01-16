@@ -4,14 +4,31 @@ description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 65%
+source-wordcount: '613'
+ht-degree: 64%
 
 ---
 
-# 自由表格
+# 自由表格 {#freeform-table-overview}
+
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_button"
+>title="自由表格"
+>abstract="建立一個空白的自由格式表格視覺效果，您可以使用維度、區段、量度和日期範圍進一步建置。您可以使用自由格式表格作為其他視覺效果的基礎。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文記錄了&#x200B;**Adobe Analytics**中的自由格式表格視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[自由格式表格](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)。*
+
+>[!ENDSHADEBOX]
 
 在 Analysis Workspace 中，自由表格是互動式資料分析的基礎。您可以將各種[元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hant)拖放至行和欄中，建立自訂表格供分析之用。放置每個元件後，表格會立即更新，以便您快速分析及深入探索。
 

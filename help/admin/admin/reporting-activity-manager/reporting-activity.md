@@ -4,10 +4,10 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 11%
+source-wordcount: '1989'
+ht-degree: 14%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 11%
 如需報告活動管理員的詳細資訊，包括主要權益和許可權要求，請參閱[報告活動管理員概觀](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。
 
 ## 檢視所有報表套裝的報表活動 {#view-all-report-suites}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="cja_tools_reportingactivitymanager_connections"
+>title="連線"
+>abstract="此表顯示您有權管理報告活動的連線。表格的每一欄中都提供了有關每個連線的資訊。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="tools_reportingactivitymanager_connections"
+>title="連線"
+>abstract="此表顯示您有權管理報告活動的連線。表格的每一欄中都提供了有關每個連線的資訊。"
+
+<!-- markdownlint-enable MD034 -->
 
 1. 在Adobe Analytics中，移至&#x200B;**[!UICONTROL 管理員]** > **[!UICONTROL 報告活動管理員]**。
 

@@ -5,14 +5,30 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 87%
 
 ---
 
-# 文氏圖表
+# 文氏圖表 {#venn}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_venn_button"
+>title="文氏圖表"
+>abstract="建立文氏圖表視覺效果，以快速在視覺上比較兩個元素及其重疊的大小。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會在&#x200B;**Adobe Analytics**中記錄Venn視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[文氏](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)。*
+
+>[!ENDSHADEBOX]
 
 [!UICONTROL 文氏圖表]視覺效果可讓您拖曳多達 3 個區段 (從[!UICONTROL 元件]拖曳) 及一個量度來建立[!UICONTROL 文氏]圖表。
 

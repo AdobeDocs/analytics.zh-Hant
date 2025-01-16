@@ -5,14 +5,35 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 93%
 
 ---
 
-# 流量概觀
+# 流量概述 {#flow}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_button"
+>title="流量"
+>abstract="建立視覺效果以查看從某一接觸點到下一個接觸點的人員流量。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_panel"
+>title="流量"
+>abstract="分析從某一接觸點到下一個接觸點的造訪或訪客流量。<br/><br/>**參數&#x200B;**<br/>**開始於**：新增維度、維度項目或量度，以查看在所選元件出現之後出現最多的接觸點。<br/>**包含**：新增維度或維度項目，以查看在所選元件出現之前和之後出現最多的接觸點。<br/>**結束於**：新增維度、維度項目或量度，以查看在所選元件出現之前出現最多的接觸點。<br/>**路徑分析維度**：新增維度，以用作前往或離開您所選元件的路徑。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會記錄&#x200B;**Adobe Analytics**中的流量視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[流量](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)。*
+
+>[!ENDSHADEBOX]
 
 流量功能可顯示客戶使用您網站和應用程式的路徑。
 

@@ -3,14 +3,33 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f8541ac8f82e63f1664b06ed788d307c5d224ca9
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 40%
+source-wordcount: '1137'
+ht-degree: 43%
 
 ---
 
-# 建置量度
+# 建置量度 {#build-metrics}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_productcompatibility"
+>title="產品相容性"
+>abstract="指出可以在 Customer Journey Analytics 的何處使用此計算量度，例如在 Analysis Workspace、Report Builder 等。一些計算量度不能用於實驗。"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/experimentation#use-in-experimentation" text="在實驗中使用計算量度"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="components_calculatedmetrics_externalid"
+>title="外部 ID"
+>abstract="變更外部 ID 可能會影響計算量度在外部來源 (例如商業智慧工具) 中的顯示方式"
+
+<!-- markdownlint-enable MD034 -->
 
 Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便根據容器階層邏輯、規則和運運算元建立自訂量度。 此整合性開發工具可讓您建立並儲存簡單或複雜的計算量度。
 

@@ -5,16 +5,33 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 77%
 
 ---
 
 # 長條圖和堆疊長條圖
 
+>[!BEGINSHADEBOX]
+
+*本文記錄了&#x200B;**Adobe Analytics**中的橫條圖和棧疊橫條圖視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[橫條圖和棧疊橫條圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar)。*
+
+>[!ENDSHADEBOX]
+
+橫條圖視覺效果有標準和棧疊選項。
+
 ## 長條圖 {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_bar_button"
+>title="長條圖"
+>abstract="建立長條圖視覺效果來表示一個或多個量度的各種值。"
+
+<!-- markdownlint-enable MD034 -->
 
 此視覺效果顯示代表一或多個量度多個值的垂直長條。
 
@@ -23,6 +40,15 @@ ht-degree: 100%
 視覺效果設定中的詳細程度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
 
 ## 堆疊長條圖 {#section_9EA83779AE964635907EE5031A785A49}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_barstacked_button"
+>title="堆疊長條圖"
+>abstract="建立長條圖視覺效果來表示一個或多個堆疊量度的各種值。"
+
+<!-- markdownlint-enable MD034 -->
 
 此視覺效果類似長條圖，但數列長條堆疊在彼此頂端。
 

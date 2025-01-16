@@ -5,14 +5,30 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 96%
 
 ---
 
-# 折線圖
+# 折線圖 {#line}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_line_button"
+>title="折線圖"
+>abstract="建立折線圖視覺效果，顯示值在一段時間內如何變化。僅在使用時間當作維度時，才使用折線圖視覺效果。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會記錄&#x200B;**Adobe Analytics**中的線條視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[行](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/line)。*
+
+>[!ENDSHADEBOX]
 
 [!UICONTROL 線條]視覺效果使用線條表示量度，以顯示一段期間的值的變化。 [!UICONTROL 折線圖]只可以在當做維度時使用。
 

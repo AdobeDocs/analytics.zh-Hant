@@ -4,14 +4,21 @@ title: 建立和共用行動計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 81fd658b55e6b1674d6ebd2b17b6c432591a1a08
+source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2515'
 ht-degree: 81%
 
 ---
 
-# 建立行動計分卡
+# 建立行動計分卡 {#create-a-mobile-scorecard}
+
+>[!CONTEXTUALHELP]
+>id="mobilescorecard_annotations"
+>title="註解"
+>abstract="註解可在元件管理員或工作區專案內部建立。"
+
+<!-- markdownlint-enable MD034 -->
 
 下列資訊可為 Adobe Analytics 資料的組織者說明如何為主管使用者設定和說明行動計分卡。若要開始使用，您可觀看Adobe Analytics儀表板計分卡產生器的影片：
 

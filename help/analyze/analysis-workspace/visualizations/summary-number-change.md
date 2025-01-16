@@ -5,20 +5,31 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: a4c976269456770f507bd4621bc704913358f8ff
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # [!UICONTROL 摘要數字]和[!UICONTROL 摘要變更]
+
+*本文記錄了&#x200B;**Adobe Analytics**中的摘要編號和摘要變更視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[摘要編號和摘要變更](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)。*
 
 以下是有關這兩個視覺效果的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
 
 ## [!UICONTROL 摘要數字]視覺效果 {#summary-number}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarynumber_button"
+>title="摘要數字"
+>abstract="建立顯示總計和小計的視覺效果。"
+
+<!-- markdownlint-enable MD034 -->
 
 使用[!UICONTROL 摘要數字]視覺效果可強調專案中重要的大數字。 此視覺效果的運作方式如下：
 
@@ -37,6 +48,15 @@ ht-degree: 0%
 | [!UICONTROL 值摘要依據] | 選擇此選項即可顯示一系列資料的最大值、最小值、平均值、中間值或總和。 |
 
 ## [!UICONTROL 摘要變更]視覺效果 {#summary-change}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_summarychange_button"
+>title="摘要變更"
+>abstract="建立顯示兩個數字之間的差異 (變化) 的視覺效果"
+
+<!-- markdownlint-enable MD034 -->
 
 使用[!UICONTROL 摘要變更]視覺效果可顯示兩個數字間的差異 (變更)。 可透過[自訂事件極性](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)或計算量度的[顯示上升趨勢的方式](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)選項，控制[!UICONTROL 摘要變更]的綠色和紅色。
 

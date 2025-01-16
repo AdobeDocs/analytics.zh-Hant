@@ -4,42 +4,135 @@ description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: e3d9a7f7adc71582f5f6b7ca8a7874ef3cbb4777
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 92%
+source-wordcount: '692'
+ht-degree: 47%
 
 ---
 
-# 歸因面板
+# 歸因面板 {#attribution-panel}
 
-建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。這是[歸因](/help/analyze/analysis-workspace/attribution/overview.md)中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_attribution_button"
+>title="歸因"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
+
+>[!CONTEXTUALHELP]
+>id="workspace_attribution_panel"
+>title="歸因面板"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;屬性依據的維度。此維度可以是行銷管道、活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型可決定如何將積分指派給接觸點。<br/>**回顧視窗**<br/>&#x200B;此設定可決定套用至每個轉換的資料歸因期間。"
+>additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文會在![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**中記錄歸因面板。<br/>檢視此文章的![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**版本的[歸因面板](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)。*
+
+>[!ENDSHADEBOX]
+
+建立比較各種歸因模型的分析時，**[!UICONTROL 歸因]**&#x200B;面板是可採用的簡單方式。面板提供專屬的工作區，供您使用和比較歸因模型。
+
+Adobe Analytics 強化了歸因功能，讓您可以：
+
+* 定義付費媒體以外的歸因：任何維度、量度、頻道或事件都可以套用至模型（例如內部搜尋），而不僅限於行銷活動。
+* 不限次數使用歸因模型比較功能：動態比較任意數量的模型。
+* 避免實施變更：透過報表時間處理功能和內容感知工作階段，可以建置客戶歷程內容並在執行階段套用。
+* 建構與您的歸因狀況最相符的工作階段。
+* 依區段劃分歸因：輕鬆比較行銷管道在任何重要區段中的效能（例如，新客戶與回頭客戶、產品X與產品Y、忠誠度或CLV）。
+* 跨管道檢查和多點接觸分析：使用文氏圖表和直方圖，並計算歸因結果趨勢。
+* 以視覺化方式分析關鍵行銷序列活動：透過多節點流量和流失視覺效果，以視覺效果方式探究帶來轉換的路徑。
+* 建立計算量度：使用任何數量的歸因配置方法。
+
+## 使用
+
+若要使用&#x200B;**[!UICONTROL 歸因]**&#x200B;面板：
+
+1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+
+1. 指定面板的[輸入](#panel-input)。
+
+1. 觀察面板的[輸出](#panel-output)。
+
+### 面板輸入
+
+您可以使用以下輸入設定來設定「歸因」面板：
+
+1. 從&#x200B;**[!UICONTROL 管道]**&#x200B;新增您想要歸因的&#x200B;**[!UICONTROL 成功量度]**&#x200B;和維度。 其範例包括行銷管道或自訂維度，例如內部促銷。
+
+   ![「歸因」面板視窗會顯示數個選取的維度和量度。](assets/attribution-panel.png)
+
+1. 從&#x200B;**[!UICONTROL 包含的模型]**&#x200B;選取一或多個[歸因模型](#attribution-models)，並從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;選取要用來比較的[回顧期間](#lookback-window)。
+
+1. 選取&#x200B;**[!UICONTROL 建置]**&#x200B;以在面板中建置視覺效果。
+
+### 面板輸出
+
+**[!UICONTROL 歸因]**&#x200B;面板會傳回一組豐富的資料和視覺效果，用以比較所選維度和量度的歸因。
+
+![比較所選量度和維度的「歸因」面板視覺效果。](assets/attr_panel_vizs.png)
+
+### 歸因視覺效果
+
+下列視覺效果是面板輸出的一部分。
+
+* **量度總計**：在報告時間範圍內發生，且歸因到您選取之維度的轉換總數。
+* **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
+* **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。表格的作用與Workspace中的其他自由表格相仿 — 讓您新增量度、區段或劃分等元件。
+* **重疊圖表**：文氏圖表視覺效果，會顯示前三大維度專案，及其共同參與轉換的頻率。 例如，重疊的泡泡圖大小代表某人接觸到兩個維度專案時發生轉換的頻率。 選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
+* **效能詳細資料**：可視覺化比較最多三個歸因模型的散佈視覺效果。
+* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
+* **流量**：可讓您檢視哪些頻道最常互動，以及在使用者歷程中的順序。
+
+## 歸因模型
+
+{{attribution-models-details}}
+
+## 回顧視窗
+
+{{attribution-lookback-window}}
+
+>[!MORELIKETHIS]
+>
+> [Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>
+
+<!--
+# Attribution panel
+
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-## 建立歸因面板
+## Create an attribution panel
 
-1. 按一下左側的面板圖示。
-1. 將[!UICONTROL 歸因]拖曳到您的 Analysis Workspace 專案中。
+1. Click the panel icon on the left.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
-   ![新增歸因面板](assets/Attribution_Panel_1.png)
+   ![New attribution panel](assets/Attribution_Panel_1.png)
 
-1. 新增要歸因的量度，並新增任何作為歸因依據的維度。其範例包括行銷管道或自訂維度，例如內部促銷。
+1. Add a metric that you want to attribute and add any dimension to attribute against. Examples include Marketing Channels or custom dimensions, such as internal promotions.
 
-   ![選取維度和量度](assets/attribution_panel2.png)
+   ![Select dimension and metric](assets/attribution_panel2.png)
 
-1. 選取要比較的[歸因模型和回顧期間](../attribution/models.md)。
+1. Select the [attribution models and lookback window](../attribution/models.md) you want to compare.
 
-1. 「歸因」面板會傳回一組豐富的資料和視覺效果，用以比較所選維度和量度的歸因。
+1. The Attribution panel returns a rich set of data and visualizations that compare attribution for the selected dimension and metric.
 
-   ![歸因視覺效果](assets/attr_panel_vizs.png)
+   ![Attribution visualizations](assets/attr_panel_vizs.png)
 
-## 歸因視覺效果
+## Attribution visualizations
 
-* **量度總計**：在報告時間範圍內發生的轉換總數。這些是在您所選取的維度中歸因的轉換。
-* **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
-* **歸因比較表**：顯示與條形圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。表格的作用與 Workspace 中的其他自由表格相仿 - 讓您新增量度、區段或劃分等元件。
-* **重疊圖**：文氏圖表會顯示前三大維項目，及其共同參與轉換的頻率。舉例來說，重疊的泡泡圖大小代表訪客同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
-* **效能詳細資料**：可讓您使用散布圖以視覺效果方式比較最多三個歸因模型。
-* **趨勢效能**：預設情況下，針對相鄰自由表格中列出的第一個維度，依歸因模型顯示轉換效能趨勢。 您可以在自由表格中選擇不同的維度列來以顯示所選維度的趨勢 (例如社交宣傳和付費搜尋的每個歸因模型的總收入)。或者，您可以選擇自由表格中任何量度和歸因類型組合欄中的儲存格，以查看指定歸因模型之維度值的趨勢效能 (例如使用上次接觸和首次接觸歸因的行銷頻道總收入)。
-* **流量**：可讓您查看哪些頻道最常互動，以及訪客歷程中的順序。
+* **Total metric**: The total number of conversions that occurred over the reporting time window. These are the conversions that are attributed across the dimension that you selected.
+* **Attribution Comparison Bar**: Visually compares the attributed conversions across each of the dimension items from your selected dimension. Each bar color represents a distinct attribution model.
+* **Attribution Comparison Table**: Shows the same data as the bar chart, represented as a table. Selecting different columns or rows in this table filters the bar chart as well as several of the other visualizations in the panel. This table acts similar to any other Freeform Table in Workspace - allowing you to add components such as metrics, segments, or breakdowns.
+* **Overlap Diagram**: A Venn Diagram showing the top three dimension items and how often they participate jointly in a conversion. For example, the size of the bubble overlap indicates how often conversions occurred when a visitor was exposed to both dimension items. Selecting other rows in the adjacent Freeform table updates the visualization to reflect your selection.
+* **Performance Detail**: Lets you to compare up to three attribution models visually using a scatter plot.
+* **Trended Performance**: By default, shows the conversion performance trend by attribution model for the first dimension listed in the adjacent Freeform table. You can select different dimension rows in the Freeform table to show the trend for the selected dimensions (such as Total Revenue for each attribution model for Social Campaigns and Paid Search). Alternately, you can select cells in the columns for any metric and attribution type combinations in the Freeform table to see the trended performance by dimension value for the specified attribution models (such as Total Revenue by Marketing Channel using Last Touch and First Touch attribution).
+* **Flow**: Lets you see which channels are interacted with most commonly, and in what order across a visitor's journey.
+
+-->

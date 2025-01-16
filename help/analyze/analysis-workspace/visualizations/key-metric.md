@@ -4,14 +4,30 @@ title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 00276353ef5555955d9dc178c692da0dbfb7eac2
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '839'
 ht-degree: 56%
 
 ---
 
-# 關鍵量度摘要
+# 關鍵量度摘要 {#key-metric-summary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_keymetricsummary_button"
+>title="關鍵量度摘要"
+>abstract="建立折線圖、摘要變更和摘要數字圖表組合的視覺效果。使用此視覺效果來比較兩個時段之間重要量度的趨勢。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文記錄了&#x200B;**Adobe Analytics**中的關鍵量度摘要視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[關鍵量度摘要](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)。*
+
+>[!ENDSHADEBOX]
 
 The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。它提供多個視覺效果合併成單一視覺效果的優勢。
 

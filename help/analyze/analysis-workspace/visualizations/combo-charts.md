@@ -4,14 +4,30 @@ title: 組合圖表視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 99%
+source-wordcount: '797'
+ht-degree: 95%
 
 ---
 
-# 組合圖表
+# 組合圖表 {#combo}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_combo_button"
+>title="組合"
+>abstract="快速建立組合圖視覺效果，無需先建立自由格式表格。"
+
+<!-- markdownlint-enable MD034 -->
+
+
+>[!BEGINSHADEBOX]
+
+*本文會記錄&#x200B;**Adobe Analytics**中的組合視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[組合](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)。*
+
+>[!ENDSHADEBOX]
 
 [!UICONTROL 組合圖表]視覺效果可讓您快速建立比較視覺效果，而不用先建立表格。您可以在折線/條形組合中輕鬆地檢視資料中的趨勢。
 
@@ -55,7 +71,7 @@ ht-degree: 99%
 
    ![](assets/combo-output.png)
 
-   目前期間會以條形圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
+   目前期間會以長條圖顯示，而比較期間則以折線圖呈現。折線圖上的圓點稱為「槓鈴」。
 
 ## 支援的函數
 
@@ -90,7 +106,7 @@ ht-degree: 99%
 | 設定 | 定義 |
 | --- | --- |
 | **[!UICONTROL 視覺效果類型]** | 讓您切換至另一個視覺效果類型。 |
-| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的下拉式清單中的。 |
+| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉式清單中變更時間詳細程度（日、周、月等）。 |
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 可見圖例]** | 讓您隱藏組合圖表視覺效果的詳細圖例文字。 |

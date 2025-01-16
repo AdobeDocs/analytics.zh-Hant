@@ -5,14 +5,29 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 100%
+source-wordcount: '136'
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL 樹狀圖]
+# [!UICONTROL 樹狀圖] {#treemap}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_treemap_button"
+>title="樹狀圖"
+>abstract="建立樹狀圖視覺效果以顯示具有嵌套矩形的階層式 (樹形結構) 資料。"
+
+<!-- markdownlint-enable MD034 -->
+
+>[!BEGINSHADEBOX]
+
+*本文記錄了&#x200B;**Adobe Analytics**中的樹狀圖視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[樹狀圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/treemap)。*
+
+>[!ENDSHADEBOX]
 
 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。
 
