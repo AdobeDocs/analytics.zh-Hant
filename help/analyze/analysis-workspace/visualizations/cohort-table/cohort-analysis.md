@@ -4,10 +4,10 @@ description: 透過「同類群組分析」，深入了解使用客群資料，�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 93%
+source-wordcount: '582'
+ht-degree: 86%
 
 ---
 
@@ -64,7 +64,9 @@ ht-degree: 93%
 
 ## 同類群組分析功能
 
-下列功能可讓您對您正在建立的同類群組進行微調控制：
+以下幾節將說明同類群組分析功能，這些功能可讓您對您正在建立的同類群組進行微調控制。
+
+如需建立同類群組及執行[!UICONTROL 同類群組分析]報表的詳細資訊，請參閱[設定同類群組分析報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
 ### [!UICONTROL 保留率表格]
 
@@ -103,5 +105,3 @@ ht-degree: 93%
 根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。使用[!UICONTROL 行銷管道]、[!UICONTROL 行銷活動]、[!UICONTROL 產品]、[!UICONTROL 頁面]、[!UICONTROL 地區]等 Adobe Analytics 維度，說明保留率在不同維度值的變化。
 
 ![](assets/cohort-customizable-cohort-row.png)
-
-如需如何設定和執行同類群組報表的指示，請前往[設定同類群組分析報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。

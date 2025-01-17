@@ -5,7 +5,7 @@ title: 執行同類群組 (cohort) 分析報告
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -33,9 +33,10 @@ ht-degree: 95%
 1. （選用）按一下齒輪圖示調整&#x200B;**[!UICONTROL 同類群組表格設定]**。
 
    | 設定 | 說明 |
-| 僅顯示百分比 | 移除數值並僅顯示百分比。|
-| 將百分比四捨五入為最接近的整數 | 將百分比值四捨五入為最接近的整數，不顯示顯小數點後的值。|
-| 顯示平均百分比列 | 在表格頂端插入新列，然後在每個欄中加入平均值。|
+   |--- |--- |
+   | 僅顯示百分比 | 移除數值並僅顯示百分比。 |
+   | 將百分比四捨五入到最接近的整數 | 將百分比四捨五入為最接近的整數，而非顯示小數值。 |
+   | 顯示平均百分比列 | 在表格頂端插入新列，然後在每個欄中加入平均值。 |
 
 ## 建立[!UICONTROL 同類群組分析]報表
 
