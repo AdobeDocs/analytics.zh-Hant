@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: de489dda1c2627ccb263ac496f8abb2794854856
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 92%
+source-wordcount: '701'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地圖"
->abstract="此視覺效果會透過在地圖上覆蓋來代表量度。 這對於識別不同地理區域的資料非常有用。"
+>abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。這相當實用，可辨識和不同地理區域之間的資料。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -30,7 +30,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_bubbles"
 >title="泡泡圖"
->abstract="使用泡泡繪製事件。"
+>abstract="使用泡泡圖繪製事件。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -39,14 +39,14 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_map_heatmap"
 >title="熱度圖"
->abstract="使用熱度圖繪製事件。"
+>abstract="使用熱度圖繪圖事件。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-*本文會在&#x200B;**Adobe Analytics**中記錄地圖視覺效果。<br/>**Customer Journey Analytics**中目前沒有可用的地圖視覺效果。*
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄地圖視覺效果。_<br/>_目前在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中沒有可用的地圖視覺效果。_
 
 >[!ENDSHADEBOX]
 

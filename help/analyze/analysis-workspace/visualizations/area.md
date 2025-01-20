@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 69%
+source-wordcount: '174'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-*本文記錄了&#x200B;**Adobe Analytics**中的區域圖和棧疊區域圖視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area)。*
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的區域圖和棧疊區域圖視覺效果。_<br/>_檢視本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[區域圖和棧疊區域圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area)。_
 
 >[!ENDSHADEBOX]
 

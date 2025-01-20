@@ -5,10 +5,10 @@ uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 feature: Visualizations
 role: User, Admin
 exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 71%
+source-wordcount: '148'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-*本文記錄了&#x200B;**Adobe Analytics**中的水準橫條圖和棧疊水準橫條圖視覺效果。<br/>若需此文章的&#x200B;**Customer Journey Analytics**版本，請參閱[水準橫條圖和棧疊的水準橫條圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)。*
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的水準橫條圖和棧疊水準橫條圖視覺效果。_<br/>_檢視本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[水準橫條圖和棧疊的水準橫條圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar)。_
 
 >[!ENDSHADEBOX]
 

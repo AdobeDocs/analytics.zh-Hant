@@ -4,9 +4,9 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 7bac64aed46d9d7a83dc61c3f55d33ad56564efe
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1160'
 ht-degree: 70%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-*本文會在&#x200B;**Adobe Analytics**中記錄Analytics for Target面板。<br/>如需如何比較&#x200B;**Customer Journey Analytics**中不同使用者體驗、行銷或訊息變化的相關資訊，請參閱[實驗面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)。*
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Analytics for Target面板。_<br/>_如需如何比較_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._中不同使用者體驗、行銷或訊息變數的詳細資訊，請參閱[實驗面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/a4t-panel)
 
 >[!ENDSHADEBOX]
 
@@ -100,7 +100,7 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 提升度和可信度計算是否支援計算量度？ | 否。 [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和可信度不支援計算量度的原因。不過，計算量度可用於這些量度以外的Analytics for Target報表。 |
 | 為何 Target 與 Analytics 的不重複訪客會有差異？ | [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)產品之間的不重複訪客差異。 |
 | 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | Analytics for Target維度是清單變數，這表示它可以同時包含許多活動（和體驗）。 [了解更多](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 可信度量度是否可計算極端順序，或對多個優惠方案套用 Bonferroni 校正？ | 否。 [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
+| 可信度量度是否可計算極端順序，或對多個產品建議套用 Bonferroni 校正？ | 否。 [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
 | 提升度和可信度量度是否可搭配其他維度或劃分使用？ | 提升度和可信度是「目標體驗」維度的「鎖定量度」，因為它們需有控制項和變數才能計算。因此，無法劃分或搭配其他維度使用。 |
 | 何時會重新計算提升度和可信度？ | 每當執行 (或重新運行) 面板、面板日期範圍變更或將區段套用至面板或表格時，就會重新計算提升度和可信度。將區段過濾器套用至自由格式表時，必須將其套用於所有欄或提升度，否則可信度將無法正確更新。目前不支援欄級區段。 |
 

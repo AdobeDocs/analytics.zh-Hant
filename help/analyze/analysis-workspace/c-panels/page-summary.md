@@ -4,9 +4,9 @@ title: 頁面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 33fdd685de21736964d0cbfbc479794a9154e8a3
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '568'
 ht-degree: 8%
 
 ---
@@ -31,6 +31,12 @@ ht-degree: 8%
 
 <!-- markdownlint-enable MD034 -->
 
+
+>[!BEGINSHADEBOX]
+
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄頁面摘要面板。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中沒有對應的面板。_
+
+>[!ENDSHADEBOX]
 
 此面板可讓您輕鬆探索有關特定頁面的關鍵統計資料。
 

@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 87%
+source-wordcount: '165'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-*本文會在&#x200B;**Adobe Analytics**中記錄Venn視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[文氏](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)。*
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Venn視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)。_
 
 >[!ENDSHADEBOX]
 

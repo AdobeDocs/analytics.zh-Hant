@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 89%
+source-wordcount: '194'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-*本文記錄了&#x200B;**Adobe Analytics**中的文字視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[文字](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text)。*
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄文字視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[文字](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/text)。_
 
 >[!ENDSHADEBOX]
 

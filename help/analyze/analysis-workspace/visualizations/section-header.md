@@ -3,9 +3,10 @@ title: 區段標題
 description: 在您的Workspace專案中插入區段標題的視覺效果。
 feature: Visualizations
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
+exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 13%
 >[!BEGINSHADEBOX]
 
 
-*本文會在&#x200B;**Adobe Analytics**中記錄區段標題視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[章節標題](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)。*
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄區段標題視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[區段標題](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/section-header)。_
 
 >[!ENDSHADEBOX]
 

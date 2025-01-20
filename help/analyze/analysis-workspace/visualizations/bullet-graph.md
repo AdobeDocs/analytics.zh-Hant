@@ -4,10 +4,10 @@ title: 項目符號圖表
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 88%
+source-wordcount: '182'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-*本文會記錄&#x200B;**Adobe Analytics**中的「專案符號」視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[專案符號](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)。*
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄專案符號視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[專案符號](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)。_
 
 >[!ENDSHADEBOX]
 

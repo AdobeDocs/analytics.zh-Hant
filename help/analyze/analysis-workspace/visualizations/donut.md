@@ -4,10 +4,10 @@ title: 環形圖
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: c0855c6bed6a9762c0440e1a8e004ee11020808e
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 76%
+source-wordcount: '93'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-*本文記錄了&#x200B;**Adobe Analytics**中的環形圖視覺效果。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[環形圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut)。*
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的環形圖視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[環形圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/donut)。_
 
 >[!ENDSHADEBOX]
 

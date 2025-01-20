@@ -4,9 +4,9 @@ description: 透過「同類群組分析」，深入了解使用客群資料，�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: d4ad8b988ebcc177c76777b20a54cc20e8241d4d
+source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 86%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-*本文會記錄&#x200B;**Adobe Analytics**中的同類群組表格。<br/>檢視此文章的&#x200B;**Customer Journey Analytics**版本的[同類群組表格](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)。*
+_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的同類群組表格。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[同類群組表格](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)。_
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ ht-degree: 86%
 
 * 推行專為刺激所需動作的促銷活動。
 * 在客戶生命週期的正確時間點轉移行銷預算。
-* 識別何時應終止試用或優惠方案，以獲取最大價值。
+* 識別何時應終止試用或產品建議，以獲取最大價值。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
