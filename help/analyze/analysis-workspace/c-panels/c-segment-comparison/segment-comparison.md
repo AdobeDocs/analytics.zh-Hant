@@ -5,10 +5,10 @@ keywords: Analysis Workspace, 區段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 27%
 
 ---
 
@@ -59,103 +59,105 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 ### 面板輸入
 
-![比較面板](assets/seg-compare-panel.png)
+您可以使用下列輸入設定來設定[!UICONTROL 區段比較]面板：
 
-1. 請選取區段進行比較並將它們拖曳至面板內。
+![區段比較輸入面板](assets/segment-comparison-input.png)
 
-   ![比較客群](assets/compare-audiences.png)
+| 輸入 | 說明 |
+| --- | --- |
+| **[!UICONTROL 新增區段]** | 選取您要比較的維度。 |
+| **[!UICONTROL 與]**&#x200B;比較 | 選取您要用來比較初始選取區段的維度。 如果您未選取特定區段，則會使用預設區段&#x200B;**[!UICONTROL 其他所有人]**。 |
+| **[!UICONTROL 顯示/隱藏進階設定]** | 選取[顯示]進階設定&#x200B;]**以設定**[!UICONTROL &#x200B;排除的元件&#x200B;]**，選取[隱藏]進階設定]**&#x200B;以隱藏&#x200B;**[!UICONTROL 排除的元件]**。**[!UICONTROL **[!UICONTROL  |
+| **[!UICONTROL 排除的元件]** | 您可以指定的元件，例如&#x200B;**[!UICONTROL Dimension]**、**[!UICONTROL 量度]**&#x200B;或排除的&#x200B;**[!UICONTROL 區段]**。<br><ul><li>從容器拖放一或多個維度、量度或區段至&#x200B;**[!UICONTROL 排除的元件]**&#x200B;容器。</li><li>若要移除元件，請選取型別(**[!UICONTROL Dimension]** **[!UICONTROL 量度]**，或&#x200B;**[!UICONTROL 區段]**)，然後選取![交叉大小75](/help/assets/icons/CrossSize75.svg)以移除元件。 若要移除所有元件，請選取&#x200B;**[!UICONTROL 全部清除]**。</li><li>若要將目前選擇的維度、量度和區段設定為預設值，請選取「**[!UICONTROL 設定為預設值]**」。</li></ul> |
 
-   在您將區段拖曳至面板後，Analytics 會自動建立[!UICONTROL 「其他所有人」]區段，當中包含「不」在您所選區段中的每個人。此為比較面板中常用的區段，但您可以任意將之移除，並選取不同區段用於比較。
-
-   ![其他所有人](assets/everyone-else.png)
-
-1. 決定好要比較的兩個區段後，按一下[!UICONTROL 「建立」]。
-
-   此動作會啟動後端處理程序，找出兩個所選區段與所有維度、量度和其他區段之間的統計差異。面板上方的進度列會指出系統還需要多少時間分析每個量度和維度。最常使用的量度、維度和區段會優先執行，方便您及時查看最關心的結果。
-
-## 排除「比較」中的元件
-
-有時候，您會想在區段比較中排除某些維度、量度或區段。舉例來說，如果您想比較「美國的手機用戶」和「德國的手機用戶」區段，則納入地理相關維度是沒有意義的，因為區段本身已指出這些差異。
-
-1. 在將兩個所需區段加入面板後，按一下[!UICONTROL 「顯示進階選項」]。
-1. 將您想要排除的元件拖放至[!UICONTROL 「排除的元件」]面板。
-
-   ![排除的元件](assets/excluded-components.png)
-
-按一下[!UICONTROL 「設為預設值」] 即可在所有日後的區段比較中自動排除目前選擇的元件。如果要編輯排除的元件，請按一下「元件類型」，然後按一下元件旁的「X」，將該元件重新納入分析。按一下「全部清除」則會將所有元件重新納入區段比較中。
-
-![排除的維度](assets/excluded-dimensions.png)
+選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置面板。
 
 ### 面板輸出
 
-Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結果：
+Adobe Analytics分析完所需的兩個區段後，輸出面板會透過數個視覺效果顯示結果：
 
-![視覺效果 1](assets/new-viz.png)
+![面板輸出區段比較](assets/segment-comparison-output.png)
 
-![視覺效果 2](assets/new-viz2.png)
+| 視覺效果 | 說明 |
+|---|---|
+| **[!UICONTROL 大小和重疊]** | 以[Venn](/help/analyze/analysis-workspace/visualizations/venn.md)視覺效果說明每個所選區段的比較大小以及彼此重疊的程度。 |
+| 第1個區段的&#x200B;**[!UICONTROL 不重複訪客]** | 顯示第一個區段不重複訪客的[摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果（在單頁造訪範例中） |
+| 第2個區段的&#x200B;**[!UICONTROL 不重複訪客]** | 顯示第二個區段不重複訪客的[摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果（在第一次瀏覽的範例中） |
+| 針對區段&#x200B;**[!UICONTROL 排名在前的量度]** | 顯示所選區段排名最前之量度的[自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
+| **[!UICONTROL 一段時間內的量度（依區段）]** | 顯示所選區段量度隨時間變化的[線](/help/analyze/analysis-workspace/visualizations/line.md)視覺效果。 |
+| 針對區段&#x200B;**[!UICONTROL 排名在前的維度專案]** | [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)顯示所選區段的混合維度專案。 |
+| **[!UICONTROL 依區段Dimension專案]** | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)視覺效果會依區段顯示維度專案。 |
+| 針對區段&#x200B;**[!UICONTROL 排名最前的區段]** | [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)會針對區段顯示排名最前的區段。 |
+| **[!UICONTROL 區段重疊]** | 顯示區段重疊的[Venn](/help/analyze/analysis-workspace/visualizations/venn.md)視覺效果。 |
 
-#### 大小和重疊
+使用![編輯](/help/assets/icons/Edit.svg)來重新設定及重建面板。
 
-透過文氏圖表呈現每個所選區段的相對大小，以及彼此重疊的程度。您可以在視覺效果上暫留以查看每個重疊或非重疊區段中的訪客數。您也可在重疊上按一下滑鼠右鍵來建立全新區段以供進一步分析。如果兩個區段互斥，兩個圓圈不會彼此重疊 (通常使用點擊容器的區段會有此現象)。
 
-![大小和重疊](assets/size-overlap.png)
+<!--
+#### Size and overlap
 
-#### 人口摘要
+Illustrates the comparative sizes of each selected segment and how much they overlap with each other using a venn diagram. You can hover over the visual to see how many visitors were in each overlapping or non-overlapping section. You can also right click on the overlap to create a brand new segment for further analysis. If the two segments are mutually exclusive, no overlap is shown between the two circles (typically seen with segments using a hit container).
 
-「大小和重疊」視覺效果的右側會顯示每個區段和重疊中的不重複訪客總數。
+![Size and overlap](assets/size-overlap.png)
 
-![人口摘要](assets/population_summaries.png)
+#### Population summaries
 
-#### 排名在前的量度
+To the right of the Size and Overlap visualization, the total unique visitor count in each segment and overlap is shown.
 
-顯示兩個區段之間最具統計顯著性的量度。此表格中的每一列代表一個差異量度，依其在每個區段之間的差異程度排名。差異積分為 1 表示該量度具有統計顯著性，積分為 0 則表示沒有顯著性。
+![Population summaries](assets/population_summaries.png)
 
-這項視覺效果類似 Analysis Workspace 中的自由表格。如果需要對特定量度進行更深入的分析，請將滑鼠指標暫留在該條列項目上，然後按一下「建立視覺效果」。系統隨即會建立新表格以分析該特定量度。如果量度與您的分析無關，您可以將滑鼠指標暫留在該條列項目，按一下「X」加以移除。
+#### Top metrics
 
->[!NOTE]
->
->區段比較完成後才加到此表格的量度不會收到差異積分。
+Displays the most statistically significant metrics between the two segments. Each row in this table represents a differentiating metric, ranked by how different it is between each segment. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-![排名在前的量度](assets/top-metrics.png)
-
-#### 一段時間後的量度 (依區段)
-
-量度表格右側是連結的視覺效果。再按一下表格左側的條列項目，此視覺效果就會更新，顯示一段時間後量度的變化趨勢。
-
-![排名在前的量度行](assets/linked-viz.png)
-
-#### 排名在前的維度
-
-顯示所有維度中最具統計顯著性的維度項目。每一列會顯示展示此維度項目的每個區段的百分比。例如，此表格可能會顯示「區段 A」中 100% 的訪客採用「瀏覽器類型：Google」維度項目，而「區段 B」只有 19.6% 的採用此維度項目。差異積分為 1 表示該量度具有統計顯著性，積分為 0 則表示沒有顯著性。
-
-這項視覺效果類似 Analysis Workspace 中的自由表格。如果需要對特定維度項目進行更深入的分析，請將滑鼠指標暫留在該條列項目上，然後按一下「建立視覺效果」。系統隨即會建立新表格以分析該特定維度項目。如果維度項目與您的分析無關，您可以將滑鼠指標暫留在該條列項目，按一下「X」加以移除。
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific metric is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific metric. If a metric is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
->區段比較完成後才加到此表格的維度項目不會收到「差異積分」。
+>Metrics added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![排名在前的維度](assets/top-dimension-item1.png)
+![Top metrics](assets/top-metrics.png)
 
-#### 維度項目 (依區段)
+#### Metric over time by segment
 
-維度表格右側是已連結的長條圖視覺效果。表格會呈現長條圖中所有已顯示的維度項目。按一下表格左側的條列項目，就會更新右側的視覺效果。
+To the right of the metrics table is a linked visualization. You can click a line item in the table on the left, and this visualization updates to show that metric trended over time.
 
-![排名在前的維度長條圖](assets/top-dimension-item.png)
+![Top metrics line](assets/linked-viz.png)
 
-#### 排名在前的區段
+#### Top dimensions
 
-顯示哪些其他區段 (用於比較的兩個所選區段以外的區段) 具有統計上的顯著重疊。舉例來說，此表格可能會顯示第三個區段「重複訪客」與「區段 A」高度重疊，但與「區段 B」不重疊。差異積分為 1 表示該量度具有統計顯著性，積分為 0 則表示沒有顯著性。
+Shows the most statistically significant dimension items across all of your dimensions. Each row shows the percentage of each segment exhibiting this dimension item. For example, this table might reveal that 100% of visitors in 'Segment A' had the dimension item 'Browser Type: Google', whereas only 19.6% of 'Segment B' had this dimension item. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
 
-這項視覺效果類似 Analysis Workspace 中的自由表格。如果需要對特定區段進行更深入的分析，請將滑鼠指標暫留在該條列項目上，然後按一下「建立視覺效果」。系統隨即會建立新表格以分析該特定區段。如果區段與您的分析無關，您可以將滑鼠指標暫留在該條列項目，按一下「X」加以移除。
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific dimension item is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific dimension item. If a dimension item is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
 
 >[!NOTE]
 >
-> 區段比較完成後才加到此表格的區段不會收到差異積分。
+>Dimension items added to this table after the segment comparison has finished do not receive a Difference Score.
 
-![排名在前的區段](assets/top-segments.png)
+![Top dimensions](assets/top-dimension-item1.png)
 
-#### 區段重疊
+#### Dimension items by segment
 
-區段表格右側是已連結的文氏圖表視覺效果。它會顯示套用在比較區段上最具統計顯著性的區段。例如，「區段 A」+「具統計顯著性的區段」與「區段 B」+「具統計顯著性的區段」。按一下表格左側的區段條列項目，就會更新右側的文氏圖表。
+To the right of the dimensions table is a linked bar chart visualization. It shows all displayed dimension items in a bar chart. Clicking a line item in the table on the left updates the visualization on the right.
 
-![排名在前的區段文氏圖表](assets/segment-overlap.png)
+![Top dimensions bar chart](assets/top-dimension-item.png)
+
+#### Top segments
+
+Shows which other segments (other than the two segments selected for comparison) have statistically significant overlap. For example, this table can show that a third segment, 'Repeat Visitors', overlaps highly with 'Segment A' but does not overlap with 'Segment B'. A difference score of 1 means it is statistically significant, while a difference score of 0 means there is no statistical significance.
+
+This visualization is similar to freeform tables in Analysis Workspace. If deeper analysis on a specific segment is desired, hover over a line item and click 'Create visual'. A new table is created to analyze that specific segment. If a segment is irrelevant to your analysis, hover over the line item and click the 'X' to remove it.
+
+>[!NOTE]
+>
+>Segments added to this table after the segment comparison has finished do not receive a Difference Score.
+
+![Top segments](assets/top-segments.png)
+
+#### Segment overlap
+
+To the right of the segments table is a linked venn diagram visualization. It shows the most statistically significant segment applied to your compared segments. For example, 'Segment A' + 'Statistically significant segment' vs. 'Segment B' + 'Statistically significant segment'. Clicking a segment line item in the table on the left updates the venn diagram on the right.
+
+![Top segments venn diagram](assets/segment-overlap.png)
+
+-->

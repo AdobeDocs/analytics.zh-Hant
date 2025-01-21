@@ -4,7 +4,7 @@ title: 下一個或上一個項目面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 36%
@@ -69,7 +69,6 @@ _本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 ### 面板輸出
 
 [!UICONTROL 下一個或上一個專案]面板會傳回一組豐富的資料和視覺效果，協助您更清楚瞭解特定維度專案之後或之前的情形。
-
 
 ![下一個/上一個面板輸出](assets/next-or-previous-item-output.png)
 
