@@ -4,10 +4,10 @@ description: 此變數可用來將線上和離線資料連結在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 93%
+source-wordcount: '403'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 當您在點擊上設定 `transactionID` 時，Adobe 會針對在該時間點設定或留存的所有 Analytics 變數拍攝「快照」。透過 Data Sources 上傳且具有相符交易 ID 的資料會永遠與這些變數值連結。
 
-依預設，Adobe 會記住所有交易 ID 值 (連結和未連結) 達 90 天。如果您的離線互動程序超過 90 天，請聯絡客戶服務以要求延長期限。
+Adobe最多可記住25個月的所有交易ID值（連結和未連結）。
 
 ## 使用 Web SDK 的交易 ID
 

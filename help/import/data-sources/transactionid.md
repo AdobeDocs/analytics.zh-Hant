@@ -4,9 +4,9 @@ description: 了解使用交易 ID 資料來源的一般工作流程。
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '413'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 交易ID資料來源有下列屬性：
 
 * 必須先收集和處理線上資料。 如果交易ID資料來源是在報表套裝處理符合該交易ID的點選之前上傳，則不會連結資料。
-* 透過AppMeasurement收集的交易ID會在約90天後過期。 如果您的組織需要較長的交易ID視窗，請聯絡Adobe客戶服務。
+* 透過AppMeasurement收集的交易ID會在25個月後過期。
 * 以過期交易ID上傳的資料來源，其處理方式與沒有交易ID上傳的資料類似。
 * 如果線上點選和交易ID資料來源中同時包含相同變數，則會使用交易ID資料來源的值。
 * 如果變數包含線上上點選中，但未包含在相符的交易ID資料來源點選中，則會保留線上點選變數。

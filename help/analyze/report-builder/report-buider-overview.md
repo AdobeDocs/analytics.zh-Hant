@@ -5,10 +5,11 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 7e8a25381f2eadafc5dc22a0991060ea475b5d43
+exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
+source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 27%
+source-wordcount: '527'
+ht-degree: 29%
 
 ---
 
@@ -20,10 +21,6 @@ ht-degree: 27%
 - 跨平台：不再登入您的虛擬機器器以使用Report Builder，因為我們現在支援PC、Mac和Excel Online
 - 藉由API 2.0升級，減少等待資料區塊回訪的時間
 - 強化速度
-
->[!NOTE]
->
->Adobe Analytics上此版本Report Builder的活頁簿排程功能尚未發行，但將於2025年初推出。 您可以立即開始使用不需要排程的活頁簿。
 
 舊版Report Builder工具的使用者可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新Report Builder。
 
