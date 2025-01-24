@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 27%
+ht-degree: 38%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="區段比較面板"
->abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。<br/><br/>**引數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**比較對象**：您要比較的第二個區段。 這會自動填入&#x200B;*其他所有人*，這與您的第一個區段相反。 如有需要，您可以使用不同的區段來取代。<br/>**進階設定**：在區段比較中排除要分析的元件的功能。"
+>abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。<br/><br/>**參數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**比較依據**：您要比較的第二個區段。這將自動填入&#x200B;*其他所有人*，這是您第一個區段的反函數。如果需要，您可以用不同的區段來取代這個。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

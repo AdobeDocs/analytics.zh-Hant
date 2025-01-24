@@ -7,11 +7,11 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 43%
+ht-degree: 46%
 
 ---
 
-# Analytics for Target面板 {#analyze-for-target-panel}
+# Analytics for Target 面板 {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -26,8 +26,8 @@ ht-degree: 43%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Analytics for Target面板"
->abstract="在 Analysis Workspace 中分析 Target 的活動和體驗。<br/><br>**引數&#x200B;**<br/>**Target活動**：已分析的Target活動。<br/>**控制體驗**：所選Target活動的控制體驗。<br/>**標準化量度**：訪客、造訪次數或曝光數。 此量度 (也稱為計數方法) 會成為提升度計算的分母。也會影響在套用可信度計算前彙總資料的方式。<br/>**成功量度**：最多3個可分析Target活動的標準（非計算）成功量度。"
+>title="Analytics for Target 面板"
+>abstract="在 Analysis Workspace 中分析 Target 的活動和體驗。<br/><br>**引數&#x200B;**<br/>**Target活動**：已分析的Target活動。<br/>**控制體驗**：所選取 Target 活動的控制體驗。<br/>**標準化量度**：訪客、造訪次數或曝光次數。此量度 (也稱為計數方法) 會成為提升度計算的分母。也會影響在套用可信度計算前彙總資料的方式。<br/>**成功量度**：最多可使用 3 個標準 (非計算) 成功量度來分析 Target 活動。"
 
 <!-- markdownlint-enable MD034 -->
 

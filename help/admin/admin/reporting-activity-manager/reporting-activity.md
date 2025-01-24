@@ -17,7 +17,7 @@ ht-degree: 14%
 
 如需報告活動管理員的詳細資訊，包括主要權益和許可權要求，請參閱[報告活動管理員概觀](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。
 
-## 檢視所有報表套裝的報表活動 {#view-all-report-suites}
+## 檢視所有報告套裝的報告活動 {#view-all-report-suites}
 
 <!-- markdownlint-disable MD034 -->
 
