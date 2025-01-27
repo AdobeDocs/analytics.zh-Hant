@@ -1,22 +1,27 @@
 ---
-description: 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。
+description: 流量管理可讓您指定預期的流量變更。
 title: 管理流量
 feature: Traffic Management
 role: Admin
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 41ca3fd05290df79bb0f113df462fdbe5e6a6720
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 4%
 
 ---
 
-# 流量管理概觀
+# 流量管理
 
-「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。
+依據日期範圍的流量管理報告已過時，並棄用[!DNL Reports & Analytics]。
 
-若要存取[!UICONTROL 流量管理]：
+不過，您可以使用Analysis Workspace來建立報表。 建立報表後，請儲存報表，並在需要新報表時視需要變更日期範圍及/或報表套裝。
 
-1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**，然後選取報表套裝。
+1. 啟動Workspace。
 
-1. 按一下&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量管理]** > *`<selection>`*。
+1. 建立新專案並選取適當的報表套裝。
+
+1. 將&#x200B;**[!UICONTROL 天]**&#x200B;維度拖曳至自由表格，並使用&#x200B;**[!UICONTROL 發生次數]**&#x200B;量度。
+
+1. 將日期範圍設定為您想要的日期範圍。
+
