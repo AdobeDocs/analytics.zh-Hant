@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 81%
+source-wordcount: '1238'
+ht-degree: 76%
 
 ---
 
@@ -75,6 +75,19 @@ ht-degree: 81%
 
    ![確認快顯通知](./assets/confirmation-toast.png){width="55%"}
 
+## 排程轉換的活頁簿 {#converted}
+
+1. 排程[已轉換](/help/analyze/report-builder/convert-workbooks.md)的舊版活頁簿。
+
+   系統會顯示一個快顯視窗，詢問您是否要使用舊版活頁簿中的排程中繼資料來建立新的排程工作。
+
+1. 如果您選取&#x200B;**[!UICONTROL 使用]**，Report Builder會自動填入舊版排程資訊。
+
+1. 請確定此資訊正確無誤，並排程。
+
+1. 如果您要以不同的排程傳送活頁簿，請排程完全新的排程工作。
+
+
 ## 僅傳送活頁簿一次
 
 您也可以只傳送活頁簿一次。
@@ -85,7 +98,7 @@ ht-degree: 81%
 
 1. 按一下&#x200B;**「立即傳送」**。
 
-## 檢視及編輯排程的活頁簿
+## 檢視及編輯排程的活頁簿 {#view-edit}
 
 您可以在「活頁簿」標籤下的同一位置檢視及管理所有已排程的活頁簿。
 
@@ -107,7 +120,7 @@ ht-degree: 81%
 
   ![顯示排程工作清單的熒幕擷圖。](./assets/selected-workbook.png){width="40%"}
 
-## 查看已排程任務的狀態
+## 查看已排程任務的狀態 {#status}
 
 歷史記錄視圖可讓您查看每個已排程任務的狀態。另有一列單獨記錄每個排程任務的狀態變更。在以下範例中，*新的小時排程*&#x200B;於 1 月 5 日下午 3:04 啟動。下午 3:05 前，排程已成功重新整理並已傳送給收件人。下一個活頁簿 (*錯誤活頁簿*) 在重新整理流程期間發生錯誤。如果活頁簿無法傳送，歷史記錄索引標籤會顯示流程中該錯誤發生的位置，協助您進行疑難排解。在此情況下，可能是因為某些資料區塊錯誤 (可能是缺少元件) 導致活頁簿無法成功重新整理。
 

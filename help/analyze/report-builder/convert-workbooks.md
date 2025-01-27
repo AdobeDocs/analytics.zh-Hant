@@ -5,13 +5,13 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
+source-git-commit: cf1b64479690cf5bdfdc8d9ba08879d0e0886611
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # 將舊版Report Builder活頁簿轉換為資料區塊
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 您現在可以[管理資料區塊](/help/analyze/report-builder/manage-reportbuilder.md)。
 
 
-## 新Report Builder中不支援舊版Report Builder功能
+## 新Report Builder中不支援舊版Report Builder功能 {#unsupported}
 
 將舊版Report Builder的功能與新Report Builder增益集比較時，有些舊版功能已無法使用：
 
@@ -66,3 +66,7 @@ ht-degree: 0%
 - 排程報表的FTP選項
 
 - 訪客量度。 下列量度將全部轉換為「不重複訪客」，即使報表結果可能不是完全相符： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`以及`visitorsyearly`。 這也適用於`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
+
+## 排程轉換的活頁簿 {#schedule}
+
+請參閱排程文章中的[排程轉換的活頁簿](/help/analyze/report-builder/schedule-reportbuilder.md)。
