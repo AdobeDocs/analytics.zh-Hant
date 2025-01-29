@@ -4,9 +4,9 @@ title: 使用範本
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: dc1744cf4816971d52364a3131a12601787d9819
+source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
 workflow-type: tm+mt
-source-wordcount: '18673'
+source-wordcount: '18672'
 ht-degree: 83%
 
 ---
@@ -1226,7 +1226,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | **反向連結** | 檢視訪客點進哪一個 URL 來到達您的網站。(外部 URL 上必須有連結，且訪客必須點選該連結來顯示維度項目。)  <p>**這有助於您**&#x200B;更加了解哪些特定 URL 為您的網站帶來最多流量。</p><p>**根據您瞭解的情況，您可能**&#x200B;會執行許多操作，例如建立或調整內容，以更符合來自頂層URL之訪客的興趣。 </p><p>此範本使用反向連結網域維度 </p><p>此範本使用反向連結維度。 </p> |
 | **反向連結型別** | 檢視訪客點進哪個通用管道來到達您的網站。Adobe 會維護每個管道的規則。可能的管道包括搜尋引擎、社交網路、其他網站、硬碟或電子郵件。<p>**這有助於您**&#x200B;更加了解哪種類型的反向連結能為您的網站帶來最多流量。</p><p>**根據您瞭解的情況，您可能**&#x200B;會執行任何動作，例如建立或調整內容，以更符合來自特定管道的訪客的興趣。</p><p>此範本使用反向連結型別維度。</p> |
 
-## 行動範本
+### Mobile {#mobile-not-ready-for-use}
 
 <!-- markdownlint-disable MD034 -->
 
