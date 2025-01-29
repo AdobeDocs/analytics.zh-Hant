@@ -4,9 +4,9 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 90516181b5d5dd8aa3a8c01515ffa05f43b081f2
+source-git-commit: 515517eb708b8c8e1210f82a325e46cbf308c5e6
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2155'
 ht-degree: 57%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 57%
 
 ## 面板類型
 
-[!UICONTROL Customer Journey Analytics] 的 Analysis Workspace 中有以下面板類型：
+下列面板型別可在Analysis Workspace中用於[!UICONTROL Adobe Analytics]：
 
 | 面板名稱 | 說明 |
 | --- | --- |
@@ -139,7 +139,7 @@ ht-degree: 57%
 
 面板拖放區域可讓您將區段和下拉區段套用至面板內的所有表格和視覺效果。 您可以將一個或多個區段套用至面板。
 
-### 區段
+### 客戶細分
 
 將任何左側面板的區段拖放至面板放置區域，即可開始分割您的面板。 重複此程式，將其他區段新增至面板。 區段會並排顯示在面板頂端。
 
