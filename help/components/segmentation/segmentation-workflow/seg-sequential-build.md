@@ -3,9 +3,9 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 0fd1f7a9dd876eef02dd6dbf9e40426b0acdbc17
+source-git-commit: 564b5fd305f1c8c4e16a92d3b2094ba73ba91c4c
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '3931'
 ht-degree: 95%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 95%
 當建立一個區段並設定「包括所有人」，區段會識別整體符合指定模式的路徑。這是基本序列區段尋找同一位造訪者的一個點擊 (頁面 A )然後又一個點擊 (頁面 B) 的例子。這個區段設定為「包括所有人」。
 
 ![](/help/admin/admin/assets/filter.png)
-![70a875e2-0ef9-4459-8648-77c60081d64d](https://git.corp.adobe.com/storage/user/5902/files/d55be11f-4c4c-4198-bba5-ecad27ebcabf)
+![70a875e2-0ef9-4459-8648-77c60081d64d](assets/terrible-link-1.png)
 
 | 如果結果… | 序列 |
 |--- |--- |
@@ -348,11 +348,11 @@ ht-degree: 95%
 >
 >在類似命名的元素（如&#x200B;**天**&#x200B;或&#x200B;**天**）之間評估有差異。 針對「之內」和「之後」的時間定義，請利用彈出式視窗中第一個列出的選項：
 >
->![影像](https://git.corp.adobe.com/storage/user/5902/files/70a875e2-0ef9-4459-8648-77c60081d64d)
+>![影像](assets/terrible-link-2.png)
 >
 >針對Within和After的維度定義，請利用子功能表&#x200B;*其他Dimension*&#x200B;下的選項：
 >
->![影像](https://git.corp.adobe.com/storage/user/5902/files/b808eeb0-5e3f-499b-8096-c7eb0d51c57a)
+>![影像](assets/terrible-link-3.png)
 
 ### After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
