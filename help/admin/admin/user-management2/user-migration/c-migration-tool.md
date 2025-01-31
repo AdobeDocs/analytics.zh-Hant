@@ -4,10 +4,10 @@ title: Analytics 使用者移轉至 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '3084'
-ht-degree: 97%
+source-wordcount: '3083'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
    <td colname="col2"> <p>Analytics 使用者可以使用 Adobe ID 或 Enterprise ID 登入 Experience Cloud 和所有的解決方案。此登入可讓您在 Experience Cloud 中存取整合的解決方案與核心服務。 </p> <p>移轉後，系統會將嘗試透過舊版登入頁面 (<span class="filepath">my.omniture.com</span> 和 <span class="filepath">sc.omniture.com</span>) 登入的使用者重新導向至 <span class="filepath">experiencecloud.adobe.com</span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>管理使用者身分和權限 </p> </td> 
+   <td colname="col1"> <p>管理使用者身分識別和權限 </p> </td> 
    <td colname="col2"> <p>Analytics 管理員只能在 <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> 中管理使用者與權限。 </p> </td> 
   </tr> 
   <tr> 
@@ -273,15 +273,15 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用者有效期和資產傳送 </p> </td> 
-   <td colname="col2"> <p> Adobe Admin Console 不支援使用者有效期或資產傳送功能。 管理員應透過 Analytics「管理工具」底下的「Analytics 使用者與資產」區段執行這兩項功能。 </p> </td> 
+   <td colname="col2"> <p> Adobe Admin Console 不支援使用者期限或資產傳送功能。 管理員應透過 Analytics「管理工具」底下的「Analytics 使用者與資產」區段執行這兩項功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上次存取 (上次登入) </p> </td> 
    <td colname="col2"> <p> 關於使用者上次登入日期與時間的詳細資料將透過「Analytics 使用者與資產」連結提供，而不是 Adobe Admin Console。 Analytics 中的上次登入日期專指使用者實際從 Experience Cloud 存取 Analytics 時的登入日期，而不會反映出使用者登入 Experience Cloud 的日期/時間。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>使用者管理 API <a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">Adobe 支援的身分類型</a> </p> </td> 
-   <td colname="col2"> <p> 移轉至 Adobe Admin Console 的管理員應設定 Adobe Developer 所提供的<a href="https://developer.adobe.com/UMAPI/">使用者管理 API</a>，以程式化存取 Adobe Admin Console 中的使用者帳戶。 </p> <p>當您為移轉作業啟用此功能時，Analytics 權限 API 將會關閉。 </p> </td> 
+   <td colname="col1"> <p>使用者管理 API <a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">Adobe 支援的身分識別類型</a> </p> </td> 
+   <td colname="col2"> <p> 移轉至Adobe Admin Console的管理員應設定Adobe Developer上所提供的使用者管理API ，以程式化存取Adobe Admin Console中的使用者帳戶。 </p> <p>當您為移轉作業啟用此功能時，Analytics 權限 API 將會關閉。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站服務憑證 </p> </td> 

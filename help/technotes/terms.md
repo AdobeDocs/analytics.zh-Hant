@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: cf9290d0a55704015ba1a2b6fdbdde1a724276a1
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2504'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 98%
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **自訂連結：**&#x200B;包含非頁面檢視資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
 * **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
-* **客戶支援委派：**&#x200B;經授權可直接與 Adobe 客戶服務互動的指定使用者。請參閱 Experience Cloud 知識庫中的[客戶支援委派](https://helpx.adobe.com/tw/experience-cloud/supported-users.html)。
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。影像請求會傳送至 Adobe 的資料收集伺服器，以用於報告。
 * **資料聯結器：**&#x200B;已淘汰的開發解決方案，可讓協力廠商將資料上傳至Adobe Analytics的作業自動化。 該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。已取代為Adobe Exchange市集。
 * **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。最常用於將 Adobe Analytics 資料匯出至協力廠商資料庫。請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。

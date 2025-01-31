@@ -4,9 +4,9 @@ title: 受使用者移轉影響的 API
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,5 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 如需其他資訊，請參閱以下資源：
 
 * [一般使用者管理資訊](https://helpx.adobe.com/tw/enterprise/help/users.html)
-* [透過 adobe.io 執行使用者管理 API](https://developer.adobe.com/UMAPI/)
 * [使用者管理 API 論壇](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
 * [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=zh-Hant)
