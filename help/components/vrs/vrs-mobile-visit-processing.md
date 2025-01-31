@@ -3,9 +3,9 @@ description: 虛擬報表套裝中的內容感知作業變更了 Adobe Analytics
 title: 內容感知作業
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1577'
 ht-degree: 97%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 97%
 
 您可在不變更基礎資料的情況下，依需要的任何方式定義造訪，以符合訪客與數位體驗互動的方式。
 
-以下是有關內容感知工作階段的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [內容感知工作階段](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 客戶檢視角度 URL 參數
 
