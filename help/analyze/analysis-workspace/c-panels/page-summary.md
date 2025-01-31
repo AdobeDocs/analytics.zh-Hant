@@ -7,7 +7,7 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 25%
+ht-degree: 28%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="頁面摘要面板"
->abstract="快速地檢視部分高層級的量度以及進出特定頁面的移動。<br/><br/>**參數&#x200B;**<br/>**新增頁面維度項目**：開啟元件邊欄，找到頁面維度，並且按一下胡蘿蔔圖示將其展開，以查看維度項目。然後，將您想要了解的特定頁面拖曳到產生器中。拖放維度專案後，報表會自動填入頁面的重要資訊。"
+>abstract="快速地檢視部分高層級的量度以及進出特定頁面的移動。<br/><br/>**參數&#x200B;**<br/>**新增頁面維度項目**：開啟元件邊欄，找到頁面維度，並且按一下胡蘿蔔圖示將其展開，以查看維度項目。然後，將您想要了解的特定頁面拖曳到產生器中。拖放維度項目後，報表即會自動填入有關頁面的關鍵資訊。"
 
 <!-- markdownlint-enable MD034 -->
 
