@@ -3,10 +3,10 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: ecb30f6eacd3eae72b6af53d40a1eb9b7187488d
+source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1156'
+ht-degree: 97%
 
 ---
 
@@ -237,9 +237,14 @@ Analysis Workspace 包含以下附加功能：
 
 ## 分段操作說明影片 {#segment-video}
 
-此影片提供區段容器的定義以及如何使用的簡短概述：
+此影片簡要概述什麼是區段容器以及如何加以使用。
 
->[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 
 ## 存取區段工具 {#access}
