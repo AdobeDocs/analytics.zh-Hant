@@ -4,7 +4,7 @@ description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 4633225cc35658a7de39a40cd77df00137a54461
+source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 56%
@@ -87,29 +87,29 @@ ht-degree: 56%
 | `xdm.media.mediaTimed.midpoints.value` | 串流媒體量度[50%進度標籤](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#fifty-progress-marker)。 |
 | `xdm.media.mediaTimed.pauseTime.value` | 串流媒體量度[總暫停期間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#total-pause-duration)。 |
 | `xdm.media.mediaTimed.pauses.value` | 串流媒體量度[暫停事件](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#pause-events)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`@id` | 串流媒體維度[資產識別碼](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`dc:title` | 串流媒體維度[視訊名稱](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Creator[N].iptc4xmpExt:Name` | 串流媒體維度[創作者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Episode.iptc4xmpExt:Number` | 串流媒體維度[Episode](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Genre` | 串流媒體維度[型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Rating[N].iptc4xmpExt:RatingValue` | 串流媒體維度[內容評等](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Season.iptc4xmpExt:Number` | 串流媒體維度[季](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Identifier` | 串流媒體維度[內容識別碼](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`iptc4xmpExt:Series.iptc4xmpExt:Name` | 串流媒體維度[節目](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`showType` | 串流媒體維度[節目型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type)。 |
-| `xdm.media.mediaTimed.primaryAssetReference.`<br/>`xmpDM:duration` | 串流媒體維度[視訊長度](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`@id` | 串流媒體維度[媒體工作階段識別碼](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastChannel` | 串流媒體維度[內容頻道](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastContentType` | 串流媒體維度[內容型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`broadcastNetwork` | 串流媒體維度[網路](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network)。 |
+| `xdm.mediaCollection.sessionDetails.assetID` | 串流媒體維度[資產識別碼](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#asset-id)。 |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | 串流媒體維度[視訊名稱](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-name)。 |
+| `xdm.mediaCollection.sessionDetails.originator` | 串流媒體維度[創作者](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#originator)。 |
+| `xdm.mediaCollection.sessionDetails.episode` | 串流媒體維度[Episode](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#episode)。 |
+| `xdm.mediaCollection.sessionDetails.genre` | 串流媒體維度[型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#genre)。 |
+| `xdm.mediaCollection.sessionDetails.rating` | 串流媒體維度[內容評等](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-rating)。 |
+| `xdm.mediaCollection.sessionDetails.season` | 串流媒體維度[季](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#season)。 |
+| `xdm.mediaCollection.sessionDetails.name` | 串流媒體維度[內容識別碼](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-id)。 |
+| `xdm.mediaCollection.sessionDetails.show` | 串流媒體維度[節目](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show)。 |
+| `xdm.mediaCollection.sessionDetails.showType` | 串流媒體維度[節目型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#show-type)。 |
+| `xdm.mediaCollection.sessionDetails.length` | 串流媒體維度[視訊長度](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#video-length)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 串流媒體維度[媒體工作階段識別碼](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-session-id)。 |
+| `xdm.mediaCollection.sessionDetails.channel` | 串流媒體維度[內容頻道](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-channel)。 |
+| `xdm.mediaCollection.sessionDetails.contentType` | 串流媒體維度[內容型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-type)。 |
+| `xdm.mediaCollection.sessionDetails.network` | 串流媒體維度[網路](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#network)。 |
 | `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 串流媒體維度[內容區段](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-segment)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerName` | 串流媒體維度[內容播放器名稱](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`playerSDKVersion.version` | 串流媒體維度[SDK版本](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`sourceFeed` | 串流媒體維度[媒體摘要型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`streamFormat` | 串流媒體維度[串流格式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format)。 |
+| `xdm.mediaCollection.sessionDetails.playerName` | 串流媒體維度[內容播放器名稱](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-player-name)。 |
+| `xdm.mediaCollection.sessionDetails.appVersion` | 串流媒體維度[SDK版本](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#sdk-version)。 |
+| `xdm.mediaCollection.sessionDetails.feed` | 串流媒體維度[媒體摘要型別](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-feed-type)。 |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | 串流媒體維度[串流格式](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#stream-format)。 |
 | `xdm.media.mediaTimed.progress10.value` | 串流媒體量度[1%進度標籤](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ten-progress-marker)。 |
 | `xdm.media.mediaTimed.progress95.value` | 串流媒體量度[95%進度標籤](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#ninety-five-progress-marker)。 |
-| `xdm.media.mediaTimed.resumes.value` | 串流媒體量度[內容繼續](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-resumes)。 |
+| `xdm.mediaCollection.sessionDetails.hasResume` | 串流媒體量度[內容繼續](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-resumes)。 |
 | `xdm.media.mediaTimed.starts.value` | 串流媒體量度[媒體開始](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-starts)。 |
 | `xdm.media.mediaTimed.thirdQuartiles.value` | 串流媒體量度[75%進度標籤](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker)。 |
 | `xdm.media.mediaTimed.timePlayed.value` | 串流媒體量度[內容逗留時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent)。 |
