@@ -4,10 +4,10 @@ title: 日曆和日期範圍概述
 feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 91%
+source-wordcount: '942'
+ht-degree: 90%
 
 ---
 
@@ -25,9 +25,13 @@ ht-degree: 91%
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 
-以下是有關在 Analysis Workspace 中使用日期範圍和行事曆的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行事曆和日期範圍總覽](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 行事曆選取範圍會套用至面板層級，但您也可以選擇將其套用至所有面板。 按一下工作區中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。按一下這兩個日曆各自上方角落的向右和向左箭頭，即可進行調整。
 

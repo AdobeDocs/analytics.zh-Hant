@@ -5,10 +5,10 @@ keywords: appmeasurement, 變數, vars, 設定, 頁面, 實作
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 69%
+source-wordcount: '385'
+ht-degree: 67%
 
 ---
 
@@ -24,9 +24,13 @@ Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的�
 
 Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用Web SDK、使用Adobe Analytics擴充功能和JavaScriptAppMeasurement來實作變數的區段。
 
-以下是有關在 Adobe Analytics 中設定變數的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [設定變數](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}以取得示範影片。
+
+>[!ENDSHADEBOX]
+
 
 ## 操作順序
 

@@ -4,10 +4,10 @@ title: 時間分段維度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 96%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
 
-以下是有關時間分段維度的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Time=parting dimensions](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 時間分段維度是以報表套裝或虛擬報表套裝的時區為基礎。這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
 

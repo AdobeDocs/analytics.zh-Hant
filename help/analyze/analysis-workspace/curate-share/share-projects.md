@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5a670a6ef16a6dcfae12c9eb9801c51f4f1ea54c
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1929'
-ht-degree: 100%
+source-wordcount: '1937'
+ht-degree: 97%
 
 ---
 
@@ -30,9 +30,13 @@ ht-degree: 100%
 
 收件者開啟專案時，系統會反映出您在共用之前套用的任何[監管](curate.md)。
 
-以下是專案共用的影片概觀：
 
->[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 
 ## 與組織中的 Analysis Workspace 使用者和群組共用 {#Add}
@@ -96,7 +100,7 @@ ht-degree: 100%
 
    或
 
-   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已有人共用，請選取「**[!UICONTROL 監管與更新]**」。)深入了解[專案監管](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
+   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。（如果專案已共用，請選取&#x200B;**[!UICONTROL 組織與更新]**。）深入瞭解[專案組織](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
 
 ## 共用專案的連結
 
@@ -138,9 +142,13 @@ ht-degree: 100%
 >
 >* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。根據預設，每 5 分鐘可以有超過 190 人存取單一連結。如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
 
-以下影片示範和隨附文件說明了有關與任何人共用連結的選項：
 
->[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+>[!BEGINSHADEBOX]
+
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以取得示範影片。
+
+>[!ENDSHADEBOX]
+
 
 若要與沒有 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案：
 
@@ -156,7 +164,7 @@ ht-degree: 100%
 
    選取此選項後，會建立一個可以與任何人共用的專案連結。您可以隨時透過停用此選項來停用對專案的存取權。
 
-   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶到期日](/help/admin/admin/user-management2/users-assets.md)中所述。
+   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶期限](/help/admin/admin/user-management2/users-assets.md)中所述。
 
 1. 選擇是否啟用以下安全選項 (此選項可由您的 Analytics 管理員控制)：
 
@@ -188,9 +196,14 @@ ht-degree: 100%
 
 ## 共用內嵌元件
 
-以下是有關該主題的影片：
+您可以共用屬於專案一部分的內嵌元件。
 
->[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用內嵌元件](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 常見問題 {#FAQs}
 

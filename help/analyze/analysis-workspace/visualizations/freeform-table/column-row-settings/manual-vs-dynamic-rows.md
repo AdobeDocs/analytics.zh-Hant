@@ -4,10 +4,10 @@ description: 如何與表格中的動態和靜態維度項目互動。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 90%
+source-wordcount: '520'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 將維度放入自由表格中時，會傳回動態列。它們代表對應至指定量度和時段之維度的排名最前項目。您也可以將維度放入自由表格欄中，維度會自動展開至排名前 5 的維度項目。
 
-例如，將「瀏覽器類型」維度拖曳至表格時，頂端的「瀏覽器類型」維度項目 (例如 Microsoft、Apple、Google 等)會以動態方式傳回表格列。如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
+例如，將「瀏覽器型別」維度拖曳至表格時，頂端的「瀏覽器型別」維度專案(例如Microsoft、Apple、Google等)會動態傳回表格列。 如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
 
 動態維度專案具有列篩選選項和X圖示，並且&#x200B;**不會**&#x200B;出現鎖定圖示。 <!--do they have the lock icon? -->當您按一下動態維度專案旁的x時，會自動套用篩選器。 如需將篩選套用至表格的詳細資訊，請參閱[篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。
 
@@ -57,6 +57,11 @@ ht-degree: 90%
 
 ## 重新排序靜態資料列
 
-以下是有關該主題的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/31319/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [重新排序靜態資料列](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+

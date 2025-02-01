@@ -5,10 +5,10 @@ title: 僅供檢視的專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0885ff8e13675a986f5c40396a14f9edecaa753d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 100%
 
 ![](assets/view-only-project.png)
 
-以下是僅限檢視專案的影片概觀：
 
->[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [僅供檢視的專案](https://video.tv.adobe.com/v/36206?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 停用的互動功能
 

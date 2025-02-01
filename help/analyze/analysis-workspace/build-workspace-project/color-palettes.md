@@ -4,10 +4,10 @@ title: 視覺化調色盤是什麼以及如何運作？
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 92%
+source-wordcount: '227'
+ht-degree: 88%
 
 ---
 
@@ -28,9 +28,14 @@ ht-degree: 92%
 
 ## 變更您的[!UICONTROL 調色盤]：
 
-以下是有關使用自訂[!UICONTROL 調色盤]的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用自訂調色盤](https://video.tv.adobe.com/v/23876?quality=12&learn=on){target="_blank"}的示範影片。
+
+>[!ENDSHADEBOX]
+
 
 1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
 1. 從&#x200B;**[!UICONTROL 專案調色盤]**&#x200B;下拉式清單中，您可以從五個預先設定的色彩配置中選擇其一。

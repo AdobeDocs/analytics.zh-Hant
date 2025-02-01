@@ -3,10 +3,10 @@ description: 「區段產生器」可讓您使用選取的運算子來比較和�
 title: 區段的比較運算子
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 95%
+source-wordcount: '1104'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,9 @@ ht-degree: 95%
 | 大於或等於 | 傳回唯一計數大於或等於輸入值的維度項目。 |
 | 小於或等於 | 傳回唯一計數小於或等於輸入值的維度項目。 |
 
-以下是有關不同維度數分段的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [不同的維度計數](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]

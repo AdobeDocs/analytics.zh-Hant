@@ -4,10 +4,10 @@ title: 了解和設定機器人規則
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '1668'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Adobe Experience PlatformEdge Network提供[機器人偵測服務](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-Hant)，該服務會標籤識別為來自機器人的點選。 Adobe Analytics中使用的機器人偵測程式是獨立的，不會參考透過Edge Network到達的資料中所包含的機器人分數。 不過，這兩個系統使用相同的IAB機器人清單。
+>Adobe Experience PlatformEdge Network提供[機器人偵測服務](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=zh-hant)，該服務會標籤識別為來自機器人的點選。 Adobe Analytics中使用的機器人偵測程式是獨立的，不會參考透過Edge Network到達的資料中所包含的機器人分數。 不過，這兩個系統使用相同的IAB機器人清單。
 
 ## 更新或上傳機器人規則
 
@@ -31,9 +31,13 @@ ht-degree: 69%
 >
 >在移除機器人流量前，請先聯絡專案關係人，確定他們能因應此項變更，對關鍵績效指標進行必要調整。如果可行，建議先移除小型報告套裝中的機器人流量，評估可能造成的影響。
 
-下列影片示範如何設定機器人規則：
 
->[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [設定機器人規則](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 若要更新或上傳機器人規則：
 
@@ -91,7 +95,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 可以在&#x200B;**[!UICONTROL 不包含]**&#x200B;清單中加入選用值，定義使用者代理不應包含該值，才能算是成功符合。可以加入多個值，一行指定一個值。如果使用者代理滿足符合字串中指定的標準，但也含有不包含清單中的字串，則不視為符合。
 
-**[!UICONTROL 「包含」]**&#x200B;欄位限制在 100 個字元。不包含清單上限為 255 個字元，扣除每一新行的分隔符號字元。(這等於字串數目 - 1。如果您指定 4 個&#x200B;*不包含*&#x200B;字串，則需要 3 個分隔符號字元)。所有字串比對不分大小寫。
+**[!UICONTROL 「包含」]**&#x200B;欄位限制在 100 個字元。不包含清單上限為 255 個字元，扣除每一新行的分隔符號字元。(這等於字串數目 - 1。若您指定4個&#x200B;*不包含*&#x200B;字串，則需要3個分隔字元。) 所有相符字串均不區分大小寫。
 
 ### IP 位址 (包括萬用字元符合)
 

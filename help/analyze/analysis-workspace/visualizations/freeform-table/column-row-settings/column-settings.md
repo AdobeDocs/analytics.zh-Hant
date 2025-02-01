@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 984406d00e5a5ae966fff60ec9fcfcb000958696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 | 繞排標頭文字 | 讓您自由表格中的標頭文字環繞，讓標頭變得更容易閱讀，表格也更便於分享。這項設定對 PDF 的轉譯還有較長名稱的量度來說，非常實用。預設啟用。 |
 | 將零解讀為沒有值 | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。如果您要查看某月的每日資料，而當月有部分天數尚未發生，這個方法就相當實用。若不想在未來的日期中顯示 0 值，則可選擇顯示空白儲存格。圖表也會採用此設定 (意即選取此設定後，若圖表含有 0 值，則不會顯示折線圖或長條圖)。 |
 | 背景 | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括長條圖和條件式格式。 |
-| 長條圖 | 顯示橫條圖，當中呈現相對於欄總數的儲存格數值。 |
+| 長條圖 | 顯示長條圖，當中呈現相對於欄總數的儲存格數值。 |
 | 條件式格式 | 請參閱以下小節。 |
 | 表格儲存格預覽 | 顯示目前已套用選定格式選項之各儲存格的呈現方式預覽。 |
 
@@ -86,6 +86,10 @@ Analysis Workspace 支援絕大多數量度的[歸因](/help/analyze/analysis-wo
 
 ## 動態欄
 
-以下是有關如何在 Analysis Workspace 中使用動態欄的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動態資料行](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

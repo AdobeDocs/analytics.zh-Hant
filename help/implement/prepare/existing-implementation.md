@@ -4,10 +4,10 @@ description: 最新接管現有 Adobe Analytics 實施作業的管理員指示�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 71%
+source-wordcount: '172'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,13 @@ ht-degree: 71%
 
 查看您的技術所有者同事 Sarah Owen 提出的這些提示。Sarah是Adobe Analytics Champion，她分享了關於如何使用固有實施作業PlayBook來負責現有實施作業：
 
->[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用繼承的實作Playbook](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}進行示範影片。
+
+>[!ENDSHADEBOX]
+
 
 另請參閱：
 

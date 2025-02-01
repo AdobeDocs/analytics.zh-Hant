@@ -3,16 +3,16 @@ title: Analytics 匯入指南
 description: 本指南會說明如何透過資料來源和資料插入 API 將資料匯入 Analytics。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
 feature: Data Sources
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # Analytics 匯入指南
 
-![橫幅](../../assets/doc_banner_import.png)
+
 
 本指南說明如何將資料匯入 Analytics。內容包括：
 
@@ -21,9 +21,14 @@ ht-degree: 100%
 * **[資料插入 API](c-data-insertion-api/c-data-insertion-api.md)**：透過 API 直接將資料傳送至 Adobe 的資料收集處。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：尋找擴充 Adobe Analytics 報表套裝的現行整合服務。
 
-以下是 Adobe Analytics 的影片概觀：
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概觀](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 更多 Analytics 使用手冊
 

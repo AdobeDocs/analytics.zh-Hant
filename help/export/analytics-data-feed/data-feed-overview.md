@@ -4,10 +4,10 @@ keywords: 點按資料流；資料摘要；資料摘要；資料摘要
 title: Analytics資料摘要概觀
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 86%
+source-wordcount: '306'
+ht-degree: 79%
 
 ---
 
@@ -33,10 +33,17 @@ ht-degree: 86%
 * [管理資料摘要](df-manage-feeds.md)：深入了解如何導覽資料摘要介面
 * [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案<!-- Is this still the output users can download from the destination? I aske Jun. -->內的內容
 * [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單。
-* 資料摘要介面影片導覽：
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
+>[!BEGINSHADEBOX]
 
-* 有關如何尋找您的資料摘要 ID 的影片：
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [瀏覽資料摘要介面](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}以取得示範影片。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+>[!ENDSHADEBOX]
+
+
+
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找您的資料摘要ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}以取得示範影片。
+
+>[!ENDSHADEBOX]

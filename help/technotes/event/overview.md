@@ -3,10 +3,10 @@ title: 分析受事件影響的資料
 description: 了解受事件影響的資料對整體資料品質的貢獻。
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Event
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,15 @@ Adobe Analytics 提供簡單而強大的方式，讓您使用細分來關注或�
 
 ## 影片
 
-本影片會逐步介紹上述每個步驟。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [分析並傳達資料中的變數](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 * **0:27**：使用細分排除資料
 * **2:55**：將事件與先前範圍比較
 * **8:42**：衍生使用計算量度的資料
 * **11:46**：與使用者溝通影響
+
+>[!ENDSHADEBOX]
+
+

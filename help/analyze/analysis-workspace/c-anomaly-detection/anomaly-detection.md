@@ -4,10 +4,10 @@ title: 異常偵測概述
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: d173a6c6c9751a86f4218ec842da17da14f8485b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 100%
+source-wordcount: '1291'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,12 @@ ht-degree: 100%
 
 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。貢獻分析與異常檢測結合使用，協助識別導致異常的原因。
 
->[!VIDEO](https://video.tv.adobe.com/v/25444/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [異常偵測](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >
@@ -47,7 +52,13 @@ Analysis Workspace 異常偵測的演算法包含
 
 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合客群細分群體間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。
 
->[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [貢獻分析](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 發生異常。原因為何？異常偵測報表顯示訂購中有不尋常的尖峰，您想知道為什麼。發生什麼反常的事？誰正在回應哪個促銷活動或轉接？中毒了嗎？什麼特定因素造成這個異常現象？而最重要的可能是：我如何獲取有關客戶的重要資訊，並重複這表現？(或者，如果發生量度下降或是負量度上升，我日後要如何避免？)
 

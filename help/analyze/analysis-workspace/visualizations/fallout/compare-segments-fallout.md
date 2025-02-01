@@ -5,10 +5,10 @@ title: 在流失分析中套用區段
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 3bbf89cf522d9e0be62e0cabb28133bfa2b7a167
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 93%
+source-wordcount: '436'
+ht-degree: 90%
 
 ---
 
@@ -50,9 +50,13 @@ ht-degree: 93%
 
 您可以在「流失」視覺效果中比較無數區段。 （請注意，以下影片說明您最多可以比較3個區段，這是錯誤的。）
 
-以下是有關比較流失中的區段的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在流失視覺效果中比較區段](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 1. 從左側的[!UICONTROL 「區段」]欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國用戶和非美國用戶。
 1. 將這些區段拖曳至頂端的「區段」拖放區域。

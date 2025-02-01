@@ -4,10 +4,10 @@ keywords: 計算量度；進階計算量度
 title: 計算量度和進階計算量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 43332660bbf19ffd22409ef48528bcdef81b5e01
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 54%
+source-wordcount: '552'
+ht-degree: 53%
 
 ---
 
@@ -41,14 +41,25 @@ ht-degree: 54%
 * 建立跨[!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]的量度。
 * 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度的根據是區段，所以可查看其歷史資料。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
 * （僅限進階計算量度）量度上的區段。 例如，您可以建立「新訪客」的量度，計算第一次進行工作階段的人員數量。
 
 * （僅限進階計算量度）納入統計函式以協助您更清楚地描述資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [區段中的分段計算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 

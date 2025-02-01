@@ -4,10 +4,10 @@ title: 環形圖
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 75%
+source-wordcount: '119'
+ht-degree: 23%
 
 ---
 
@@ -29,10 +29,23 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 
 >[!ENDSHADEBOX]
 
-此視覺效果類似圓形圖，以整體的部分或區段顯示資料。比較整體所佔百分比時 (通常包含項目較少)，可使用[!UICONTROL 環形圖]。
 
-![](assets/donut.png)
+![GraphDonut](/help/assets/icons/GraphDonut.svg) **[!UICONTROL Donut]**&#x200B;視覺效果類似圓形圖，以整體的部分或篩選器顯示資料。 比較整體所佔百分比時（通常包含專案較少），可使用環形圖視覺效果。
 
-以下是有關使用[!UICONTROL 環形圖]視覺效果的影片：
+![將資料顯示為整體部分或篩選器的環形圖。](assets/donut.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/334309/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增環形圖視覺效果](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>
+

@@ -3,10 +3,10 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '2063'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -167,9 +167,13 @@ ht-degree: 98%
 
 ![](assets/date-ranges.png)
 
-以下是有關在區段中使用滾動式日期範圍的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的滾動式日期範圍](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 堆疊區段 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 

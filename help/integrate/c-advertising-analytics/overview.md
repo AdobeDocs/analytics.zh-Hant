@@ -3,10 +3,10 @@ description: 探索您可以使用Advertising Analytics執行的所有功能，�
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 2244dbb3376c78b9d4a8b476b667ccef59db84f4
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 93%
+source-wordcount: '1145'
+ht-degree: 92%
 
 ---
 
@@ -23,9 +23,13 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 * 需要為付費搜尋行銷人員收集績效報告的&#x200B;**分析人員**。
 * 想要了解向自己網站傳送多少流量以及客戶轉換率的&#x200B;**付費搜尋行銷人員**。我有哪些符合成本效益的廣告促銷活動？
 
-## 影片
 
->[!VIDEO](https://video.tv.adobe.com/v/23119?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Advertising Analytics](https://video.tv.adobe.com/v/23119?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 
 ## 先決條件 {#prerequisites}

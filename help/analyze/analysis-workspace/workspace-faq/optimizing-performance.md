@@ -4,10 +4,10 @@ title: Analysis Workspace 效能因素和最佳化措施
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 4cbcdc1e1287c301fe4452370e3db1f4b9b3f3a1
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '2548'
-ht-degree: 76%
+source-wordcount: '2551'
+ht-degree: 75%
 
 ---
 
@@ -107,6 +107,10 @@ ht-degree: 76%
 
 ## 在 Analysis Workspace 中提高生產力的秘訣
 
-以下是有關該主題的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [提高生產力的秘訣](https://video.tv.adobe.com/v/31157?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

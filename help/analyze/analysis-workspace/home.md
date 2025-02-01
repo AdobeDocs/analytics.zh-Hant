@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。它�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,12 @@ Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與�
 
 以下影片提供了簡要概觀以及可能的範例。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace概觀](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 ## Analysis Workspace 的區域
 

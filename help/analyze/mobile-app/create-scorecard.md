@@ -4,10 +4,10 @@ title: 建立和共用行動計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 81%
+source-wordcount: '2524'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,13 @@ ht-degree: 81%
 
 下列資訊可為 Adobe Analytics 資料的組織者說明如何為主管使用者設定和說明行動計分卡。若要開始使用，您可觀看Adobe Analytics儀表板計分卡產生器的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/34544)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡產生器](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資料的視覺效果，如下所示：
 
@@ -121,9 +127,13 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 ## 套用視覺效果 {#viz}
 
-觀看行動計分卡視覺效果的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度取得絕佳解析。若要變更為不同的視覺效果，只需改變圖磚[!UICONTROL 屬性]的[!UICONTROL 圖表類型]。只要選取正確的圖磚，然後變更圖表類型。
 
@@ -193,7 +203,13 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 自訂詳細投影片可讓您與客群分享的資訊更有針對性。
 
->[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
 
@@ -229,9 +245,12 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 例如，如果您關注網路流量，您最重要的量度可能會是造訪次數，但您可能也對新訪客、不重複訪客感興趣，並且您可能希望查看按網頁或流量來源的裝置類型來細分的資料。行動記分卡專案中的資料故事可讓您將最重要的量度放在首位和中心位置，並透過多個詳細資訊幻燈片描述量度背後的完整故事。
 
-觀看影片，深入了解在 Analysis Workspace 的行動記分卡專案中建立資料故事的資訊。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416392/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立資料故事](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"}以取得示範影片。
+
+>[!ENDSHADEBOX]
 
 **建立資料故事的方式**
 

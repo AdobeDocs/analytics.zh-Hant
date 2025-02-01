@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 65f2f1caff36be2afc0c11297be5dd5b593e9a3d
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -70,6 +70,11 @@ Report Builder可讓您使用Adobe Analytics資料輕鬆建立、編輯和重新
 >
 >此概觀影片以Customer Journey Analytics顯示Report Builder使用者介面。 部分使用者介面和術語有所不同。 否則，使用者體驗會相同。
 
->[!VIDEO](https://video.tv.adobe.com/v/337569/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Report Builder概觀](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 您可以從[Microsoft市集](https://appsource.microsoft.com/en-us/product/office/WA200003101?tab=Overview)下載Report Builder。

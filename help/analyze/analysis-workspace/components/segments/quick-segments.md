@@ -4,10 +4,10 @@ title: 快速區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 0610cb263f2c5e7cc337b9a8f8df5766736f4fb8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 100%
+source-wordcount: '1153'
+ht-degree: 99%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 100%
 * 最多允許訂定 3 條規則。
 * 不支援巢狀容器或循序規則。
 
-以下影片示範如何使用快速區段：
 
->[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [快速區段](https://video.tv.adobe.com/v/341466?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 建立快速區段
 

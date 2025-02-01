@@ -4,10 +4,10 @@ description: 請按照下列步驟，確認您的實施作業沒有任何錯誤�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 70%
+source-wordcount: '499'
+ht-degree: 68%
 
 ---
 
@@ -44,4 +44,11 @@ ht-degree: 70%
 
 *觀看 Adobe Analytics Champion 專家 Sarah Owen 的這部 2 分鐘影片，了解如何在繁忙的工作中安排審視實施作業項目的時間：*
 
->[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
+
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [檢閱您的實作](https://video.tv.adobe.com/v/328340?quality=12&learn=on){target="_blank"}以取得示範影片。
+
+>[!ENDSHADEBOX]
+
+

@@ -4,10 +4,10 @@ title: 新增元件說明
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,14 @@ Analytics 管理員可以在報表套裝中新增元件 (維度、量度、區�
 
 ## 新增報表套裝中的元件描述
 
-以下影片會說明如何在報表套裝中新增維度和量度說明：
 
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增元件說明](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 對 Analysis Workspace 中的元件新增說明 (使用資料字典) {#add-descriptions}
 

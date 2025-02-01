@@ -4,10 +4,10 @@ title: 常見問題集和疑難排解工作區
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 8eb15d8211bf2a5418465baa902e533198637a4a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 91%
+source-wordcount: '549'
+ht-degree: 81%
 
 ---
 
@@ -37,36 +37,52 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 不建議將 Analysis Workspace 用於大量資料匯出。它是視覺效果 Workspace，用於建立類似控制面板的分析專案。
 +++
 
-+++如何最佳化 Analysis Workspace 的效能？
++++如何最佳化Analysis Workspace的效能？
+
 請參閱[效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。
-+++
-
-+++資料如何進入您的 Analysis Workspace 專案？
-觀看這段影片：
-
->[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
 
 +++
 
-+++ 我要如何追蹤工作區的使用情況？
++++資料如何進入您的Analysis Workspace專案？
 
-請觀看這段有關 Analysis Workspace 的使用情況記錄追蹤的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/29768/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料到Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
++++
+
++++如何追蹤Workspace使用情況？
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [記錄檔追蹤](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 +++
 
 +++我將量度拖曳到專案後，系統顯示「資料無效」。如何解決此問題？
+
 資料無效代表 Adobe 無法運用報表中使用的維度和量度組合傳回資料。舉例來說，將兩個量度彼此堆疊在一起就無法傳回資料，因為系統無法以這種方式顯示兩個量度。因此，請改為並排放置量度。
+
 +++
 
 +++我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。如何疑難排解此問題？
+
 如果您成功建立了 Workspace 報表，但當中沒有任何資料，建議您檢查以下幾個事項：
 
 * 仔細檢查報表套裝，確認報表中已填入資料。
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
 * 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證資料正在收集中。
+
+
 +++
 
 +++身為唯讀使用者，我可以在Analysis Workspace中執行哪些動作？

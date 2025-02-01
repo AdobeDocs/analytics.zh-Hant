@@ -4,10 +4,10 @@ description: 不同類型的歸因將評分分配給維度項目的方式。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: e18fde22f4ec60b292f47112e51fad8a0d78acb2
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 95%
+source-wordcount: '1603'
+ht-degree: 94%
 
 ---
 
@@ -44,9 +44,12 @@ Adobe Analytics 中的歸因概念需要兩個元件：
 
 * **自訂回顧期間：**&#x200B;可讓您將歸因期間擴展至報告日期範圍以外，最多 90 天。系統會對報告時段內的每個轉換評估自訂回顧期間。例如，對於2月20日發生的轉換，10天的回顧期間將會在歸因模型中評估2月10日至2月20日的所有維度接觸點。
 
-  以下是有關自訂回顧期間的影片：
+>[!BEGINSHADEBOX]
 
-  >[!VIDEO](https://video.tv.adobe.com/v/36204/?quality=12)
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂回顧視窗](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 範例
 

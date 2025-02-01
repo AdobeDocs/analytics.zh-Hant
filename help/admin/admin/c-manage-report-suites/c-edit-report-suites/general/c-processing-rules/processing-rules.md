@@ -5,10 +5,10 @@ title: 處理規則總覽
 feature: Processing Rules
 role: Admin
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,14 @@ ht-degree: 100%
 * 清除拼寫錯誤的網站區段
 * 從查詢字串提取內部搜尋詞或行銷活動 ID 以填入 eVar
 
->[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [處理規則總覽](https://video.tv.adobe.com/v/26124/?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 處理規則權限 {#section_8A4846688050453784DAE4D89355169A}
 

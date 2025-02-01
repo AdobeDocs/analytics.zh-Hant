@@ -5,10 +5,10 @@ title: 管理視覺效果資料來源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: de1ddbed4d455b6d05059e367369eb575a747971
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 82%
+source-wordcount: '576'
+ht-degree: 81%
 
 ---
 
@@ -30,9 +30,13 @@ ht-degree: 82%
 
 ## 資料來源設定
 
-以下是有關這些設定的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23729/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料來源設定](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 | 元素 | 說明 |
 | --- | --- |

@@ -3,10 +3,10 @@ title: Analytics Components 指南
 description: 了解 Adobe Analytics 提供的不同元件。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -27,9 +27,13 @@ Analytics Components 可協助您微調及啟用資料分析。元件包括：
 * **即時報告：**&#x200B;隨時取得最新的報表和趨勢。
 * **行銷管道：**&#x200B;瞭解訪客如何抵達您的網站，並判斷哪些管道最成功。
 
-以下是 Adobe Analytics 的影片概觀：
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概觀](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 重要 Analytics Components 文章
 

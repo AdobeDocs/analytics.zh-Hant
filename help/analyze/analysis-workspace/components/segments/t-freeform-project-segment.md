@@ -4,10 +4,10 @@ title: 區段
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 91%
+source-wordcount: '488'
+ht-degree: 81%
 
 ---
 
@@ -25,17 +25,26 @@ ht-degree: 91%
 
 ## 影片
 
-在 Analysis Workspace 中使用區段：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+檢視![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用區段](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"}以取得示範影片。
 
-尋找和建立區段：
+>[!ENDSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-區段中的滾動式日期範圍：
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+請參閱示範影片的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找及建立區段](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的遞延日期範圍](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 建立區段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -47,10 +56,10 @@ ht-degree: 91%
 ### 建立元件清單區段 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
 元件功能表下的區段側邊欄會顯示
-* 您或您的公司建立的區段
-* 區段範本，由 Adobe 圖示表示：
 
-![](assets/segment_icons.png)
+* 您或您的公司建立的區段
+* 區段範本，由Adobe![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)圖示表示：
+
 
 若要建立這種類型的區段，您有 2 種選項。兩者都會將您帶至 Adobe Analytics 中的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)，您可在此找到進一步說明。
 
@@ -65,7 +74,12 @@ ht-degree: 91%
 
 ### 套用區段的其他方法 {#section_10FF2E309BA84618990EA5B473015894}
 
->[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [套用區段的其他方法](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
 
 另有數個可套用區段至自由格式專案的方法。
 

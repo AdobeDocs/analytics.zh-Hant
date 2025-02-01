@@ -4,10 +4,10 @@ description: Analysis Workspace、Adobe Analytics 儀表板 (行動應用程式)
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
-source-wordcount: '523'
-ht-degree: 100%
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+workflow-type: tm+mt
+source-wordcount: '535'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 100%
 
 如果要了解 Adobe Analytics 的基礎知識，請查看 *Adobe Analytics 簡介 - Skill Builder 網路研討會*&#x200B;下的影片。影片中介紹了如何擷取資料、如何將資料發送到 Adobe Analytics，以及您可以在 Adobe Analytics 中使用哪些視覺化功能的基礎知識。影片能為您建置、部署、收集和解譯資料提供基礎…讓您能夠根據收集的資料，提供可操作分析和建議。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics簡介 — 技能培養網路研討會](https://video.tv.adobe.com/v/27429/?quality=12&learn=on){target="_blank"}，瞭解網路研討會。
+
+>[!ENDSHADEBOX]
 
 若要了解關於使用哪種工具的問題，請參閱「[我應該使用哪種 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)」。
 

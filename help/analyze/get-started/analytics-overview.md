@@ -4,10 +4,10 @@ short-description: 了解分析師、一般使用者和管理員的關鍵功能�
 title: Adobe Analytics 概觀
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
 
@@ -33,13 +33,19 @@ Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲�
 
 如果要了解 Adobe Analytics 的基礎知識，請查看此 *Adobe Analytics 簡介 - Skill Builder 網路研討會*&#x200B;影片。影片中介紹了如何擷取資料、如何將資料發送到 Adobe Analytics，以及您可以在 Adobe Analytics 中使用哪些視覺化功能的基礎知識。影片能為您建置、部署、收集和解譯資料提供基礎，讓您能夠根據收集的資料，提供可操作分析和建議。
 
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
+
+>[!BEGINSHADEBOX]
+
+如需網路研討會影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics — 技能培養簡介](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 若要了解關於使用哪種工具的問題，請參閱[我應該使用哪種 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html)。
 
 ## 進一步探討 Customer Journey Analytics
 
-Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料綱要和類型的能力。
+Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料結構描述和類型的能力。
 
 以下是 Customer Journey Analytics 相對於 Adobe Analytics 的一些優勢：
 

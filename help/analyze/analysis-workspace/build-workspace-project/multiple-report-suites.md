@@ -4,10 +4,10 @@ description: 了解在有多個報表套裝的 Workspace 中建立專案的方�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 89%
 
 * 建立量度和視覺效果的控制面板，以便向其他組織提交報告。您可以將不同報表套裝的資料提取到相同專案中。
 
-以下是有關該主題的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多個報表套裝](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 將報表套裝套用至所有面板
 

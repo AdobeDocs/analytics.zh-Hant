@@ -4,10 +4,10 @@ title: 日期比較
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8405c36b3e19a54385011ea80fc06363a02bc07a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 57%
+source-wordcount: '747'
+ht-degree: 56%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 57%
 
 Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：年與年、季與季、月與月等。
 
-以下是有關該主題的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/30753/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [日期比較](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 比較時段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
@@ -57,7 +62,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
    ![](assets/compare-time-barchart.png)
 
-   請注意，為了在橫條圖中顯示變化百分比，您必須選取「[!UICONTROL 視覺效果設定]」中的「[!UICONTROL 百分比]」設定。
+   請注意，為了在長條圖中顯示變化百分比，您必須選取「[!UICONTROL 視覺效果設定]」中的「[!UICONTROL 百分比]」設定。
 
 ## 新增時段欄以進行比較 {#section_93CC2B4F48504125BEC104046A32EB93}
 

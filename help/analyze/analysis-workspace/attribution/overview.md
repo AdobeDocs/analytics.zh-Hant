@@ -4,10 +4,10 @@ description: 將成功事件的評分歸因於多個維度項目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 * 避免實施變更：透過報告時間處理功能和內容感知工作階段，可以建置客戶歷程內容並套用在執行階段中。
 * 建構與您的歸因狀況最相符的工作階段。
 * 按區段劃分歸因：輕鬆比較行銷管道在任何重要區段中的效能 (例如，新客戶與回頭客戶、產品 X 與產品 Y、忠誠度或 CLV)。
-* 跨管道檢查和多點接觸分析：使用文氏圖表和色階分佈圖，並計算歸因結果趨勢。
+* 跨管道檢查和多點接觸分析：使用文氏圖表和直方圖，並計算歸因結果趨勢。
 * 以視覺化方式分析關鍵行銷序列活動：透過多節點流量和流失視覺效果，以視覺效果方式探究帶來轉換的路徑。
 * 建立計算量度：使用任何數量的歸因配置方法。
 
@@ -48,21 +48,34 @@ Attribution 包含下列功能：
 
 ## 影片
 
-自由格式表格中的 Attribution：
 
->[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+>[!BEGINSHADEBOX]
 
-計算量度中的 Attribution
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [自由表格中的歸因](https://video.tv.adobe.com/v/23136?quality=12&learn=on){target="_blank"}。
 
->[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+>[!ENDSHADEBOX]
 
-使用 Attribution 面板：
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!BEGINSHADEBOX]
 
-新增 Attribution 模式的並排比較
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [計算量度中的歸因](https://video.tv.adobe.com/v/23140?quality=12&learn=on){target="_blank"}。
 
->[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用歸因面板](https://video.tv.adobe.com/v/23139?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增歸因模型的並排比較](https://video.tv.adobe.com/v/23651?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 不支持 Attribution 的 Adobe Analytics 工具
 

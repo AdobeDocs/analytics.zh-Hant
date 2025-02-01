@@ -4,10 +4,10 @@ title: 多維度流失
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,13 @@ ht-degree: 100%
 
 Analysis Workspace 中的「流失」可讓您混合搭配維度和量度，作為漏斗和工作流程中的接觸點。如此可讓您在定義想調查的用戶步驟時，擁有更多彈性。
 
-以下是有關該主題的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多維度流失](https://video.tv.adobe.com/v/24043?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 **範例**：除了「頁面」維度，您也可以新增動作型維度至「流失」視覺效果。如此可用視覺方式呈現頁面和特定動作在客戶路徑中的相互作用。
 

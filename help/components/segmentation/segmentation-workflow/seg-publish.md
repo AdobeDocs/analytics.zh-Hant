@@ -3,10 +3,10 @@ description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段
 title: 要Experience Cloud的Publish區段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 605d99581a1d17aa716163308958a61b51f97d46
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 67%
+source-wordcount: '1308'
+ht-degree: 66%
 
 ---
 
@@ -16,9 +16,13 @@ ht-degree: 67%
 
 您可以在8小時內發佈Analytics區段以Experience Cloud。 使用這些區段，在 Audience Manager 中將對象啟動至所有下游目的地。
 
-如需詳細資訊，請觀看這段影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/32842/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Publish區段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 >[!NOTE]
 >

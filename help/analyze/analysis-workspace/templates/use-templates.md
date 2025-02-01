@@ -4,9 +4,9 @@ title: 使用範本
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: f39ca03cd87ff5584348c526646f3eb39dfa75fd
+source-git-commit: 32a7a3d696fe0d39e2d8e50370b9072b49ef3a21
 workflow-type: tm+mt
-source-wordcount: '18672'
+source-wordcount: '18666'
 ht-degree: 83%
 
 ---
@@ -33,7 +33,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
    <!--update screenshot -->
 
-   ![「報告」標籤](assets/view-prebuilt-templates.png)
+   ![「報告」標籤](assets/view-prebuilt-templates-full.png)
 
 1. 在&#x200B;[!UICONTROL **範本**]&#x200B;區段中，選取下列其中一個標籤：
 
@@ -45,9 +45,9 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 
 1. 使用下列任一選項來變更您檢視可用範本的方式：
 
-   * 選取欄檢視![欄檢檢視示](assets/column-view-icon.png)或卡片檢視![卡片檢檢視示](assets/card-view-icon.png)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
+   * 選取欄檢視![ViewColumn](/help/assets/icons/ViewColumn.svg)或卡片檢視![卡片](/help/assets/icons/Card.svg)圖示，選擇是在欄檢視或卡片檢視中檢視範本。
 
-   * 使用卡片檢視![卡片檢檢視示](assets/card-view-icon.png)時，請從下列排序順序中選擇： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受歡迎]**、**[!UICONTROL 字母順序]**、**[!UICONTROL 類別]**。
+   * 使用卡片檢視![卡片](/help/assets/icons/Card.svg)時，請從下列排序順序中選擇： **[!UICONTROL 最近使用]**、**[!UICONTROL 最受歡迎]**、**[!UICONTROL 字母順序]**、**[!UICONTROL 類別]**。
 
 1. 在搜尋欄位中，開始輸入您要尋找的範本名稱，然後從範本清單中選取它。 您也可以依據prop、eVar和事件編號來搜尋範本清單。<!-- still true? -->
 
@@ -1272,3 +1272,5 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | **裝置** | 檢視人們存取您的網站所使用的行動裝置品牌和型號。<p>**這有助於您**&#x200B;更加了解您的使用者群最喜歡使用哪些行動裝置。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最常見的行動裝置將網站呈現最佳化。</p><p>此範本使用行動裝置名稱維度。</p> |
 | **裝置型別** | 檢視人們使用哪些類型的行動裝置存取您的網站，例如手機和平板電腦。<p>**這有助於您**&#x200B;更加了解人們存取您的網站所使用的各種行動裝置。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對最常用的行動裝置類型將您的網站最佳化。</p><p>此範本使用行動裝置型別維度。</p> |
 | **製造商** | 檢視人們存取您的網站所使用的行動裝置由哪些製造商製造，例如 Apple 和 Samsung。<p>**這有助於您**&#x200B;更加了解您的使用者群最喜歡哪些製造商。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如根據不同製造商的能力自訂內容傳送方式，以確保流暢的使用者體驗。</p><p>此範本使用行動製造商維度。</p> |
+
+

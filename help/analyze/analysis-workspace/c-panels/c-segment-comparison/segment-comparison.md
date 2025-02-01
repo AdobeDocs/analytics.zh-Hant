@@ -5,10 +5,10 @@ keywords: Analysis Workspace, 區段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 38%
+source-wordcount: '593'
+ht-degree: 37%
 
 ---
 
@@ -39,11 +39,14 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 「區段比較」面板是[「區段 IQ」](../../segment-iq.md)中的工具，可從不限數量的區段中找出統計數據上最顯著的差異。此功能會針對您存取的所有維度和量度進行反覆自動分析。它會從提升公司 KPI 的客群細分群體當中找出關鍵特性，讓您查看任何細分群體重疊的程度。
 
-+++ 以下是有關區段比較的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
+>[!BEGINSHADEBOX]
 
-+++
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [區段比較](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+
 
 ## 使用
 

@@ -4,10 +4,10 @@ title: 檢視密度
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 
 1. 從上述的 3 個選項中選取，接著按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-以下是有關使用[!UICONTROL 檢視密度]的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/25963/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [檢視密度](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+

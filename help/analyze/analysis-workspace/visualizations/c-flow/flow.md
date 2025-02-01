@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 93%
+source-wordcount: '348'
+ht-degree: 87%
 
 ---
 
@@ -43,9 +43,13 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 * 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置
 * 指定選定路徑中的特定點，建立區段
 
-以下是流量視覺效果教學影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/344222/?quality=12)
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [流量視覺效果](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
@@ -61,6 +65,13 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 專案的 .CSV 檔案包含流量圖表，您可以前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 下載 CSV]**」，建立 .CSV 檔案。這可讓您在 Microsoft Excel 內分析 (以視覺化呈現表格) 或其他地方分析「流量」結果。
 
-## 展開流量視覺效果
 
->[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)
+## 其他功能
+
+>[!BEGINSHADEBOX]
+
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [流量視覺效果中的其他功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}。
+
+>[!ENDSHADEBOX]
+
+

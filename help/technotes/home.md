@@ -3,9 +3,9 @@ title: Analytics 技術備忘稿
 description: 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-source-git-commit: 9e3354569b2e748b3194be34c9119062300ca609
+source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '412'
 ht-degree: 100%
 
 ---
@@ -34,9 +34,6 @@ Adobe Analytics 的一些主要功能包括：
 
 總言之，Adobe Analytics 是強大的網站分析解決方案，提供企業所需的工具來測量、分析和最佳化其數位行銷活動。 借助即時資料、進階分析和歸因建模，企業可以做出資料驅動的決策，推動數位轉型並提高 ROI。
 
-以下是 Adobe Analytics 的影片概觀：
-
->[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 重要技術備忘稿文章
 

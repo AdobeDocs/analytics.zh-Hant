@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
+source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 34%
 
 ---
 
@@ -31,56 +31,49 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 >[!ENDSHADEBOX]
 
 
-直方圖類似於長條圖，但前者將數字分組為範圍 (貯體)。Analytics 會自動將數字分組至範圍貯體，但您可以在[進階設定](#section_09D774C584864D4CA6B5672DC2927477)中變更設定。
+![色階分佈圖](/help/assets/icons/Histogram.svg) **[!UICONTROL 色階分佈圖]**&#x200B;視覺效果類似於[!UICONTROL 長條圖]視覺效果，但會將數字分組為範圍（貯體）。 Analytics 會自動將數字分組至範圍貯體，但您可以在[進階設定](#advanced-settings)中變更設定。
 
-以下是有關如何使用直方圖的影片：
-
->[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
-
-## 建立直方圖 {#section_74647707CC984A1CB6D3097F43A30B45}
+## 使用
 
 若要建立直方圖：
 
-1. 按一下左側邊欄中的&#x200B;**[!UICONTROL 「視覺效果」]**。
-1. 將&#x200B;**[!UICONTROL 「直方圖」]**&#x200B;拖曳至面板。
-1. 選擇要拖曳至直方圖視覺效果的量度並按一下&#x200B;**[!UICONTROL 「建立」]**。
-
-![](assets/histogram.png)
+1. 新增![色階分佈圖](/help/assets/icons/Histogram.svg) **[!UICONTROL 色階分佈圖]**&#x200B;視覺效果。 請參閱[將視覺效果新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
+1. 從&#x200B;**[!UICONTROL Metrics]**&#x200B;元件清單拖曳量度，或從&#x200B;[!UICONTROL *新增量度*]&#x200B;下拉式功能表選取量度。
+1. （選擇性）選取&#x200B;**[!UICONTROL 顯示進階設定]**。 請參閱[進階設定](#advanced-settings)。
+1. 選取「**[!UICONTROL 建立]**」。
 
 >[!NOTE]
 >
 >直方圖僅支援標準量度，不支援計算量度。
 
-這裡我們使用了每個不重複訪客的頁面檢視次數量度。第一個 (最左邊) 貯體對應至每個不重複訪客 1 次頁面檢視、第二個貯體對應至 2 次頁面檢視，以此類推。
+在以下範例中，長條圖可用來儲存人數的工作階段。 長條圖顯示大多數人確實在所選日期範圍內有16至21個工作階段。
 
-![](assets/histogram2.png)
+![](assets/histogram.png)
 
-## 進階設定 {#section_09D774C584864D4CA6B5672DC2927477}
+## 進階設定
 
-若要調整直方圖設定，請按一下右上角的「設定」(「齒輪」) 圖示。您可以修改的設定如下：
+在視覺效果中，可以使用特定的長條圖設定。
 
-| 直方圖設定 | 用途 |
+| 長條圖設定 | 說明 |
 |---|---|
-| 起始貯體 | 決定直方圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
-| 量度貯體 | 可讓您增加/減少資料範圍（貯體）的數量。 值區的最大數量為50。 |
-| 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | 可讓您選擇[訪客](/help/components/metrics/unique-visitors.md)、[造訪](/help/components/metrics/visits.md)或[點擊類型](/help/components/dimensions/hit-type.md)。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| **[!UICONTROL 開始貯體]** | 決定直方圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
+| **[!UICONTROL 量度值區]** | 可讓您增加/減少資料範圍（貯體）的數量。 值區的最大數量為50。 |
+| **[!UICONTROL 量度貯體大小]** | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
+| **[!UICONTROL 計數方法]** | 從&#x200B;**[!UICONTROL 人員]**、**[!UICONTROL 工作階段]**&#x200B;或&#x200B;**[!UICONTROL 事件]**&#x200B;中選取。 例如，每個工作階段的頁面檢視數、每個人的頁面檢視數，或每個事件的頁面檢視數。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
 **範例**：
 
-* 起始貯體：1、量度貯體：5、量度貯體大小：2 會產生這個直方圖：1-2、3-4、5-6、7-8、9-10。
-* 起始貯體：0、量度貯體：3、量度貯體大小：5 會產生這個直方圖：0-4、5-9、10-14
+| 起始貯體 | 量度值區 | 量度貯體大小 | 結果 |
+|:----:|:--:|:--:|:--|
+| 1 | 5 | 2 | ![色階分佈圖，開始貯體1，量度貯體5，量度貯體大小2](assets/histogram-1-5-2.png) |
+| 0 | 3 | 5 | ![色階分佈圖，起始貯體0，量度貯體3，量度貯體大小5](assets/histogram-0-3-5.png) |
 
-## 檢視和編輯直方圖資料 {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
+>[!MORELIKETHIS]
+>
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[使用長條圖來識別非預期的資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 
-若要檢視或變更直方圖的資料來源，請按一下直方圖標頭旁的點，前往「**[!UICONTROL 資料來源設定]** > **[!UICONTROL 顯示資料來源]**」。
-
-![](assets/manage-data-source.png)
-
-此表格中顯示的預先建立區段是內部區段，不會顯示在區段選取器中。按一下區段名稱旁的「i」圖示，然後按一下&#x200B;**[!UICONTROL 「設為公用」]**，將該區段設為公用。
-
-![](assets/prebuilt_segments.png)
-
-若想探索管理自由資料表及其他視覺效果的其他方法，例如進行資料劃分，請前往[此處](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)。

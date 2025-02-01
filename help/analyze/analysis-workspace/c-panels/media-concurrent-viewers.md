@@ -4,9 +4,9 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
+source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1238'
 ht-degree: 47%
 
 ---
@@ -54,11 +54,13 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 在Analysis Workspace中，「同時檢閱者」量度指的是在特定時間點檢視您媒體串流的不重複人數，而不計工作階段數量。
 
 
-+++ 觀看此功能的示範影片。
+>[!BEGINSHADEBOX]
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [媒體同時檢閱者面板](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}。
 
-+++
+>[!ENDSHADEBOX]
+
+
 
 ## 使用
 
