@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 43f48abf-951d-4fd1-afd4-58304ee5247b
-source-git-commit: ec14dde5b0e91a9fcfb217a811d36af2eea5f772
+source-git-commit: 06d762614969f3557c8ccf310af266742cde9738
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 76%
+source-wordcount: '1021'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,11 @@ ht-degree: 76%
 
 若要變更每個維度會傳回的維度項目
 
-1. 選取資料區塊，然後按一下[命令]面板中的[編輯資料區塊]。****
+1. 按一下&#x200B;**[!UICONTROL 管理]**，然後從清單中選取資料區塊。
+
+   ![管理>編輯資料區塊](./assets/manage-edit.png)
+
+1. 按一下[命令]面板中的[編輯資料區塊&#x200B;]**]。**[!UICONTROL 
 
 1. 按一下[下一步]****&#x200B;以顯示[Dimension]索引標籤。
 
