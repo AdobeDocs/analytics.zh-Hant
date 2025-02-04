@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 87%
+source-wordcount: '290'
+ht-degree: 83%
 
 ---
 
@@ -57,13 +57,10 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
 
-## 設定流量視覺效果
-
-有關如何設定流量視覺效果的資訊，請參閱「[設定流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)」。
-
-## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
-
-專案的 .CSV 檔案包含流量圖表，您可以前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 下載 CSV]**」，建立 .CSV 檔案。這可讓您在 Microsoft Excel 內分析 (以視覺化呈現表格) 或其他地方分析「流量」結果。
+>[!MORELIKETHIS]
+>
+>[設定流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)。
+>
 
 
 ## 其他功能

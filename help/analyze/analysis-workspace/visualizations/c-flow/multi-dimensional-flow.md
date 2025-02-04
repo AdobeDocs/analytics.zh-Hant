@@ -5,17 +5,16 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: be6056f9e7a64b47ab544594149ebfbe134f1c04
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 97%
+source-wordcount: '340'
+ht-degree: 7%
 
 ---
 
 # 維度間流量
 
-維度間流量可讓您檢查多個維度間的用戶路徑。以下是有關 Analysis Workspace 中的文繞圖和多維度流量的影片：
-
+維度間流量可讓您檢查多個維度間的用戶路徑。
 
 >[!BEGINSHADEBOX]
 
@@ -23,51 +22,38 @@ ht-degree: 97%
 
 >[!ENDSHADEBOX]
 
+本文說明此流量如何用於兩個使用案例：行動應用程式互動和事件，以及促銷活動如何推動網站造訪。
 
-每個「流量」欄頂端的量度標籤，可讓您在流量視覺效果中使用多維度時更符合使用直覺：
+## 行動應用程式互動和事件
 
-![](assets/flow.png)
+此範例流程中使用[!UICONTROL 熒幕名稱]維度，以檢視使用者在應用程式中如何使用各種熒幕（場景）。 傳回的頂端畫面是&#x200B;**[!UICONTROL luma： content： ios： en： home]**，這是應用程式的首頁：
 
-我們將審視 2 個使用案例：一個應用程式使用案例和一個網頁使用案例。
+![顯示新增專案的流量。](assets/flowapp.png)
 
-## 使用案例一：應用程式 {#app}
+若要探索此應用程式中熒幕與事件型別（例如加入購物車、購買及其他）之間的互動，請拖放&#x200B;**[!UICONTROL 事件型別]**&#x200B;維度：
 
-將「[!UICONTROL 動作名稱]」維度新增至流量，而排名最前的傳回項目是 [!UICONTROL ItemAdded]：
+* 在流程中任何可用步驟之上，若要取代該維度：
 
-![](assets/multi-dimensional-flow.png)
+  ![顯示拖曳至多個區域之頁面維度的流量。](assets/flowapp-replace.png)
 
-若要探索螢幕/頁面和此應用程式中動作之間的互動關係，您可以接著根據您想探索什麼內容，將頁面維度拖曳至多個位置：
+* 在目前的流量視覺效果之外，若要新增維度：
 
-* 將其拖曳至拖放區域的任一端 (位於顯示的黑框矩形內部) 可&#x200B;**更換**&#x200B;該處的排名最前結果：
+  ![顯示拖曳至結尾空白字元之「頁面」維度的流量。](assets/flowapp-add.png)
 
-  ![](assets/multi-dimensional-flow2.png) ![](assets/multi-dimensional-flow3.png)
+以下的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件型別]**&#x200B;維度的結果。 此視覺效果可提供行動應用程式使用者在將產品新增至購物車、關閉應用程式、顯示選件等之前，如何透過應用程式中的各種畫面移動的深入分析。
 
-* 將其拖曳至結尾處的空白區域 (注意黑色括弧) 可&#x200B;**增加到**&#x200B;視覺效果：
+![A低點在清單頂端顯示「頁面」維度結果。](assets/flowapp-result.png)
 
-  ![](assets/multi-dimensional-flow4.png)
+## 行銷活動如何推動網站造訪
 
-如果您打算用「頁面」維度取代右欄中的 ItemScaled 項目，以下是產生的結果。排名最前結果現在更換為「頁面」維度的排名最前結果：
+您想要分析哪些行銷活動促使訪客造訪網站。 您建立以&#x200B;**[!UICONTROL 促銷活動名稱]**&#x200B;作為維度的流量視覺效果
 
-![](assets/multi-dimensional-flow5.png)
+![流量網站行銷活動名稱維度](assets/flowweb.png)
 
-現在您可以查看客戶如何在動作和頁面之間移動了。您可以按一下不同節點，進一步探索流量：
+您以&#x200B;**[!UICONTROL 格式化頁面名稱]**&#x200B;維度取代最後&#x200B;**[!UICONTROL 促銷活動名稱]**&#x200B;維度，並在流量視覺效果結尾新增另一個&#x200B;**[!UICONTROL 格式化頁面名稱]**&#x200B;維度。
 
-![](assets/multi-dimensional-flow6.png)
+![流量網站行銷活動名稱和網頁維度](assets/flowweb-replace.png)
 
-如果您將其他「動作名稱」維度新增至視覺效果結尾處，以下是產生的結果：
+您可以將滑鼠停留在任何流程上以檢視更多詳細資料。 例如，哪些行銷活動導致了購物車結帳。
 
-![](assets/multi-dimensional-flow7.png)
-
-如此可對應用程式進行一些深入的分析，甚至可能對您正在分析的應用程式進行一些變更。
-
-## 使用案例二：網頁 {#web}
-
-此使用案例顯示如何分析哪個促銷活動對網站帶動最多的登入活動。
-
-將「促銷活動名稱」維度拖曳至一個新流量：
-
-![](assets/multi-dimensional-flow8.png)
-
-現在，我想查看這些促銷活動帶動哪些頁面的流量，所以我將「頁面」維度拖曳至流量右側，將其新增至視覺效果：
-
-![](assets/multi-dimensional-flow9.png)
+![流量網站行銷活動名稱和網頁維度暫留](assets/flowweb-hover.png)
