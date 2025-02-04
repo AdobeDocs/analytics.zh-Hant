@@ -5,10 +5,10 @@ title: 可選時間戳記
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 94%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
 
@@ -16,12 +16,14 @@ ht-degree: 94%
 
 瞭解使用「可選時間戳記」設定的好處與限制。
 
+<!-- Hide video as it is not adding a lot according to feedback from customer in feedback report January 2025.
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [選擇式時間戳記](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"}。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
+-->
 
 
 「可選時間戳記」是所有新報表套裝的預設設定。

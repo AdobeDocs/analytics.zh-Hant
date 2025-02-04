@@ -3,9 +3,9 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '1691'
+source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+workflow-type: tm+mt
+source-wordcount: '1696'
 ht-degree: 100%
 
 ---
@@ -149,3 +149,8 @@ Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與�
 [使用 Analytics API 就能直接呼叫 Adobe 的伺服器，執行幾乎所有使用者介面中可以執行的動作。](https://developer.adobe.com/analytics-apis/docs/2.0/)
 
 您可以建立報告來探索、取得深入分析，或是回答資料相關的重要問題。您也可以管理 Adobe Analytics 的元件，例如建立區段或計算量度。
+
+>[!MORELIKETHIS]
+>
+>[建立解決方案設計文件](/help/implement/prepare/solution-design.md)
+>
