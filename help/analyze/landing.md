@@ -5,19 +5,19 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1658'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 登陸頁面
 
-Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] (已終止服務) 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、範本區段和學習區段，可幫助您更有效地快速入門。
+Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] (已終止服務) 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、範本區段，以及可協助您更有效地快速入門的學習區段。
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics登陸頁面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

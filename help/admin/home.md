@@ -5,9 +5,9 @@ feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
 source-git-commit: a90e754e50c0e7325d20a0a9436dab751d1a5f09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics簡介](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}，以取得Adobe Analytics的簡介影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 介紹](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}，觀看 Adobe Analytics 的介紹影片。
 
 >[!ENDSHADEBOX]
 

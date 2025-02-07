@@ -5,9 +5,9 @@ title: Adobe Analytics 概觀
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲�
 
 >[!BEGINSHADEBOX]
 
-如需網路研討會影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics — 技能培養簡介](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+請查看 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 介紹 - Skill Builder](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}，以觀看網路研討會影片。
 
 >[!ENDSHADEBOX]
 

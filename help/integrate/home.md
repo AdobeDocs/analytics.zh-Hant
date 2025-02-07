@@ -4,9 +4,9 @@ description: 了解如何將其他位置的資料整合到 Adobe Analytics 中�
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
 source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 76%
 
 * **Audience Analytics：**&#x200B;整合 Adobe Audience Manager 與 Adobe Analytics。
 * **Advertising Analytics：**&#x200B;並排顯示付費搜尋資料與 Adobe Analytics 資料。
-* **Analytics for Advertising Cloud DSP：**&#x200B;整合Adobe Analytics和Adobe Advertising Cloud以擴充和增強每個產品的功能。
+* **Advertising Cloud DSP 適用的 Analytics：**&#x200B;整合 Adobe Analytics 和 Adobe Advertising Cloud，以擴充和增強每個產品的功能。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud分析](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 適用的 Analytics](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概觀](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 概觀](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

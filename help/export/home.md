@@ -4,9 +4,9 @@ description: 本指南會說明透過資料摘要和 Data Warehouse 將資料匯
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics概觀](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 概觀](https://video.tv.adobe.com/v/27429?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

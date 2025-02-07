@@ -4,9 +4,9 @@ title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1219'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比較](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [工具比較](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
