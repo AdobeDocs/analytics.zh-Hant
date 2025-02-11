@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: b90356050a6ff39e1688a10f6aa0af284284e2a6
+source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 98%
+source-wordcount: '2589'
+ht-degree: 89%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 98%
    * 舊版管理員工具，用於管理 Adobe Analytics 中的報告套裝設定。在舊版 Adobe Analytics 中，也需在此處管理使用者權限。請參閱管理員使用手冊中的[管理員工具](/help/admin/admin/c-admin-tools.md)。
    * Adobe Admin Console，可於此佈建產品存取權和管理使用者權限。請參閱管理員使用手冊中的 [Admin Console](/help/admin/admin-console/home.md)。
 * **配置：**&#x200B;如果造訪期間轉換變數遇到多個值，變數的配置設定會決定要保留哪個值。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
-* **Analysis Workspace：**&#x200B;用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。 提供優於 Reports and Analytics 的報告靈活性。
-* **異常：**&#x200B;使用統計模式自動尋找資料中意外的趨勢時，可偵測出異常。此模式會分析量度並決定上下界限和值的預期範圍。請參閱分析使用手冊中的[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)。
+* **Analysis Workspace：**&#x200B;用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。 請參閱「Analytics工具指南」中的[Analysis Workspace概觀](/help/analyze/analysis-workspace/home.md)。
+* **異常：**&#x200B;使用統計模式自動尋找資料中意外的趨勢時，可偵測出異常。此模式會分析量度並決定上下界限和值的預期範圍。請參閱Analytics工具指南中的[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)。
 * **AppMeasurement：**&#x200B;用來收集資料並傳送至 Adobe 的程式碼庫。請參閱實施作業使用手冊的[首頁](/help/implement/home.md)。
 * **ASI 槽：**&#x200B;已不存在。在舊版 Adobe Analytics 中，ASI 槽提供暫時性報告套裝容器，可用於檢視分段資料。在目前版本的 Adobe Analytics 中，可立即將區段套用至任何報告。
-* **劃分：**&#x200B;可讓您在另一個維度的內容中檢視維度。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+* **劃分：**&#x200B;可讓您在另一個維度的內容中檢視維度。請參閱Analytics工具指南中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **反彈：**&#x200B;包含單一點擊的造訪。請參閱元件使用手冊中的[反彈](/help/components/metrics/bounces.md)。另請見「單次存取」。
 * **計算量度：**&#x200B;允許結合現有量度、統計函數和公式以便用於報告。請參閱元件使用手冊中的[計算量度](/help/components/c-calcmetrics/cm-overview.md)。
 * **促銷活動：**&#x200B;可以指：
@@ -36,28 +36,28 @@ ht-degree: 98%
 * **分類：** Adobe Analytics 的一項功能，用於將維度項目分組。請參閱元件使用手冊中的[分類](/help/components/classifications/c-classifications.md)。
 * **點按圖：**&#x200B;已停止使用。一種舊版瀏覽器外掛程式，可顯示網站上哪些區域的點按頻率最高。此工具已淘汰，改用Activity Map。
 * **點按流資料摘要：**&#x200B;請見「資料摘要」。
-* **同類群組：**&#x200B;指定的一段時間內具有共同特徵的一群人。請參閱分析使用手冊中的[同類群組分析是什麼？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
+* **同類群組：**&#x200B;指定的一段時間內具有共同特徵的一群人。請參閱分析使用手冊中的[同類群組分析是什麼？Analytics工具指南中的](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集伺服器：**&#x200B;請見「資料收集伺服器」。
-* **元件：** Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；您可將這些元件拖放至專案上。請參閱 Analyze 使用手冊中的「[元件概覽](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)」。
+* **元件：** Analysis Workspace中的元件包含維度、量度、區段、日期範圍、警示以及計算量度，您可以將這些元件拖放至專案上。 請參閱Analytics工具指南中的[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。
 * **內容資料變數：**&#x200B;僅用於處理規則的暫時變數。如果處理規則未將內容資料變數值複製到轉換或流量變數中，便會永久遺失內容資料變數值。請參閱實施作業使用手冊中的[內容資料變數](../implement/vars/page-vars/contextdata.md)。
 * **轉換變數：**&#x200B;也稱為 eVar。用於儲存自訂值及保留變數值，直到變數值過期為止。請參閱「元件」使用指南中的 [eVar](/help/components/dimensions/evar.md) 維度。
-* **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+* **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱Analytics工具指南中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **自訂連結：**&#x200B;包含非頁面檢視資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
 * **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。影像請求會傳送至 Adobe 的資料收集伺服器，以用於報告。
-* **資料聯結器：**&#x200B;已淘汰的開發解決方案，可讓協力廠商將資料上傳至Adobe Analytics的作業自動化。 該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。已取代為Adobe Exchange市集。
+* **資料聯結器：**&#x200B;已淘汰的開發解決方案，可讓協力廠商將資料上傳至Adobe Analytics的作業自動化。 該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。已取代為[Adobe Exchange市集](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&amp;partnerLevel=All&amp;sort=RELEVANCE)。
 * **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。最常用於將 Adobe Analytics 資料匯出至協力廠商資料庫。請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
+* **資料層：** [資料層](/help/implement/prepare/data-layer.md)是網站上JavaScript物件的架構，包含Analytics實作中使用的變數值。 如此，在將值指派給 Analytics 變數時，可以更好控制和易於維護。
 * **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。通常會從 FTP 網站提取檔案。請參閱匯入使用手冊中的[資料來源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 的一項功能，可用來請求較大型的報告。請參閱匯出使用手冊中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
-* **Data Workbench：**&#x200B;先前稱為 Insight。 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動資料。
-* **維度：**&#x200B;包含變數值 (如文字) 的元件類型。範例包括頁面名稱、追蹤代碼或反向連結網域。量度通常是其對應項目。
+* **Data Workbench：** [已淘汰](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-workbench)分析工具，專門收集、處理、分析和視覺化來自多個管道之線上和離線客戶互動的資料。
+* **Dimension：** Dimension為非數值和日期，例如性別、月份、年齡、忠誠度、監視器解析度等。 其他範例包括頁面名稱、追蹤代碼或反向連結網域。 量度通常是其對應項目。
+* **Dimension劃分：**&#x200B;每個維度都可以劃分成更細微的詳細資訊層級。 例如，「月」維度可劃分為1月、2月、3月等。
 * **事件序列化：**&#x200B;防止收集重複事件的實施作業措施程序。請參閱實施作業使用手冊中的[事件序列化](../implement/vars/page-vars/events/event-serialization.md)。
 * **eVar：**&#x200B;請見「轉換變數」。
 * **事件**：請見「成功事件」。
-* **ExcelClient：**&#x200B;不再作為詞彙使用。Report Builder 前身的名稱。
 * **有效期限：**&#x200B;在轉換變數的內容中，值在後端持續存在的時間。此持續性可讓事件在事件點擊之前與變數值建立關聯。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
-* **流量：** Analysis Workspace 中的視覺效果類型，可顯示使用者在網站上行經的路徑。請參閱分析使用手冊中的[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
-* **Genesis：**&#x200B;不再作為詞彙使用。資料連接器先前的名稱。
+* **流量：** Analysis Workspace 中的視覺效果類型，可顯示使用者在網站上行經的路徑。請參閱Analytics工具指南中的[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
 * **全域報告套裝：**&#x200B;為報告套裝指定的非正式詞彙，用於收集來自多個網站的點擊。
 * **H 代碼：** AppMeasurement 的前身。在舊版 Adobe Analytics 中，程式碼版本是以「H 版本」(例如 H.27.5、H.26 等) 測量。
 * **點擊：**&#x200B;傳送至 Adobe 資料收集伺服器的單一影像請求。頁面檢視和自訂連結都可稱為點擊。
@@ -73,6 +73,7 @@ ht-degree: 98%
 * **登入公司**：貴組織所使用報告套裝的集合。某些組織擁有多個登入公司，適用於組織內的不同部門。
 * **行銷管道：** Adobe Analytics 的一項功能，可依點擊到達您網站的方式分類點擊。可使用行銷管道處理規則來自訂用於分類點擊的邏輯。請參閱元件使用手冊中的[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含量化資料的元件類型。度量值通常包含數字，例如頁面檢視次數、造訪次次數和營收。維度通常是其對應項目。
+* **行動應用程式：**&#x200B;也稱為&#x200B;**Adobe Analytics [!UICONTROL 儀表板]**，行動應用程式可讓使用者透過行動裝置存取直覺式計分卡。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
 * **行動服務：**&#x200B;這是已淘汰的 Adobe 產品，可將整個 Adobe Experience Cloud 上行動應用程式的行動裝置行銷功能彙整在一起，好讓您了解並改進使用者與行動應用程式的互動。 
 * **多套裝標記：**&#x200B;將相同點擊傳送至多個報告套裝的作法。隨著虛擬報告套裝的推出，此作法基本上已失去必要性。大部分的多套裝標記作業都有助於調整全域報告套裝。
 * **正規化：**&#x200B;整理視覺化效果的方式，可納入所有量度並將其強制為等比例，以便更輕鬆進行趨勢比較。
@@ -88,15 +89,14 @@ ht-degree: 98%
 * **Prop：**&#x200B;請見「流量變數」。
 * **排名報告：**&#x200B;一種報告格式，通常會依循含有量度的維度。此類型的報告可用於查看排名最前的項目，例如網站上檢視次數最多的頁面。另請見「趨勢報告」。
 * **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
-* **Report Builder：** Microsoft Excel 增益集，可讓您從 Adobe Analytics 資料建立自訂請求。
+* **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md)增益集可讓您從Adobe Analytics資料建立自訂請求。
 * **報告套裝：**&#x200B;您所傳送資料的目的地總體容器。Adobe Analytics 中的所有報告都會參照報告套裝。
-* **Reports &amp; Analytics：**&#x200B;先前稱為 SiteCatalyst。 用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。此工具已[終止服務](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
+* **Reports &amp; Analytics：**&#x200B;現已淘汰的報表與分析瀏覽器解決方案。 此工具已[終止服務](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。例如，顯示過去 7 天的報告可視為滾動式日期範圍。另請見「靜態日期範圍」。
 * **RSID：**&#x200B;報告套裝 ID 的縮寫。報告套裝同時具有好記的名稱和報告套裝 ID。
 * **s.t()：**&#x200B;傳送頁面檢視影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.track()`。請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。
 * **s<span>.</span>** tl()：傳送連結追蹤影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.trackLink()`。請參閱實施作業使用手冊中的 [tl](../implement/vars/functions/tl-method.md)。
 * **s_code.js：** Adobe Analytics 舊版本中使用的 JavaScript 檔案名稱。目前使用的 JavaScript 檔案名稱為 AppMeasurement.js。
-* **Satellite：**&#x200B;不再作為詞彙使用。Dynamic Tag Management 的舊產品名稱。
 * **次要伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，主要用於多套裝標記和計費的情境下。將相同點擊傳送至多個報告套裝時，所列出第一個報告套裝之後的所有報告套裝都是次要伺服器呼叫。另請見「主要伺服器呼叫」。
 * **區段：**&#x200B;可讓您專注在特定資料子集上。請參閱元件使用手冊中的[分段](/help/components/segmentation/seg-overview.md)。
 * **區段容器：**&#x200B;決定要傳入多少資料的區段部分。容器能以頁面檢視、造訪或訪客為依據。請參閱元件使用手冊中的[分段](/help/components/segmentation/seg-overview.md)。
@@ -105,7 +105,7 @@ ht-degree: 98%
 * **單次存取：**&#x200B;維度只有單一不重複值的造訪。只要沒有多個不重複值，該次造訪便可以有多個點擊。請參閱「元件」使用指南中的[單次存取](/help/components/metrics/single-access.md)量度。另請見「反彈」。
 * **SiteCatalyst：**&#x200B;不再作為詞彙使用。Adobe Analytics 舊產品的名稱。
 * **解決方案設計文件：**&#x200B;也稱為解決方案設計參考或 SDR。由組織維護的內部文件，概述如何使用自訂變數以及用來填入變數的邏輯。請參閱實施作業使用手冊中的[建立解決方案設計文件](/help/implement/prepare/solution-design.md)。
-* **子關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，子關聯可用來劃分轉換變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+* **子關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，子關聯可用來劃分轉換變數。請參閱Analytics工具指南中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **成功事件：**&#x200B;使用者採取的追蹤動作。貴組織需決定要追蹤哪些事件，以及使用哪些成功事件變數來追蹤這些事件。請參閱元件使用手冊中的[自訂事件](/help/components/metrics/custom-events.md)。
 * **支援的使用者：**&#x200B;請見「客戶支援委派」。
 * **流量變數：**&#x200B;也稱為 Prop。儲存單一點擊的自訂值。舊版 Adobe Analytics 為 prop 提供不重複值，但平台經過改良後，使得自訂流量變數大幅失去必要性。Adobe 建議在大多數情況下使用自訂轉換變數 (eVar)。請參閱「元件」使用指南中的 [Prop](/help/components/dimensions/prop.md) 維度。
