@@ -8,7 +8,7 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="workspace_map_button"
 >title="地圖"
->abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。此視覺效果有助於識別不同地理區域的資料。"
+>abstract="此視覺效果是透過將量度覆蓋在地圖上來表示量度。此一視覺化是辨識不同地理區域之間資料的實用方法。"
 
 <!-- markdownlint-enable MD034 -->
 
