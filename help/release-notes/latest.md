@@ -3,56 +3,47 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d7beee25af3551426eb905f0e727545de068b2d9
-workflow-type: ht
-source-wordcount: '882'
-ht-degree: 100%
+source-git-commit: b65da2936efc499df2afbe7c6195f3989ea1a832
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 65%
 
 ---
 
-# 最新 Adobe Analytics 版本注意事項 (2025 年 1 月發布)
+# 最新Adobe Analytics發行說明（2025年2月發行）
 
-**上次更新日期**：2024 年 1 月 22 日
+**上次更新日期**： 2024年2月19日
 
-這些發行說明涵蓋 2025 年 1 月 15 日至 2025 年 2 月中的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2025年2月11日到3月中旬的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **在新的報表產生器中排程** | 計劃不僅允許您規劃新的報表產生器工作簿。此外，它還允許您在轉換舊工作簿時檢索舊計劃任務的元資料。這樣，當您將舊工作簿轉換為新工作簿並安排它們時，您可以將它們發送到與舊工作簿相同的電子郵件並以相同的節奏發送。[了解更多](/help/analyze/report-builder/schedule-reportbuilder.md) |  | 2025 年 1 月 22 日 |
-| **Analysis Workspace 中報告 (也稱為範本) 的改進** | 報告 (也稱為範本) 現在提供了各種改進：<ul><li>現在稱為 [!UICONTROL 範本] （不再稱為 [!UICONTROL 報告]）。</li><li>改進了檢視和尋找範本的使用者體驗，包括在列視圖或卡片視圖中查看範本的選項。</li><li>全新、更直觀的公司範本的位置 (位於 **[!UICONTROL 工作區]** > **[!UICONTROL 範本]**&#x200B;下)。</li><li>以前，公司範本是在建立專案時從對話方塊存取的。</li><li>也提供其他預建範本。</li></ul>[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/templates/use-templates)。<p>管理員可以建立範本並將其保存以供公司中的其他登入人使用。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/templates/create-templates) | 2025 年 1 月 15 日 | 2025 年 1 月 30 日 |
-| **交易 ID 保留期** | 交易 ID 的 90 天保留期將於 2025 年 2 月延長至 25 個月。`transactionID` 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。(關注文件連結) |  | 2025 年 2 月 11 日 |
+| **交易 ID 保留期** | 90天的交易ID保留期將延長至25個月。 `transactionID` 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid)和[這裡](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)瞭解更多資訊。 |  | 2025年2月20日 |
+| **資料摘要API參考** | 資料摘要API的[參考](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)現已可用。 |  | 2025 年 1 月 30 日 |
+| **Livestream API — 使用者端實作** | 使用Livestream使用者端實作來使用Livestream資料。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日 |
+| **分類API的更新** | 您現在可以從伺服器移除個別分類欄位或金鑰。 這是使用DELETE方法刪除整個分類資料集的替代方法。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日 |
+
 
 ## Adobe Analytics 中的修正
 
-**A4T**：AN-355602；AN-365988
-**Activity Map**：AN-365320
-**Admin Console**：AN-363884
-**管理工具**：AN-356747；AN-358776
-**Advertising Analytics**：AN-355488
-**Analysis Workspace**：AN-345318；AN-354801；AN-357052；AN-358975；AN-362886；AN-363831；AN-364124；AN-365257；AN-365319；AN-365462；AN-366194
-**Analytics 1.4 API**：AN-358059
-**分類**：AN-360049；AN-360424；AN-360745；AN-362208；AN-362345；AN-362560；AN-362576；AN-362633；AN-362653；AN-362762；AN-362815；AN-362881；AN-362885；AN-362973；AN-363343；AN-363558；AN-363860；AN-364239；AN-364480；AN-364451；AN-364528；AN-364548；AN-364552；AN-364585；AN-364598；AN-364643；AN-364715；AN-364912；AN-364997；AN-365081；AN-365189；AN-365197；AN-365203；AN-365431；AN-365647；AN-365794；AN-366546
-**元件移轉**：AN-362236；AN-365429
-**貢獻度分析**：AN-360146
-**資料摘要**：AN-356997；AN-362470；AN-362498；AN-362775；AN-363323；AN-363413；AN-363569；AN-364063；AN-364142；AN-364294；AN-364298；AN-364325；AN-364367；AN-364594；AN-364995；AN-365127；AN-365272；AN-365519；AN-365760；AN-366152；
-**資料修復 API**：AN-362773；AN-362874
-**資料來源**：AN-360745；AN-362202；AN-364566
-**資料倉儲**：AN-361447；AN-362616；AN-364524；AN-365108
-**行動應用程式**：AN-362856；AN-365270
-**超額警示**：AN-355594；AN-364547
-**平台**：AN-358914；AN-360205；AN-362990；AN-364550；AN-365454；AN-365485
-**Report Builder**：AN-363478；AN-364433；AN-365610
-**報告活動管理員**：AN-362440
-**細分**：AN-359921
-**VISTA 規則**：AN-362927
+**Analysis Workspace**： AN-359974； AN-366212； AN-368460
+**分類**： AN-367186； AN-367328； AN-368548
+**元件移轉**： AN-364529； AN-366398； AN-367509；
+**資料摘要**： AN-365685； AN-366745； AN-367256； AN-367349； AN-368363
+**Data Warehouse**： AN-368178； AN-368331；
+**行動應用程式**： AN-367137
+**平台**： AN-351924； AN-365540； AN-365866； AN-366898； AN-367856； AN-367933
+**Report Builder**： AN-366456； AN-366655；
+**虛擬報告套裝**： AN-367411
+**VISTA規則**： AN-365331
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **非 Campaign 客戶將無法存取觸發程序** | 2023 年 10 月 16 日 | 2025 年 1 月 30 日，沒有 Adobe Campaign 授權的 Adobe Analytics 客戶將無法設定和使用[觸發程序](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/triggers)。客戶需要購買 Campaign，或計劃停止使用觸發程序，或研究提供觸發程序功能的其他 Adobe 工具。 |
+| **非 Campaign 客戶將無法存取觸發程序** | 2023 年 10 月 16 日 | 在2025年1月30日，沒有Adobe Campaign授權的Adobe Analytics客戶無法存取設定和使用[觸發器](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/triggers)的功能。 客戶需要購買 Campaign，或計劃停止使用觸發程序，或研究提供觸發程序功能的其他 Adobe 工具。 |
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
 
