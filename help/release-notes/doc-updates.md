@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '6026'
-ht-degree: 100%
+source-git-commit: e7808f5cd4c93cb6158f4fa4c1534b9dc71905b1
+workflow-type: tm+mt
+source-wordcount: '6071'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 * 如需有關串流媒體收集的資訊，請參閱[在 Analytics 中測量音訊和影片](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-hant)。
 
 ## 主要文件更新的詳細資訊
+
+### 2025 {#year2025}
+
+| 功能 | 說明 |
+| --- | --- |
+| **2025 年 2 月** |  |
+| 關於暫停和重新啟用資料摘要的更新資訊 | 當[暫停及重新啟動資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。 資料處理不會從摘要暫停的時間到重新啟用的時間進行。 |
 
 ### 2024 {#year2024}
 
