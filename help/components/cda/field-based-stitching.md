@@ -4,10 +4,10 @@ description: 了解使用欄位式拚接方式來結合資料的先決條件和�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: de8977e7ed7bf6bf93f75f608db34a7a3520ada7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 >若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * [總覽頁面](overview.md)上列出的所有先決條件。
-* 您的實作必須設定 prop 或 eVar，才能盡可能唯一識別個人身分，例如當使用者登入或開啟電子郵件時。 這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。 請避免為 prop 或 eVar 指派預設值。
+* 您的實作必須設定 prop 或 eVar，才能盡可能唯一識別個人身分，例如當使用者登入或開啟電子郵件時。 這項要求適用於所有平台，包括行動應用程式在內（若有使用）。<br/>請避免指派預設值給此prop或eVar。 為2,000部或更多不同裝置指派相同的預設值時，系統會將人員新增至「不良人員」清單，且這些事件會從啟用CDA的虛擬報表套裝中刪除，導致錯誤分析。
 * 為欄位式拚接進行布建時，請將所需的識別變數傳達給您的Adobe客戶團隊。
 
 ## 欄位式拚接的專屬限制
