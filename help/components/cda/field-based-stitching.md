@@ -4,7 +4,7 @@ description: 了解使用欄位式拚接方式來結合資料的先決條件和�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: 5faf1631a52594591a74a93868198da8bc0f9cff
+source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 83%
