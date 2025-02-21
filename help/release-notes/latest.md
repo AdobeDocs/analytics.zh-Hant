@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 924f5f670d2f29269a5ba6623079e839f1fe8122
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 65%
+source-wordcount: '700'
+ht-degree: 56%
 
 ---
 
 # 最新Adobe Analytics發行說明（2025年2月發行）
 
-**上次更新日期**： 2024年2月19日
+**上次更新日期**：2024 年 2 月 21 日
 
 這些發行說明涵蓋2025年2月11日到3月中旬的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **交易 ID 保留期** | 90天的交易ID保留期將延長至25個月。 `transactionID` 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid)和[這裡](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)瞭解更多資訊。 |  | 2025年2月20日 |
+| **交易 ID 保留期** | 90天的交易ID保留期已延長至25個月。 `transactionID` 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid)和[這裡](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid)瞭解更多資訊。 |  | 2025年2月20日 |
 | **資料摘要API參考** | 資料摘要API的[參考](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)現已可用。 |  | 2025 年 1 月 30 日 |
 | **Livestream API — 使用者端實作** | 使用Livestream使用者端實作來使用Livestream資料。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日 |
 | **分類API的更新** | 您現在可以從伺服器移除個別分類欄位或金鑰。 這是使用DELETE方法刪除整個分類資料集的替代方法。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日 |
@@ -43,6 +43,7 @@ ht-degree: 65%
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **即將更新Analytics內容資料欄位`a.locale`** | 2025年2月21日 | 將在2025年3月5日更新透過Experience Edge收集資料時如何設定Analytics內容資料欄位`a.locale`。 使用Experience Edge將資料傳送至Adobe Analytics時，Analytics欄位會根據XDM欄位對應填入。 `c.a.locale`的對映參考非標準XDM欄位`xdm.environment.language`。 此欄位將更新為參考正確的欄位`xdm.environment._dc.language`。  對應將繼續參考`xdm.environment.language`以回溯相容性。 若為連續性，如果兩個欄位都設定，則`xdm.environment.language`將取得優先權。 您可以在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)檢視從XDM對應至標準Analytics欄位的完整清單。 |
 | **非 Campaign 客戶將無法存取觸發程序** | 2023 年 10 月 16 日 | 在2025年1月30日，沒有Adobe Campaign授權的Adobe Analytics客戶無法存取設定和使用[觸發器](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/triggers)的功能。 客戶需要購買 Campaign，或計劃停止使用觸發程序，或研究提供觸發程序功能的其他 Adobe 工具。 |
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
