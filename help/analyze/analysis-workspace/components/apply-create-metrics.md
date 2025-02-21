@@ -4,10 +4,10 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
+source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 36%
+source-wordcount: '721'
+ht-degree: 30%
 
 ---
 
@@ -96,17 +96,17 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    * [!UICONTROL **乘**]：建立將兩個選取資料行的值相乘的新資料行。
 
-   * [!UICONTROL **百分比變更**]：建立新資料行，以顯示兩個選取資料行的百分比變更。
+   * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
 [計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
 
 ## 比較不同歸因模型的量度
 
-如果您想要快速輕鬆地比較一個歸因模型與另一個歸因模型，請在量度按一下右鍵，然後選取「**[!UICONTROL 比較歸因模型]**」：
+若要快速比較不同的歸因模型，請在量度上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 比較歸因模型]**：
 
 ![比較歸因](assets/compare-attribution.png)
 
-此快速鍵可讓您輕鬆快速地比較不同的歸因模型，而無須再次拖曳量度和進行設定。
+此快速鍵可讓您比較不同的歸因模型，而無須再次拖曳量度和進行設定。
 
 ## 使用[!UICONTROL 累積平均]函數以套用量度平滑處理
 
