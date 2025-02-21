@@ -4,10 +4,10 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 34c88ddd5537d9265c20b0dc6f3aff801fcedcbf
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 50%
+source-wordcount: '728'
+ht-degree: 36%
 
 ---
 
@@ -42,8 +42,6 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 >[!ENDSHADEBOX]
 
-
-
 ## 建立計算量度
 
 計算量度可讓您使用簡單的運運算元或統計函式，輕鬆檢視量度彼此間的關聯性。
@@ -64,21 +62,41 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 1. 在Analysis Workspace中，開啟您要建立計算量度的專案。
 
-1. 在自由表格中，以滑鼠右鍵按一下一或多個標題欄儲存格，然後選取&#x200B;**[!UICONTROL 從選取範圍建立量度]**
+1. 在自由表格中，以滑鼠右鍵按一下單一欄的欄標題。
+
+   或
+
+   按住Shift鍵同時選取兩欄，然後以滑鼠右鍵按一下其中一個選取的欄。
+
+1. 選取&#x200B;**[!UICONTROL 從選取專案建立量度]**
 
    ![Workspace面板反白顯示「從選取專案建立」](assets/create-metric-from-selection.png)
 
-1. 若要僅為此專案建立計算量度，請從下列選項中選擇：
+1. 若只要建立此專案的計算量度，請從可用的選項中選擇。
 
-   * [!UICONTROL **除**]
+   選取單一欄時，可使用下列選項：
 
-   * [!UICONTROL **減去**]
+   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 這會使用[Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean)函式。
 
-   * [!UICONTROL **新增**]
+   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 這會使用[Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)函式。
 
-   * [!UICONTROL **乘**]
+   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 這會使用[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)函式。
 
-   或者，若要開啟計算量度產生器並為所有專案建立計算量度，請選取「在計算量度產生器中開啟」[!UICONTROL ****]，然後繼續執行[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
+   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 這會使用[Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum)函式。
+
+   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 這會使用[資料行Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum)函式。
+
+   選取兩欄時，可使用下列選項：
+
+   * [!UICONTROL **除**]：建立新資料行，將兩個選取資料行的值相除。
+
+   * [!UICONTROL **減**]：建立新資料行，以減去兩個選取資料行的值。
+
+   * [!UICONTROL **新增**]：建立新資料行，將兩個選取資料行的值相加。
+
+   * [!UICONTROL **乘**]：建立將兩個選取資料行的值相乘的新資料行。
+
+   * [!UICONTROL **百分比變更**]：建立新資料行，以顯示兩個選取資料行的百分比變更。
 
 [計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
 
