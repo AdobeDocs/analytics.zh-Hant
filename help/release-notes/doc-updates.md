@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 372792a99d124e6f09eaf0f75310f3a0125c3461
+source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
 workflow-type: tm+mt
 source-wordcount: '6237'
 ht-degree: 96%
@@ -27,9 +27,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2025 年 2 月** |  |
 | 關於暫停和重新啟用資料摘要的更新資訊 | 當[暫停及重新啟動資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。 資料處理不會從摘要暫停的時間到重新啟用的時間進行。 |
-| 已變更的交易ID保留期間   90天的交易ID保留期已延長至25個月。 transactionID變數可唯一識別交易，因此點選能與透過Data Sources上傳的資料連結。 在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[這裡](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)瞭解更多資訊。 |
+| 已變更的交易ID保留期間 | 90天的交易ID保留期已延長至25個月。 transactionID變數可唯一識別交易，因此點選能與透過Data Sources上傳的資料連結。 在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[這裡](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)瞭解更多資訊。 |
 | Livestream API — 使用者端實作 | 使用[Livestream使用者端實作](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)來使用Livestream資料。 |
-| 分類API的更新\您現在可以[從伺服器](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)移除個別分類欄位或金鑰。 這是使用DELETE方法刪除整個分類資料集的替代方法。 |
+| 分類API的更新 | 您現在可以[從伺服器](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)移除個別的分類欄位或金鑰。 這是使用DELETE方法刪除整個分類資料集的替代方法。 |
 | **2025 年 1 月** |  |
 | 資料摘要API參考 | 資料摘要API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)的[參考現已可用。 |
 | 有關在新Report Builder中排程的新檔案 | [排程](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder)不僅可讓您排程新的Report Builder活頁簿。 此外，它可讓您在轉換舊版活頁簿時，擷取舊版排程工作的中繼資料。 |
