@@ -3,7 +3,7 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9fcf8871140e010d1c57c3af7004a45bd3a374a5
+source-git-commit: d8a715444a3f6876c4ed9e08e3dcbd6a02d96d9d
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 56%
@@ -12,7 +12,7 @@ ht-degree: 56%
 
 # 最新Adobe Analytics發行說明（2025年2月發行）
 
-**上次更新日期**：2024 年 2 月 21 日
+**上次更新日期**：2025年2月21日
 
 這些發行說明涵蓋2025年2月11日到3月中旬的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -24,7 +24,7 @@ ht-degree: 56%
 | **資料摘要API參考** | 資料摘要API的[參考](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)現已可用。 |  | 2025 年 1 月 30 日 |
 | **Livestream API — 使用者端實作** | 使用Livestream使用者端實作來使用Livestream資料。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025年2月18日 |
 | **分類API的更新** | 您現在可以從伺服器移除個別分類欄位或金鑰。 這是使用DELETE方法刪除整個分類資料集的替代方法。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025年2月18日 |
-| **更新Analytics內容資料欄位`a.locale`** | 排定的更新將會在透過Experience Edge收集資料時變更Analytics內容資料欄位`a.locale`的設定方式。 使用Experience Edge將資料傳送至Adobe Analytics時，Analytics欄位會根據XDM欄位對應填入。 `c.a.locale`的對映參考非標準XDM欄位`xdm.environment.language`。 此欄位將更新為參考正確的欄位`xdm.environment._dc.language`。  對應將繼續參考`xdm.environment.language`以回溯相容性。 若為連續性，如果兩個欄位都設定，則`xdm.environment.language`將取得優先權。 您可以在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)檢視從XDM對應至標準Analytics欄位的完整清單。 | | 2025年3月5日 |
+| **更新Analytics內容資料欄位`a.locale`** | 排定的更新將會在透過Experience Edge收集資料時變更Analytics內容資料欄位`a.locale`的設定方式。 使用Experience Edge將資料傳送至Adobe Analytics時，Analytics欄位會根據XDM欄位對應填入。 `c.a.locale`的對映參考非標準XDM欄位`xdm.environment.language`。 此欄位將更新為參考正確的欄位`xdm.environment._dc.language`。<p>對應將繼續參考`xdm.environment.language`以回溯相容性。 若為連續性，如果兩個欄位都設定，則`xdm.environment.language`將取得優先權。 您可以在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/aep-edge/xdm-var-mapping)檢視從XDM對應至標準Analytics欄位的完整清單。 | | 2025年3月5日 |
 
 
 ## Adobe Analytics 中的修正
