@@ -3,9 +3,9 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建置量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1139'
 ht-degree: 43%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便�
 
 ## 開始建立計算量度
 
-您可以使用計算量度產生器建立計算量度。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。 或者，您也可以建立快速計算量度，如[在[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中為單一專案](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)建立計算量度中所述。
+您可以使用計算量度產生器來建立或編輯計算量度。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。 或者，您也可以建立快速計算量度，如[在[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中為單一專案](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)建立計算量度中所述。
 
 存取計算量度產生器，以開始建立元件清單中可用的計算量度。
 
@@ -43,7 +43,7 @@ Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便�
 
    * 在Analysis Workspace中，開啟專案，然後選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 建立量度]**。
    * 在Analysis Workspace中，開啟專案，然後選取左側邊欄中&#x200B;[!UICONTROL **量度**]&#x200B;區段旁的&#x200B;**加號**&#x200B;圖示。
-   * 在[!DNL Customer Journey Analytics]中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**，然後選取計算量度頁面頂端的&#x200B;**[!UICONTROL +新增]**。
+   * 在[!DNL Adobe Analytics]中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**，然後選取計算量度頁面頂端的&#x200B;**[!UICONTROL +新增]**。
 
 1. 繼續使用計算量度產生器](#areas-of-the-calculated-metrics-builder)的[區域。
 
@@ -70,7 +70,7 @@ Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便�
 | 13 | **齒輪圖示（量度型別、歸因）：**&#x200B;選取量度旁的齒輪圖示，即可指定<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  >量度型別和歸因模型</a>。 |
 | 14 | **新增：**&#x200B;可讓您建立新元件，例如新區段（會帶您前往<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >區段產生器</a>）。 |
 | 15 | **搜尋元件：**&#x200B;此搜尋列可讓您搜尋維度、量度、區段（僅限進階計算量度）和函式（僅限進階計算量度）。 |
-| 16 | **Dimension清單：**&#x200B;您可以將「頁面」拖曳進來，並直接從計算量度產生器選取「首頁」，而不用為了在區段產生器中建立簡易區段（例如「頁面=首頁」）而離開計算量度產生器。<p>如此將可讓工作流程更為流暢，方便建立區段計算量度。</p> |
+| 16 | **維度清單：**&#x200B;您可以將「頁面」拖曳進來，並直接從計算量度產生器選取「首頁」，而不用為了在區段產生器中建立簡易區段（例如「頁面=首頁」）而離開計算量度產生器。<p>如此將可讓工作流程更為流暢，方便建立區段計算量度。</p> |
 | 17 | **量度清單：**&#x200B;量度共有3個類別： <ul> <li>標準量度(<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>計算量度( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">量度範本( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) — 在清單底部。 </li> </ul> <p>當您將游標停留在量度上時，其右側會顯示資訊圖示： <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。按一下此圖示會提供下列資訊： </p><ul> <li>其計算公式。 </li><li>量度的預覽趨勢。 </li><li>編輯（鉛筆）圖示 <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" />位於右上方，帶您前往計算量度產生器以編輯此計算量度。 </li></ul> |
 | 18 | **區段清單：** （僅限進階計算量度）身為管理員，此清單會顯示在您的登入公司中建立的所有區段。 如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> |
 | 19 | **函式清單：** （僅限進階計算量度）函式分為兩個清單： <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本</a> （最常使用）和<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >進階</a>。 |

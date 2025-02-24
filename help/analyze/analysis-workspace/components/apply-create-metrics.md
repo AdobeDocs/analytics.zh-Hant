@@ -4,9 +4,9 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 3bc8988346f894aedb30988f2d386afe65584537
+source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '722'
 ht-degree: 30%
 
 ---
@@ -56,7 +56,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ### 為單一專案建立計算量度
 
-您可以建立快速計算量度，這些量度只適用於建立所在的專案。
+您可以快速建立計算量度，該量度僅適用於建立該量度的專案。
 
 若要建立單一專案的計算量度：
 
