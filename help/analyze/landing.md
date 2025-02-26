@@ -4,9 +4,9 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1658'
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+workflow-type: tm+mt
+source-wordcount: '1463'
 ht-degree: 100%
 
 ---
@@ -134,4 +134,3 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 | 我的上一個 Reports &amp; Analytics「我的最愛」是否會移轉過來？ | 否，這些不會移轉過來。但是，[!UICONTROL 工作區]中任何「我的最愛」會移轉過來。 |
 | 我可釘選的專案數量是否有上限？ | 沒有，您可以釘選的專案數量沒有限制。 |
 | 管理員是否可以為他們的使用者指定此登陸頁面？ | 否，管理員不可以代表他們的使用者指定此登陸頁面。 個人使用者必須自己開啟切換功能。 |
-| [!DNL Reports & Analytics] 中既有的全部報告是否仍可用為範本？ | 否，以下報告已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報告</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點擊類型 VISTA 規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |

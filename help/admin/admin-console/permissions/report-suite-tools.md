@@ -1,12 +1,12 @@
 ---
-title: Adobe Admin Console 中報表套裝工具的產品描述檔權限
+title: Adobe Admin Console 中報告套裝工具的產品設定檔權限
 description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 90%
 
 ---
@@ -20,14 +20,13 @@ ht-degree: 90%
 | [!UICONTROL 帳戶摘要] | 授與「報告套裝管理器」中「一般 > 一般帳戶設定」的存取權。 |
 | [!UICONTROL Advertising Analytics設定] | 可讓使用者設定要為 Advertising Analytics 佈建的報告套裝。 |
 | [!UICONTROL 異常偵測] | 授與 Analysis Workspace 中異常偵測功能的存取權。 |
-| [!UICONTROL 頻道] | 授與「報告套裝管理器」中行銷管道的存取權，包括「行銷管道管理器」、「行銷管道處理規則」和「行銷管道有效期」。 |
+| [!UICONTROL 頻道] | 授與「報告套裝管理器」中行銷管道的存取權，包括「行銷管道管理器」、「行銷管道處理規則」和「行銷管道期限」。 |
 | [!UICONTROL 分類] | 授予「報告套裝管理器」中所有分類設定的存取權。此權限項目包括：<br>流量 > 流量分類<br>轉換 > 轉換分類<br>轉換 > 分類階層<br>行銷管道 > 行銷管道分類<br>應用程式管理 > 應用程式分類<br>媒體管理 > 媒體分類<br>AEM > AEM Assets 分類<br>Adobe Campaign > Adobe 分類 |
 | [!UICONTROL 成本] | 授與「報告套裝管理器」中「行銷管道 > 行銷管道成本」的存取權。 |
 | [!UICONTROL 貢獻分析] | 授與 Analysis Workspace 中滑鼠右鍵功能表的「執行貢獻分析」存取權。 |
 | [!UICONTROL 轉換變數] | 授與「報告套裝管理器」中「轉換 > 轉換變數」的存取權。 |
 | [!UICONTROL 自訂日曆] | 授與「報告套裝管理器」中「一般 > 自訂日曆」的存取權。 |
 | [!UICONTROL 自訂 Data Warehouse 報表] | 授與 Analytics 頂端導覽列中「工具 > Data Warehouse」的存取權。 |
-| [!UICONTROL 每日回訪] | 授與「Reports &amp; Analytics」中「訪客保留率 > 每日回訪」的存取權。 |
 | [!UICONTROL 資料摘要管理員] | 授予 Analytics 頂端導覽列中「管理員 > 資料摘要」的存取權。 |
 | [!UICONTROL 資料來源管理員] | 授予 Analytics 頂端導覽列中「管理員 > 所有管理員 > 資料來源」的存取權。 需要權限項目「報告套裝管理」。 |
 | [!UICONTROL 資料修復API] | 授與資料修復 API 的權限 |

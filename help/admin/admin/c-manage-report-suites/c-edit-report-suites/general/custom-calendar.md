@@ -4,10 +4,10 @@ title: 自訂行事曆
 feature: Admin Tools
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 97%
+source-wordcount: '561'
+ht-degree: 94%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 97%
 | 自訂日曆 | 根據每個月的週數提供三種格式。每月週數取決於當年所選的第一天。 一年有 52 週。將總週數分為 4 季，則每季有 13 週。但每季有 3 個月。13 週無法平均分配到三個月中，所以多出來的那一週會放到其中一個月，如此便能總是維持週數的一致性。<ul><li>5/4/4 指的是多出來的那一週放到該季的第 1 個月。4/5/4 指的是多出來的那一週放到該季的第 2 個月，依此類推。在 5-4-4 日曆中，第 53 週會新增至該年的最後一季中。</li><li>4-5-4：一月有四週，二月有五週，三月有四週，依此類推。</li><li>4-4-5：一月有四週，二月有四週，三月有五週，依此類推。</li><li>5-4-4：一月有五週，二月有四週，三月有四週，依此類推。</li></ul> |
 
 >[!NOTE]
->Data Warehouse 以外的所有 Adobe Analytics 工具 (Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map) 都支援這些日曆選項。 Data Warehouse 只能完整支援西曆。 在選擇非西曆時，Data Warehouse 將會使用非西曆的預期日期範圍，但報表列中的日/週/月劃分可能與非西曆的預期不同。
+>除了Data Warehouse，其他所有Adobe Analytics工具(Analysis Workspace、Report Builder、Activity Map)都支援這些行事曆選項。 Data Warehouse 只能完整支援西曆。 在選擇非西曆時，Data Warehouse 將會使用非西曆的預期日期範圍，但報表列中的日/週/月劃分可能與非西曆的預期不同。

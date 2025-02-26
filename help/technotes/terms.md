@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 9f7fe19c4d9dd9f3940a64c1e20e897ac6febe52
+source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
 workflow-type: tm+mt
-source-wordcount: '2589'
+source-wordcount: '2580'
 ht-degree: 89%
 
 ---
@@ -50,8 +50,8 @@ ht-degree: 89%
 * **資料層：** [資料層](/help/implement/prepare/data-layer.md)是網站上JavaScript物件的架構，包含Analytics實作中使用的變數值。 如此，在將值指派給 Analytics 變數時，可以更好控制和易於維護。
 * **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。通常會從 FTP 網站提取檔案。請參閱匯入使用手冊中的[資料來源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 的一項功能，可用來請求較大型的報告。請參閱匯出使用手冊中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
-* **Data Workbench：** [已淘汰](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-workbench)分析工具，專門收集、處理、分析和視覺化來自多個管道之線上和離線客戶互動的資料。
-* **Dimension：** Dimension為非數值和日期，例如性別、月份、年齡、忠誠度、監視器解析度等。 其他範例包括頁面名稱、追蹤代碼或反向連結網域。 量度通常是其對應項目。
+* **Data Workbench：** [已淘汰](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-workbench)分析工具，專為收集、處理、分析和視覺化來自多個管道之線上和離線客戶互動的資料而設計。
+* **Dimension：**&#x200B;維度是非數值和日期，例如性別、月份、年齡、忠誠度、監視器解析度等。 其他範例包括頁面名稱、追蹤代碼或反向連結網域。 量度通常是其對應項目。
 * **Dimension劃分：**&#x200B;每個維度都可以劃分成更細微的詳細資訊層級。 例如，「月」維度可劃分為1月、2月、3月等。
 * **事件序列化：**&#x200B;防止收集重複事件的實施作業措施程序。請參閱實施作業使用手冊中的[事件序列化](../implement/vars/page-vars/events/event-serialization.md)。
 * **eVar：**&#x200B;請見「轉換變數」。
@@ -91,7 +91,7 @@ ht-degree: 89%
 * **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md)增益集可讓您從Adobe Analytics資料建立自訂請求。
 * **報告套裝：**&#x200B;您所傳送資料的目的地總體容器。Adobe Analytics 中的所有報告都會參照報告套裝。
-* **Reports &amp; Analytics：**&#x200B;現已淘汰的報表與分析瀏覽器解決方案。 此工具已[終止服務](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
+* **Reports &amp; Analytics：**&#x200B;此工具[生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。例如，顯示過去 7 天的報告可視為滾動式日期範圍。另請見「靜態日期範圍」。
 * **RSID：**&#x200B;報告套裝 ID 的縮寫。報告套裝同時具有好記的名稱和報告套裝 ID。
 * **s.t()：**&#x200B;傳送頁面檢視影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.track()`。請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。
