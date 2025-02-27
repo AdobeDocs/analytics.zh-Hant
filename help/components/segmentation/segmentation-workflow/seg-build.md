@@ -16,8 +16,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
->title="建立客群"
->abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>title="建立對象"
+>abstract="對象可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -18,7 +18,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaminuteaverageaudience_button"
 >title="媒體平均分鐘觀眾數"
->abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
+>abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均對象數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 >[!BEGINSHADEBOX]
 
-本文以&#x200B;**Customer Journey Analytics**&#x200B;記錄媒體平均每分鐘觀眾數面板(_T)。<br/>請參閱本文&#x200B;**Adobe Analytics**&#x200B;版本的[媒體平均每分鐘觀眾數面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)。*
+本文記錄了&#x200B;**Customer Journey Analytics**&#x200B;中的「媒體平均每分鐘觀眾數」面板(_T)。<br/>請參閱本文&#x200B;**Adobe Analytics**&#x200B;版本的[媒體平均每分鐘觀眾數面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)。*
 
 >[!ENDSHADEBOX]
 

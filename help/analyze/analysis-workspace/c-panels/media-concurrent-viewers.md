@@ -19,7 +19,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="媒體同時檢視者"
->abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
+>abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均對象數。"
 
 <!-- markdownlint-enable MD034 -->
 

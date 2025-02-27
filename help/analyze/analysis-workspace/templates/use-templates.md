@@ -136,7 +136,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 >[!CONTEXTUALHELP]
 >id="template--pagesRankedReport"
 >title="找出最受歡迎和最不受歡迎頁面。"
->abstract="**這有助於您**&#x200B;更加了解您的客群，以及他們最感興趣的資訊類型。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如調整頁面中繼資料來提高瀏覽數較少之頁面的可見度，或花時間改善瀏覽數最多之頁面的內容。<br/>此範本使用頁面維度和頁面瀏覽數量度。"
+>abstract="**這有助於您**&#x200B;更加了解您的對象，以及他們最感興趣的資訊類型。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如調整頁面中繼資料來提高瀏覽數較少之頁面的可見度，或花時間改善瀏覽數最多之頁面的內容。<br/>此範本使用頁面維度和頁面瀏覽數量度。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -163,7 +163,7 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 >[!CONTEXTUALHELP]
 >id="template--visitorsOvertimeReport"
 >title="檢視不重複訪客總數。會顯示一段期間內的資料，並與先前的期間進行比較。 "
->abstract="**這有助於您**&#x200B;更加了解網站的觸及範圍和客群規模，隨時間或與先前時期相比增加或減少的情況。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。<br/>此範本使用日維度和不重複訪客量度。 "
+>abstract="**這有助於您**&#x200B;更加了解網站的觸及範圍和對象規模，隨時間或與先前時期相比增加或減少的情況。<br/>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。<br/>此範本使用日維度和不重複訪客量度。 "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -262,10 +262,10 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | 範本名稱 | 為何使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- | 
 | [!UICONTROL **訓練教學課程**] | 瞭解常用的Analysis Workspace術語和建立第一個分析的步驟 |
-| [!UICONTROL **頁面**] | <!--duplicated in Engagement section--> 找出最受歡迎和最不受歡迎頁面。 <p>**這有助於您**&#x200B;更加了解您的客群，以及他們最感興趣的資訊類型。</p><p>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如調整頁面中繼資料以增加檢視次數較少的頁面上的可見度，或是花時間改善檢視次數最多的頁面的內容。</p><p>此範本使用[頁面維度](/help/components/dimensions/page.md)和[頁面檢視量度](/help/components/metrics/page-views.md)。</p> |
+| [!UICONTROL **頁面**] | <!--duplicated in Engagement section--> 找出最受歡迎和最不受歡迎頁面。 <p>**這有助於您**&#x200B;更加了解您的對象，以及他們最感興趣的資訊類型。</p><p>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如調整頁面中繼資料以增加檢視次數較少的頁面上的可見度，或是花時間改善檢視次數最多的頁面的內容。</p><p>此範本使用[頁面維度](/help/components/dimensions/page.md)和[頁面檢視量度](/help/components/metrics/page-views.md)。</p> |
 | [!UICONTROL **頁面檢視**] | <!--duplicated in Engagement section--> 檢視頁面總瀏覽數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期流量。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[頁面檢視量度](/help/components/metrics/page-views.md)。</p> |
 | [!UICONTROL **造訪數**] | <!--duplicated in Engagement section--> 檢視造訪總次數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期流量。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[造訪量度](/help/components/metrics/visits.md)。</p> |
-| [!UICONTROL **訪客**] | <!--duplicated in Engagement section--> 檢視不重複訪客總數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站的觸及範圍和客群規模，隨時間或與先前時期相比增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
+| [!UICONTROL **訪客**] | <!--duplicated in Engagement section--> 檢視不重複訪客總數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站的觸及範圍和對象規模，隨時間或與先前時期相比增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
 | [!UICONTROL **關鍵量度**] | <!--duplicated in Engagement section--> 檢視以並排方式顯示頁面瀏覽數、造訪次數與不重複訪客量度的報告。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;比較這些重要量度，更全面地了解造訪網站的不重複訪客數量、頁面造訪次數，以及工作階段數量。</p><p>**根據您所瞭解的情況，您可**&#x200B;執行任何數量的工作，例如評估每個人在指定的一週或一個月內造訪網站時檢視的平均頁數，以及在一年中的特定時間或在執行行銷活動之前和之後的變化。 </p><p>此範本使用[天維度](/help/components/dimensions/day.md)、[頁面檢視量度](/help/components/metrics/page-views.md)、[造訪量度](/help/components/metrics/visits.md)以及[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
 | [!UICONTROL **網站區域**] | 檢視您網站上最受歡迎或績效最好的區段。 <p>**這有助於您**&#x200B;更加了解使用者最常造訪網站的哪些區段。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估您提供的哪些產品或服務最能引起人們興趣。</p> <p>此範本使用[網站區段維度](/help/components/dimensions/site-section.md)和[造訪量度](/help/components/metrics/visits.md)。</p> |
 | [!UICONTROL **追蹤代碼**] | 檢視將流量導向您的網站效果最好的連結。 <p>**這有助於您**&#x200B;更加了解在造訪您的網站時，哪些追蹤程式碼 (以及與其相關的連結) 最常被使用。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如針對在網站上新增連結的位置調整相關策略。</p><p>此範本使用[追蹤代碼維度](/help/components/dimensions/tracking-code.md)和[造訪量度](/help/components/metrics/visits.md)。</p> |
@@ -488,9 +488,9 @@ Analysis Workspace中的範本（或公司範本）可快速深入分析最常�
 | --- | --- | 
 | [!UICONTROL **關鍵量度**] | <!--duplicated in Most popular section--> 檢視以並排方式顯示頁面瀏覽數、造訪次數與不重複訪客量度的報告。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;比較這些重要量度，更全面地了解造訪網站的不重複訪客數量、頁面造訪次數，以及工作階段數量。</p><p>**根據您所瞭解的情況，您可**&#x200B;執行任何數量的工作，例如評估每個人在指定的一週或一個月內造訪網站時檢視的平均頁數，以及在一年中的特定時間或在執行行銷活動之前和之後的變化。 </p><p>此範本使用[天維度](/help/components/dimensions/day.md)、[頁面檢視量度](/help/components/metrics/page-views.md)、[造訪量度](/help/components/metrics/visits.md)以及[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
 | [!UICONTROL **頁面檢視**] | <!--duplicated in Most popular section-->檢視頁面總瀏覽數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期流量。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[頁面檢視量度](/help/components/metrics/page-views.md)。</p> |
-| [!UICONTROL **頁面**] | <!--duplicated in Most popular section-->找出最受歡迎和最不受歡迎頁面。 <p>**這有助於您**&#x200B;更加了解您的客群，以及他們最感興趣的資訊類型。</p><p>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如調整頁面中繼資料以增加檢視次數較少的頁面上的可見度，或是花時間改善檢視次數最多的頁面的內容。</p><p>此範本使用[頁面維度](/help/components/dimensions/page.md)和[頁面檢視量度](/help/components/metrics/page-views.md)。</p> |
+| [!UICONTROL **頁面**] | <!--duplicated in Most popular section-->找出最受歡迎和最不受歡迎頁面。 <p>**這有助於您**&#x200B;更加了解您的對象，以及他們最感興趣的資訊類型。</p><p>**根據您瞭解的情況，您可能**&#x200B;會執行許多動作，例如調整頁面中繼資料以增加檢視次數較少的頁面上的可見度，或是花時間改善檢視次數最多的頁面的內容。</p><p>此範本使用[頁面維度](/help/components/dimensions/page.md)和[頁面檢視量度](/help/components/metrics/page-views.md)。</p> |
 | [!UICONTROL **造訪數**] | <!--duplicated in Most popular section-->檢視造訪總次數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。或者您可以比較逐年的假期流量。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[造訪量度](/help/components/metrics/visits.md)。</p> |
-| [!UICONTROL **訪客**] | <!--duplicated in Most popular section-->檢視不重複訪客總數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站的觸及範圍和客群規模，隨時間或與先前時期相比增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
+| [!UICONTROL **訪客**] | <!--duplicated in Most popular section-->檢視不重複訪客總數。會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這有助於您**&#x200B;更加了解網站的觸及範圍和對象規模，隨時間或與先前時期相比增加或減少的情況。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前和發起後的不重複訪客，評估最近發起之行銷活動是否成功吸引新使用者造訪網站。或者您可以比較逐年的假期期間造訪網站的人數。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
 | [!UICONTROL **每次造訪逗留時間**] | 檢視訪客每次造訪期間平均在您網站上逗留的時間。會顯示一段期間內的資料，並與先前的時段進行比較。 <p>**這可以幫助您**&#x200B;更加了解訪客參與度以及訪客在網站上逗留的時間。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估網站的變更是否會讓訪客在網站上停留更長時間。</p><p>此範本使用[天維度](/help/components/dimensions/day.md)和[每次造訪逗留時間（秒）量度](/help/components/metrics/time-spent-per-visit.md)。</p> |
 | [!UICONTROL **事件之前時間**] | 檢視使用者在成功事件之前的平均逗留時間。 <p>**這有助於您**&#x200B;更加了解訪客執行其所需動作 (例如進行購買) 所花的時間。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種動作，例如評估網站的變更是否讓訪客更能夠快速達到成功事件。</p><p>此範本使用[事件之前時間](/help/components/dimensions/time-prior-to-event.md)和[不重複訪客量度](/help/components/metrics/unique-visitors.md)。</p> |
 | [!UICONTROL **網站區域**] | <!--duplicated in Most popular section-->檢視您網站上最受歡迎或績效最好的區段。 <p>**這有助於您**&#x200B;更加了解使用者最常造訪網站的哪些區段。</p><p>**根據了解到的內容，您可以**&#x200B;採取各種行動，例如評估您提供的哪些產品或服務最能引起人們興趣。</p> <p>此範本使用[網站區段維度](/help/components/dimensions/site-section.md)和[造訪量度](/help/components/metrics/visits.md)。</p> |
