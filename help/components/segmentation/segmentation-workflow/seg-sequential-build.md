@@ -3,9 +3,9 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 1b9341efbde5698b73581f50c4ab851434e7e323
+source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
 workflow-type: tm+mt
-source-wordcount: '2410'
+source-wordcount: '2420'
 ht-degree: 6%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 6%
 
 ## [!UICONTROL After]和[!UICONTROL Within]
 
-您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;與![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;運運算元來定義點選、造訪或Dimension](#event-session-and-dimension-constraints)的其他[時間限制](#time-constraints)或[限制。
+您可以使用![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]**&#x200B;與![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL Within]** **[!UICONTROL Then]**&#x200B;運運算元來定義點選、造訪或維度的其他[時間限制](#time-constraints)或[限制](#event-session-and-dimension-constraints)。
 
 ### 時間限制
 
@@ -299,3 +299,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 
 ![複雜循序區段範例](assets/sequential-complex.png)
+
+>[!MORELIKETHIS]
+>
+> * [在AA與CJA中掌握循序邏輯： THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)簡介
