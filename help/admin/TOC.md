@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 5ceb21e8d3ed711fd3d789aef0b6ae589ee2dd1e
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,12 @@ ht-degree: 100%
    + [Adobe Analytics 中的管理員角色](admin-console/admin-roles-in-analytics.md)
    + Analytics 工具權限摘要{#permissions}
       + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
-      + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
+      + [報告套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
 + Analytics 管理員工具{#admin-tools}
    + [管理員工具概觀](admin/c-admin-tools.md)
    + [程式碼管理員](admin/code-manager-admin.md)
+   + [Analytics 庫存](admin/analytics-inventory.md)
    + [資料來源](admin/data-sources.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
@@ -101,7 +102,7 @@ ht-degree: 100%
             + [行銷管道管理員](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [行銷管道處理規則](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [行銷管道分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
-            + [行銷管道有效期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
+            + [行銷管道期限](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概觀](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [排程尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
