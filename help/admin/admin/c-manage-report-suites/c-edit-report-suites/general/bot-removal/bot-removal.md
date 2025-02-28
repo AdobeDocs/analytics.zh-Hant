@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 移除機器人的方式
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 81%
+source-wordcount: '791'
+ht-degree: 78%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ## 使用 Adobe 工具組合
 
-此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience CloudID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。  以下為工具運用方式總覽。
+此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。  以下為工具運用方式總覽。
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
@@ -95,3 +95,10 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 ### 步驟 7：定期重複步驟 2、3 和 4
 
 提醒自己至少每月識別與篩除新機器人一次，盡可能在定期排程分析之前完成。
+
+>[!MORELIKETHIS]
+>
+>* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+
