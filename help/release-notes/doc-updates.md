@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: c86bbff8e9b23cafdf2bd5a9e980be6d70ce3c5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6237'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 2 月** |  |
-| 關於暫停和重新啟用資料摘要的更新資訊 | 當[暫停及重新啟動資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。 資料處理不會從摘要暫停的時間到重新啟用的時間進行。 |
-| 已變更的交易ID保留期間 | 90天的交易ID保留期已延長至25個月。 transactionID變數可唯一識別交易，因此點選能與透過Data Sources上傳的資料連結。 在[這裡](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[這裡](https://experienceleague.adobe.com/en/docs/analytics/import/data-sources/transactionid?lang=en)瞭解更多資訊。 |
-| Livestream API — 使用者端實作 | 使用[Livestream使用者端實作](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)來使用Livestream資料。 |
-| 分類API的更新 | 您現在可以[從伺服器](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)移除個別的分類欄位或金鑰。 這是使用DELETE方法刪除整個分類資料集的替代方法。 |
+| 暫停和重新啟用資料摘要的相關更新資訊 | 當[暫停及重新啟用資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。在摘要暫停到重新啟用期間不會進行資料處理。 |
+| 調整交易 ID 保留期 | 90 天的交易 ID 保留期已延長至 25 個月交易 ID 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。在[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/data-sources/transactionid?lang=en)了解更多資訊。 |
+| 直播 API：用戶端實施 | 使用[直播用戶端實施](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/)以使用直播資料。 |
+| 分類 API 更新內容 | 您現在可以[從伺服器移除個別的分類欄位或金鑰](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/)。這是使用 DELETE 方法刪除整個分類資料集的替代方法。 |
 | **2025 年 1 月** |  |
-| 資料摘要API參考 | 資料摘要API](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)的[參考現已可用。 |
-| 有關在新Report Builder中排程的新檔案 | [排程](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/schedule-reportbuilder)不僅可讓您排程新的Report Builder活頁簿。 此外，它可讓您在轉換舊版活頁簿時，擷取舊版排程工作的中繼資料。 |
-| Analysis Workspace報表（也稱為範本）的改良功能 | 現在提供各種報表改善（也稱為[範本](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)） |
+| 資料摘要 API 參考文件 | [資料摘要 API 的參考文件](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)現已可供使用。 |
+| 全新 Report Builder 排程功能的全新文檔 | [排程功能](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/schedule-reportbuilder)不僅能讓您安排新的 Report Builder 活頁簿。此外在轉換舊版活頁簿時，也能讓您獲取舊版已排程任務的中繼資料。 |
+| Analysis Workspace 中報告 (也稱為範本) 的改進 | 報告 (也稱為[範本](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/templates/use-templates?lang=en)) 現在提供了各種改善功能： |
 
 
 ### 2024 {#year2024}
