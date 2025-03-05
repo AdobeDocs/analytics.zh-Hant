@@ -4,16 +4,16 @@ description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 5e97c9a4a3c7368cefb3cc6a7bc89a450e6e3f4a
+source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1418'
 ht-degree: 56%
 
 ---
 
 # XDM物件變數對應至Adobe Analytics
 
-下表顯示Adobe Experience PlatformEdge Network自動對應至Adobe Analytics的XDM變數。 如果您使用這些XDM欄位路徑，則傳送資料給Adobe Analytics不需要額外的設定。 這些欄位包含在&#x200B;**[!UICONTROL Adobe Analytics ExperienceEvent範本]**&#x200B;欄位群組中。 如果您想要將資料傳送至Adobe Analytics和Adobe Experience Platform，建議您使用這些欄位。
+下表顯示Adobe Experience Platform Edge Network自動對應至Adobe Analytics的XDM變數。 如果您使用這些XDM欄位路徑，則傳送資料給Adobe Analytics不需要額外的設定。 這些欄位包含在&#x200B;**[!UICONTROL Adobe Analytics ExperienceEvent範本]**&#x200B;欄位群組中。 如果您想要將資料傳送至Adobe Analytics和Adobe Experience Platform，建議您使用這些欄位。
 
 如果您的組織計畫移至Customer Journey Analytics，Adobe建議改用`data`物件，在不符合結構描述的情況下，直接將資料傳送至Adobe Analytics。 此策略可讓您的組織使用自己的結構描述，而不使用[!UICONTROL Adobe Analytics ExperienceEvent範本] (不太適用於Customer Journey Analytics)。 如需類似的對應表格，請參閱[對應至Adobe Analytics](data-var-mapping.md)的資料物件變數。
 
@@ -66,6 +66,7 @@ ht-degree: 56%
 | `xdm.environment.carrier` | 行動生命週期維度[電信業者名稱](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | 協助設定[連線類型](../../components/dimensions/connection-type.md)維度。 |
 | `xdm.environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
+| `xdm.environment._dc.language` | 行動維度地區設定。 |
 | `xdm.environment.language` | 行動維度地區設定。 |
 | `xdm.environment.operatingSystem` | 行動生命週期維度[作業系統](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 協助設定行動生命週期維度[作業系統版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
