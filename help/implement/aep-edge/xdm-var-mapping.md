@@ -4,10 +4,10 @@ description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: 0d7788f7a17a61e823839017a61bcf9b778c2a57
+source-git-commit: 41395781f34d395954a1fc9de0351e4c63c1d6f8
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 56%
+source-wordcount: '1425'
+ht-degree: 55%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 56%
 | `xdm.environment.carrier` | 行動生命週期維度[電信業者名稱](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.connectionType` | 協助設定[連線類型](../../components/dimensions/connection-type.md)維度。 |
 | `xdm.environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
-| `xdm.environment._dc.language` | 行動維度地區設定。 |
+| `xdm.environment._dc.language` | 行動維度地區設定。 僅在未設定xdm.environment.language時使用。 |
 | `xdm.environment.language` | 行動維度地區設定。 |
 | `xdm.environment.operatingSystem` | 行動生命週期維度[作業系統](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 協助設定行動生命週期維度[作業系統版本](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)。 |
