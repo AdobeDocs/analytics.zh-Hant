@@ -4,10 +4,10 @@ title: 標籤最佳作法
 feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '2830'
-ht-degree: 88%
+source-wordcount: '2287'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。 啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實施行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
-I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤具有相同的含義。 不過，它們的用途大不相同。 在Adobe Analytics中，這些標籤用於協助識別應因Privacy Service請求而匿名的欄位。 在Adobe Experience Platform中，它們用於存取控制、同意管理，以及在標籤欄位上強制執行行銷限制。 Adobe Experience Platform支援許多Adobe Analytics未使用的其他標籤。 如果您使用Analytics Data Connector將Adobe Analytics資料匯入Adobe Experience Platform，您應確保已在Adobe Analytics中套用的任何I1、I2、S1和S2標籤，也會套用至Adobe Experience Platform中由匯入報表套裝使用的結構描述。
+I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤具有相同的含義。 不過，它們的用途大不相同。 在Adobe Analytics中，這些標籤可用來幫助識別應因Privacy Service請求而匿名的欄位。 在Adobe Experience Platform中，它們用於存取控制、同意管理，以及在標籤欄位上強制執行行銷限制。 Adobe Experience Platform支援許多Adobe Analytics未使用的其他標籤。 如果您使用Analytics Data Connector將Adobe Analytics資料匯入Adobe Experience Platform，您應確保已在Adobe Analytics中套用的任何I1、I2、S1和S2標籤，也會套用至Adobe Experience Platform中由匯入報表套裝使用的結構描述。
 
 ## 可直接與間接識別身分的 ID {#direct-vs-indirect}
 
@@ -41,7 +41,7 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> ID 類型 </th> 
-   <th colname="col2" class="entry"> Recommendations </th> 
+   <th colname="col2" class="entry"> 推薦 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -51,7 +51,7 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant"> (舊版) Analytics Cookie </a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant"> 身分識別服務 Cookie</a> (ECID) 原稱為 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>這些 Cookie 可用來識別裝置，更具體的說法是裝置使用者所用的瀏覽器；而共用裝置一般會採用通用登入帳號，因此 ID 可能適用於裝置的任何/所有使用者。如果您想要讓這些 ID 用於資料隱私權請求，Adobe 已建立一些<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">統一的 JavaScript</a>，可讓您放置於網站中以收集 Cookie。 </p> <p>Adobe Analytics Mobile SDK 也有 Experience Cloud ID (ECID)，SDK 中的 API 呼叫可讀取此 ID，因此您可增強應用程式以收集用於資料隱私權請求的 ID。 </p> <p>許多公司會將瀏覽器 Cookie ID 視為共用裝置 ID，因此，在與他們的法律團隊協商後，他們可能會選擇不支援使用做為資料隱私權請求的可接受 ID。或者，他們可能會選擇在使用這些 ID 時，僅傳回數量非常有限的資料，或者他們可能只接受用於刪除請求。 </p> <p>這些 Cookie 具有無法變更的 ID-DEVICE 標籤 (以及 I2 和 DEL-DEVICE 標籤)。預設的 Adobe Analytics 設定將僅傳回裝置的類型、作業系統、瀏覽器等一般資料，以及裝置使用這些 ID 造訪網站的時間/日期。不過，如果您選擇支援這些 ID 用於資料隱私權請求，則可按照下文所述以新增或移除 ACC-ALL 標籤，並設定您想傳回用於資料隱私權存取請求的確切欄位組合。 </p> <p>如果報告套裝對應於需要登入的行動應用程式，您可以確定該裝置的 Experience Cloud ID 確實對應於特定使用者。在這種情況下，您可能希望使用 ACC-ALL 標籤標記更多欄位，包括造訪過的頁面名稱、檢視過的產品等。 </p> <p>注意：如果您在資料隱私權請求中指定「expandIds」選項，則除了您指定的其他任何 ID 之外，請求將一律包含 Cookie ID。如需更多詳細資料，請參閱 <a href="/help/admin/admin/c-data-governance/gdpr-id-expansion.md">ID 擴增</a>。在這些例項中，只有一個 Cookie ID (沒有其他 ID) 的點擊只會在存取請求中傳回標籤為 ACC-ALL 的資料。 </p> </td> 
+   <td colname="col2"> <p>這些 Cookie 可用來識別裝置，更具體的說法是裝置使用者所用的瀏覽器；而共用裝置一般會採用通用登入帳號，因此 ID 可能適用於裝置的任何/所有使用者。如果您想要讓這些 ID 用於資料隱私權請求，Adobe 已建立一些<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">統一的 JavaScript</a>，可讓您放置於網站中以收集 Cookie。 </p> <p>Adobe Analytics Mobile SDK 也有 Experience Cloud ID (ECID)，SDK 中的 API 呼叫可讀取此 ID，因此您可增強應用程式以收集用於資料隱私權請求的 ID。 </p> <p>許多公司會將瀏覽器 Cookie ID 視為共用裝置 ID，因此，在與他們的法律團隊協商後，他們可能會選擇不支援使用做為資料隱私權請求的可接受 ID。或者，他們可能會選擇在使用這些 ID 時，僅傳回數量非常有限的資料，或者他們可能只接受用於刪除請求。 </p> <p>這些 Cookie 具有無法變更的 ID-DEVICE 標籤 (以及 I2 和 DEL-DEVICE 標籤)。預設的 Adobe Analytics 設定將僅傳回裝置的類型、作業系統、瀏覽器等一般資料，以及裝置使用這些 ID 造訪網站的時間/日期。不過，如果您選擇支援這些 ID 用於資料隱私權請求，則可按照下文所述以新增或移除 ACC-ALL 標籤，並設定您想傳回用於資料隱私權存取請求的確切欄位組合。 </p> <p>如果報告套裝對應於需要登入的行動應用程式，您可以確定該裝置的 Experience Cloud ID 確實對應於特定使用者。在這種情況下，您可能希望使用 ACC-ALL 標籤標記更多欄位，包括造訪過的頁面名稱、檢視過的產品等。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂變數中的 ID </p> </td> 
@@ -83,8 +83,6 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
 * 同樣地，如果欄位有 ID-PERSON 標籤，則您也應指派 DEL-PERSON 標籤。
 * 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實施採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
 * 如果您在含有 ID-PERSON 標籤的不同欄位中使用自訂 ID，且只想從產生 ID 的資料列中清除值，請使用 DEL-PERSON。
-* 如果您使用 ID 擴增，且想將所有值從全部已識別裝置的所有點擊中清除，則請使用 DEL-DEVICE。您可以在這個案例中偏好同時套用 DEL-DEVICE 和 DEL-PERSON 標籤，只不過 DEL-PERSON 並非必要標籤，因為 ID 擴增意味著所有符合人員 ID 的資料列也符合裝置 ID。
-* 如果您不指定使用 ID 擴增，但會混合使用裝置和人員 ID 因應不同的請求，您可能想要同時指定 DEL-DEVICE 和 DEL-PERSON 這兩個標籤，做為在使用任一種 ID 時應該刪除的變數。
 * 請注意，若對任何變數指定 DEL-DEVICE 或 DEL-PERSON 標籤，而該變數並非用作該請求的 ID (包括擴增 ID)，那麼系統只能在指定 (或擴增) ID 出現的點擊中，以匿名方式處理該變數中的唯一值。如果其他點擊含有相同的值，系統便不會更新這些其他位置的值。這會導致計數 (量度) 發生變化。
 
   例如，如果您在 eVar7 有三個含有「foo」值的點擊，不過只有其中一個點擊同時在符合刪除條件的其他變數中含有 ID，則系統會將該點擊的「foo」修改為「Data Privacy-123456789」之類的值，其他兩個點擊的值將維持不變。在顯示 eVar7 唯一值數量的報表中，將會比以往多顯示一個唯一值。顯示 eVar 最高值的報表只會包含兩個例項的「foo」(而非先前的 3 個)，而新值則會連同單一例項一併顯示。
@@ -104,14 +102,6 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
   <tr> 
    <td colname="col1"> <p>僅限裝置 ID </p> </td> 
    <td colname="col2"> <p>如果您使用的只有 Cookie ID 或具有 ID-DEVICE 標籤的 ID，則您只能使用 ACC-ALL 標籤。 </p> <p>您將取得每個存取要求的一對檔案：一個檔案包含每個符合點選（具有所有指定ACC-ALL欄位）的列，以及一個摘要檔案（包含此資料的摘要）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>沒有 ID 擴增的人員 ID </p> </td> 
-   <td colname="col2"> <p>如果您僅使用含有 ID-PERSON 標籤的自訂 ID 但未實施 ID 擴增，則您應使用 ACC-PERSON 標籤。不過，您不需要變更預設的 ACC-ALL 標籤，這些欄位會自動納入存取請求。 </p> <p>您將取得每個存取要求的一對檔案：一個檔案包含每個符合點選（具有所有指定的ACC-DEVICE和ACC-PERSON欄位）的列，以及一個摘要檔案（包含此資料的摘要）。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>混合 ID 和/或 ID 擴增 </p> </td> 
-   <td colname="col2"> <p>如果您在資料隱私權請求中納入裝置及人員 ID，或者使用自訂 ID (自訂訪客 ID 或是 prop 或 eVar 中的 ID)，則請務必注意您所使用的 ACC 標籤。每個存取請求都會傳回兩組資料檔案。 <p>一對檔案包含的檔案中，包含來自點選的資料，其中含有相符的人員ID，而另一個檔案包含的資料來自不符合人員ID，但不符合裝置ID的點選。 </p> <p>另一對（「人員ID」）檔案包含與人員ID及具有ACC-PERSON或ACC-ALL標籤之所有欄位相符的所有點選資料。 一個檔案包含所有相符的點選，另一個摘要檔案包含此資料的摘要。 </p> <p>「device ID」檔案組只包含有 ACC-ALL 標籤的欄位，以及不具任何相符人員 ID 的點擊。這些檔案可能含有共用裝置上其他使用者產生的資料，因此使用包含 ACC-ALL 標籤的欄位集之前，請務必謹慎考慮。Analytics 的預設標籤功能只會將該標籤套用到與裝置相關的一般資訊欄位 (裝置類型、作業系統、瀏覽器等等)，以及每個點擊的日期/時間。 </p> <p>您可選擇接收來自 Adobe 的裝置及人員檔案組，並僅分享人員檔案，只要別分享可能是共用裝置上其他使用者產生的資料即可。或者，您也可以將其中一個或兩個集的資料，和其他有關資料主體的已知資訊合併，然後再以您自己的格式傳回。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

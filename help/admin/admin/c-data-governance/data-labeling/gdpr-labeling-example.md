@@ -4,10 +4,10 @@ title: 加上標籤範例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 78%
+source-wordcount: '723'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 78%
 
 ## 範例存取請求 {#access}
 
-如果您提交存取請求，將會收到兩個可傳回給資料主體的檔案。 CSV檔案的一個檔案包含資料主體收到的每個點選的一列，以及具有適當存取標籤的每個變數的一欄。 另一個檔案是摘要HTML檔案，其列出每個變數，接著是資料主體該變數看到的所有唯一值，以及看到每個唯一值的次數。
+如果您提交存取請求，將會收到兩個可傳回給資料主體的檔案。 CSV檔案的一個檔案包含資料主體收到的每個點選的一列，以及具有適當存取標籤的每個變數的一欄。 另一個檔案是摘要HTML檔案，其中列出每個變數、資料主體在該變數中看到的所有唯一值，以及看到每個唯一值的次數。
 
 例如，摘要檔案包含下表指出的值。 請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。只有在使用人員ID且`expandIds`為true時，才會傳回兩個摘要檔案。
 
@@ -366,8 +366,4 @@ ht-degree: 78%
 請注意下列事項：
 
 * 包含 `user=Mary` 和 `DEL-PERSON` 標籤的資料列上的儲存格會受到影響。
-* 由於 ID 擴充的緣故，包含 `AAID=77`、`AAID=88` 或 `AAID=99` (也就是包含 `user=Mary` 的資料列上的 AAID 值) 和 `DEL-DEVICE` 標籤的資料列上的儲存格會受到影響。 其中包括在 `user=Mary` 的資料列上有 `DEL-DEVICE` 標籤的儲存格。 這會導致有 `DEL-DEVICE` 標籤 (AAID、MyEvar2 和 MyEvar3) 的資料列 4 和 5 (以及資料列 1-3) 中的儲存格被混淆。
-* expandIDs 設定不會擴充到呼叫來包含 `user=Mary` 時 MyEvar3 (`X`、`Y` 和 `Z`) 中存在的值 (MyEvar3 有 ID-DEVICE 標籤)。 ExpandIDs 只會擴充以包含 `user=Mary` 的資料列上的訪客 ID (此範例中為 AAID，也包括 ECID)。 因此，最後兩個資料列 (包含 `X` 和 `Z` 的 MyEvar3 值) 則不受影響。
-* `MyEvar2`第四和第五個資料列會更新，因為這些資料列包含與第一和第二個資料列相同的訪客 ID 值 (`77` 和 `88`)。 因此，ID 擴增會將其納入裝置層級的刪除作業。
-* 第二列和第五列的 `MyEvar2` 值符合刪除前和刪除後的值。不過在刪除後，這些不再符合最後一列的 `N` 值，因為該列並未隨著刪除要求而更新。
-* `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五個資料列的 `AAID` 均相符。
+

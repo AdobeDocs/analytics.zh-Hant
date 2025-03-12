@@ -4,10 +4,10 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: eb2b8135ffcf2a22184818b34efcd97a931437f6
+source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
 workflow-type: tm+mt
-source-wordcount: '3790'
-ht-degree: 91%
+source-wordcount: '3760'
+ht-degree: 89%
 
 ---
 
@@ -19,15 +19,15 @@ Adobe Analytics 會根據資料敏感程度和契約限制提供標籤資料的�
 
 在確定應將哪些標籤套用至哪些變數/欄位之前，您需要先[瞭解在 Analytics 資料中擷取的 ID](/help/admin/admin/c-data-governance/data-labeling/gdpr-analytics-ids.md)，並決定要將哪個 ID 用於資料隱私權請求。
 
-Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和資料控管的標籤。
+Adobe Analytics 資料隱私權實施支援下列身分識別資料、敏感資料和資料控管的標籤。
 
 >[!NOTE]
 >
->I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤具有相同的含義。 不過，它們的用途大不相同。 在Adobe Analytics中，這些標籤用於協助識別應因Privacy Service請求而匿名的欄位。 在Adobe Experience Platform中，它們用於存取控制、同意管理，以及在標籤欄位上強制執行行銷限制。 Adobe Experience Platform支援許多Adobe Analytics未使用的其他標籤。 此外，Adobe Experience Platform中的標籤會套用至結構描述。 如果您利用Analytics Data Connector將Adobe Analytics資料匯入Adobe Experience Platform，您需要確保在Adobe Experience Platform中為每個報表套裝使用的結構描述設定適當的DULE標籤。 在Adobe Analytics中指派的標籤不會自動套用至Adobe Experience Platform中的這些結構描述，因為它們只會代表您可能需要套用的DULE標籤的子集。 此外，不同的報表套裝可能會共用結構描述，但將不同的標籤指派給具有相同編號的prop和evar，而且該結構描述可能會由其他資料來源的資料集共用，這可能會造成某些欄位收到這些標籤的原因混淆。
+>I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤具有相同的含義。 不過，它們的用途大不相同。 在Adobe Analytics中，這些標籤可用來幫助識別應因Privacy Service請求而匿名的欄位。 在Adobe Experience Platform中，它們用於存取控制、同意管理，以及在標籤欄位上強制執行行銷限制。 Adobe Experience Platform支援許多Adobe Analytics未使用的其他標籤。 此外，Adobe Experience Platform中的標籤會套用至結構描述。 如果您利用Analytics Data Connector將Adobe Analytics資料匯入Adobe Experience Platform，您需要確保在Adobe Experience Platform中為每個報表套裝使用的結構描述設定適當的DULE標籤。 在Adobe Analytics中指派的標籤不會自動套用至Adobe Experience Platform中的這些結構描述，因為它們只會代表您可能需要套用的DULE標籤的子集。 此外，不同的報表套裝可能會共用結構描述，但將不同的標籤指派給具有相同編號的prop和evar，而且該結構描述可能會由其他資料來源的資料集共用，這可能會造成某些欄位收到這些標籤的原因混淆。
 
-## 身分資料標籤 {#identity-data-labels}
+## 身分識別資料標籤 {#identity-data-labels}
 
-身分資料「I」標籤可用來分類可識別身分或聯絡特定人員的資料。
+身分識別資料「I」標籤可用來分類可身分識別身分識別或聯絡特定人員的資料。
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 刪除標籤與其他標籤的相異之處在於它們並非互斥。您可以選取任一個標籤、同時選取兩者或兩者皆不選。您不一定要加上個別的「[!UICONTROL 無]」標籤，只要不勾選任何一個「刪除」選項就會顯示「[!UICONTROL 無]」。
 
-只有在欄位包含允許點擊與資料主體建立關聯的值時 (亦即允許辨識資料主體的身分)，才需要使用刪除標籤。 其他個人資訊 (我的最愛、瀏覽/購物記錄、健康情況等)則無需刪除，因為將會截斷與資料主體之間的關聯。
+只有在欄位包含允許點擊與資料主體建立關聯的值時 (亦即允許辨識資料主體的身分)，才需要使用刪除標籤。 其他個人資訊（我的最愛、瀏覽/購買記錄、健康情況等）不需要刪除，因為與資料主體的關聯將被切斷。
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 {style="table-layout:auto"}
 
-### 資料隱私權身分標籤 {#identity}
+### 資料隱私權身分識別標籤 {#identity}
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
@@ -186,7 +186,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
    <td colname="col1"> <p>解決方案維度和事件 </p> </td> 
    <td colname="col2"> <p>Activity Map 連結, </p> <p>Activity Map 頁面 </p> </td> 
    <td colname="col3"> <p>無 / I1 / I2 </p> <p>無 / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>變數可包含 URL 參數，這些參數可能包含可直接識別或可間接識別的資料。如果您的實作未收集在這些變數中可直接或間接識別的資料，那麼這些資料不需要識別或刪除標籤。 </p> <p>請注意，刪除會清除 URL 參數，但會保留基礎 URL。 </p> </td> 
+   <td colname="col4"> <p>變數可包含 URL 參數，這些參數可能包含可直接識別或可間接識別的資料。如果您的實作未收集在這些變數中可直接或間接身分識別的資料，那麼這些資料不需要身分識別或刪除標籤。 </p> <p>請注意，刪除會清除 URL 參數，但會保留基礎 URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料處理維度 </p> </td> 
@@ -207,7 +207,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
   <tr> 
    <td colname="col2"> <p>ClickMap 動作 (舊版), </p> <p>ClickMap 內容 (舊版), </p> <p>頁面, </p> <p>頁面 URL、 </p> <p>原始登入頁面 URL, </p> <p>反向連結、 </p> <p>造訪開始頁面 URL </p> </td> 
    <td colname="col3"> <p>無 / I1 / I2 </p> <p>無 / DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>變數可包含 URL 參數，這些參數可能包含可直接識別或可間接識別的資料。如果您的實作未收集在這些變數中可直接或間接識別的資料，那麼這些資料不需要識別或刪除標籤。 </p> <p>請注意，刪除會清除 URL 參數，但會保留基礎 URL。 </p> </td> 
+   <td colname="col4"> <p>變數可包含 URL 參數，這些參數可能包含可直接識別或可間接識別的資料。如果您的實作未收集在這些變數中可直接或間接身分識別的資料，那麼這些資料不需要身分識別或刪除標籤。 </p> <p>請注意，刪除會清除 URL 參數，但會保留基礎 URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -243,7 +243,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 | [!UICONTROL 使用者代理] | 使用者代理可辨識所使用的瀏覽器版本。 |
 | [!UICONTROL 使用者 ID] | 指定包含資料的 Analytics 報告套裝 (採用號碼形式)。 |
 | [!UICONTROL 報告套裝 ID] | 指定包含資料的 Analytics 報告套裝名稱。 |
-| [!UICONTROL 訪客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 這些 ID 具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。 如果您透過每個請求指定 [!UICONTROL ID 擴增]，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。<p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標籤 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報告中的獨特訪客計數都會變更。 |
+| [!UICONTROL 訪客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 這些 ID 具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。 如果您希望這些Cookie ID在包含符合ID的prop或eVar點選上匿名處理，您可以使用ID-DEVICE標籤來標籤prop或eVar，即使標籤確實識別了人員（所有DEL-PERSON標籤也需要變更為DEL-DEVICE標籤），以解決此標籤限制。 在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報告中的獨特訪客計數都會變更。 |
 | [!UICONTROL AMO ID] | Adobe Advertising Cloud ID 為解決方案變數，具有不可修改的 [!UICONTROL DEL-DEVICE] 標籤。 會像訪客 ID 和 MCID 一樣透過 cookie 自動填入資料。只要刪除了這些 ID，就應該會從點擊中刪除資料。如需更多詳細資料，請參閱這些變數的說明。 |
 
 {style="table-layout:auto"}
@@ -264,4 +264,4 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 
 針對按資料隱私權存取請求傳回的檔案，產生這些檔案的程式碼會要求存取請求 (有適用這類要求的 ACC 標籤) 中，須納入前三個時間戳記變數中的其中一個。如未納入任一變數，則自訂點擊時間 UTC 會視同具有 ACC-ALL 標籤。
 
-針對資料隱私權存取請求傳回的點選層級CSV檔案會將這些欄位中採Unix時間戳記的值轉換為格式`YYYY-MM-DD HH:MM:SS`的日期/時間欄位（例如`2018-05-01 13:49:22`）。 在摘要HTML檔案中，這些時間戳記值將會被截斷，僅包括日期`YYYY-MM-DD`，以減少這些欄位中出現的不重複值數量。
+針對資料隱私權存取請求傳回的點選層級CSV檔案會將這些欄位中採Unix時間戳記的值轉換為格式`YYYY-MM-DD HH:MM:SS`的日期/時間欄位（例如`2018-05-01 13:49:22`）。 在摘要HTML檔案中，這些時間戳記值將會遭截斷，使其僅包含日期`YYYY-MM-DD`，以減少這些欄位所產生的不重複值數量。
