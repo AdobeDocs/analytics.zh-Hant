@@ -3,48 +3,46 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ace906a4b5acf1ab667529af33dd5be1618863f2
+source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 56%
 
 ---
 
-# 最新 Adobe Analytics 版本發行說明 (2025 年 2 月發行)
+# 最新Adobe Analytics發行說明（2025年3月發行）
 
-**上次更新日期**：2025 年 2 月 21 日
+**上次更新日期**：2025年3月12日
 
-這些發行說明涵蓋 2025 年 2 月 11 日至 2025 年 3 月中的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2025年3月5日至5月的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **交易 ID 保留期** | 90 天的交易 ID 保留期已延長至 25 個月`transactionID` 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。在[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/page-vars/transactionid)和[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/data-sources/transactionid)了解更多資訊。 |  | 2025 年 2 月 20 日 |
-| **資料摘要 API 參考文件** | 資料摘要 API 的[參考文件](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Data%20Feeds%20APIs)現已可供使用。 |  | 2025 年 1 月 30 日 |
-| **直播 API：用戶端實施** | 使用直播用戶端實施以使用直播資料。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) |  | 2025 年 2 月 18 日 |
-| **分類 API 更新內容** | 您現在可以從伺服器移除個別的分類欄位或金鑰。這是使用 DELETE 方法刪除整個分類資料集的替代方法。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/) |  | 2025 年 2 月 18 日 |
-| **Analytics 上下文資料欄位更新內容`a.locale`** | 預定的更新將改變透過 Experience Edge 收集資料時 Analytics 上下文資料欄位`a.locale`的設定方式。使用 Experience Edge 將資料傳送至 Adobe Analytics 時，Analytics 欄位將根據 XDM 欄位的對應填入。`c.a.locale` 的對應引用了非標準 XDM 欄位 `xdm.environment.language`。此欄位將會經過更新，以引用正確的欄位 `xdm.environment._dc.language`。<p>此對應將持續引用 `xdm.environment.language`，以提供向後相容性。為維持連貫性，若兩個欄位皆已經過設定，則將以 `xdm.environment.language` 優先。您可以從[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping)檢視 XDM 對應至標準 Analytics 欄位的完整清單。 | | 2025 年 3 月 5 日 |
+| **Analytics 上下文資料欄位更新內容`a.locale`** | 此更新會變更透過Experience Edge收集資料時，Analytics內容資料欄位`a.locale`的設定方式。 使用 Experience Edge 將資料傳送至 Adobe Analytics 時，Analytics 欄位將根據 XDM 欄位的對應填入。`c.a.locale` 的對應引用了非標準 XDM 欄位 `xdm.environment.language`。此欄位將會經過更新，以引用正確的欄位 `xdm.environment._dc.language`。<p>此對應將持續引用 `xdm.environment.language`，以提供向後相容性。若為連續性，如果兩個欄位都設定，則`xdm.environment.language`優先。 您可以從[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping)檢視 XDM 對應至標準 Analytics 欄位的完整清單。 | | 2025 年 3 月 5 日 |
+| **Customer Journey Analytics升級指南** | 可讓您產生從Adobe Analytics升級至Customer Journey Analytics的逐步指南。 本指南乃根據貴組織量身打造，並考量您目前的Adobe Analytics環境、您對Customer Journey Analytics的預期用途，以及貴組織想要做出任何節省時間的權衡。<p>若要開始產生您的自訂指南，請登入[!DNL Customer Journey Analytics]，然後在&#x200B;**[!UICONTROL Customer Journey Analytics]**&#x200B;索引標籤上選取&#x200B;**[!UICONTROL 升級至Workspace]**。<p>[了解更多](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025年3月11日 |
+| **僅限Data Warehouse的維度** | 從2025年5月開始，Adobe將開始設定顯示極高基數至「僅限Data Warehouse」的維度（自訂變數，例如eVar和prop）。 高基數變數有許多不同的值；範例包括時間戳記或UUID。 這些維度將無法再用於Analysis Workspace中的報告。<p>適用於此變更的維度是指本月初超過低流量限制的維度。 對於這些型別的維度，Analysis Workspace中根據該維度的報表並不實用，因為可報告資料只代表所收集初始值的很小一部分。<p>由於Data Warehouse沒有低流量限制，您仍可根據這些型別的維度建立實用的報表或區段。 | | 2025 年 5 月 |
 
 
 ## Adobe Analytics 中的修正
 
-**Analysis Workspace**：AN-359974；AN-366212；AN-368460
-**分類**：AN-367186；AN-367328；AN-368548
-**元件遷移**： AN-364529；AN-366398；AN-367509；
-**資料摘要**：AN-365685；AN-366745；AN-367256；AN-367349；AN-368363
-**Data Warehouse**：AN-368178；AN-368331；
-**行動應用程式**：AN-367137
-**平台**：AN-351924；AN-365540；AN-365866；AN-366898；AN-367856；AN-367933
-**Report Builder**：AN-366456；AN-366655;
-**虛擬報表套裝**：AN-367411
-**VISTA 規則**：AN-365331
+**Activity Map**： AN-361038
+**管理工具**： AN-362178； AN-369483
+**Analytics API 1.4**： AN-369615
+**Analysis Workspace**： AN-353491；AN-363403；AN-367230；AN-367313；AN-368582；AN-369821；AN-370227；
+**分類**： AN-369848； AN-370196； AN-370226； AN-370437
+**資料摘要**： AN-366162； AN-368906； AN-369066； AN-369087； AN-369225； AN-369798
+**資料控管**： AN-365157
+**資料來源**： AN-367550
+**平台**： AN-363931
+**Report Builder**： AN-367460； AN-368975
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **非 Campaign 客戶將無法存取觸發程序** | 2023 年 10 月 16 日 | 2025 年 1 月 30 日，沒有 Adobe Campaign 授權的 Adobe Analytics 客戶已無法設定和使用[觸發程序](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/triggers)。客戶需要購買 Campaign，或計劃停止使用觸發程序，或研究提供觸發程序功能的其他 Adobe 工具。 |
+| 不適用 |  |  |
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
 
@@ -61,7 +59,7 @@ ht-degree: 100%
 
 ## 相關資源
 
-* [2024 年舊版發行說明](/help/release-notes/2024.md)
+* [2025 年舊版發行說明](/help/release-notes/2025.md)
 * [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 * [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hant)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
