@@ -4,10 +4,10 @@ title: 即時報表概觀
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 90%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 90%
 
 ## 存取即時報表
 
-1. 在 Analysis Workspace 中，選取「[!UICONTROL **工作區**]」標籤。
+1. 在 Analysis Workspace 中，選取「[!UICONTROL **Workspace**]」索引標籤。
 
-1. 選取&#x200B;[!UICONTROL **報表**] > [!UICONTROL **參與**] > **[!UICONTROL 即時]**。
+1. 在頁面左側的&#x200B;**[!UICONTROL 範本]**&#x200B;下方，選取&#x200B;[!UICONTROL **Adobe範本**]。
+
+1. 選取&#x200B;[!UICONTROL **參與**] > **[!UICONTROL 即時]**。
 
 ## 瞭解即時報告
 
@@ -62,4 +64,4 @@ Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中�
 * 對於即時資料流、即時報表和API請求，以及流量變數的目前資料，只有具有補充資料ID的點選會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完全實施作業該整合，該延遲增加現象也會在您實施作業身份服務後開始。
+請注意，即使您尚未完全實施作業該整合，該延遲增加現象也會在您實施作業身分識別服務後開始。

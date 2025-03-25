@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca1e86606454c2f906cef0cc1d1a9d1c67cedf0e
+source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2353'
 ht-degree: 36%
 
 ---
@@ -11,14 +11,14 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->2024年10月16日發行了新的簡化的[Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview)。 Mac、Windows和網頁瀏覽器都支援此功能。
->此舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)轉換為新Report Builder。
+>全新的簡化版[Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
+>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)轉換為新的Report Builder。
 
 ## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
->自&#x200B;**2024年1月17日起**，Adobe已停止支援Reports &amp; Analytics及其隨附的報告和功能。 Reports &amp; Analytics及其所有報表和排程目前均已停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。如需有關在Analysis Workspace中使用報表的資訊，請參閱[使用預先建立的報告](/help/analyze/analysis-workspace/reports/use-reports.md)。
+>自&#x200B;**2024年1月17日起**，Adobe已終止Reports &amp; Analytics及其隨附的報告和功能。 Reports &amp; Analytics及其所有報表和排程目前均已停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。如需詳細資訊，請參閱[使用範本](/help/analyze/analysis-workspace/templates/use-templates.md)。
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
