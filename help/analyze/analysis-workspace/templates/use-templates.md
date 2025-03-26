@@ -103,9 +103,9 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
    以下區段對應於適用類別，並提供有關每個範本的資訊。
 
-   * [[!UICONTROL ](#most-popular)
+   * &lbrack;[](#most-popular)
 
-   * [[!UICONTROL ](#engagement)
+   * &lbrack;[](#engagement)
 
 ### 最受歡迎 {#most-popular}
 

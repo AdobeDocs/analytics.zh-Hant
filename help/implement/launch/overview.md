@@ -26,17 +26,14 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 ![如何使用Analytics擴充功能工作流程實施Adobe Analytics，如本節所述。](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
-
 <tr>
 <th style="width:5%"></th><th style="width:60%"><b>任務</b></th><th style="width:35%"><b>更多資訊</b></th>
 </tr>
-
 <tr>
 <td> 1</td>
 <td>確定您<b>已定義報表套裝</b>。</td>
 <td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
 </tr>
-
 <tr>
 <td>2</td>
 <td><b>建立資料層</b>來管理您網站上的資料追蹤。</td>
@@ -44,30 +41,25 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 <a href="../prepare/data-layer.md">建立資料層</a>
 </td>
 </tr>
-
 <tr>
 <td>3</td>
 <td><b><b>建立標記屬性</b>。屬性是用來參照標記管理資料的總體容器。</td>
 <td><a href="../launch/create-analytics-property.md">建立 Adobe Analytics 標記屬性</a></td>
 </tr>
-
 <tr>
 <td>4</td><td>在標記屬性中<b>安裝 Analytics 擴充功能</b>。設定 Analytics 擴充功能以將資料發送到 Adobe Analytics。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hant">Adobe Analytics 擴充功能概觀</a></td>
 </tr>
-
 <tr>
 <td>5</td>
 <td><b>部署至開發環境</b>。有一個可以迭代標記開發的環境。</td>
 <td><a href="./deploy-dev.md">將 Analytics 實施部署至開發環境</td>
 </tr>
-
 <tr>
 <td>6</td> 
 <td><b>驗證並發佈至生產環境</b>. 內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">內嵌程式碼</a><br/><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
 </tr>
-
 </table>
 
 ## 其他資源

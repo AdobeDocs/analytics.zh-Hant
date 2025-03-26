@@ -22,35 +22,29 @@ ht-degree: 33%
 ![使用 Analytics 擴充功能工作流程的 Adobe Analytics](../../assets/edge-network-server-api-annotated.png)
 
 <table style="width:100%">
-
 <tr>
 <th style="width:5%"></th><th style="width:60%"><b>任務</b></th><th style="width:35%"><b>更多資訊</b></th>
 </tr>
-
 <tr>
 <td>1</td>
 <td>確定您<b>已定義報表套裝</b>。</td>
 <td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
 </tr>
-
 <tr>
 <td>2</td>
 <td><b>設定結構描述</b>。 為了標準化資料彙集以跨利用 Adobe Experience Platform 的應用程式使用，Adobe 建立了開放且公開記錄標準，即體驗資料模型 (XDM)。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=zh-Hant">結構描述UI總覽</a></td>
 </tr>
-
 <tr>
 <td>3</td>
 <td><b>設定資料流</b>。資料流代表使用Adobe Experience PlatformEdge NetworkAPI的API時的伺服器端設定。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">設定資料流<a></td> 
 </tr>
-
 <tr>
 <td>4</td>
 <td><b>使用單一事件資料和批次事件資料收集API實作及測試資料收集</b>。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">單一事件資料集合</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件資料集合</a>
 </tr>
-
 <td>5</td>
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=zh-Hant">與Adobe Analytics互動</a></td>
