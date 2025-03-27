@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2b13f649d286e9eb707f2dd22c068b9742c51c70
-workflow-type: ht
-source-wordcount: '730'
-ht-degree: 100%
+source-git-commit: a7a80fc9845382eaa5b15dc6c325015de0a0cd9e
+workflow-type: tm+mt
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## AppMeasurement
 
-如需 AppMeasurement 發行 (版本 2.27.0) 的最新更新，請參閱 [JavaScript 適用的 AppMeasurement 發行說明](/docs/analytics/implementation/appmeasurement-updates$2$3?lang=zh-hant)。
+如需 AppMeasurement 發行的最新消息，請參閱[適用於 JavaScript 的 AppMeasurement 發行說明](https://github.com/adobe/appmeasurement/releases)。
 
 
 ## 相關資源
