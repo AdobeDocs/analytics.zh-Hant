@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 37080906984b3c12f942b0618254b22fc72b8ceb
+source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
 workflow-type: tm+mt
-source-wordcount: '6234'
-ht-degree: 99%
+source-wordcount: '6331'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2025 年 3 月** |  |
+| 釐清Data Warehouse匯出中的日期格式 | Data Warehouse匯出中的時間型維度值採用非標準日期格式。 已新增說明如何解譯Data Warehouse匯出之日期值的資訊。 <p>檢視Data Warehouse ](/help/export/data-warehouse/component-support.md)中[元件支援以不同方式支援的[維度（非標準日期格式）](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
+| 更新有關IP排除的資訊 | 已新增說明[IP排除](/help/admin/admin/exclude-ip.md)最多可能需要5分鐘才會生效，而且變更只會套用至新的點選（在設定排除之前擷取的資料不會受到影響）。 <p>也更新了內容版面以提高可讀性。</p> |
 | **2025 年 2 月** |  |
 | 暫停和重新啟用資料摘要的相關更新資訊 | 當[暫停及重新啟用資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。在摘要暫停到重新啟用期間不會進行資料處理。 |
 | 調整交易 ID 保留期 | 90 天的交易 ID 保留期已延長至 25 個月交易 ID 變數可唯一識別交易，因此點擊可繫結至透過資料來源上傳的資料。在[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/vars/page-vars/transactionid?lang=en)和[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/import/data-sources/transactionid?lang=en)了解更多資訊。 |
