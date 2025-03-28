@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 81131600bdd3233f9a50af6d1c5c45ccf7f3d37a
+source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 82%
+source-wordcount: '279'
+ht-degree: 48%
 
 ---
 
@@ -25,6 +25,27 @@ ht-degree: 82%
 <!-- markdownlint-enable MD034 -->
 
 「Analytics詳細目錄」提供您Adobe Analytics環境的完整總覽，包括專案和元件、報表套裝、使用者等數量。 當您開始準備升級至 Customer Journey Analytics 時，這些資訊能提供極大幫助。
+
+此應用程式的目標是協助您回答下列問題：
+
+* 對於您的組織，哪些資產（例如報表套裝、區段、使用者、工作區專案、資料摘要等）需要升級，以及哪些資產可以留在後面？
+
+* 決定需要移轉的資產後：
+
+   * 您應該在此升級之前進行一些資產清理嗎？
+
+   * 您應該將某些資產合併作為流程的一部分嗎？
+
+   * 資產的升級順序應該為何？
+
+   * 您應該先升級哪一組報表套裝？ 上次？
+
+## 存取Analytics詳細目錄
+
+可從&#x200B;**[!UICONTROL 管理員]**&#x200B;功能表以及&#x200B;**[!UICONTROL 所有管理員]**&#x200B;功能表專案取得Analytics詳細目錄。
+
+    ！[Analytics詳細目錄功能表](assets/an-inventory-menu.png)
+
 
 ## 元件 {#components}
 
