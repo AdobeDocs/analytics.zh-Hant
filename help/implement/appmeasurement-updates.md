@@ -4,20 +4,19 @@ description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: e403ed5ff1a1b6aa56d4f4112bbd7a7c072cc844
+source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2730'
 ht-degree: 86%
 
 ---
 
 # JavaScript 適用的 AppMeasurement 版本注意事項
 
-JavaScript 適用的 AppMeasurement 累積版本注意事項。
+>[!IMPORTANT]
+>
+>自2025年3月起，將不再更新本文。 您可以檢視發行說明，並從[GitHub](https://github.com/adobe/appmeasurement/releases)下載最新版AppMeasurement。
 
-<!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
-
-您可以從[GitHub](https://github.com/adobe/appmeasurement/releases)下載最新版的AppMeasurement。
 
 ## 2.27.0 版本
 
@@ -33,7 +32,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 發行日期： **2024年3月4日**
 
 * AppMeasurement會自動辨識並利用國家/地區程式碼最上層網域的根網域，而這之前需要特定的Cookie網域設定。 更新可能會因為此自動識別而產生影響。 如需詳細資訊，請參閱[`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md)。
-* 此發行版本包含Identity Service Library 5.5.0和Data Integration Library9.6。
+* 此分佈包含Identity Service Library 5.5.0和Data Integration Library 9.6。
 
 ## 2.25.0 版本
 
@@ -48,7 +47,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 * 已新增選用組態變數[`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md)，以將包含雙位元組編碼字元的連結URL解碼。
 * 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器新增其他錯誤處理。
-* 已將POSTContent-Type標頭變更為預設使用`x-www-form-urlencoded`。
+* 已將POST Content-Type標頭變更為預設使用`x-www-form-urlencoded`。
 
 ## 2.23.0 版本
 
@@ -356,7 +355,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 發行日期：**2015 年 9 月 17 日**
 
 * 納入 Visitor API 1.5.2
-* 更新[!DNL Audience Manager]模組以使用Adobe Audience ManagerDIL6.2 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
+* 更新[!DNL Audience Manager]模組以使用Adobe Audience Manager DIL 6.2 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
 
 ## 1.5 版本
 
@@ -385,7 +384,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 * 您現在可使用生命週期量度來納入自訂內容資料的變數。
 * 您現在可在 PhoneGap 中使用 `trackBeacon` 和 `clearCurrentBeacon` 呼叫。
-* 進行微幅修正，以在 `trackLight` 呼叫後清除小型伺服器呼叫設定檔 ID。
+* 進行微幅修正，以在 `trackLight` 呼叫後清除小型伺服器呼叫輪廓 ID。
 
 ## 1.4.3 版本
 
