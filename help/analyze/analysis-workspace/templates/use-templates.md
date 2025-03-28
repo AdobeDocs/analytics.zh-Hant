@@ -4,10 +4,10 @@ title: 使用範本
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: 75ade12b36e2dc98a1ad521c746d97094c7bf9cd
 workflow-type: tm+mt
-source-wordcount: '18666'
-ht-degree: 100%
+source-wordcount: '18667'
+ht-degree: 99%
 
 ---
 
@@ -103,9 +103,9 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
    以下區段對應於適用類別，並提供有關每個範本的資訊。
 
-   * &lbrack;[](#most-popular)
+   * **[[!UICONTROL 最受歡迎]](#most-popular)**
 
-   * &lbrack;[](#engagement)
+   * **[[!UICONTROL 參與度]](#engagement)**
 
 ### 最受歡迎 {#most-popular}
 
