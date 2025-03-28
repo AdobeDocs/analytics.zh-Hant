@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
 source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄流量視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[流量](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的流量視覺效果。_<br/>_請參閱[流量](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -46,7 +46,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [流量視覺效果](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [流量視覺效果](https://video.tv.adobe.com/v/344222?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [流量視覺效果中的其他功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 流量視覺效果的其他功能](https://video.tv.adobe.com/v/24044?quality=12&learn=on){target="_blank"}，以取得示範影片。
 
 >[!ENDSHADEBOX]
 

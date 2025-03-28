@@ -6,20 +6,20 @@ feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 37%
+ht-degree: 100%
 
 ---
 
-# 區段比較面板概述 {#segment-comparison-overview}
+# 區段比較面板概觀 {#segment-comparison-overview}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="區段比較"
->abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。"
+>abstract="快速比較所有資料點的兩個區段，以自動找到相關差異。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,12 +28,12 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="區段比較面板"
->abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。<br/><br/>**參數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**比較依據**：您要比較的第二個區段。這將自動填入&#x200B;*其他所有人*，這是您第一個區段的反函數。如果需要，您可以用不同的區段來取代這個。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
+>abstract="快速比較所有資料點的兩個區段，以自動找到相關差異。<br/><br/>**參數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**比較依據**：您要比較的第二個區段。這將自動填入&#x200B;*其他所有人*，這是您第一個區段的反函數。如果需要，您可以用不同的區段來取代這個。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄區段比較面板。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中沒有對應的面板。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [區段比較](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段比較](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 若要使用&#x200B;**[!UICONTROL 歸因]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](../panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](../panels.md#create-a-panel)。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -62,38 +62,38 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 ### 面板輸入
 
-您可以使用下列輸入設定來設定[!UICONTROL 區段比較]面板：
+您可以使用下列輸入設定來設定[!UICONTROL 區段比較]面板。
 
 ![區段比較輸入面板](assets/segment-comparison-input.png)
 
 | 輸入 | 說明 |
 | --- | --- |
-| **[!UICONTROL 新增區段]** | 選取您要比較的維度。 |
-| **[!UICONTROL 與]**&#x200B;比較 | 選取您要用來比較初始選取區段的維度。 如果您未選取特定區段，則會使用預設區段&#x200B;**[!UICONTROL 其他所有人]**。 |
-| **[!UICONTROL 顯示/隱藏進階設定]** | 選取[顯示]進階設定&#x200B;]**以設定**[!UICONTROL &#x200B;排除的元件&#x200B;]**，選取[隱藏]進階設定]**&#x200B;以隱藏&#x200B;**[!UICONTROL 排除的元件]**。**[!UICONTROL **[!UICONTROL  |
-| **[!UICONTROL 排除的元件]** | 您可以指定的元件，例如&#x200B;**[!UICONTROL Dimension]**、**[!UICONTROL 量度]**&#x200B;或排除的&#x200B;**[!UICONTROL 區段]**。<br><ul><li>從容器拖放一或多個維度、量度或區段至&#x200B;**[!UICONTROL 排除的元件]**&#x200B;容器。</li><li>若要移除元件，請選取型別(**[!UICONTROL Dimension]** **[!UICONTROL 量度]**，或&#x200B;**[!UICONTROL 區段]**)，然後選取![交叉大小75](/help/assets/icons/CrossSize75.svg)以移除元件。 若要移除所有元件，請選取&#x200B;**[!UICONTROL 全部清除]**。</li><li>若要將目前選擇的維度、量度和區段設定為預設值，請選取「**[!UICONTROL 設定為預設值]**」。</li></ul> |
+| **[!UICONTROL 新增區段]** | 請選取您想要比較的維度。 |
+| **[!UICONTROL 比較對象]** | 請選取您想要用於比較初始選取區段的維度。如果您未選取特定區段，則此預設區段為&#x200B;**[!UICONTROL 其他所有人]**&#x200B;使用。 |
+| **[!UICONTROL 顯示/隱藏進階設定]** | 請選取「**[!UICONTROL 顯示進階設定]**」以設定&#x200B;**[!UICONTROL 排除的元件]**；選取「**[!UICONTROL 隱藏進階設定]**」以隱藏&#x200B;**[!UICONTROL 排除的元件]**。 |
+| **[!UICONTROL 排除的元件]** | 您可以指定的元件，例如&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 區段]**&#x200B;以供排除。<br><ul><li>將一個或多個維度、量度或區段從容器拖曳至&#x200B;**[!UICONTROL 排除的元件]**&#x200B;容器中。</li><li>若要移除元件，請選取類型 (**[!UICONTROL 維度]**、**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 區段]**)，並選取「![CrossSize75](/help/assets/icons/CrossSize75.svg)」以移除元件。若要移除所有元件，請選取「**[!UICONTROL 清除全部]**」。</li><li>若要將目前維度、量度和區段的選取項目設定為預設值，請選取「**[!UICONTROL 設定為預設值]**」。</li></ul> |
 
-選取&#x200B;**[!UICONTROL 建置]**&#x200B;以建置面板。
+請選取「**[!UICONTROL 「建置]**」以建置面板。
 
 ### 面板輸出
 
-Adobe Analytics分析完所需的兩個區段後，輸出面板會透過數個視覺效果顯示結果：
+Adobe Analytics 完成分析所需的兩個區段後，輸出面板會透過數個視覺效果顯示結果：
 
 ![面板輸出區段比較](assets/segment-comparison-output.png)
 
 | 視覺效果 | 說明 |
 |---|---|
-| **[!UICONTROL 大小和重疊]** | 以[Venn](/help/analyze/analysis-workspace/visualizations/venn.md)視覺效果說明每個所選區段的比較大小以及彼此重疊的程度。 |
-| 第1個區段的&#x200B;**[!UICONTROL 不重複訪客]** | 顯示第一個區段不重複訪客的[摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果（在單頁造訪範例中） |
-| 第2個區段的&#x200B;**[!UICONTROL 不重複訪客]** | 顯示第二個區段不重複訪客的[摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果（在第一次瀏覽的範例中） |
-| 針對區段&#x200B;**[!UICONTROL 排名在前的量度]** | 顯示所選區段排名最前之量度的[自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。 |
-| **[!UICONTROL 一段時間內的量度（依區段）]** | 顯示所選區段量度隨時間變化的[線](/help/analyze/analysis-workspace/visualizations/line.md)視覺效果。 |
-| 針對區段&#x200B;**[!UICONTROL 排名在前的維度專案]** | [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)顯示所選區段的混合維度專案。 |
-| **[!UICONTROL 依區段Dimension專案]** | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)視覺效果會依區段顯示維度專案。 |
-| 針對區段&#x200B;**[!UICONTROL 排名最前的區段]** | [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)會針對區段顯示排名最前的區段。 |
-| **[!UICONTROL 區段重疊]** | 顯示區段重疊的[Venn](/help/analyze/analysis-workspace/visualizations/venn.md)視覺效果。 |
+| **[!UICONTROL 大小和重疊]** | 使用[文氏圖表](/help/analyze/analysis-workspace/visualizations/venn.md)視覺效果說明每個選取區段的相對大小，以及彼此重疊的程度。 |
+| **[!UICONTROL 第一區段的不重複訪客]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果顯示第一區段的不重複訪客 (在範例「單次頁面造訪數」中) |
+| **[!UICONTROL 第二區段的不重複訪客]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果顯示第二區段的不重複訪客 (在範例「初次造訪數」中) |
+| **[!UICONTROL 對比區段的熱門量度]** | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)顯示選取區段的熱門量度。 |
+| **[!UICONTROL 一段時間後的量度 (根據區段)]** | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md)視覺效果顯示選取區段特定期間的量度。 |
+| **[!UICONTROL 對比區段的熱門維度項目]** | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 顯示選取區段的混合維度項目。 |
+| **[!UICONTROL 維度項目 (根據區段)]** | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)視覺效果根據區段顯示維度項目。 |
+| **[!UICONTROL 對比區段的熱門區段]** | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 顯示對比區段的熱門區段。 |
+| **[!UICONTROL 區段重疊]** | [文氏圖表](/help/analyze/analysis-workspace/visualizations/venn.md)視覺效果顯示區段重疊。 |
 
-使用![編輯](/help/assets/icons/Edit.svg)來重新設定及重建面板。
+使用「![編輯](/help/assets/icons/Edit.svg)」以重新設定並重建面板。
 
 
 <!--

@@ -6,40 +6,40 @@ feature: Calendar
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
 source-git-commit: 1ec261929c1a1b62b1aeb8f01189fe5f2368fa14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
 # 建立自訂日期範圍
 
-您可以在Analysis Workspace中建立自訂日期範圍，並將其儲存為「時間」元件。
+您可以在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 
-如需將現有日期範圍新增至專案的詳細資訊，請參閱[行事曆和日期範圍概觀](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。
+如需有關新增現有日期範圍至專案的資訊，請參閱[行事曆和日期範圍概觀](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。
 
 若要建立自訂日期範圍：
 
-1. 在Adobe Analytics中，選取&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 日期範圍]**。
+1. 在 Adobe Analytics 中，選取「**[!UICONTROL 元件]**」>「**[!UICONTROL 日期範圍]**」。
 
    ![日期範圍頁面](assets/date-ranges.png)
 
-1. 選取&#x200B;[!UICONTROL **建立新的日期範圍**]。
+1. 請選取「[!UICONTROL **建立新的日期範圍**]」。
 
-1. 在日期範圍產生器中，指定下列資訊：
+1. 在日期範圍建立工具中，指定以下資訊：
 
    | 選項 | 說明 |
    |---------|----------|
-   | [!UICONTROL **標題**] | 日期範圍的標題，當使用者在Analysis Workspace中選取日期範圍時就會顯示。 |
+   | [!UICONTROL **標題**] | 當使用者在 Analysis Workspace 中選取日期範圍時，會顯示此日期範圍的標題。 |
    | [!UICONTROL **說明**] | 日期範圍的說明。 |
-   | [!UICONTROL **標記**] | 您要套用至日期範圍的任何標籤。 |
-   | [!UICONTROL **日期範圍**] | 可讓您挑選自訂日期範圍。 依預設，會選取最近30天。 |
-   | [!UICONTROL **預設集**] | 從預設日期範圍清單中選擇，例如&#x200B;[!UICONTROL **昨天**]、[!UICONTROL **最近7天**]、[!UICONTROL **最近30天**]&#x200B;等。 |
-   | [!UICONTROL **開始時間**] | 日期範圍開始的當天時間。 |
-   | [!UICONTROL **結束時間**] | 日期範圍結束的當日時間。 |
-   | [!UICONTROL **使用遞延日期**] | 您可以使用滾動日期，根據執行報告的時間來產生動態報告，往前或往後查看一段時間的情況。舉例來說，如果您想在報表中加入「上個月」所下的所有「訂單」資料 (以「已建立日期」欄位為依據) 並在 12 月執行報表運算，您就會在報表中看到 11 月下的訂單。如果在 1 月執行相同報表運算，則會看到在 12 月下的訂單。<ul><li>**[!UICONTROL 日期預覽]**：指出滾動日曆包含的時間期間。</li><li>**[!UICONTROL 開始]**：您可在當日、當週、當月、當季、今年之間做選擇。</li><li>**[!UICONTROL 結束]**：您可在當日、當週、當月、當季、今年之間做選擇。</li></ul><br>預設為已選取。 |
+   | [!UICONTROL **標記**] | 您想要套用於此日期範圍的任何標記。 |
+   | [!UICONTROL **日期範圍**] | 可讓您挑選自訂日期範圍。根據預設，已選取最近 30 天。 |
+   | [!UICONTROL **預設集**] | 從預設的日期範圍清單中選擇，例如&#x200B;[!UICONTROL **昨天**]、[!UICONTROL **最近 7 天**]、[!UICONTROL **最近 30 天**]&#x200B;等等。 |
+   | [!UICONTROL **開始時間**] | 日期範圍開始之日的時間。 |
+   | [!UICONTROL **結束時間**] | 日期範圍結束日的時間。 |
+   | [!UICONTROL **使用滾動日期**] | 您可以使用滾動日期，根據執行報告的時間來產生動態報告，往前或往後查看一段時間的情況。舉例來說，如果您想在報表中加入「上個月」所下的所有「訂單」資料 (以「已建立日期」欄位為依據) 並在 12 月執行報表運算，您就會在報表中看到 11 月下的訂單。如果在 1 月執行相同報表運算，則會看到在 12 月下的訂單。<ul><li>**[!UICONTROL 日期預覽]**：指出滾動日曆包含的時間期間。</li><li>**[!UICONTROL 開始]**：您可在當日、當週、當月、當季、今年之間做選擇。</li><li>**[!UICONTROL 結束]**：您可在當日、當週、當月、當季、今年之間做選擇。</li></ul><br>預設為已選取。 |
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 請選取「[!UICONTROL **儲存**]」。
 
 ## 範例：「兩個月前」的日期範圍 {#section_C4109C57CB444BB2A79CC8082BD67294}
 
@@ -55,9 +55,9 @@ ht-degree: 57%
 
 ![](assets/date-range-two-months-table.png)
 
-## 範例：使用7天滾動日期範圍 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 範例：使用 7 天滾動日期範圍 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-您可以建立日期範圍，指定一週前結束的7天滾動時段：
+您可以建立一個日期範圍，指定在一週前結束的 7 天滾動期間：
 
 ![](assets/create_date_range.png)
 

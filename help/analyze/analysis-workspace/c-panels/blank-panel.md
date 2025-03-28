@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄空白面板。針對本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本，請_<br/>_&#x200B;參閱[空白面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/blank-panel)。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 空白面板。_<br/>_請參閱[空白面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/blank-panel)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 

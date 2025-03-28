@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
 source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ ht-degree: 24%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Venn視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn)。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的文式圖表視覺效果。_<br/>_請參閱[文式圖表](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/venn)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
-![型別](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**&#x200B;視覺效果可讓您拖曳至最多3個篩選器和一個量度（從「元件」面板），以建立Venn圖表。
+![類型](/help/assets/icons/TwoDots.svg)**[!UICONTROL 文式圖表]**&#x200B;視覺效果可讓您拖曳最多 3 個篩選器和一個量度 (從元件面板) 來建置文氏圖表。
 
-![包含三個篩選器的Venn視覺效果。](assets/venn.png)
+![文式圖表視覺效果包括三個篩選器。](assets/venn.png)
 
-您可以將滑鼠停留在篩選器上，以取得百分比等計量的更多深入解析。
+您可以在篩選器上停留，以獲得更多百分比等計量的深入分析。
 
-若要從[!UICONTROL Venn]視覺效果產生[!UICONTROL 自由表格]，請選取&#x200B;**[!UICONTROL Venn]**&#x200B;標題旁的彩色![StatusOrange](/help/assets/icons/StatusOrange.svg)，並選取&#x200B;**[!UICONTROL 顯示資料來源]**。 您將會看到&#x200B;**[!UICONTROL Venn資料]**&#x200B;自由表格，其中包含用來建立[!UICONTROL Venn]視覺效果的資料。
+若要從[!UICONTROL 文式圖表] 視覺效果產生[!UICONTROL 自由格式表格]，選取標上顏色的 ![StatusOrange](/help/assets/icons/StatusOrange.svg) (**[!UICONTROL 文式圖表]**&#x200B;旁) 標題並選取「**[!UICONTROL 顯示資料來源]**」。您將看到&#x200B;**[!UICONTROL 文式圖表資料]**&#x200B;自由格式表格，其中包括用於建立[!UICONTROL 文式圖表]視覺效果的資料。
 
 <!--
 To normalize the Venn diagram (take the size out of it), go select ![Setting](/help/assets/icons/Setting.svg) and select **[!UICONTROL Normalization]**.
@@ -48,15 +48,15 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Venn視覺效果](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 文式圖表視覺效果](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

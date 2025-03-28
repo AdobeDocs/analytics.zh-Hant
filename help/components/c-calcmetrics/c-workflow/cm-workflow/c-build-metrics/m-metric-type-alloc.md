@@ -1,12 +1,12 @@
 ---
-description: 進一步了解
+description: 了解
 title: 量度類型和歸因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
->title="使用非預設歸因模式"
+>title="使用非預設歸因模型"
 >abstract="為所選的量度啟用非預設歸因模型。"
 
 <!-- markdownlint-enable MD034 -->
@@ -133,18 +133,18 @@ ht-degree: 79%
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
->title="回顧視窗"
+>title="回顧期間"
 >abstract="此設定可決定要為每個轉換套用的資料歸因期間。"
 
 <!-- markdownlint-enable MD034 -->
 
-當[建立計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)時，您可以指定量度型別和歸因模型。
+[建置計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)時，您可以指定量度類型和歸因模型。
 
-## 量度型別
+## 量度類型
 
-若要在建立計算量度時指定量度型別：
+若要在建置計算量度時指定量度類型：
 
-1. 選取您要選取其型別的量度旁的齒輪圖示。
+1. 請選取要選取類型旁的齒輪圖示。
 
    ![](assets/cm_type_alloc.png)
 
@@ -153,15 +153,15 @@ ht-degree: 79%
    | 量度類型 | 定義 |
    |---|---|
    | 標準 | 這些量度就是在標準 [!DNL Analytics] 報表中使用的量度。如果某個公式由單一標準量度組成，則其顯示的資料將與其非計算量度相對應公式一樣。標準量度適合用來建立每個行項目專屬的計算量度。例如，[訂單] / [造訪] 會採用該特定條列項目的訂單，然後除以該特定條列項目的造訪次數。 |
-   | 全部總計 | 在每個條列專案中使用報告期間的總計。 如果公式包含單一「總量」量度，它會在每個行專案上顯示相同的總數。 「總量」量度適合用來建立與網站總量資料比較的計算量度。 例如，[訂單] / [造訪總次數] 可顯示相較於網站「全部」造訪次數的訂單比例，而不只是特定條列項目的造訪次數。 |
+   | 總計 | 使用適用於每個條列項目報告期間的總計。如果公式由單一總計量度組成，則會在每個條列項目顯示相同總數。總計量度適合用來建立要與網站資料總計比較的計算量度。例如，[訂單數]/[總造訪數]可顯示相較於網站「全部」造訪數的訂單比例，而不只是特定條列項目的造訪數。 |
 
-## 線性配置的運作方式
+## 線性配置如何運作
 
-[歸因](/help/analyze/analysis-workspace/attribution/overview.md)是計算量度中配置模型的評估方式。
+[歸因](/help/analyze/analysis-workspace/attribution/overview.md)為計算量度中配置模式的評估方式。
 
-如需非預設歸因模式及支援的回顧期間的完整清單，請參閱[歸因模式與回顧期間](/help/analyze/analysis-workspace/attribution/models.md)。
+如需非預設歸因模型及支援的回顧期間的完整清單，請參閱[歸因模型與回顧期間](/help/analyze/analysis-workspace/attribution/models.md)。
 
-下列範例說明具有線性配置的計算量度在報表中的運作方式：
+下列範例將說明具有線性配置的計算量度在報告中將如何運作：
 
 | | 點擊 1 | 點擊 2 | 點擊 3 | 點擊 4 | 點擊 5 | 點擊 6 | 點擊 7 |
 |--- |--- |--- |--- |--- |--- |--- |--- |

@@ -4,9 +4,9 @@ title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
->title="建立對象"
->abstract="對象可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>title="建立客群"
+>abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -66,7 +66,7 @@ ht-degree: 97%
 
 * **Analytics 頂端導覽**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段」]**。
 * **[!UICONTROL Analysis Workspace]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Workspace」]**，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立區段」]**。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/work-with-segments)。
 
 ## 產生器條件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -78,7 +78,7 @@ ht-degree: 97%
 1. **[!UICONTROL 說明]**：提供區段的說明。
 1. **[!UICONTROL 標記]**：選擇現有標記清單中的標記或建立新標記，[標記您正在建立的區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 1. **[!UICONTROL 定義]**：可在此[建立和設定區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)、新增規則、巢狀內嵌及排序容器。
-1. **[!UICONTROL 顯示]**： （頂端容器選擇器。） 可讓您選取最上層[容器](/help/components/segmentation/seg-overview.md) （ [!UICONTROL 訪客]，[!UICONTROL 造訪]，[!UICONTROL 點選]）。 預設的頂層容器為「點擊」容器。
+1. **[!UICONTROL 顯示]**：(頂端容器選擇器。) 可讓您選擇頂層[容器](/help/components/segmentation/seg-overview.md) ( [!UICONTROL 訪客]、[!UICONTROL 造訪]、[!UICONTROL 點擊])。預設的頂層容器為「點擊」容器。
 1. **[!UICONTROL 選項]**：(齒輪) 圖示
 
    * **[!UICONTROL + 新增容器]**：可讓您新增新的容器 (在頂層容器下) 至區段定義。
@@ -109,14 +109,14 @@ ht-degree: 97%
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL X]**：(刪除) 可用來刪除這個部分的區段定義。
 1. **[!UICONTROL Experience Cloud 發佈]**：將 Adobe Analytics 區段發佈至 Experience Cloud，可讓您在 [!DNL Audience Manager] 和其他啟用管道中，使用該區段進行行銷活動。[更多詳情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 客群庫]**：Adobe 的客群服務可管理將訪客資料轉譯為客群細分的過程。因此，建立和管理客群類似於建立和使用細分群體，附贈可與 Experience Cloud 共用客群細分群體的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL 客群庫]**：Adobe 的客群服務可管理將訪客資料轉譯為客群細分的過程。因此，建立和管理客群類似於建立和使用細分群體，附贈可與 Experience Cloud 共用客群細分群體的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hant)
 1. **[!UICONTROL 搜尋]**：搜尋維度、區段或量度清單。
 1. **[!UICONTROL 維度]**：(清單) 按一下標題可展開。
 1. **[!UICONTROL 量度]**：按一下標題可展開。
 1. **[!UICONTROL 區段]**：按一下標題可展開。
 1. **[!UICONTROL 報表套裝選取器]**：可讓您選取要將此區段儲存哪個報表套裝底下。您仍可以使用所有報表套裝中的區段。
 1. **[!UICONTROL 區段預覽]**：可讓您預覽關鍵量度，以查看您是否具備有效的區段及區段的廣度。代表如果您套用此區段，可以預期看到的資料集劃分。顯示 3 個同心圓以及一個清單，以顯示對資料集執行之區段的[!UICONTROL 點擊]、[!UICONTROL 瀏覽]和[!UICONTROL 訪客]符合項目的數目和百分比。在您建立或對區段定義進行變更之後，此圖表會立即更新。
-1. **[!UICONTROL 產品相容性]**：提供與您所建立區段相容的Adobe Analytics產品(Analysis Workspace、Data Warehouse)清單。 大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在您對區段定義進行變更之後，此圖表會立即更新。
+1. **[!UICONTROL 產品相容性]**：提供與您所建立之區段相容的 Adobe Analytics 產品 (Analysis Workspace、Data Warehouse) 清單。大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在您對區段定義進行變更之後，此圖表會立即更新。
 1. **[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：儲存或取消區段。按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;之後會進入「區段管理器」，您可在此管理區段。
 
 
@@ -170,7 +170,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的滾動式日期範圍](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在區段捲動日期範圍](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -284,7 +284,7 @@ ht-degree: 97%
    <td colname="col2">檢視由搜尋引擎引薦過來的訪客的相關資料。在區段定義中，容器是瀏覽。規則是 <p>反向連結類型等於搜尋引擎。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自社交網站的造訪次數 </td> 
+   <td colname="col1"> 來自社交網站的造訪數 </td> 
    <td colname="col2">檢視社交網站參照的訪客的相關資料。在區段定義中，容器是瀏覽。規則是 <p>反向連結類型等於社交網路. </p> </td> 
   </tr> 
   <tr> 

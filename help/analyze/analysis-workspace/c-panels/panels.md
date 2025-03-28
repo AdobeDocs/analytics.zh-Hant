@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2157'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 57%
 
 ## 面板類型
 
-下列面板型別可在Analysis Workspace中用於[!UICONTROL Adobe Analytics]：
+[!UICONTROL Adobe Analytics]的 Analysis Workspace 中提供以下面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
 | [空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md) | 從可用面板和視覺效果中選擇以開始分析。 |
 | [歸因](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。 |
-| [目標分析](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
+| [Analytics for Target](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
 | [自由格式](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現豐富的資料故事。 |
 | [媒體平均分鐘觀眾數](average-minute-audience-panel.md) | 分析特定內容或自訂時段的平均每分鐘觀眾數。 |
 | [媒體同時檢視者](media-concurrent-viewers.md) | 分析不同時段的同時檢視者，並取得尖峰同時檢視情形的詳細資訊，並可加以劃分及比較。 |
 | [媒體播放時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放時間，以了解何時達到尖峰同時檢視人數或是檢視人數何時下降。 |
 | [下一個或上一個項目](next-previous.md) | 顯示人們造訪的下一頁或上一頁。 |
 | [快速深入分析](quickinsight.md) | 快速建置自由格式表格和伴隨的視覺效果，加快分析及揭露深入分析的速度。 |
-| [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關的差異。 |
+| [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關差異。 |
 
 
 [!UICONTROL 快速深入分析]、[!UICONTROL 空白]和[!UICONTROL 自由格式]面板是您開始分析的絕佳地方，而[!UICONTROL 歸因]則適合更進階的分析。![AddCircle](/help/assets/icons/AddCircle.svg)位於版面底部，因此您可以隨時新增空白面板。
@@ -76,26 +76,26 @@ ht-degree: 57%
 * 選取![AddCircle](/help/assets/icons/AddCircle.svg)，在工作區最後一個面板的&#x200B;**外面**，以新增另一個[空白面板](blank-panel.md)。
 
 
-## 報表套裝
+## 報告套裝
 
-每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關聯，由面板右上角的下拉式選單中的![資料](/help/assets/icons/Data.svg) **[!UICONTROL *報告套裝名稱&#x200B;*]**識別。
+每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
-建立新面板時，預設報表套裝會以您上次在Analysis Workspace專案中處理的面板報表套裝為基礎。
+建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
 
-在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-hant)，多寡視您的分析使用情形而定。
+在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-hant) (根據分析使用案例而定)。
 
-報表套裝清單是依關聯性來分類；Adobe 是根據目前用戶最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。
+報表套裝清單是依相關性來分類；Adobe 是根據目前使用者最近使用套裝情形和使用套裝頻率，以及組織內使用套裝頻率等來定義相關性。
 
 ![](assets/panel-report-suite.png)
 
 >[!IMPORTANT]
 >
->選取的報表套裝會決定哪些維度、量度和區段可用來在面板中建立視覺效果。
+>選取的報告套裝會決定哪些維度、量度和區段，可供面板建置視覺效果時使用。
 >
 >
->當您切換面板的報表套裝時，某些元件可能無法用於該新報表套裝中。 此變更可能會導致您的視覺效果無法正確呈現。您可能會看到如下警告：
+>當您切換面板的報告套裝時，某些元件可能在新報告套裝中無法使用。此變更可能會導致您的視覺效果無法正確呈現。您可能會看到如下警告：
 >
->* 此面板包含在所選報表套裝中未啟用的元件。 請變更報表套裝或啟用報表套裝中的必要元件。
+>* 此面板包含選取報告套裝中未啟用的元件。請變更報告套裝或在報告套裝中啟用所需的元件。
 >* 無法呈現視覺效果：請檢查您的欄和列以確保它們包含有效元件。
 >
 
@@ -105,7 +105,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->如果在視覺效果或面板中使用![行事曆](/help/assets/icons/Calendar.svg)日期範圍元件（例如，作為區段），則日期範圍元件會覆寫面板行事曆。
+>如果在視覺效果或面板中使用![行事曆](/help/assets/icons/Calendar.svg)日期範圍元件 (例如，作為區段)，日期範圍元件會覆寫面板行事曆。
 >
 
 
@@ -137,83 +137,83 @@ ht-degree: 57%
 
 ## 下拉區域 {#dropzone}
 
-面板拖放區域可讓您將區段和下拉區段套用至面板內的所有表格和視覺效果。 您可以將一個或多個區段套用至面板。
+面板放置區可讓您將區段和下拉式區段套用至面板內的所有表格和視覺效果。您可以將一或多個區段套用至面板。
 
-### 客戶細分
+### 區段
 
-將任何左側面板的區段拖放至面板放置區域，即可開始分割您的面板。 重複此程式，將其他區段新增至面板。 區段會並排顯示在面板頂端。
+將任何區段從左側面板拖放至面板放置區，即可開始劃分面板。重複此程序，即可新增其他區段至面板。區段會並排顯示於面板頂部。
 
-![左側面板顯示可用的量度，以及拖曳至面板下拉區域的行動客戶量度。](assets/segment-filter.png)
+![左側面板顯示可用的量度，以及拖曳至放置區的行動客戶量度。](assets/segment-filter.png)
 
 #### 快速區段
 
-非區段元件也可以直接拖曳至托放區以建立快速區段，為您節省前往[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)的時間和精力。 以此方式建立的區段會自動定義為事件層級的區段。 選取區段名稱旁的![編輯](/help/assets/icons/Edit.svg)，即可快速修改此定義。
+也可以直接將非區段元件拖曳至放置區以建立快速區段，節省前往「[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)」的時間和作業。以此方法建立的區段會自動被定義為事件層級的區段。透過選取區段名稱旁的「![編輯](/help/assets/icons/Edit.svg)」，可以快速修改此定義。
 
 <!-- For more information, see [Quick segments](/help/components/segmentation/). -->
 
-![已公開並放入放置區域的臨時區段。](assets/adhoc-segment-filter.png)
+![公開且拖曳到放置區的臨時區段。](assets/adhoc-segment-filter.png)
 
 ### 下拉式區段
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式清單區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 #### 靜態下拉式區段
 
-靜態下拉式清單區段可讓您以可控制的方式與資料互動。 例如，您可以新增適用於行動裝置型別的下拉式區段，因此您就可以將面板區分為平板電腦、手機或桌上型電腦等區段。
+靜態下拉式區段可讓您以有限方式與資料互動。例如，您可新增行動裝置類型的下拉式區段，以便於您可以將面板劃分為平板電腦、手機或桌面電腦等區段。
 
-靜態下拉式區段也可用來將許多專案整合為一個。 例如，如果您的一個專案有許多版本，分別套用了不同的國家/地區區段，您可以將所有版本合併為單一專案，並新增一個國家/地區下拉式區段。
+靜態下拉式區段也可用於將許多專案合而為一。例如，如果您的一個專案擁有套用不同國家區段的許多版本，您可以將所有版本整合為單一專案並新增一個國家/地區的下拉式區段。
 
-![靜態下拉式區段會醒目顯示市場管道「直接」篩選器。](assets/dropdown-filter-intro.png)
+![靜態下拉式區段，顯示醒目提示的行銷管道「直接」篩選器。](assets/dropdown-filter-intro.png)
 
 ##### 建立靜態下拉式區段
 
-* 對於使用維度專案的下拉式區段，請從左側面板中選取單一維度，並將維度拖放至面板拖放區域，同時按住⇧鍵(*shift*)。 此動作會建立下拉式區段，其中包含與該維度相關聯的所有維度專案。
+* 針對使用維度項目的下拉式區段，請在左側面板中選取單一維度，並在按住 ⇧ (*Shift*) 的同時將維度拖曳至面板放置區。此動作建立一個下拉式區段，內含與該維度相關的所有維度項目。
 
-  或者，如果您希望下拉式區段僅包含與維度相關聯的特定維度專案，請在左側面板中選取所需維度旁的向右箭頭圖示。 此動作會公開所有可用的維度項目。從這個清單中選取多個維度項目，使用 ⇧ + ![Select](/help/assets/icons/Select.svg) (*Shift* + *選取*) 或 ^ + ![Select](/help/assets/icons/Select.svg) (*control* + *選取*)，然後將它們拖曳至面板下拉區域，**同時按住** ⇧。
+  或者，如果您希望下拉式區段僅包括與某個維度相關的特定維度項目，請選取左側面板中所需維度旁邊的右箭頭圖示。此動作會公開所有可用的維度項目。從這個清單中選取多個維度項目，使用 ⇧ + ![Select](/help/assets/icons/Select.svg) (*Shift* + *選取*) 或 ^ + ![Select](/help/assets/icons/Select.svg) (*control* + *選取*)，然後將它們拖曳至面板下拉區域，**同時按住** ⇧。
 
-* 針對使用單一元件型別的下拉式區段（例如，僅限維度、僅限區段或僅限量度），請在左側面板中使用⇧+![Select](/help/assets/icons/Select.svg)或^+![Select](/help/assets/icons/Select.svg)選取多個相同型別的專案。 然後&#x200B;**按住** ⇧ 的同時，將項目拖曳至面板下拉區域中。
+* 針對使用單一元件類型 (例如僅維度、僅篩選器或僅量度) 的下拉式區段，使用 ⇧+ ![選取](/help/assets/icons/Select.svg) 或 ^ + ![選取](/help/assets/icons/Select.svg)，在左側面板中選取多個相同類型的項目。然後&#x200B;**按住** ⇧ 的同時，將項目拖曳至面板放置區中。
 
-  系統會使用您選取的元件建立單一下拉式區段。
+  即可建立一個包含您選取元件的單一下拉式區段。
 
-* 針對混合使用元件型別（例如2個量度和3個區段）的下拉式區段，請使用⇧+![Select](/help/assets/icons/Select.svg)或^+![Select](/help/assets/icons/Select.svg)選取多個元件。 **在按住** ⇧ 的同時，將選取內容拖曳到面板下拉區域中。在此情境下，所有元件型別都會視為個別的下拉式區段。 例如，如果在選取範圍中同時包含量度和維度專案，則會建立兩個個別的下拉式區段：一個下拉式區段包含維度專案，另一個包含量度。
+* 針對使用混合元件類型 (例如 2 個量度和 3 個區段) 的下拉式區段，使用 ⇧ + ![選取](/help/assets/icons/Select.svg) 或 ^ + ![選取](/help/assets/icons/Select.svg)來選取多個元件。**在按住** ⇧ 的同時，將選取項目拖曳到面板放置區中。在此情況下，系統會將所有元件類型視為獨立的下拉式區段。例如，若您同時選取了量度和維度項目，則會建立兩個獨立的下拉式區段：一個包含維度項目，另一個包含量度。
 
-下拉式區段提供下列內容功能表選項：
+下拉式區段提供以下內容選單選項：
 
-* **[!UICONTROL 刪除下拉式清單]**：從面板移除下拉式清單區段。
-* **[!UICONTROL 刪除標籤]**：移除下拉式區段上方顯示的文字。 若要修改標籤，請將滑鼠停留在標籤上，並選取下拉式區段的![編輯標籤](/help/assets/icons/Edit.svg)。
-* **[!UICONTROL 新增標籤]**：將下拉式區段新增至專案時，會自動將標籤設定為元件名稱。 如果您刪除該標籤，就可以使用此選項再次新增。
-* **[!UICONTROL 需要選取]**：需要在面板上設定區段。
+* **[!UICONTROL 刪除下拉式選單]**：從面板中移除下拉式選單。
+* **[!UICONTROL 刪除標籤]**：移除下拉式選單上方顯示的文字。若要修改標籤，停留在標籤上並選取「![下拉式篩選器的編輯標籤](/help/assets/icons/Edit.svg)」。
+* **[!UICONTROL 新增標籤]**：您對專案新增下拉式區段時，會有一個標籤自動設定為元件名稱。如果您刪除此標籤，即可使用此選項再次新增。
+* **[!UICONTROL 必要選取項目]**：需在面板上設定區段。
 
 ##### 使用靜態下拉式區段
 
-使用者可以使用下拉式區段功能表，透過下列任何方式將面板分段：
+使用者可以透過下列任何方式，使用下拉式區段選單來劃分面板：
 
-* 從下拉式區段選取區段，將單一區段套用至面板。
+* 在下拉式區段中選取單一區段，將其套用至面板。
 
-* 從下拉式區段中選取多個區段，即可將多個區段套用至面板。 面板會分段以包含任何選取的區段。
+* 在下拉式區段中選取多個區段，將其套用至面板。區分此面板以包括所有已選取的區段。
 
 
 #### 動態下拉式區段
 
-動態下拉式區段可讓您根據面板報告範圍內的資料及其他下拉式區段中的值來決定可用值。 例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式篩選器。您從&#x200B;**[!UICONTROL 國家/地區]**&#x200B;下拉式清單選取一個國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式清單會動態調整成僅顯示該國家/地區內的城市。
+動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式篩選器。您從&#x200B;**[!UICONTROL 國家/地區]**&#x200B;下拉式清單選取一個國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式清單會動態調整成僅顯示該國家/地區內的城市。
 
-此相同的概念適用於所有維度；只有出現在面板日期範圍內的維度專案和選取的區段才會顯示。 在靜態下拉式區段中選取的Dimension專案會影響動態下拉式區段中的可用值。 反之則不然；在動態下拉式區段中選取的Dimension專案不會影響靜態下拉式區段中的可用值。
+同樣的概念適用於所有維度；會顯示僅出現在面板日期範圍內和選取區段中的維度項目。在靜態下拉式區段中選取的維度項目，會影響動態下拉式區段中的可用值。然而，反之則不然；在動態下拉式區段中選取的維度項目，不會影響靜態下拉式區段中的可用值。
 
-如果您預期將來會收集某個維度項目，就可以手動選取維度項目。您也可以清除動態下拉式區段，使其不包含值，讓其他動態下拉式區段包含更多值。 選取「**[!UICONTROL 全部重設]**」以清除該面板所有下拉式區段中的選取專案。
+如果您預期將來會收集特定維度項目，可手動選取維度項目。您也可以清除動態下拉式區段，使其不包含值，從而允許其他動態下拉式區段包含更多值。請選取「**[!UICONTROL 全部重設]**」，可清除該面板所有下拉式篩選器中的選取項目。
 
 若要建立動態下拉式區段：
 
-* **同時按住** ⇧，將單一維度拖放到面板下拉區域中。
+* **同時按住** ⇧，將單一維度拖放到面板放置區中。
 
-請注意，動態下拉式區段不適用於量度、區段或日期範圍。
+請注意動態下拉式區段不適用於量度、區段或日期範圍。
 
-動態下拉式區段提供與靜態下拉式區段相同的內容功能表選項。
+動態下拉式區段提供與靜態下拉式區段相同的內容選單選項。
 
 
 ## 內容選單
@@ -228,7 +228,7 @@ ht-degree: 57%
 | --- | --- |
 | **[!UICONTROL 插入複製的面板]** | 讓您將複製的面板貼到專案內另一個位置或不同的專案中。 |
 | **[!UICONTROL 插入複製的視覺化呈現]** | 將複製的視覺效果貼上到面板、專案內另一個位置或不同的專案中。 |
-| **[!UICONTROL 套用報表套裝至所有面板]** | 將此面板的報表套裝套用至專案中的所有其他面板。 |
+| **[!UICONTROL 將報告套裝套用至所有面板]** | 將此面板的報告套裝套用至專案中的所有其他面板。 |
 | **[!UICONTROL 複製面板]** | 複製面板以便將其插入專案內另一個位置或不同的專案中。 |
 | **[!UICONTROL 重複面板]** | 複製目前的面板，您可以修改它。 |
 | **[!UICONTROL 收摺所有面板]** | 收摺所有專案面板。 |

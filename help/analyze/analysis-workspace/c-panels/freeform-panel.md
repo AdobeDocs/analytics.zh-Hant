@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
 source-git-commit: fe1d4a87157a125f6065a6d827e4266d4ddefd4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄自由面板。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[自由面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的自由格式面板。_<br/>_請參閱[自由格式面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
 
-**[!UICONTROL 自由面板]**&#x200B;是空白面板，以[自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果作為預設開始狀態。
+在預設啟動狀態中，**[!UICONTROL 自由格式面板]**&#x200B;為使用[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) 視覺效果的空白面板。
 
 ## 使用
 
-若要使用&#x200B;**[!UICONTROL 自由面板]**：
+若要使用&#x200B;**[!UICONTROL 自由格式面板]**：
 
-1. 建立&#x200B;**[!UICONTROL 自由面板]**。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立一個&#x200B;**[!UICONTROL 自由格式面板]**。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-   ![預設的自由面板，顯示具有自由表格的空白面板。](assets/freeform-panel.png)
+   ![預設的自由格式面板顯示使用自由格式表格的空白面板。](assets/freeform-panel.png)
 
-1. 請參閱[Analytics元件指南](/help/components/home.md)，瞭解如何將元件新增至自由面板，以及[自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果。
+1. 請參閱 [Analytics 元件指南](/help/components/home.md)，以了解如何新增元件至自由格式面板和[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺效果。
 
 
 >[!MORELIKETHIS]
 >
->[Create a panel](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[Analytics元件指南](/help/components/home.md)
->[自由表格視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>[建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
+>[Analytics 元件指南](/help/components/home.md)
+>[自由格式表格視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

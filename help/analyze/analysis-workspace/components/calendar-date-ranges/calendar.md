@@ -5,9 +5,9 @@ feature: Calendar
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '942'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 90%
 <!-- markdownlint-enable MD034 -->
 
 
-在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
+在行事曆中，您可以指定日期和日期範圍，或選取預設集。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行事曆和日期範圍總覽](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 行事曆和日期範圍概觀](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -43,12 +43,12 @@ ht-degree: 90%
 
 您也可以將日期 (和時間維度) 拖曳至工作區專案中。您可以選取特定的日、週、月、年或滾動日期。
 
-[在 Analysis Workspace 中使用日期範圍和行事曆](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-Hant) (4:07)
+[在 Analysis Workspace 中使用日期範圍和行事曆](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-hant) (4:07)
 
 | 設定 | 說明 |
 |--- |--- |
 | 選擇的天數 | 所選日/週/月/年。 |
-| 使日期範圍元件相對於面板行事曆 | 如果停用，在表格、視覺效果或面板拖放區域中使用的任何日期範圍元件都會覆寫面板行事曆。 <p>如果啟用，表格、視覺效果或面板放置區域內使用的任何日期範圍元件都會與面板日期範圍相關。 例如，如果面板日期範圍設為11月1日到11月30日，而自由表格中使用了「上週」日期範圍元件，則自由表格中的資訊會參照10月的最後一週。 |
+| 使日期範圍元件相對於面板行事曆 | 若停用，表格、視覺效果或面板放置區內使用的日期範圍元件，會覆寫面板行事曆。 <p>若啟用，表格、視覺效果或面板放置區內使用的任何日期範圍元件均與面板日期範圍相關。例如，如果面板日期範圍設定為 11 月 1 日至 11 月 30 日，並且在自由格式表格中使用上週日期範圍元件，則自由格式表中的資訊是指 10 月的最後一週。 |
 | 使用滾動日期 | 您可以使用滾動日期，根據執行報告的時間來產生動態報告，往前或往後查看一段時間的情況。舉例來說，如果您想在報表中加入「上個月」所下的所有「訂單」資料 (以「已建立日期」欄位為依據) 並在 12 月執行報表運算，您就會在報表中看到 11 月下的訂單。如果在 1 月執行相同報表運算，則會看到在 12 月下的訂單。<ul><li>**[!UICONTROL 日期預覽]**：指出滾動日曆包含的時間期間。</li><li>**[!UICONTROL 開始]**：您可在當日、當週、當月、當季、今年之間做選擇。</li><li>**[!UICONTROL 結束]**：您可在當日、當週、當月、當季、今年之間做選擇。</li></ul>若要檢視範例，請參閱[自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)。<br>預設為已選取。 |
 | 日期範圍 | 可讓您挑選預設日期範圍。「最近 30 天」是預設值。**[!UICONTROL 本週/月/季/年 (不包括今天)]** 可讓您從不包含今天部分日資料的日期範圍進行選擇。 |
 | 套用到所有面板 | 可讓您不僅變更目前面板的選定日期範圍，也同時變更專案中的所有其他面板。 |

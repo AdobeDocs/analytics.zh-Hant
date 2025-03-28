@@ -5,9 +5,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
 source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 57%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄散佈圖視覺效果。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[散佈圖](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的散佈圖視覺效果。_<br/>_請參閱[散佈圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
 
-![圖表散佈圖](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 散佈圖]**&#x200B;視覺效果顯示維度專案與最多三個量度之間的關係。 視覺效果需要三個元件，且支援視覺化最多四個元件。
+![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 散佈圖]**&#x200B;視覺效果顯示維度項目與最多三個量度之間的關係。此視覺效果需要三個元件，且支援視覺效果最多四個元件。
 
 * 列元件 (通常為維度) 代表圖形上的每個點。不同的列以不同顏色的點顯示。
 * 最左側的欄 (通常為量度) 繪製點在 Y 軸 (垂直軸) 上的位置。
@@ -38,19 +38,19 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 * 第三欄則決定點的半徑。
 * 散點圖視覺效果會忽略自由表格中所有後續的欄。
 
-![顯示多個維度專案](assets/scatter.png)的散佈圖範例
+![顯示多個維度項目的散佈圖範例](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [散佈圖視覺效果](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 視覺散佈圖效果](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺效果內容功能表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

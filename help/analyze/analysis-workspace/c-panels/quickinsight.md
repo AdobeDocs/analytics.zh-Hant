@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄快速深入分析面板。_<br/>_檢視此文章的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本的[快速深入分析面板](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight)。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的快速深入分析面板。_<br/>_請參閱[快速深入分析面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/quickinsight)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 * 在哪裡建立篩選
 * 及更多內容。
 
-為協助您解決這些問題，[!UICONTROL 快速深入分析]會運用演演算法，提供貴公司最常使用的維度、量度、區段和日期範圍。 此演算法是基於您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式清單中看到標示為[!UICONTROL POPULAR]的維度、量度和區段，如下所示：
+為了解答這些問題，[!UICONTROL 快速深入分析]利用演算法為您提供貴公司所使用的最熱門維度、量度、區段和日期範圍。此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式清單中看到標記為「[!UICONTROL 熱門]」的維度、量度和區段，如下所示：
 
 ![「快速深入分析」面板。](assets/popular-tag.png)
 
@@ -62,7 +62,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 | **[!UICONTROL 量度]** | 量度是有關人員活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
 | **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。 |
 | **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。例如，您可以將「依行動裝置劃分美國各州」劃分為每個州的行動裝置造訪次數。或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
-| **[!UICONTROL 區段]** | 區段可讓您根據特性或網站互動來識別人員的子集。 例如，您可以根據以下專案建立[!UICONTROL 訪客]區段： <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>退出點和登入點：來自Facebook、已定義的登陸頁面、反向連結網域或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
+| **[!UICONTROL 區段]** | 區段讓您根據特性或網站互動來識別人員子集。例如，您可以建置[!UICONTROL 人員]區段，根據 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：來自 Facebook 的訪客、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
 
 ## 使用
 
@@ -83,7 +83,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 * **[!UICONTROL 分析]**  - 指定維度 (橘色)
 * **[!UICONTROL 依據]**  - 指定量度 (綠色)
-* **[!UICONTROL 篩選依據]** — 指定區段（藍色）
+* **[!UICONTROL 篩選條件]**  - 指定區段 (藍色)
 * **[!UICONTROL 在]** - 指定日期範圍 (紫色)。
 
 您必須至少選取一個維度和一個量度才能使視覺化呈現正常運作。
@@ -105,7 +105,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
    ![自由格式表格依垂直方向顯示維度並依水平方向顯示量度。](assets/quick-insights-output.png)
 
-   * 具有維度（[!UICONTROL 國家/地區網站]）和量度（[!UICONTROL 次造訪]）的自由格式表格，依[!UICONTROL 搜尋引擎]在過去12個月]的[!UICONTROL 次造訪]分段。[!UICONTROL 
+   * 以[!UICONTROL 過去 12 個月]來自[!UICONTROL 搜尋引擎]的[!UICONTROL 造訪數]來劃分包含維度 ([!UICONTROL 國家/地區網站]) 和量度 ([!UICONTROL 造訪數]) 的自由格式表格。
 
    * 隨附的視覺效果，在此案例中為[長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。產生的視覺效果會以您新增至表格的資料類型為基礎。任何以時間為基礎的資料 (例如，每日/月的[!UICONTROL 造訪]次數)，都會預設為[!UICONTROL 折線圖]。任何非時間型資料 (例如，每個[!UICONTROL 裝置]的[!UICONTROL 造訪]次數) 都會預設為[!UICONTROL 長條圖]。您可以按一下視覺化呈現類型旁的下拉箭頭，以變更視覺化呈現類型。
 
@@ -121,7 +121,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
   ![The Quick Insights Panel notification displayed after you select the Help icon.](assets/qibuilder4.png)
 
-* 您可以分析多個維度和量度、合併或比較區段，以及指定日期範圍：
+* 您可以分析多個維度和量度、結合或比較區段，以及指定日期範圍：
 
   ![Quick Insights Builder Result](assets/qibuilder-result.png)
 
@@ -129,7 +129,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
    * 新增更多量度&#x200B;**[!UICONTROL 依據]**：您最多可以再增加 2 個量度。請參閱➍和➎。
 
-   * **[!UICONTROL 篩選依據]**：您最多可以再新增2個區段。 例如，將Bookings新增為區段，並將該區段與您比較的「經常預約者」和「首次傳單」區段結合。 請參閱➏、➐和➑。
+   * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個區段。例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。請參閱➏、➐和➑。
 
    * 在：您可以指定日期範圍。請參閱➒。
 
