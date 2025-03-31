@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e0f6b7b5b2933add7f67873a945b78e4200116eb
+source-git-commit: 53175bbf54dd452502e1502b272ebb86c8b133ef
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 98%
+source-wordcount: '922'
+ht-degree: 64%
 
 ---
 
 # 最新 Adobe Analytics 發行說明 (2025 年 3 月發布)
 
-**上次更新日期**：2025 年 3 月 12 日
+**上次更新日期**：2025年3月31日
 
 這些發行說明涵蓋 2025 年 3 月 5 日至 5 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 | ----------- | ---------- | ------- | ---- |
 | **Analytics 上下文資料欄位`a.locale`** 更新內容 | 這個更新將改變透過 Experience Edge 收集資料時 Analytics 上下文資料欄位 `a.locale` 的設定方式。使用 Experience Edge 將資料傳送至 Adobe Analytics 時，Analytics 欄位將根據 XDM 欄位的對應填入。`c.a.locale` 的對應引用了非標準 XDM 欄位 `xdm.environment.language`。此欄位將會經過更新，以引用正確的欄位 `xdm.environment._dc.language`。<p>此對應將持續引用 `xdm.environment.language`，以提供向後相容性。為維持連貫性，若兩個欄位皆已經過設定，將以 `xdm.environment.language` 優先。您可以從[此處](https://experienceleague.adobe.com/zh-hant/docs/analytics/implementation/aep-edge/xdm-var-mapping)檢視 XDM 對應至標準 Analytics 欄位的完整清單。 | | 2025 年 3 月 5 日 |
 | **Customer Journey Analytics 升級指南** | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的逐步指南。這份指南是根據您的組織量身打造，而且會考量您目前的 Adobe Analytics 環境、您對 Customer Journey Analytics 的預期用途，以及您的組織想要做出之任何節省時間的權衡。<p>若要開始產生自訂指南，請先登入 [!DNL Customer Journey Analytics]，然後在「**[!UICONTROL 工作區]**」標籤上選取「**[!UICONTROL 升級至 Customer Journey Analytics]**」。<p>[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations) |  | 2025 年 3 月 11 日 |
-| **Data Warehouse 專用維度** | 2025 年 5 月起，Adobe 將開始將展現出極高基數的維度 (自訂變量，例如 eVar 和 props) 設定為「僅限 Data Warehouse」。高基數變數有許多不同的值；範例包括時間戳記或 UUID。這些維度將無法再用於 Analysis Workspace 中的報告。<p>需要進行此變更的候選項是月初就超出低流量限制的維度。對於這些類型的維度，Analysis Workspace 中基於該維度的報告毫無用處，因為可報告的資料僅代表所收集之初始值的一小部分。<p>由於 Data Warehouse 不會實施低流量限制，您仍然可以根據這些類型的維度建立實用的報告或區段。 | | 2025 年 5 月 |
+| **Data Warehouse 專用維度** | 從2025年5月開始，Adobe將開始將某些維度（自訂變數，例如eVar和prop）設定為「僅限Data Warehouse」。 這會套用至顯示下列特性的尺寸：<ul><li> 在幾個月期間，變數會在當月的前幾天內達到低流量限制。</li><li>超過90%傳入的值在當月只會顯示一次。</li></ul>例如，包含時間戳記、UUID或其他基數極高之資料的維度，以及在整個月內幾乎每次點選（或造訪或訪客）都會傳入不重複的新值的維度。這些維度通常很快就會超過低流量限制，而且在Analysis Workspace中只能報告值的極小部分。 這會導致使用這些維度的報表感到困惑，因為它們不會顯示有用或準確的資訊。 這些維度不符合低流量功能的目的或好處，低流量功能旨在提供一種方法，當維度在該月超過低流量限制後，針對變為「熱門」的值進行報告。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/technotes/low-traffic.)<p>標示為「僅限Data Warehouse」的維度無法用於Analysis Workspace中的報告。 不過，由於此處不套用低流量限制，因此仍可透過Data Warehouse進行報告。<p>這並不表示每個達到低流量限制的維度都是標示為「僅限Data Warehouse」的候選專案。 大多數達到低流量限制的維度實際上符合低流量功能的目的：<ul><li>傳入的大部分值都不是唯一的。</li><li>當月達到低流量限制後，常用值會繼續進入。</li><li>新的「熱門」值仍可能發生。</li></ul>只有傳入的值大多是全新且唯一的維度，才會標示為「僅限Data Warehouse」。 考慮到在這些情況下所收集資料的獨特性，提高低流量限制不是解決方案。 | | 2025 年 5 月 |
 
 
 ## Adobe Analytics 中的修正
