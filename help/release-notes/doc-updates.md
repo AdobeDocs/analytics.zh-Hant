@@ -273,12 +273,12 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 6 月 18 日 | 有關[歸因：演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-hant)的新文件 |
 | 2020 年 6 月 18 日 | 有關[歸因：自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-hant#lookback-windows)的新文件 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-hant)的新文件。共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
-| 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects$2$3?lang=zh-hant)的新文件。專案能以「可供檢視」狀態和使用者共用。當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
+| 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-hant)的新文件。專案能以「可供檢視」狀態和使用者共用。當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-hant)的新文件。共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
 | 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-hant)的新文件。新增至「可編輯」角色的收件者可在已與其共用的專案中執行儲存作業。無論管理員或非管理人員均適用。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 有關[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的新文件 |
-| 2020 年 5 月 21 日 | 有關 [Adobe Analytics 儀表板](/docs/analytics/analyze/mobapp/home$2$3?lang=zh-hant)的新文件 |
+| 2020 年 5 月 21 日 | 有關 [Adobe Analytics 儀表板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-hant)的新文件 |
 | 2020 年 5 月 21 日 | 有關 Analysis Workspace 的[協助工具改良](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-hant)的新文件，包括改良的鍵盤導覽、色彩比對和螢幕助讀程式支援。 |
 | **2020 年 4 月** |  |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
