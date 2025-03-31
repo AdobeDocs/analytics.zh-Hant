@@ -6,9 +6,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 2f61febc3e19b4b8d57833204b987cb64a9b7467
+source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '274'
 ht-degree: 48%
 
 ---
@@ -42,9 +42,9 @@ ht-degree: 48%
 
 ## 存取Analytics詳細目錄
 
-可從&#x200B;**[!UICONTROL 管理員]**&#x200B;功能表以及&#x200B;**[!UICONTROL 所有管理員]**&#x200B;功能表專案取得Analytics詳細目錄。
+[!UICONTROL Analytics詳細目錄]可從&#x200B;**[!UICONTROL 管理員]**&#x200B;功能表以及&#x200B;**[!UICONTROL 所有管理員]**&#x200B;功能表專案取得。
 
-    ！[Analytics詳細目錄功能表](assets/an-inventory-menu.png)
+![Analytics-Inventory-menu](assets/an-inventory-menu.png)
 
 
 ## 元件 {#components}
