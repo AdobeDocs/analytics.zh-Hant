@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
+source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 37%
+source-wordcount: '736'
+ht-degree: 25%
 
 ---
 
@@ -54,9 +54,13 @@ ht-degree: 37%
 
    ![主要詳細目錄畫面](assets/an_inventory.png)
 
->[!IMPORTANT]
->
->   在此初始版本中，您可以檢視Workspace專案、區段、計算量度、進階(Media Analytics)資料和使用者的摘要數字。 目前，唯一可操作的專案是報表套裝。
+   具體而言，此畫面會顯示
+
+   * 此組織下所有使用者中作用中的Analysis Workspace和行動計分卡專案總數。
+   * 此組織下所有使用者中有效的區段和計算量度總數。
+   * 已定義的基本報表套裝總數（不含虛擬報表套裝）。
+   * 如果Media Analytics功能作用中，而且如果有，會在什麼模式中。
+   * 在該組織下定義的使用者總數。
 
 
 ## 元件 {#components}
@@ -83,9 +87,18 @@ ht-degree: 37%
 
 <!-- markdownlint-enable MD034 -->
 
-### 分析報表套裝
+### 報告套裝
 
-1. 若要分析報表套裝並決定要移轉哪些報表套裝，請瀏覽至&#x200B;**[!UICONTROL 資料組態與集合]** > **[!UICONTROL 報表套裝]**，然後按一下&#x200B;**[!UICONTROL 分析]**。
+報表套裝檢視會顯示某個組織下定義的所有報表套裝。 它可讓您回答以下問題：
+
+* 哪些報表套裝在過去90天內收到的點選次數最多？
+* 哪些報表套裝在過去90天內未收到點選？
+* 哪些報表套裝定義的維度數量最多？
+* 哪些報表套裝定義的量度數量最多？
+
+這些問題的答案可讓您對於哪些報表套裝最適合移轉有一個不錯的想法。
+
+1. 若要分析報表套裝，請瀏覽至&#x200B;**[!UICONTROL 資料組態與集合]** > **[!UICONTROL 報表套裝]**，然後按一下&#x200B;**[!UICONTROL 分析]**。
 
    ![報告套裝清單](assets/an_inv_rs.png)
 
@@ -93,12 +106,12 @@ ht-degree: 37%
    | --- | --- |
    | 名稱 | 報表套裝的名稱 |
    | ID | 報表套裝ID (rsid)。 指定僅能含英數字元的不重複 ID。此 ID 在建立後即無法變更。由 Adobe 設定必要的 ID 首碼，此值無法變更。 |
-   | 發生次數 (過去 90 天) |  |
-   | 量度 | How |
-   | 維度 |  |
-   | Analytics for Target (A4T) 已啟用 |  |
-   | 行銷管道已啟用 |  |
-   | Source聯結器已啟用 | 要關注的 |
+   | 發生次數 (過去 90 天) | 此報表套裝在過去90天內收到多少點選？ |
+   | 量度 | 此報告套裝中定義了多少量度？ |
+   | 維度 | 此報告套裝中已定義多少維度？ |
+   | Analytics for Target (A4T) 已啟用 | 是否已為[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
+   | 行銷管道已啟用 | 此報表套裝是否已針對[行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)啟用？ |
+   | Source聯結器已啟用 | [開發中]是否已針對Adobe Experience Platform中的報告套裝資料[Adobe Analytics Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用此報告套裝？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
    | 行事曆類型 | 如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 1. 請注意……
