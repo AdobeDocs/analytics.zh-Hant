@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fe1074403992c1dd28778f279cafe4e557dfe4fd
+source-git-commit: fceb28b7af480e6d87abf09c26f45a7afb2d3270
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '516'
+ht-degree: 37%
 
 ---
 
@@ -40,11 +40,23 @@ ht-degree: 48%
 
    * 您應該先升級哪一組報表套裝？ 上次？
 
+## 權限
+
+在[Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics)中擁有Adobe Analytics產品管理員許可權的使用者可以使用Analytics詳細目錄。
+
 ## 存取Analytics詳細目錄
 
-[!UICONTROL Analytics詳細目錄]可從&#x200B;**[!UICONTROL 管理員]**&#x200B;功能表以及&#x200B;**[!UICONTROL 所有管理員]**&#x200B;功能表專案取得。
+1. 在&#x200B;**[!UICONTROL 管理員]**&#x200B;功能表中按一下&#x200B;**[!UICONTROL 分析詳細目錄]**。 或前往&#x200B;**[!UICONTROL 所有管理員]** > **[!UICONTROL 分析詳細目錄]**。
 
 ![Analytics-Inventory-menu](assets/an-inventory-menu.png)
+
+1. 主畫面會顯示Adobe Analytics環境的完整清查：
+
+   ![主要詳細目錄畫面](assets/an_inventory.png)
+
+>[!IMPORTANT]
+>
+>   在此初始版本中，您可以檢視Workspace專案、區段、計算量度、進階(Media Analytics)資料和使用者的摘要數字。 目前，唯一可操作的專案是報表套裝。
 
 
 ## 元件 {#components}
@@ -58,6 +70,7 @@ ht-degree: 48%
 
 <!-- markdownlint-enable MD034 -->
 
+在此初始版本中，您可以檢視Workspace專案、區段和計算量度的摘要詳細目錄編號。 後續版本將可讓您分析這些元件。
 
 ## 資料設定和彙集 {#data-config}
 
@@ -70,6 +83,34 @@ ht-degree: 48%
 
 <!-- markdownlint-enable MD034 -->
 
+### 分析報表套裝
+
+1. 若要分析報表套裝並決定要移轉哪些報表套裝，請瀏覽至&#x200B;**[!UICONTROL 資料組態與集合]** > **[!UICONTROL 報表套裝]**，然後按一下&#x200B;**[!UICONTROL 分析]**。
+
+   ![報告套裝清單](assets/an_inv_rs.png)
+
+   | 元素 | 說明 |
+   | --- | --- |
+   | 名稱 | 報表套裝的名稱 |
+   | ID | 報表套裝ID (rsid)。 指定僅能含英數字元的不重複 ID。此 ID 在建立後即無法變更。由 Adobe 設定必要的 ID 首碼，此值無法變更。 |
+   | 發生次數 (過去 90 天) |  |
+   | 量度 | How |
+   | 維度 |  |
+   | Analytics for Target (A4T) 已啟用 |  |
+   | 行銷管道已啟用 |  |
+   | Source聯結器已啟用 | 要關注的 |
+   | 行事曆類型 | 如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+
+1. 請注意……
+
+### 匯出至 CSV
+
+1. 若要將報表套裝清單匯出至.csv檔案，請按一下[匯出至CSV] ****。
+
+1. .csv檔案將會顯示在您的「下載」資料夾中。
+
+1. 在裝置上使用試算表應用程式開啟並儲存。
+
 
 ## 使用者管理 {#user-management}
 
@@ -81,3 +122,5 @@ ht-degree: 48%
 >abstract="此區段顯示您 Adobe Analytics 環境中的使用者數量。"
 
 <!-- markdownlint-enable MD034 -->
+
+使用者管理將可在Analytics詳細目錄的最新版本中使用。
