@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: f9bbb764ab34310e575a308110f84270ee9d665a
+source-git-commit: ba96acbae989b653e4e63f2266511abed6b25b62
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 21%
+source-wordcount: '1132'
+ht-degree: 19%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 21%
 
 「Analytics詳細目錄」提供您Adobe Analytics環境的完整總覽，包括專案和元件、報表套裝、使用者等數量。 當您開始準備升級至 Customer Journey Analytics 時，這些資訊能提供極大幫助。
 
-The goal of Analytics inventory is to help you answer the following questions:
+Analytics詳細目錄的目標是協助您回答下列問題：
 
-* For your organization, which assets (such as report suites, segments, users, workspace projects, data feeds, and so on) do you need to migrate and which assets can you leave behind?
+* 對於您的組織，哪些資產（例如報表套裝、區段、使用者、工作區專案等）需要移轉，以及哪些資產可留下？
 
 * 決定需要移轉的資產後：
 
@@ -60,7 +60,7 @@ The goal of Analytics inventory is to help you answer the following questions:
    * 此組織下所有使用者中有效的區段和計算量度總數。
    * 已定義的基本報表套裝總數。 不包含虛擬報表套裝。
    * 如果Media Analytics功能作用中，而且如果有，會在什麼模式中。
-   * The total number of users defined under this organization.
+   * 此組織下定義的使用者總數。
 
 
 ## 元件 {#components}
@@ -114,10 +114,10 @@ The goal of Analytics inventory is to help you answer the following questions:
    | 發生次數 (過去 90 天) | 「發生次數」量度會顯示指定的維度經設定或持續存在的點擊次數。此報表套裝在過去90天內收到多少點選？ |
    | 量度 | 此報告套裝中定義了多少量度？ |
    | 維度 | 此報告套裝中已定義多少維度？ |
-   | Analytics for Target (A4T) 已啟用 | 此報表套裝是否已針對[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用？ |
-   | 行銷管道已啟用 | 此報表套裝是否已針對[行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)啟用？ |
-   | Source聯結器已啟用 | [開發中]在Adobe Experience Platform中，此報表套裝是否已針對[Adobe Analytics Source Connector啟用報表套裝資料](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
-   | 行事曆類型 | 如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analytics for Target (A4T) 已啟用 | [預設為隱藏]是否已為[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
+   | 行銷管道已啟用 | [預設為隱藏]此報表套裝是否已為[行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)啟用？ |
+   | Source聯結器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用[Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 行事曆類型 | [預設為隱藏]如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### 分析維度
 
@@ -134,6 +134,7 @@ The goal of Analytics inventory is to help you answer the following questions:
    | ID | 維度識別碼。 |
    | 類型 | 維度的型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
+   | Source聯結器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 決定哪些維度適合移轉至CJA。
 
@@ -154,6 +155,7 @@ The goal of Analytics inventory is to help you answer the following questions:
    | ID | 量度ID。 |
    | 類型 | 量度型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
+   | Source聯結器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 判斷哪些量度適合移轉至CJA。
 
@@ -164,6 +166,11 @@ The goal of Analytics inventory is to help you answer the following questions:
 1. .csv檔案將會顯示在您的「下載」資料夾中。
 
 1. 在裝置上使用試算表應用程式開啟並儲存。
+
+>[!NOTE]
+>
+>篩選掉的專案和欄不會匯出至.csv檔案。
+
 
 #### 篩選、搜尋、排序和導覽
 
