@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: fdbc4c0155936375be036bd92722240e27869b11
+source-git-commit: f9bbb764ab34310e575a308110f84270ee9d665a
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 19%
+source-wordcount: '1035'
+ht-degree: 21%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 19%
 
 「Analytics詳細目錄」提供您Adobe Analytics環境的完整總覽，包括專案和元件、報表套裝、使用者等數量。 當您開始準備升級至 Customer Journey Analytics 時，這些資訊能提供極大幫助。
 
-此應用程式的目標是協助您回答下列問題：
+The goal of Analytics inventory is to help you answer the following questions:
 
-* 對於您的組織，哪些資產（例如報表套裝、區段、使用者、工作區專案、資料摘要等）需要升級，以及哪些資產可以留在後面？
+* For your organization, which assets (such as report suites, segments, users, workspace projects, data feeds, and so on) do you need to migrate and which assets can you leave behind?
 
 * 決定需要移轉的資產後：
 
@@ -38,7 +38,7 @@ ht-degree: 19%
 
    * 資產的升級順序應該為何？
 
-   * 您應該先升級哪一組報表套裝？ 上次？
+   * 您應該先升級或最後升級哪些報表套裝？
 
 ## 權限
 
@@ -54,13 +54,13 @@ ht-degree: 19%
 
    ![主要詳細目錄畫面](assets/an_inventory.png)
 
-   具體而言，此畫面會顯示
+   此畫面會特別顯示：
 
    * 此組織下所有使用者中作用中的Analysis Workspace和行動計分卡專案總數。
    * 此組織下所有使用者中有效的區段和計算量度總數。
-   * 已定義的基本報表套裝總數（不含虛擬報表套裝）。
+   * 已定義的基本報表套裝總數。 不包含虛擬報表套裝。
    * 如果Media Analytics功能作用中，而且如果有，會在什麼模式中。
-   * 在該組織下定義的使用者總數。
+   * The total number of users defined under this organization.
 
 
 ## 元件 {#components}
@@ -111,7 +111,7 @@ ht-degree: 19%
    | --- | --- |
    | 名稱 | 報表套裝的名稱 |
    | ID | 報表套裝ID (rsid)。 指定僅能含英數字元的不重複 ID。此 ID 在建立後即無法變更。由 Adobe 設定必要的 ID 首碼，此值無法變更。 |
-   | 發生次數 (過去 90 天) | 此報表套裝在過去90天內收到多少點選？ |
+   | 發生次數 (過去 90 天) | 「發生次數」量度會顯示指定的維度經設定或持續存在的點擊次數。此報表套裝在過去90天內收到多少點選？ |
    | 量度 | 此報告套裝中定義了多少量度？ |
    | 維度 | 此報告套裝中已定義多少維度？ |
    | Analytics for Target (A4T) 已啟用 | 此報表套裝是否已針對[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用？ |
@@ -168,7 +168,7 @@ ht-degree: 19%
 #### 篩選、搜尋、排序和導覽
 
 * 您可以搜尋表格。
-* 在左側欄中按一下「篩選」圖示，依「型別」篩選。 Or click **[!UICONTROL Hide Filter]**.
+* 在左側欄中按一下「篩選」圖示，依「型別」篩選。 或按一下&#x200B;**[!UICONTROL 隱藏篩選器]**。
 * 您可以以遞增/遞減順序來排序所有欄（僅限單一欄排序）。
 * 您可以按一下階層連結中的專案，導覽至其他畫面。
 
