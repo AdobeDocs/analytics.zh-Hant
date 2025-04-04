@@ -6,10 +6,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 1e52aecdbb26dce0875b2df685ed2fa860eaba85
+source-git-commit: f3fdc81da50fffcc6dc581b07b384836d24c444a
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 25%
+source-wordcount: '846'
+ht-degree: 22%
 
 ---
 
@@ -98,6 +98,11 @@ ht-degree: 25%
 
 這些問題的答案可讓您對於哪些報表套裝最適合移轉有一個不錯的想法。
 
+>[!NOTE]
+>
+>此表格一次緩慢填入一個儲存格值。
+
+
 1. 若要分析報表套裝，請瀏覽至&#x200B;**[!UICONTROL 資料組態與集合]** > **[!UICONTROL 報表套裝]**，然後按一下&#x200B;**[!UICONTROL 分析]**。
 
    ![報告套裝清單](assets/an_inv_rs.png)
@@ -109,14 +114,33 @@ ht-degree: 25%
    | 發生次數 (過去 90 天) | 此報表套裝在過去90天內收到多少點選？ |
    | 量度 | 此報告套裝中定義了多少量度？ |
    | 維度 | 此報告套裝中已定義多少維度？ |
-   | Analytics for Target (A4T) 已啟用 | 是否已為[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
+   | Analytics for Target (A4T) 已啟用 | 此報表套裝是否已針對[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用？ |
    | 行銷管道已啟用 | 此報表套裝是否已針對[行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)啟用？ |
-   | Source聯結器已啟用 | [開發中]是否已針對Adobe Experience Platform中的報告套裝資料[Adobe Analytics Source Connector](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用此報告套裝？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | Source聯結器已啟用 | [開發中]在Adobe Experience Platform中，此報表套裝是否已針對[Adobe Analytics Source Connector啟用報表套裝資料](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
    | 行事曆類型 | 如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
-1. 請注意……
+#### 分析維度
 
-### 匯出至 CSV
+此畫面提供針對特定報表套裝定義的所有維度的詳細檢視。 從這個檢視中，您可以回答下列問題：
+
+* 此報告套裝已啟用哪些維度？
+* 此維度過去90天的前十個維度專案為何？
+
+1. 按一下報表套裝頁面上的維度連結。
+
+
+
+
+#### 分析量度
+
+此畫面提供針對特定報表套裝定義之所有度量的詳細檢視。 從這個檢視中，您可以回答下列問題：
+
+* 此報告套裝已啟用哪些量度？
+* 過去90天的前十個量度為何？
+
+
+
+#### 匯出至 CSV
 
 1. 若要將報表套裝清單匯出至.csv檔案，請按一下[匯出至CSV] ****。
 
