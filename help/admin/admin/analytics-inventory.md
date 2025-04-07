@@ -4,10 +4,10 @@ title: Analytics 庫存
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: bab2bf61a2cf03f3e2b809d6383503b0c9bd5a36
+source-git-commit: 1a6f086105c76cbfcf361ddc54d71a7e7c4921d5
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 19%
+source-wordcount: '1183'
+ht-degree: 21%
 
 ---
 
@@ -157,7 +157,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
 
 1. 判斷哪些量度適合移轉至CJA。
 
-#### 匯出至 CSV
+### 匯出至 CSV
 
 1. 若要將報表套裝清單、維度或量度匯出至.csv檔案，請按一下[匯出至CSV] ****。
 
@@ -170,7 +170,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
 >篩選掉的專案和欄不會匯出至.csv檔案。
 
 
-#### 篩選、搜尋、排序和導覽
+### 篩選、搜尋、排序和導覽
 
 * 您可以搜尋表格。
 * 在左側欄中按一下「篩選」圖示，依「型別」篩選。 或按一下&#x200B;**[!UICONTROL 隱藏篩選器]**。
@@ -189,3 +189,13 @@ Analytics詳細目錄的目標是協助您回答下列問題：
 <!-- markdownlint-enable MD034 -->
 
 使用者管理將可在Analytics詳細目錄的最新版本中使用。
+
+## 移轉元件
+
+使用[元件移轉](/help/admin/admin/component-migration/component-migration.md)，Adobe Analytics管理員可以將Analytics專案及其相關元件移轉到Customer Journey Analytics。
+
+移轉過程包括：
+
+* 在 Customer Journey Analytics 中重新建立 Adobe Analytics 專案。
+
+* 將 Adobe Analytics 報表套件中的維度和指標對應到 Customer Journey Analytics 資料視圖中的維度和指標。
