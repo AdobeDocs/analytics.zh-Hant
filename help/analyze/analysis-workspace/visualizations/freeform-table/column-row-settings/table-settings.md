@@ -5,10 +5,10 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: 6d6a7587fc4a41be1e7ad33d3ed0280b0d82d47c
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
+workflow-type: tm+mt
+source-wordcount: '1045'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,7 @@ ht-degree: 100%
 | **[!UICONTROL 從選取項目建立註解]** | 開啟「**[!UICONTROL 註解詳細資料]**」以新增註解。 |
 | **[!UICONTROL 從選取項目建立篩選器]** | 開啟&#x200B;**[!UICONTROL 篩選產生器]**，從選取項目中建置篩選器。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 開啟「**[!UICONTROL 建立客群]**」對話框，從選取項目中建立客群。 |
+
+## 變更列高
+
+您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。 [了解更多](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
