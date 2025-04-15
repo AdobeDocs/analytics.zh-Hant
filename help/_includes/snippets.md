@@ -1,5 +1,5 @@
 ---
-source-git-commit: ec42c462ac98a49b89f0fae29b3b561a6afe7820
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 36%
@@ -11,7 +11,7 @@ ht-degree: 36%
 
 >[!IMPORTANT]
 >
->全新的簡化版[Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
+>全新的簡化版[Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
 >這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)轉換為新的Report Builder。
 
 ## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}

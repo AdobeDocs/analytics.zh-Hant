@@ -3,10 +3,10 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '2064'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,11 +75,11 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 是指儲存和自訂報告所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html) |
    | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。它可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。 | [Activity Map 概觀](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-   | Recommendations Classic | Recommendations 是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
+   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支援此功能。 |  |
    | 行動服務 | 不再支援此功能。 |  |
    | Analytics 儀表板 (行動應用程式) | Adobe Analytics 儀表板應用程式可隨時隨地提供 Adobe Analytics 的深入分析。透過該應用程式，使用者可以檢視您使用 Adobe Analytics 桌面版 UI 建立的直覺式計分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 儀表板應用程式 |
-   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的增益集。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [什麼是 Report Builder？](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview) |
+   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的增益集。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [什麼是 Report Builder？](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
    {style="table-layout:auto"}
 
@@ -95,7 +95,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
 
    | 產品功能 | 功能 | 詳細資訊 |
    |---------|----------|----------|
-   | Analytics 使用者與資產 | 雖然大多數使用者和產品管理功能目前只能在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中使用，將資產從一個使用者轉移到另一個使用者以及設定使用者帳戶到期日的管理功能只能從 Adobe Analytics 管理區域使用。 | [轉移使用者資產或設定帳戶到期日](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) |
+   | Analytics 使用者與資產 | 雖然大多數使用者和產品管理功能目前只能在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中使用，將資產從一個使用者轉移到另一個使用者以及設定使用者帳戶期限的管理功能只能從 Adobe Analytics 管理區域使用。 | [轉移使用者資產或設定帳戶期限](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html) |
    | 使用者 ID 移轉 | Analytics 使用者 ID 移轉可以讓管理員將 Analytics User Management 中的使用者帳戶輕鬆移轉至 Adobe Admin Console。 | [Analytics 使用者移轉至 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html) |
    | 使用者管理首頁 (舊版) | 使用者和產品管理功能已移至 Adobe Admin Console。使用 Adobe Admin Console 開始管理 Adobe Analytics 使用者的使用者權限。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
    | 群組 (舊版) | 群組管理功能已移至 Adobe Admin Console。使用 Adobe Admin Console 開始管理 Adobe Analytics 群組。 | [Adobe Admin Console 中的 Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
@@ -114,7 +114,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 資料摘要 | 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 | [Analytics 資料摘要概觀](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant) |
    | 依 IP 排除 | 您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。 | [依 IP 位址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html) |
    | 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並幫助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html) |
-   | 資料治理隱私權標籤 | 為報告套裝資料加上標籤，代表您可為特定報告套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。 | [標籤報告套裝資料](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html) |
+   | 資料治理隱私權標籤 | 為報告套裝資料加上標籤，代表您可為特定報告套裝內的每個變數，指派身分識別、敏感程度以及資料控管標籤。 | [標籤報告套裝資料](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html) |
    | 公司設定首頁 | 公司設定頁面可讓您設定要對您的組織所管理的所有報告套裝套用的設定。 | [公司設定概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html) |
    | 安全管理員 | 安全管理員可讓您控制報告資料的存取權。選項包括增強式密碼、密碼過期、IP 登入限制及電子郵件網域限制。 | [安全管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html) |
    | 網站服務 | 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。 | [網頁服務](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html) |

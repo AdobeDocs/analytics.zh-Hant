@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf6a811aac7d881517944c8308fd97e719791cc0
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -47,7 +47,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2024 年 10 月** |  |
 | 有關 Analysis Workspace Performance 請求因素的新資訊 | [Analysis Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)文章中的新[請求因素](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md#request-factors)部分介紹了如何處理請求以及影響處理時間的各種因素。 |
-| 新的 Report Builder | Mac、Windows 和 Web 瀏覽器支援的簡化 Report Builder 增益集的[新文件](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview)。 |
+| 新的 Report Builder | Mac、Windows 和 Web 瀏覽器支援的簡化 Report Builder 增益集的[新文件](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)。 |
 | **2024 年 8 月** | |
 | 警報管理器 | 簡化了有關 [警報管理器](/help/components/c-alerts/alert-manager.md) 的文件。清晰度和準確性的更新。 |
 | **2024 年 7 月** | |

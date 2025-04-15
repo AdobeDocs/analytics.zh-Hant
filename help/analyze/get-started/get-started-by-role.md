@@ -3,10 +3,10 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ Analytics 管理員應了解以下可協助監控 Analytics 環境重要方面�
 | 警報 | 根據資料異常以及在單一警報中擷取多個量度的「堆疊」警報來建立和管理警報。 | [警報概觀](/help/components/c-alerts/intellligent-alerts.md) |
 | 資料匯出 | Data Warehouse 和資料摘要可讓您將資料匯出到各種雲端目的地，例如 Google Cloud Platform、Azure RBAC、Azure SAS 和 Amazon S3。 | [Analytics 匯出指南](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=zh-Hant) |
 | Activity Map | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。<p>Activity Map 可讓您設定不同的視圖，以直觀地識別客戶活動的加速情況、量化行銷計劃並根據客群需求和行為採取行動。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
-| Report Builder |  Report Builder 是 Microsoft Excel 的增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-buider-overview) |
+| Report Builder |  Report Builder 是 Microsoft Excel 的增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview) |
 
 <!-- * Realtime reporting? -->
 

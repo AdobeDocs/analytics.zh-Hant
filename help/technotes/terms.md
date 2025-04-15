@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
+source-git-commit: 3eb140c729d2c0e9f880a6fada8377639f7c4a9c
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -89,7 +89,7 @@ ht-degree: 89%
 * **Prop：**&#x200B;請見「流量變數」。
 * **排名報告：**&#x200B;一種報告格式，通常會依循含有量度的維度。此類型的報告可用於查看排名最前的項目，例如網站上檢視次數最多的頁面。另請見「趨勢報告」。
 * **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
-* **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/report-buider-overview.md)增益集可讓您從Adobe Analytics資料建立自訂請求。
+* **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md)增益集可讓您從Adobe Analytics資料建立自訂請求。
 * **報告套裝：**&#x200B;您所傳送資料的目的地總體容器。Adobe Analytics 中的所有報告都會參照報告套裝。
 * **Reports &amp; Analytics：**&#x200B;此工具[生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。例如，顯示過去 7 天的報告可視為滾動式日期範圍。另請見「靜態日期範圍」。

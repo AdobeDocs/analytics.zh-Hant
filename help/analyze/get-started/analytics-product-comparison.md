@@ -3,8 +3,8 @@ description: Analysis Workspace、Report Builder、Data Warehouse 與 Data Workb
 title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 若要了解關於使用哪種 Adobe Analytics 產品的資訊，請參閱「[我應該使用哪種 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)」。
 
-| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/report-buider-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **存取方法** | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。[了解更多](/help/analyze/get-started/sys-reqs.md) | 透過瀏覽器進行設定。[了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 憑證登入。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **資料粒度** | 彙總 | 彙總 | 彙總 | 點擊 | 彙總 |

@@ -3,8 +3,8 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 **[Adobe Analytics 儀表板](/help/analyze/mobile-app/home.md)**&#x200B;允許使用者透過行動裝置存取直覺易用的計分卡。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** 是適用於 Microsoft Excel 的增益集，可在 Mac、Windows 和網頁瀏覽器上執行。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** 是適用於 Microsoft Excel 的增益集，可在 Mac、Windows 和網頁瀏覽器上執行。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
 
 **[舊版 Report Builder](/help/analyze/legacy-report-builder/home.md)** 是適用於 Microsoft Excel 的增益集，僅可在 Windows 上執行。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 ## 從 Adobe Analytics 中匯出資料  {#export}
 
-**[Report Builder](/help/analyze/report-builder/report-buider-overview.md)** 使用時機：
+**[Report Builder](/help/analyze/report-builder/rb-overview.md)** 使用時機：
 
 * 若自訂的 Workspace 配置選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
 * 用於將使用者輸入內容或離線資料來源 (印象、費用) 與 Adobe 資料鬆散連結。連結資料更加持久的解決方案是資料來源 (請參閱〈將資料匯入 Analytics〉)。
