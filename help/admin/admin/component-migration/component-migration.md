@@ -3,9 +3,9 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: 96c202870a4e584cf3625d6e4d40024b787c2f0e
+source-git-commit: 657f1417185a2eabb496e0e7207520211f652794
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1515'
 ht-degree: 5%
 
 ---
@@ -35,6 +35,8 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
 在將任何專案移轉至Customer Journey Analytics之前，請在[準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中進一步瞭解移轉專案。
 
+此外，請使用Analytics管理員可用的工具來執行[Adobe Analytics詳細目錄](/help/admin/admin/analytics-inventory.md)。
+
 ## 將Adobe Analytics專案移轉至Customer Journey Analytics
 
 >[!IMPORTANT]
@@ -63,7 +65,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
    <!-- add screenshot -->
 
-1. 在&#x200B;[!UICONTROL **專案所有者**]&#x200B;欄位中，開始輸入Customer Journey Analytics中要設定為專案所有者之使用者的名稱，然後在下拉式選單中選取其名稱。
+1. 在&#x200B;[!UICONTROL **專案所有者**]&#x200B;欄位中，開始輸入您要在Customer Journey Analytics中設定為專案所有者的使用者名稱，然後在下拉式選單中選取其名稱。
 
    您指定的擁有者擁有專案的完整管理許可權。 擁有者必須是Customer Journey Analytics的管理員。 您可以在稍後步驟中變更專案的所有權。
 
@@ -73,17 +75,17 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
 1. 選取&#x200B;[!UICONTROL **對應結構描述**]。
 
-1. 在&#x200B;[!UICONTROL **對應結構描述**]&#x200B;區段中，展開&#x200B;[!UICONTROL **Dimension**]&#x200B;和&#x200B;[!UICONTROL **量度**]&#x200B;區段。
+1. 在&#x200B;[!UICONTROL **對應結構描述**]&#x200B;區段中，展開&#x200B;[!UICONTROL **維度**]&#x200B;和&#x200B;[!UICONTROL **量度**]&#x200B;區段。
 
-   Adobe Analytics中的某些維度和量度會自動對應至Customer Journey Analytics中的維度或量度。 其他則需要手動對應。
+   Adobe Analytics中的部分維度和量度會自動對應至Customer Journey Analytics中的維度或量度。 其他則需要手動對應。
 
    **自動對應維度和量度**
 
    >[!NOTE]
    >
-   >   如果您使用WebSDK將資料內嵌至Adobe Experience Platform，維度和量度無法自動對應。 如需詳細資訊，請參閱[準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中的[先決條件](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites)。
+   >   如果您使用WebSDK將資料內嵌至Adobe Experience Platform，維度和量度無法自動對應。 如需詳細資訊，請參閱[準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/admin/component-migration/prepare-component-migration.md)中的[必要條件](/help/admin/admin/component-migration/prepare-component-migration.md#prerequisites)。
 
-   Adobe Analytics中的某些維度和量度會自動對應至Customer Journey Analytics中的維度或量度。 您無法針對這些維度和量度做出任何對應決策。
+   Adobe Analytics中的部分維度和量度會自動對應至Customer Journey Analytics中的維度或量度。 您無法針對這些維度和量度做出任何對應決策。
 
    例如，Adobe Analytics中的&#x200B;**造訪**&#x200B;量度會自動與Customer Journey Analytics中的&#x200B;**工作階段**&#x200B;量度對應。
 
@@ -97,7 +99,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
    Adobe Analytics中的部分維度和量度無法自動對應至Customer Journey Analytics中的維度或量度。
 
-   當維度或量度無法自動對應時，[!UICONTROL **Dimension**]&#x200B;或&#x200B;[!UICONTROL **量度**]&#x200B;區段標題旁會顯示橘色計數器，指出需要手動對應的維度或量度數目。 在表格中，每個需要手動對應的維度或量度旁都會顯示警告圖示![警告圖示](assets/schema-warning.png)。
+   當維度或量度無法自動對應時，[!UICONTROL **維度**]&#x200B;或&#x200B;[!UICONTROL **量度**]&#x200B;區段標題旁會顯示橘色計數器，指出需要手動對應的維度或量度數目。 在表格中，每個需要手動對應的維度或量度旁都會顯示警告圖示![警告圖示](assets/schema-warning.png)。
 
    此外，[!UICONTROL **狀態**]&#x200B;資料行顯示&#x200B;[!UICONTROL **未對應**]。
 
@@ -105,7 +107,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
    ![移轉結構描述手動對應](assets/schema-manual-map.png)
 
-1. 若要手動對應維度和量度，請選取包含警告圖示![警告圖示](assets/schema-warning.png)的維度或量度，然後在&#x200B;[!UICONTROL **對應Customer Journey Analytics量度**]&#x200B;欄位(或者&#x200B;[!UICONTROL **對應Customer Journey Analytics量度**]&#x200B;欄位，如果您正在對應維度)中，選取Customer Journey Analytics中您要對應至所選維度或量度的維度或量度。
+1. 若要手動對應維度和量度，請選取包含警告圖示![警告圖示](assets/schema-warning.png)的維度或量度，然後在&#x200B;[!UICONTROL **對應的Customer Journey Analytics量度**]&#x200B;欄位中(若要對應維度，請選取&#x200B;[!UICONTROL **對應的Customer Journey Analytics維度**]&#x200B;欄位)，在Customer Journey Analytics中選取您要對應到您選取之維度或量度的維度或量度。
 
    ![對應維度和量度](assets/schema-manual-map-drop-down.png)
 
@@ -127,7 +129,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
    如果移轉失敗，請參閱下面的[重試失敗的移轉](#retry-a-failed-migration)一節以取得詳細資訊。
 
-1. （選用）專案移轉後，您就可以將專案的所有權轉移給Customer Journey Analytics中的任何使用者。 如需詳細資訊，請參閱Customer Journey Analytics指南中的[轉移資產](https://experienceleague.adobe.com/en/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
+1. （選用）專案移轉後，您就可以將專案的所有權轉移給Customer Journey Analytics中的任何使用者。 如需詳細資訊，請參閱Customer Journey Analytics指南中的[轉移資產](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/tools/asset-transfer/transfer-assets)。
 
 ## 重試失敗的移轉
 
@@ -168,7 +170,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 | [!UICONTROL **狀態**] | 移轉的狀態： <ul><li>[!UICONTROL **未啟動**]</li><li>[!UICONTROL **已啟動**]</li><li>[!UICONTROL **已完成**]</li><li>[!UICONTROL **已失敗**]</li></ul>。 |
 | [!UICONTROL **標記**] | 選取標籤清單中的任何標籤。 只會顯示已套用選取標籤的專案。 |
 | [!UICONTROL **報告套裝**] | 在報表套裝清單中選取任何報表套裝。 系統只會顯示使用選定報表套裝的專案。 |
-| [!UICONTROL **擁有者**] | 在擁有者清單中選取任何擁有者。 系統只會顯示您所選取使用者擁有的專案。 |
+| [!UICONTROL **所有者**] | 在擁有者清單中選取任何擁有者。 系統只會顯示您所選取使用者擁有的專案。 |
 | [!UICONTROL **其他篩選器**] | 下列為其他可用的篩選： <ul><li>[!UICONTROL **我的**]：僅顯示您設為擁有者的專案。</li><li>[!UICONTROL **與我共用**]：僅顯示與您共用的專案。</li><li>[!UICONTROL **我的最愛**]：僅顯示標籤為我的最愛的專案。 （您可以從[專案登陸頁面](/help/analyze/landing.md)將專案標示為我的最愛。）</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
 
 {style="table-layout:auto"}
