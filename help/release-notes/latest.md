@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: e2e387f20d5e5732ec1d7eb67a0c81df95e07a55
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 51%
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 51%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics詳細目錄** | 「Analytics詳細目錄」提供您Adobe Analytics環境的完整總覽，包括專案和元件、報表套裝、使用者等數量。 透過自動化清查程式，您可以快速瞭解從Adobe Analytics切換至Customer Journey Analytics所需的工作。 這可讓轉換更容易、更快速。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025 年 3 月 26 日 |
+| **Analytics 庫存** | Analytics 庫存提供您的 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。藉由將庫存流程自動化，您可以快速了解從 Adobe Analytics 切換至 Customer Journey Analytics 所需的工作量。這會讓轉變的過程更加容易且快速。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025 年 3 月 26 日 |
 | **Data Warehouse 專用維度** | 根據客戶的意見回饋，我們已決定重新評估。 我們不會發佈先前宣佈的僅限Data Warehouse尺寸自動功能。 | | 待定 |
 
 ## Adobe Analytics 中的修正
@@ -54,7 +54,7 @@ ht-degree: 51%
 
 ## AppMeasurement
 
-如需AppMeasurement發行的最新消息，請參閱[AppMeasurement發行說明](https://github.com/adobe/appmeasurement/releases)。
+如需 AppMeasurement 發行的最新消息，請參閱 [AppMeasurement 發行說明](https://github.com/adobe/appmeasurement/releases)。
 
 
 ## 相關資源

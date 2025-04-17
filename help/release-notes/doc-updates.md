@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2025 年 3 月** |  |
-| | **Analytics詳細目錄** | 「Analytics詳細目錄」提供您Adobe Analytics環境的完整總覽，包括專案和元件、報表套裝、使用者等數量。 [了解更多](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/analytics-inventory) |
+| | **Analytics 庫存** | Analytics 庫存提供您的 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/analytics-inventory) |
 | Customer Journey Analytics 升級指南 | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的[逐步指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations)。 |
 | 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱 [Data Warehouse元件支援](/help/export/data-warehouse/component-support.md)中的[以不同方式支援的維度 (非標準日期格式)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
 | 更新有關 IP 排除項目的資訊 | 新增資訊，說明 [IP 排除項目](/help/admin/admin/exclude-ip.md)最多可能需要 5 分鐘才能生效，以及變更僅適用於新的相符項目 (在設定排除項目之前擷取的資料不受影響)。 <p>也更新內容版面以改善可讀性。</p> |
