@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '6380'
 ht-degree: 99%
@@ -227,12 +227,12 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 6 月 15 日 | 已更新[行銷管道最佳做法](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html?lang=zh-hant) |
 | 2021 年 6 月 3 日 | 已更新文件，以便為[資料摘要實施](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-hant)和[此處](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=zh-hant#BucketOwnerFullControl)提供更好的說明。 |
 | 2021 年 5 月 25 日 | 已更新有關[報告中 eVar 區分大小寫情況](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-hant)的文件。 |
-| 2021 年 5 月 13 日 | [Data Warehouse API 要求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)的更新。這類要求現在支援「小時」。 |
+| 2021 年 5 月 13 日 | [Data Warehouse API 要求](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/)的更新。這類要求現在支援「小時」。 |
 | **2021 年 3 月** | |
 | 2021 年 3 月、4 月 | Adobe Analytics 儀表板[執行指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html?lang=zh-hant)和[組織者指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-hant)的更新 |
 | 2021 年 3 月 25 日 | 有關「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面的新文件。這可讓您為使用者管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 使用者偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 使用者偏好設定]」頁面：<ul><li>報告設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報告設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
 | 2021 年 3 月 25 日 | [!UICONTROL 直方圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的直方圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
-| 2021 年 3 月 25 日 | [資料修復 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 更新 (URL、查詢字串、@ 符號等項目的篩選功能) |
+| 2021 年 3 月 25 日 | [資料修復 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) 更新 (URL、查詢字串、@ 符號等項目的篩選功能) |
 | 2021 年 3 月 25 日 | 新的[使用記錄 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 文件 |
 | **2021 年 2 月** | |
 | 2021 年 2 月 4 日 | 元件選擇：[!UICONTROL 工作區]中的所有拖放區域已新增 [!UICONTROL Quick Insights] 中的下拉/拖放區域元件。這項增強功能可讓您從相容元件的下拉式清單中挑選項目，或繼續將該空間當做拖放區域使用。 |

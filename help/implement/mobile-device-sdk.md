@@ -4,26 +4,23 @@ description: 決定要使用的行動 AppMeasurement 資料庫。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 role: Admin, Developer, Leader, User
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 48%
+source-wordcount: '82'
+ht-degree: 37%
 
 ---
 
 # 對行動裝置實施 Analytics
 
-若要對行動裝置實作Analytics，請使用Adobe Experience Platform Mobile SDK。 如需詳細資訊，請參閱[行動SDK總覽](aep-edge/mobile-sdk/overview.md)。
+若要對行動裝置實作Analytics，請使用Adobe Experience Platform Mobile SDK。
 
-## Adobe Experience Platform 行動 SDKs
-
-* [iOS SDK存放庫](https://github.com/adobe/aepsdk-analytics-ios)
-* [Android SDK存放庫](https://github.com/adobe/aepsdk-analytics-android)
-* [文件](https://sdkdocs.com/)
+* 如需Adobe Analytics的特定詳細資訊，請參閱[使用Adobe Experience Platform Mobile SDK實作Adobe Analytics](aep-edge/mobile-sdk/overview.md)。
+* 請參閱[行動SDK檔案](https://developer.adobe.com/client-sdks/home/)以下載並安裝SDK。
 
 ## 第 4 版 Mobile SDK
 
 >[!CAUTION]
 >
->版本 4 Mobile SDK 於 2021 年 8 月 31 日終止支援。 如需詳細資訊，請參閱[AdobeMobile Services生命週期結束常見問答集](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)。
+>版本 4 Mobile SDK 於 2021 年 8 月 31 日終止支援。 如需詳細資訊，請參閱[Adobe Mobile Services生命週期結束常見問題集](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)。
 

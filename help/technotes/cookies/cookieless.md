@@ -4,10 +4,10 @@ description: 了解如何減輕瀏覽器 Cookie 限制之影響，以改良 Adob
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 伺服器端收集可靈活地提供您自己的識別碼，而不需仰賴瀏覽器機制來設定 Cookie。
 
-您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實施。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)」。
+您可以使用[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 或[大量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實施。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)」。
 
 ## 使用 Web SDK 的第一方裝置 ID (FPID)
 

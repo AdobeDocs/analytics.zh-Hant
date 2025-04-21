@@ -4,7 +4,7 @@ description: 了解用戶端提示如何逐漸取代使用者代理程式成為�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 84%
@@ -47,7 +47,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
-若是透過 API 提交的資料，例如透過[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)或[批量資料插入 API](https://experienceleague.adobe.com/docs/analytics/import/bulk-data-insert.html)，提示必須明確地包含在承載中。 查看各別文件以取得詳細資料。
+若是透過 API 提交的資料，例如透過[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)或[批量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提示必須明確地包含在承載中。 查看各別文件以取得詳細資料。
 
 +++
 
@@ -145,7 +145,7 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++
 
-+++**透過AdobeSource Connector傳送到Adobe Experience Platform和Customer Journey Analytics的資料中是否提供使用者端提示？**
++++**透過Adobe Experience Platform Source Connector傳送至Adobe和Customer Journey Analytics的資料中是否提供使用者端提示？**
 
 Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包含用戶端提示。
 
