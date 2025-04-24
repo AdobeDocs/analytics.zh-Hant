@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
 source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,4 +92,4 @@ ht-degree: 98%
 
 ## 變更列高
 
-您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。 [了解更多](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
+您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 精簡]**、 **[!UICONTROL 舒適]**&#x200B;和 **[!UICONTROL 擴展]**。[了解更多](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。

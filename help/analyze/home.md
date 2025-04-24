@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 | **[Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)** | Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享見解。您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。 |
 | **[Analytics 儀表板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)** | Analytics 儀表板和行動計分卡可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。鑑選人將視覺化內容加入行動計分卡專案，並與高階主管分享。<br>計分卡提供了一種定位與衡量 KPI 的方法，並且能清楚呈現組織在實現目標方面的工作情況。 |
 | **[Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)** | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的訪客參與情形。<br> Activity Map 可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。」 |
-| **[Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)** | Mac、 Windows 和網頁瀏覽器支援適用於 Microsoft Excel 的新 Report Builder 增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
+| **[Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/rb-overview)** | Mac、 Windows 和網頁瀏覽器支援適用於 Microsoft Excel 的新 Report Builder 增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
 | **[舊版 Report Builder](/help/analyze/legacy-report-builder/home.md)** | 舊版 Report Builder 是適用於 Microsoft Excel 的增益集，僅 Microsoft Windows 支援。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
 | **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | 使用 Analytics API 就能直接呼叫 Adobe 的伺服器，執行幾乎所有使用者介面中可以執行的動作。您可以建立報告來探索、取得深入分析，或是回答資料相關的重要問題。您也可以管理 Adobe Analytics 的元件，例如建立區段或計算量度。 |
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 ## Analytics 使用手冊
 
-Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Analytics 使用指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)」
+Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Analytics 使用指南](https://experienceleague.adobe.com/docs/analytics.html)」
 
 ## 重要 Analytics 資源
 

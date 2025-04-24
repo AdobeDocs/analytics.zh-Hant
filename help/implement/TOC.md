@@ -5,7 +5,7 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
 source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -15,10 +15,10 @@ ht-degree: 100%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
-+ Analytics 變數、函數和方法 {#vars}
-   + [總覽](vars/overview.md)
++ Analytics 變數、函數和方法  {#vars}
+   + [概觀](vars/overview.md)
    + 設定變數 {#config-vars}
       + [設定變數總覽](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
@@ -132,10 +132,10 @@ ht-degree: 100%
       + [removeFromList](vars/plugins/removefromlist.md)
       + [websiteBot](vars/plugins/websitebot.md)
    + [整合模組](vars/integrate.md)
-+ 準備實作 Adobe Analytics {#prepare}
++ 準備實作 Adobe Analytics  {#prepare}
    + [建立資料層](prepare/data-layer.md)
    + [比較實作方法](prepare/comparison.md)
-   + [全域報表套裝考量事項](prepare/global-rs.md)
+   + [全域報告套裝考量事項](prepare/global-rs.md)
    + [實作多套裝標記](prepare/multi-suite-tagging.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
@@ -147,13 +147,13 @@ ht-degree: 100%
       + [Web SDK 總覽](aep-edge/web-sdk/overview.md)
       + [使用標記移轉至 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [使用 JavaScript 移轉至 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
-      + [使用標記的全新實施](aep-edge/web-sdk/web-sdk-tag-extension.md)
-      + [使用 JavaScript 的全新實施](aep-edge/web-sdk/web-sdk-javascript-library.md)
+      + [使用標記的全新實作](aep-edge/web-sdk/web-sdk-tag-extension.md)
+      + [使用 JavaScript 的全新實作](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
    + 伺服器 API {#server-api}
       + [伺服器 API 概觀](aep-edge/server-api/overview.md)
-+ 使用 Adobe Analytics 擴充功能實作 Analytics。{#launch}
++ 使用 Adobe Analytics 擴充功能實作 Analytics {#launch}
    + [標記總覽](launch/overview.md)
    + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
@@ -167,19 +167,19 @@ ht-degree: 100%
    + [從 H 程式碼移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}
       + [H 程式碼總覽](js/h-code/overview.md)
-      + 動態帳戶 {#dynamicaccount}
+      + 動態帳戶  {#dynamicaccount}
          + [動態帳戶總覽](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [疑難排解 H 程式碼](js/h-code/troubleshooting.md)
-   + 舊版跨裝置身分識別 {#xdevice-visid}
+   + 舊版跨裝置識別  {#xdevice-visid}
       + [跨裝置連結使用者總覽](js/xdevice-visid/xdevice-connecting.md)
       + [變數持續性](js/xdevice-visid/variable-persistence.md)
       + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
-+ 在其他平台上實作 Analytics {#other}
++ 在其他平台上實作 Analytics  {#other}
    + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
    + [在 Ajax 上實作 Analytics](other/ajax.md)
    + [在 AMP 上實作 Analytics](other/amp.md)
@@ -190,7 +190,7 @@ ht-degree: 100%
    + [搭配 iFrames 使用 AppMeasurement](use-cases/iframe.md)
    + [追蹤不同的實作類型](use-cases/cross-type-implementation.md)
    + [Campaign 追蹤工作流程](use-cases/campaign-tracking.md)
-+ 驗證實作 {#validate}
++ 驗證實作  {#validate}
    + [舊版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
