@@ -3,10 +3,10 @@ title: 分類集結構描述
 description: 檢視和編輯個別分類設定的結構描述。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 43%
+source-wordcount: '616'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 有以下按鈕可供使用：
 
 <!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL 上傳]**：手動上傳一個或多個分類維度的分類資料。支援`JSON`、`CSV`、`TSV`和`TAB`檔案。 上傳有效檔案會顯示要分類的資料的表格預覽。
+* **[!UICONTROL 上傳]**：手動上傳分類維度的分類資料。 支援`JSON`、`CSV`、`TSV`和`TAB`檔案。 上傳有效檔案會顯示要分類的資料的表格預覽。
    * **[!UICONTROL 檔案編碼]**：使用此下拉式清單選取正確的檔案編碼。 有效的選項包括 [!UICONTROL UTF-8] 和 [!UICONTROL Latin1]。
    * **[!UICONTROL 清單分隔符號]**：選取正確的清單分隔符號。若使用已下載的檔案或範本檔案，請確保這裡的[!UICONTROL 清單分隔符號]和下載該檔案時的[!UICONTROL 清單分隔符號]相符。
    * **[!UICONTROL 套用]**：將已上傳的分類資料儲存至分類集。
@@ -59,3 +59,13 @@ ht-degree: 43%
    * **[!UICONTROL 分隔符號]**：已上傳檔案的欄分隔符號。 選項包括[!UICONTROL 逗號]、[!UICONTROL 分號]、[!UICONTROL 冒號]、[!UICONTROL 垂直線]、[!UICONTROL 空格]、[!UICONTROL 正斜線]、[!UICONTROL 反斜線]、[!UICONTROL 破折號]或[!UICONTROL 底線]。
 
    * **[!UICONTROL 編碼]**：決定檔案編碼的下拉式清單。 選項包括 [!UICONTROL UTF-8] 和 [!UICONTROL Latin1]。建議使用 UTF-8。
+
+下列動作只有在選取分類後才能使用。
+
+* **新增查詢**：查詢表格是分類的分類。 這是分類值的相關中繼資料，而非變數本身。 例如，產品變數可能會有「顏色代碼」的分類。 「顏色名稱」的查詢表可能會附加至「顏色代碼」，以說明顏色。
+
+  ![附加查閱資料表](../../assets/lookup.png)
+
+* **重新命名**：讓您重新命名分類。
+
+* **刪除**：可讓您刪除分類。

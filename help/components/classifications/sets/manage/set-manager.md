@@ -3,9 +3,9 @@ title: 分類集管理員
 description: 在Adobe Analytics中管理「分類設定」。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2b81c0df0e2bb68a73f9d24888758a433c6f5423
+source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '370'
 ht-degree: 7%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 7%
 分類設定管理員的左側會提供篩選設定，以找出所需的分類設定。 按一下篩選圖示切換篩選設定可見度。您可以依&#x200B;**[!UICONTROL 標籤]**&#x200B;或&#x200B;**[!UICONTROL 報告套裝]**&#x200B;來篩選分類設定。
 
 ![「分類設定」篩選](../../assets/classification-set-filters.png)
+
+請注意，一次會預先載入1,000個分類設定。 左側邊欄中顯示的篩選器會反映預先載入之集的選項。
 
 ## 分類設定管理員欄
 
