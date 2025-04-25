@@ -3,9 +3,9 @@ title: 分類集規則
 description: 檢視和編輯個別分類集的規則。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 1%
 分類設定規則可讓您根據變數設定的值自動分類值。 這些規則適用於分類集所有訂閱的所有傳入變數值。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 設定]** >按一下想要的分類設定名稱> **[!UICONTROL 規則]**
+
+![分類設定規則UI](../../assets/csets-rules.png)
 
 ## 規則設定
 

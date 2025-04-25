@@ -1,11 +1,11 @@
 ---
-title: 分類集綱要
+title: 分類集結構描述
 description: 檢視和編輯個別分類設定的結構描述。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 43%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 43%
 檢視目前為此分類設定設定的分類維度。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 設定]** >按一下想要的分類設定名稱> **[!UICONTROL 結構描述]**
+
+![分類設定結構描述UI](../../assets/classification-set-schema.png)
 
 有以下按鈕可供使用：
 
