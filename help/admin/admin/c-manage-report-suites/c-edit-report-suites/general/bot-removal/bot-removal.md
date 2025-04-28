@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 移除機器人的方式
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: 50c2881aa61097c14057dd4fd4654c832f20b26f
+source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 78%
+source-wordcount: '697'
+ht-degree: 75%
 
 ---
 
@@ -26,24 +26,13 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 如需詳細資訊，請參閱[瞭解並設定機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
 
-## 使用 [!UICONTROL websiteBot] 外掛程式來識別機器人
-
-[!UICONTROL websiteBot] 外掛程式可讓您動態識別桌上型電腦使用者是否為機器人。您可以使用這些資料來提高所有報告類型的正確性，這可讓您以更好的方式測量合理的網站流量。
-
-此外掛程式會執行兩項檢查：
-
-* 首先，它會使用 navigator.UserAgent 變數來判斷該裝置是桌上型電腦或行動裝置。若是行動裝置則不列入考慮。
-* 若是桌上型電腦，此外掛程式會新增一個滑鼠移動事件監聽程式。
-
-如需詳細資訊，請參閱 [Adobe Analytics 實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=zh-Hant)。
-
 ## 使用 Adobe 工具組合
 
 此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。  以下為工具運用方式總覽。
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
-開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)中建立新宣告 ID。 您必須將訪客的 Experience Cloud ID 傳遞至這個新宣告的 ID，這項操作透過 [Adobe Experience Platform 中的標記](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
+開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hant)中建立新宣告 ID。 您必須將訪客的 Experience Cloud ID 傳遞至這個新宣告的 ID，這項操作透過 [Adobe Experience Platform 中的標記](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-cust-attr-setup.png)
 
