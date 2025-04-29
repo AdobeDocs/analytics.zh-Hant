@@ -3,16 +3,16 @@ title: 分類集合併程式
 description: 合併分類集的完整程式。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 828f41bf45c1954c3b68ad71a7746e24626b9eed
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # 分類集合併程式
 
-使用此介面可建立從開始到結束的分類集合併。
+分類合併可讓您從多個資料集取得分類，並將它們合併成一個。 使用此介面可建立從開始到結束的分類集合併。 對於從舊式分類架構轉向分類集架構的組織來說，此介面最有價值。 已使用分類集架構的大部分組織通常不需要使用此合併工作流程。
 
 ## 建立
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## 核准
 
-在移除個別分類設定和建立合併的分類設定之前，做為最後一個呼叫。 請確定所有專案皆正確，然後按一下[核准]。****
+移除個別分類設定並將其取代為合併分類設定之前的最後一個呼叫。 驗證所有專案是否正確，然後選取&#x200B;**[!UICONTROL 核准]**。
 
 核准後，就會建立合併的分類集。 狀態設定為[!UICONTROL 完成]，合併不需要進一步的動作。

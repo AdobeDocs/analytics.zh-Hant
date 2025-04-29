@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3625'
 ht-degree: 67%
 
 ---
@@ -145,7 +145,7 @@ ht-degree: 67%
 | **`monthly_visitor`** | 此旗標可判斷訪客是否屬於當月的不重複訪客。 | 不帶正負號的 tinyint |
 | **`mvvar1`** - `mvvar3` | [清單變數](/help/implement/vars/page-vars/list.md)值。 根據實施包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
 | **`mvvar1_instances`** - `mvvar3_instances` | 在目前點擊上設定的清單變數值。以 `--**--` 取代原始的分隔符號。這些 `post` 列通常不包含數據。 | 文字 |
-| **`new_visit`** | 此旗標可確定目前的點選是否為新造訪。 造訪閒置30分鐘後由Adobe設定。 | 不帶正負號的 tinyint |
+| **`new_visit`** | 此旗標可確定目前的點選是否為新造訪。 造訪閒置30分鐘後，由Adobe設定。 | 不帶正負號的 tinyint |
 | **`os`** | 表示訪客的作業系統的數值ID。 依據`user_agent`欄而定。`operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | 不帶正負號的 int |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
 | **`page_event_var1`** | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
@@ -405,3 +405,8 @@ ht-degree: 67%
 * `videoresume`
 * `videototaltime`
 * `videouniquetimeplayed`
+
+>[!MORELIKETHIS]
+>
+>[XDM物件變數對應](/help/implement/aep-edge/xdm-var-mapping.md)
+>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)

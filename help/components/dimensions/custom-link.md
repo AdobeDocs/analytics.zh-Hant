@@ -3,10 +3,10 @@ title: 自訂連結
 description: 自訂連結的名稱。
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '161'
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 ## 將資料填入此維度中
 
-此維度會針對同時具有 `pe` 查詢字串且字串值為 `lnk_o` 的點擊，從影像要求中的 [`pev2` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。如果 `pe` 查詢字串在點擊中有不同的值，則此維度不會收集資料。
+此維度會針對同時具有 `pe` 查詢字串且字串值為 `lnk_o` 的點擊，從影像要求中的 [`pev2` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。如果`pe`查詢字串在點選中有不同的值，則此維度不會收集資料。 此維度的長度上限為100個位元組。
 
 如果您想使用 AppMeasurement 將資料傳送至此維度，請傳送連結類型引數為 `"o"` 的 [`tl()`](/help/implement/vars/functions/tl-method.md) 影像要求。將所需的值填入連結名稱引數。
 
