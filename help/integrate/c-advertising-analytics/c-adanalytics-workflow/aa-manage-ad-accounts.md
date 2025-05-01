@@ -3,10 +3,10 @@ description: 在 Advertising Analytics 中管理帳戶。
 title: 管理 Advertising 帳戶
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: a34dfc63c47b6fe4b91b2b67ea21cdddafb0bfd0
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 6%
+source-wordcount: '460'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 6%
 | 名稱或元素 | 說明 |
 |---|---|
 | **[!UICONTROL 名稱]** | *帳戶名稱*。 您可以選取名稱來編輯搜尋引擎設定。 |
-| ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 選取以重新命名廣告帳戶或編輯搜尋引擎設定。 |
+| ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 選取以重新命名廣告帳戶或編輯搜尋引擎設定。 |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取此選項可開啟內容功能表，讓您[對應報表套裝](#map-reporting-suites)、[啟動或暫停廣告帳戶](#activate-or-pause-advertising-accounts)。 |
 | **[!UICONTROL 報告套裝]** | 列出Advertising帳戶對應的報表套裝。 |
 | **[!UICONTROL 類型]** | 顯示廣告帳戶的型別。 依預設，型別為[!UICONTROL 搜尋] |
@@ -62,7 +62,7 @@ ht-degree: 6%
 1. （選用）選取一個以上的Advertising帳戶。
 1. 針對特定廣告帳戶選取![更多](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg)。
 1. 從內容功能表選取![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 對應報表套裝]**。
-1. 在「對應報表套裝」對話方塊中，從下拉式清單中選取一或多個報表套裝。 您可以使用![交叉](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg)從對應中刪除報表套裝。
+1. 在「對應報表套裝」對話方塊中，從下拉式選單選取一或多個報表套裝。 您可以使用![交叉](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg)從對應中刪除報表套裝。
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存對應。
 
 

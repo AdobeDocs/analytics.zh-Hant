@@ -4,9 +4,9 @@ title: 常見問題集和疑難排解工作區
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 49dd8080f74811b7618a8bd4ad278b35e8c02641
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 81%
 
 ---
@@ -74,5 +74,5 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 +++
 
 +++身為唯讀使用者，我可以在Analysis Workspace中執行哪些動作？
-將專案共用為唯讀時，所有編輯功能和功能都會完全停用，收件者只能變更下拉式清單，以預先定義的方式將篩選器套用至面板。
+將專案共用為唯讀時，所有編輯功能和功能都會完全停用，收件者只能變更下拉式選單，以預先定義的方式將篩選器套用至面板。
 +++

@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+workflow-type: tm+mt
 source-wordcount: '2157'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 ## 報告套裝
 
-每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關聯，由面板右上角的下拉式功能表中的![資料](/help/assets/icons/Data.svg) **[!UICONTROL *報告套裝名稱&#x200B;*]**識別。
 
 建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 ![顯示所選日期範圍的行事曆視窗。](assets/panel-calendar.png)
 
-1. 首先選取開始日期，然後選取結束日期來選取日期範圍。或者，您可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]** 。
+1. 首先選取開始日期，然後選取結束日期來選取日期範圍。或者，您也可以從&#x200B;[!UICONTROL *選取預設集*]&#x200B;下拉式功能表中選取&#x200B;**[!UICONTROL 預設集]**。
 
 1. 或者，選取&#x200B;**[!UICONTROL 顯示進階設定]**&#x200B;以進行：
 

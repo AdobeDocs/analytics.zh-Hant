@@ -3,16 +3,16 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要，以及提供給Adobe的相關檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 808ab76ee3f7c7451f8b3569c282abebbc9ac32f
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4129'
 ht-degree: 53%
 
 ---
 
 # 建立資料摘要
 
-建立資料摘要時，您會為Adobe提供：
+建立資料摘要時，您可以為Adobe提供：
 
 * 有關您要將原始資料檔案傳送到的目的地的資訊
 * 您要包含在每個檔案中的資料
@@ -117,7 +117,7 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. 選取&#x200B;[!UICONTROL **新增位置**]，然後指定下列資訊：
+      1. 選取「[!UICONTROL **新增位置**]」，然後註明下列資訊：
 
          | 欄位 | 函數 |
          |---------|----------|
@@ -190,7 +190,7 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. 選取&#x200B;[!UICONTROL **新增位置**]，然後指定下列資訊：
+      1. 選取「[!UICONTROL **新增位置**]」，然後註明下列資訊：
 
          | 欄位 | 函數 |
          |---------|----------|
@@ -266,7 +266,7 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. 選取&#x200B;[!UICONTROL **新增位置**]，然後指定下列資訊：
+      1. 選取「[!UICONTROL **新增位置**]」，然後註明下列資訊：
 
          | 欄位 | 函數 |
          |---------|----------|
@@ -335,11 +335,11 @@ ht-degree: 53%
 
          {style="table-layout:auto"}
 
-      1. 選取&#x200B;[!UICONTROL **新增位置**]，然後指定下列資訊：
+      1. 選取「[!UICONTROL **新增位置**]」，然後註明下列資訊：
 
          | 欄位 | 函數 |
          |---------|----------|
-         | [!UICONTROL **主體**] | 主體由Adobe提供。 您必須授予許可權才能接收此主體的摘要。 |
+         | [!UICONTROL **主體**] | 本金由Adobe提供。 您必須授予許可權才能接收此主體的摘要。 |
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
          | [!UICONTROL **說明**] | 帳戶說明。 |
          | [!UICONTROL **貯體**] | 在您的 GCP 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保您已將以下任一權限授予 Adobe 提供的主體：(有關授予權限的資訊，請參閱 Google Cloud 文件中的[將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add))。<ul><li>`roles/storage.objectCreator`：如果您想限制主體僅在您的 GCP 帳戶中建立文件，請使用此權限。</br>**注意：** 如果您在排程報告時使用此權限，您必須為每個新的排程匯出使用唯一的檔案名稱。否則，報告產生將會失敗，因為主體沒有覆寫現有文件的存取權。</li><li>（建議） `roles/storage.objectUser`：如果您希望主體擁有檢視、列出、更新及刪除GCP帳戶中檔案的存取權，請使用此許可權。</br>此權限允許主體覆寫現有檔案以進行後續上傳，而無需為每個新排程的匯出自動產生唯一的檔案名稱。</li></ul><p>如果您的組織使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)僅允許在允許清單中的 Google Cloud Platform 帳戶，則您需要以下 Adobe 擁有的 Google Cloud Platform 組織 ID： <ul><li>`DISPLAY_NAME`：`adobe.com`</li><li>`ID`：`178012854243`</li><li>`DIRECTORY_CUSTOMER_ID`：`C02jo8puj`</li></ul> </p> |
@@ -355,7 +355,7 @@ ht-degree: 53%
 
 +++
 
-1. 在&#x200B;[!UICONTROL **資料欄定義**]&#x200B;區段中，在下拉式清單中選取最新的&#x200B;[!UICONTROL **所有Adobe Columns**]&#x200B;範本，然後完成下列欄位：
+1. 在&#x200B;[!UICONTROL **資料欄定義**]&#x200B;區段中，在下拉式功能表中選取最新的&#x200B;[!UICONTROL **所有Adobe資料欄**]&#x200B;範本，然後完成下列欄位：
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -363,7 +363,7 @@ ht-degree: 53%
    | [!UICONTROL **壓縮格式**] | 使用的壓縮型別。 **Gzip**&#x200B;會輸出`.tar.gz`格式的檔案。 **Zip**&#x200B;會輸出`.zip`格式的檔案。 |
    | [!UICONTROL **封裝型別**] | 針對大部分的資料摘要選取&#x200B;[!UICONTROL **多個檔案**]。 此選項會將您的資料分頁為未壓縮的2GB區塊。 （如果選取了&#x200B;[!UICONTROL **多個檔案**]&#x200B;選項，且報表回溯期的未壓縮資料小於2GB，則會傳送一個檔案。） 選取&#x200B;**單一檔案**&#x200B;會將`hit_data.tsv`檔案輸出為單一的、可能非常大型的檔案。 |
    | [!UICONTROL **資訊清單**] | 決定當在摘要間隔內未收集資料時，Adobe是否應該將[資訊清單檔案](c-df-contents/datafeeds-contents.md#feed-manifest)傳送到目的地。 如果您選取&#x200B;**資訊清單檔案**，則在未收集資料時，您會收到類似下列的資訊清單檔案：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
-   | [!UICONTROL **資料行範本**] | 建立許多資料摘要時，Adobe建議建立欄範本。 選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。 |
+   | [!UICONTROL **資料行範本**] | 建立許多資料摘要時，Adobe建議您建立欄範本。 選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。 |
    | [!UICONTROL **可用的資料行**] | Adobe Analytics中所有可用的資料欄。 按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。 |
    | [!UICONTROL **包含的資料行**] | 要包含在資料摘要中的欄。 按一下[!UICONTROL 全部移除]，從資料摘要中移除所有欄。 |
    | [!UICONTROL **下載 CSV**] | 下載包含所有已包含欄的CSV檔案。 |

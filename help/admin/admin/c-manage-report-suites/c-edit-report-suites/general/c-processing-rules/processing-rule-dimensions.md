@@ -5,14 +5,14 @@ title: 可用於處理規則的維度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: 02fea12d1286fdf2b8cd075c8bcccca0d196cad2
+source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 13%
 
 ---
 
-# 可用於處理規則的Dimension和量度
+# 可用於處理規則的維度和量度
 
 您可使用處理規則讀取和寫入的可用維度和量度。
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 | 頁面 URL | 讀取+寫入 | [頁面URL](/help/components/dimensions/page-url.md)維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面URL值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
 | 頁面名稱 | 讀取+寫入 | [頁面](/help/components/dimensions/page.md)維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
 | 報表套裝 ID | 唯讀 | 處理規則執行所在的報表套裝。 此報告套裝可能與最初透過AppMeasurement傳送的報告套裝不同，例如使用VISTA規則時。 |
-| AppMeasurement程式碼版本 | 唯讀 | 用來產生影像要求的AppMeasurement庫版本。 |
+| AppMeasurement程式碼版本 | 唯讀 | 用來產生影像要求的AppMeasurement程式庫版本。 |
 | IP 位址 | 唯讀 | 訪客的IP位址。 |
 | 使用者代理 | 唯讀 | 訪客的使用者代理。 |
 | 反向連結 | 唯讀 | [反向連結](/help/components/dimensions/referrer.md)維度。 |
@@ -49,7 +49,7 @@ ht-degree: 13%
 
 | 變數 | 讀取/寫入狀態 | 說明 |
 | --- | --- | --- |
-| eVar1-250 | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md)維度。 |
+| eVar 1-250 | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md)維度。 |
 | 促銷活動 | 讀取+寫入 | [追蹤代碼](/help/components/dimensions/tracking-code.md)維度。 |
 | 購買 ID | 讀取+寫入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)實作變數。 |
 | 州別 | 讀取+寫入 | [`state`](/help/implement/vars/page-vars/state.md)實作變數已淘汰。 |
