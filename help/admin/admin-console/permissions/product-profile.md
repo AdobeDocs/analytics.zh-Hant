@@ -4,10 +4,10 @@ description: 了解如何使用產品設定檔來進行權限預設，讓產品�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 93%
+source-wordcount: '669'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 產品設定檔是產品管理員指派組織內各使用者的權限預設集。如果您建立產品設定檔，並將將 Experience Cloud 使用者指派到該產品設定檔，對方會繼承產品設定檔中包含的權限項目。
 
-有關產品設定檔的一般資訊，包括建立產品設定檔和指定使用者，請參閱企業使用手册中的[管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
+如需有關產品設定檔的一般資訊，包括建立產品設定檔和指派使用者，請參閱企業使用者指南中的[管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)。
 
 ## 產品設定檔管理員
 
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ## Adobe Analytics 權限項目
 
-產品設定檔要存取 Adobe Analytics 所需的最低權限如下：
+單一產品設定檔要存取Adobe Analytics所需的最低許可權如下：
 
 * 產品設定檔必須至少擁有一個報告套裝的存取權-
 * 產品設定檔必須屬於Analytics工具許可權專案&#x200B;**Analysis Workspace存取**。
@@ -47,7 +47,7 @@ ht-degree: 93%
 
 ### 維度
 
-授予報告套裝中維度的存取權。Dimension會在Analysis Workspace中各自列為元件。
+授予報告套裝中維度的存取權。維度會在Analysis Workspace中各自列為元件。
 
 自訂維度 (例如 eVar) 會以編號 1 到 250 標籤為「自訂轉換」，以便在報告套裝中各自獨立。如果「自訂轉換 1」是啟用的權限項目，則該使用者可存取產品設定檔中所有報告套裝的 eVar1。
 
@@ -61,6 +61,6 @@ Analytics 工具權限項目所授予的權限是不受報告套裝設定影響�
 
 ## 產品設定檔開發人員
 
-開發人員與使用者類似，但是他們獲得授權能在 Adobe Developer 上使用 Experience Cloud API。 如需詳細資訊 ，請參閱企業使用手冊中的[管理開發商](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。 獲有任何設定檔之「開發人員存取權」的使用者，可進出「開發控制台」(console.adobe.io) 並編輯 Adobe Analytics 的整合。該使用者獲授權的 Analytics API 呼叫和回應，會視該使用者的所有設定檔之「開發人員存取權」的權限淨效而定。
+開發人員與使用者類似，但是他們可以在Adobe Developer上使用Experience Cloud API。 如需詳細資訊 ，請參閱企業使用手冊中的[管理開發商](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。 如果使用者被授予任何設定檔的開發人員存取權，他們可以存取開發控制檯(console.adobe.io)並編輯Adobe Analytics整合。 使用者獲授權的Analytics API呼叫和回應，會視使用者具有開發人員存取權之所有設定檔的淨許可權而定。
 
-例如，若某設定檔的權限涵蓋所有量度、所有維度和一個報告套裝，則具有該設定檔之「開發人員存取權」的人員，可叫用該套裝內任何元件的 API。加入「異常偵測」功能後，報表中可提供更完整的回應，並加入相關的異常資料。就經驗而言，如果某設定檔授予存取 Adobe Analytics 介面中某個藍本的權限，則與其類似定義的設定檔的「開發人員存取權」可啟用相應的 API 呼叫和回應。
+例如，若某設定檔許可權涵蓋所有量度、所有維度和一個報表套裝，開發人員即可以叫用該報表套裝內任何元件的API。 如果新增「異常偵測」許可權專案，API回應可包含異常資料。 根據經驗，如果設定檔授予對Adobe Analytics介面中案例的存取權，則開發人員對類似定義設定檔的存取權將啟用對應的API呼叫和回應。
