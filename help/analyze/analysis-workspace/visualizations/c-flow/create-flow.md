@@ -4,10 +4,10 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: c9994a81df411f20a3b146f39f16a90e863373c1
+source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 91%
+source-wordcount: '1653'
+ht-degree: 89%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="每欄展開的項目"
+>abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_flow_resettoupdate"
+>title="重設為更新"
 >abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
 
 
