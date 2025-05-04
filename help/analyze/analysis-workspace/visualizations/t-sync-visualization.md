@@ -5,14 +5,19 @@ title: 管理視覺效果資料來源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 96%
 
 ---
 
-# 管理視覺效果資料來源
+# 管理視覺效果資料來源 {#manage-visualization-data-sources}
+
+>[!CONTEXTUALHELP]
+>id="workspace_datasource_lock_selection"
+>title="鎖定選取項目"
+>abstract="啟用此設定可將視覺效果鎖定至表格位置或資料來源中選取的確切專案。"
 
 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
 
@@ -29,6 +34,8 @@ ht-degree: 100%
    將視覺效果同步至某個表格儲存格，會建立新的 (隱藏) 表格，並為同步的視覺效果及該表格設定色彩代碼。
 
 ## 資料來源設定
+
+
 
 
 >[!BEGINSHADEBOX]
