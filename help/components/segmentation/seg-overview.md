@@ -121,7 +121,7 @@ ht-degree: 97%
 Analysis Workspace 包含以下附加功能：
 
 - 您可以[比較區段](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
-- 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+- 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用區段。
 
 ## Adobe 提供的區段

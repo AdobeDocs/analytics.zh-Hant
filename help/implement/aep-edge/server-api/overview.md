@@ -15,7 +15,7 @@ ht-degree: 33%
 
 從IoT裝置、機上盒、案頭應用程式等裝置收集資料時，您通常會使用Experience PlatformEdge Network伺服器API來收集伺服器端資料，而非使用者端。 然後，將該資料傳送至Edge網路和Adobe Analytics等服務。
 
-如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考慮Edge Network伺服器API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)。
+如果您需要安全地收集敏感資料並在整個網路上進行驗證，也請考慮Edge Network伺服器API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=zh-Hant)。
 
 實施任務的高層級概觀：
 
@@ -38,12 +38,12 @@ ht-degree: 33%
 <tr>
 <td>3</td>
 <td><b>設定資料流</b>。資料流代表使用Adobe Experience PlatformEdge NetworkAPI的API時的伺服器端設定。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">設定資料流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant">設定資料流<a></td> 
 </tr>
 <tr>
 <td>4</td>
 <td><b>使用單一事件資料和批次事件資料收集API實作及測試資料收集</b>。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html">單一事件資料集合</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件資料集合</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant">單一事件資料集合</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=zh-Hant">批次事件資料集合</a>
 </tr>
 <td>5</td>
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>

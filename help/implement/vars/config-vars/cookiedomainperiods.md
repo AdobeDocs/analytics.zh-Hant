@@ -32,7 +32,7 @@ ht-degree: 18%
 >
 > 使用此變數時請勿將子網域列入考量。例如，請勿在範例 URL `store.toys.example.com` 上設定 `cookieDomainPeriods`。AppMeasurement會辨識Cookie儲存在`example.com`上，即使在具有許多子網域的URL上亦然。
 
-對於AppMeasurementv2.26.x或更新版本上的實作，[`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie是用來協助自動判斷正確的Cookie網域。 程式庫會先嘗試寫入包含兩個網域句號的Cookie。 如果設定此Cookie失敗，會再試一次，包括更多網域句號，直到成功為止。 此Cookie在設定後會立即刪除。
+對於AppMeasurementv2.26.x或更新版本上的實作，[`s_ac`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie是用來協助自動判斷正確的Cookie網域。 程式庫會先嘗試寫入包含兩個網域句號的Cookie。 如果設定此Cookie失敗，會再試一次，包括更多網域句號，直到成功為止。 此Cookie在設定後會立即刪除。
 
 ## 使用Web SDK的Cookie網域句號
 

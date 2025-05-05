@@ -40,7 +40,7 @@ Adobe Analytics管理員可以建立新的Advertising帳戶，並將多個帳戶
 
    | 設定 | 說明 |
    | --- | --- |
-   | 類型 | <ul><li>**自動**：讓Advertising Cloud引擎決定如何將追蹤引數附加到的追蹤範本/目的地URL。 [!UICONTROL 自動型別追蹤]是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**&#x200B;若要使用[!UICONTROL 自動型別追蹤]設定搜尋引擎帳戶，您必須執行下列動作：<ul><li>`s_kwcid`引數和值已新增至帳戶中的帳戶追蹤範本或登陸頁面URL。 引數和值會插入在URL的結尾。 如果您的網頁伺服器在URL末端需要特定`key=value`配對，則可能需要執行其他動作。 或需要更新以支援URL中的任何新`key=value`配對。 **附註**：進一步瞭解您是否應該將此引數新增至您的[內容安全性原則](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)。</li><li>此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。如果關鍵字包含特殊字元或符號，請確認您的網頁伺服器可以支援這些字元。 `+`是常見的特殊字元範例，用於「修改廣泛比對」關鍵字。</li></ul></li><li>**手動**：讓您管理如何將追蹤引數新增到搜尋引擎的追蹤範本/目的地URL。 [如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | 類型 | <ul><li>**自動**：讓Advertising Cloud引擎決定如何將追蹤引數附加到的追蹤範本/目的地URL。 [!UICONTROL 自動型別追蹤]是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**&#x200B;若要使用[!UICONTROL 自動型別追蹤]設定搜尋引擎帳戶，您必須執行下列動作：<ul><li>`s_kwcid`引數和值已新增至帳戶中的帳戶追蹤範本或登陸頁面URL。 引數和值會插入在URL的結尾。 如果您的網頁伺服器在URL末端需要特定`key=value`配對，則可能需要執行其他動作。 或需要更新以支援URL中的任何新`key=value`配對。 **附註**：進一步瞭解您是否應該將此引數新增至您的[內容安全性原則](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/csp)。</li><li>此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。如果關鍵字包含特殊字元或符號，請確認您的網頁伺服器可以支援這些字元。 `+`是常見的特殊字元範例，用於「修改廣泛比對」關鍵字。</li></ul></li><li>**手動**：讓您管理如何將追蹤引數新增到搜尋引擎的追蹤範本/目的地URL。 [如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 選取「**[!UICONTROL 儲存]**」。
 1. 免責宣告會顯示警告清單。 確認您已閱讀並瞭解本合約。 選取核取方塊，然後選取&#x200B;**[!UICONTROL 確定]**。

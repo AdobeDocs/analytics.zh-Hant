@@ -24,7 +24,7 @@ Adobe Analytics 提供以下複雜的分段和預測工具來分析網站流量�
 
 * [流量分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [進階分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [進階分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)
 
 
 ## 行銷分析
@@ -35,7 +35,7 @@ Adobe Analytics 可協助組織了解客戶在何處與其品牌互動、客戶�
 
 * [多管道資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant)
 
-* [離線資料整合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html)。
+* [離線資料整合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hant)。
 
 * [Analysis Workspace 中的臨機分析](/help/analyze/analysis-workspace/home.md)
 

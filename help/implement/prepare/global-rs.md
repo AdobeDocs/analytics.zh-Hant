@@ -43,8 +43,8 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
    >
    > 請確認您在不同網域間使用任何指定自訂變數的方式都相同。如果不同網站的用途不同，請勿使用相同的 eVar 或事件。
 1. 請確認每個網域都有資料層，以便簡化資料收集。沒有資料層依然可以收集資料，但實作的可靠性和持久性會降低，尤其當您的網站經過重新設計時更是如此。
-1. 使用 Adobe Experience Platform 中的標記來實作 Analytics。 不同的網站可能需要不同的資料元素。使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。請參閱「[標記總覽](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」。
-1. 納入 [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)，並使用 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html) 函數。使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
+1. 使用 Adobe Experience Platform 中的標記來實作 Analytics。 不同的網站可能需要不同的資料元素。使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。請參閱「[標記總覽](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)」。
+1. 納入 [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)，並使用 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hant) 函數。使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
 
 ## 使用全域報表套裝修改現有實作
 

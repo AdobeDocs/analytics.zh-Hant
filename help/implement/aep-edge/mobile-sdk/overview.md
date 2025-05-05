@@ -41,7 +41,7 @@ Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Ado
 </tr>
 <td>3</td>
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 <tr>
 <td>4</td>

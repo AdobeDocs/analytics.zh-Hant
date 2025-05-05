@@ -21,7 +21,7 @@ Report Builder5.2和更新版本支援Adobe Analytics計算量度。 現在，�
 >
 >現有活頁簿可能會指向使用舊式量度 ID 的請求。當您使用 Report Builder 5.2 時，這些舊式量度 ID 會轉換為新的全域 ID。如果將此活頁簿與使用 Report Builder 5.1 或更舊版本的使用者共用，該名使用者將看不到計算量度。
 
-若想深入了解如何使用新的計算量度產生器和計算量度管理員來建立和管理計算量度，請參閱[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html)指南。
+若想深入了解如何使用新的計算量度產生器和計算量度管理員來建立和管理計算量度，請參閱[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=zh-Hant)指南。
 
 在請求精靈的步驟 2 中，您可以篩選和套用計算量度。
 

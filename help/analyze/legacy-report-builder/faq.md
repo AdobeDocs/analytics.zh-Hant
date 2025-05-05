@@ -37,4 +37,4 @@ Report Builder 支援的活頁簿的上限如下：
 
 ## 我如何知道自己是否有權限存取 Report Builder？ {#access}
 
-您必須獲得 Adobe Analytics 管理員授予 Report Builder 的存取權限。管理員在 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home) 中設定產品設定檔。要求您的管理員授予您存取權限。
+您必須獲得 Adobe Analytics 管理員授予 Report Builder 的存取權限。管理員在 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-console/home) 中設定產品設定檔。要求您的管理員授予您存取權限。

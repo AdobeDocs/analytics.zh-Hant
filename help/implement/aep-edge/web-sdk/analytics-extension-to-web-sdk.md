@@ -28,7 +28,7 @@ ht-degree: 1%
 Adobe建議在下列情況下使用此實施路徑：
 
 * 您已有使用Adobe Analytics標籤擴充功能的現有實作。 如果您有使用AppMeasurement的實作，請改為遵循[從AppMeasurement移轉至Web SDK](appmeasurement-to-web-sdk.md)。
-* 您打算在未來使用Customer Journey Analytics，但不想從頭開始使用Web SDK實作來取代您的Analytics實作。 在Web SDK上從頭開始取代實作需要花費最大心力，但同時也提供最可行的長期實作架構。 如果您的組織願意執行乾淨的Web SDK實作，請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
+* 您打算在未來使用Customer Journey Analytics，但不想從頭開始使用Web SDK實作來取代您的Analytics實作。 在Web SDK上從頭開始取代實作需要花費最大心力，但同時也提供最可行的長期實作架構。 如果您的組織願意執行乾淨的Web SDK實作，請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 移轉至Web SDK所需的步驟
 

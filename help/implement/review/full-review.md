@@ -17,13 +17,13 @@ ht-degree: 80%
 
 ## 1. 確認您的實作仍完全符合我們的業務需求。
 
-與企業負責人及/或分析人員開會，檢討日新月異的業務需求。針對實施作業未能滿足的任何需求或測量機會，了解應如何更新 KPI 和測量計畫。別忘了在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation) 中記錄變更項目。
+與企業負責人及/或分析人員開會，檢討日新月異的業務需求。針對實施作業未能滿足的任何需求或測量機會，了解應如何更新 KPI 和測量計畫。別忘了在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation) 中記錄變更項目。
 
 ## 2. 確認您的量度和變數仍正常運作。
 
-按照對業務的重要程度，快速審視所有量度和變數，確認其能正確收集資料。從您最重要的度量和變數開始，也就是與 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review) 相關的度量和變數。執行方法：
+按照對業務的重要程度，快速審視所有量度和變數，確認其能正確收集資料。從您最重要的度量和變數開始，也就是與 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=zh-Hant#review) 相關的度量和變數。執行方法：
 
-* 建立控制面板，檢視量度和變數的每月趨勢（或為每個量度和變數設定[警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)），以確保獲得的資料符合預期，而且資料正確無誤。 如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
+* 建立控制面板，檢視量度和變數的每月趨勢（或為每個量度和變數設定[警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=zh-Hant)），以確保獲得的資料符合預期，而且資料正確無誤。 如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c)，監控量度和變數的主要趨勢。
 
 避免實作牽涉太多不需要的量度和變數。 停用業務不再需要或使用的量度或變數。建議您刪除這些項目或之後再重新利用。

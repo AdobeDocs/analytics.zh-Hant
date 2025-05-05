@@ -43,7 +43,7 @@ ht-degree: 98%
 
 ## 是否會將 Admin Console 機器人規則篩選的機器人加入資料摘要中？ {#bots}
 
-資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html)篩選的機器人。
+資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=zh-Hant)篩選的機器人。
 
 ## 我為什麼在 `event_list` 或 `post_event_list` 資料摘要欄內看到多個 `000` 值？ {#values}
 

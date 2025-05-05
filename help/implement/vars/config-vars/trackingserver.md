@@ -70,7 +70,7 @@ alloy("configure", {
 
 ### 第一方 Cookie
 
-如果您使用第一方 Cookie 實作，貴組織中可能已經有人完成第一方 Cookie 處理。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)。
+如果您使用第一方 Cookie 實作，貴組織中可能已經有人完成第一方 Cookie 處理。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)。
 
 最初設定第一方 Cookie 實作的個人，也會定義使用的網域和子網域。例如：
 

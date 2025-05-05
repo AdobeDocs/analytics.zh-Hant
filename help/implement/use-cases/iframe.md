@@ -15,7 +15,7 @@ ht-degree: 100%
 
 您可以參照來自下層和上層 iframe 的 AppMeasurement 變數。 您必須在 AppMeasurement 資料庫存在的相同位置定義所有變數。 以下範例說明如何在 iframe 內外設定基本 AppMeasurement 變數和方法。
 
-如果您使用 Adobe Experience Platform 中的標記，請確定追蹤器物件可在全域範圍存取。 請參閱「[Adobe Analytics 擴充功能總覽](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)」。
+如果您使用 Adobe Experience Platform 中的標記，請確定追蹤器物件可在全域範圍存取。 請參閱「[Adobe Analytics 擴充功能總覽](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)」。
 
 >[!CAUTION]
 >
@@ -67,5 +67,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 就像其他 JavaScript 程式碼一樣，iframe 只能在網域和通訊協定相符時通訊。 如果 iframe 內容位在與上層不同的網域中，這些範例就沒有作用。
 * 如果 AppMeasurement 位在 iframe 內，則 [`referrer`](../vars/page-vars/referrer.md) 變數會設定為上層 URL，而不是實際參照的 URL。 您可以手動設定 `referrer` 變數來解決此問題。
-* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 無法辨識在 iframe 內觸發的影像要求。
+* [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant) 無法辨識在 iframe 內觸發的影像要求。
 * Activity Map 不會在 iframe 內點擊的連結上方顯示熱度圖。 而是會標示整個 iframe。

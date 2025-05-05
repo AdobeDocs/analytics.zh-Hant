@@ -65,7 +65,7 @@ ht-degree: 62%
 ![](assets/components.png)
 
 1. 在「[!UICONTROL 元件]」索引標籤上，選取核取方塊以套用組織至 Analysis Workspace 中此虛擬報告套裝的包含、排除和重新命名元件。
-如需虛擬報表套裝組織的詳細資訊，請參閱[虛擬報表套裝元件組織](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)。
+如需虛擬報表套裝組織的詳細資訊，請參閱[虛擬報表套裝元件組織](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=zh-Hant#virtual-report-suites)。
 
 1. 將要包含在虛擬報表套裝中的元件（維度、量度、區段或日期範圍）拖曳至「[!UICONTROL 包含的元件]」區段。
 

@@ -19,4 +19,4 @@ ht-degree: 89%
 * 當自由表格中使用[靜態列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)，且選取&#x200B;**[!UICONTROL 顯示為目前列的總和]**&#x200B;選項 (預設值) 時。
 * 在[環形圖視覺效果](/help/analyze/analysis-workspace/visualizations/donut.md)中，因此數字加起來為 100%。
 
-若要了解 Analysis Workspace 中的總計，請瀏覽 [Workspace 總計](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html#static-row-total)。
+若要了解 Analysis Workspace 中的總計，請瀏覽 [Workspace 總計](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant#static-row-total)。

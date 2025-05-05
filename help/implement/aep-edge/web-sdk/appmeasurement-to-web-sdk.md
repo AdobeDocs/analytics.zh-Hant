@@ -28,7 +28,7 @@ ht-degree: 0%
 Adobe建議在下列情況下使用此實施路徑：
 
 * 您已有使用Adobe AnalyticsAppMeasurementJavaScript資料庫的實作。 如果您有使用Adobe Analytics標籤擴充功能的實作，請改為遵循[從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能](analytics-extension-to-web-sdk.md)。
-* 您打算在未來使用Customer Journey Analytics，但不想從頭開始使用Web SDK實作來取代您的Analytics實作。 在Web SDK上從頭開始取代實作需要花費最大心力，但同時也提供最可行的長期實作架構。 如果您的組織願意執行乾淨的Web SDK實作，請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
+* 您打算在未來使用Customer Journey Analytics，但不想從頭開始使用Web SDK實作來取代您的Analytics實作。 在Web SDK上從頭開始取代實作需要花費最大心力，但同時也提供最可行的長期實作架構。 如果您的組織願意執行乾淨的Web SDK實作，請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 移轉至Web SDK所需的步驟
 
@@ -55,15 +55,15 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++**2. 安裝Web SDK JavaScript程式庫**
 
-參考最新版本的`alloy.js`，以便使用它的方法呼叫。 請參閱[使用JavaScript程式庫安裝Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/install/library)，以取得詳細資訊和要使用的程式碼區塊。
+參考最新版本的`alloy.js`，以便使用它的方法呼叫。 請參閱[使用JavaScript程式庫安裝Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/install/library)，以取得詳細資訊和要使用的程式碼區塊。
 
 +++
 
 +++**3.設定Web SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
 
-在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)屬性：
+在Web SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/orgid)屬性：
 
 * 將`datastreamId`設定為在上一步中擷取的資料串流識別碼。
 * 將`orgId`設定為您組織的IMS組織。
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-您可以視您組織的實作需求，選擇在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中設定其他屬性。
+您可以視您組織的實作需求，選擇在[`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令中設定其他屬性。
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5.更新方法呼叫以使用Web SDK**
 
-更新呼叫[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有執行個體，將它們取代為[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 我們需考慮三種情況：
+更新呼叫[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有執行個體，將它們取代為[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 我們需考慮三種情況：
 
 * **頁面檢視追蹤**：以Web SDK `sendEvent`命令取代頁面檢視追蹤呼叫：
 
@@ -128,7 +128,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自動連結追蹤**： [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設定屬性預設為啟用。 它會自動設定正確的連結追蹤變數，以將資料傳送至Adobe Analytics。 如果您想要停用自動連結追蹤，請在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令內將此屬性設定為`false`。
+* **自動連結追蹤**： [`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設定屬性預設為啟用。 它會自動設定正確的連結追蹤變數，以將資料傳送至Adobe Analytics。 如果您想要停用自動連結追蹤，請在[`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令內將此屬性設定為`false`。
 
 * **手動連結追蹤**： Web SDK在pageview與非頁面檢視呼叫之間沒有個別的命令。 在裝載物件內提供該區別。
 

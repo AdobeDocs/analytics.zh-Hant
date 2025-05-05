@@ -135,7 +135,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
 如果移轉失敗，您可以重試移轉。
 
-在重試失敗的移轉之前，請確定您已從專案移除任何[不支援的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html#understand-unsupported-elements-that-cause-errors)。
+在重試失敗的移轉之前，請確定您已從專案移除任何[不支援的元素](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration/prepare-component-migration.html?lang=zh-Hant#understand-unsupported-elements-that-cause-errors)。
 
 >[!NOTE]
 >

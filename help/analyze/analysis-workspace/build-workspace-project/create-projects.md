@@ -56,7 +56,7 @@ Analysis Workspace 中的[專案](/help/analyze/analysis-workspace/build-workspa
 
 ## 將面板新增到專案 {#panels}
 
-[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)是 Analysis Workspace 中任何專案的基礎。面板是用來組織專案的內容 (視覺效果和元件)。
+[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)是 Analysis Workspace 中任何專案的基礎。面板是用來組織專案的內容 (視覺效果和元件)。
 
 Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。
 
@@ -74,7 +74,7 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 
 ## 將視覺效果新增到專案
 
-[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) (例如自由格式表格、長條圖或折線圖) 可用來生動地呈現資料。
+[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant) (例如自由格式表格、長條圖或折線圖) 可用來生動地呈現資料。
 
 >[!TIP]
 >

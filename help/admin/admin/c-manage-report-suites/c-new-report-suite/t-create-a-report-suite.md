@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 建立報告套裝
 
-報告套裝是 Adobe Analytics 用來提取報告的獨立資料單位。組織可以有許多報告套裝，每個報告套裝都包含不同的資料集。雖然過去使用者較重視個別產生報告，但如今使用單一報告套裝已變得更具優勢了。[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites)和報告時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
+報告套裝是 Adobe Analytics 用來提取報告的獨立資料單位。組織可以有許多報告套裝，每個報告套裝都包含不同的資料集。雖然過去使用者較重視個別產生報告，但如今使用單一報告套裝已變得更具優勢了。[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant#virtual-report-suites)和報告時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
 
 本文的適用對象為系統層級管理員或 Adobe Analytics 管理員，目的在方便這些人員準備資料收集。
 

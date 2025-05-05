@@ -26,7 +26,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類資料 (複製了分類結構) </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=zh-Hant"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟用交易 ID 記錄 </p> </td> 
@@ -60,7 +60,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪客 ClickMap 管理員 </p> </td> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升級至 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html?lang=zh-Hant"> 升級至 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 規則 </p> </td> 

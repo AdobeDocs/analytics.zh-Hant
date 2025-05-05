@@ -27,9 +27,9 @@ Analysis Workspace 會根據報告的詳細程度處理不重複訪客。例如�
 | 使用順序 | 查詢參數 (收集方法) | 使用時機 |
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數已設定。 |
-| 2 | `aid` | 訪客有現有的 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
-| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 設定於實作上。 |
-| 4 | `fid` | 訪客有現有的 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
+| 2 | `aid` | 訪客有現有的 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
+| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie。使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 設定於實作上。 |
+| 4 | `fid` | 訪客有現有的 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
 | 5 | IP 位址、使用者代理、閘道 IP 位址 | 訪客的瀏覽器不接受 Cookie 時，用來識別不重複訪客的最後方法。 |
 
 >[!NOTE]

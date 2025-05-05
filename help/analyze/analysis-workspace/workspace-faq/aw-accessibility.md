@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ### 鍵盤快速鍵 (熱鍵)
 
-[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
+[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
 
 #### 導覽
 

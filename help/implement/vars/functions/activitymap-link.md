@@ -20,7 +20,7 @@ ht-degree: 9%
 
 ## 使用Web SDK覆寫連結值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來變更Web SDK裝載或中止傳送資料。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來變更Web SDK裝載或中止傳送資料。
 
 ## 使用Adobe Analytics擴充功能覆寫連結
 

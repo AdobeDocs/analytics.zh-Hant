@@ -13,7 +13,7 @@ ht-degree: 83%
 
 # 使用 Analytics 擴充功能實施 Adobe Analytics
 
-在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。Adobe目前的建議方法是透過Adobe Experience Platform中的[標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
+在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。Adobe目前的建議方法是透過Adobe Experience Platform中的[標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)。
 
 Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
@@ -58,7 +58,7 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 <tr>
 <td>6</td> 
 <td><b>驗證並發佈至生產環境</b>. 內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">內嵌程式碼</a><br/><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant#embed-code">內嵌程式碼</a><br/><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
 </tr>
 </table>
 

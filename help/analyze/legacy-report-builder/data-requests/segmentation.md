@@ -28,7 +28,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 >若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的Report Builder工作階段將保持作用中。 此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. 在「請求精靈」步驟 1 的區段面板中，按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
+1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)。
 1. 在定義及儲存區段之後，返回「請求精靈」。
 1. 按一下「重新整理」圖示以重新整理區段清單。
 
@@ -45,7 +45,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
    ![熒幕擷圖顯示所選和可用容器選項中的「建立內文中區段」。](assets/seg_in_context.png)
 
-   如需容器的詳細資訊，請參閱[劃分指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
+   如需容器的詳細資訊，請參閱[劃分指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)。
 
 1. 區段產生器使用者介面將立即在 Internet Explorer 中啟動。區段產生器使用者介面將會依您指定的容器與篩選條件進行起始化。
 1. 將名稱與說明新增至區段後，請儲存。

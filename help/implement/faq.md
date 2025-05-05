@@ -21,7 +21,7 @@ Identity Service 會指派不重複的持續性識別碼，以便在 Experience 
 
 ## 如何實施心率視訊追蹤？
 
-請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
 
 ## Adobe 的服務中斷是否會影響效能？
 

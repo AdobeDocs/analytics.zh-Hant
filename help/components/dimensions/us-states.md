@@ -19,7 +19,7 @@ ht-degree: 73%
 此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。與[Digital Element](https://www.digitalelement.com/)合作Adobe，以維護IP位址與國家/地區之間的查閱。
 
 * 對於AppMeasurement實作，此維度可立即運作。
-* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
 
 ## 維度項目
 

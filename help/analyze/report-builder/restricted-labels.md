@@ -22,7 +22,7 @@ ht-degree: 49%
 
 此整合可讓您更輕鬆地管理合規性。在您組織中的資料監管員可以設定限制使用的原則。因此，您的Adobe Analytics使用者可以更自信地使用資料，瞭解資料符合資料管理員定義的原則。
 
-如需詳細資訊，請參閱[Adobe Analytics和資料控管](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html)
+如需詳細資訊，請參閱[Adobe Analytics和資料控管](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/privacy-overview.html?lang=zh-Hant)
 
 ## 查看 Report Builder 中受限制的資料
 
@@ -31,7 +31,7 @@ Adobe Analytics中出現兩個影響報告、下載和共用的Adobe定義原則
 * 強制執行 Analytics 原則
 * 強制執行下載原則
 
-受這些原則影響的元件會顯示為灰色。當您將滑鼠懸停在套用了原則的元件上時，會顯示一個包含以下內容的註解：**原則已套用於此欄位，禁止使用此資料。**&#x200B;如需詳細資訊，請參閱 [標籤與原則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html)。
+受這些原則影響的元件會顯示為灰色。當您將滑鼠懸停在套用了原則的元件上時，會顯示一個包含以下內容的註解：**原則已套用於此欄位，禁止使用此資料。**&#x200B;如需詳細資訊，請參閱 [標籤與原則](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-governance.html?lang=zh-Hant)。
 
 ![指示禁止使用資料的原則備註。](assets/rb-restricted-label.png)
 

@@ -41,7 +41,7 @@ ht-degree: 91%
 | **[!UICONTROL 「排程報告」索引標籤]** | |
 | [!UICONTROL 報表名稱] | 指出排程工作的名稱。 |
 | [!UICONTROL 電子郵件/FTP] | 收件者的電子郵件或 FTP 位址。**注意:** 如果選取電子郵件，大於 1 MB 的報表會自動以 .zip 檔案的形式附加至電子郵件。此功能有助於將附件檔案維持在較小的大小，而且無法停用。 |
-| [!UICONTROL 發佈選項] | 若選取其中一項 [Power BI 發佈選項](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/publish-powerbi/power-bi.html)，此欄將列出 Power BI。 |
+| [!UICONTROL 發佈選項] | 若選取其中一項 [Power BI 發佈選項](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/publish-powerbi/power-bi.html?lang=zh-Hant)，此欄將列出 Power BI。 |
 | [!UICONTROL 排程] | 已排程的傳送類型。 |
 | [!UICONTROL 檔案格式] | 報表的傳送格式，如 Excel、PDF、HTML 等。 |
 | [!UICONTROL 重新啟用] | 當排程活頁簿無法執行時，Report Builder 會嘗試每十五分鐘再執行活頁簿兩次。在第三次嘗試失敗後，Report Builder 會停用排程並顯示「重新啟用」按鈕。當您重新啟用活頁簿時，排程的傳送會從成為停用狀態的時間重新啟動。<p>例如，如果排程的活頁簿在 14 天前停用而您在今天將其重新啟用，它會執行遺漏的每個天數，因此會傳送 14 次。如果您不想要傳送遺漏活頁簿的天數，可以刪除排程活頁簿，然後再使用相同的排程參數建立新的排程活頁簿。<p>**附註：**&#x200B;在了解系統停用活頁簿的原因之前，請勿將其重新啟用。若要進行疑難排解，請下載已停用的活頁簿並在用戶端將其重新整理。如果您未發現任何錯誤，應該就可以重新啟用活頁簿。 |

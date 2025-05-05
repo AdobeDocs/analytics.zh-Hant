@@ -25,5 +25,5 @@ ht-degree: 100%
 |--- |--- |
 | [!UICONTROL 名稱] | 名稱符合您要啟用資料收集的平台。此欄列出的每個平台都會提供原生庫。 |
 | [!UICONTROL 類型] | 可使用每個程式庫來測量的應用程式類型。 |
-| [!UICONTROL  版] | 列出程式庫的最新版本。按一下版本號碼可檢視[發行歷史記錄](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)。 |
+| [!UICONTROL  版] | 列出程式庫的最新版本。按一下版本號碼可檢視[發行歷史記錄](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。 |
 | [!UICONTROL 文件] | 檢視程式庫參考文件。 |

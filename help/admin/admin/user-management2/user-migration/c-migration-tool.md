@@ -76,7 +76,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新 Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>重要：請將您安裝的 <a href="https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要：請將您安裝的 <a href="https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/report-builder-setup">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>什麼時候開始移轉？ </p> </td> 

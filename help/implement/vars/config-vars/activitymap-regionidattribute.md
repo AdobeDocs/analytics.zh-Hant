@@ -21,7 +21,7 @@ ht-degree: 11%
 
 ## Web SDK JavaScript資料庫中的地區ID屬性
 
-啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`clickCollection`物件中使用`filterClickDetails`回呼。 在此回呼內，您可以檢查`clickedElement`的值，並自訂所收集區域的邏輯。
+啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`clickCollection`物件中使用`filterClickDetails`回呼。 在此回呼內，您可以檢查`clickedElement`的值，並自訂所收集區域的邏輯。
 
 ```js
 alloy("configure", {

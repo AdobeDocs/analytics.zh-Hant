@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 轉存指南 {#export}
 
 + [Analytics 轉存指南](home.md)
-+ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + Analytics 資料摘要 {#analytics-data-feed}
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
    + [建立資料摘要](analytics-data-feed/create-feed.md)
@@ -73,6 +73,6 @@ ht-degree: 100%
       + [使用 SFTP 傳送 Adobe 資料至外部 FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [傳送 Data Warehouse 請求至 SFTP 伺服器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace 下載](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace 下載](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/rb-overview)

@@ -31,4 +31,4 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; 「即時報表」]與之前發行的[「包含目前的資料」](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html)(「資料時近」) 功能不同，該功能會在完成之前顯示資料，以減少標準報表的延遲。
+>[!UICONTROL &#x200B; 「即時報表」]與之前發行的[「包含目前的資料」](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=zh-Hant)(「資料時近」) 功能不同，該功能會在完成之前顯示資料，以減少標準報表的延遲。

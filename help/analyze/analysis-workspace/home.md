@@ -45,7 +45,7 @@ Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與�
 
 **面板**&#x200B;是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂部的「**[!UICONTROL 面板]**」圖示可檢視完整的可用面板清單。
 
-若要深入了解面板，請參閱[面板概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)。
+若要深入了解面板，請參閱[面板概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)。
 
 ![](assets/build-panels.png)
 
@@ -53,7 +53,7 @@ Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與�
 
 **視覺效果**&#x200B;可用來生動地呈現資料，例如長條圖或折線圖。在左側邊欄中，選取中間的「**[!UICONTROL 視覺效果]**」圖示可檢視完整的可用視覺效果清單。
 
-若要深入了解視覺效果，請參閱[視覺效果概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)。
+若要深入了解視覺效果，請參閱[視覺效果概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)。
 
 ![](assets/build-visualizations.png)
 
@@ -110,7 +110,7 @@ Analysis Workspace 中的分析稱為[專案](/help/analyze/analysis-workspace/b
 ## 其他資源 {#resources}
 
 * Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hant)。
-* 如需有關新功能的更新，請參閱 [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html#analytics)。
+* 如需有關新功能的更新，請參閱 [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant#analytics)。
 * 熟悉 Analysis Workspace 的絕佳方法是透過 Analysis Workspace 培訓教學課程範本。此範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若要開始進行教學課程：
    1. 在 Adobe Analytics 的「[!UICONTROL **Workspace**]」標籤上，選取左側的「**[!UICONTROL 學習]**」。
    1. 選取「**[!UICONTROL 開啟教學課程]**」。

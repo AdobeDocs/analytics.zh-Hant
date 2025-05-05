@@ -23,7 +23,7 @@ ht-degree: 68%
 
 請記住，隨時間更新程式碼可能會有無預期的影響。建議確認與 [5 大 KPI](/help/implement/review/define-kpis.md) 相關的所有量度和維度仍正常運作。理想情況下，發佈網站後就應立即完成這項工作；如果您最近幾個月從未執行此作業，請&#x200B;*立即*。 執行方法：
 
-* 建立控制面板，檢視這些重要度量和變數每小時的趨勢（或為每個度量設定[警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html)）。 監控一兩天，確認資料走勢符合預期，且資料正確無誤。 尋找轉折點。做好準備，以便在發現任何重大問題時能立即解決。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
+* 建立控制面板，檢視這些重要度量和變數每小時的趨勢（或為每個度量設定[警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=zh-Hant)）。 監控一兩天，確認資料走勢符合預期，且資料正確無誤。 尋找轉折點。做好準備，以便在發現任何重大問題時能立即解決。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://express.adobe.com/page/tnNQGNlfzta3b/)，監控 KPI 量度和變數的主要趨勢。
 
 *如需確認量度和變數正常運作的詳細資訊，請參閱 Adobe Analytics Champion 專家 Sarah Owen 提供的[這些秘訣](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)。*
@@ -36,7 +36,7 @@ ht-degree: 68%
 
 如果您最近曾新增或變更任何量度或變數，請務必更新業務需求文件 (BRD) 和解決方案設計參考資料 (SDR)。
 
-如果您沒有這些實作檔案，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)建立BRD或SDR。
+如果您沒有這些實作檔案，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation)建立BRD或SDR。
 
 ## 5. 立即解決資料品質不如預期的問題
 

@@ -26,7 +26,7 @@ ht-degree: 100%
 這些維度的適用性取決於實施類型：
 
 * 對於 AppMeasurement 實施，這些維度可直接使用。
-* 對於 Web SDK 的實施，在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時可啟用[!UICONTROL 地理查詢] (適用於行動電信業者) 或[!UICONTROL 裝置查詢] (適用於所有其他維度)。
+* 對於 Web SDK 的實施，在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時可啟用[!UICONTROL 地理查詢] (適用於行動電信業者) 或[!UICONTROL 裝置查詢] (適用於所有其他維度)。
 
 ## 行動維度說明
 

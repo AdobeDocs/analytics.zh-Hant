@@ -53,4 +53,4 @@ Edge Network會使用以下邏輯來判斷Adobe Analytics頁面檢視和連結�
 
 {style="table-layout:auto"}
 
-請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能綱要欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)，了解更多資訊。
+請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能綱要欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=zh-Hant)，了解更多資訊。

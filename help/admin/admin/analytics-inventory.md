@@ -40,7 +40,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
 
 ## 權限
 
-在[Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics)中擁有Adobe Analytics產品管理員許可權的使用者可以使用Analytics詳細目錄。
+在[Adobe Admin Console](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-console/admin-roles-in-analytics)中擁有Adobe Analytics產品管理員許可權的使用者可以使用Analytics詳細目錄。
 
 ## 存取Analytics詳細目錄
 
@@ -112,10 +112,10 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | 發生次數 (過去 90 天) | 「發生次數」量度會顯示指定的維度經設定或持續存在的點擊次數。此報表套裝在過去90天內收到多少點選？ |
    | 量度 | 此報告套裝中定義了多少量度？ |
    | 維度 | 此報告套裝中已定義多少維度？ |
-   | Analytics for Target (A4T) 已啟用 | [預設為隱藏]是否已為[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
-   | 行銷管道已啟用 | [預設為隱藏]此報表套裝是否已為[行銷管道](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)啟用？ |
-   | Source聯結器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
-   | 行事曆類型 | [預設為隱藏]如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Analytics for Target (A4T) 已啟用 | [預設為隱藏]是否已為[Analytics for Target](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
+   | 行銷管道已啟用 | [預設為隱藏]此報表套裝是否已為[行銷管道](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/marketing-channels/c-getting-started-mchannel)啟用？ |
+   | Source聯結器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 行事曆類型 | [預設為隱藏]如需詳細資訊，請參閱[自訂行事曆](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### 分析維度
 
@@ -132,7 +132,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | ID | 維度識別碼。 |
    | 類型 | 維度的型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
-   | Source聯結器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | Source聯結器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 決定哪些維度適合移轉至CJA。
 
@@ -153,7 +153,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | ID | 量度ID。 |
    | 類型 | 量度型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
-   | Source聯結器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | Source聯結器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 判斷哪些量度適合移轉至CJA。
 

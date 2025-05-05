@@ -158,7 +158,7 @@ ht-degree: 100%
 
 促銷活動日期通常是與個別促銷活動相關的範圍 (開始日期和結束日期)。日期的顯示格式應為 YYYY/MM/DD。例如：2013/06/15-2013/06/30。
 
-有關詳細資訊，請參閱「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
+有關詳細資訊，請參閱「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hant)」。
 
 >[!NOTE]
 >

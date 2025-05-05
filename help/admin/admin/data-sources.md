@@ -24,4 +24,4 @@ ht-degree: 97%
 
 在報表套裝上啟用「資料來源」時，會提供 FTP 位置，讓您能夠上傳要整合到報告中的檔案。上傳之後，Adobe 伺服器會自動處理資料，然後將其整合到您的報表套裝中。
 
-請參閱[資料來源說明](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)。
+請參閱[資料來源說明](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=zh-Hant)。

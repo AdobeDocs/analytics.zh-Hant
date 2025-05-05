@@ -17,7 +17,7 @@ ht-degree: 34%
 
 ## 使用Web SDK使用`onBeforeEventSend`回呼
 
-雖然Web SDK沒有布林值可在將資料傳送至Adobe之前處理其他邏輯的執行，但您可以註冊`onBeforeEventSend`回呼以修改資料。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
+雖然Web SDK沒有布林值可在將資料傳送至Adobe之前處理其他邏輯的執行，但您可以註冊`onBeforeEventSend`回呼以修改資料。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
 
 ## 使用Adobe Analytics擴充功能的外掛程式
 

@@ -74,6 +74,6 @@ ht-degree: 27%
 
 ## 操作說明影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-此 [Adobe Analytics 影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)提供如何使用區段管理員的簡短概覽。
+此 [Adobe Analytics 影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hant)提供如何使用區段管理員的簡短概覽。
 
 

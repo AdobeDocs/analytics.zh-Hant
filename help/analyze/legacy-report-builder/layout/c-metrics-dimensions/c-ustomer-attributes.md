@@ -17,7 +17,7 @@ ht-degree: 83%
 
 客戶屬性儲存在稱為 VisAttr 的新元素類型中，可以設定為維度或量度。
 
-如需上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
+如需上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)。
 
 * 如果設定為量度，VisAttr會同時公開為量度和「維度」。
 
