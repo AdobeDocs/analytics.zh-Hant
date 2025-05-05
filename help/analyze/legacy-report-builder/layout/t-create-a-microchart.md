@@ -19,7 +19,7 @@ ht-degree: 65%
 在「自訂配置」中，您可以將度量欄變成含有對應百分比值的長條圖，或是含有對應長條圖的百分比值。百分比值是某期間內整體未篩選請求的度量值或總計。
 
 1. 使用[「自訂配置」](/help/analyze/legacy-report-builder/layout/configure-the-custom-layout.md)在 Excel 中建立請求。
-1.  以滑鼠右鍵按一下度量值欄。
+1. 以滑鼠右鍵按一下度量值欄。
 1. 選擇&#x200B;**[!UICONTROL 「變更輸出顯示」]**，然後輸入要查閱的 Microchart 類型和百分比顯示。
 
    Report Builder會變更欄的顯示以符合您的選擇。

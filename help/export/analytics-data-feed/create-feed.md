@@ -134,7 +134,7 @@ ht-degree: 53%
 
       1. （視條件而定）如果您需要管理您剛建立的目的地（帳戶和位置），可在[位置管理員](/help/components/locations/locations-manager.md)中使用。
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -144,7 +144,7 @@ ht-degree: 53%
 
    1. 如果您尚未建立可供Adobe Analytics用於驗證的Azure應用程式，然後授與存取控制(IAM)的存取許可權。
 
-      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)的[Microsoft Azure檔案。
+      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)的Microsoft Azure檔案。
 
    1. 在Adobe Analytics Admin Console的&#x200B;[!UICONTROL **Destination**]&#x200B;區段的&#x200B;[!UICONTROL **Type**]&#x200B;下拉式功能表中，選取&#x200B;[!UICONTROL **Azure RBAC**]。
 
@@ -208,7 +208,7 @@ ht-degree: 53%
 
       1. （視條件而定）如果您需要管理您剛建立的目的地（帳戶和位置），可在[位置管理員](/help/components/locations/locations-manager.md)中使用。
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -218,7 +218,7 @@ ht-degree: 53%
 
    1. 如果您尚未建立應用程式，請建立Adobe Analytics可用於驗證的Azure應用程式。
 
-      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)的[Microsoft Azure檔案。
+      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)的Microsoft Azure檔案。
 
    1. 在Adobe Analytics Admin Console的&#x200B;[!UICONTROL **目的地**]&#x200B;區段中，選取&#x200B;[!UICONTROL **Azure SAS**]。
 
@@ -283,7 +283,7 @@ ht-degree: 53%
 
       1. （視條件而定）如果您需要管理您剛建立的目的地（帳戶和位置），可在[位置管理員](/help/components/locations/locations-manager.md)中使用。
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -353,7 +353,7 @@ ht-degree: 53%
 
       1. （視條件而定）如果您需要管理您剛建立的目的地（帳戶和位置），可在[位置管理員](/help/components/locations/locations-manager.md)中使用。
 
-+++
+   +++
 
 1. 在&#x200B;[!UICONTROL **資料欄定義**]&#x200B;區段中，在下拉式功能表中選取最新的&#x200B;[!UICONTROL **所有Adobe資料欄**]&#x200B;範本，然後完成下列欄位：
 

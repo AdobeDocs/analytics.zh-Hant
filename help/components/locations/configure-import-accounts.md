@@ -70,7 +70,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -82,7 +82,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure SAS
 
@@ -98,7 +98,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Azure RBAC
 
@@ -112,7 +112,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++電子郵件
 
@@ -128,7 +128,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    **舊帳戶型別**
 
@@ -147,13 +147,13 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++SFTP
 
    SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地站點，才能包含有效的 RSA 或 DSA 公開金鑰。建立摘要時，您可以下載相關的公開金鑰。
 
-+++
+   +++
 
    +++S3
 
@@ -188,7 +188,7 @@ ht-degree: 56%
    >
    >不支援 cn-north-1 區域。
 
-+++
+   +++
 
    +++Azure Blob
 
@@ -198,7 +198,7 @@ ht-degree: 56%
    >
    >您必須實作自己的處理程序，才能管理 Data Warehouse 目標的磁碟空間。Adobe 不會從伺服器刪除任何資料。
 
-+++
+   +++
 
 1. 選取「[!UICONTROL **儲存**]」。
 

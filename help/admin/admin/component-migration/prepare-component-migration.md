@@ -41,7 +41,7 @@ ht-degree: 9%
 
 1. 確保Customer Journey Analytics中的使用者已布建至資料對應的資料檢視。
 
-   如需詳細資訊，請參閱[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)中Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)的[Customer Journey Analytics許可權。
+   如需詳細資訊，請參閱[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)中Admin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)的Customer Journey Analytics許可權。
 
    「許可權」索引標籤是Admin Console中每個產品設定檔的一部分。 您可以將使用者新增到特定的產品設定檔。然後，將許可權指派給特定的資料檢視，並指定產品設定檔中的使用者擁有哪些許可權。
 

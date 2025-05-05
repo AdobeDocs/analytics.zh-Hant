@@ -42,7 +42,7 @@ Experience Cloud登入可讓您使用Enterprise ID（電子郵件和密碼）登
 1. 按一下&#x200B;**[!UICONTROL 登入]**。 您也可以使用下列方法進行簽署：
 
    * 按一下「**[!UICONTROL 建立]**」。
-   * 在[要求管理員]中選取要求，然後按一下[新增] ]**或[管理]****。**[!UICONTROL &#x200B;如需詳細資訊，請參閱[在請求管理員中選取請求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
+   * 在[要求管理員]中選取要求，然後按一下[新增] **或[管理]**&#x200B;**。**&#x200B;如需詳細資訊，請參閱[在請求管理員中選取請求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
    * 在Excel中按兩下請求。
 
 1. 填寫[!UICONTROL 「登入」]頁面中的欄位，然後按一下&#x200B;**[!UICONTROL 「確定」]**。

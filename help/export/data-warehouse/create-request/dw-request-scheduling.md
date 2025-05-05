@@ -22,7 +22,7 @@ ht-degree: 33%
 
    有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-1. 在[新增Data Warehouse請求]頁面上，選取[排程選項] **]標籤。[!UICONTROL **
+1. 在[新增Data Warehouse請求]頁面上，選取[排程選項] **標籤。**
 
    ![報告目的地索引標籤](assets/dw-scheduling-options.png) <!-- update screenshot -->
 

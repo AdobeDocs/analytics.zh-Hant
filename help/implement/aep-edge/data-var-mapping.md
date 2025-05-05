@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## 資料物件欄位對應
 
-此資料表的先前更新可以在GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)上此頁面的[認可歷程記錄中找到。 與AppMeasurement變數類似，所有資料物件欄位都區分大小寫。
+此資料表的先前更新可以在GitHub[&#128279;](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)上此頁面的認可歷程記錄中找到。 與AppMeasurement變數類似，所有資料物件欄位都區分大小寫。
 
 | 資料物件欄位路徑 | Analytics變數和說明 |
 | --- | --- |

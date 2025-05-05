@@ -63,7 +63,7 @@ Activity Map擴充功能介面由兩部分組成：
 
 底部面板會顯示覆蓋圖上所顯示連結的彙總檢視。
 
-* **報告型別**：切換底部面板以顯示頁面&#x200B;]**報告上的**[!UICONTROL &#x200B;連結或&#x200B;**[!UICONTROL 頁面詳細資料]**&#x200B;報告。
+* **報告型別**：切換底部面板以顯示頁面&#x200B;**報告上的**&#x200B;連結或&#x200B;**[!UICONTROL 頁面詳細資料]**&#x200B;報告。
 * **[!UICONTROL 頁面名稱]**：目前的[頁面](/help/components/dimensions/page.md)維度名稱。
 * **[!UICONTROL 搜尋]**：篩選報告以便只顯示符合輸入文字的連結名稱。
 * **[!UICONTROL 下載]**：將報表匯出為CSV。 您可以在相同的下載檔案中加入[!UICONTROL 頁面]上的連結報告、[!UICONTROL 頁面]報告和[!UICONTROL 頁面流量]報告。

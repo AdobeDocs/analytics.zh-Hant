@@ -18,7 +18,7 @@ ht-degree: 90%
 
 1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
-1.  按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則」]**。
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則」]**。
 1. 在&#x200B;**[!UICONTROL 處理規則]**&#x200B;頁面上按一下&#x200B;**[!UICONTROL 「新增規則」]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增條件」]**，然後選取規則套用時機。
 

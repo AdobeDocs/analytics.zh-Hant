@@ -17,7 +17,7 @@ ht-degree: 97%
 
 各種資料隱私權規定 (GDPR、CCPA) 生效時，Adobe Analytics 會協助處理由資料控管單位提交到 Experience Cloud 資料隱私權 API 的已驗證請求，藉此提高程序的自動化程度。Adobe 資料隱私權 API 的設計目的，是為了協助處理客戶儲存在不同 Adobe Experience Cloud 解決方案中之資料的個別權限請求 (如存取和刪除請求)。那具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。
 
-此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。如需詳細資訊，請參閱 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。 
+此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。如需詳細資訊，請參閱 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。 
 
 +++
 

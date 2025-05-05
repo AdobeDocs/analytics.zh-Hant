@@ -22,7 +22,7 @@ ht-degree: 69%
 
 若要防止編輯活頁簿，請按一下Report Builder工具列( ![](assets/locked_icon.png))上的&#x200B;**[!UICONTROL 鎖定]**。
 
-若要取消活頁簿保護機制，請按一下[解除鎖定] ]**( ![](assets/unlocked_icon.png))。**[!UICONTROL 
+若要取消活頁簿保護機制，請按一下[解除鎖定] **( ![](assets/unlocked_icon.png))。**
 
 若要將已鎖定的活頁簿解鎖，您必須具備下列其中一項權限：
 

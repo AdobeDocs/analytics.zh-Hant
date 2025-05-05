@@ -89,7 +89,7 @@ ht-degree: 3%
    | [!UICONTROL **開始日期**] | 報表開始的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **完成日期**] | 報表完成的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **日期已更新**] | 報表的上次更新日期與時間。<p>這會以起始請求之使用者的時區顯示。</p> |
-   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報告已建立，但尚未處理。</li><li>[!UICONTROL **擱置中**]：報告正在等待處理。</li><li>[!UICONTROL **正在處理**]：報告目前正在處理。</li><li>[!UICONTROL **已完成**]：報告已完成，現在可以使用。</li><li>[!UICONTROL **已排程**]：報告已排程，但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：]報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生，但無法傳送。 檢查目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的[設定，然後重新傳送報告。</li></ul>。 |
+   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報告已建立，但尚未處理。</li><li>[!UICONTROL **擱置中**]：報告正在等待處理。</li><li>[!UICONTROL **正在處理**]：報告目前正在處理。</li><li>[!UICONTROL **已完成**]：報告已完成，現在可以使用。</li><li>[!UICONTROL **已排程**]：報告已排程，但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：]報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生，但無法傳送。 檢查目的地[&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的設定，然後重新傳送報告。</li></ul>。 |
    | [!UICONTROL **從**] | 報表中包含之整體時間範圍的開始日期。<p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **結束日期**] | 報表中包含之整體時間範圍的結束日期。 <p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **舊版要求識別碼**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |

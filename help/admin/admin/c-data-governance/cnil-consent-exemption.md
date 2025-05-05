@@ -17,7 +17,7 @@ ht-degree: 96%
 
 本指南對同意要求提供了有限的豁免 (以下簡稱「同意豁免」)。同意豁免適用於 Analytics Cookie，其目的僅限於代表 Web 發行者測量網站或應用程式的客群。該指南規定，若要套用同意豁免，必須滿足以下條件：
 
-* 最多保留 25 個月的資料。您可以在[!UICONTROL 「Analytics >]>[!UICONTROL  管理員] > [!UICONTROL 資料管控]」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hant)
+* 最多保留 25 個月的資料。您可以在[!UICONTROL 「Analytics >]>[!UICONTROL &#x200B; 管理員] > [!UICONTROL 資料管控]」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hant)
 * 在 ECID 中停用協力廠商 Cookie。[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hant#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hant#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hant#id-service-api)
 * 13 個月的 Cookie 限制。您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 到期日期。Experience Cloud Cookie (包括 Analytics 和 ECID) 會隨著每次瀏覽延長 Cookie 到期日。若要設定靜態、非滾動的 Cookie 有效期，您可以：(1) 撰寫自訂程式碼，設定刪除 Cookie 的日期，或 (2) 使用您的 CMP 控制 Cookie 重設的日期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hant) 和 [Experience Cloud Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant#ec-cookies)
 * 有限的範圍。Cookie 的範圍必須限於單一網站或應用程式。[瀏覽器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html?lang=zh-Hant#third-party-cookie-limitations)

@@ -14,7 +14,7 @@ ht-degree: 36%
 >全新的簡化版[Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/rb-overview)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
 >這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/convert-workbooks)轉換為新的Report Builder。
 
-## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
+## Reports & Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -110,7 +110,7 @@ ht-degree: 36%
 * 使用&#x200B;**首次接觸**&#x200B;和&#x200B;**人員回顧期間**，歸因會計入全部三次造訪。 付費搜尋是第一次接觸，因此在這次 $50 美元的購買動作中有 100% 的評分。
 
 * 使用&#x200B;**線性**&#x200B;和&#x200B;**工作階段回顧期間**，評分會由電子郵件和顯示廣告平分。 這兩個管道各有$25美元的評分。
-使用**線性**&#x200B;和&#x200B;**人員回顧期間**，評分會由搜尋付費、社群媒體、電子郵件和顯示廣告平分， 每個管道在這次購買中各有 $12.50 的評分。
+使用&#x200B;**線性**&#x200B;和&#x200B;**人員回顧期間**，評分會由搜尋付費、社群媒體、電子郵件和顯示廣告平分， 每個管道在這次購買中各有 $12.50 的評分。
 
 * 使用&#x200B;**J形**&#x200B;和&#x200B;**個人回顧期間**，評分會由搜尋付費、社群媒體、電子郵件和顯示廣告平分。
 

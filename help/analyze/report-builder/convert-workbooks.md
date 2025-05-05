@@ -30,7 +30,7 @@ ht-degree: 0%
 
 
 
-1. 依照](/help/analyze/report-builder/report-builder-setup.md)的指示進行[設定新Report Builder。
+1. 依照[&#128279;](/help/analyze/report-builder/report-builder-setup.md)的指示進行設定新Report Builder。
 
 1. 開啟Excel，然後按一下右上方的Adobe Report Builder圖示。
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
    ![升級活頁簿提示](assets/upgrade_workbook.png)
 
-1. 如果找到一或多個舊版要求，請按一下[升級] ****&#x200B;以升級活頁簿。
+1. 如果找到一或多個舊版要求，請按一下[升級] **&#x200B;**&#x200B;以升級活頁簿。
 
    >[!NOTE]
    >

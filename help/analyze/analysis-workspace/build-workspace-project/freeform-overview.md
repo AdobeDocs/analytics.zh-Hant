@@ -74,7 +74,7 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 |---|---|
 | ![刪除](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg)刪除 | 選取後，確認對話方塊會提示您確認刪除Workspace專案或行動計分卡。 選取「**[!UICONTROL 確定]**」以確認。 |
 | ![共用](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)共用 | 此動作可讓您共用專案。 請參閱[共用專案](../curate-share/share-projects.md)。 |
-| ![重新命名](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)重新命名 | 開啟&#x200B;**[!UICONTROL 重新命名： *名稱&#x200B;*]**對話方塊以重新命名專案。 選取**[!UICONTROL 儲存&#x200B;]**以儲存專案的新名稱。 |
+| ![重新命名](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg)重新命名 | 開啟&#x200B;**[!UICONTROL 重新命名： *名稱&#x200B;*]**&#x200B;對話方塊以重新命名專案。 選取&#x200B;**[!UICONTROL 儲存&#x200B;]**&#x200B;以儲存專案的新名稱。 |
 | ![副本](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Copy_18_N.svg)副本 | 立即將選取的專案複製到名稱為&#x200B;*原始名稱*&#x200B;的新專案（複製）。 |
 | ![釘選](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg)釘選 | 立即將專案釘選到清單頂端。 新增![Pin](https://spectrum.adobe.com/static/icons/workflow_18/Smock_PinOff_18_N.svg)指標。 |
 | ![標籤](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Label_18_N.svg)標籤 | 開啟&#x200B;**[!UICONTROL 標籤專案]**&#x200B;對話方塊。 您可以選取現有標籤或新增標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存專案的標籤。 |

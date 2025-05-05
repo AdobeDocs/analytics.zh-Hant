@@ -64,7 +64,7 @@ ht-degree: 67%
 | **`dataprivacyconsentoptout`** | [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度。 每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
 | **`dataprivacydmaconsent`** | 此值可識別透過Adobe Advertising將資料從Adobe Analytics傳送至第三方廣告提供者(例如Google)時是否獲得同意。 如需詳細資訊，請參閱[廣告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
 | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
-| **`domain`** | 域[](/help/components/dimensions/domain.md)維度。根據訪客的互聯網接入点。 | varchar(100) |
+| **`domain`** | 域[&#128279;](/help/components/dimensions/domain.md)維度。根據訪客的互聯網接入点。 | varchar(100) |
 | **`duplicate_events`** | 列出每個計為重複項目的事件。 | varchar(255) |
 | **`duplicate_purchase`** | 此旗標可判斷此點選的購買事件是否因為重複而被忽略。 | 不帶正負號的 tinyint |
 | **`duplicated_from`** | 僅用於包含點擊複製 VISTA 規則的報告套裝。指出從中複製點擊的報告套裝。 | varchar(40) |
@@ -194,14 +194,14 @@ ht-degree: 67%
 | **`va_new_engagement`** | 識別行銷管道[新參與](/help/components/metrics/new-engagements.md)的旗標。 | 不帶正負號的 tinyint |
 | **`video`** | [內容](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
 | **`videoad`** | [廣告](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadinpod`** | Pod位置](/help/components/dimensions/sm-ads.md)串流媒體維度中的[廣告。 | varchar(255) |
+| **`videoadinpod`** | Pod位置[&#128279;](/help/components/dimensions/sm-ads.md)串流媒體維度中的廣告。 | varchar(255) |
 | **`videoadlength`** | [廣告長度（變數）](/help/components/dimensions/sm-ads.md)串流媒體維度。 | 整數 |
 | **`videoadload`** | [廣告載入](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
 | **`videoadname`** | [廣告名稱（變數）](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
 | **`videoadplayername`** | [廣告播放器名稱](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
 | **`videoadpod`** | [廣告Pod](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
 | **`videoadvertiser`** | 廣告 [商](/help/components/dimensions/sm-ads.md) 流媒體維度。 | varchar(255) |
-| **`videoaudioalbum`** | 專輯[](/help/components/dimensions/sm-audio-metadata.md)流媒體維度。 | varchar(255) |
+| **`videoaudioalbum`** | 專輯[&#128279;](/help/components/dimensions/sm-audio-metadata.md)流媒體維度。 | varchar(255) |
 | **`videoaudioartist`** | [藝人](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
 | **`videoaudioauthor`** | [作者](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
 | **`videoaudiolabel`** | [標籤](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
@@ -210,7 +210,7 @@ ht-degree: 67%
 | **`videocampaign`** | [行銷活動ID](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
 | **`videochannel`** | [內容頻道](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
 | **`videochapter`** | [Chapter](/help/components/dimensions/sm-chapters.md)串流媒體維度。 | varchar(255) |
-| **`videocontenttype`** | 內容類型[](/help/components/dimensions/sm-core.md)流媒體維度。 | varchar(255) |
+| **`videocontenttype`** | 內容類型[&#128279;](/help/components/dimensions/sm-core.md)流媒體維度。 | varchar(255) |
 | **`videodaypart`** | [日部分](/help/components/dimensions/sm-video-metadata.md)流媒體維度。 | varchar(255) |
 | **`videoepisode`** | [Episode](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
 | **`videofeedtype`** | [媒體摘要型別](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
@@ -242,8 +242,8 @@ ht-degree: 67%
 | **`visid_timestamp`** | 如果是新產生訪客ID，則會提供產生訪客ID時的時間戳記(UNIX®)。 | int |
 | **`visid_type`** | 不供外部使用；供 Adobe 在內部用來處理最佳化。此數值ID代表用來識別訪客的方法。<br>`0`：自訂訪客 ID 或未知/不適用<br>`1`：IP 和用戶代理備援<br>`2`：HTTP 行動訂閱者標題<br>`3`：舊版 Cookie 值 (`s_vi`) <br>`4`：備援 Cookie 值 (`s_fid`) <br>`5`：身分識別服務 | 不帶正負號的 tinyint |
 | **`visit_keywords`** | [搜尋關鍵字](/help/components/dimensions/search-keyword.md)維度。 此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 | varchar(244) |
-| **`visit_num`** | 「造訪」編號](/help/components/dimensions/visit-number.md)為 [維度。從 1 開始，隨著每次訪客開始新的造訪而遞增。 | 不帶正負號的 int |
-| **`visit_page_num`** | 點擊深度](/help/components/dimensions/hit-depth.md)維度[。對於訪客產生的每個點擊增加 1。 重設每次造訪。 | 不帶正負號的 int |
+| **`visit_num`** | 「造訪」編號[&#128279;](/help/components/dimensions/visit-number.md)為 維度。從 1 開始，隨著每次訪客開始新的造訪而遞增。 | 不帶正負號的 int |
+| **`visit_page_num`** | 點擊深度[&#128279;](/help/components/dimensions/hit-depth.md)維度。對於訪客產生的每個點擊增加 1。 重設每次造訪。 | 不帶正負號的 int |
 | **`visit_ref_domain`** | 依據`visit_referrer`欄而定。造訪的第一個反向連結網域。 | varchar(100) |
 | **`visit_ref_type`** | 表示造訪第一推薦者的推薦者類型的數值 ID。 請參考`referrer_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`visit_referrer`** | 造訪的第一個反向連結。 | varchar(255) |

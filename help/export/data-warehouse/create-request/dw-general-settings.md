@@ -22,7 +22,7 @@ ht-degree: 32%
 
    有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-1. 在[新增Data Warehouse要求]頁面上，選取[一般設定] **]標籤。[!UICONTROL **
+1. 在[新增Data Warehouse要求]頁面上，選取[一般設定] **標籤。**
 
    ![報告目標標籤](assets/dw-general-settings.png)
 

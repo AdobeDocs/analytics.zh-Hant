@@ -36,7 +36,7 @@ t_classification_add_traffic.xml
 
 1. 在「套裝」標題中，按一下&#x200B;**[!UICONTROL 「管理員]** >**[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
-1. 在&#x200B;****「選取分類類型」欄位中，選取您要新增分類的變數。
+1. 在&#x200B;**&#x200B;**「選取分類類型」欄位中，選取您要新增分類的變數。
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分類]**」。
 
    ![步驟資訊](/help/admin/admin/assets/traffic-classification.png)

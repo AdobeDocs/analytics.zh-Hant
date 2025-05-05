@@ -79,7 +79,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 </amp-analytics>
 ```
 
-`<amp-analytics>`標籤支援變數替代，讓AMP能提供已知的資料值。 如需詳細資訊，請參閱GitHub上`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支援的[變數。
+`<amp-analytics>`標籤支援變數替代，讓AMP能提供已知的資料值。 如需詳細資訊，請參閱GitHub上`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支援的變數。
 
 >[!NOTE]
 >

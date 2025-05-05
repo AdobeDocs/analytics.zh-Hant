@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果您沒有看到此功能表專案，則需要將您新增至具有此功能許可權的Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)中的[產品設定檔，或您已獲得Admin Console中報表套裝的存取權。
+   >如果您沒有看到此功能表專案，則需要將您新增至具有此功能許可權的Admin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)中的產品設定檔，或您已獲得Admin Console中報表套裝的存取權。
 
 3. 在右上角，選擇您要檢視或管理其隱私權標籤的報表套裝。
 

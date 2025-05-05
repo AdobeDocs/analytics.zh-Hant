@@ -45,7 +45,7 @@ Activity Map所需的[許可權專案](/help/admin/admin-console/permissions/pro
 
 * Activity Map 會查看它所知道的連結的可見度是否已變更。如果發現可見度有變更，則該連結的「頁面上連結」表格的「存在」欄會以[!UICONTROL 已顯示]或[!UICONTROL 已隱藏]來更新。
 
-* 當使用者互動建立新內容時，AppMeasurement判定為連結的任何新元素都會新增到頁面]上的[!UICONTROL 連結表格中。 Activity Map 會傳送包含這些新連結的新資料要求。傳回資料要求時，新連結會出現在[!UICONTROL 頁面]上的連結表格中。
+* 當使用者互動建立新內容時，AppMeasurement判定為連結的任何新元素都會新增到頁面上的連結表格中。 Activity Map 會傳送包含這些新連結的新資料要求。傳回資料要求時，新連結會出現在[!UICONTROL 頁面]上的連結表格中。
 
 +++
 

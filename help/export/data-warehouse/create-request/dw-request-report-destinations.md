@@ -93,7 +93,7 @@ ht-degree: 83%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -105,7 +105,7 @@ ht-degree: 83%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -121,7 +121,7 @@ ht-degree: 83%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -135,7 +135,7 @@ ht-degree: 83%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++電子郵件
 
@@ -151,7 +151,7 @@ ht-degree: 83%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
 1. 在「[!UICONTROL **報告選項**]」標籤中，繼續設定您的 Data Warehouse 請求。有關詳細資訊，請參閱「[為 Data Warehouse 請求設定報告選項](/help/export/data-warehouse/create-request/dw-request-report-options.md)」。
 
