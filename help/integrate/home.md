@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 適用的 Analytics](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 適用的 Analytics](https://video.tv.adobe.com/v/3434838?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

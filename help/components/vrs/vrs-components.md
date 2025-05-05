@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件組織](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件組織](https://video.tv.adobe.com/v/3426920?quality=12&learn=on&captions=chi_hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

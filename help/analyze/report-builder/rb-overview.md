@@ -73,7 +73,7 @@ Report Builder可讓您使用Adobe Analytics資料輕鬆建立、編輯和重新
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Report Builder概觀](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Report Builder概觀](https://video.tv.adobe.com/v/3452591?quality=12&learn=on&captions=chi_hant){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
