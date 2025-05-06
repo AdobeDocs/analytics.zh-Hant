@@ -4,10 +4,10 @@ description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-source-git-commit: cf7a3abc5e9d4bea834767d074eb5e66f30ea332
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 94%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 若要實施 Adob&#x200B;&#x200B;e Analytics 伺服器端，您有以下選項：
 
-* **Edge Server API**：您在使用 Adob&#x200B;&#x200B;e Experience Platform Edge Server API 透過資料流與 Adob&#x200B;&#x200B;e Analytics 進行通訊的伺服器上實施程式碼。
-  ![伺服器端實施](assets/edge-network-server-api.svg)
-請參閱「[使用 Adob&#x200B;&#x200B;e Experience Platform Edge Network Server 實施 Adob&#x200B;&#x200B;e Analytics API](/help/implement/aep-edge/server-api/overview.md)」，了解更多資訊。
+* **Edge Network API**：您在使用Adobe Experience Platform Edge Network API的伺服器上實作程式碼，以透過資料流與Adobe Analytics通訊。
+  ![伺服器端實作](assets/edge-network-server-api.svg)
+如需詳細資訊，請參閱[使用Adobe Analytics Edge Network API實作Adobe Experience Platform ](/help/implement/aep-edge/api/overview.md)。
 
 * **(批次) 資料插入 API**：您可以使用 Adob&#x200B;&#x200B;e Analytics (批次) 資料插入 API，將伺服器端資料直接收集到 Adob&#x200B;&#x200B;e Analytics。
   ![資料插入 API](assets/analytics-apis.png)
@@ -85,13 +85,13 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform 中建立標籤屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
-* [使用 Platform Web SDK 設定 Adob&#x200B;&#x200B;e Analytics 教學課程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hant)
-* [在行動應用程式教學課程中實施 Adobe Experience Cloud](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hant)
+* [使用 Platform Web SDK 設定 Adob&#x200B;&#x200B;e Analytics 教學課程](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [在行動應用程式教學課程中實施 Adobe Experience Cloud](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新發行說明](../release-notes/latest.md)

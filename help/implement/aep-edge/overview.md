@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料 - 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: c7fd66e99fd7d6c474682621a3c18bf41d541a96
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 77%
+source-wordcount: '395'
+ht-degree: 73%
 
 ---
 
@@ -19,16 +19,14 @@ Adobe 提供三個主要方法將資料傳送給 Edge Network：
 
 * **[Adobe Experience Platform Web SDK](web-sdk/overview.md)**：在 Adobe Experience Platform Data Collection 中，使用 Web SDK 擴充功能傳送資料給 Edge。
 * **[Adobe Experience Platform Mobile SDK](mobile-sdk/overview.md)**：在 Adobe Experience Platform Data Collection 中，使用 Mobile SDK 擴充功能傳送資料給 Edge。
-* **[Adobe Experience Platform Edge Network Server API](server-api/overview.md)**：使用 API 將資料直接傳送給 Edge。
-
-
+* **[Adobe Experience Platform Edge Network API](api/overview.md)**：使用API將資料直接傳送至Edge Network。
 
 ## Adobe Analytics 如何處理 Edge Network 資料
 
 傳送至 Adobe Experience Platform Edge Network 的資料可以採用兩種格式：
 
-* XDM 物件：符合 [XDM (體驗資料模型)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 為主的綱要。XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。當事件到達 Adobe Analytics 時，它們會轉換為 Adobe Analytics 可以處理的格式。
-* 資料物件：使用對應至 Adobe Analytics 的特定欄位將資料傳送到 Edge Network。Edge Network 會偵測這些欄位的存在並將其轉送到 Adobe Analytics，而無需符合綱要。
+* XDM 物件：符合 [XDM (體驗資料模型)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 為主的結構描述。XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。當事件到達 Adobe Analytics 時，它們會轉換為 Adobe Analytics 可以處理的格式。
+* 資料物件：使用對應至 Adobe Analytics 的特定欄位將資料傳送到 Edge Network。Edge Network 會偵測這些欄位的存在並將其轉送到 Adobe Analytics，而無需符合結構描述。
 
 Edge Network會使用以下邏輯來判斷Adobe Analytics頁面檢視和連結事件：
 
@@ -53,4 +51,4 @@ Edge Network會使用以下邏輯來判斷Adobe Analytics頁面檢視和連結�
 
 {style="table-layout:auto"}
 
-請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能綱要欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=zh-Hant)，了解更多資訊。
+請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能結構描述欄位群組](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html)，了解更多資訊。

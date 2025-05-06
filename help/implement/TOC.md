@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: de9d2039411a7f8539f8e7b4eb840f03c964f489
+source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
 + Analytics 變數、函數和方法  {#vars}
    + [概觀](vars/overview.md)
@@ -150,8 +150,8 @@ ht-degree: 100%
       + [使用 JavaScript 的全新實作](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
       + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
-   + 伺服器 API {#server-api}
-      + [伺服器 API 概觀](aep-edge/server-api/overview.md)
+   + EDGE NETWORK API {#api}
+      + [Edge Network API總覽](aep-edge/api/overview.md)
 + 使用 Adobe Analytics 擴充功能實作 Analytics {#launch}
    + [標記總覽](launch/overview.md)
    + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
