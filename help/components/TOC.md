@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
-   + [維度總覽](dimensions/overview.md)
+   + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
    + [Activity Map 連結](dimensions/activity-map-link.md)
    + [Activity Map 連結 (依地區)](dimensions/activity-map-link-by-region.md)
@@ -119,7 +119,7 @@ ht-degree: 100%
    + [年](dimensions/year.md)
    + [郵遞區號](dimensions/zip-code.md)
 + 量度 {#metrics}
-   + [量度總覽](metrics/overview.md)
+   + [量度概觀](metrics/overview.md)
    + [計算重複實例數](metrics/count-repeat-instances.md)
    + [平均頁面深度](metrics/average-page-depth.md)
    + [每次造訪的平均頁面瀏覽數](metrics/average-page-views-per-visit.md)
@@ -165,7 +165,7 @@ ht-degree: 100%
    + [串流媒體視訊中繼資料](metrics/sm-video-metadata.md)
    + [每次造訪逗留時間](metrics/time-spent-per-visit.md)
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
-   + [逗留時間總覽](metrics/time-spent.md)
+   + [逗留時間概觀](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
    + [未識別的使用者](metrics/unidentified-people.md)
    + [不重複裝置](metrics/unique-devices.md)
@@ -174,13 +174,13 @@ ht-degree: 100%
    + [語音量度](metrics/voice-metrics.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
    + [造訪數](metrics/visits.md)
-+ 分段 {#segmentation}
++ 區段 {#segmentation}
    + [Analytics 分段](segmentation/seg-home.md)
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
-   + 分段工作流程 {#segmentation-workflow}
-      + [分段工作流程總覽](segmentation/segmentation-workflow/seg-workflow.md)
+   + 區段工作流程 {#segmentation-workflow}
+      + [分段工作流程概觀](segmentation/segmentation-workflow/seg-workflow.md)
       + [規劃區段](segmentation/segmentation-workflow/seg-plan.md)
       + [建立區段](segmentation/segmentation-workflow/seg-build.md)
       + [建立循序區段](segmentation/segmentation-workflow/seg-sequential-build.md)
@@ -231,7 +231,7 @@ ht-degree: 100%
       + [計算量度總計](c-calcmetrics/cm-totals.md)
       + [預設計算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 虛擬報告套裝 {#virtual-report-suites}
-   + [虛擬報告套裝總覽](vrs/vrs-about.md)
+   + [虛擬報告套裝概觀](vrs/vrs-about.md)
    + [虛擬報告套裝 - 元件管理](vrs/vrs-components.md)
    + [內容感知工作階段](vrs/vrs-mobile-visit-processing.md)
    + [報程時間處理功能](vrs/vrs-report-time-processing.md)
@@ -244,7 +244,7 @@ ht-degree: 100%
       + [管理虛擬報告套裝](vrs/c-workflow-vrs/vrs-manage.md)
       + [檢視虛擬報告套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
 + 跨裝置分析 {#cda}
-   + [跨裝置分析總覽](cda/overview.md)
+   + [跨裝置分析概觀](cda/overview.md)
    + [欄位式拚接](cda/field-based-stitching.md)
    + [裝置圖表](cda/device-graph.md)
    + [設定跨裝置分析](cda/setup.md)
@@ -258,41 +258,38 @@ ht-degree: 100%
    + [管理](c-alerts/alert-manager.md)
    + [使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
-   + [分類總覽](classifications/c-classifications.md)
+   + [分類概觀](classifications/classifications-overview.md)
    + 分類集 {#sets}
-      + [分類集概觀](classifications/sets/overview.md)
-      + 管理分類集 {#manage}
+      + [概觀](classifications/sets/overview.md)
+      + 管理分類設定 {#manage}
          + [分類集管理員](classifications/sets/manage/set-manager.md)
          + [建立分類集](classifications/sets/manage/create.md)
          + [分類集設定](classifications/sets/manage/settings.md)
          + [分類集結構描述](classifications/sets/manage/schema.md)
          + [分類集規則](classifications/sets/manage/rules.md)
       + [分類集工作管理員](classifications/sets/job-manager.md)
-      + 分類集整合 {#consolidations}
-         + [分類集整合管理員](classifications/sets/consolidations/manage.md)
-         + [分類集整合流程](classifications/sets/consolidations/process.md)
-   + 分類規則產生器 {#classifications-rulebuilder}
-      + [分類規則產生器工作流程](classifications/crb/classification-rule-builder.md)
+      + 分類設定合併 {#consolidations}
+         + [合併管理員](classifications/sets/consolidations/manage.md)
+         + [合併程式](classifications/sets/consolidations/process.md)
+   + 分類規則產生器（舊版）{#classifications-rulebuilder}
+      + [概觀](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)
       + [分類規則](classifications/crb/classification-quickstart-rules.md)
-      + [分類規則 - 定義](classifications/crb/classification-rule-definitions.md)
-      + [子分類和規則產生器](classifications/crb/sub-classification-rule-builder.md)
-   + 分類匯入工具{#classifications-importer}
-      + [分類匯入工具 - 總覽](classifications/importer/c-working-with-saint.md)
+      + [分類規則定義](classifications/crb/classification-rule-definitions.md)
+      + [子分類和規則產生器](classifications/crb/subclassification-rule-builder.md)
+   + 分類匯入工具（舊版）{#classifications-importer}
+      + [分類匯入工具概觀](classifications/importer/c-working-with-saint.md)
       + [分類資料檔案](classifications/importer/c-saint-data-files.md)
       + [刪除分類資料](classifications/importer/t-delete-classification-data.md)
-      + [逸出分類資料](classifications/importer/t-classifications-escape-data.md)
-      + [未分類索引鍵](classifications/importer/nonclassified-keys.md)
       + [分類範本](classifications/importer/c-download-saint-data.md)
-      + [瀏覽器和 FTP 匯入](classifications/importer/import-file.md)
       + [瀏覽器匯入](classifications/importer/browser-import.md)
       + [瀏覽器匯出](classifications/importer/browser-export.md)
       + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 匯出](classifications/importer/ftp-export.md)
       + [處理時間](classifications/importer/processing-time.md)
+      + [子分類](classifications/importer/subclassifications.md)
       + [疑難排解](classifications/importer/troubleshooting.md)
-   + [子分類](classifications/c-sub-classifications.md)
-   + [分類常見問答](classifications/faq.md)
+      + [常見問題](classifications/importer/importer-faq.md)
 + 位置 {#locations}
    + [地點管理員](/help/components/locations/locations-manager.md)
    + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
@@ -300,11 +297,11 @@ ht-degree: 100%
 + [已排程的專案](scheduled-projects-manager.md)
 + [排程報告佇列](scheduled-reports-admin.md)
 + 即時報告 {#real-time-reporting}
-   + [即時報告總覽](c-real-time-reporting/realtime.md)
+   + [即時報告概觀](c-real-time-reporting/realtime.md)
    + [設定即時報程](c-real-time-reporting/t-realtime-admin.md)
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
-   + [開始使用行銷管道](c-marketing-channels/c-getting-started-mchannel.md)
+   + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
    + [搭配行銷管道使用 Attribution ](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)

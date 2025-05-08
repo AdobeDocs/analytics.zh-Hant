@@ -3,14 +3,16 @@ description: 規則集是一組特定變數的分類規則。您將變數套用�
 title: 分類規則集
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '406'
+ht-degree: 92%
 
 ---
 
-# 分類規則集
+# 分類規則集（舊版）
+
+*此頁面說明分類規則集是[分類規則產生器](classification-rule-builder.md)的一部分。 請參閱[分類集](../sets/overview.md)，以瞭解Adobe Analytics中目前的資料分類方法。*
 
 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
 
@@ -56,8 +58,6 @@ ht-degree: 100%
 命名分類規則集、套用變數及指定覆寫設定。
 
 1. (先決條件) 在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**&#x200B;中定義分類結構。
-
-   (請參閱「管理工具」說明中的[「分類」](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)，了解如何新增分類。)
 
    必須先為變數定義至少一個分類，變數才會顯示在[!UICONTROL 「新的規則集」]面板中。
 

@@ -4,10 +4,10 @@ title: 轉換分類
 feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 93%
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**
 
 轉換分類可讓您歸類轉換變數。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的資料屬性產生。
-
-啟用分類後，請使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)將特定值指派給適當的分類。
 
 >[!WARNING]
 >
@@ -41,14 +39,11 @@ ht-degree: 93%
 1. 按一下「**[!UICONTROL 管理]**> **[!UICONTROL 報表套裝]**」。
 1. 選取報表套裝。
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**」。
-1. 在&#x200B;**&#x200B;**「選取分類類型」下拉式清單中，選取您要新增分類的變數。
+1. 在&#x200B;****「選取分類類型」下拉式清單中，選取您要新增分類的變數。
 
    ![步驟資訊](/help/admin/admin/assets/sub_class_create.png)
 
 1. 將游標移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 「新增分類」]**。
-1. 在&#x200B;**&#x200B;**&#x200B;選擇類型欄位中，選取您要新增至變數的分類類型。
-
-   選項包括&#x200B;**[!UICONTROL 文字]**&#x200B;和&#x200B;**[!UICONTROL 數值]**。如需分類類型的詳細資訊，請參閱[關於分類](/help/components/classifications/c-classifications.md)。
 1. 在&#x200B;**[!UICONTROL 文字分類]**&#x200B;對話方塊中，視需要設定分類。
 
 1. 在下拉式清單對話方塊中新增或移除選項。
@@ -64,6 +59,6 @@ ht-degree: 93%
 1. 開啟「報表套裝管理員」，方法是按一下套裝標題中的&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**」。
-1. 在&#x200B;**&#x200B;**&#x200B;選取分類類型下拉式清單中，選取您要刪除分類的變數。
+1. 在&#x200B;****&#x200B;選取分類類型下拉式清單中，選取您要刪除分類的變數。
 1. 將游標移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 「刪除分類」]**。
 1. 在「刪除分類」對話方塊中，按一下&#x200B;**[!UICONTROL 「刪除」]**。

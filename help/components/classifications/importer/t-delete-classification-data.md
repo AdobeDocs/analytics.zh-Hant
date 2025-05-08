@@ -3,10 +3,10 @@ description: 說明如何刪除或移除分類資料的步驟。
 title: 刪除分類資料
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 96%
 
 ---
 
@@ -55,5 +55,5 @@ ht-degree: 100%
 * 使用 `~deletekey~` 時，分類檔案中的每列只需使用一次。
 * `~empty~` 和 `~deletekey~` 必須為&#x200B;*完全*&#x200B;比對。不允許使用空格或大寫字母。
 * 您無法刪除索引鍵欄中的值，這些值會直接傳遞至變數，且成為永久值。
-* 如果您移除有子分類的分類值，該子分類也會遭到移除。分類不能沒有索引鍵值，而子分類的父級是其索引鍵值。
+* 如果您移除具有子分類的分類值，則也會移除這些子分類。 分類不能沒有索引鍵值，而子分類的父級是其索引鍵值。
 * 可以移除子分類資料，但保留其父級分類的完整。

@@ -3,7 +3,7 @@ title: 產品
 description: 產品的名稱。
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 91%
@@ -20,4 +20,4 @@ ht-degree: 91%
 
 ## 維度項目
 
-由於此變數以您實施作業中的自訂字串為基礎，因此您的組織會決定維度項目。Adobe 建議您為產品建立統一的命名慣例。如果您想以不同方式將產品分組，或提供更好記的名稱，可使用[分類](../classifications/c-classifications.md)。Adobe 建議同時使用「產品」和「類別」維度。
+由於此變數以您實施作業中的自訂字串為基礎，因此您的組織會決定維度項目。Adobe 建議您為產品建立統一的命名慣例。如果您想以不同方式將產品分組，或提供更好記的名稱，可使用[分類](../classifications/classifications-overview.md)。Adobe 建議同時使用「產品」和「類別」維度。

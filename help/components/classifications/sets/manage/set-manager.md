@@ -3,7 +3,7 @@ title: 分類集管理員
 description: 在Adobe Analytics中管理「分類設定」。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 7%
@@ -30,7 +30,7 @@ ht-degree: 7%
 
 分類設定管理員中有以下欄：
 
-* **[!UICONTROL 分類設定]**：分類設定名稱。 按一下分類集名稱[編輯其設定](settings.md)。
+* **[!UICONTROL 分類設定]**：分類設定名稱。 按一下分類設定名稱會編輯其[設定](settings.md)。
 * **[!UICONTROL 訂閱]**：套用此分類集的訂閱數目。
 * **[!UICONTROL 分類]**：分類集包含的分類維度數。
 * **[!UICONTROL 自動化]**：判斷分類設定是否已設為從雲端位置自動匯入資料。 可以在分類集的[結構描述](schema.md)中設定自動化。

@@ -3,7 +3,7 @@ title: Adobe Analytics 中的資料處理順序
 description: 瞭解在 Adobe Analytics 中處理資料的元件和服務順序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 91%
@@ -21,7 +21,7 @@ Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法�
 在將資料傳送到 Adobe 之前，通常會使用以下其中一種方法在用戶端對其進行編譯：
 
 * **AppMeasurement**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料直接傳送到 Adobe Analytics。
-* **Adobe Experience Platform Web SDK**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料會傳送至Adobe Experience PlatformEdge Network。
+* **Adobe Experience Platform Web SDK**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料會傳送到Adobe Experience Platform Edge Network。
 * **Adobe Experience Cloud 資料彙集中的標籤**：每個頁面上參考的 JavaScript 檔案，包含在資料彙集 UI 中建立的規則。Adobe Analytics 擴充功能可讓您用更簡單的方法實作 AppMeasurement。Web SDK 擴充功能可讓您用更簡單的方法執行 Web SDK。
 
 如果您將資料傳送至Edge Network，您可以將其設定為將資料轉送至Adobe Analytics (以及許多其他Adobe Experience Cloud解決方案)。 不管執行方法如何，最終都會將具有所需變數的影像要求傳送到 Adobe 資料彙集伺服器。
@@ -47,5 +47,5 @@ Adobe Analytics 中的資料大多是永久性的；但有些功能允許選擇�
 
 * [**資料修復 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：編輯特定欄或刪除所需的資料列。
 * [**資料治理**](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)：滿足隱私要求而永久刪除資料。
-* [**分類**](/help/components/classifications/c-classifications.md)：根據允許您以不同方式組織資料的規則或上傳的資料建立維度。基礎報告套裝資料不會變更，因此您可以自由編輯或覆寫分類資料。
+* [**分類**](/help/components/classifications/classifications-overview.md)：根據允許您以不同方式組織資料的規則或上傳的資料建立維度。基礎報告套裝資料不會變更，因此您可以自由編輯或覆寫分類資料。
 * [**虛擬報告套裝**](/help/components/vrs/vrs-about.md)：建立可以變更存取逾時或允許[跨裝置分析](/help/components/cda/overview.md)的備用報告套裝檢視。

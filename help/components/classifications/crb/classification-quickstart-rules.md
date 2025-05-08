@@ -3,14 +3,14 @@ description: 分類規則會經常尋找未分類的詞語。如果找到符合�
 title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '2001'
-ht-degree: 93%
+source-wordcount: '1979'
+ht-degree: 90%
 
 ---
 
-# 分類規則
+# 分類規則（舊版）
 
 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 例如，假設電子郵件促銷活動 ID 的追蹤程式碼是：
 
-`em:Summer:2013:Sale`。
+`em:Summer:20XX:Sale`。
 
 您可以在規則集裡設定三個規則，以識別字串的各部分，然後將值分類：
 
@@ -35,7 +35,7 @@ ht-degree: 93%
 |---|---|---|---|
 | 開頭為 | em: | 管道 | 電子郵件 |
 | 結尾為 | Sale | 類型 | Sale |
-| 包含 | 2013 | 年 | 2013 |
+| 包含 | 20XX | 年 | 20XX |
 
 ## 規則的處理方式 {#how-rules-are-processed}
 
@@ -95,18 +95,6 @@ about_classification_rules.xml
 
 使用規則運算式匹配格式一致的字串值和分類。例如，您可以利用追蹤程式碼中的特定字元建立分類。您可以匹配特定的字元、字詞或字元模式。
 
-<!-- 
-
-regex_classification_rules.xml
-
- -->
-
-* [規則運算式 - 追蹤程式碼範例](/help/components/classifications/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
-* [規則運算式 - 將特定字元分類](/help/components/classifications/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
-* [規則運算式 - 匹配各種長度的追蹤程式碼](/help/components/classifications/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [規則運算式 - &quot;Does Not Contain&quot; 範例](/help/components/classifications/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
-* [規則運算式 - 參考表格](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
-
 >[!NOTE]
 >
 >最佳做法是，規則運算式最適合使用分隔字元的追蹤程式碼。
@@ -115,29 +103,29 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->如果追蹤程式碼為 URL 編碼，將&#x200B;**無法**&#x200B;使用規則產生器來分類。
+>如果追蹤程式碼為URL編碼，它將&#x200B;**不會**&#x200B;由規則產生器分類。
 
 在這個範例中，假設您要將以下的促銷活動 ID 分類：
 
-[!UICONTROL Sample Key]: `em:JuneSale:20130601`
+範例金鑰： `em:JuneSale:20XX0601`
 
 您要分類的追蹤程式碼的部分為：
 
 * `em` = 電子郵件
 * `JuneSale` = 行銷活動名稱
-* `20130601` = 日期
+* `20XX0601` = 日期
 
-[!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
+規則運算式： `^(.+)\:(.+)\:(.+)$`
 
 規則運算式如何與促銷活動 ID 關聯：
 
 ![](assets/regex.png)
 
-[!UICONTROL 匹配群組]：顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。
+匹配群組：顯示規則運算式對應到促銷活動ID字元的情形，以便您能夠將促銷活動ID中的位置分類。
 
 ![](assets/regex_tracking_code.png)
 
-這個範例告訴規則，促銷活動日期 `20140601` 是在第三個群組 `(.+)`，以 `$3` 識別。
+這個範例告訴規則，促銷活動日期 `20XX0601` 是在第三個群組 `(.+)`，以 `$3` 識別。
 
 **[!UICONTROL 規則產生器]**
 
@@ -145,22 +133,22 @@ regex_classification_rules.xml
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
-| 規則運算式 | &Hat;(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
+| 規則運算式 | &amp;Hat;(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
 
 **語法**
 
 | 規則運算式 | 字串或匹配結果 | 對應的匹配群組 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20130601` | `$0`： `em:JuneSale:20130601` `$1`： em `$2`： JuneSale `$3`： 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`： `em:JuneSale:20XX0601` `$1`： em `$2`： JuneSale `$3`： 20XX0601 |
 | 建立語法 | `^` = 以該行開始 () = 將字元分組，並且讓您以括號擷取相符字元。`(.+)` = 擷取一個 ( .) 字元和 ( + ) 任何其他項目 \ = 字串的開始。`$` = 指示前面的字元 (或字元群組) 是行裡面最後一個。 |
 
-關於規則運算式中的字元代表意義的詳細資訊，請參閱[規則運算式 - 參考表格](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
+關於規則運算式中的字元代表意義的詳細資訊，請參閱[規則運算式 - 參考表格](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
 ## 規則運算式 - 將特定字元分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 使用規則運算式的一種方式，是將字元字串裡的特定字元分類。例如，假設以下追蹤程式碼包含兩個重要的字元：
 
-[!UICONTROL Sample Key]: `4s3234`
+範例金鑰： `4s3234`
 
 * `4` = 品牌名稱
 * `s` = 識別搜尋引擎，例如 Google
@@ -308,7 +296,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在這個程序中，您必須套用規則到一個或多個報告套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有超過100個規則，請考慮使用[子分類](/help/components/classifications/c-sub-classifications.md)來簡化規則集。
+>在這個程序中，您必須套用規則到一個或多個報告套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有超過100個規則，請考慮使用[子分類](/help/components/classifications/importer/subclassifications.md)來簡化規則集。
 
 若要新增或編輯分類規則：
 
@@ -403,7 +391,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. (選用) 若要覆寫分類，請啟用「&lt;*選取項目*> 的&#x200B;**[!UICONTROL 覆寫分類]**」。
+1.  (選用) 若要覆寫分類，請啟用「&lt;*選取項目*> 的&#x200B;**[!UICONTROL 覆寫分類]**」。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 

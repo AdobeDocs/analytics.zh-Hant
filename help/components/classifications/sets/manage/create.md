@@ -3,10 +3,10 @@ title: 建立分類集
 description: 建立分類設定時可用的欄位和說明。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 22%
+source-wordcount: '287'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 22%
 
 * **[!UICONTROL 名稱]**：用來識別分類集的文字欄位。 此欄位無法在建立時即進行編輯，但可稍後重新命名。
 * **[!UICONTROL 欄名稱]**：您要建立的第一個分類維度名稱。 此欄位是Analysis Workspace中使用的維度名稱，以及匯出分類資料時的欄名稱。 建立分類設定後，您可以新增更多欄名稱。
-* **[!UICONTROL 類型]**：指示分類類型的選項按鈕。通常會使用主要分類；查詢分類代表[子分類](../../c-sub-classifications.md)。
+* **[!UICONTROL 型別]**：指示分類型別的選項按鈕。
+   * **[!UICONTROL 主要]**：套用至Analytics中收集的維度。 這些維度值是分組（分類）精細維度值，使其成為更有意義的資料層級的方法。 例如，您可能會想要將內部搜尋關鍵字分組為內部搜尋類別，以便更清楚瞭解搜尋資料中的主題。
+   * **[!UICONTROL 查詢]**：通常稱為子分類或子分類，查詢表格是主要分類的分類。 這是有關分類值的中繼資料，而非原始維度。 例如，產品變數可能有「顏色代碼」的主要分類。 「色彩名稱」的查詢表可附加至「色彩代碼」，以進一步說明每個代碼的含義。
 * **[!UICONTROL 訂閱]**&#x200B;套用此分類集的報表套裝和維度。 您可以將多個報表套裝和維度組合新增至「分類設定」。
 
 ![建立「分類設定」](../../assets/classification-set-create.png)

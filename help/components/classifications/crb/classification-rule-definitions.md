@@ -3,18 +3,18 @@ description: 「分類規則產生器」裡頁面上之介面元素的定義。
 title: 分類規則 - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: '862'
+ht-degree: 94%
 
 ---
 
-# 分類規則 - 定義
+# 分類規則定義（舊版）
 
 「分類規則產生器」裡頁面上之介面元素的定義。
 
-## 規則頁面 {#section_4A5BF384EEEE4994B6DC888339833529}
+## 規則頁面
 
 這個頁面會顯示規則集裡的規則。
 
@@ -56,7 +56,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>回顧期間 </p> </td> 
-   <td colname="col2"> <p>當您啟動及驗證規則時，可以指定規則是否應該覆寫受影響之索引鍵的現有分類。(只有先前在您指定時段內所傳入的 <span class="keyword">Adobe Analytics</span> 已分類索引鍵會受到影響。) </p> <p>若您未指定<span class="term">回溯時段</span>，則規則會概略往回追溯一個月 (取決於當天為該月何日)。僅在啟用此選項時才會覆寫現有的分類。 </p> <p><b>開發中心</b>：合作夥伴可以在<span class="wintitle">開發中心</span>建立分類規則。當客戶啟動整合時就會部署這些規則。在<span class="wintitle">開發中心</span>中，「<span class="uicontrol">覆寫開始時間</span>」選項可讓合作夥伴指定在啟動或編輯整合時，客戶能否決定覆寫值。 </p> <p>請參閱<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >規則的處理方式</a>，取得規則處理的詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>當您啟動及驗證規則時，可以指定規則是否應該覆寫受影響之索引鍵的現有分類。(只有先前在您指定時段內所傳入的 <span class="keyword">Adobe Analytics</span> 已分類索引鍵會受到影響。) </p> <p>若您未指定<span class="term">回顧期間</span>，則規則會概略往回追溯一個月（取決於當天為該月何日）。 除非啟用此選項，否則不會覆寫現有的分類。 </p> <p><b>開發中心</b>：合作夥伴可以在<span class="wintitle">開發中心</span>建立分類規則。當客戶啟動整合時就會部署這些規則。在<span class="wintitle">開發中心</span>中，「<span class="uicontrol">覆寫開始時間</span>」選項可讓合作夥伴指定在啟動或編輯整合時，客戶能否決定覆寫值。 </p> <p>請參閱<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  >規則的處理方式</a>，取得規則處理的詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 新增規則 </a> </td> 
@@ -129,7 +129,7 @@ ht-degree: 98%
 | 匹配群組 | 顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。 |
 | 匹配結果 | 顯示字串中與規則運算式成功匹配的部分。 |
 
-請參閱分類規則[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)中的規則運算式。
+請參閱分類規則](/help/components/classifications/crb/classification-quickstart-rules.md)中的[規則運算式。
 
 ## 測試頁面 {#section_EC926F97901C4E65901413F9683AA70A}
 

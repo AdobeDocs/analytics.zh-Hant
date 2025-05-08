@@ -3,18 +3,18 @@ description: 如何透過 FTP 上傳資料檔案。
 title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 95767d10f63e20d5943fa95be3f2fe8f88e67e97
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '725'
 ht-degree: 90%
 
 ---
 
-# FTP 匯入
+# FTP匯入（舊版）
 
 >[!IMPORTANT]
 >
->我們不再建議使用FTP進行匯入，如本頁所述。
+>Adobe不再建議使用FTP進行匯入，如本頁所述。
 >
 >不建議使用FTP，因為這是共用檔案的未加密方法，這表示任何人都可以攔截檔案內容以及帳戶使用的使用者名稱和密碼。
 >

@@ -3,10 +3,10 @@ description: 設定即時報表的管理步驟。
 title: 即時報表設定
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-source-git-commit: f1dde3a475fe1276fd9abbe1bdafd6723701f2cb
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 77%
+source-wordcount: '211'
+ht-degree: 76%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 77%
    >[!NOTE]
    >
    >針對單一即時報表，目前不支援啟用重複維度，即使為每個維度選取了不同的分類亦同。
-
-   如需分類的詳細資訊，請參閱[關於分類](/help/components/classifications/c-classifications.md)。
 
    >[!NOTE]
    >

@@ -4,9 +4,9 @@ keywords: ftp;sftp
 title: 分類
 feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '450'
 ht-degree: 89%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 89%
 # 分類
 
 分類 FTP 選項對於上傳大型分類資料集可提供更大彈性，包括能夠將資料上傳至多個報表套裝，以及可以上傳超過 50,000 列的資料集。
-
-請參閱[分類](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=zh-Hant)，了解如何透過 FTP 下載分類資料以及如何透過 FTP 上傳資料檔案的步驟 (包括建立 FTP 帳戶的步驟)。
 
 系統匯入這些檔案的所需時間因許多因素而異。如果上傳的檔案在三天後仍存在 FTP 伺服器上，請與貴組織的受支援使用者合作，以聯絡 Adobe 客戶服務。
 

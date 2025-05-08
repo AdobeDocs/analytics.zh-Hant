@@ -3,14 +3,14 @@ description: (可選) 將分類匯入行銷報告之前，可以下載能幫助�
 title: 分類範本
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
-# 分類範本
+# 分類範本（舊版）
 
 (選用) 將分類匯入報表與專案之前，您可以下載範本來幫助您建立分類資料檔案。 該資料檔案會使用您所需的分類當做欄標題，然後將報告資料集組織在適當的分類標題下。
 
