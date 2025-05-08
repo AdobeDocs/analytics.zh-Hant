@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
