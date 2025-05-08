@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定，以及深�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
-source-wordcount: '3122'
-ht-degree: 99%
+source-wordcount: '3361'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理示範視訊的偏好設定](https://video.tv.adobe.com/v/3429993/?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理示範視訊的偏好設定](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -51,7 +51,22 @@ ht-degree: 99%
 | 顯示提示 | 在 Analysis Workspace 右下方區域的藍色框中顯示提示。 <p>此選項已預設啟用。</p> |
 | 左側邊欄群組中顯示的元件 | 在左側邊欄的「元件」選單中，選取每個元件的顯示數量。 <p>如果選擇 0，則無法再從工作區的左側邊欄存取元件。</p><p>根據預設，會針對下列各項顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。</p> |
 
-## 公司偏好設定
+## 公司偏好設定 {#company-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_shareonlyworkspace"
+>title="僅允許與 Workspace 使用者共用"
+>abstract="啟用後，在共用 Analysis Workspace 專案時，使用者將無法再使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。先前透過此共用選項獲得專案存取權的人員無法再存取該專案。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_requireexperiencecloudauth"
+>title="需要 Experience Cloud 驗證"
+>abstract="啟用後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項取得專案存取權的使用者，必須使用其Experience Cloud認證進行驗證。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_projectcommenting"
+>title="允許評論專案"
+>abstract="啟用後，Analysis Workspace 中每項專案的右側邊欄會顯示一個評論區域。"
 
 您可以更新套用於組織內所有使用者和專案的公司偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
@@ -61,11 +76,26 @@ ht-degree: 99%
 |  | 隱藏報告標籤 | 隱藏組織中所有使用者的「報告」標籤。 |
 | **專案共用** | | |
 | | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，組織中的使用者就無法在「共用」選單中看到「與任何人共用」選項。如[分享專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案。</p><p>啟用或停用此選項時，請考慮以下事項：</p> <ul><li><p>啟用此選項後，之前透過「與任何人共用」共用選項取得專案存取權限的人員，就無法再存取該專案。</p></li><li><p>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後加以停用 (允許與任何人共用)，則之前透過「與任何人共用」共用選項取得專案存取權限的人員，就不會自動重新取得對專案的存取權限。在這種情況下，如在[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，共用專案的使用者與任何人共用專案時，就必須啟用可用的「[!UICONTROL **連結使用中**]」選項 (「[!UICONTROL **共用**]」>「[!UICONTROL **與任何人共用**]」)。</p></li> |
-| | 需要 Experience Cloud 驗證 | <p>啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。</p> <p>啟用此選項後，每當使用者使用「與任何人共用」共用選項共用專案時，共用對話框就會啟用「需要 Experience Cloud 驗證」選項，且共用專案的使用者無法停用該選項。(如需有關使用者如何與任何人共用專案的資訊，請參閱[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。)</p> <p>啟用此選項時請考慮以下事項：</p><ul><li><p>啟用此選項後，之前透過「與任何人共用」共用選項共用，以及未啟用「需要 Experience Cloud 驗證」選項的所有專案，都會停用。</p></li> <li><p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後加以停用 (以允許擁有該連結的任何人存取該專案)，則之前透過「與任何人共用」共用選項取得專案存取權限的人員，不會自動重新取得他們對專案的存取權。在這種情況下，如[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「連結使用中」選項 (「[!UICONTROL **共用**]」>「[!UICONTROL **與任何人共用**]」>「[!UICONTROL **連結使用中**]」)。</p></li> <li><p>此選項僅在您的組織中實作 SSO 時才可使用。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}。</p><p>如果您的組織設定了 SSO，請檢查主控台是否實作了任何種類的自動帳戶建立。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html){target=_blank}中所述。</p></li><li><p>如果您的組織屬於必須遵守 HIPAA 合規性的產業，此選項就會自動啟用，且無法停用。</p></li></ul> |
+| | 需要 Experience Cloud 驗證 | <p>啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。</p> <p>啟用此選項後，每當使用者使用「與任何人共用」共用選項共用專案時，共用對話框就會啟用「需要 Experience Cloud 驗證」選項，且共用專案的使用者無法停用該選項。(如需有關使用者如何與任何人共用專案的資訊，請參閱[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。)</p> <p>啟用此選項時請考慮以下事項：</p><ul><li><p>啟用此選項後，之前透過「與任何人共用」共用選項共用，以及未啟用「需要 Experience Cloud 驗證」選項的所有專案，都會停用。</p></li> <li><p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後加以停用 (以允許擁有該連結的任何人存取該專案)，則之前透過「與任何人共用」共用選項取得專案存取權限的人員，不會自動重新取得他們對專案的存取權。在這種情況下，如[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「連結使用中」選項 (「[!UICONTROL **共用**]」>「[!UICONTROL **與任何人共用**]」>「[!UICONTROL **連結使用中**]」)。</p></li> <li><p>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html){target=_blank}中所述。</p></li><li><p>如果您的組織屬於必須遵守 HIPAA 合規性的產業，此選項就會自動啟用，且無法停用。</p></li></ul> |
 
 {style="table-layout:auto"}
 
-## 專案和分析偏好設定
+## 專案和分析偏好設定 {#project-analyses-preferences}
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_categoricalpalette"
+>title="分類調色盤"
+>abstract="適用於 Analysis Workspace 和引導式分析中的許多視覺效果。每種顏色代表不同的類別值。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_divergingpalette"
+>title="發散調色盤"
+>abstract="適用於 Analysis Workspace 和使用者增長引導分析中的同類群組表格。此調色盤具有數值含意，有兩個極端和中間的基準線。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_sequentialpalette"
+>title="序列調色盤"
+>abstract="適用於頻率趨勢 (堆疊條狀圖) 引導式分析。此調色盤具有從淺到深的數值含意。"
 
 您可以為在 Analysis Workspace 中建立的所有新專案自訂專案偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
@@ -87,9 +117,26 @@ ht-degree: 99%
 |  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 |  | 顯示註解 | 選取專案中是否顯示註解。如需註解的詳細資訊，請參閱[註解概觀](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
-## 自由形式表格偏好設定
+## 自由格式表格偏好設定 {#freeform-table-preferences}
 
-您可以為在 Analysis Workspace 中建立的所有新專案自訂自由形式表格偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showanomalies"
+>title="顯示異常狀況"
+>abstract="選取&#x200B;**[!UICONTROL 顯示異常狀況]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄執行異常偵測。"
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_showforecast"
+>title="顯示預測"
+>abstract="選取&#x200B;**[!UICONTROL 顯示預測]**&#x200B;將自動對新增至時間序列自由格式表格視覺效果的第一個量度欄進行預測。"
+
+
+>[!CONTEXTUALHELP]
+>id="workspace_prefs_defaulttablemetric"
+>title="預設表格量度"
+>abstract="選取用於自由格式表格的預設量度。如果所選取的資料視圖不包含所選取的預設量度，表格會自動切換到另一個主要量度。"
+
+
+您可以為在 Analysis Workspace 中建立的所有新專案自訂自由格式表格偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 也可為個別表格自訂其中一些相同偏好設定。
 
@@ -132,7 +179,7 @@ ht-degree: 99%
 | | 百分比 | 以百分比顯示所有視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏所有視覺效果的詳細圖例文字。 |
 | | 限制項目數量上限 | 減少所有視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
-| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
+| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時，可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 | | 允許異常縮放 Y 軸 | 如果圖表中有多個量度，您必須將滑鼠移到每個異常值上方，才能查看該量度的信賴帶。為了讓視覺效果更清晰，異常偵測信賴區間不會自動縮放 Y 軸。此選項可讓信賴區間縮放視覺效果。 <p>如需詳細資訊，請參閱[在 Analysis Workspace 中檢視異常](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)。</p> |
@@ -140,7 +187,7 @@ ht-degree: 99%
 | | 百分比 | 以百分比顯示線條視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏線條視覺效果的詳細圖例文字。 |
 | | 限制項目數量上限 | 減少線條視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
-| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
+| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時，可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | | 顯示 x 軸 | 在折線圖上顯示 x 軸。 |
 | | 顯示 y 軸 | 在折線圖上顯示 y 軸。 |

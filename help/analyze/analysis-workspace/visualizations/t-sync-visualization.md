@@ -5,19 +5,30 @@ title: 管理視覺效果資料來源
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: b44f40467fb4bd1c2f12c0ac99e0a0aa5479f2c9
+source-git-commit: 41ac4a97019e8192c96f3cdb141dad3d5db18d12
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 96%
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
 # 管理視覺效果資料來源 {#manage-visualization-data-sources}
 
 >[!CONTEXTUALHELP]
->id="workspace_datasource_lock_selection"
+>id="workspace_freeformtable_lockselection"
 >title="鎖定選取項目"
->abstract="啟用此設定可將視覺效果鎖定至表格位置或資料來源中選取的確切專案。"
+>abstract="啟用此設定，即可將視覺效果鎖定在資料來源中所選的位置或所選的項目。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="workspace_freeformtable_lockselection_showtable"
+>title="顯示表格"
+>abstract="選取「**[!UICONTROL 顯示表格]**」將為您目前的視覺效果產生新的資料來源，並將其與原始資料來源分開。"
+
+<!-- markdownlint-enable MD034 -->
 
 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
 

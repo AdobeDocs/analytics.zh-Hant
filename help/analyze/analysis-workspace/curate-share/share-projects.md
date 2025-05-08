@@ -5,14 +5,21 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8ce8d6fefdd2e3d4b11d527cc31f8a2fdf768e79
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 97%
+source-wordcount: '1953'
+ht-degree: 98%
 
 ---
 
-# 共用專案
+# 共用專案 {#share-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_shareprojects"
+>title="共用專案"
+>abstract="您可以與組織中的其他使用者共用這些專案角色中的任一個。"
+
+
 
 您可以與以下類型的人員共用 Analysis Workspace 專案：
 
@@ -84,7 +91,7 @@ ht-degree: 97%
 
 1. 在提供的其中一個角色欄位中新增收件者或收件者群組：
 
-   **編輯原始項目：**&#x200B;收件者可以&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同擁有者的身分操作。如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。<br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。如果同時儲存專案，將會保留最後一個版本。
+   **編輯原始項目：**&#x200B;收件者可以&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同所有者的身分操作。如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。<br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。如果同時儲存專案，將會保留最後一個版本。
 
    **複製副本：**&#x200B;收件者可以&#x200B;**[!UICONTROL 另存新檔]**，且擁有左側邊欄的存取權。此角色的專案互動不受限制。如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。
 
@@ -92,7 +99,7 @@ ht-degree: 97%
 
 1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
-   * **共用內嵌的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式清單中。系統不會沿用此設定，此動作僅在單次共用中有效。
+   * **共用嵌入的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式清單中。系統不會沿用此設定，此動作僅在單次共用中有效。
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。系統不會沿用此設定，此動作僅在單次共用中有效。
 
@@ -100,7 +107,7 @@ ht-degree: 97%
 
    或
 
-   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。（如果專案已共用，請選取&#x200B;**[!UICONTROL 組織與更新]**。）深入瞭解[專案組織](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
+   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已共用，選取「**[!UICONTROL 監管與更新]**」)。了解更多有關[專案監管](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
 
 ## 共用專案的連結
 
@@ -108,7 +115,7 @@ ht-degree: 97%
 
 * 使用該連結的收件者須先登入 Adobe Analytics，然後才能存取該專案。
 
-* 如果收件者未獲指派角色，且獲得專案的[連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)，則根據預設，他們會獲得角色。管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
+* 如果收件者未獲指派角色，且獲得專案的[連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)，則根據預設，他們會獲得角色。管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
 
 若要與組織中的使用者共用專案連結：
 
@@ -145,7 +152,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3452476?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -194,9 +201,9 @@ ht-degree: 97%
 
 當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。例如，該連結可能已在電子郵件、內部網站等中提供。
 
-## 共用內嵌元件
+## 共用嵌入元件
 
-您可以共用屬於專案一部分的內嵌元件。
+您可以共用專案所屬的嵌入元件。
 
 >[!BEGINSHADEBOX]
 

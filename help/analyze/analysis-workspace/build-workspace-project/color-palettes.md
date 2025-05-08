@@ -4,14 +4,19 @@ title: 視覺化調色盤是什麼以及如何運作？
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 434b296825806616288127bb2d3e73e1f9531f95
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '238'
 ht-degree: 88%
 
 ---
 
-# 視覺化調色盤
+# 視覺化調色盤 {#visualization-color-palettes}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_colorpalette"
+>title="專案調色盤"
+>abstract="變更在此專案中使用的調色盤。"
 
 您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。 此功能會影響工作區中大部分的視覺效果，但&#x200B;**不會**&#x200B;影響[!UICONTROL 摘要變更]、[!UICONTROL 自由格式]表格中的條件式格式及[!UICONTROL 地圖]視覺效果。
 

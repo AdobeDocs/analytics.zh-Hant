@@ -4,14 +4,19 @@ title: 儲存專案
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: c368ff6c4ac1636a4d1d910b9f1738ff8208fe0a
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '749'
 ht-degree: 97%
 
 ---
 
-# 儲存專案
+# 儲存專案 {#save-projects}
+
+>[!CONTEXTUALHELP]
+>id="workspace_project_addnotes"
+>title="新增註釋"
+>abstract="新增有關正在儲存之專案目版本的註釋。這些註釋將與版本一起儲存，並可在「**[!UICONTROL 專案]** > **[!UICONTROL 開啟先前版本]**」選單下存取。"
 
 Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。
 

@@ -3,8 +3,8 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
+workflow-type: tm+mt
 source-wordcount: '2063'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="建立客群"
->abstract="客群可以透過篩選器建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>abstract="客群可以透過區段建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此篩選器的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此區段的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 <!-- markdownlint-enable MD034 -->
 
