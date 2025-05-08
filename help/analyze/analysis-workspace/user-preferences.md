@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理示範視訊的偏好設定](https://video.tv.adobe.com/v/3429993/?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理示範視訊的偏好設定](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
