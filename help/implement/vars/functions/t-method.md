@@ -4,9 +4,9 @@ description: 傳送頁面瀏覽數追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e47bee837faf9b8cf080d878da860795ced014d5
+source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '451'
 ht-degree: 56%
 
 ---
@@ -37,7 +37,7 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 
 Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參數。接下來，資料收集伺服器會傳回透明的 1x1 像素影像，利用不可見的方式顯示在您的網站上。
 
-## 使用Web SDK擴充功能傳送事件
+## 使用網頁SDK擴充功能傳送事件
 
 使用動作來設定傳送XDM事件資料至Adobe。 資料流會接收此資料、套用任何已設定的對應，然後將該資料轉送至Adobe Analytics （如果它是該資料流的新增服務）。
 
@@ -47,9 +47,9 @@ Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參�
 1. 在[!UICONTROL 動作]底下，按一下所需的動作或按一下&#x200B;**&#39;+&#39;**&#x200B;圖示以新增動作。
 1. 將[!UICONTROL 擴充功能]下拉式清單設定為&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**，並將[!UICONTROL 動作型別]設定為&#x200B;**[!UICONTROL 傳送事件]**。
 
-## 手動傳送事件以實作Web SDK
+## 手動傳送事件以實作網頁SDK
 
-使用`sendEvent`命令傳送資料給Adobe。 資料流會接收此資料、套用任何已設定的對應，然後將該資料轉送至Adobe Analytics （如果它是該資料流的新增服務）。
+使用`sendEvent`命令將資料傳送至Adobe。 資料流會接收此資料、套用任何已設定的對應，然後將該資料轉送至Adobe Analytics （如果它是該資料流的新增服務）。
 
 ```js
 alloy("sendEvent", {
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-如需詳細資訊，請參閱Web SDK檔案中的[追蹤事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant)。
+如需詳細資訊，請參閱網頁SDK檔案中的[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)。
 
 ## 使用Adobe Analytics擴充功能的頁面檢視追蹤呼叫
 
