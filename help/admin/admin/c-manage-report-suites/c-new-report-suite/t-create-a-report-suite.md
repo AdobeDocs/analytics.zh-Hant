@@ -3,16 +3,16 @@ description: 在 Adobe Analytics 中建立資料收集的基本容器
 title: 建立報告套裝
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
 # 建立報告套裝
 
-報告套裝是 Adobe Analytics 用來提取報告的獨立資料單位。組織可以有許多報告套裝，每個報告套裝都包含不同的資料集。雖然過去使用者較重視個別產生報告，但如今使用單一報告套裝已變得更具優勢了。[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant#virtual-report-suites)和報告時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
+報告套裝是 Adobe Analytics 用來提取報告的獨立資料單位。組織可以有許多報告套裝，每個報告套裝都包含不同的資料集。雖然過去使用者較重視個別產生報告，但如今使用單一報告套裝已變得更具優勢了。[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html#virtual-report-suites)和報告時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
 
 本文的適用對象為系統層級管理員或 Adobe Analytics 管理員，目的在方便這些人員準備資料收集。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 ## 建立報告套裝 {#create-report-suite}
 
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]**。
-1. 按一下&#x200B;**[!UICONTROL 「新增]** > **[!UICONTROL 報告套裝」]**。
+1. 按一下&#x200B;**[!UICONTROL 新增報表套裝]**。
 1. 選取預先定義的範本或現有的報告套裝，以當成[範本](/help/admin/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)使用。
 
    >[!NOTE]

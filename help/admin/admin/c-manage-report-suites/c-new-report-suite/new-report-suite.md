@@ -4,10 +4,10 @@ title: 新的報告套裝 - 設定
 feature: Report Suite Settings
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: 8c0e88a22928d79599ab0a0ad3efc8159712d739
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '535'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 | 上線日期 | 通知 Adobe 您要讓此報告套裝開始生效的日期。如果您的部署計劃變更，請使用「流量管理」下的「永久性預期流量」工具，提供更新的流量估計值。 |
 | 預計的每日頁面檢視次數 | 識別您預期此報告套裝在一天內可支援的頁面檢視預估次數。大流量將需要更長的批準過程。若想避免處理延遲，此項估計請盡量準確。 |
 | 基本貨幣 | 指定用來儲存所有貨幣資料的預設貨幣。Analytics 報告會使用它收到資料時的轉換率，將其他貨幣的交易換算為基本貨幣。Analytics 報告使用 currencyCode JavaScript 變數來識別交易所用的貨幣。 |
-| 停用多位元組字元支援 | 停用報告套裝的多位元組字元支援。若您停用多位元組字元支援，系統會假設資料採用 `ISO-8859-1` 格式。網頁必須在 charSet JavaScript 變數中指定其字元集。 <p>多位元組字元支援可使用 UTF-8 儲存報告套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。聯絡您的 Adobe 帳戶團隊或客戶服務，以變更現有報告套裝的多位元組字元支援。 |
+| 啟用日文關鍵字處理 | 啟用報表套裝的多位元組字元支援。 若您停用多位元組字元支援，系統會假設資料採用 `ISO-8859-1` 格式。網頁必須在 charSet JavaScript 變數中指定其字元集。 <p>多位元組字元支援可使用 UTF-8 儲存報告套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。聯絡您的 Adobe 帳戶團隊或客戶服務，以變更現有報告套裝的多位元組字元支援。 |
+| 使用簡化的導覽功能表 | 此功能是[Reports &amp; Analytics](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?)的一部分，已不再支援。 |
 
 {style="table-layout:auto"}
