@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 您可以透過下列方式使用文字視覺效果：
 
-1. 新增![文字](/help/assets/icons/Text.svg) **[!UICONTROL 文字]** 視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
+1. 新增 ![文字](/help/assets/icons/Text.svg) **[!UICONTROL 文字]**&#x200B;視覺效果。請參閱「[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」。
 
 1. 在面板或視覺效果中，從內容選單中選取「**[!UICONTROL 編輯說明]**」。
 
@@ -50,12 +50,16 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 ## 新增超連結 {#hyperlinks}
 
-若要新增超鏈接，請醒目顯示文字並在選單中選取「![連結](/help/assets/icons/Link.svg)」。您可以使用超連結提供專案收件者進一步協助。超連結可以連結至外部網站、文件頁面、[Workspace 專案、面板或視覺效果](/help/analyze/analysis-workspace/curate-share/shareable-links.md)等。
+若要新增超連結，請醒目顯示文字並在選單中選取「![連結](/help/assets/icons/Link.svg)」。您可以使用超連結提供專案收件者進一步協助。超連結可以連結至外部網站、文件頁面、[Workspace 專案、面板或視覺效果](/help/analyze/analysis-workspace/curate-share/shareable-links.md)等。
 
 ![帶有醒目提示連結圖示的文字選項。](assets/hyperlink.png)
 
 ## 新增影像 {#images}
 
-若要新增影像至您的專案，請選取選單中的「![影像](/help/assets/icons/Image.svg)」並插入公開的影像 URL。影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+若要新增影像至專案，請在功能表中選取![影像](/help/assets/icons/Image.svg)，然後在&#x200B;**[!UICONTROL 影像URL]** （例如`https://www.adobe.com/uploads/2018/06/Adobe.png`）中指定影像URL，然後選取&#x200B;**[!UICONTROL 儲存]**。
+
+影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+
+請注意，不支援拖放式插入影像。
 
 ![已選取帶有影像圖示的文字選項。](assets/image.png)
