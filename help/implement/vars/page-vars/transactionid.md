@@ -4,9 +4,9 @@ description: 此變數可用來將線上和離線資料連結在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 43035967e8ccbb35700b7ad3e893282ade310acd
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '404'
 ht-degree: 89%
 
 ---
@@ -27,7 +27,7 @@ Adobe最多可記住25個月的所有交易ID值（連結和未連結）。
 
 交易ID會對應至下列變數：
 
-* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.payments[0].transactionID`
+* [XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)： `xdm.commerce.order.payments[3].transactionID`或`xdm.commerce.order.payments.transactionID`
 * [資料物件](/help/implement/aep-edge/data-var-mapping.md)： `data.__adobe.analytics.transactionID`或`data.__adobe.analytics.xact`
 
 ## 使用 Adobe Analytics 擴充功能的交易 ID
