@@ -3,45 +3,49 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 0bd4075a15edeeccdd9db8a70a1e871f9fc5af20
+source-git-commit: 9c6da2c1ed5bc2c016da16a5bb821f0064e1ae4f
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 99%
+source-wordcount: '689'
+ht-degree: 61%
 
 ---
 
-# 最新 Adobe Analytics 版本注意事項 (2025 年 4 月發布)
+# 最新Adobe Analytics發行說明（2025年5月發行）
 
-**上次更新日期**：2025 年 4 月 16 日
+**上次更新日期**：2025年5月14日
 
-這些發行說明涵蓋 2025 年 3 月 26 日至 5 月的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2025年4月xx日至6月18日的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analytics 庫存** | Analytics 庫存提供您的 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。藉由將庫存流程自動化，您可以快速了解從 Adobe Analytics 切換至 Customer Journey Analytics 所需的工作量。這會讓轉變的過程更加容易且快速。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-tools/analytics-inventory) |  | 2025 年 3 月 26 日 |
-| **Data Warehouse 專用維度** | 根據客戶回饋，我們決定重新評估。我們不會發佈先前宣布的自動 Data Warehouse 專用維度功能。 | | 待定 |
+| **Analysis Workspace左側面板在暫留時不再開啟和關閉** | Analysis Workspace中的左側面板可新增元件、面板和視覺效果等至您的專案。 將游標移至最左側的其中一個圖示上，以暫時開啟左側面板的選項已無法使用。 相反地，只要按一下這些圖示之一來保持面板開啟，然後按一下相同的圖示來關閉它即可。 |  | 2025年5月29日 |
+
 
 ## Adobe Analytics 中的修正
 
-**A4T**：AN-370625； AN-371279； AN-371351
-**管理工具**：AN-365072； AN-371303
-**Analysis Workspace**：AN-363831； AN-369554
-**分類**：AN-370519； AN-370727； AN-370827； AN-370941； AN-370995； AN-371377； AN-371597； AN-371868； AN-371869； AN-372510； AN-372650； AN-373164； AN-373300； AN-373308； AN-373592
-**資料收集**：AN-371877
-**資料摘要**：AN-368676； AN-370225； AN-370514； AN-370521； AN-370687； AN-370761； AN-370911； AN-371047； AN-371542； AN-371627； AN-371746； AN-372708； AN-373068； AN-373179
-**Data Warehouse**：AN-366649； AN-369817； AN-370705； AN-371127； AN-371995； AN-372596； AN-372940
-**行銷管道**：AN-372308
-**行動應用程式**：AN-370287； AN-371335； AN-371374
-**平台**：AN-369510； AN-370435； AN-372150
-**Report Builder**：AN-369830； AN-371395； AN-372983
+**警報**： AN-378351
+**Analysis Workspace**： AN-363521、AN-367366、AN-373575、AN-374238、AN-374295、AN-374382、AN-376938、AN-377176、AN-377467、AN-377942
+**資產轉移**： AN-373381
+**分類**： AN-373166； AN-373479； AN-376074； AN-377337； AN-377505
+**元件**： AN-314468
+**資料摘要**： AN-370241； AN-375267； AN-376940
+**資料來源**： AN-375259
+**Data Warehouse**： AN-370415； AN-372090；
+**平台**： AN-365681； AN-372306； AN-372616；
+**即時報告**： AN-365681
+**Report Builder**： AN-371395
+**分段**： AN-373576； AN-375858
+**虛擬報告套裝**： AN-377948； AN-377952
+**Vista規則**： AN-373292
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 不適用 |  |  |
+| **Analysis Workspace左側面板在暫留時不再開啟和關閉** | Analysis Workspace中的左側面板可新增元件、面板和視覺效果等至您的專案。 將游標移至最左側的其中一個圖示上，以暫時開啟左側面板的選項已無法使用。 相反地，只要按一下這些圖示之一來保持面板開啟，然後按一下相同的圖示來關閉它即可。 |  | 2025年5月29日 |
+
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
 
@@ -60,6 +64,6 @@ ht-degree: 99%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
