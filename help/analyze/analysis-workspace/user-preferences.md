@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理示範視訊的偏好設定](https://video.tv.adobe.com/v/3429993/?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ ht-degree: 98%
 |  | 隱藏報告標籤 | 隱藏組織中所有使用者的「報告」標籤。 |
 | **專案共用** | | |
 | | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，組織中的使用者就無法在「共用」選單中看到「與任何人共用」選項。如[分享專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，這表示使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案。</p><p>啟用或停用此選項時，請考慮以下事項：</p> <ul><li><p>啟用此選項後，之前透過「與任何人共用」共用選項取得專案存取權限的人員，就無法再存取該專案。</p></li><li><p>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後加以停用 (允許與任何人共用)，則之前透過「與任何人共用」共用選項取得專案存取權限的人員，就不會自動重新取得對專案的存取權限。在這種情況下，如在[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，共用專案的使用者與任何人共用專案時，就必須啟用可用的「[!UICONTROL **連結使用中**]」選項 (「[!UICONTROL **共用**]」>「[!UICONTROL **與任何人共用**]」)。</p></li> |
-| | 需要 Experience Cloud 驗證 | <p>啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。</p> <p>啟用此選項後，每當使用者使用「與任何人共用」共用選項共用專案時，共用對話框就會啟用「需要 Experience Cloud 驗證」選項，且共用專案的使用者無法停用該選項。(如需有關使用者如何與任何人共用專案的資訊，請參閱[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。)</p> <p>啟用此選項時請考慮以下事項：</p><ul><li><p>啟用此選項後，之前透過「與任何人共用」共用選項共用，以及未啟用「需要 Experience Cloud 驗證」選項的所有專案，都會停用。</p></li> <li><p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後加以停用 (以允許擁有該連結的任何人存取該專案)，則之前透過「與任何人共用」共用選項取得專案存取權限的人員，不會自動重新取得他們對專案的存取權。在這種情況下，如[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「連結使用中」選項 (「[!UICONTROL **共用**]」>「[!UICONTROL **與任何人共用**]」>「[!UICONTROL **連結使用中**]」)。</p></li> <li><p>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html){target=_blank}中所述。</p></li><li><p>如果您的組織屬於必須遵守 HIPAA 合規性的產業，此選項就會自動啟用，且無法停用。</p></li></ul> |
+| | 需要 Experience Cloud 驗證 | <p>啟用後，透過 Analysis Workspace 中的「與任何人共用」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。</p> <p>啟用此選項後，每當使用者使用「與任何人共用」共用選項共用專案時，共用對話框就會啟用「需要 Experience Cloud 驗證」選項，且共用專案的使用者無法停用該選項。(如需有關使用者如何與任何人共用專案的資訊，請參閱[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)中的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。)</p> <p>啟用此選項時請考慮以下事項：</p><ul><li><p>啟用此選項後，之前透過「與任何人共用」共用選項共用，以及未啟用「需要 Experience Cloud 驗證」選項的所有專案，都會停用。</p></li> <li><p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後加以停用 (以允許擁有該連結的任何人存取該專案)，則之前透過「與任何人共用」共用選項取得專案存取權限的人員，不會自動重新取得他們對專案的存取權。在這種情況下，如[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「連結使用中」選項 (「[!UICONTROL **共用**]」>「[!UICONTROL **與任何人共用**]」>「[!UICONTROL **連結使用中**]」)。</p></li> <li><p>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html){target=_blank}中所述。</p></li><li><p>如果您的組織屬於必須遵守 HIPAA 合規性的產業，則此選項會自動啟用，且無法停用。</p></li></ul> |
 
 {style="table-layout:auto"}
 
