@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
 source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 98%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
 + Analytics 變數、函數和方法  {#vars}
    + [概觀](vars/overview.md)
    + 設定變數 {#config-vars}
-      + [設定變數總覽](vars/config-vars/configuration-variables.md)
+      + [設定變數概觀](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
@@ -57,7 +57,7 @@ ht-degree: 98%
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + 頁面變數 {#page-vars}
-      + [頁面變數總覽](vars/page-vars/page-variables.md)
+      + [頁面變數概觀](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -65,7 +65,7 @@ ht-degree: 98%
       + [eVar](vars/page-vars/evar.md)
       + [eVar (銷售)](vars/page-vars/evar-merchandising.md)
       + events {#events}
-         + [事件總覽](vars/page-vars/events/events-overview.md)
+         + [事件概觀](vars/page-vars/events/events-overview.md)
          + [購買事件](vars/page-vars/events/event-purchase.md)
          + [事件序列化](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
@@ -84,7 +84,7 @@ ht-degree: 98%
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + 函數與方法 {#functions}
-      + [函數總覽](vars/functions/overview.md)
+      + [函數概觀](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
       + [t](vars/functions/t-method.md)
       + [tl](vars/functions/tl-method.md)
@@ -102,7 +102,7 @@ ht-degree: 98%
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
    + 外掛程式 {#plugins}
-      + [外掛程式總覽](vars/plugins/impl-plugins.md)
+      + [外掛程式概觀](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
       + [apl](vars/plugins/apl.md)
@@ -139,41 +139,41 @@ ht-degree: 98%
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
 + 使用 Experience Platform Edge 實作 Analytics {#aep-edge}
-   + [Experience Edge 總覽](aep-edge/overview.md)
+   + [Experience Edge 概觀](aep-edge/overview.md)
    + [資料物件變數對應](aep-edge/data-var-mapping.md)
    + [XDM 物件變數對應](aep-edge/xdm-var-mapping.md)
    + Web SDK {#web-sdk}
-      + [Web SDK 總覽](aep-edge/web-sdk/overview.md)
+      + [Web SDK 概觀](aep-edge/web-sdk/overview.md)
       + [使用標記移轉至 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
       + [使用 JavaScript 移轉至 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
       + [使用標記的全新實作](aep-edge/web-sdk/web-sdk-tag-extension.md)
       + [使用 JavaScript 的全新實作](aep-edge/web-sdk/web-sdk-javascript-library.md)
    + Mobile SDK {#mobile-sdk}
-      + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
-   + EDGE NETWORK API {#api}
-      + [Edge Network API總覽](aep-edge/api/overview.md)
+      + [Mobile SDK 概觀](aep-edge/mobile-sdk/overview.md)
+   + Edge Network API {#api}
+      + [Edge Network API 概觀](aep-edge/api/overview.md)
 + 使用 Adobe Analytics 擴充功能實作 Analytics {#launch}
-   + [標記總覽](launch/overview.md)
+   + [標記概觀](launch/overview.md)
    + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
    + [將標記資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 使用 JavaScript 實作 Analytics {#js}
-   + [JavaScript 總覽](js/overview.md)
+   + [JavaScript 概觀](js/overview.md)
    + [實作選擇退出連結](js/opt-out.md)
    + [變數覆寫](js/overrides.md)
    + [從 H 程式碼移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}
-      + [H 程式碼總覽](js/h-code/overview.md)
+      + [H 程式碼概觀](js/h-code/overview.md)
       + 動態帳戶  {#dynamicaccount}
-         + [動態帳戶總覽](js/h-code/dynamicaccount/overview.md)
+         + [動態帳戶概觀](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [疑難排解 H 程式碼](js/h-code/troubleshooting.md)
    + 舊版跨裝置識別  {#xdevice-visid}
-      + [跨裝置連結使用者總覽](js/xdevice-visid/xdevice-connecting.md)
+      + [跨裝置連結使用者概觀](js/xdevice-visid/xdevice-connecting.md)
       + [變數持續性](js/xdevice-visid/variable-persistence.md)
       + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)

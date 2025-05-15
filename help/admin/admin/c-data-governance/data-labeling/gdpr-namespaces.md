@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
 source-git-commit: 79f650a7168e0cc44194445f3164a3f981e39a91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
 * 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
 
-請參閱[Experience Cloud資料隱私權API檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)，以取得更多詳細資訊和標準身分識別名稱空間[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix#standard-namespaces)的清單。 請參閱範例要求的[建立存取/刪除工作](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/privacy-jobs#access-delete)。
+請參閱 [Experience Cloud 資料隱私權 API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)，以了解更多詳細資訊和[標準身分命名空間清單](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix#standard-namespaces)。請參閱[建立存取/刪除工作](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/privacy-jobs#access-delete)，以取得範例請求。
 
 ## Cookie ID
 
@@ -114,6 +114,6 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->已保留名稱空間`visitorId`和`customVisitorId`，以識別Analytics舊版追蹤Cookie和Analytics客戶的訪客ID。 請勿將這些命名空間用於自訂流量或轉換變數。
+>系統會保留命名空間「`visitorId`」和「`customVisitorId`」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
 如需詳細資訊，請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md)。

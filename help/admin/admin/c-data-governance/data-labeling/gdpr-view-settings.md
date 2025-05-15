@@ -1,19 +1,19 @@
 ---
-description: 「資料控管的隱私標籤」對話框概述了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。
+description: 「資料控管的隱私標籤」對話框概觀了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。
 title: 檢視/管理資料控管隱私標籤
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 檢視/管理資料控管隱私標籤
 
-「**[!UICONTROL 資料規範的隱私標籤]**」對話框概述了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。
+「**[!UICONTROL 資料規範的隱私標籤]**」對話框概觀了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。
 
 ## 檢視隱私權標籤 {#view-privacy}
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 
    >[!NOTE]
    >
-   >如果您沒有看到此功能表專案，則需要將您新增至具有此功能許可權的Admin Console[&#128279;](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)中的產品設定檔，或您已獲得Admin Console中報表套裝的存取權。
+   >如果並未看到此選單項目，則需要將您新增至 [Admin Console 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)，並提供您使用此功能的權限，或是已提供在 Admin Console 中報告套裝的存取權。
 
 3. 在右上角，選擇您要檢視或管理其隱私權標籤的報表套裝。
 
@@ -31,16 +31,16 @@ ht-degree: 94%
 | 設定 | 說明 |
 | --- | --- |
 | **[!UICONTROL 元件名稱]** | 此欄會列出屬於此報表套裝的所有元件 (維度、量度)。 |
-| **[!UICONTROL 身分]** | 身分資料「I」標籤可用來分類可識別身分或聯絡特定人員的資料。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hant#data-privacy-identity-labels) |
-| **[!UICONTROL 敏感度]** | 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hant#sensitive-data-labels) |
-| **[!UICONTROL GDPR 存取]** | 資料控管標籤讓使用者能夠分類資料，這些資料會反映隱私權相關考量事項，以及遵循法規和公司政策的合約條件。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hant#data-privacy-access-labels) |
-| **[!UICONTROL GDPR 刪除]** | 只有在欄位包含允許點擊與資料主體建立關聯的值時 (亦即允許辨識資料主體的身分)，才需要使用刪除標籤。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hant#data-privacy-delete-labels) |
-| **[!UICONTROL 命名空間]** | 當您將變數標示為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。您可以使用先前定義的命名空間或定義新的命名空間。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hant#provide-namespace) |
+| **[!UICONTROL 身分識別]** | 身分識別資料「I」標籤可用來分類可身分識別身分識別或聯絡特定人員的資料。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-identity-labels) |
+| **[!UICONTROL 敏感度]** | 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#sensitive-data-labels) |
+| **[!UICONTROL GDPR 存取]** | 資料控管標籤讓使用者能夠分類資料，這些資料會反映隱私權相關考量事項，以及遵循法規和公司政策的合約條件。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 刪除]** | 只有在欄位包含允許點擊與資料主體建立關聯的值時 (亦即允許辨識資料主體的身分)，才需要使用刪除標籤。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#data-privacy-delete-labels) |
+| **[!UICONTROL 命名空間]** | 當您將變數標示為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。您可以使用先前定義的命名空間或定義新的命名空間。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html#provide-namespace) |
 | **[!UICONTROL 類別]** | 參考元件類型，如標準元件、轉換變數等。 |
 
 {style="table-layout:auto"}
 
-## 將隱私權標籤複製到報表套裝  {#copy-to-rs}
+## 將隱私權標籤複製到報告套裝  {#copy-to-rs}
 
 若您想將相同的資料隱私權設定套用至多個報表套裝，請依照以下步驟操作：
 

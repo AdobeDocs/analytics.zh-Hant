@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -29,23 +29,23 @@ ht-degree: 87%
 
 ## Adobe 如何處理 CCPA 資料
 
-Adobe Experience Cloud提供整合式解決方案，可連線您品牌的資料控管基礎架構，與用來建立和管理消費者體驗的Adobe工具。 Adobe Experience Cloud的資料控管功能可將資料控管原則與資料使用直接連結。
+Adobe Experience Cloud 提供整合式解決方案，可將品牌的資料治理基礎結構連接其用於建立和管理消費者體驗的 Adobe 工具。Adobe Experience Cloud 的資料治理功能，可啟用資料治理原則和資料使用情況之間的直接關聯。
 
-請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解隱私權整備步驟，以及如何與 Adobe Experience Cloud 隱私權服務 API 整合。
+請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解隱私權整備步驟，以及如何與 Adobe Experience Cloud 隱私權服務 API 整合。
 
 ## CCPA 整備與您的 Adobe Analytics 資料
 
 Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
 
-如需如何設定標籤的詳細資訊，請參閱[標籤報表套裝資料](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)。
+請參閱[標籤報告套裝資料](/help/admin/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md)，以了解如何設定標籤的詳細資訊。
 
 ## 先決條件
 
 * 熟悉 [GDPR 術語](/help/admin/c-data-governance/gdpr-terminology.md)。
-* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant)。
+* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 CCPA 刪除與存取請求。
 
-  若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡您的Adobe客戶團隊，以設定您的資料保留時間。
+  若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡 Adobe 帳戶團隊，以設定資料保留期。
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
-* 請考慮實施[「同意管理變數」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)以追蹤點擊層級的同意狀態。
+* 請考慮實作[「同意管理變數」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)以追蹤點擊層級的同意狀態。

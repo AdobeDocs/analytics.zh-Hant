@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 98%
 
 為確保高階主管使用者能存取您在應用程式上的計分卡，請確定：
 
-* 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
-* 使用者處於Adobe Analytics的有效登入狀態。
+* 其裝置的最低行動作業系統需求為 iOS 10 (含) 以上版本，或 Android 4.4 (KitKat) (含) 以上版本
+* 使用者處於 Adobe Analytics 的有效登入狀態。
 * 您已為使用者正確建立行動計分卡，並和他們共用這些計分卡。
-* 使用者可存取計分卡中的元件。請注意，您可在共用計分卡時選取&#x200B;**[!UICONTROL 共用內嵌元件]**&#x200B;的選項。
+* 使用者可存取計分卡中的元件。請注意，您可在共用計分卡時選取&#x200B;**[!UICONTROL 共用嵌入元件]**&#x200B;的選項。
 
 ## 協助高階主管下載和安裝應用程式
 

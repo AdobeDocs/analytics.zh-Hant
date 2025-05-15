@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '550'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -37,25 +37,25 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 不建議將 Analysis Workspace 用於大量資料匯出。它是視覺效果 Workspace，用於建立類似控制面板的分析專案。
 +++
 
-+++如何最佳化Analysis Workspace的效能？
++++ 如何最佳化 Analysis Workspace 的效能？
 
 請參閱[效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。
 
 +++
 
-+++資料如何進入您的Analysis Workspace專案？
++++ 資料如何進入您的 Analysis Workspace 專案？
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料到Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}。
-
-+++
-
-+++如何追蹤Workspace使用情況？
-
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [記錄檔追蹤](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料進入 Analysis Workspace 概觀](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}的示範影片。
 
 +++
 
-+++我將量度拖曳到專案後，系統顯示「資料無效」。如何解決此問題？
++++ 如何追蹤 Workspace 使用情況？
+
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [記錄追蹤](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}的示範影片。
+
++++
+
++++ 我將量度拖曳至專案後，系統顯示「資料無效」。如何解決此問題？
 
 資料無效代表 Adobe 無法運用報表中使用的維度和量度組合傳回資料。舉例來說，將兩個量度彼此堆疊在一起就無法傳回資料，因為系統無法以這種方式顯示兩個量度。因此，請改為並排放置量度。
 
@@ -73,6 +73,6 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 
 +++
 
-+++身為唯讀使用者，我可以在Analysis Workspace中執行哪些動作？
-將專案共用為唯讀時，所有編輯功能和功能都會完全停用，收件者只能變更下拉式選單，以預先定義的方式將篩選器套用至面板。
++++ 作為唯讀使用者，我可以在 Analysis Workspace 中執行哪些動作？
+當專案以唯讀方式共用時，所有編輯功能和特色都完全停用，且收件者僅可變更下拉式選單以預先定義的方式，將篩選器套用至面板。
 +++

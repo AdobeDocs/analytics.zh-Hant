@@ -5,9 +5,9 @@ feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 72%
 
 ## 範例存取請求 {#access}
 
-如果您提交存取請求，將會收到兩個可傳回給資料主體的檔案。 CSV檔案的一個檔案包含資料主體收到的每個點選的一列，以及具有適當存取標籤的每個變數的一欄。 另一個檔案是摘要HTML檔案，其中列出每個變數、資料主體在該變數中看到的所有唯一值，以及看到每個唯一值的次數。
+如果提交存取請求，您將收到兩個可以傳回至資料主體的檔案。其中一個檔案是 CSV 檔案，其中包含為資料主體接收到每個點擊的一列，以及每個具有適當存取標籤變數的欄。另一個檔案則是摘要 HTML 檔案，其中列出每個變數，其後是資料主體變數顯示的所有唯一值，以及每個唯一值顯示的次數。
 
-例如，摘要檔案包含下表指出的值。 請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。只有在使用人員ID且`expandIds`為true時，才會傳回兩個摘要檔案。
+針對我們的範例，此摘要檔案包含下表所示的值。請求可能僅傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。唯有使用人員 ID 且 `expandIds` 為 true 時，系統才會傳回兩個摘要檔案。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 值</th>
-    <th rowspan="2">摘要<br/>檔案型別<br/>已傳回</th>
+    <th rowspan="2">已傳回摘要<br/>檔案類型<br/></th>
     <th colspan="5" style="text-align:center">摘要存取檔案中的資料</th>
   </tr>
   <tr>
@@ -142,7 +142,7 @@ ht-degree: 72%
   </tr>
 </table>
 
-請注意，使用Cookie ID時，`expandIDs`的設定不會對輸出造成任何差異。
+請注意，使用 cookie ID 時，`expandIDs` 的設定不會影響輸出。
 
 ## 樣本刪除請求 {#delete}
 
@@ -219,11 +219,11 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->只有包含`AAID=77`和`DEL-DEVICE`標籤的資料列上的資料行會受到影響。
+>僅包含 `AAID=77` 和 `DEL-DEVICE` 標籤之列上的欄會受到影響。
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
+    <th colspan="5" style="text-align:center">user=Mary <br> expandIDs=false</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -292,7 +292,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->只有包含`user=Mary`和`DEL-PERSON`標籤的資料列上的celcolumnsls會受到影響。 此外，實際上，包含`A_ID`的變數可能是prop或eVar。 它的取代值會是開頭為`Privacy-`，後面接著隨機數字(GUID)的字串，而不是將數值取代為不同的隨機數值。
+>僅包含 `user=Mary` 和 `DEL-PERSON` 標籤列上儲存格欄會受到影響。此外，在實務上，包含 `A_ID` 的變數可能是 prop 或 eVar。其取代值會是開頭為「`Privacy-`」，其後接隨機數字 (GUID) 的字串，而非將數值取代為不同的隨機數值。
 
 <table>
   <tr>

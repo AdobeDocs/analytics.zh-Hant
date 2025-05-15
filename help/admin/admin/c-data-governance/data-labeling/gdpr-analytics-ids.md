@@ -5,17 +5,17 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: 3e87d420591405e57e57e18fda4287d5fbd3bf1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 標籤最佳作法
 
-每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。 啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實施行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
+每次建立新報告套裝或在現有報告套裝中啟用新變數時，都必須仔細檢閱標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
-I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤具有相同的含義。 不過，它們的用途大不相同。 在Adobe Analytics中，這些標籤可用來幫助識別應因Privacy Service請求而匿名的欄位。 在Adobe Experience Platform中，它們用於存取控制、同意管理，以及在標籤欄位上強制執行行銷限制。 Adobe Experience Platform支援許多Adobe Analytics未使用的其他標籤。 如果您使用Analytics Data Connector將Adobe Analytics資料匯入Adobe Experience Platform，您應確保已在Adobe Analytics中套用的任何I1、I2、S1和S2標籤，也會套用至Adobe Experience Platform中由匯入報表套裝使用的結構描述。
+I1、I2、S1 及 S2 標籤與 Adobe Experience Platform 中對應命名的 DULE 標籤具有相同意義。然而，它們的用途卻截然不同。在 Adobe Analytics 中，這些標籤用於協助識別因 Privacy Service 請求而應匿名處理的欄位。在 Adobe Experience Platform 中，它們用於存取控制、同意管理，以及對標記欄位執行行銷限制。Adobe Experience Platform 支援許多 Adobe Analytics 未使用的其他標籤。如果您利用 Analytics 資料連接器將 Adobe Analytics 資料匯入至 Adobe Experience Platform，應確保您已在 Adobe Analytics 中套用的任何 I1、I2、S1 及 S2 標籤，也套用於由匯入的報告套裝使用的 Adobe Experience Platform 結構描述。
 
 ## 可直接與間接識別身分的 ID {#direct-vs-indirect}
 
@@ -64,7 +64,7 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂訪客 ID </p> </td> 
-   <td colname="col2"> <p>雖然自訂訪客 ID 並未廣泛使用，Analytics 仍支援提供此 ID 的實施；如有此 ID，系統就會用來取代舊版 Analytics 追蹤 Cookie。此欄位的標籤有 I2、ID-PERSON 和 DEL-PERSON。 </p> <p>許多實作會從 CRM ID 衍生此 ID，因此只在有人登入其網站時才會出現。如此可在不同裝置間使用相同的自訂訪客 ID。而這有一個技術上的缺點，即使用者登入之前的追蹤資料將無法繫結至登入後系統收集的追蹤資料。不過，如果您使用自訂訪客 ID 僅為了能識別裝置，應將 ID-PERSON 和 DEL- PERSON 標籤分別變更為 ID-DEVICE 和 DEL- DEVICE。 </p> </td> 
+   <td colname="col2"> <p>雖然自訂訪客 ID 並未廣泛使用，Analytics 仍支援提供此 ID 的實作；如有此 ID，系統就會用來取代舊版 Analytics 追蹤 Cookie。此欄位的標籤有 I2、ID-PERSON 和 DEL-PERSON。 </p> <p>許多實作會從 CRM ID 衍生此 ID，因此只在有人登入其網站時才會出現。如此可在不同裝置間使用相同的自訂訪客 ID。而這有一個技術上的缺點，即使用者登入之前的追蹤資料將無法繫結至登入後系統收集的追蹤資料。不過，如果您使用自訂訪客 ID 僅為了能識別裝置，應將 ID-PERSON 和 DEL- PERSON 標籤分別變更為 ID-DEVICE 和 DEL- DEVICE。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,8 +81,8 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
 * DEL-標籤會讓系統為這些變數進行[匿名處理](/help/admin/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) (ID 將替換為以「Data Privacy-」為首碼的隨機字串)，而在由請求所用 ID 識別出來的所有點擊中，所有原始值的例項都會取代為相同的匿名值。如果此欄位中的原始值是這些 ID 的其中之一，則報表量度將不會變更。
 * 一般而言，如果欄位有 ID-DEVICE 標籤，則您也應指派 DEL-DEVICE 標籤。
 * 同樣地，如果欄位有 ID-PERSON 標籤，則您也應指派 DEL-PERSON 標籤。
-* 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實施採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
-* 如果您在含有 ID-PERSON 標籤的不同欄位中使用自訂 ID，且只想從產生 ID 的資料列中清除值，請使用 DEL-PERSON。
+* 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實作採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
+* 如果您在具有 ID-PERSON 標籤的不同欄位中使用自訂 ID，且只想從產生 ID 的資料列中清除此 ID，則使用 DEL-PERSON。
 * 請注意，若對任何變數指定 DEL-DEVICE 或 DEL-PERSON 標籤，而該變數並非用作該請求的 ID (包括擴增 ID)，那麼系統只能在指定 (或擴增) ID 出現的點擊中，以匿名方式處理該變數中的唯一值。如果其他點擊含有相同的值，系統便不會更新這些其他位置的值。這會導致計數 (量度) 發生變化。
 
   例如，如果您在 eVar7 有三個含有「foo」值的點擊，不過只有其中一個點擊同時在符合刪除條件的其他變數中含有 ID，則系統會將該點擊的「foo」修改為「Data Privacy-123456789」之類的值，其他兩個點擊的值將維持不變。在顯示 eVar7 唯一值數量的報表中，將會比以往多顯示一個唯一值。顯示 eVar 最高值的報表只會包含兩個例項的「foo」(而非先前的 3 個)，而新值則會連同單一例項一併顯示。
@@ -101,7 +101,7 @@ I1、I2、S1和S2標籤與Adobe Experience Platform中相應命名的DULE標籤�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>僅限裝置 ID </p> </td> 
-   <td colname="col2"> <p>如果您使用的只有 Cookie ID 或具有 ID-DEVICE 標籤的 ID，則您只能使用 ACC-ALL 標籤。 </p> <p>您將取得每個存取要求的一對檔案：一個檔案包含每個符合點選（具有所有指定ACC-ALL欄位）的列，以及一個摘要檔案（包含此資料的摘要）。 </p> </td> 
+   <td colname="col2"> <p>如果您使用的只有 Cookie ID 或具有 ID-DEVICE 標籤的 ID，則您只能使用 ACC-ALL 標籤。 </p> <p>每個存取請求將會獲得一組檔案：一個檔案包含每個相符點擊的資料列，並且具有所有指定的 ACC-ALL 欄位，而摘要檔案則包含此資料的摘要。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

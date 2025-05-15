@@ -4,9 +4,9 @@ title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: d17fbcca39e0529a01aeb2a87d0d1390c449eb8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1156'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -114,14 +114,14 @@ ht-degree: 97%
 - [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 - 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用檔案夾的方式。
 - 您可以建立[循序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-- 此[!UICONTROL 頁面檢視]容器現在是[!UICONTROL 點擊]容器，表示此容器會將所有類型的資料分段，而不只是頁面檢視。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。
+- 此[!UICONTROL 頁面檢視]容器現在是[!UICONTROL 點擊]容器，表示此容器會將所有類型的資料分段，而不只是頁面檢視。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫都可在點擊容器中受到納入或排除。
 
 ## Analysis Workspace 中的分段功能
 
 Analysis Workspace 包含以下附加功能：
 
 - 您可以[比較區段](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
-- 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)。
+- 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用區段。
 
 ## Adobe 提供的區段
@@ -237,12 +237,12 @@ Analysis Workspace 包含以下附加功能：
 
 ## 分段操作說明影片 {#segment-video}
 
-此影片簡要概述什麼是區段容器以及如何加以使用。
+此影片提供區段容器的定義以及如何使用的簡短概觀。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -279,7 +279,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **要使用、建立和管理區段需要有什麼權限？**
 
-依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
+依預設，所有使用者都可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
 
 管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](/help/components/segmentation/seg-reference/seg-rights.md)
 
