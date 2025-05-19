@@ -7,7 +7,7 @@ exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: bb8e0e5527e12556aa670677dc79248770857359
 workflow-type: tm+mt
 source-wordcount: '3361'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/3429993/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="需要 Experience Cloud 驗證"
->abstract="啟用後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項取得專案存取權的使用者，必須使用其Experience Cloud認證進行驗證。"
+>abstract="啟用後，從 Analysis Workspace「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，就必須使用其 Experience Cloud 認證進行驗證。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"

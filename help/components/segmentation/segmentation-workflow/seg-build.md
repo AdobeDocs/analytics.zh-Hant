@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="重複"
->abstract="包括維度的例項和持續值。"
+>abstract="包括維度的執行個體和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="例項"
->abstract="包括維度的例項和持續值。"
+>abstract="包括維度的執行個體和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
->abstract="包括維度的唯一例項 (非重複) 例項。"
+>abstract="包括維度的唯一執行個體 (非重複) 執行個體。"
 
 <!-- markdownlint-enable MD034 -->
 

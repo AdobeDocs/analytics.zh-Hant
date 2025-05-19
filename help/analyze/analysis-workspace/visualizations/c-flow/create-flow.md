@@ -7,7 +7,7 @@ exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
 workflow-type: tm+mt
 source-wordcount: '1653'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="開始於"
->abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+>abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="包含"
->abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+>abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="終止於"
->abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+>abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
->title="路徑維度"
->abstract="選取一個維度，以用作前往或離開您所選元件的路徑。"
+>title="路徑分析維度"
+>abstract="選取一個維度，以用作前往或離開您選取之元件的路徑。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -40,33 +40,33 @@ ht-degree: 89%
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_disabled"
->title="包含重複專案（已停用）"
->abstract="無法從包含多值維度的流量視覺效果中移除重複項目。"
+>title="包括重複項目 (已停用)"
+>abstract="無法從包括多值維度的「流量」視覺效果中移除重複項目。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_include_repeats_default"
 >title="包括重複項目"
->abstract="「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複的執行個體，例如：頁面重新載入。"
+>abstract="「流量」視覺效果是根據維度的例項而定。此設定提供您要包括或排除重複執行個體的選項，例如：頁面重新載入次數。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_limit_occurrence"
 >title="僅限於第一次/最後一次發生次數"
->abstract="當第一個/最後一個接觸點是登入/退出點時，結果僅限為路徑。"
+>abstract="結果僅限為第一個/最後一個接觸點是進入/退出時的路徑。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="欄數"
->abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+>abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="每欄展開的項目"
->abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+>abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
->title="重設為更新"
->abstract="此欄位只能在初始建置時設定。 若要更新此欄位，請選取&#x200B;**[!UICONTROL 重設]**&#x200B;以建置新的流量視覺效果。"
+>title="重設以更新"
+>abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 
 
@@ -175,7 +175,7 @@ ht-degree: 89%
 | **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的篩選器，並移除包含剛剛排除的項目的方塊。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
 | **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
-| **[!UICONTROL 隱藏欄]**&#x200B;n | 隱藏視覺效果的選取欄。 |
+| **[!UICONTROL 隱藏欄]**n | 隱藏視覺效果的選取欄。 |
 | **[!UICONTROL 展開整個欄]** | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 根據選取欄建立客群。 |
 | **[!UICONTROL 摺疊整個欄]** | 隱藏該欄中的所有節點。 |
