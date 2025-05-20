@@ -4,7 +4,7 @@ description: 了解如何使用產品設定檔來進行權限預設，讓產品�
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: ed7b25491de5c1238e846997ec903df4fd4ee18c
+source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 65%
@@ -33,7 +33,7 @@ ht-degree: 65%
 單一產品設定檔要存取Adobe Analytics所需的最低許可權如下：
 
 * 產品設定檔必須至少擁有一個報告套裝的存取權-
-* 產品設定檔必須屬於Analytics工具許可權專案&#x200B;**Analysis Workspace存取**。
+* 產品設定檔必須屬於Analytics工具許可權專案&#x200B;**Workspace專案存取權**。
 
 ### 報告套裝
 
