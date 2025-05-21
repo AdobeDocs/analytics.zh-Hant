@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
@@ -179,7 +179,7 @@ ht-degree: 95%
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
-   + 區段工作流程 {#segmentation-workflow}
+   + 分段工作流程 {#segmentation-workflow}
       + [分段工作流程概觀](segmentation/segmentation-workflow/seg-workflow.md)
       + [規劃區段](segmentation/segmentation-workflow/seg-plan.md)
       + [建立區段](segmentation/segmentation-workflow/seg-build.md)
@@ -251,7 +251,7 @@ ht-degree: 95%
    + [重播的運作方式](cda/replay.md)
    + [CDA Workspace 範本](cda/workspace-template.md)
    + [將虛擬報告套裝限制在特定日期](cda/limit-vrs-date.md)
-   + [跨裝置分析常見問答](cda/faq.md)
+   + [跨裝置分析常見問題集](cda/faq.md)
 + 警報 {#alerts}
    + [概觀](c-alerts/intellligent-alerts.md)
    + [建立](c-alerts/alert-builder.md)
@@ -261,23 +261,23 @@ ht-degree: 95%
    + [分類概觀](classifications/classifications-overview.md)
    + 分類集 {#sets}
       + [概觀](classifications/sets/overview.md)
-      + 管理分類設定 {#manage}
+      + 管理分類集 {#manage}
          + [分類集管理員](classifications/sets/manage/set-manager.md)
          + [建立分類集](classifications/sets/manage/create.md)
          + [分類集設定](classifications/sets/manage/settings.md)
          + [分類集結構描述](classifications/sets/manage/schema.md)
          + [分類集規則](classifications/sets/manage/rules.md)
       + [分類集工作管理員](classifications/sets/job-manager.md)
-      + 分類設定合併 {#consolidations}
-         + [合併管理員](classifications/sets/consolidations/manage.md)
-         + [合併程式](classifications/sets/consolidations/process.md)
-   + 分類規則產生器（舊版）{#classifications-rulebuilder}
+      + 分類集整合 {#consolidations}
+         + [整合管理員](classifications/sets/consolidations/manage.md)
+         + [整合流程](classifications/sets/consolidations/process.md)
+   + 分類規則產生器 (舊版){#classifications-rulebuilder}
       + [概觀](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)
       + [分類規則](classifications/crb/classification-quickstart-rules.md)
       + [分類規則定義](classifications/crb/classification-rule-definitions.md)
       + [子分類和規則產生器](classifications/crb/subclassification-rule-builder.md)
-   + 分類匯入工具（舊版）{#classifications-importer}
+   + 分類匯入工具 (舊版){#classifications-importer}
       + [分類匯入工具概觀](classifications/importer/c-working-with-saint.md)
       + [分類資料檔案](classifications/importer/c-saint-data-files.md)
       + [刪除分類資料](classifications/importer/t-delete-classification-data.md)

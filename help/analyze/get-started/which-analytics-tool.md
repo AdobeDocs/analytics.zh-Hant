@@ -4,9 +4,9 @@ title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 >[!ENDSHADEBOX]
 
 
-## Adobe Analytics報表使用者介面 {#user-interfaces}
+## Adobe Analytics 報告使用者介面 {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果在 Analysis Workspace 中有無法執行的任務，請考慮以下其他介面。**
 
@@ -36,11 +36,11 @@ ht-degree: 89%
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** 是 Adobe Analytics 中的一項功能，可提供網頁和行動應用程式上使用者參與度的視覺化表示。此功能可讓行銷人員和分析師追蹤和分析使用者的互動情形，例如點擊、暫留和捲動行為。
 
-## 將資料匯入Adobe Analytics {#import}
+## 將資料匯入 Adobe Analytics 中 {#import}
 
-**[分類](/help/components/classifications/classifications-overview.md)**&#x200B;使用時機：
+**[分類](/help/components/classifications/classifications-overview.md)**&#x200B;適用於以下情形：
 
-* 當有中繼資料您想要與收集值(eVar、prop、行銷管道)建立關聯時。 Adobe建議使用[分類集](/help/components/classifications/sets/overview.md)。 分類規則產生器和分類匯入工具是將分類資料帶入Adobe Analytics的舊有方法。
+* 您想要與中繼資料建立關聯以便收集值 (eVar、prop、行銷管道) 的時候。Adobe 建議使用[分類集](/help/components/classifications/sets/overview.md)。分類規則產生器和分類匯入工具是將分類資料導入 Adobe Analytics 的舊方法。
 
 **[資料來源](/help/import/data-sources/overview.md)**&#x200B;使用時機：
 
@@ -55,13 +55,13 @@ ht-degree: 89%
 
 **[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* 「大量資料插入API」接受含有事件資料的CSV格式檔案（其中每列包含一個事件）。 Adobe建議對需要伺服器端程式碼的任何實作，或是無法使用AppMeasurement或Web SDK進行資料收集的任何實作，使用大量插入API。
+* 「大量資料插入 API」接受含有事件資料的 CSV 格式檔案，其中每一行儲存一個事件。Adobe 建議，任何需要伺服器端程式碼或因其他原因無法使用 AppMeasurement 或 Web SDK 進行資料收集的實作使用大量插入 API。
 
-應該使用&#x200B;**[資料插入API （舊版）](/help/import/c-data-insertion-api/c-data-insertion-api.md)**：
+**[資料插入 API (舊版)](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 適用於以下情形：
 
-* 當您需要將資料帶入Adobe Analytics並且無法使用AppMeasurement、Web SDK或大量資料插入API時。
+* 當您需要將資料導入 Adobe Analytics 且無法使用 AppMeasurement、Web SDK 或大量資料插入 API 時。
 
-「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)**」應在以下情況時使用：
+「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**」應在以下情況時使用：
 
 * 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，並且想要將該資料上傳至 Experience Cloud 時。
 * 如果您想要使用 CRM 資料在 Analytics 中進行較為深入的分析時，或是將 CRM 資料作為 Adobe Target 中的目標準則時。

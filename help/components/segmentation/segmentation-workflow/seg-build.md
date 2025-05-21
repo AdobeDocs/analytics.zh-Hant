@@ -4,7 +4,7 @@ title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2063'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="重複"
->abstract="包括維度的執行個體和持續值。"
+>abstract="包括維度的例項和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="例項"
->abstract="包括維度的執行個體和持續值。"
+>abstract="包括維度的例項和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
->abstract="包括維度的唯一執行個體 (非重複) 執行個體。"
+>abstract="包括維度的唯一例項 (非重複) 例項。"
 
 <!-- markdownlint-enable MD034 -->
 
