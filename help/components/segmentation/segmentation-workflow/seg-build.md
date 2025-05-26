@@ -3,14 +3,19 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 01623da785504061fac7c1e345efe2be35969d9b
-workflow-type: ht
-source-wordcount: '2063'
-ht-degree: 100%
+source-git-commit: 1d640919787f97534ca7a7718a2d4e113849e973
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 97%
 
 ---
 
 # 區段產生器 {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_productcompatibility"
+>title="產品相容性"
+>abstract="少數可用的區段條件與所有Adobe Analytics工具不相容。此清單會指出與區段相容的工具。 若要讓區段與所有Adobe Analytics工具相容，請編輯您的條件。"
 
 <!-- markdownlint-disable MD034 -->
 
@@ -35,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_repeating"
 >title="重複"
->abstract="包括維度的例項和持續值。"
+>abstract="包括維度的執行個體和持續值。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -44,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_instance"
 >title="例項"
->abstract="包括維度的例項和持續值。"
+>abstract="包含維度的例項。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -53,7 +58,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
->abstract="包括維度的唯一例項 (非重複) 例項。"
+>abstract="包括維度的唯一執行個體 (非重複) 執行個體。"
 
 <!-- markdownlint-enable MD034 -->
 

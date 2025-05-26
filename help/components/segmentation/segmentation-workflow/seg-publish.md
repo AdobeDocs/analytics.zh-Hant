@@ -1,25 +1,36 @@
 ---
 description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段進行促銷活動。
-title: 要Experience Cloud的Publish區段
+title: 發佈區段至Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 66%
+source-wordcount: '1356'
+ht-degree: 64%
 
 ---
 
-# 要Experience Cloud的Publish區段
+# 將區段發佈至Experience Cloud {#publish-segments}
+
+>[!CONTEXTUALHELP]
+>id="components_segments_publishing"
+>title="Experience Cloud發佈"
+>abstract="您可以將從此區段衍生的對象發佈到對象庫，以便用於Target和其他Experience Cloud解決方案中的行銷活動。"
+
+>[!CONTEXTUALHELP]
+>id="components_segments_audienclibrary"
+>title="客群庫"
+>abstract="在對象庫中建立的區段可立即使用，而且不依賴Analytics更新。"
+
 
 將Adobe Analytics區段發佈至Experience Cloud，可讓您在[!DNL Audience Manager]和其他啟用管道(包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign])中，使用該區段進行行銷活動。
 
-您可以在8小時內發佈Analytics區段以Experience Cloud。 使用這些區段，在 Audience Manager 中將對象啟動至所有下游目的地。
+您可以在8小時內將Analytics區段發佈至Experience Cloud。 使用這些區段，在 Audience Manager 中將對象啟動至所有下游目的地。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Publish區段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [發佈區段](https://video.tv.adobe.com/v/32842?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +41,7 @@ ht-degree: 66%
 
 ## 先決條件
 
-* 確定您要儲存此區段的目標報表套裝已[啟用Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hant)。 否則，您無法將其發佈到Experience Cloud。
+* 請確認您要儲存此區段的目標報表套裝已[啟用Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=zh-Hant)。 否則無法將它發佈至Experience Cloud。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
@@ -58,7 +69,7 @@ ht-degree: 66%
 1. 選取「**[!UICONTROL 新增]**」以建立新區段。
    ![發佈 Experience Cloud](assets/publish-ec.png)
 1. 提供區段的標題和說明。 儲存前需要這些欄位。
-1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段Publish至Experience Cloud（針對&#x200B;*報表套裝*）]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]**。
 
 >[!IMPORTANT]
 >在 Analytics 中查看區段預覽時，請務必使用「具有 Experience Cloud ID 的訪客」，而非比較 Adobe Analytics 數字與 Audience Manager 數字時的「不重複訪客」區段預覽總數：
@@ -67,9 +78,9 @@ ht-degree: 66%
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段Publish至Experience Cloud（針對&#x200B;*`<report suite>`*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將客群與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 客群資格的訪客。此時，對象名稱和對應的資料會開始在Experience Cloud的[!DNL Audience Library]頁面上顯示。</br> |
+| **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*`<report suite>`*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將客群與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 客群資格的訪客。此時，對象名稱和對應的資料開始顯示在Experience Cloud的[!DNL Audience Library]頁面上。</br> |
 | **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依時序建立客群。例如，「最近 30 天」(預設值) 包含自當天 (並非建立細分群體的原始日期) 起的過去 30 天內符合客群資格的訪客。 |
-| **[!UICONTROL 在客群庫中建立]** | 您建立和發佈的區段可在Experience Cloud的[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
+| **[!UICONTROL 在客群庫中建立]** | 您在Experience Cloud中建立和發佈的區段可在[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
 | **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至Experience Cloud的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
@@ -89,7 +100,7 @@ ht-degree: 66%
 
 1. 在Adobe Analytics中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 區段]**。
 
-1. 檢視&#x200B;**[!UICONTROL 已發佈]**&#x200B;欄。 此資料欄中的&#x200B;**[!UICONTROL 是]**&#x200B;表示該區段已發佈至Experience Cloud。 **[!UICONTROL 否]**&#x200B;表示它沒有。
+1. 檢視&#x200B;**[!UICONTROL 已發佈]**&#x200B;欄。 此欄中的&#x200B;**[!UICONTROL 是]**&#x200B;表示區段已發佈至Experience Cloud。 **[!UICONTROL 否]**&#x200B;表示它沒有。
 
    ![發佈狀態](assets/publish-status.png)
 
@@ -106,7 +117,7 @@ ht-degree: 66%
 
 1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md)。
 1. 載入頁面時啟動除錯程式。
-1. 捲動至「Audience Manager」區段，並尋找在目前瀏覽器頁面上設定的Adobe Audience Manager UUID
+1. 捲動至Audience Manager區段，並尋找在目前瀏覽器頁面上設定的Adobe Audience Manager UUID
 （下列範例中為`50814298273775797762943354787774730612`）
 
 ![除錯程式](assets/debugger.jpg)
