@@ -1,19 +1,19 @@
 ---
 title: 進階函數
-description: 勾選函數下拉式清單中的「顯示進階」即可存取這些函數。
+description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 6c707a154447d4b419cc6af8b9ddd2d5d0255072
-workflow-type: ht
-source-wordcount: '4438'
+source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
+workflow-type: tm+mt
+source-wordcount: '5026'
 ht-degree: 100%
 
 ---
 
 # 進階函數
 
-使用[計算量度產生器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)可讓您套用統計和數學函數。本文記錄進階函數及其定義的清單，依字母順序排列。
+使用[計算量度產生器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)可套用統計和數學函數。本文記錄進階函數及其定義的清單，依字母順序排列。
 
 透過選取元件面板中![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 函數]**&#x200B;清單下的「**[!UICONTROL 全部顯示]**」，以存取這些函數。向下捲動以查看&#x200B;**[!UICONTROL 進階函數]**&#x200B;清單。
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-在適用且相關的情況下，函數會以函數類型進行註解： [!BADGE 表格]{type="Neutral"}[!BADGE 列]{type="Neutral"}
+在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
-## 「包括零」參數的意義是什麼? 
+## include_zeros 參數的意義是什麼? 
 
 此參數指出是否在計算中包括零。有時候零&#x200B;*沒有意義*，有時候卻很重要。
 
@@ -59,14 +59,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-count-distinct-metric"
 >title="近似計數相異"
->abstract="傳回選定維度之維度項目的近似相異計數。"
+>abstract="傳回所選取之維度的維度項目近似相異計數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 近似相異計數 (維度)]**
 
 
-傳回選取維度之維度項目的近似相異計數。
+傳回選定維度之維度項目的近似相異計數。
 
 
 | 引數 | 說明 |
@@ -93,7 +93,7 @@ ht-degree: 100%
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 反餘弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回量度的反餘弦 (或餘弦的反函數)。反餘弦是一種角度，其餘弦是數字。傳回的角度是限制在 0 (零) 到 pi 的弧度。如果您想將結果從弧度轉換為度數，請將結果乘以 180/PI()。
 
 
 | 引數 | 說明 |
@@ -116,7 +116,7 @@ ht-degree: 100%
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 反正弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的反正弦 (或正弦的反函數)。反正弦是一種角度，其正弦是數字。傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。若想以度表示反正弦，請將結果乘以 180/PI()。
 
 
 | 引數 | 說明 |
@@ -139,7 +139,7 @@ ht-degree: 100%
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 反正切 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的反正切 (或正切的反函數)。反正切是一種角度，其正切是數字。傳回的角度是在 -pi/2 到 pi/2 範圍內的弧度。若想以度數表示反正切，請將結果乘以 180/PI()。
 
 
 | 引數 | 說明 |
@@ -155,7 +155,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="functions-cdf-t"
 >title="Cdf-T"
->abstract="傳回具有 n 個自由度之 Student-t 分布之隨機變數的 z 分數小於 col 之機率。"
+>abstract="傳回具有 n 個自由度之 Student-t 分布隨機變數的 z 分數小於 col 之機率。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -186,7 +186,7 @@ CDF-T(x, ∞) ? cdf_z(x)
 >[!CONTEXTUALHELP]
 >id="functions-cdf-z"
 >title="Cdf-Z"
->abstract="傳回常態分布之隨機變數的 z 分數小於 col 之機率。"
+>abstract="傳回常態分布隨機變數的 z 分數小於 col 之機率。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="上限"
->abstract="傳回不小於給定值的最小整數。例如，如果您不想報表中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。"
+>abstract="傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL CEILING (量度)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。
 
 | 引數 | 說明 |
 |---|---|
@@ -250,7 +250,7 @@ CDF-Z(-3) ? 0.0013499
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
 | 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
-| 顯著性臨界值 | 此函數中的臨界值設定為 95% 預設值。 |
+| 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 
 ## 信賴度 (下界) {#confidence-lower}
@@ -258,9 +258,9 @@ CDF-Z(-3) ? 0.0013499
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-lower"
+>id="functions-waskr-lower-individual-confidence-sequence"
 >title="信賴度 (下界)"
->abstract="使用 WASKR 方法計算隨時有效的信賴度&#x200B;**下界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476) 所述。"
+>abstract="使用 WASKR 方法計算隨時有效的信賴度&#x200B;**下界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -275,16 +275,16 @@ CDF-Z(-3) ? 0.0013499
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
 | 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
-| 顯著性臨界值 | 此函數中的臨界值設定為 95% 預設值。 |
+| 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 ## 信賴度 (上界) {#confidence-upper}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="functions-waskr-confidence-interval-upper"
+>id="functions-waskr-upper-individual-confidence-sequence"
 >title="信賴度 (上界)"
->abstract="使用 WASKR 方法計算隨時有效的信賴度&#x200B;**上界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476) 所述。"
+>abstract="使用 WASKR 方法計算隨時有效的信賴度&#x200B;**上界**，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -299,7 +299,7 @@ CDF-Z(-3) ? 0.0013499
 | 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
 | 成功量度 | 使用者用來比較變體的一個或多個量度。 |
 | 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
-| 顯著性臨界值 | 此函數中的臨界值設定為 95% 預設值。 |
+| 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
 
 
 ## 餘弦 {#cosine}
@@ -315,7 +315,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 餘弦 (量度)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回指定角度的餘弦。如果角度以度數表示，請將角度乘以 PI()/180。
 
 | 引數 | 說明 |
 |---|---|
@@ -440,14 +440,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回相關係數。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您想與 metric_Y 建立關聯的量度 |
 | metric_Y | 您想與 metric_X 建立關聯的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 ## 指數迴歸：預計 Y {#exponential-regression-predicted-y}
 
@@ -463,14 +463,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回 Y。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為獨立資料的量度。 |
 | metric_Y | 您要指定為相依資料的量度。 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 指數迴歸：截距 {#exponential-regression-intercept}
@@ -487,13 +487,13 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回 b。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 指數迴歸：斜率 {#exponential-regression-slope}
@@ -510,14 +510,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}指數迴歸：Y = a exp(X) + b。傳回 a。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 下限 {#floor}
@@ -527,13 +527,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="下限"
->abstract="傳回不大於給定值的最大整數。例如，如果您不想報表中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。"
+>abstract="傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。
 
 | 引數 | 說明 |
 |---|---|
@@ -553,7 +553,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 大於 ()]**
 
-輸出為 0 (false) 或 1 (true)。
+輸出為 0 (否) 或 1 (是)。
 
 | 引數 | 說明 |
 |---|---|
@@ -605,12 +605,12 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 雙曲餘弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的雙曲餘弦。
 
 
 | 引數 | 說明 |
 |---|---|
-| 量度 | 您想找出雙曲餘弦的角度 (以弧度為單位) |
+| 量度 | «»您想找出雙曲餘弦的角度 (以弧度為單位) |
 
 
 
@@ -627,7 +627,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 雙曲正弦 (量度)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的雙曲正弦。
 
 | 引數 | 說明 |
 |---|---|
@@ -647,14 +647,14 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 雙曲正切 (量度)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字的雙曲正切。
 
 | 引數 | 說明 |
 |---|---|
 | 量度 | 您想找出雙曲正切的角度 (以弧度為單位) |
 
 
-## 若 {#if}
+## 若   {#if}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -668,7 +668,7 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL IF (logical_test、value_if_true、value_if_false)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}如果條件參數的值非零 (是)，則結果是 value_if_true 參數的值。否則，它是 value_if_false 參數的值。
 
 
 | 引數 | 說明 |
@@ -691,7 +691,7 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 小於 ()]**
 
-輸出為 0 (false) 或 1 ((true)。
+輸出為 0 (否) 或 1 (是)。
 
 | 引數 | 說明 |
 |---|---|
@@ -762,14 +762,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}線性迴歸：Y = a X + b。傳回相關係數。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您想與 metric_Y 建立關聯的量度 |
 | metric_Y | 您想與 metric_X 建立關聯的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -787,14 +787,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}線性迴歸：Y = a X + b。傳回 b。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -812,14 +812,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}線性迴歸：Y = a X + b。傳回 Y。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -836,13 +836,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 線性迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}線性迴歸：Y = a X + b。傳回 a。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 以 10 為底的對數 {#log-base-ten}
@@ -859,7 +859,7 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 以 10 為底的對數 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回數字以 10 為底的對數。
 
 
 | 引數 | 說明 |
@@ -880,13 +880,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您想與 metric_Y 建立關聯的量度 |
 | metric_Y | 您想與 metric_X 建立關聯的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 對數迴歸：截距 {#log-regression-intercept}
@@ -902,13 +902,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回 b。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -925,13 +925,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -948,13 +948,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 對數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}對數迴歸：Y = a ln(X) + b。傳回 a。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -979,13 +979,13 @@ CDF-Z(-3) ? 0.0013499
 
 
 
-## 非 {#not}
+## Not {#not}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-not"
->title="非"
+>title="Not"
 >abstract="否定是一種布林值。輸出為 0 (否) 或 1 (是)。"
 
 <!-- markdownlint-enable MD034 -->
@@ -1041,7 +1041,7 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 或 (邏輯測試)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}分離。不等於零為是，等於零為否。輸出為 0 (否) 或 1 (是)。
 
 
 | 引數 | 說明 |
@@ -1083,13 +1083,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您想與 metric_Y 建立關聯的量度 |
 | metric_Y | 您想與 metric_X 建立關聯的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -1107,14 +1107,14 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回 b。
 
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 乘冪迴歸：預計 Y {#power-regression-predicted-y}
@@ -1130,13 +1130,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -1153,13 +1153,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 乘冪迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}乘冪迴歸：Y = b X ^ a。傳回 a。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -1176,13 +1176,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 二次迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}二次迴歸：Y = (a + bX) ^ 2。傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您想與 metric_Y 建立關聯的量度 |
 | metric_Y | 您想與 metric_X 建立關聯的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 ## 二次迴歸：截距 {#quadratic-regression-intercept}
 
@@ -1197,13 +1197,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 二次迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}二次迴歸：Y = (a + bX) ^ 2。傳回 a。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 二次迴歸：預計 Y {#quadratic-regression-predicted-y}
@@ -1219,13 +1219,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 二次迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}二次迴歸：Y = (a + bX) ^ 2。傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 二次迴歸：斜率 {#quadratic-regression-slope}
@@ -1241,13 +1241,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 二次迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}二次迴歸：Y = (a + bX) ^ 2。傳回 b。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -1264,13 +1264,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回相關係數。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您想與 metric_Y 建立關聯的量度 |
 | metric_Y | 您想與 metric_X 建立關聯的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 倒數迴歸：截距 {#reciprocal-regression-intercept}
@@ -1286,13 +1286,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回 a。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 倒數迴歸：預計 Y {#reciprocal-regression-predicted-y}
@@ -1308,13 +1308,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回 Y。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## 倒數迴歸：斜率 {#reciprocal-regression-slope}
@@ -1330,13 +1330,13 @@ CDF-Z(-3) ? 0.0013499
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 倒數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 表格]{type="Neutral"}
+[!BADGE 表格]{type="Neutral"}倒數迴歸：Y = a + b X ^ -1。傳回 b。
 
 | 引數 | 說明 |
 |---|---|
 | metric_X | 您要指定為相依資料的量度 |
 | metric_Y | 您要指定為獨立資料的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 
@@ -1355,7 +1355,7 @@ CDF-Z(-3) ? 0.0013499
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 正弦 (量度)]**
 
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}傳回指定角度的正弦。如果角度以度數表示，請將角度乘以 PI()/180。
 
 
 | 引數 | 說明 |
@@ -1376,14 +1376,14 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![效果](/help/assets/icons/Effect.svg)**[!UICONTROL T 分數 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg)**[!UICONTROL T 分數 (量度，include_zeros)]**
 
 [平均值](cm-functions.md#mean)的偏差除以標準差。[Z 分數](#z-score)的別名。
 
 | 引數 | 說明 |
 |---|---|
 | 量度 | 您要 T 分數的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 
 ## T 檢定 {#t-test}
@@ -1465,14 +1465,14 @@ CDF-Z(-3) ? 0.0013499
 
 <!-- markdownlint-enable MD034 -->
 
-![效果](/help/assets/icons/Effect.svg)**[!UICONTROL Z 分數 (量度，包括零)]**
+![效果](/help/assets/icons/Effect.svg)**[!UICONTROL Z 分數 (量度，include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}
+[!BADGE 列]{type="Neutral"}平均值的偏差除以標準差。
 
 | 引數 | 說明 |
 |---|---|
 | 量度 | 您要 Z 分數的量度 |
-| 包括零 | 計算中是否包括零值 |
+| include_zeros | 計算中是否包括零值 |
 
 Z 分數為 0 (零) 表示分數與平均值相同。Z 分數可為正或負，代表其高於或低於平均值多少標準差。
 
