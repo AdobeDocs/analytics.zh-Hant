@@ -117,7 +117,7 @@ f. 刪除追蹤代碼、曝光率、點按數和成本以外的所有欄。 新�
 
 在制定每次點按付費決策時，新增計算量度會很有幫助。
 
-例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)：
+例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant#calculated-metrics)：
 
 | 名稱 | 公式 | 量度類型 | 說明 |
 | --- | --- | --- | --- |
