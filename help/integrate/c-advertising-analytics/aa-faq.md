@@ -3,7 +3,7 @@ description: 有關 Advertising Analytics 的常見問題集。
 title: Advertising Analytics 的常見問題集
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 02b6c4f4504785353f9b2457099d3332cd25a852
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 37%
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 ## 存取/權益 {#access}
 
-+++ 我需要是Adobe Advertising Cloud或Adobe Advertising Cloud (AMO)客戶才能存取這項功能嗎？
++++ 我需要是Adobe Advertising Cloud (AMO)客戶才能存取這項功能嗎？
 
 否，此功能適用於非Advertising Cloud和非AMO客戶。
 
@@ -46,7 +46,7 @@ Advertising Analytics適用於Adobe Analytics
 
 +++
 
-+++ 如果我已經使用Advertising Cloud/AMO，還可以使用Advertising Analytics功能嗎？
++++ 如果我已經在使用Advertising Cloud/AMO，還可以使用Advertising Analytics功能嗎？
 
 任何相容的搜尋引擎帳戶都會傳入Advertising Analytics，並顯示為唯讀。 所有編輯或更新作業都應該在 Advertising Cloud/AMO 中處理。
 
@@ -62,7 +62,7 @@ Advertising Analytics僅適用於Adobe Analytics管理員，不過管理員可�
 
 +++ Advertising Analytics包含哪些搜尋引擎帳戶？
 
-搜尋引擎帳戶包括Google AdWords和Microsoft Bing。
+搜尋引擎帳戶包括Google Ads和Microsoft Advertising。
 
 +++
 
@@ -74,7 +74,7 @@ Advertising Analytics僅適用於Adobe Analytics管理員，不過管理員可�
 
 +++ 資料收集和傳遞至Analytics的方式為何？
 
-Advertising Analytics運用一系列自訂API，透過Adobe Advertising Cloud將資料從搜尋引擎傳遞至Analytics。
+Advertising Analytics運用一系列自訂API，並透過Adobe Advertising Cloud將資料從搜尋引擎傳遞至Analytics。
 
 +++
 

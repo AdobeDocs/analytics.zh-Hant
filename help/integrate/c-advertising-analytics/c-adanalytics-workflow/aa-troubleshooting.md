@@ -3,17 +3,17 @@ description: Advertising Analytics 相關問題的疑難排解與修正。
 title: Advertising Analytics 疑難排解
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 50%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
 # Advertising Analytics 疑難排解
 
 * [我在對應區段中看不到我的報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
-* [我在驗證 Google Adwords 帳戶時發生錯誤...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
+* [我在驗證Google Ads帳戶時發生錯誤……](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## 我在「對應」區段中看不到我的報表套裝 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
@@ -38,7 +38,7 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-## 我在驗證 Google AdWords 帳戶時發生錯誤 {#section_C99EA9A1946E4908B36778A331142B84}
+## 我在驗證Google Ads帳戶時發生錯誤 {#section_C99EA9A1946E4908B36778A331142B84}
 
 <table id="table_F1C1192BF40C43CE8600B1BB417A7269"> 
  <thead> 
@@ -49,8 +49,8 @@ ht-degree: 50%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>您無法以同樣連結至 AdWords 管理員帳戶的電子郵件帳戶來驗證 Google AdWords。 </p> </td> 
-   <td colname="col2"> <p>請使用連結至相同 AdWords 帳戶的另一個電子郵件進行驗證。 </p> </td> 
+   <td colname="col1"> <p>使用也連結至Google廣告管理員帳戶的電子郵件帳戶向Google廣告進行驗證無法運作。 </p> </td> 
+   <td colname="col2"> <p>請使用連結至相同Google Ads帳戶的其他電子郵件來進行驗證。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

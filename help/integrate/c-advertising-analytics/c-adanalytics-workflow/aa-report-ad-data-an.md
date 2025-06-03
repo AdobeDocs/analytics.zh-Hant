@@ -1,18 +1,18 @@
 ---
-description: Analysis Workspace範本的詳細資訊以及Report Builder中的報告。
+description: Analysis Workspace範本的詳細資訊，以及Report Builder的報告功能。
 title: 報告 Adobe Analytics 中的 Advertising 資料
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 49%
+source-wordcount: '358'
+ht-degree: 46%
 
 ---
 
 # 廣告資料報表
 
-本文提供Analysis Workspace報表的詳細資訊，以及Report Builder中的報表。
+本文提供有關Analysis Workspace報表與Report Builder報表的詳細資訊。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 49%
 | 表格/視覺化 | 說明 |
 |--- |--- |
 | 廣告趨勢 | AMO 曝光數、AMO 點選次數和 AMO 成本每天的趨勢概觀。 |
-| 廣告平台 | 2 大平台 (Google、Bing) 的成本環圈圖。 |
+| 廣告平台 | 2大平台(Google Ads、Microsoft Advertising)的成本環圈圖。 |
 | 廣告平台總計 | 前幾大平台的自由表格 (依 AMO 曝光數、AMO 點選次數、AMO 成本、AMO 平均位置、AMO 平均值品質分數。 |
 | 帳戶 | 成本的堆疊區域。 |
 | 帳戶總計 | 前幾名帳戶的自由表格 (依相關聯量度劃分)。 |

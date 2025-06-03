@@ -3,10 +3,10 @@ description: 追蹤型別會決定Adobe Analytics實作如何追蹤您的搜尋�
 title: 追蹤型別
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 243da53fda562c856d95db0f6d13b7ee1a9adae5
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 32%
+source-wordcount: '572'
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/csp)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)。
 
 ## 手動追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -92,9 +92,9 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-### 將手動追蹤新增至Bing帳戶 {#section_094F8ACA493C4D65B1F54A695558EBF2}
+### 將手動追蹤新增至Microsoft Advertising帳戶 {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-以下是需要新增至 Bing 帳戶的字串。您需要將字串新增至帳戶使用的所有最終 URL 尾碼中。
+以下是需要新增至Microsoft Advertising帳戶的字串。 您需要將字串新增至帳戶使用的所有最終 URL 尾碼中。
 
 >[!IMPORTANT]
 >
@@ -106,7 +106,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId} 
 ```
 
-![Bing](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
+![新增追蹤程式碼引數](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/bing-account.png)
 
 各種最終 URL 尾碼格式的追蹤程式碼範例：
 

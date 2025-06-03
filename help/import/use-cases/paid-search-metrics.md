@@ -1,20 +1,20 @@
 ---
 title: 匯入付費搜尋量度
-description: 設定 Adobe Analytics 使用資料來源追蹤您的付費搜尋量度 (例如 Google AdWords、MSN、Yahoo 等) 的步驟。
+description: 設定Adobe Analytics以使用資料來源追蹤您的付費搜尋量度(例如Google Ads、Microsoft Advertising等)的步驟。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 38478fbccf7680e5b404b306136594e627d09a08
+source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
 workflow-type: tm+mt
 source-wordcount: '1205'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
 # 使用[!UICONTROL 資料來源]匯入[!UICONTROL 付費搜尋]量度
 
-對許多行銷組織而言，付費搜尋是觸及新客戶及留住現有客戶的最有價值且最可靠的方法之一。 Adobe Analytics 中的[!UICONTROL 資料來源]功能可讓您從 Google AdWords 之類的數位廣告平台輕鬆地匯入進階付費搜尋資料。 您可以將其與行銷資料的其餘部分整合，連同網站上的行為和客戶屬性資料，好讓您更深入了解組織的付費搜尋工作。
+對許多行銷組織而言，付費搜尋是觸及新客戶及留住現有客戶的最有價值且最可靠的方法之一。 Adobe Analytics中的[!UICONTROL 資料來源]功能可讓您從Google Ads之類的數位廣告平台輕鬆匯入進階付費搜尋資料。 您可以將其與行銷資料的其餘部分整合，連同網站上的行為和客戶屬性資料，好讓您更深入了解組織的付費搜尋工作。
 
-這些步驟向您說明如何設定與 AdWords 的整合來匯入關鍵字，以及曝光數、點按數、每次點按成本等量度。
+這些步驟向您說明如何設定與廣告的整合，以匯入關鍵字資料以及曝光數、點按數、每次點按成本等量度。
 
 步驟中會說明如何設定每次點按付費資料的一次性匯入。 不過，[!UICONTROL 資料來源]可讓您使用這裡所述的檔案格式持續匯入資料。 根據您的付費搜尋平台，您或許可以排程定期匯出 (每天、每月等)、設定自動化流程來將這些匯出轉換成 Adobe Analytics 所需的檔案格式，以及將這些檔案上傳到 Adobe Analytics 以取得付費搜尋整合報告。
 
@@ -70,9 +70,9 @@ ht-degree: 97%
    ![對應](assets/data-source-mapping.png)
 
 1. 選擇資料維度
-選取「追蹤代碼」旁邊的方塊，然後按&#x200B;**[!UICONTROL 下一步]**。
+選取「追蹤代碼」旁邊的方塊，然後按**[!UICONTROL 下一步]**。
 1. 對應資料維度。
-將匯入的資料維度 (屬性) 對應到您想要用來儲存它的 Adobe Analytics 屬性。 這可能是標準維度或 eVar。 當您按&#x200B;**[!UICONTROL 下一步]**&#x200B;之後，摘要中會顯示產生的對應：
+將匯入的資料維度 (屬性) 對應到您想要用來儲存它的 Adobe Analytics 屬性。 這可能是標準維度或 eVar。 當您按**[!UICONTROL 下一步]**&#x200B;之後，摘要中會顯示產生的對應：
 
    ![摘要](assets/data-source-summary.png)
 
@@ -84,7 +84,7 @@ ht-degree: 97%
 
 ## 匯出 PPC 資料並將其上傳到 Analytics
 
-與這些類似的步驟也適用於 Google Adwords、MSN、Yahoo 和其他 PPC 帳戶。
+類似這些的步驟適用於Google Ads、Microsoft Advertising和其他PPC帳戶。
 
 ### 匯出資料
 
@@ -99,9 +99,9 @@ ht-degree: 97%
 1. 刪除上方任何多餘的列。
 1. 若要將追蹤代碼與目的地 URL 分開：
 a. 複製並貼上所有欄中的資料。
-b. 按一下&#x200B;**[!UICONTROL 資料 > 資料剖析]**。
-c. 在精靈中的步驟 1，確定已選取&#x200B;**[!UICONTROL 分隔符號]**，然後按&#x200B;**[!UICONTROL 下一步]**。
-d. 在精靈中的步驟 2，根據您建立 URL 的方式來指定分隔符號 (? 或 &amp;)，然後按&#x200B;**[!UICONTROL 下一步]**。
+b. 按一下**[!UICONTROL 資料 > 資料剖析]**。
+c. 在精靈中的步驟 1，確定已選取**[!UICONTROL 分隔符號]**，然後按&#x200B;**[!UICONTROL 下一步]**。
+d. 在精靈中的步驟 2，根據您建立 URL 的方式來指定分隔符號 (? 或 &amp;)，然後按**[!UICONTROL 下一步]**。
 e. 在精靈中的步驟 3，預覽您的資料，並確定其中一欄為「trackingcodename=trackingcode」。 如果您有其他變數，請重複這些步驟 (使用 &amp; 當作分隔符號)。
 f. 刪除追蹤代碼、曝光率、點按數和成本以外的所有欄。 新增稱為「日期」的一個新欄，並依照以下順序組織您的欄：日期 :: 追蹤代碼 :: 曝光率 :: 點按數 :: 成本。
 1. 將此資料新增到您在上述「設定資料來源」一節中所下載的範本。
@@ -117,7 +117,7 @@ f. 刪除追蹤代碼、曝光率、點按數和成本以外的所有欄。 新�
 
 在制定每次點按付費決策時，新增計算量度會很有幫助。
 
-例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant#calculated-metrics)：
+例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)：
 
 | 名稱 | 公式 | 量度類型 | 說明 |
 | --- | --- | --- | --- |
