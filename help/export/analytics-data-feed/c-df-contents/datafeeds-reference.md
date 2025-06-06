@@ -195,7 +195,7 @@ ht-degree: 66%
 | **`va_new_engagement`** | 識別行銷管道[新參與](/help/components/metrics/new-engagements.md)的旗標。 | 不帶正負號的 tinyint |
 | **`video`** | [內容](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
 | **`videoad`** | [廣告](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadinpod`** | Pod位置](/help/components/dimensions/sm-ads.md)串流媒體維度中的[廣告。 | varchar(255) |
+| **`videoadinpod`** | Pod位置[&#128279;](/help/components/dimensions/sm-ads.md)串流媒體維度中的廣告。 | varchar(255) |
 | **`videoadlength`** | [廣告長度（變數）](/help/components/dimensions/sm-ads.md)串流媒體維度。 | 整數 |
 | **`videoadload`** | [廣告載入](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
 | **`videoadname`** | [廣告名稱（變數）](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM物件變數對應](/help/implement/aep-edge/xdm-var-mapping.md)
->>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
