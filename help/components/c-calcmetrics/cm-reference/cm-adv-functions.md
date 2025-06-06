@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
 source-git-commit: 73b54193f1c0f2548ef31bac0f36ff890494c24e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5026'
 ht-degree: 100%
 
@@ -215,13 +215,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="上限"
->abstract="傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。"
+>abstract="傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL CEILING (量度)]**
 
-[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入四捨五入至最接近的金額，即 $570。
+[!BADGE 列]{type="Neutral"}傳回不小於給定值的最小整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 CEILING(Revenue) 將收入無條件進位至最接近的金額，即 $570。
 
 | 引數 | 說明 |
 |---|---|
@@ -527,13 +527,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-floor"
 >title="下限"
->abstract="傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。"
+>abstract="傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg) **[!UICONTROL FLOOR (metric_X、metric_Y、include_zeros)]**
 
-[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入向下捨去至最接近的金額 $569。
+[!BADGE 列]{type="Neutral"}傳回不大於給定值的最大整數。例如，若您不希望報告中的收入出現貨幣小數位數，而有個產品是 $569.34，則使用公式 FLOOR(Revenue) 將收入無條件捨去至最接近的金額 $569。
 
 | 引數 | 說明 |
 |---|---|
