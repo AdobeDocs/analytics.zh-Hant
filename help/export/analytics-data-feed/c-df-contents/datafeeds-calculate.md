@@ -4,10 +4,10 @@ keywords: 資料摘要；量度；預先欄位；後置欄位；bots；日期篩
 title: 計算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 95%
+source-wordcount: '499'
+ht-degree: 76%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->通常會從 Adobe Analytics 排除的點擊會包含在資料摘要中。使用 `exclude_hit = 0` 從對原始資料的查詢移除已排除的點擊。資料來源的資料也包含在資料摘要中。若要排除資料來源，請排除所有含有 `hit_source = 5,7,8,9` 的列。
+>通常會從Analysis Workspace排除的點選會包含在資料摘要中。 如果查詢相關，請考慮將下列條件新增至查詢：
+>
+>* **`exclude_hit`**： Analysis Workspace僅包含`exclude_hit = 0`的資料。
+>* **`customer_perspective`**： Analysis Workspace僅包含`customer_perspective = 0`的資料，除非您使用包含行動背景點選的虛擬報表套裝。
+>* **`hit_source`**：資料來源的資料可能包含原始資料與Analysis Workspace之間的差異。 若要從資料來源排除點選，請排除`hit_source = 5,7,8,9`的所有列。
 
 ## 頁面檢視
 
@@ -38,7 +42,7 @@ ht-degree: 95%
 
 ## 訪客
 
-Adobe 用來識別獨特訪客的所有方法 (自訂訪客 ID、Experience Cloud ID 服務等)最終都會計算為 `post_visid_high` 和 `post_visid_low` 中的值。這兩欄的串連可用來當作識別獨特訪客的標準，不論識別為獨特訪客的方式為何皆然。如果您想了解 Adobe 用來識別獨特訪客的方法，請使用 `post_visid_type` 欄。
+Adobe用來識別獨特訪客的所有方法(自訂訪客ID、Experience Cloud ID服務等)最終都會計算為`post_visid_high`和`post_visid_low`中的值。 這兩欄的串連可用來當作識別獨特訪客的標準，不論識別為獨特訪客的方式為何皆然。如果您想了解 Adobe 用來識別獨特訪客的方法，請使用 `post_visid_type` 欄。
 
 1. 串連 `post_visid_high` 和 `post_visid_low`。
 2. 計算值的唯一數目。
