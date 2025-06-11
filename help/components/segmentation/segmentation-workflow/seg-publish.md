@@ -6,21 +6,21 @@ exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 64%
+ht-degree: 68%
 
 ---
 
-# 將區段發佈至Experience Cloud {#publish-segments}
+# 將區段發佈至 Experience Cloud {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Experience Cloud發佈"
->abstract="您可以將從此區段衍生的對象發佈到對象庫，以便用於Target和其他Experience Cloud解決方案中的行銷活動。"
+>title="Experience Cloud 發佈"
+>abstract="您可以將此區段所衍生的客群發佈至客群庫，並將其用於 Target 和其他 Experience Cloud 解決方案中的行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audienclibrary"
 >title="客群庫"
->abstract="在對象庫中建立的區段可立即使用，而且不依賴Analytics更新。"
+>abstract="在客群庫中所建立的區段可立即使用，非取決於 Analytics 更新。"
 
 
 將Adobe Analytics區段發佈至Experience Cloud，可讓您在[!DNL Audience Manager]和其他啟用管道(包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign])中，使用該區段進行行銷活動。

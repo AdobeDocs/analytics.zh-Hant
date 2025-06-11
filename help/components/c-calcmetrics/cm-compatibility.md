@@ -6,7 +6,7 @@ exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 source-git-commit: d9f95b12a43305cecff1190e6544334f3b48835d
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 50%
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 50%
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_productcompatibility"
 >title="產品相容性"
->abstract="「少數可用的量度條件與所有Adobe Analytics工具不相容。 與量度相容的工具會在此清單中指明。 若要讓量度與所有Adobe Analytics工具相容，請嘗試編輯您的條件。"
+>abstract="&#39;少數幾項可供使用的量度條件無法與所有 Adobe Analytics 工具相容。此清單中列出與量度相容的工具。若要讓量度可與所有 Adobe Analytics 工具相容，請嘗試編輯條件。"
 
 本文說明三種產品相容性選項。
 
