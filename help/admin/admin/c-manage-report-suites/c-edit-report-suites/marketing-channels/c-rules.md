@@ -4,7 +4,7 @@ description: 行銷管道處理規則確定了訪客點按是否符合要指定�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
-source-git-commit: 09c1484f3f1f1a7f5e25aa24a333dbaabb4dc9d0
+source-git-commit: fc8882a33227b1f1ed22cab95b5df3ea51e62d43
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 91%
@@ -82,7 +82,7 @@ ht-degree: 91%
 | 反向連結匹配內部 URL 篩選器 | 瀏覽的頁面 URL 與內部 URL 篩選器匹配，該內部 URL 篩選器是為「管理工具」的報表套裝而定義的。 |
 | 反向連結不匹配內部 URL 篩選器 | 反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。您可以使用這個「頁面 URL」和「存在」的設定來設定範圍廣泛的規則，如此一來就不會有任何造訪落在報表的未識別管道區段中。 |
 | 忽略符合內部 URL 篩選條件的點按 | (適用於反向連結) 僅跟蹤來自外部反向連結網站的點按。通常，除非您想要包含內部流量，否則此設定保留啟用。 |
-| 是第一個瀏覽的頁面 | 由 Adobe 報表偵測到的瀏覽首頁。 |
+| 是造訪的第一次點擊 | Adobe報表偵測到的第一次造訪點選。 |
 | 頁面 | [頁面](/help/components/dimensions/page.md)維度。 |
 | 頁面網域 | 訪客著陸的頁面網域，例如 `products.example.com`。 |
 | 頁面網域和路徑 | 網域和路徑，例如 `products.example.com/mens/pants/overview.html`。 |
@@ -165,7 +165,7 @@ Adobe 會根據搜尋引擎的內部查詢來決定搜尋流量。如果反向�
 
 ![](assets/int-channel1.png)
 
-若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=zh-Hant#internal)。
+若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)。
 
 ### 直接 {#direct}
 
