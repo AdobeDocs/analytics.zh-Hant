@@ -165,7 +165,7 @@ Adobe 會根據搜尋引擎的內部查詢來決定搜尋流量。如果反向�
 
 ![](assets/int-channel1.png)
 
-若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)。
+若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=zh-Hant#internal)。
 
 ### 直接 {#direct}
 
