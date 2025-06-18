@@ -6,7 +6,7 @@ exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
 source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
@@ -45,9 +45,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_account_id"
 >title="帳戶 ID"
->abstract="「帳戶ID」是位於Microsoft Advertising介面中的數值。 您可以導覽至「設定>帳戶設定>帳戶ID」找到它。"
+>abstract="「帳戶 ID」是位於 Microsoft Advertising 介面中的數值。導覽至「設定 > 帳戶設定 > 帳戶 ID」即可找到。"
 
 >[!CONTEXTUALHELP]
 >id="adanalytics_ma_manager_account_id"
->title="經理帳戶ID"
->abstract="「管理員帳戶ID」是位於Microsoft Advertising介面中的數值。 您可以瀏覽至「設定>管理員帳戶設定>管理員帳戶ID」，找到它。"
+>title="管理員帳戶 ID"
+>abstract="「管理員帳戶 ID」是位於 Microsoft Advertising 介面中的數值。導覽至「設定 > 管理員帳戶設定 > 管理員帳戶 ID」即可找到。"
