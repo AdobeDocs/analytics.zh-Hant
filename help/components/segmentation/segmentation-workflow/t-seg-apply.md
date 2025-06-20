@@ -20,7 +20,7 @@ ht-degree: 0%
 * Analysis Workspace中[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的一列，用以起始劃分。
 * Analysis Workspace中[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的資料行，用來新增或取代資料行，或起始篩選器。
 * 設定允許放置區段的視覺效果面板或面板。 例如，在[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板中，或[關鍵量度](/help/analyze/analysis-workspace/visualizations/key-metric.md)摘要視覺效果中
-* 區段](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)的[定義產生器，因此您在區段定義中包含區段。
+* 區段[&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)的定義產生器，因此您在區段定義中包含區段。
 * 計算量度的[定義產生器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder)，因此您在計算量度定義中包含區段。
 
 <!--
