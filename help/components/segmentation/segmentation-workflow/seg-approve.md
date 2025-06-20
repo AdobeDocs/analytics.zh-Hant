@@ -3,31 +3,26 @@ description: 在「區段管理器」內，您可以設立工作流程來核准�
 title: 核准區段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 53%
+source-wordcount: '135'
+ht-degree: 24%
 
 ---
 
 # 核准區段
 
-在「區段管理器」內，您可以建立工作流程來核准適合各種應用層級、適合特定的部門或群組，且符合報表原則的區段。
+在[區段管理員](seg-manage.md)中，您可以核准和取消核准區段。 只有管理員可以核准區段。
 
->[!NOTE]
->
->管理員也可以核准資料字典中的區段（和其他元件），如[編輯資料字典中的元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)所述。
->
->任何在資料字典中核准的區段都會反映在區段管理器中。 同樣地，區段管理員中核准的量度會反映在資料字典中。
+若要核准區段：
 
-以下說明將區段標幟為已核准的程序：
+1. 在[區段管理員](seg-manage.md)中，選取一或多個要核准的區段。
+1. 從動作列中選取![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]**。 核准的區段以![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)表示
 
-1. 在「區段管理器」中，勾選區段標題左側的核取方塊。
-1. 在區段管理工作列中，按一下「**[!UICONTROL 核准]**」。
-1. 考慮將核准的區段共用給組織。
-1. 按一下&#x200B;**[!UICONTROL 確定]**。
-1. 注意清單中該區段旁出現核准圖示。
+若要取消核准區段，請執行下列動作：
 
-   ![](assets/seg_approved.png)
+1. 在[區段管理員](seg-manage.md)中，選取一或多個要取消核准的區段。
+1. 從動作列中選取![核取記號圓形](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消核准]**。
 
-1. 您也可以按一下&#x200B;**[!UICONTROL 「取消核准」]**，將核准的區段取消核准。
+
+您可以依核准的區段劃分割槽段清單。 從![區段](/help/assets/icons/Filter.svg) **[!UICONTROL 區段]**&#x200B;面板中選取&#x200B;**[!UICONTROL 其他區段]**，然後選取&#x200B;**[!UICONTROL 已核准]**。 如需詳細資訊，請參閱[將區段清單](t-seg-filter.md)分段。

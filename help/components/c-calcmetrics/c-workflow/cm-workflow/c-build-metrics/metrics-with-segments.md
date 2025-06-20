@@ -3,74 +3,86 @@ description: 對個別量度分段可讓您在同一份報表中比較量度。
 title: 分段量度
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 68%
+source-wordcount: '458'
+ht-degree: 4%
 
 ---
 
 # 區段量度
 
-在計算量度產生器中，您可以在量度定義中套用區段。如果您想導出新的量度以便在分析中使用，這會很有幫助。請記住，區段定義可透過區段產生器進行更新。如果進行了更動，該區段將自動更新任何套用此區段的地方，包括如果此區段屬於計算量度定義的一部分。
+在[計算量度產生器](cm-build-metrics.md#definition-builder)中，您可以在量度定義中套用區段。 如果您想要在分析中將量度用於資料的子集，套用區段會很有幫助。
 
-![](assets/german-visitors.png)
+>[!NOTE]
+>
+>透過[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)更新區段定義。 如果您變更區段，該區段會在任何使用它的地方自動更新，包括如果該區段屬於計算量度定義的一部分。
+>
 
-## 建立區段量度 {#create}
+您想要比較和您的品牌互動的德國人員與德國以外人員的量度。 因此，您可以回答以下問題：
 
-假設您想比較「德國訪客」區段和「國際訪客」區段的不同面向。您可以建立能提供下列深入分析的量度：
+1. 有多少德國和國際人士造訪您最受歡迎的[頁面](#popular-pages)。
+1. 本月[總計](#totals)有多少德國和國際人士與您的品牌進行線上互動。
+1. 造訪過您熱門頁面的德國人和海外人士的[百分比](#percentages)為何？
 
-* 這兩個群組的內容瀏覽行為相較之下的結果為何？(另一個範例：這兩個區段的轉換率相較之下的結果為何？)
-* 相較於國際訪客，德國訪客瀏覽特定頁面佔總訪客人數的百分比為多少？
-* 就這兩個不同區段所存取的內容來說，最大差異為何？
+請參閱以下各節，說明區段量度如何協助您回答這些問題。 在適當的情況下，會參考更詳細的檔案。
 
-建立並儲存名為「德國訪客」的量度，以及名為「國際訪客」的量度：
+## 受歡迎頁面
 
-1. 在計算量度產生器中建立一個名為「德國訪客」的臨時區段，其中「國家/地區」等於「德國」。
+1. [從名為`Germany`的Workspace專案建立計算量度](../cm-workflow.md)。
+1. 從[計算量度產生器](cm-build-metrics.md)中，[使用「國家/地區」欄位，建立標題為`Germany`的區段](/help/components/segmentation/segmentation-workflow/seg-build.md)。
 
-   將「國家/地區」維度拖曳至「定義」畫布，並選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值：
-
-   ![](assets/segment-from-dimension.png)
-
-   >[!NOTE]
+   >[!TIP]
    >
-   >您也可以在[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中進行此步驟。但我們已透過在計算量度產生器中提供維度簡化了工作流程。 「臨時」表示左側邊欄的「**[!UICONTROL 區段]**」清單中不會顯示此區段。但您可以將滑鼠游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
+   >在計算量度產生器中，您可以使用「元件」面板直接建立區段。
+   >   
 
-1. 將「德國」區段拖曳至「定義」畫布，並將「不重複訪客」量度拖曳至其中：
+   您的區段可能如下所示。
 
-   ![](assets/german-visitors.png)
+   ![德國區段](assets/segment-germany.png)
 
-1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
+1. 返回計算量度產生器，使用區段更新計算量度。
 
-1. 在計算量度產生器中建立一個名為「國際訪客」的臨時區段，其中「國家/地區」不等於「德國」。
+   ![計算量度Germany](assets/germany-visits.png)
 
-   將「國家/地區」維度拖曳至「定義」畫布，選取&#x200B;[!UICONTROL **Germany**]&#x200B;作為值，然後選取&#x200B;[!UICONTROL **does not equal**]&#x200B;作為運運算元。
+針對計算量度的國際版本重複上述步驟。
 
-1. 將「不重複訪客」量度拖曳至其中。
+1. 從您的Workspace專案中建立標題為`Non Germany visits`的計算量度。
+1. 在計算量度產生器中，建立名為`Not Germany`的區段，此區段會使用您CRM資料中的CRM國家/地區欄位來判斷人員的來源。
 
-1. 選取&#x200B;[!UICONTROL **儲存**]&#x200B;以儲存計算量度。
+   您的區段看起來應該像這樣。
 
-1. 在 Analysis Workspace 中，將&#x200B;**[!UICONTROL 「頁面]**&#x200B;維度」拖曳至「自由表格」中，並將 2 個相鄰的新計算量度拖曳到最上方：
+   ![德國區段](assets/segment-not-germany.png)
 
-   ![](assets/workspace-pages.png)
+1. 返回計算量度產生器，使用區段更新計算量度。
 
-
->[!BEGINSHADEBOX]
-
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [分段量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}。
-
->[!ENDSHADEBOX]
+   ![計算量度Germany](assets/non-germany-visits.png)
 
 
-## 佔總量度的百分比 {#percent-total}
+1. 在Analysis Workspace中建立專案，在其中檢視德國和非德國訪客造訪的頁面。
 
-您可以透過將您的區段與總人口進行比較，進一步分析上述範例。若要這麼做，請先建立兩個新量度，「德國訪客總數 %」和「國際訪客總數 %」：
+   ![Workspace自由格式表格視覺效果顯示德國人員與國際人員](assets/workspace-german-vs-international.png)
 
-1. 將德國 (或國際) 訪客區段拖曳至畫布中。
-1. 將另一個德國 (或國際) 訪客區段拖曳至下方。但這次按一下其設定 (齒輪) 圖示，選取量度類型「總計」。格式應為「百分比」。運算元應為「除以」。結果會產生此量度定義：
 
-   ![](assets/cm_metric_total.png)
+## 總計
 
-1. 將此量度套用至專案：
+1. 根據「總量」建立兩個新計算量度。 開啟先前建立的每個區段、重新命名區段、將&#x200B;**[!UICONTROL 人員]**&#x200B;的&#x200B;**[!UICONTROL 量度型別]**&#x200B;設定為&#x200B;**[!UICONTROL 總計]**，並使用&#x200B;**[!UICONTROL 另存新檔]**&#x200B;以新名稱儲存區段。 例如：
 
-   ![](assets/cm_percent_total.png)
+   德國的![總計量度](assets/calculated-metric-germany-total.png)
+
+1. 在您的Workspace專案中新增自由表格視覺效果，顯示今年的總頁面數。
+
+   ![Workspace自由格式表格視覺效果顯示德文人員與國際人員總數](assets/workspace-german-vs-international-totals.png)
+
+
+## 百分比
+
+1. 建立兩個新計算量度，用於根據您先前建立的計算量度計算百分比。
+
+   ![Workspace自由格式表格視覺效果顯示德文人員與國際總人員百分比](assets/calculated-metric-germany-total-percentage.png)
+
+
+1. 更新您的Workspace專案。
+
+   ![Workspace自由格式表格視覺效果顯示德文人員與國際人員總數](assets/workspace-german-vs-international-totals-percentage.png)
+

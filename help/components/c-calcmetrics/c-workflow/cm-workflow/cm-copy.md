@@ -3,23 +3,22 @@ description: 說明如何在計算量度管理員中複製計算量度
 title: 複製計算量度
 feature: Calculated Metrics
 exl-id: ddc18c22-30b4-4ccb-ac6b-e74dfde98a27
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 6%
 
 ---
 
+
 # 複製計算量度
 
-建立新的計算量度時，有時比較容易複製與您要建立的計算量度接近的現有計算量度，然後修改您複製的版本。
+建立新的計算量度時，不必從頭開始。 您可以複製已提供適當定義的現有計算量度，以從中開始，然後修改您所複製的版本。
 
-若要在計算量度管理員中複製計算量度：
+若要在[計算量度管理員](cm-manager.md)中複製計算量度：
 
-1. 在Adobe Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 計算量度]**。
+1. 在[計算量度管理員](cm-manager.md)中，選取一或多個要複製的計算量度。
+1. 從動作列中選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製]**。
 
-1. 在計算量度管理員中，選取您要複製的計算量度。
+新的計算量度是以相同的名稱和尾碼`(Copy)`建立。
 
-   計算量度管理工具列隨即顯示。
-
-1. 選取&#x200B;**[!UICONTROL 複製]**。

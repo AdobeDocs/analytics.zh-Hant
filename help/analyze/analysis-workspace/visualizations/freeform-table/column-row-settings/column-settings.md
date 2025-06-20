@@ -5,9 +5,9 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '860'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -108,10 +108,20 @@ ht-degree: 100%
 
 {{attribution-models-details}}
 
-### 回顧期間
+
+### 容器
+
+{{attribution-container}}
+
+
+### 回顧視窗
 
 {{attribution-lookback-window}}
 
+
+### 範例
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

@@ -3,77 +3,140 @@ description: 「區段管理員」提供許多管理區段的方式，例如共�
 title: 管理區段（區段管理員）
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 8e8f59f747ddacc5462cbc177d199a5e0e91908a
+source-git-commit: 5819026bd3798cd936094f138cd236b1cb4b278e
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 27%
+source-wordcount: '564'
+ht-degree: 67%
 
 ---
 
-# 區段管理員
+# 管理區段
 
-「區段管理員」提供許多管理區段的方式，例如共用、篩選、標記、核准、複製、刪除和標示為我的最愛。
 
-「Analytics 區段管理員」會顯示您所擁有以及已經與您共用的區段。管理員級使用者可以查看組織中的所有區段。此概覽會介紹「區段管理員」的使用者介面和功能。
+您可以[共用](t-seg-share.md)、[劃分](t-seg-filter.md)、[標記](seg-tag.md)、[核准](seg-approve.md)、重新命名、[複製](seg-copy.md)、刪除、匯出區段以及將區段標示為[我的最愛](t-seg-favorite.md) (從統一的[!UICONTROL 區段]管理介面進行)。若要管理區段：
 
-![區段管理員](assets/segments-manager.png)
+* 在主介面中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 區段]**」。
 
-## 存取「區段管理員」
 
-1. 在Adobe Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 區段]**。
+>[!NOTE]
+>
+>您在特定Workspace專案中建立的快速區段不會出現在[!UICONTROL 區段]管理員中，除非您讓該區段可用於您的所有專案。
+>
 
-   或
+## 區段管理員
 
-   在現有報表中，選取左側導覽的「區段」圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)，然後選取&#x200B;**[!UICONTROL 管理]**。
+區段管理員有以下介面元素：
 
-## 「區段管理員」中的可用動作
+![區段介面](assets/segments-manager.png)
 
-在「區段管理員」中，您可以：
+### 區段清單
 
-* [篩選區段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+區段清單➊會顯示您擁有的所有區段、已設定您所有專案範圍的區段，以及已與您共用的區段。 清單有以下欄位：
 
-* [將區段標示為最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+| 欄 | 說明 |
+| --- | --- | 
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以將區段設為我的最愛 ![Star](/help/assets/icons/Star.svg) 或取消我的最愛 ![StarOutline](/help/assets/icons/StarOutline.svg)。請參閱[將區段標示為我的最愛](t-seg-favorite.md) |
+| **[!UICONTROL 標題和說明]** | 若要編輯區段，請選取標題連結，以開啟[區段產生器](seg-build.md)。 共用的區段會以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
+| **[!UICONTROL 報表套裝]** | 套用此區段的報表套裝。 |
+| **[!UICONTROL 所有者]** | 區段的所有者。做為使用者，您只能看到您擁有的區段或與您共用的註解。 |
+| **[!UICONTROL 標記]** | 此區段的標記。 |
+| **[!UICONTROL 共用對象]** | 您將區段與之共用的人數或群組數。選取開啟「**[!UICONTROL 共用元件]**」對話框。如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
+| **[!UICONTROL 已發佈]** | [區段是否已發佈](seg-publish.md)至Experience Cloud。 |
+| **[!UICONTROL 修改日期]** | 上次修改區段的日期和時間。 |
 
-* [核准區段](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)指定要顯示的欄位。
 
-* [標記區段](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+### 動作列
 
-* [共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+您可以使用動作列➋對區段進行動作。 動作列包含以下動作：
 
-* 將區段匯出至CSV檔案。
+| 動作 | 說明 |
+|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]** | 使用[區段產生器](seg-build.md)新增另一個區段。 |
+| ![Search](/help/assets/icons/Search.svg) [!UICONTROL *根據標題搜尋*] | 當未選取清單中任何區段時，請使用此搜尋欄位搜尋區段。 |
+| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL 標記]** | 標記所選取之區段。在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
+| ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用所選取之區段。在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話框中，您可以 ![Search](/help/assets/icons/Search.svg) *搜尋個人或群組*，或者您可以選取「**[!UICONTROL 組織]**」或「**[!UICONTROL 群組]**」。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的共用詳細資訊。如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
+| ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。選取後，您可以重新命名內嵌區段。 |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選取之區段。如需詳細資訊，請參閱[核准區段](seg-approve.md)。 |
+| ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製所選取之區段。使用相同的名稱和字尾建立新區段`(Copy)`。 |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出為 CSV]** | 將區段匯出為 `Segments List.csv` 檔案。 |
 
-* [複製區段](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+### 使用中的篩選欄
 
-* [刪除區段](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+篩選列➌顯示從篩選面板套用至區段清單（如果有的話）的作用中區段。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定了多個篩選器，您可以使用&#x200B;**[!UICONTROL 全部移除]**&#x200B;來移除所有篩選器。
 
-## 設定欄
+### 篩選面板
 
-您可以設定要顯示的欄，以設定「區段管理員」中每個區段顯示的資訊。
+您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選區段清單。 篩選器面板會顯示篩選器的型別以及遵循特定篩選器的區段數。 選取![篩選器](/help/assets/icons/Filter.svg)以切換篩選器面板的顯示。
 
-若要在「區段管理員」中設定可見欄：
+如需詳細資訊，請參閱[篩選區段清單](t-seg-filter.md)。
 
-1. 在Adobe Analytics中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 區段]**。
 
-1. 在區段管理員中，選取&#x200B;**自訂欄**&#x200B;圖示![自訂欄圖示](assets/customize-columns-icon.png)，然後選取您要顯示在區段管理員中的欄。
+<!--
 
-   可使用下列欄:
+The Segment Manager offers many ways of curating segments, such as sharing, filtering, tagging, approving, copying, deleting, and marking as favorites.
 
-   | 欄標題 | 說明 |
+The Analytics Segment Manager shows you all the segments you own and that have been shared with you. Admin-level users can see all segments in the organization. This overview presents the user interface and the capabilities of the Segment Manager. 
+
+![Segments manager](assets/segments-manager.png)
+
+## Access the Segment Manager
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**.
+
+   Or 
+
+   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+
+## Available actions in the Segment Manager
+
+In the Segment Manager, you can:
+
+* [Filter segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [Approve segments](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [Tag segments](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [Share segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* Export a segment to a CSV file.
+
+* [Copy segments](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [Delete segments](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## Configure columns
+
+You can configure the information displayed for each segment in the Segment Manager by configuring the columns that are displayed.
+
+To configure the visible columns in the Segment Manager:
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Segments]**. 
+
+1. In the Segment Manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Segment Manager.
+
+   The following columns are available:
+
+   | Column title | Description  |
    |---|---|
-   | 標題和說明 | 這些值會在區段產生器中提供。 若要編輯標題和說明，請選取標題連結以開啟區段產生器。 |
-   | 我的最愛 | 在每個區段旁顯示星號圖示，讓您將區段標示為我的最愛。 如需詳細資訊，請參閱[將區段標示為我的最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)。 |
-   | 報告套裝 | 此欄指出上次將區段儲存到的目標報表套裝。 |
-   | 擁有者 | 指出區段的擁有者。如果您不是管理員，您只能看見自己所擁有或已共用給您的區段。 |
-   | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用區段給您的人員對區段套用的標記。 |
-   | 共用對象 | 列出您將區段共用給的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 <p>當您共用區段時，區段名稱旁邊會顯示共用圖示。</p> |
-   | 修改日期 | 顯示上次修改區段的日期。 |
-   | 使用於 | 顯示目前區段的使用位置以及在每個區域中使用區段的次數。 <p>例如，如果區段用於40個專案和2個警示，則此欄的值顯示為&#x200B;[!UICONTROL **42個元件**]。</p> <p>選取此欄中的值，以檢視使用區段的劃分(例如，[!UICONTROL **專案(40)**]、[!UICONTROL **警報(2)**])。 此外，您可以檢視使用區段的專案清單。 例如，檢視使用它們的專案清單，選取&#x200B;[!UICONTROL **專案(40)**]&#x200B;連結。</p><p>下列各區顯示在該區域使用的區段例項數：</p>  <ul><li>[!UICONTROL **專案**]<p>包含[在區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中建立且適用於所有專案的區段。</p></li><li>[!UICONTROL **臨時元件**]<p>包含[建立為快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)的區段，且僅適用於單一專案。</p></li><li>[!UICONTROL **已排程的專案**]</li><li>[!UICONTROL **行動計分卡**]</li><li>[!UICONTROL **註解**]</li><li>[!UICONTROL **警報**]</li><li>[!UICONTROL **計算量度**]</li><li>[!UICONTROL **Report Builder**]<p>選取此選項可下載包含下列資料欄的CSV檔案：</p><ul><li>Report Builder名稱</li><li>上次存取</li><li>上次存取IMS使用者ID</li><li>上次存取的使用者名稱</li></ul><p>檢視Report Builder的資訊時，自2024年9月起即可使用相關資訊。</p></li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊僅供系統管理員使用。</li><li>預設不會顯示&#x200B;**資料行中使用的**。 [設定資料行](#configure-columns)以顯示它。</li><li>如果區段在其定義中包含另一個區段，則該區段的任何使用都不會顯示在&#x200B;[!UICONTROL **Used in**]&#x200B;欄中。 如果區段包含在另一種元件型別（例如計算量度）的定義中，則使用狀況會顯示在&#x200B;[!UICONTROL **用於**]&#x200B;欄中。</li><li>此資訊不包括來自API或Data Warehouse的使用情況。</li><li>如果此欄中沒有指定元件的資料，但具有&#x200B;[!UICONTROL **上次使用**]&#x200B;日期，則表示該元件可能已用於分析而未儲存。</li><li>使用情況資訊從 2023 年 9 月開始提供。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。</p> |
-   | 上次使用 | 顯示上次在下列任何元件型別中使用區段的日期： <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>區段</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>檢視此欄時請考慮以下事項：</p><ul><li>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</li><li>對於某些元件，如果元件是在2023年9月之前最後一次使用，則此欄可能不包含資料。</li><li>此資訊僅供系統管理員使用。</li></ul><p>您可以搭配此資訊使用[資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)，協助您追蹤並更清楚瞭解組織中如何使用元件。 |
-
+   | Title and description | These values are provided in the Segment builder. To edit the title and description, select the title link to open the Segment builder.  |
+   | Favorites  | Displays star icons next to each segment, allowing you to mark segments as favorites. For more information, see [Mark segments as favorites](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | Report suites  | This column indicates in which report suite the segment was last saved.  |
+   | Owner  | Indicates who owns the segment. As a non-Admin, you can see only segments you own or those that were shared with you.  |
+   | Tags (not checked in column selector, hence column not appearing)  | Tags that were applied to the segment, either by you or by people who shared the segment with you.  |
+   | Shared with  | Lists individuals or groups (Admin only) or All (Admin only) that you shared the segment with. <p>When a segment is being shared by you or with you, a share icon displays next to the segment name.</p>|
+   | Date modified  | Shows the date that the segment was last modified.  |
+   | Used in | Shows where segments are currently being used, and how many times they are being used in each area. <p>For example, if the segment is being used in 40 projects and 2 alerts, then the value of this column shows as [!UICONTROL **42 components**].</p> <p>Select the value in this column to see the breakdown of where the segments are being used (for example, [!UICONTROL **Projects (40)**], [!UICONTROL **Alerts (2)**]). Furthermore, you can view the list of items where the segments are being used. For example, so see the list of projects where they are being used, select the [!UICONTROL **Projects (40)**] link.</p><p>Each of the following areas shows the number of instances of segments being used in that area:</p>  <ul><li>[!UICONTROL **Projects**]<p>Contains segments that were [created in the segment builder](/help/components/segmentation/segmentation-workflow/seg-build.md) and are available for all projects.</p></li><li>[!UICONTROL **Ad hoc components**]<p>Contains segments that were [created as quick segments](/help/analyze/analysis-workspace/components/segments/quick-segments.md) and are available only within a single project.</p></li><li>[!UICONTROL **Scheduled projects**]</li><li>[!UICONTROL **Mobile Scorecards**]</li><li>[!UICONTROL **Annotations**]</li><li>[!UICONTROL **Alerts**]</li><li>[!UICONTROL **Calculated metrics**]</li><li>[!UICONTROL **Report Builder**]<p>Selecting this option downloads a CSV file, with the following columns of data:</p><ul><li>Report Builder Name</li><li>Last accessed</li><li>Last accessed IMS User ID</li><li>Last accessed user name</li></ul><p>When viewing information for Report Builder, usage information is available starting in September 2024.</p></li></ul><p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information is available only to system administrators.</li><li>The [!UICONTROL **Used in**] column does not display by default. [Configure columns](#configure-columns) to display it.</li><li>If a segment includes another segment in its definition, any use of that segment is not shown in the [!UICONTROL **Used in**] column. If a segment is included in the definition of another type of component (such as a calculated metric), then usage is shown in the [!UICONTROL **Used in**] column.</li><li>This information does not include usage from the API or Data Warehouse.</li><li>If there is no data in this column for a given component but it has a [!UICONTROL **Last used**] date, the component might have been used in an analysis without being saved.</li><li>Usage information is available starting in September 2023.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization.</p>  |
+   | Last used | Shows the date when the segment was last used in any of the following component types: <ul><li>Alerts</li><li>Calculated metrics</li><li>Projects</li><li>Scheduled projects</li><li>Segments</li></ul> <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li><li>This information is available only to system administrators.</li></ul><p>You can use the [Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) along with this information to help you keep track of and better understand how components are being used in your organization. |
+   
    {style="table-layout:auto"}
 
-## 操作說明影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
+## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-此 [Adobe Analytics 影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hant)提供如何使用區段管理員的簡短概覽。
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment Manager.
 
-
+-->

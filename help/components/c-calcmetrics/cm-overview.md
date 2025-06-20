@@ -4,9 +4,9 @@ keywords: 計算量度和進階計算量度
 title: 計算和進階計算量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '552'
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 100%
 * 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測] 以及 [!UICONTROL 貢獻分析]內建立量度。
 * 無需變更實作，即可建立衍生自報告執行時間的區段量度。因為這些量度的根據是區段，所以可檢視其歷史資料。
 
-
 >[!BEGINSHADEBOX]
 
 請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}的示範影片。
@@ -54,14 +53,7 @@ ht-degree: 100%
 * (僅限進階計算量度) 納入統計函數以協助您更妥善地說明資料。例如，您可以計算報告中的項目數或新增每個項目的標準差數字。
 
 
->[!BEGINSHADEBOX]
-
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段的區段計算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}示範影片。
-
->[!ENDSHADEBOX]
-
-
-## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
+## 限制
 
 部分 [!DNL Analytics] 功能可讓您使用事件，但無法使用計算量度：
 
@@ -71,13 +63,28 @@ ht-degree: 100%
 * [!UICONTROL 區段]
 * [!DNL Target] 的 [!DNL Analytics]
 
-## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-以下為[!UICONTROL 計算量度]工具的簡要概觀：
+>[!BEGINSHADEBOX]
 
-| 工具 | 功能 |
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://video.tv.adobe.com/v/25407?quality=12&learn=on){target="_blank"}的示範影片。
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段的區段計算量度](https://video.tv.adobe.com/v/25409?quality=12&learn=on){target="_blank"}示範影片。
+
+>[!ENDSHADEBOX]
+
+<!--
+
+Here is a short overview of the [!UICONTROL Calculated metrics] tools: 
+
+|Tool|Capabilities|
 |--- |--- |
-| 計算量度產生器 | <ul><li>使用進階配置模型建立計算量度和進階計算量度。</li><li>新增區段內嵌至量度公式</li><li>比較同一份報表中的區段。例如，比較當地訪客和國際訪客。</li><li>使用統計函數</li><li>提供詳細的量度說明 (顯示其用途、使用位置、不應使用的位置)</li><li>複製定義至新量度</li><li>提供內嵌量度預覽</li><li>設定量度極性，指定當特定自訂事件 (量度) 上升時為好或壞。</li><li>標記量度</li></ul> |
-| 計算量度管理員 | <ul><li>與其他人共用量度 &lt;/li<li>核准和管理量度</li><li>組織 (標記) 量度，讓別人可以找到</li><li>刪除量度</li><li>重新命名量度</li></ul> |
-| 量度選擇器邊欄 | 可讓您搜尋並新增/套用量度至報告。您也可以變更排序順序 (選項包括：按字母順序、推薦、常用、最近使用)。此外，您可以篩選報告套裝，即可只顯示在特定報告套裝中建立的量度。若要存取此量度選擇器，請按一下報告左側的「量度」圖示。 |
-| 計算量度的 API | Adobe Analytics 2.0 API 集的一部分。 |
+| [Calculated metric builder](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)| The capabilities are: <ul><li>Create calculated and advanced calculated metrics using advancmd allocation models.</li><li>Add segments inline to metric formulas</li><li>Compare segments in the same report. For example, compare local visitors vs. international visitors.</li><li>Use statistical functions</li><li>Provide detailed metric descriptions (show what it does, where to use it, where NOT to use it)</li><li>Copy definitions into new metrics</li><li>Provide an inline metric preview</li><li>Set metric polarity, which indicates whether it's good or bad if a given custom event (metric) goes up</li><li>Tag metrics</li></ul>|
+|Calculated Metric Manager|<ul><li>Share metrics with others</li<li>Approve and curate metrics</li><li>Organize (tag) your metrics so people can find them</li><li>Delete metrics</li><li>Rename metrics</li></ul>|
+|Metric Selector rail|Lets you search for and add/apply metrics to the report. You can also change the  sort order (options are: alphabetical, recommended, frequently used, recently used.) In addition, you can filter on Report Suites to show only metrics created in a specific report suite.  To access this Metric Selector, click the Metrics icon  to the left of a report. |
+|API for Calculated Metrics|Part of the Adobe Analytics 2.0 API set.|
+
+-->

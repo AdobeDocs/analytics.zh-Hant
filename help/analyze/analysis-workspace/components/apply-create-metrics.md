@@ -4,10 +4,10 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: eb2b5e078fdb299ed7d82fed54e98e5a40059624
+source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 30%
+source-wordcount: '739'
+ht-degree: 25%
 
 ---
 
@@ -21,15 +21,12 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 * **標準量度**：您在專案中使用的大多數量度都屬於標準量度。範例包括[頁面檢視次數](/help/components/metrics/page-views.md)、[營收](/help/components/metrics/revenue.md)或[自訂事件](/help/components/metrics/custom-events.md)。如需詳細資訊，請參閱「元件」使用手冊中的[量度概觀](/help/components/metrics/overview.md)。
 
-  ![標準量度](assets/standard-metric.png)
+* **計算量度** ![電腦](/help/assets/icons/Calculator.svg)：以標準量度、靜態數字或演演算法函式為基礎的使用者定義量度。 使用者定義的計算量度會在可用元件清單中顯示計算機圖示。如需詳細資訊，請參閱「元件」使用手冊中的[計算量度概觀](/help/components/c-calcmetrics/cm-overview.md)。
 
-* **計算量度**：以標準量度、靜態數字或演算法函式為根據的使用者定義量度。使用者定義的計算量度會在可用元件清單中顯示計算機圖示。如需詳細資訊，請參閱「元件」使用手冊中的[計算量度概觀](/help/components/c-calcmetrics/cm-overview.md)。
+* **計算量度範本** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定義的量度，其行為與計算量度類似。 您可以在 Workspace 專案中按原樣使用它們，或另存為副本以自訂其邏輯。計算量度範本會在可用元件清單中顯示 Adobe 圖示。
 
-  ![計算量度](assets/calculated-metric.png)
+您可以檢視量度是否核准![核准圖示](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)。 如果您想要瞭解量度的詳細資訊，請將滑鼠移至量度上，然後選取![資訊圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)。 如需詳細資訊，請參閱[元件資訊](use-components-in-workspace.md#component-info)。
 
-* **計算量度範本**：Adobe 定義的量度，其行為會類似計算量度。您可以在 Workspace 專案中按原樣使用它們，或另存為副本以自訂其邏輯。計算量度範本會在可用元件清單中顯示 Adobe 圖示。
-
-  ![計算量度範本](assets/calculated-metric-template.png)
 
 ## 使用 Analysis Workspace 中的量度
 
@@ -46,13 +43,13 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 計算量度可讓您使用簡單的運運算元或統計函式，輕鬆檢視量度彼此間的關聯性。
 
+
 建立計算量度有數種方式。 您選擇的方法會決定計算量度是否可從所有專案的元件清單中使用，或僅用於建立該量度的專案。
 
 ### 為所有專案建立計算量度
 
-您可以使用計算量度產生器建立計算量度。 以這種方式建立時，計算量度會顯示在元件清單中，然後可用於整個組織的專案。
+您可以使用[計算量度產生器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)來[建立計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)。 以這種方式建立時，計算量度可用於元件清單中，也可用於整個組織的專案。
 
-如需如何存取計算量度產生器的詳細資訊，請參閱[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)。
 
 ### 為單一專案建立計算量度
 
@@ -99,6 +96,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
 [計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
+
 
 ## 比較不同歸因模型的量度
 

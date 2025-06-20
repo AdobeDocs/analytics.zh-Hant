@@ -4,9 +4,9 @@ description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '692'
+source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+workflow-type: tm+mt
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -83,7 +83,7 @@ Adobe Analytics 強化歸因功能，讓您可以：
 * **總量度**：報告時間範圍內發生的轉換總數，並歸因於您指定的維度。
 * **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
 * **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。表格的作用與 Workspace 中的其他自由格式表格相仿，可讓您新增量度、區段或劃分等元件。
-* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
+* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
 * **效能詳細資料**：透過散佈圖視覺效果，視覺化比較最多三個歸因模型。
 * **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
 * **流量**：可讓您查看哪些管道最常互動，以及人員歷程中的順序。
@@ -92,9 +92,17 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 {{attribution-models-details}}
 
-## 回顧期間
+## 容器
+
+{{attribution-container}}
+
+## 回顧視窗
 
 {{attribution-lookback-window}}
+
+## 範例
+
+{{attribution-example}}
 
 >[!MORELIKETHIS]
 >

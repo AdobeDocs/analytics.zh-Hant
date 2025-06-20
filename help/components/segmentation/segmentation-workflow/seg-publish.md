@@ -3,10 +3,10 @@ description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段
 title: 發佈區段至Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: bfd38bbd69dc0b857a748103288df77e14826315
+source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 68%
+ht-degree: 63%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 68%
 >abstract="您可以將此區段所衍生的客群發佈至客群庫，並將其用於 Target 和其他 Experience Cloud 解決方案中的行銷活動。"
 
 >[!CONTEXTUALHELP]
->id="components_segments_audienclibrary"
+>id="components_segments_audiencelibrary"
 >title="客群庫"
 >abstract="在客群庫中所建立的區段可立即使用，非取決於 Analytics 更新。"
 
@@ -50,7 +50,7 @@ ht-degree: 68%
 * **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
 * **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的客群不能超過 2,000 萬名不重複成員。
 * **資料隱私權**：系統不會根據訪客的驗證狀態篩選客群。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入客群。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解客群共享的完整隱私權意涵。
-* 有關 **[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中區段之間差異的探討，請前往[這裡](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hant)。
+* 如需有關[!DNL Adobe Analytics]與&#x200B;[!DNL Audience Manager]**中區段之間**&#x200B;差異的討論，請參閱[瞭解Analytics與Audience Manager中的區段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hant)。
 
 ## 區段發佈時間軸
 
@@ -71,14 +71,14 @@ ht-degree: 68%
 1. 提供區段的標題和說明。 儲存前需要這些欄位。
 1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]**。
 
->[!IMPORTANT]
->在 Analytics 中查看區段預覽時，請務必使用「具有 Experience Cloud ID 的訪客」，而非比較 Adobe Analytics 數字與 Audience Manager 數字時的「不重複訪客」區段預覽總數：
->
->![具有 ECID 的訪客區段](assets/seg-vis-ecid.png)
+   >[!IMPORTANT]
+   >
+   >比較Experience Cloud數字與Audience Manager數字時，請務必在&#x200B;**[!UICONTROL 資料預覽]**&#x200B;中監視&#x200B;**[!UICONTROL 具有Adobe Analytics ID]**&#x200B;的訪客，而非&#x200B;**[!UICONTROL 不重複訪客]**。
+   >
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*`<report suite>`*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將客群與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 客群資格的訪客。此時，對象名稱和對應的資料開始顯示在Experience Cloud的[!DNL Audience Library]頁面上。</br> |
+| **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將客群與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 客群資格的訪客。此時，對象名稱和對應的資料開始顯示在Experience Cloud的[!DNL Audience Library]頁面上。</br> |
 | **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依時序建立客群。例如，「最近 30 天」(預設值) 包含自當天 (並非建立細分群體的原始日期) 起的過去 30 天內符合客群資格的訪客。 |
 | **[!UICONTROL 在客群庫中建立]** | 您在Experience Cloud中建立和發佈的區段可在[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
 | **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至Experience Cloud的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
@@ -118,30 +118,28 @@ ht-degree: 68%
 1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md)。
 1. 載入頁面時啟動除錯程式。
 1. 捲動至Audience Manager區段，並尋找在目前瀏覽器頁面上設定的Adobe Audience Manager UUID
-（下列範例中為`50814298273775797762943354787774730612`）
+（下列範例中為`35721780439475290181087231320657663953`）
 
-![除錯程式](assets/debugger.jpg)
+   ![除錯程式](assets/aepdebugger.png)
 
 ### 方法 2：使用 Chrome 開發者工具 (或其他瀏覽器開發者工具)
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
 1. 載入頁面並勾選「應用程式 > Cookie」。Adobe Audience Manager UUID應在第三方中設定
 Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)）。 demdex欄位是Adobe Audience Manager UUID集
-在瀏覽器上（以下範例中為`50814298273775797762943354787774730612`）。
+在瀏覽器上（以下範例中為`35721780439475290181087231320657663953`）。
 
-![Chrome 開發者工具](assets/ggogle-uuid.png)
+   ![Chrome 開發者工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 訪客輪廓檢視器]
 
 載入[!UICONTROL 訪客資料檢視器]時，預設會使用瀏覽器上的Adobe Audience Manager UUID。 若要驗證其他使用者的特徵實現，請在 UUID 欄位中輸入 UUID，然後按一下[!UICONTROL 「重新整理」]。如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hant)。
 
-![Audience Manager 輪廓檢視器](assets/aam-vpv.png)
-
 ## 在 [!DNL Audience Manager] 中檢視區段特徵
 
 在Adobe Audience Manager中，當Analytics與Experience Cloud共用區段時，會以串流方式評估指定區段的訪客清單（含ECID）。
 
-1. 在 [!DNL Audience Manager] 中，前往[!UICONTROL 客群資料 > 特徵 > Analytics 特徵]。您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報表套裝的資料夾。當輪廓和客群/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、細分群體和資料來源)。
+1. 在[!DNL Audience Manager]中，移至&#x200B;**[!UICONTROL 對象資料]** > **[!UICONTROL 特徵]** > **[!UICONTROL 分析特徵]**。 您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報表套裝的資料夾。當輪廓和客群/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、細分群體和資料來源)。
 1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報表套裝資料夾。這時會看到您建立的細分群體/客群。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
    * 系統會建立一個特徵，一開始不含任何資料。大約在區段發佈 8 小時後，[!DNL Analytics] ECID 清單就會上線並與 [!DNL Audience Manager] 及其他 Experience Cloud 解決方案共用。
 
@@ -152,7 +150,11 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
 ## 在 [!DNL Adobe Target] 中檢視區段
 
-[!UICONTROL 將此細分群體發佈至 Experience Cloud] 核取方塊會在 Adobe Analytics 細分群體建立程序進行期間顯示，勾選後該細分群體將可供 Adobe Target 的自訂客群庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
+**[!UICONTROL 將此細分群體發佈至 Experience Cloud]** 核取方塊會在 Adobe Analytics 細分群體建立程序進行期間顯示，勾選後該細分群體將可供 Adobe Target 的自訂客群庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
 
-1. 按一下[!UICONTROL 「客群」]。
-1. 在[!UICONTROL 客群]頁面上，找到來源為 [!DNL Experience Cloud] 的客群。這些客群可在 [!DNL Target] 活動中使用。
+在Adobe Target中：
+
+1. 選取&#x200B;**[!UICONTROL 對象]**。
+1. 在&#x200B;**[!UICONTROL 客群]**&#x200B;頁面上，找到來源為 [!DNL Experience Cloud] 的客群。這些客群可在 [!DNL Target] 活動中使用。
+
+   ![目標對象](assets/target-audiences.png)

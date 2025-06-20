@@ -3,10 +3,10 @@ description: 函數可讓您篩選/排序資料以及執行統計分析。
 title: 使用函數
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 80%
+source-wordcount: '57'
+ht-degree: 77%
 
 ---
 
@@ -20,4 +20,6 @@ ht-degree: 80%
 >
 >計算量度公式中加入函數時，請一律先套用函數再將其拖曳至量度或區段中。
 
-請觀賞此[影片](https://youtu.be/SSyWvomnewI)以了解如何使用函數。
+<!-- OUTDATED VIDEO 
+Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
+-->
