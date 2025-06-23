@@ -21,7 +21,7 @@ ht-degree: 65%
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 按一下[擴充功能]索引標籤]，然後按一下擴充功能下方的[設定]。[!UICONTROL 
+1. 按一下[擴充功能]索引標籤，然後按一下擴充功能下方的[設定]。
 
 在使用 `AppMeasurement.js` 的 JavaScript 實施中，通常會在 JS 檔案的頂端對配置設定變數。
 

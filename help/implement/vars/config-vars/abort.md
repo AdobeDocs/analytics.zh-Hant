@@ -17,7 +17,7 @@ ht-degree: 39%
 
 ## 使用Web SDK擴充功能取消傳送事件
 
-在事件傳送回呼]程式碼編輯器之前使用[!UICONTROL On並傳回`false`。
+在事件傳送回呼程式碼編輯器之前使用On並傳回`false`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
