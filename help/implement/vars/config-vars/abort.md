@@ -31,7 +31,7 @@ return false;
 
 ## 取消手動傳送事件實作Web SDK
 
-使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
+使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
 
 ```js
 alloy("configure"), {

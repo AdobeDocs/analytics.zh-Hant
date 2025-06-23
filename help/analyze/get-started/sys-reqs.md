@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * 支援的瀏覽器
 
-  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html)。
+  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=zh-Hant)。
 
 ## 系統需求
 

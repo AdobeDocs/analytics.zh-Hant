@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
+> 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)。
 
 [!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標記。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實作項目進行疑難排解或驗證。
 
@@ -37,7 +37,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，則可改用舊版除錯工具書籤小工具。
+如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)，則可改用舊版除錯工具書籤小工具。
 
 1. 按一下右上方的三點圖示，然後前往書籤 > 書籤管理員。您也可以按下 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在書籤管理員的右上方，按一下三點圖示，然後按一下「新增書籤」。
