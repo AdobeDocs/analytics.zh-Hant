@@ -1,10 +1,10 @@
 ---
 title: getVisitNum
 description: 追蹤訪客的目前造訪次數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 78%
@@ -27,14 +27,14 @@ Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式�
 1. 尋找並安裝&#x200B;**[!UICONTROL 常用Web SDK外掛程式]**&#x200B;擴充功能。
 1. 按一下左側的&#x200B;**[!UICONTROL 資料元素]**，然後按一下所需的資料元素。
 1. 使用下列設定來設定所需的資料元素名稱：
-   * 擴充功能：常見Web SDK外掛程式
+   * 擴充功能：常見的Web SDK外掛程式
    * 資料元素： `getVisitNum`
 1. 在右側設定所要的引數。
 1. 儲存並發佈資料元素的變更。
 
-## 手動實作Web SDK安裝外掛程式
+## 手動實作網站SDK安裝外掛程式
 
-此外掛程式尚不支援在Web SDK的手動實作中使用。
+此外掛程式尚不支援在手動實作Web SDK時使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
@@ -82,7 +82,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
    * 此引數為 `"w"` 時，計數器會在當週結束時 (本週六晚上 11:59) 重設
    * 此引數為 `"m"` 時，計數器會在當月結束時 (本月的最後一天) 重設
    * 此引數為 `"y"` 時，計數器會在當年結束時 (12 月 31 日) 重設
-* **`erp`** (選用，布林值)：`rp` 引數為數字時，此引數會決定是否應延長造訪次數的有效期。若設為 `true`，您網站的後續點擊會重設造訪次數計數器。若設為 `false`，造訪次數計數器重設時，您網站的後續點擊不會延長。預設為 `true`。`rp` 引數為字串時，此引數無效。
+* **`erp`** (選用，布林值)：`rp` 引數為數字時，此引數會決定是否應延長造訪次數的期限。若設為 `true`，您網站的後續點擊會重設造訪次數計數器。若設為 `false`，造訪次數計數器重設時，您網站的後續點擊不會延長。預設為 `true`。`rp` 引數為字串時，此引數無效。
 
 訪客閒置 30 分鐘後再返回您的網站時，造訪次數會增加。呼叫此函數會傳回一個整數，該整數代表訪客目前的造訪次數。
 

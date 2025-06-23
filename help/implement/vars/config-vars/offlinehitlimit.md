@@ -1,10 +1,10 @@
 ---
 title: offlineHitLimit
 description: 決定離線追蹤佇列的點擊數上限。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
 role: Admin, Developer
-source-git-commit: 8bc5e649c5b5852232f4baddcddad0766bc1569a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 39%
@@ -17,9 +17,9 @@ ht-degree: 39%
 
 `offlineHitLimit` 變數會將裝置本機儲存的點擊數加上上限。此變數僅適用於啟用 [`trackOffline`](trackoffline.md) 的情況。
 
-## 使用Web SDK的離線點選限制
+## 使用網頁SDK的離線點選限制
 
-Web SDK不支援離線追蹤。
+網頁SDK不支援離線追蹤。
 
 ## 使用Adobe Analytics擴充功能的離線點選限制
 

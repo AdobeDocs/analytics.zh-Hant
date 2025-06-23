@@ -1,10 +1,10 @@
 ---
 title: inList
 description: 檢查某值是否包含在另一個以字元分隔的值中。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 87%
@@ -17,9 +17,9 @@ ht-degree: 87%
 
 `inList` 外掛程式可讓您檢查某值是否已存在於分隔字串或 JavaScript 陣列物件中。有其他多種外掛程式依賴 `inList` 外掛程式才能運作。此外掛程式可提供比 JavaScript 方法 `indexOf()` 更明顯的優點，其不會比對字串的一部分。例如，如果您使用此外掛程式來檢查 `"event2"`，它將不會比對包含 `"event25"` 的字串。如果您不需要檢查分隔字串或陣列中的值，或您想要使用自己的 `indexOf()` 邏輯，就不需要此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

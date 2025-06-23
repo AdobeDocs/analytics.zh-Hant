@@ -1,10 +1,10 @@
 ---
 title: linkInternalFilters
 description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。A
 
 如果退出連結目標網域與目前的 `window.location.hostname` 不同，則連結會以退出連結自動符合條件。 Web SDK 不提供任何設定變數來修改自動退出連結檢測。 如果您需要自訂以退出連結自動符合條件的網域，您可以在 `onBeforeEventSend` 回呼中使用自訂邏輯。
 
-有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant#automaticLinkTracking)。
+有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)。
 
 ## 對外連結 - 使用 Adobe Analytics 擴充功能的永不追蹤
 

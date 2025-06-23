@@ -1,10 +1,10 @@
 ---
 title: registerPreTrackCallback
 description: 將點擊傳送至 Adobe 前建立回呼函數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 55%
@@ -25,9 +25,9 @@ ht-degree: 55%
 >
 >對於在 `registerPreTrackCallback` 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用Web SDK擴充功能預先追蹤回呼
+## 使用網頁SDK擴充功能預先追蹤回呼
 
-Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式。
+Web SDK無法在資料編譯後、但在將其傳送至Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式。
 
 1. 使用您的AdobeID認證登入[Adobe Experience Platform資料彙集](https://experience.adobe.com/data-collection) UI。
 1. 按一下所需的標籤屬性。
@@ -35,9 +35,9 @@ Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 �
 1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 在事件傳送回撥代碼前編輯]**&#x200B;按鈕。
 1. 將所需的程式碼放入編輯器中。
 
-## 手動實作Web SDK的預先追蹤回呼
+## 手動實作網站SDK的預先追蹤回呼
 
-Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式，類似`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+Web SDK無法在資料編譯後、但在將其傳送至Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式，類似`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

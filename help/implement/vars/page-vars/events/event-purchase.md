@@ -1,10 +1,10 @@
 ---
 title: 購買事件
 description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 70%
@@ -25,7 +25,7 @@ ht-degree: 70%
 >
 >收入不會乘以數量欄位。以`s.products="Womens;Socks;5;4.50"`為例，傳入收入中的並不是$22.50，而是$4.50。請確定您的實作傳遞了所列數量的總收入。 例如，`s.products="Womens;Socks;5;22.50"`。
 
-## 使用Web SDK設定購買事件
+## 使用網頁SDK設定購買事件
 
 如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，購買事件會使用下列XDM欄位：
 
@@ -45,7 +45,7 @@ ht-degree: 70%
 }
 ```
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，購買事件會使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，購買事件會依照AppMeasurement字串語法使用`data.__adobe.analytics.events`。
 
 ```json
 {

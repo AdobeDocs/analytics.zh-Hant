@@ -1,10 +1,10 @@
 ---
 title: linkURL
 description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生連結 URL。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 
 Analysis Workspace中沒有報告此變數的維度。 它會填入[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)中的`page_event_var1`欄。
 
-## 使用Web SDK的連結URL
+## 使用網頁SDK連結URL
 
 連結URL已對應至下列變數：
 

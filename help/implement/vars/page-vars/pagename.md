@@ -1,10 +1,10 @@
 ---
 title: pageName
 description: 網站上各個頁面的名稱。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 80%
@@ -21,7 +21,7 @@ ht-degree: 80%
 >
 >Adobe 資料收集伺服器會從所有 [連結追蹤](/help/implement/vars/functions/tl-method.md) 影像要求中移除此維度。如果您想要此點擊出現在連結追蹤點擊中，請考慮將維度複製到 [eVar](evar.md)。
 
-## 使用Web SDK的頁面名稱
+## 使用網頁SDK的頁面名稱
 
 頁面名稱會對應至下列變數：
 

@@ -1,18 +1,18 @@
 ---
-title: 變數、函數、方法和外掛程式總覽
+title: 變數、函數、方法和外掛程式概觀
 description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
 keywords: appmeasurement, 變數, vars, 設定, 頁面, 實作
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 67%
 
 ---
 
-# 變數、函數、方法和外掛程式總覽
+# 變數、函數、方法和外掛程式概觀
 
 Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的變數分為幾個部分：
 
@@ -22,12 +22,12 @@ Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的�
 
 ## 變數與實作方法
 
-Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用Web SDK、使用Adobe Analytics擴充功能和JavaScriptAppMeasurement來實作變數的區段。
+Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用Web SDK、使用Adobe Analytics擴充功能及使用JavaScript適用的AppMeasurement來實作變數的區段。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [設定變數](https://video.tv.adobe.com/v/3456978?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [設定變數](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 

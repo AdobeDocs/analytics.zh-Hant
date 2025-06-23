@@ -1,10 +1,10 @@
 ---
 title: purchaseID
 description: 根據唯一的購買識別碼去除重複點擊。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 role: Admin, Developer
-source-git-commit: 4bd46fd5a9b98bcca67a66c87c9bca67fa00061a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 73%
@@ -19,7 +19,7 @@ ht-degree: 73%
 
 購買ID會套用至所有訪客，並在37個月後過期。 如果某位訪客設定了指定的購買 ID，另一位訪客在一年後設定了同一個購買 ID，則第二次購買的重複資料會遭到去除。
 
-## 使用Web SDK的購買ID
+## 使用網頁SDK的購買ID
 
 購買ID會對應至下列變數：
 

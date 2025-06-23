@@ -1,10 +1,10 @@
 ---
 title: cookieLifetime
-description: 覆寫 AppMeasurement 所建立 Cookie 的有效期。
-feature: Variables
+description: 覆寫 AppMeasurement 所建立 Cookie 的期限。
+feature: Appmeasurement Implementation
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 64%
@@ -13,13 +13,13 @@ ht-degree: 64%
 
 # cookieLifetime
 
-AppMeasurement 所設定的 Cookie 通常有效期為 2 年。可使用 `cookieLifetime` 變數覆寫 AppMeasurement 所設定 Cookie 的到期日。
+AppMeasurement 所設定的 Cookie 通常期限為 2 年。可使用 `cookieLifetime` 變數覆寫 AppMeasurement 所設定 Cookie 的期限。
 
 >[!NOTE]
 >
 >此變數會影響不重複訪客計數和歸因。設定此變數時請小心。
 
-## 使用Web SDK的Cookie期限
+## 使用網頁SDK的Cookie期限
 
 Web SDK尚未針對其設定的Cookie存留期提供自訂功能。
 
@@ -41,7 +41,7 @@ Web SDK尚未針對其設定的Cookie存留期提供自訂功能。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.cookieLifetime
 
-`s.cookieLifetime` 變數為字串，可決定 AppMeasurement 所設定 Cookie 的到期日。
+`s.cookieLifetime` 變數為字串，可決定 AppMeasurement 所設定 Cookie 的期限。
 
 * 如果設為 `SESSION`，AppMeasurement 設定的 Cookie 會在瀏覽器作業階段完成後到期。
 * 如果設為 `NONE`，AppMeasurement 不會嘗試設定 Cookie。

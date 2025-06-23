@@ -1,10 +1,10 @@
 ---
 title: prop
 description: 可在實施中使用的自訂變數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 
 >[!TIP]
 >
->Adobe 建議在大部分情況下使用 [eVar](evar.md)。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過，Adobe已大幅改善eVar，現在幾乎能完成prop的所有使用案例。
+>Adobe 建議在大部分情況下使用 [eVar](evar.md)。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過Adobe已大幅改善eVar，現在幾乎能完成prop的所有使用案例。
 
 如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。可用的 Prop 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
 

@@ -1,10 +1,10 @@
 ---
 title: pageURL
 description: 覆寫在網站上自動收集的頁面 URL。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 79%
@@ -19,7 +19,7 @@ AppMeasurement 會自動收集每次點擊中的頁面 URL。如果您想要覆�
 >
 >此變數不是 Analysis Workspace 中的可用維度。它僅適用於 Data Warehouse 和資料摘要。此外，Adobe 資料收集伺服器會從所有 [連結追蹤](/help/implement/vars/functions/tl-method.md) 影像要求中移除此維度。如果您想要在 Analysis Workspace 中將頁面 URL 當做維度，或想在連結追蹤點擊中使用此維度，請考慮在每次點擊時`pageURL`將變數傳入 [eVar](evar.md)。
 
-## 使用Web SDK的頁面URL
+## 使用網頁SDK的頁面URL
 
 頁面URL已對應至下列變數：
 

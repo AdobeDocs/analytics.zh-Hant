@@ -2,11 +2,11 @@
 title: 衍生受事件影響的資料
 description: 使用計算量度來修正受事件影響的趨勢資料。
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
-feature: Event, Calculated Metrics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+feature: Curate and Share, Calculated Metrics
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 3%
 
    ![區段產生器](assets/event_segment_builder.png)
 
-6. 按一下[受影響的天數]容器右上角的&#x200B;**[!UICONTROL [新增]]**，然後按一下[靜態數字]&#x200B;**&#x200B;**。 將靜態數字設定為您要位移資料的百分比，如[比較受事件影響的日期與先前的範圍](compare-dates.md)中所述。 在此範例中，位移為25%或1.25。
+6. 按一下[受影響的天數]容器右上角的&#x200B;**[!UICONTROL [新增]]**，然後按一下[靜態數字]****。 將靜態數字設定為您要位移資料的百分比，如[比較受事件影響的日期與先前的範圍](compare-dates.md)中所述。 在此範例中，位移為25%或1.25。
 
    ![靜態數字](assets/event_static_number.png)
 

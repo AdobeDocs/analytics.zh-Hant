@@ -1,10 +1,10 @@
 ---
 title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 73%
@@ -25,13 +25,13 @@ ht-degree: 73%
 >
 >對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用Web SDK擴充功能的後續追蹤回呼
+## 使用網頁SDK擴充功能的後續追蹤回呼
 
 即將推出！
 
 ## 手動實作Web SDK的後追蹤回呼
 
-資料成功傳送至Adobe後，您可以在傳送事件以註冊函式時使用JavaScript Promise 。
+資料成功傳送至Adobe後，您可在傳送事件以註冊函式時使用JavaScript Promise。
 
 ```js
 alloy("sendEvent",{
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#handling-responses-from-events)。
+如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
 
 ## 使用Adobe Analytics擴充功能註冊後續追蹤回呼
 

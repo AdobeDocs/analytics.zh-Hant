@@ -1,10 +1,10 @@
 ---
 title: 排程流量尖峰
 description: 與 Adobe 合作，以確保高流量的活動不會發生延遲狀況。
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 97%
@@ -63,4 +63,4 @@ Adobe 想要確保您使用最新資料報告的體驗是一致的。 為了以�
 
 * 排程所有流量尖峰的前置時間。**尤其重要的是，預計 11 月至 12 月期間發生的任何流量尖峰都應在 9 月 15 日之前妥善排程**。 如果您錯過這個期限，請盡快排程您的流量尖峰。 較短的前置時間總比沒有好，Adobe 會使用最新的資源，以最好的方式因應您的報表套裝需求。
 * 如果 Adobe 就已排程的流量尖峰的事宜與您聯絡，請務必與我們溝通，讓我們知道是即時報告還是完整處理報告比較重要。 某些組織比其他組織更仰賴即時報告。 了解您使用哪種類型的報告有助於 Adobe 相應地安排優先順序。
-* 與您的Adobe帳戶團隊溝通最重要的報表以及您何時提取這些報表可幫助他們為您宣傳。
+* 與您的Adobe客戶團隊溝通您最重要的報表以及何時提取這些報表可幫助他們為您宣傳。

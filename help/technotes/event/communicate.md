@@ -2,8 +2,8 @@
 title: 與使用者溝通影響
 description: 瞭解傳達組織中事件影響的有效方式。
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
-feature: Event
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+feature: Curate and Share
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 1%
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 1. 在自由表格中新增「日」維度。 將「造訪」和計算量度新增為並排的欄。
 
-   ![自由表格](assets/calcmetric_freeform.png)
+   ![自由格式表格](assets/calcmetric_freeform.png)
 
 1. 按一下計算量度的欄設定齒輪圖示，然後啟用&#x200B;**[!UICONTROL 將零解譯為沒有值]**。
 

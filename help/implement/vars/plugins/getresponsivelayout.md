@@ -1,10 +1,10 @@
 ---
 title: getResponsiveLayout
 description: 決定目前檢視的網站配置。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 86%
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 `getResponsiveLayout` 外掛程式可讓您追蹤訪客目前正在檢視的回應式設計網站版本。如果您的網站使用回應式設計，而您想要追蹤訪客檢視的網站版本，Adobe 建議使用此外掛程式。如果您的網站並非使用回應式設計，就不需要此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

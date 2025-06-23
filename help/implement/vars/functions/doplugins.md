@@ -1,10 +1,10 @@
 ---
 title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 63%
@@ -22,7 +22,7 @@ ht-degree: 63%
 
 ## 使用Web SDK擴充功能在Before Event傳送回呼代碼前使用
 
-Web SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。
+網頁SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -32,7 +32,7 @@ Web SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。
 
 ## 使用`onBeforeEventSend`手動實作Web SDK
 
-Web SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+網頁SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

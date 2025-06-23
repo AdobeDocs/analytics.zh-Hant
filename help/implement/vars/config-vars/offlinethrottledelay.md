@@ -1,10 +1,10 @@
 ---
 title: offlineThrottleDelay
 description: 建立裝置重新上線時的點擊頻率。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 83%
@@ -17,9 +17,9 @@ ht-degree: 83%
 
 當裝置重新上線時，儲存在裝置上的所有點擊都會傳送至 Adobe 資料收集伺服器。大量佇列的點擊可能會影響舊裝置的效能。使用 `offlineThrottleDelay` 變數來建立佇列點擊傳送至 Adobe 的頻率。
 
-## 使用Web SDK的離線節流延遲
+## 使用網頁SDK的離線節流延遲
 
-Web SDK不支援離線追蹤。
+網頁SDK不支援離線追蹤。
 
 ## 使用Adobe Analytics擴充功能的離線節流延遲
 

@@ -1,10 +1,10 @@
 ---
 title: getPreviousValue
 description: 取得最後一個傳至變數的值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 77%
@@ -27,14 +27,14 @@ Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式�
 1. 尋找並安裝&#x200B;**[!UICONTROL 常用Web SDK外掛程式]**&#x200B;擴充功能。
 1. 按一下左側的&#x200B;**[!UICONTROL 資料元素]**，然後按一下所需的資料元素。
 1. 使用下列設定來設定所需的資料元素名稱：
-   * 擴充功能：常見Web SDK外掛程式
+   * 擴充功能：常見的Web SDK外掛程式
    * 資料元素： `getPreviousValue`
 1. 在右側設定所要的引數。
 1. 儲存並發佈資料元素的變更。
 
-## 手動實作Web SDK安裝外掛程式
+## 手動實作網站SDK安裝外掛程式
 
-此外掛程式尚不支援在Web SDK的手動實作中使用。
+此外掛程式尚不支援在手動實作Web SDK時使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
@@ -80,7 +80,7 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 * **`v`** (字串，必要)：具有您要傳遞至下一個影像要求之值的變數。用來擷取上一頁值的通用變數為 `s.pageName`。
 * **`c`** (字串，選用)：儲存值的 Cookie 名稱。如果未設定此引數，其預設值為 `"s_gpv"`。
 
-當您呼叫此方法時，它會傳回 Cookie 中包含的字串值。 此外掛程式會重設 Cookie 有效期，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
+當您呼叫此方法時，它會傳回 Cookie 中包含的字串值。 此外掛程式會重設 Cookie 期限，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
 
 ## 範例
 

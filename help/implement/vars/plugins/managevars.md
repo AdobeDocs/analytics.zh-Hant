@@ -1,13 +1,13 @@
 ---
 title: manageVars
 description: 一次變更多個 Analytics 變數的值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 88%
+ht-degree: 83%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 88%
 
 `manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。如果您想一次清除多個變數的值，Adobe 建議使用此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
@@ -95,7 +95,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-...會將上述所有變數的值變更為小寫版本。唯一的例外是事件變數，因為有些事件 (例如 scAdd、scCheckout 等)區分大小寫，且不應變為小寫
+...會將上述所有變數的值變更為小寫版本。唯一的例外是事件變數，因為有些事件（如scAdd、scCheckout等）會區分大小寫，且不應採用小寫
 
 ### 範例 #2
 
@@ -141,7 +141,7 @@ manageVars("cleanStr");
 * 移除值開頭和結尾的空格
 * 以直式單引號(`'`)取代左/右單引號
 * 以空格取代定位字元、換行字元和歸位字元
-* 以單空格取代所有雙 (或三以上)空格
+* 以單空格取代所有雙（或三等）空格
 
 ## 版本記錄
 

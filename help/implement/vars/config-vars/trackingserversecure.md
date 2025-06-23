@@ -1,10 +1,10 @@
 ---
 title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 66%
@@ -21,7 +21,7 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ## 使用Web SDK擴充功能的Edge網域
 
-Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺服器。 設定Web SDK擴充功能時，您可以設定所要的[!UICONTROL Edge網域]值。
+Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺服器。 設定Web SDK擴充功能時，您可以設定所需的[!UICONTROL Edge網域]值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -59,7 +59,7 @@ alloy("configure", {
 
 `s.trackingServerSecure` 變數是包含影像要求傳送位置的字串。它幾乎永遠是您網站的子網域。瀏覽器中的現代化隱私實務通常會使協力廠商 Cookie 變得不可靠。如果此變數留空，其會使用 `s.trackingServer` 變數中的值。
 
-此變數的值幾乎永遠是第一方網域，例如 `data.example.com`。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)。
+此變數的值幾乎永遠是第一方網域，例如 `data.example.com`。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 最初設定第一方 Cookie 實作的個人，也會定義使用的網域和子網域。例如：
 

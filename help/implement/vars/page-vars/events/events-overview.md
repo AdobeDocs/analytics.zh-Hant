@@ -1,10 +1,10 @@
 ---
 title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 3e72235ce1455177efeb21017f61af25d21bd500
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >如果在 `productListItems` 下設定事件 (例如 `productListItems._experience.analytics.event1.value`)，並且該事件尚未在此欄位中，則該事件會自動新增到此欄位中。
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則所有事件都會使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。 如果您設定此欄位，在XDM物件中設定的任何事件都會被覆寫，且不會傳送至Adobe Analytics。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則所有事件都使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。 如果您設定此欄位，在XDM物件中設定的任何事件都會被覆寫，且不會傳送至Adobe Analytics。
 
 ## 使用 Adobe Analytics 擴充功能的事件
 

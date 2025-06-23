@@ -1,10 +1,10 @@
 ---
 title: useBeacon
 description: useBeacon 可強制 AppMeasurement 使用瀏覽器 sendBeacon API
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 62%
@@ -23,9 +23,9 @@ ht-degree: 62%
 
 當訪客使用不支援 `useBeacon` 的瀏覽器時，`navigator.sendBeacon()` 變數會遭到忽略。使用此變數需有 AppMeasurement 2.16.0 或更新版本。
 
-## 透過Web SDK擴充功能使用sendBeacon API
+## 透過網頁SDK擴充功能使用sendBeacon API
 
-動作設定中的&#x200B;**[!UICONTROL 檔案將會解除安裝]**&#x200B;核取方塊會判斷傳送給Adobe的資料是否使用sendBeacon API。
+動作設定中的&#x200B;**[!UICONTROL 檔案將會解除安裝]**&#x200B;核取方塊會判斷傳送至Adobe的資料是否使用sendBeacon API。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -36,7 +36,7 @@ ht-degree: 62%
 
 如果勾選此方塊，會使用sendBeacon API將資料傳送至Adobe。 這項設定預設為未勾選。
 
-## 使用sendBeacon API手動實作Web SDK
+## 使用sendBeacon API手動實作網頁SDK
 
 傳送事件時將`documentUnloading`設為`true`。 如果未設定，其預設值為`false`。
 
@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-如需詳細資訊，請參閱Web SDK檔案中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#using-the-sendbeacon-api)。
+如需詳細資訊，請參閱網頁SDK檔案中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)。
 
 ## 透過Adobe Analytics擴充功能使用信標
 

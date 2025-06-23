@@ -1,10 +1,10 @@
 ---
 title: visitorID
 description: 使用自訂訪客 ID。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: 914b822aae659d1d0f0b8a98480090ead99e102a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 71%
@@ -17,7 +17,7 @@ Adobe 使用數種不同的方法來識別您網站上的訪客。`visitorID` �
 
 >[!IMPORTANT]
 >
->Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+>Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 使用Adobe Analytics擴充功能的訪客ID
 
@@ -46,6 +46,6 @@ s.visitorID = "abc123";
 >
 >自訂訪客 ID 的無效實施作業可能導致資料不正確，並造成報告效能不佳。如果此變數包含預設值 (例如 `"0"` 或 `"NULL"`)，則 Adobe 會將這些點擊視為相同的訪客。此情況會導致資料不正確、訪客計數偏低，以及訪客層級區段的運作不如預期。不當實施作業的自訂訪客 ID 也會對處理伺服器造成大量負載、增加[延遲](/help/technotes/latency.md)，並降低報表效能。
 
-## 使用Web SDK的訪客ID
+## 使用網頁SDK的訪客ID
 
-Adobe Experience PlatformEdge Network可讓您使用XDM的[身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=zh-Hant#using-identitymap)來提供多個識別碼。 「身分對應」中的每個身分都有不同的名稱空間。 您可以在[資料流設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#analytics)中，指定訪客ID應該使用哪個名稱空間。 完成設定後，當您傳送具有為此名稱空間指定值的事件時，系統會自動將其用作Analytics中的訪客ID。
+Adobe Experience Platform Edge Network可讓您使用XDM的[身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)來提供多個識別碼。 「身分對應」中的每個身分都有不同的名稱空間。 您可以在[資料流設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)中，指定訪客ID應該使用哪個名稱空間。 完成設定後，當您傳送具有為此名稱空間指定值的事件時，系統會自動將其用作Analytics中的訪客ID。

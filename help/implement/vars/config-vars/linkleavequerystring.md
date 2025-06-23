@@ -1,10 +1,10 @@
 ---
 title: linkLeaveQueryString
 description: 允許保留連結追蹤維度中的查詢字串。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 84%
@@ -25,7 +25,7 @@ ht-degree: 84%
 >
 > 此變數不會影響連結追蹤以外的維度。它只會影響自訂連結、退出連結和下載連結。
 
-## 使用Web SDK處理連結查詢字串
+## 使用網頁SDK處理連結查詢字串
 
 未從XDM欄位`web.webInteraction.URL`中移除查詢字串。 如果您想從此XDM欄位中移除查詢字串，可以使用`onBeforeEventSend`編輯它。
 

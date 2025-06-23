@@ -1,17 +1,17 @@
 ---
 description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
-title: 日曆和日期範圍概述
-feature: Calendar
+title: 日曆和日期範圍概觀
+feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 100%
 
 ---
 
-# 日曆和日期範圍概述 {#date-range}
+# 日曆和日期範圍概觀 {#date-range}
 
 <!-- markdownlint-disable MD034 -->
 

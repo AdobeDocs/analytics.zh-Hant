@@ -1,10 +1,10 @@
 ---
 description: 「持久流量」區段可讓您變更預期的流量級別，讓 Adobe 可以重新分派資源以處理新的流量級別。
 title: 指定永久性流量增加
-feature: Traffic Management
+feature: Report Suite Settings
 role: Admin
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 429aaa43fdae669350bdb5a5a54a7d4b9b1c65f2
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 100%

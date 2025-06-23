@@ -1,10 +1,10 @@
 ---
 title: ActivityMap.link
 description: 自訂Activity Map收集連結點選的方式。
-feature: Variables
+feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 9%
@@ -16,17 +16,17 @@ ht-degree: 9%
 `ActivityMap.link`變數可讓您覆寫Activity Map用來設定連結值的邏輯。 此變數在您想要擁有比[`ActivityMap.linkExclusions`](../config-vars/activitymap-linkexclusions.md)提供的更多控制權的區域很有用。
 
 >[!CAUTION]
->此變數會完全覆寫Activity Map邏輯。 在此設定覆寫函式並傳回不正確的值，可能會導致Activity Map維度和Activity Map覆蓋的資料收集問題。
+>此變數會完全覆寫Activity Map邏輯。 在此設定覆寫函式並傳回不正確的值，可能會導致Activity Map維度和Activity Map覆蓋出現資料收集問題。
 
-## 使用Web SDK覆寫連結值
+## 使用網頁SDK覆寫連結值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來變更Web SDK裝載或中止傳送資料。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
 
 ## 使用Adobe Analytics擴充功能覆寫連結
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的ActivityMap.link
+## AppMeasurement中的ActivityMap.link和Analytics擴充功能自訂程式碼編輯器
 
 將此變數指派給具有以下功能的函式：
 
@@ -79,5 +79,5 @@ s.ActivityMap.link = function(ele, linkName) {
 ```
 
 1. 如果傳遞了`linkName`，則方法已由`tl()`呼叫。 傳回以`linkName`傳入的`tl()`。
-2. 當Activity Map呼叫時，永遠不會傳遞`linkName`，因此請使用連結元素呼叫`customFunction()`。 您可以使用任何想要傳回值的自訂函式。
+2. Activity Map呼叫時，絕不會傳遞`linkName`，因此請使用連結元素呼叫`customFunction()`。 您可以使用任何想要傳回值的自訂函式。
 3. 如果以上未傳回值，請使用一般收集作為遞補的連結名稱。

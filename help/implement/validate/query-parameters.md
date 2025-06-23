@@ -1,10 +1,10 @@
 ---
 title: 資料彙集查詢參數
 description: 列出影像要求中使用的所有查詢字串參數。
-feature: Validation
+feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 8be75c04177e97949811c17c7a87b04cce7b3de4
+source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -17,8 +17,8 @@ ht-degree: 100%
 
 | 參數 | Analytics 實施變數 | 說明 |
 | --- | --- | --- |
-| `aamlh` | 無 | Audience Manager 位置提示：用於 Experience Cloud 共用設定檔整合。 |
-| `aamb` | 無 | Audience Manager Blob：用於 Experience Cloud 共用設定檔整合。 |
+| `aamlh` | 無 | Audience Manager 位置提示：用於 Experience Cloud 共用輪廓整合。 |
+| `aamb` | 無 | Audience Manager Blob：用於 Experience Cloud 共用輪廓整合。 |
 | `aid` | 無 | Analytics 訪客 ID。 |
 | `AQB` | 無 | 指出影像要求查詢字串的開頭。 |
 | `AQE` | 無 | 指出影像要求的結尾，表示要求並未被截斷。 |

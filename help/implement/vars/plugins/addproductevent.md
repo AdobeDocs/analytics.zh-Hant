@@ -1,10 +1,10 @@
 ---
 title: addProductEvent
 description: 將自訂事件新增至產品和事件變數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 86%
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 `addProductEvent` 外掛程式會將數值或貨幣事件新增至 [`products`](../page-vars/products.md) 變數。如果您想要將數值或貨幣事件新增至 `products` 變數，又不想擔心產品字串格式，Adobe 建議您使用此外掛程式。如果您未在 `products` 變數中使用數值或貨幣事件，就不需要使用此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

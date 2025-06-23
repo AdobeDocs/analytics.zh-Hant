@@ -1,10 +1,10 @@
 ---
 title: pt
 description: 對變數清單執行函數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 88%
@@ -17,9 +17,9 @@ ht-degree: 88%
 
 `pt` 外掛程式會對 Analytics 變數清單執行函數或方法。例如，您可以選擇性地對多個變數執行 [`clearVars`](../functions/clearvars.md) 函數，而不需每次都手動呼叫該函數。 其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

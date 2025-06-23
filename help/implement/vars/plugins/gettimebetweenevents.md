@@ -1,10 +1,10 @@
 ---
 title: getTimeBetweenEvents
 description: 測量兩個事件之間的時間長度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 91%
@@ -17,9 +17,9 @@ ht-degree: 91%
 
 `getTimeBetweenEvents` 外掛程式可讓您追蹤任兩個 Analytics 事件 (包括購物車和自訂事件) 之間的時間長度。若想追蹤完成結帳程序所花費的時間，或想測量任何其他程序所需的時間，此外掛程式十分有用。如果您沒有想要測量任何轉換程序所需的時間，就不需要此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
@@ -71,7 +71,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
   >
   >如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
 * **`cn`** (選用，字串)：儲存第一個事件時間的 Cookie 名稱。預設為 `"s_tbe"`。
-* **`etd`** (選用，整數)：Cookie 的到期時間 (以天為單位)。設為 `0`，在瀏覽器作業階段結束時到期。若未設定，則預設為 1 天。
+* **`etd`** (選用，整數)：Cookie 的期限時間 (以天為單位)。設為 `0`，在瀏覽器作業階段結束時到期。若未設定，則預設為 1 天。
 * **`fmt`** (選用，字串)：傳回秒數的時間格式 (無預設值)
    * `"s"` 代表秒數
    * `"m"` 代表分鐘

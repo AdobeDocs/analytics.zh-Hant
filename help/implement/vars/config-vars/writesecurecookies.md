@@ -1,10 +1,10 @@
 ---
 title: writeSecureCookies
 description: 允許 AppMeasurement 以 Secure 屬性設定 Cookie。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 76%
@@ -17,15 +17,15 @@ ht-degree: 76%
 
 `writeSecureCookies` 僅適用於由 AppMeasurement JavaScript 設定的 Cookie (`s_fid`, `s_cc` 和 `s_sq`)。`https` 回應所設定的 Cookie (`s_vi` 和 `s_ecid`) 可透過聯絡 Adobe 客戶服務以設為「安全」。
 
-在[此處](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=zh-Hant)進一步了解有關 Analytics Cookie。
+在[此處](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html)進一步了解有關 Analytics Cookie。
 
 >[!WARNING]
 >
 > 如果您啟用 `writeSecureCookies` 變數，請確認網站上的所有內容都是安全地透過 HTTPS 提供。如果啟用此變數，而且您的頁面上有不安全的內容，資料收集就無法正常運作。
 
-## 搭配Web SDK使用安全Cookie
+## 搭配使用Secure Cookie與Web SDK
 
-如果您的網站使用HTTPS通訊協定，則會針對Web SDK設定的所有Cookie設定Secure屬性。
+如果您的網站使用HTTPS通訊協定，則會為網頁SDK設定的所有Cookie設定Secure屬性。
 
 ## 使用Adobe Analytics擴充功能撰寫Secure Cookie
 

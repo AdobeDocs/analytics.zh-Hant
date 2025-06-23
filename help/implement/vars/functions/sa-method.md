@@ -1,10 +1,10 @@
 ---
 title: sa
 description: 隨時在您的實施中變更報表套裝。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
-source-git-commit: bfafc1f8eddf82b34fb45e3d6197213f0cee0d97
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 42%
@@ -17,18 +17,18 @@ ht-degree: 42%
 
 ## 使用Web SDK處理報表套裝
 
-Web SDK的運作方式是將資料傳送至特定資料流，該資料流會將資料轉送至所需的Analytics報表套裝。 單一資料流可轉送資料至多個報表套裝。 本節同時適用於Web SDK擴充功能和手動實作Web SDK。
+網頁SDK的運作方式是將資料傳送至特定資料流，該資料流會將資料轉送至所需的Analytics報表套裝。 單一資料流可轉送資料至多個報表套裝。 本節同時適用於Web SDK擴充功能和手動實作Web SDK。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下左側的&#x200B;**[!UICONTROL 資料串流]**。
 1. 按一下想要的資料流，或按一下&#x200B;**[!UICONTROL 新增資料流]**。
 1. 按一下&#x200B;**[!UICONTROL 新增服務]**，然後選取&#x200B;**[!UICONTROL Adobe Analytics]**。
-1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下[新增報表套裝]。**&#x200B;**
-1. 輸入所有需要的報表套裝後，按一下[儲存]。**&#x200B;**
+1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下[新增報表套裝]。****
+1. 輸入所有需要的報表套裝後，按一下[儲存]。****
 
-## 使用Web SDK擴充功能設定所需的資料串流
+## 使用網頁SDK擴充功能設定所需的資料串流
 
-Web SDK擴充功能提供每個環境的資料串流下拉式清單。 或者，您可以手動輸入資料串流ID。
+Web SDK擴充功能提供每個環境的資料流下拉式清單。 或者，您可以手動輸入資料串流ID。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -36,7 +36,7 @@ Web SDK擴充功能提供每個環境的資料串流下拉式清單。 或者，
 1. 在[!UICONTROL 資料串流]底下，從每個環境的下拉式清單中選擇所需的資料串流。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-## 手動設定所需資料流以實作Web SDK
+## 手動設定所需資料流實作網頁SDK
 
 將`datastreamId`設定變數設定為資料流ID。 在Adobe Experience Platform Data Collection中檢視資料流時，可在右側找到資料流ID。
 
@@ -47,7 +47,7 @@ alloy("configure", {
 });
 ```
 
-如需詳細資訊，請參閱Web SDK檔案中的[設定Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)。
+如需詳細資訊，請參閱網頁SDK檔案中的[設定網頁SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)。
 
 ## 使用Adobe Analytics擴充功能變更報表套裝
 

@@ -1,10 +1,10 @@
 ---
 title: trackOffline
 description: 啟用或停用離線追蹤，變更 AppMeasurement 收集資料的方式。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 89%
@@ -29,9 +29,9 @@ ht-degree: 89%
    * 如果無法連接 Adobe 資料收集伺服器，點擊會新增到裝置上的佇列。
    * 如果它可以連接 Adobe 資料收集伺服器，便會傳送裝置離線時的點擊和點擊佇列。
 
-## 使用Web SDK進行離線追蹤
+## 使用網頁SDK進行離線追蹤
 
-Web SDK不支援離線追蹤。
+網頁SDK不支援離線追蹤。
 
 ## 使用Adobe Analytics擴充功能的離線追蹤
 

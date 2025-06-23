@@ -1,10 +1,10 @@
 ---
 title: dynamicVariablePrefix
 description: 可讓您自訂用來辨識動態變數的字串。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 70%
@@ -17,9 +17,9 @@ ht-degree: 70%
 
 依預設，動態變數會使用 `D=` 首碼。`dynamicVariablePrefix` 變數可讓您自訂用來辨識動態變數的字串。它會區分大小寫。
 
-## 使用Web SDK的動態變數首碼
+## 使用網頁SDK的動態變數首碼
 
-Web SDK未使用動態變數格式。 您可以改為使用資料流對應，透過單一Source欄位填入多個目標欄位。 如需詳細資訊，請參閱使用Web SDK的[動態變數](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)。
+網頁SDK不使用動態變數格式。 您可以改為使用資料流對應，透過單一Source欄位填入多個目標欄位。 如需詳細資訊，請參閱[使用網頁SDK的動態變數](../page-vars/dynamic-variables.md#dynamic-variables-using-the-web-sdk)。
 
 如果您在不遵循結構描述的情況下直接將資料傳送到Adobe Analytics，它會使用以下變數：
 

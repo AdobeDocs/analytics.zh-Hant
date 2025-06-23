@@ -1,17 +1,17 @@
 ---
-title: 外掛程式概述
+title: 外掛程式概觀
 description: 將程式碼貼在您的網站上以引入新功能。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 96%
 
 ---
 
-# 外掛程式概述
+# 外掛程式概觀
 
 外掛程式是程式碼的片段，可執行數種進階功能，協助您實施 Analytics。這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實施中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。
 

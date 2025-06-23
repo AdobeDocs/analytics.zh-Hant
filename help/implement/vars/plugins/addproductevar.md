@@ -1,10 +1,10 @@
 ---
 title: addProductEvar
 description: 將銷售 eVar 新增至產品變數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 87%
@@ -21,9 +21,9 @@ ht-degree: 87%
 >
 > 此外掛程式不會取代產品項目中已存在的 eVar。它只會附加您使用此外掛程式設定的值。在附加該產品已存在的 eVar 時請務必小心。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

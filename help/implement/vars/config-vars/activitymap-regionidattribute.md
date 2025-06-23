@@ -1,10 +1,10 @@
 ---
 title: ActivityMap.regionIDAttribute
-description: 變更Activity Map尋找的屬性以決定區域。
-feature: Variables
+description: 變更Activity Map尋找的屬性以決定地區。
+feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 4aec045e-1a86-412f-bd37-777ac49ccc7d
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 11%
@@ -19,9 +19,9 @@ ht-degree: 11%
 
 當&#x200B;**[!UICONTROL 啟用點選資料集合]**&#x200B;啟用時，請使用&#x200B;**[!UICONTROL 篩選點選屬性]**&#x200B;回呼程式碼區塊。 在此程式碼區塊中，您可以檢查`content.clickedElement`的值，然後變更值或放棄連結追蹤資料的集合。
 
-## Web SDK JavaScript資料庫中的地區ID屬性
+## 網路SDK JavaScript資料庫中的地區ID屬性
 
-啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`clickCollection`物件中使用`filterClickDetails`回呼。 在此回呼內，您可以檢查`clickedElement`的值，並自訂所收集區域的邏輯。
+啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`clickCollection`物件中使用`filterClickDetails`回呼。 在此回呼內，您可以檢查`clickedElement`的值，並自訂所收集區域的邏輯。
 
 ```js
 alloy("configure", {

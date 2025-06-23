@@ -1,11 +1,11 @@
 ---
 title: trackInlineStats
-description: （已淘汰）在您的實施中啟用或停用ClickMap。
+description: （已淘汰）在您的實施中啟用或停用ClickMap 。
 keywords: 停用clickmap
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 28%
@@ -24,7 +24,7 @@ ClickMap是Adobe Analytics已淘汰的功能，可收集訪客點按位置及點
 
 ## 使用Adobe Analytics擴充功能啟用ClickMap
 
-設定Adobe Analytics擴充功能時，「[!UICONTROL 啟用ClickMap]」是「[!UICONTROL 連結追蹤]」摺疊式功能表底下的核取方塊。
+[!UICONTROL 啟用ClickMap]是在設定Adobe Analytics擴充功能時，於[!UICONTROL 連結追蹤]設定追蹤器下方的核取方塊。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
@@ -33,7 +33,7 @@ ClickMap是Adobe Analytics已淘汰的功能，可收集訪客點按位置及點
 
 >[!NOTE]
 >
->此核取方塊與[!UICONTROL 使用Activity Map]核取方塊不同，此核取方塊位於[!UICONTROL 資料庫管理]摺疊式功能表下。
+>此核取方塊與[!UICONTROL 「使用Activity Map]」核取方塊不同，該核取方塊位於[!UICONTROL 資料庫管理]摺疊式功能表下。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.trackInlineStats
 

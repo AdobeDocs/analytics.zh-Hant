@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics 系統需求
 description: 使用 Adobe Analytics 的系統需求。
-feature: System Requirements
+feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
-workflow-type: ht
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * 支援的瀏覽器
 
-  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=zh-Hant)。
+  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html)。
 
 ## 系統需求
 

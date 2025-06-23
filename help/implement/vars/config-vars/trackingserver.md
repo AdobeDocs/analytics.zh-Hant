@@ -1,10 +1,10 @@
 ---
 title: trackingServer
 description: 決定影像要求的傳送位置。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 284f121428ce9d682b42309dd85cfd117285a7e5
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 52%
@@ -21,7 +21,7 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ## 使用Web SDK擴充功能的Edge網域
 
-Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺服器。 設定Web SDK擴充功能時，您可以設定所要的[!UICONTROL Edge網域]值。
+Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺服器。 設定Web SDK擴充功能時，您可以設定所需的[!UICONTROL Edge網域]值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -55,22 +55,22 @@ alloy("configure", {
 
 如果此欄位留空，其預設值為 `[rsid].data.adobedc.net`。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.trackingServer
+## AppMeasurement中的s.trackingServer與Analytics擴充功能自訂程式碼編輯器
 
 `s.trackingServer` 變數是包含資料傳送位置的字串。
 
 ## 決定`trackingServer`值的考量事項
 
-您可以選擇使用Adobe的追蹤伺服器網域（例如`adobedc.net`），或透過特殊程式來設定符合您網站網域（例如`data.mydomain.com`）的追蹤伺服器，也稱為CNAME實作。 根據您實作的其他方面，擁有符合您網站網域的trackingserver可能會有一些優點。 當追蹤伺服器不符合目前頁面的網域時，AppMeasurement設定的Cookie必須設定為第三方。 如果瀏覽器不支援第三方Cookie，這種不相符可能會干擾某些Analytics功能：
+您可以選擇使用Adobe的追蹤伺服器網域（例如`adobedc.net`），或透過特殊程式來設定符合您網站網域（例如`data.mydomain.com`） （也稱為CNAME實作）的追蹤伺服器。 根據您實作的其他方面，擁有符合您網站網域的trackingserver可能會有一些優點。 當追蹤伺服器不符合目前頁面的網域時，AppMeasurement設定的Cookie必須設定為協力廠商。 如果瀏覽器不支援第三方Cookie，這種不相符可能會干擾某些Analytics功能：
 
-- 設定識別碼：如果您正在使用Experience Cloud識別服務，追蹤伺服器不會影響Cookie的設定方式。 不過，如果您正在使用Analytics舊型識別碼（亦即`s_vi` Cookie），且收集伺服器不符合目前的網域，則Cookie必須設定為第三方。 在此情況下，如果瀏覽器封鎖第三方Cookie，則Analytics會設定第一方備援ID (`s_fid`)，而非標準`s_vi` Cookie。
+- 設定識別碼：如果您正在使用Experience Cloud Identity Service，追蹤伺服器不會影響Cookie的設定方式。 不過，如果您正在使用Analytics舊型識別碼（亦即`s_vi` Cookie），且收集伺服器不符合目前的網域，則Cookie必須設定為第三方。 在此情況下，如果瀏覽器封鎖第三方Cookie，則Analytics會設定第一方備援ID (`s_fid`)，而非標準`s_vi` Cookie。
 - 連結追蹤無法用於內部連結。
-- 內部連結的Activity Map無法運作。
+- Activity Map無法用於內部連結。
 - Cookie檢查。
 
 ### 第一方 Cookie
 
-如果您使用第一方 Cookie 實作，貴組織中可能已經有人完成第一方 Cookie 處理。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)。
+如果您使用第一方 Cookie 實作，貴組織中可能已經有人完成第一方 Cookie 處理。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 最初設定第一方 Cookie 實作的個人，也會定義使用的網域和子網域。例如：
 

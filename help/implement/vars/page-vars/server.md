@@ -1,10 +1,10 @@
 ---
 title: 伺服器
 description: 填入「伺服器」維度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 role: Admin, Developer
-source-git-commit: 5ef92db2f5edb5fded497dddedd56abd49d8a019
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 74%
@@ -35,7 +35,7 @@ ht-degree: 74%
 
 您可以將伺服器設定為任何字串值或資料元素。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.server
+## AppMeasurement中的s.server與Analytics擴充功能自訂程式碼編輯器
 
 `s.server` 變數是字串，通常包含網站的主機名稱。其最大值為 100 個位元組；超過上限的值會遭到截斷。
 

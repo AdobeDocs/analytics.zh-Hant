@@ -1,10 +1,10 @@
 ---
 title: 州別
 description: （已淘汰）填入無法再使用的「訪客州報表」。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 role: Admin, Developer
-source-git-commit: 75ae77c1da1b578639609888e794e13d965ef669
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 80%

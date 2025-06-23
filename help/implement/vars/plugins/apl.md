@@ -1,10 +1,10 @@
 ---
 title: apl (appendToList)
 description: 將值附加至支援多個值的變數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 90%
@@ -23,9 +23,9 @@ ht-degree: 90%
 
 如果您想要將新值新增至現有變數，而且該變數包含由分隔值組成的字串，Adobe 建議您使用此外掛程式。如果您偏好將包含分隔值之變數的字串串連起來，則不需要使用此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

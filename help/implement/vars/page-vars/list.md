@@ -1,10 +1,10 @@
 ---
 title: list
 description: 在同一次點擊中容納多個值的自訂變數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 74%
@@ -59,7 +59,7 @@ ht-degree: 74%
 >
 >Adobe XDM 結構描述在每個 `list[]` 陣列中，除了 `value` 物件，也包含 `key` 物件。Adobe 在傳送資料給 Adobe Analytics 時，不會使用這些 `key` 物件。
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單變數會使用`data.__adobe.analytics.list1` - `data.adobe.analytics.list3`下列AppMeasurement語法。 請確定您在[報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中使用正確的分隔符號集。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，清單變數會依照AppMeasurement語法使用`data.__adobe.analytics.list1` - `data.adobe.analytics.list3`。 請確定您在[報表套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中使用正確的分隔符號集。
 
 ```json
 "data": {

@@ -1,10 +1,10 @@
 ---
 title: channel
 description: 填入「網站區域」維度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f494a051-a296-4f1c-9044-04a8b59376fa
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 `channel` 變數通常會儲存指定頁面所在的網站區域。這個變數有助於判斷網站的哪些群組最受歡迎。此變數會填入「網站區域」維度。
 
-## 使用Web SDK的管道
+## 使用網頁SDK的管道
 
 管道已對應至下列變數：
 

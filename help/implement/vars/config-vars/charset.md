@@ -1,10 +1,10 @@
 ---
 title: charSet
 description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 65%
@@ -13,11 +13,11 @@ ht-degree: 65%
 
 # charSet
 
-Adobe會使用`charSet`變數將傳入的資料轉換為UTF-8，以便Analytics儲存和執行報表。 大多數網站不需要設定此變數。
+Adobe使用`charSet`變數將傳入的資料轉換為UTF-8，以便Analytics儲存和執行報表。 大多數網站不需要設定此變數。
 
 只有在報告中看到亂碼值 ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) 時，才設定此變數。如果您的網站在不同頁面上使用不同的編碼，您可以逐頁設定此變數。
 
-## Web SDK中的字元集
+## 網頁SDK中的字元集
 
 Web SDK目前僅支援UTF-8，不提供變更編碼的選項。
 

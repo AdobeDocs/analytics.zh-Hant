@@ -1,10 +1,10 @@
 ---
 title: cookieDomainPeriods
 description: （已棄用）協助AppMeasurement判斷當網站最上層網域包含句點時，要將Cookie儲存於何處。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
 role: Admin, Developer
-source-git-commit: 1cdcc748e50c7eeffa98897006154aa0953ce7e3
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 18%
@@ -22,7 +22,7 @@ ht-degree: 18%
 >
 >此變數不會產生任何效用，因為適用的程式庫會自動偵測要設定Cookie的網域。
 
-`cookieDomainPeriods`變數指出最上層網域中含有額外的句號，有助於AppMeasurement判斷要在何處設定Analytics Cookie。 此變數允許AppMeasurement在頂層網域中容納額外的句號，並在正確位置設定Cookie。 如果您的網站最上層網域未包含額外的句號，則不需要此變數。
+`cookieDomainPeriods`變數指出最上層網域中含有額外的句號，協助AppMeasurement判斷應在何處設定Analytics Cookie。 此變數可讓AppMeasurement在頂層網域中容納額外的句號，並在正確位置設定Cookie。 如果您的網站最上層網域未包含額外的句號，則不需要此變數。
 
 * 針對 `example.co.uk` 或 `www.example.co.jp` 這類網域，請將此變數設為 `"3"`。
 * 針對類似`example.nsw.gov.au`的網域，將此變數設為`"4"`。
@@ -32,11 +32,11 @@ ht-degree: 18%
 >
 > 使用此變數時請勿將子網域列入考量。例如，請勿在範例 URL `store.toys.example.com` 上設定 `cookieDomainPeriods`。AppMeasurement會辨識Cookie儲存在`example.com`上，即使在具有許多子網域的URL上亦然。
 
-對於AppMeasurementv2.26.x或更新版本上的實作，[`s_ac`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie是用來協助自動判斷正確的Cookie網域。 程式庫會先嘗試寫入包含兩個網域句號的Cookie。 如果設定此Cookie失敗，會再試一次，包括更多網域句號，直到成功為止。 此Cookie在設定後會立即刪除。
+針對AppMeasurement v2.26.x或更新版本上的實作，[`s_ac`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie是用來協助自動判斷正確的Cookie網域。 程式庫會先嘗試寫入包含兩個網域句號的Cookie。 如果設定此Cookie失敗，會再試一次，包括更多網域句號，直到成功為止。 此Cookie在設定後會立即刪除。
 
-## 使用Web SDK的Cookie網域句號
+## 使用網頁SDK的Cookie網域句號
 
-Web SDK會自動判斷設定Cookie的正確網域。
+網頁SDK會自動判斷設定Cookie的正確網域。
 
 ## 使用Adobe Analytics擴充功能的Cookie網域句號
 

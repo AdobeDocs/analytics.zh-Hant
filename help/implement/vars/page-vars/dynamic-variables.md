@@ -1,10 +1,10 @@
 ---
 title: 動態變數
 description: 複製變數而不增加影像要求長度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 78%
@@ -25,7 +25,7 @@ ht-degree: 78%
 >
 >複製變數時請留意字元上限。例如，如果將 `eVar1` 複製到 `prop1`，`prop1` 的值可能會遭到截斷，因為它有 100 個位元組的限制 (`eVar1` 則有 255 個位元組的限制)。
 
-## 使用Web SDK的動態變數
+## 使用網頁SDK的動態變數
 
 使用資料流對應，從單一XDM欄位傳送資料至多個Analytics變數。
 

@@ -1,17 +1,17 @@
 ---
 title: 頁面變數
 description: 在個別頁面上設定值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 321d0db2-61a3-478e-ab51-8e06c7b2bb7b
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-# 頁面變數總覽
+# 頁面變數概觀
 
 頁面變數會決定報表中維度和量度的值。
 

@@ -1,10 +1,10 @@
 ---
 title: s_objectID
 description: 協助 Activity Map 辨識網站上的獨特連結。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 80%
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 `s_objectID` 變數提供連結的唯一識別碼。它可用來讓 [Activity Map](/help/analyze/activity-map/overview.md) 中的報表更準確。如果您的頁面上有經常變更的連結，可以使用 `s_objectID` 變數來告知 Activity Map 留意唯一連結位置，讓它能夠正常地將資料正確分組。
 
-如果Activity Map正確性對貴組織至關重要，Adobe建議在網站上連結的`onClick`事件中加入`s_objectID`變數。
+如果Activity Map的正確性對貴組織至關重要，Adobe建議您在網站上於連結的`onClick`事件中加入`s_objectID`變數。
 
 ## 使用Adobe Analytics擴充功能的物件ID
 

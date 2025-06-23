@@ -1,10 +1,10 @@
 ---
 title: rfl
 description: 從字元分隔字串中移除特定值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 93%
@@ -22,9 +22,9 @@ ht-degree: 93%
 * 如果您要移除的值存在，外掛程式會保留變數中除了待移除值以外的所有內容。
 * 如果您要移除的值不存在，外掛程式會將原始字串維持原狀。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

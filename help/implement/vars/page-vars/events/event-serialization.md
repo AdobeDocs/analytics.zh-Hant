@@ -1,10 +1,10 @@
 ---
 title: 事件序列化
 description: 協助您去除網站上重複的量度。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 12347957a7a51dc1f8dfb46d489b59a450c2745a
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -39,7 +39,7 @@ ht-degree: 83%
 
 例如，如果您想要序列化購物車新增量度，請將`xdm.commerce.productListAdds.id`設定為所要的序列化值。 如果您想要序列化自訂事件20，請將`xdm._experience.analytics.event1to100.event20`設定為所要的序列化值。
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化會使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化會依照AppMeasurement字串語法使用`data.__adobe.analytics.events`。
 
 ## 透過 Adobe Analytics 擴充功能使用事件 ID
 

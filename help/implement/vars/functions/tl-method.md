@@ -1,10 +1,10 @@
 ---
 title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 72b38970e573b928e4dc4a8c8efdbfb753be0f4e
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 62%
@@ -17,9 +17,9 @@ ht-degree: 62%
 
 如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 已啟用，AppMeasurement 會自動呼叫 `tl()` 方法，以便傳送下載連結和退出連結追蹤資料。如果您的組織想進一步控制要追蹤的連結與其行為，可以手動呼叫 `tl()` 方法。自訂連結只能手動追蹤。
 
-## 使用Web SDK進行連結追蹤
+## 使用網頁SDK進行連結追蹤
 
-Web SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者都使用`sendEvent`命令。
+網頁SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者都使用`sendEvent`命令。
 
 如果您使用XDM物件，並希望Adobe Analytics將特定事件計算為連結追蹤呼叫，請確定您的XDM資料包括：
 
@@ -175,7 +175,7 @@ function trackClickInteraction(name){
 ```
 
 >[!NOTE]
->間接呼叫`tl()`方法會降低Activity Map覆蓋報告的便利性。 您必須按一下每個連結，以使用連結元素註冊函式。 不過，Workspace中的Activity Map維度會以相同方式進行追蹤。
+>間接呼叫`tl()`方法會降低Activity Map覆蓋報告的便利性。 您必須按一下每個連結，以使用連結元素註冊函式。 不過，Workspace中的Activity Map維度會受到相同追蹤。
 
 ### 避免追蹤重複的連結
 
@@ -200,17 +200,17 @@ function linkCode(obj) {
 }
 ```
 
-### 使用`tl()`方法搭配Activity Map
+### 搭配Activity Map使用`tl()`方法
 
 您可以使用`tl()`方法來追蹤自訂元素並設定動態內容的覆蓋圖演算。 `linkName`引數也可用來設定[Activity Map連結](/help/components/dimensions/activity-map-link.md)維度。
 
-當從HTML元素的點選事件直接呼叫`tl()`方法時，Activity Map可以在載入網頁時顯示該元素的覆蓋圖。 例如：
+從HTML元素的點選事件直接呼叫`tl()`方法時，Activity Map可以在載入網頁時顯示該元素的覆蓋圖。 例如：
 
 ```html
 <a href="index.html" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
 ```
 
-如果不是從HTML元素的點按事件直接呼叫`tl()`方法，則Activity Map只能在點按該元素後顯示覆蓋圖。 例如：
+如果不是從HTML元素的點按事件直接呼叫`tl()`方法，Activity Map必須等到該元素點按後，才能顯示覆蓋圖。 例如：
 
 ```html
 <a href="index.html" onclick="someFn(event);">Example link text</a>

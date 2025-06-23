@@ -1,10 +1,10 @@
 ---
 title: abort
 description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料收集伺服器。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer
-source-git-commit: 5ef8ba686a13f8b4ab592c0b48a9c074b0477fcf
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 39%
@@ -13,11 +13,11 @@ ht-degree: 39%
 
 # abort
 
-`abort`變數是布林值，可防止將下一個追蹤呼叫傳送到Adobe。 Web SDK中存在類似的功能，可讓您在傳送XDM事件之前傳回`false`。
+`abort`變數是布林值，可防止將下一個追蹤呼叫傳送至Adobe。 網頁SDK中有類似的功能，可讓您在傳送XDM事件之前傳回`false`。
 
-## 取消使用Web SDK擴充功能傳送事件
+## 使用Web SDK擴充功能取消傳送事件
 
-在事件傳送回呼程式碼編輯器之前使用On並傳回`false`。
+在事件傳送回呼]程式碼編輯器之前使用[!UICONTROL On並傳回`false`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -29,9 +29,9 @@ ht-degree: 39%
 return false;
 ```
 
-## 取消手動實作Web SDK時傳送事件
+## 取消手動傳送事件實作Web SDK
 
-使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {
@@ -60,7 +60,7 @@ s.abort = true;
 >
 >`abort` 變數會在每個追蹤呼叫後重設為 `false`。若要中止相同頁面上的後續追蹤呼叫，請再次將`abort`設為`true`。
 
-`abort`變數可在[`doPlugins()`](../functions/doplugins.md)函式中設定，該函式是將影像要求傳送至Adobe之前執行的最後一個函式。 此範例的運作方式與使用Web SDK的`onBeforeEventSend`回呼類似。
+`abort`變數可在[`doPlugins()`](../functions/doplugins.md)函式中設定，此函式是將影像要求傳送至Adobe之前執行的最後一個函式。 此範例的運作方式與使用Web SDK的`onBeforeEventSend`回呼類似。
 
 ```js
 s.doPlugins = function(s) {

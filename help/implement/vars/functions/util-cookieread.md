@@ -1,10 +1,10 @@
 ---
 title: Util.cookieRead
 description: 取得 Cookie 的值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: b05b628c-bae6-4dba-bc1d-6a1ab56e3660
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 72%
@@ -15,7 +15,7 @@ ht-degree: 72%
 
 Cookie可以儲存和擷取相同網域上各頁面的資訊。使用 `Util.cookieRead()` 方法可從 Cookie 擷取值。
 
-## 使用Adobe Analytics擴充功能和Web SDK擴充功能讀取Cookie
+## 使用Adobe Analytics擴充功能和Web SDK擴充功能來讀取Cookie
 
 您可以透過在資料元素中設定值來讀取 Cookie。
 

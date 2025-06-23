@@ -1,10 +1,10 @@
 ---
 title: clearVars
 description: 清除例項物件的值。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 67%
@@ -30,9 +30,9 @@ ht-degree: 67%
 * `zip`
 * `campaign`
 
-## 使用Web SDK清除變數
+## 使用網頁SDK清除變數
 
-當您使用Web SDK傳送資料給Adobe時，所有XDM資料都會自動清除。
+當您使用網頁SDK傳送資料至Adobe時，所有XDM資料都會自動清除。
 
 ## 使用Adobe Analytics擴充功能清除變數
 

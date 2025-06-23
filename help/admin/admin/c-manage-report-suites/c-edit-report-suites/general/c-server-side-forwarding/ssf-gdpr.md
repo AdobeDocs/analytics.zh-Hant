@@ -1,10 +1,10 @@
 ---
 description: 解釋由歐盟 Cookie 合規性法規推動的伺服器端轉送的增強功能。
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
-feature: Server-Side Forwarding
+feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: def7d071de1765acf524a638a8f8d13ae69e1a1f
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 55%

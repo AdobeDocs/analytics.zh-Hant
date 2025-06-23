@@ -1,10 +1,10 @@
 ---
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-source-git-commit: 7c8ffe8f4ccf0577136e4d7ee96340224897d2a4
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 67%
@@ -19,7 +19,7 @@ ht-degree: 67%
 >
 >如果此變數設定於點擊中，但沒有 [`events`](events/events-overview.md) 變數，則[產品檢視](/help/components/metrics/product-views.md)量度會增加 1。 請務必每個使用 `products` 變數的點擊上設定適當的事件。
 
-## 使用Web SDK的產品
+## 使用網頁SDK的產品
 
 如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品會對應至下列變數：
 
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，產品變數會使用下列AppMeasurement語法`data.__adobe.analytics.products`。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則產品變數會使用AppMeasurement語法中的`data.__adobe.analytics.products`。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
 
 ```json
 {

@@ -1,10 +1,10 @@
 ---
 title: trackExternalLinks
 description: 啟用或停用退出連結的自動連結追蹤。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 60%
@@ -17,7 +17,7 @@ Adobe 提供追蹤對外連結的功能，使用者不需要手動設定每個�
 
 啟用後，AppMeasurement 會將任何點按的連結 URL 與 [`linkInternalFilters`](linkinternalfilters.md) 和 [`linkExternalFilters`](linkexternalfilters.md) 中的值比較。如果有相符項目，退出連結追蹤呼叫就會自動引發。
 
-## 使用Web SDK擴充功能啟用或停用點選收集
+## 使用Web SDK擴充功能來啟用或停用點選收集
 
 設定Web SDK時，請使用[!UICONTROL 啟用按一下資料彙集]核取方塊。 此核取方塊會處理退出和下載連結。
 
@@ -28,7 +28,7 @@ Adobe 提供追蹤對外連結的功能，使用者不需要手動設定每個�
 
 ## 啟用或停用手動實作Web SDK的點選收集
 
-使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant#clickCollectionEnabled)設定SDK。 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。如果您要停用自動連結追蹤，請將此值設為`false`。 此設定會處理下載和退出連結的自動連結追蹤。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)設定SDK。 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。如果您要停用自動連結追蹤，請將此值設為`false`。 此設定會處理下載和退出連結的自動連結追蹤。
 
 ```json
 alloy("configure", {

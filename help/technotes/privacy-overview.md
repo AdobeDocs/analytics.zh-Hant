@@ -1,19 +1,19 @@
 ---
-description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
+description: 概觀 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
 keywords: 隱私權
 title: 隱私權概觀
-feature: Privacy
+feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
+source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
 workflow-type: tm+mt
 source-wordcount: '978'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 隱私權概觀
 
-Adobe 希望幫助您的組織讓您能遵守適用的法律和法規。如需詳細資訊，請參閱「[Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target=_blank}」。在 Adob&#x200B;&#x200B;e Analytics 和您的組織之間，Adobe 的角色是「資料處理方」，而您是「資料管控方」(在適用隱私權和資料保護法律下為同等責任方)。貴組織實施 Adobe 解決方案的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。在使用 Adob&#x200B;&#x200B;e Analytics 時，您的組織有責任遵守您自己的隱私權原則、您與 Adob&#x200B;&#x200B;e 的服務協議以及所有適用的法律。
+Adobe 希望幫助您的組織讓您能遵守適用的法律和法規。如需詳細資訊，請參閱[Adobe Experience Cloud隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target=_blank}。 在 Adob&#x200B;&#x200B;e Analytics 和您的組織之間，Adobe 的角色是「資料處理方」，而您是「資料管控方」(在適用隱私權和資料保護法律下為同等責任方)。貴組織實施 Adobe 解決方案的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。在使用 Adob&#x200B;&#x200B;e Analytics 時，您的組織有責任遵守您自己的隱私權原則、您與 Adob&#x200B;&#x200B;e 的服務協議以及所有適用的法律。
 
 Adobe 強烈建議遵守以下總體概念進行：
 
@@ -40,8 +40,8 @@ Adobe Analytics 可以收集以下類型的資料：
 | 可識別的訪客 ID | Adobe 不會自動收集自訂訪客 ID。但是，您可以自訂實施方法來收集此資料。 | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
 | 外部搜尋詞 | 外部搜尋資料包括來自搜尋引擎的關鍵字。資料收集庫會根據反向連結 URL 來尋找此資料。然而，許多新型搜尋引擎不再包含此資訊。 | [搜尋關鍵字](../components/dimensions/search-keyword.md) |
 | 內部搜尋詞 | 內部搜尋資料包括來自您網站或應用程式搜尋功能的關鍵字。Adobe 不會自動收集內部搜尋資料。但是，您可以自訂實施方法來收集此資料。對於使用 Adob&#x200B;&#x200B;e Analytics 的組織來說，這種做法很常見。 | [eVar](../components/dimensions/evar.md) |
-| 電腦和瀏覽器規格 | 資料收集庫會自動收集低平均資訊量的瀏覽器提示，例如瀏覽器類型、作業系統類型，以及裝置是桌上型電腦或行動裝置。需要自訂設定來收集高平均資訊量提示，例如瀏覽器的特定版本、裝置型號或作業系統版本。查閱「[用戶提示概述](client-hints.md)」以了解更多。 | [瀏覽器](../components/dimensions/browser.md)、[作業系統](../components/dimensions/operating-systems.md)、[行動維度](../components/dimensions/mobile-dimensions.md)、[顯示器解析度](../components/dimensions/monitor-resolution.md) |
-| 地理位置資訊 | Adobe 提供功能可將 IP 位址最後一個八位元組設為 0，以防止識別出詳細地理位置。這樣會讓地理資訊變成不那麼精確，並可在[報表套裝設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html?lang=zh-Hant)中進行設定。 | [城市](../components/dimensions/cities.md)、[區域](../components/dimensions/regions.md)、[國家/地區](../components/dimensions/countries.md) |
+| 電腦和瀏覽器規格 | 資料收集庫會自動收集低平均資訊量的瀏覽器提示，例如瀏覽器類型、作業系統類型，以及裝置是桌上型電腦或行動裝置。需要自訂設定來收集高平均資訊量提示，例如瀏覽器的特定版本、裝置型號或作業系統版本。查閱「[用戶提示概觀](client-hints.md)」以了解更多。 | [瀏覽器](../components/dimensions/browser.md)、[作業系統](../components/dimensions/operating-systems.md)、[行動維度](../components/dimensions/mobile-dimensions.md)、[顯示器解析度](../components/dimensions/monitor-resolution.md) |
+| 地理位置資訊 | Adobe 提供功能可將 IP 位址最後一個八位元組設為 0，以防止識別出詳細地理位置。這樣會讓地理資訊變成不那麼精確，並可在[報表套裝設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/general-acct-settings-admin.html)中進行設定。 | [城市](../components/dimensions/cities.md)、[區域](../components/dimensions/regions.md)、[國家/地區](../components/dimensions/countries.md) |
 | IP 位址 | Adobe 提供功能可在儲存此資料時混淆 (雜湊) 或完全移除訪客的 IP 位址。歐洲、中東和非洲 (EMEA) 客戶依預設通常會混淆 IP 位址設定。無論混淆設定如何，IP 位址都不可在 Analysis Workspace 中作為維度；只會包含在[資料摘要](../export/analytics-data-feed/data-feed-overview.md)中。請參閱管理員指南中的「[一般帳戶設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」，了解有關適用混淆設定的詳細資訊。 | 無 |
 | 您網站上提供的表單資訊 | 所有實施類型都需要收集此資料的設定。您可以將此資料包含在自訂變數中。 | [eVar](../components/dimensions/evar.md) |
 | 您網站上的已點擊廣告或連結 | 如果 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) 已啟用則已收集。啟用 Activity Map 時，系統將提供更多資訊，例如點擊位置。 | [Activity Map](../analyze/activity-map/overview.md)、[退出連結](../components/dimensions/exit-link.md)、[下載連結](../components/dimensions/download-link.md) |
@@ -53,4 +53,4 @@ Adobe Analytics 可以收集以下類型的資料：
 
 ## 資料處理地點
 
-Adobe 為 Adob&#x200B;&#x200B;e Analytics 設有三個資料處理地點。這些站點會接收原始資料並將其處理至報表套裝，在套裝中會針對資料儲存和報告檢索進行最佳化。這些資料處理地點目前位於美國 (俄勒岡州)、英國 (倫敦) 和新加坡。請參閱「[Adobe Analytics 安全性概觀](https://www.adobe.com/tw/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}」，了解更多資訊。
+Adobe 為 Adob&#x200B;&#x200B;e Analytics 設有三個資料處理地點。這些站點會接收原始資料並將其處理至報表套裝，在套裝中會針對資料儲存和報告檢索進行最佳化。這些資料處理地點目前位於美國 (俄勒岡州)、英國 (倫敦) 和新加坡。如需詳細資訊，請參閱[Adobe Analytics安全性總覽](https://www.adobe.com/tw/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank}。

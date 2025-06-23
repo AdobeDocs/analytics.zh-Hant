@@ -1,10 +1,10 @@
 ---
 title: cleanStr
 description: 移除或取代字串中所有不必要的字元。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 68%
@@ -15,11 +15,11 @@ ht-degree: 68%
 
 {{plug-in}}
 
-`cleanStr` 外掛程式會移除或取代字串中所有不必要的字元，包括 HTML 標記字元、額外的空格、標記和新行/歸位字元。它也能以直式單引號(`'`)取代左/右單引號。 如果您想要移除變數值中不必要的字元，而Adobe Experience Platform資料收集中的「清除文字」功能無法滿足您的實作需求，Adobe建議您使用此外掛程式。 如果收集的資料未包含不必要的字元，或是Adobe Experience Platform資料收集中的「清除文字」功能足以滿足需求，就不需要此外掛程式。
+`cleanStr` 外掛程式會移除或取代字串中所有不必要的字元，包括 HTML 標記字元、額外的空格、標記和新行/歸位字元。它也能以直式單引號(`'`)取代左/右單引號。 如果您想要移除變數值中不必要的字元，而Adobe資料收集中的「清除文字」功能無法滿足您的實作需求，Adobe Experience Platform建議您使用此外掛程式。 如果收集的資料未包含不必要的字元，或是Adobe Experience Platform資料收集中的「清除文字」功能足以滿足需求，就不需要此外掛程式。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 

@@ -1,10 +1,10 @@
 ---
 title: t
 description: 傳送頁面瀏覽數追蹤呼叫給 Adobe。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 56%
@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-如需詳細資訊，請參閱網頁SDK檔案中的[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendevent/overview)。
+如需詳細資訊，請參閱網頁SDK檔案中的[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)。
 
 ## 使用Adobe Analytics擴充功能的頁面檢視追蹤呼叫
 

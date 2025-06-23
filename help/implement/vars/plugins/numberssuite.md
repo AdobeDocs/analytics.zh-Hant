@@ -1,10 +1,10 @@
 ---
 title: Numbers Suite
 description: 產生並操控數字以用於其他 JavaScript 變數。
-feature: Variables
+feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 89%
@@ -21,9 +21,9 @@ Numbers Suite 提供一系列 JavaScript 函數。其中包含下列外掛程式
 * **`randomNumber`**：產生具有特定位數的隨機數。如果您部署協力廠商標記，而且想要防快取的隨機數，此外掛程式就相當實用。
 * **`twoDecimals`**：將數字捨入至最接近的百位數。此外掛程式適用於貨幣用途，可讓您將數字捨入至有效的貨幣值。
 
-## 使用Web SDK或Web SDK擴充功能安裝外掛程式
+## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
-此外掛程式尚不支援在Web SDK中使用。
+此外掛程式尚不支援在網頁SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
