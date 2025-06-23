@@ -32,7 +32,7 @@ ht-degree: 1%
 
    * **篩選器：**&#x200B;選取「篩選器」圖示以篩選位置清單。
 
-     您可以依&#x200B;**[!UICONTROL 位置型別]**、**[!UICONTROL 帳戶]**&#x200B;或由&#x200B;]**建立的**[!UICONTROL &#x200B;來篩選位置。
+     您可以依&#x200B;**[!UICONTROL 位置型別]**、**[!UICONTROL 帳戶]**&#x200B;或由&#x200B;**建立的**&#x200B;來篩選位置。
 
      ![位置篩選器](assets/locations-filters.png)
 
