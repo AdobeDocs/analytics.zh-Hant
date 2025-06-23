@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 地點管理員
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: a81cc80ddc884c3f908e66e37593e1ce1b829a50
+source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1490'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 1%
 
 * 使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)匯出檔案
 * 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)匯出報告
+* 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)時匯出檔案
 * 使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述
 
 ## 檢視、篩選和搜尋位置
@@ -31,7 +32,7 @@ ht-degree: 1%
 
    * **篩選器：**&#x200B;選取「篩選器」圖示以篩選位置清單。
 
-     您可以依&#x200B;**[!UICONTROL 位置型別]**、**[!UICONTROL 帳戶]**&#x200B;或由&#x200B;**建立的**&#x200B;來篩選位置。
+     您可以依&#x200B;**[!UICONTROL 位置型別]**、**[!UICONTROL 帳戶]**&#x200B;或由&#x200B;]**建立的**[!UICONTROL &#x200B;來篩選位置。
 
      ![位置篩選器](assets/locations-filters.png)
 
@@ -73,7 +74,7 @@ ht-degree: 1%
 >
 >如果刪除位置，任何與已刪除位置關聯的資料摘要檔案、Data Warehouse報表或分類設定結構描述將在下次使用時失敗。
 >
->如果您刪除位置，您應該[編輯您的資料摘要](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse報告](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[分類設定結構描述](/help/components/classifications/sets/manage/schema.md)以使用正常的位置。
+>如果您刪除位置，您應該[編輯您的資料摘要](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse報告](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)和[分類設定結構描述](/help/components/classifications/sets/manage/schema.md)，以使用正常的位置。
 
 位置只能由建立該位置的使用者或系統管理員刪除。
 
@@ -171,9 +172,9 @@ ht-degree: 1%
 
 * 當[建立新帳戶](/help/components/locations/configure-import-accounts.md)時。
 
-* 在使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)匯出檔案時，選擇使用哪些帳戶，使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)匯出報告，或使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述時。
+* 使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)匯出檔案時、使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)匯出報表時，或使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述時，選擇要使用哪些帳戶。
 
-當您依照本節所述限制帳戶型別時，使用者將無法再看見您所限制型別的任何帳戶。 這表示無法建立該型別的新帳戶，且在建立資料摘要、Data Warehouse或分類集時無法使用該型別的現有帳戶。
+當您依照本節所述限制帳戶型別時，使用者將無法再看見您所限制型別的任何帳戶。 這表示無法建立該型別的新帳戶，且在建立資料摘要、Data Warehouse或「分類設定」時，無法使用該型別的現有帳戶。
 
 但是，如果您想要限制使用為排程匯出設定的現有帳戶，則必須刪除這些帳戶。
 
@@ -205,9 +206,9 @@ ht-degree: 1%
 
    至少必須選取一種帳戶型別。
 
-   * [!UICONTROL **Amazon S3角色ARN**]
+   * [!UICONTROL **Amazon S3 Role ARN**]
 
-   * [!UICONTROL **Google雲端平台**]
+   * [!UICONTROL **Google Cloud Platform**]
 
    * [!UICONTROL **Azure SAS**]
 

@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 9a2d4c582b6a3946b658924851e5b5ada2f5a7ee
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+workflow-type: tm+mt
+source-wordcount: '966'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -51,7 +51,7 @@ ht-degree: 100%
       + [在工作區中使用元件](analysis-workspace/components/use-components-in-workspace.md)
       + [新增元件說明](analysis-workspace/components/add-component-descriptions.md)
       + 註解 {#annotations}
-         + [註解總覽](analysis-workspace/components/annotations/overview.md)
+         + [註解概觀](analysis-workspace/components/annotations/overview.md)
          + [建立註解](analysis-workspace/components/annotations/create-annotations.md)
          + [管理註解](analysis-workspace/components/annotations/manage-annotations.md)
          + [檢視註解](analysis-workspace/components/annotations/view-annotations.md)
@@ -65,7 +65,7 @@ ht-degree: 100%
          + [建立區段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速區段](analysis-workspace/components/segments/quick-segments.md)
       + 日曆和日期範圍  {#calendar-date-ranges}
-         + [日曆和日期範圍總覽](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [日曆和日期範圍概觀](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + 資料字典 {#data-dictionary}
@@ -115,7 +115,7 @@ ht-degree: 100%
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
       + [文氏圖表](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
-      + [面板總覽](analysis-workspace/c-panels/panels.md)
+      + [面板概觀](analysis-workspace/c-panels/panels.md)
       + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
@@ -127,7 +127,7 @@ ht-degree: 100%
       + [頁面摘要面板](analysis-workspace/c-panels/page-summary.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
-         + [區段比較總覽](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+         + [區段比較概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 策劃、共用及排程專案  {#curate-share}
@@ -139,7 +139,7 @@ ht-degree: 100%
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 {#attribution}
-      + [歸因總覽](analysis-workspace/attribution/overview.md)
+      + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [歸因最佳做法](analysis-workspace/attribution/best-practices.md)
@@ -171,7 +171,9 @@ ht-degree: 100%
    + [使用區段](report-builder/work-with-segments.md)
    + [篩選器維度](report-builder/filter-dimensions.md)
    + [管理資料區塊](report-builder/manage-reportbuilder.md)
-   + [排程活頁簿](report-builder/schedule-reportbuilder.md)
+   + [排程電子郵件的活頁簿](report-builder/schedule-reportbuilder.md)
+   + [排程用於雲端匯出的活頁簿](/help/analyze/report-builder/report-builder-export.md)
+   + [管理排程活頁簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [受限制的標籤](report-builder/restricted-labels.md)
    + [Report Builder 設定](report-builder/report-builder-settings.md)
 + 舊版 Report Builder {#legacy-report-builder}
@@ -193,7 +195,7 @@ ht-degree: 100%
          + [使用 Excel 來找出報告套裝 ID](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理區段](legacy-report-builder/data-requests/segmentation.md)
       + 報告類型 {#report-types}
-         + [報告類型總覽](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
+         + [報告類型概觀](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
          + [使用請求精靈篩選路徑報告](legacy-report-builder/data-requests/c-report-types/path-filter.md)
          + [使用請求精靈篩選流失報告](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
          + [新增相依請求以篩選路徑報告](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
@@ -208,7 +210,7 @@ ht-degree: 100%
          + [即時報告](legacy-report-builder/data-requests/configuring-report-dates/real-time.md)
          + [設定即時報告請求](legacy-report-builder/data-requests/configuring-report-dates/t-real-time.md)
          + 自訂的日期運算式  {#customized-date-expressions}
-            + [自訂日期運算式 - 總覽](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+            + [自訂日期運算式 - 概觀](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [日期縮寫](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [個別的開始日期或結束日期](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
             + [使用自訂運算式的日期範圍範例](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
@@ -218,9 +220,9 @@ ht-degree: 100%
          + [自訂日曆](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [互動式控制項](legacy-report-builder/data-requests/interactive-controls.md)
    + 配置 - 請求精靈步驟 2 {#layout}
-      + [版面總覽](legacy-report-builder/layout/layout.md)
+      + [版面概觀](legacy-report-builder/layout/layout.md)
       + 度量和維度 {#metrics-dimension}
-         + [量度和維度總覽](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [量度和維度概觀](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
          + [新增量度和維度](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
          + [計算量度](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
          + [將流量與商務量度合併為同一請求](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
@@ -239,7 +241,7 @@ ht-degree: 100%
       + [將量度和維度對應至儲存格](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [建立 Microchart](legacy-report-builder/layout/t-create-a-microchart.md)
       + 篩選器維度  {#filter-dimenson}
-         + [篩選維度總覽](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
+         + [篩選維度概觀](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [最受歡迎篩選](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [特定篩選](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [儲存的篩選](legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)
@@ -255,7 +257,7 @@ ht-degree: 100%
       + [新增相依請求](legacy-report-builder/manage-requests/add-dependent-requests.md)
       + [分類](legacy-report-builder/manage-requests/classification.md)
       + 複製請求  {#copy-requests}
-         + [複製請求總覽](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
+         + [複製請求概觀](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [複製簡單請求](legacy-report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [複製相鄰的請求](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
          + [複製工作表](legacy-report-builder/manage-requests/c-copy-requests/t-copy-worksheets.md)
@@ -275,7 +277,7 @@ ht-degree: 100%
       + [鎖定/解除鎖定活頁簿](legacy-report-builder/workbook-library/protect-wb.md)
       + [排程已啟用巨集的活頁簿](legacy-report-builder/workbook-library/schedule-macro-wb.md)
    + 使用 Report Builder 5.5 發佈至 Power BI {#publish-powerbi}
-      + [發佈至 Power BI - 總覽](legacy-report-builder/c-publish-power-bi/power-bi.md)
+      + [發佈至 Power BI - 概觀](legacy-report-builder/c-publish-power-bi/power-bi.md)
       + [限制與規格](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
       + [手動將資料匯入 Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [將已發佈的資產帶入 Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
@@ -296,7 +298,7 @@ ht-degree: 100%
    + [疑難排解](activity-map/troubleshooting.md)
    + [常見問題](activity-map/faq.md)
 + Adobe Analytics 儀表板 {#mobapp}
-   + [Adobe Analytics 儀表板 - 總覽](mobile-app/home.md)
+   + [Adobe Analytics 儀表板 - 概觀](mobile-app/home.md)
    + [組織者介紹](mobile-app/curator.md)
    + [建立行動計分卡](mobile-app/create-scorecard.md)
    + [設定使用儀表板的主管](mobile-app/set-up-execs.md)

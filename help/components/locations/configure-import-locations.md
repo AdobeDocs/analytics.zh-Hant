@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 9b263b0b2d41533630f225d4d4dcc9b1e0c4f1df
+source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1697'
 ht-degree: 31%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 31%
 
 * 使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)匯出檔案
 * 使用[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)匯出報告
+* 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)時匯出檔案
 * 使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述
 
 您必須使用存取雲端帳戶的必要資訊來設定Adobe Analytics。 此程式包括新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中所述，然後新增及設定該帳戶內的位置（如本文所述）。
@@ -48,13 +49,13 @@ ht-degree: 31%
 
    [!UICONTROL **位置詳細資料**]&#x200B;對話方塊隨即顯示。
 
-1. 指定下列資訊：
+1. 註明下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **名稱**] | 位置的名稱。 |
    | [!UICONTROL **說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
-   | [!UICONTROL **搭配**]&#x200B;使用 | 選取您要將此位置與&#x200B;[!UICONTROL **資料摘要**]、[!UICONTROL **Data Warehouse**]&#x200B;或&#x200B;[!UICONTROL **分類集**]&#x200B;搭配使用。 <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於「Data Warehouse」或「分類設定」。</li><li>為避免某個位置內的檔案衝突，使用此位置後，請勿變更&#x200B;[!UICONTROL **與**]&#x200B;搭配使用欄位的值。</li><li>如果您正在建立電子郵件帳戶的位置，請在此欄位中選取&#x200B;[!UICONTROL **Data Warehouse**]。 資料摘要和分類集不支援電子郵件位置。</li></ul> |
+   | [!UICONTROL **搭配**]&#x200B;使用 | 選取您要將此位置與&#x200B;[!UICONTROL **資料摘要**]、[!UICONTROL **Data Warehouse**]、[!UICONTROL **分類集**]&#x200B;或&#x200B;**[!UICONTROL Report Builder]**&#x200B;搭配使用。 <p>進行選取時，請考量下列事項：</p><ul><li>單一位置無法用於多種用途。 例如，用於資料摘要的位置不能也用於Data Warehouse或「分類設定」。</li><li>為避免某個位置內的檔案衝突，使用此位置後，請勿變更&#x200B;[!UICONTROL **與**]&#x200B;搭配使用欄位的值。</li><li>如果您正在建立電子郵件帳戶的位置，請在此欄位中選取&#x200B;[!UICONTROL **Data Warehouse**]。 資料摘要和分類集不支援電子郵件位置。</li></ul> |
    | [!UICONTROL **讓位置可供您組織中的所有使用者使用**] | 啟用此選項可允許組織中的其他使用者使用該位置。<p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> |
    | [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)。 |
 
@@ -68,7 +69,7 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，以便上傳檔案至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -171,11 +172,11 @@ ht-degree: 31%
 
 1. 選取「[!UICONTROL **儲存**]」。
 
-   您現在可以將資料匯出至使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)時設定的帳戶和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件位置)。
+   您現在可以將資料匯出至使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)時設定的帳戶和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件位置)。
 
 ### 舊版帳戶型別
 
-這些舊帳戶型別只有在使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)和[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)匯出資料時才可用。 當匯入具有[分類集](/help/components/classifications/sets/manage/schema.md)的資料時，這些選項無法使用。
+這些舊帳戶型別只有在使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)和[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)匯出資料時才能使用。 當匯入具有[分類集](/help/components/classifications/sets/manage/schema.md)的資料時，這些選項無法使用。
 
 +++FTP
 
