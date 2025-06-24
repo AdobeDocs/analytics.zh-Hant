@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3d3a91e806be36ff1f913bcc336bde7520fb84a2
+source-git-commit: adbd342948ce3c38107a86613d77a9bf90a7df97
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1002'
 ht-degree: 90%
 
 ---
 
 # 最新 Adobe Analytics 發行說明 (2025 年 6 月版本)
 
-**上次更新日期**：2025 年 6 月 18 日
+**上次更新日期**： 2025年6月24日
 
 這些發行說明涵蓋的發行期間為 2025 年 6 月 18 日至 7 月 15 日。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -22,9 +22,9 @@ ht-degree: 90%
 | ----------- | ---------- | ------- | ---- |
 | **支援新Report Builder中的安全雲端目的地** | Javascript Report Builder增益集現在支援將報表匯出至下列雲端儲存目的地：<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前僅提供FTP和電子郵件目的地。 基於安全性考量，不再支援FTP。</p><p>如需詳細資訊，請參閱[匯出至雲端目的地以排程活頁簿](/help/analyze/report-builder/report-builder-export.md)。</p><p>除了這些變更，在Adobe Analytics中建立位置時，「搭配使用」欄位現在提供搭配Report Builder使用此位置的選項，如[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。</p> |  | 2025年6月19日（原為6月18日） |
 | **全新預覽體驗** | 用於預覽區段、計算量度和其他內容的預覽面板，現已改用橫條圖視覺效果來取代原本的環形圖視覺效果。 |  | 2025 年 6 月 18 日 |
-| **已修改歸因模型對話框** | 您現在可以在歸因模型對話框中，分別定義容器及時段。 |  | 2025 年 6 月 18 日 |
+| **已修改歸因模型對話框** | 您現在可以在歸因模型對話框中分別定義容器及時段。 |  | 2025 年 6 月 18 日 |
 | **客戶屬性 UI 的導覽已更新** | 現在可以直接從 Adobe Experience Cloud 中的應用程式選擇器存取客戶屬性使用者介面。 |  | 待定 |
-| **串流媒體：支援排程資料** | 您現在可以上傳過往串流媒體直播內容的排程資料，以便更輕鬆且更準確地追蹤觀看人數。以下是支援排程資料上傳的直播內容範例：<ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。您甚至可以收集特定主題或節目區段的觀看人數資料。無論您以何種方式實施串流媒體收集，都可以使用這些功能。<p>過去在分析直播內容時，很難準確地將特定工作階段連結至特定節目，亦無法將特定工作階段連結至個別主題或節目區段。了解更多 |  | 2025 年 6 月 25 日 |
+| **串流媒體：支援排程資料** | 您現在可以上傳過往串流媒體直播內容的排程資料，以便更輕鬆且更準確地追蹤觀看人數。以下是支援排程資料上傳的直播內容範例：<ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。您甚至可以收集特定主題或節目區段的觀看人數資料。無論您以何種方式實施串流媒體收集，都可以使用這些功能。<p>過去在分析直播內容時，很難準確地將特定工作階段連結至特定節目，亦無法將特定工作階段連結至個別主題或節目區段。了解更多 |  | 2025年8月15日（原為2025年6月25日） |
 
 ## Adobe Analytics 中的修正
 
@@ -65,6 +65,6 @@ ht-degree: 90%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
