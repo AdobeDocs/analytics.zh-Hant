@@ -5,13 +5,13 @@ role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+exl-id: 5829482b-3a5e-416b-9c82-404face30b29
+source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 29%
 
 ---
-
 
 # 透過匯出至雲端目的地來排程活頁簿
 
@@ -33,15 +33,7 @@ ht-degree: 29%
 
 1. [從Report Builder匯出報告](#export-a-report-from-report-builder)
 
-<!--
-
-1. Access data in your cloud account and [Manage exports in Adobe](/help/components/exports/manage-exports.md)
-
-![The export process described in steps 1 through 4.](assets/report-builder-export-process.png)
-
--->
-
-## 從Report Builder匯出報告 {#export-from-report-builder}
+## 從Report Builder匯出報告
 
 >[!NOTE]
 >
@@ -92,7 +84,7 @@ ht-degree: 29%
 
    您會在Report Builder中心底部看到確認快顯通知，而排程活頁簿會列在「活頁簿」索引標籤下方。
 
-## 匯出至雲端的優點 {#advantages}
+## 匯出至雲端的優點
 
 將Adobe Analytics資料匯出至雲端可讓您：
 
@@ -133,4 +125,3 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 ## 管理排程活頁簿
 
 如需有關管理已排程活頁簿的資訊，請參閱[管理已排程活頁簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。
-
