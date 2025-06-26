@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
@@ -198,8 +198,8 @@ ht-degree: 97%
       + [選擇並套用區段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 區段參考資料 {#segment-reference}
       + [運算子](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse區段相容性](segmentation/seg-reference/seg-compatibility.md)
-      + [區段許可權（依角色）](segmentation/seg-reference/seg-rights.md)
+      + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
+      + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
    + [關於管理舊式區段的常見問題集](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
@@ -210,9 +210,9 @@ ht-degree: 97%
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [建置量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [建立簡單的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [建立更複雜的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [建立參與率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [建置簡易量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [建置更複雜的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [建置參與率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆疊和取代區段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)

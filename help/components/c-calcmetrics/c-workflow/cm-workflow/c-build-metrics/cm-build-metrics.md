@@ -4,9 +4,9 @@ title: 建置量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1500'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,13 +38,13 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 
    | 元素 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 報告套裝]** | 您可以為計算量度選取報表套裝。  根據所選報表套裝，您定義的計算量度可用於Workspace專案。 |
-   | **[!UICONTROL 限專案量度]** | 如[為單一專案建立計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)所述，當您編輯為單一專案所建立的計算量度時，此對話框頂部會出現一個資訊框。 <p>如果您希望將此計算量度套用至所有專案，請選取以下選項： **[!UICONTROL 讓此量度適用於您的所有專案並將其新增至您的元件清單中]**。</p> |
+   | **[!UICONTROL 報告套裝]** | 您可以選取計算量度的報告套裝。根據選取的報告套裝，您定義的計算量度可在 Workspace 專案中使用。 |
+   | **[!UICONTROL 僅限專案的量度]** | 如[為單一專案建立計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)所述，當您編輯為單一專案所建立的計算量度時，此對話框頂部會出現一個資訊框。 <p>如果您希望將此計算量度套用至所有專案，請選取以下選項： **[!UICONTROL 讓此量度適用於您的所有專案並將其新增至您的元件清單中]**。</p> |
    | **[!UICONTROL 標題]**![必填](/help/assets/icons/Required.svg) | 命名計算量度，例如 `Conversion Rate`。 |
    | **[!UICONTROL 說明]** | 提供區段說明，例如 `Calculated metric to define the conversion rate.` 不必說明計算量度的公式，因為公式已自動提供在[!UICONTROL 摘要]中。 |
    | **[!UICONTROL 格式]** | 選取計算量度的格式：您可以在&#x200B;**[!UICONTROL 十進位]**、 **[!UICONTROL 時間]**、 **[!UICONTROL 百分比]**&#x200B;和&#x200B;**[!UICONTROL 貨幣]**&#x200B;之間選取。 |
    | **[!UICONTROL 小數位數]** | 指定所選格式的小數位數。只有在選取的格式為十進制、貨幣和百分比時才啟用。 |
-   | **[!UICONTROL 顯示上升趨勢的方式]** | 指定計算量度的上升趨勢顯示為▲ **[!UICONTROL 好（綠色）]**&#x200B;還是▼ **[!UICONTROL 壞（紅色）]**。 |
+   | **[!UICONTROL 顯示上升趨勢的方式]** | 指定計算量度的上升趨勢是否顯示為 ▲ **[!UICONTROL 良好 (綠色)]** 或 ▼ **[!UICONTROL 不良 (紅色)]**。 |
    | **[!UICONTROL 貨幣]** | 指定計算量度的貨幣。只有在選取的格式為貨幣時才啟用。 |
    | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來安排計算量度。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 預覽]** | 預覽涵蓋過去 90 天的情況，並且是衡量您是否正確定義量度的方法。 |
@@ -53,7 +53,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 
 1. 若要驗證您的計算量度定義是否正確，請使用不斷更新的計算指標結果&#x200B;**[!UICONTROL 預覽]** 。 **[!UICONTROL 預覽]**&#x200B;涵蓋過去 90 天的情況，並持續評估計算量度的定義。
 
-   **[!UICONTROL 產品相容性]**&#x200B;表示計算量度與Adobe Analytics功能的相容性。 如需詳細資訊，請參閱[量度相容性](/help/components/c-calcmetrics/cm-compatibility.md)。
+   **[!UICONTROL 產品相容性]**&#x200B;表示計算量度與 Adobe Analytics 功能的相容性。請參閱[量度相容性](/help/components/c-calcmetrics/cm-compatibility.md)以了解更多資訊。
 
 1. 選取：
    * **[!UICONTROL 儲存]**&#x200B;以儲存計算量度。
@@ -124,7 +124,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 * 若要從維度新增區段容器：
 
    1. 將 ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL 維度]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
-   1. 在&#x200B;**[!UICONTROL 從Dimension建立區段]**&#x200B;快顯視窗中，定義區段的條件。 從運算子清單中選取，並選取一個值或輸入一個值。例如， **[!UICONTROL 月]** **[!UICONTROL 等於]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
+   1. 在&#x200B;**[!UICONTROL 「從維度中建立區段」]**&#x200B;快顯視窗中，定義區段的條件。從運算子清單中選取，並選取一個值或輸入一個值。例如， **[!UICONTROL 月]** **[!UICONTROL 等於]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`。
    1. 選取「**[!UICONTROL 完成]**」。將區段容器加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
 
 
@@ -132,12 +132,12 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 
    * 將 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定區段。使用區段名稱將區段容器自動加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
 
-   * 將![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]**&#x200B;元件從元件面板拖放至一般容器。 該容器被修改為區段容器。
+   * 將 ![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 「區段」]**&#x200B;元件從元件面板拖放到通用容器中。該容器被修改為區段容器。
 
-   * 從容器內部選取 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]**：
+   * 從容器內部選取 ![AddCircle](/help/assets/icons/AddCircle.svg)**[!UICONTROL 「新增」]**：
 
-      1. 選取&#x200B;**[!UICONTROL 區段]**。 將區段容器加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
-      1. 在新區段容器中，從&#x200B;[!UICONTROL *選取……*]&#x200B;下拉式選單中選取區段。
+      1. 選取&#x200B;**[!UICONTROL 「區段」]**。區段容器就會新增至&#x200B;**[!UICONTROL 「定義」]**。
+      1. 在新的區段容器中，從&#x200B;[!UICONTROL *「選取...」*]&#x200B;下拉式選單中選取區段。
 
   >[!TIP]
   >
@@ -149,7 +149,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 
 * 選取區段名稱旁的「![關閉](/help/assets/icons/Close.svg)」。
 
-如需詳細資訊和範例，請參閱[分段量度](metrics-with-segments.md)。
+請參閱[分段量度](metrics-with-segments.md)以了解更多詳細資料和範例。
 
 #### 函數容器
 
@@ -163,7 +163,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 * 從容器內部選取 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]**：
 
    1. 選取「**[!UICONTROL 函數]**」。
-   1. 在容器中，從&#x200B;[!UICONTROL *選取……*]&#x200B;下拉式功能表中選取一個函式。
+   1. 在容器中，從&#x200B;[!UICONTROL *「選取...」*]&#x200B;下拉式選單中選取一個函數。
 
 函數容器以函數元件命名。例如， ![函數](/help/assets/icons/Effect.svg) **[!UICONTROL 平方根 (量度)]**。選取 ![InfoOutline](/help/assets/icons/InfoOutline.svg) 來顯示含有函數詳細資訊的快顯視窗。選取「**[!UICONTROL 了解更多]**」，了解更多有關該函數。
 
@@ -185,7 +185,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->&#x200B;>[區段](/help/components/segmentation/seg-overview.md)
+>>[區段](/help/components/segmentation/seg-overview.md)
 >
 
 
@@ -225,14 +225,14 @@ The following image and accompanying table explain some of the main areas and fe
 | 8 | **Definition:** This is where you drag in metrics/calculated metrics, segments, and/or functions to build the calculated metric. <ul><li>If you drag in a calculated metric, it will expand its metric definition automatically. </li> <li>You can nest definitions with containers. However, unlike segment containers, these containers function like a math expression and determine the order of operations. </li> </ul>  |
 | 9 | **Operator:** Divided by ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> ) is the default operator, plus there are the +, -, and x operators. |
 | 10 | **Preview:** Provides a quick read on any possible errors. The preview covers the last 90 days. This is a way of initially gauging whether you have selected the right components for your metric. An unexpected result would mean you need to take a second look at the metric definition.  |
-| 11 | **Product compatibility:** Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hant"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p>  |
+| 11 | **Product compatibility:** Product compatibility shows you whether the metric is compatible with <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > Current Data </a>, with Fully Processed Data, or only with Marketing Channel reports (first-touch allocation). <p>Note:  Current Data does not support all metrics. Metrics that contain segments or functions are not compatible with current data. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > More... </a> </p> </p>  |
 | 12 | **Add:** For all types of calculated metrics, you can add containers and static numbers to the definition. For advanced calculated metrics, you can also add segments and functions. <ul><li>Containers function like a math expression and determine the order of operations. So anything in a container will get processed before the next operation.</li><li>Dragging a segment onto a container segments everything in that container. (Advanced calculated metrics only)</li><li>You can stack multiple segments in a container.</li></ul> |
 | 13 | **Gear icon (Metric Type, Attribution):** Selecting the gear icon next to a metric lets you specify the <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > metric type and attribution models </a>. |
 | 14 | **New:** Lets you create a new component, such as a new segment (which takes you to the <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > Segment Builder </a>.) |
 | 15 | **Search Components:** This search bar lets you search for dimensions, metrics, segments (advanced calculated metrics only), and functions (advanced calculated metrics only). |
 | 16 | **List of Dimensions:** Rather than leaving the Calculated Metric Builder in order to build a simple segment (in the Segment Builder), e.g. "Page = Homepage", you can drag in Page and select Homepage directly from the Calculated Metric Builder.<p>This results in a much more streamlined workflow for creating segmented calculated metrics.</p> |
 | 17 | **List of Metrics:** Metrics come in 3 categories: <ul> <li>Standard metrics (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li><li>Calculated metrics ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li><li id="li_8735E76637ED4C3F983731A66E04C93E">Metrics templates ( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Folder_18_N.svg" id="image_D236601511CC4DD3828F223431E27E88" />) - at the bottom of the list. </li> </ul> <p>When you hover over a metric, you can see the Info icon to the right of it: <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" width="15px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />. Clicking this icon gives you the following information: </p><ul> <li>The formula of how it is calculated. </li><li>A preview trend of the metric. </li><li>An edit (pencil) icon <img placement="break" align="center"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg" width="15px" id="image_7D5B2F026A034118BE4DA81B9215A883" /> at the top right that will take you to the Calculated Metrics Builder where you can edit this calculated metric. </li></ul> |
-| 18 | **List of Segments:** (Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=zh-Hant"  > More... </a> |
+| 18 | **List of Segments:** (Advanced calculated metrics only) As an Admin, this list shows all segments created in your login company. If you are a non-Admin user, this list shows segments you own and those shared with you. <a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > More... </a> |
 | 19 | **List of Functions:** (Advanced calculated metrics only) Functions are divided into two lists: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Basic </a> (used most often) and <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Advanced </a>. |
 | 20 | **Report Suite selector:** Lets you switch to a different report suite. |
 
