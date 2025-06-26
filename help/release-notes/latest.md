@@ -20,7 +20,7 @@ ht-degree: 90%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **支援新Report Builder中的安全雲端目的地** | Javascript Report Builder增益集現在支援將報表匯出至下列雲端儲存目的地：<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前僅提供FTP和電子郵件目的地。 基於安全性考量，不再支援FTP。</p><p>如需詳細資訊，請參閱[匯出至雲端目的地以排程活頁簿](/help/analyze/report-builder/report-builder-export.md)。</p><p>除了這些變更，在Adobe Analytics中建立位置時，「搭配使用」欄位現在提供搭配Report Builder使用此位置的選項，如[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。</p> |  | 2025年6月19日（原為6月18日） |
+| **支援新Report Builder中的安全雲端目的地** | Javascript Report Builder增益集現在支援將報表匯出至下列雲端儲存目的地：<ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul><p>以前僅提供FTP和電子郵件目的地。 基於安全性考量，不再支援FTP。</p><p>如需詳細資訊，請參閱[匯出至雲端目的地以排程活頁簿](/help/analyze/report-builder/report-builder-export.md)。</p><p>除了這些變更，在Adobe Analytics中建立位置時，「搭配使用」欄位現在提供搭配Report Builder使用此位置的選項，如[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。</p> |  | 2025 年 6 月 19 日 (原定 6 月 18 日) |
 | **全新預覽體驗** | 用於預覽區段、計算量度和其他內容的預覽面板，現已改用橫條圖視覺效果來取代原本的環形圖視覺效果。 |  | 2025 年 6 月 18 日 |
 | **已修改歸因模型對話框** | 您現在可以在歸因模型對話框中分別定義容器及時段。 |  | 2025 年 6 月 18 日 |
 | **客戶屬性 UI 的導覽已更新** | 現在可以直接從 Adobe Experience Cloud 中的應用程式選擇器存取客戶屬性使用者介面。 |  | 待定 |
@@ -65,6 +65,6 @@ ht-degree: 90%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
