@@ -52,7 +52,7 @@ ht-degree: 65%
 
 ## 虛擬報告套裝監管
 
-若要在報告套裝層級套用監管，以便將其同時套用至多個專案，您可以[在虛擬報告套裝中監管元件](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components)。
+若要在報告套裝層級套用監管，以便將其同時套用至多個專案，您可以[在虛擬報告套裝中監管元件](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-components)。
 
 >[!NOTE]
 >

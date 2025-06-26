@@ -115,7 +115,7 @@ ht-degree: 97%
 
 * 使用該連結的收件者須先登入 Adobe Analytics，然後才能存取該專案。
 
-* 收件者若未被指派任何角色，且收到專案的[分享連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)，將會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
+* 收件者若未被指派任何角色，且收到專案的[分享連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)，將會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
 
 若要與組織中的使用者共用專案連結：
 
