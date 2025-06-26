@@ -4,10 +4,10 @@ description: 透過「同類群組分析」，深入了解使用客群資料，�
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 96%
 
 ---
 
@@ -52,12 +52,12 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 * 識別何時終止試用版或產品建議，以價值最大化。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
 
-所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Customer Journey Analytics 客戶，皆可使用[!UICONTROL 同類群組表格]。
+[!UICONTROL 同類群組表格]適用於具有[!UICONTROL Analysis Workspace]存取許可權的所有Adobe Analytics客戶。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/3430081/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +66,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >
 >[!UICONTROL 同類群組分析]不支援無法篩選的量度 (包括計算量度)、非整數量度 (例如收入) 或發生次數。僅可在篩選器中使用的量度才能用於[!UICONTROL 同類群組分析]，且這些量度一次只能遞增 > 1 的值。
 
-Customer Journey Analytics 中的同類群組表格支援雙精型 (或任何數值型) 的量度。例如，Purchase.Value (雙精度) 可用於包含/回報量度。此外，透過 Analytics 來源連接器傳遞至 Adobe Experience Platform 的所有量度皆為雙精度。
+Adobe Analytics中的同類群組表格支援雙向（或任何數值）量度。 例如，Purchase.Value (雙精度) 可用於包含/回報量度。此外，透過 Analytics 來源連接器傳遞至 Adobe Experience Platform 的所有量度皆為雙精度。
 
 ## 同類群組表格功能
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430093?quality=12&learn=on&captions=chi_hant){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430167?quality=12&learn=on&captions=chi_hant){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430159?quality=12&learn=on&captions=chi_hant){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

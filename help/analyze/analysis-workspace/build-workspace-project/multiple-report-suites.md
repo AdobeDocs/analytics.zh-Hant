@@ -4,10 +4,10 @@ description: 了解在有多個報表套裝的 Workspace 中建立專案的方�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 87%
+source-wordcount: '440'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 您可以在Analysis Workspace中建立含有來自多個報表套裝之資料的專案。 報表套裝是在面板層級選擇，因此您可以為同一個Workspace專案內的每個面板選擇不同的報表套裝。
 
-此功能相當實用。舉例來說，如果您想
+此功能在下列情況下相當實用：
 
 * 比較兩個不同地區的資料，而這些資料位於兩個不同的報表套裝時，您可以建立表格和視覺效果，以便並排比較資料。
 
@@ -37,16 +37,12 @@ ht-degree: 87%
 
 ## 使用中面板
 
-我們將透過此功能，介紹「使用中面板」與「非使用中面板」的概念。您可以藉由淺藍色邊框來識別使用中面板。只要按一下面板內部，該面板便會成為使用中面板。
+您可以藉由淺藍色邊框來識別使用中面板。只要在面板內選取，即可將該面板轉換為使用中面板。
 
 >[!TIP]
+>
 >您可以拖放至與使用中面板位於相同報表套裝中的任何面板。若拖曳至相同報表套裝的非使用中面板，該面板就會變成使用中。
-
-| 任務 | 使用中面板 | 非使用中面板 |
-| --- | --- | --- |
-| 變更報表套裝 | 有 | 否 |
-| 拖放元件 | 有 | 可以，適用於與使用中面板位於相同報表套裝中的任何面板。 |
-| 拖放視覺效果 | 有 | 可以，適用於與使用中面板位於相同報表套裝中的任何面板。 |
+>
 
 ## 使用多個報表套裝
 
@@ -58,7 +54,9 @@ ht-degree: 87%
 
 
    >[!NOTE]
+   >
    >有時候，系統載入專案 (或切換到報表套裝) 時會顯示橫幅訊息，這是因為並非所有元件都包含在報表套裝中。畫面會列出缺少的元件。請依照[這些指示](/help/admin/admin-console/permissions/product-profile.md)，將權限設為所需的量度/維度。
+   >
 
    ![](assets/incompat-rs.png)
 
@@ -73,6 +71,6 @@ ht-degree: 87%
 
 1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報表套裝標籤，指出
 
-   * 建立區段的位置：[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。
-   * 建立計算量度的位置：[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)。
-   * 建立警報的位置：[警報產生器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=zh-Hant)。
+   * 建立區段的位置： [區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。
+   * 建立計算量度的位置： [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)。
+   * 建立警報的位置： [警報產生器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=zh-Hant)。

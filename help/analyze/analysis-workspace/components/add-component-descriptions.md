@@ -4,10 +4,10 @@ title: 新增元件說明
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
 
@@ -28,7 +28,7 @@ Analytics 管理員可以在報表套裝中新增元件 (維度、量度、區�
 
 
 
-## 對 Analysis Workspace 中的元件新增說明 (使用資料字典) {#add-descriptions}
+## 在資料字典中新增元件說明 {#add-descriptions}
 
 Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。這包括 Analytics 管理員直接在 Analysis Workspace 中新增元件說明的能力。
 

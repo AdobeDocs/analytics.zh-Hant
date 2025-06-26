@@ -1,16 +1,16 @@
 ---
 description: 使用管理員與非管理員之間區段的比較表。
-title: 區段許可權（依角色）
+title: 不同角色的區段權限
 feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# 區段許可權（依角色）
+# 不同角色的區段權限
 
 區段功能在管理員層級使用者和非管理員之間大多不同。
 
@@ -20,5 +20,3 @@ ht-degree: 1%
 | 在區段管理器中檢視區段 | 整個組織的所有區段 | 僅限擁有的區段或共用區段 |
 | 管理區段 | 可向任何使用者檢視、編輯、刪除或核准任何區段 | 只能編輯或刪除自己的區段。 無法核准區段。 |
 | 共用區段 | 可與整個公司、使用者群組或個人共用 | 只能與個人共用 |
-
-{style="table-layout:auto"}

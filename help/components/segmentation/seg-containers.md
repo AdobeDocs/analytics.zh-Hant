@@ -4,23 +4,23 @@ keywords: 分段;區段
 title: 區段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '3566'
-ht-degree: 98%
+source-wordcount: '3563'
+ht-degree: 97%
 
 ---
 
 
 # 區段容器
 
-區段會設定條件，以依據訪客的屬性或訪客與網站的互動來篩選訪客。若要在區段中設定條件，您必須設定規則，以依據訪客特性和/或導覽特徵來篩選訪客。若要進一步劃分訪客資料，您可以根據每個訪客的特定造訪和/或頁面檢視點擊進行篩選。「區段產生器」提供簡易的架構，您能以巢狀內嵌、階層的「訪客」、「造訪」或「點擊」容器形式建立這些子集並套用規則。
+區段會設定條件，以依據訪客的屬性或訪客與網站的互動來篩選訪客。若要在區段中設定條件，您必須設定規則，以依據訪客特性和/或導覽特徵來篩選訪客。若要進一步劃分訪客資料，您可以根據每個訪客的特定造訪和/或頁面檢視點擊進行篩選。區段產生器提供簡易的架構，您能以巢狀的階層式「訪客」、「造訪」或「點選」容器形式建立這些子集並套用規則。
 
-「區段產生器」中採用的容器架構將
+[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中使用的容器架構定義：
 
-- ![訪客](https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg) **[!UICONTROL 訪客]**&#x200B;定義為最外層的容器，內含各造訪和頁面檢視的訪客特定整體資料。
-- ![造訪次數](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg) 一個巢狀的&#x200B;**[!UICONTROL 造訪次數]**&#x200B;容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，且
-- ![事件](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg)一個巢狀的&#x200B;**[!UICONTROL 點擊]**&#x200B;容器可讓您根據頁面檢視/點擊來劃分訪客的資料。
+- ![使用者](/help/assets/icons/User.svg) **[!UICONTROL 訪客]**&#x200B;為最外層的容器，包含各瀏覽和頁面檢視的訪客特定整體資料。
+- ![造訪次數](/help/assets/icons/Visit.svg) 一個巢狀的&#x200B;**[!UICONTROL 造訪次數]**&#x200B;容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，且
+- ![WebPage](/help/assets/icons/WebPage.svg)巢狀&#x200B;**[!UICONTROL 點選]**&#x200B;容器可讓您根據個別頁面檢視來劃分訪客資訊。
 
 每個容器均可讓您根據訪客的記錄和依造訪劃分的互動來進行報告，或是劃分個別點擊。
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
 </tr>
 </table>
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ ht-degree: 98%
 
 - 造訪次數
 - 登入頁面
-- 回訪頻度
+- 回訪頻率
 - 參與率量度
 - 線性配置的量度
 
@@ -148,7 +148,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
 </tr>
 </table>
 
@@ -173,7 +173,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
 </tr>
 </table>
 
@@ -210,7 +210,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
 </tr>
 
 <tr>
@@ -225,7 +225,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
 </tr>
 
 <tr>

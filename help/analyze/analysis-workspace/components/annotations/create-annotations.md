@@ -4,64 +4,81 @@ description: 如何在 Workspace 中建立註解。
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 75d8705170169a0ef9f1ee59b12e4bb2c3afac7a
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 94%
 
 ---
 
-# 建立註解 {#create-annotations}
+# 建立註解
 
-<!-- markdownlint-disable MD034 -->
+根據預設，只有管理員才能建立註解。使用者有權檢視註解，類似於使用者檢視其他元件 (例如區段、計算量度等) 方式。
+
+
+但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
+
+您可以透過以下方式建立註解：
+
+![Create an annotation](assets/create-annotation.png)
+
+* **A**. 在主介面中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 註解]**」。選取「![AddCircle](/help/assets/icons/AddCircle.svg)」，從[[!UICONTROL 註解]管理員中[!UICONTROL **[!UICONTROL 新增]**]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md)。
+* **B**. 在 Workspace 專案中，從視覺效果的內容選單中，選取「**[!UICONTROL 從選取範圍中建立註解]**」。
+* **C**. 在 Workspace 專案中，從折線圖的內容選單中選取「**[!UICONTROL 註解選取]**」。
+* **D**. 在 Workspace 專案中，從選單中選取「**[!UICONTROL 元件]**」，然後選取「**[!UICONTROL 建立註解]**」。
+* **E**. 在 Workspace 專案中，使用快速鍵 **[!UICONTROL ctrl+shift+o]** (Windows) 或 **[!UICONTROL shift+command+o]** (macOS)。
+
+若要定義註解，請使用[[!UICONTROL 註解產生器]](#annotation-builder)。
+
+
+
+## 註解產生器 {#annotation-builder}
 
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="註解詳細資料"
 >abstract="註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 註解讓您將行事曆事件和特定的維度/量度連結起來。"
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"
 >title="範圍"
 >abstract="您可以透過範圍自訂將要新增註解的資料。計算量度和區段不會自動繼承套用至其定義中所用元件的註解。您可以將新的計算量度新增至現有註解的範圍區段。新區段需要新的註解。"
 
-<!-- markdownlint-enable MD034 -->
 
-根據預設，只有管理員才能建立註解。使用者有權檢視註解，就像檢視其他 Analytics 元件一樣 (例如區段、計算量度等)。
 
-但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
+**[!UICONTROL 註解產生器]**&#x200B;對話框用於建立新註解或編輯現有註解。對於您從[[!UICONTROL 註解]管理員](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md)建立或管理的註解，對話方塊標題為&#x200B;**[!UICONTROL 新增註解]**&#x200B;或&#x200B;**[!UICONTROL 編輯註解]**。
 
-1. 有幾種方法可以開始建立註解：
 
-| 建立方法 | 詳細資料 |
-| --- | --- |
-| **前往 [!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 註解]。** | 註解管理員頁面隨即開啟。 按一下[!UICONTROL 建立新註解]，[!UICONTROL 註解產生器]隨即開啟。 |
-| **以滑鼠右鍵按一下表格上的點。** | 隨即開啟[!UICONTROL 註解產生器]。 請注意，根據預設，以這種方式建立的註解只會出現在其建立所在的專案中。 但是您可將這些註解提供給所有專案使用。 也請注意，系統已填入日期及任何量度等。<p>![](assets/annotate-table.png) |
-| **以滑鼠右鍵按一下[!UICONTROL 折線]圖中的點。** | 隨即開啟[!UICONTROL 註解產生器]。 請注意，根據預設，以這種方式建立的註解只會出現在其建立所在的專案中。 但是您可將這些註解提供給所有專案使用。 也請注意，系統已填入日期及任何量度等。<p>![](assets/annotate-line.png) |
-| **在 Workspace 中，前往[!UICONTROL 元件] > [!UICONTROL 建立註解]。** | 隨即開啟[!UICONTROL 註解產生器]。 |
-| **使用此快速鍵**&#x200B;來開啟註解產生器：(PC) `ctrl` `shift` + o，(Mac) `shift` + `command` + o | 請注意，使用快速鍵建立註解時，您會為目前日期建立單日註解，而不會預先選取任何範圍 (量度或維度)。 |
+>[!BEGINTABS]
 
-{style="table-layout:auto"}
+>[!TAB 註解產生器]
 
-1. 填入[!UICONTROL 註解產生器]元素。
+![註解詳細資料視窗，顯示下一節中說明的欄位和選項。](assets/annotation-builder.png)
 
-   ![](assets/ann-builder.png)
+>[!TAB 建立/編輯註解]
+
+![註解詳細資料視窗，顯示下一節中說明的欄位和選項。](assets/create-edit-annotation.png)
+
+>[!ENDTABS]
+
+1. 指定以下詳細資料 (![Required](/help/assets/icons/Required.svg) 是必要的)：
 
    | 元素 | 說明 |
    | --- | --- |
-   | [!UICONTROL 僅限專案的註解] | 預設情況下，註解會套用在目前的專案。若勾選此方框，即可讓註解用於您擁有的所有專案。<p> ![](assets/project-only.png) |
-   | [!UICONTROL 標題] | 為註解命名，例如，「紀念日」 |
-   | [!UICONTROL 說明] | (選用) 提供註解的說明，例如，「美國的國定假日」。 |
-   | [!UICONTROL 標記] | (選用) 透過建立或套用標記來編排註解。 |
-   | [!UICONTROL 套用的日期] | 選取需要出席的活動日期或日期範圍，使註解能夠顯示。 |
-   | [!UICONTROL 顏色] | 在註解上套用顏色。註解會顯示在所選取顏色的專案中。顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
-   | [!UICONTROL 範圍] | (選用) 拖放會觸發註解的量度。然後拖放作為篩選器的維度或區段 (即註解將藉以顯示)。如果您不指定範圍，註解將套用至您所有的資料。<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。</li><li>**[!UICONTROL 包含這所有的篩選器]**：最多拖放 10 個做為註解顯示時機之篩選器的維度或區段。</li></ul><p>使用案例：eVar 阻止了收集特定日期範圍的資料。將 eVar 拖曳至「**[!UICONTROL 出現這些量度的任一項]**」對話框中。否則您的[!UICONTROL 瀏覽]量度不會報告任何資料 - 遵循相同程序。<p>**注意：**&#x200B;套用到元件然後當作計算量度或區段定義使用的任何註解都不會自動繼承該註解。 必須也將所需的計算量度新增到範圍區段中，才能顯示該註解。 不過，應該針對您想要加入相同資訊當作註解的任何區段建立新的註解。<p>例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。 然後您可將計算量度中的[!UICONTROL 訂單]用於相同日期範圍。 新的計算量度不會自動顯示訂單的註解；也必須也將計算量度新增到範圍區段中，才能顯示該註解。 |
-   | [!UICONTROL 套用於所有報表套裝] | 預設情況下，註解會套用在原始的報表套裝。若勾選此方框，您即可將註解套用在公司的所有報表套裝。 |
+   | **[!UICONTROL 報告套裝]** | 您可以選取附註的報表套裝。 您定義的註解會根據所選報表套裝，提供給Workspace專案當作註解使用。 當您啟用[!UICONTROL 套用至所有報表套裝]時，此選擇會被覆寫。 |
+   | **[!UICONTROL 僅限專案的註解]** | 唯有在您正在處理的 Workspace 專案中，才能看見用來解釋您建立的註解之資訊框。啟用&#x200B;**[!UICONTROL 您的所有專案可使用此註解]**，讓您的所有專案皆可看見註解。唯有您在 Workspace 專案中建立註解時，此資訊框才可見。 |
+   | **[!UICONTROL 標題]**![Required](/help/assets/icons/Required.svg) | 為註解命名，例如，`Needs further investigation`。 |
+   | **[!UICONTROL 說明]** | 提供註解說明，例如，`We never expected such a fluctuation in numbers.`。 |
+   | **[!UICONTROL 標記]** | 透過建立或套用一個或多個標記來組織註解。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL Enter]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
+   | **[!UICONTROL 套用的日期]**![Required](/help/assets/icons/Required.svg) | 選取註解要顯示時所需的日期或日期範圍。當您使用快速鍵建立註解時，註解的預設日期範圍為那一天。當您使用視覺化呈現的選項建立註解時，註解的預設日期範圍是以視覺化呈現所屬面板之日期範圍為準。 |
+   | **[!UICONTROL 顏色]** | 在註解上套用顏色。註解會顯示在所選取顏色的專案中。顏色可用於將註解分類，例如，國定假日、外部活動、追蹤問題等。 |
+   | **[!UICONTROL 範圍]** | 從元件面板拖放會觸發註解的量度。例如人員、工作階段和事件。然後從元件面板拖放任何維度或區段做為劃分，以確定註解顯示與否。如果您不指定範圍，註解將套用至您的所有資料。<br/>您有兩個選項︰<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。<br/>例如，「收入」量度已停止收集指定日期範圍內的資料。將收入量度拖曳到此框中。</li><li>**[!UICONTROL 包含這所有的區段]**：最多拖放 10 個做為註解顯示時機之劃分的維度或區段。</li></ul><p><p>**請注意：**&#x200B;任何套用到元件且之後做為計算量度或區段定義一部分而使用的註解，都不會自動繼承該註解。必須將所需的計算量度也新增到範圍區段中，才能顯示該註解。不過，應該針對您想要加入相同資訊做為註解的任何區段建立新的註解。例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。然後您在相同的日期範圍中，在計算量度中使用[!UICONTROL 訂單]。新的計算量度不會自動顯示訂單的註解。也需將計算量度新增至範圍區段中，才能顯示該註解。 |
+   | **[!UICONTROL 套用至所有資料視圖]** | 預設情況下，註解會套用在原始的報表套裝。若勾選此方框，您即可將註解套用在公司的所有報表套裝。 |
 
    {style="table-layout:auto"}
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 選取
+   * **[!UICONTROL 儲存]**&#x200B;以儲存註解。
+   * **[!UICONTROL 另存新檔]**&#x200B;以保存註解的副本。
+   * **[!UICONTROL 刪除]**&#x200B;以刪除註解。
+   * **[!UICONTROL 取消]**&#x200B;以取消對註解所做的任何變更或取消建立新註解。

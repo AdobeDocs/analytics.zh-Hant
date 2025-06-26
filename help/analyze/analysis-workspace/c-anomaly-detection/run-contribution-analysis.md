@@ -4,10 +4,10 @@ title: 執行貢獻分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: ee4772913c8b702658646755a2a11598c8530236
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 15%
 
 ---
 
@@ -15,60 +15,71 @@ ht-degree: 100%
 
 [「貢獻分析」是密集型機器學習程序，專門設計來找出 Adobe Analytics 中所觀察到異常值的貢獻者。](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)目的是要協助使用者比以往更快找出重點區域或機會以便進行其他分析。
 
-## 執行貢獻分析 {#run}
+>[!NOTE]
+>
+>貢獻分析僅支援具有每日粒度的資料。
 
-在專案中叫用貢獻分析有兩個分法：
+執行貢獻分析的步驟如下：
 
-* 在設有每日詳細程度的自由表格中，以滑鼠右鍵按一下任一列並選取&#x200B;**[!UICONTROL 「執行貢獻分析」]**。您甚至可以在未顯示異常的列上執行貢獻分析。
+1. 在專案中叫用貢獻分析。
 
-  >[!NOTE]
-  >
-  >我們目前僅支援設有每日詳細程度的貢獻分析。
+   ![執行貢獻分析](assets/run-contribution-analysis.png)
 
-  ![](assets/run_ca.png)
+   1. 線上條視覺效果中，根據具有每日粒度的自由表格，選取異常資料點。 從快顯視窗中選取&#x200B;**[!UICONTROL 分析]**。
+   1. 在設有每日粒度的自由表格中，從任何列上的內容功能表選取&#x200B;**[!UICONTROL 執行貢獻分析]**。 您甚至可以對未顯示任何異常的列執行分析。
+   1. 在設有每日粒度的自由表格中，在指出異常的列上：
+      1. 選取指標◥。
+      1. 從![警示](/help/assets/icons/Alert.svg) **[!UICONTROL 偵測到的異常]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 開啟貢獻分析]**。
 
-* 在折線圖中，將滑鼠移至折線圖中異常資料點的上方。按一下出現的「**[!UICONTROL 分析]**」連結。
 
-  ![](assets/contribution-analysis.png)
 
-1. (選擇性) 在線性圖或表格中按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**&#x200B;後，您可藉由[排除維度](#exclude)來縮小分析範圍 (並加快分析速度)。
+1. （選擇性）您可以縮小分析範圍（因此可加快分析速度） [排除維度](#exclude-dimensions)。
 
-1. 等候貢獻分析載入。取決於您報表套裝的大小以及維度數目，這可能需要相當長的時間。貢獻分析會對每個維度的前 50,000 個項目執行分析。
-1. Analysis Workspace 隨後會在此專案內直接載入新的「貢獻分析」面板。
+   ![排除貢獻分析中的維度](assets/excluding-dimensions.png)
 
-   * 顯示當天「**造訪**」數的視覺效果。
-   * 上下文的每月「**造訪趨勢線**」。
-   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)排序)，加上相關量度，以及「不重複訪客」量度，以從規模觀點來將量度放在上下文中。
+1. 選取&#x200B;**[!UICONTROL 執行貢獻分析]**。
 
-   * 「[產生的區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
+1. 正在處理貢獻分析，請稍候。 處理作業可能需要相當長的時間，視報表套裝大小和維度數量而定。 貢獻分析會針對每個維度的前50,000個專案執行分析。 您也會收到有關剩餘[個貢獻分析Token](anomaly-detection.md#contribution-analysis-tokens)的通知。
 
-     ![](assets/auto_segment.png)
+   ![貢獻分析正在執行](assets/contribution-analysis-executing.png)
 
-1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵選單運用它的多個功能，讓您的分析結果更具意義，例如：
+1. Analysis Workspace直接在此專案中載入新的&#x200B;**[!UICONTROL 貢獻分析]**&#x200B;面板。
 
-   * [依據另一個維度劃分每個維度項目。](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [顯示一或多列的趨勢。](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [新增視覺效果。](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
-   * [建立警報。](/help/components/c-alerts/intellligent-alerts.md)
+   ![貢獻分析面板](assets/contribution-analysis.png)
+
+   * [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果。
+   * 每月趨勢[線](/help/analyze/analysis-workspace/visualizations/line.md)視覺效果。
+   * 顯示哪些排名最前的專案造成此異常的&#x200B;**[!UICONTROL 排名最前的專案]** [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)，依[貢獻分數](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)排序。 其他欄會顯示相關量度，以及提供內容的&#x200B;**[!UICONTROL 不重複訪客]**&#x200B;量度。
+
+   * **[!UICONTROL 產生的區段（最上層專案叢集）]** [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)會根據貢獻分數、異常發生次數和導致異常數度的整體百分比，識別最上層專案的關聯。 然後，此關聯會被擷取為對象區段（「貢獻區段1」、「貢獻區段2」等）。 選取![資訊](/help/assets/icons/Info.svg)以顯示區段的定義，包括區段由哪些排名最前的專案組成：
+
+
+1. 由於貢獻分析現在是Analysis Workspace的一部分，因此您可以從自由格式表格快顯選單中運用它的多個功能，讓您的分析更具意義，例如：
+
+   * [依其他維度劃分每個維度專案](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [顯示一或多個資料列的趨勢](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [新增視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+   * [建立警示](/help/components/c-alerts/intellligent-alerts.md)
    * [建立或比較區段。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
 >
->我們會在「貢獻分析」及與其連結的「智慧型警報」專案內，以藍點標示出正在接受分析的異常項目。如此即可以更清楚的方式指明分析所得的異常項目。
+>分析的異常在「貢獻分析」及與其連結的「智慧型警報」專案中以藍點標示。 此醒目提示可提供所分析異常的更清楚指示。
 
-## 排除貢獻分析中的維度 {#exclude}
 
-有時候，您可能會想要從「貢獻分析」排除部分維度。例如，您可能不在意任何與瀏覽器或硬體相關的維度，因此希望藉由移除這些項目來加快分析速度。
+## 排除維度
 
-1. 在您按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**(或線性圖中的&#x200B;**[!UICONTROL 「分析」]**) 後，**[!UICONTROL 「排除的維度」]**&#x200B;面板隨即顯示。
+您可能會想要從「貢獻分析」中排除一些維度。 例如，您可能不在意任何與瀏覽器或硬體相關的維度，因此希望藉由移除這些項目來加快分析速度。
 
-1. 將任何不想要的維度拖曳至&#x200B;**[!UICONTROL 「排除的維度」]**&#x200B;面板，然後按一下&#x200B;**[!UICONTROL 「設定為預設」]**&#x200B;以儲存清單。或者，按一下&#x200B;**[!UICONTROL 「全部清除」]**，然後選取要排除的維度從頭來過。
+若要管理排除的維度：
 
-   ![](assets/exclude_dimensions.png)
+* 將任何不想要的維度拖曳至&#x200B;**[!UICONTROL 排除的維度]**&#x200B;面板，然後按一下&#x200B;**[!UICONTROL 設定為預設]**&#x200B;以儲存清單。
 
-1. 新增要排除的維度後 (或選擇不要排除)，按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**。
-1. 若您需要修訂排除的維度的清單，可以在「維度」上連按兩下，排除的維度的清單隨即顯示:
+* 選取&#x200B;**[!UICONTROL 全部清除]**&#x200B;以重新開始。
 
-   ![](assets/excluded-dimensions.png)
+* 選取![維度](/help/assets/icons/Dimensions.svg)以顯示內容功能表，並使用![CrossSize400](/help/assets/icons/CrossSize400.svg)從清單中移除任何選取的排除維度。
 
-1. 按一下維度旁邊的 x 以刪除任何不想要的維度，然後按一下&#x200B;**[!UICONTROL 「設定為預設」]**&#x200B;以儲存清單。
+  ![](assets/excluded-dimensions-list.png)
+
+修改要排除的維度後，請再次選取&#x200B;**[!UICONTROL 執行貢獻分析]**。
+

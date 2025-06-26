@@ -4,10 +4,10 @@ description: 將成功事件的評分歸因於多個維度項目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -20,19 +20,21 @@ ht-degree: 91%
 
 在某些報告中，您可能想要將訂單歸因於「付費」搜尋。在其他報告中，則可能會將訂單歸因至「社交」。歸因可讓您控制報告的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與 Adobe 的合約類型，請聯絡貴組織的 Adobe 帳戶團隊。
 
-## Attribution 價值
+## 歸因值
 
 客戶歷程並非線性，且經常無法預測。每位客戶都以自己的步調前進，常常會流連往返、停滯不動、重新開始，或以其他非線性行為進行互動。這些非機械性的行為使得我們很難掌握行銷活動在客戶歷程中的影響，也會阻礙我們將多個資料管道聯繫在一起的努力。
 
-![Attribution 問題](assets/attribution_iq_problem.png)
+<!--
+![Attribution problem](assets/attribution_iq_problem.png)
+-->
 
-Adobe Analytics 強化了歸因功能，讓您可以：
+Adobe Analytics 強化歸因功能，讓您可以：
 
-* 定義付費媒體以外的歸因：任何維度、量度，管道或事件都可以套用在模式上 (例如內部搜尋)，而不僅限於行銷活動。
+* 定義付費媒體以外的歸因：任何維度、量度，管道或事件均可套用在模式上 (例如內部搜尋)，而不僅限於行銷活動。
 * 不限次數利用歸因模式比較功能：動態比較任意數量的模式。
 * 避免實施變更：透過報告時間處理功能和內容感知工作階段，可以建置客戶歷程內容並套用在執行階段中。
-* 建構與您的歸因狀況最相符的工作階段。
-* 按區段劃分歸因：輕鬆比較行銷管道在任何重要區段中的效能 (例如，新客戶與回頭客戶、產品 X 與產品 Y、忠誠度或 CLV)。
+* 建構與您的歸因情境最相符的工作階段。
+* 按區段劃分歸因：輕鬆比較行銷管道在任何重要區段中的效能 (例如，新客與常客、產品 X 與產品 Y、忠誠度或 CLV)。
 * 跨管道檢查和多點接觸分析：使用文氏圖表和直方圖，並計算歸因結果趨勢。
 * 以視覺化方式分析關鍵行銷序列活動：透過多節點流量和流失視覺效果，以視覺效果方式探究帶來轉換的路徑。
 * 建立計算量度：使用任何數量的歸因配置方法。
@@ -77,6 +79,6 @@ Attribution 包含下列功能：
 >[!ENDSHADEBOX]
 
 
-## 不支持 Attribution 的 Adobe Analytics 工具
+## 不支援歸因的Adobe Analytics工具
 
 任何不支持 Analytics 2.0 API 的工具 (例如 Report Builder) 都不支持 Attribution。

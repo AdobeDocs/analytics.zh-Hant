@@ -1,134 +1,263 @@
 ---
-description: 瞭解如何在Analysis Workspace中新增元件至專案
+description: 了解如何在 Analysis Workspace 專案中新增元件
 title: 在 Analysis Workspace 中使用元件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 9fcebd7a8fb3a3d98eebef53a748c8ac585cbcd1
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 16%
+source-wordcount: '948'
+ht-degree: 97%
 
 ---
 
 # 在 Analysis Workspace 中使用元件
 
-元件構成Analysis Workspace中任何專案的實際資料。 元件包含維度、量度、區段和日期範圍。 您可以將元件拖曳至視覺效果或面板中，藉此新增元件至專案。
+元件組成任何 Analysis Workspace 專案的實際資料。元件由維度、量度、區段和日期範圍組成。您可以將元件拖曳至視覺效果或面板中，將其加入專案。
 
-如需您可以新增之元件型別的簡介資訊，請參閱[元件簡介](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。
+查閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，以進一步了解您可以新增的元件類型。
 
 >[!TIP]
 >
->如需各個元件的詳細資訊，請在Analysis Workspace的左側邊欄中選取元件名稱旁的「資訊」圖示，或參閱[Analytics元件指南](/help/components/home.md)。
+>如需各個元件的資訊，請使用 ![InfoOutline](/help/assets/icons/InfoOutline.svg)。如需詳細資訊，請參閱[元件資訊](#component-info)。
 
-## 開始新增元件至專案
+## 將元件新增至專案中
 
-1. [在Analysis Workspace中建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) （如果尚未建立）。
+1. [在 Analysis Workspace 中建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。
 
-1. [新增面板](/help/analyze/analysis-workspace/c-panels/panels.md)或[新增視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)至Analysis Workspace中的專案。
+1. 對 Analysis Workspace 中的專案[新增面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)或[新增視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。如果您在空白專案中新增元件，系統將會自動建立自由格式表格視覺效果。
 
-   如果您將元件新增至空白專案，則會自動建立自由表格視覺效果。
+1. 從底部面板選取「![彙整](/help/assets/icons/Curate.svg) **[!UICONTROL 元件]**」。您可以在左側面板中看到所有可用的元件。如需詳細資訊，請參閱[介面](/help/analyze/analysis-workspace/home.md#interface)。
 
-1. 選取左側邊欄中的「**[!UICONTROL 元件]**」圖示。
+1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺效果中。
+
+1. 您可以選擇將元件拖曳到面板頁首中的區段放置區域。此拖放動作將元件定義為一個區段，並將此區段套用至面板中的所有內容。如欲了解如何使用面板上的區段放置區域將面板分段，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+
+1. 如需詳細資訊，請參閱下列章節：
+
+   * [在專案中新增維度](#add-dimensions-to-a-project)
+
+   * [在專案中新增量度](#add-metrics-to-a-project)
+
+   * [在專案中新增區段](#add-segments-to-a-project)
+
+   * [在專案中新增日期範圍](#add-date-ranges-to-a-project)
+
+### 在專案中新增維度
+
+[維度](/help/components/dimensions/overview.md)是Adobe Analytics中的變數，通常包含字串值。 相對地，[量度](/help/components/c-calcmetrics/cm-overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
+
+1. 根據[在專案中新增元件](#add-components-to-a-project)的說明，開始為 Analysis Workspace 專案新增維度。
+
+1. 選擇下列其中一項方法新增維度，並確定要分析的資料類型：
+
+   ![新增維度](assets/add-dimension.gif)
+
+   * 將維度拖曳到 Analysis Workspace 的視覺效果 (例如自由格式表格) 中。
+
+   * 根據[在專案中新增區段](#add-filters-to-a-project)的說明，從左側面板拖曳一或多個維度到區段放置區域，即可建立快速區段。
+
+1. 您可以選擇使用其他元件劃分 Analysis Workspace 中的維度和維度項目。如需詳細資訊，請參閱[在 Workspace 中劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+
+如欲了解如何使用 Analysis Workspace 的維度，請參閱[預覽維度](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md)、[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)以及[時間分段維度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。
+
+### 在專案中新增量度
+
+量度可讓您量化 Analysis Workspace 中的資料點。它們最常用作視覺效果中的欄，並和維度相連結。
+
+若要將量度新增至 Analysis Workspace 中的專案：
+
+1. 根據[在專案中新增元件](#add-components-to-a-project)的說明，開始為 Analysis Workspace 專案新增量度。
+
+
+
+1. 選擇下列其中一項方法在 Analysis Workspace 中新增量度：
+
+   ![新增量度](assets/add-metric.gif)
+
+   * 將量度拖曳到空白自由格式表格中的量度放置區域，以查看該量度在專案日期期間的趨勢。
+
+   * 已有維度時，可拖曳量度以查看各個維度項目的量度。
+
+   * 將量度拖曳到現有量度頁首的頂部，即可將其取代。
+
+   * 將量度拖曳到現有量度頁首的左側或右側，即可新增量度。
+
+   * 將量度拖曳到現有量度頁首的上方或下方，即可建立量度重疊。
+
+
+如需關於量度的詳細資訊，請參閱[設定量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)。
+
+### 在專案中新增區段
+
+[區段](/help/components/segmentation/seg-overview.md)可讓您根據特性或互動來識別人員、工作階段或事件的子集。
+
+您可以透過以下任一方式使用 Analysis Workspace 區段：
+
+* 在面板中新增區段
+當您在面板中新增區段時，這些區段將會套用至面板內的所有內容。
+如欲了解如何使用面板上的區段放置區域將面板分段，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+
+* 在視覺效果中新增區段
+當您在自由格式表格中的欄位新增區段時，這些區段將會套用至表格欄位內的所有內容。您也可以新增區段作為流失視覺效果的一部分。
+
+* 在元件中使用區段
+當您定義[計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[註解](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)，或甚至[區段](/help/components/segmentation/segmentation-workflow/seg-build.md)之類的元件時，您可以將區段作為定義的一部分使用。
+
+
+### 在專案中新增日期範圍
+
+[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)確定 Analysis Workspace 中的報告時間段，並且可以套用至專案中一或多個面板，以及部分視覺效果 (例如自由格式表格)。
+
+每個面板都包含一個預設的日期範圍。有多種方法可以更新面板的日期範圍。更新 Analysis Workspace 面板日期範圍的其中一種方法，是從左側面板拖曳日期範圍元件：
+
+1. 或者，根據[在專案中新增元件](#add-components-to-a-project)的說明，將日期範圍新增至 Analysis Workspace 專案中。
+
+1. 從左側面板拖放日期範圍至：
+
+   * 目前日期範圍，可修改面板的日期範圍。
+
+     ![放置日期範圍](assets/add-date-range.gif)
+
+   * 自由格式表格視覺效果的量度或維度。請參閱[使用日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#use-date-ranges)，以了解更多資訊。
+
+如欲了解如何在 Analysis Workspace 中使用和管理日期範圍，請參閱[日期範圍概觀](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。
+
+## 元件資訊
+
+將游標停留在任何元件上，即可顯示![更多資訊](/help/assets/icons/InfoOutline.svg)。選取後將會彈出一個視窗，其中包含有關該元件的附加資訊。
+
+![元件資訊](assets/component-info.png)
+
+根據存取控制，您可以：
+
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
+* 存取已定義元件的![Edit](/help/assets/icons/Edit.svg)元件產生器。
+
+
+
+
+<!--
+# Use components in Analysis Workspace
+
+Components make up the actual data of any project in Analysis Workspace. Components consist of dimensions, metrics, segments, and date ranges. You can add components to a project by dragging them into visualizations or panels.
+
+For overview information about the types of components you can add, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).
+
+>[!TIP]
+>
+>For information about each component, select the Info icon next to a component's name in the left rail of Analysis Workspace, or see the [Analytics Components Guide](/help/components/home.md).
+
+## Begin adding components to a project
+
+1. [Create a project in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) if you haven't already.
+
+1. [Add a panel](/help/analyze/analysis-workspace/c-panels/panels.md) or [add a visualization](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel) to the project in Analysis Workspace. 
+
+   If you add a component to a blank project, a freeform table visualization is automatically created.
+
+1. Select the **[!UICONTROL Components]** icon in the left rail.
 
    ![](assets/build-components.png)
 
-1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺化效果中。
+1. Scroll to or search for the component you want to add, then drag it to a panel or visualization within your project. 
 
-1. （可選）將元件拖曳至面板標頭中的區段托放區。
+1. (Optional) Drag a component to the segment drop zone in a panel header. 
 
-   區段會套用至面板內的所有內容。
+   Segments apply to all content within the panel.
 
-   如需如何在面板上使用區段放置區域來篩選面板的相關資訊，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+   For information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-   ![將區段放入放置區](assets/segment-dropzone.png)
+   ![drop a segment in the drop zone](assets/segment-dropzone.png)
 
-1. 如需更多詳細資訊，請根據您新增的元件型別，繼續下列其中一節：
+1. For more detailed information, continue with one of the following sections, depending on the component type you are adding:
 
-   * [將維度新增至專案](#add-dimensions-to-a-project)
+   * [Add dimensions to a project](#add-dimensions-to-a-project)
 
-   * [將量度新增至專案](#add-metrics-to-a-project)
+   * [Add metrics to a project](#add-metrics-to-a-project)
 
-   * [將區段新增至專案](#add-segments-to-a-project)
+   * [Add segments to a project](#add-segments-to-a-project)
 
-   * [新增日期範圍至專案](#add-date-ranges-to-a-project)
+   * [Add date ranges to a project](#add-date-ranges-to-a-project)
 
-## 將維度新增至專案
+## Add dimensions to a project
 
-[Dimension](/help/components/dimensions/overview.md)是Adobe Analytics中通常包含字串值的變數。 常見的維度包括[頁面](/help/components/dimensions/page.md)、[反向連結網域](/help/components/dimensions/referring-domain.md)或 [eVar](/help/components/dimensions/evar.md)。相對地，[量度](/help/components/metrics/overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
+[Dimensions](/help/components/dimensions/overview.md) are variables in Adobe Analytics that typically contain string values. Common dimensions include [Page](/help/components/dimensions/page.md), [Referring domain](/help/components/dimensions/referring-domain.md), or an [eVar](/help/components/dimensions/evar.md). In contrast, [metrics](/help/components/metrics/overview.md) contain numeric values that tie to a dimension. A basic report shows rows of string values (dimension), against a column of numeric values (metric).
 
-1. 開始將維度新增至Analysis Workspace中的專案，如[開始將元件新增至專案](#begin-adding-components-to-a-project)中所述。
+1. Start adding a dimension to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
 
-1. 選擇下列其中一種方法來新增維度，並決定您要分析的資料型別：
+1. Choose one of the following methods to add dimensions and determine the type of data you want to analyze:
 
-   * 將維度拖曳至Analysis Workspace中的視覺效果（例如自由表格）。
+   * Drag a dimension to a visualization (such as a freeform table) in Analysis Workspace.
 
-     ![新增維度至專案](assets/add-dimensions.png)
+     ![Add dimensions to a project](assets/add-dimensions.png)
+   
+   * Drag one or more dimensions from the left rail onto the segment drop zone to create an ad hoc segment, as described in [Add segments to a project](#add-segments-to-a-project).
 
-   * 將一或多個維度從左側邊欄拖曳至區段托放區，以建立臨機區段，如[將區段新增至專案](#add-segments-to-a-project)中所述。
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
 
-     ![將區段放入放置區](assets/segment-dropzone.png)
+1. (Optional) You can break down dimensions and dimension items in Analysis Workspace with other components. 
 
-1. （選用）您可以在Analysis Workspace中搭配其他元件來劃分維度和維度專案。
+   For more information, see [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-   如需詳細資訊，請參閱[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+For more information about how to use dimensions in Analysis Workspace, see [Preview dimensions](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md), [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md), and [Time-parting dimensions](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md).
 
-如需有關如何在Analysis Workspace中使用維度的詳細資訊，請參閱[預覽維度](/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md)、[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)和[時間分段維度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。
+## Add metrics to a project
 
-## 將量度新增至專案
+[Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md) allow you to quantify data points in Analysis Workspace. They are most commonly used as columns in a visualization and tied to dimensions.
 
-[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)可讓您量化Analysis Workspace中的資料點。 它們最常用作視覺效果中的欄，並和維度相連結。
+To add a metric to a project in Analysis Workspace:
 
-若要在Analysis Workspace中新增量度至專案：
+1. Start adding a metric to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
 
-1. 開始將量度新增至Analysis Workspace中的專案，如[開始將元件新增至專案](#begin-adding-components-to-a-project)中所述。
+1. Choose one of the following methods to add a metric in Analysis Workspace:
 
-1. 選擇下列其中一種方法，在Analysis Workspace中新增量度：
+   * Drag a metric to the metric drop zone in an empty Freeform table to see that metric trended over the project's date period. 
 
-   * 將量度拖曳至空白自由表格中的量度拖放區域，可檢視專案日期期間的量度趨勢。
+     ![Add a metric to a project](assets/add-metrics.png)
 
-     ![將量度新增至專案](assets/add-metrics.png)
+   * Drag a metric when a dimension is present to see that metric compared to each dimension item. 
 
-   * 存在維度時可將量度拖移，以查看該量度和每個維度項目的比較。
+   * Drag a metric on top of an existing metric header to replace it.
 
-   * 將量度拖移到現有量度標頭的頂部，即可將其取代。
+   * Drag a metric next to a header to see both metrics side-by-side.
 
-   * 將量度拖移到標頭旁邊，即可並排查看兩個量度。
+For more information about how to use metrics in Analysis Workspace, see [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
 
-如需有關如何在Analysis Workspace中使用量度的詳細資訊，請參閱[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)。
+## Add segments to a project
 
-## 將區段新增至專案
+[Segments](/help/components/segmentation/seg-overview.md) allow you to identify subsets of visitors based on characteristics or specific interactions.
 
-[區段](/help/components/segmentation/seg-overview.md)可讓您根據特性或特定互動來識別訪客的子集。
+You can use segments in Analysis Workspace in any of the following ways:
 
-您可以透過下列任何方式在Analysis Workspace中使用區段：
+### Add segments to a panel
 
-### 新增區段至面板
+When you add segments to a panel, the segments apply to all content within the panel.
 
-將區段新增至面板時，區段會套用至面板內的所有內容。
+For information about how you can use the segment drop zone on a panel to filter your panel, see [Drop zone](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) in [Panels overview](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-如需如何在面板上使用區段放置區域來篩選面板的相關資訊，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+### Add segments to a column in a freeform table
 
-### 在自由格式表格中新增區段至欄
+When you add segments to a column in a freeform table, the segments apply to all content within the table column.
 
-將區段新增至自由表格中的欄時，區段會套用至表格欄中的所有內容。
+### Use segments when creating calculated metrics
 
-### 建立計算量度時使用區段
+In the Calculated metric builder, you can apply segments within your metric definition. 
 
-在計算量度產生器中，您可以在量度定義中套用區段。
+For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
 
-如需詳細資訊，請參閱[分段量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)。
+## Add date ranges to a project
 
-## 新增日期範圍至專案
+[Date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) determine the reporting time frame in Analysis Workspace, and can be applied to one or more panels within a project.
 
-[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)決定Analysis Workspace中的報告時間範圍，並可套用至專案中一或多個面板。
+Each panel includes a date range by default. There are multiple ways to update a date range for a panel. One way to update a date range for a panel in Analysis Workspace is to drag a date range component from the left rail:
 
-依預設，每個面板都包含日期範圍。 更新面板的日期範圍有多種方式。 在Analysis Workspace中更新面板日期範圍的一種方法是從左側邊欄拖曳日期範圍元件：
+1. Start adding a date range to your project in Analysis Workspace, as described in [Begin adding components to a project](#begin-adding-components-to-a-project).
 
-1. 開始新增日期範圍至Analysis Workspace中的專案，如[開始新增元件至專案](#begin-adding-components-to-a-project)中所述。
+1. Drag a date range from the left rail onto the current date range in the upper-right portion of the panel.
 
-1. 從左側邊欄將日期範圍拖曳至面板右上角目前的日期範圍。
+     ![drop a date range](assets/daterange-drop.png)
 
-   ![卸除日期範圍](assets/daterange-drop.png)
+For more information about how to use calendars and date ranges in Analysis Workspace, see [Calendar and date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
 
-如需如何在Analysis Workspace中使用行事曆和日期範圍的詳細資訊，請參閱[行事曆和日期範圍概觀](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。
+-->

@@ -4,14 +4,14 @@ keywords: Analysis Workspace
 title: 從資料夾中移除專案
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: aac32bdda365ce4534f1d4c04e816eb6f03b991c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 從資料夾中移除專案
+# 刪除專案
 
 若要從資料夾中移除專案，您可以將專案移動到另一個位置或刪除專案。
 

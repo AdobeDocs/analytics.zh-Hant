@@ -1,12 +1,12 @@
 ---
-description: 在「區段管理器」內，您可以設立工作流程來核准適合各種應用層級、適合特定的部門或群組，且符合報表原則的區段。
+description: 在「區段管理器」內，您可以建立工作流程來核准適合各種應用層級、適合特定的部門或群組，且符合報表原則的區段。
 title: 核准區段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 24%
+ht-degree: 2%
 
 ---
 

@@ -4,33 +4,71 @@ title: 檢視密度
 feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 92%
+source-wordcount: '106'
+ht-degree: 91%
 
 ---
 
-# [!UICONTROL 檢視密度]
+# 檢視密度
 
-調整[!UICONTROL 檢視密度]可減少左側邊欄、自由格式表格和同類群組表格的垂直邊框間距，好讓您在畫面上看到更多資料。 透過選項按鈕切換檢視密度時，有 3 個選項可以選擇：
+調整檢視密度可減少左側面板、自由格式表格和同類群組表格的垂直邊框間距，好讓您在畫面上看到更多資料。 提供三個選項：
 
-- **[!UICONTROL 緊密]**：此版本提供最密集的檢視畫面。
-- **[!UICONTROL 舒適]**：此版本比「緊密」版本有更多邊框間距。
-- **[!UICONTROL 展開]** (預設): 此版本為常用的工作區檢視畫面。
+>[!BEGINTABS]
+
+>[!TAB 精簡]
+
+此版本為最密集的畫面。
+
+![最密集的檢視畫面。](assets/view-density-compact.png)
+
+>[!TAB 舒適]
+
+這是為您熟悉的 Workspace 畫面。
+
+![擴展的檢視密度。](assets/view-density-comfortable.png)
+
+>[!TAB 展開]
+
+此版本具有最廣的檢視畫面。
+
+![擴展的檢視密度。](assets/view-density-expanded.png)
+
+>[!ENDTABS]
+
+
+若要設定檢視密度：
+
+1. 在 Workspace 中，導覽至&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊與設定」]**。
+
+1. 選取「**[!UICONTROL 檢視密度]**」選項，然後選取「**[!UICONTROL 儲存]**」。
+
+
+
+<!--
+# [!UICONTROL View Density]
+
+Adjusting the [!UICONTROL view density] lets you see more data on the screen by reducing the vertical padding of the left rail, freeform tables and cohort tables. You have 3 options when toggling the view density via radio buttons:
+
+- **[!UICONTROL Compact]**: This is the version with the most condensed view.
+- **[!UICONTROL Comfortable]**: This leaves a little more padding than the Compact version.
+- **[!UICONTROL Expanded]** (default): This is the view you are used to in Workspace.
 
 ![](assets/view-density.png)
 
-若要設定檢視密度:
+To set the view density:
 
-1. 導覽至工作區中的&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊與設定」]**。
+1. In Workspace, navigate to **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
 
-1. 從上述的 3 個選項中選取，接著按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. Select among the 3 options outlined above and click **[!UICONTROL Save]**.
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [檢視密度](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"}。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [View density](https://video.tv.adobe.com/v/25963?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
+
+-->

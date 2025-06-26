@@ -4,95 +4,169 @@ title: 日曆和日期範圍概觀
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '535'
 ht-degree: 100%
 
 ---
 
-# 日曆和日期範圍概觀 {#date-range}
 
-<!-- markdownlint-disable MD034 -->
+# 日期範圍概觀
+
+在 Workspace 專案中，您通常會使用[面板中的行事曆](/help/analyze/analysis-workspace/c-panels/panels.md#calendar)來指定該面板中視覺效果的日期範圍。
+
+日期範圍元件可讓您定義和覆蓋面板的行事曆設定。
+
+
+## 使用日期範圍
+
+您可以使用日期範圍元件來重新定義面板的行事曆。
+
+或者，您可以使用自由格式表中的日期範圍作為量度或維度。
+
+![日期範圍使用](assets/date-ranges-usage.png)
+
+- **量度**。 例如，比較兩個不同月份特定量度的維度。
+- **維度**。 比較日期範圍維度上的不同維度項目量度。
+
+>[!NOTE]
+>
+>當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表所屬面板指定的行事曆。
+>
+
+使用日期範圍的方式與[使用任何元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)的方式一樣。您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：
+
+- **[!UICONTROL 行事曆]**：您使用日期範圍![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的行事曆設定。
+- **量度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;量度，![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**日期範圍作為量度，或使用日期範圍元件來![篩選](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;篩選&#x200B;]**量度。
+- **維度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的維度。現在的新維度是&#x200B;**[!UICONTROL 日期範圍]**。只要維度是日期範圍，您就可以![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**其他日期範圍作為維度項目。
+- **維度項目**：您可依日期範圍![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;特定維度項目。
+
+您也可以直接在自由格式表格視覺效果中新增日期範圍欄：
+
+1. 在量度欄中，從內容選單中選取：
+
+   - **[!UICONTROL 新增時段欄]**。您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
+   - **[!UICONTROL 比較時段]**。 您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
+
+1. 根據您的選擇，額外的日期範圍欄將會新增至自由格式表中。
+
+## 預設日期範圍
+
+Analysis Workspace 提供許多預設的日期範圍。
+
+
+| 日 | 週 | 月 | 季 | 年 |
+|---|---|---|---|---|
+| 今天 | 本週 | 本月 | 本季度 | 今年 |
+| 昨天 | 本週 (不含今天) | 本月 (不含今天) | 本季 (不含今天) | 今年 (不含今天) |
+| 2 天前 | 2 週前 | 2 個月前 |   |  |
+| 3 天前 | 3 週前 | 3 個月前 |  | |
+| 最近 7 天 | 上週 | 上個月 | 上一季 | 去年 |
+| 最近 14 天 | 過去完整 2 週 | 過去 2 個月整 | 過去完整 4 季 | |
+| 最近 30 天 | 過去完整 3 週 | 過去 3 個月整 | | |
+| 最近 60 天 | 過去完整 4 週 | 過去 6 個月整 | | |
+| 最近 90 天 | 過去完整 12 週 | 過去 12 個月整 | | |
+| 過去完整 7 天 | 過去完整 52 週 | 過去 13 個月整 | | |
+| 過去完整 14 天 | | | | |
+| 過去完整 30 天 | | | | |
+| 過去完整 90 天 | | | | |
+
+<table style="table-layout:fixed">
+
+## 自訂日期範圍
+
+您可以建立專屬的自訂日期範圍。有關建立日期範圍時可使用的各種選項，請參閱[建立日期範圍](create.md)。然後，您可以在[日期範圍產生器](create.md#date-range-builder)中建立、修改和儲存日期範圍。
+
+您可以使用[日期範圍管理器](manage.md)來管理日期範圍。
+
+
+
+<!--
+# Calendar and date ranges overview {#date-range}
 
 >[!CONTEXTUALHELP]
 >id="components_dateranges_endtime"
->title="結束時間"
->abstract="結束時間始終會包含 59 秒。"
-
-<!-- markdownlint-enable MD034 -->
+>title="End time"
+>abstract="End times always include 59 seconds."
 
 
-在行事曆中，您可以指定日期和日期範圍，或選取預設集。
+
+In the calendar, you can specify dates and date ranges, or select a preset.
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 行事曆和日期範圍概觀](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"}的示範影片。
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calendar and date ranges overview](https://video.tv.adobe.com/v/23973?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
-行事曆選取範圍會套用至面板層級，但您也可以選擇將其套用至所有面板。 按一下工作區中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。按一下這兩個日曆各自上方角落的向右和向左箭頭，即可進行調整。
+Calendar selections apply at the panel level, but you have the option to apply them to all panels. When you click a date range in Workspace, the interface displays the current calendar month and the previous calendar month. You can adjust these two calendars by clicking the right and left arrows in each respective upper corner.
 
-![日曆](assets/aw_calendar2.png){width="60%"}
+![Calendar](assets/aw_calendar2.png){width="60%"} 
 
-## 選取並套用日期範圍 {#select-apply}
+## Select and apply date ranges {#select-apply}
 
-在日曆上按第一下會開始進行日期範圍選取。按第二下會完成日期範圍選取，並反白顯示選取的範圍。如果按住 `Shift` 鍵 (或使用滑鼠右鍵)，則會附加至目前選取的範圍。
+The first click on a calendar starts a date range selection. The second click completes a date range selection, which becomes highlighted. If the `Shift` key is held down (or right-click is used), it appends to the currently selected range.
 
-您也可以將日期 (和時間維度) 拖曳至工作區專案中。您可以選取特定的日、週、月、年或滾動日期。
+You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[在 Analysis Workspace 中使用日期範圍和行事曆](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-hant) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
-| 設定 | 說明 |
+| Setting | Description |
 |--- |--- |
-| 選擇的天數 | 所選日/週/月/年。 |
-| 使日期範圍元件相對於面板行事曆 | 若停用，表格、視覺效果或面板放置區內使用的日期範圍元件，會覆寫面板行事曆。 <p>若啟用，表格、視覺效果或面板放置區內使用的任何日期範圍元件均與面板日期範圍相關。例如，如果面板日期範圍設定為 11 月 1 日至 11 月 30 日，並且在自由格式表格中使用上週日期範圍元件，則自由格式表中的資訊是指 10 月的最後一週。 |
-| 使用滾動日期 | 您可以使用滾動日期，根據執行報告的時間來產生動態報告，往前或往後查看一段時間的情況。舉例來說，如果您想在報表中加入「上個月」所下的所有「訂單」資料 (以「已建立日期」欄位為依據) 並在 12 月執行報表運算，您就會在報表中看到 11 月下的訂單。如果在 1 月執行相同報表運算，則會看到在 12 月下的訂單。<ul><li>**[!UICONTROL 日期預覽]**：指出滾動日曆包含的時間期間。</li><li>**[!UICONTROL 開始]**：您可在當日、當週、當月、當季、今年之間做選擇。</li><li>**[!UICONTROL 結束]**：您可在當日、當週、當月、當季、今年之間做選擇。</li></ul>若要檢視範例，請參閱[自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)。<br>預設為已選取。 |
-| 日期範圍 | 可讓您挑選預設日期範圍。「最近 30 天」是預設值。**[!UICONTROL 本週/月/季/年 (不包括今天)]** 可讓您從不包含今天部分日資料的日期範圍進行選擇。 |
-| 套用到所有面板 | 可讓您不僅變更目前面板的選定日期範圍，也同時變更專案中的所有其他面板。 |
-| 套用 | 僅將日期範圍套用至此面板。 |
+|Selected Days|Selected days/weeks/months/years.|
+|Make date range components relative to panel calendar| If disabled, any date range components used within a table, visualization, or panel drop zone override the panel calendar. <p>If enabled, any date range components used within a table, visualization, or panel drop zone are in relation to the panel date range. For example, if the panel date range is set to November 1 through November 30, and a Last Week date range component is used in a freeform table, the information in the freeform table refers to the last week in October. |
+|Use rolling dates| Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul>To view an example, see [Custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). <br>Selected by default.|
+|Date Range|Lets you pick a preset date range. Last 30 days is the default. **[!UICONTROL This week/month/quarter/year (excluding today)]** lets you choose from date ranges that do not include partial-day data from today.|
+|Apply to All Panels|Lets you not only change the selected date range for the current panel, but also for all other panels within the project.|
+|Apply|Applies the date range to this panel only.|
 
-## 關於相對面板日期範圍 {#relative-panel-dates}
+## About relative panel date ranges {#relative-panel-dates}
 
-如果您在 Workspace 中進行創作，則可以使日期範圍元件設為相對於面板行事曆。您最常見到三種相對面板日期生效的使用範例包含組合圖表、關鍵量度摘要和自由格式表格日期範圍。
+If you're working in Workspace, you can make the date range components relative to the panel calendar. 
+Three common use cases where you'll see relative panel dates take effect are Combo charts, Key metrics summary, and Freeform table date ranges.
 
-若要使用相對面板日期範圍
+To use relative panel date ranges
 
-1. 選取「**工作區**」標籤。
-1. 選取&#x200B;**「空白專案」**。
-1. 從左側邊欄新增維度、量度和區段。
-1. 按一下面板日期範圍欄位以切換相關面板日期範圍設定。
-1. 選取「**使日期範圍元件相對於面板行事曆**」。
-   * 選取該選項以使日期範圍元件相對於面板行事曆。如果選取相對日期，則滾動日期將以面板行事曆的開始日期為準，而不是以今天日期為準。
-   * 如果未選取此選項，則滾動日期將以今天日期為準。
+1. Select the **Workspace** tab.
+1. Select **Blank project**.
+1. Add dimensions, metrics, and segments from the left rail. 
+1. Click the panel date range field to toggle the relative panel date range setting.
+1. Select **Make date range components relative to panel calendar**.
+    * Select the option to make the date range components relative to the panel calendar.
+        If relative dates are selected, then rolling dates will be based on the start date of the panel calendar and not today's date.
+    * If this option isn't selected, then rolling dates will be based on today's date.
 
-   ![相對面板日期](assets/relative-date-selected.png){width="60%"}
+    ![relative panel dates](assets/relative-date-selected.png){width="60%"} 
 
-1. 按一下&#x200B;**套用**。相對日期顯示在右上角。
+1. Click **Apply**.
+    The relative dates are shown in the upper-right.
 
-   ![自由格式的相對日期](assets/relative-date-range1.png)
+    ![relative dates in freeform ](assets/relative-date-range1.png)
 
-## 相對面板日期範圍的應用準則 {#guidelines}
+## Guidelines for relative panel date ranges {#guidelines}
 
-使用相對面板日期範圍時，請記住以下應用準則。
+Keep in mind the following guidelines when using relative panel date ranges.
 
-### 公式和相對日期範圍 {#formula-relative-dates}
+### Formulas and relative date ranges {#formula-relative-dates}
 
-如果您選取相對的日期，則所有日期公式將使用面板的開始日期做為起點。
+If you have relative dates selected, all date formulas will use the panel's start date as the starting point.
 
-### 自訂行事曆和相對日期範圍 {#custom-calendar-formulas}
+### Custom calendars and relative date ranges {#custom-calendar-formulas}
 
-當您使用以週為準的自訂行事曆並新增月份或年份時，該公式會計算特定期限內的日 (day) 偏移數。 由於偏移的關係，實際日期可能會有所不同。 公式會選擇落在自訂行事曆內同一個位置的日期。 例如，自訂行事曆中第三週的第三個星期五。
+When you use a week-based custom calendar and you add months or years, the formula calculates the offset of the day in the given period. The actual date may be different because of the offset. The formula chooses the day landing in the same place in the custom calendar. For example, the third Friday of the third week in a custom calendar.
 
-### 關於使用滾動日期和相對面板日期範圍的區段 {#segments-relative-dates}
+### About segments that use rolling dates and relative panel date ranges {#segments-relative-dates}
 
-如果您建立一個區段或使用具有滾動日期的區段，例如，過去 7 天或過去 2 週，且您點選區段預覽，此時，系統將從&#x200B;*今天*&#x200B;開始滾動日期，而不是從面板開始日期來滾動。因此，當您實際使用表中的區段時，區段的預覽將不相符。預覽會受影響，而區段本身不會受影響。
+If you build a segment or use a segment with a rolling date, for example, the Last 7 Days or the Last 2 Weeks, and you click on the segment preview, it will start the rolling date from *Today* instead of the panel start date. As a result the preview for the segment will not match when you actually use the segment in the table. The preview is impacted, not the segment itself. 
 
-## 面板日期範圍和預覽的應用準則 {#guidelines-panel-dates}
+## Guidelines for panel date ranges and previews {#guidelines-panel-dates}
 
-* 從 2 月版開始，元件和資料預覽將依據面板日期範圍顯示，而不是過去 90 天。
-* 左側邊欄中列出的所有元件都將根據面板日期範圍提供。
-* 區段和計算量度產生器中的所有日期預覽都將依據面板日期範圍 (除非從沒有關聯面板的元件管理員存取，則仍將依據過去 90 天) 顯示。
-* 任何資料預覽都將依據面板日期範圍顯示資料或元件。
+* Starting with the February release, component and data previews will be based on the panel date range and not the last 90 days. 
+* All components listed in the left rail will be available based on the panel date range. 
+* All date previews in the segment and calculated metric builders will be based on the panel date range (unless accessed from the component managers, which do not have an associated panel, they will still be based on the last 90 days). 
+* Any data previews will display data or components based on the panel date range.
+
+-->

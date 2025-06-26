@@ -1,51 +1,85 @@
 ---
-title: 註解總覽
+title: 註解概觀
 description: 如何在 Workspace 中使用註解。
 role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 85%
 
 ---
 
-# 註解總覽
+# 註解概觀
 
-工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。註解可讓您將行事曆事件和特定的維度/量度連結起來。您可以用資料問題、國定假日、行銷活動推出等來標註日期或日期範圍。然後以圖形形式顯示事件，並查看行銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。
+您可以利用註解，有效地向組織中其他利害關係人傳達內容相關資料的細微差別和深入分析。您可以利用註解，將行事曆事件與特定維度和量度連結。您可以用已知的資料問題、國定假日、行銷活動啟動等，針對日期或日期範圍加入註解。接著，您可以使用圖形方式顯示事件，並查看行銷活動或其他事件是否已對您的網站流量、行動應用程式使用情形、收入或任何其他量度造成影響。
 
-例如，假設您要將專案與您的組織分享。 如果您因為行銷活動而導致流量激增，您可建立「行銷活動推出日期」註解，並將其範圍設定為整個報表套裝。 當您的使用者檢視包含該日期的任何資料集後，他們會在他們的專案中看到此註解，連同他們的資料。
+例如，您與您的組織共用專案。如果您的不重複訪客明顯減少，您可以建立減少的&#x200B;**訪客**&#x200B;註解，並將其範圍設定為整個報表套裝。 當您的使用者檢視包含該日期的任何報表套裝時，他們會在他們的專案中看到此註解，連同他們的資料。
 
-![](assets/multi-day.png)
+![醒目提示註解的折線圖。](assets/annotation-example.png)
 
-請記住以下事項：
+註解可以適用於：
 
-* 註解可以與單一日期或日期範圍相關聯。
+* 單一日期或日期範圍。
 
-* 註解可套用於整個資料集或指定的量度、維度或區段。
+* 您的整個資料集或特定量度、維度或區段。
 
-* 註解可套用於建立所在的專案 (預設) 或所有專案。
+* 建立註解的專案 (預設) 或所有專案。
 
-* 註解可套用於建立所在的報表套裝 (預設) 或所有報表套裝。
+* 建立註解的資料釋圖 (預設) 或所有資料釋圖。
 
-## 權限 {#permissions}
+有關建立註解時可使用的各種選項，請參閱[建立註解](create-annotations.md)。然後，您可以在[註解產生器](create-annotations.md#annotation-builder)中建置、修改和儲存註解。
 
-根據預設，只有管理員才能建立註解。使用者有權檢視註解，就像檢視其他 Analytics 元件一樣 (例如區段、計算量度等)。
+您可以使用[註解管理器](manage-annotations.md)來管理註解。
 
-但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
-
-## 開啟或關閉註解 {#annotations-on-off}
+## 開啟或關閉註解
 
 可在幾個等級開啟或關閉註解：
 
-* 視覺效果等級：[!UICONTROL 視覺化]設定 > [!UICONTROL 顯示註解]
+| 層級 | 做法 |
+|---|---|
+| **視覺效果** | 啟用或停用![Setting](/help/assets/icons/Setting.svg) > **[!UICONTROL 設定]** > **[!UICONTROL 顯示註解]**。<br/>![啟用視覺效果的「停用註解」](assets/annotations-visualization.png) |
+| **專案** | 從 Workspace 專案選單中，選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**，並啟用或停用&#x200B;**[!UICONTROL 顯示註解]**。<br/>![啟用專案的「停用註解」](assets/annotations-project.png) |
+| **使用者** | 從&#x200B;**[!UICONTROL 元件]**&#x200B;標籤選取&#x200B;**[!UICONTROL 偏好設定]**，或從 Workspace 專案選單中選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 使用者偏好設定]**。<br/>在&#x200B;**[!UICONTROL 偏好設定]**&#x200B;中選取&#x200B;**[!UICONTROL 專案和分析]**。從左側標籤列選取&#x200B;**[!UICONTROL 資料]**。在底部，啟用或停用&#x200B;**[!UICONTROL 顯示註解]** (在&#x200B;**[!UICONTROL 自由格式表格]**&#x200B;標題下方)。<br/>![啟用使用者的「停用註解」](assets/annotations-user.png) |
 
-* 專案等級：[!UICONTROL 專案資訊與設定] > [!UICONTROL 顯示註解]
+<!--
+# Annotations overview
 
-* 使用者等級：[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] > [!UICONTROL 資料] > [!UICONTROL 顯示註解]
+Annotations in Workspace enable you to effectively communicate contextual data nuances and insights to your organization. They let you tie calendar events to specific dimensions/metrics. You can annotate a date or date range with known data issues, public holidays, campaign launches, etc. You can then graphically display events and see whether campaigns or other events have affected your site traffic, revenue, or any other metric.
+
+For example, let's say you are sharing projects with your organization. If you had a major spike in traffic due to a marketing campaign, you could create a "Campaign launch date" annotation and scope it for your whole report suite. When your users view any data sets that included that date, they see the annotation within their projects, alongside their data.
+
+![Annotation example](assets/annotation-example.png)
+
+Keep this in mind:
+
+* Annotations can be tied to a single date or to a date range.
+
+* They can apply to your entire data set or to specified metrics, dimensions, or segments.
+
+* They can apply to the project in which they were created (default) or to all projects.
+
+* They can apply to the report suite in which they were created (default) or to all report suites.
+
+## Permissions {#permissions}
+
+By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
+
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
+
+## Turn annotations on or off {#annotations-on-off}
+
+Annotations can be turned on or off at several levels:
+
+* At the Visualization level: [!UICONTROL Visualization] settings > [!UICONTROL Show annotations]
+
+* At the Project level: [!UICONTROL Project info & settings] > [!UICONTROL Show annotations]
+
+* At the User level: [!UICONTROL Components] > [!UICONTROL User preferences] > [!UICONTROL Data] > [!UICONTROL Show annotations]
 
 ![](assets/show-ann.png)
 
 ![](assets/show-ann2.png)
+-->

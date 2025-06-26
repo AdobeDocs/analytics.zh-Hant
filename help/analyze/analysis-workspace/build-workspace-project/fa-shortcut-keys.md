@@ -5,79 +5,85 @@ title: 快速鍵
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 92%
 
 ---
 
 # 快速鍵
 
-Analysis Workspace 提供快速鍵 (鍵盤快速鍵)，方便無縫導覽、分析、新增面板和視覺化，以及普及化 (共享)。
+請注意，您的鍵盤可能使用下列符號：
 
-注意：
-* `Ctrl` = Windows，而 `Command` = Mac
-* `Alt` = Windows，而 `Option` = Mac
+- **⇧** 代表 **[!UICONTROL ** Shift **]** 鍵。
+- **⌘** 代表 **[!UICONTROL ** Cmd **]** (Command) 鍵。
+- **⌃** 代表 **[!UICONTROL ** Ctrl **]** (Control) 鍵。
+- **⌥** 代表 **[!UICONTROL ** Opt **]** (Option) 鍵。
+- **⎇** 代表 **[!UICONTROL ** Alt **]** (Alternate) 鍵。
 
 ## 導覽動作
 
-| 動作 | 快速鍵 |
-| --- | --- |
-| 建立新專案 | Ctrl+Shift+P |
-| 開啟現有專案 | Ctrl+O |
-| 前往「面板」窗格 | Alt+Shift+1 |
-| 前往「視覺效果」窗格 | Alt+Shift+2 |
-| 前往「元件」窗格 | Alt+Shift+3 |
-| 摺疊/展開所有面板 | Alt+M |
-| 摺疊/展開作用中的面板 | Alt+Ctrl+M |
-| 移至下一個面板 | Alt+向右鍵 |
-| 移至上一個面板 | Alt+向左鍵 |
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- | 
+| 建立新專案 | **[!UICONTROL *Cmd+Shift+P *]** | **[!UICONTROL *Ctrl+Shift+P *]** |
+| 開啟現有專案 | **[!UICONTROL *Cmd+O *]** | **[!UICONTROL *Ctrl+O *]** |
+| 前往「面板」窗格 | **[!UICONTROL *Opt+Shift+1 *]** | **[!UICONTROL *Alt+Shift+1 *]** |
+| 前往「視覺效果」窗格 | **[!UICONTROL *Opt+Shift+2 *]** | **[!UICONTROL *Alt+Shift+2 *]** |
+| 前往「元件」窗格 | **[!UICONTROL *Opt+Shift+3 *]** | **[!UICONTROL *Alt+Shift+3 *]** |
+| 收合/展開所有面板 | **[!UICONTROL *Opt+M *]** | **[!UICONTROL *Alt+M *]** |
+| 收合/展開使用中的面板 | **[!UICONTROL *Opt+Cmd+M *]** | **[!UICONTROL *Alt+Ctrl+M *]** |
+| 移至下一個面板 | **[!UICONTROL *opt *+ ▶︎]** | **[!UICONTROL *alt *+ ▶︎]** |
+| 移至上一個面板 | **[!UICONTROL *opt *+ ◀︎]** | **[!UICONTROL *alt *+ ◀︎]** |
 
 ## 分析動作
 
-| 動作 | 快速鍵 |
-| --- | --- |
-| 搜尋左側邊欄 | Ctrl+/ |
-| 建立警報 | Ctrl+Shift+A |
-| 建立附註 | Ctrl+Shift+O |
-| 建立計算量度 | Ctrl+Shift+C |
-| 建立日期範圍 | Ctrl+Shift+D |
-| 建立區段 | Ctrl+Shift+E |
-| 全部清除 | Alt+W |
-| 複製 | Ctrl+C |
-| 取消復原 | Ctrl+Shift+Z |
-| 還原 | Ctrl+Z |
-| 重新整理元件 | Alt+Shift+R |
-| 重新整理專案 | Alt+R |
-| 設定為登陸頁面 | Ctrl+Shift+L |
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- | 
+| 搜尋左側面板 | **[!UICONTROL *Cmd+/*]** | **[!UICONTROL *Ctrl+/*]** |
+| 建立警報 | **[!UICONTROL *Cmd+Shift+A *]** | **[!UICONTROL *Ctrl+Shift+A *]** |
+| 建立計算量度 | **[!UICONTROL *Cmd+Shift+C *]** | **[!UICONTROL *Ctrl+Shift+C *]** |
+| 建立日期範圍 | **[!UICONTROL *Cmd+Shift+D *]** | **[!UICONTROL *Ctrl+Shift+D *]** |
+| 建立區段 | **[!UICONTROL *Cmd+Shift+E *]** | **[!UICONTROL *Ctrl+Shift+E *]** |
+| 全部清除 | **[!UICONTROL *Alt+W *]** | **[!UICONTROL *Opt+W *]** |
+| 複製 | **[!UICONTROL *Cmd+C *]** | **[!UICONTROL *Ctrl+C *]** |
+| 重做 | **[!UICONTROL *Cmd+Shift+Z *]** | **[!UICONTROL *Ctrl+Shift+Z *]** |
+| 還原 | **[!UICONTROL *Cmd+Z *]** | **[!UICONTROL *Ctrl+Z *]** |
+| 重新整理元件 | **[!UICONTROL *Opt+Shift+R *]** | **[!UICONTROL *Alt+Shift+R *]** |
+| 重新整理專案 | **[!UICONTROL *Opt+R *]** | **[!UICONTROL *Alt+R *]** |
+| 設定為登陸頁面 | **[!UICONTROL *Cmd+Shift+L *]** | **[!UICONTROL *Ctrl+Shift+L *]** |
 
 ## 新增面板和視覺效果動作
 
-| 動作 | 快速鍵 |
-| ---|---|
-| 新增 Analytics for Target 面板 | Alt+G |
-| 新增歸因面版 | Alt+E |
-| 新增空白面板 | Alt+B |
-| 新增自由形式面板 | Alt+A |
-| 全新媒體同時檢閱者面板 | Alt+H |
-| 新增快速深入分析面板 | Alt+F |
-| 新增區段比較面板 | Alt+C |
-| 新增自由形式表格 | Alt+1 |
-| 新增折線圖 | Alt+2 |
-| 新增長條圖 | Alt+3 |
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- | 
+| 新增歸因面版 | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** |
+| 新增空白面板 | **[!UICONTROL *Opt+B *]** | **[!UICONTROL *Alt+B *]** |
+| 新增自由格式面板 | **[!UICONTROL *Opt+A *]** | **[!UICONTROL *Alt+A *]** |
+| 新增快速深入分析面板 | **[!UICONTROL *Opt+F *]** | **[!UICONTROL *Alt+F *]** |
+| 新增自由格式表格 | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt+1 *]** |
+| 新增折線圖 | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** |
+| 新增長條圖 | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** |
+| 新增組合圖表 | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** |
+
+## 移動面板動作
+
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- | 
+| 將面板上移 | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *alt + ctrl + up *]** |
+| 將面板下移 | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *alt + ctrl + down *]** |
 
 ## 普及化動作
 
-| 動作 | 快速鍵 |
-| --- | --- |
-| 儲存專案 | Ctrl+S |
-| 另存專案 | Ctrl+Shift+S |
-| 另存為範本 | Alt+T |
-| 下載為 CSV | Ctrl+Shift+V |
-| 下載為 PDF | Ctrl+Shift+B |
-| 組織專案資料 | Ctrl+Shift+G |
-| 共用專案 | Ctrl+G |
-| 取得專案連結 | Alt+L |
-| 立即傳送檔案 | Alt+S |
-| 依排程傳送檔案 | Shift+Alt+S |
+| 動作 | Mac 快速鍵 | Windows 快速鍵 |
+| --- | --- | --- | 
+| 儲存專案 | **[!UICONTROL *Cmd+S *]** | **[!UICONTROL *Ctrl+S *]** |
+| 另存專案 | **[!UICONTROL *Cmd+Shift+S *]** | **[!UICONTROL *Ctrl+Shift+S *]** |
+| 另存為範本 | **[!UICONTROL *Opt+T *]** | **[!UICONTROL *Alt+T *]** |
+| 下載為 CSV | **[!UICONTROL *Cmd+Shift+V *]** | **[!UICONTROL *Ctrl+Shift+V *]** |
+| 下載為 PDF | **[!UICONTROL *Cmd+Shift+B *]** | **[!UICONTROL *Ctrl+Shift+B *]** |
+| 策劃專案資料 | **[!UICONTROL *Cmd+Shift+G *]** | **[!UICONTROL *Ctrl+Shift+G *]** |
+| 共用專案 | **[!UICONTROL *Cmd+G *]** | **[!UICONTROL *Ctrl+G *]** |
+| 取得專案連結 | **[!UICONTROL *Alt+L *]** | **[!UICONTROL *Alt+L *]** |
+| 立即傳送檔案 | **[!UICONTROL *Alt+S *]** | **[!UICONTROL *Alt+S *]** |
+| 依排程傳送檔案 | **[!UICONTROL *Shift+Alt+S *]** | **[!UICONTROL *Shift+Alt+S *]** |

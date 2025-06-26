@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: cd456b4fe5c5f0c3939677b00b4db3c4569cca99
+source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '960'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -27,20 +27,19 @@ ht-degree: 98%
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 概觀](analysis-workspace/home.md)
    + 專案 {#build-workspace-project}
-      + [專案概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立專案](analysis-workspace/build-workspace-project/create-projects.md)
+      + [開啟專案](analysis-workspace/build-workspace-project/open-projects.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [專案目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Workspace 資料夾 {#workspace-folders}
-         + [關於 Workspace 資料夾](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [資料夾概觀](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [建立資料夾和子資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
-         + [刪除資料夾](analysis-workspace/build-workspace-project/workspace-folders/delete-folders.md)
-         + [新增專案](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-         + [移除專案](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
-         + [儲存新專案](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
+         + [管理資料夾](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
+         + [將專案新增或移動至資料夾](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多報告套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [快捷鍵 (快速鍵)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
    + 範本 {#templates}
@@ -65,9 +64,11 @@ ht-degree: 98%
          + [建立區段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速區段](analysis-workspace/components/segments/quick-segments.md)
       + 日曆和日期範圍  {#calendar-date-ranges}
-         + [日曆和日期範圍概觀](analysis-workspace/components/calendar-date-ranges/calendar.md)
-         + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
+         + [概觀](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [建立日期範圍](analysis-workspace/components/calendar-date-ranges/create.md)
+         + [管理資料範圍](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [日期比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [範例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + 資料字典 {#data-dictionary}
          + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [檢視資料字典中的元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
@@ -131,11 +132,11 @@ ht-degree: 98%
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 策劃、共用及排程專案  {#curate-share}
-      + [共用功能表](analysis-workspace/curate-share/send-schedule-files.md)
+      + [概觀](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
       + [共用專案](analysis-workspace/curate-share/share-projects.md)
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
-      + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
+      + [唯讀專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 {#attribution}

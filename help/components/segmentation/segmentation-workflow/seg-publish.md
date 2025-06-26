@@ -3,14 +3,14 @@ description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段
 title: 發佈區段至Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 63%
+source-wordcount: '1363'
+ht-degree: 58%
 
 ---
 
-# 將區段發佈至 Experience Cloud {#publish-segments}
+# 發佈區段 {#publish-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
@@ -23,7 +23,7 @@ ht-degree: 63%
 >abstract="在客群庫中所建立的區段可立即使用，非取決於 Analytics 更新。"
 
 
-將Adobe Analytics區段發佈至Experience Cloud，可讓您在[!DNL Audience Manager]和其他啟用管道(包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign])中，使用該區段進行行銷活動。
+您可以將Adobe Analytics區段發佈至Experience Cloud，以便在[!DNL Audience Manager]和其他啟用管道(包括Adobe的[!DNL Advertising Cloud]、[!DNL Target]和[!DNL Campaign])中，使用該區段進行行銷活動。
 
 您可以在8小時內將Analytics區段發佈至Experience Cloud。 使用這些區段，在 Audience Manager 中將對象啟動至所有下游目的地。
 
@@ -50,7 +50,7 @@ ht-degree: 63%
 * **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
 * **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的客群不能超過 2,000 萬名不重複成員。
 * **資料隱私權**：系統不會根據訪客的驗證狀態篩選客群。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入客群。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解客群共享的完整隱私權意涵。
-* 如需有關[!DNL Adobe Analytics]與&#x200B;[!DNL Audience Manager]&#x200B;**中區段之間**&#x200B;差異的討論，請參閱[瞭解Analytics與Audience Manager中的區段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hant)。
+* 如需有關[!DNL Adobe Analytics]與&#x200B;[!DNL Audience Manager]**中區段之間**&#x200B;差異的討論，請參閱[瞭解Analytics與Audience Manager中的區段](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=zh-Hant)。
 
 ## 區段發佈時間軸
 
@@ -68,8 +68,8 @@ ht-degree: 63%
 1. 在Adobe Analytics中，前往&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 區段]**
 1. 選取「**[!UICONTROL 新增]**」以建立新區段。
    ![發佈 Experience Cloud](assets/publish-ec.png)
-1. 提供區段的標題和說明。 儲存前需要這些欄位。
-1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]**。
+1. 提供區段的標題和說明。 您必須先填寫這些欄位，才能儲存區段。
+1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （適用於&#x200B;*報表套裝*）]**。
 
    >[!IMPORTANT]
    >
@@ -79,14 +79,17 @@ ht-degree: 63%
 | 元素 | 說明 |
 |---|---|
 | **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]** | 啟用此選項後，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience Cloud共用，而區段會籍每4小時評估及共用一次。 <br>例如，將客群與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 客群資格的訪客。此時，對象名稱和對應的資料開始顯示在Experience Cloud的[!DNL Audience Library]頁面上。</br> |
-| **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依時序建立客群。例如，「最近 30 天」(預設值) 包含自當天 (並非建立細分群體的原始日期) 起的過去 30 天內符合客群資格的訪客。 |
+| **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依時序建立客群。例如，**[!UICONTROL 最近30天]** （預設）包含自當天日期（並非建立區段的原始日期）起最近30天符合對象資格的訪客。 |
 | **[!UICONTROL 在客群庫中建立]** | 您在Experience Cloud中建立和發佈的區段可在[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
 | **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至Experience Cloud的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
 ## 取消發佈或刪除區段
 
-若要刪除已發佈至Experience Cloud的區段，必須先將其取消發佈。 若要取消發佈區段，只需&#x200B;**取消勾選**&#x200B;您用來發佈該區段的核取方塊即可。
+>[!CAUTION]
+>
+>若要刪除已發佈至Experience Cloud的區段，必須先取消發佈該區段。 若要取消發佈區段，只要取消選取「**[!UICONTROL 將此區段發佈至Experience Cloud」（針對&#x200B;*報表套裝*）]**。
+
 
 >[!NOTE]
 >
@@ -100,9 +103,7 @@ ht-degree: 63%
 
 1. 在Adobe Analytics中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 區段]**。
 
-1. 檢視&#x200B;**[!UICONTROL 已發佈]**&#x200B;欄。 此欄中的&#x200B;**[!UICONTROL 是]**&#x200B;表示區段已發佈至Experience Cloud。 **[!UICONTROL 否]**&#x200B;表示它沒有。
-
-   ![發佈狀態](assets/publish-status.png)
+1. 檢視&#x200B;**[!UICONTROL 已發佈]**&#x200B;欄。 此欄中的&#x200B;**[!UICONTROL 是]**&#x200B;表示該區段已發佈至Experience Cloud。 **[!UICONTROL 否]**&#x200B;表示區段尚未發佈。
 
 ## 擷取 [!DNL Audience Manager] UUID
 

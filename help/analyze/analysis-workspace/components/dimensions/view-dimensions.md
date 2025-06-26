@@ -4,29 +4,57 @@ title: 預覽維度
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: 9f040971d1198fe7774bc04f6c42cc4e2145b197
+source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 90%
+source-wordcount: '106'
+ht-degree: 21%
 
 ---
 
-# 預覽維度
+# 在 Analysis Workspace 中預覽維度
 
-將滑鼠移到維度旁的資訊 (i) 圖示上，即會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。我們之前會將這些值保持為靜態 (亦即，所選的 5 個值從未變更)。
+您可以使用元件的[元件資訊](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info)來顯示維度的排名最前的專案。
 
-![](assets/dimension-preview.png)
+![元件資訊](assets/component-info.png)
 
-現在，我們會預設顯示動態值而不是靜態值，並可以選擇將這些值轉換為靜態值。其他注意事項：
+<!--
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
 
-* 隨著資料更新，動態維度欄也會隨之更新以顯示目前的 5/15 維度項目。
-* 已複製或移動的動態維度欄將變為靜態。
-* 滑鼠游標暫留在靜態維度欄時，您會看到一個鎖定圖示，表示該維度是靜態的。
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
 
-![](assets/dimension_static.png)
+![Dimension column popup highlighting the lock icon.](assets/dimension_static.png)
+
+-->
+
 
 ## 顯示維度項目
 
-當您將游標停留在維度上，並按一下旁邊的灰色向右箭頭，即會出現維度項目清單。任何維度項目清單通常會顯示最近 30 天排名最前的項目。
+當您在元件面板中為維度選取![V形右側](/help/assets/icons/ChevronRight.svg)時，會顯示其維度專案清單。 維度專案清單通常會顯示過去30天排名最前的專案。 當更多專案可供使用時，在面板的所選日期範圍之外，選取連結以顯示更多專案。 例如，**[!UICONTROL 顯示上個月]**&#x200B;的專案。
 
-如果向下捲動至清單底部，您會看到&#x200B;**[!UICONTROL 顯示過去18個月排名最前的專案]**。 按一下此選項，即可檢視最近 547 天排名最前的維度項目。
+![顯示維度專案](assets/dimension-items.png)
+
+
+<!--
+# Preview dimensions
+
+Hover over the information (i) icon next to a dimension. This shows the top 5 values for non-time dimensions (and 15 for time dimensions). We used to keep those values static (i.e., the 5 values picked never changed).
+
+![](assets/dimension-preview.png)
+
+Now, by default, we show dynamic values instead of static ones, with the option to turn them into static values. Other things to note:
+
+* As your data updates, the dynamic dimension columns will update to show the current 5/15 dimension items.
+* A dynamic dimension column that is copied or moved will become static.
+* When hovering a static dimension column you will see a lock icon, indicating that the dimension is static.
+
+![](assets/dimension_static.png)
+
+## Show dimension items
+
+When you hover over a dimension and click the grey right-arrow next to it, a list of its dimension items appears. Any list of dimension items usually shows the top items for the last 30 days.
+
+If you scroll down to the bottom of the list, you see **[!UICONTROL Show Top Items From Last 18 Months]**. Click this option to see top dimension items from the last 547 days.
+
+-->

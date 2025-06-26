@@ -3,7 +3,7 @@ title: 行銷管道常見問題集
 description: 行銷管道的常見問題。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 100%
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 * **手動將所有訪客參與期限設為過期**：此設定會立即讓所有訪客的所有首次和上次接觸管道過期：
    1. 前往「管理工具 > 報告套裝」。
-   2. 將游標停留在「影像編輯設定 > 行銷管道 > 訪客參與有效期」
+   2. 將游標停留在「影像編輯設定 > 行銷管道 > 訪客參與期限」
    3. 按一下「全部過期」。
    4. 按一下「確定」，查看警告快顯視窗，確認您了解該視窗執行的操作。
 

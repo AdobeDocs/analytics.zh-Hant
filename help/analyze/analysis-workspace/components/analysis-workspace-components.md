@@ -4,134 +4,255 @@ title: 元件概觀
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 94%
 
 ---
 
 # 元件概觀
 
-Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；您可將這些元件拖放至專案上。
+元件是Adobe Analytics中的功能，可用於視覺效果（例如自由表格）或補充報表功能。
 
-若要存取「元件」功能表，請在左側邊欄按一下「**[!UICONTROL 元件]**」圖示。您可以從左側邊欄圖示或使用[熱鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)在[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)、[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)和元件之間切換。
+若要從主要Adobe Analytics介面管理元件：
 
-![](assets/component-overview.png)
+1. 從頂端列選取&#x200B;**[!UICONTROL 元件]**。
+1. 選取&#x200B;**[!UICONTROL 元件]**&#x200B;以查看您可以管理的元件概觀，或直接從選單中選取您要管理的元件。
 
-您也可以調整專案的[檢視密度設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant)，以一次在左側邊欄中看到更多值，方法是前往「**[!UICONTROL 專案 > 專案資訊與設定 > 檢視密度]**。
+您可以管理下列元件：
 
-## 維度 {#dimensions}
+* [區段](/help/components/segmentation/seg-home.md)：建置、管理、共用強大且重點明確的客群區段，並將其套用到您的報告中。區段讓您根據特性或互動來識別人員子集。
+* [計算量度](/help/components/c-calcmetrics/cm-overview.md)：將量度和公式作為新元件用於報告中
+* [日期範圍](calendar-date-ranges/custom-date-ranges.md)：自訂和調整 Analysis Workspace 提供的日期範圍。
+* [已排程的專案](../curate-share/t-schedule-report.md)：管理您已排程的專案。
+* [位置](../../../components/locations/locations-manager.md)：管理專案匯出的目標位置。
+* [警報](/help/components/c-alerts/intellligent-alerts.md)：允許您根據變更的百分比或特定資料點接收通知。
+* [註解](annotations/overview.md)：將內容相關的資料細微差別和深入分析傳達給您的組織。
+* [偏好設定](/help/analyze/analysis-workspace/user-preferences.md)：管理 Analysis Workspace 的偏好設定。
 
-[**維度**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=zh-Hant)是描述訪客行為的文字屬性，可在您的分析中供檢視、劃分和比較。這些維度可在左側「元件」邊欄 (橘色區段) 中找到，通常可作為表格列套用。
 
-維度的範例包括[!UICONTROL 頁面名稱]、[!UICONTROL 行銷管道]、[!UICONTROL 裝置類型]和[!UICONTROL 產品]。維度是由 Adobe 提供，並透過您的自訂實作 (eVar、Prop、分類等) 擷取。
 
-每個維度也包含&#x200B;**維度項目**&#x200B;在內。維度項目可在左側的「元件」邊欄中找到，只要按一下任何維度名稱旁的右箭頭 (項目為黃色) 即可。
+## Analysis Workspace 元件
 
-維度項目的範例包括[!UICONTROL 首頁] (在「[!UICONTROL 頁面]」維度內)、[!UICONTROL 付費搜尋] (在「[!UICONTROL 行銷管道]」維度內)、[!UICONTROL Tablet] (在「[!UICONTROL 行動裝置類型]」維度內) 等。
+Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成，您可以將它們拖放至 Workspace 專案的面板和視覺效果中。您建立的自訂元件會新增至這些面板，例如計算量度或自訂日期範圍。
 
-![](assets/dimensions.png)
+若要存取元件面板，請選取在按鈕面板中的![Curate](/help/assets/icons/Curate.svg)**[!UICONTROL 元件]**。
 
-## 量度 {#metrics}
+![Workspace panel highlighting the Components icon in the left-rail](assets/components.png)
 
-[**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=zh-Hant)是訪客行為的量化量度。這些量度可在左側「元件」邊欄 (綠色區段) 中找到，通常可作為表格欄套用。
-
-量度的範例包括[!UICONTROL 頁面檢視次數]、[!UICONTROL 造訪次數]、[!UICONTROL 訂購]、[!UICONTROL 平均逗留時間]和[!UICONTROL 收入/訂購]。維度是由 Adobe 提供，或是透過您的自訂實作 ([!UICONTROL 成功事件]) 擷取，或是使用[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)建立。
-
-![](assets/metrics.png)
-
-## 區段 {#segments}
-
-[**細分群體**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=zh-Hant)是套用至分析的客群篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
-
-區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的造訪次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)建立。
-
-![](assets/segments.png)
-
-## 日期範圍 {#date-ranges}
-
-[**日期範圍**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hant)是您進行分析的日期範圍。這些日期範圍可在左側「元件」邊欄 (紫色區段) 中找到，通常可套用在每個面板的行事曆中。
-
-您可以使日期範圍元件相對於面板行事曆。如需其他資訊，請參閱[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)。
-
-日期範圍的範例包括 2019 年 7 月、[!UICONTROL 最近 4 週]和[!UICONTROL 本月]。日期範圍是由 Adobe 提供，或在[面板行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中套用，或使用[日期範圍產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant)建立。
-
-![](assets/date-ranges.png)
+請參閱[建立專案](/help/analyze/analysis-workspace/home.md)，以了解在專案中如何使用元件的詳細資訊。
 
 
 ## 管理元件 {#actions}
 
-您可以直接在左側邊欄中管理元件。
+您可以使用 Analysis Workspace **[!UICONTROL 元件]**&#x200B;選單快速建立新元件。請參閱[Analysis Workspace 選單](/help/analyze/analysis-workspace/home.md#menu)以了解更多詳細資訊。
 
-1. 在元件上按一下右鍵。
+您可以管理元件 (個別或選取多個元件)。
 
-   或
+1. 選取一個或多個元件。
 
-   選取元件，然後選取元件清單頂端的&#x200B;**操作** (3 個點) 圖示。
+1. 從內容選單，或從![MoreVertical](/help/assets/icons/MoreVertical.svg)「元件」動作按鈕 (位於元件頂端) 選取下列其中一項動作。
+
 
    >[!TIP]
    >
-   >   按住 Shift 或按住 Command (Mac 版) 或 Ctrl (Windows 版)，即可選取多個元件。
+   >按住 **[!UICONTROL Shift]** 或按住 **[!UICONTROL Command]** (macOS 版) 或 **[!UICONTROL Ctrl]** (Windows 版)，即可選取多個元件。
+
+
+   ![「元件動作」清單，顯示「標記」、「我的最愛」、「核准」、「共用」和「刪除」。](assets/component-menu.png)
+
+   | 元件動作 | 說明 |
+   |--- |--- |
+   | ![Label](/help/assets/icons/Label.svg)[!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
+   | ![Star](/help/assets/icons/Star.svg)[!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
+   | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 取消最愛項目]** | 將元件從最愛項目清單移除。 |
+   | ![Checkmark](/help/assets/icons/Checkmark.svg)[!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
+   | ![Share](/help/assets/icons/ShareAlt.svg)[!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Delete](/help/assets/icons/Delete.svg)[!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
+
+自訂元件也可透過其各自的元件管理員來管理。如需範例，請參閱[管理區段](/help/components/segmentation/segmentation-workflow/seg-manage.md)。
+
+## 管理元件清單
+
+您可以在 Analysis Workspace 的左側面板中搜尋、篩選元件清單並進行排序，以找到特定元件。
+
+### 搜尋
+
+1. 選取左側面板中的&#x200B;**元件** ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+
+2. 在搜尋欄位中開始輸入要用於專案中的元件的名稱。
+
+   顏色和圖示識別元件類型。**維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橘色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。<br/>Adobe 圖示 ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) 表示計算量度範本或區段範本。計算機圖示![Calculator icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 表示管理員在您組織中所建立的計算量度。
+
+3. 從下拉式選單中選取元件。
+
+### 篩選器
+
+1. 在左側面板中選取&#x200B;**元件**&#x200B;圖示![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+
+
+2. 選取&#x200B;**篩選條件**![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，或在搜尋欄位中輸入 `#`。
+
+3. 選取以下任一篩選條件選項以篩選元件清單：
+
+   | 圖示 | 篩選條件選項 | 說明 |
+   |---------|---|----------|
+   | ![Checkmark](/help/assets/icons/Checkmark.svg) | **[!UICONTROL 已核准]** | 僅顯示標記為由管理員核准的元件。 |
+   | ![Star](/help/assets/icons/Star.svg) | **[!UICONTROL 我的最愛]** | 僅顯示「我的最愛」清單中的元件。<br/>如需有關將元件新增到最愛項目清單的資訊，請參閱「[管理元件](#manage-components)」。 |
+   | ![Dimensions](/help/assets/icons/Dimensions.svg) | **[!UICONTROL 維度]** | 僅顯示維度的元件。 |
+   | ![Event](/help/assets/icons/Event.svg) | **[!UICONTROL 量度]** | 僅顯示量度的元件。 |
+   | ![Segmentation](/help/assets/icons/Segmentation.svg) | **[!UICONTROL 區段]** | 僅顯示屬於區段的元件。 |
+   | ![Calendar](/help/assets/icons/Calendar.svg) | **[!UICONTROL 日期範圍]** | 僅顯示日期範圍的元件。 |
+   | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL *標記名稱&#x200B;*]** | 僅顯示具有特定已選取標記的元件。Adobe 範本有一個專用標記，是來自 Adobe 的[預設計算量度](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)。 |
+
+   在篩選器中選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除此篩選器。
+
+4. 您可以選擇排序元件清單，如[對元件清單進行排序](#sort-the-component-list)中所述。
+
+### 排序
+
+<!-- {{release-limited-testing-section}}-->
+
+1. (可選) 依據[篩選元件清單](#filter-the-component-list)中的說明，對元件清單套用任何篩選條件。
+
+2. 選取左側面板中的&#x200B;**元件** ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)」。
+
+3. 選取&#x200B;**排序**![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項，將元件清單排序。
+
+提供下列排序選項：
+
+{{components-sort-options}}
+
+## 存取權限
+
+在 Analysis Workspace 中，管理員可以[組織](/help/analyze/analysis-workspace/curate-share/curate.md)在報告中向使用者公開的元件。
+
+
+<!--
+# Components overview
+
+Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. 
+
+To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+
+![](assets/component-overview.png)
+
+You can also adjust the [View density settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
+
+## Dimensions {#dimensions}
+
+[**Dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
+
+Examples of dimensions include [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], and [!UICONTROL Products]. Dimensions are provided by Adobe and are captured through your custom implementation (eVar, Props, classifications, etc).
+
+Each dimension also contains **dimension items** within it. Dimension items can be found in the left Component rail by clicking the right-arrow next to any dimension name (items are yellow).
+
+Examples of dimension items include [!UICONTROL Homepage] (within the [!UICONTROL Page] dimension), [!UICONTROL Paid Search] (within the [!UICONTROL Marketing Channel] dimension), [!UICONTROL Tablet] (within the [!UICONTROL Mobile Device Type] dimension), and so on.
+
+![](assets/dimensions.png)
+
+## Metrics {#metrics}
+
+[**Metrics**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
+
+Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+
+![](assets/metrics.png)
+
+## Segments {#segments}
+
+[**Segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
+
+Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+
+![](assets/segments.png)
+
+## Date Ranges {#date-ranges}
+
+[**Date Ranges**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
+
+You can make the date range components relative to the panel calendar. For additional information, see [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+
+Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Date range builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
+
+![](assets/date-ranges.png)
+
+
+## Manage components {#actions}
+
+You can manage components directly in the left rail. 
+
+1. Right-click a component.
+
+   Or
+   
+   Select a component, then select the **Action** (3-dot) icon at the top of the component list.
+
+   >[!TIP]
+   >
+   >   You can select multiple components by holding Shift, or by holding Command (on Mac) or Ctrl (on Windows).
 
 
    ![](assets/component-actions.png)
 
-   | 元件動作 | 說明 |
+   | Component action | Description |
    |--- |--- |
-   | [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後，您可以按一下篩選或輸入 #，依左側欄中的標籤進行搜尋。標籤也會當作元件管理員中的篩選器。 |
-   | [!UICONTROL **我的最愛**] | 將元件新增至我的最愛清單。如同標籤，您可以依左側邊欄的「我的最愛」搜尋，並在元件管理員中這些條件篩選。 |
-   | [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標籤，您可以依左側邊欄的「已核准」搜尋，並在元件管理員中這些條件篩選。 |
-   | [!UICONTROL **共用**] | 與組織中的使用者共用元件。此選項僅適用於自訂元件，例如區段或計算量度。 |
-   | [!UICONTROL **刪除**] | 刪除您不再需要的元件。此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | [!UICONTROL **Tag**] | Organize or manage components by applying tags to them. You can then search by tag in the left rail by clicking the filter or typing #. Tags also act as filters in the component managers. |
+   | [!UICONTROL **Favorite**] | Add the component to your list of favorites. Like tags, you can search by Favorites in the left rail and filter by them in the component managers. |
+   | [!UICONTROL **Approve**] | Mark components as Approved to signal to your users that the component is organization-approved. Like tags, you can search by Approved in the left rail and filter by them in the component managers. |
+   | [!UICONTROL **Share**] | Share components to users in your organization. This option is available for custom components only, such as segments or calculated metrics. |
+   | [!UICONTROL **Delete**] | Delete components that you no longer need. This option is available for custom components only, such as segments or calculated metrics. |
 
-自訂元件也可透過其各自的元件管理員來管理。例如[區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)。
+Custom components can also be managed through their respective Component managers. For example, the [Segment Manager](/help/components/segmentation/segmentation-workflow/seg-manage.md).
 
-## 搜尋、篩選元件清單並進行排序
+## Search, filter, and sort the component list
 
-您可以在 Analysis Workspace 的左側邊欄中搜尋、篩選元件清單並進行排序，以快速找到特定元件。
+You can search, filter, and sort the component list in the left rail of Analysis Workspace to quickly locate a particular component. 
 
-### 搜尋元件清單
+### Search the component list
 
-1. 在左側邊欄中選取&#x200B;**元件**&#x200B;圖示![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-2. 在搜尋欄位中開始輸入要用於專案中的元件的名稱。
+2. In the search field, begin typing the name of the component you want to use in your project.
 
-   元件的類型可依據顏色和圖示加以識別。**維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橙色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。Adobe 圖示代表計算量度範本或區段範本，計算機圖示![計算機圖示](assets/calculated-metric-icon-created.png)則代表由貴組織中的 Analytics 管理員所建立的計算量度。
+   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
-3. 當元件出現在下拉式清單中時請將其選取。
+3. Select the component when it appears in the drop-down list.
 
-### 篩選元件清單
+### Filter the component list
 
-1. 在左側邊欄中選取&#x200B;**元件**&#x200B;圖示![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-2. 選取&#x200B;**篩選**&#x200B;圖示![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)。
+2. Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
 
-   或
+   Or
 
-   在搜尋欄位中輸入井字號 (#)。
+   Type the pound sign (#) in the search field.
 
-3. 選取以下任一篩選器選項以篩選元件清單：
+3. Select any of the following filter options to filter the list of components:
 
-   | 選項 | 函數 |
+   |Option | Function |
    |---------|----------|
-   | [!UICONTROL **已核准**] | 僅顯示標記為由管理員核准的元件。 |
-   | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
-   | [!UICONTROL **維度**] | 僅顯示維度的元件。 |
-   | [!UICONTROL **量度**] | 僅顯示量度的元件。 |
-   | [!UICONTROL **區段**] | 僅顯示區段的元件。<!--this is Filters in Customer Journey Analytics--> |
-   | [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。 |
-   | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
-   | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
+   | [!UICONTROL **Approved**] | Show only components that are marked as Approved by an administrator. |
+   | [!UICONTROL **Favorites**] | Show only components that are in your list of Favorites. For information about adding components to your list of favorites, see [Components overview](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+   | [!UICONTROL **Dimensions**] | Show only components that are Dimensions. |
+   | [!UICONTROL **Metrics**] | Show only components that are Metrics. |
+   | [!UICONTROL **Segments**] | Show only components that are Segments.  |
+   | [!UICONTROL **Date ranges**] | Show only components that are Date Ranges. |
+   | [!UICONTROL **Show all**] | Show all components. This option is available only for administrators. |
+   | [!UICONTROL **Unapproved**] | Show only components that are not yet marked as Approved by an administrator. As an administrator, this is helpful when identifying components that require your review and approval. This option is available only for administrators. |
 
-4. (可選) 若要進一步整理清單，您可以依據[對元件清單進行排序](#sort-the-component-list)中的說明將元件清單排序。
+4. (Optional) To further hone the list, you can sort the component list, as described in [Sort the component list](#sort-the-component-list).
 
-### 將元件清單排序
+### Sort the component list
 
-1. (可選) 依據[篩選元件清單](#filter-the-component-list)中的說明，對元件清單套用任何篩選器。
+1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 
-2. 在左側邊欄中選取&#x200B;**元件**&#x200B;圖示![元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg)。
+2. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
 
-3. 選取&#x200B;**排序** 圖示![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項，將元件清單排序：
+3. Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
+
+-->

@@ -1,18 +1,18 @@
 ---
-description: 「區段產生器」可讓您使用選取的運算子來比較和限制值。
+description: 區段產生器可讓您使用選取的運運算元來比較和限制值。
 title: 區段的比較運算子
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 51%
+ht-degree: 47%
 
 ---
 
-# 區段的比較運算子
+# 區段的比較運運算元
 
-「區段產生器」可讓您使用選取的運算子來比較和限制值。 運算子分為三類：標準、Data Warehouse 和不重複計數。
+區段產生器可讓您使用選取的運運算元來比較和限制值。 運算子分為三類：標準、Data Warehouse 和不重複計數。
 
 根據您選取的運運算元：
 
@@ -67,7 +67,7 @@ ht-degree: 51%
 
 ## Distinct Count 運算子
 
-您可以劃分維度內項目不重複計數的區段。例如：「曾檢視 5 個以上不重複產品的訪客」或「曾檢視 5 個以上不重複頁面的造訪」。
+您可以劃分維度內項目不重複計數的區段。範例： *檢視5個以上不重複產品的訪客*，或檢視5個以上不重複頁面的造訪&#x200B;*。*
 
 | 運算元 | 選取的維度、區段或量度事件... |
 | --- | --- |

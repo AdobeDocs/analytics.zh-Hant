@@ -3,27 +3,31 @@ description: 區段相關問題的疑難排解與修正。
 title: 區段疑難排解
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 002ce0f001796187c01fc955b79ac967ba36da9a
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 99%
+source-wordcount: '166'
+ht-degree: 50%
 
 ---
 
 # 區段疑難排解
 
-## 錯誤：「此區段中有不相容的元素」 {#incompatible}
+<!-- Looks like this is not part anymore of the current UI.
 
-如果您嘗試在 Data Warehouse 資料夾中儲存區段，但該區段包含與 Data Warehouse 不相容的元素時，就會發生這個錯誤。若要解決此錯誤，請執行下列其中一項作業：
+## Error: "Incompatible elements in this segment" {#incompatible}
 
-* 將區段儲存至其他資料夾
-* 移除或變更區段不相容的部分。
+This error occurs when you try to save a segment in the Data Warehouse folder where the segment contains elements not compatible with Data Warehouse. To resolve this error, do one of two things:
+
+* Save the segment in a different folder 
+* Remove or change the incompatible portions of the segment.
+
+-->
 
 ## 為什麼我的區段完全沒有傳回資料？ {#no-data}
 
 可能的原因包括：
 
-* 反向巢狀 - 例如，將訪客容器巢狀置於造訪容器下。
+* 反向巢狀 — 例如，在![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 造訪]**&#x200B;容器下巢狀![使用者](/help/assets/icons/User.svg) **[!UICONTROL 訪客]**&#x200B;容器。
 * 報表不支援分段。
 * 沒有與分段標準相符的資料。
 
@@ -31,17 +35,17 @@ ht-degree: 99%
 
 可能的原因包括：
 
-* 有些維度只能在 Data Warehouse 中看到，在區段管理員中看不到。
+* 部分維度僅可在Data Warehouse中使用，不可在「區段管理器」中使用。
 * 區段只為特定報表套裝而勾選。
 * 共用區段已由其他使用者刪除。
-* 由於資料中心或瀏覽器快取問題，區段無法載入。
+* 由於資料中心或瀏覽器快取問題，無法載入區段。
 * 區段未儲存。
 * 可能在使用者端封鎖了 IP 位址。
 
-## 為什麼在套用區段後顯示的頁面資料不正確？ {#page-data}
+## 為什麼在套用區段後顯示的資料不正確？ {#page-data}
 
 可能的原因包括：
 
-* 對於所需結果使用的規則/運算子不正確。
-* 對區段套用的容器不正確。
+* 規則或運運算元對所需結果而言不正確。
+* 區段內容器的使用不正確。
 * 用於區段的流量變數未正確設定或已過期。

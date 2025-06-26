@@ -4,10 +4,10 @@ title: 檢視資料字典
 feature: Components
 role: User, Admin
 exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
-source-git-commit: 1e1f90f1ba290365b8ae9c8914e38f9c2f339b3f
+source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 99%
+source-wordcount: '1096'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取 Analysis Workspace 左邊欄的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
+1. 選取 Analysis Workspace 左邊欄的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。（[存取資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)中說明了存取資料字典的替代方式。）
 
    顯示資料字典視窗。
 
@@ -41,7 +41,7 @@ ht-degree: 99%
    | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
    | [!UICONTROL **維度**] | 僅顯示維度的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
    | [!UICONTROL **量度**] | 僅顯示量度的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
-   | [!UICONTROL **區段**] | 僅顯示區段的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) <!--this is Filters in Customer Journey Analytics--> |
+   | [!UICONTROL **區段**] | 僅顯示區段的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
    | [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。(當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
    | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |

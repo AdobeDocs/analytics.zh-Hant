@@ -2,9 +2,9 @@
 title: Analytics 整合
 description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
-source-git-commit: 0eccf49810786aea385600d2ab21331f30da227c
-workflow-type: ht
+feature: Audience Analytics, Advertising Analytics, Activity Map
+source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 適用的 Analytics](https://video.tv.adobe.com/v/3434838?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Advertising Cloud 適用的 Analytics](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -45,11 +45,11 @@ ht-degree: 100%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -1,16 +1,16 @@
 ---
 description: 管理員級使用者和非管理員之間的計算量度權限不一樣。
-title: 計算量度 - 角色型權限
+title: 角色型許可權
 feature: Calculated Metrics
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 81%
+source-wordcount: '233'
+ht-degree: 79%
 
 ---
 
-# 計算量度：角色型權限
+# 角色型許可權
 
 管理員級使用者和非管理員之間的計算量度權限不一樣。
 

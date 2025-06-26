@@ -1,12 +1,12 @@
 ---
-description: 針對以「區段產生器」建立並透過「區段管理員」管理的區段，說明建議的工作流程。
-title: 區段工作流程概觀
+description: 針對以區段產生器建立並透過區段管理員管理的區段，說明建議的工作流程。
+title: 分段工作流程概觀
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: 10a496167b3cb1dd8a2b1a6eb2ec65185c3064ba
+source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 

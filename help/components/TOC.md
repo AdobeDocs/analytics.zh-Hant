@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: c2cd529b09b8fa46f5e7d4e18383832b1f2a0494
-workflow-type: ht
-source-wordcount: '784'
-ht-degree: 100%
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
@@ -195,23 +195,23 @@ ht-degree: 100%
       + [複製區段](segmentation/segmentation-workflow/seg-copy.md)
       + [管理區段](segmentation/segmentation-workflow/seg-manage.md)
       + [發佈區段至 Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
-      + [選擇並套用區段](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [使用區段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 區段參考資料 {#segment-reference}
       + [運算子](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
-   + [關於管理舊式區段的常見問題集](segmentation/seg-transition.md)
+   + [舊版區段常見問題集](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
-   + [計算與進階計算量度](c-calcmetrics/cm-overview.md)
+   + [概觀](c-calcmetrics/cm-overview.md)
    + [作法影片](c-calcmetrics/cm-videos.md)
    + 計算量度工作流程 {#calcmetric-workflow}
-      + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
+      + [建立計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [建置量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [建置簡易量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [建置更複雜的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [建置計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [簡單的計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [更複雜的計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [建置參與率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -224,12 +224,12 @@ ht-degree: 100%
       + [核准計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共用計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [複製計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
-      + [計算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [管理計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 量度參考資料 {#calcmetrics-reference}
-      + [參考資料：基本函數](c-calcmetrics/cm-reference/cm-functions.md)
-      + [參考資料：進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
+      + [基本函數](c-calcmetrics/cm-reference/cm-functions.md)
+      + [進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度相容性](c-calcmetrics/cm-compatibility.md)
-      + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
+      + [角色型許可權](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
       + [預設計算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 虛擬報告套裝 {#virtual-report-suites}

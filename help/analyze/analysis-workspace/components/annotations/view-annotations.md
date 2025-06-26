@@ -4,39 +4,63 @@ description: 如何在 Workspace 中檢視註解。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '215'
+ht-degree: 88%
 
 ---
 
 # 檢視註解
 
-根據註解跨越一天還是跨越日期範圍，註解的體現方式略有不同。
+根據註解出現的位置以及橫跨一天還是日期範圍，註解的體現方式略有不同。
 
-## 在折線圖或表格中檢視註解
+## 在Workspace中檢視註解
 
-| 日期 | 外觀 |
+| 視覺化呈現<br/>類型 | 說明 |
 | --- | --- |
-| **一天** | ![](assets/single-day.png)<p>當您將滑鼠停留在註解上時，您可以查看其詳細資料，您可以透過選取鋼筆圖示對其進行編輯，也可以將其刪除：<p> ![](assets/hover.png) |
-| **日期範圍** | 圖示會變更，而且當滑鼠游標停留在圖示上方時，日期範圍就會出現。<p>![](assets/multi-day.png)<p>當您在折線圖上將其選取時，註解中繼資料隨即顯示，您可以對其進行編輯或將其刪除：![](assets/multi-hover.png)<p>在表格中，日期範圍內的每個日期都會出現圖示。<p>![](assets/multi-day-table.png) |
-| **重疊註解** | 在有一個以上關聯註解的日期，圖示會以灰色顯示。<p>![](assets/grey.png)<p>將滑鼠停留在該灰色圖示上時，會顯示所有重疊的註解：<p>![](assets/overlap.png) |
+| **折線圖&#x200B;**<br/>**單日** | 當您在折線圖視覺化呈現中選取![Annotate](/help/assets/icons/Annotate.svg)時，您會看到一個包含註解詳細資訊的快顯視窗。<br/>![Annotation single day](assets/annotation-single-day.png)<br/>如要在[註解產生器](create-annotations.md#annotation-builder) 中編輯註解，選取![Edit](/help/assets/icons/Edit.svg)。若要刪除註解，請選取![Delete](/help/assets/icons/Delete.svg)。 |
+| **折線圖&#x200B;**<br/>**日期範圍** | 當您選取![AnnotateRange](/help/assets/icons/AnnotateRange.svg)時，您會看到一個快顯視窗，其中包含註解詳細資訊，及底部有一行指示日期範圍。<br/>![Annotation range](assets/annotation-range.png)如要在[註解產生器](create-annotations.md#annotation-builder) 中編輯註解，選取![Edit](/help/assets/icons/Edit.svg)。若要刪除註解，請選取![Delete](/help/assets/icons/Delete.svg)。 |
+| **自由格式表格** | 在自由格式表格中，您可以透過視覺效果右上方的註解按鈕存取所有註解。選取![Annotate](/help/assets/icons/Annotate.svg)以查看所有註解 (滾動清單)。<br/>![Annotations table](assets/annotations-table.png)<br/>對於每個註解，您可以選取![Edit](/help/assets/icons/Edit.svg)在[註解產生器](create-annotations.md#annotation-builder)中編輯註解和![Delete](/help/assets/icons/Delete.svg)以刪除註解。 |
 
 {style="table-layout:auto"}
 
-## 在 .pdf 檔案中檢視註解
+## 在 PDF 檢視註解
 
-由於在 .pdf 檔案中滑鼠游標無法停留在圖示上方，此檔案 (在匯出後) 會在面板底部提供解釋說明。其範例如下：
+當您以 PDF 形式下載專案或以 PDF 形式傳送專案時，PDF 的註解匯總在「註解摘要」區段。
+
+![Highlighted view of a .pdf file showing explanations of annotations.](assets/annotations-pdf.png)
+
+
+<!--
+# View annotations
+
+Annotations manifest slightly differently, depending on whether they span a single day or a date range.
+
+## View annotations in Line charts or Tables
+
+| Date | Appearance |
+| --- | --- |
+| **Single day** |   ![](assets/single-day.png)<p>When you hover over the annotation, you can see its details, you can edit it by selecting the pen icon, or you can delete it:<p> ![](assets/hover.png) |
+| **Date range** |  The icon changes and when you hover over it, the date range appears.<p>![](assets/multi-day.png)<p>When you select it in the line chart, the annotation metadata appear, and you can edit or delete it:![](assets/multi-hover.png)<p>In a table, an icon appears on every date in the date range.<p>![](assets/multi-day-table.png)|
+| **Overlapping annotations** | On days that have more than one annotation tied to them, the icon appears in a grey color.<p>![](assets/grey.png)<p>When you hover over the grey icon, all overlapping annotations appear:<p>![](assets/overlap.png) |
+
+{style="table-layout:auto"}
+
+## View annotations in a .pdf file
+
+Since you cannot hover over icons in a .pdf file, this file (after export) provides notes of explanations at the bottom of a panel. Here is an example:
 
 ![](assets/ann-pdf.png)
 
-## 檢視非趨勢資料的註解
+## View annotations with non-trended data
 
-有時註解與非趨勢資料一起顯示，但繫結到特定維度。在此情況下，註解只會出現在右下角的摘要註解中。 其範例如下：
+Sometimes annotation are shown with non-trended data, but tied to a specific dimension. In that case, they appear only in a summary annotation in the bottom right corner. Here is an example:
 
 ![](assets/non-date.png)
 
-摘要圖表出現在角落的所有視覺效果類型中，而不僅僅是非趨勢自由形式表格和摘要數字中。它也會出現在[!UICONTROL 環形圖]、[!UICONTROL 流量]、[!UICONTROL 流失]、[!UICONTROL 同類群組]等視覺效果中。
+The summary chart appears in all visualization types in the corner, not just in non-trended freeform tables and summary numbers. It also appears in visualizations like [!UICONTROL Donut], [!UICONTROL Flow],[!UICONTROL Fallout],[!UICONTROL Cohort], and so on.
 
 ![](assets/ann-summary.png)
+
+-->
