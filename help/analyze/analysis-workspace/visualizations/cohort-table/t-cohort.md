@@ -1,14 +1,14 @@
 ---
-description: 在 Analysis Workspace 中建立同類群組並執行同類群組分析報表。
+description: 瞭解如何在Analysis Workspace中建立同類群組表格和執行同類群組分析報表。
 keywords: Analysis Workspace
-title: 執行同類群組 (cohort) 分析報告
+title: 設定同類群組表格
 feature: Visualizations
 role: User, Admin
 exl-id: 523e6f62-b428-454b-9460-6b06e96742c3
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 100%
+source-wordcount: '893'
+ht-degree: 97%
 
 ---
 

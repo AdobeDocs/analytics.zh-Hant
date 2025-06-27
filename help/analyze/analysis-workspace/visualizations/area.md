@@ -1,14 +1,14 @@
 ---
-description: 區域圖視覺效果類似線圖，但在線圖下方有一塊上色區域。
-title: 區域圖和堆疊區域圖
+description: 瞭解區域圖和棧疊區域圖視覺效果。
+title: 區域圖和棧疊圖
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 此區域圖視覺效果具有標準和堆疊選項。
 
-## 區域圖 {#area}
+## 區域 {#area}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -34,7 +34,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。有多個量度且想以視覺化方式表示兩個或多個量度之間交集的區域時，可新增區域圖。
+![GraphArea](/help/assets/icons/GraphArea.svg) **[!UICONTROL 區域圖]**&#x200B;視覺效果類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可新增區域圖。
 
 ![顯示多個量度的區域圖視覺效果](assets/area.png)
 
@@ -50,7 +50,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 <!-- markdownlint-enable MD034 -->
 
 
-![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL 區域堆疊圖]**&#x200B;視覺效果類似於區域圖，但每個系列均從前一個系列的上方開始。
+ ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg) **[!UICONTROL 區域堆疊圖]**&#x200B;視覺效果類似於區域圖，但每個系列都從前一個系列的上方開始。
 
 ![區域堆疊圖是在前一個系列上方顯示每個系列。](assets/area-stacked.png)
 
@@ -61,6 +61,6 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

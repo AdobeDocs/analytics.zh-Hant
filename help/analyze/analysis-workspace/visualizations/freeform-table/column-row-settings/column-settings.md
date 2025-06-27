@@ -1,19 +1,19 @@
 ---
-description: 欄設定可供設定欄的格式，部分可設為條件式。
+description: 瞭解如何編輯欄設定以設定欄格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 100%
+source-wordcount: '865'
+ht-degree: 98%
 
 ---
 
 
-# [!UICONTROL 欄設定]
+# 欄設定
 
 [!UICONTROL 欄設定]可設定欄的格式，部分可設為條件式。
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 {{attribution-container}}
 
 
-### 回顧視窗
+### 回顧期間
 
 {{attribution-lookback-window}}
 

@@ -1,17 +1,17 @@
 ---
-description: 在 Workspace 專案中使用「流失」視覺效果。
+description: 瞭解如何在Analysis Workspace中使用流失視覺效果。
 title: 流失概觀
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 95%
 
 ---
 
-# 流失概述 {#fallout-overview}
+# 流失概觀 {#fallout-overview}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -29,7 +29,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 >[!ENDSHADEBOX]
 
-「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。
+![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;視覺效果會顯示在一系列預先定義的連續頁面中，人們在哪個位置離開 (流失) 和繼續通過 (流過)。
 
 
 >[!BEGINSHADEBOX]
@@ -39,9 +39,11 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!ENDSHADEBOX]
 
 
+
+
 「流失」視覺效果可供您
 
-* 在同一份報表中，執行兩個不同區段的並排比較。
+* 在同一份報告中，執行兩個不同區段的並排比較。
 * 拖曳、放置和重新安排漏斗步驟 (接觸點)
 * 混合搭配來自不同維度和量度的值
 * 建立多維度流失報表

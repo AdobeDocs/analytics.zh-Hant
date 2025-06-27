@@ -1,13 +1,13 @@
 ---
-description: 在 Workspace 專案中使用流量視覺效果。
+description: 瞭解如何在Analysis Workspace中設定流量視覺效果
 title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 8a184913794e6d4d1211d8b147a485825aab4b8a
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 100%
+source-wordcount: '1658'
+ht-degree: 95%
 
 ---
 
@@ -69,11 +69,9 @@ ht-degree: 100%
 >abstract="此欄位僅可在初始建置時設定。若要更新此欄位，請選取「**[!UICONTROL 重設]**」以建置新的「流量」視覺效果。"
 
 
+流量視覺效果可協助您瞭解源自網站或應用程式上特定轉換事件的歷程。 或導致特定轉換事件。 此視覺效果會透過您的維度（和維度專案）或量度追蹤路徑。
 
-流量視覺效果可幫助您了解源自或導致您網站或應用程式上的特定轉換事件的歷程。此視覺效果可透過您的維度 (和維度項目) 或量度追蹤路徑。
-
-流量視覺效果可讓您設定感興趣的路徑的起點或終點，或分析流經維度或維度項目的所有路徑。
-
+您可以設定感興趣的路徑的起點或終點。 或分析流經維度或維度專案的所有路徑。
 ![新的流量 UI](assets/new-flow.png)
 
 ## 使用
@@ -202,8 +200,8 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

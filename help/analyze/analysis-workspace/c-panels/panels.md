@@ -1,13 +1,13 @@
 ---
-description: 面板是表格與視覺效果的集合。
+description: 瞭解面板以及如何在Analysis Workspace中使用面板。
 title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: ht
-source-wordcount: '2157'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '2158'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
 
-在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-hant) (根據分析使用案例而定)。
+在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) (根據分析使用案例而定)。
 
 報表套裝清單是依相關性來分類；Adobe 是根據目前使用者最近使用套裝情形和使用套裝頻率，以及組織內使用套裝頻率等來定義相關性。
 
@@ -201,7 +201,7 @@ ht-degree: 100%
 
 #### 動態下拉式區段
 
-動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式篩選器。您從&#x200B;**[!UICONTROL 國家/地區]**&#x200B;下拉式清單選取一個國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式清單會動態調整成僅顯示該國家/地區內的城市。
+動態下拉式區段可讓您根據面板報告範圍內的資料和其他下拉式區段中的值來決定可用值。例如，您可以使用「國家/地區」維度和「城市」維度建立兩個動態下拉式選單。您從&#x200B;**[!UICONTROL 國家/地區]**&#x200B;下拉式清單選取一個國家/地區時，**[!UICONTROL 城市]**&#x200B;下拉式清單會動態調整成僅顯示該國家/地區內的城市。
 
 同樣的概念適用於所有維度；會顯示僅出現在面板日期範圍內和選取區段中的維度項目。在靜態下拉式區段中選取的維度項目，會影響動態下拉式區段中的可用值。然而，反之則不然；在動態下拉式區段中選取的維度項目，不會影響靜態下拉式區段中的可用值。
 
@@ -269,7 +269,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -333,7 +333,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

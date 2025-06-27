@@ -1,13 +1,13 @@
 ---
 title: 歸因面板
-description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
+description: 瞭解如何使用和解讀Analysis Workspace中的歸因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 8b556c3d2d0691b4dfd9b7c0aefdd418ca2e3204
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 97%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 {{attribution-container}}
 
-## 回顧視窗
+## 回顧期間
 
 {{attribution-lookback-window}}
 

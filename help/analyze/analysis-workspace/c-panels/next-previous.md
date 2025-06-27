@@ -1,35 +1,27 @@
 ---
-description: 顯示特定維度下一個或上一個維度項目的面板。
-title: 下一個或上一個項目面板
+description: 瞭解如何使用顯示特定維度的下一個或上一個維度專案的下一個或上一個專案面板。
+title: 下一個或上一個專案面板
 feature: Panels
 role: User, Admin
 exl-id: 9f2f8134-2a38-42bb-b195-5e5601d33c4e
-source-git-commit: 2aaa8c0d13755b40ec701ca6342ab773103a0422
-workflow-type: ht
-source-wordcount: '469'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 94%
 
 ---
 
 # 下一個或上一個項目面板 {#next-or-previous-item-panel}
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_button"
 >title="下一個或上一個項目"
 >abstract="建立一個面板來了解人們來自的前一個維度或人們前往的下一個維度。"
 
-<!-- markdownlint-disable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_nextorpreviousitem_panel"
 >title="下一個或上一個項目"
 >abstract="分析訪客之前最常來自什麼地方或接下來最常造訪什麼地方。<br/><br/>**維度**：選取維度。例如，**頁面**。<br/>**維度項目**：選取特定維度項目。例如，**首頁**。<br/>**方向**：選取「**下一個**」可查看緊接在所選維度項目之後的維度項目。選取「**上一個**」以查看您所選維度項目之前的維度項目。<br/>**容器**：選取「**工作階段**」以查看同一工作階段中的下一個/上一個維度項目，或選取「**人員**」查看同一個人的下一個/上一個維度項目。"
-
-<!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 

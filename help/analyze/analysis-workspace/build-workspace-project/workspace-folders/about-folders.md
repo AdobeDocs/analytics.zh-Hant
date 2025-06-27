@@ -1,21 +1,21 @@
 ---
-description: 了解 Workspace 資料夾
+description: 瞭解如何在Analysis Workspace的資料夾中整理您的專案。
 keywords: Analysis Workspace
-title: 資料夾概觀
+title: 資料夾總覽
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
 # 資料夾概觀
 
-當您選取顯示[資料夾與專案](../freeform-overview.md#show-selector)時，可在Adobe Analytics登陸頁面中使用Workspace資料夾。
-
 Workspace 資料夾可協助您對專案進行組織和分類。使用資料夾功能，您可以建立資料夾和子資料夾來管理您的專案。
+
+當您選取顯示[資料夾與專案](../freeform-overview.md#show-selector)時，可在Adobe Analytics登陸頁面中使用Workspace資料夾。
 
 Workspace 中有兩種類型資料夾：公司資料夾和個人資料夾。共用的公司資料夾可讓管理員建立內容並與所有 Workspace 使用者共用。
 

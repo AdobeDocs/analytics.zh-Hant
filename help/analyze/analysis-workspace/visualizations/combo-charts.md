@@ -1,13 +1,13 @@
 ---
-description: 讓您在 Analysis Workspace 中輕鬆地將比較資料視覺化，例如建置和上個月、去年等的比較資料。
-title: 組合圖表視覺效果
+description: 瞭解如何在Analysis Workspace中將比較資料視覺化，例如建置和上個月、去年等的比較資料。
+title: 組合
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 8234da343ed526eced900e24225e2e1af4319a4d
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 96%
 
 ---
 
@@ -99,6 +99,6 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

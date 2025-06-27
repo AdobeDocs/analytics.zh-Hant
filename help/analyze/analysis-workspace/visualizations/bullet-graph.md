@@ -1,13 +1,13 @@
 ---
-description: 可讓您查看您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。
-title: 項目符號圖表
+description: 瞭解如何使用Analysis Workspace中的專案符號視覺效果。 專案符號視覺效果可讓您與其他效能範圍（目標）進行比較或測量。
+title: 項目符號
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [項目符號圖標視覺效果](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [項目符號圖標視覺效果](https://video.tv.adobe.com/v/23989/?quality=12/?quality=12){target=&#34;_blank&#34;}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

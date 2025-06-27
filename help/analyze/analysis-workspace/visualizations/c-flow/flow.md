@@ -1,18 +1,18 @@
 ---
-description: 在 Workspace 專案中使用流量視覺效果。
+description: 瞭解如何在Analysis Workspace中使用流量視覺效果。
 title: 流量概觀
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 1ce002a513860ce15dc8a70825d26795fd93eb1d
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
-# 流量概述 {#flow}
+# 流量概觀 {#flow}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -35,13 +35,14 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 >[!ENDSHADEBOX]
 
-流量功能可顯示客戶使用您網站和應用程式的路徑。
+![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL 流量]**&#x200B;視覺效果會顯示通過您網站和應用程式的客戶路徑。
 
-這可提供以下功能：
+透過視覺效果可以：
 
-* 將客戶在您網站或應用程式中的歷程視覺化呈現
-* 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置
-* 指定選定路徑中的特定點，建立區段
+* 將透過您網站或應用程式的客戶歷程以視覺效果呈現。
+* 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置。
+* 指定選定路徑中的特定點，建立區段。
+
 
 
 >[!BEGINSHADEBOX]
@@ -51,7 +52,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!ENDSHADEBOX]
 
 
-## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
+## 維度間流量
 
 您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男士」頁面，接著前往「鞋子」部門。
 

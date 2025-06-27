@@ -1,14 +1,14 @@
 ---
-description: 可讓您將用戶定義文字新增至您的 Workspace。
+description: 瞭解如何將使用者定義文字新增至您的Analysis Workspace專案。
 title: 文字
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 0453f374e9027d1c539682212e880c4ebc81152f
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 86%
+source-wordcount: '292'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的文字視覺效果。_<br/>_請參閱[文字](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/text)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的文字視覺效果。_<br/>_請參閱[文字](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/text)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 

@@ -1,46 +1,77 @@
 ---
-description: 透過視覺效果，以視覺化方式來表示您的資料。
+description: 瞭解如何透過Analysis Workspace中提供的視覺效果以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
-title: 視覺效果概觀
+title: 視覺效果概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 99%
+source-wordcount: '1510'
+ht-degree: 97%
 
 ---
 
 # 視覺效果概觀
 
-Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
+Workspace 會提供一些視覺效果，方便您產生資料的視覺呈現方式。例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。
 
-## 視覺效果類型
+## 類型
 
 Analysis Workspace 中有以下視覺效果類型：
 
-| 視覺效果名稱 | 說明 |
-| --- | --- |
-| [區域](/help/analyze/analysis-workspace/visualizations/area.md)<p>![區域圖示](assets/Smock_GraphArea_18_N.svg)</p> | 類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
-| [長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)<p>![長條圖圖示](assets/Smock_GraphBarVertical_18_N.svg)</p> | 顯示代表一或多個量度多個值的垂直長條。 |
-| [項目圖表](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)<p>![項目符號圖示](assets/Smock_GraphBullet_18_N.svg)</p> | 顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
-| [同類群組表格](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)<p>![同類群組表格圖示](assets/Smock_TextNumbered_18_N.svg)</p> | *`cohort`*&#x200B;是指一段指定時間內，共享相同特徵的一組人。Cohort Analysis (同類群組分析) 對保留、攪動或延遲分析很有用處。 |
-| [環形圖](/help/analyze/analysis-workspace/visualizations/donut.md)<p>![環形圖圖示](assets/Smock_GraphDonut_18_N.svg)</p> | 此視覺效果類似圓餅圖，以整體的部分或區段顯示資料。 |
-| [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)<p>![流失圖示](assets/Smock_ConversionFunnel_18_N.svg)</p> | 流失報告可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。可以設定為最終或精確的序列 |
-| [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)<p>![流量圖示](assets/flow-icon.png)</p> | 顯示使用您網站和應用程式的正確客戶路徑。 |
-| [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)<p>![自由格式表格圖示](assets/Smock_ViewTable_18_N.svg)</p> | 自由表格不僅是資料表格，也是互動式視覺效果。這是 Workspace 的資料分析基礎。 |
-| [直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md)<p>![直方圖圖示](assets/Smock_GraphHistogram_18_N.svg)</p> | 長線圖會根據量度數量，將訪客人數、瀏覽次數或點擊數放入值區內。 |
-| [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)<p>![橫條圖圖示](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | 顯示代表一或多個量度多個值的橫條。 |
-| [關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)<p>![關鍵量度圖示](assets/key-metric-icon.png)</p> | 顯示量度在單一時間範圍內的趨勢分析，或讓您比較兩個時間範圍內的量度績效。 |
-| [折線圖](/help/analyze/analysis-workspace/visualizations/line.md)<p>![折線圖圖示](assets/Smock_GraphTrend_18_N.svg)</p> | 使用線條呈現量度，顯示一段時間內值的變化。線形圖會延 X 軸使用時間。 |
-| [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md)<p>![地圖圖示](assets/map-icon.png)</p> | 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。 |
-| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md)<p>![散佈圖圖示](assets/Smock_GraphScatter_18_N.svg)</p> | 顯示維度項目與最多三個量度之間的關係。 |
-| [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![摘要數字圖示](assets/summary-number-icon.png)</p> | 以 1 個大數字來顯示選取的儲存格。 |
-| [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)<p>![摘要變更圖示](assets/summary-change-icon.png)</p> | 以 1 個大數字/百分比來顯示選取儲存格之間的變化。 |
-| [Text](/help/analyze/analysis-workspace/visualizations/text.md)<p>![文字圖示](assets/Smock_Text_18_N.svg)</p> | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
-| [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md)<p>![樹形圖圖示](assets/Smock_GraphTree_18_N.svg)</p> | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md)<p>![文式圖表圖示](assets/venn-icon.png)</p> | 使用圓圈描繪最多 3 個區段的量度重疊。 |
+
+| 圖示 | 名稱 | 說明 |
+| :---: | --- | ---| 
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analyze/analysis-workspace/visualizations/area.md) | 區域圖視覺效果。類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analyze/analysis-workspace/visualizations/bar.md) | 長條圖視覺效果含有代表一或多個量度之多個值的垂直長條。 |
+| ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆疊長條圖](/help/analyze/analysis-workspace/visualizations/bar.md) | 堆疊長條圖視覺效果含有代表一或多個量度之多個值的垂直長條。 |
+| ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 項目符號圖顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
+| ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組視覺效果是指一段指定時間內，共享相同特徵的一組人。同類群組表格對保留、攪動或延遲分析很有用處。 |
+| ![組合](/help/assets/icons/ComboChart.svg) | [組合](combo-charts.md) | 組合圖表讓您能夠快速建立比較視覺效果，而無需先建立表格。 |
+| ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analyze/analysis-workspace/visualizations/donut.md) | 環形圖視覺效果類似於圓形圖，以整體的部分或區段來顯示資料。 |
+| ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失視覺效果會顯示在一系列預先定義的連續頁面中，個人在哪個位置離開 (流失) 和繼續通過 (流過)。 |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果會顯示客戶使用您網站和應用程式的正確路徑。 |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表格視覺效果是一種互動式視覺效果。自由格式表視覺效果是 Workspace 中資料分析的基礎。 |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md) | 直方圖視覺效果是根據量度數量將個人、瀏覽次數或事件數分類到貯體中。 |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
+| ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆疊橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 堆疊橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
+| ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 關鍵量度摘要視覺效果結合了線條、摘要變化和摘要數目的視覺效果。 |
+| ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) | 折線圖視覺效果會使用線條代表量度，以顯示一段時間中值的變化。線形圖會延 X 軸使用時間。 |
+| ![地球](/help/assets/icons/Globe.svg) | [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 可讓您建立任何量度（包括計算量度）的視覺化地圖 |
+| ![GraphScatter](/help/assets/icons/GraphScatter.svg) | [散佈圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 散點圖視覺效果顯示維度項目與最多三個量度之間的關係。 |
+| ![PageRule](/help/assets/icons/PageRule.svg) | [區段標題](section-header.md) | 若要識別並闡明面板內部區段。 |
+| ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要變化視覺效果會以大數字或百分比來顯示所選儲存格之間的變化。 |
+| ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要數字視覺效果會以一個大數字顯示選取的儲存格。 |
+| ![Text](/help/assets/icons/Text.svg) | [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 文字視覺效果會讓您將使用者定義的文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | 樹狀圖視覺效果會以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
+| ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analyze/analysis-workspace/visualizations/venn.md) | 文氏圖表視覺效果使用圓圈來描繪最多 3 個區段的量度重疊。 |
+
+<!--
+
+| Name| Icon | Description |
+| --- |:---: | ---|
+| [Area](/help/analyze/analysis-workspace/visualizations/area.md)|![Area icon](assets/Smock_GraphArea_18_N.svg)</p> | Like a line graph, but with a colored area below the line. Use an area graph when you have multiple metrics and want to visualize the area expressed by the intersection of two or more metrics. |
+| [Bar](/help/analyze/analysis-workspace/visualizations/bar.md)|![Bar icon](assets/Smock_GraphBarVertical_18_N.svg)</p> | Shows vertical bars representing various values across one or more metrics. |
+| [Bullet graph](/help/analyze/analysis-workspace/visualizations/bullet-graph.md)|![Bullet icon](assets/Smock_GraphBullet_18_N.svg)</p> | Shows how a value you are interested in compares to or measures against other performance ranges (goals). |
+| [Cohort table](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)|![Cohort table icon](assets/Smock_TextNumbered_18_N.svg)</p> | A *`cohort`* is a group of people sharing common characteristics over a specified period. Cohort Analysis is useful for retention, churn or latency analysis. |
+| [Donut](/help/analyze/analysis-workspace/visualizations/donut.md) | ![Donut icon](assets/Smock_GraphDonut_18_N.svg)</p> | Similar to a pie chart, this visualization shows data as parts or segments of a whole. |
+| [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | ![Fallout icon](assets/Smock_ConversionFunnel_18_N.svg)</p> | Fallout reports show where visitors left (fell out) and continued through (fell through) a predefined sequence of pages. Can be set to eventual or exact sequences |
+| [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | ![Flow icon](assets/flow-icon.png)</p> | Shows exact customer paths through your websites and apps. |
+| [Freeform table](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | ![Freeform table icon](assets/Smock_ViewTable_18_N.svg)</p> | A Freeform table is not merely a data table, but also an interactive visualization. It is the foundation for data analysis in Workspace.|
+| [Histogram](/help/analyze/analysis-workspace/visualizations/histogram.md) | ![Histogram icon](assets/Smock_GraphHistogram_18_N.svg)</p> | A histogram buckets visitors, visits or hits into buckets based on a metric volume. |
+| [Horizontal bar](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | ![Horizontal bar icon](assets/Smock_GraphBarHorizontal_18_N.svg)</p> | Shows horizontal bars representing various values across one or more metrics. |
+| [Key metric summary](/help/analyze/analysis-workspace/visualizations/key-metric.md) | ![Key metric icon](assets/key-metric-icon.png)</p> | Shows how a metric is trending within a single timeframe, or lets you compare metric performance across two timeframes. |
+| [Line](/help/analyze/analysis-workspace/visualizations/line.md) | ![Line icon](assets/Smock_GraphTrend_18_N.svg)</p> | Represents metrics using a line in order to show how values change over a period of time. A line chart uses time along the x-axis. |
+| [Map](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | ![Map icon](assets/map-icon.png)</p> | Lets you build a visual map of any metric (including calculated metrics). |
+| [Scatterplot](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | ![Scatterplot icon](assets/Smock_GraphScatter_18_N.svg)</p> | Shows the relationship between dimension items and up to three metrics. |
+| [Summary number](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary number icon](assets/summary-number-icon.png)</p> | Shows the selected cell as 1 large number. |
+| [Summary change](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | ![Summary change icon](assets/summary-change-icon.png)</p> | Shows the change between the selected cells as 1 large number/percent. |
+| [Text](/help/analyze/analysis-workspace/visualizations/text.md) | ![Text icon](assets/Smock_Text_18_N.svg)</p> | Lets you add user-defined text to your Workspace. Helpful for adding additional context to your analysis and insights, in addition to leveraging panel/visualization descriptions |
+| [Treemap](/help/analyze/analysis-workspace/visualizations/treemap.md) | ![Treemap icon](assets/Smock_GraphTree_18_N.svg)</p> | Displays hierarchical (tree-structured) data as a set of nested rectangles. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | ![Venn icon](assets/venn-icon.png)</p> | Uses circles to depict the metric overlap of up to 3 segments. |
+
+-->
 
 ## 新增視覺效果至面板
 
@@ -186,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |

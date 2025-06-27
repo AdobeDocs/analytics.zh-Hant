@@ -1,13 +1,13 @@
 ---
-description: 如何在 Workspace 中新增資料夾。
+description: 瞭解如何在Analysis Workspace中將專案新增或移動到資料夾。
 keywords: Analysis Workspace
-title: 在 Workspace 中新增資料夾
+title: 新增或移動專案至資料夾
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 83345d6fa51253e7c316cd1b2ebee2f4f82e9d00
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 93%
+source-wordcount: '263'
+ht-degree: 87%
 
 ---
 

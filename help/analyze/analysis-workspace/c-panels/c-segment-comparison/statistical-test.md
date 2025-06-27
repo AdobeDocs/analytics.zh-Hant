@@ -1,14 +1,14 @@
 ---
-description: 每個排名在前的比較表格會顯示依多項統計測試所計算出的不同積分，根據所進行的比較而定; 但是，無論使用哪個測試，差異積分會以 0 與 1 之間的值顯示。
+description: 瞭解如何在區段比較中使用統計測試。
 keywords: Analysis Workspace, 區段 IQ
 title: 區段比較中所使用的統計測試
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '444'
+ht-degree: 95%
 
 ---
 

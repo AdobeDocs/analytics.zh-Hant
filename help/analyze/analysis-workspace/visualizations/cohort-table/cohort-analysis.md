@@ -1,13 +1,13 @@
 ---
-title: 什麼是「同類群組分析」？這又是如何運作的？
-description: 透過「同類群組分析」，深入了解使用客群資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
+title: 同類群組表格概觀
+description: 瞭解如何深入瞭解您的對象資料，並透過同類群組分析將這些資料分成相關的群組。 在Analysis Workspace中使用同類群組分析。
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 96%
+source-wordcount: '704'
+ht-degree: 90%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的同類群組表格。_<br/>_請參閱[同類群組表格](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的同類群組表格。_<br/>_請參閱[同類群組表格](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
 
 
-*同類群組*&#x200B;是指一段指定時間內，共用相同特徵的一組人。例如，當您想要了解同類群組與某個品牌的互動關係時，![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 同類群組表格]** 視覺效果非常實用。您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
+*同類群組*&#x200B;是指一段指定時間內，共用相同特徵的一組人。例如，當您想要了解同類群組與某個品牌的互動關係時，![TextNumbered](/help/assets/icons/TextNumbered.svg) **[!UICONTROL 同類群組表格]** 視覺效果非常實用。您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://zh.wikipedia.org/wiki/Cohort_analysis)。)
 
 建立同類群組報表後，您可以組織其元件 (特定的維度、量度和篩選器)，接著將同類群組報表與他人共用。 請參閱[監管與共用](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
@@ -57,7 +57,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/3430081/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的同類群組分析](https://video.tv.adobe.com/v/23990/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -74,31 +74,31 @@ Adobe Analytics中的同類群組表格支援雙向（或任何數值）量度�
 
 有關建立同類群組和執行[!UICONTROL 同類群組分析]報告的更多資訊，請參閱[設定同類群組表格](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
-### [!UICONTROL 保留率]表格
+### 保留率表格
 
 [!UICONTROL 保留率]同類群組表格回傳人數：每個資料儲存格顯示此同類群組中，在該時段內執行動作的原始人數和百分比。您可以包含最多 3 個量度和最多 10 個篩選器。
 
 ![保留率同類群組報告顯示同類群組中的人員單位和百分比。](assets/retention-report.png)
 
-### [!UICONTROL 流失率]表格
+### 流失率表格
 
 [!UICONTROL 流失率]同類群組表格和保留率表格相反，會顯示在特定時間內離開或從未符合同類群組回傳條件的人員。您可以包含最多 3 個量度和最多 10 個篩選器。
 
 ![流失率表格顯示不符合同類群組回傳標準的人員單位和百分比。](assets/churn-report.png)
 
-### [!UICONTROL 滾動式計算]
+### 滾動式計算
 
 您可以根據前一欄而非將欄納入來計算保留率或流失率，稱為滾動式計算。
 
 ![同類群組保留率報告顯示根據資料前一欄的計算。](assets/retention-report-rolling.png)
 
-### [!UICONTROL 延遲]表格
+### 延遲表
 
 延遲表格測量包括事件發生前後經過的時間。測量延遲是進行事前/事後分析的絕佳工具。**[!UICONTROL 包含]**&#x200B;欄位於表格的中央，包含事件前後的時段會顯示於兩側。
 
 ![同類群組報告顯示事件前後經過的時間。](assets/retention-report-latency.png)
 
-### [!UICONTROL 自訂維度]同類群組
+### 自訂維度同類群組
 
 您可以根據選取的維度建立同類群組，而非根據以時間為基礎的同類群組 (預設)。使用以下維度，例如[!UICONTROL 城市地理]、[!UICONTROL 行銷管道]、[!UICONTROL 行銷活動]、[!UICONTROL 產品]、[!UICONTROL 頁面]、[!UICONTROL 地區]，或任何其他維度來顯示保留率如何變更。根據這些維度不同的值。
 
@@ -128,7 +128,7 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/3430093?quality=12&learn=on&captions=chi_hant){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cohort analysis in Analysis Workspace](https://video.tv.adobe.com/v/25965?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -153,7 +153,7 @@ A [!UICONTROL Retention] cohort report returns visitors: each data cell shows th
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/3430167?quality=12&learn=on&captions=chi_hant){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Calculate rolling retention](https://video.tv.adobe.com/v/25962?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -167,7 +167,7 @@ A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the vi
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/3430159?quality=12&learn=on&captions=chi_hant){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Churn analysis](https://video.tv.adobe.com/v/25966?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

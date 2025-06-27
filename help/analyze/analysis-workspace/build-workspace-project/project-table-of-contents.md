@@ -1,14 +1,14 @@
 ---
-description: 有關專案中可用的專案目錄的資訊
+description: 瞭解如何在Analysis Workspace中使用專案中的目錄來快速存取面板和視覺效果。
 keywords: Analysis Workspace
-title: 專案目錄
+title: 目錄
 feature: Workspace Basics
 role: User, Admin
 exl-id: e17c0308-15c1-4c7b-a1e2-a9ab48ea267a
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 94%
+source-wordcount: '209'
+ht-degree: 88%
 
 ---
 

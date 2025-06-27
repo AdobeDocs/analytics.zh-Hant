@@ -1,13 +1,13 @@
 ---
 title: 媒體同時檢閱者面板
-description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢閱者」面板。
+description: 瞭解如何使用和解讀Analysis Workspace中的「媒體同時檢閱者」面板。
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1238'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1239'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_button"
 >title="媒體同時檢視者"
->abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均客群數。"
+>abstract="建立一個面板來分析特定內容或特定時段內的每分鐘平均對象數。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -107,7 +107,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 |---|---|
 | **[!UICONTROL 同時檢視者]** | 在特定時間點檢視您媒體串流的不重複人員數量，而不計工作階段數量。 |
 
-此檢視中不提供自由格式表格。若要檢視資料來源，您可以從折線圖視覺效果內容選單下載資料來源，然後選取「**[!UICONTROL 將資料下載為 CSV]**」。會包括序列劃分。
+本檢視中不提供自由表格。若要檢視資料來源，您可以從折線圖視覺效果內容選單下載資料來源，然後選取「**[!UICONTROL 將資料下載為 CSV]**」。會包括序列劃分。
 
 ![使用「將資料下載為 CSV」醒目提示的同時檢視者輸出選項。](assets/concurrent-viewers-download-csv.png)
 
@@ -116,7 +116,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 | 問題 | 回答 |
 |---|---|
 | 自由表格在哪裡？我如何可看到資料來源？ | 本檢視中無法使用自由表格。您可以從折線圖內容選單下載資料來源，然後選取「**[!UICONTROL 將資料下載為 CSV]**」。 |
-| 我的詳細程度為何會變更？ | 此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 列，則詳細程度會自動更新以符合完整的日期範圍。<br><br>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，詳細程度將更新至允許的最低詳細程度。若要檢視更高的詳細程度，請編輯面板並重建。 |
+| 我的詳細程度為何會變更？ | 此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 列，則詳細程度會自動更新以符合完整的日期範圍。<br><br>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，詳細程度將更新至允許的最低詳細程度。若要查看更高的詳細程度，請編輯面板並重建。 |
 | 我該如何比較影片名稱、篩選器、內容類型和其他內容？ | 若要在單一視覺效果中比較這些項目，可將篩選器、維度或特定維度項目拖曳至序列劃分篩選器內。<br><br>此檢視限於 10 項劃分。若要檢視超過 10 項，您必須使用多個面板。 |
 | 我如何比較日期範圍？ | 若要比較單一視覺效果中的日期範圍，可拖動 2 個或多個日期範圍並使用序列劃分篩選器。此日期範圍將覆寫面板日期範圍。 |
 | 如何改變視覺效果類型？ | 此面板僅允許進行時間序列的線圖視覺效果。 |
@@ -131,8 +131,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[媒體播放時間面板](media-playback-time-spent.md)
->[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體播放時間面板](media-playback-time-spent.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel

@@ -1,52 +1,64 @@
 ---
-description: 了解如何從資料夾中移除專案
+description: 瞭解如何從Analysis Workspace移除專案。
 keywords: Analysis Workspace
-title: 從資料夾中移除專案
+title: 移除專案
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
-# 刪除專案
+# 移除專案
 
-若要從資料夾中移除專案，您可以將專案移動到另一個位置或刪除專案。
+
+請參閱管理專案](../freeform-overview.md#actions)中的[動作，瞭解如何從Analysis Workspace移除專案。
+
+
+
+<!-- Is this article still needed; not in the TOC anymore
+
+
+# Delete projects
+
+To remove a project from a folder, you can move the project to another location or delete the project.
 
 >[!NOTE]
 >
->當管理員將專案移動到公司資料夾時，即使原始共用權限被禁止，該資料夾也可以與所有人共用。當管理員將專案移出公司資料夾時，原始或以前的共用權限就會啟用。
+>When an Admin moves a project to the Company Folder, the folder is shared with everyone even if the original shared privileges were restricted. When an Admin moves a project out of the Company Folder, the original or previous sharing privileges are respected.
 
-## 移動專案 {#move-project-in-folder}
+## Move a project {#move-project-in-folder}
 
-您可以將專案從一個資料夾移動至您建立的另一個資料夾。
+You can move projects from one folder to another folder that you created.
 
-1. 從專案資料夾中，選取專案名稱旁邊的「**...**」省略符號。
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選取「**移至**」，然後選擇要將專案移動到的資料夾。
+1. Select **Move to** and then select a folder to move the project to.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. 按一下「**移動**」。
+1. Click **Move**.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
-   快顯通知確認專案已移動。
+    A toast confirms that the project was moved.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-project-moved.png)
 
-## 從專案資料夾中刪除專案 {#delete-project-in-folder}
+## Delete a project from a project folder {#delete-project-in-folder}
 
-當您從資料夾中刪除專案時，該專案會在 180 天後從系統中清除。在刪除後的 180 天內，如果使用者有專案的 URL，他們仍然可以透過 Web 介面存取已刪除的專案。
+When you delete a project from a folder, it gets purged from the system after 180 days. During the 180 days after deletion, users can still access a deleted project via the Web interface if they have a URL to the project.
 
-1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
+1. From within a project folder, select the **...** ellipsis next to the project name.
 
-   ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
+    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選取「**刪除**」。
+1. Select **Delete**.
 
-1. 確認視窗要求您確認刪除。
+1. A confirmation window asks you to confirm the deletion.
+
+-->

@@ -1,17 +1,17 @@
 ---
-title: 散點圖
-description: 顯示與最多三個量度之間關係的視覺效果。
+title: 散佈圖
+description: 使用散佈圖視覺效果可顯示最多三個量度之間的關係。
 feature: Visualizations
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 830ca4b1ec1895dd58a262554669b454bd08841b
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 92%
 
 ---
 
-# 散點圖 {#scatter}
+# 散佈圖 {#scatter}
 
 <!-- markdownlint-disable MD034 -->
 
@@ -43,7 +43,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 視覺散佈圖效果](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[視覺散佈圖效果](https://video.tv.adobe.com/v/334459/?quality=12){target=&#34;_blank&#34;}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -51,6 +51,6 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

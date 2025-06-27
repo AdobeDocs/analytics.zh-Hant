@@ -1,13 +1,13 @@
 ---
-description: 在 Workspace 專案中使用同心圓視覺效果。
+description: 瞭解如何使用環形圖視覺效果，將資料顯示為整體的部分或區段。
 title: 環形圖
 feature: Visualizations
 role: User, Admin
 exl-id: d82db8a5-9502-4ed1-9326-fd3392670bd3
-source-git-commit: 5a35d2acd428d16afff3d8e85cfb084d6a6476c4
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 86%
 
 ---
 
@@ -37,7 +37,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [新增環形圖視覺效果](https://video.tv.adobe.com/v/334309/?quality=12){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [新增環形圖視覺效果](https://video.tv.adobe.com/v/334309/?quality=12){target=&#34;_blank&#34;}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

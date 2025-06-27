@@ -1,14 +1,14 @@
 ---
-description: 列設定依您拖放至表格中的元件而異。
+description: 瞭解如何使用列設定，以及列設定會依您拖曳至Analysis Workspace自由表格中的元件而有所不同。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: a3b6f3ce85003d0a8f3139a66a6cbcf953089d15
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -92,4 +92,4 @@ ht-degree: 100%
 
 ## 變更列高
 
-您可以將專案的檢視密度設定為&#x200B;**[!UICONTROL 精簡]**、 **[!UICONTROL 舒適]**&#x200B;和 **[!UICONTROL 擴展]**。[了解更多](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。
+您可以將專案的[檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)設定為&#x200B;**[!UICONTROL 緊密]**、**[!UICONTROL 舒適]**&#x200B;和&#x200B;**[!UICONTROL 展開]**。

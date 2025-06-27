@@ -4,8 +4,8 @@ title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: b2e91c9981b328aa34e03dcd3b713438732ea6b1
-workflow-type: ht
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -13,14 +13,10 @@ ht-degree: 100%
 
 # 關鍵量度摘要 {#key-metric-summary}
 
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
 >id="workspace_keymetricsummary_button"
 >title="關鍵量度摘要"
 >abstract="建立折線圖、摘要變更和摘要數字圖表組合的視覺效果。使用此視覺效果來比較兩個時段之間重要量度的趨勢分析。"
-
-<!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
@@ -72,7 +68,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
    >* **相對：** 如果將&#x200B;**[!UICONTROL 比較日期範圍]**&#x200B;欄位設定為相對於主要日期範圍的選項 (例如&#x200B;[!UICONTROL **前一天**]、[!UICONTROL **上一週的同日**]、[!UICONTROL **四週前的同一日**]&#x200B;等等)，則任何更新至&#x200B;[!UICONTROL **主要日期範圍**]&#x200B;欄位會導致 **[!UICONTROL 比較日期範圍]**&#x200B;自動更新至緊接面板日期範圍之後的時段。
    >* **固定：** 如果將&#x200B;[!UICONTROL **比較日期範圍**]&#x200B;欄位設定為固定日期範圍 (例如&#x200B;**2023 年 2 月 3 日**)，則對&#x200B;[!UICONTROL **主要日期範圍**]&#x200B;欄位或面板日期範圍進行的變更，不會影響&#x200B;[!UICONTROL **比較日期範圍**]。但是，對面板日期範圍的任何更新都會導致&#x200B;[!UICONTROL **主要日期範圍**]&#x200B;自動更新。
 
-1. 請選取「**[!UICONTROL 建置]**」。
+1. 選取「**[!UICONTROL 建置]**」。
 
 關鍵量度摘要的輸出如下所示：
 
@@ -82,9 +78,9 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 * **[!UICONTROL 前一期]**&#x200B;折線圖 (總是以灰色顯示) 對應至設定步驟中的&#x200B;**[!UICONTROL 比較日期範圍]**。
 
-* 如果未在設定期間指定比較日期範圍，或在視覺效果設定中隱藏日期比較範圍，僅會顯示主要日期範圍的折線圖。已隱藏此摘要變更。
+* 如果未在設定期間指定比較日期範圍，或在視覺效果設定中隱藏日期比較範圍，僅會顯示主要日期範圍的線圖。已隱藏此摘要變更。
 
-* 您可以從此處將指標停留在折線圖上，以查看個別天數的統計資料：
+* 您可以從此處將指標停留在線圖上，以查看個別天數的統計資料：
 
 
 ## 設定
@@ -124,13 +120,13 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
    ![視覺效果編輯圖示](assets/edit-icon.png)
 
-   您會立即返回原始設定檢視。
+   現在您會返回原始設定檢視。
 
 1. 依偏好變更量度、主要日期範圍、比較日期範圍或篩選條件。
 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 

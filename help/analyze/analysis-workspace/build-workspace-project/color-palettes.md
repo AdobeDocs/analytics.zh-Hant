@@ -1,13 +1,13 @@
 ---
-description: 如何在 Analysis Workspace 中使用視覺化調色盤
-title: 視覺化調色盤是什麼以及如何運作？
+description: 瞭解如何使用Analysis Workspace中的視覺化調色盤。
+title: 視覺效果調色盤
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 92%
+source-wordcount: '211'
+ht-degree: 87%
 
 ---
 

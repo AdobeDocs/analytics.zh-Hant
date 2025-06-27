@@ -1,13 +1,13 @@
 ---
-description: 「快速深入分析」是適用於新 Workspace 使用者的工具，可引導他們建立資料表格和視覺效果
+description: 瞭解如何使用快速深入分析面板，引導您在Analysis Workspace中建立資料表格和視覺效果。
 title: 快速深入分析面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 76abe4e363184a9577622818fe21859d016a5cf7
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 97%
 
 ---
 
@@ -131,7 +131,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
    * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個區段。例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。請參閱➏、➐和➑。
 
-   * 在：您可以指定日期範圍。請參閱➒。
+   * 在：您可以指定日期範圍。請參閱「➒」。
 
 ## 已知限制
 

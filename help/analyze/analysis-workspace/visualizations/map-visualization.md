@@ -1,14 +1,14 @@
 ---
-description: 在 Workspace 專案中使用地圖視覺效果。
+description: 使用地圖視覺效果，在地理地圖視覺效果上繪製資料
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中地圖視覺效果](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中地圖視覺效果](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -119,8 +119,8 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 | 設定 | 說明 |
 |--- |--- |
 | **[!UICONTROL 地圖類型]** | |
-| [!UICONTROL 泡泡圖] | 使用泡泡圖繪圖事件。泡泡圖是多變數圖表，散點圖和等比區域圖的混合體。此檢視為預設。 |
-| 熱度圖 | 使用熱度圖繪圖事件。熱度圖是以圖形來顯示資料，並以顏色來代表對照表中所包含的個別值。 |
+| **[!UICONTROL 泡泡] | 使用泡泡圖繪圖事件。泡泡圖是多變數圖表，散點圖和等比區域圖的混合體。此檢視為預設。 |
+| [!UICONTROL 熱度圖] | 使用熱度圖繪圖事件。熱度圖是以圖形來顯示資料，並以顏色來代表對照表中所包含的個別值。 |
 | **[!UICONTROL 樣式]** | |
 | [!UICONTROL 色彩主題] | 顯示熱度圖和泡泡圖的顏色主題。您可以選擇珊瑚色、紅色、綠色或藍色。此預設為珊瑚色。 |
 | [!UICONTROL 地圖樣式] | 您可以從基本、街道、明亮、淺色、深色和衛星中進行選擇。 |

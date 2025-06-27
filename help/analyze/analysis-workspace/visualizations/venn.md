@@ -1,14 +1,14 @@
 ---
-description: 文氏圖表視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立文氏圖表。
+description: 使用文氏圖表視覺效果可拖曳多達3個區段和一個量度來建立文氏圖表。
 title: 文氏圖表
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: e0d14f6dd7be438f3dad979abcfc279e710873e7
-workflow-type: ht
-source-wordcount: '167'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -48,7 +48,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 文式圖表視覺效果](https://video.tv.adobe.com/v/335798/?quality=12){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 文式圖表視覺效果](https://video.tv.adobe.com/v/335798/?quality=12){target=&#34;_blank&#34;}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

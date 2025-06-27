@@ -1,26 +1,26 @@
 ---
-description: 同類群組 (cohort) 分析的使用案例範例。
+description: 瞭解同類群組分析的一些使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
-# [!UICONTROL 同類群組分析]使用案例
+# 同類群組分析使用案例
 
 [!UICONTROL 同類群組分析]的使用案例範例。
 
-## 應用程式參與使用案例 {#section_ADEC6EE79F1846319B2E0D9544CC5E40}
+## 應用程式參與使用案例
 
 假設您想分析已安裝您應用程式的用戶，在一段時間內參與應用程式的情形。用戶是否安裝應用程式後就不曾使用？還是使用一陣子後不用了？或是一段時間後仍持續使用？
 
-您可以建立六個月的[!UICONTROL 同類群組分析]：
+您可以建立六個月的同類群組分析。
 
 **詳細程度**: 每月，從 2015 年 1 月到 2015 年 6 月。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 後續月份的訪客必須具有工作階段或至少啟動此應用程式，否則不會計算為&#x200B;*`engaged`*。[!UICONTROL 同類群組分析]接著會顯示使用模式，其中 *`App Install`* 一律發生在第 0 個月。您可能發現無論用戶於何時安裝應用程式，使用量都在第 2 個月下降。(對於在 2015 年 1 月安裝應用程式的用戶，第 2 個月是指 2015 年 3 月。針對 2015 年 2 月安裝應用程式的使用者，第 2 個月是 2015 年 4 月，依此類推。) 此分析可讓您在所有使用者安裝應用程式後的第二個月內，向他們傳送電子郵件或推播訊息，以提醒他們使用此應用程式。
 
-## 訂閱使用案例 {#section_FDECB16766CF415BB84AE46BA491FB5F}
+## 訂閱使用案例
 
 您在 Adobe.com 工作並提供免費 Creative Cloud 訂閱。您的目標是讓用戶從免費版本升級至 30 天試用版，最終升級至付費版本。
 

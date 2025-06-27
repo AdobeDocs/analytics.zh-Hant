@@ -1,13 +1,13 @@
 ---
-title: 「媒體播放時間」面板
-description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間」面板。
+title: 媒體播放時間面板
+description: 瞭解如何使用和解讀Analysis Workspace中的「媒體播放時間」面板。
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1160'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1161'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!NOTE]
 >
 >媒體平均分鐘觀眾數面板僅供已購買 Adobe Analytics 串流媒體集合附加元件的客戶使用。
->請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
+>>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
 
 **[!UICONTROL 媒體播放時間]**&#x200B;面板可進行特定期間的播放分析，提供尖峰期同時觀看人數的詳細資訊，並具備劃分和比較的能力。
@@ -59,7 +59,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://video.tv.adobe.com/v/3446711?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -82,8 +82,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 | 設定 | 說明 |
 |---|---|
-| 面板日期範圍 | 面板的日期範圍預設為「今天」。您可將其編輯為一次檢視一天或多個月。<br>此視覺效果僅限 1440 列資料 (例如，以分鐘為最小單位測量 24 小時)。如果日期範圍和粒度組合結果超過 1440 行，則粒度會自動更新以符合完整的日期範圍。 |
-| 粒度 | 粒度的預設為「分鐘」。<br>此視覺效果僅限 1440 列資料 (例如，以分鐘為最小單位測量 24 小時)。如果日期範圍和粒度組合結果超過 1440 行，則粒度會自動更新以符合完整的日期範圍。 |
+| 面板日期範圍 | 面板的日期範圍預設為「今天」。您可將其編輯為一次檢視一天或多個月。<br>此視覺效果僅限 1440 列資料 (例如，以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 行，則詳細程度會自動更新以符合完整的日期範圍。 |
+| 詳細程度 | 詳細程度的預設為「分鐘」。<br>此視覺效果僅限 1440 列資料 (例如，以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 行，則詳細程度會自動更新以符合完整的日期範圍。 |
 | 面板摘要數字 | 若要查看播放時間的日期或時間詳細資訊，可使用摘要數字。「最大值」會顯示高峰期同時觀看人數的詳細資訊。「最小值」會顯示低谷期的詳細資訊。「總和」會加總選取範圍所花費的總播放時間。面板預設僅顯示「最大值」，但您可加以改變，以顯示「最小值」、「總和」或三者的任何組合。<br>如果您使用劃分功能，每項會顯示累加數。 |
 | 序列劃分 | 您可視需要將視覺效果根據篩選器、維度、維度項目或日期範圍劃分。<p>- 一次最多可檢視 10 行。劃分限於單一層級。</p><p>- 拖曳一個維度時，系統將根據選取面板日期範圍自動選取最上層的維度項目。</p>- 若要比較日期範圍，請將 2 個或多個日期範圍拖放到序列劃分篩選器。 |
 | 時間格式 | 您可以`Hours:Minutes:Seconds` (預設) 或`Minutes` (會以整數顯示，0.5 會四捨五入) 來檢視播放時間。 |
@@ -94,7 +94,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 
 ### 面板輸出
 
-「媒體播放時間」面板會返回折線圖和摘要數字，以包括播放時間最大值、最小值和/或總和的詳細資訊。面板頂端會提供一個摘要行，以提示您選取的面板設定。
+「媒體播放時間」面板會返回折線圖和摘要數字，以包括播放時間最大值、最小值和/或總和的詳細資訊。面板頂端會提供一個摘要行，為您提示您所選取的面板設定。
 
 可隨時選取「![編輯媒體播放時間面板](/help/assets/icons/Edit.svg)」，以編輯和重建面板。
 
@@ -115,7 +115,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 | 問題 | 回答 |
 |---|---|
 | 自由表格在哪裡？我如何可看到資料來源？ | <p></p><p>本檢視中無法使用自由表格。若要下載資料來源，請從折線圖中的內容選單中選取下載 CSV 檔案的選項。</p> |
-| <p>為什麼我的粒度改變了？</p> | <p>此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 列，則詳細程度會自動更新以符合完整的日期範圍。</p><p></p><p>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，詳細程度將更新至允許的最低詳細程度。若要檢視更高的詳細程度，請編輯面板並重建。</p> |
+| <p>為什麼我的詳細程度改變了？</p> | <p>此視覺效果僅限 1440 列資料 (例如以分鐘為最小單位測量 24 小時)。如果日期範圍和詳細程度組合結果超過 1440 列，則詳細程度會自動更新以符合完整的日期範圍。</p><p></p><p>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，詳細程度將更新至允許的最低詳細程度。若要查看更高的詳細程度，請編輯面板並重建。</p> |
 | <p></p><p>我該如何比較影片名稱、篩選器、內容類型和更多內容？</p> | <p>若要在單一視覺效果中比較這些內容，可將篩選器、維度或特定維度項目拖動至序列劃分篩選器內。</p><p></p><p>此檢視限於 10 項劃分。若要檢視超過 10 項，您必須使用多個面板。</p> |
 | 我如何比較日期範圍？ | 若要比較單一視覺效果中的日期範圍，可拖動 2 個或多個日期範圍以使用系列劃分。這些日期範圍會覆寫面板日期範圍。 |
 | 如何改變視覺效果類型？ | <p></p><p>此面板僅允許進行時間序列的線圖視覺效果。</p> |
@@ -125,8 +125,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!MORELIKETHIS]
 >
 >[建立面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
->[媒體同時檢視者面板](media-concurrent-viewers.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體同時檢視者面板](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +146,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446711?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

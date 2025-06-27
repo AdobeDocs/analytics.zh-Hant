@@ -1,13 +1,13 @@
 ---
-description: Analytics for Target (A4T) 面板可讓您在 Analysis Workspace 中分析 Adobe Target 活動和體驗。
-title: Analytics for Target (A4T) 面板
+description: 瞭解如何使用Analytics for Target面板來分析您在Analysis Workspace中的Adobe Target活動和體驗。
+title: Analytics For Target面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
-source-wordcount: '1130'
-ht-degree: 100%
+source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+workflow-type: tm+mt
+source-wordcount: '1132'
+ht-degree: 97%
 
 ---
 
@@ -85,10 +85,10 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | **[!UICONTROL 成功量度]** | 輸入面板中選取的成功量度。 |
 | **[!UICONTROL 轉換率]** | 成功量度/標準化量度。 |
 | **[!UICONTROL 提升度]** | 對照控制體驗來比較每一個體驗的轉換率。請注意：提升度是 Target 體驗的&#x200B;*鎖定量度*；您無法加以劃分，或與其他維度搭配使用。 |
-| **[!UICONTROL 提升度 (下限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度下限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
-| **[!UICONTROL 提升度 (中)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度中間值。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
-| **[!UICONTROL 提升度 (上限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度上限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
-| **[!UICONTROL 信賴度]** | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 提升度 (下限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度下限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 提升度 (中)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度中間值。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 提升度 (上限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度上限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 信賴度]** | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
 
 如同 Analysis Workspace 中的任何面板，您可以透過新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations)，以繼續進行分析。您也可以在面板級別或自由格式表中套用區段。請注意，如果將其新增到自由格式表中，則必須將其覆蓋在整個表中，以保留提升度和可信度計算。目前不支援欄級區段。
 
