@@ -42,7 +42,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 |:---:|---|---|
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | [面板](/help/analyze/analysis-workspace/c-panels/panels.md)是用來在專案中整理可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺化呈現]** | [視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)可用來生動地呈現資料，例如條狀圖或折線圖。在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺化呈現]**&#x200B;圖示，檢視可用視覺化呈現的完整清單。 |
-| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/home.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg)[維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg)[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segmentation/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg)[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
+| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/home.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segmentation/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | [目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)會將專案中包含的所有面板和視覺效果組織成可摺疊的清單，讓您快速存取特定面板或視覺效果。 |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **資料字典** | [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)可協助使用者和管理員追蹤並更好地了解其 Analytics 環境中的元件。 |
 
@@ -55,7 +55,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 
 請注意，您的鍵盤上可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL *Shift *]**鍵。
+- **⇧** 代表 **[!UICONTROL *Shift *]**&#x200B;鍵。
 - **⌘** 代表 **[!UICONTROL *Cmd *]**(Command) 鍵。
 - **⌃** 代表 **[!UICONTROL *Ctrl *]**(Control) 鍵。
 - **⌥** 代表 **[!UICONTROL *Opt *]**(Option) 鍵。
@@ -124,7 +124,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 | **[!UICONTROL 快速鍵]** | 顯示可在 Workspace 使用的快捷鍵 (快速鍵) 概觀。 |
 | **[!UICONTROL 啟用偵錯工具]** | 啟用偵錯工具。您的專案將重新載入。 |
 | **[!UICONTROL 停用偵錯工具]** | 停用偵錯工具。您的專案將重新載入。 |
-| **[!UICONTROL 效能]** | 顯示一個展示 **[!UICONTROL Analysis Workspace 效能]**&#x200B;相關量度的對話框。使用&#x200B;**[!UICONTROL 下載為 CSV]**下載效能量度的 CSV 檔案。  |
+| **[!UICONTROL 效能]** | 顯示一個展示 **[!UICONTROL Analysis Workspace 效能]**&#x200B;相關量度的對話框。使用&#x200B;**[!UICONTROL 下載為 CSV]**&#x200B;下載效能量度的 CSV 檔案。  |
 | **[!UICONTROL Workspace 簡介]** | 顯示 **[!UICONTROL Analysis Workspace 簡介]**&#x200B;對話框，其中包含版本資訊、功能存取層級和使用中的功能標幟。 |
 
 ## 資料來源

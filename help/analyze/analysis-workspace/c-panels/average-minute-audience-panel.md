@@ -187,8 +187,8 @@ _本文記錄 **Customer Journey Analytics** 中的媒體平均分鐘觀眾數�
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [媒體同時檢視者面板](media-concurrent-viewers.md)
-> > [媒體播放時間面板](media-playback-time-spent.md)
+> &#x200B;> [媒體同時檢視者面板](media-concurrent-viewers.md)
+> &#x200B;> [媒體播放時間面板](media-playback-time-spent.md)
 >
 
 
