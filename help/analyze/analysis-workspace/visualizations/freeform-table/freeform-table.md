@@ -127,7 +127,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格總計](https://video.tv.adobe.com/v/29273?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格總計](https://video.tv.adobe.com/v/3437406?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
