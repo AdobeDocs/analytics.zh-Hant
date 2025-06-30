@@ -5,10 +5,10 @@ title: 視覺效果概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 94%
 
 ---
 
@@ -149,11 +149,11 @@ Analysis Workspace 中有以下視覺效果類型：
 | 選項 | 說明 |
 | --- | --- |
 | **[!UICONTROL 插入複製的視覺化呈現]** | 將複製的視覺效果貼上 (插入) 至專案內另一個位置或完全不同的專案中。 |
-| **[!UICONTROL 複製資料至剪貼簿]** | 從視覺效果複製資料至剪貼簿。 |
-| **[!UICONTROL 複製選取項目至剪貼簿]** | 從視覺效果將選取項目複製至剪貼簿。 |
-| **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | 將視覺效果的維度項目 (最多 50,000 個) 下載至您的本機裝置。選取維度的最大維度項目數為 50,000。 |
+| **[!UICONTROL 複製資料至剪貼簿]** | [將視覺效果中的資料](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)複製到剪貼簿。 |
+| **[!UICONTROL 複製選取項目至剪貼簿]** | [將選取範圍](/help/analyze/analysis-workspace/curate-share/download-send.md#copy-to-clipboard)從視覺效果複製到剪貼簿。 |
+| **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | [將視覺效果的維度專案](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) （最多50,000個）下載到您的本機裝置。 選取維度的最大維度項目數為 50,000。 |
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便於您將其插入至專案內另一個位置或完全不同的專案中。 |
-| **[!UICONTROL 下載資料為 CSV 檔]** | 將視覺效果顯示的資料下載至本機裝置。 |
+| **[!UICONTROL 下載資料為 CSV 檔]** | [將視覺效果顯示的資料](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv)下載到您的本機裝置。 |
 | **[!UICONTROL 複製視覺效果]** | 完全複製視覺效果。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 視覺效果的文字說明。請參閱[文字](text.md)。 |
 | **[!UICONTROL 取得視覺效果連結]** | 直接複製並共用視覺效果連結。共用連結對話框顯示此連結。請選取「複製」以複製此連結至剪貼簿。 |
@@ -217,8 +217,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |

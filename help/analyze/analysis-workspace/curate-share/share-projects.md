@@ -1,14 +1,14 @@
 ---
-description: Workspace 中的專案共用和專案角色
+description: 瞭解如何在Workspace中共用專案和專案角色
 keywords: Analysis Workspace 共用
 title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 5c9d6a5498fafdf05ff1f7f6c9b99f1a5de08db0
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 97%
+source-wordcount: '1976'
+ht-degree: 96%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 >[!ENDSHADEBOX]
 
 
-## 與組織中的 Analysis Workspace 使用者和群組共用 {#Add}
+## 與組織中的使用者和群組共用 {#Add}
 
 您可以與組織中的現有 Analysis Workspace 使用者或群組共用專案。依照本節所述共用專案時，共用專案的使用者必須已經擁有 Adobe Analytics 存取權。
 
@@ -115,7 +115,7 @@ ht-degree: 97%
 
 * 使用該連結的收件者須先登入 Adobe Analytics，然後才能存取該專案。
 
-* 收件者若未被指派任何角色，且收到專案的[分享連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)，將會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
+* 收件者若未被指派任何角色，且收到專案的[分享連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)，將會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
 
 若要與組織中的使用者共用專案連結：
 
@@ -157,7 +157,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3452476?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 

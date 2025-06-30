@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 1c5eed6d9a70bca6835d68c83dc0523449401a62
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -28,6 +28,7 @@ ht-degree: 98%
    + [Analysis Workspace 概觀](analysis-workspace/home.md)
    + 專案 {#build-workspace-project}
       + [概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [快速啟動專案](analysis-workspace/build-workspace-project/starter-projects.md)
       + [建立專案](analysis-workspace/build-workspace-project/create-projects.md)
       + [開啟專案](analysis-workspace/build-workspace-project/open-projects.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
@@ -37,7 +38,6 @@ ht-degree: 98%
          + [建立資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理資料夾](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [新增或移動專案](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多報告套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [快捷鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
@@ -131,14 +131,14 @@ ht-degree: 98%
          + [概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 策劃、共用及排程專案  {#curate-share}
+   + 組織及共用專案 {#curate-share}
       + [概觀](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
       + [共用專案](analysis-workspace/curate-share/share-projects.md)
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [唯讀專案](analysis-workspace/curate-share/view-only-projects.md)
-      + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
-      + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
+      + [下載專案](analysis-workspace/curate-share/download-send.md)
+      + [傳送及排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)

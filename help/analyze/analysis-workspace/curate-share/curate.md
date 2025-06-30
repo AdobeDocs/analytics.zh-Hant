@@ -1,18 +1,18 @@
 ---
-description: 監管可讓您在共用專案前先限制元件。
+description: 瞭解如何在Analysis Workspace中組織專案。 在您共用專案之前，組織會限制元件的存取權。
 keywords: Analysis Workspace 監管
-title: 監管專案
+title: 組織專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 65%
+source-wordcount: '532'
+ht-degree: 60%
 
 ---
 
-# 組織專案
+# 監管專案
 
 管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，會看到您為其組織的限定元件集。 組織是可選作業，但建議您在共用專案前先執行此步驟。
 
@@ -35,7 +35,6 @@ ht-degree: 65%
 1. （可選）若要新增更多元件，請從左側面板將您要共用的元件拖曳至資料檢視的&#x200B;**[!UICONTROL 組織元件]**&#x200B;拖放區域。
 1. 選取&#x200B;**[!UICONTROL 完成]**。
 
-也可以選取&#x200B;**[!UICONTROL 組織與共用]**，從[!UICONTROL 共用]功能表套用組織。 此選項會自動將專案組織到專案中使用的元件。您可以依照上述步驟新增其他元件。
 
 ![](assets/curation-field.png)
 
@@ -52,7 +51,7 @@ ht-degree: 65%
 
 ## 虛擬報告套裝監管
 
-若要在報告套裝層級套用監管，以便將其同時套用至多個專案，您可以[在虛擬報告套裝中監管元件](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-components)。
+若要在報告套裝層級套用監管，以便將其同時套用至多個專案，您可以[在虛擬報告套裝中監管元件](https://experienceleague.adobe.com/en/docs/analytics/components/virtual-report-suites/vrs-components)。
 
 >[!NOTE]
 >
@@ -72,6 +71,6 @@ ht-degree: 65%
 
 | 組織類型 | 管理員 | 非管理員專案擁有者或編輯角色 | 非管理員重複角色 |
 |---|---|---|---|
-| 已監管的虛擬報告套裝 | 所有非監管的虛擬報告套裝元件 | 此角色擁有或已與其共用之非監管的虛擬報告套裝元件 | 此角色擁有或已與其共用之非監管的虛擬報告套裝元件 |
-| 已監管的專案 | 所有未經監管的專案元件 | 所有未經監管的專案元件 | 此角色擁有或已與其共享之未經監管的專案元件 |
-| 已監管之虛擬報告套裝中的已監管專案 | 在「**[!UICONTROL 非監管專案元件]**」和「**[!UICONTROL 非監管的虛擬報告套裝元件]**」下方顯示的所有非監管元件 | 此角色擁有或已與其共用之所有非監管的專案元件和非監管的虛擬報告套裝元件 | 此角色擁有或已與其共用之非監管的虛擬報告套裝和專案元件 |
+| **已組織的虛擬報表套裝** | 所有非監管的虛擬報告套裝元件 | 此角色擁有或已與其共用之非監管的虛擬報告套裝元件 | 此角色擁有或已與其共用之非監管的虛擬報告套裝元件 |
+| **已組織的專案** | 所有未經監管的專案元件 | 所有未經監管的專案元件 | 此角色擁有或已與其共享之未經監管的專案元件 |
+| 已組織虛擬報表套裝中的&#x200B;**已組織專案** | 在「**[!UICONTROL 非監管專案元件]**」和「**[!UICONTROL 非監管的虛擬報告套裝元件]**」下方顯示的所有非監管元件 | 此角色擁有或已與其共用之所有非監管的專案元件和非監管的虛擬報告套裝元件 | 此角色擁有或已與其共用之非監管的虛擬報告套裝和專案元件 |
