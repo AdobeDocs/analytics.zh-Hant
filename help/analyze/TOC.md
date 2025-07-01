@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 97%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 97%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -131,14 +131,14 @@ ht-degree: 97%
          + [概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 組織及共用專案 {#curate-share}
+   + 組織與共用 {#curate-share}
       + [概觀](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
       + [共用專案](analysis-workspace/curate-share/share-projects.md)
-      + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
+      + [分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [唯讀專案](analysis-workspace/curate-share/view-only-projects.md)
-      + [下載專案](analysis-workspace/curate-share/download-send.md)
-      + [傳送及排程專案](analysis-workspace/curate-share/t-schedule-report.md)
+      + [下載](analysis-workspace/curate-share/download-send.md)
+      + [傳送和排程](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
