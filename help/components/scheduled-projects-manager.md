@@ -1,12 +1,12 @@
 ---
-description: 查看並管理組織內全部排程報表。
-title: 已排程的專案管理員
+description: 瞭解如何管理排程專案。
+title: 計劃的專案
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: d4d0eeac4f1f29e4c68e80b6fa0fe987a1fb32b9
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 42%
+source-wordcount: '786'
+ht-degree: 41%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 42%
 
 ## 篩選器
 
-您可以使用篩選面板➌來篩選排程專案[排程專案清單](#scheduled-project-list)。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
+您可以使用篩選面板[來篩選排程專案](#scheduled-project-list)排程專案清單➌。 若要顯示或隱藏篩選器面板，請使用「![篩選器](/help/assets/icons/Filter.svg)」。
 
 篩選器面板由以下部分組成。
 

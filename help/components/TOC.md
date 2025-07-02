@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 97%
+source-wordcount: '767'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
@@ -179,7 +179,7 @@ ht-degree: 97%
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
-   + 分段工作流程 {#segmentation-workflow}
+   + 工作流程 {#segmentation-workflow}
       + [概觀](segmentation/segmentation-workflow/seg-workflow.md)
       + [規劃區段](segmentation/segmentation-workflow/seg-plan.md)
       + [建立區段](segmentation/segmentation-workflow/seg-create.md)
@@ -196,22 +196,22 @@ ht-degree: 97%
       + [管理區段](segmentation/segmentation-workflow/seg-manage.md)
       + [發佈區段至 Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
       + [使用區段](segmentation/segmentation-workflow/t-seg-apply.md)
-   + 區段參考資料 {#segment-reference}
+   + 參考 {#segment-reference}
       + [運算子](segmentation/seg-reference/seg-operators.md)
       + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
-   + [舊版區段常見問題集](segmentation/seg-transition.md)
+   + [舊版區段常見問題](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
    + [概觀](c-calcmetrics/cm-overview.md)
    + [作法影片](c-calcmetrics/cm-videos.md)
-   + 計算量度工作流程 {#calcmetric-workflow}
+   + 工作流程 {#calcmetric-workflow}
       + [建立計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [建置計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [簡單的計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [更複雜的計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [一個簡單的計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [比較複雜的計算量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [建置參與率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
@@ -225,11 +225,11 @@ ht-degree: 97%
       + [共用計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [複製計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [管理計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
-   + 量度參考資料 {#calcmetrics-reference}
+   + 參考 {#calcmetrics-reference}
       + [基本函數](c-calcmetrics/cm-reference/cm-functions.md)
       + [進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度相容性](c-calcmetrics/cm-compatibility.md)
-      + [角色型許可權](c-calcmetrics/cm-role-based-rights.md)
+      + [角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
       + [預設計算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 虛擬報告套裝 {#virtual-report-suites}
@@ -240,7 +240,7 @@ ht-degree: 97%
    + [A4T 考量事項](vrs/vrs-a4t.md)
    + [虛擬報告套裝常見問題](vrs/vrs-faq.md)
    + [虛擬報告套裝和全域/多套裝標記考量事項](vrs/vrs-considerations.md)
-   + 虛擬報告套裝工作流程 {#vrs-workflow}
+   + 工作流程 {#vrs-workflow}
       + [虛擬報告套裝工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
       + [建立虛擬報告套裝](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虛擬報告套裝](vrs/c-workflow-vrs/vrs-manage.md)
@@ -256,8 +256,8 @@ ht-degree: 97%
    + [跨裝置分析常見問題集](cda/faq.md)
 + 警報 {#alerts}
    + [概觀](c-alerts/intellligent-alerts.md)
-   + [建立](c-alerts/alert-builder.md)
-   + [管理](c-alerts/alert-manager.md)
+   + [建立警報](c-alerts/alert-builder.md)
+   + [管理警報](c-alerts/alert-manager.md)
    + [使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類概觀](classifications/classifications-overview.md)

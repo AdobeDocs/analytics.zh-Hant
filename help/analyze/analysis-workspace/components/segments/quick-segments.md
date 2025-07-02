@@ -1,13 +1,13 @@
 ---
-description: 在 Analysis Workspace 中使用快速區段。
-title: 快速區段
+description: 瞭解如何在Analysis Workspace中建立和使用快速區段。
+title: 快速s=區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 99%
+source-wordcount: '101'
+ht-degree: 74%
 
 ---
 
@@ -29,120 +29,128 @@ ht-degree: 99%
 >[!ENDSHADEBOX]
 
 
-## 建立快速區段
-
-Ananalysis Workspace 中的任何使用者都可以建立快速區段。
-
-若要建立快速區段：
-
-1. 選擇以下一種方法，開始建立快速區段：
-
-   * **臨時 (拖放)：**&#x200B;從左側邊欄，將元件拖曳至面板標題中的區段放置區域。
-
-     ![將區段放入放置區](assets/segment-dropzone.png)
-
-     您可以按照[編輯快速區段](#edit-quick-segments)中的說明編輯區段。
-
-     >[!NOTE]
-     >
-     > 建立臨時快速區段 (拖放) 時，請考慮以下事項：
-     > * 不支援下列元件類型：計算量度以及無法建立區段的維度/量度。
-     > * 為了取得完整的維度和事件，Analysis Workspace 會建立「存在」點擊區段。範例：`Hit where eVar1 exists` 或 `Hit where event1 exists`。
-     > * 如將「未指定」或「無」拖放至區段拖放區，就會自動轉換成「不存在」區段，以便在這些區段中可正確處理該區段。
+>[!MORELIKETHIS]
+>
+>[建立快速區段](/help/components/segmentation/segmentation-workflow/seg-quick.md)
 
 
-   * **使用區段圖示：** 在自由表格中，選取面板標題中的「**區段**」圖示。
+<!--
+## Create a quick segment
 
-     ![區段篩選](assets/quick-seg1.png)
+Any user in Anlysis Workspace can create a quick segment.
 
-1. 調整以下任何設定：
+To create a quick segment:
 
-   | 設定 | 說明 |
+1. Choose one of the following methods to begin creating the quick segment:
+
+   * **Ad hoc (drag-and-drop):** From the left rail, drag a component to the segment drop zone in the panel header.
+   
+     ![drop a segment in the drop zone](assets/segment-dropzone.png)
+     
+     You can edit the segment as described in [Edit quick segments](#edit-quick-segments).
+
+      >[!NOTE]
+      >
+      > Consider the following when creating a quick segment ad hoc (drag-and-drop):
+      > * The following component types are not supported: calculated metrics and dimensions, as well as metrics from which you cannot build segments.
+      > * For full dimensions and events, Analysis Workspace creates "exists" hit segments. Examples: `Hit where eVar1 exists` or `Hit where event1 exists`.
+      > * If "unspecified" or "none" is dropped in the segment drop zone, it is automatically converted to a "does not exist" segment so that it is treated correctly in segments.
+
+
+   * **Using the segment icon:** In a Freeform table, select the **Segment** icon in the panel header.
+
+     ![Segment filter](assets/quick-seg1.png)
+
+1. Adjust any of the following settings:
+
+   | Setting | Description |
    | --- | --- |
-   | [!UICONTROL 名稱] | 區段的預設名稱為區段中規則名稱的組合。您可將區段重新命名為更好記的名稱。 |
-   | [!UICONTROL 包含/排除] | 您可在區段定義中包含或排除元件，但不能同時包含和排除。 |
-   | [!UICONTROL 點擊/造訪/訪客]容器 | 快速區段僅包含一個[區段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=zh-Hant#section_AF2A28BE92474DB386AE85743C71B2D6)，讓您在區段中包含 (或從中排除) 維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。 預設容器為[!UICONTROL 點擊]。 |
-   | [!UICONTROL 元件] (維度/量度/日期範圍) | 透過新增元件 (維度、量度、日期範圍或維度值) 來定義最多 3 個規則。有 3 種方法可以找到正確的元件:<ul><li>開始輸入，然後快速區段產生器就會自動找到合適的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
-   | [!UICONTROL 運算子] | 使用下拉式選單尋找標準運算子和[!UICONTROL 相異計數]運算子。請參閱「[區段運算子](/help/components/segmentation/seg-reference/seg-operators.md)」。 |
-   | 加 (+) 號 | 新增另一個規則 |
-   | AND/OR 限定詞 | 您可以對規則加入「AND」或「OR」的限定詞，但不能在單一區段定義中混合使用「AND」和「OR」。 |
-   | [!UICONTROL 套用] | 將此區段套用在面板上。如果區段不包含任何資料，系統會詢問您是否要繼續。 |
-   | [!UICONTROL 開啟產生器] | 開啟區段產生器。在「區段產生器」中儲存或套用區段後，將無法再考慮「快速區段」。它會成為元件清單區段資料庫的一部分。 <p>若要使該元件適用於您的所有專案，並在左側邊欄中選取選項 [!UICONTROL **使該區段適用於您的所有專案，並將該區段新增至元件清單**]。</p><p>有關詳細資訊，請參閱本文的「[將快速區段另存為元件清單區段](#save-a-quick-segment-as-a-component-list-segment)」章節。</p><p>**註：** 僅擁有 [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) 中的「區段建立」權限的使用者可以開啟區段產生器。</p> |
-   | [!UICONTROL 取消] | 取消這個快速區段 (不要套用)。 |
-   | [!UICONTROL 日期範圍] | 驗證器使用面板日期範圍進行資料查詢。但是在快速區段中套用的任何日期範圍都會覆蓋面板頂端的面板日期範圍。 |
-   | 預覽 (右上角) | 讓您查看是否有有效的區段以及區段的範圍。代表您套用此區段時可預期看到的資料集劃分。您可能會收到一則通知，指出此區段沒有資料。這種情況下，您可繼續或變更區段定義。 |
+   | [!UICONTROL Name] | The default name of a segment is a combination of the rule names in the segment. You can rename the segment to a more friendly name. |
+   | [!UICONTROL Include/exclude] | You can either include or exclude components in your segment definition, but not both. |
+   | [!UICONTROL Hit/Visit/Visitor] container | Quick segments include one [segment container](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6) only that lets you include a dimension/metric/date range in (or exclude it from) the segment. [!UICONTROL Visitor] contains overarching data specific for the visitor across visits and page views. A [!UICONTROL Visit] container lets you set rules to break down the visitor's data based on visits, and a [!UICONTROL Hit] container lets you break down visitor information based on individual page views. The default container is [!UICONTROL Hit]. |
+   | [!UICONTROL Components] (Dimension/metric/date range) | Define up to 3 rules by adding components (dimensions, metrics, date ranges, or dimension values). There are 3 ways to find the right component:<ul><li>Start typing and the quick segment builder automatically finds the appropriate component.</li><li>Use the drop-down list to find the component.</li><li>Drag and drop components from the left rail.</li></ul>  |
+   | [!UICONTROL Operator] | Use the drop-down menu to find standard operators and [!UICONTROL Distinct Count] operators. See [Segment operators](/help/components/segmentation/seg-reference/seg-operators.md). |
+   | Plus (+) sign | Add another rule |
+   | AND/OR qualifiers | You can add "AND" or "OR" qualifiers to the rules, but you cannot mix "AND" and "OR" in a single segment definition. |
+   | [!UICONTROL Apply] | Apply this segment to the panel. If the segment contains no data, you are asked if you want to continue. |
+   | [!UICONTROL Open builder] | Opens the Segment Builder. After you save or apply the segment in the Segment Builder, it is no longer considered a "quick segment". It becomes part of the component-list segment library. <p>To make the component available across all of your projects and in the left rail, select the option [!UICONTROL **Make this segment available to all your projects and add it to your component list**].</p><p>For more information, see the section [Save a quick segment as a component-list segment](#save-a-quick-segment-as-a-component-list-segment) in this article.</p><p>**Note:** Only users with the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) can open the Segment Builder.</p> |
+   | [!UICONTROL Cancel] | Cancel this quick segment (don't apply it). |
+   | [!UICONTROL Date range] | The validator uses the panel date range for its data lookup. But any date range applied in a quick segment overrides the panel date range at the top of the panel.  |
+   | Preview (top right) | Lets you see whether you have a valid segment and how broad the segment is. Represents the breakdown of the data set you can expect to see when you apply this segment. You might get a notice that indicates that this segment has no data. In this case, you can proceed or change the segment definition. |
 
-1. 選取「[!UICONTROL **套用**]」以儲存您的變更。
+1. Select [!UICONTROL **Apply**] to save your changes.
 
-## 編輯快速區段
+## Edit quick segments
 
-1. 將滑鼠懸停在快速區段上，並選取「**編輯**」圖示。
+1. Hover over the quick segment and select the **Edit** icon.
 
-   ![編輯臨時篩選器](assets/filter-adhoc-edit.png)
+   ![Edit ad hoc filter](assets/filter-adhoc-edit.png)
 
-1. 編輯區段定義和/或區段名稱。
+1. Edit the segment definition and/or the segment name.
 
-1. 選取&#x200B;[!UICONTROL **「套用」**]。
+1. Select [!UICONTROL **Apply**].
 
-## 將快速區段另存為元件清單區段
+## Save a quick segments as a component-list segment
 
 >[!IMPORTANT]
 >
-> 儲存快速區段時，請考慮以下事項：
+> Consider the following when saving a quick segment:
 > 
-> * 若要儲存快速區段，您需要擁有 [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) 中的「區段建立」權限 。
+> * To save a quick segment, you need the Segment Creation permission in the [Adobe Admin Console](/help/admin/admin-console/permissions/analytics-tools.md).
 > 
-> * 儲存或套用區段後，無法再在快速品段產生器中進行編輯。相反地，您必須使用平常的區段產生器。
+> * After you save or apply the segment, it can no longer be edited it in the quick segment builder. Instead, you must use the regular Segment Builder.
 
-您可以選擇將快速區段另存為元件清單區段。元件清單區段的優點包括：
+You can choose to save quick segments as component-list segments. Advantages of component-list segments include:
 
-* 所有 Workspace 專案的適用性
-* 支援更複雜的區段以及循序區段
+* Availablility across all your Workspace projects
+* Support more complex segments as well as sequential segments
 
-您可以從快速區段產生器或從[!UICONTROL 篩選產生器]儲存區段。
+You can save segments either from the quick segment Builder or from the [!UICONTROL Filter Builder].
 
-### 在快速區段產生器中儲存 {#save2}
+### Save in the quick segment builder {#save2}
 
-1. 套用快速區段後，將滑鼠懸停在上方，並選取資訊 (「i」) 圖示。
-1. 選取「**[!UICONTROL 設為可用於所有專案，並新增至您的元件清單]**」。
-1. (選擇性) 重新命名區段。
-1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Make available to all projects and add to your component list]**.
+1. (Optional) Rename the segment.
+1. Select **[!UICONTROL Save]**.
 
-   區段現在會顯示在左側邊欄的元件清單中。另請注意，該區段的側邊列從淺藍色變為深藍色，表示無法再在快速區段產生器中編輯或開啟該區段。
+   The segment now appears in your component list in the left rail. Also, note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder.
 
-### 在區段產生器中儲存。 {#save3}
+### Save in the Segment Builder {#save3}
 
-1. 套用快速區段後，將滑鼠懸停在上方，並選取資訊 (「i」) 圖示。
-1. 選取&#x200B;**[!UICONTROL 儲存區段]**
-1. (選項) 重新命名該區段，然後選取「[!UICONTROL **套用**]」。
+1. After you apply the quick segment, hover over it and select the info ("i") icon.
+1. Select **[!UICONTROL Save segment]**
+1. (Optional) Rename the segment, then select [!UICONTROL **Apply**].
 
-   返回 Workspace，並且注意該區段的側邊列從淺藍色變為深藍色，表示無法再在快速區段產生器中編輯或開啟該區段。而透過將其儲存，該區段會成為元件清單的一部分。
+   Go back to Workspace and note that the segment's side bar changes from light blue to a darker blue, indicating that it can no longer be edited or opened in the quick segment builder. And by saving it, it becomes part of the component list.
 
-套用區段後，您可以選擇將其新增到區段元件清單中，並使其可用於所有專案。
+After you apply the segment, you can choose to add it to your segment component list and make it available to all your projects.
 
-1. 將滑鼠懸停在已儲存的區段上，並選取鉛筆圖示。
+1. Hover over the saved segment and select the pencil icon.
 
-1. 選取「[!UICONTROL **開啟產生器**]」。
+1. Select [!UICONTROL **Open builder**].
 
-1. 在區段產生器的上方，請注意「[!UICONTROL **限專案區段**]」對話框：
+1. At the top of the Segment Builder, notice the [!UICONTROL **Project-only segment**] dialog:
 
-   ![限專案區段對話框](assets/project-only-segment-dialog.png)
+   ![project-only segment dialog](assets/project-only-segment-dialog.png)
 
-1. 選取「**[!UICONTROL 使其可用於您的所有專案並將其新增至您的元件清單中]**」旁的核取方塊。
+1. Select the checkbox next to **[!UICONTROL Make available to all your projects and add to your component list.]**
 
-1. 選取「**[!UICONTROL 儲存]**」。
+1. Select **[!UICONTROL Save]**.
 
-   該區段現在會顯示在所有專案的區段元件清單中。您也可以和組織中的其他人[共用區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant#concept_4A9726927E7C44AFA260E2BB2721AFC6)。
+   The segment now appears in your segment component list for all your projects.
+   You can also [share the segment](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6) with other people in your organization.
 
-## 快速區段範例
+## Quick segment example
 
-以下是結合維度和量度的區段範例：
+The following example of a segment combines dimensions and metrics:
 
 ![](assets/quick-seg2.png)
 
-## 已知問題
+## Known issue
 
-1. 建立一個包含 2 個項目快速區段，並將其&#x200B;**[!UICONTROL 儲存]** 為 Test1。
-1. 按一下「**[!UICONTROL 另存新檔]**」，並將此快速區段儲存為 Test2。
-1. 編輯 Test2 快速區段，並將其再度儲存為 Test2。
-請注意，Test1 快速區段已被 Test2 修改。
+1. Create a quick segment with 2 entries and **[!UICONTROL Save]** it as Test1.
+1. Click **[!UICONTROL Save as]** and save this quick segment as Test2. 
+1. Edit the Test2 quick segment and save it again as Test2. 
+   Notice that the Test1 quick segment gets modified by Test2.
+-->

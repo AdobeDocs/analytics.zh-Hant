@@ -1,13 +1,13 @@
 ---
 title: 建立註解
-description: 如何在 Workspace 中建立註解。
+description: 如何在Analysis Workspace中建立註解。
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 922aa7744abc6d7e24d272738375ceea940b3177
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '861'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 根據預設，只有管理員才能建立註解。使用者有權檢視註解，類似於使用者檢視其他元件 (例如區段、計算量度等) 方式。
 
 
-但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
+但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
 
 您可以透過以下方式建立註解：
 

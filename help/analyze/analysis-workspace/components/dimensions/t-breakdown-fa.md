@@ -1,26 +1,26 @@
 ---
-description: 在 Analysis Workspace 中劃分維度和維度項目。
+description: 瞭解如何在Analysis Workspace中劃分維度和維度專案。
 keywords: Analysis Workspace
 title: 劃分維度
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: ed4d7bb2b3ba290da575ce18fa6ba62d6b2e9751
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 59%
+source-wordcount: '554'
+ht-degree: 56%
 
 ---
 
-# 在工作區中劃分維度
+# 劃分維度
 
-您可以根據特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
+您可以在Analysis Workspace中以不限數量的方式根據特定需求劃分資料；使用相關量度、維度、區段、時間表和其他分析劃分值來建立查詢。
 
 1. 在[自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中，從一或多個選取資料列的內容功能表中，選取&#x200B;**[!UICONTROL 劃分]** ![V形右側](/help/assets/icons/ChevronRight.svg)。
 
    ![顯示從選取專案建立警示的步驟結果。](assets/breakdown.png)
 
-1. 從子功能表中選取&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 區段]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。 或只是在&#x200B;**[!UICONTROL *搜尋&#x200B;*]**&#x200B;欄位中搜尋元件。
+1. 從子功能表中選取&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**、**[!UICONTROL 區段]**&#x200B;或&#x200B;**[!UICONTROL 日期範圍]**，然後選取專案。 或只是在&#x200B;**[!UICONTROL *搜尋&#x200B;*]**欄位中搜尋元件。
 
 您可以跨所選時段，依維度項目或客群細分群體來劃分量度。您也可以更深入鑽研至更詳細的層級。
 

@@ -1,13 +1,13 @@
 ---
 title: 檢視註解
-description: 如何在 Workspace 中檢視註解。
+description: 如何在Analysis Workspace中檢視註解。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 88%
+source-wordcount: '216'
+ht-degree: 84%
 
 ---
 

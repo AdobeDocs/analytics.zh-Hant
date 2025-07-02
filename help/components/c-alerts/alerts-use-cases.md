@@ -1,35 +1,32 @@
 ---
-description: 建立及管理智慧型警報的使用案例。
-title: 警報 - 使用案例
+description: 檢閱建立及管理警報的部分使用案例。
+title: 警示使用案例
 feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '66'
-ht-degree: 100%
+source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 20%
 
 ---
 
-# 警報 - 使用案例
+# 警示使用案例
 
-您可以依照[建立警報](/help/components/c-alerts/alert-builder.md)中的說明建立警報。
+您可以依照[建立警報](alert-builder.md)中的說明建立警報。
 
 以下區段說明建立警報時需要考慮的範例使用案例。
 
-## 建立根據兩個區段篩選的簡單警報 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
+## 篩選警報
 
-<!-- 
+您可以使用區段建立簡單警報。 例如，為透過行動應用程式工作階段造訪首頁的使用者定義工作階段數警報。
 
-Update screenshots for better readability.
 
- -->
-
-![](assets/alerts_example1.png)
+![](assets/alerts-example1.png)
 
 
 
-## 合併 (堆疊) 警報，而非建立多個警報 {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 棧疊警報
 
-堆疊警報可確保結合警報，以免您收到大量的單獨警報。
+您可以合併（棧疊）警報，而非建立多個警報。 棧疊警報可確保結合警報，以免您收到大量個別警報。 在以下範例中，當任一量度主動變更觸發時，就會傳送警報。
 
-![](assets/alerts_example2.png)
+![](assets/alerts-example2.png)

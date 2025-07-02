@@ -1,17 +1,17 @@
 ---
-description: 檢視維度的上方值，然後將其用於專案中。
+description: 瞭解如何在Analysis Workspace中檢視詳細資料和維度的最高值。
 title: 預覽維度
 feature: Dimensions
 role: User, Admin
 exl-id: 897edc76-6744-4d8c-ab0e-20672838f7b3
-source-git-commit: a629b2be66d9458bf10872a95aaec739aed9d791
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 21%
+source-wordcount: '105'
+ht-degree: 4%
 
 ---
 
-# 在 Analysis Workspace 中預覽維度
+# 預覽維度
 
 您可以使用元件的[元件資訊](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info)來顯示維度的排名最前的專案。
 

@@ -1,12 +1,12 @@
 ---
 description: Workspace 常見問題集
-title: 常見問題集和疑難排解工作區
+title: 常見問題
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
-workflow-type: ht
-source-wordcount: '550'
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+workflow-type: tm+mt
+source-wordcount: '547'
 ht-degree: 100%
 
 ---

@@ -1,12 +1,12 @@
 ---
-description: 有關 Advertising Analytics 的使用案例。
-title: Audience Analytics 使用案例
+description: 瞭解如何使用Audience Analytics案例。
+title: Audience Analytics使用案例
 feature: Audience Analytics
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 59%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 廣告銷售與內容決策 {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-身為媒體發佈商，您不僅可以提供大小量度，還能提供客群效益量度給廣告銷售團隊。您還可以判斷哪些內容最能引發特定人口統計區段的共鳴，例如「30 歲以上第一次當媽媽的女性」。
+身為媒體發佈商，您不僅可以提供大小量度，還能提供客群效益量度給廣告銷售團隊。您也可以判斷哪些內容最能引發特定人口統計區段的共鳴，例如&#x200B;*30歲以上第一次當媽媽的女性*。
 
 ## 將機會重新定位 {#section_29C46BA00B3D43CE8A433EA64072D952}
 
@@ -22,12 +22,12 @@ ht-degree: 100%
 
 ## 外觀類似塑型 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-身為多媒體發佈商，您可以使用[細分群體 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hant) 來比較您的協力廠商客群，以了解關鍵的差異特徵。這有助您建立高價值的第一方區段並作為目標定位。
+身為多媒體發佈商，您可以使用[區段比較](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison)來比較您的協力廠商對象，以瞭解關鍵的差異特徵。 此比較可協助您建立高價值的第一方區段，以用於鎖定目標。
 
 ## 潛在客戶分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=zh-Hant)，在潛在客戶客群購買之前深入分析其行為，進而協助您了解促成轉換的動作。
+身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)，在潛在客戶客群購買之前深入分析其行為，進而協助您了解促成轉換的動作。
 
 ## 人口統計目標定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-景點度假村可以使用 [Analysis Workspace 中的長條圖](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html?lang=zh-Hant)，按年齡分配查看購買項目。這有助您找到適合每個度假村屬性的目標客群。
+景點度假村可以使用 [Analysis Workspace 中的直方圖](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/visualizations/histogram)，按年齡分配查看購買項目。長條圖可協助您找到適合每個度假村屬性的目標對象。

@@ -1,13 +1,13 @@
 ---
-title: 歸因模型與回顧期間
+title: 歸因模型、容器和回顧期間
 description: 不同類型的歸因將評分分配給維度項目的方式。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 45%
+source-wordcount: '95'
+ht-degree: 40%
 
 ---
 

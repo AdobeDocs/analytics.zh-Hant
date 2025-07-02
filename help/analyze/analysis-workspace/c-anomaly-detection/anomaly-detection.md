@@ -1,13 +1,13 @@
 ---
-description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
+description: 瞭解如何在Analysis Workspace中根據內容檢視和分析資料異常。
 title: 異常偵測概觀
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 70%
+source-wordcount: '1300'
+ht-degree: 68%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 70%
 * 影片緩衝事件的尖峰
 * 低影片位元率的尖峰
 
-異常偵測和[貢獻分析](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection)是 Analysis Workspace 的核心工作流程。您可以對任何每日異常情形執行貢獻分析，並將結果內嵌至 Analysis Workspace 專案。
+異常偵測和[貢獻分析](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/anomaly-detection/anomaly-detection)是 Analysis Workspace 的核心工作流程。您可以對任何每日異常情形執行貢獻分析，並將結果內嵌至 Analysis Workspace 專案。
 
 Analysis Workspace 異常偵測的演算法包含
 
@@ -90,17 +90,17 @@ Analysis Workspace 異常偵測的演算法包含
 
 每間公司的執行次數，會根據貴公司購買的 Adobe Analytics 產品所授予的權限，受到每月代號數的限制。每個公司的執行次數包含限制「貢獻分析」存取權的功能，以避免權杖濫用。
 
-## 常見問題集 {#section_11D0431AD2014B96AB9561CA66A367CE}
+## 常見問題集
 
 | 問題 | 回答 |
 | --- | --- |
 | 為什麼 Adobe 要推出代號？ | 「貢獻分析」已成為 Adobe Analytics 中迴響最熱烈的功能之一。您每月皆可執行小量的完整分析（而非只有部分Analytics產品的3個維度），因此能夠瞭解完整不受限的「貢獻分析」所能提供的功能。 |
 | 代號如何在「貢獻分析」中運作？ 使用現有的「貢獻分析」載入專案是否要扣除掉一個代號，或是在執行全新的「貢獻分析」時才需要這樣做？ | 每間登入公司 (非每位使用者) 每月都能取得特定數量的代號，讓您在 Analysis Workspace 中執行「完整」的貢獻分析。您每次產生一個新的貢獻分析，就要支付一個代號。使用預先執行的「貢獻分析」載入專案並不需要扣除代號。 |
 | 如果我的公司用完代號，但想要執行更多「貢獻分析」，該怎麼做？ | 您可以升級至其他 Adobe Analytics 產品，例如從 Standard (每月 2 個代號) 升級為 Ultimate (每月 20 個代號)。您無法購買更多代號。 您必須在現有的封裝架構中升級。 |
-| 我該如何限制對「貢獻分析」的存取權？ | 預設情況下，只有管理員有權執行貢獻分析。但是，管理員可以透過在 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-console/home) 中建立權限群組來授予存取權給其他使用者。只有具備正當理由使用貢獻分析，且相信不會濫用存取權的使用者，才有權使用貢獻分析。 此權限稱為「[!UICONTROL 貢獻分析]」，位於[!UICONTROL 報告套裝工具]下。[了解更多](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
+| 我該如何限制對「貢獻分析」的存取權？ | 預設情況下，只有管理員有權執行貢獻分析。但是，管理員可以透過在 [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/home) 中建立權限群組來授予存取權給其他使用者。只有具備正當理由使用貢獻分析，且相信不會濫用存取權的使用者，才有權使用貢獻分析。 此權限稱為「[!UICONTROL 貢獻分析]」，位於[!UICONTROL 報告套裝工具]下。[了解更多](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/permissions/report-suite-tools) |
 | 我該如何得知敝公司每個月有權使用多少代號，以及敝公司當月已使用多少代號？ | 請前往「[!UICONTROL 管理員] > [!UICONTROL 所有管理員] >[!UICONTROL 公司設定首頁] >[!UICONTROL 查看功能存取層級]」。 查看<ul><li>貢獻分析：每月使用代號數量</li><li>貢獻分析：本月使用代號數量</li></ul> |
 
-## 異常偵測和貢獻分析權益 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
+## 異常偵測和貢獻分析權益
 
 以下是 Analysis Workspace 中「異常偵測」和「貢獻分析」的詳細權益清单。
 
@@ -134,7 +134,7 @@ Analysis Workspace 異常偵測的演算法包含
    <td colname="col3"> <p>每月 20 個代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+Predictive Workbench </p> </td> 
+   <td colname="col1"> <p>Predictive Workbench附加元件 </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>代號数量不受限制 </p> </td> 
   </tr> 

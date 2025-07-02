@@ -1,19 +1,25 @@
 ---
-description: 在 Analysis Workspace 中使用量度有兩種方式。
-title: Analysis Workspace 中的量度
+description: 瞭解各項量度，以及如何在Adobe Analytics中使用量度。
+title: 量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 69e67ca6bdd074a982b70e040b37b26434d216af
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 25%
+source-wordcount: '847'
+ht-degree: 21%
 
 ---
 
 # 量度
 
 量度可讓您量化 Analysis Workspace 中的資料點。它們最常用作視覺效果中的欄，並和維度相連結。
+
+## 在 Analysis Workspace 中使用量度
+
+量度在Analysis Workspace中的使用有彈性。 將量度拖曳至空白的自由格式表格，以檢視專案日期期間的量度趨勢。 您也可以拖曳出現維度時的量度，以檢視該量度與每個維度專案的比較情形。 將量度拖曳至現有量度標頭上方會取代量度，並將量度拖曳至標頭旁，可讓您並排看到兩個量度。
+
+如需有關如何將量度和其他型別的元件新增到Analysis Workspace的資訊，請參閱[在Analysis Workspace中使用元件](use-components-in-workspace.md)。
 
 ## 量度類型
 
@@ -41,7 +47,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ## 建立計算量度
 
-計算量度可讓您使用簡單的運運算元或統計函式，輕鬆檢視量度彼此間的關聯性。
+計算量度可讓您使用簡單的運運算元或統計函式，檢視量度彼此間的關聯性。
 
 
 建立計算量度有數種方式。 您選擇的方法會決定計算量度是否可從所有專案的元件清單中使用，或僅用於建立該量度的專案。
@@ -73,15 +79,15 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    選取單一欄時，可使用下列選項：
 
-   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 這會使用[Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean)函式。
+   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 資料行值使用[Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean)函式。
 
-   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 這會使用[Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)函式。
+   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 資料行值使用[Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)函式。
 
-   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 這會使用[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)函式。
+   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 資料行值使用[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)函式。
 
-   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 這會使用[Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum)函式。
+   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 資料行值使用[資料行最小值](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum)函式。
 
-   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 這會使用[資料行Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum)函式。
+   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 資料行值使用[資料行Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum)函式。
 
    選取兩欄時，可使用下列選項：
 
@@ -95,7 +101,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
-[計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
+[計算量度：實作較少的量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比較不同歸因模型的量度

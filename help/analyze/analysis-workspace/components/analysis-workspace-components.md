@@ -1,21 +1,21 @@
 ---
-description: Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；您可將這些元件拖放至專案上。
 title: 元件概觀
+description: 瞭解Adobe Analytics提供哪些元件，以及如何在報表中使用這些元件。
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 94%
+source-wordcount: '884'
+ht-degree: 98%
 
 ---
 
 # 元件概觀
 
-元件是Adobe Analytics中的功能，可用於視覺效果（例如自由表格）或補充報表功能。
+元件是 Adobe Analytics 中的功能，可用於視覺效果 (例如自由格式表格)，或與報告功能搭配使用。
 
-若要從主要Adobe Analytics介面管理元件：
+若要從 Adobe Analytics 主介面管理元件：
 
 1. 從頂端列選取&#x200B;**[!UICONTROL 元件]**。
 1. 選取&#x200B;**[!UICONTROL 元件]**&#x200B;以查看您可以管理的元件概觀，或直接從選單中選取您要管理的元件。
@@ -25,10 +25,10 @@ ht-degree: 94%
 * [區段](/help/components/segmentation/seg-home.md)：建置、管理、共用強大且重點明確的客群區段，並將其套用到您的報告中。區段讓您根據特性或互動來識別人員子集。
 * [計算量度](/help/components/c-calcmetrics/cm-overview.md)：將量度和公式作為新元件用於報告中
 * [日期範圍](calendar-date-ranges/custom-date-ranges.md)：自訂和調整 Analysis Workspace 提供的日期範圍。
-* [已排程的專案](../curate-share/t-schedule-report.md)：管理您已排程的專案。
-* [位置](../../../components/locations/locations-manager.md)：管理專案匯出的目標位置。
-* [警報](/help/components/c-alerts/intellligent-alerts.md)：允許您根據變更的百分比或特定資料點接收通知。
-* [註解](annotations/overview.md)：將內容相關的資料細微差別和深入分析傳達給您的組織。
+* [已排程的專案](../curate-share/t-schedule-report.md)：管理已排程的專案。
+* [位置](../../../components/locations/locations-manager.md)：管理匯出專案的位置。
+* [警報](/help/components/c-alerts/intellligent-alerts.md)：根據變更的百分比或特定資料點對您發送通知。
+* [註解](annotations/overview.md)：向您的組織傳達內容相關的資料細微差別和洞察。
 * [偏好設定](/help/analyze/analysis-workspace/user-preferences.md)：管理 Analysis Workspace 的偏好設定。
 
 
@@ -64,12 +64,12 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
    | 元件動作 | 說明 |
    |--- |--- |
-   | ![Label](/help/assets/icons/Label.svg) [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
-   | ![Star](/help/assets/icons/Star.svg) [!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
+   | ![Label](/help/assets/icons/Label.svg)[!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後您可以透過選取![Filter](/help/assets/icons/Filter.svg)篩選或輸入 `#`，依左側面板的標記進行搜尋。標記也會作為元件管理員中的篩選器。 |
+   | ![Star](/help/assets/icons/Star.svg)[!UICONTROL **最愛項目**] | 將元件新增至最愛項目清單。如同標記，您可以依左側面板的「最愛項目」搜尋，並在元件管理員中依這些條件篩選。 |
    | ![StarOutline](/help/assets/icons/StarOutline.svg) **[!UICONTROL 取消最愛項目]** | 將元件從最愛項目清單移除。 |
-   | ![Checkmark](/help/assets/icons/Checkmark.svg) [!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
-   | ![Share](/help/assets/icons/ShareAlt.svg) [!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
-   | ![Delete](/help/assets/icons/Delete.svg) [!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Checkmark](/help/assets/icons/Checkmark.svg)[!UICONTROL **核准**] | 將元件標示為「已核准」，向您的使用者表示此元件已獲得組織核准。如同標記，您可以在左側面板中依已批准進行搜尋和篩選。![Checkmark](/help/assets/icons/Checkmark.svg)識別已核准的元件。 |
+   | ![Share](/help/assets/icons/ShareAlt.svg)[!UICONTROL **共用**] | 缃元件提供給組織中的用戶共用。此選項僅適用於自訂元件，例如區段或計算量度。 |
+   | ![Delete](/help/assets/icons/Delete.svg)[!UICONTROL **刪除**] | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
 
 自訂元件也可透過其各自的元件管理員來管理。如需範例，請參閱[管理區段](/help/components/segmentation/segmentation-workflow/seg-manage.md)。
 
@@ -134,15 +134,15 @@ Analysis Workspace 中的元件由量度、維度、區段和日期範圍組成�
 
 Components in Analysis Workspace consist of dimensions, metrics, segments, and date ranges that you can drag-and-drop onto a project. 
 
-To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant), [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+To access the Components menu, click the **[!UICONTROL Components]** icon in the left rail. You can switch among ![WebPage](/help/assets/icons/WebPage.svg)[panels](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), [visualizations](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html), and components from the left rail icons or by using [hotkeys](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/component-overview.png)
 
-You can also adjust the [View density settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
+You can also adjust the [View density settings](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) for the project to see more values in the left rail at once by going to **[!UICONTROL Project > Project Info & Settings > View Density]**.
 
 ## Dimensions {#dimensions}
 
-[**Dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=zh-Hant) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
+[**Dimensions**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html) are text attributes that describe your visitor behavior and can be viewed, broken down, and compared in your analysis. They can be found in the left Component rail (orange section) and are typically applied as rows of a table. 
 
 Examples of dimensions include [!UICONTROL Page Name], [!UICONTROL Marketing Channels], [!UICONTROL Device Type], and [!UICONTROL Products]. Dimensions are provided by Adobe and are captured through your custom implementation (eVar, Props, classifications, etc).
 
@@ -154,27 +154,27 @@ Examples of dimension items include [!UICONTROL Homepage] (within the [!UICONTRO
 
 ## Metrics {#metrics}
 
-[**Metrics**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=zh-Hant) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
+[**Metrics**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html) are quantitative measures about visitor behavior. They can be found in the left Component rail (green section) and are typically applied as columns of a table.
 
-Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant).
+Examples of metrics include [!UICONTROL Page views], [!UICONTROL Visits], [!UICONTROL Orders], [!UICONTROL Average Time spent], and [!UICONTROL Revenue/Order]. Metrics are provided by Adobe, or captured through your custom implementation ([!UICONTROL Success events]), or created using the [Calculated metric builder](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
 
 ![](assets/metrics.png)
 
 ## Segments {#segments}
 
-[**Segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html?lang=zh-Hant) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
+[**Segments**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html) are audience filters that are applied to your analysis. They can be found in the left Component rail (blue section) and are typically applied at the top of a panel or above metric columns in a table. 
 
-Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant), or created using the [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant).
+Examples of segments include [!UICONTROL Mobile Device Visitors], [!UICONTROL Visits from Email], and [!UICONTROL Authenticated Hits]. Segments are provided by Adobe, or created in the [panel dropzone](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Segment builder](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
 ![](assets/segments.png)
 
 ## Date Ranges {#date-ranges}
 
-[**Date Ranges**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hant) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
+[**Date Ranges**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) are the range of dates you conduct your analysis across. They can be found in the left Component rail (purple section) and are typically applied in the calendar of each panel.
 
 You can make the date range components relative to the panel calendar. For additional information, see [About relative panel date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
 
-Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant), or created using the [Date range builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant).
+Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICONTROL This month]. Date ranges are provided by Adobe, applied in the [panel calendar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html), or created using the [Date range builder](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html).
 
 ![](assets/date-ranges.png)
 

@@ -1,13 +1,13 @@
 ---
 title: 歸因概觀
-description: 將成功事件的評分歸因於多個維度項目的概念。
+description: 瞭解將成功事件的評分歸因於多個維度專案的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 89%
+source-wordcount: '489'
+ht-degree: 81%
 
 ---
 
@@ -81,4 +81,4 @@ Attribution 包含下列功能：
 
 ## 不支援歸因的Adobe Analytics工具
 
-任何不支持 Analytics 2.0 API 的工具 (例如 Report Builder) 都不支持 Attribution。
+任何不支援Analytics 2.0 API的工具(例如[舊版Report Builder](/help/analyze/legacy-report-builder/home.md))都不支援歸因。

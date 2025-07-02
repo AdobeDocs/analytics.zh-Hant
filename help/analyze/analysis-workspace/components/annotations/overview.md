@@ -1,14 +1,14 @@
 ---
-title: 註解概觀
-description: 如何在 Workspace 中使用註解。
+title: 註解概述
+description: 如何在Analysis Workspace中使用註解。
 role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e9370d42e84237cb563d9b0776612ca08f097c0b
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 85%
+source-wordcount: '319'
+ht-degree: 97%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 85%
 
 您可以利用註解，有效地向組織中其他利害關係人傳達內容相關資料的細微差別和深入分析。您可以利用註解，將行事曆事件與特定維度和量度連結。您可以用已知的資料問題、國定假日、行銷活動啟動等，針對日期或日期範圍加入註解。接著，您可以使用圖形方式顯示事件，並查看行銷活動或其他事件是否已對您的網站流量、行動應用程式使用情形、收入或任何其他量度造成影響。
 
-例如，您與您的組織共用專案。如果您的不重複訪客明顯減少，您可以建立減少的&#x200B;**訪客**&#x200B;註解，並將其範圍設定為整個報表套裝。 當您的使用者檢視包含該日期的任何報表套裝時，他們會在他們的專案中看到此註解，連同他們的資料。
+例如，您與您的組織共用專案。如果您的不重複訪客數明顯下降，可以建立「**訪客數減少**」註解，而且將整個報告套裝設定為顯示範圍。您的使用者檢視包含該日期的任何報告套裝時，會在他們的專案中看到此註解以及他們的資料。
 
-![醒目提示註解的折線圖。](assets/annotation-example.png)
+![折線圖及醒目標示的註解。](assets/annotation-example.png)
 
 註解可以適用於：
 
@@ -67,7 +67,7 @@ Keep this in mind:
 
 By default, only Admins can create annotations. Users have rights to view annotations like they do with other other Analytics components (such as segments, calculated metrics, etc.).
 
-However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant).
+However, Admins can give the [!UICONTROL Annotation Creation] permission (Analytics Tools) to users via the [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html).
 
 ## Turn annotations on or off {#annotations-on-off}
 

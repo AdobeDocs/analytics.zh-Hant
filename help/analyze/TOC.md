@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '870'
 ht-degree: 97%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 97%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -38,7 +38,7 @@ ht-degree: 97%
          + [建立資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [管理資料夾](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [新增或移動專案](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
-      + [多報告套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [多個報告套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [快捷鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
@@ -46,24 +46,24 @@ ht-degree: 97%
       + [使用範本](analysis-workspace/templates/use-templates.md)
       + [建立範本](analysis-workspace/templates/create-templates.md)
    + 元件 {#components}
-      + [元件概觀](analysis-workspace/components/analysis-workspace-components.md)
-      + [在工作區中使用元件](analysis-workspace/components/use-components-in-workspace.md)
+      + [概觀](analysis-workspace/components/analysis-workspace-components.md)
+      + [使用元件](analysis-workspace/components/use-components-in-workspace.md)
       + [新增元件說明](analysis-workspace/components/add-component-descriptions.md)
       + 註解 {#annotations}
-         + [註解概觀](analysis-workspace/components/annotations/overview.md)
+         + [概觀](analysis-workspace/components/annotations/overview.md)
          + [建立註解](analysis-workspace/components/annotations/create-annotations.md)
          + [管理註解](analysis-workspace/components/annotations/manage-annotations.md)
          + [檢視註解](analysis-workspace/components/annotations/view-annotations.md)
-         + [行動註解](analysis-workspace/components/annotations/mobile-annotations.md)
+         + [行動計分卡註解](analysis-workspace/components/annotations/mobile-annotations.md)
       + 維度 {#dimensions}
          + [預覽維度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [劃分維度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
          + [時間分隔維度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [量度](analysis-workspace/components/apply-create-metrics.md)
       + 區段 {#segments}
-         + [建立區段](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [概觀](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速區段](analysis-workspace/components/segments/quick-segments.md)
-      + 日曆和日期範圍  {#calendar-date-ranges}
+      + 日期範圍 {#calendar-date-ranges}
          + [概觀](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立日期範圍](analysis-workspace/components/calendar-date-ranges/create.md)
          + [管理資料範圍](analysis-workspace/components/calendar-date-ranges/manage.md)
@@ -126,11 +126,11 @@ ht-degree: 97%
       + [媒體播放時間](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個項目](analysis-workspace/c-panels/next-previous.md)
       + [頁面摘要](analysis-workspace/c-panels/page-summary.md)
-      + [快速深入分析](analysis-workspace/c-panels/quickinsight.md)
+      + [快速洞察](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較 {#segment-comparison}
          + [概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
-         + [使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
+         + [所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 組織與共用 {#curate-share}
       + [概觀](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
@@ -141,26 +141,26 @@ ht-degree: 97%
       + [傳送和排程](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
-      + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
+      + [模型、容器和回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
-      + [歸因最佳做法](analysis-workspace/attribution/best-practices.md)
+      + [最佳做法](analysis-workspace/attribution/best-practices.md)
       + [常見問題](analysis-workspace/attribution/faq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
-   + [區段 IQ](analysis-workspace/segment-iq.md)
+   + [歷程管理](analysis-workspace/journey-iq.md)
+   + [區段比較](analysis-workspace/segment-iq.md)
    + 異常偵測 {#anomaly-detection}
-      + [異常偵測概觀](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
-      + [在 Analysis Workspace 中檢視異常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
+      + [概觀](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [檢視異常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [關閉異常偵測](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [執行貢獻分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
-      + [用於異常偵測的統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
+      + [統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
    + 工作區常見問答集 {#workspace-faq}
       + [常見問題](analysis-workspace/workspace-faq/faq.md)
-      + [最佳化 Analysis Workspace 效能](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [錯誤和疑難排解 ](analysis-workspace/workspace-faq/error-messages.md)
+      + [限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder 概觀](report-builder/rb-overview.md)
    + [Report Builder 設定](report-builder/report-builder-setup.md)

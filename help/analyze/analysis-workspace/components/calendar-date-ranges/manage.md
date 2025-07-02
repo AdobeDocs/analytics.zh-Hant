@@ -1,12 +1,13 @@
 ---
 title: 管理日期範圍
-description: 在 Analysis Workspace 中共用、重新命名或刪除日期範圍。
+description: 瞭解如何在Analysis Workspace中管理日期範圍。
 feature: Date Ranges
 role: User
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 

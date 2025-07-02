@@ -1,13 +1,13 @@
 ---
-description: 了解如何在 Analysis Workspace 專案中新增元件
-title: 在 Analysis Workspace 中使用元件
+description: 瞭解如何在Analysis Workspace中使用專案元件
+title: 在Analysis Workspace中使用元件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '953'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 1. 捲動至或搜尋要新增的元件，然後將其拖曳到專案中的面板或視覺效果中。
 
-1. 您可以選擇將元件拖曳到面板頁首中的區段放置區域。此拖放動作將元件定義為一個區段，並將此區段套用至面板中的所有內容。如欲了解如何使用面板上的區段放置區域將面板分段，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+1. 您可以選擇將元件拖曳到面板頁首中的區段放置區域。此拖放動作將元件定義為一個區段，並將此區段套用至面板中的所有內容。若要瞭解如何在面板上使用區段放置區域來劃分面板區段，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
 1. 如需詳細資訊，請參閱下列章節：
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 
 若要將量度新增至 Analysis Workspace 中的專案：
 
-1. 根據[在專案中新增元件](#add-components-to-a-project)的說明，開始為 Analysis Workspace 專案新增量度。
+1. 開始將量度新增至您在Analysis Workspace中的專案，如[將元件新增至專案](#add-components-to-a-project)中所述。
 
 
 
@@ -96,24 +96,24 @@ ht-degree: 97%
 
 * 在面板中新增區段
 當您在面板中新增區段時，這些區段將會套用至面板內的所有內容。
-如欲了解如何使用面板上的區段放置區域將面板分段，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)。
+若要瞭解如何在面板上使用區段放置區域來劃分面板區段，請參閱[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)中的[放置區域](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
 * 在視覺效果中新增區段
 當您在自由格式表格中的欄位新增區段時，這些區段將會套用至表格欄位內的所有內容。您也可以新增區段作為流失視覺效果的一部分。
 
 * 在元件中使用區段
-當您定義[計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[註解](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)，或甚至[區段](/help/components/segmentation/segmentation-workflow/seg-build.md)之類的元件時，您可以將區段作為定義的一部分使用。
+當您定義[計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[註解](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)或甚至[區段](/help/components/segmentation/segmentation-workflow/seg-build.md)等元件時，您可以使用區段做為定義的一部分。
 
 
 ### 在專案中新增日期範圍
 
-[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)確定 Analysis Workspace 中的報告時間段，並且可以套用至專案中一或多個面板，以及部分視覺效果 (例如自由格式表格)。
+[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)決定Analysis Workspace中的報表時間範圍。 資料範圍可套用至專案中的面板，也可套用至某些視覺效果（例如自由表格）。
 
 每個面板都包含一個預設的日期範圍。有多種方法可以更新面板的日期範圍。更新 Analysis Workspace 面板日期範圍的其中一種方法，是從左側面板拖曳日期範圍元件：
 
 1. 或者，根據[在專案中新增元件](#add-components-to-a-project)的說明，將日期範圍新增至 Analysis Workspace 專案中。
 
-1. 從左側面板拖放日期範圍至：
+1. 從左側面板拖放日期範圍：
 
    * 目前日期範圍，可修改面板的日期範圍。
 
@@ -125,13 +125,13 @@ ht-degree: 97%
 
 ## 元件資訊
 
-將游標停留在任何元件上，即可顯示![更多資訊](/help/assets/icons/InfoOutline.svg)。選取後將會彈出一個視窗，其中包含有關該元件的附加資訊。
+將游標停留在任何元件上，即可顯示![更多資訊](/help/assets/icons/InfoOutline.svg)。當您選取![資訊大綱](/help/assets/icons/InfoOutline.svg)時，會顯示一個快顯視窗，其中包含有關元件的其他資訊。
 
 ![元件資訊](assets/component-info.png)
 
 根據存取控制，您可以：
 
-* 存取元件的![書籤](/help/assets/icons/Bookmark.svg) [!UICONTROL 資料字典]定義。
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
 * 存取已定義元件的![Edit](/help/assets/icons/Edit.svg)元件產生器。
 
 

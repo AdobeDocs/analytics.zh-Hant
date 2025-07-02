@@ -1,13 +1,13 @@
 ---
-description: 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
+description: 瞭解時間分段維度如何取得所收集事件的時間戳記，並將其劃分為更有意義的維度，例如一天中的小時或星期幾。
 title: 時間分段維度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '238'
+ht-degree: 84%
 
 ---
 

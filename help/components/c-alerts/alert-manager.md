@@ -1,124 +1,246 @@
 ---
-description: 管理警報。
-title: 警報管理器概觀
+description: 瞭解如何管理警報。
+title: 管理警報
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 86580b3c149c0feb1d70d9ba197cf0810e472586
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 22%
 
 ---
 
-# 警報管理器
 
-您可以在警報管理器中管理現有警報。您可以對警報執行各種管理任務，例如標記、重新命名、刪除等。
+# 管理警報
 
-警報管理器的結構與 [區段管理員](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-hant)及[計算量度管理員](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=zh-hant)非常相似。
 
-![](assets/alert-manager.png)
+您可以從中央[!UICONTROL 警示]管理介面篩選、標籤、刪除、重新命名、複製、啟用、停用、更新及匯出警示。 若要管理警報：
 
-## 建立警報
+* 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 警示]**。
 
-若要從警報管理器建立警報：
+警報管理員的結構類似於[區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)和[計算量度管理員](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)。
 
-1. 請選取「**[!UICONTROL 元件]** > **[!UICONTROL 警報]**」，以存取 Adobe Analytics 中的警報管理器。
 
-   ![](assets/alert-manager.png)
+## 警報管理器
 
-1. 請選取「[!UICONTROL **新增**]」(或者，如果您沒有任何現有警報，則選取「[!UICONTROL **建立新警報**]」)。
+「警報」管理員具有下列介面元素：
 
-1. 請選取與您要建立之警報的相對應警報類型：
+![篩選器介面](assets/alerts-manager.png)
 
-   * [!UICONTROL **分析資料警報**]：警報會在資料出現異常事件時通知您。
+### 警示清單
 
-     如果選取此選項，請繼續「[建立警報](/help/components/c-alerts/alert-builder.md)」，以了解更多有關建立警報的詳細資訊。
+警示清單➊會顯示您擁有的所有警示、已涵蓋您所有專案的警示，以及已與您共用的警示。 清單有以下欄位：
 
-   * [!UICONTROL **伺服器呼叫使用量警報**]：此警報用於通知您伺服器呼叫耗用量和諾使用量資料存在超額風險或發生超額情況。
+| 欄 | 說明 |
+|---|---|
+| ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)警報。 |
+| **[!UICONTROL 標題和說明]** | 若要編輯警報，請選取標題連結，以開啟[警報產生器](alert-builder.md#alert-builder)。 |
+| **[!UICONTROL 類型]** | 警報型別： Adobe Analytics資料警報或伺服器呼叫使用量警報。 |
+| **[!UICONTROL 已啟用]** | 警報已啟用或已停用。 |
+| **[!UICONTROL 報告套裝]** | 套用此警報的報告套裝。 |
+| **[!UICONTROL 所有者]** | 警示的擁有者。 如果您不是管理員，您只會看到自己擁有的警示或與您共用的警示。 |
+| **[!UICONTROL 標記]** | 此警示的標籤。 |
+| **[!UICONTROL 過期日期]** | 警示設為到期的日期和時間。 |
+| **[!UICONTROL 修改日期]** | 上次修改警示的日期和時間。 |
 
-     如果選取此選項，請繼續「[伺服器呼叫使用量警報](/help/admin/admin/c-server-call-usage/scu-alerts.md)」。
+<!-- 
 
-     >[!NOTE]
-     >
-     >您必須是 Analytics 管理員或具有伺服器呼叫使用權限的使用者，才能存取伺服器呼叫使用量。
+When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul>
 
-## 管理現有警報
+-->
 
-您可以對現有警報執行各種動作，例如標記、重新命名、刪除等等。
+使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)指定要顯示的欄位。
 
-若要警報管理器中管理現有警報：
+### 動作列
 
-1. 請選取「**[!UICONTROL 元件]** > **[!UICONTROL 警報]**」，以存取 Adobe Analytics 中的警報管理器。
+您可以使用動作列➋對警示執行動作。 動作列包含以下動作：
 
-   ![](assets/alert-manager.png)
+| 圖示 | 動作 | 說明 |
+|:---:|---|---|
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 新增]** | 使用[警報產生器](alert-builder.md#alert-builder)新增另一個警報。 |
+| ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *依標題搜尋*] | 當清單中未選取警示時，請使用此搜尋欄位來搜尋警示。 |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤選取的警報。 在&#x200B;**[!UICONTROL 標籤警示]**&#x200B;對話方塊中，選取或取消選取所選警示的標籤。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選警示的標籤。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除選取的警示。 系統會提示您進行確認。 |
+| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的警報。 選取後，您可以重新命名內嵌警報。 |
+| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製選取的警報。 已建立具有相同名稱與尾碼`(Copy)`的新警示。 |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 啟用]**&#x200B;或&#x200B;**[!UICONTROL 停用]** | 啟用或停用選取的警示。 |
+| ![重新整理](/help/assets/icons/Refresh.svg) | **[!UICONTROL 續約]** | 續約警報的到期日。無論原始到期日為何，到期日都會從您選取此選項的當天算起延長1年。 |
+| ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將警示匯出至`Alerts List.csv`檔案。 |
 
-1. 請選取一個或多個您要管理的警報。
 
-   ![](assets/alert-manager-tasks.png)
+### 使用中的篩選欄
 
-1. 在動作列中，選取下列任一選項：
+篩選器列➌顯示從篩選器面板套用至警示清單的作用中篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
 
-   | 動作 | 函數 |
-   |---------|----------|
-   | [!UICONTROL **標記**] | 將標記套用至警報。這可協助您組織警報以方便使用。 |
-   | [!UICONTROL **刪除**] | 刪除此警報。 |
-   | [!UICONTROL **重新命名**] | 重新命名此警報。 |
-   | [!UICONTROL **核准**] | 將警報標記為已核准。 |
-   | [!UICONTROL **複製**] | 建立警報副本 (重複)。 |
-   | [!UICONTROL **停用**] | 停用目前啟用的警報。 |
-   | [!UICONTROL **啟用**] | 啟用目前停用的警報。 |
-   | [!UICONTROL **續約**] | 續約警報的到期日。這將延長警報到期日，無論其原始到期日為何，將從您選取此選項之日起延長 1 年。 |
-   | [!UICONTROL **匯出為 CSV**] | 將警報匯出為 .CSV 檔案。 |
+
+### 篩選面板
+
+您可以使用![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選警示清單。 篩選器面板會顯示篩選器的型別，以及遵循特定篩選器的警示數目。
+
+
+1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。如果您需要更多空間以儲存警示清單，可以再次選取![篩選器](/help/assets/icons/Filter.svg)以關閉面板。
+1. 從任何可用的篩選器區段中選取篩選器。
+
+
+#### 標籤篩選區段
+
+{{tagfiltersection}}
+
+
+#### 報表套裝篩選區段
+
+{{reportsuitefiltersection}}
+
+
+#### 「擁有者」篩選器區段
+
+{{ownerfiltersection}}
+
+
+#### 啟用狀態過濾器區段
+
+{{enabledstatusfiltersection}}
+
+
+#### 類型篩選器區段
+
+{{typefiltersection}}
+
+
+#### 其他篩選器篩選區段
+
+{{otherfiltersfiltersection}}
+
+
 
 ## 編輯警報
 
-若要編輯現有警報：
+您可以編輯警報
 
-1. 請選取「**[!UICONTROL 元件]** > **[!UICONTROL 警報]**」，以存取 Adobe Analytics 中的警報管理器。
+* 在[[!UICONTROL 警示]清單](#alerts-list)中，選取警示的標題。
+
+您使用[警報產生器](alert-builder.md#alert-builder)來編輯警報。
+
+## 疑難排解警報
+
+對警報問題進行疑難排解時，請向Adobe支援提供JID （工作執行個體ID）編號。 JID號碼位於您收到的警報電子郵件通知底部。
+
+![警報電子郵件](assets/alerts-email.PNG)
+
+
+<!--
+
+# Manage alerts
+
+You can manage existing alerts in the Alerts manager. You can perform various management tasks on alerts, such as tagging, renaming, deleting, and more.
+
+The Alerts manager is structured very much like the [Segment Manager](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html).
+
+ ![](assets/alert-manager.png)
+
+## Create alerts
+
+To create alerts from the Alerts manager:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
    ![](assets/alert-manager.png)
 
-1. 在「[!UICONTROL **標題和說明**]」欄中選取警報名稱。
+1. Select [!UICONTROL **Add**] (or [!UICONTROL **Create new alert**] if you don't have any existing alerts).
 
-1. 視需要編輯警報。
+1. Select the alert type that corresponds to the alert that you want to create:
 
-   下列是編輯警報時您可以執行的一些動作：
+   * [!UICONTROL **Analytics data alert**]: An alert to notify you when abnormal events occur in your data. 
 
-   * 新增警報至其他報告套裝
-   * 新增或修改說明
-   * 修改時間詳細程度
-   * 修改收件者
-   * 修改到期日
-   * 修改量度和篩選器
+     If you select this option, continue with [Create alerts](/help/components/c-alerts/alert-builder.md) for more details about creating alerts.
 
-1. 請選取「[!UICONTROL **儲存**]」。
+   * [!UICONTROL **Server call usage alert**]: An alert to notify you of the risk or occurrence of an overage in your server call consumption and commitment data. 
 
-## 設定資料欄
+     If you select this option, continue with [Server call usage alerts](/help/admin/admin/c-server-call-usage/scu-alerts.md).
 
-您可以透過設定顯示的欄位來設定警報管理器中每個警報顯示的資訊。
+     >[!NOTE]
+     >
+     >You must be an Analytics administrator or a user with the Server call usage permission in order to have access to server call usage. 
 
-若要設定警報管理器中的可見欄：
+## Manage existing alerts
 
-1. 在 Adobe Analytics 中，選取「**[!UICONTROL 元件]**」索引標籤，然後選取「**[!UICONTROL 警報]**」。
+You can perform various actions on existing alerts, such as tagging, renaming, deleting, and so forth.
 
-1. 在警報管理器中，選取「**自訂欄**」圖示 ![自訂欄圖示](assets/customize-columns-icon.png)，然後選取您想要在警報管理器中顯示的欄。
+To manage existing alerts in the Alerts manager:
 
-   可使用下列欄：
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
 
-   | 欄標題 | 說明 |
+   ![](assets/alert-manager.png)
+
+1. Select one or more alerts that you want to manage.
+
+   ![](assets/alert-manager-tasks.png)
+
+1. In the action bar, select any of the following options:
+
+   | Action | Function | 
+   |---------|----------|
+   | [!UICONTROL **Tag**] | Apply a tag to an alert. This helps you to organize alerts for ease of use. | 
+   | [!UICONTROL **Delete**] | Deletes the alert. | 
+   | [!UICONTROL **Rename**] | Renames the alert. |
+   | [!UICONTROL **Approve**] | Mark the alert as Approved. |
+   | [!UICONTROL **Copy**] | Creates a copy (duplicate) of the alert. |
+   | [!UICONTROL **Disable**] | Disables an alert that is currently enabled. |
+   | [!UICONTROL **Enable**] | Enables an alert that is currently disabled. |
+   | [!UICONTROL **Renew**] | Renews the alert expiration date. This extends the  expiration date to be 1 year from the day you selected this option, regardless of the original expiration date. |
+   | [!UICONTROL **Export to CSV**] | Exports the alert to a .CSV file. |
+
+## Edit an alert
+
+To edit an existing alert:
+
+1. Select **[!UICONTROL Components]** > **[!UICONTROL Alerts]** to access the Alerts manager in Adobe Analytics.
+
+   ![](assets/alert-manager.png)
+
+1. Select the alert name in the [!UICONTROL **Title and description**] column.
+
+1. Edit the alert as desired. 
+
+   Following are some of the things you can do when editing an alert:
+
+   * Add alerts to other report suites
+   * Add or modify the description
+   * Modify the time granularity
+   * Modify the recipients 
+   * Modify the expiration date
+   * Modify the metrics and filters
+
+1. Select [!UICONTROL **Save**].
+
+## Configure columns 
+
+You can configure the information displayed for each alert in the Alerts manager by configuring the columns that are displayed.
+
+To configure the visible columns in the Alerts manager:
+
+1. In Adobe Analytics, select the **[!UICONTROL Components]** tab, then select **[!UICONTROL Alerts]**. 
+
+1. In the Alert manager, select the **Customize columns** icon ![Customize columns icon](assets/customize-columns-icon.png), then select the columns that you want to be displayed in the Alerts manager.
+
+   The following columns are available:
+
+   | Column title  | Description |
    |---|---|
-   | 標題和說明 | 在警報產生器中提供這些值。若要編輯標題和說明，請選取標題連結以開啟警報產生器。 |
-   | 我的最愛 | 在每個警報旁會顯示星形圖示，讓您將警報標記為我的最愛。<!-- For more information, see [Mark calculated metrics as favorites](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md). --> |
-   | 類型 | 顯示警報為分析資料警報還是伺服器呼叫使用量警報。 |
-   | 已啟用 | 顯示目前警報是啟用或停用。 |
-   | 報告套裝 | 指出上次儲存警報的報告套裝。 |
-   | 所有者 | 指出警報的擁有者。如果您不是管理員，您只能查看自己所擁有或已與您共用的量度。 |
-   | 標記 | 顯示由您或與您共用警報之人員套用至警報的標記。 |
-   | 到期日 | 顯示警報設定到期的日期和時間。 |
-   | 日期已修改 | 指出上次修改警報的日期。 |
+   | Title and description | These values are provided in the Alert builder. To edit the title and description, select the title link to open the Alert builder.  |
+   | Favorites  | Displays star icons next to each alert, allowing you to mark alerts as favorites. |
+   | Type | Shows whether the alert is an Analytics data alert or a Server call usage alert. |
+   | Enabled | Shows whether the alert is currently enabled or disabled. | 
+   | Report suite | Indicates in which report suite the alert was last saved.  |
+   | Owner | Indicates who owns the alert. As a non-admin, you can see only alerts you own or those that were shared with you.  |
+   | Tags | Shows tags that were applied to the alert, either by you or by people who shared the alert with you.  |
+   | Expiration date | Shows the date and time when the alert is set to expire. |
+   | Date modified | Indicates the date when the alert was last modified.  |
 
    {style="table-layout:auto"}
-
-   <!-- When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> -->
-
+   
+   
+    When "Last used" column is added, add this information as the description: Shows the date when the alert was last used. <p>This information can help you determine whether a component is valuable to users in your organization, where it is used, and if it needs to be deleted or modified.</p><p>Consider the following when viewing this column:</p><ul><li>This information does not include usage from the API, Report Builder, or Data Warehouse.</li><li>For some components, this column might not contain data if the component was last used prior to September 2023.</li></ul> 
+   
+-->
 

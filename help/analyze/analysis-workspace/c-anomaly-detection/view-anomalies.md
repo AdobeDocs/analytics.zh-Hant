@@ -4,16 +4,16 @@ title: 在 Analysis Workspace 中檢視異常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 57%
+source-wordcount: '447'
+ht-degree: 52%
 
 ---
 
-# 在 Analysis Workspace 中檢視異常
+# 檢視異常
 
-您可以在表格或線性圖中檢視異常。
+您可以在Analysis Workspace的表格或折線圖中檢視異常。
 
 ## 在表格中檢視異常 {#section_869A87B92B574A38B017A980ED8A29C5}
 
@@ -27,9 +27,10 @@ ht-degree: 57%
 
    偵測到資料異常的每一列右上角都會顯示◥。
 
-   每一列➋中的&#x200B;**彩色垂直線**&#x200B;表示預期的值。 每一列➊中的&#x200B;**彩色陰影區域**&#x200B;表示實際值。 線條 (預期值) 與陰影區域 (實際值) 的比較方式會決定是否有異常。 （根據[異常偵測所使用的統計技術](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，將觀察視為異常。）
+   每一列&#x200B;**中的**&#x200B;彩色垂直線➋表示預期的值。 每一列&#x200B;**中的**&#x200B;彩色陰影區域➊表示實際值。 線條 (預期值) 與陰影區域 (實際值) 的比較方式會決定是否有異常。 （根據[異常偵測所使用的統計技術](/help/analyze/analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)中所述的進階統計技術，將觀察視為異常。）
 
 1. 選取資料列右上角的◥以檢視有關異常的詳細資訊。 這會顯示實際值高於或低於預期值的偏離程度 (以百分比表示)。
+1. 選取[開啟貢獻分析](run-contribution-analysis.md)以開始貢獻分析。
 
 ## 在線性圖中檢視異常
 

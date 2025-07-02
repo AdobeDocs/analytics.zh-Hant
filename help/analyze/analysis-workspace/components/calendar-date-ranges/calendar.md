@@ -1,13 +1,13 @@
 ---
-description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
-title: 日曆和日期範圍概觀
+description: 使用日曆和資料範圍在Analysis Workspace中指定日期範圍。
+title: 日期範圍概觀
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 182b92707eca36eaebe2e5c7f041f153868f09c2
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-Hant) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

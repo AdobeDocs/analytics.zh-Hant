@@ -3,10 +3,10 @@ title: 量度概觀
 description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '219'
+ht-degree: 89%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 100%
 
 量度可讓您量化維度項目，例如，查看您網站上哪些頁面的頁面檢視次數最多。您也可以分析量度在一段時間內的趨勢，例如，查看訪客每天在您的網站下了多少訂單。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
 
-例如，如果您將「頁面」維度與「造訪」量度結合，您將會看到排名報表，其中顯示您最常造訪的頁面：
+例如，若您將&#x200B;**[!UICONTROL 頁面]**&#x200B;維度與&#x200B;**[!UICONTROL 造訪]**&#x200B;量度結合，您將會收到排名報表，其中顯示您最常造訪的頁面：
 
-| `Page` | `Visits` |
-| --- | --- |
-| `Home page` | `800` |
-| `Product page` | `500` |
-| `Purchase page` | `100` |
+| 頁面 | 造訪 |
+| --- | ---: |
+| 首頁 | 800 |
+| 產品頁面 | 500 |
+| 購買頁面 | 100 |
+
+{style="table-layout:fixed"}
 
 如果您找不到特定量度的說明頁面，就表示它可能是[自訂事件](custom-events.md)或[計算量度](../c-calcmetrics/cm-overview.md)。
 
