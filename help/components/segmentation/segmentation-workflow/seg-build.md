@@ -1,12 +1,12 @@
 ---
-description: 區段產生器提供畫布來拖放量度維度、區段和事件，以便根據容器階層邏輯、規則和運運算元來區分訪客。 此一整合式開發工具可讓您建立並儲存簡單或複雜細分群體，用以識別跨瀏覽及頁面點擊的訪客屬性和動作。
+description: 「區段產生器」提供畫布來拖放「量度維度」、「區段」及「事件」，以便根據容器階層邏輯、規則和運算子來細分訪客。此一整合式開發工具可讓您建立並儲存簡單或複雜細分群體，用以識別跨瀏覽及頁面點擊的訪客屬性和動作。
 title: 建立細分群體
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.

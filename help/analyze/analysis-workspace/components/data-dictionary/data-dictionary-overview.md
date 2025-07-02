@@ -1,5 +1,5 @@
 ---
-description: Analysis Workspace中的資料字典可讓使用者編目及追蹤Analysis Workspace中的各種元件，包括其預期用途、已核准、重複專案等。
+description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和進行追蹤，包括其預定用途、已核准的元件、重複的元件等。
 title: 資料字典概觀
 feature: Components
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 74ef4e73b6ed1e2a4ad498e2314af704acb6d8cb
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="資料字典"
->abstract="資料字典可協助使用者和管理員追蹤及更瞭解其Analytics環境中的元件。 <br/>Analytics管理員負責組織資料字典中每個元件的相關資訊。"
+>abstract="資料字典可協助使用者和管理員進行追蹤，並且更加了解其 Analytics 環境中的元件。<br/>Analytics 管理員負責組織資料字典中每個元件的相關資訊。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -31,7 +31,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace的資料字典](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}。
+請參閱![查看影片](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 的資料字典](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on){target="_blank"}來觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,13 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 資料字典中可用的資訊包括：
 
-* 元件的功能和預期用途。
+* 元件的功能和預定用途。
 
-* 通常與您檢視的元件搭配使用的元件。
+* 通常與您所檢視之元件一起使用的元件。
 
-* 與您檢視的元件類似的元件。
+* 與您所檢視之元件相似的元件。
 
-* 系統管理員是否核准元件。
+* 元件是否獲得系統管理員核准。
 
 有關如何存取資料字典的資訊及其包含資訊的詳細資料，請參閱[查看資料字典中的元件資訊](view-data-dictionary.md)。
 
@@ -57,7 +57,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 資料字典幫助系統管理員追蹤和管理其 Analytics 環境中的元件。
 
-Analytics管理員可將資料字典用於以下用途：
+Analytics 管理員可以使用資料字典作以下用途：
 
 * 識別需要合併的重複元件。
 
@@ -88,9 +88,9 @@ Analytics管理員可將資料字典用於以下用途：
 
 ## 更新和整理資料字典
 
-Adobe Analytics管理員負責維護其組織的健康資料字典，如[監視資料字典健康情況](monitor-data-dictionary-health.md)中所述。
+Adobe Analytics 管理員負責為其組織維護健康的資料字典，如[監視資料字典健康情況](monitor-data-dictionary-health.md)中所述。
 
-在此程式中，Adobe Analytics管理員可以編輯資料字典中每個元件的相關資訊，如[編輯資料字典中的元件專案](edit-entries-data-dictionary.md)所述。
+在這個流程當中，Adobe Analytics 管理員可以編輯資料字典中每個元件的相關資訊，如[編輯資料字典中的元件項目](edit-entries-data-dictionary.md)所述。
 
 ## 移動、最小化或關閉資料字典
 
@@ -102,7 +102,7 @@ Adobe Analytics管理員負責維護其組織的健康資料字典，如[監視�
 
   如果您關閉並重新打開 Analysis Workspace，資料字典視窗將留在您上次移動的位置。<!--True?-->
 
-* 最小化視窗。
+* 將視窗最小化。
 
   最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
 
