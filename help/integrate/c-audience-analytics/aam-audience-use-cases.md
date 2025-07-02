@@ -22,11 +22,11 @@ ht-degree: 59%
 
 ## 外觀類似塑型 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-身為多媒體發佈商，您可以使用[區段比較](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison)來比較您的協力廠商對象，以瞭解關鍵的差異特徵。 此比較可協助您建立高價值的第一方區段，以用於鎖定目標。
+身為多媒體發佈商，您可以使用[區段比較](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison)來比較您的協力廠商對象，以瞭解關鍵的差異特徵。 此比較可協助您建立高價值的第一方區段，以用於鎖定目標。
 
 ## 潛在客戶分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)，在潛在客戶客群購買之前深入分析其行為，進而協助您了解促成轉換的動作。
+身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build)，在潛在客戶客群購買之前深入分析其行為，進而協助您了解促成轉換的動作。
 
 ## 人口統計目標定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
