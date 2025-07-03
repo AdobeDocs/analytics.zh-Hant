@@ -1,21 +1,21 @@
 ---
-title: 行動註解
-description: 了解如何顯露行動計分卡中的註解。
+title: 行動計分卡註解
+description: 瞭解如何在行動計分卡上移動註解。
 role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '307'
+ht-degree: 86%
 
 ---
 
 
 # 行動計分卡註解
 
-您可以在行動計分卡中顯示在 Workspace 中建立的註解。行動計分卡中的註解讓您共用有關組織和行銷活動內容資料的細微差別和深入分析。
+您可以在行動計分卡上顯示在Analysis Workspace中建立的註解。 行動計分卡中的註解讓您共用有關組織和行銷活動內容資料的細微差別和深入分析。
 
 
 ## 在行動計分卡中顯示註解

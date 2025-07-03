@@ -1,13 +1,13 @@
 ---
-description: 管理員可以在報表套裝中新增元件說明，或是使用資料字典。
+description: 瞭解管理員如何使用報表套裝或資料字典來新增說明至元件。
 title: 新增元件說明
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 42%
+source-wordcount: '232'
+ht-degree: 43%
 
 ---
 
@@ -47,5 +47,5 @@ Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深�
 >[!MORELIKETHIS]
 >
 >[報表元件設定](/help/components/vrs/vrs-components.md)
->&#x200B;>[資料字典元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[資料字典元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

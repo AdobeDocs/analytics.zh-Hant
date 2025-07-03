@@ -4,14 +4,14 @@ title: 在Analysis Workspace中使用元件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 80%
 
 ---
 
-# 在 Analysis Workspace 中使用元件
+# 在專案中使用元件
 
 元件組成任何 Analysis Workspace 專案的實際資料。元件由維度、量度、區段和日期範圍組成。您可以將元件拖曳至視覺效果或面板中，將其加入專案。
 
@@ -131,7 +131,7 @@ ht-degree: 80%
 
 根據存取控制，您可以：
 
-* 存取元件的![書籤](/help/assets/icons/Bookmark.svg) [!UICONTROL 資料字典]定義。
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
 * 存取已定義元件的![Edit](/help/assets/icons/Edit.svg)元件產生器。
 
 

@@ -1,12 +1,12 @@
 ---
-description: 瞭解如何在Analysis Workspace中建立和使用區段。
+description: 瞭解如何在Analysis Workspace和Adobe Analytics中建立和使用區段。
 title: 區段概述
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '306'
 ht-degree: 34%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 瞭解各項量度，以及如何在Adobe Analytics中使用量度。
+description: 瞭解各項量度，以及如何在Analysis Workspace中使用量度。
 title: 量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 24dd47e995523aedba1385ee8882af5e11c7b128
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 21%
@@ -101,7 +101,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
-[計算量度：實作較少的量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[計算量度：實作較少的量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比較不同歸因模型的量度

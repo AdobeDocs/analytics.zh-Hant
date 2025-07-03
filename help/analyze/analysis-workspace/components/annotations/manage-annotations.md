@@ -1,12 +1,12 @@
 ---
 title: 管理註解
-description: 如何在Analysis Workspace中管理註解。
+description: 瞭解如何在Analysis Workspace中管理註解。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '762'
 ht-degree: 88%
 
 ---

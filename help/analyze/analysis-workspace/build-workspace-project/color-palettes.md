@@ -1,17 +1,17 @@
 ---
 description: 瞭解如何使用Analysis Workspace中的視覺化調色盤。
-title: 視覺效果調色盤
+title: 視覺化調色盤
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
-# 視覺化調色盤 {#visualization-color-palette}
+# 視覺效果調色盤 {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
 

@@ -4,10 +4,10 @@ title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
    | **[!UICONTROL 量度]** | 選取想要檢查的量度。支援所有量度。 |
    | **[!UICONTROL 主要日期範圍]** | 任意形狀表格目前的日期範圍。<p>從資料視圖中的任何適用的日期範圍中進行選擇。</p> <p>如果您想要使用與視覺效果所在面板上相同的日期範圍，請選擇「[!UICONTROL **面板日期範圍**]」。</p> |
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
-   | **[!UICONTROL 篩選器 (可選)]** | 您對於此摘要感興趣的任何篩選器。 |
+   | **[!UICONTROL 區段 (選擇性)]** | 您對於此摘要感興趣的任何區段。 |
 
    {style="table-layout:auto"}
 
@@ -114,15 +114,14 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 ## 編輯視覺效果
 
-建置視覺效果後，您仍可編輯原始的設定。
+建立視覺效果後，您可以編輯原始設定。
 
-1. 按一下視覺效果右上角的鉛筆圖示 (設定齒輪圖示旁)。
+1. 選取視覺效果右上角的![編輯](/help/assets/icons/Edit.svg)。
 
-   ![視覺效果編輯圖示](assets/edit-icon.png)
 
-   現在您會返回原始設定檢視。
+   您現在已返回原始[組態檢視](#configure)。
 
-1. 依偏好變更量度、主要日期範圍、比較日期範圍或篩選條件。
+1. 依偏好變更量度、主要日期範圍、比較日期範圍或區段。
 
 >[!MORELIKETHIS]
 >

@@ -4,10 +4,10 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '1658'
-ht-degree: 95%
+ht-degree: 91%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 95%
    | **[!UICONTROL 僅限於第一次/最後一次發生次數]** | 將路徑限制為維度、項目/或量度開始或結束於第一次或最後一次發生次數的路徑。請參閱[僅限第一次/最後一次發生次數](#example-scenario-for-limit-to-firstlast-occurrence)，以了解更多詳細的解釋。 |
    | **[!UICONTROL 欄數]** | 流量圖中所需的欄數。您最多可以指定 5 個欄。 |
    | **[!UICONTROL 每欄展開的項目]** | 每欄中所需的項目數。您最多可以指定每欄展開 10 個項目。 |
-   | **[!UICONTROL 流量容器]** | 您可以在&#x200B;**[!UICONTROL 工作階段]**&#x200B;和&#x200B;**[!UICONTROL 人員]**&#x200B;之間切換，以進行路徑分析。這些設定可協助您了解人員層級的人員參與程度 (跨工作階段)，或是將分析限制為單一工作階段。 |
+   | **[!UICONTROL 流量容器]** | 您可以在&#x200B;**[!UICONTROL 造訪]**&#x200B;和&#x200B;**[!UICONTROL 訪客]**&#x200B;之間切換以分析路徑。 這些設定可協助您瞭解訪客在訪客層級的參與程度（跨越造訪），或將分析限制在單一造訪。 |
 
    >[!IMPORTANT]
    >
@@ -173,7 +173,7 @@ ht-degree: 95%
 | **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的篩選器，並移除包含剛剛排除的項目的方塊。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
 | **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
-| **[!UICONTROL 隱藏欄]**&#x200B;n | 隱藏視覺效果的選取欄。 |
+| **[!UICONTROL 隱藏欄]**n | 隱藏視覺效果的選取欄。 |
 | **[!UICONTROL 展開整個欄]** | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 根據選取欄建立客群。 |
 | **[!UICONTROL 摺疊整個欄]** | 隱藏該欄中的所有節點。 |
@@ -193,15 +193,15 @@ ht-degree: 95%
 
   在下列範例中，僅&#x200B;**最後一次***產品主類別* 的發生次數和&#x200B;*新增至購物車*流量中的每個步驟均包括在內。
   ![Lint，開始](assets/limitonlast.png)
-* 使用的系列因容器而異。如果使用&#x200B;**[!UICONTROL 人員]** 容器，一系列事件即為工作階段。如果使用&#x200B;**[!UICONTROL 工作階段]**&#x200B;容器，則一系列事件即為所提供日期範圍內特定使用者的所有事件。
+* 使用的系列因容器而異。如果使用&#x200B;**[!UICONTROL 訪客]**&#x200B;容器，則一連串事件為造訪。 如果使用&#x200B;**[!UICONTROL 訪客]**&#x200B;容器，則事件系列是所提供日期範圍內特定使用者的所有點選。
 * 在&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**&#x200B;欄位中使用量度或維度項目時，可以在進階設定中設定&#x200B;**[!UICONTROL 僅限於第一次/最後一次發生次數]**&#x200B;選項。
 
 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

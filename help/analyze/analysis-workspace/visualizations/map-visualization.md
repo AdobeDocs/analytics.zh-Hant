@@ -1,11 +1,11 @@
 ---
-description: 使用地圖視覺效果，在地理地圖視覺效果上繪製資料
+description: 使用地圖視覺效果，在地理地圖視覺效果上繪製資料。
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 97%
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的地圖視覺效果。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中，目前沒有可用的視覺效果_。_
+_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的地圖視覺效果。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中，目前沒有可用的視覺效果_。_
 
 >[!ENDSHADEBOX]
 
@@ -63,14 +63,14 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中地圖視覺效果](https://video.tv.adobe.com/v/23559/?quality=12){target=&#34;_blank&#34;}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中地圖視覺效果](https://video.tv.adobe.com/v/23559/?quality=12){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 ## 使用
 
-1. 新增![地圖](/help/assets/icons/Globe.svg) [!UICONTROL 地圖]視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。您僅可將地圖視覺效果拖曳至自由格式表格的頂部。
+1. 新增![地圖](/help/assets/icons/Globe.svg)[!UICONTROL 地圖]視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。您僅可將地圖視覺效果拖曳至自由格式表格的頂部。
 
    ![地圖設定](assets/map-configuration.png){width="50%"}
 

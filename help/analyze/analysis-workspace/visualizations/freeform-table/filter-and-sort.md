@@ -1,17 +1,17 @@
 ---
 description: 瞭解如何在Analysis Workspace中篩選及排序自由表格。
-title: 篩選及排序表格
+title: 篩選與排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '832'
 ht-degree: 98%
 
 ---
 
-# 篩選和排序自由格式表格
+# 篩選和排序
 
 Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
