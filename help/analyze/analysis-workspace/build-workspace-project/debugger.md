@@ -4,9 +4,10 @@ keywords: Analysis Workspace
 feature: Workspace Basics
 title: 專案偵錯工具
 role: User
-source-git-commit: e7aaafc95f60c71744cfeb3c59310d8ba2ea2576
+exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
+source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 3%
 
 ---
@@ -74,7 +75,7 @@ ht-degree: 3%
    * JSON (回應)
    * Curl 請求
 
-1. 使用![cURL請求](/help/assets/icons/Copy.svg)下的[!UICONTROL 複製] **&#x200B;**&#x200B;[!UICONTROL 複製到剪貼簿]&#x200B;**&#x200B;**&#x200B;d，將請求複製到剪貼簿。
+1. 在![cURL請求](/help/assets/icons/Copy.svg)下使用&#x200B;**[!UICONTROL 複製]** **[!UICONTROL 複製到剪貼簿]**，將請求複製到剪貼簿。
 1. 將游標暫留在任何&#x200B;**[!UICONTROL 要求]**&#x200B;或&#x200B;**[!UICONTROL 回應]**&#x200B;文字區域上以顯示並選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製到剪貼簿]**，將該文字區域（XML或JSON）的內容複製到剪貼簿。
 
 1. 交換您已複製以及哪個Adobe支援請求的任何資訊，以疑難排解Analysis Workspace專案中的視覺效果。
@@ -95,6 +96,3 @@ ht-degree: 3%
 1. 從Analysis Workspace專案功能表選取&#x200B;**[!UICONTROL 說明]** > **[!UICONTROL 停用偵錯工具]**。
 1. 在&#x200B;**[!UICONTROL 停用偵錯工具]**&#x200B;對話方塊中選取&#x200B;**[!UICONTROL 確定]**。
 1. 瀏覽器提示您重新載入頁面或網站時確認。
-
-
-
