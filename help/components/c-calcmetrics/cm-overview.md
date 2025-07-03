@@ -5,22 +5,22 @@ title: 計算和進階計算量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
 # 計算量度概觀
 
-您可以從現有量度建立的計算和自訂量度。
+您可以利用現有量度建立的計算量度和自訂量度。
 
-計算量度可讓您以極為靈活的方式建立、管理和組織量度。 計算量度可讓您做為行銷人員、產品經理和分析人員詢問資料相關問題，而不需要變更您的[!DNL Analytics]實作。
+計算量度讓您可以用極為靈活的方式建立、管理及組織量度。無論您是行銷人員、產品經理或分析人員，不需要變更 [!DNL Analytics] 實作即可透過計算量度詢問資料相關問題。
 
-每個[!DNL Analytics]套件都有計算量度可以使用，不過Experience Cloud的Adobe Analytics Foundation Pack僅限於基本計算量度，包括[格式型別（小數、時間、百分比、貨幣）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)、[配置變更（預設、線性、參與率等）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)、[量度型別（標準、總計）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)和[基本運運算元](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) （加、減、乘、除）。
+每個 [!DNL Analytics] 套件皆提供計算量度，但適用於 Experience Cloud 的 Adobe Analytics Foundation Pack 僅提供基本計算量度，包括[格式類型 (小數、時間、百分比、貨幣)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)、[配置變更 (預設、線性、參與率等)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)、[量度類型 (標準、總計)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) 及[基本運算子](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (加、減、乘、除)。
 
 
-如需詳細資訊，請參閱[Adobe Analytics產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics.html)。
+請參閱 [Adobe Analytics 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics.html)，以了解更多資訊。
 
 <!--
 Here is a comparison of calculated metrics and advanced calculated metrics capabilities: 
@@ -39,16 +39,16 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 您可以
 
-* 在[!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]中[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)。
-* [無須變更實作，即可建立衍生自報表執行時間的區段量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)。 例如，您可以建立&#x200B;*新訪客*&#x200B;的量度，計算這是他們第一次工作階段的人員數量。
+* 建立 [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]以及[!UICONTROL 貢獻度分析]的[各個量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)。
+* [建立區段量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)，不需要變更實作，可以從報告執行時間推導得出。例如，您可以建立「*新訪客*」量度，計算這是其首個工作階段的人員數量。
 
-* [在報表套裝間共用量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)。 這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
+* 在各個報告套裝之間[共用量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)。這表示所有新建立的量度皆會套用至相同登入公司的所有報告套裝。
 
-* [納入統計函式](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)以協助您更好地描述資料。 例如，您可以計算報告中的項目數或新增每個項目的標準差數字。
+* [結合統計函數](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md)，協助您更清楚說明資料。例如，您可以計算報告中的項目數或為每個項目加入標準差數量。
 
 ## 限制
 
-有些[!DNL Analytics]功能不允許使用計算量度：
+部分 [!DNL Analytics] 功能不允許使用計算量度：
 
 * Analysis Workspace 中的「副產品」
 * [!UICONTROL Analysis Workspace 中的「同類群組分析」]
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[建置量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[使用函式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[建置量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[使用函數](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

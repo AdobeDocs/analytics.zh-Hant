@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何在Analysis Workspace中使用範本。
+description: 了解如何在 Analysis Workspace 中使用範本。
 title: 使用範本
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '18669'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
