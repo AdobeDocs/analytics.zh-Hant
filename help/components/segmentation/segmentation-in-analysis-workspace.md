@@ -16,7 +16,7 @@ ht-degree: 13%
 
 * [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-* [在流失分析中套用區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)
+* [在流失分析中套用區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=zh-Hant)
 
 >[!MORELIKETHIS]
 >
