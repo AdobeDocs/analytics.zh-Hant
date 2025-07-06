@@ -99,4 +99,4 @@ ht-degree: 80%
  </tbody> 
 </table>
 
-*注意：使用 `AND/OR` 時，Data Warehouse 不支援所有使用 `exclusion` 或 `without` 容器的情況。如果使用上述組合，Data Warehouse 只支援可重新寫入為 `A AND NOT B` (或&#x200B;**包含此特徵**和&#x200B;**排除此特徵**) 的區段。*
+*注意：使用 `AND/OR` 時，Data Warehouse 不支援所有使用 `exclusion` 或 `without` 容器的情況。如果使用上述組合，Data Warehouse 只支援可重新寫入為 `A AND NOT B` (或&#x200B;**包含此特徵**&#x200B;和&#x200B;**排除此特徵**) 的區段。*

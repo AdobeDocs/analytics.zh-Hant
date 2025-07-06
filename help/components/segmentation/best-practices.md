@@ -16,7 +16,7 @@ ht-degree: 60%
 
 ## 僅使用`Contains`運運算元作為最後手段
 
-[**[!UICONTROL Contains ]**運運算元](/help/components/segmentation/seg-reference/seg-operators.md)是分段中需要最多處理的功能之一，因為運運算元必須分析每個值的全部內容。 如果所需值位於字串的開頭或結尾，請考慮使用其他運運算元，例如**[!UICONTROL &#x200B;開頭為&#x200B;]**或**[!UICONTROL &#x200B;結尾為&#x200B;]**。
+[**[!UICONTROL Contains &#x200B;]**&#x200B;運運算元](/help/components/segmentation/seg-reference/seg-operators.md)是分段中需要最多處理的功能之一，因為運運算元必須分析每個值的全部內容。 如果所需值位於字串的開頭或結尾，請考慮使用其他運運算元，例如&#x200B;**[!UICONTROL &#x200B;開頭為&#x200B;]**&#x200B;或&#x200B;**[!UICONTROL &#x200B;結尾為&#x200B;]**。
 
 如果區段中的&#x200B;**[!UICONTROL Contains]**&#x200B;運運算元傳回大量結果，報表通常會逾時。 例如，如果您建立了區段，其中&#x200B;**[!UICONTROL 反向連結]** **[!UICONTROL 等於]** `"."`，則區段會搜尋每個值的內容。 請考慮改用&#x200B;**[!UICONTROL 存在]**&#x200B;運運算元。
 

@@ -185,7 +185,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->>[區段](/help/components/segmentation/seg-overview.md)
+>&#x200B;>[區段](/help/components/segmentation/seg-overview.md)
 >
 
 
