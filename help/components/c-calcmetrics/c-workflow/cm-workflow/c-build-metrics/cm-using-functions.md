@@ -1,12 +1,12 @@
 ---
-description: 函數可讓您篩選/排序資料以及執行統計分析。
-title: 使用函數
+description: 瞭解如何使用函式來篩選及排序資料以及執行統計分析。
+title: 使用函式
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 44%
+source-wordcount: '63'
+ht-degree: 20%
 
 ---
 

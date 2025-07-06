@@ -1,12 +1,12 @@
 ---
-description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有相符的資料，並顯示「包括所有人」篩選條件。可使用「僅限序列之前」和「僅限序列之後」選項，將循序區段進一步篩選成相符點擊的子集。
-title: 建立循序區段
+description: 瞭解使用THEN運運算元定義區段條件序列的循序區段。
+title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 60a13b42e8792a1a68fa447c2584894492c4a570
+source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
 workflow-type: tm+mt
-source-wordcount: '2420'
-ht-degree: 6%
+source-wordcount: '2375'
+ht-degree: 5%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ## 基本知識
 
-建立循序區段的基本概念與使用[區段產生器](seg-build.md)建立一般區段並無不同。 只要您在主要定義或您在[分段產生器](seg-build.md)內使用的任何容器中選取&#x200B;**[!UICONTROL Then]**&#x200B;運運算元，一般區段就會自動變成循序區段。
+建立循序區段的基本概念與使用[區段產生器](seg-build.md)建立一般區段並無不同。 只要您在主要定義或您在&#x200B;**[!UICONTROL 分段產生器]**&#x200B;內使用的任何容器中選取[Then](seg-build.md)運運算元，一般區段就會自動變成循序區段。
 
 ### 範例
 
@@ -78,7 +78,7 @@ ht-degree: 6%
 1. 選取![時鐘](/help/assets/icons/Clock.svg)。
 1. 從內容功能表中選取&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定時段（**[!UICONTROL 分鐘]**，**[!UICONTROL 小時]**，直到&#x200B;**[!UICONTROL 年]**）。
-1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**&#x200B;以開啟快顯視窗，讓您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;輸入或指定數字。
+1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**以開啟快顯視窗，讓您使用**[!UICONTROL -]**或**[!UICONTROL +]**輸入或指定數字。
 
 若要移除時間限制，請使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -97,7 +97,7 @@ ht-degree: 6%
 
 ##### [!UICONTROL After]運運算元
 
-識別僅於兩週後造訪一個頁面然後造訪另一個頁面的訪客。 例如，造訪過首頁的訪客，但 | 僅於兩週後顯示鞋頁面。
+識別僅於兩週後造訪一個頁面然後造訪另一個頁面的訪客。 例如，造訪過首頁的訪客，但女性訪客 | 僅於兩週後顯示鞋頁面。
 
 ![序列在](assets/sequence-after.png)之後
 
@@ -113,7 +113,7 @@ ht-degree: 6%
 
 ##### [!UICONTROL After]但[!UICONTROL Within]運運算元
 
-識別訪客造訪一個頁面，然後在兩週後但在一個月內造訪另一個頁面。 例如，訪客造訪首頁，兩週後在一個月內造訪女性 | 鞋子頁面。
+識別在兩週後但在一個月內造訪過一個頁面然後造訪另一個頁面的訪客。 例如，訪客造訪首頁，兩週後在一個月內造訪女性 | 鞋子頁面。
 
 ![順序晚於](assets/sequence-afterbutwithin.png)但以內
 
@@ -134,7 +134,7 @@ ht-degree: 6%
 
 | 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
-| 頁面`Women \| Shoes`後面接著頁面`Checkout \| Thank You` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
+| 頁面`Women \| Shoes`後面接著頁面`Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 頁面`Women \| Shoes`後接頁面`Women \| Tops`後接頁面`Checkout \| Thank You` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL 包括]
@@ -153,8 +153,8 @@ ht-degree: 6%
 
 | | 序列 | ![ApproveReject](/help/assets/icons/ApproveReject.svg) |
 |---:|--- | --- |
-| 1 | 在同一次造訪中`Women \| Shoes`然後`Checkout \| Thank You` | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
-| 2 | `Women \| Shoes`然後`Men \| Shoes`然後`Checkout \| Thank You` （跨不同的造訪） | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
+| 1 | 在同一次造訪中`Women \| Shoes`然後`Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 2 | `Women \| Shoes`然後`Men \| Shoes`然後`Checkout \| Thank You` （跨不同的造訪） | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 3 | `Checkout \| Thank You`然後`Women \| Shoes` | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL 僅於序列之前]且[!UICONTROL 僅於序列之後]
@@ -169,17 +169,17 @@ ht-degree: 6%
 
 | B然後D | A | B | C | D | E | F |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
-| 包括所有人 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
-| 只限之前序列 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
-| 只限之後序列 |  |  |  | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
+| 包括所有人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 只限之前序列 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |  |
+| 只限之後序列 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 
 
 | B然後D （發生多次） | A | B | C | D | B | C | D | E |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 包括所有人 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
-| 只限之前序列 | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
-| 只限之後序列 |  |  |  | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) | ![核取記號Circle](/help/assets/icons/CheckmarkCircle.svg) |
+| 包括所有人 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 只限之前序列 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |  |  |  |
+| 只限之後序列 |  |  |  | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 
 #### 範例
 
@@ -213,7 +213,7 @@ ht-degree: 6%
 
 #### [!UICONTROL 排除]於
 
-識別造訪了一個頁面、未造訪另一個頁面，然後又造訪另一個頁面的訪客。 您使用![設定](/help/assets/icons/Setting.svg) [!UICONTROL 排除]來排除容器。 排除的容器以左側的紅色細列表示。
+識別造訪了一個頁面、未造訪另一個頁面，然後又造訪另一個頁面的訪客。 您使用![設定](/help/assets/icons/Setting.svg) [!UICONTROL 排除]來排除容器。 左側的紅色細列可識別已排除的容器。
 
 ![排除序列](assets/sequence-exclude.png)
 
@@ -238,7 +238,7 @@ ht-degree: 6%
 >
 >[!UICONTROL 邏輯群組]只能在循序區段中定義，這表示容器內會使用[!UICONTROL Then]運運算元。
 
-邏輯群組可讓您將條件群組至單一循序區段查核點。 作為序列的一部分，在任何先前的循序查核點之後，任何後續的循序查核點之前，都會評估識別為邏輯群組的容器中定義的邏輯。
+邏輯群組讓您能將條件分組至單一循序區段查核點。作為序列的一部分，在任何先前的循序查核點之後，任何後續的循序查核點之前，都會評估識別為邏輯群組的容器中定義的邏輯。
 
 邏輯群組本身內的條件可依任何順序符合。 相較之下，非循序容器（點選、造訪、訪客）不要求其條件在整個序列中均符合，如果搭配&#x200B;**[!UICONTROL Then]**&#x200B;運運算元使用，可能會產生非直覺式結果。
 
@@ -273,13 +273,13 @@ ht-degree: 6%
 
 #### [!UICONTROL 排除] [!UICONTROL 和]
 
-識別造訪過某個頁面，接著又明確未造訪其他頁面集，但確實造訪其他頁面的訪客。 例如，造訪過首頁的訪客沒有造訪男性或女性頁面，而是造訪了兒童頁面。
+識別造訪過某個頁面，接著又明確未造訪其他頁面集，但確實造訪其他頁面的訪客。 例如，訪客造訪了首頁，但未造訪男性或女性頁面，但造訪了兒童頁面。
 
 ![邏輯群組排除和](assets/logicgroup-exclude-and.png)
 
 #### [!UICONTROL 排除] [!UICONTROL 或]
 
-識別造訪過某個頁面，接著明確地未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的訪客。 例如，造訪過首頁的訪客沒有造訪男性與女性頁面，而是造訪了兒童頁面。
+識別造訪過某個頁面，接著明確地未造訪一組頁面中的任何頁面，但確實造訪了另一個頁面的訪客。 例如，訪客造訪了首頁，但未造訪男性與女性頁面，但造訪了兒童頁面。
 
 ![邏輯群組排除和](assets/logicgroup-exclude-or.png)
 
@@ -295,7 +295,7 @@ An example of a complex sequential segment if you want to find the visitors that
 
 ## 最後一個範例
 
-最後一個範例，您想要識別瞭解特定產品頁面的訪客，不讓這些訪客受到您的「啟用您的移動」行銷活動的影響。 第一次造訪您的線上商店時，他們檢視了首頁，但並未進一步檢視「男性」類別的任何健身（裝備）產品。 但是，在之後直接造訪時，他們前往產品頁面並下達線上訂單，而未先瀏覽首頁。
+最後一個範例，您想要識別瞭解特定產品頁面的訪客，不讓這些訪客受到您的「啟用您的移動」行銷活動的影響。 第一次造訪您的線上商店時，他們檢視了首頁，但並未進一步檢視「男性」類別的任何健身（裝備）產品。 但是，之後他們直接在造訪時，就會前往產品頁面並下達線上訂單，而未先瀏覽首頁。
 
 
 ![複雜循序區段範例](assets/sequential-complex.png)

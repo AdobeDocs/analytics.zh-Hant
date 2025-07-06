@@ -4,17 +4,17 @@ keywords: 分段;區段
 title: 區段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '3563'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 
 # 區段容器
 
-區段會設定條件，以依據訪客的屬性或訪客與網站的互動來篩選訪客。若要在區段中設定條件，您必須設定規則，以依據訪客特性和/或導覽特徵來篩選訪客。若要進一步劃分訪客資料，您可以根據每個訪客的特定造訪和/或頁面檢視點擊進行篩選。區段產生器提供簡易的架構，您能以巢狀的階層式「訪客」、「造訪」或「點選」容器形式建立這些子集並套用規則。
+區段會設定條件，以根據訪客的屬性或與網站的互動來篩選訪客。 若要在區段中設定條件，您必須設定規則，以依據訪客特性和/或導覽特徵來篩選訪客。若要進一步劃分訪客資料，您可以根據每個訪客的特定造訪和/或頁面檢視點擊進行篩選。區段產生器提供簡易的架構，您能以巢狀的階層式「訪客」、「造訪」或「點選」容器形式建立這些子集並套用規則。
 
 [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中使用的容器架構定義：
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

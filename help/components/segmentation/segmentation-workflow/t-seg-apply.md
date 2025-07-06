@@ -1,13 +1,12 @@
 ---
-description: 如何將區段用於報表。
+description: 瞭解如何在Analysis Workspace中使用區段。
 title: 使用區段
-feature: Segmentation
 role: User
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 0%
+source-wordcount: '148'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 0%
 * Analysis Workspace中[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的一列，用以起始劃分。
 * Analysis Workspace中[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)中的資料行，用來新增或取代資料行，或起始篩選器。
 * 設定允許放置區段的視覺效果面板或面板。 例如，在[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板中，或[關鍵量度](/help/analyze/analysis-workspace/visualizations/key-metric.md)摘要視覺效果中
-* 區段[&#128279;](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)的定義產生器，因此您在區段定義中包含區段。
+* 區段[的](/help/components/segmentation/segmentation-workflow/seg-build.md#definition-builder)定義產生器，因此您在區段定義中包含區段。
 * 計算量度的[定義產生器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#definition-builder)，因此您在計算量度定義中包含區段。
 
 <!--

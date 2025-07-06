@@ -1,13 +1,13 @@
 ---
-description: 您可以在表格或線性圖中檢視異常。
-title: 在 Analysis Workspace 中檢視異常
+description: 瞭解如何在Analysis Workspace中檢視和分析資料異常。
+title: 檢視異常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 52%
+source-wordcount: '444'
+ht-degree: 49%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 52%
 
 您可以在時間序列自由表格中檢視異常。
 
-1. 在欄標題中選取![設定](/help/assets/icons/Setting.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL 異常]**&#x200B;選項。 如需詳細資訊，請參閱[欄設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
+1. 在欄標題中選取![Setting](/help/assets/icons/Setting.svg)，然後確定已在選項清單中選取&#x200B;**[!UICONTROL Anomalies]**&#x200B;選項。 如需詳細資訊，請參閱[欄設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)。
 
 1. 異常情況在表格中顯示如下：
 

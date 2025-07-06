@@ -1,11 +1,11 @@
 ---
-description: 「區段管理器」提供許多策劃區段的方式，例如共用、篩選、標籤、核准、複製、刪除和標示為我的最愛。
-title: 管理區段（區段管理員）
+description: 瞭解如何使用區段管理器來管理區段，例如共用、篩選、標籤、核准、複製、刪除區段，以及將區段標示為我的最愛。
+title: 管理區段
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '565'
 ht-degree: 63%
 
 ---
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hant) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

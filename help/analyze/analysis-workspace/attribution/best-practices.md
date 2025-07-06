@@ -3,10 +3,10 @@ title: 歸因最佳實務
 description: 瞭解最佳實務，以決定要使用的歸因模型。
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 74%
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 74%
 
 ### 上層漏斗分析
 
-上層漏斗分析管道用於建立品牌或產品知名度。例如，大多數電視廣告的目標是品牌知名度。 您可能會使用[「時間耗損」歸因模型](/help/analyze/analysis-workspace/attribution/models.md)，因為人們會隨著時間逐漸淡忘電視廣告。
+上層漏斗分析管道用於建立品牌或產品知名度。例如，大多數電視廣告的目標是品牌知名度。 您可能會使用[時間衰減歸因模型](/help/analyze/analysis-workspace/attribution/models.md)，因為人們會隨著時間逐漸淡忘電視廣告。
 
 ### 下層漏斗分析
 
@@ -47,13 +47,13 @@ ht-degree: 74%
 
 假設您的假設為：「*我的首次接觸管道對轉換的影響比上次接觸管道大。*」
 
-在這種情況下，您會使用[反向J形」歸因模型](/help/analyze/analysis-workspace/attribution/models.md)來測試此假設。 此模型將 60% 的功勞歸於首次接觸點。
+在這種情況下，您會使用[反向J形歸因模型](/help/analyze/analysis-workspace/attribution/models.md)來測試此假設。 此模型將 60% 的功勞歸於首次接觸點。
 
 **範例 2**
 
 假設您的假設為： *&quot;在特定產業（例如旅遊業），歸因時段為60或90天，而不是30天，因為客戶在購買產品之前會深入研究一番。*&quot;
 
-在這種情況下，您可能會將[回顧期間](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/attribution/models)改成 90 天。
+在這種情況下，您可能會將[回顧期間](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models)改成 90 天。
 
 ## 使用演演算法歸因
 
@@ -63,4 +63,4 @@ ht-degree: 74%
 
 * 您可能需要使用資料科學家的服務，而非僅仰賴 Analysis Workspace。
 * 您可以仰賴原始資料，就像在 Adobe 資料摘要中一樣。
-* 例如，如果您想要考量您的曝光數資料，可考慮使用 [Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您想要考量您的曝光數資料，可考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

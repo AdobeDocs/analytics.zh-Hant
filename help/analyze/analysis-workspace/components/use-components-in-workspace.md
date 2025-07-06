@@ -1,10 +1,10 @@
 ---
 description: 瞭解如何在Analysis Workspace中使用專案元件
-title: 在Analysis Workspace中使用元件
+title: 在專案中使用元件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 80%
@@ -131,7 +131,7 @@ ht-degree: 80%
 
 根據存取控制，您可以：
 
-* 存取元件的![書籤](/help/assets/icons/Bookmark.svg) [!UICONTROL 資料字典]定義。
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
 * 存取已定義元件的![Edit](/help/assets/icons/Edit.svg)元件產生器。
 
 

@@ -1,12 +1,12 @@
 ---
-description: 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
+description: 瞭解區段如何讓您根據特性或網站互動來識別訪客的子集。
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '988'
+ht-degree: 98%
 
 ---
 
@@ -240,7 +240,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

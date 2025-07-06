@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 98%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 98%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -118,7 +118,7 @@ ht-degree: 98%
       + [文氏圖表](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [概觀](analysis-workspace/c-panels/panels.md)
-      + [空白](analysis-workspace/c-panels/blank-panel.md)
+      + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
       + [歸因](analysis-workspace/c-panels/attribution.md)
       + [自由格式](analysis-workspace/c-panels/freeform-panel.md)
@@ -136,7 +136,7 @@ ht-degree: 98%
       + [概觀](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
       + [共用專案](analysis-workspace/curate-share/share-projects.md)
-      + [分享連結](analysis-workspace/curate-share/shareable-links.md)
+      + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [唯讀專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載](analysis-workspace/curate-share/download-send.md)
       + [傳送和排程](analysis-workspace/curate-share/t-schedule-report.md)
@@ -151,7 +151,6 @@ ht-degree: 98%
    + 異常偵測 {#anomaly-detection}
       + [概觀](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [檢視異常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [關閉異常偵測](analysis-workspace/c-anomaly-detection/anomaly-detection-turnoff.md)
       + [執行貢獻分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
@@ -160,7 +159,7 @@ ht-degree: 98%
       + [效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤和疑難排解 ](analysis-workspace/workspace-faq/error-messages.md)
       + [限制](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder 概觀](report-builder/rb-overview.md)

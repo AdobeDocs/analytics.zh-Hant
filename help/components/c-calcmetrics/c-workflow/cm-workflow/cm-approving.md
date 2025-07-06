@@ -1,12 +1,12 @@
 ---
-description: 在計算量度管理員中，您可以設定包含各應用程式級別以及特定部門或群組之核准量度的工作流程。
+description: 瞭解如何核准計算量度。
 title: 核准計算量度
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 21%
+source-wordcount: '127'
+ht-degree: 4%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 21%
 1. 從動作列中選取![核取記號圓形](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消核准]**。
 
 
-您可以依核准的計算量度篩選計算量度清單。 從![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 篩選器]**&#x200B;面板中選取&#x200B;**[!UICONTROL 其他篩選器]**，然後選取&#x200B;**[!UICONTROL 已核准]**。 如需詳細資訊，請參閱[篩選計算量度清單](cm-filter.md)。
+您可以依核准的計算量度篩選計算量度清單。 從&#x200B;**[!UICONTROL 篩選器]** ![篩選器](/help/assets/icons/Filter.svg)面板中選取&#x200B;**[!UICONTROL 其他篩選器]**，然後選取&#x200B;**[!UICONTROL 已核准]**。 如需詳細資訊，請參閱[篩選計算量度清單](cm-filter.md)。
 

@@ -1,23 +1,23 @@
 ---
-title: 歸因模型、容器和回顧期間
-description: 不同類型的歸因將評分分配給維度項目的方式。
+title: 歸因元件
+description: 瞭解定義歸因的元件。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: d37fa0aff0b1bbe196b943bc26e86b1e79936184
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 40%
+source-wordcount: '84'
+ht-degree: 15%
 
 ---
 
-# 歸因模型、容器和回顧期間
+# 歸因元件
 
 Adobe Analytics中的歸因概念包含三個元件：
 
-* **歸因模型：**&#x200B;模型用於描述群組中點擊的轉換分佈方式。例如首次接觸或上次接觸。
-* **容器**：容器會定義歸因的範圍，或為每個模型設定點選群組的方式。
-* **歸因回顧期間：**&#x200B;回顧期間說明所選取模型的回顧天數。
+* **歸因模型：** [模型](#attribution-model)說明群組中點選的轉換分佈方式。 例如首次接觸或上次接觸。
+* **容器**： [容器](#container)會定義歸因的範圍，或如何為每個模型的點選分組。
+* **歸因回顧期間：** [回顧期間](#lookback-window)說明所選取模型的回顧天數。
 
 
 ## 歸因模型

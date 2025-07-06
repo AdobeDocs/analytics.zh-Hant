@@ -1,12 +1,12 @@
 ---
-description: 依標籤、報表套裝、所有者和其他篩選器（「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」）進行篩選。
+description: 瞭解如何依標籤、報表套裝、擁有者和其他篩選器來篩選計算量度。
 title: 篩選計算量度清單
 feature: Calculated Metrics
 exl-id: ea5becb5-dcfc-4787-8d74-cfbc8a9387f3
-source-git-commit: f66686838b341b57256932d65e6b0dd005205b0d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 26%
+source-wordcount: '141'
+ht-degree: 27%
 
 ---
 

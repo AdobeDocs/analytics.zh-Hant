@@ -1,10 +1,10 @@
 ---
-description: 瞭解如何使用頁面摘要面板來顯示所選頁面的摘要資訊。
+description: 瞭解如何使用頁面摘要面板顯示所選頁面的摘要資訊。
 title: 頁面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 96%
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 

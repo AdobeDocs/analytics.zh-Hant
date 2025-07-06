@@ -1,21 +1,21 @@
 ---
-description: 計算和進階計算量度為您可從現有量度建立的自訂量度。
-keywords: 計算量度和進階計算量度
-title: 計算和進階計算量度
+description: 瞭解您可以從現有量度建立的計算量度。
+keywords: 計算的量度
+title: 計算量度概觀
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
 # 計算量度概觀
 
-您可以利用現有量度建立的計算量度和自訂量度。
+計算量度是指您可以從現有量度建立的自訂量度。
 
-計算量度讓您可以用極為靈活的方式建立、管理及組織量度。無論您是行銷人員、產品經理或分析人員，不需要變更 [!DNL Analytics] 實作即可透過計算量度詢問資料相關問題。
+計算量度是您可從現有量度建立的自訂量度。計算量度提供一種靈活的方式來建置、管理和策劃自訂量度，使您能夠分析資料而無需變更實施。
 
 每個 [!DNL Analytics] 套件皆提供計算量度，但適用於 Experience Cloud 的 Adobe Analytics Foundation Pack 僅提供基本計算量度，包括[格式類型 (小數、時間、百分比、貨幣)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)、[配置變更 (預設、線性、參與率等)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)、[量度類型 (標準、總計)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) 及[基本運算子](c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#operators) (加、減、乘、除)。
 

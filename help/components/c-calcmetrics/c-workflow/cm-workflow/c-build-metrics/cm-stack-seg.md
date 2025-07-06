@@ -1,12 +1,12 @@
 ---
-description: 說明如何在計算量度產生器中堆疊和取代區段。
-title: 堆疊和取代區段
+description: 瞭解如何在計算量度產生器中棧疊和取代區段。
+title: 棧疊和取代區段
 feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 19%
+ht-degree: 5%
 
 ---
 

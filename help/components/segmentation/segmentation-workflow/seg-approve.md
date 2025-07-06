@@ -1,12 +1,12 @@
 ---
-description: 在「區段管理器」內，您可以建立工作流程來核准適合各種應用層級、適合特定的部門或群組，且符合報表原則的區段。
+description: 瞭解您作為管理員如何核准區段。
 title: 核准區段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '115'
+ht-degree: 9%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 2%
 1. 從動作列中選取![核取記號圓形](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 取消核准]**。
 
 
-您可以依核准的區段劃分割槽段清單。 從![區段](/help/assets/icons/Filter.svg) **[!UICONTROL 區段]**&#x200B;面板中選取&#x200B;**[!UICONTROL 其他區段]**，然後選取&#x200B;**[!UICONTROL 已核准]**。 如需詳細資訊，請參閱[將區段清單](t-seg-filter.md)分段。
+您可以依核准的區段劃分割槽段清單。 從&#x200B;**[!UICONTROL 區段]** ![區段](/help/assets/icons/Filter.svg)面板中選取&#x200B;**[!UICONTROL 其他區段]**，然後選取&#x200B;**[!UICONTROL 已核准]**。 如需詳細資訊，請參閱[篩選區段清單](t-seg-filter.md)。

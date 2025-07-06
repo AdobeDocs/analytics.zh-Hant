@@ -1,11 +1,11 @@
 ---
-description: 「計算量度」頁面提供許多管理量度的方式，例如共用、篩選、標籤、核准、複製、刪除和標示為我的最愛。
-title: 計算量度管理器
+description: 瞭解如何共用、篩選、標籤、核准、複製、刪除計算量度，以及將計算量度標示為我的最愛。
+title: 管理計算量度
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 9714863374052e257e1d6349c442fc74182a0a2f
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '900'
 ht-degree: 29%
 
 ---

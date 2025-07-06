@@ -1,20 +1,21 @@
 ---
-title: 歸因常見問題集
+title: 有關歸因的常見問題
 description: 取得歸因相關常見問題的解答。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 8f7c6a0d1477b599b05aeb7b74c4ee96531d294d
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 87%
+source-wordcount: '1188'
+ht-degree: 85%
 
 ---
 
-# 歸因常見問題集
+# 常見問題
 
+以下是有關歸因的常見問題解答。
 
-+++##使用歸因時，「無」條列項目代表什麼？
++++##使用歸因時，**[!UICONTROL 無]**&#x200B;條列專案代表什麼？
 
 「無」條列項目是一種全包的項目，代表的是在回顧期間中沒有任何接觸點時發生的所有轉換。若要減少歸因於「無」條列專案的轉換次數，請嘗試使用具有較長回顧期間的「自訂回顧期間」。
 
@@ -44,12 +45,13 @@ ht-degree: 87%
 +++
 
 
-+++##造訪、訪客或自訂歸因回顧的使用時機為何？
+<!-- not relevant anymore due to introduction of separation of container and lookback window 
++++## When should I use a visit, visitor, or custom attribution lookback?
 
-歸因回顧的選擇取決於您的使用情形。如果轉換需要的時間通常會高於單次造訪，建議使用訪客或自訂回顧。若轉換週期較長，自訂回顧期間將最適用，因為這是唯一能夠從報告期間之前提取資料的類型。
+The choice of attribution lookback depends on your use case. If conversions typically take longer than a single visit, a visitor or custom lookback is recommended. For longer conversion cycles, custom lookback windows are best as they are the only type that can pull in data from prior to the reporting window.
 
 +++
-
+-->
 
 +++##使用歸因時，prop 和 eVar 有何差異？
 

@@ -1,14 +1,14 @@
 ---
 title: 區段比較面板概述
-description: 瞭解如何使用Analysis Workspace中的區段比較面板。
+description: 瞭解如何使用區段比較面板來比較Analysis Workspace中的區段。
 keywords: Analysis Workspace, 區段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 810e52260443ccc076e07b8d638563d56db9956e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 64%
+source-wordcount: '588'
+ht-degree: 63%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 64%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 
-「區段比較」面板可從不限數量的區段中找出統計資料上最顯著的差異。 此功能會針對您存取的所有維度和量度進行反覆自動分析。它會自動找出帶動公司KPI的受眾區段關鍵特性，讓您檢視區段重疊的程度。
+「區段比較」面板可從不限數量的區段中找出統計資料上最顯著的差異。 此功能會針對您存取的所有維度和量度進行反覆自動分析。比較會自動找出帶動公司KPI的受眾區段關鍵特性，讓您檢視區段重疊的程度。
 
 
 >[!BEGINSHADEBOX]

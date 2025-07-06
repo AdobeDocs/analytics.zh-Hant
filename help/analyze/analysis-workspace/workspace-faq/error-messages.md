@@ -1,13 +1,13 @@
 ---
 description: 瞭解Analysis Workspace的錯誤和疑難排解。
-title: Analysis Workspace疑難排解中的錯誤
+title: 錯誤與疑難排解
 feature: Workspace Basics
 role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: 0146d0798571d8589a74fb6d3fbbd574af224631
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 97%
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 | 問題 | 如何進行疑難排解 |
 |---|---|
 | 我將量度拖曳到專案後，系統顯示&#x200B;*資料無效*。 | 資料無效代表 Adobe 無法運用報表中使用的維度和量度組合傳回資料。舉例來說，將兩個量度彼此堆疊在一起就無法傳回資料，因為系統無法以這種方式顯示兩個量度。因此，請改為並排放置量度。 |
-| 我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。 | 如果您成功建立 Workspace 報告，但當中沒有任何資料，建議您檢查以下幾個事項：<ul><li>如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。</li><li>檢查右上角的日期範圍，確認已設為您預期的值。</li><li>導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證有確實收集資料。</li></ul> |
+| 我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。 | 如果您成功建立 Workspace 報告，但當中沒有任何資料，建議您檢查以下幾個事項：<ul><li>如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。</li><li>檢查右上角的日期範圍，確認已設為您預期的值。</li><li>導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)驗證有確實收集資料。</li></ul> |
 
 
 
@@ -51,7 +51,7 @@ You may encounter errors when interacting with Analysis Workspace that will also
 | [!UICONTROL The report suite is currently exceeding its reporting capacity. Please simplify the request or try again later.] |  Your organization is trying to run too many concurrent requests against a specific report suite. Contributors to this error are API requests, scheduled projects, scheduled reports, scheduled alerts, and concurrent users making reporting requests. | Spread your requests and schedules for the report suite more evenly throughout the day. |
 | [!UICONTROL A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.] | Adobe is experiencing an issue that needs to be resolved. | Submit the error code to Customer Care. |
 | [!UICONTROL An unexpected error has occurred; try refreshing your project again. If the problem persists, please submit this error ID to Adobe Customer Care for further diagnosis.] | Adobe is experiencing an issue that needs to be resolved. | Try refreshing your project and if the problem persists, submit the error code to Customer Care. |
-| [!UICONTROL Error 500: Failed to load page] | Issues with your local network, such as company [firewall settings](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant), are a contributing factor to this error. Additionally, Adobe may be experiencing an issue that needs to be resolved. | Try logging in again after several minutes. If the issue persists, submit the EIM instance ID code to Customer Care. |
+| [!UICONTROL Error 500: Failed to load page] | Issues with your local network, such as company [firewall settings](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html), are a contributing factor to this error. Additionally, Adobe may be experiencing an issue that needs to be resolved. | Try logging in again after several minutes. If the issue persists, submit the EIM instance ID code to Customer Care. |
 | [!UICONTROL One of the segments or the search in this visualization contains a text search that returned too many results.] | Your segment criteria or report filter is too broad. | Narrow your search text criteria and try the request again. |
 | [!UICONTROL This dimension does not currently support non-default attribution models.] | Non-default attribution is not supported for the dimension that you are using. | Replace the dimension in your table with one that is compatible with [Attribution](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Your request failed as a result of too many columns or pre-configured rows.] | Your table has too many freeform cells (row * columns). | Remove columns or rows in your table, or consider splitting the table into separate requests. |

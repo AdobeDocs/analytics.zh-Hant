@@ -1,16 +1,18 @@
 ---
-description: 區段相關問題的疑難排解與修正。
-title: 區段疑難排解
+description: 瞭解如何疑難排解及修正與區段相關的問題。
+title: 疑難排解
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 50%
+source-wordcount: '181'
+ht-degree: 42%
 
 ---
 
-# 區段疑難排解
+# 疑難排解
+
+本文列出區段的一些常見問題，以及如何疑難排解這些問題。
 
 <!-- Looks like this is not part anymore of the current UI.
 
@@ -27,7 +29,7 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 可能的原因包括：
 
-* 反向巢狀 — 例如，在![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 造訪]**&#x200B;容器下巢狀![使用者](/help/assets/icons/User.svg) **[!UICONTROL 訪客]**&#x200B;容器。
+* 反向巢狀 — 例如，在![造訪](/help/assets/icons/User.svg) **[!UICONTROL 造訪]**&#x200B;容器下巢狀![使用者](/help/assets/icons/Visit.svg) **[!UICONTROL 訪客]**&#x200B;容器。
 * 報表不支援分段。
 * 沒有與分段標準相符的資料。
 

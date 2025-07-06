@@ -1,16 +1,16 @@
 ---
-description: 對個別量度分段可讓您在同一份報表中比較量度。
+description: 瞭解如何對個別量度進行分段，以便讓您在同一視覺效果中進行量度比較。
 title: 分段量度
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 31da453887027f5c3a625d014411cf45353e62bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 
-# 區段量度
+# 分段量度
 
 在[計算量度產生器](cm-build-metrics.md#definition-builder)中，您可以在量度定義中套用區段。 如果您想要在分析中將量度用於資料的子集，套用區段會很有幫助。
 
@@ -29,8 +29,8 @@ ht-degree: 4%
 
 ## 受歡迎頁面
 
-1. [從名為`Germany`的Workspace專案建立計算量度](../cm-workflow.md)。
-1. 從[計算量度產生器](cm-build-metrics.md)中，[使用「國家/地區」欄位，建立標題為`Germany`的區段](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+1. [從名為](../cm-workflow.md)的Workspace專案建立計算量度`Germany`。
+1. 從[計算量度產生器](cm-build-metrics.md)中，[使用「國家/地區」欄位，建立標題為](/help/components/segmentation/segmentation-workflow/seg-build.md)的區段`Germany`。
 
    >[!TIP]
    >

@@ -1,16 +1,16 @@
 ---
-description: 顯示篩選和加權量度的範例。
+description: 瞭解篩選和加權量度的範例。
 title: 篩選和加權量度
 feature: Calculated Metrics
 exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 71%
+source-wordcount: '158'
+ht-degree: 63%
 
 ---
 
-# 篩選和加權量度
+# 篩選和加權的量度
 
 本文示範篩選和加權量度的範例。
 

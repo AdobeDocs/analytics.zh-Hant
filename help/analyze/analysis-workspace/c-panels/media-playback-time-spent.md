@@ -4,7 +4,7 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體播放�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒體播放時間面板。_<br/>_請參閱[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒體播放時間面板。_<br/>_請參閱[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 >[!NOTE]
 >
 >媒體平均分鐘觀眾數面板僅供已購買 Adobe Analytics 串流媒體集合附加元件的客戶使用。
->&#x200B;>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
+>>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
 
 **[!UICONTROL 媒體播放時間]**&#x200B;面板可進行特定期間的播放分析，提供尖峰期同時觀看人數的詳細資訊，並具備劃分和比較的能力。
@@ -59,7 +59,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://video.tv.adobe.com/v/3446711?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -125,8 +125,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 >[!MORELIKETHIS]
 >
 >[建立面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
->&#x200B;>[媒體同時檢視者面板](media-concurrent-viewers.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體同時檢視者面板](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +146,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446711?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

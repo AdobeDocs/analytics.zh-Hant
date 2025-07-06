@@ -1,12 +1,12 @@
 ---
-description: 說明如何建立量度，以顯示哪些行銷管道有助於提升訂購量。這可用於任何可能有助益的維度或成功案例。
-title: 訂購協助量度
+description: 說明如何建立量度，顯示哪些行銷管道協助推動訂單。
+title: 建立更複雜的計算量度
 feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
-source-git-commit: bf58da2a39e8b9fd298356f23a9bf8f6c394d3de
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 25%
+source-wordcount: '239'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 1. 開始建立計算量度，如[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)中所述。
 
-1. 在計算量度產生器中，將量度命名為`Assisted Orders`或類似名稱。
+1. 在計算量度產生器中，將量度命名為`Assisted Online Orders`或類似名稱。
 
 1. 從&#x200B;**[!UICONTROL Metrics]**&#x200B;元件中選取&#x200B;**[!UICONTROL 線上訂單]**&#x200B;量度，並將量度拖曳至&#x200B;**[!UICONTROL 定義]**&#x200B;區域。
 
@@ -41,4 +41,4 @@ ht-degree: 25%
 
 1. （選用）如[共用計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)中所述，與組織中的其他使用者共用量度。
 
-這是輕鬆辨別哪些行銷管道有助於提升訂購量的一種方式。另外，您也可以在自由表格中，以滑鼠右鍵按一下量度，直接在表格中調整歸因模型。
+這是輕鬆辨別哪些行銷管道有助於提升訂購量的一種方式。或者，您也可以從自由表格選取任何量度，然後從快顯功能表直接從表格調整歸因模型。

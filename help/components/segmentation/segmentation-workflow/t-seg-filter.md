@@ -1,12 +1,12 @@
 ---
-description: 依標記、擁有者和其他篩選器 (「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」) 進行篩選。
+description: 瞭解如何依標籤、擁有者和其他篩選器來篩選區段。
 title: 篩選區段
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: b96210a478c46f5d9cbf49c6288b698dc47d64fe
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 39%
+source-wordcount: '168'
+ht-degree: 29%
 
 ---
 

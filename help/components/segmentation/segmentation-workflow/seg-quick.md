@@ -1,10 +1,10 @@
 ---
-description: 在適用於Adobe Analytics的Analysis Workspace中使用快速區段
+description: 瞭解如何在Analysis Workspace中使用快速區段。
 title: 快速區段
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: d85e6990998e3c153ef969d8dc7f3a4835f683bf
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 79%

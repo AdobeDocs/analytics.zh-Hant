@@ -2,7 +2,8 @@
 description: 瞭解區段建立使用者介面。
 title: 建立區段
 feature: Segmentation
-source-git-commit: 842f4226572ac38d01ddf16ad0b9991abbd3e906
+exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 3%
@@ -19,12 +20,12 @@ ht-degree: 3%
 
 ![建立區段的方式](assets/create-segment.png)
 
-* **A**. 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 區段]**。 從[[!UICONTROL 區段]管理員](seg-manage.md)選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
-* **B**. 在Workspace專案中，從「元件」左側面板選取![區段](/help/assets/icons/Segmentation.svg) **區段**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* **A**. 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 區段]**。 從![區段](/help/assets/icons/AddCircle.svg)管理員[!UICONTROL **[!UICONTROL 選取]**]AddCircle[Add](seg-manage.md)。
+* **B**. 在Workspace專案中，從「元件」左側面板選取![區段](/help/assets/icons/Add.svg) ![區段](/help/assets/icons/Segmentation.svg)的&#x200B;**新增**。
 * **C**. 在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 從選取專案建立區段]**。
 * **D**. 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立區段]**。
 * **E**。 在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+e]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+e]** (Windows)。
-* **F**。 選取![在&#x200B;***將區段拖放到此處（或任何其他元件）***&#x200B;拖放區域中新增](/help/assets/icons/Add.svg)。 此動作會建立僅限專案的區段。
+* **F**。 選取![在](/help/assets/icons/Add.svg)將區段拖放到此處（或任何其他元件）***拖放區域中新增***。 此動作會建立僅限專案的區段。
 
 若要定義新區段，請使用[區段產生器](seg-build.md)。
 

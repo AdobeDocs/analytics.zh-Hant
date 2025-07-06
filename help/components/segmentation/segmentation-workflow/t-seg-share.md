@@ -1,12 +1,12 @@
 ---
-description: 您可以將區段共用給整個組織、群組或個別使用者 (視您的權限而定)。
-title: 共用區段
+description: 瞭解如何與整個組織、群組或個別使用者共用區段。
+title: 共用細分群體
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
+source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 61%
+source-wordcount: '424'
+ht-degree: 57%
 
 ---
 
