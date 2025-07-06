@@ -1,16 +1,16 @@
 ---
-description: 「區段產生器」提供畫布來拖放「量度維度」、「區段」及「事件」，以便根據容器階層邏輯、規則和運算子來細分訪客。此一整合式開發工具可讓您建立並儲存簡單或複雜細分群體，用以識別跨瀏覽及頁面點擊的訪客屬性和動作。
-title: 建立細分群體
+description: 瞭解如何使用量度、維度、區段和事件的拖放動作來建立區段。 瞭解如何建立並儲存簡單或複雜的區段，用以識別跨造訪及頁面點選的訪客屬性和動作。
+title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
-source-wordcount: '2152'
-ht-degree: 100%
+source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+workflow-type: tm+mt
+source-wordcount: '1847'
+ht-degree: 81%
 
 ---
 
-# 區段產生器 {#segment-builder}
+# 建立細分群體 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此細分群體的資料與資料檢視的資料進行比較。此預覽百分比是根據資料檢視中&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此區段的資料與報表套裝的資料進行比較。 預覽百分比是根據&#x200B;**過去90天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。對於您從[[!UICONTROL 區段]管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
@@ -47,7 +47,7 @@ ht-degree: 100%
    | 元素 | 說明 |
    | --- | --- |
    | **[!UICONTROL 報告套裝]** | 您可以選取區段的報告套裝。 |
-   | **[!UICONTROL 僅限專案區段]** | 資訊框是用來說明區段只會在建立區段所屬專案中見到，並且該區段不會新增至您的元件清單中。啟用&#x200B;**[!UICONTROL 「讓此區段適用於您的所有專案並將其新增至您的元件清單中」]**&#x200B;以變更該設定。此資訊框只會在後述情況時可見到：當您建立[快速區段](seg-quick.md)時；以及從[!UICONTROL 快速區段]介面使用「**[!UICONTROL 開啟產生器]**」，將快速區段資訊變成一般區段時。 |
+   | **[!UICONTROL 僅限專案區段]** | 說明區段僅會顯示在建立該區段的專案中的資訊方塊。 而且區段不會新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 「讓此區段適用於您的所有專案並將其新增至您的元件清單中」]**&#x200B;以變更該設定。此資訊框只會在後述情況時可見到：當您建立[快速區段](seg-quick.md)時；以及從[!UICONTROL 快速區段]介面使用「**[!UICONTROL 開啟產生器]**」，將快速區段資訊變成一般區段時。 |
    | **[!UICONTROL 標題]**![為必要](/help/assets/icons/Required.svg) | 為區段命名，例如 `Last month mobile visitors`。 |
    | **[!UICONTROL 說明]** | 提供區段說明，例如，`Segment to define the mobile customers for the last month`。 |
    | **[!UICONTROL 標記]** | 透過建立或套用一或多個標記來整理區段。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
@@ -185,7 +185,7 @@ ht-degree: 100%
 
 ### 範例
 
-作為區段定義的一部分，您已指定以下條件：頁面名稱等於「女性」。與上面的例子類似。您是使用另外兩個歸因模型來重複此區段定義。因此，您有三個區段，每個區段有自己的歸因模型：
+作為區段定義的一部分，您已指定以下條件：頁面名稱等於「女性」。與上面的例子類似。您是使用另外兩個歸因模型來重複此區段定義。因此，您有三個區段，每個區段都有各自的歸因模型：
 
 * 女性頁面 - 歸因 - 重複 (預設)
 * 女性頁面 - 歸因 - 實例
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## 細分群體範本 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-細分群體範本是針對常見的細分使用案例而提供的，例如「首次造訪」或「來自行動裝置的造訪」。這些範本可在 Workspace 專案中和客戶細分工具中作為新細分群體的組成要素。
+區段範本是針對常見的細分使用案例而提供的，例如&#x200B;**[!UICONTROL 首次造訪]**&#x200B;或&#x200B;**[!UICONTROL 來自行動裝置的造訪]**。 這些範本可在 Workspace 專案中和客戶細分工具中作為新細分群體的組成要素。
 
-範本會以 Adobe 的「A」標誌表示。以下列出範本的範例：
+Adobe標誌![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)可識別範本。 以下列出可用範本的範例：
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,75 +376,79 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
  <tbody> 
   <tr> 
    <td colname="col1"> 放棄購物車 </td> 
-   <td colname="col2">檢視已新增項目至購物車但並未訂購任何項目的訪客的相關資料。在細分群體定義中，容器是瀏覽。此循序細分群體的規則是 <p> 購物車新增非空值 </p> <p>Then </p> <p>訂購等於 0。 </p> </td> 
+   <td colname="col2">檢視已新增項目至購物車但並未訂購任何項目的訪客的相關資料。在區段定義中，容器為「造訪」。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 首次瀏覽次數 </td> 
-   <td colname="col2">檢視最多僅造訪過 1 次的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>瀏覽次數等於 1。 </p> </td> 
+   <td colname="col2">檢視最多僅造訪過 1 次的訪客的相關資料。在區段定義中，容器為「造訪」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 非購買者 </td> 
-   <td colname="col2">檢視未參與訂購事件的訪客的相關資料。在細分群體定義中，容器是訪客。此細分群體使用「排除」邏輯。規則是 <p>訂購非空值。 </p> </td> 
+   <td colname="col2">檢視未參與訂單事件的訪客資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 非單一頁面瀏覽 (非彈回) </td> 
-   <td colname="col2">檢視瀏覽超過一次的訪客的相關資料。在細分群體定義中，容器是訪客。此細分群體使用「排除」邏輯。規則是 <p>單次存取非空值。 </p> </td> 
+   <td colname="col1"> 非單頁造訪次數（非跳出數） </td> 
+   <td colname="col2">檢視造訪多次的訪客資料。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 付費搜尋 </td> 
-   <td colname="col2">檢視來自付費搜尋的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>付費搜尋等於 1。 </p> </td> 
+   <td colname="col2">檢視來自付費搜尋之訪客的資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 購買者 </td> 
-   <td colname="col2">檢視參與訂購事件的訪客的相關資料。在細分群體定義中，容器是訪客。規則是 <p>訂購非空值。 </p> </td> 
+   <td colname="col2">檢視已參與訂購事件的訪客資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 回訪 </td> 
-   <td colname="col2">檢視已瀏覽至少一次的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>瀏覽次數大於 1. </p> </td> 
+   <td colname="col2">檢視至少造訪過一次的訪客資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 單頁造訪次數 </td> 
-   <td colname="col2"> 檢視您看到單一頁面值之瀏覽中的資料，即使您可能在該次瀏覽期間提交多個頁面檢視亦同。帶有退出連結事件的單一頁面瀏覽會納入到細分群體中。在細分群體定義中，容器是瀏覽。規則是 <p>單頁造訪次數等於 1。 </p> </td> 
+   <td colname="col2"> 檢視您看到單一頁面值之瀏覽中的資料，即使您可能在該次瀏覽期間提交多個頁面檢視亦同。含有退出連結事件的單頁造訪會包含在區段中。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在細分群體定義中，容器是瀏覽。此循序細分群體的規則是 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
+   <td colname="col2">檢視檢視產品但未新增購物車的訪客資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
-   <td colname="col2">檢視由促銷活動引薦過來的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>追蹤代碼非空值。 </p> </td> 
+   <td colname="col2">檢視行銷活動引薦之訪客的資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自行動裝置的瀏覽次數 </td> 
-   <td colname="col2">檢視使用行動裝置的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>行動裝置非空值。 </p> </td> 
+   <td colname="col2">檢視訪客使用行動裝置的資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自免費搜尋的瀏覽次數 </td> 
-   <td colname="col2">檢視不是來自付費搜尋的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>付費搜尋等於 0。 </p> </td> 
+   <td colname="col2">檢視非來自付費搜尋之訪客的資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自非行動裝置的瀏覽次數 </td> 
-   <td colname="col2">檢視非使用行動裝置的訪客的相關資料。在細分群體定義中，容器是瀏覽。此細分群體使用「排除」邏輯。規則是 <p>行動裝置類型等於行動電話 </p> <p>或 </p> <p>行動裝置類型等於平板電腦。 </p> </td> 
+   <td colname="col2">檢視未使用行動裝置之訪客的資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自手機的瀏覽次數 </td> 
-   <td colname="col2">檢視使用手機的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>裝置類型等於行動電話。 </p> </td> 
+   <td colname="col2">檢視訪客使用電話的資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自搜尋引擎的瀏覽次數 </td> 
-   <td colname="col2">檢視由搜尋引擎引薦過來的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>反向連結類型等於搜尋引擎。 </p> </td> 
+   <td colname="col2">檢視由搜尋引擎轉介的訪客資料。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自社交網站的造訪數 </td> 
-   <td colname="col2">檢視社交網站參照的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>反向連結類型等於社交網路. </p> </td> 
+   <td colname="col2">檢視由社交網站轉介的訪客資料。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自平板電腦的瀏覽次數 </td> 
-   <td colname="col2">檢視使用平板電腦的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>裝置類型等於平板電腦。 </p> </td> 
+   <td colname="col2">檢視訪客使用平板電腦的資料。</td> 
   </tr> 
   <tr> 
    <td colname="col1"> 具有訪客 ID Cookie 的瀏覽次數 </td> 
-   <td colname="col2">檢視到您網站 (需要永久性 Cookie) 的訪客的相關資料。在細分群體定義中，容器是瀏覽。規則是 <p>永久性 Cookie 等於 1。 </p> </td> 
+   <td colname="col2">檢視網站訪客的資料，其中需要永久性Cookie。</td> 
   </tr> 
  </tbody> 
 </table>
+
+若要檢視每個區段的定義，請使用![資訊大綱](/help/assets/icons/InfoOutline.svg)。 例如，對於&#x200B;**[!UICONTROL iOS]**&#x200B;範本：
+
+![Adobe範本區段的定義](assets/adobe-template-definition.png)
