@@ -8,7 +8,7 @@ exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 63%
+ht-degree: 76%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_button"
 >title="區段比較"
->abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。"
+>abstract="在所有資料點快速比較兩個區段，以自動找到相關差異。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -28,12 +28,12 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="區段比較面板"
->abstract="快速比較所有資料點的兩個區段，以自動找到相關的差異。<br/><br/>**引數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**比較**：您要比較的第二個區段，此區段會自動填入&#x200B;*其他所有人* （與第一個區段相反）。 如有需要，您可以使用不同的區段取代&#x200B;*其他所有人*。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
+>abstract="在所有資料點快速比較兩個區段，以自動找到相關差異。<br/><br/>**參數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**相互比較**：您想要進行比較的第二個區段，該區段會自動填入「*其他所有人*」(第一個區段的相反)。如果需要，您可以用不同的區段來取代「*其他所有人*」。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 
