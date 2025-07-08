@@ -7,14 +7,14 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -42,7 +42,7 @@ ht-degree: 98%
       + [快捷鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [除錯程式](analysis-workspace/build-workspace-project/debugger.md)
+      + [偵錯工具](analysis-workspace/build-workspace-project/debugger.md)
    + 範本 {#templates}
       + [使用範本](analysis-workspace/templates/use-templates.md)
       + [建立和管理範本](analysis-workspace/templates/create-templates.md)
@@ -142,22 +142,22 @@ ht-degree: 98%
       + [傳送和排程](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
-      + [模型、容器和回顧期間](analysis-workspace/attribution/models.md)
+      + [模型、容器及回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [最佳做法](analysis-workspace/attribution/best-practices.md)
-      + [常見問題](analysis-workspace/attribution/faq.md)
+      + [常見問題集](analysis-workspace/attribution/faq.md)
    + [歷程管理](analysis-workspace/journey-iq.md)
    + [區段比較](analysis-workspace/segment-iq.md)
    + 異常偵測 {#anomaly-detection}
       + [概觀](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [檢視異常](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [執行貢獻分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [執行貢獻度分析](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [統計技術](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
    + 工作區常見問答集 {#workspace-faq}
-      + [常見問題](analysis-workspace/workspace-faq/faq.md)
+      + [常見問題集](analysis-workspace/workspace-faq/faq.md)
       + [效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
-      + [錯誤和疑難排解 ](analysis-workspace/workspace-faq/error-messages.md)
+      + [錯誤和疑難排解](analysis-workspace/workspace-faq/error-messages.md)
       + [限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)

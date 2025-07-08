@@ -1,6 +1,6 @@
 ---
 description: 取得有關Analysis Workspace常見問題的解答。
-title: 常見問題
+title: 常見問題集
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
