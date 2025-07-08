@@ -4,9 +4,9 @@ description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 89%
 
 量度可讓您量化維度項目，例如，查看您網站上哪些頁面的頁面檢視次數最多。您也可以分析量度在一段時間內的趨勢，例如，查看訪客每天在您的網站下了多少訂單。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
 
-例如，若您將&#x200B;**[!UICONTROL 頁面]**&#x200B;維度與&#x200B;**[!UICONTROL 造訪]**&#x200B;量度結合，您將會收到排名報表，其中顯示您最常造訪的頁面：
+例如，如果將「**[!UICONTROL 頁面]**」維度和「**[!UICONTROL 造訪次數]**」量度結合，您將會獲得排名報表，其中顯示您最常造訪的頁面：
 
-| 頁面 | 造訪 |
+| 頁面 | 造訪次數 |
 | --- | ---: |
 | 首頁 | 800 |
 | 產品頁面 | 500 |

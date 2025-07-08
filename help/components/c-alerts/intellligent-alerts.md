@@ -1,12 +1,12 @@
 ---
-description: 瞭解如何使用警報，進而精確控制通知，並整合異常偵測。
+description: 了解如何使用警報，以便對通知進行精細控制，並與異常偵測整合。
 title: 警報概觀
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Analytics 中的警報可讓您根據變更的百分比或特定資料點�
 * 建立在單一警報中擷取多個量度的「堆疊」警報
 * 根據異常情況建置警報 (90%、95%、99%、99.75% 和 99.9% 臨界值；百分比變更；高於/低於)(僅適用於擁有 Select、Prime 或 Ultimate 套件的 Adobe Analytics 客戶)
 
-以下影片教學課程提供警報基本概觀：[警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hant) (在影片 5:34 處)
+以下影片教學課程提供警報基本概觀：[警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (在影片 5:34 處)
 
 ## 警報的異常回顧
 
