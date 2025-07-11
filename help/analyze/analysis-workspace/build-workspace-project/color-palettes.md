@@ -7,11 +7,11 @@ exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
-# 視覺效果調色盤 {#visualization-color-palette}
+# 視覺化圖形調色盤 {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
 
