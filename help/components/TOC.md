@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
@@ -194,7 +194,7 @@ ht-degree: 97%
       + [刪除區段](segmentation/segmentation-workflow/seg-delete.md)
       + [複製區段](segmentation/segmentation-workflow/seg-copy.md)
       + [管理區段](segmentation/segmentation-workflow/seg-manage.md)
-      + [發佈細分群體](segmentation/segmentation-workflow/seg-publish.md)
+      + [發佈區段](segmentation/segmentation-workflow/seg-publish.md)
       + [使用區段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 參考 {#segment-reference}
       + [運算子](segmentation/seg-reference/seg-operators.md)

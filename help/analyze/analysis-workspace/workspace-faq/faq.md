@@ -1,13 +1,13 @@
 ---
-description: 取得有關Analysis Workspace常見問題的解答。
+description: 取得 Analysis Workspace 常見問題的答案。
 title: 常見問題集
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '553'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

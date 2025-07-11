@@ -4,9 +4,9 @@ title: 建立警報
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 source-git-commit: 7945499ab49b488985ff70956c0ee0cd521b1421
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 中的警報可讓您根據變更的百分比或特定資料點�
 
 若要建立警報：
 
-1. 使用下列任一方式建立警示：
+1. 使用下列任一方式來建立警報：
 
    * 在 Analysis Workspace 中開啟專案，然後選取「**[!UICONTROL 元件]**」>「**[!UICONTROL 建立警報]**」。
    * 在 Analysis Workspace 中開啟專案，然後使用以下快速鍵：***Cmd+Shift+A*** (macOS)，或 ***Ctrl+Shift+A*** (Windows)。

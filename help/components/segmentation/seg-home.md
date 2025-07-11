@@ -1,19 +1,19 @@
 ---
-description: 瞭解Adobe Analytics如何讓您建立、管理、共用功能強大、目標專一的對象區段，以及將其套用至Analytics功能、Adobe Experience Cloud、Adobe Target和其他整合式Adobe產品的報表。
-keywords: 分段;區段
-title: 區段概述
+description: 了解 Adobe Analytics 如何讓您建立、管理、共用功能強大且客群更明確的區段，以及將其套用至使用 Analytics 功能、Adobe Experience Cloud、Adobe Target，以及其他整合式 Adobe 產品的報告。
+keywords: 細分；區段
+title: 分段概觀
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 分段概觀
 
-Adobe Analytics 可讓您建立、管理、共用功能強大且客群更明確的細分群體，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報告。
+Adobe Analytics 可讓您建立、管理、共用功能強大且客群更明確的區段，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報告。
 
 Analytics 分段包括可建構區段並執行預先測試的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，和可收集、標記、核准、設定安全性以及在整個組織中共用區段的[區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 

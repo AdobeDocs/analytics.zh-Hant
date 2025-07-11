@@ -1,16 +1,16 @@
 ---
-description: 瞭解如何使用量度、維度、區段和事件的拖放動作來建立區段。 瞭解如何建立並儲存簡單或複雜的區段，用以識別跨造訪及頁面點選的訪客屬性和動作。
+description: 了解如何使用量度、維度、區段及事件的拖放來建立區段。了解您如何可以建立並儲存簡單或複雜的區段，用以識別每次造訪及頁面點選的訪客屬性和動作。
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1847'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-# 建立細分群體 {#build-segments}
+# 建立區段 {#build-segments}
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -25,7 +25,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此區段的資料與報表套裝的資料進行比較。 預覽百分比是根據&#x200B;**過去90天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="將此區段的資料和報告套裝的資料進行比較。此預覽百分比是根據&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
 
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。對於您從[[!UICONTROL 區段]管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
@@ -47,7 +47,7 @@ ht-degree: 81%
    | 元素 | 說明 |
    | --- | --- |
    | **[!UICONTROL 報告套裝]** | 您可以選取區段的報告套裝。 |
-   | **[!UICONTROL 僅限專案區段]** | 說明區段僅會顯示在建立該區段的專案中的資訊方塊。 而且區段不會新增至您的元件清單中。 啟用&#x200B;**[!UICONTROL 「讓此區段適用於您的所有專案並將其新增至您的元件清單中」]**&#x200B;以變更該設定。此資訊框只會在後述情況時可見到：當您建立[快速區段](seg-quick.md)時；以及從[!UICONTROL 快速區段]介面使用「**[!UICONTROL 開啟產生器]**」，將快速區段資訊變成一般區段時。 |
+   | **[!UICONTROL 僅限專案區段]** | 資訊框用於解釋此區段僅在建立的專案中可見。且此區段未新增至您的元件清單。啟用&#x200B;**[!UICONTROL 「讓此區段適用於您的所有專案並將其新增至您的元件清單中」]**&#x200B;以變更該設定。此資訊框只會在後述情況時可見到：當您建立[快速區段](seg-quick.md)時；以及從[!UICONTROL 快速區段]介面使用「**[!UICONTROL 開啟產生器]**」，將快速區段資訊變成一般區段時。 |
    | **[!UICONTROL 標題]**![為必要](/help/assets/icons/Required.svg) | 為區段命名，例如 `Last month mobile visitors`。 |
    | **[!UICONTROL 說明]** | 提供區段說明，例如，`Segment to define the mobile customers for the last month`。 |
    | **[!UICONTROL 標記]** | 透過建立或套用一或多個標記來整理區段。開始輸入內容以尋找您可以選取的現有標記。或按一下 **[!UICONTROL ENTER]** 以新增新標記。選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
@@ -185,7 +185,7 @@ ht-degree: 81%
 
 ### 範例
 
-作為區段定義的一部分，您已指定以下條件：頁面名稱等於「女性」。與上面的例子類似。您是使用另外兩個歸因模型來重複此區段定義。因此，您有三個區段，每個區段都有各自的歸因模型：
+作為區段定義的一部分，您已指定以下條件：頁面名稱等於「女性」。與上面的例子類似。您是使用另外兩個歸因模型來重複此區段定義。因此，您有三個區段，而每個區段皆有自己的歸因模型：
 
 * 女性頁面 - 歸因 - 重複 (預設)
 * 女性頁面 - 歸因 - 實例
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/en/docs/analytics/analyze/report-builder/work-with-segments).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -360,11 +360,11 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 -->
 
-## 細分群體範本 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## 區段範本 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-區段範本是針對常見的細分使用案例而提供的，例如&#x200B;**[!UICONTROL 首次造訪]**&#x200B;或&#x200B;**[!UICONTROL 來自行動裝置的造訪]**。 這些範本可在 Workspace 專案中和客戶細分工具中作為新細分群體的組成要素。
+區段範本是針對常見的細分使用案例所提供，例如「**[!UICONTROL 首次造訪]**」或「**[!UICONTROL 來自行動裝置的造訪]**。這些範本可在 Workspace 專案中和區段產生器中作為新區段的組成要素。
 
-Adobe標誌![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)可識別範本。 以下列出可用範本的範例：
+Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於識別範本。可用範本的範例如下所示：
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -376,79 +376,79 @@ Adobe標誌![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)可識別範�
  <tbody> 
   <tr> 
    <td colname="col1"> 放棄購物車 </td> 
-   <td colname="col2">檢視已新增項目至購物車但並未訂購任何項目的訪客的相關資料。在區段定義中，容器為「造訪」。 </td> 
+   <td colname="col2">檢視已新增項目至購物車但並未訂購任何項目的訪客的相關資料。在區段定義中，容器是「造訪」。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 首次瀏覽次數 </td> 
-   <td colname="col2">檢視最多僅造訪過 1 次的訪客的相關資料。在區段定義中，容器為「造訪」。 </p> </td> 
+   <td colname="col2">檢視最多僅造訪過 1 次的訪客的相關資料。在區段定義中，容器是「造訪」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 非購買者 </td> 
-   <td colname="col2">檢視未參與訂單事件的訪客資料。 </td> 
+   <td colname="col2">檢視未參與訂購事件的訪客的相關資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 非單頁造訪次數（非跳出數） </td> 
-   <td colname="col2">檢視造訪多次的訪客資料。</p> </td> 
+   <td colname="col1"> 非單一頁面造訪 (非彈回) </td> 
+   <td colname="col2">檢視已造訪超過一次的訪客相關資料。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 付費搜尋 </td> 
-   <td colname="col2">檢視來自付費搜尋之訪客的資料。  </td> 
+   <td colname="col2">檢視來自付費搜尋的訪客相關資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 購買者 </td> 
-   <td colname="col2">檢視已參與訂購事件的訪客資料。  </td> 
+   <td colname="col2">檢視參與訂購事件的訪客相關資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 回訪 </td> 
-   <td colname="col2">檢視至少造訪過一次的訪客資料。  </td> 
+   <td colname="col2">檢視已造訪至少一次的訪客的相關資料。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 單頁造訪次數 </td> 
-   <td colname="col2"> 檢視您看到單一頁面值之瀏覽中的資料，即使您可能在該次瀏覽期間提交多個頁面檢視亦同。含有退出連結事件的單頁造訪會包含在區段中。  </td> 
+   <td colname="col2"> 檢視您看到單一頁面值之瀏覽中的資料，即使您可能在該次瀏覽期間提交多個頁面檢視亦同。隨附退出連結事件的單一頁面造訪會納入區段中。  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視檢視產品但未新增購物車的訪客資料。  </td> 
+   <td colname="col1"> 檢視未新增至購物車的產品 </td> 
+   <td colname="col2">檢視已查看產品但並未新增任何項目至購物車的訪客相關資料。  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
-   <td colname="col2">檢視行銷活動引薦之訪客的資料。 </td> 
+   <td colname="col1"> 來自促銷活動的造訪次數 </td> 
+   <td colname="col2">檢視由促銷活動轉介而來的訪客相關資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自行動裝置的瀏覽次數 </td> 
-   <td colname="col2">檢視訪客使用行動裝置的資料。 </td> 
+   <td colname="col1"> 來自行動裝置的造訪次數 </td> 
+   <td colname="col2">檢視使用行動裝置的訪客相關資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自免費搜尋的瀏覽次數 </td> 
-   <td colname="col2">檢視非來自付費搜尋之訪客的資料。  </td> 
+   <td colname="col1"> 來自免費搜尋的造訪次數 </td> 
+   <td colname="col2">檢視並非來自付費搜尋的訪客相關資料。  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自非行動裝置的瀏覽次數 </td> 
-   <td colname="col2">檢視未使用行動裝置之訪客的資料。 </td> 
+   <td colname="col1"> 來自非行動裝置的造訪次數 </td> 
+   <td colname="col2">檢視非使用行動裝置的訪客相關資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自手機的瀏覽次數 </td> 
-   <td colname="col2">檢視訪客使用電話的資料。  </td> 
+   <td colname="col1"> 來自手機的造訪次數 </td> 
+   <td colname="col2">檢視使用手機的訪客相關資料。  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自搜尋引擎的瀏覽次數 </td> 
-   <td colname="col2">檢視由搜尋引擎轉介的訪客資料。</td> 
+   <td colname="col1"> 來自搜尋引擎的造訪次數 </td> 
+   <td colname="col2">檢視由搜尋引擎轉介而來的訪客相關資料。</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自社交網站的造訪數 </td> 
-   <td colname="col2">檢視由社交網站轉介的訪客資料。</td> 
+   <td colname="col1"> 來自社群網站的造訪次數 </td> 
+   <td colname="col2">檢視社群網站轉介而來的訪客相關資料。</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 來自平板電腦的瀏覽次數 </td> 
-   <td colname="col2">檢視訪客使用平板電腦的資料。</td> 
+   <td colname="col1"> 來自平板電腦的造訪次數 </td> 
+   <td colname="col2">檢視使用平板電腦的訪客相關資料。</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 具有訪客 ID Cookie 的瀏覽次數 </td> 
-   <td colname="col2">檢視網站訪客的資料，其中需要永久性Cookie。</td> 
+   <td colname="col1"> 具有訪客 ID Cookie 的造訪次數 </td> 
+   <td colname="col2">檢視前往您網站 (需要永久性 Cookie) 的訪客相關資料。</td> 
   </tr> 
  </tbody> 
 </table>
 
-若要檢視每個區段的定義，請使用![資訊大綱](/help/assets/icons/InfoOutline.svg)。 例如，對於&#x200B;**[!UICONTROL iOS]**&#x200B;範本：
+若要查看每個區段的定義，請使用 ![InfoOutline](/help/assets/icons/InfoOutline.svg)。例如，針對 **[!UICONTROL iOS]** 範本：
 
-![Adobe範本區段的定義](assets/adobe-template-definition.png)
+![Adobe 範本區段的定義](assets/adobe-template-definition.png)

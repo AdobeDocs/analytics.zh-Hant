@@ -1,13 +1,13 @@
 ---
 title: 使用者偏好設定
-description: 瞭解如何設定使用者的一般和專案偏好設定。
+description: 了解如何設定使用者的一般和專案偏好設定。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 6cec1085093404235e29319db984d4389c68c31e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3461'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/3429993/?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
 >title="需要 Experience Cloud 驗證"
->abstract="啟用後，透過Analysis Workspace中的&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其Experience Cloud認證進行驗證。"
+>abstract="啟用後，透過 Analysis Workspace 中的「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，必須使用其 Experience Cloud 認證進行驗證。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_projectcommenting"
@@ -67,11 +67,11 @@ ht-degree: 79%
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
-| **範本索引標籤** | | |
-|  | 隱藏範本標籤 | 對您組織中的所有使用者隱藏「範本」標籤。 |
+| **「範本索引標籤」索引標籤** | | |
+|  | 隱藏範本索引標籤 | 隱藏組織中所有使用者的「範本」索引標籤。 |
 | **專案共用** | | |
-| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。使用者無法與您組織中沒有Analysis Workspace帳戶的人共用專案，如[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)中所述。<br/>除了已授權Healthcare Shield的客戶外，所有組織預設都會停用此選項。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在此情況下，共用專案的使用者必須啟用&#x200B;[!UICONTROL **連結為作用中**]&#x200B;選項，當與任何人共用專案時，該選項可用&#x200B;**（[!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**），如[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)中所述。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
-| | 需要 Experience Cloud 驗證 | 啟用此選項後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其Experience Cloud認證進行驗證。<p>啟用此選項後，每當使用者使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項共用專案時，共用對話框就會啟用&#x200B;**[!UICONTROL 需要 Experience Cloud 驗證]**&#x200B;選項，且共用專案的使用者無法停用該選項。若要瞭解使用者如何與任何人共用專案，請參閱[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在此情況下，共用專案的使用者必須啟用[!UICONTROL 連結為作用中]選項，當與任何人共用專案時，該選項可用&#x200B;**（[!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結為作用中]**），如[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)中所述。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
+| | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。使用者無法與組織中沒有 Analysis Workspace 帳戶的人員共用專案，如[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述。<br/>除了擁有已授權之 Healthcare Shield 的客戶外，所有組織均預設為停用此選項。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL **連結使用中**]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。在您停用此選項讓使用者可以使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。新增權限後，您可以停用此選項，然後接受所產生的法律注意事項。如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
+| | 需要 Experience Cloud 驗證 | 此選項啟用後，透過 Analysis Workspace 中的「**[!UICONTROL 與任何人共用]**」選項取得專案存取權限的人員，必須使用其 Experience Cloud 認證進行驗證。<p>啟用此選項後，每當使用者使用「**[!UICONTROL 與任何人共用]**」共用選項共用專案時，共用對話框會啟用&#x200B;**[!UICONTROL 需要 Experience Cloud 驗證]**&#x200B;選項，且共用專案的使用者無法停用該選項。如需有關使用者如何與任何人共用專案的資訊，請參閱 [與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項共用，以及未啟用[!UICONTROL 需要 Experience Cloud 驗證]選項的所有專案都會停用。<p>如果啟用此選項 (要求 Experience Cloud 驗證) 之後再停用 (允許擁有該連結的任何人存取專案)，則之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權。在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)。</li><li>您的組織實作 SSO 時才可使用這個選項。如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -94,7 +94,7 @@ ht-degree: 79%
 
 您可以為在 Analysis Workspace 中建立的所有新專案自訂專案偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
-您也可以為個別專案自訂這些喜好設定中的某些專案，如[專案概觀](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)中所述。
+您也可以針對個別專案自訂其中某些相同偏好設定 (如[專案概觀](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)所述)。
 
 按一下連結的偏好設定標題，以取得有關每個偏好設定的詳細資訊和內容。
 
@@ -117,12 +117,12 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showanomalies"
 >title="顯示異常狀況"
->abstract="選取&#x200B;**[!UICONTROL 顯示異常]**&#x200B;會在新增至時間序列自由表格視覺效果的第一個量度欄上自動執行異常偵測。"
+>abstract="選取「**[!UICONTROL 顯示異常狀況]**」，會自動對新增至時間序列自由格式表格視覺效果的第一個量度欄執行異常偵測。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_showforecast"
 >title="顯示預測"
->abstract="選取&#x200B;**[!UICONTROL 顯示預測]**&#x200B;會自動預測新增至時間序列自由表格視覺效果的第一個量度欄。"
+>abstract="選取「**[!UICONTROL 顯示預測]**」會自動對新增至時間序列自由格式表格視覺效果的第一個量度欄進行預測。"
 
 
 >[!CONTEXTUALHELP]
@@ -146,14 +146,14 @@ ht-degree: 79%
 | | 統一日期 | 選取此選項，讓每一欄的日期與同一列中所有開始日期一致。 |
 | **[欄](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
 | | 繞排標題文字 | 在自由格式表格中的繞排標題文字，讓標題更易於閱讀，且表格更便於分享。繞排對 PDF 的轉譯以及較長名稱的量度而言非常實用。預設啟用。 |
-| | 顯示總計 | 此總計通常等於[!UICONTROL 總計]或是其子集。 它反映的是在自由格式表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
-| | 顯示總計 | 此總計表示所收集的所有點選，有時稱為&#x200B;*報表套裝總計*。 在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。具[靜態列](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
+| | 顯示總計 | 此總計通常等於[!UICONTROL 全部總量]或此總計的一個子集。它反映的是在自由格式表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
+| | 顯示總計 | 此總計表示已收集的所有集合，有時候是指「*報告套裝總計*」。在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。具[靜態列](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
 | | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。隱藏時，圖例會變更為不再以視覺化方式參照線條。 |
-| | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度是頁面檢視，則數值為列專案的頁面檢視次數。 |
-| | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。注意：更精確地說：百分比大於100%的部分會顯示出來。 上限已移至1,000%，以確保欄位的寬度會過大。 |
+| | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則此數值為列項目的頁面檢視數量。 |
+| | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。附註：為了讓比例更精確，有時會顯示大於 100% 的百分比。上限可提高為 1000%，以確保欄寬足夠。 |
 | | 顯示異常狀況 | 決定是否要在該欄的數值中執行異常偵測。 |
-| | 將零解讀為沒有值 | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。如果您要查看某月的每日資料，而當月有部分天數尚未發生，這個方法就相當實用。若不想在未來的日期中顯示 0 值，則可選擇顯示空白儲存格。圖表也會遵循此設定（也就是說，勾選此設定時，圖表不會顯示含有0值的線條或長條）。 |
-| | 背景 | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括長條圖和條件式格式 <ul><li>長條圖</li> 代表相對於欄總數的儲存格值的橫條圖。 <li>條件式格式</li>如需條件式格式的詳細資訊，請參閱[欄設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的「條件式格式」</ul> |
+| | 將零解讀為沒有值 | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。如果您要查看某月的每日資料，而當月有部分天數尚未發生，這個方法就相當實用。若不想在未來的日期中顯示 0 值，則可選擇顯示空白儲存格。圖表也會採用此設定 (意即選取此設定後，若圖表含有 0 值，則不會顯示折線圖或長條圖)。 |
+| | 背景 | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括長條圖和條件式格式 <ul><li>長條圖</li> 橫條圖呈現相對於欄總數的儲存格數值。 <li>條件式格式</li>如需條件式格式的詳細資訊，請參閱[欄設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的「條件式格式」</ul> |
 | | 儲存格預覽 | 目前已套用選取格式選項之各儲存格的顯示方式預覽。 |
 | **[列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 依位置劃分 | 如果您希望劃分保留在項目的位置，而非項目本身，請選取此選項。如需劃分的詳細資訊，請參閱[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。 |
@@ -174,19 +174,19 @@ ht-degree: 79%
 | | 百分比 | 以百分比顯示所有視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏所有視覺效果的詳細圖例文字。 |
 | | 限制項目數量上限 | 減少所有視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
-| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度的情況：可在左側（針對一個量度）和右側（針對另一個量度）各顯示一個y軸。 當繪製的量度大小非常不同時，此設定會很有幫助。 |
-| | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，此設定會很有幫助。 |
-| | 將 Y 軸固定於零 | 如果圖表上繪製的所有值都明顯大於零，則圖表預設會使y軸底部非零。 如果您核取此方塊，Y軸會強製為零（並重新繪製圖表）。 |
+| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時，可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小差異極大時，此設定相當實用。 |
+| | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小差異極大時，此設定相當實用。 |
+| | 將 Y 軸固定於零 | 如果圖表上繪製的點皆遠高於零，則圖表預設會將 Y 軸底部呈現為「不是零」。如果您勾選此方塊，Y 軸會強制固定於零 (並重繪圖表)。 |
 | | 允許異常縮放 Y 軸 | 如果圖表中有多個量度，您必須將滑鼠移到每個異常值上方，才能查看該量度的信賴帶。為了讓視覺效果更清晰，異常偵測信賴區間不會自動縮放 Y 軸。此選項可讓信賴區間縮放視覺效果。 <p>如需詳細資訊，請參閱[在 Analysis Workspace 中檢視異常](/help/analyze/analysis-workspace/c-anomaly-detection/view-anomalies.md)。</p> |
 | **[折線圖](/help/analyze/analysis-workspace/visualizations/line.md)** | | |
 | | 百分比 | 以百分比顯示線條視覺效果的值。 |
-| | 可見圖例 | 隱藏線圖視覺效果的詳細圖例文字。 |
-| | 限制項目數量上限 | 減少線條視覺效果的 X 軸項目數量。如果您有大型資料集，此設定會很有用。 |
-| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度的情況：可在左側（針對一個量度）和右側（針對另一個量度）各顯示一個y軸。 當繪製的量度大小非常不同時，此設定會很有幫助。 |
-| | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小非常不同時，此設定會很有幫助。 |
+| | 可見圖例 | 可隱藏線條視覺效果的詳細圖例文字。 |
+| | 限制項目數量上限 | 減少線條視覺效果的 X 軸項目數量。如果您擁有大型資料集，此設定相當實用。 |
+| | 顯示雙軸 (適用時) | 僅適用於具有兩個量度時，可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小差異極大時，此設定相當實用。 |
+| | 標準化 (適用時) | 強制量度為相同比例。當繪製的量度大小差異極大時，此設定相當實用。 |
 | | 顯示 x 軸 | 在折線圖上顯示 x 軸。 |
 | | 顯示 y 軸 | 在折線圖上顯示 y 軸。 |
-| | 固定 Y 軸 | 如果圖表上繪製的所有值都明顯大於零，則圖表預設會使y軸底部非零。 如果您核取此方塊，Y軸會強製為零（並重新繪製圖表）。 |
+| | 固定 Y 軸 | 如果圖表上繪製的點皆遠高於零，則圖表預設會將 Y 軸底部呈現為「不是零」。如果您勾選此方塊，Y 軸會強制固定於零 (並重繪圖表)。 |
 | | 顯示最小值 | 覆蓋最小值標籤，快速醒目提示量度中的低谷。注意：最小值是從視覺效果中的可見資料點衍生而來，而非維度中的完整數值集。 |
 | | 顯示最大值 | 覆蓋最大值標籤，快速醒目提示量度中的尖峰。注意：最大值是從視覺效果中的可見資料點衍生而來，而非維度中的完整數值集。 |
 | | 顯示趨勢線 | 顯示迴歸或移動平均趨勢線至您的折線圖序列。趨勢線有助於描繪出資料中更清晰的模式。 |
@@ -208,19 +208,19 @@ ht-degree: 79%
 | | 顯示比較 | 顯示比較資料。隱藏時，比較折線圖和摘要變更物件將會從視圖中隱藏。 |
 | | 數字值選項 | 在&#x200B;[!UICONTROL **關鍵量度摘要**] 一節 <ul><li>顯示百分比變化</li><li>顯示原始差異</li>主要日期範圍與次要日期範圍中量度總值之間的原始差異</ul> |
 | **[流失](/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md)** | | |
-| | 容器 | 在造訪和訪客之間切換以分析訪客路徑。 預設為「訪客」。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 <p>提供下列選項：</p> <ul><li>造訪</li><li>訪客</li></ul> |
+| | 容器 | 可切換造訪和訪客計數，以分析訪客路徑。預設為「訪客」。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 <p>提供下列選項：</p> <ul><li>造訪</li><li>訪客</li></ul> |
 | **[流量](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)** | | |
 | | 容器 | 在&#x200B;[!UICONTROL **流量**]&#x200B;一節 <ul><li>造訪</li><li>訪客</li></ul> |
 | | 繞排標籤 | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。預設 = 未勾選。 |
 | | 包含重複例項 | 「流量」視覺效果是根據維度的例項而定。此設定提供您要包括或排除重複例項的選項，例如頁面重新載入次數。不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。預設 = 未勾選。 |
-| | 顯示工具提示 | 決定當您將滑鼠懸停在流量視覺效果內的個別節點上時，是否顯示包含節點資料的工具提示。 |
+| | 顯示工具提示 | 決定將滑鼠游標停留在流量視覺效果內的個別節點上時，是否要顯示包含節點資料的工具提示。 |
 | | 欄數 | 決定您的流量圖中要有多少欄。 |
 | | 每欄展開的項目 | 每欄中想要多少項目。 |
 | **堆疊圖** | | |
 | | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。 <p>如需詳細資訊，請參閱[長條圖和堆疊長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。</p> |
 | **[直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
 | | 貯體數 | 在視覺效果中選擇資料範圍 (貯體) 的數量。貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md)。</p> |
-| | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>造訪</li><li>訪客</li></ul> <p>例如，搭配頁面檢視使用時，您可以選擇每位訪客的頁面檢視數、每次造訪的頁面檢視數，或每次點選的頁面檢視數。 若為點擊，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
+| | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>造訪</li><li>訪客</li></ul> <p>例如，與頁面檢視次數搭配使用時，您可以選擇每位訪客的頁面檢視次數、造訪的頁面檢視次數，或是每次點選的頁面檢視次數。若為點選，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | 繪製維度 | <ul><li>Mobile 經度/緯度</li><li>地理維度</li></ul> |
 | | 地圖類型 | <ul><li>泡泡圖</li><li>熱度圖</li></ul> |
@@ -230,12 +230,12 @@ ht-degree: 79%
 | | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 | | 百分比 | 以百分比顯示摘要變更視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏摘要變更視覺效果的詳細圖例文字。 |
-| | 縮簡值 | 選取時，請指定「小數」位數。 |
+| | 縮簡值 | 選取後，可指定小數位數。 |
 | **[摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
 | | 百分比 | 以百分比顯示摘要數字視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏摘要數字視覺效果的詳細圖例文字。 |
 | | 摘要值依據 | 從最大值、最小值、平均值、中位數和總和中選擇。 |
-| | 縮簡值 | 選取時，請指定「小數」位數。 |
+| | 縮簡值 | 選取後，可指定小數位數。 |
 | **[樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md)** | | |
 | | 百分比 | 以百分比顯示樹狀圖視覺效果的值。 |
 | | 限制項目數量上限 | 減少樹狀圖視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
@@ -245,13 +245,13 @@ ht-degree: 79%
 | | 百分比 | 以百分比顯示散佈圖視覺效果的值。 |
 | | 可見圖例 | 讓您隱藏散佈圖視覺效果的詳細圖例文字。 |
 | | 限制項目數量上限 | 減少散佈圖視覺效果的 X 軸項目數量。如果您有大型資料集，此功能會相當實用。 |
-| | 將 y 軸固定於零 | 如果圖表上繪製的所有值都明顯大於零，則圖表預設會使y軸底部非零。 如果您核取此方塊，Y軸會強製為零（並重新繪製圖表）。 |
+| | 將 y 軸固定於零 | 如果圖表上繪製的點皆遠高於零，則圖表預設會將 Y 軸底部呈現為「不是零」。如果您勾選此方塊，Y 軸會強制固定於零 (並重繪圖表)。 |
 
 ## 還原預設偏好設定
 
-您可以將所有使用者偏好設定還原為系統預設值。此選項不會影響&#x200B;**[!UICONTROL 公司]**&#x200B;標籤下的管理員偏好設定。 此動作無法復原。
+您可以將所有使用者偏好設定還原為系統預設值。此偏好設定不會影響「**[!UICONTROL 公司]**」索引標籤下的管理員偏好設定。此動作無法復原。
 
-1. 在Adobe Analytics中，從頂端功能表選取&#x200B;[!UICONTROL **元件**] **>** [!UICONTROL **偏好設定**]。 或從 Workspace 選單中選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 使用者設定]**。
+1. 在 Adobe Analytics 中，從頂部選單選取「[!UICONTROL **元件**]」**>**「[!UICONTROL **偏好設定**]」。或從 Workspace 選單中選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 使用者設定]**。
 
 1. 在右上方，選取&#x200B;**[!UICONTROL 還原預設值]**。
 

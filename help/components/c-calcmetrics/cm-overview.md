@@ -1,19 +1,19 @@
 ---
-description: 瞭解您可以從現有量度建立的計算量度。
-keywords: 計算的量度
+description: 了解從現有量度建立計算量度。
+keywords: 計算量度
 title: 計算量度概觀
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 計算量度概觀
 
-計算量度是指您可以從現有量度建立的自訂量度。
+計算量度為您可以利用現有量度建立的自訂量度。
 
 計算量度是您可從現有量度建立的自訂量度。計算量度提供一種靈活的方式來建置、管理和策劃自訂量度，使您能夠分析資料而無需變更實施。
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
->&#x200B;>[建置量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
->&#x200B;>[使用函數](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
+>>[建置量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+>>[使用函數](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
 >

@@ -1,12 +1,12 @@
 ---
-description: 瞭解區段如何讓您根據特性或網站互動來識別訪客的子集。
+description: 了解區段如何讓您根據特性或網站互動來識別訪客的子集。
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -240,7 +240,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -249,7 +249,7 @@ Analysis Workspace 包含以下附加功能：
 
 +++ **要使用、建立和管理區段需要有什麼權限？**
 
-依預設，所有使用者都可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-hant)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
+依預設，所有使用者都可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
 
 管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[不同角色的區段權限](/help/components/segmentation/seg-reference/seg-rights.md)
 
