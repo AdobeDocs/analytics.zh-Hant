@@ -3,7 +3,7 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: f95e436566766d525858df0e707cfc36fd4f5ac4
+source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -170,6 +170,7 @@ ht-degree: 96%
 * `tagged.com`
 * `taringa.net`
 * `thefancy.com`
+* `threads.com`
 * `threads.net`
 * `tiktok.com`
 * `toutiao.com`
