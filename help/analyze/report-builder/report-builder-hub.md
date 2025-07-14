@@ -1,15 +1,15 @@
 ---
-title: 什麼是Adobe Analytics的Report Builder中心
+title: 什麼是Adobe Analytics中的Report Builder中心
 description: 說明 Report Builder 中心元件
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: e18381ea-b7d4-4d7a-9ded-23b2d06fa204
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: d3d74042f6c282db490483393f4b58cddd6b1525
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 51%
+source-wordcount: '489'
+ht-degree: 54%
 
 ---
 
@@ -25,10 +25,6 @@ Report Builder中心包含「建立」、「管理」和「排程」按鈕、「
 ## 「建立」、「管理」和「排程」按鈕
 
 使用建立、管理和排程按鈕來建立新資料區塊、管理現有資料區塊或排程資料區塊。
-
->[!NOTE]
->
->Adobe Analytics上此版本Report Builder的活頁簿排程功能尚未發行，但將於2025年初推出。 您可以立即開始使用不需要排程的活頁簿。
 
 ## 「命令」面板
 
