@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報告套裝等。
-source-git-commit: 5b4017bf7ce3f61b365829d058f820b48622d482
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 管理員指南 {#admin}
 
 + [Analytics 管理員指南](home.md)
-+ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Admin Console  {#admin-console}
    + [概觀](admin-console/home.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
@@ -31,7 +31,7 @@ ht-degree: 100%
    + [資料來源](admin/data-sources.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + 報告活動管理員 {#reporting-activity-manager}
+   + 報告活動管理器 {#reporting-activity-manager}
       + [概觀](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [檢視報告活動](admin//reporting-activity-manager/reporting-activity.md)
       + [取消報告請求](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
@@ -45,29 +45,15 @@ ht-degree: 100%
             + [內部 URL 篩選器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
             + [自訂行事曆](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 付費搜尋偵測 {#paid-search-detection}
-               + [付費搜尋偵測總覽](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [付費搜尋偵測概觀](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [設定付費搜尋偵測](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
-            + 處理規則 {#c-processing-rules}
-               + [處理規則總覽](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-               + 處理規則 {#c-processing-rules-configuration}
-                  + [處理規則的運作方式](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-                  + [建立處理規則](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-                  + [檢視作用中的處理規則](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-                  + [檢視處理規則記錄](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-                  + [還原處理規則](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-                  + [複製處理規則至其他報告套裝](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-                  + [可用於處理規則的維度](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
-               + 處理規則範例  {#processing-rules-examples}
-                  + [處理規則的範例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-                  + [從查詢字串參數填入行銷活動 ID](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-                  + [從產品總覽頁面設定產品檢視事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-                  + [串連類別和頁面名稱以新增子類別](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-                  + [清除報表中的值](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-                  + [使用查詢字串參數填入內部搜尋詞](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-                  + [複製內容資料變數至 eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-                  + [使用內容資料變數設定事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-                  + [從點擊中移除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-               + [處理規則提示與秘訣](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + 處理規則 {#processing-rules}
+               + [概觀](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [介面](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
+               + [檢視歷史記錄](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
+               + [複製規則](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [可用的維度和量度](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [使用案例](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + 機器人規則 {#bot-removal}
                + [移除機器人](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
                + [了解和設定機器人規則](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
@@ -76,7 +62,7 @@ ht-degree: 100%
             + [隱私權設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
             + [時間戳記設定](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + 伺服器端轉送功能 {#server-side-forwarding}
-               + [伺服器端轉送總覽](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [伺服器端轉送概觀](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [伺服器端轉送需求](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
                + [伺服器端轉送資料和程式碼參考](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
@@ -120,7 +106,7 @@ ht-degree: 100%
             + [設定 Document Cloud 報告](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics 設定](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + 即時 {#real-time-reports}
-            + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [即時報表概觀](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [支援的即時量度和維度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
       + [管理報告套裝](admin/c-manage-report-suites/report-suites-admin.md)
@@ -133,7 +119,7 @@ ht-degree: 100%
          + [新的報告套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
          + [並非從來源報告套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
       + 報告套裝範本  {#report-suite-templates}
-         + [報告套裝範本總覽](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [報告套裝範本概觀](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
          + [整合入口網站](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
          + [商務](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
          + [內容與媒體](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
@@ -143,7 +129,7 @@ ht-degree: 100%
          + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 公司設定 {#company-settings}
-      + [公司設定總覽](admin/company/c-company-settings.md)
+      + [公司設定概觀](admin/company/c-company-settings.md)
       + [安全管理員](admin/company/security-manager.md)
       + [網路服務](admin/company/web-services-admin.md)
       + [Report Builder 報表](admin/company/report-builder-reports-admin.md)
@@ -164,7 +150,7 @@ ht-degree: 100%
          + [命名空間](admin/c-data-governance/data-labeling/gdpr-namespaces.md)
       + [CNIL 同意豁免](admin/c-data-governance/cnil-consent-exemption.md)
    + 伺服器呼叫使用量 {#server-call-usage}
-      + [伺服器呼叫使用量總覽](admin/c-server-call-usage/overage-overview.md)
+      + [伺服器呼叫使用量概觀](admin/c-server-call-usage/overage-overview.md)
       + [檢視目前伺服器呼叫使用量](admin/c-server-call-usage/server-call-usage-dashboard.md)
       + [檢視報告套裝使用量](admin/c-server-call-usage/report-suite-usage.md)
       + [伺服器呼叫使用量警報](admin/c-server-call-usage/scu-alerts.md)

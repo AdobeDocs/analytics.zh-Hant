@@ -3,7 +3,7 @@ title: Adobe Analytics 中的資料處理順序
 description: 瞭解在 Adobe Analytics 中處理資料的元件和服務順序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 91%
@@ -33,9 +33,9 @@ Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法�
 1. **查詢表格**：依賴 Adobe 內部查詢表格的維度 (例如[瀏覽器](/help/components/dimensions/browser.md)維度) 與其對應的值相符。
 2. [**動態變數**](/help/implement/vars/page-vars/dynamic-variables.md)：如果在影像要求的任何部分中顯示動態變數，則會複製該值並將其視為向前移動的獨立值。
 3. [**機器人規則**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)：套用標准或自訂機器人篩選以從報告中排除該資料。
-4. [**處理規則**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)：您的組織套用於您資料的自訂規則。包括[內容資料變數](/help/implement/vars/page-vars/contextdata.md)對應到其各自的變數。
+4. [**處理規則**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)：您的組織套用於您資料的自訂規則。包括[內容資料變數](/help/implement/vars/page-vars/contextdata.md)對應到其各自的變數。
 5. **VISTA 規則**：VISTA 顧問套用於您資料的靈活自訂規則。VISTA 規則可能會在處理規則之前或之後執行，依您組織的需求而定。通常大多數 VISTA 規則會在處理規則之後執行，但每個組織的設定不同。如需有關現有VISTA規則的詳細資訊，請聯絡您的Adobe客戶團隊。
-6. [**行銷管道處理規則**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)：您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)來準備要用於行銷管道處理規則的資料。
+6. [**行銷管道處理規則**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)：您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)來準備要用於行銷管道處理規則的資料。
 7. **地理位置資料**：填入依賴 IP 地址查詢的維度 (例如[國家/地區](/help/components/dimensions/countries.md)維度)。
 8. [**IP 混淆**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)：如果您的組織選擇在原始資料中混淆 IP 地址，則這會在完成其他處理功能後執行。
 

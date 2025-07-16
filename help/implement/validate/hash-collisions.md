@@ -4,7 +4,7 @@ description: 描述雜湊碰撞為何及其出現方式。
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -42,6 +42,6 @@ Adobe Analytics對大部分的維度使用32位元雜湊，這表示有2<sup>32<
 大部分的雜湊碰撞都會發生於兩個不常見的值，而這些值對報表沒有實質影響。 即使雜湊與通用和不常用的值發生衝突，結果也微不足道。 但是，在少數情況下，當兩個常用的值遇到雜湊碰撞時，可以清楚看到其影響。 Adobe建議採取下列措施來減少其在報表中的影響：
 
 * **變更日期範圍**：雜湊表格每個月都會變更。 將日期範圍變更為跨越另一個月，可能會為每個值提供互不抵觸的不同雜湊。
-* **減少唯一值的數量**：您可以調整實作或使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)，協助減少維度所收集的唯一值的數量。 例如，如果您的維度收集URL，您可以移除查詢字串或通訊協定。
+* **減少唯一值的數量**：您可以調整實作或使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)，協助減少維度所收集的唯一值的數量。 例如，如果您的維度收集URL，您可以移除查詢字串或通訊協定。
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

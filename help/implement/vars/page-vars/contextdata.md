@@ -4,7 +4,7 @@ description: 上下文資料變數可讓您在每個頁面上定義處理規則�
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 68%
@@ -13,13 +13,13 @@ ht-degree: 68%
 
 # contextData
 
-上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。您可以在上下文資料變數中傳送資料，而不必在程式碼中明確指派 Analytics 變數的值。處理規則接著會取用上下文資料變數值，再傳遞至個別的 Analytics 變數。請參閱「管理員使用指南」中的[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)。
+上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。您可以在上下文資料變數中傳送資料，而不必在程式碼中明確指派 Analytics 變數的值。處理規則接著會取用上下文資料變數值，再傳遞至個別的 Analytics 變數。請參閱「管理員使用指南」中的[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)。
 
 上下文資料變數有助於開發團隊收集命名元素中的資料，而非編號變數。例如，與其要求開發團隊將頁面的作者指派給 `eVar10`，不如要求將頁面作者指派給 `s.contextData["author"]`。接下來，貴組織中的 Analytics 管理員就可以建立處理規則，將上下文資料變數與分析變數對應，以便進行報告。開發團隊最終只需擔心上下文資料變數，不必擔心Adobe提供的許多頁面變數。
 
 ## 使用 Web SDK 的內容資料變數
 
-如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則所有未對應至Adobe Analytics變數的欄位都會自動納入為內容資料變數。 您也可以使用XDM物件明確設定內容資料。 然後您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)將內容資料變數指派給所需的Analytics變數。  如需詳細資訊，請參閱[將其他XDM欄位對應到Analytics變數](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則所有未對應至Adobe Analytics變數的欄位都會自動納入為內容資料變數。 您也可以使用XDM物件明確設定內容資料。 然後您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)將內容資料變數指派給所需的Analytics變數。  如需詳細資訊，請參閱[將其他XDM欄位對應到Analytics變數](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
 
 如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則所有內容資料變數都會以索引鍵值配對的形式存在於`data.__adobe.analytics.contextData`中：
 
@@ -38,7 +38,7 @@ alloy("sendEvent", {
 });
 ```
 
-[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)介面會在適用的下拉式功能表中顯示`example_variable`和`second_example`。
+[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)介面會在適用的下拉式功能表中顯示`example_variable`和`second_example`。
 
 ## 使用 Adobe Analytics 擴充功能的內容資料變數
 
