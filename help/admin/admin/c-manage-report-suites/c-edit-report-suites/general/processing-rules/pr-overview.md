@@ -67,4 +67,4 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用處理規則將內容資料變數對應至prop和eVar](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用處理規則將內容資料變數對應至prop和eVar](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
