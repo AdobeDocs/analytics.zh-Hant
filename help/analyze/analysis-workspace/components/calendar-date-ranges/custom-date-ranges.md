@@ -5,10 +5,10 @@ title: 自訂日期範圍範例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+source-git-commit: 8cca98257aeb89226863beed69b4785166141b0c
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 4%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 +++ 詳細資料
 
-您想要定義日期範圍，以定義一週前當天，直到上週同一天結束之間的期間。 例如，如果今天是2024年9月11日星期三。 您想要從2024年9月4日星期三到2024年9月7日星期六的日期範圍。 9 月
+您想要定義日期範圍，以定義一週前當天，直到上週同一天結束之間的期間。 例如，如果今天是2024年9月11日星期三。 您想要從2024年9月4日星期三到2024年9月7日星期六的日期範圍。
 
 ![日期範圍範例](assets/date-range-example.png)
 
