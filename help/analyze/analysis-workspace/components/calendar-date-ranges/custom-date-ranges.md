@@ -1,70 +1,101 @@
 ---
-description: 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
+description: 瞭解如何在Analysis Workspace中定義自訂日期範圍。
 keywords: Analysis Workspace
-title: 建立自訂日期範圍
+title: 自訂日期範圍範例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: 1281bdc569c9ebc5d8daa151b19dc21710633eab
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '113'
+ht-degree: 4%
 
 ---
 
-# 建立自訂日期範圍
+# 自訂日期範圍範例
 
-您可以在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
+本文顯示更多自訂日期範圍範例。
 
-如需有關新增現有日期範圍至專案的資訊，請參閱[行事曆和日期範圍概觀](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。
 
-若要建立自訂日期範圍：
 
-1. 在 Adobe Analytics 中，選取「**[!UICONTROL 元件]**」>「**[!UICONTROL 日期範圍]**」。
+## 前兩個月
 
-   ![日期範圍頁面](assets/date-ranges.png)
++++ 詳細資料
 
-1. 請選取「[!UICONTROL **建立新的日期範圍**]」。
+您要定義兩個月前定義的自訂日期範圍。 您使用其中一個預設集。
 
-1. 在日期範圍建立工具中，指定以下資訊：
+![過去2個月前](assets/date-range-example-simple.png)
 
-   | 選項 | 說明 |
-   |---------|----------|
-   | [!UICONTROL **標題**] | 當使用者在 Analysis Workspace 中選取日期範圍時，會顯示此日期範圍的標題。 |
-   | [!UICONTROL **說明**] | 日期範圍的說明。 |
-   | [!UICONTROL **標記**] | 您想要套用於此日期範圍的任何標記。 |
-   | [!UICONTROL **日期範圍**] | 可讓您挑選自訂日期範圍。根據預設，已選取最近 30 天。 |
-   | [!UICONTROL **預設集**] | 從預設的日期範圍清單中選擇，例如&#x200B;[!UICONTROL **昨天**]、[!UICONTROL **最近 7 天**]、[!UICONTROL **最近 30 天**]&#x200B;等等。 |
-   | [!UICONTROL **開始時間**] | 日期範圍開始之日的時間。 |
-   | [!UICONTROL **結束時間**] | 日期範圍結束日的時間。 |
-   | [!UICONTROL **使用滾動日期**] | 您可以使用滾動日期，根據執行報告的時間來產生動態報告，往前或往後查看一段時間的情況。舉例來說，如果您想在報表中加入「上個月」所下的所有「訂單」資料 (以「已建立日期」欄位為依據) 並在 12 月執行報表運算，您就會在報表中看到 11 月下的訂單。如果在 1 月執行相同報表運算，則會看到在 12 月下的訂單。<ul><li>**[!UICONTROL 日期預覽]**：指出滾動日曆包含的時間期間。</li><li>**[!UICONTROL 開始]**：您可在當日、當週、當月、當季、今年之間做選擇。</li><li>**[!UICONTROL 結束]**：您可在當日、當週、當月、當季、今年之間做選擇。</li></ul><br>預設為已選取。 |
++++
 
-1. 請選取「[!UICONTROL **儲存**]」。
 
-## 範例：「兩個月前」的日期範圍 {#section_C4109C57CB444BB2A79CC8082BD67294}
+## 滾動至上週結束
 
-下列自訂日期範圍會顯示「兩個月前」的日期範圍，而「摘要變更」視覺效果會顯示方向變化。
++++ 詳細資料
+
+您想要定義日期範圍，以定義一週前當天，直到上週同一天結束之間的期間。 例如，如果今天是2024年9月11日星期三。 您想要從2024年9月4日星期三到2024年9月7日星期六的日期範圍。 9 月
+
+![日期範圍範例](assets/date-range-example.png)
+
++++
+
+<!--
+
+# Create custom date ranges
+
+You can create custom date ranges in Analysis Workspace and save them as Time components. 
+
+For information about adding existing date ranges to a project, see [Calendar and date ranges overview](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md).
+
+To create a custom date range:
+
+ 1. In Adobe Analytics, select **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
+
+    ![date range page](assets/date-ranges.png)
+ 
+ 1. Select [!UICONTROL **Create new date range**].
+
+ 1. In the Date range builder, specify the following information:
+    
+    |Option | Description | 
+    |---------|----------|
+    | [!UICONTROL **Title**] | The title of the date range as it will appear when users select it in Analysis Workspace. |
+    | [!UICONTROL **Description**] | A description for the date range. | 
+    | [!UICONTROL **Tags**] | Any tags you want to apply to the date range. | 
+    | [!UICONTROL **Date Range**] | Lets you pick a custom date range. By default, the last 30 days are selected. | 
+    | [!UICONTROL **Preset**] | Choose from a list of preset date ranges, such as [!UICONTROL **Yesterday**], [!UICONTROL **Last 7 days**], [!UICONTROL **Last 30 days**], and so forth. | 
+    | [!UICONTROL **Start time**] | The time of day that the date range begins. | 
+    | [!UICONTROL **End time**] | The time of day that the date range ends. | 
+    | [!UICONTROL **Use rolling dates**] | Rolling dates allow you to generate a dynamic report that looks forward or backward for a set period of time based on when you ran the report. For example, if you want to report on all Orders placed "Last Month" (based on the Created Date field) and ran that report in December, you'd see orders placed in November. If you ran that same report in January, you'd see orders placed in December.<ul><li>**[!UICONTROL Date Preview]**: Indicates what time period the rolling calendar encompasses.</li><li>**[!UICONTROL Start]**: You can choose among current day, current week, current month, current quarter, current year.</li><li>**[!UICONTROL End]**: You can choose among current day, current week, current month, current quarter, current year.</li></ul><br>Selected by default. | 
+
+ 1. Select [!UICONTROL **Save**]. 
+
+## Example: Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
+
+The following custom date range shows a date range for "two months ago," with a Summary Change visualization showing directional change.
 
 ![](assets/date-range-two-months-ago.png)
 
-自訂日期範圍會顯示在您專案中的「[!UICONTROL 日期範圍]」元件面板上方：
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
-您可將此自訂日期範圍拖曳至使用「上個月」預設集之自訂每月滾動日期範圍旁的欄中，用以進行比較。新增「摘要變更」視覺效果並選取每個欄的總計，顯示方向變化：
+You can drag this custom date range into a column alongside a custom, monthly rolling date range using the Last Month preset for a comparison. Add a Summary Change visualization and select the totals from each column to show directional change:
 
 ![](assets/date-range-two-months-table.png)
 
-## 範例：使用 7 天滾動日期範圍 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## Example: Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-您可以建立一個日期範圍，指定在一週前結束的 7 天滾動期間：
+You can create a date range that specifies a 7-day rolling window that ends one week ago:
 
 ![](assets/create_date_range.png)
 
-使用&#x200B;*`rolling daily`*。
+Use *`rolling daily`*.
 
-* 開始設定是 *`current day minus 6 days`*。
+* The Start settings would be *`current day minus 6 days`*.
 
-* 結束設定是 *`current day minus 7 days`*。
+* The End settings would be *`current day minus 7 days`*.
 
-您可將此日期範圍當做元件，拖曳至其他自由表格上。
+This date range can be a component that you drag onto any freeform table.
+
+-->
