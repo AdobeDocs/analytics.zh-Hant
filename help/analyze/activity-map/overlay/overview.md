@@ -5,9 +5,9 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Activity Map擴充功能介面由兩部分組成：
 
 * **標準/即時檢視**：在標準檢視和即時檢視之間切換。
    * 標準檢視：根據歷史資料顯示覆蓋圖。
-   * 即時檢視：根據即時資料顯示覆蓋。 日期選擇器會變更為下拉式清單，讓您變更即時資料的粒度。
+   * 即時檢視：根據即時資料顯示覆蓋。 日期選擇器會變更為下拉式功能表，讓您變更即時資料的粒度。
 * **量度選擇器**：可讓您變更覆蓋報告的量度。 如果您已選取即時檢視，則只有[!UICONTROL 連結點按]可用。
 * **區段選取器**：可讓您選取[區段](/help/components/segmentation/seg-overview.md)，檢視您覆蓋圖中的資料子集。 「即時」檢視中無法使用區段。
 * **覆蓋圖視覺效果型別**：可讓您變更覆蓋圖視覺化連結排名的方式。
@@ -45,7 +45,7 @@ Activity Map擴充功能介面由兩部分組成：
 * **[!UICONTROL 切換頁面詳細資料]**：顯示或隱藏底部面板（眼睛圖示）。
 * **[!UICONTROL 顯示設定]**：開啟可變更設定的功能表（齒輪圖示）：
    * **[!UICONTROL 設定]**：開啟擴充功能的[設定](settings.md)。
-   * **[!UICONTROL 說明]**：開啟檔案以Experience League（此頁面）。
+   * **[!UICONTROL 說明]**：開啟檔案至Experience League （此頁面）。
    * **[!UICONTROL Adobe社群]**：開啟[Experience League社群](https://experienceleaguecommunities.adobe.com/)。
    * **[!UICONTROL 關於]**：顯示擴充功能版本。
    * **[!UICONTROL 登出]**：將您登出擴充功能，要求您再次登入。
@@ -63,7 +63,7 @@ Activity Map擴充功能介面由兩部分組成：
 
 底部面板會顯示覆蓋圖上所顯示連結的彙總檢視。
 
-* **報告型別**：切換底部面板以顯示頁面&#x200B;**報告上的**&#x200B;連結或&#x200B;**[!UICONTROL 頁面詳細資料]**&#x200B;報告。
+* **報告型別**：切換底部面板以顯示頁面&#x200B;**[!UICONTROL 報告上的]**&#x200B;連結或&#x200B;**[!UICONTROL 頁面詳細資料]**&#x200B;報告。
 * **[!UICONTROL 頁面名稱]**：目前的[頁面](/help/components/dimensions/page.md)維度名稱。
 * **[!UICONTROL 搜尋]**：篩選報告以便只顯示符合輸入文字的連結名稱。
 * **[!UICONTROL 下載]**：將報表匯出為CSV。 您可以在相同的下載檔案中加入[!UICONTROL 頁面]上的連結報告、[!UICONTROL 頁面]報告和[!UICONTROL 頁面流量]報告。
@@ -78,7 +78,7 @@ Activity Map擴充功能介面由兩部分組成：
 
 ![頁面面板上的連結](../assets/links-on-page.png)
 
-**[!UICONTROL 頁面詳細資料]**&#x200B;報告顯示使用[頁面](/help/components/dimensions/page.md)維度的[流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)視覺效果，著重於目前頁面。 目前頁面的下列量度會顯示在左側：
+**[!UICONTROL 頁面詳細資料]**&#x200B;報告顯示使用[頁面](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)維度的[流量](/help/components/dimensions/page.md)視覺效果，著重於目前頁面。 目前頁面的下列量度會顯示在左側：
 
 * 總共[個頁面檢視](/help/components/metrics/page-views.md)
 * 所有頁面檢視的[!UICONTROL %]

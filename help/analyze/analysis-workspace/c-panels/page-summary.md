@@ -4,10 +4,10 @@ title: 頁面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 
@@ -67,12 +67,12 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 | 輸入 | 說明 |
 | --- | --- |
-| **[!UICONTROL 頁面]** | 請選取您想要探索關鍵統計資料的頁面維度。 |
+| **[!UICONTROL 頁面]** | 選取您要探索其關鍵統計資料的頁面的頁面維度。 例如&#x200B;**[!UICONTROL home]**，探索首頁的統計資料。 使用下拉式功能表選取頁面或開始輸入（例如`home`）以快速搜尋頁面。 |
 
 {style="table-layout:auto"}
 
 
-請選取「**[!UICONTROL 「建置]**」以建置面板。
+請選取「**[!UICONTROL 建置]**」以建置面板。
 
 ### 面板輸出 {#panel-output}
 
