@@ -6,36 +6,36 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ebe6716a3dde89d7212385c25044fb533d7737c2
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
-# 最新Adobe Analytics發行說明（2025年7月發行）
+# 最新 Adobe Analytics 發行說明 (2025 年 7 月版本)
 
-**上次更新日期**：2025年7月16日
+**上次更新日期**：2025 年 7 月 16 日
 
-這些發行說明涵蓋2025年7月7日至8月15日的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋 2025 年 7 月 7 日至 2025 年 8 月 15 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **透過演算法使用 Livestream 輸出 TNT 欄位** | 為確保技術持續保持現代化和穩定性，Livestream 正在進行更新。在此更新中，如果您的 TNT 欄位中包含演算法，我們將開始把 TNT 欄位合併至 Livestream 輸出。但是，這僅包括先前支援的元素：`campaignId`、`recipeId`、`trafficType`、`actionId` 以及 `actionName`。Livestream 的整體 TNT 結構語言保持不變。 |   | 2025 年 7 月 7 日 |
-| **客戶屬性 UI 的導覽已更新** | 現在可以直接從 Adobe Experience Cloud 中的應用程式選擇器存取客戶屬性使用者介面。 | 2025年7月1日 | 待定 |
+| **客戶屬性 UI 的導覽已更新** | 現在可以直接從 Adobe Experience Cloud 中的應用程式選擇器存取客戶屬性使用者介面。 | 2025 年 7 月 1 日 | 待定 |
 
 ## Adobe Analytics 中的修正
 
-**Activity Map**： AN-360987
-**Analysis Workspace**： AN-378094； AN-380979； AN-382908； AN-387652；
-**分類**： AN-382412、AN-383157、AN-384616、AN-384803、AN-385933、AN-387320、AN-387351、AN-387832、AN-387833、AN-387839、AN-387915；
-**資料彙集**： AN-387661
-**資料摘要**： AN-375172； AN-384369； AN-387859； AN-387952； AN-388155；
-**平台**： AN-382813； AN-386627； AN-386815
-**隱私權**： AN-384390
-**Report Builder**： AN-388035
-**報告**： AN-380441
-**排程報告**： AN-378280； AN-378331
-**區段比較**： AN-368766
+**Activity Map**：AN-360987
+**Analysis Workspace**：AN-378094、AN-380979、AN-382908、AN-387652；
+**分類**：AN-382412、AN-383157、AN-384616、AN-384803、AN-385933、AN-387320、AN-387351、AN-387832、AN-387833、AN-387839、AN-387915；
+**資料集合**：AN-387661
+**資料摘要**：AN-375172、AN-384369、AN-387859、AN-387952、AN-388155；
+**平台**：AN-382813、AN-386627、AN-386815
+**隱私權**：AN-384390
+**Report Builder**：AN-388035
+**報告**：AN-380441
+**排程報告**：AN-378280、AN-378331
+**區段比較**：AN-368766
 
 
 ## 生命週期結束 (EOL) 重要通知 {#eol}
@@ -55,6 +55,6 @@ ht-degree: 83%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
