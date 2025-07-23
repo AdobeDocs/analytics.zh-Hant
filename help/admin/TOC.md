@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報告套裝等。
 source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 # Adobe Analytics 管理員指南 {#admin}
 
 + [Analytics 管理員指南](home.md)
-+ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Adobe Admin Console  {#admin-console}
    + [概觀](admin-console/home.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
@@ -52,7 +52,7 @@ ht-degree: 98%
                + [介面](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
                + [檢視歷史記錄](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
                + [複製規則](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
-               + [可用的維度和量度](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
+               + [可供使用的維度和量度](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
                + [使用案例](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + 機器人規則 {#bot-removal}
                + [移除機器人](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
