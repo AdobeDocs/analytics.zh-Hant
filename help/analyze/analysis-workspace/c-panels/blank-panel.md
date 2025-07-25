@@ -4,10 +4,10 @@ title: 空白面板
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 94%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 空白面板。_<br/>_請參閱[空白面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/blank-panel)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 空白面板。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/blank-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**空白面板**。_
 
 >[!ENDSHADEBOX]
 

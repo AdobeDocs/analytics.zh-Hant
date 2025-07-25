@@ -4,10 +4,10 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體平均�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: c9299befa63868ce0450af9c63132738474e2371
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄 **Customer Journey Analytics** 中的媒體平均分鐘觀眾數面板。<br/>請參閱[媒體平均分鐘觀眾數面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/average-minute-audience-panel)，以取得本文的 **Adobe Analytics** 版本。
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_檢視本文章[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**媒體平均每分鐘觀眾數面板**。_
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ _本文記錄 **Customer Journey Analytics** 中的媒體平均分鐘觀眾數�
 
    | 選項 | 說明 |
    |---------|------------|
-   | **[!UICONTROL 詳細程度]** | 預設詳細程度為 [!UICONTROL **5 分鐘**]，但是您可以在選取的時段內選擇用於時間序列分母的任何詳細程度。例如，選取 12:00 pm 到 12:30 pm，5 分鐘詳細程度會傳回半小時的平均分鐘觀眾數，以及六列每 5 分鐘時段的平均分鐘觀眾數。這些列會當作時間序列圖表的資料點使用。 |
+   | **[!UICONTROL 詳細程度]** | 預設詳細程度為 [!UICONTROL **5 分鐘**]，但是您可以在選取的時段內選擇用於時間序列分母的任何詳細程度。例如，選取12:00 pm到12:30 pm當作5分鐘詳細程度，會傳回超過半小時的平均每分鐘觀眾數，以及每5分鐘時段的平均每分鐘觀眾數。 這些列會當作時間序列圖表的資料點使用。 |
    | [!UICONTROL **內容篩選依據 (可選)**] | 根據您想要的檢視或是資料結構化的方式來選擇如何篩選特定內容。 <ul>[!UICONTROL **節目、季度、集數**]：在下拉式清單顯示您可使用搜尋來篩選的可用節目 (或透過從左側邊攔拖放節目名稱)。您可以在該處結束選擇，以查看所有季度的節目，也可以依個別季度然後依個別集數篩選節目。 此設定會針對所選時段顯示這些節目、季度或集數的資料。</li><li>[!UICONTROL **自訂維度**]：如果您的節目名稱在自訂維度下，您可以在維度 (可選) 下拉式清單或使用左側邊欄搜尋來尋找。此維度項目會自動根據該選擇填入，而且被視為集數。</li><li>[!UICONTROL **無**]：針對您所選的選取項目來顯示所有具有平均分鐘觀眾數資料的影片名稱。(根據預設選取此選項。)</li></ul> |
 
 1. 繼續「[自訂時段進階設定](#custom-time-period-advanced-settings)」，以設定進階設定。
@@ -187,8 +187,8 @@ _本文記錄 **Customer Journey Analytics** 中的媒體平均分鐘觀眾數�
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [媒體同時檢視者面板](media-concurrent-viewers.md)
-> &#x200B;> [媒體播放時間面板](media-playback-time-spent.md)
+> > [媒體同時檢視者面板](media-concurrent-viewers.md)
+> > [媒體播放時間面板](media-playback-time-spent.md)
 >
 
 
