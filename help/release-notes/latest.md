@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ebe6716a3dde89d7212385c25044fb533d7737c2
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 92%
 
 ---
 
 # 最新 Adobe Analytics 發行說明 (2025 年 7 月版本)
 
-**上次更新日期**：2025 年 7 月 16 日
+**上次更新日期**：2025年7月30日
 
 這些發行說明涵蓋 2025 年 7 月 7 日至 2025 年 8 月 15 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **透過演算法使用 Livestream 輸出 TNT 欄位** | 為確保技術持續保持現代化和穩定性，Livestream 正在進行更新。在此更新中，如果您的 TNT 欄位中包含演算法，我們將開始把 TNT 欄位合併至 Livestream 輸出。但是，這僅包括先前支援的元素：`campaignId`、`recipeId`、`trafficType`、`actionId` 以及 `actionName`。Livestream 的整體 TNT 結構語言保持不變。 |   | 2025 年 7 月 7 日 |
-| **客戶屬性 UI 的導覽已更新** | 現在可以直接從 Adobe Experience Cloud 中的應用程式選擇器存取客戶屬性使用者介面。 | 2025 年 7 月 1 日 | 待定 |
+| **客戶屬性 UI 的導覽已更新** | 客戶屬性使用者介面現在可直接從Adobe Experience Cloud的應用程式選擇器存取。 請從下拉式功能表中選取&#x200B;**[!UICONTROL 客戶屬性]** （不要前往[!UICONTROL 人員] > [!UICONTROL 客戶屬性]）並更新書籤。  此更新包含UI的一些改善。 | 2025 年 7 月 1 日 | 2025年7月31日 |
 
 ## Adobe Analytics 中的修正
 
@@ -55,6 +55,6 @@ ht-degree: 100%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [串流媒體收集發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
