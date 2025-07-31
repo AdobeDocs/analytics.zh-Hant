@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
-workflow-type: ht
-source-wordcount: '436'
-ht-degree: 100%
+source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+workflow-type: tm+mt
+source-wordcount: '440'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
 + Analytics 變數、函數和方法  {#vars}
    + [概觀](vars/overview.md)
@@ -142,6 +142,7 @@ ht-degree: 100%
    + [Experience Edge 概觀](aep-edge/overview.md)
    + [資料物件變數對應](aep-edge/data-var-mapping.md)
    + [XDM 物件變數對應](aep-edge/xdm-var-mapping.md)
+   + [Edge Network事件型別](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Web SDK 概觀](aep-edge/web-sdk/overview.md)
       + [使用標記移轉至 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
