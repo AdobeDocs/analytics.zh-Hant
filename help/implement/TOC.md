@@ -15,7 +15,7 @@ ht-degree: 99%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
 + Analytics 變數、函數和方法  {#vars}
    + [概觀](vars/overview.md)
