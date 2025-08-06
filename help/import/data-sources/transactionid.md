@@ -4,9 +4,9 @@ description: 了解使用交易 ID 資料來源的一般工作流程。
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: e281d43204e1c5b10508661f04b880125fe8671c
+source-git-commit: 1d905aa47b4573a35012d56c0cf70fbc944bc972
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '397'
 ht-degree: 7%
 
 ---
@@ -29,10 +29,9 @@ ht-degree: 7%
 * 必須先收集和處理線上資料。 如果交易ID資料來源是在報表套裝處理符合該交易ID的點選之前上傳，則不會連結資料。
 * 透過AppMeasurement收集的交易ID會在25個月後過期。
 * 以過期交易ID上傳的資料來源，其處理方式與沒有交易ID上傳的資料類似。
-* 如果線上點選和交易ID資料來源中同時包含相同變數，則會使用交易ID資料來源的值。
+* 如果線上點選和交易ID資料來源中同時包含相同變數，則交易ID資料來源的值會用於交易資料來源點選。
 * 如果變數包含線上上點選中，但未包含在相符的交易ID資料來源點選中，則會保留線上點選變數。
 * 如果您在多個線上點選上設定相同的交易ID，則只有第一個發生次數會與來自相符交易ID資料來源的資料發生變更。
-* 如果您為相同維度的多個資料來源列設定相同的交易ID，則會使用最新的維度專案。
 
 例如：
 
@@ -52,4 +51,4 @@ ht-degree: 7%
    * `eVar3`等於`bird`
    * `events`等於`event2`
 
-報表中不存在eVar1值`blue`和`event1`量度，因為交易ID點選會覆寫這些個別值。
+eVar1值`blue`和`event1`量度不存在於報表中，因為交易ID點選會覆寫這些個別值。
