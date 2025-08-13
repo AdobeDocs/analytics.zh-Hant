@@ -3,7 +3,7 @@ description: 使用匯入工具將分類上傳至 Adobe Analytics。您也可以
 title: 分類匯入程式 - 概觀
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 92%
@@ -11,6 +11,8 @@ ht-degree: 92%
 ---
 
 # 分類匯入工具概觀（舊版）
+
+{{classification-importer-deprecation}}
 
 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。
 

@@ -3,7 +3,7 @@ title: 瀏覽器匯出
 description: 瀏覽器匯出可讓您將分類資料匯出到定位字元分隔的檔案。
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # 瀏覽器匯出（舊版）
+
+{{classification-importer-deprecation}}
 
 瀏覽器匯出可讓您將分類資料匯出到定位字元分隔的檔案。
 

@@ -3,7 +3,7 @@ description: 規則集是一組特定變數的分類規則。您將變數套用�
 title: 分類規則集
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 92%
@@ -11,6 +11,8 @@ ht-degree: 92%
 ---
 
 # 分類規則集（舊版）
+
+{{classification-rulebuilder-deprecation}}
 
 *此頁面說明分類規則集是[分類規則產生器](classification-rule-builder.md)的一部分。 請參閱[分類集](../sets/overview.md)，以瞭解Adobe Analytics中目前的資料分類方法。*
 

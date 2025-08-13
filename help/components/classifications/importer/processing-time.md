@@ -3,7 +3,7 @@ title: 分類匯入工具處理時間
 description: 了解 Adobe 處理分類檔案的時間範圍，以及如何將處理時間縮到最短。
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # 分類匯入工具處理時間
+
+{{classification-importer-deprecation}}
 
 分類檔案的處理時間視檔案大小和 Adobe 處理的檔案總數而定。處理分類通常不會超過 24 小時。不過，使用 Adobe Analytics 的組織使用大量分類的時段，可能會造成處理檔案的時間超過 24 小時。Adobe 發現，佳節假期之前的幾個月內會大量使用分類。
 

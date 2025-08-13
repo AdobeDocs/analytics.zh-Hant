@@ -3,7 +3,7 @@ description: 匯入工具可讓您大量上傳分類資料至檔案中的分析�
 title: 分類資料檔案
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 04c626b1159be3e61569e462bf9d12957bd2a333
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # 分類資料檔案（舊版）
+
+{{classification-importer-deprecation}}
 
 匯入工具可讓您大量上傳分類資料至檔案中的分析報告。匯入功能須有特定的檔案格式才能成功上傳資料。
 
@@ -112,7 +114,7 @@ ht-degree: 90%
 
 ### 子分類標題
 
-例如，`Campaigns^Owner`是包含`Campaign Owner`值之資料行的資料行標題。 同樣地，`Creative Elements^Size`是包含`Creative Elements`分類之`Size`子分類的資料行的資料行標題。
+例如，`Campaigns^Owner`是包含`Campaign Owner`值之資料行的資料行標題。 同樣地，`Creative Elements^Size`是包含`Size`分類之`Creative Elements`子分類的資料行的資料行標題。
 
 ## 分類的疑難排解
 

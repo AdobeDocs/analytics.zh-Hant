@@ -3,7 +3,7 @@ description: 搭配分類規則產生器使用子分類。
 title: 子分類和規則產生器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # 子分類和規則產生器（舊版）
+
+{{classification-rulebuilder-deprecation}}
 
 如果您確定每個子分類都有上層變數值，即可結合「分類規則產生器」與子分類。
 
@@ -61,7 +63,7 @@ ht-degree: 66%
 
    範例：
 
-   | 金鑰 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&Hat;促銷活動類型 | 廣泛促銷活動代碼&Hat;促銷活動主管 | ... |
+   | 金鑰 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&amp;Hat;促銷活動類型 | 廣泛促銷活動代碼&amp;Hat;促銷活動主管 | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | 品牌 | Suzanne |  |
    | &#42; |  | 222 | 品牌 | Frank |  |

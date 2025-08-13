@@ -3,14 +3,16 @@ description: Adobe Analytics 支援單層級與多層級分類模式。分類階
 title: 子分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
 # 子分類
+
+{{classification-importer-deprecation}}
 
 Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓您將分類套用到分類。
 

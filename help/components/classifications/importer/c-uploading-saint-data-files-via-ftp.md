@@ -3,7 +3,7 @@ description: 如何透過 FTP 上傳資料檔案。
 title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 90%
@@ -11,6 +11,8 @@ ht-degree: 90%
 ---
 
 # FTP匯入（舊版）
+
+{{classification-importer-deprecation}}
 
 >[!IMPORTANT]
 >

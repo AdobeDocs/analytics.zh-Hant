@@ -3,7 +3,7 @@ description: 「分類規則產生器」裡頁面上之介面元素的定義。
 title: 分類規則 - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 94%
@@ -11,6 +11,8 @@ ht-degree: 94%
 ---
 
 # 分類規則定義（舊版）
+
+{{classification-rulebuilder-deprecation}}
 
 「分類規則產生器」裡頁面上之介面元素的定義。
 
@@ -129,7 +131,7 @@ ht-degree: 94%
 | 匹配群組 | 顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。 |
 | 匹配結果 | 顯示字串中與規則運算式成功匹配的部分。 |
 
-請參閱分類規則[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)中的規則運算式。
+請參閱分類規則[中的](/help/components/classifications/crb/classification-quickstart-rules.md)規則運算式。
 
 ## 測試頁面 {#section_EC926F97901C4E65901413F9683AA70A}
 

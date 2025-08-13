@@ -3,7 +3,7 @@ title: 透過 FTP 匯出分類資料
 description: FTP 匯出可讓您更靈活地下載資料集，包括從多個報表套裝下載資料，以及下載超過 50,000 個資料列的資料集檔案
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # FTP匯出（舊版）
+
+{{classification-importer-deprecation}}
 
 FTP 選項可讓您更靈活地下載資料集，包括從多個報表套裝下載資料，以及下載超過 50,000 個資料列的資料集檔案的功能。 在透過 FTP 下載分類資料之前，請先建立 FTP 帳戶。
 
