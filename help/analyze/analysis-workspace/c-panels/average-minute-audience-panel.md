@@ -33,7 +33,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_檢視本文章[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**媒體平均每分鐘觀眾數面板**。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_檢視本文章[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**媒體平均每分鐘觀眾數面板**。_
 
 >[!ENDSHADEBOX]
 
@@ -187,8 +187,8 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Ad
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> > [媒體同時檢視者面板](media-concurrent-viewers.md)
-> > [媒體播放時間面板](media-playback-time-spent.md)
+> &#x200B;> [媒體同時檢視者面板](media-concurrent-viewers.md)
+> &#x200B;> [媒體播放時間面板](media-playback-time-spent.md)
 >
 
 

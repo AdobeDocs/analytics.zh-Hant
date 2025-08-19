@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM物件變數對應](/help/implement/aep-edge/xdm-var-mapping.md)
->>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
+>&#x200B;>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
