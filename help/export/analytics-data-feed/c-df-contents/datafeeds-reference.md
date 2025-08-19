@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3686'
 ht-degree: 66%
 
 ---
@@ -150,9 +150,9 @@ ht-degree: 66%
 | **`os`** | 表示訪客的作業系統的數值ID。 依據`user_agent`欄而定。`operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | 不帶正負號的 int |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
 | **`page_event_var1`** | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
-| **`page_event_var2`** | 僅用於連結追蹤影像要求。連結的自訂名稱（如果已指定）。 根據`page_event`中的值設定[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)或[退出連結](/help/components/dimensions/exit-link.md)。 | varchar(100) |
+| **`page_event_var2`** | 僅用於連結追蹤影像要求。連結的自訂名稱（如果已指定）。 根據[中的值設定](/help/components/dimensions/custom-link.md)自訂連結[、](/help/components/dimensions/download-link.md)下載連結[或](/help/components/dimensions/exit-link.md)退出連結`page_event`。 | varchar(100) |
 | **`page_type`** | 找不到[頁面](/help/components/dimensions/pages-not-found.md)維度，該維度通常用於404頁面。 | char(20) |
-| **`page_url`** | 點擊的 URL。請注意，連結追蹤影像要求([`tl()`](/help/implement/vars/functions/tl-method.md))的`post_page_url`已移除，並使用varchar(255)的資料型別。 | 文字 |
+| **`page_url`** | 點擊的 URL。請注意，連結追蹤影像要求(`post_page_url`)的[`tl()`](/help/implement/vars/functions/tl-method.md)已移除，並使用varchar(255)的資料型別。 | 文字 |
 | **`pagename`** | [頁面](/help/components/dimensions/page.md)維度。 如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
 | **`pagename_no_url`** | 與 `pagename` 類似，但不會回復到 `page_url`。只有 `post` 列適用。 | varchar(100) |
 | **`paid_search`** | 決定點選是否符合付費搜尋偵測的旗標。 | 不帶正負號的 tinyint |
@@ -193,50 +193,50 @@ ht-degree: 66%
 | **`va_finder_id`** | 可識別[首次接觸管道](/help/components/dimensions/first-touch-channel.md)維度的數值ID。 您可於行銷管道管理員中查詢此ID。 | 不帶正負號的 tinyint |
 | **`va_instance_event`** | 識別行銷管道[執行個體](/help/components/metrics/instances.md)的旗標。 | 不帶正負號的 tinyint |
 | **`va_new_engagement`** | 識別行銷管道[新參與](/help/components/metrics/new-engagements.md)的旗標。 | 不帶正負號的 tinyint |
-| **`video`** | [內容](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
-| **`videoad`** | [廣告](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadinpod`** | Pod位置[&#128279;](/help/components/dimensions/sm-ads.md)串流媒體維度中的廣告。 | varchar(255) |
-| **`videoadlength`** | [廣告長度（變數）](/help/components/dimensions/sm-ads.md)串流媒體維度。 | 整數 |
-| **`videoadload`** | [廣告載入](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadname`** | [廣告名稱（變數）](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadplayername`** | [廣告播放器名稱](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadpod`** | [廣告Pod](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoadvertiser`** | [廣告商](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videoaudioalbum`** | [相簿](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoaudioartist`** | [藝人](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoaudioauthor`** | [作者](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoaudiolabel`** | [標籤](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoaudiopublisher`** | [發佈者](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoaudiostation`** | [電台](/help/components/dimensions/sm-audio-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videocampaign`** | [行銷活動ID](/help/components/dimensions/sm-ads.md)串流媒體維度。 | varchar(255) |
-| **`videochannel`** | [內容頻道](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
-| **`videochapter`** | [Chapter](/help/components/dimensions/sm-chapters.md)串流媒體維度。 | varchar(255) |
-| **`videocontenttype`** | [內容型別](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
-| **`videodaypart`** | [天部分](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoepisode`** | [Episode](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videofeedtype`** | [媒體摘要型別](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videogenre`** | [型別](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 此維度允許同一次點選中有多個值，並以逗號分隔。 | 文字 |
-| **`videolength`** | [內容長度（變數）](/help/components/dimensions/sm-core.md)串流媒體維度。 | 整數 |
-| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoname`** | [內容名稱（變數）](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
-| **`videonetwork`** | [網路](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videopath`** | [媒體路徑](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(100) |
-| **`videoplayername`** | [內容播放器名稱](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
-| **`videotime`** | [內容逗留時間](/help/components/metrics/sm-core.md)串流媒體量度。 | 整數 |
-| **`videoqoebitrateaverageevar`** | [平均位元速率](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoqoebitratechangecountevar`** | [位元速率變更](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoqoebuffercountevar`** | [緩衝事件](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoqoebuffertimeevar`** | [總緩衝期間](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoqoedroppedframecountevar`** | [掉格](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoqoeerrorcountevar`** | [錯誤](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoqoeextneralerrors`** | [外部錯誤識別碼](/help/components/dimensions/sm-quality.md)串流媒體維度。 此維度允許同一次點選中有多個值。 | 文字 |
-| **`videoqoeplayersdkerrors`** | [播放器SDK錯誤ID](/help/components/dimensions/sm-quality.md)串流媒體維度。 此維度允許同一次點選中有多個值。 | 文字 |
-| **`videoqoetimetostartevar`** | [開始時間](/help/components/dimensions/sm-quality.md)串流媒體維度。 | varchar(255) |
-| **`videoseason`** | [季](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videosegment`** | [內容區段](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
-| **`videoshow`** | [節目](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videoshowtype`** | [節目型別](/help/components/dimensions/sm-video-metadata.md)串流媒體維度。 | varchar(255) |
-| **`videostreamtype`** | [串流型別](/help/components/dimensions/sm-core.md)串流媒體維度。 | varchar(255) |
+| **`video`** | [內容](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
+| **`videoad`** | [廣告](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videoadinpod`** | Pod位置[串流媒體服務維度中的](/help/components/dimensions/sm-ads.md)廣告。 | varchar(255) |
+| **`videoadlength`** | [廣告長度（變數）](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | 整數 |
+| **`videoadload`** | [廣告載入](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videoadname`** | [廣告名稱（變數）](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videoadplayername`** | [廣告播放器名稱](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videoadpod`** | [廣告Pod](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videoadvertiser`** | [廣告商](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videoaudioalbum`** | [相簿](/help/components/dimensions/sm-audio-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoaudioartist`** | [藝人](/help/components/dimensions/sm-audio-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoaudioauthor`** | [作者](/help/components/dimensions/sm-audio-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoaudiolabel`** | [標籤](/help/components/dimensions/sm-audio-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoaudiopublisher`** | [發佈者](/help/components/dimensions/sm-audio-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoaudiostation`** | [電台](/help/components/dimensions/sm-audio-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videocampaign`** | [促銷活動識別碼](/help/components/dimensions/sm-ads.md)串流媒體服務維度。 | varchar(255) |
+| **`videochannel`** | [內容頻道](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
+| **`videochapter`** | [章節](/help/components/dimensions/sm-chapters.md)串流媒體服務維度。 | varchar(255) |
+| **`videocontenttype`** | [內容型別](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
+| **`videodaypart`** | [天部分](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoepisode`** | [Episode](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videofeedtype`** | [媒體摘要型別](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videogenre`** | [型別](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 此維度允許同一次點選中有多個值，並以逗號分隔。 | 文字 |
+| **`videolength`** | [內容長度（變數）](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | 整數 |
+| **`videomvpd`** | [MVPD](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoname`** | [內容名稱（變數）](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
+| **`videonetwork`** | [網路](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videopath`** | [媒體路徑](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(100) |
+| **`videoplayername`** | [內容播放器名稱](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
+| **`videotime`** | [內容逗留時間](/help/components/metrics/sm-core.md)串流媒體服務量度。 | 整數 |
+| **`videoqoebitrateaverageevar`** | [平均位元速率](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoqoebitratechangecountevar`** | [位元速率變更](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoqoebuffercountevar`** | [緩衝事件](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoqoebuffertimeevar`** | [總緩衝期間](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoqoedroppedframecountevar`** | [掉格](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoqoeerrorcountevar`** | [錯誤](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoqoeextneralerrors`** | [外部錯誤識別碼](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 此維度允許同一次點選中有多個值。 | 文字 |
+| **`videoqoeplayersdkerrors`** | [播放器SDK錯誤ID](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 此維度允許同一次點選中有多個值。 | 文字 |
+| **`videoqoetimetostartevar`** | [開始時間](/help/components/dimensions/sm-quality.md)串流媒體服務維度。 | varchar(255) |
+| **`videoseason`** | [季](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videosegment`** | [內容區段](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
+| **`videoshow`** | [節目](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videoshowtype`** | [節目型別](/help/components/dimensions/sm-video-metadata.md)串流媒體服務維度。 | varchar(255) |
+| **`videostreamtype`** | [串流型別](/help/components/dimensions/sm-core.md)串流媒體服務維度。 | varchar(255) |
 | **`visid_high`** | 搭配 `visid_low` 使用，以唯一碼來識別一位訪客。 | 不帶正負號的 bigint |
 | **`visid_low`** | 搭配 `visid_high` 使用，以唯一碼來識別一位訪客。 | 不帶正負號的 bigint |
 | **`visid_new`** | 此旗標可確定點選是否包含新產生的訪客ID。 | char(1) |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM物件變數對應](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
+>>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)

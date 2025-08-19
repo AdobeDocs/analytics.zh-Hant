@@ -4,10 +4,10 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體平均�
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: c9299befa63868ce0450af9c63132738474e2371
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 95%
+source-wordcount: '1822'
+ht-degree: 92%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_檢視本文章[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**媒體平均每分鐘觀眾數面板**。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_檢視本文章[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**媒體平均每分鐘觀眾數面板**。_
 
 >[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->**[!UICONTROL 媒體平均分鐘觀眾數]**&#x200B;面板僅供已購買 Adobe Analytics 串流媒體集合的客戶使用。
+>**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板僅適用於已購買適用於串流媒體的Adobe Analytics附加元件的客戶。
 >
 >請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
@@ -67,7 +67,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 1. 建立&#x200B;**[!UICONTROL 媒體平均分鐘觀眾數]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-1. 確保您選取的面板資料視圖已從串流媒體集合中設定元件。
+1. 確保您為面板選取資料檢視，該面板具有從Adobe Analytics for Streaming Media附加元件設定的元件。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -187,8 +187,8 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> &#x200B;> [媒體同時檢視者面板](media-concurrent-viewers.md)
-> &#x200B;> [媒體播放時間面板](media-playback-time-spent.md)
+> > [媒體同時檢視者面板](media-concurrent-viewers.md)
+> > [媒體播放時間面板](media-playback-time-spent.md)
 >
 
 

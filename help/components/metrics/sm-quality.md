@@ -1,22 +1,22 @@
 ---
-title: 串流媒體品品質度
+title: 串流媒體服務品品質度
 description: 為報表套裝啟用[!UICONTROL 媒體品質]時可用的量度。
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
 
-# 串流媒體品品質度
+# 串流媒體服務品品質度
 
-*此頁面說明您為報表套裝啟用[!UICONTROL 媒體品質]時可用的量度。 如需可用的維度，請參閱[串流媒體品質維度](../dimensions/sm-quality.md)。*
+*此頁面說明您為報表套裝啟用[!UICONTROL 媒體品質]時可用的量度。 如需可用的維度，請參閱[串流媒體服務品質維度](../dimensions/sm-quality.md)。*
 
-串流媒體品品質度透過串流媒體收集程式庫，為資料收集提供補充報告功能。 使用這些量度需要&#x200B;**[!UICONTROL Adobe串流媒體集合]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+串流媒體服務品品質度透過串流媒體服務程式庫，為資料收集提供補充報告功能。 使用這些量度需要&#x200B;**[!UICONTROL Adobe Analytics for Streaming Media廣告]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-當您在[媒體報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下啟用&#x200B;**[!UICONTROL 媒體品質]**&#x200B;時，可以使用下列量度：
+當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[媒體品質](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)時，可以使用下列量度：
 
 | 量度名稱 | 說明 | 伴隨傳送 | 上下文資料變數 |
 | --- | --- | --- | --- |

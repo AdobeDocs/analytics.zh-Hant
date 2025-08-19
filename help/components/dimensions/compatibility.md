@@ -3,9 +3,9 @@ title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 60%
 >
 >此清單中省略了自訂變數名稱、分類和訪客屬性。這些維度項目是個別報表套裝專用。
 
-## Analysis Workspace支援的Dimension
+## Analysis Workspace支援的維度
 
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |---|---|
@@ -76,7 +76,7 @@ ht-degree: 60%
 | [反向連結類型](referrer-type.md) | `referrertype` |
 | [反向連結網域](referring-domain.md) | `referringdomain` |
 | [地區](regions.md) | `georegion` |
-| [回訪頻度](return-frequency.md) | `returnfrequency` |
+| [回訪頻率](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | [搜尋引擎](search-engine.md) | `searchengine` |
 | [搜尋關鍵字](search-keyword.md) | `searchenginekeyword` |
@@ -101,9 +101,9 @@ ht-degree: 60%
 | [瀏覽器高度 — 分段](browser-height.md) | `browserheightbucketed` |
 | [瀏覽器寬度 — 分段](browser-width.md) | `browserwidthbucketed` |
 | [日](day.md) | `daterangeday` |
-| [日期](day-of-month.md) | `timepartdayofmonth` |
-| [星期](day-of-week.md) | `dayofweek` |
-| [星期](day-of-week.md) | `timepartdayofweek` |
+| [幾月幾號](day-of-month.md) | `timepartdayofmonth` |
+| [星期幾](day-of-week.md) | `dayofweek` |
+| [星期幾](day-of-week.md) | `timepartdayofweek` |
 | [一年當中的第幾天](day-of-year.md) | `timepartdayofyear` |
 | [上次造訪間隔天數](days-since-last-visit.md) | `dayssincelastvisit` |
 | [專案自訂分析](entry-dimensions.md) | `entryprops` |
@@ -118,7 +118,7 @@ ht-degree: 60%
 | [點選深度](hit-depth.md) | `hitdepth` |
 | [點擊類型](hit-type.md) | `hittype` |
 | [小時](hour.md) | `daterangehour` |
-| [小時](hour-of-day.md) | `timeparthourofday` |
+| [當天幾點](hour-of-day.md) | `timeparthourofday` |
 | [行銷管道詳細資料](marketing-detail.md) | `marketingchanneldetail` |
 | [分鐘](minute.md) | `daterangeminute` |
 | [行動書籤的最大長度](mobile-dimensions.md) | `mobilebookmarklength` |
@@ -130,12 +130,12 @@ ht-degree: 60%
 | [行動網路通訊協定](mobile-dimensions.md) | `mobilenetprotocols` |
 | [行動即按即說](mobile-dimensions.md) | `mobilepushtotalk` |
 | [月](month.md) | `daterangemonth` |
-| [月份](month-of-year.md) | `timepartmonthofyear` |
+| [一年中的月份](month-of-year.md) | `timepartmonthofyear` |
 | [作業系統類型](operating-system-types.md) | `operatingsystemgroup` |
 | [付費搜尋](paid-search.md) | `paidsearch` |
 | [永久Cookie支援](persistent-cookie-support.md) | `persistentcookie` |
-| [季度](quarter.md) | `daterangequarter` |
-| [季別](quarter-of-year.md) | `timepartquarterofyear` |
+| [季](quarter.md) | `daterangequarter` |
+| [一年中的季度](quarter-of-year.md) | `timepartquarterofyear` |
 | 調查 | `surveybase` |
 | [頁面逗留時間 — 分段](time-spent-on-page.md) | `averagepagetime` |
 | [頁面逗留時間 — 精細](time-spent-on-page.md) | `pagetimeseconds` |
@@ -157,7 +157,7 @@ ht-degree: 60%
 
 ## Analysis Workspace支援的內容感知維度
 
-### 影片（串流媒體集合）
+### 視訊（串流媒體服務）
 
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
@@ -279,14 +279,14 @@ Adobe Social已淘汰。
 
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
-| [依地區](activity-map-link-by-region.md)的Activity Map連結 | `clickmaplinkbyregion` |
+| [各地區的Activity Map連結](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
 | [Activity Map地區](activity-map-region.md) | `clickmapregion` |
 | [Activity Map連結](activity-map-link.md) | `clickmaplink` |
 | [Activity Map頁面](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen 整合
 
-如需如何實作此整合的詳細資訊，請參閱Adobe Exchange上的[Nielsen擴充功能](https://exchange.adobe.com/apps/ec/101361)。
+如需有關如何實作此整合的詳細資訊，請參閱Adobe Exchange上的[Nielsen擴充功能](https://exchange.adobe.com/apps/ec/101361)。
 
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |

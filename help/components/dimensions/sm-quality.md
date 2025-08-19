@@ -1,24 +1,24 @@
 ---
-title: 串流媒體品質維度
+title: 串流媒體服務品質維度
 description: 為報表套裝啟用[!UICONTROL 媒體品質]時可用的維度。
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
-# 串流媒體品質維度
+# 串流媒體服務品質維度
 
-*此頁面說明您為報表套裝啟用[!UICONTROL 媒體品質]時可用的維度。 如需可用的量度，請參閱[串流媒體品品質度](../metrics/sm-quality.md)。*
+*此頁面說明您為報表套裝啟用[!UICONTROL 媒體品質]時可用的維度。 如需可用的量度，請參閱[串流媒體服務品品質度](../metrics/sm-quality.md)。*
 
-串流媒體品質維度提供與訪客使用的內容品質相關的報表。 使用這些維度需要[!UICONTROL Adobe串流媒體集合]。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+串流媒體服務品質維度提供與訪客使用的內容品質相關的報表。 使用這些維度需要[!UICONTROL Adobe Analytics for Streaming Media Ad-on]。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-當您在[媒體報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)下啟用&#x200B;**[!UICONTROL 媒體品質]**&#x200B;時，可以使用下列維度：
+當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[媒體品質](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)時，可以使用下列維度：
 
-| Dimension名稱 | 說明 | 伴隨傳送 | 上下文資料變數 |
+| 維度名稱 | 說明 | 伴隨傳送 | 上下文資料變數 |
 | --- | --- | --- | --- |
 | 平均位元速率 | 以100-KBPS貯體間隔表示的平均位元速率。 其計算方式為與指定播放工作階段之播放持續時間相關的所有位元速率值的加權平均。 | 媒體關閉 | `a.media.qoe.bitrateAverageBucket` |
 | 位元速率變更 | 錄放工作階段發生的位元速率變更次數。 | 媒體關閉 | `a.media.qoe.bitrateChangeCount` |

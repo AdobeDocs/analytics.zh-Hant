@@ -4,10 +4,10 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體播放�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1167'
+ht-degree: 90%
 
 ---
 
@@ -34,22 +34,23 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的媒體播放時間面板。_<br/>_請參閱[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的媒體播放時間面板。_<br/>_請參閱[媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->媒體平均分鐘觀眾數面板僅供已購買 Adobe Analytics 串流媒體集合附加元件的客戶使用。
->&#x200B;>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
+>「媒體平均每分鐘觀眾數」面板僅適用於已購買適用於串流媒體的Adobe Analytics附加元件的客戶。
+>
+>請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
 
 **[!UICONTROL 媒體播放時間]**&#x200B;面板可進行特定期間的播放分析，提供尖峰期同時觀看人數的詳細資訊，並具備劃分和比較的能力。
 
 在 Analysis Workspace 中，播放時間是指在特定時間點觀看您媒體串流所花的時間多寡。其中包括暫停、緩衝和開始時間。
 
-購買串流媒體收集附加元件的客戶可以分析播放時間，以獲得了解內容品質和檢視者參與度的寶貴深入分析。並有助於疑難排解或完成數量和規模的相關規劃。
+已購買Adobe Analytics for Streaming Media附加元件的客戶可分析所花費的播放時間，以獲得寶貴的insight，進而瞭解內容品質和檢視者參與度。 並有助於疑難排解或完成數量和規模的相關規劃。
 
 播放時間有助於了解：
 
@@ -59,7 +60,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://video.tv.adobe.com/v/3446711?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +70,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 1. 建立&#x200B;**[!UICONTROL 媒體播放時間]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-1. 確保您選取的面板資料視圖已從串流媒體集合中設定元件。
+1. 確保您為面板選取資料檢視，該面板具有從Adobe Analytics for Streaming Media附加元件設定的元件。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -87,7 +88,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 | 面板摘要數字 | 若要查看播放時間的日期或時間詳細資訊，可使用摘要數字。「最大值」會顯示高峰期同時觀看人數的詳細資訊。「最小值」會顯示低谷期的詳細資訊。「總和」會加總選取範圍所花費的總播放時間。面板預設僅顯示「最大值」，但您可加以改變，以顯示「最小值」、「總和」或三者的任何組合。<br>如果您使用劃分功能，每項會顯示累加數。 |
 | 序列劃分 | 您可視需要將視覺效果根據篩選器、維度、維度項目或日期範圍劃分。<p>- 一次最多可檢視 10 行。劃分限於單一層級。</p><p>- 拖曳一個維度時，系統將根據選取面板日期範圍自動選取最上層的維度項目。</p>- 若要比較日期範圍，請將 2 個或多個日期範圍拖放到序列劃分篩選器。 |
 | 時間格式 | 您可以`Hours:Minutes:Seconds` (預設) 或`Minutes` (會以整數顯示，0.5 會四捨五入) 來檢視播放時間。 |
-| 日期序列顯示 | 如果您選定至少兩個日期範圍篩選器進行序列劃分，您會看到可選取覆蓋 (預設) 或循序的選項。覆蓋會顯示具有常見 x 軸起點的線條，因此它們會平行執行，而序列會顯示具有特定 x 軸起點的線條。如果資料排列整齊 (例如，篩選器 1 在下午 8:44 結束，而篩選器 2 在下午 8:45 開始)，則這些線條將按序列顯示。 |
+| 日期序列顯示 | 如果您選定至少兩個日期範圍篩選器進行序列劃分，您會看到可選取覆蓋 (預設) 或循序的選項。覆蓋會顯示具有常見 x 軸起點的線條，因此它們會平行執行，而序列會顯示具有特定 x 軸起點的線條。如果資料排列整齊（例如，篩選器1在下午8:44結束，篩選器2在下午8:45開始），則這些行會依序顯示。 |
 
 
 ![媒體播放時間的預設視圖。](assets/mpts_default_view.png)
@@ -125,8 +126,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 >[!MORELIKETHIS]
 >
 >[建立面板](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
->&#x200B;>[媒體同時檢視者面板](media-concurrent-viewers.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體同時檢視者面板](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446711?captions=chi_hant)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 
