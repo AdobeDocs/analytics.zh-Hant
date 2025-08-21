@@ -4,24 +4,22 @@ description: 此變數可用來將線上和離線資料連結在一起。
 feature: Appmeasurement Implementation
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fc52bfaa13f7fc93ef53aa49746d432676b3d55f
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 89%
+source-wordcount: '405'
+ht-degree: 75%
 
 ---
 
 # transactionID
 
-`transactionID` 變數可唯一識別交易，因此點擊能與透過 Data Sources 上傳的資料連結。若您想要使用其他管道的資料，並將這些資料與透過 AppMeasurement 收集的資料連結在一起，此變數很有用。
+`transactionID`變數可唯一識別交易，因此點選可以為透過[交易ID資料來源](/help/import/data-sources/transactionid.md)上傳的資料提供維度值。 如果您想要以從線上管道資料收集的值填寫離線管道資料，此變數很有用。
 
 >[!NOTE]
 >
 >使用此變數之前，請確認報表套裝中的[!UICONTROL 「交易 ID 儲存」]已啟用。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
-當您在點擊上設定 `transactionID` 時，Adobe 會針對在該時間點設定或留存的所有 Analytics 變數拍攝「快照」。透過 Data Sources 上傳且具有相符交易 ID 的資料會永遠與這些變數值連結。
-
-Adobe最多可記住25個月的所有交易ID值（連結和未連結）。
+當您在點擊上設定 `transactionID` 時，Adobe 會針對在該時間點設定或留存的所有 Analytics 變數拍攝「快照」。如需快照中所包含的維度清單，請參閱[交易ID資料來源](/help/import/data-sources/transactionid.md)。 Adobe最多可記住25個月的所有交易ID值（連結和未連結）。
 
 ## 使用 Web SDK 的交易 ID
 
