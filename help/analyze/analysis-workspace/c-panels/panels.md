@@ -85,13 +85,13 @@ ht-degree: 97%
 
 * 若要摺疊面板，請選取![V形向下](/help/assets/icons/ChevronDown.svg)。
 * 若要顯示摺疊的面板，請選取![V形左側](/help/assets/icons/ChevronLeft.svg)。
-* 若要刪除面板，請選取![CrossSize400](/help/assets/icons/CrossSize200.svg)。 若要復原，請選取[編輯] **** > [復原] **** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
+* 若要刪除面板，請選取![CrossSize400](/help/assets/icons/CrossSize200.svg)。 若要復原，請選取[編輯] **&#x200B;**&#x200B;> [復原] **&#x200B;**&#x200B;(**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
 * 若要移動面板，只要看見![移動](/help/assets/icons/Move.svg)時（通常是將游標停留在標頭上），請拖放面板。
 
 
 ## 報告套裝
 
-每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**&#x200B;識別 (在面板右上方的下拉式選單中)。
 
 建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
 
@@ -137,7 +137,7 @@ ht-degree: 97%
      您可以選取括號中的文字 (例如&#x200B;**[!UICONTROL 固定開始 - 每天遞延]**) 以延長面板並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資訊。
 
       1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
          * 選取目前的值。例如&#x200B;**[!UICONTROL 今年]**。
          * 選取一個值進行其他計算。例如，**[!UICONTROL 加]**。
          * 當您指定其他計算時，請指定一個值。例如 `1`。
