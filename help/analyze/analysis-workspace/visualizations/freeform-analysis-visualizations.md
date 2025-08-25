@@ -5,10 +5,10 @@ title: 視覺效果概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 599fbea7cb22e9cd0193b56fc2fb3c506bc62949
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 94%
+source-wordcount: '1707'
+ht-degree: 88%
 
 ---
 
@@ -93,6 +93,21 @@ Analysis Workspace 中有以下視覺效果類型：
 
    * 從自由格式表格的內容選單中，選取「**[!UICONTROL 視覺效果]**」。然後從子選單中選取視覺效果。根據表格中的選取項目，Workspace 確定提供哪種視覺化並解釋資料，以建置所要求的視覺化效果。
 
+當您新增簡單的視覺效果，例如[長條圖](line.md)的[線條](bar.md)視覺效果時，該視覺效果會使用最接近的自由格式表格作為資料來源。 您可以隨時修改視覺效果的[資料來源](#data-source)。
+
+## 管理視覺效果
+
+當您將游標停留在視覺效果上或選取視覺效果時，您可以管理視覺效果。
+
+![管理視覺效果](assets/manage-visualization.png)
+
+* 若要收合視覺效果，請選取![V形向下](/help/assets/icons/ChevronDown.svg)。
+* 若要顯示收合的視覺效果，請選取![左側](/help/assets/icons/ChevronLeft.svg) V形。
+* 若要刪除視覺效果，請選取![CrossSize400](/help/assets/icons/CrossSize400.svg)。 若要復原，請選取[編輯] **** > [復原] **** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
+* 若要將視覺效果回覆為預設高度，請選取![ImageResize](/help/assets/icons/Resize.svg)。
+* 若要在面板內移動視覺效果，只要有![移動](/help/assets/icons/Move.svg)出現（通常是將游標停留在標頭上），即可拖放視覺效果。
+
+
 ## 圖例
 
 視覺效果圖例可幫助您將來源表內的日期與視覺效果內的繪製序列產生關聯。圖例為互動式 - 您可以選取圖例項目來顯示/隱藏視覺效果中的系列，如果您想簡化視覺化資料，這相當實用。
@@ -110,6 +125,20 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
 
+## 設定
+
+每個視覺效果都有其自己的設定。若要存取視覺效果設定，請選取視覺效果標題中的 ![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**&#x200B;以顯示快顯視窗。
+
+根據視覺效果，您可以
+
+* 透過 「[**[!UICONTROL 資料來源]**](#data-source)」索引標籤設定視覺效果的資料來源詳細資訊，以及
+* 透過「[**[!UICONTROL 設定]**](#settings-1)」索引標籤進行視覺效果設定。
+
+![視覺效果設定](assets/visualization-settings.png)
+
+### 資料來源
+
+您可以控制哪些資料來源以及與視覺效果相對應的資料來源內項目或位置。請參閱[管理資料來源](t-sync-visualization.md)，了解更多資訊。
 
 ### 設定
 
@@ -217,8 +246,8 @@ Additional functionality for a visualziation is available by right-clicking on t
 | --- | --- |
 | Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
 | Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant&#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant&#download-data) | Download visualization data source as a CSV. |
+| [Download items as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
+| [Download data as CSV](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | Download visualization data source as a CSV. |
 | Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
 | Edit Description | Add (or edit) a text description for the visualization. |
 | Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
