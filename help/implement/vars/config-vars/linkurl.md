@@ -4,18 +4,18 @@ description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 65%
+source-wordcount: '190'
+ht-degree: 37%
 
 ---
 
 # linkURL
 
-每當連結追蹤呼叫傳送至 Adobe 時，資料收集伺服器都會自動偵測 URL。使用 `linkURL` 變數來覆寫偵測到的 URL。
+每當連結追蹤呼叫傳送至Adobe時，AppMeasurement都會偵測所點按的URL。 此URL可協助判斷連結型別，例如下載連結和退出連結。 使用 `linkURL` 變數來覆寫偵測到的 URL。
 
-Analysis Workspace中沒有報告此變數的維度。 它會填入[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)中的`page_event_var1`欄。
+Analysis Workspace中沒有報告此變數的維度。 它會填入`page_event_var1`資料摘要[中的](/help/export/analytics-data-feed/data-feed-overview.md)欄。 如果您想要追蹤已點按連結的URL，Adobe建議使用自訂變數，例如[Prop](../page-vars/prop.md)。
 
 ## 使用網頁SDK連結URL
 
@@ -30,7 +30,7 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkURL
 
-`s.linkURL` 變數是字串，包含點按連結時瀏覽器的 URL。此變數不會填入報表中任何可用的維度。
+`s.linkURL`變數是字串，包含點選連結的完整URL。 此變數不會填入報表中任何可用的維度。
 
 ```js
 s.linkURL = "https://example.com";
