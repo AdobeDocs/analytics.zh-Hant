@@ -3,9 +3,9 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要，以及提供給Adobe的相關檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
+source-wordcount: '4128'
 ht-degree: 53%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 53%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **名稱**] | 資料摘要的名稱。 在選取的報表套裝內不可重複，長度上限為 255 個字元。 |
+   | [!UICONTROL **名稱**] | 資料摘要的名稱。 在選取的報表套裝內不可重複，長度上限為255個字元。 [了解更多](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **報告套裝**] | 資料摘要所在的報告套裝。 如果相同報表套裝中建立了多個資料摘要，它們必須各有不同的欄定義。只有來源報表套裝支援資料摘要，虛擬報表套裝並不受支援。 |
    | [!UICONTROL **完成時收到電子郵件**] | 摘要完成處理時要通知的電子郵件地址。 電子郵件地址的格式必須正確。 |
    | [!UICONTROL **摘要間隔**] | 針對回填或歷史資料選取&#x200B;**每日**。 每日摘要則包含一整天的資料，從報表套裝時區的午夜到午夜。 選取&#x200B;**每小時**&#x200B;以取得連續資料（如果您願意，也可選擇「每日」取得連續摘要）。 每小時摘要包含一個小時的資料量， |
@@ -144,7 +144,7 @@ ht-degree: 53%
 
    1. 如果您尚未建立可供Adobe Analytics用於驗證的Azure應用程式，然後授與存取控制(IAM)的存取許可權。
 
-      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)的Microsoft Azure檔案。
+      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式[的](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)Microsoft Azure檔案。
 
    1. 在Adobe Analytics Admin Console的&#x200B;[!UICONTROL **Destination**]&#x200B;區段的&#x200B;[!UICONTROL **Type**]&#x200B;下拉式功能表中，選取&#x200B;[!UICONTROL **Azure RBAC**]。
 
@@ -184,8 +184,8 @@ ht-degree: 53%
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | Azure RBAC帳戶的名稱。 此名稱會顯示在&#x200B;[!UICONTROL **選取帳戶**]&#x200B;下拉式欄位中，而且可以是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | Azure RBAC帳戶的說明。 此描述會顯示在&#x200B;[!UICONTROL **選取帳戶**]&#x200B;下拉式欄位中，而且可以是您選擇的任何名稱。 |
-         | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-         | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+         | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+         | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
          | [!UICONTROL **密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
          {style="table-layout:auto"}
@@ -218,7 +218,7 @@ ht-degree: 53%
 
    1. 如果您尚未建立應用程式，請建立Adobe Analytics可用於驗證的Azure應用程式。
 
-      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)的Microsoft Azure檔案。
+      如需詳細資訊，請參閱有關如何建立Azure Active Directory應用程式[的](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)Microsoft Azure檔案。
 
    1. 在Adobe Analytics Admin Console的&#x200B;[!UICONTROL **目的地**]&#x200B;區段中，選取&#x200B;[!UICONTROL **Azure SAS**]。
 
@@ -258,8 +258,8 @@ ht-degree: 53%
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | Azure SAS帳戶的名稱。 此名稱會顯示在&#x200B;[!UICONTROL **選取帳戶**]&#x200B;下拉式欄位中，而且可以是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | Azure SAS帳戶的說明。 此描述會顯示在&#x200B;[!UICONTROL **選取帳戶**]&#x200B;下拉式欄位中，而且可以是您選擇的任何名稱。 |
-         | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-         | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概述**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+         | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+         | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
          | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure金鑰儲存庫中SAS URI的路徑。 若要設定 Azure SAS，需要使用 Azure Key Vault 將 SAS URI 儲存為密碼。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰保存庫 URI 後：<ul><li>在 Key Vault 上新增存取權原則，以便向您建立的 Azure 應用程式授予權限。<p>若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p><p>或</p><p>如果您要直接授與存取角色而不建立存取原則，請參閱[Microsoft Azure檔案，瞭解如何使用Azure入口網站](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)指派Azure角色。 這會新增應用程式ID的角色指派，以存取金鑰儲存庫URI。 </p></li><li>確保已將應用程式 ID 授予 `Key Vault Certificate User` 內建角色，以便存取金鑰保存庫 URI。</br><p>若要了解更多資訊，請參閱「[Azure 內建角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)」。</p></li></ul> |
          | [!UICONTROL **金鑰保存庫祕密名稱**] | 您將密碼新增至 Azure Key Vault 時建立的密碼名稱。在 Microsoft Azure 中，此資訊位於您建立的 Key Vault 中，位於 **Key Vault** 設定頁面。若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
          | [!UICONTROL **密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
