@@ -4,10 +4,10 @@ description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 37%
+source-wordcount: '204'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 37%
 
 每當連結追蹤呼叫傳送至Adobe時，AppMeasurement都會偵測所點按的URL。 此URL可協助判斷連結型別，例如下載連結和退出連結。 使用 `linkURL` 變數來覆寫偵測到的 URL。
 
-Analysis Workspace中沒有報告此變數的維度。 它會填入`page_event_var1`資料摘要[中的](/help/export/analytics-data-feed/data-feed-overview.md)欄。 如果您想要追蹤已點按連結的URL，Adobe建議使用自訂變數，例如[Prop](../page-vars/prop.md)。
+Analysis Workspace中沒有報告此變數的維度。 它會填入`page_event_var1`資料摘要[中的](/help/export/analytics-data-feed/data-feed-overview.md)欄。 如果您想要追蹤已點按連結的URL，Adobe建議使用自訂變數，例如[Prop](../page-vars/prop.md)。 使用[Activity Map](/help/analyze/activity-map/overview.md)有助於簡化點選連結的資料收集。
 
 ## 使用網頁SDK連結URL
 

@@ -5,16 +5,20 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
 
 # Activity Map擴充功能介面
 
-Activity Map擴充功能介面由兩部分組成：
+Activity Map擴充功能可讓您檢視網站上覆蓋的點選資料。 您可以導覽至下列頁面，以下載擴充功能，其中提供網站商店的連結：
+
+**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]** > **[!UICONTROL 下載Activity Map]**
+
+安裝並啟用後，介面就會由數個部分組成：
 
 * 可讓您設定擴充功能和報表的頂端面板
 * 顯示最受歡迎連結的覆蓋圖

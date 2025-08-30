@@ -4,10 +4,10 @@ title: Activity Map 概觀
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: dee8f0a13a159f4c7902d2ccddd8848c4016b471
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 5%
+source-wordcount: '605'
+ht-degree: 4%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 5%
 
 Adobe Analytics Activity Map 是 Adobe Analytics 中的一項功能，可提供網頁和行動應用程式上使用者參與度的視覺化表示。它可讓行銷人員和分析師追蹤和分析使用者互動，例如點按和捲動行為。 Activity Map會產生熱度圖和覆蓋報表，顯示網頁上最熱門的元素，協助您最佳化數位體驗。
 
-本檔案的本節內容著重於Activity Map覆蓋。 不過，使用Activity Map時還有其他重要部分：
+Activity Map作為一個概念，由幾個重要元件組成：
 
-* **報表套裝設定**：報表套裝必須啟用Activity Map。 請參閱報表套裝設定中的[Activity Map報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)。
+* **報表套裝設定**：報表套裝必須先啟用Activity Map，您才能開始使用。 請參閱報表套裝設定中的[Activity Map報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)。
 * **實作**：大部分的Activity Map報表都可立即使用。 不過，有些網站可能需要額外的實施，才能充分運用連結追蹤。 下列實作變數可供使用：
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：依連結名稱篩選點選資料。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：依區域名稱篩選點按資料。
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)：變更填入Activity Map地區維度的屬性。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md)：自訂Activity Map用來填入Activity Map連結維度的邏輯。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md)：自訂Activity Map用來填入Activity Map地區維度的邏輯。
+* **覆蓋**：可讓您檢視網站上覆蓋之點按資料的瀏覽器擴充功能。 如需詳細資訊，請參閱[Activity Map擴充功能介面](overlay/overview.md)。
 * **維度**：除了覆蓋延伸功能外，Activity Map還提供幾個可在Analysis Workspace中使用的維度。
    * [Activity Map連結](/help/components/dimensions/activity-map-link.md)：被點按的連結名稱。
    * [Activity Map地區](/help/components/dimensions/activity-map-region.md)：被點按的地區名稱。
