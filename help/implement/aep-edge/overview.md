@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料 - 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
+source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 17%
+source-wordcount: '510'
+ht-degree: 16%
 
 ---
 
@@ -17,17 +17,19 @@ Adobe Experience Platform Edge Network 可讓您將預計要送給多個產品�
 
 ## Adobe Analytics 如何處理 Edge Network 資料
 
+由於傳送至Edge Network的資料與AppMeasurement資料的運作方式不同，Edge Network裝載會決定Adobe Analytics如何處理點選。 如需詳細資訊，請參閱Adobe Analytics[中的](hit-types.md)Edge Network事件型別。
+
 傳送至Adobe Experience Platform Edge Network的資料可遵循三種格式： **XDM物件**、**資料物件**&#x200B;和&#x200B;**內容資料**。 當資料流將資料轉送到Adobe Analytics時，資料會轉換為Adobe Analytics可以處理的格式。
 
 ## `xdm`物件
 
-符合您根據[XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-hant) （體驗資料模型）建立的結構描述。 XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。如果您想要使用Adobe Analytics專屬的預先定義結構描述，您可以將[Adobe Analytics ExperienceEvent結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)新增到您的結構描述。 新增後，您可以使用Web SDK中的`xdm`物件填入此結構描述，以傳送資料至報表套裝。 資料到達Edge Network時，會將XDM物件轉譯為Adobe Analytics可瞭解的格式。
+符合您根據[XDM](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) （體驗資料模型）建立的結構描述。 XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。如果您想要使用Adobe Analytics專屬的預先定義結構描述，您可以將[Adobe Analytics ExperienceEvent結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)新增到您的結構描述。 新增後，您可以使用Web SDK中的`xdm`物件填入此結構描述，以傳送資料至報表套裝。 資料到達Edge Network時，會將XDM物件轉譯為Adobe Analytics可瞭解的格式。
 
 如需有關XDM欄位以及如何對應到Adobe Analytics變數的完整參考，請參閱[XDM物件變數對應到Analytics](xdm-var-mapping.md)。
 
 >[!TIP]
 >
->如果您日後打算改用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing)，Adobe建議您不要使用Adobe Analytics結構描述欄位群組。 Adobe建議[建立您自己的結構描述](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，並使用資料流對應來填入所需的Analytics變數。 當您準備好移至Customer Journey Analytics時，此策略不會將您鎖定在prop和eVar的結構描述。
+>如果您日後打算改用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)，Adobe建議您不要使用Adobe Analytics結構描述欄位群組。 Adobe建議[建立您自己的結構描述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，並使用資料流對應來填入所需的Analytics變數。 當您準備好移至Customer Journey Analytics時，此策略不會將您鎖定在prop和eVar的結構描述。
 
 ## `data`物件
 
