@@ -3,7 +3,7 @@ title: 郵遞區號
 description: 訪客的郵遞區號。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 79%
@@ -21,12 +21,12 @@ ht-degree: 79%
 * 直接使用 `zip` 變數設定郵遞區號；或
 * 將其設定為從地理位置資料中提取。
 
-[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。
+[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。
 
 如果您選擇使用任何涉及地域郵遞區號的選項：
 
-* 對於AppMeasurement實作，此維度可立即運作。
-* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
+* 對於AppMeasurement實作，此維度可直接運作。
+* 針對Web SDK實作，請在[!UICONTROL 設定資料流]時啟用[地理查閱](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
 
 ## 維度項目
 

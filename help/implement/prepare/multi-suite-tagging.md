@@ -4,7 +4,7 @@ title: 實作多套裝標記
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,11 +13,11 @@ ht-degree: 93%
 
 # 實作多套裝標記
 
-[多套裝標記](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md)不僅可讓您向全域報表套裝傳送影像要求，也可傳送給個別子報表套裝，好讓您可以將貴公司的部分全域報表套裝資料傳送給不同一般使用者。
+[多套裝標記](/help/admin/tools/manage-rs/rollup-report-suite.md)不僅可讓您向全域報表套裝傳送影像要求，也可傳送給個別子報表套裝，好讓您可以將貴公司的部分全域報表套裝資料傳送給不同一般使用者。
 
 若要實作多套裝標記，您必須在您網頁和應用程式的追蹤程式碼中，加入全域報表套裝的報表套裝 ID (RSID)，也要加入適用的子報表套裝的 RSID。
 
-* 針對 Adobe Experience Platform 標記實作，請為[[!DNL Analytics] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)指定每個報表套裝。
+* 針對 Adobe Experience Platform 標記實作，請為[[!DNL Analytics] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)指定每個報表套裝。
 
 * 若要舊版 JavaScript 和行動 SDK 實作，請用逗號且不含空格來區隔 RSID (`rsid1,rsid2,rsid3` 等)。
 

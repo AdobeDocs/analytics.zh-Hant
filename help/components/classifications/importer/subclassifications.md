@@ -3,7 +3,7 @@ description: Adobe Analytics 支援單層級與多層級分類模式。分類階
 title: 子分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 97%
@@ -18,7 +18,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 >[!NOTE]
 >
->子分類表示在分類中建立分類的能力。 然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)。
+>子分類表示在分類中建立分類的能力。 然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)。
 
 例如：
 
@@ -62,7 +62,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 ## 範例
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/classifications.png)
 
 >[!NOTE]
 >

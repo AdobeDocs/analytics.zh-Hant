@@ -3,9 +3,9 @@ description: 分類規則會經常尋找未分類的詞語。如果找到符合�
 title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1970'
 ht-degree: 90%
 
 ---
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >[!UICONTROL 規則產生器]不支援「數值 2」分類。
 
 ## 關於規則的重要資訊
-
-* 在[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hant)中指定分類的[!UICONTROL 群組許可權]。
 
 * **規則運算式**：[分類規則中的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)底下提供說明。
 
@@ -135,7 +133,7 @@ about_classification_rules.xml
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
-| 規則運算式 | &Hat;(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
+| 規則運算式 | &amp;Hat;(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
 
 **語法**
 
@@ -393,7 +391,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. (選用) 若要覆寫分類，請啟用「&lt;*選取項目*> 的&#x200B;**[!UICONTROL 覆寫分類]**」。
+1.  (選用) 若要覆寫分類，請啟用「&lt;*選取項目*> 的&#x200B;**[!UICONTROL 覆寫分類]**」。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 

@@ -4,17 +4,17 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Adobe Analytics 工具指南 {#analyze}
 
-+ [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics工具指南](home.md)
++ [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
    + [快速入門 (依照角色)](get-started/get-started-by-role.md)
@@ -159,7 +159,7 @@ ht-degree: 100%
       + [效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤和疑難排解](analysis-workspace/workspace-faq/error-messages.md)
       + [限制](analysis-workspace/workspace-faq/aw-limitations.md)
-      + [要求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Report Builder 概觀](report-builder/rb-overview.md)

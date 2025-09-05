@@ -4,14 +4,14 @@ description: 了解用戶端提示如何逐漸取代使用者代理程式成為�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 84%
 
 ---
 
-# 用戶端提示總覽和常見問題
+# 用戶端提示概觀和常見問題
 
 用戶端提示指有關使用者裝置的個別資訊。上述提示會透過 Google Chrome 和 Microsoft Edge 之類的 Chromium 瀏覽器提供。對於這些瀏覽器，用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。Adobe Analytics 將更新其裝置查找流程，以便使用除使用者代理程式以外的用戶端提示來確定裝置資訊。
 
@@ -25,13 +25,13 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 從 2022 年 10 月開始，新版本的 Chromium 瀏覽器已開始「凍結」使用者代理字串中表示的作業系統版本。作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
 
-從2023年2月27日開始，使用者端提示將納入Analytics裝置查詢流程，並於2023年3月2日結束。 AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 2 日中旬之前不會用於裝置查詢。 如下所述，作業系統版本已於 10 月凍結，但由於是逐步推出和許多使用者代理已提供凍結的作業系統版本 (詳閱[這裡](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響不到 3% 的 Chrome 訪客。
+從2023年2月27日開始，使用者端提示將納入Analytics裝置查詢流程，並於2023年3月2日結束。 AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 2 日中旬之前不會用於裝置查詢。 如下所述，作業系統版本已於 10 月凍結，但由於是逐步推出和許多使用者代理已提供凍結的作業系統版本 (詳閱[這裡](/help/components/dimensions/operating-systems.md))，我們估計這將影響不到 3% 的 Chrome 訪客。
 
 >[!NOTE]
 >
-> 截至 2023 年 1 月，部分版本的 Mac 和 Windows 作業系統在使用者代理中顯示不正確，但在高平均資訊量用戶端提示中顯示正確。 如需詳細資訊，請參閱[作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)。
+> 截至 2023 年 1 月，部分版本的 Mac 和 Windows 作業系統在使用者代理中顯示不正確，但在高平均資訊量用戶端提示中顯示正確。 如需詳細資訊，請參閱[作業系統](/help/components/dimensions/operating-systems.md)。
 
-Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您正在使用[伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您正在使用[伺服器端轉送至Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 ## 常見問題
 
@@ -43,7 +43,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 +++**我如何才能啟用用戶端提示的收藏集？**
 
-低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自「標記」擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant#enabling-high-entropy-client-hints) 和 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hant) 的說明。
+低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自「標記」擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant#enabling-high-entropy-client-hints) 和 [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) 的說明。
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
@@ -91,15 +91,15 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 這些欄位直接衍生自使用者代理程式，但使用者代理程式可用於協助推導出其他裝置相關欄位的值 (視裝置詳細資料而定)。
 
-* [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hant)
-* [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hant)
-* [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)
-* [作業系統類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=zh-Hant)
-* [行動裝置和行動裝置類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=zh-Hant)
+* [瀏覽器](/help/components/dimensions/browser.md)
+* [瀏覽器類型](/help/components/dimensions/browser-type.md)
+* [作業系統](/help/components/dimensions/operating-systems.md)
+* [作業系統類型](/help/components/dimensions/operating-system-types.md)
+* [行動裝置和行動裝置型別](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**從使用者代理程式中會移除哪些部分以及何時移除？**
++++**從使用者代理程式中會移除哪些部分以及何時移除？** 
 
 請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。這可能會隨時變更。
 
@@ -157,8 +157,8 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++
 
-+++**Adobe Audience Manager伺服器端轉送是否支援使用者端提示？**
++++**Adobe Audience Manager伺服器端轉送是否支援使用者端提示？** 
 
-是。使用者端提示將包含在轉送至Adobe Audience Manager的資料中。 請注意，Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您正在使用[伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+是。使用者端提示將包含在轉送至Adobe Audience Manager的資料中。 請注意，Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您正在使用[伺服器端轉送至Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++

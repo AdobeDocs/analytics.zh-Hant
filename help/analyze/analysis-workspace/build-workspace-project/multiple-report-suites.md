@@ -4,14 +4,14 @@ description: 瞭解如何在一個Analysis Workspace專案中使用多個報表�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
 
-# 多報告套裝
+# 多個報告套裝
 
 您可以在Analysis Workspace中建立含有來自多個報表套裝之資料的專案。 報表套裝是在面板層級選擇，因此您可以為同一個Workspace專案內的每個面板選擇不同的報表套裝。
 
@@ -71,6 +71,6 @@ ht-degree: 71%
 
 1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報表套裝標籤，指出
 
-   * 建立區段的位置： [區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。
-   * 建立計算量度的位置： [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)。
-   * 建立警報的位置： [警報產生器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=zh-Hant)。
+   * 建立區段的位置： [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+   * 建立計算量度的位置： [計算量度產生器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。
+   * 建立警報的位置： [警報產生器](/help/components/alerts/alert-builder.md)。

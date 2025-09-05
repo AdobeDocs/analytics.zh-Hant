@@ -3,9 +3,9 @@ title: 匯入付費搜尋量度
 description: 設定Adobe Analytics以使用資料來源追蹤您的付費搜尋量度(例如Google Ads、Microsoft Advertising等)的步驟。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1204'
 ht-degree: 90%
 
 ---
@@ -65,14 +65,14 @@ ht-degree: 90%
 1. 按&#x200B;**[!UICONTROL 下一步]**，並為您的資料來源命名。 此名稱將出現在資料來源管理員中。
 1. 接受服務合約，然後按&#x200B;**[!UICONTROL 下一步]**。
 1. 選取三個標準量度：[!UICONTROL 曝光數]、[!UICONTROL 點按數]和[!UICONTROL 總成本]，然後按&#x200B;**[!UICONTROL 下一步]**。
-1. 現在將這個新的資料來源「對應」到我們在[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)中建立的自訂事件。
+1. 現在將這個新的資料來源「對應」到我們在[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)中建立的自訂事件。
 
    ![對應](assets/data-source-mapping.png)
 
 1. 選擇資料維度
-選取「追蹤代碼」旁邊的方塊，然後按&#x200B;**[!UICONTROL 下一步]**。
+選取「追蹤代碼」旁邊的方塊，然後按**[!UICONTROL 下一步]**。
 1. 對應資料維度。
-將匯入的資料維度 (屬性) 對應到您想要用來儲存它的 Adobe Analytics 屬性。 這可能是標準維度或 eVar。 當您按&#x200B;**[!UICONTROL 下一步]**&#x200B;之後，摘要中會顯示產生的對應：
+將匯入的資料維度 (屬性) 對應到您想要用來儲存它的 Adobe Analytics 屬性。 這可能是標準維度或 eVar。 當您按**[!UICONTROL 下一步]**&#x200B;之後，摘要中會顯示產生的對應：
 
    ![摘要](assets/data-source-summary.png)
 
@@ -99,9 +99,9 @@ ht-degree: 90%
 1. 刪除上方任何多餘的列。
 1. 若要將追蹤代碼與目的地 URL 分開：
 a. 複製並貼上所有欄中的資料。
-b. 按一下&#x200B;**[!UICONTROL 資料 > 資料剖析]**。
-c. 在精靈中的步驟 1，確定已選取&#x200B;**[!UICONTROL 分隔符號]**，然後按&#x200B;**[!UICONTROL 下一步]**。
-d. 在精靈中的步驟 2，根據您建立 URL 的方式來指定分隔符號 (? 或 &amp;)，然後按&#x200B;**[!UICONTROL 下一步]**。
+b. 按一下**[!UICONTROL 資料 > 資料剖析]**。
+c. 在精靈中的步驟 1，確定已選取**[!UICONTROL 分隔符號]**，然後按&#x200B;**[!UICONTROL 下一步]**。
+d. 在精靈中的步驟 2，根據您建立 URL 的方式來指定分隔符號 (? 或 &amp;)，然後按**[!UICONTROL 下一步]**。
 e. 在精靈中的步驟 3，預覽您的資料，並確定其中一欄為「trackingcodename=trackingcode」。 如果您有其他變數，請重複這些步驟 (使用 &amp; 當作分隔符號)。
 f. 刪除追蹤代碼、曝光率、點按數和成本以外的所有欄。 新增稱為「日期」的一個新欄，並依照以下順序組織您的欄：日期 :: 追蹤代碼 :: 曝光率 :: 點按數 :: 成本。
 1. 將此資料新增到您在上述「設定資料來源」一節中所下載的範本。
@@ -117,7 +117,7 @@ f. 刪除追蹤代碼、曝光率、點按數和成本以外的所有欄。 新�
 
 在制定每次點按付費決策時，新增計算量度會很有幫助。
 
-例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant#calculated-metrics)：
+例如，您可以新增這些[計算量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics)：
 
 | 名稱 | 公式 | 量度類型 | 說明 |
 | --- | --- | --- | --- |

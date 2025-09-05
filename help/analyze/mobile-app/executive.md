@@ -4,7 +4,7 @@ title: Adobe Analytics 儀表板高階主管指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 92%
@@ -110,7 +110,7 @@ ht-degree: 92%
 
 1. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。 應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
 
-   ![區段篩選](/help/admin/admin/assets/filter.png)
+   ![區段篩選](/help/admin/tools/assets/filter.png)
 
 1. 更新計分卡。 如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。 更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
 

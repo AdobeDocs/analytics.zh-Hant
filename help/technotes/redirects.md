@@ -4,7 +4,7 @@ keywords: Analytics 實作
 title: 重新導向與別名
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -41,8 +41,8 @@ ht-degree: 99%
 重新導向可能會使瀏覽器忘掉真正的反向連結 URL。假設有下列情況：
 
 1. 使用者在瀏覽器中前往 `https://www.google.com`，並在搜尋欄位中輸入 *discount airline tickets*，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
-1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
-1. 使用者點按連結 `https://www.flytohawaiiforfree.com/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
+1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaii.example/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
+1. 使用者點按連結 `https://www.flytohawaii.example/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
 
 ## 實作重新導向 {#implement}
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 
 ## 設定反向連結覆寫 JavaScript 程式碼 {#override}
 
-下列程式碼片段顯示兩個 JavaScript 變數: *`s_referrer`* 和 *`s_pageURL`*。此程式碼會放置在重新導向的最終登陸頁面上。
+下列程式碼片段顯示兩個 JavaScript 變數: `s.referrer` 和 `s.pageURL`。此程式碼會放置在重新導向的最終登陸頁面上。
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ if(tempVar)
 因此，登陸頁面的最終版本將必須包含下列程式碼，以更正「折扣機票」情境所產生的問題。
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## 使用 Adobe Debugger 驗證反向連結 {#verify}
@@ -135,8 +135,8 @@ s.pageURL="https://www.flytohawaiiforfree.com"
   </tr> 
   <tr> 
    <td> <p>頁面 URL </p> </td> 
-   <td> <p> <span class="filepath"> https://www.flytohawaiiforfree.com </span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>若使用 <span class="varname">pageURL</span> 變數，此值將出現在 DigitalPulse Debugger 中。 </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>若使用 <span class="varname">pageURL</span> 變數，此值將出現在 DigitalPulse Debugger 中。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>最終登陸頁面 URL </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 

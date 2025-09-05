@@ -4,9 +4,9 @@ short-description: 了解分析師、一般使用者和管理員的關鍵功能�
 title: Adobe Analytics 概觀
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲�
 | [Analytics 產品比較和需求](/help/analyze/get-started/analytics-product-comparison.md) | 比較各種可用的 Adobe Analytics 產品。 |
 | [系統需求](/help/analyze/get-started/sys-reqs.md) | 說明實施和使用 Adobe Analytics 的先決條件和系統需求。 |
 
-## 影片概述
+## 影片概觀
 
 如果要了解 Adobe Analytics 的基礎知識，請查看此 *Adobe Analytics 簡介 - Skill Builder 網路研討會*&#x200B;影片。影片中介紹了如何擷取資料、如何將資料發送到 Adobe Analytics，以及您可以在 Adobe Analytics 中使用哪些視覺化功能的基礎知識。影片能為您建置、部署、收集和解譯資料提供基礎，讓您能夠根據收集的資料，提供可操作分析和建議。
 
@@ -41,7 +41,7 @@ Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲�
 >[!ENDSHADEBOX]
 
 
-若要了解關於使用哪種工具的問題，請參閱[我應該使用哪種 Adobe Analytics 工具？](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=zh-Hant)。
+若要了解關於使用哪種工具的問題，請參閱[我應該使用哪種 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)。
 
 ## 進一步探討 Customer Journey Analytics
 

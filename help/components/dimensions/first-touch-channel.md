@@ -1,9 +1,9 @@
 ---
 title: 首次接觸管道
-description: 訪客參與有效期內的第一個行銷管道。
+description: 訪客參與期限內的第一個行銷管道。
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 91%
@@ -12,11 +12,11 @@ ht-degree: 91%
 
 # 首次接觸管道
 
-「首次接觸管道」維度[1&rbrace;會報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道。 ](overview.md)若要了解哪些行銷管道促進網站的初始流量，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
+「首次接觸管道」維度[1}會報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道。 ](overview.md)若要了解哪些行銷管道促進網站的初始流量，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
 
 ## 將資料填入此維度中
 
-此維度會直接參照您在[「行銷管道管理員」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中定義的管道名稱。
+此維度會直接參照您在[「行銷管道管理員」](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中定義的管道名稱。
 
 傳送至 Adobe 資料收集伺服器的每個點擊，都會透過報表套裝的行銷管道處理規則執行。它會以數值順序反覆每個規則，直到找到相符項目，而該行銷管道會繫結至點擊。首次接觸管道會持續與訪客同時存在，直到對方超過訪客參與期間 (預設為 30 天) 沒有造訪網站。
 

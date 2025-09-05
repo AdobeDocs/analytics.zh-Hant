@@ -5,9 +5,9 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 96%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 96%
 >[!ENDSHADEBOX]
 
 
-## 與組織中的使用者和群組共用 {#Add}
+## 與組織中的使用者及群組共用。 {#Add}
 
 您可以與組織中的現有 Analysis Workspace 使用者或群組共用專案。依照本節所述共用專案時，共用專案的使用者必須已經擁有 Adobe Analytics 存取權。
 
@@ -60,9 +60,9 @@ ht-degree: 96%
 
 與組織中的使用者和群組共用特定專案角色時，請考慮以下事項：
 
-* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中管理的使用者權限影響。
+* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant) 中管理的使用者權限影響。
 
-* 在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中的產品設定檔所定義。管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
+* 在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant) 中的產品設定檔所定義。管理員可將任何群組當作共用對象，包括「全部」。非管理員則可與其所屬的任何群組共用，但「全部」除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。
 
@@ -107,7 +107,7 @@ ht-degree: 96%
 
    或
 
-   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已共用，選取「**[!UICONTROL 監管與更新]**」)。了解更多有關[專案監管](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
+   選取「**[!UICONTROL 監管與共用]**」以自動套用專案監管。(如果專案已共用，選取「**[!UICONTROL 監管與更新]**」)。了解更多有關[專案監管](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
 ## 共用專案的連結
 
@@ -115,7 +115,7 @@ ht-degree: 96%
 
 * 使用該連結的收件者須先登入 Adobe Analytics，然後才能存取該專案。
 
-* 收件者若未被指派任何角色，且收到專案的[分享連結](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)，將會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
+* 收件者若未被指派任何角色，且收到專案的[分享連結](/help/analyze/analysis-workspace/curate-share/shareable-links.md)，將會獲得預設角色。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。
 
 若要與組織中的使用者共用專案連結：
 
@@ -157,7 +157,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3452476?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -176,7 +176,7 @@ ht-degree: 96%
 
    選取此選項後，會建立一個可以與任何人共用的專案連結。您可以隨時透過停用此選項來停用對專案的存取權。
 
-   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶期限](/help/admin/admin/user-management2/users-assets.md)中所述。
+   該專案的所有者也是該連結的所有者。只有在專案所有權轉移時，連結所有權才能轉移給其他使用者，如 Analytics 管理員指南中的[轉移使用者資產或設定帳戶期限](/help/admin/tools/user-management/users-assets.md)中所述。
 
 1. 選擇是否啟用以下安全選項 (此選項可由您的 Analytics 管理員控制)：
 

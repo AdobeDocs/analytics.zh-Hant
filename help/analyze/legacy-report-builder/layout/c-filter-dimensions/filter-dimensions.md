@@ -5,7 +5,7 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 73%
@@ -24,7 +24,7 @@ ht-degree: 73%
 
 在&#x200B;**[!UICONTROL 「熱門篩選]** > **[!UICONTROL 定義篩選」]**&#x200B;面板中的篩選相關資訊。
 
-![熒幕擷圖顯示[定義篩選]對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/admin/assets/filter.png)
+![熒幕擷圖顯示[定義篩選]對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/tools/assets/filter.png)
 
 下列表格會提供篩選的範例和相關資訊：
 

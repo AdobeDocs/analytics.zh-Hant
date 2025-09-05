@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 750c4b0ffb52c3f2cf25abcd76ef149a4521109e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1090'
 ht-degree: 31%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 31%
 
 +++ 如何知道我的Analytics資料中是否有個人識別資訊(PII)？ 如果有，我該怎麼做？
 
-如果您的prop或eVar中有電子郵件/地址/等，請考慮在收集期間對資料進行雜湊處理。 如果您的國家/地區認為IP位址是PII，請[開啟IP模糊化](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hant)。 請洽詢Analytics管理員，瞭解您正在收集哪些資料。 請洽詢您的法律部門，瞭解他們對PII的看法。
+如果您的prop或eVar中有電子郵件/地址/等，請考慮在收集期間對資料進行雜湊處理。 如果您的國家/地區認為IP位址是PII，請[開啟IP模糊化](/help/admin/tools/exclude-ip.md)。 請洽詢Analytics管理員，瞭解您正在收集哪些資料。 請洽詢您的法律部門，瞭解他們對PII的看法。
 
 +++
 
@@ -37,7 +37,7 @@ ht-degree: 31%
 
 +++ 如何在Audience Manager中建立Analytics目的地？
 
-請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)」。
+請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)」。
 
 +++
 
@@ -105,7 +105,7 @@ ht-degree: 31%
 
 +++
 
-+++ 我的Analytics報表中為何顯示「已達對象上限」？ (注意：這也會在Data Warehouse中呈現為「對象識別碼= -1」和`::max_audiences_exceeded::`)
++++ 我的Analytics報表中為何顯示「已達對象上限」？ (注意：這也會在Data Warehouse中呈現為「對象ID = -1」和`::max_audiences_exceeded::`)
 
 根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段，系統會將最近符合資格的&#x200B;**150個區段**&#x200B;傳送至Analytics，其餘清單則會截斷。 系統會傳送額外標幟給 Analytics，表示細分群體清單已遭截斷，並在「客群名稱」維度中顯示為「已達客群上限」，在「客群 ID」維度中則會顯示「-1」。
 
@@ -135,13 +135,13 @@ ht-degree: 31%
 
 您只能啟用對應至 Experience Cloud 組織的套裝。
 
-如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)。
+如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 
 +++
 
 ## 一般常見問答 {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
-+++ 為何Audience Manager和Analytics之間的區段訪客計數不一樣？
++++ Audience Manager和Analytics之間的區段訪客計數為何不同？
 
 檢視[訪客計數差異](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md)。
 

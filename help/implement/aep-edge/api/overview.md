@@ -4,7 +4,7 @@ description: 使用Adobe Experience Platform Edge Network API傳送資料給Adob
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 35%
@@ -15,7 +15,7 @@ ht-degree: 35%
 
 從IoT裝置、機上盒和案頭應用程式等裝置收集資料時，您通常使用Experience Platform Edge Network API在伺服器端而非使用者端收集資料。 然後，將該資料傳送至Edge網路和Adobe Analytics等服務。
 
-如果您需要安全地收集敏感資料並透過網路驗證，也請考慮Edge Network API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=zh-Hant)。
+如果您需要安全地收集敏感資料並透過網路驗證，也請考慮Edge Network API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)。
 
 實施任務的高層級概觀：
 
@@ -30,7 +30,7 @@ ht-degree: 35%
 <tr>
 <td>1</td>
 <td>確定您<b>已定義報表套裝</b>。</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">報表套裝管理員</a></td>
 </tr>
 
 <tr>
@@ -42,13 +42,13 @@ ht-degree: 35%
 <tr>
 <td>3</td>
 <td><b>設定資料流</b>。資料流代表使用Adobe Experience Platform Edge Network API的API時的伺服器端設定。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant">設定資料流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html">設定資料流<a></td> 
 </tr>
 
 <tr>
 <td>4</td>
 <td><b>使用單一事件資料和批次事件資料收集API實作及測試資料收集</b>。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant">單一事件資料集合</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=zh-Hant">批次事件資料集合</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=zh-Hant">單一事件資料集合</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">批次事件資料集合</a>
 </tr>
 
 <td>5</td>

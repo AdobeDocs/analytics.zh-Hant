@@ -5,9 +5,9 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 54%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 54%
 
 ## 權限
 
-如果您在&#x200B;**[!UICONTROL 工具]**&#x200B;底下未看到&#x200B;**[!UICONTROL Report Builder]**&#x200B;功能表專案，請洽詢您的Adobe Analytics管理員，確定您是包含以下許可權的產品設定檔的一部分： *Report Builder*。 進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant)。
+如果您在「**[!UICONTROL 工具]**」底下未看到&#x200B;**[!UICONTROL Report Builder]**&#x200B;功能表專案，請洽詢Adobe Analytics管理員，確認您所屬的產品設定檔是否包括以下許可權： *Report Builder*。 進一步了解[產品設定檔](/help/admin/admin-console/permissions/product-profile.md)和 [Analytics 權限](/help/admin/admin-console/permissions/analytics-tools.md)。

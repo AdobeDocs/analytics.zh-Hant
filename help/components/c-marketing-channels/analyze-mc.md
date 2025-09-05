@@ -3,7 +3,7 @@ title: 分析行銷管道
 description: 了解如何在 Workspace 中使用行銷管道維度。
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 90%
@@ -16,7 +16,7 @@ ht-degree: 90%
 >
 >為了最大化歸因和Adobe Analytics的行銷管道效率，我們已發佈約[個修改過的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
->Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
+>Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中所述。
 
 您可能想知道您的哪些行銷管道對什麼對象最有效，藉此讓行銷目標更為明確，並使付出的行銷資金獲得更高回報。 在 Adobe Analytics 中，Workspace 裡的「行銷管道」維度和量度是能協助您追蹤不同管道對訂單、收入等之影響的其中一項工具，並能為您提供實用的管道分析。以下是您可使用的行銷管道相關維度與量度：
 

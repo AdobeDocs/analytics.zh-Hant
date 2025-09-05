@@ -4,10 +4,10 @@ title: 自由面板
 feature: Panels
 role: User, Admin
 exl-id: 20354931-29a6-4180-b24a-73da24b40061
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 84%
+source-wordcount: '124'
+ht-degree: 83%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的自由格式面板。_<br/>_請參閱[自由格式面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/freeform-panel)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的自由格式面板。_<br/>_請參閱[自由格式面板](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Analytics 元件指南](/help/components/home.md)
->&#x200B;>[自由格式表格視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>>[Analytics 元件指南](/help/components/home.md)
+>>[自由格式表格視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

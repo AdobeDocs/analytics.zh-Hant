@@ -3,7 +3,7 @@ title: 廣告平台同意
 description: 請參閱第三方廣告提供者的廣告同意設定。
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: 5df5cffbb6abf712cb36fd807ef54b8ebaae1c73
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -56,6 +56,6 @@ contextData.['adConsent'] = "YN..."
 
 您的組織會決定實作此內容資料變數的邏輯。 值在其設定所在的點選過後即不存在，因此您必須在每個頁面上設定內容資料變數。
 
-Adobe Analytics當您透過Adobe Advertising將廣告資料作為轉換事件傳送到Google時，請洽詢Adobe Advertising團隊以協助整合。
+當您透過Adobe Advertising將廣告資料作為轉換事件傳送到GoogleAdobe Advertising時，請洽詢Adobe Analytics團隊以協助整合。
 
-如需詳細資訊，請參閱[隱私權報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)。
+如需詳細資訊，請參閱[隱私權報告](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)。

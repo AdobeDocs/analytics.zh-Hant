@@ -4,7 +4,7 @@ description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務�
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -88,7 +88,7 @@ s.pageName = "        Home Page";
 將很長的值填入許多變數的實作有時會遇到截斷的影像要求。有些較舊的瀏覽器 (例如 Internet Explorer) 會對影像要求 URL 施加 2083 個字元的限制。如果您的組織遇到很長的影像要求，請嘗試下列步驟：
 
 * **使用 Experience Cloud ID 服務**：AppMeasurement 程式庫 1.4.1和更新版本會在影像要求過長時，使用 HTTP POST 來自動傳送影像要求。不論資料長度為何，使用此方法傳送的資料都不會遭截斷。如需詳細資訊，請參閱 [Adobe Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
-* **使用處理規則**：[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)可將值從一個變數複製到另一個變數。此方法可讓您省去在多個變數中設定相同值的繁瑣操作。例如：
+* **使用處理規則**：[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)可將值從一個變數複製到另一個變數。此方法可讓您省去在多個變數中設定相同值的繁瑣操作。例如：
 
   一律執行：<br>
 以 eVar1 覆寫 Prop1 的值<br>

@@ -4,9 +4,9 @@ title: Report Builder 常見問題集
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '450'
 ht-degree: 100%
 
 ---
@@ -37,4 +37,4 @@ Report Builder 支援的活頁簿的上限如下：
 
 ## 我如何知道自己是否有權限存取 Report Builder？ {#access}
 
-您必須獲得 Adobe Analytics 管理員授予 Report Builder 的存取權限。管理員在 [Adobe Admin Console](https://experienceleague.adobe.com/zh-hant/docs/analytics/admin/admin-console/home) 中設定產品設定檔。要求您的管理員授予您存取權限。
+您必須獲得 Adobe Analytics 管理員授予 Report Builder 的存取權限。管理員在 [Adobe Admin Console](/help/admin/admin-console/home.md) 中設定產品設定檔。要求您的管理員授予您存取權限。

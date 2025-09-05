@@ -4,9 +4,9 @@ title: 資料請求 - 請求精靈步驟 1
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 90%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 90%
 
 1. **範圍選取器**：讓您從 Excel 的儲存格選取報表套裝軟體。請參閱[選取報表套裝](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)。
+1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](/help/components/segmentation/seg-home.md)。
 
    例如，您可以執行[!UICONTROL 頁面報告]，然後套用首次瀏覽次數區段。
 

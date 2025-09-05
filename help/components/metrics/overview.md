@@ -3,8 +3,8 @@ title: 量度概觀
 description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
-workflow-type: ht
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 {style="table-layout:fixed"}
 
-如果您找不到特定量度的說明頁面，就表示它可能是[自訂事件](custom-events.md)或[計算量度](../c-calcmetrics/cm-overview.md)。
+如果您找不到特定量度的說明頁面，就表示它可能是[自訂事件](custom-events.md)或[計算量度](../calculated-metrics/cm-overview.md)。
 
 * 如果量度是自訂事件，請洽詢您組織內的 Analytics 管理員，或報表套裝的[解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * 如果量度是計算量度，請按一下資訊圖示以確認其公式。

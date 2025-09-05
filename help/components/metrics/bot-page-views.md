@@ -3,7 +3,7 @@ title: 機器人頁面檢視次數
 description: 符合機器人規則的頁面檢視次數。
 feature: Metrics
 exl-id: d6699880-3faa-4df9-ad49-c7998f6ce45b
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 機器人頁面檢視次數
 
-「機器人頁面檢視」的[量度](overview.md)顯示符合[機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)的頁面點選數。
+「機器人頁面檢視」的[量度](overview.md)顯示符合[機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)的頁面點選數。
 
 由於機器人報表會與報表套裝的其他資料分開，因此此量度僅適用於下列維度：
 

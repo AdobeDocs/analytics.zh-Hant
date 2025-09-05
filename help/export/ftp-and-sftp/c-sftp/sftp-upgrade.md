@@ -1,11 +1,11 @@
 ---
-title: SFTP 服務升級 - 常見問答集
+title: SFTP 服務升級 - 常見問題
 description: 有關規劃 SFTP 服務升級的常見問題。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 100%
 
 以下功能提供使用 SFTP 將資料上傳到 Adobe Analytics 的選項。
 
-* [分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=zh-Hant)
+* [分類](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
-* [資料摘要](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=zh-Hant)
+* [資料摘要](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 
-* [資料來源](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=zh-Hant)
+* [資料來源](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
 
-* [Data Warehouse 傳遞的報表](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=zh-Hant)
+* [Data Warehouse 傳遞的報表](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
 
-* 此外，某些透過[工程服務](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=zh-Hant)建立的自訂實作也可能會使用 SFTP 與 Adobe 交換資料。
+* 此外，某些透過[工程服務](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)建立的自訂實作也可能會使用 SFTP 與 Adobe 交換資料。
 
 ## 這次更新將包含哪些特定的變更？
 

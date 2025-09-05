@@ -3,10 +3,10 @@ title: 行銷管道快速入門
 description: 了解行銷管道工作流程、自動設定，以及如何套用範本報告套裝設定至多個報告套裝。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 2eff7656741bdba3d5d7d1f33e9261b59f8e6083
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >
 >為了讓 Attribution 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
->Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
+>Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中所述。
 
 「行銷管道」常用來提供訪客如何進入您的網站的相關資訊。您可以根據所要追蹤的管道以及追蹤方式，建立及自訂行銷管道處理規則。
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 定義好要追蹤的管道後，您可在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報告套裝」]**&#x200B;中將其啟用。
 
-請參閱[管道和規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)，瞭解重要的必要條件和概念資訊。
+請參閱[管道和規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)，瞭解重要的必要條件和概念資訊。
 
-請參閱[新增行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)以瞭解程序。
+請參閱[新增行銷管道](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)以瞭解程序。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 當您在[!UICONTROL 「行銷頻道管理員」]頁面上建立管道後，接著請設定規則，讓管道可以擷取及報告資料。
 
-請參閱[行銷管道處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)。
+請參閱[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)。
 
 如果管道是以自動設定建立的，則這些管道的規則已經定義好。您可修改規則以便符合您的需求。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >存取管理工具中的管道設定應用程式時，會自動顯示[!UICONTROL 行銷管道：自動設定]頁面。(請參閱[行銷管道管理員](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md))。如果報告套裝中包含一個或多個行銷管道，該頁面不顯示。除非選擇其他不包含行銷管道的報告，否則無法再存取該頁面。
+   >存取管理工具中的管道設定應用程式時，會自動顯示[!UICONTROL 行銷管道：自動設定]頁面。（請參閱[行銷管道管理員](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)。）如果您的報表套裝包含一或多個行銷管道，則不會顯示此頁面。 除非選擇其他不包含行銷管道的報告，否則無法再存取該頁面。
 
 1. 確保選定想要建立的管道。
 

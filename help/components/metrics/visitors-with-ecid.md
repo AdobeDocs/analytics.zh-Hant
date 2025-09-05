@@ -3,7 +3,7 @@ title: 具有 Experience Cloud ID 的訪客
 description: 使用 Adobe Experience Cloud ID 服務的不重複訪客數量。
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 具有 Experience Cloud ID 的訪客
 
-「具有Experience CloudID的訪客」 [量度](overview.md)顯示使用[Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)的Adobe所識別的不重複訪客數量。 該量度有助於和「[不重複訪客](unique-visitors.md)」量度進行比較，以確保您網站上的大多數訪客都使用此 ID 服務。若大部分的訪客都未使用 ID 服務 Cookie，此維度將可指出您實作中的問題。
+「具有Experience Cloud ID的訪客」 [量度](overview.md)會顯示Adobe使用[Experience Cloud ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)識別的不重複訪客數量。 該量度有助於和「[不重複訪客](unique-visitors.md)」量度進行比較，以確保您網站上的大多數訪客都使用此 ID 服務。若大部分的訪客都未使用 ID 服務 Cookie，此維度將可指出您實作中的問題。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 93%
 
 ![不重複訪客的比較](assets/metric-mcvid1.png)
 
-在此範例中，請注意每個頁面的「不重複訪客」數量都與「具有 Experience Cloud ID 的訪客」數量相同。但是，「不重複訪客」的總數卻大於「具有 Experience Cloud ID 的訪客」總數。您可以建立[計算量度](../c-calcmetrics/cm-overview.md)，找出未設定 ID 服務的頁面。您可以使用下列定義：
+在此範例中，請注意每個頁面的「不重複訪客」數量都與「具有 Experience Cloud ID 的訪客」數量相同。但是，「不重複訪客」的總數卻大於「具有 Experience Cloud ID 的訪客」總數。您可以建立[計算量度](../calculated-metrics/cm-overview.md)，找出未設定 ID 服務的頁面。您可以使用下列定義：
 
 ![計算量度定義](assets/metric-mcvid2.png)
 
@@ -38,4 +38,4 @@ ht-degree: 93%
 
 ![無 ID 服務的頁面](assets/metric-mcvid3.png)
 
-請注意，「產品快速檢視」維度項目無法透過 Identity Service 正確實施作業。您可以與組織內的適當團隊合作，以盡快更新這些頁面。您可以使用任何類型的維度 (例如[瀏覽器類型](../dimensions/browser-type.md)、[網站區段](../dimensions/site-section.md)或任何 [eVar](../dimensions/evar.md)) 來建構類似的報表。
+請注意，「產品快速檢視」維度項目無法透過身分識別服務正確實作。您可以與組織內的適當團隊合作，以盡快更新這些頁面。您可以使用任何類型的維度 (例如[瀏覽器類型](../dimensions/browser-type.md)、[網站區段](../dimensions/site-section.md)或任何 [eVar](../dimensions/evar.md)) 來建構類似的報表。

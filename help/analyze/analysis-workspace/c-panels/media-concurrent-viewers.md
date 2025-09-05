@@ -4,9 +4,9 @@ description: 瞭解如何使用和解讀Analysis Workspace中的「媒體同時�
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1240'
 ht-degree: 95%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics** 中的媒體同時檢視者面板。_<br/>_請參閱[媒體同時檢視者面板](https://experienceleague.adobe.com/zh-hant/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics** 中的媒體同時檢視者面板。_<br/>_請參閱[媒體同時檢視者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[媒體播放時間面板](media-playback-time-spent.md)
->&#x200B;>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
+>>[媒體播放時間面板](media-playback-time-spent.md)
+>>[媒體平均分鐘觀眾數面板](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel

@@ -3,9 +3,9 @@ description: 瞭解如何在Audience Library、Target和Audience Manager中發�
 title: 發佈區段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1330'
 ht-degree: 47%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 47%
 
 ## 先決條件
 
-* 請確認您要儲存此區段的目標報表套裝已[啟用Experience Cloud](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)。 否則，您無法將其發佈至Experience Cloud。
+* 請確認您要儲存此區段的目標報表套裝已[啟用Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否則，您無法將其發佈至Experience Cloud。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
@@ -50,7 +50,7 @@ ht-degree: 47%
 * **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
 * **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的客群不能超過 2,000 萬名不重複成員。
 * **資料隱私權**：系統不會根據訪客的驗證狀態篩選客群。訪客或許可以在未驗證和已驗證狀態下瀏覽您的網站。 訪客未驗證時所發生的動作，仍可能會導致將訪客納入受眾。 請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解客群共享的完整隱私權意涵。
-* 如需有關&#x200B;**與[!DNL Adobe Analytics]中區段之間[!DNL Audience Manager]**&#x200B;差異的討論，請參閱[瞭解Analytics與Audience Manager中的區段](https://experienceleague.adobe.com/zh-hant/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments)。
+* 如需有關&#x200B;**與[!DNL Adobe Analytics]中區段之間[!DNL Audience Manager]**&#x200B;差異的討論，請參閱[瞭解Analytics與Audience Manager中的區段](/help/integrate/c-audience-analytics/aam-analytics-segments.md)。
 
 ## 區段發佈時間軸
 
@@ -127,14 +127,14 @@ ht-degree: 47%
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
 1. 載入頁面並勾選「應用程式 > Cookie」。Adobe Audience Manager UUID應在第三方中設定
-Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
+Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
 在瀏覽器上（以下範例中為`35721780439475290181087231320657663953`）。
 
    ![Chrome 開發者工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 訪客輪廓檢視器]
 
-載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
+載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
 
 ## 在 [!DNL Audience Manager] 中檢視區段特徵
 

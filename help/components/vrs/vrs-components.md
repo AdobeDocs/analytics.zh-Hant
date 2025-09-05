@@ -3,9 +3,9 @@ description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以�
 title: 虛擬報表套裝元件策劃
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件組織](https://video.tv.adobe.com/v/3426920?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件組織](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -77,4 +77,4 @@ ht-degree: 92%
 
 ## Workspace 行為 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-如需有關在 Analysis Workspace 中進行監控的詳細資訊，請參閱「[監管和共用專案 ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)」。
+如需有關在 Analysis Workspace 中進行監控的詳細資訊，請參閱「[監管和共用專案 ](/help/analyze/analysis-workspace/curate-share/curate.md)」。

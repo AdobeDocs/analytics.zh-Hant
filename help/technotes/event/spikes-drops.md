@@ -3,7 +3,7 @@ title: 疑難排解資料中的尖峰和下降
 description: 了解可在趨勢報表中看到大幅增加或減少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 流量增加的其他可能原因
 
-* **編目程式或機器人**：如果看到流量突然增加，首先需要尋找出現編目程式或機器人的可能性。識別機器人有時很棘手，因為每個機器人在網站上執行程式碼的方式各不相同。使用 IP 作為維度建立 Data Warehouse 報表，以查看哪些位址產生最多流量。然後可以使用[機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)或 VISTA 規則來在未來報表中排除機器人流量。
+* **編目程式或機器人**：如果看到流量突然增加，首先需要尋找出現編目程式或機器人的可能性。識別機器人有時很棘手，因為每個機器人在網站上執行程式碼的方式各不相同。使用 IP 作為維度建立 Data Warehouse 報表，以查看哪些位址產生最多流量。然後可以使用[機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)或 VISTA 規則來在未來報表中排除機器人流量。
 * **已啟動的行銷活動**：電子郵件行銷活動或搜尋引擎最佳化等行銷工作，可能會在網站上造成流量尖峰。分析[追蹤程式碼](/help/components/dimensions/tracking-code.md)維度的趨勢，以進一步研究。您也可以與行銷團隊聯絡，確認尖峰是故意產生。
 * **環境或間接原因**：如果遇到節日或發生間接事件 (您的網站是已知資源的重大事件，或其他組織的殘餘行銷工作)，網站流量可能會增加。疑難排解確切原因相當困難，因為流量增加的間接原因數量接近無限。但是，這些原因是您需判斷的最重要因素之一，才能讓您的組織利用這些原因並做出對應的業務決策。分析[頁面](/help/components/dimensions/page.md)或[反向連結](/help/components/dimensions/referrer.md)維度的流量，是最可能判斷流量來源的最佳起點。
 

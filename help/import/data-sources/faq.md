@@ -4,7 +4,7 @@ description: 與資料來源相關的常見問題。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -30,8 +30,8 @@ ht-degree: 7%
 +++透過資料來源上傳的資料是否會執行其他處理，例如處理規則？
 否。透過資料來源上傳的資料：
 
-* 未通過[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
-* 未通過[行銷管道處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* 未通過[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+* 未通過[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
 * 未通過[VISTA規則](/help/technotes/vista.md)
 +++
 

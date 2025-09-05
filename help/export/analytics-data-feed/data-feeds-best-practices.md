@@ -4,7 +4,7 @@ keywords: 資料摘要；最佳做法；流量尖峰；每小時；ftp
 title: 最佳作法和一般資訊
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 以下是資料摘要處理和交付的幾個最佳做法。
 
-* 務必提前傳達預期的流量尖峰。延遲會直接影響資料摘要的處理時間。請參閱管理員使用指南中的[排程流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)。
+* 務必提前傳達預期的流量尖峰。延遲會直接影響資料摘要的處理時間。請參閱管理員使用指南中的[排程流量尖峰](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)。
 
 * 除非您與 Adobe 的合約中有明確提及，否則資料摘要並不包含服務層級的協議。摘要通常會在報表回溯期結束後的數小時內送達，但有時需要 12 小時或更長時間。
 

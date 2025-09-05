@@ -4,7 +4,7 @@ description: 如果報表套裝設定允許，手動填入「郵遞區號」維�
 feature: Appmeasurement Implementation
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 75%
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
-> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 地理zip]，便無法使用此變數。 如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
+> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 地理zip]，便無法使用此變數。 如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)。
 
 ## 使用網頁SDK的郵遞區號
 

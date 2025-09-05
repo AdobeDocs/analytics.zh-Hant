@@ -4,10 +4,10 @@ description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 86%
+source-wordcount: '2729'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 86%
 
 發行日期： **2024年8月12日**
 
-* 如果已啟用`writeSecureCookies`，`s_ac` Cookie現在會以`secure`旗標寫入。
+* 如果已啟用`s_ac`，`secure` Cookie現在會以`writeSecureCookies`旗標寫入。
 * 修正內嵌程式庫時的初始化錯誤。
 * 修正`localStorage`或`sessionStorage`已停用的錯誤。
-* 如果已啟用`collectHighEntropyUserAgentHints`，則連結追蹤呼叫(`tl`)現在會包含高平均資訊量使用者代理提示。
+* 如果已啟用`tl`，則連結追蹤呼叫(`collectHighEntropyUserAgentHints`)現在會包含高平均資訊量使用者代理提示。
 
 ## 2.26.0 版本
 
@@ -71,7 +71,7 @@ ht-degree: 86%
 
 發行日期：**2021 年 9 月 7 日**
 
-* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。如需詳細資訊，請參閱「管理員」使用指南中的[隱私權報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)。
+* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。如需詳細資訊，請參閱「管理員」使用指南中的[隱私權報告](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)。
 
 ## 2.22.1 版本
 
@@ -152,7 +152,7 @@ ht-degree: 86%
 
 * Audience Manager 模組已更新至 DIL 9.1。(AN-175255)
 * GTM 安全性政策不允許 Activity Map 模組。(AN-174679)
-* 改善 AppMeasurement；在 Identity Service 不核准選擇加入時，讓使用者可以選擇退出。(AN-175259)
+* 改善 AppMeasurement；在身分識別服務不核准選擇加入時，讓使用者可以選擇退出。(AN-175259)
 
 ## 2.11.0 版本
 
@@ -313,7 +313,7 @@ ht-degree: 86%
 
 * 已納入 Visitor API 1.6.0。
 * 修正導致 [!DNL AppMeasurement] 在訪客 API 中呼叫了錯誤隱藏方法的問題。(AN-126006)
-* 修正引發此 [!DNL JavaScript] 錯誤的問題:「屬性僅在 v:image 上有效」。(AN-124009)
+* 修正造成[!DNL JavaScript]錯誤的問題：「屬性僅在v:image上有效」。 (AN-124009)
 
 ## 1.6.1 版本
 
@@ -430,7 +430,7 @@ ht-degree: 86%
 
 發行日期：**2014 年 8 月 21 日**
 
-* 15 版本中不再針對移除追蹤瀏覽器外掛程式 (`p` 查詢參數) 做為外掛程式進行報告。
+*  15 版本中不再針對移除追蹤瀏覽器外掛程式 (`p` 查詢參數) 做為外掛程式進行報告。
 * 在下載 Zip 中新增 **[!UICONTROL AudienceManagement]** 模組。
 * 已新增對其他 eVar (76 - 250) 和事件 (101-1000) 的支援。
 

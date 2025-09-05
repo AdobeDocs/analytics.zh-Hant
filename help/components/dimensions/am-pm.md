@@ -3,16 +3,16 @@ title: 上午/下午
 description: 判斷點擊發生在上午還是下午。
 feature: Dimensions
 exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 86%
+source-wordcount: '121'
+ht-degree: 64%
 
 ---
 
 # 上午/下午
 
-&#39;AM/PM&#39; [維度](overview.md)可讓您深入瞭解點選發生在上午還是下午。 點擊的時間根據[報表套裝的時區](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)而定。
+&#39;AM/PM&#39; [維度](overview.md)會提供點選發生在上午還是下午insight。 點擊的時間根據[報表套裝的時區](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)而定。
 
 ## 將資料填入此維度中
 
@@ -20,4 +20,4 @@ ht-degree: 86%
 
 ## 維度項目
 
-此維度一律包含剛好兩個維度項目：`"AM"` 和 `"PM"`。維度項目 `"AM"` 會套用至凌晨 12:00 到中午 11:59 的所有點擊，而維度項目 `"PM"` 則會套用至中午 12:00 到晚上 11:59 的所有點擊。
+此維度一律包含剛好兩個維度項目：`"AM"` 和 `"PM"`。維度專案`"AM"`會套用至凌晨12:00到中午11:59的所有點選，而維度專案`"PM"`則會套用至中午12:00到晚上11:59的所有點選。

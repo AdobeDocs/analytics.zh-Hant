@@ -3,7 +3,7 @@ description: 瞭解如何管理排程專案。
 title: 計劃的專案
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ ht-degree: 41%
 | **[!UICONTROL 頻率]** | 您想要將此排程專案傳送給一或多個收件者的頻率。 |
 | **[!UICONTROL 執行時間]** | 在一天中的什麼時間傳送此排程專案。 |
 | **[!UICONTROL 查詢數]** | 針對此專案執行的查詢數。 |
-| **[!UICONTROL 最大日期範圍]** | 為排程專案定義的最長日期範圍。 此值可能與調查效能問題相關。 如需詳細資訊，請參閱[報告活動管理員](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。 |
-| **[!UICONTROL 查詢數]** | 針對排程專案執行的查詢數。 此值可能與調查效能問題相關。 如需詳細資訊，請參閱[報告活動管理員](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)。 |
+| **[!UICONTROL 最大日期範圍]** | 為排程專案定義的最長日期範圍。 此值可能與調查效能問題相關。 如需詳細資訊，請參閱[報告活動管理員](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)。 |
+| **[!UICONTROL 查詢數]** | 針對排程專案執行的查詢數。 此值可能與調查效能問題相關。 如需詳細資訊，請參閱[報告活動管理員](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)。 |
 
 
 您可以使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)來設定要顯示哪些欄。

@@ -4,7 +4,7 @@ title: Activity Map 概觀
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 4%
@@ -17,7 +17,7 @@ Adobe Analytics Activity Map 是 Adobe Analytics 中的一項功能，可提供�
 
 Activity Map作為一個概念，由幾個重要元件組成：
 
-* **報表套裝設定**：報表套裝必須先啟用Activity Map，您才能開始使用。 請參閱報表套裝設定中的[Activity Map報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/activity-map.md)。
+* **報表套裝設定**：報表套裝必須先啟用Activity Map，您才能開始使用。 請參閱報表套裝設定中的[Activity Map報表](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
 * **實作**：大部分的Activity Map報表都可立即使用。 不過，有些網站可能需要額外的實施，才能充分運用連結追蹤。 下列實作變數可供使用：
    * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md)：依連結名稱篩選點選資料。
    * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md)：依區域名稱篩選點按資料。

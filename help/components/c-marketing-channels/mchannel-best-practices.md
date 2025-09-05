@@ -3,16 +3,16 @@ title: 實作 Adobe Analytics 行銷管道的最佳做法
 description: 搭配 Attribution 和 Customer Journey Analytics 使用行銷管道的更新最佳做法
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 97%
 
 ---
 
 # 搭配行銷管道使用 Attribution - 最佳做法
 
-[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)是 Adobe Analytics 的一項有價值且強大的功能。 目前有關行銷管道實作的指引是在 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases) 都尚未存在時所制定。
+[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)是 Adobe Analytics 的一項有價值且強大的功能。 目前有關行銷管道實作的指引是在 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases) 都尚未存在時所制定。
 
 為了讓您的行銷管道實作更具前瞻性及確保 Attribution 與 Customer Journey Analytics 之間的報告一致性，我們正在發佈一組更新的最佳做法。 如果您已在使用行銷管道，您可以根據這些新準則來選擇最佳選項。 如果您是行銷管道的新手，我們建議您遵循所有新的最佳做法。
 
@@ -28,13 +28,13 @@ ht-degree: 97%
 
 * 「行銷管道」和「行銷管道詳細資料」維度設定會建立有待評估的接觸點 (與每個「行銷管道」實例相對應)。
 * 若要進行量度分析，貴組織應該根據一個或多個歸因模式進行調整。請儲存此模式的自訂量度，以方便重複使用。
-* 根據預設，資料的配置方式是使用「上次接觸」及「訪客參與期間」設定。 Attribution 量度模式提供對回顧視窗的更大控制力及更多樣性，包括[演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hant#analysis-workspace)。
+* 根據預設，資料的配置方式是使用「上次接觸」及「訪客參與期間」設定。 Attribution 量度模式提供對回顧視窗的更大控制力及更多樣性，包括[演算法歸因](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace)。
 
 ## 最佳做法 2：「非直接」和「工作階段重新整理」管道定義
 
 不建議將「直接」和「內部/工作階段重新整理」管道用於自訂歸因模式。
 
-如果貴組織已設定「直接」和「工作階段重新整理」，該怎麼做？ 在此情況下，建議您為「首次接觸/上次接觸」[建立分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)，並保留「直接」和「工作階段重新整理」管道未分類。分類的維度將會產生相同的 Attribution 結果，就像是從未設定這些管道一樣。
+如果貴組織已設定「直接」和「工作階段重新整理」，該怎麼做？ 在此情況下，建議您為「首次接觸/上次接觸」[建立分類](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)，並保留「直接」和「工作階段重新整理」管道未分類。分類的維度將會產生相同的 Attribution 結果，就像是從未設定這些管道一樣。
 
 ![](assets/direct-session-refresh.png)
 

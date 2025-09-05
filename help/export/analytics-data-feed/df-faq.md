@@ -4,9 +4,9 @@ keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
 title: 資料摘要常見問題集
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -53,7 +53,7 @@ Adobe Analytics不會防止資料摘要檔案被覆寫。
 
 ## 是否會將 Admin Console 機器人規則篩選的機器人加入資料摘要中？ {#bots}
 
-資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=zh-Hant)篩選的機器人。
+資料摘要不會加入 [Admin Console 機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)篩選的機器人。
 
 ## 我為什麼在 `event_list` 或 `post_event_list` 資料摘要欄內看到多個 `000` 值？ {#values}
 

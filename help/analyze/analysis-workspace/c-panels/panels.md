@@ -4,9 +4,9 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
-workflow-type: ht
-source-wordcount: '2229'
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+workflow-type: tm+mt
+source-wordcount: '2228'
 ht-degree: 100%
 
 ---
@@ -91,11 +91,11 @@ ht-degree: 100%
 
 ## 報告套裝
 
-每個面板都與一個[報告套裝](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[報告套裝](/help/admin/tools/manage-rs/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
 建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
 
-在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant) (根據分析使用案例而定)。
+在專案中，您可以使用一或[多個報表套裝](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) (根據分析使用案例而定)。
 
 報表套裝清單是依相關性來分類；Adobe 是根據目前使用者最近使用套裝情形和使用套裝頻率，以及組織內使用套裝頻率等來定義相關性。
 
@@ -282,7 +282,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ## Report suite {#report-suite}
 
-Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
+Tables and visualizations within a panel derive data from the [!UICONTROL report suite] selected in the top right of the panel. The report suite also determines what components are available in the left rail. Within a project, you can use one or [many report suites](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) depending on your analysis use cases. To apply a single report suite to all panels in a project, **right-click panel header > Apply report suite to all panels**.
 
 The list of report suites is sorted on relevancy, which Adobe defines based on how recently and frequently the suite has been used by the current user, and how frequently the suite is used within the organization.
 
@@ -346,7 +346,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

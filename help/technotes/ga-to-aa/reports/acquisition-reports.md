@@ -3,7 +3,7 @@ title: Adobe Analytics 中的贏取報表
 description: 瞭解如何使用 Analysis Workspace 建立贏取型報表。
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -104,7 +104,7 @@ Adobe 在 Analysis Workspace 中使用名為「Advertising Analytics」(廣告�
 
 ### 社交 - 外掛程式
 
-「外掛程式」報表會顯示訪客如何與您網站上內嵌的社交媒體外掛程式互動。Analysis Workspace 中需要額外實施。Adobe 建議您與實施顧問合作，以確保準確收集這些資料。
+「外掛程式」報表會顯示訪客如何與您網站上嵌入的社交媒體外掛程式互動。Analysis Workspace 中需要額外實施。Adobe 建議您與實施顧問合作，以確保準確收集這些資料。
 
 ### 社交 - 使用者流量
 
@@ -127,7 +127,7 @@ Adobe 在 Analysis Workspace 中使用名為「Advertising Analytics」(廣告�
 
 ## 行銷活動 - 付費關鍵字
 
-付費關鍵字報表會顯示訪客從搜尋引擎點按付費搜尋連結後，每個關鍵字的表現。可在 Analysis Workspace 中使用&#x200B;**搜尋關鍵字 - 付費**&#x200B;維度，但需要一次性設定付費搜尋偵測，以便收集資料。如需設定詳細資訊，請參閱「管理員」使用指南中的[付費搜尋偵測](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)。
+付費關鍵字報表會顯示訪客從搜尋引擎點按付費搜尋連結後，每個關鍵字的表現。可在 Analysis Workspace 中使用&#x200B;**搜尋關鍵字 - 付費**&#x200B;維度，但需要一次性設定付費搜尋偵測，以便收集資料。如需設定詳細資訊，請參閱「管理員」使用指南中的[付費搜尋偵測](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)。
 
 1. 在「元件」功能表中，找出&#x200B;**搜尋關鍵字 - 付費**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。

@@ -1,14 +1,14 @@
 ---
 description: 顯示網頁流量與頁面訪問量即時排名，如此您便可更快速了解網站的趨勢。
-title: 即時報表總覽
+title: 即時報表概觀
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: aac5421b658cf06b20ca5a3d22f07ef441283753
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 99%
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 99%
 * 使用任何自訂事件、購物車事件或是例項。
 * 檢視達 20 小時的歷史、即時資料。
 
-使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=zh-Hant)啟用即時權限。
+使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)啟用即時權限。
 
 >[!NOTE]
 >
->[!UICONTROL &#x200B; 「即時報表」]與之前發行的[「包含目前的資料」](https://experienceleague.adobe.com/docs/analytics/analyze/legacy-report-builder/options.html?lang=zh-Hant)(「資料時近」) 功能不同，該功能會在完成之前顯示資料，以減少標準報表的延遲。
+>[!UICONTROL  「即時報表」]與之前發行的[「包含目前的資料」](/help/analyze/legacy-report-builder/options.md)(「資料時近」) 功能不同，該功能會在完成之前顯示資料，以減少標準報表的延遲。

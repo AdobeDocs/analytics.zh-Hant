@@ -3,7 +3,7 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的多個查閱表格。每個值都以點擊的[反向連結](referrer.md)為基礎，而這有賴於[內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。請確定反向連結維度和內部 URL 篩選器皆已正確設定。
+此維度會參考 Adobe 內部的多個查閱表格。每個值都以點擊的[反向連結](referrer.md)為基礎，而這有賴於[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。請確定反向連結維度和內部 URL 篩選器皆已正確設定。
 
 ## 維度項目
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->此清單不同於[行銷管道處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)中的社交網路預設清單。
+>此清單不同於[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)中的社交網路預設清單。
 
 * `12seconds.tv`
 * `4travel.jp`

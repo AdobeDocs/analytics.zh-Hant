@@ -4,9 +4,9 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: ht
-source-wordcount: '1463'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '1460'
 ht-degree: 100%
 
 ---
@@ -74,8 +74,8 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 | 編輯偏好設定 | 讓您[!UICONTROL 檢視教學課程]和[編輯使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。 |
 | [!UICONTROL 新建] | 開啟專案模組，您可在此建立 Workspace 專案、Mobile 計分卡或開啟公司範本。 |
 | [!UICONTROL 顯示較少<br>顯示較多] | 在不顯示和顯示橫幅之間切換：![最上方橫幅](assets/top-banner.png) |
-| [!UICONTROL Analysis Workspace 專案] | 建立空白[工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)，供您設計和建置。 |
-| [!UICONTROL Mobile 計分卡] | 建立空白 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)，供您設計和建置。 |
+| [!UICONTROL Analysis Workspace 專案] | 建立空白[工作區專案](/help/analyze/analysis-workspace/home.md)，供您設計和建置。 |
+| [!UICONTROL Mobile 計分卡] | 建立空白 [行動計分卡](/help/analyze/mobile-app/curator.md)，供您設計和建置。 |
 | [!UICONTROL 開啟訓練教學課程] | 開啟工作區培訓教學課程，引導您完成逐步教學課程中建置新入門專案的流程。 |
 | [!UICONTROL 開啟發行說明] | 開啟最新 Adobe Experience Cloud 發行說明的 Adobe Analytics 部分。 |
 | 篩選器圖示 | 按標記、報告套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
@@ -84,7 +84,7 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 | [!UICONTROL 我的最愛] | 將星號新增至可用作篩選器的最喜愛專案或資料夾旁。 |
 | [!UICONTROL 名稱] | 識別專案名稱。 |
 | 釘選圖示 | 釘選項目，使其一直出現在清單的頂部，但您可以將其順序上下移動來重新調整順序。 使用省略符號選項選單，並選擇在清單中&#x200B;**上移** 或&#x200B;**下移**。 |
-| 資訊 (i) 圖示 | 顯示以下有關專案的資訊：類型、專案角色、所有者、說明，以及共用對象。 此資訊也會指明誰可以[編輯或重複](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)此專案。 |
+| 資訊 (i) 圖示 | 顯示以下有關專案的資訊：類型、專案角色、所有者、說明，以及共用對象。 此資訊也會指明誰可以[編輯或重複](/help/analyze/analysis-workspace/curate-share/share-projects.md)此專案。 |
 | 省略 (...) | 顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。 您可能沒有執行所列出所有操作的權限。 |
 | 顯示：資料夾與專案或所有專案 | 變更表格上的視圖設定，以根據資料夾組織顯示資料夾和專案&#x200B;**或**&#x200B;以無組織的清單顯示所有專案。 |
 | &lt; (返回按鈕) | 將您傳回至工作區專案或壣表中最新的登陸頁面設定。 離開登陸頁面時您擁有頁面設定，會在您返回時持續留在該頁面。 |

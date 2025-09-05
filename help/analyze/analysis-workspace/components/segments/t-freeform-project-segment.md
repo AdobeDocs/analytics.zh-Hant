@@ -4,10 +4,10 @@ title: 區段概述
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 43%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 34%
 | --- | --- | --- | --- |
 | 元件清單區段 | 瞭解如何[建立區段](/help/components/segmentation/segmentation-workflow/seg-create.md)。 | 您所有的工作區專案 | 適用於較複雜的區段、循序區段 |
 | 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨時單一規則區段（使用拖放功能），或新增/編輯多個規則（按一下「區段」圖示） |
-| 以計算量度為基礎的區段 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hant) | 至個別計算量度 | 在您的量度定義中套用區段 |
-| 以虛擬報表套裝為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant) | 至個別虛擬報表套裝 | 在您的虛擬報表套裝定義中套用區段 |
+| 以計算量度為基礎的區段 | [計算量度產生器](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 至個別計算量度 | 在您的量度定義中套用區段 |
+| 以虛擬報表套裝為基礎的區段 | [虛擬報表套裝產生器](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 至個別虛擬報表套裝 | 在您的虛擬報表套裝定義中套用區段 |
 
 ## 影片
 
@@ -65,7 +65,7 @@ ht-degree: 34%
 
 區段比較包含下列功能：
 
-* [區段比較面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)可讓您將兩個區段拖曳至面板中，並檢視全面報表，其中顯示兩個對象之間在統計上的顯著差異和重疊。
+* [區段比較面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)您可以拖曳兩個區段到這個面板中，然後檢視其綜合報告，其中會顯示兩種客群之間在統計上的顯著差異和重疊之處。
 * [比較細分群體的流失：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)透過流失率視覺效果，互相比較不同目標客群的流失情況。
 
 

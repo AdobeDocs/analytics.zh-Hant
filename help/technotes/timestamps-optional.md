@@ -5,9 +5,9 @@ title: 可選時間戳記
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 96%
 
 ---
@@ -36,7 +36,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optio
 >
 >針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
 
-如需其他的設定資訊，請參閱[可選時間戳記](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=zh-Hant)。
+如需其他的設定資訊，請參閱[可選時間戳記](/help/technotes/timestamps-optional.md)。
 
 ## 可選時間戳記：整合了時間戳記與非時間戳記資料 {#integrate}
 

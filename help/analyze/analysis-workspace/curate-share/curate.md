@@ -1,20 +1,20 @@
 ---
-description: 瞭解如何在Analysis Workspace中組織專案。 在您共用專案之前，組織會限制元件的存取權。
-keywords: Analysis Workspace 監管
-title: 組織專案
+description: 了解如何在 Analysis Workspace 中鑑選專案。在您共用專案前，鑑選會限制存取元件。
+keywords: Analysis Workspace 鑑選
+title: 鑑選專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 60%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
 # 監管專案
 
-管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，會看到您為其組織的限定元件集。 組織是可選作業，但建議您在共用專案前先執行此步驟。
+管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為他們組織好的數量有限的元件。組織是可選作業，但建議您在共用專案前先執行此步驟。
 
 >[!NOTE]
 > 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 Adobe Experience Cloud Admin Console 來管理。組織為次要的篩選器。
@@ -29,29 +29,27 @@ ht-degree: 60%
 
 ## 套用專案組織
 
-1. 選取&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**。
-專案中使用的元件會自動新增。
-如果一個專案有多個報表套裝，則專案中的每個報表套裝都會顯示一個組織放置目標。
-1. （可選）若要新增更多元件，請從左側面板將您要共用的元件拖曳至資料檢視的&#x200B;**[!UICONTROL 組織元件]**&#x200B;拖放區域。
-1. 選取&#x200B;**[!UICONTROL 完成]**。
+1. 按一下「**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**」。專案中使用的元件將會自動新增。如果一個專案有多個報表套裝，則專案中的每個報表套裝都會顯示一個組織放置目標。
+1. (選用) 若要新增更多元件，請從左側面板將您要共用的元件拖曳至資料視圖的「**[!UICONTROL 組織元件]**」放置區。
+1. 選取「**[!UICONTROL 完成]**」。
 
 
 ![](assets/curation-field.png)
 
-收件者在開啟已組織的專案時，只會看到您已定義的組織元件集：
+收件者在開啟已組織的專案時，只會看到您已定義的組織好的元件集：
 
 
 ## 移除專案組織
 
 若要移除專案組織並還原左側邊欄中的完整元件集：
 
-1. 選取&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**。
-1. 選取&#x200B;**[!UICONTROL 移除組織]**。
-1. 選取&#x200B;**[!UICONTROL 完成]**。
+1. 按一下「**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**」。
+1. 選擇「**[!UICONTROL 移除組織]**」。
+1. 選取「**[!UICONTROL 完成]**」。
 
 ## 虛擬報告套裝監管
 
-若要在報告套裝層級套用監管，以便將其同時套用至多個專案，您可以[在虛擬報告套裝中監管元件](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/virtual-report-suites/vrs-components)。
+若要在報告套裝層級套用監管，以便將其同時套用至多個專案，您可以[在虛擬報告套裝中監管元件](/help/components/vrs/vrs-components.md)。
 
 >[!NOTE]
 >

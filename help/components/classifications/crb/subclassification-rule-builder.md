@@ -3,7 +3,7 @@ description: 搭配分類規則產生器使用子分類。
 title: 子分類和規則產生器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ ht-degree: 66%
 
    範例：
 
-   ![步驟資訊](/help/admin/admin/assets/sub_class_create.png)
+   ![步驟資訊](/help/admin/tools/assets/sub_class_create.png)
 
 1. 在[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)中，分類來自原始追蹤程式碼的子分類索引鍵。
 
@@ -63,7 +63,7 @@ ht-degree: 66%
 
    範例：
 
-   | 金鑰 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&Hat;促銷活動類型 | 廣泛促銷活動代碼&Hat;促銷活動主管 | ... |
+   | 金鑰 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&amp;Hat;促銷活動類型 | 廣泛促銷活動代碼&amp;Hat;促銷活動主管 | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | 品牌 | Suzanne |  |
    | &#42; |  | 222 | 品牌 | Frank |  |

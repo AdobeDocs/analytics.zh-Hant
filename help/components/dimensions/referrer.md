@@ -3,7 +3,7 @@ title: 反向連結
 description: 訪客點進您的網站前所在的 URL。
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 96%
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->您必須設定報表套裝的[內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)，才能使用此維度。若未設定內部 URL 篩選器，則可能納入內部 URL，或使外部 URL 無法顯示。
+>您必須設定報表套裝的[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，才能使用此維度。若未設定內部 URL 篩選器，則可能納入內部 URL，或使外部 URL 無法顯示。
 
 相同的報表可顯示 Analysis Workspace 和 Data Warehouse 之間的不同結果。Analysis Workspace 會報告每個頁面的反向連結，排除符合內部 URL 篩選器的值。Data Warehouse 僅報告造訪的第一個反向連結，並忽略內部 URL 篩選器。
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 要使用此維度，必須在 Analytics 介面中進行設定，且需要影像要求中的資料。
 
 * 在您的實施作業中，此維度會從影像要求中的 [`r` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `document.referrer` 在瀏覽器中收集這項資料。您可使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 變數覆寫以手動設定。如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `r` 查詢字串參數。
-* 在 Analytics 介面中，您必須設定報表套裝的[內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)。若未設定內部 URL 篩選器，則可能納入內部 URL，或使外部 URL 無法顯示。
+* 在 Analytics 介面中，您必須設定報表套裝的[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。若未設定內部 URL 篩選器，則可能納入內部 URL，或使外部 URL 無法顯示。
 
 ## 維度項目
 

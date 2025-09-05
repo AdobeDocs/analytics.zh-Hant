@@ -4,7 +4,7 @@ description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 85%
@@ -15,7 +15,7 @@ ht-degree: 85%
 
 維度和量度是報表的重要元件。`events` 變數負責收集網站上許多量度的資料。事件通常會增加報表中的[量度](/help/components/metrics/overview.md)。
 
-在實作事件之前，請務必在「報表套裝設定」的[「成功事件」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)底下建立和設定事件。如果您打算在連結追蹤點擊中使用自訂事件，請確定 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md) 設定正確。
+在實作事件之前，請務必在「報表套裝設定」的[「成功事件」](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)底下建立和設定事件。如果您打算在連結追蹤點擊中使用自訂事件，請確定 [`linkTrackVars`](../../config-vars/linktrackvars.md) 和 [`linkTrackEvents`](../../config-vars/linktrackevents.md) 設定正確。
 
 ## 使用 Web SDK 的事件
 
@@ -103,7 +103,7 @@ s.events = "event1=2,event2";
 
 您可以變更自訂事件，使用貨幣來取代整數。如果報表套裝貨幣與 `currencyCode` 變數不符，貨幣事件會自動轉換為報表套裝的貨幣。這些事件有助於計算運費、折扣或退款。如果您想要將事件歸因限制為僅限該產品，可在 `products` 變數中設定貨幣事件。
 
-在實作貨幣事件之前，請務必在「報表套裝設定」的[「成功事件」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)底下，將所需的事件設為「貨幣」。
+在實作貨幣事件之前，請務必在「報表套裝設定」的[「成功事件」](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)底下，將所需的事件設為「貨幣」。
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -124,7 +124,7 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 您可以變更自訂事件，改為接受小數值而非整數。數值事件的行為與貨幣事件類似，但它們不使用貨幣轉換。如果您想要將事件歸因限制為僅限該產品，可在 `products` 變數中設定數值事件。
 
-在實作數值事件之前，請務必在「報表套裝設定」的[「成功事件」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)底下，將所需的事件設為「數值」。
+在實作數值事件之前，請務必在「報表套裝設定」的[「成功事件」](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)底下，將所需的事件設為「數值」。
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings

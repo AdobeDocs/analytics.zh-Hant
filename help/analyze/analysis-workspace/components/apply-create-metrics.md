@@ -4,10 +4,10 @@ title: 量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 * **標準量度**：您在專案中使用的大多數量度都屬於標準量度。範例包括[頁面檢視次數](/help/components/metrics/page-views.md)、[營收](/help/components/metrics/revenue.md)或[自訂事件](/help/components/metrics/custom-events.md)。如需詳細資訊，請參閱「元件」使用手冊中的[量度概觀](/help/components/metrics/overview.md)。
 
-* **計算量度** ![電腦](/help/assets/icons/Calculator.svg)：以標準量度、靜態數字或演演算法函式為基礎的使用者定義量度。 使用者定義的計算量度會在可用元件清單中顯示計算機圖示。如需詳細資訊，請參閱「元件」使用手冊中的[計算量度概觀](/help/components/c-calcmetrics/cm-overview.md)。
+* **計算量度** ![電腦](/help/assets/icons/Calculator.svg)：以標準量度、靜態數字或演演算法函式為基礎的使用者定義量度。 使用者定義的計算量度會在可用元件清單中顯示計算機圖示。如需詳細資訊，請參閱「元件」使用手冊中的[計算量度概觀](/help/components/calculated-metrics/cm-overview.md)。
 
 * **計算量度範本** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定義的量度，其行為與計算量度類似。 您可以在 Workspace 專案中按原樣使用它們，或另存為副本以自訂其邏輯。計算量度範本會在可用元件清單中顯示 Adobe 圖示。
 
@@ -54,7 +54,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 ### 為所有專案建立計算量度
 
-您可以使用[計算量度產生器](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)來[建立計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)。 以這種方式建立時，計算量度可用於元件清單中，也可用於整個組織的專案。
+您可以使用[計算量度產生器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)來[建立計算量度](/help/components/calculated-metrics/workflow/cm-workflow.md)。 以這種方式建立時，計算量度可用於元件清單中，也可用於整個組織的專案。
 
 
 ### 為單一專案建立計算量度
@@ -79,15 +79,15 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    選取單一欄時，可使用下列選項：
 
-   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 資料行值使用[Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean)函式。
+   * [!UICONTROL **平均值**]：建立新資料行，以顯示資料行維度元素集合中的平均值。 資料行值使用[Mean](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean)函式。
 
-   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 資料行值使用[Median](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median)函式。
+   * [!UICONTROL **中位數**]：建立新資料行，顯示資料行維度元素集合的中位值。 資料行值使用[Median](/help/components/calculated-metrics/cm-reference/cm-functions.md#median)函式。
 
-   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 資料行值使用[Column Maximum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum)函式。
+   * [!UICONTROL **資料行max**]：建立新資料行，以顯示資料行維度元素集合中的最大值。 資料行值使用[Column Maximum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum)函式。
 
-   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 資料行值使用[資料行最小值](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum)函式。
+   * [!UICONTROL **資料行min**]：建立新資料行，以顯示資料行維度元素集合中的最小值。 資料行值使用[資料行最小值](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum)函式。
 
-   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 資料行值使用[資料行Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum)函式。
+   * [!UICONTROL **資料行總和**]：建立新資料行，將資料行內量度的所有數值相加（跨越維度元素）。 資料行值使用[資料行Sum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum)函式。
 
    選取兩欄時，可使用下列選項：
 
@@ -101,7 +101,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
-[計算量度：實作較少的量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[計算量度：實作較少的量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比較不同歸因模型的量度

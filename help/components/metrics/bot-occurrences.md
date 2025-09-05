@@ -3,7 +3,7 @@ title: 機器人發生次數
 description: 符合機器人規則的點選次數。
 feature: Metrics
 exl-id: 94cbbee4-8455-48b1-b804-534ed8fccdc9
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # 機器人發生次數
 
-「機器人發生次數」 [量度](overview.md)顯示符合[機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)的點選數。
+「機器人發生次數」 [量度](overview.md)顯示符合[機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)的點選數。
 
 由於機器人報表會與報表套裝的其他資料分開，因此此量度僅適用於下列維度：
 

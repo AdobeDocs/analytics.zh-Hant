@@ -4,7 +4,7 @@ description: 使用標記建立空間來自訂資料收集的方式。
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
@@ -17,7 +17,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 ## 先決條件
 
-[建立報表套裝](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：為要收集的 Analytics 資料建立一個獨立單位。
+[建立報表套裝](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)：為要收集的 Analytics 資料建立一個獨立單位。
 
 ## 建立標記屬性，並安裝重要擴充功能
 

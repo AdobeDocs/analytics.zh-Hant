@@ -3,7 +3,7 @@ title: Data Warehouse的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -45,7 +45,7 @@ Data Warehouse 中不支援某些維度和量度。
    * 除「登入頁面」外的所有登入維度
    * 除「退出頁面」和「退出連結」外的所有退出維度
    * 點擊深度
-   * 回訪頻度
+   * 回訪頻率
    * 事件之前時間
    * 頁面逗留時間 - 分段
    * 每次瀏覽逗留時間 - 分段
@@ -67,7 +67,7 @@ Data Warehouse 中不支援某些維度和量度。
    * 重新載入
    * 單次存取
    * 「逗留時間」量度
-* 參與率量度（如[建立「參與率」量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)中所述）
+* 參與率量度（如[建立「參與率」量度](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)中所述）
 
 ### 以不同方式支援的維度（非標準日期格式）
 

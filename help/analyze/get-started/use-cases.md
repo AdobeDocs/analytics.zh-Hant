@@ -3,10 +3,10 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: Analytics 使用案例
 feature: Analytics Basics
 exl-id: 2b5f03f3-f9f9-46e8-b4ef-0796e6f4780a
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
-workflow-type: ht
-source-wordcount: '263'
-ht-degree: 100%
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 提供以下複雜的分段和預測工具來分析網站流量�
 
 * [流量分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [進階分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)
+* [進階分段](/help/components/segmentation/seg-home.md)
 
 
 ## 行銷分析
@@ -33,9 +33,7 @@ Adobe Analytics 可協助組織了解客戶在何處與其品牌互動、客戶�
 
 以下 Adobe Analytics 主要功能提供了這些行銷功能：
 
-* [多管道資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant)
-
-* [離線資料整合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hant)。
+* [離線資料整合](/help/import/data-sources/overview.md)
 
 * [Analysis Workspace 中的臨機分析](/help/analyze/analysis-workspace/home.md)
 
@@ -55,4 +53,4 @@ Adobe Analytics 可協助組織了解客戶在何處與其品牌互動、客戶�
 
 * [貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
 
-* [警報](/help/components/c-alerts/intellligent-alerts.md)
+* [警報](/help/components/alerts/alerts-overview.md)

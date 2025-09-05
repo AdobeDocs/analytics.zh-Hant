@@ -4,18 +4,18 @@ audience: end-user
 user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: 從外部來源大量或即時將資料讀入 Adobe Analytics。
-source-git-commit: f68cf0de5e7689d8245572b060a3d81c3bf85072
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 
 # Adobe Analytics 匯入指南 {#import}
 
-+ [Analytics 匯入指南](home.md)
-+ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
++ [Analytics匯入指南](home.md)
++ [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
 + 資料來源 {#data-sources}
    + [概觀](data-sources/overview.md)
    + [快速入門](data-sources/getting-started.md)

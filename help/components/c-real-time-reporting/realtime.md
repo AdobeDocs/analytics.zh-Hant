@@ -4,7 +4,7 @@ title: 即時報表概觀
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: 20093692327f555bfd78d99b2ec03146a5f2b181
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 89%
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實作。若要設定即時報表，請參閱[即時報表設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實作。若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
 
 ## 存取即時報表
 
-1. 在 Analysis Workspace 中，選取「[!UICONTROL **Workspace**]」索引標籤。
+1. 在 Analysis Workspace 中，選取「[!UICONTROL **工作區**]」標籤。
 
 1. 在頁面左側的&#x200B;**[!UICONTROL 範本]**&#x200B;下方，選取&#x200B;[!UICONTROL **Adobe範本**]。
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 
 請即時回答下列問題：我的網站有何趨勢、原因為何？它可讓身為行銷人員的您，迅速回應、積極管理行銷內容和促銷活動的效能。所報告的即時資料延遲不超過兩分鐘，並且每分鐘自動更新一次。
 
-![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report-realtime.png)
+![](/help/admin/tools/manage-rs/edit-settings/realtime/assets/report-realtime.png)
 
 儀表板包含 Adobe Analytics 高頻率量度及網站分析，可將動態消息和零售網站的報告流量及頁面檢視趨勢視覺化。可讓您了解資料中每一分鐘的即時趨勢，在收集資料後幾秒鐘內即可提供。它使用即時關聯並追蹤內容與部分轉換，收集並串流資料至自動更新的 UI。
 

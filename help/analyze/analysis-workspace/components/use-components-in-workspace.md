@@ -1,17 +1,17 @@
 ---
-description: 瞭解如何在Analysis Workspace中使用專案元件
-title: 在專案中使用元件
+description: 了解在 Analysis Workspace 中如何使用專案的元件
+title: 使用專案的元件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
-# 在專案中使用元件
+# 使用專案中的元件
 
 元件組成任何 Analysis Workspace 專案的實際資料。元件由維度、量度、區段和日期範圍組成。您可以將元件拖曳至視覺效果或面板中，將其加入專案。
 
@@ -45,7 +45,7 @@ ht-degree: 80%
 
 ### 在專案中新增維度
 
-[維度](/help/components/dimensions/overview.md)是Adobe Analytics中的變數，通常包含字串值。 相對地，[量度](/help/components/c-calcmetrics/cm-overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
+[維度](/help/components/dimensions/overview.md)是Adobe Analytics中的變數，通常包含字串值。 相對地，[量度](/help/components/calculated-metrics/cm-overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
 
 1. 根據[在專案中新增元件](#add-components-to-a-project)的說明，開始為 Analysis Workspace 專案新增維度。
 
@@ -102,7 +102,7 @@ ht-degree: 80%
 當您在自由格式表格中的欄位新增區段時，這些區段將會套用至表格欄位內的所有內容。您也可以新增區段作為流失視覺效果的一部分。
 
 * 在元件中使用區段
-當您定義[計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)、[註解](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)或甚至[區段](/help/components/segmentation/segmentation-workflow/seg-build.md)等元件時，您可以使用區段做為定義的一部分。
+當您定義[計算量度](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)、[註解](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)或甚至[區段](/help/components/segmentation/segmentation-workflow/seg-build.md)等元件時，您可以使用區段做為定義的一部分。
 
 
 ### 在專案中新增日期範圍
@@ -131,7 +131,7 @@ ht-degree: 80%
 
 根據存取控制，您可以：
 
-* 存取元件的![書籤](/help/assets/icons/Bookmark.svg) [!UICONTROL 資料字典]定義。
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
 * 存取已定義元件的![Edit](/help/assets/icons/Edit.svg)元件產生器。
 
 
@@ -244,7 +244,7 @@ When you add segments to a column in a freeform table, the segments apply to all
 
 In the Calculated metric builder, you can apply segments within your metric definition. 
 
-For more information, see [Segmented metrics](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md).
+For more information, see [Segmented metrics](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md).
 
 ## Add date ranges to a project
 

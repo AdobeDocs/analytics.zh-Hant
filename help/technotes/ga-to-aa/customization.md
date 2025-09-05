@@ -3,7 +3,7 @@ title: Adobe Analytics 中的報表自訂功能
 description: 瞭解如何在 Adobe Analytics 中自訂報表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 ## 儀表板
 
-[!UICONTROL Analysis Workspace] 架構與儀表板 Widget 的概念類似。 [!UICONTROL Analysis Workspace] 中的專案約略等同於 Google Analytics 中的儀表板。 [!UICONTROL Analysis Workspace] 中的視覺效果約略等同於 Google Analytics 中的 Widget。
+[!UICONTROL Analysis Workspace] 架構與儀表板小工具的概念類似。 [!UICONTROL Analysis Workspace] 中的專案約略等同於 Google Analytics 中的儀表板。 [!UICONTROL Analysis Workspace] 中的視覺效果約略等同於 Google Analytics 中的小工具。
 
 ### 新增內容到專案
 
@@ -28,12 +28,12 @@ ht-degree: 94%
 
 [!UICONTROL Analysis Workspace] 中有提供所有 Google Analytics Widget：
 
-* **量度 Widget** 約略等同於[!UICONTROL 摘要數字]視覺效果。
-* **時間軸 Widget** 約略等同於[!UICONTROL 線條]視覺效果。
-* **Geomap Widget** 約略等同於[!UICONTROL 地圖]視覺效果。
-* **表格 Widget** 約略等同於[!UICONTROL 自由格式表格]視覺效果。
-* **圓形圖 Widget** 約略等同於[!UICONTROL 環形圖]視覺效果。
-* **長條圖 Widget** 約略等同於[!UICONTROL 長條圖]視覺效果。
+* **量度小工具**&#x200B;約略等同於[!UICONTROL 摘要數字]視覺效果。
+* **時間軸小工具**&#x200B;約略等同於[!UICONTROL 線條]視覺效果。
+* **Geomap 小工具**&#x200B;約略等同於[!UICONTROL 地圖]視覺效果。
+* **表格小工具**&#x200B;約略等同於[!UICONTROL 自由格式表格]視覺效果。
+* **圓形圖小工具**&#x200B;約略等同於[!UICONTROL 環形圖]視覺效果。
+* **長條圖小工具**&#x200B;約略等同於[!UICONTROL 長條圖]視覺效果。
 
 [!UICONTROL Analysis Workspace] 包含更多視覺效果選項，好讓您以最符合報告需求的方式呈現資料。 如需詳細資訊，請參閱分析使用指南中的 [Analysis Workspace 中的視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 
@@ -68,8 +68,8 @@ ht-degree: 94%
 4. 一旦計算量度包含所需公式之後，按一下「儲存」返回您的工作區。
 5. 將新定義的計算量度拖曳至工作區。
 
-   進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-calcmetrics/cm-overview.md)。
+   進一步瞭解「元件」使用指南中的[計算量度](/help/components/calculated-metrics/cm-overview.md)。
 
 ## 自訂警報
 
-警報可在兩種平台上使用。在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。如需詳細資訊，請參閱「元件使用指南」中的[警示概觀](/help/components/c-alerts/intellligent-alerts.md)。
+警報可在兩種平台上使用。在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。如需詳細資訊，請參閱「元件使用指南」中的[警示概觀](/help/components/alerts/alerts-overview.md)。

@@ -4,9 +4,9 @@ title: 時間分段維度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '238'
 ht-degree: 74%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->時間分段維度僅可在 Analysis Workspace 中使用。若要在其他 Analytics 解決方案中使用時間分段維度，您可以執行 [getTimeParting 外掛程式](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/gettimeparting.html?lang=zh-Hant)。
+>時間分段維度僅可在 Analysis Workspace 中使用。若要在其他 Analytics 解決方案中使用時間分段維度，您可以執行 [getTimeParting 外掛程式](/help/implement/vars/plugins/gettimeparting.md)。
 
 Analysis Workspace 中的時間分段維度包括：
 

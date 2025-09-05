@@ -3,9 +3,9 @@ description: 「分類規則產生器」裡頁面上之介面元素的定義。
 title: 分類規則 - 定義
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '860'
 ht-degree: 94%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>選取報表套裝和變數 </p> </td> 
-   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=zh-Hant"  >流量分類</a>」和「<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hant"  >轉換分類</a>」。 </p> </td> 
+   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >流量分類</a>」和「<a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >轉換分類</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 啟動</span> </p> </td> 

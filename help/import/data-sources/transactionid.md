@@ -4,7 +4,7 @@ description: 使用線上點選的儲存值，讓共用交易ID的離線點選�
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->在使用交易ID資料來源之前，您必須先在所需報表套裝的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)中啟用它。
+>在使用交易ID資料來源之前，您必須先在所需報表套裝的[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)中啟用它。
 
 ## 運作方式
 
@@ -32,7 +32,7 @@ ht-degree: 8%
 * [首次購買間隔天數](/help/components/dimensions/days-before-first-purchase.md)
 * [上次購買間隔天數](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* 在[報告套裝設定](/help/admin/admin/c-manage-report-suites/report-suites-admin.md)中啟用的功能特定維度，其行為與eVar類似。 行為類似於prop的特徵特定維度不包括在內。
+* 在[報告套裝設定](/help/admin/tools/manage-rs/report-suites-admin.md)中啟用的功能特定維度，其行為與eVar類似。 行為類似於prop的特徵特定維度不包括在內。
 * [清單變數](/help/implement/vars/page-vars/list.md)
 * [行銷管道](/help/components/dimensions/marketing-channel.md)
 * [行銷管道詳細資料](/help/components/dimensions/marketing-detail.md)

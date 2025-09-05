@@ -3,7 +3,7 @@ title: 串流媒體服務視訊中繼資料維度
 description: 為報表套裝啟用[!UICONTROL 視訊中繼資料]時可用的維度。
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 6%
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 串流媒體服務和維度透過串流媒體服務收集程式庫，為資料收集提供補充報告功能。 使用這些維度需要&#x200B;**[!UICONTROL Adobe Analytics for Streaming Media Ad-on]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[視訊中繼資料](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md)時，可以使用下列維度：
+當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[視訊中繼資料](/help/admin/tools/manage-rs/edit-settings/media-management.md)時，可以使用下列維度：
 
 | 維度名稱 | 說明 | 伴隨傳送 | 上下文資料變數 |
 | --- | --- | --- | --- |

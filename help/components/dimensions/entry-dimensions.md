@@ -4,7 +4,7 @@ description: 列出登入維度及其使用情形。
 keywords: 登入頁面, 登入網站區域, 登入伺服器, 登入客戶分析
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
-source-git-commit: 66be48d0f41061d259cc53fb835ebd155294a710
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 75%
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 *此說明頁面說明登入作為[維度](overview.md)的運作方式。 若要瞭解登入作為量度時的運作方式，請參閱[登入](../metrics/entries.md)量度。*
 
-登入維度以[造訪為基礎](../metrics/visits.md)。 這類維度會記錄第一個維度項目，並在該次造訪的整個期間加以持續保存。報表套裝設定中的[流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用登入維度。
+登入維度以[造訪為基礎](../metrics/visits.md)。 這類維度會記錄第一個維度項目，並在該次造訪的整個期間加以持續保存。報表套裝設定中的[流量變數](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用登入維度。
 
 >[!TIP]
 >如果您想要根據造訪的首次點選而非造訪中看到的第一個值來檢視資料，可以使用[區段](/help/components/segmentation/seg-overview.md)。 使用[點選深度](hit-depth.md)等於1的點選容器，然後將該區段與所需變數搭配使用。

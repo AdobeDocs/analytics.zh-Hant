@@ -5,7 +5,7 @@ uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 91%
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 1. 建立或編輯請求，然後前往[!UICONTROL 「請求精靈: 步驟 2」]。
 
-   ![熒幕擷圖顯示篩選依據選項：應用程式、使用者和專案。](/help/admin/admin/assets/filter.png)
+   ![熒幕擷圖顯示篩選依據選項：應用程式、使用者和專案。](/help/admin/tools/assets/filter.png)
 
 1. 在[!UICONTROL 「請求精靈: 步驟 2」]中，於格線內按一下維度旁的連結，然後選擇&#x200B;**[!UICONTROL 「篩選」]**。
 
@@ -34,7 +34,7 @@ ht-degree: 91%
 
 1. 啟用下列其中一個特定選項：
 
-   * **從儲存格範圍：**&#x200B;可讓您選擇儲存格中的資料。您可以選擇︰
+   * **從儲存格範圍：**&#x200B;可讓您選擇儲存格中的資料。您可以選擇：
       * **範圍內的所有儲存格：**&#x200B;可讓您映射範圍內的每一個儲存格。描述文字會說明您必須選擇的儲存格群組數量。若要映射多個儲存格群組，請在選擇儲存格時按住 Ctrl 鍵。如果必須映射的範圍內只含有一個儲存格，這便是唯一可用的選項。
       * **範圍的第一個儲存格：**&#x200B;您只需要選擇範圍左上角的儲存格，然後再選擇資料的方向。此外，如果請求含有多個期間，您可以選擇期間的方向，然後選擇是否要在各個期間當中略過一定數量的儲存格。
    * **從清單：**&#x200B;可讓您從可新增資料的清單選擇資料。
