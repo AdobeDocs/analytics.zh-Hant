@@ -22,7 +22,7 @@ ht-degree: 88%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
 
 ## 元件排序選項 {#components-sort-options}
 

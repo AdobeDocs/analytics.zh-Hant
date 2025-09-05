@@ -18,7 +18,7 @@ ht-degree: 100%
 ## 瀏覽器如何限制了 Cookie 的使用？
 
 >[!NOTE]
->[跨裝置分析](/help/components/cda/overview.md#cda)和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) 可以使用人員 ID (例如雜湊登入 ID) 來跨 Cookie 彙整 (如果可用)。
+>[跨裝置分析](/help/components/cda/overview.md#cda)和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant#comparing-cja-to-traditional-adobe-analytics) 可以使用人員 ID (例如雜湊登入 ID) 來跨 Cookie 彙整 (如果可用)。
 
 ### 第三方 Cookie 限制
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 #### 哪些 Adobe 第三方 Cookie 會受到影響？
 
-訪客 ID 服務會使用「[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)」Cookie 為跨不同客戶網域的訪客提供永續性識別碼。 舊版 Analytics ID 服務 &quot;s_vi&quot; Cookie 被設定為第三方 Cookie，用於不使用自訂 CNAME 收集網域的實作。
+訪客 ID 服務會使用「[demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)」Cookie 為跨不同客戶網域的訪客提供永續性識別碼。 舊版 Analytics ID 服務 &quot;s_vi&quot; Cookie 被設定為第三方 Cookie，用於不使用自訂 CNAME 收集網域的實作。
 
 在封鎖第三方 Cookie 的瀏覽器上，無法使用跨網域追蹤。
 
@@ -52,9 +52,9 @@ ITP 政策經常在進化中。 如需了解最新政策，請參閱 Apple 的 [
 
 Adobe 設定的所有第一方 Cookie 及相關 JavaScript 資料庫都會受到 ITP 政策所影響：
 
-* Adobe Experience Cloud Visitor ID (ECID) 服務資料庫設定的 [&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)
-* Analytics 舊版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)，前提為它是透過第一方資料收集使用 CNAME 所設定
-* Analytics 舊版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html)，這是在無法設定 &quot;s_vi&quot; 時所使用的遞補 Cookie
+* Adobe Experience Cloud Visitor ID (ECID) 服務資料庫設定的 [&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)
+* Analytics 舊版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant)，前提為它是透過第一方資料收集使用 CNAME 所設定
+* Analytics 舊版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant)，這是在無法設定 &quot;s_vi&quot; 時所使用的遞補 Cookie
 
 #### 在 Safari 中施行 ITP 對 Analytics 有何影響？
 
@@ -75,7 +75,7 @@ ITP 限制的影響會因您使用者的行為而有很大的差異。 只有當
 
 第三方 Cookie 並不是由用戶造訪的網站所建立。
 
-雖然瀏覽器目前對所有第三方 Cookie 的處理方式相同，並據此方式加以儲存，但第三方 Cookie 本身可能會有不同的行為方式。 透過客戶的 Analytics 協力廠商 Cookie 實作，瀏覽器會將 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html) ID 儲存為協力廠商 Cookie，但用戶端只會對 Adobe 發出呼叫，不會對不明或可疑的協力廠商網域發出呼叫。此 Cookie 可跨網域提供永續性識別碼，且允許安全 (HTTPS) 內容。 如需詳細資訊，請參閱「[Cookie 和 Experience Platform 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html)」。
+雖然瀏覽器目前對所有第三方 Cookie 的處理方式相同，並據此方式加以儲存，但第三方 Cookie 本身可能會有不同的行為方式。 透過客戶的 Analytics 協力廠商 Cookie 實作，瀏覽器會將 Adobe [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant) ID 儲存為協力廠商 Cookie，但用戶端只會對 Adobe 發出呼叫，不會對不明或可疑的協力廠商網域發出呼叫。此 Cookie 可跨網域提供永續性識別碼，且允許安全 (HTTPS) 內容。 如需詳細資訊，請參閱「[Cookie 和 Experience Platform 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)」。
 
 有了 Analytics 實作，第三方 Cookie 會用於跨網域追蹤及推廣使用案例，包括重定廣告目標受眾。 第三方 Cookie 可在訪客造訪您擁有的不同網域或是在非您擁有的網站上對訪客顯示廣告時，讓您識別這些訪客。<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -85,7 +85,7 @@ ITP 限制的影響會因您使用者的行為而有很大的差異。 只有當
 
 在 Analytics 實作中，第一方 Cookie 是用來識別用戶何時出現在您的網站上，因此可支援對用戶活動的所有分析。 您不需要第三方 Cookie 來了解網站上的活動。
 
-如需詳細資訊，請參閱「[關於第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)」。
+如需詳細資訊，請參閱「[關於第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)」。
 
 ![Cookie 的比較](/help/technotes/assets/cookies2.png)
 

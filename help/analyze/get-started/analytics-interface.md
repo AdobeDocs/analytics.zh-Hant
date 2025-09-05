@@ -74,7 +74,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 是指儲存和自訂報告所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。它可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。 | [Activity Map 概觀](/help/analyze/activity-map/overview.md) |
-   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
+   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hant) |
    | Search &amp; Promote | 不再支援此功能。 |  |
    | 行動服務 | 不再支援此功能。 |  |
    | Analytics 儀表板 (行動應用程式) | Adobe Analytics 儀表板應用程式可隨時隨地提供 Adobe Analytics 的深入分析。透過該應用程式，使用者可以檢視您使用 Adobe Analytics 桌面版 UI 建立的直覺式計分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 儀表板應用程式 |

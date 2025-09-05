@@ -36,7 +36,7 @@ ht-degree: 68%
 
 如果您最近曾新增或變更任何量度或變數，請務必更新業務需求文件 (BRD) 和解決方案設計參考資料 (SDR)。
 
-如果您沒有這些實作檔案，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation)建立BRD或SDR。
+如果您沒有這些實作檔案，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation)建立BRD或SDR。
 
 ## &#x200B;5. 立即解決資料品質不如預期的問題
 

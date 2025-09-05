@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## 轉換變數 (eVar) 概觀
 
-如需轉換變數的影片概觀，請參閱Analytics教學課程指南中的[轉換變數簡介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)。
+如需轉換變數的影片概觀，請參閱Analytics教學課程指南中的[轉換變數簡介](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)。
 
 當 eVar 被設定為某個訪客的值，Adobe 會自動記住該值，直到其過期。訪客在 eVar 值活動期間遇到的任何成功事件都會被計入 eVar 值。
 
