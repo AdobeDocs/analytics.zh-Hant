@@ -3,16 +3,16 @@ title: 實作 Adobe Analytics 行銷管道的最佳做法
 description: 搭配 Attribution 和 Customer Journey Analytics 使用行銷管道的更新最佳做法
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
 # 搭配行銷管道使用 Attribution - 最佳做法
 
-[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)是 Adobe Analytics 的一項有價值且強大的功能。 目前有關行銷管道實作的指引是在 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases) 都尚未存在時所制定。
+[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)是 Adobe Analytics 的一項有價值且強大的功能。 目前有關行銷管道實作的指引是在 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html#cja-usecases) 都尚未存在時所制定。
 
 為了讓您的行銷管道實作更具前瞻性及確保 Attribution 與 Customer Journey Analytics 之間的報告一致性，我們正在發佈一組更新的最佳做法。 如果您已在使用行銷管道，您可以根據這些新準則來選擇最佳選項。 如果您是行銷管道的新手，我們建議您遵循所有新的最佳做法。
 
@@ -34,9 +34,13 @@ ht-degree: 97%
 
 不建議將「直接」和「內部/工作階段重新整理」管道用於自訂歸因模式。
 
-如果貴組織已設定「直接」和「工作階段重新整理」，該怎麼做？ 在此情況下，建議您為「首次接觸/上次接觸」[建立分類](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)，並保留「直接」和「工作階段重新整理」管道未分類。分類的維度將會產生相同的 Attribution 結果，就像是從未設定這些管道一樣。
+如果貴組織已設定「直接」和「工作階段重新整理」，該怎麼做？ 在此情況下，Adobe建議您[為首次接觸/上次接觸](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)建立分類，並將「直接」和「工作階段重新整理」管道保留為未分類。 分類的維度會產生類似從未設定這些管道的歸因結果。
 
 ![](assets/direct-session-refresh.png)
+
+如果您停用這些管道並移除其行銷管道處理規則，則結果與分類方法會略有不同。 值`None`代表不符合任何行銷管道處理規則的造訪。 當符合任何管道的造訪追蹤符合某個管道的造訪時，便可能出現差異。
+
+在任何情況下，您都仍然可以使用自訂歸因模型，以套用回顧期間和歸因模型。
 
 ## 最佳做法 3：對所有管道啟用上次接觸管道覆寫
 
