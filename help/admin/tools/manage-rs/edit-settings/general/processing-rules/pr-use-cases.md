@@ -39,7 +39,7 @@ ht-degree: 22%
 | 規則集 | 值 |
 | 動作 | [!UICONTROL 以]覆寫`spa.billing_customer_name` eVar55的值（內容資料） |
 | 動作 | 如果已設定[!UICONTROL &#x200B; （內容資料），請使用] （內容資料）覆寫`testhierarchy` Prop7的值 |
-| 動作 | `testhierarchy`以[!UICONTROL 覆寫] eVar8的值（內容資料） |`spa.ims_org`
+| 動作 | `testhierarchy`以[!UICONTROL 覆寫] eVar8的值（內容資料） `spa.ims_org` |
 
 ![處理規則介面的熒幕擷圖，顯示如何有條件地設定值](assets/add-conditional.png)
 
