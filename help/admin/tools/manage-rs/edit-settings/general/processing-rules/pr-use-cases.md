@@ -5,10 +5,10 @@ title: 處理規則使用案例
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
 workflow-type: tm+mt
 source-wordcount: '831'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 22%
 下列範例接受`search_term`內容資料變數並將其值放入eVar3：
 
 | 規則集 | 值 |
+| --- | --- |
 | 條件 | `search_term` （內容資料）已設定 |
 | 動作 | [!UICONTROL 以]覆寫`search_term` eVar3的值（內容資料） |
 
@@ -37,9 +38,10 @@ ht-degree: 22%
 下列範例會將各種上下文資料變數填入多個變數中。 一個動作也包含條件陳述式：
 
 | 規則集 | 值 |
+| --- | --- |
 | 動作 | [!UICONTROL 以]覆寫`spa.billing_customer_name` eVar55的值（內容資料） |
-| 動作 | 如果已設定[!UICONTROL &#x200B; （內容資料），請使用] （內容資料）覆寫`testhierarchy` Prop7的值 |
-| 動作 | `testhierarchy`以[!UICONTROL 覆寫] eVar8的值（內容資料） `spa.ims_org` |
+| 動作 | 如果已設定[!UICONTROL  （內容資料），請使用] （內容資料）覆寫`testhierarchy` Prop7的值`testhierarchy` |
+| 動作 | [!UICONTROL 以]覆寫`spa.ims_org` eVar8的值（內容資料） |
 
 ![處理規則介面的熒幕擷圖，顯示如何有條件地設定值](assets/add-conditional.png)
 
