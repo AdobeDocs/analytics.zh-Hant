@@ -3,18 +3,18 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 247304b6cf3c7c79ff1521d8786ea887a515fdfb
+source-git-commit: e1ae808920490f7d7c0611e45606a3f82b61ccdb
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 81%
+source-wordcount: '1148'
+ht-degree: 79%
 
 ---
 
-# 最新 Adobe Analytics 發行說明 (2025 年 8 月發行)
+# 最新Adobe Analytics發行說明（2025年9月發行）
 
-**上次更新日期**：2025 年 8 月 13 日
+**上次更新日期**：2025年9月11日
 
-這些發行說明涵蓋 2025 年 8 月 13 日至 2025 年 9 月 16 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+這些發行說明涵蓋2025年9月至10月初的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可擴展且分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
@@ -56,6 +56,6 @@ ht-degree: 81%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
-* [串流媒體服務發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
+* [串流媒體服務發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html)
 * [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
