@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -61,7 +61,9 @@ ht-degree: 56%
 
    **帳戶型別**
 
-   +++Amazon S3角色ARN
+   +++Amazon S3 Role ARN
+
+   **注意：**&#x200B;將Amazon S3與資料摘要和Data Warehouse搭配使用時，僅支援SSE-S3加密。
 
    若要設定 Amazon S3 角色 ARN 帳戶，請註明以下資訊：
 
@@ -99,7 +101,7 @@ ht-degree: 56%
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
    +++Azure RBAC
 

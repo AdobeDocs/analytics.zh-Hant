@@ -3,9 +3,9 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要，以及提供給Adobe的相關檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -69,6 +69,8 @@ ht-degree: 53%
    您可以直接傳送摘要至 Amazon S3 貯體。此目的地型別只需要您的Amazon S3帳戶和位置（貯體）。
 
    Adobe Analytics使用跨帳戶驗證，將檔案從Adobe Analytics上傳至Amazon S3執行個體中的指定位置。
+
+   將Amazon S3與資料摘要搭配使用時，僅支援SSE-S3加密。
 
    若要設定Amazon S3貯體作為資料摘要的目的地：
 
