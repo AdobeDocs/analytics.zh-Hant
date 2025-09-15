@@ -3,10 +3,10 @@ description: 說明如何將元件和專案從Adobe Analytics移轉至Customer J
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 5%
+source-wordcount: '1641'
+ht-degree: 4%
 
 ---
 
@@ -39,39 +39,53 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
 ## 將Adobe Analytics專案移轉至Customer Journey Analytics
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >在依照本節所述將任何專案移轉至Customer Journey Analytics之前，請在[準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md)中進一步瞭解移轉專案。
 >
->**您對應的所有維度或量度都會是永久性的，不論此專案還是未來移轉到您整個IMS組織的所有專案，不論哪位使用者正在執行移轉。 除非連絡客戶服務，否則無法修改或復原這些對應。**
+>**您對應的任何維度或量度都會套用至此專案以及您整個IMS組織中的所有未來專案，無論執行移轉的使用者為何。 移轉未來的專案時，可以更新這些對應。**
 
 1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**]」索引標籤，然後選取「[!UICONTROL **所有管理員**]」。
 
 1. 在&#x200B;[!UICONTROL **資料組態與集合**]&#x200B;下，選取&#x200B;[!UICONTROL **元件移轉**]。
 
-1. 找到您要移轉的專案。 您可以篩選、排序或搜尋專案清單。
+1. 找到您要移轉的每個專案。 您可以篩選、排序或搜尋專案清單。
 
    預設情況下，僅顯示與您共用的專案。 若要檢視您組織中的所有專案，請選取&#x200B;**篩選器**&#x200B;圖示，然後展開&#x200B;[!UICONTROL **其他篩選器**]&#x200B;並選取&#x200B;[!UICONTROL **全部顯示**]。 （如需有關篩選、排序和搜尋專案清單的詳細資訊，請參閱[篩選、排序和搜尋專案清單](#filter-sort-and-search-the-list-of-projects)。）
 
-1. 將游標移至您要移轉的專案上，然後選取&#x200B;**移轉**&#x200B;圖示![移轉專案](assets/migrate.svg)。
+1. （視條件而定）若要一次移轉多個專案，請選取您要移轉之每個專案左側的核取方塊，然後選取&#x200B;[!UICONTROL **移轉至Customer Journey Analytics**]。
 
-   或
+   移轉多個專案時，請考慮下列事項：
 
-   選取您要移轉的專案，然後選取&#x200B;[!UICONTROL **移轉至Customer Journey Analytics**]。
+   * 您一次最多可以選取20個要移轉的專案。
 
-   您一次只能選取一個專案進行移轉。
+   * 所有要移轉的專案之移轉狀態必須相同。
+
+     例如，如果您選取一個要移轉的專案，其移轉狀態為&#x200B;**[!UICONTROL 未開始]**，則無法選取另一個移轉狀態為&#x200B;**[!UICONTROL 失敗]**&#x200B;的專案。
+
+   * 您必須為您要移轉的所有專案指定相同的專案所有者。
+
+   * 對於您要移轉的所有專案，維度和量度都必須對應至相同的資料檢視。
 
    顯示&#x200B;[!UICONTROL **將project_name移轉至Customer Journey Analytics**]&#x200B;對話方塊。
 
    <!-- add screenshot -->
 
-1. 在&#x200B;[!UICONTROL **專案所有者**]&#x200B;欄位中，開始輸入您要在Customer Journey Analytics中設定為專案所有者的使用者名稱，然後在下拉式選單中選取其名稱。
+1. （視條件而定）若要移轉單一專案，請將滑鼠移至您要移轉的專案上，然後選取&#x200B;**移轉**&#x200B;圖示![移轉專案](assets/migrate.svg)。
 
-   您指定的擁有者擁有專案的完整管理許可權。 擁有者必須是Customer Journey Analytics的管理員。 您可以在稍後步驟中變更專案的所有權。
+   顯示&#x200B;[!UICONTROL **將project_name移轉至Customer Journey Analytics**]&#x200B;對話方塊。
+
+   <!-- add screenshot -->
+
+1. 在&#x200B;[!UICONTROL **專案所有者**]&#x200B;欄位中，開始輸入您要設定為Customer Journey Analytics中移轉專案之所有者之使用者的名稱，然後在下拉式選單中選取其名稱。
+
+   您指定的擁有者擁有已移轉專案的完整管理許可權。 擁有者必須是Customer Journey Analytics的管理員。 您可以在稍後步驟中變更專案的所有權。
 
 1. 在「[!UICONTROL **對應報表套裝的結構描述**]」區段中，選取報表套裝。
 
 1. 在&#x200B;[!UICONTROL **資料檢視**]&#x200B;下拉式功能表中，選取您要移轉專案和元件的Customer Journey Analytics資料檢視。
+
+   當您移轉多個專案時，所有要移轉的專案都會合併至單一資料檢視對應。
 
 1. 選取&#x200B;[!UICONTROL **對應結構描述**]。
 
@@ -123,7 +137,7 @@ Adobe Analytics 管理員可以將 Adobe Analytics 專案及其關聯元件移�
 
    >[!WARNING]
    >
-   >   選取&#x200B;[!UICONTROL **移轉**]&#x200B;後，熒幕上會顯示警告訊息。 選擇繼續之前，請先瞭解您對應之任何維度或量度對於此專案及整個組織未來移轉的所有專案而言都是永久性的。 如果繼續，則無法修改您建立的對應。
+   >選取&#x200B;[!UICONTROL **移轉**]&#x200B;後，熒幕上會顯示警告訊息。 在選擇繼續之前，請瞭解您對應的任何維度或量度會套用至此專案以及整個IMS組織中的所有未來專案，無論執行移轉的使用者為何。 移轉未來的專案時，可以更新這些對應。
 
    移轉完成後，[!UICONTROL **移轉狀態**]&#x200B;頁面會提供已移轉專案的摘要。
 
