@@ -5,9 +5,9 @@ user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 + [Analytics 技術備忘稿](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
-+ 適用於Google Analytics使用者的Adobe Analytics {#ga-to-aa}
++ Google Analytics 使用者適用的 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 使用者適用的 Adobe Analytics 說明](ga-to-aa/home.md)
    + [帳戶與報表套裝](ga-to-aa/accounts.md)
    + [自訂報表檢視](ga-to-aa/customization.md)
-   + Google Analytics報表 {#reports}
+   + Google Analytics 報表 {#reports}
       + [為 GA 使用者在 Analysis Workspace 建立基本報表](ga-to-aa/reports/create-report.md)
       + [用於其他 Analytics 平台的通用量度](ga-to-aa/reports/common-metrics.md)
       + [即時](ga-to-aa/reports/realtime-reports.md)
@@ -54,9 +54,9 @@ ht-degree: 90%
    + [隱私權概觀](privacy/privacy-overview.md)
    + [隱私權工作流程](privacy/privacy-workflow.md)
    + [Analytics 和 GDPR](privacy/gdpr.md)
-   + [Analytics和CCPA](privacy/ccpa.md)
-   + [Analytics與CNIL同意劐免](privacy/cnil-consent-exemption.md)
-   + [隱私權常見問題集](privacy/faq.md)
+   + [Analytics 和 CCPA](privacy/ccpa.md)
+   + [Analytics 和 CNIL 同意豁免](privacy/cnil-consent-exemption.md)
+   + [隱私權常見問題](privacy/faq.md)
 + [處理順序](processing-order.md)
 + [漸進式網頁應用程式](pwa.md)
 + [重新導向與別名](redirects.md)

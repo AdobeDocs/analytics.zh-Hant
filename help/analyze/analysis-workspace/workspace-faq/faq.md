@@ -5,13 +5,13 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 常見問題集
+# 常見問題
 
 +++使用 Analysis Workspace 的先決條件為何？
 [透過 Adobe Analytics 擴充功能將資料傳送至 Adobe Analytics](/help/implement/launch/validate-publish-prod.md)：使用 Analysis Workspace 需要運作中實作。請確認貴組織有將資料傳送至 Adobe，再開始使用此工具。其他實作方式 (例如舊版手動實作) 也可有效運用。
@@ -45,34 +45,34 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 
 +++資料如何進入您的 Analysis Workspace 專案？
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料進入 Analysis Workspace 概觀](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料進入 Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} 的示範影片。
 
 +++
 
-+++我要如何追蹤工作區的使用情況？
++++如何追蹤 Workspace 的使用情況？
 
 請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [記錄追蹤](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}的示範影片。
 
 +++
 
-+++我將量度拖曳到專案後，系統顯示「資料無效」。 如何解決此問題？
++++我將量度拖曳至專案後，系統顯示「資料無效」。如何解決此問題？
 
 資料無效代表 Adobe 無法運用報表中使用的維度和量度組合傳回資料。舉例來說，將兩個量度彼此堆疊在一起就無法傳回資料，因為系統無法以這種方式顯示兩個量度。因此，請改為並排放置量度。
 
 +++
 
-+++我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。 如何疑難排解此問題？
++++我將量度拖曳到專案後，系統並未顯示任何實際資料，僅顯示零。如何疑難排解此問題？
 
 如果您成功建立了 Workspace 報表，但當中沒有任何資料，建議您檢查以下幾個事項：
 
 * 仔細檢查報表套裝，確認報表中已填入資料。
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
-* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-tw)驗證資料正在收集中。
+* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)驗證資料正在收集中。
 
 
 +++
 
-+++身為唯讀使用者，我可以在Analysis Workspace中執行哪些動作？
-當專案以唯讀方式共用時，所有編輯功能和特色都完全停用，且收件者僅可變更下拉式選單以預先定義的方式，將篩選器套用至面板。
++++作為唯讀使用者，我可以在 Analysis Workspace 中執行哪些動作？
+專案以唯讀方式共用時，所有編輯功能和特色皆完全停用，且收件者僅可變更下拉式選單，以預先定義的方式將篩選器套用至面板。
 +++

@@ -5,16 +5,16 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
-+ [Analytics元件指南](home.md)
++ [Analytics 元件指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)

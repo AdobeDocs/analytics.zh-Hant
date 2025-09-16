@@ -5,16 +5,16 @@ user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要和 Data Warehouse 擷取資料輸出。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics 轉存指南 {#export}
+# Adobe Analytics 匯出指南 {#export}
 
-+ [Analytics匯出指南](home.md)
++ [Analytics 匯出指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
 + Analytics 資料摘要 {#analytics-data-feed}
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
