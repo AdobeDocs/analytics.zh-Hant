@@ -4,7 +4,7 @@ description: 針對立即解除安裝頁面的瀏覽器，提高擷取連結追�
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->緩衝要求的時間戳記會與傳送資料的頁面共用。 如果您想要在記錄緩衝要求的確切秒數內達到更高的精確度，您可以在緩衝要求之前設定[`timestamp`](../page-vars/timestamp.md)頁面變數。 如果您使用此變數，請確定已啟用[可選時間戳記](/help/technotes/timestamps-optional.md) — 如果未啟用，所有時間戳記點選都會永久遺失！
+>緩衝要求的時間戳記會與傳送資料的頁面共用。 如果您想要在記錄緩衝要求的確切秒數內達到更高的精確度，您可以在緩衝要求之前設定[`timestamp`](../page-vars/timestamp.md)頁面變數。 如果您使用此變數，請確定已啟用[可選時間戳記](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) — 如果未啟用，所有時間戳記點選都會永久遺失！
 
 ## 限制
 

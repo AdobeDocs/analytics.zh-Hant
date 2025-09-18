@@ -3,10 +3,10 @@ title: 不重複訪客
 description: 不重複訪客識別碼的數目。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 95%
 
 ---
 
@@ -27,14 +27,14 @@ Analysis Workspace 會根據報告的詳細程度處理不重複訪客。例如�
 | 使用順序 | 查詢參數 (收集方法) | 使用時機 |
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數已設定。 |
-| 2 | `aid` | 訪客有現有的 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
-| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie。使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 設定於實作上。 |
-| 4 | `fid` | 訪客有現有的 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
+| 2 | `aid` | 訪客有現有的 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
+| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。在使用[Adobe Experience Cloud Identity服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)的實施上設定。 Adobe建議儘可能將ID服務用於所有實作。 |
+| 4 | `fid` | 訪客有現有的 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
 | 5 | IP 位址、使用者代理、閘道 IP 位址 | 訪客的瀏覽器不接受 Cookie 時，用來識別不重複訪客的最後方法。 |
 
 >[!NOTE]
 >
->每個 Analytics 訪客 ID 都會繫結至 Adobe 伺服器上的設定檔。無論訪客 ID Cookie 過期與否，這些訪客設定檔只要閒置至少 13 個月，就會遭到刪除。
+>每個 Analytics 訪客 ID 都會繫結至 Adobe 伺服器上的設定檔。無論訪客 ID Cookie 過期與否，這些訪客輪廓只要閒置至少 13 個月，就會遭到刪除。
 
 ## 影響不重複訪客計數的行為
 

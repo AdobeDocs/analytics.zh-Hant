@@ -4,10 +4,10 @@ description: 瞭解使用全域報表套裝的優點和需求。
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -43,8 +43,8 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
    >
    > 請確認您在不同網域間使用任何指定自訂變數的方式都相同。如果不同網站的用途不同，請勿使用相同的 eVar 或事件。
 1. 請確認每個網域都有資料層，以便簡化資料收集。沒有資料層依然可以收集資料，但實作的可靠性和持久性會降低，尤其當您的網站經過重新設計時更是如此。
-1. 使用 Adobe Experience Platform 中的標記來實作 Analytics。 不同的網站可能需要不同的資料元素。使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。請參閱「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)」。
-1. 納入 [Adobe Experience Cloud ID Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)，並使用 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hant) 函數。使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
+1. 使用 Adobe Experience Platform 中的標記來實作 Analytics。 不同的網站可能需要不同的資料元素。使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。請參閱「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」。
+1. 納入[Adobe Experience Cloud ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)並使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html)函式。 使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
 
 ## 使用全域報表套裝修改現有實作
 
@@ -55,7 +55,7 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
 3. 請按照上述步驟進行 (建立報表套裝、在解決方案設計文件中整理出報表需求，並在每個網站上建立資料層)。在實作 Adobe Experience Platform 中的標記時，請使用您網站的開發版本來驗證您的實作。
 4. 在確認您的實作可在開發環境中使用後，請在轉換日期將您的標記實作推送到線上。
 
-## 相關頁面
-
-[從多套裝標記移至全域報表套裝和虛擬報表套裝](../../components/vrs/vrs-considerations.md)
-[比較統計和全域報表套裝](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[從多套裝標籤移至全域報表套裝和虛擬報表套裝](../../components/vrs/vrs-considerations.md)
+>>[比較統計和全域報表套裝](../../admin/tools/manage-rs/rollup-report-suite.md)

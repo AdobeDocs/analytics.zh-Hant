@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報告套裝等。
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: ht
+source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
+workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
                + [常見的機器人簽名](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
                + [排除機器人的方法](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
             + [隱私權設定](tools/manage-rs/edit-settings/general/privacy-settings.md)
-            + [時間戳記設定](tools/manage-rs/edit-settings/general/timestamp-optional.md)
+            + [時間戳記設定](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
             + 伺服器端轉送功能 {#server-side-forwarding}
                + [伺服器端轉送概觀](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy 法規遵循與伺服器端轉送](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)

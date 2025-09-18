@@ -4,9 +4,9 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3760'
+source-wordcount: '3758'
 ht-degree: 100%
 
 ---
@@ -128,7 +128,7 @@ Adobe Analytics 資料隱私權實作支援下列身分識別資料、敏感資�
 
 >[!CAUTION]
 >
-> 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
+>系統會保留命名空間「`visitorId`」和「`customVisitorId`」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
 ## 變數類型以及其支援的資料隱私權標籤 {#variable-types}
 

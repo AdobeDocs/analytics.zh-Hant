@@ -4,9 +4,9 @@ title: 資料控管的常見問題集
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '2042'
+source-wordcount: '2040'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 各種資料隱私權規定 (GDPR、CCPA) 生效時，Adobe Analytics 會協助處理由資料控管單位提交到 Experience Cloud 資料隱私權 API 的已驗證請求，藉此提高程序的自動化程度。Adobe 資料隱私權 API 的設計目的，是為了協助處理客戶儲存在不同 Adobe Experience Cloud 解決方案中之資料的個別權限請求 (如存取和刪除請求)。那具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。
 
-此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。如需詳細資訊，請參閱 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。 
+此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。如需詳細資訊，請參閱 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。 
 
 +++
 
@@ -63,7 +63,7 @@ ht-degree: 99%
 
 * 一個選項是另行設定 Experience Cloud 組織，其中只包含測試報表套裝。然後使用此 Experience Cloud 組織進行資料隱私權測試，並將您的正常 Experience Cloud 組織用來進行實際的資料隱私權處理。
 
-* 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。例如，您可以在測試報表套裝中為每個命名空間的字首加上「qa-」。當您提交僅含有 qa 字首的命名空間的資料隱私權請求時，這些請求只會針對您的測試報表套裝來執行測試。稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**推薦使用此方法，除非您使用的是 visitorId、AAID、ECID 或 customVisitorId 命名空間。這些命名空間是硬式編碼，您不能在測試報表套裝中指定它們的替代名稱。**
+* 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。例如，您可以在測試報表套裝中為每個命名空間的字首加上「qa-」。當您提交僅含有 qa 字首的命名空間的資料隱私權請求時，這些請求只會針對您的測試報表套裝來執行測試。稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**除非您使用`visitorId`、AAID、ECID或`customVisitorId`名稱空間，否則建議使用此方法。 這些命名空間是硬式編碼，您不能在測試報表套裝中指定它們的替代名稱。**
 
 +++
 
