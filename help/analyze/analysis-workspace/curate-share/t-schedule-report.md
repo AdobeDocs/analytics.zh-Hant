@@ -5,18 +5,22 @@ title: 傳送及排程專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 28%
+source-wordcount: '498'
+ht-degree: 25%
 
 ---
 
 # 傳送及排程專案
 
-您可以透過電子郵件將Adobe Analytics專案以檔案形式傳送給所選使用者。 您可以臨時發送檔案，也可以設定按排程發送檔案。能以 CSV 或 PDF 格式傳送檔案。
+您可以透過電子郵件將Adobe Analytics專案以檔案形式傳送給所選使用者。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。
 
-任何套用於專案的索引標籤都會自動套用於匯出檔案。
+傳送檔案時，請考量下列事項：
+
+* 能以 CSV 或 PDF 格式傳送檔案。
+
+* 任何套用於專案的索引標籤都會自動套用於匯出檔案。
 
 也可使用其他匯出Adobe Analytics資料的方法，如[匯出概觀](/help/export/home.md)中所述。
 
@@ -38,7 +42,7 @@ ht-degree: 28%
 
 ## 排程檔案匯出 {#schedule}
 
-若要透過電子郵件依排程傳送檔案給收件者
+若要透過電子郵件依排程傳送檔案給收件者：
 
 1. 選取&#x200B;**[!UICONTROL 共用] > [!UICONTROL 排程檔案匯出]**。
 1. 指定檔案類型：
@@ -60,7 +64,7 @@ ht-degree: 28%
    | **[!UICONTROL 每年依月份日期]**&#x200B;傳送 | 選取&#x200B;**[!UICONTROL 一週中的某天]**，選取一個月中的&#x200B;**[!UICONTROL 周]**，然後選取一年中的&#x200B;**[!UICONTROL 每月]**。 |
    | **[!UICONTROL 依特定日期每年傳送]** | 選取&#x200B;**[!UICONTROL 月份]**，並從&#x200B;**[!UICONTROL 於當月的這個日期傳送]**&#x200B;中選取值。 |
 
-1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;**[!UICONTROL 開始的]**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」即可取消。
