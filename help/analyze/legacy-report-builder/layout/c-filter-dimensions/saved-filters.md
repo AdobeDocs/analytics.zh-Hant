@@ -1,5 +1,5 @@
 ---
-description: 您可以將篩選器或其他引數儲存在Report Builder中，並用於其他工作表或活頁簿中。 這些引數會儲存至Analytics，以確保其他電腦上的其他Report Builder使用者也能使用這些引數。
+description: 您可以將篩選器或其他引數儲存在Report Builder中，並用於其他工作表或活頁簿。 這些引數會儲存至Analytics，以確保其他電腦上的其他Report Builder使用者也能使用這些引數。
 title: 儲存的篩選
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 {{legacy-arb}}
 
-您可以將篩選器或其他引數儲存在Report Builder中，並用於其他工作表或活頁簿中。 這些引數會儲存至Analytics，以確保其他電腦上的其他Report Builder使用者也能使用這些引數。
+您可以將篩選器或其他引數儲存在Report Builder中，並用於其他工作表或活頁簿。 這些引數會儲存至Analytics，以確保其他電腦上的其他Report Builder使用者也能使用這些引數。
 
 在建立篩選時，您可以在「[!UICONTROL 選擇頁面]」表單中儲存篩選。如需此程式的範例，請參閱[特定篩選器](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)。
 

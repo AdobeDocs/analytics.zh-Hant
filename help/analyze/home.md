@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
 
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 ## Analytics 使用手冊
 
-Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Analytics 使用指南](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)」
+Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Analytics 使用指南](https://experienceleague.adobe.com/docs/analytics.html)」
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

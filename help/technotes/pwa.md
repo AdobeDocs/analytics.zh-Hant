@@ -47,6 +47,6 @@ s.trackOffline=true
 *** 
 ```
 
-若要了解更多關於設定 AppMeasurement.js 檔案，請參閱 [設定變數概覽](/help/implement/vars/config-vars/configuration-variables.md) 以及相同子章節內的個別變數特定頁面。
+若要了解更多關於設定 AppMeasurement.js 檔案，請參閱 [設定變數概觀](/help/implement/vars/config-vars/configuration-variables.md) 以及相同子章節內的個別變數特定頁面。
 
-若要了解更多關於編輯 AppMeasurement.js 檔案特性，請參閱 [Javascript 實施概覽](/help/implement/js/overview.md)。
+若要了解更多關於編輯 AppMeasurement.js 檔案特性，請參閱 [Javascript 實施概觀](/help/implement/js/overview.md)。

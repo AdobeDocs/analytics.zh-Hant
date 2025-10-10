@@ -14,7 +14,7 @@ ht-degree: 33%
 
 「頁面事件」 [量度](overview.md)會顯示任何連結追蹤呼叫的執行次數。 如果您想要瞭解哪些頁面具有最吸引人的內容，此量度將有所幫助。當訪客無須導覽至新頁面即可在頁面上執行動作時，此量度的測量尤有效益。
 
-例如，在電子商務網站的典型歷程中，訪客可在單一頁面上進行數個互動。 典型的Analytics實作將這些互動設定為連結追蹤([`tl()`](/help/implement/vars/functions/tl-method.md))呼叫，而頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))呼叫則保留給初始頁面載入。 此實作方法提供豐富的事件追蹤，可深入分析訪客在繼續其歷程之前會發生哪些互動。
+例如，在電子商務網站的典型歷程中，訪客可在單一頁面上進行數個互動。 典型的Analytics實作將這些互動設定為連結追蹤([`tl()`](/help/implement/vars/functions/tl-method.md))呼叫，而頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))呼叫則保留給初始頁面載入。 此實作方法提供豐富的事件追蹤功能，可針對insight在訪客繼續其歷程之前發生的互動提供資訊。
 
 ## 此量度的計算方式
 

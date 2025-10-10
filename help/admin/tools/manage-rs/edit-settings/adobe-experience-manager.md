@@ -22,6 +22,6 @@ ht-degree: 100%
 * 將維度新增至 Analysis Workspace 中的資產變數：資產 ID、資產來源和已點選的資產 ID
 * 將維度新增至資產事件：資產點按次數和資產曝光數
 
-對於要填入的資料，請參閱 [AEM Asset Insights 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=zh-Hant)以了解完整的實作指示。
+對於要填入的資料，請參閱 [AEM Asset Insights 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html)以了解完整的實作指示。
 
 <!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->

@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 85%
+source-wordcount: '1192'
+ht-degree: 72%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 85%
 +++
 
 
-+++##我在使用歸因模式時，為何有時會在報告中看到報告期間之外的日期？
++++##我在使用歸因模型時，為何有時會在報表中看到報表期間之外的日期？
 
 有些造訪型量度 (例如 [登入點](/help/components/metrics/entries.md)或[跳出率](/help/components/metrics/bounce-rate.md)) 會將資料歸因予報告期間起始日期以前的期間。這種情況肇因於使用了回顧期間的歸因模式，該模式會決定回顧應達於何種程度時，才會將發生的事件計入量度。最常見的情形是跨越午夜的造訪。例如：
 
-1. 一名造訪者於9月7日晚上11時55分造訪您的首頁。
+1. 使用者於9月7日晚上11:55造訪您的首頁。
 1. 其造訪了幾頁網頁，而於9月8日凌晨12:05造訪其中的最後一頁。
 1. 一週後，您製作9月8日至9月14日期間的每日趨勢報告。
 
@@ -36,7 +36,7 @@ ht-degree: 85%
 
 再來看另一個類似的例子。下述例子和上述例子之間僅有日期不同：
 
-1. 使用者於 8 月 31 日晚上 11:55 造訪您的首頁。
+1. 使用者於8月31日晚上11:55造訪您的首頁。
 1. 其造訪了幾頁網頁，而於9月1日凌晨12:05造訪其中的最後一頁。
 1. 一週後，您製作9月1日至9月7日期間的每日趨勢報告。
 
@@ -53,21 +53,21 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 -->
 
-+++##使用歸因時，prop 和 eVar 有何差異？
++++##使用歸因時，prop和eVar有何差異？
 
 系統會在報告執行階段重新計算歸因，因此就歸因模式來說，prop 或 eVar (或任何其他維度) 之間並沒有區別。Prop 會持續使用任何回顧期間或歸因模式，而 eVar 配置/期限設定則會受到系統忽略。
 
 +++
 
 
-+++##歸因模式是否可用於「資料摘要」或「Data Warehouse」等其他 Analytics 功能？
++++##歸因模型是否可用於「資料饋送」或「Data Warehouse」等其他Analytics功能？
 
 否。歸因模式採用的是報告時間處理，這項功能只能在 Analysis Workspace 中使用。如需詳細資訊，請參閱[報告時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 
 +++
 
 
-+++##我是否必須在啟用「報告時間處理」的情況下使用虛擬報告套裝，才能使用歸因模式？
++++##我是否必須在啟用「報表時間處理」的情況下使用虛擬報表套裝，才能使用歸因模型？
 
 歸因模式可在虛擬報告套裝之外使用。雖然歸因模式會在後端使用報告時間處理，但標準報告套裝和虛擬報告套裝都可使用歸因模式。
 
@@ -119,7 +119,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 
 
-+++##歸因可用於 Advertising Analytics 整合嗎？
++++##歸因可用於Advertising Analytics整合嗎？
 
 中繼資料維度 (例如比對類型和關鍵字) 可搭配歸因使用，不過，由於量度 (包括曝光、成本、點擊、平均位置和平均品質分數) 使用摘要層級的資料來源，因此與歸因不相容。
 
@@ -135,7 +135,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 
 
-+++##歸因如何與多值變數 (例如清單變數) 搭配運作？
++++##歸因如何與多值變數（例如清單變數）搭配運作？
 
 Analytics 的某些維度可包含單次點擊中的多個值。常見範例包括清單變數和產品變數。
 

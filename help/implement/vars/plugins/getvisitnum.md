@@ -6,8 +6,8 @@ exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 78%
+source-wordcount: '777'
+ht-degree: 76%
 
 ---
 
@@ -79,7 +79,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 `getVisitNum` 函數會使用以下引數：
 
 * **`rp`** (選用，整數或字串)：造訪次數計數器重設前的天數。若未設定，則預設為 `365`。
-   * 此引數為 `"w"` 時，計數器會在當週結束時 (本週六晚上 11:59) 重設
+   * 此引數為`"w"`時，計數器會在當週結束時（本週六晚上11:59）重設
    * 此引數為 `"m"` 時，計數器會在當月結束時 (本月的最後一天) 重設
    * 此引數為 `"y"` 時，計數器會在當年結束時 (12 月 31 日) 重設
 * **`erp`** (選用，布林值)：`rp` 引數為數字時，此引數會決定是否應延長造訪次數的期限。若設為 `true`，您網站的後續點擊會重設造訪次數計數器。若設為 `false`，造訪次數計數器重設時，您網站的後續點擊不會延長。預設為 `true`。`rp` 引數為字串時，此引數無效。

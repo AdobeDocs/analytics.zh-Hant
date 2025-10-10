@@ -24,7 +24,7 @@ ht-degree: 66%
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用繼承的實作Playbook](https://video.tv.adobe.com/v/3438786?quality=12&learn=on&captions=chi_hant){target="_blank"}進行示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用繼承的實作Playbook](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"}進行示範影片。
 
 >[!ENDSHADEBOX]
 

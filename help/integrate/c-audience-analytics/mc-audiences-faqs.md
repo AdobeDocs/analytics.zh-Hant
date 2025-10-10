@@ -37,7 +37,7 @@ ht-degree: 31%
 
 +++ 如何在Audience Manager中建立Analytics目的地？
 
-請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)」。
+請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)」。
 
 +++
 

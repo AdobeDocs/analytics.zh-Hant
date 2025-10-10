@@ -17,6 +17,6 @@ ht-degree: 37%
 >
 >以下資訊與FTP和SFTP目的地型別有關。 FTP和SFTP是舊有的目的地型別。 設定資料摘要時，您應使用較安全的雲端目的地型別。 如需為資料摘要設定雲端目的地型別的詳細資訊，請參閱[建立資料摘要](/help/export/analytics-data-feed/create-feed.md)。
 
-您可以使用SFTP設定要傳送至外部FTP帳戶的Adobe資料。
+您可以使用SFTP設定Adobe資料，以傳送至外部FTP帳戶。
 
 如需詳細資訊，請參閱[建立資料摘要](/help/export/analytics-data-feed/create-feed.md)。

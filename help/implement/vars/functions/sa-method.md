@@ -23,8 +23,8 @@ ht-degree: 42%
 1. 按一下左側的&#x200B;**[!UICONTROL 資料串流]**。
 1. 按一下想要的資料流，或按一下&#x200B;**[!UICONTROL 新增資料流]**。
 1. 按一下&#x200B;**[!UICONTROL 新增服務]**，然後選取&#x200B;**[!UICONTROL Adobe Analytics]**。
-1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下[新增報表套裝]。**&#x200B;**
-1. 輸入所有需要的報表套裝後，按一下[儲存]。**&#x200B;**
+1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下[新增報表套裝]。****
+1. 輸入所有需要的報表套裝後，按一下[儲存]。****
 
 ## 使用網頁SDK擴充功能設定所需的資料串流
 
@@ -32,7 +32,7 @@ Web SDK擴充功能提供每個環境的資料流下拉式清單。 或者，您
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;底下的[!UICONTROL 設定]按鈕。
 1. 在[!UICONTROL 資料串流]底下，從每個環境的下拉式清單中選擇所需的資料串流。
 1. 按一下「**[!UICONTROL 儲存]**」。
 

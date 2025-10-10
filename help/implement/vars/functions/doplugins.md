@@ -22,17 +22,17 @@ ht-degree: 63%
 
 ## 使用Web SDK擴充功能在Before Event傳送回呼代碼前使用
 
-網頁SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。
+網頁SDK使用具有類似功能的`doPlugins`，而非`onBeforeEventSend`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;底下的[!UICONTROL 設定]按鈕。
 1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 在事件傳送回撥代碼前編輯]**&#x200B;按鈕。
 1. 將所需的程式碼放入編輯器中。
 
 ## 使用`onBeforeEventSend`手動實作Web SDK
 
-網頁SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+網頁SDK使用具有類似功能的`doPlugins`，而非`onBeforeEventSend`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

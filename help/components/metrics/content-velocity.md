@@ -14,7 +14,7 @@ ht-degree: 19%
 
 「內容速度」計算量度可協助您測量維度（通常為[[!UICONTROL 頁面]](/help/components/dimensions/page.md)）對使用者在您網站或應用程式上花費時間的貢獻度。
 
-此量度使用[頁面檢視次數](page-views.md)量度上的[參與率歸因](/help/analyze/analysis-workspace/attribution/models.md)作為其計算的一部分。 透過造訪參與率，每次點選頁面時，先前在同一次造訪期間點選的所有頁面都會獲得頁面檢視的評分。 此公式通常表示造訪期間越早點選頁面，其獲得的評分就越多。 (請參閱[頁面檢視（參與率） | 造訪)或「造訪參與率」](#page-views-participation--visit-or-visit-participation)以取得詳細資訊。)
+此量度使用[頁面檢視次數](/help/analyze/analysis-workspace/attribution/models.md)量度上的[參與率歸因](page-views.md)作為其計算的一部分。 透過造訪參與率，每次點選頁面時，先前在同一次造訪期間點選的所有頁面都會獲得頁面檢視的評分。 此公式通常表示造訪期間越早點選頁面，其獲得的評分就越多。 (請參閱[頁面檢視（參與率） | 造訪)或「造訪參與率」](#page-views-participation--visit-or-visit-participation)以取得詳細資訊。)
 
 ## 計算
 
@@ -56,6 +56,6 @@ ht-degree: 19%
 
 在上述範例中，頁面A接收7次點選、頁面B接收8次點選、頁面C接收4次點選，而頁面D接收2次點選。
 
-### 造訪
+### 造訪次數
 
 計算造訪參與率後，結果會除以造訪次數。

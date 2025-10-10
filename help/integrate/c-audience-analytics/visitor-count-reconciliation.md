@@ -43,7 +43,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-Adobe Audience Manager即時區段母體與Audience Analytics報表中使用的Experience CloudID為Analytics訪客最相似。 不過近期由於一些因素，兩者之間將會存在著些許差異。貢獻因子包括：
+Adobe Audience Manager即時區段母體與在Audience Analytics報表中使用的Experience Cloud ID為Analytics的訪客將最相似。 不過近期由於一些因素，兩者之間將會存在著些許差異。貢獻因子包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
 source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 41%
+source-wordcount: '500'
+ht-degree: 35%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 41%
 
 {{legacy-arb}}
 
-您可以使用Report Builder函式來存取功能，而無需存取Report Builder使用者介面。
+您可以使用Report Builder函式來存取功能，而不需要存取Report Builder使用者介面。
 
-例如，若要根據從其他來源提取到Excel中的資料，以輸入篩選器自動重新整理Report Builder請求，請使用字串RefreshRequestsInCellsRange(..) function. 所有呼叫皆非同步，且會立即傳回，不會等待完全執行。
+例如，若要根據從其他來源提取至Excel的資料，以輸入篩選器自動重新整理Report Builder請求，請使用字串RefreshRequestsInCellsRange(...)函式。 所有呼叫皆非同步，且會立即傳回，不會等待完全執行。
 
 **需求**
 
-* 需要Report Builder5.0 （或更新版本）。
+* 需要Report Builder 5.0 （或更新版本）。
 
 下表列出公開的函式。
 
 | 函數名稱 | 類型 | 說明 |
 |:---| --- | ---|
 | AsyncRefreshAll() | 字串 | 重新整理活頁簿顯示的所有 Report Builder 請求。 |
-| AsyncRefreshRange(string rangeAddressInA1Format) | 字串 | 重新整理指定儲存格範圍位址 (以 A1 格式表示儲存格範圍的字串表示式，例如「Sheet1!A2:A10」) 中顯示的所有 Report Builder 請求。 |
+| AsyncRefreshRange(string rangeAddressInA1Format) | 字串 | 重新整理指定儲存格範圍位址中存在的所有Report Builder要求（代表A1格式儲存格範圍的字串運算式，例如「Sheet1！A2:A10」）。 |
 | AsyncRefreshRangeAltTextParam() | 字串 | 重新整理指定儲存格範圍 (通過 Ms 表單控制項中的替代文字) 中顯示的所有 Report Builder 請求。 |
 | AsyncRefreshActiveWorksheet() | 字串 | 重新整理使用中工作表顯示的所有 Report Builder 請求。 |
 | AsyncRefreshWorksheet(string worksheetName) | 字串 | 重新整理指定工作表顯示的所有 Report Builder 請求 (工作表名稱為索引標籤上顯示的名稱)。 |
@@ -54,7 +54,7 @@ ht-degree: 41%
 
 1. 設定巨集參數。
 1. 在控制項上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 「指定巨集」]**。
-1. 輸入Report Builder函式名稱（無引數或括弧）。
+1. 輸入Report Builder函式名稱（不含引數或括弧）。
 
 ![顯示[指派巨集]視窗的熒幕擷圖。](assets/assign_macro.png)
 
@@ -76,6 +76,6 @@ ht-degree: 41%
    ![顯示[替代文字]索引標籤和[替代文字]欄位的熒幕擷圖。](assets/alt_text.png)
 
 1. 在&#x200B;**[!UICONTROL 「替代文字」]**&#x200B;下，輸入您要重新整理的儲存格範圍。
-1. 在&#x200B;**[!UICONTROL 公式]** > **[!UICONTROL 插入函式]**> **[!UICONTROL Report Builder.Adobe.Bridge]**&#x200B;下開啟ReportBuilder引數清單。
+1. 在&#x200B;**[!UICONTROL 公式]** > **[!UICONTROL 插入函式]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**&#x200B;下開啟Report Builder引數清單。
 
 1. 從兩個函數中選擇結尾是 AltTextParam 的函數，然後按一下&#x200B;**[!UICONTROL 「確定」]**。

@@ -101,7 +101,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
-[計算量度：實作較少的量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[計算量度：實作較少的量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比較不同歸因模型的量度

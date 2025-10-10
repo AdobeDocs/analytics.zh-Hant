@@ -20,7 +20,7 @@ ht-degree: 80%
 1. 確定已在[管理工具](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)中啟用即時報告。
 1. 在[!UICONTROL 「請求精靈: 步驟 1」]，按一下&#x200B;**[!UICONTROL 「即時報表]** > **[!UICONTROL `<report type>`]**」
 
-   例如，選取一個流量報表。當您選取即時報表類型時，會顯示[!UICONTROL &#x200B; 選取時間範圍]的選項。
+   例如，選取一個流量報表。當您選取即時報表類型時，會顯示[!UICONTROL  選取時間範圍]的選項。
 
 1. 選取幾小時或幾分鐘的時間範圍。
 

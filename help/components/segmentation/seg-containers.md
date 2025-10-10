@@ -1,6 +1,6 @@
 ---
 description: 了解不同的分段容器以及如何使用這些容器
-keywords: 分段;區段
+keywords: 細分；區段
 title: 區段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

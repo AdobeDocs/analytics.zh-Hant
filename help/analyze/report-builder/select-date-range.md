@@ -36,7 +36,7 @@ ht-degree: 88%
 
 您可選擇在任何選取的日期範圍中排除當天。
 
-![已選取行事曆且已選取「排除當天」的「Report Builder快速編輯」窗格。](./assets/image17.png)
+![已選取行事曆的Report Builder快速編輯窗格，以及已選取排除當天。](./assets/image17.png)
 
 ## 使用「行事曆」
 

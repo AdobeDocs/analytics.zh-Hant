@@ -24,7 +24,7 @@ ht-degree: 91%
 * 資料庫提供原生公用程式，用以取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
 * 資料庫不支援動態帳戶設定變數 (包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`)。
 
-下列步驟概述典型的移轉工作流程。
+下列步驟概觀典型的移轉工作流程。
 
 1. **下載新的 AppMeasurement 檔案**：登入 Adobe Analytics，然後導覽至「管理員 > 代碼管理器」存取新檔案。 下載的壓縮檔包含精簡的 `AppMeasurement.js` 檔案，以及媒體和整合模組。
 1. **將您的 `s_code.js` 自訂內容複製到`AppMeasurement.js`**：將 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 區段之前的所有程式碼複製到 `AppMeasurement.js` 的開頭。

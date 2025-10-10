@@ -1,6 +1,6 @@
 ---
 title: 行動生命週期維度
-description: 根據使用Mobile SDK所收集資料的Dimension。
+description: 以使用行動SDK收集的資料為依據的維度。
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
@@ -12,7 +12,7 @@ ht-degree: 26%
 
 # 行動生命週期維度
 
-*此頁面參考資料通常是透過Adobe Experience Platform Mobile SDK追蹤。 如需使用使用者代理程式的行動裝置資訊，請參閱[行動查詢維度](mobile-dimensions.md)。 如需使用行動SDK追蹤的量度，請參閱[行動生命週期量度](../metrics/lifecycle-metrics.md)。*
+*此頁面參考通常會透過Adobe Experience Platform Mobile SDK追蹤的資料。 如需使用使用者代理程式的行動裝置資訊，請參閱[行動查詢維度](mobile-dimensions.md)。 如需使用行動SDK追蹤的量度，請參閱[行動生命週期量度](../metrics/lifecycle-metrics.md)。*
 
 | 生命週期維度名稱 | 說明 | 上下文資料變數 |
 | --- | --- | --- |

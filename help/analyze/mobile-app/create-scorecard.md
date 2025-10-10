@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://video.tv.adobe.com/v/3445777?quality=12&learn=on&captions=chi_hant){target="_blank"} 的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} 的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3422732?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -363,7 +363,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 在您共用計分卡後，您的收件者可在其 Analytics 儀表板中存取該計分卡。如果您在計分卡產生器中對計分卡進行後續變更，共用的計分卡會自動更新。則高階主管使用者在應用程式中重新整理計分卡後，即可看見變更。
 
-如果您是以新增元件的方式更新計分卡，可再次共用計分卡 (並勾選&#x200B;**[!UICONTROL 共用嵌入式元件]**&#x200B;選項)，以確保您的高階主管使用者有權存取這些變更。
+如果您是以新增元件的方式更新計分卡，可再次共用計分卡 (並勾選 **[!UICONTROL 共用嵌入元件]** 選項)，以確保您的高階主管使用者有權存取這些變更。
 
 ### 使用可共享連結共用計分卡 {#shareable-link}
 
@@ -371,7 +371,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 若要使用可共用連結共用計分卡
 
-1. 按一下「**[!UICONTROL 共用]**」選單，然後選取「**[!UICONTROL 共用計分卡]**」。
+1. 按一下 **[!UICONTROL 共用]** 功能表，然後選取 **[!UICONTROL 共用計分卡]**。
 
    ![Share_Scorecards](assets/share-scorecard.png)
 

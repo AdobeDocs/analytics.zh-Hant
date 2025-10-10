@@ -18,7 +18,7 @@ ht-degree: 85%
 
 在「選項」面板，您可以指定日期設定、延遲設定 (目前的資料)、記錄設定，還能設定更新。
 
-1. 在[增益集]工具列中按一下[選項] **&#x200B;**![：](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)
+1. 在[增益集]工具列中按一下[選項] ****![：](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)
 
 | 元素 | 說明 |
 |--- |--- |

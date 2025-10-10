@@ -5,7 +5,7 @@ title: 分段概觀
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 

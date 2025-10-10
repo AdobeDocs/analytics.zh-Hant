@@ -4,7 +4,7 @@ description: 本指南主要針對不屬於特定分析工具或元件之主題�
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%
 
@@ -41,11 +41,11 @@ Adobe Analytics 的一些主要功能包括：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 其他 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

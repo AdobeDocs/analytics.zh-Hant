@@ -1,34 +1,34 @@
 ---
-title: 從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能
+title: 從Adobe Analytics標籤擴充功能移轉至網路SDK標籤擴充功能
 description: 更新Adobe Experience Platform資料收集標籤上的Analytics實作，以使用Web SDK擴充功能。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
 workflow-type: tm+mt
 source-wordcount: '1706'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# 從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能
+# 從Adobe Analytics標籤擴充功能移轉至網路SDK標籤擴充功能
 
 此實作路徑涉及從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能的方法。 其他實作路徑會在不同頁面上說明：
 
-* [AppMeasurement至Web SDK JavaScript資料庫](appmeasurement-to-web-sdk.md)：移轉至Web SDK的流暢且有條不紊的方法，但不使用標籤。 請改為手動移除Adobe Analytics資料收集程式庫(`AppMeasurement.js`)，並將其取代為Web SDK JavaScript程式庫(`alloy.js`)。
-* [Web SDK標籤擴充功能](web-sdk-tag-extension.md)：全新的Web SDK安裝，您可使用Adobe Experience Platform資料彙集中的標籤來管理實作。 它需要Adobe Analytics ExperienceEvent欄位群組，其中包括要包含在XDM結構描述中的典型Analytics變數。
-* [Web SDK JavaScript程式庫](web-sdk-javascript-library.md)：使用Web SDK JavaScript程式庫(`alloy.js`)的全新Web SDK安裝。 自行管理實作，而不使用標籤UI。 它需要Adobe Analytics ExperienceEvent欄位群組，其中包括要包含在XDM結構描述中的典型Analytics變數。
+* [AppMeasurement移轉至Web SDK JavaScript資料庫](appmeasurement-to-web-sdk.md)：移轉至Web SDK的順暢且有條不紊的方法，但不使用標籤。 請改為手動移除Adobe Analytics資料收集程式庫(`AppMeasurement.js`)，並將其取代為Web SDK JavaScript程式庫(`alloy.js`)。
+* [Web SDK標籤擴充功能](web-sdk-tag-extension.md)：全新的Web SDK安裝，您可使用Adobe Experience Platform Data Collection中的標籤來管理實作。 它需要Adobe Analytics ExperienceEvent欄位群組，其中包括要包含在XDM結構描述中的典型Analytics變數。
+* [Web SDK JavaScript資料庫](web-sdk-javascript-library.md)：使用Web SDK JavaScript資料庫(`alloy.js`)的全新Web SDK安裝。 自行管理實作，而不使用標籤UI。 它需要Adobe Analytics ExperienceEvent欄位群組，其中包括要包含在XDM結構描述中的典型Analytics變數。
 
 ## 此實作路徑的優缺點
 
 使用此移轉方法的優缺點。 請仔細權衡每個選項，決定哪種方式最適合您的組織。
 
-| 優勢 | 缺點 |
+| 優點 | 缺點 |
 | --- | --- |
-| <ul><li>**您的網站上沒有程式碼變更**：因為您的實作已安裝標籤，所以可以在標籤介面中進行所有移轉更新。</li><li>**使用您現有的實作**：此方法不需要全新實作。 雖然這確實需要新的規則動作，但您可以以最小的變更重複使用現有的資料元素和規則條件。</li><li>**不需要結構描述**：對於移轉至Web SDK的這個階段，您不需要XDM結構描述。 相反地，您可以填入`data`物件，這會直接將資料傳送到Adobe Analytics。 一旦移轉至Web SDK完成，您就可以為貴組織建立結構描述，並使用資料流對應來填入適用的XDM欄位。 如果移轉流程的這個階段需要結構描述，貴組織將被強制使用Adobe Analytics XDM結構描述。 使用此結構描述會使您的組織未來更難以使用您自己的結構描述。</li></ul> | <ul><li>**實作技術債**：由於此方法使用您現有實作的修改形式，因此可能更難追蹤實作邏輯並在需要時執行變更。 自訂程式碼可能特別難以偵錯。</li><li>**需要對應才能將資料傳送至Platform**：當您的組織準備使用Customer Journey Analytics時，您必須將資料傳送至Adobe Experience Platform中的資料集。 此動作要求`data`物件中的每個欄位必須是資料流對應工具中的專案，以將其指派給XDM結構描述欄位。 此工作流程只需對應一次，不需要變更實作。 不過，這是在XDM物件中傳送資料時不需要的額外步驟。</li></ul> |
+| <ul><li>**您的網站上沒有程式碼變更**：因為您的實作已安裝標籤，所以可以在標籤介面中進行所有移轉更新。</li><li>**使用您現有的實作**：此方法不需要全新實作。 雖然這確實需要新的規則動作，但您可以以最小的變更重複使用現有的資料元素和規則條件。</li><li>**不需要結構描述**：對於移轉至Web SDK的這個階段，您不需要XDM結構描述。 相反地，您可以填入`data`物件，這會直接將資料傳送到Adobe Analytics。 一旦移轉至Web SDK完成，您就可以為貴組織建立結構描述，並使用資料流對應來填入適用的XDM欄位。 如果移轉流程的這個階段需要結構描述，貴組織將被強制使用Adobe Analytics XDM結構描述。 使用此結構描述會使您的組織未來更難以使用您自己的結構描述。</li></ul> | <ul><li>**實作技術債**：由於此方法使用您現有實作的修改形式，因此可能更難追蹤實作邏輯並在需要時執行變更。 自訂程式碼可能特別難以偵錯。</li><li>**需要對應才能將資料傳送到 Platform**：當您的組織準備好使用 Customer Journey Analytics 時，您必須將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform 中的資料集。此動作要求`data`物件中的每個欄位必須是資料流對應工具中的專案，以將其指派給XDM結構描述欄位。 此工作流程僅需進行一次對應，且不涉及進行實施變更。但是，這是額外進行的步驟，在 XDM 物件中傳送資料時不需要進行。</li></ul> |
 
 Adobe建議在下列情況下使用此實施路徑：
 
 * 您已有使用Adobe Analytics標籤擴充功能的現有實作。 如果您有使用AppMeasurement的實作，請改為遵循[從AppMeasurement移轉至Web SDK](appmeasurement-to-web-sdk.md)。
-* 您打算在未來使用Customer Journey Analytics，但不想從頭開始使用Web SDK實作來取代您的Analytics實作。 在Web SDK上從頭開始取代實作需要花費最大心力，但同時也提供最可行的長期實作架構。 如果您的組織願意執行乾淨的Web SDK實作，請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
+* 您打算在未來使用Customer Journey Analytics，但不想從頭開始將您的Analytics實作取代為網頁SDK實作。 在Web SDK上從頭開始取代實作需要花費最大的心力，但同時也提供最可行的長期實作架構。 如果您的組織願意徹底實施網頁SDK，請參閱Customer Journey Analytics使用手冊中的[透過Adobe Experience Platform網頁SDK擷取資料](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk)。
 
 ## 移轉至Web SDK所需的步驟
 
@@ -36,7 +36,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++**1.建立和設定資料流**
 
-在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送給Customer Journey Analytics。
+在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送至Customer Journey Analytics。
 
 1. 導覽至[experience.adobe.com](https://experience.adobe.com)並使用您的認證登入。
 1. 使用右上方的首頁或產品選擇器來導覽至&#x200B;**[!UICONTROL 資料彙集]**。
@@ -99,7 +99,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++**4.更新規則以使用Web SDK擴充功能，而非Analytics擴充功能**
 
-此步驟包含移轉至Web SDK所需的大部分工作，且需要瞭解您實作的運作方式。 以下提供範例來作為如何編輯典型標籤規則的範例。 更新實作中的所有標籤規則，以Web SDK擴充功能取代Adobe Analytics擴充功能的所有參考。
+此步驟包含移轉至Web SDK所需的大部分工作，且需要瞭解您實作的運作方式。 以下提供範例來作為如何編輯典型標籤規則的範例。 更新實施中的所有標籤規則，以Web SDK擴充功能取代Adobe Analytics擴充功能的所有參考。
 
 1. 在標籤介面的左側導覽中，選取&#x200B;**[!UICONTROL 規則]**。
 1. 選取要編輯的規則。
@@ -112,7 +112,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 將Analytics變數設定為與其在Analytics擴充功能中設定的相同個別值。
    * 在標籤介面中設定的變數可直接轉譯為相同的值。
    * 在自訂程式碼中設定的字串變數需要調整很小。 不要使用`s`物件，改用`data.__adobe.analytics`。 例如，`s.eVar1`會轉譯為`data.__adobe.analytics.eVar1`。
-   * 自訂程式碼中的Analytics設定變數和方法呼叫可能需要修改實作邏輯。 檢視每個個別[變數](/help/implement/vars/overview.md)，以判斷如何使用Web SDK達成其同等專案。
+   * 自訂程式碼中的Analytics設定變數和方法呼叫可能需要修改實作邏輯。 檢視每個個別[變數](/help/implement/vars/overview.md)，以決定如何使用網頁SDK來達成其同等專案。
 1. 使用Web SDK擴充功能復寫所有規則邏輯後，請選取&#x200B;**[!UICONTROL 保留變更]**。
 1. 對使用Adobe Analytics擴充功能設定值的每個動作設定重複這些步驟。 此步驟包含使用標籤介面設定的變數和使用自訂程式碼設定的變數。 自訂程式碼區塊無法在任何地方參照`s`物件。
 
@@ -134,12 +134,12 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++
 
-+++**5.Publish已更新規則**
++++**5.發佈更新的規則**
 
 發佈更新規則的工作流程，與標籤設定的任何其他變更相同。
 
 1. 在標籤介面的左側導覽中，選取&#x200B;**[!UICONTROL 發佈流程]**。
-1. 選取&#x200B;**[!UICONTROL 新增資料庫]**。
+1. 選取「**[!UICONTROL 新增資料庫]**」。
 1. 為此標籤認可命名，例如「升級至Web SDK」。
 1. 選取&#x200B;**[!UICONTROL 新增所有變更的資源]**。
 1. 選取「**[!UICONTROL 儲存]**」。
@@ -153,7 +153,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++**6.停用Analytics擴充功能**
 
-當您的標籤實作完全在Web SDK上後，您就可以停用Adobe Analytics擴充功能。
+當您的標籤實作完全在網頁SDK上後，您就可以停用Adobe Analytics擴充功能。
 
 1. 在標籤介面的左側導覽中，選取&#x200B;**[!UICONTROL 擴充功能]**。
 1. 尋找並選取[!UICONTROL Adobe Analytics]擴充功能。 在右側，選取&#x200B;**[!UICONTROL 停用]**。
@@ -163,4 +163,4 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++
 
-此時，您的Analytics實作已完全放在Web SDK上，並已為未來移至Customer Journey Analytics做好充分準備。
+此時，您的Analytics實作已完全上線Web SDK，並已為未來移至Customer Journey Analytics做好充分準備。

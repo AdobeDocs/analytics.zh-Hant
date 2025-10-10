@@ -127,14 +127,14 @@ ht-degree: 47%
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
 1. 載入頁面並勾選「應用程式 > Cookie」。Adobe Audience Manager UUID應在第三方中設定
-Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
+Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
 在瀏覽器上（以下範例中為`35721780439475290181087231320657663953`）。
 
    ![Chrome 開發者工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 訪客輪廓檢視器]
 
-載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
+載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
 
 ## 在 [!DNL Audience Manager] 中檢視區段特徵
 

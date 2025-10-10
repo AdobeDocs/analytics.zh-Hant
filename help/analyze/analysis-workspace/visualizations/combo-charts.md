@@ -25,9 +25,9 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的組合視覺化。_
+_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的組合視覺化。_
 
-_請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
 ## 使用
 
-1. 新增![評論](/help/assets/icons/ComboChart.svg) [!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
+1. 新增![評論](/help/assets/icons/ComboChart.svg)[!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
@@ -99,6 +99,6 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

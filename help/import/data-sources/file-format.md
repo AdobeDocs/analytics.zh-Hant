@@ -29,7 +29,7 @@ ht-degree: 5%
 * 第一個註解會指出您為資料來源設定的範本型別、建立資料來源的後端使用者ID以及資料來源ID。
 * 第二個註解為範本檔案中包含的每個標題提供易記名稱。
 
-處理檔案時，所有註解列都會被Adobe忽略，因此您可以移除範本註解，或在整個檔案中新增您自己的註解列。 只能註解完整的列；您無法註解個別欄位或部分列。
+處理檔案時，Adobe會忽略所有註解列，因此您可以移除範本註解，或在整個檔案中新增您自己的註解列。 只能註解完整的列；您無法註解個別欄位或部分列。
 
 ## 標頭
 
@@ -52,7 +52,7 @@ ht-degree: 5%
 
 {style="table-layout:auto"}
 
-Dimension和量度會進入相同的標題列。
+維度和量度會進入相同的標題列。
 
 | 量度 | 資料來源標題 |
 | --- | --- |
@@ -64,7 +64,7 @@ Dimension和量度會進入相同的標題列。
 | [自訂事件](/help/components/metrics/custom-events.md) | `Event 1` - `Event 1000` |
 | [訂購](/help/components/metrics/orders.md) | `Orders` |
 | [收入](/help/components/metrics/revenue.md) | `Price` |
-| [件數](/help/components/metrics/units.md) | `Quantity` |
+| [單位](/help/components/metrics/units.md) | `Quantity` |
 
 {style="table-layout:auto"}
 
@@ -89,4 +89,4 @@ Dimension資料不能包含分號(`;`)。 包含分號的列會被略過。
 
 ## 後續步驟
 
-[檔案上傳](file-upload.md)：瞭解按Adobe上傳要擷取的資料來源檔案的程式。
+[檔案上傳](file-upload.md)：瞭解上傳資料來源檔案以供Adobe擷取的程式。

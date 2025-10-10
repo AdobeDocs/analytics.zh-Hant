@@ -17,7 +17,7 @@ ht-degree: 73%
 
 >[!WARNING]
 >
->請勿在`registerPostTrackCallback`變數內進行任何追蹤呼叫，例如[`t()`](t-method.md)或[`tl()`](tl-method.md)。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
+>請勿在[`t()`](t-method.md)變數內進行任何追蹤呼叫，例如[`tl()`](tl-method.md)或`registerPostTrackCallback`。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
 
 每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#handling-responses-from-events)。
+如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
 
 ## 使用Adobe Analytics擴充功能註冊後續追蹤回呼
 

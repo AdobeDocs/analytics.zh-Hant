@@ -36,12 +36,12 @@ ht-degree: 55%
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;底下的[!UICONTROL 設定]按鈕。
 1. 在[!UICONTROL 資料彙集]下，在&#x200B;**[!UICONTROL 下載連結限定詞]**&#x200B;文字欄位中設定所要的值。
 
 ## 手動下載連結限定詞實作網頁SDK
 
-[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)使用[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant#automaticLinkTracking)設定 SDK。 欄位會在點按的URL上使用Regex來判斷是否為有效的下載連結。 如果未定義`downloadLinkQualifier`，預設值會設為`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
+[使用](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)[`downloadLinkQualifier`設定](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) SDK。 欄位會在點按的URL上使用Regex來判斷是否為有效的下載連結。 如果未定義`downloadLinkQualifier`，預設值會設為`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
 
 ```json
 alloy("configure", {

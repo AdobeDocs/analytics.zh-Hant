@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何上傳要共用的Report BuilderExcel活頁簿。
+description: 瞭解如何上傳要共用的Report Builder Excel活頁簿。
 title: 如何上傳活頁簿
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder

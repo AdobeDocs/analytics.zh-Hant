@@ -22,7 +22,7 @@ ht-degree: 35%
 
    ![新增請求的按鈕](assets/dw-add-request.png)
 
-   此時會顯示「新Data Warehouse請求」頁面。
+   隨即顯示新Data Warehouse請求頁面。
 
    ![一般設定標籤](assets/dw-general-settings.png)
 

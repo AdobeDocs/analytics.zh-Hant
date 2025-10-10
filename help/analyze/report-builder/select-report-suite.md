@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: 16046af6b7a78bdc4bfaf7e5ec7d05c55f2ebc01
+exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
@@ -25,7 +26,7 @@ ht-degree: 2%
 1. 建立資料區塊。
 如需有關建立資料區塊的資訊，請參閱[建立資料區塊](/help/analyze/report-builder/create-a-data-block.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 報表套裝]**&#x200B;區段中的&#x200B;*儲存格圖示*。
+1. 按一下&#x200B;*報表套裝*&#x200B;區段中的&#x200B;**[!UICONTROL 儲存格圖示]**。
 
 1. 選取儲存格位置，以將報表套裝新增至所選取的儲存格。
 

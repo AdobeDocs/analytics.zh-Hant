@@ -5,7 +5,7 @@ feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
 source-git-commit: 65e1bfb6793f2e5be3d025214f4797edd6e316a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
 
@@ -43,11 +43,11 @@ Adobe Analytics 目前有兩個管理員區域：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

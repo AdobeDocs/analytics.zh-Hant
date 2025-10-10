@@ -19,7 +19,7 @@ ht-degree: 68%
 
 ## 使用網頁SDK決定要包含在XDM事件中的Analytics事件
 
-網頁SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可在將資料傳送至Adobe之前，使用`onBeforeEventSend`回呼來清除或設定所要的欄位。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+網頁SDK不會排除連結追蹤呼叫的某些欄位。 不過，您可在將資料傳送至Adobe之前，使用`onBeforeEventSend`回呼來清除或設定所要的欄位。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ## 使用Adobe Analytics擴充功能的連結追蹤呼叫中的事件
 

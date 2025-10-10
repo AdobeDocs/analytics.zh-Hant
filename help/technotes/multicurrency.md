@@ -16,7 +16,7 @@ Adobe提供多個貨幣轉換層級，讓您的組織可以在許多報表中達
 
 ## 頁面層級
 
-您可以使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)變數在每個頁面上設定所要的貨幣。 如果頁面上的貨幣與目的地報表套裝的貨幣不符，Adobe會根據當天的匯率將貨幣轉換為報表套裝的貨幣。 會記錄轉換後的貨幣。
+您可以使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)變數在每個頁面上設定所要的貨幣。 如果頁面上的貨幣與目的地報表套裝的貨幣不符，Adobe會根據當天的匯率，執行報表套裝的貨幣轉換。 會記錄轉換後的貨幣。
 
 ## 報表套裝層級
 

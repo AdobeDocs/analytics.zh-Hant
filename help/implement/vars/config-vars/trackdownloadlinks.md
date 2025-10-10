@@ -28,7 +28,7 @@ Adobe 提供追蹤下載連結功能，使用者不需要手動設定每個下�
 
 ## 啟用或停用手動實作Web SDK的點選收集
 
-使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant#clickCollectionEnabled)設定SDK。 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。如果您要停用自動連結追蹤，請將此值設為`false`。 此設定會處理下載和退出連結的自動連結追蹤。
+使用[`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled)設定SDK。 欄位是布林值，可判斷是否自動收集與連結點選相關聯的資料。 其預設值為 `true`。如果您要停用自動連結追蹤，請將此值設為`false`。 此設定會處理下載和退出連結的自動連結追蹤。
 
 ```json
 alloy("configure", {

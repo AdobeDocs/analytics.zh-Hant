@@ -6,7 +6,7 @@ exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 90%
 
 1. 登入 `experience.adobe.com`，並前往「行動服務」。
 1. 在您要移轉至 Adobe Analytics 的內容變數對應所在行動應用程式，按一下齒輪圖示。
-1. 按一下「**[!UICONTROL 管理變數和量度]**」選單項目，然後按一下「**[!UICONTROL 自訂變數]**」標籤。在這裡，您可以看到已新增至設定中的內容變數對應 (內容資料)。記下這些設定 (或拍攝截圖)。範例：
+1. 按一下「**[!UICONTROL 管理變數和量度]**」選單項目，然後按一下「**[!UICONTROL 自訂變數]**」標籤。在這裡，您可以看到已新增至設定中的內容變數對應 (內容資料)。記下這些設定（或拍攝熒幕擷圖）。 範例：
 
    ![內容變數](assets/context-var.png)
 
-1. 在Experience Cloud中，切換至Adobe Analytics，並確保您是在行動服務中檢視的相同行動報表套裝中。
+1. 在Experience Cloud中，切換至Adobe Analytics，並確保您是在行動服務中看到的相同行動報表套裝中。
 1. 前往「**[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則]**。
 1. 按一下「**[!UICONTROL 新增規則]**」。
 1. 無需理會條件限制，繼續新增行動服務內存在的相同內容變數。

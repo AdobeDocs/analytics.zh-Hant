@@ -8,11 +8,11 @@ exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
-# 自訂的日期運算式
+# 自訂的日期運算式 
 
 {{legacy-arb}}
 
@@ -29,7 +29,7 @@ ht-degree: 24%
    ![熒幕擷圖顯示選取的遞延日期。](assets/rolldates1.png)
 
 1. 切換為每週、每月、每季或每年滾動。 請注意下列選項如何變更。
-1. 如需更多自訂選項，請按一下[顯示進階選項]。**&#x200B;**
+1. 如需更多自訂選項，請按一下[顯示進階選項]。****
 
    ![熒幕擷圖反白顯示[顯示進階選項]。](assets/rolldates2.png)
 

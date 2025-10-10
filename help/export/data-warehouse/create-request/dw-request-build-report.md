@@ -16,13 +16,13 @@ ht-degree: 42%
 
 有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-若要建立Data Warehouse請求的報表：
+若要為Data Warehouse請求建置報表：
 
 1. 如果還沒有，可選取「**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**]」，開始在 Adobe Analytics 中建立請求。
 
    有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-1. 在「新Data Warehouse請求」頁面上，選取「[!UICONTROL **建置您的報表**]」標籤。
+1. 在新的Data Warehouse請求頁面上，選取「[!UICONTROL **建置您的報表**]」標籤。
 
    ![建置報告標籤](assets/build-report.png)
 
@@ -34,7 +34,7 @@ ht-degree: 42%
 
 1. 將任何區段、量度和維度拖曳至產生器。 您建置的報表會決定Data Warehouse請求中包含哪些資料。
 
-1. 繼續在&#x200B;[!UICONTROL **報告目的地**]&#x200B;標籤上設定您的Data Warehouse要求。 有關詳細資訊，請參閱[為 Data Warehouse 請求設定報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。
+1. 繼續在&#x200B;[!UICONTROL **報告目的地**]&#x200B;標籤上設定您的Data Warehouse請求。 有關詳細資訊，請參閱[為 Data Warehouse 請求設定報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。
 
 <!--
 

@@ -1,5 +1,5 @@
 ---
-description: 修改Activity Map中所有覆蓋圖視覺效果型別的設定和屬性。
+description: 在Activity Map中修改所有覆蓋圖視覺效果型別的設定和屬性。
 title: 設定 Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # 設定 Activity Map
 
-「Activity Map」設定面板可讓您修改所有覆蓋圖視覺效果型別的設定和屬性。
+Activity Map設定面板可讓您修改所有覆蓋圖視覺效果型別的設定和屬性。
 
 **[!UICONTROL Activity Map覆蓋]** > **顯示設定（齒輪圖示）** > **[!UICONTROL 設定]**
 
@@ -24,8 +24,8 @@ ht-degree: 4%
 
 * **[!UICONTROL 公司]**：顯示您目前登入的Analytics組織。
 * **[!UICONTROL 頁面名稱]**：顯示目前頁面的名稱。
-* **[!UICONTROL 語言]**：變更Activity Map延伸標籤的語言。 此設定不會變更您網站上的內容或報表中的連結名稱。 支援的語言包括英文、法文、簡體、繁體、德文、日文、韓文、西班牙文和葡萄牙文。
-* **[!UICONTROL 使用]**&#x200B;的標籤覆蓋：決定泡泡或漸層文字是什麼。 預設設定為[!UICONTROL 排名]。 選項包括: 
+* **[!UICONTROL 語言]**：變更Activity Map擴充功能標籤的語言。 此設定不會變更您網站上的內容或報表中的連結名稱。 支援的語言包括英文、法文、簡體、繁體、德文、日文、韓文、西班牙文和葡萄牙文。
+* **[!UICONTROL 使用]**&#x200B;的標籤覆蓋：決定泡泡或漸層文字是什麼。 預設設定為[!UICONTROL 排名]。 選項包括：
    * **[!UICONTROL 沒有標籤]**：標籤內沒有文字，因此會以彩色方塊顯示
    * **[!UICONTROL 值]**：顯示連結點選次數（[發生次數](/help/components/metrics/occurrences.md)）
    * **[!UICONTROL 百分比]**：顯示連結點按次數與頁面上連結點按總數的比例

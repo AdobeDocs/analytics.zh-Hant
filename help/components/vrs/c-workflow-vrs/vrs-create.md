@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://video.tv.adobe.com/v/3428480?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -15,7 +15,7 @@ ht-degree: 43%
 
 在 Adobe Analytics 中為任何使用者指派角色之前，必須將使用者指派為 Experience Cloud 中的第一位管理員。 接著，第一位管理員便可為組織中的使用者提供其他關鍵角色。
 
-第一位管理員是讓組織其他成員開始使用各種Experience Cloud解決方案，包括Adobe Analytics。
+第一位管理員是讓組織其他成員開始使用每個Experience Cloud解決方案，包括Adobe Analytics。
 
 ## 第一個管理員的布建流程
 

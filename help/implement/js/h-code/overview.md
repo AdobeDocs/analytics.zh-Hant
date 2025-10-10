@@ -1,5 +1,5 @@
 ---
-title: H 程式碼 JavaScript 實施概述
+title: H 程式碼 JavaScript 實施概觀
 description: 瞭解在網站上實施 H 程式碼的工作流程。
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# H 程式碼 JavaScript 實施概述
+# H 程式碼 JavaScript 實施概觀
 
 >[!IMPORTANT]
 >

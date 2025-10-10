@@ -15,7 +15,7 @@ ht-degree: 80%
 
 `s_objectID` 變數提供連結的唯一識別碼。它可用來讓 [Activity Map](/help/analyze/activity-map/overview.md) 中的報表更準確。如果您的頁面上有經常變更的連結，可以使用 `s_objectID` 變數來告知 Activity Map 留意唯一連結位置，讓它能夠正常地將資料正確分組。
 
-如果Activity Map的正確性對貴組織至關重要，Adobe建議您在網站上於連結的`onClick`事件中加入`s_objectID`變數。
+如果Activity Map的正確性對貴組織至關重要，Adobe建議您在網站上於連結的`s_objectID`事件中加入`onClick`變數。
 
 ## 使用Adobe Analytics擴充功能的物件ID
 

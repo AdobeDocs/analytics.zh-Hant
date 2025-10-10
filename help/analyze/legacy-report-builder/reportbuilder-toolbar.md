@@ -28,13 +28,13 @@ ht-degree: 72%
 
 **管理：**&#x200B;啟動[!UICONTROL 請求管理員]。您可以對內嵌於 Excel 活頁簿中的所有 Report Builder 資料請求，進行狀態檢視、編輯、重新整理、刪除及管理作業。您可以針對個別請求或一次針對多個請求執行這些功能。請參閱[管理要求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)。
 
-**重新整理：**&#x200B;針對內嵌於 Excel 活頁簿中所有請求重新整理資料。請參閱[重新整理請求](/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md)。
+**重新整理：**&#x200B;針對嵌入於 Excel 活頁簿中所有請求重新整理資料。請參閱[重新整理請求](/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md)。
 
 **格式：**&#x200B;可讓您設定試算表儲存格的格式化條件。請參閱[指定格式化的條件](/help/analyze/legacy-report-builder/manage-requests/specify-conditional-formatting.md)。
 
 **排程：**&#x200B;可讓您排程報表，以按照定義的時間和檔案格式傳送。請參閱[排程報表請求](/help/analyze/legacy-report-builder/schedule-report-requests.md)。
 
-**資料庫：**&#x200B;啟動[!UICONTROL 活頁簿資料庫]，以便上傳要共用的Report BuilderExcel活頁簿。 您也可以下載及編輯共用的活頁簿。請參閱[使用活頁簿庫](/help/analyze/legacy-report-builder/workbook-library/t-upload-a-workbook.md)。
+**資料庫：**&#x200B;啟動[!UICONTROL 活頁簿資料庫]，以便上傳要共用的Report Builder Excel活頁簿。 您也可以下載及編輯共用的活頁簿。請參閱[使用活頁簿庫](/help/analyze/legacy-report-builder/workbook-library/t-upload-a-workbook.md)。
 
 **選項：**&#x200B;可讓您指定在重新整理請求時，是否要提示您提供&#x200B;**[!UICONTROL 「截止」]** (「現在」) 日期，以及讓您啟用記錄以供疑難排解之用。請參閱[選項](/help/analyze/legacy-report-builder/options.md)。
 

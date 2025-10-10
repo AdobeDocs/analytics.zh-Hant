@@ -57,7 +57,7 @@ alloy("sendEvent", {
 });
 ```
 
-如需詳細資訊，請參閱網頁SDK檔案中的[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendevent/overview)。
+如需詳細資訊，請參閱網頁SDK檔案中的[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)。
 
 ## 使用Adobe Analytics擴充功能的頁面檢視追蹤呼叫
 

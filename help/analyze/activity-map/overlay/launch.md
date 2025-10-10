@@ -15,7 +15,7 @@ ht-degree: 40%
 
 假設[已安裝](../getting-started.md)正確的瀏覽器/擴充功能，您可以直接從網頁啟動 Activity Map。
 
-**Google Chrome**&#x200B;是唯一支援目前Activity Map版本的瀏覽器。 已規劃提供其他瀏覽器的支援。
+**Google Chrome**&#x200B;是唯一支援目前版本Activity Map的瀏覽器。 已規劃提供其他瀏覽器的支援。
 
 >[!IMPORTANT]
 >請確定您已安裝最新版本的擴充功能。 舊版擴充功能因瀏覽器擴充功能原則變更而無法繼續運作。

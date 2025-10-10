@@ -7,7 +7,7 @@ exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 依預設，您只能檢視您建立的請求，除非使用者已選擇讓組織中的其他人看到他們的請求(如[Data Warehouse請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述)。 系統管理員可以檢視所有要求。
 
-若要檢視Data Warehouse請求，請執行下列步驟：
+若要檢視Data Warehouse請求：
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
@@ -35,7 +35,7 @@ ht-degree: 3%
 
    * 當請求開始處理時
 
-   * 比率限制：您的組織有太多正在執行的Data Warehouse請求。 請求會暫停，直到其他資料請求完成為止。
+   * 速率限制：您的組織執行過多的Data Warehouse請求。 請求會暫停，直到其他資料請求完成為止。
 
 ## 編輯請求
 
@@ -51,15 +51,15 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在「Data Warehouse」頁面上，選取您要編輯的請求。
+1. 在Data Warehouse頁面上，選取您要編輯的請求。
 
    ![管理要求](assets/dw-manage-request.png)
 
-1. 選取&#x200B;[!UICONTROL **編輯**]。
+1. 選取「[!UICONTROL **編輯**]」。
 
 1. 視需要編輯請求。 無法編輯灰色的組態選項。
 
-   如需每個組態選項的詳細資訊，請參閱[建立Data Warehouse要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
+   如需每個組態選項的相關資訊，請參閱[建立Data Warehouse要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
 1. 選取&#x200B;[!UICONTROL **儲存變更**]。
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在「Data Warehouse」頁面上，選取您要檢視其歷史記錄的請求。
+1. 在Data Warehouse頁面上，選取您要檢視其歷史記錄的請求。
 
    ![管理要求](assets/dw-manage-request.png)
 
@@ -81,7 +81,7 @@ ht-degree: 3%
 
    ![要求記錄頁面](assets/dw-request-history.png)
 
-   可使用下列欄:
+   可使用下列欄：
 
    | 欄 | 說明 |
    |---------|----------|
@@ -89,7 +89,7 @@ ht-degree: 3%
    | [!UICONTROL **開始日期**] | 報表開始的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **完成日期**] | 報表完成的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **日期已更新**] | 報表的上次更新日期與時間。<p>這會以起始請求之使用者的時區顯示。</p> |
-   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報告已建立，但尚未處理。</li><li>[!UICONTROL **擱置中**]：報告正在等待處理。</li><li>[!UICONTROL **正在處理**]：報告目前正在處理。</li><li>[!UICONTROL **已完成**]：報告已完成，現在可以使用。</li><li>[!UICONTROL **已排程**]：報告已排程，但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：]報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生，但無法傳送。 檢查目的地[&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的設定，然後重新傳送報告。</li></ul>。 |
+   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報告已建立，但尚未處理。</li><li>[!UICONTROL **擱置中**]：報告正在等待處理。</li><li>[!UICONTROL **正在處理**]：報告目前正在處理。</li><li>[!UICONTROL **已完成**]：報告已完成，現在可以使用。</li><li>[!UICONTROL **已排程**]：報告已排程，但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：]報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生，但無法傳送。 檢查目的地[的](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)設定，然後重新傳送報告。</li></ul>。 |
    | [!UICONTROL **從**] | 報表中包含之整體時間範圍的開始日期。<p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **結束日期**] | 報表中包含之整體時間範圍的結束日期。 <p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **舊版要求識別碼**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
@@ -105,7 +105,7 @@ ht-degree: 3%
    | [!UICONTROL **重新執行報告**] | 使用原始傳送時的資料再次執行報表。 您可以重新執行具有以下任何狀態的報表： [!UICONTROL **已取消**]、[!UICONTROL **已完成**]、[!UICONTROL **錯誤 — 正在處理**]，或&#x200B;[!UICONTROL **錯誤 — 無法傳送**]。 |
    | [!UICONTROL **重新傳送報告**] | 重新傳送先前產生的報告檔案。 您可以重新傳送具有以下任何狀態的報表： [!UICONTROL **已完成**]&#x200B;或&#x200B;[!UICONTROL **錯誤 — 無法傳送**]。 |
 
-## 複製請求
+## 複製請求 
 
 當您複製請求時，所有設定選項都會從原始請求複製。
 
@@ -117,11 +117,11 @@ ht-degree: 3%
 
 1. 選取&#x200B;[!UICONTROL **複製**]。
 
-   複製Data Warehouse請求頁面隨即顯示。 所有組態選項都從原始請求複製。
+   此時會顯示複製Data Warehouse請求頁面。 所有組態選項都從原始請求複製。
 
 1. 更新與請求關聯的任何設定選項。
 
-   如需每個組態選項的詳細資訊，請參閱[建立Data Warehouse要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
+   如需每個組態選項的相關資訊，請參閱[建立Data Warehouse要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)。
 
 1. 選取&#x200B;[!UICONTROL **儲存變更**]。
 
@@ -133,7 +133,7 @@ ht-degree: 3%
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. 在「Data Warehouse」頁面上，選取您要編輯的請求。
+1. 在Data Warehouse頁面上，選取您要編輯的請求。
 
    ![管理要求](assets/dw-manage-request.png)
 
@@ -141,7 +141,7 @@ ht-degree: 3%
 
    此請求將不再在排定的時間執行。
 
-## 設定欄
+## 設定資料欄
 
 您可以透過新增或刪除欄，設定針對每個請求顯示的資訊。
 
@@ -149,12 +149,12 @@ ht-degree: 3%
 
    ![設定資料行](assets/dw-configure-columns.png)
 
-   可使用下列欄:
+   可使用下列欄：
 
    | 可用欄 | 說明 |
    |---------|----------|
    | 請求名稱 | 建立請求者的名稱。 |
-   | 報表套裝 | 與請求相關聯的報表套裝。 |
+   | 報告套裝 | 與請求相關聯的報表套裝。 |
    | 請求者 | 建立請求的使用者。 |
    | 請求日期 | 提出請求的日期。 |
    | 狀態 | 可使用下列狀態：<ul><li><p>**已完成**：要求已順利執行。</p></li><li><p>**已取消**：使用者已取消要求。</p></li><li><p>**已排程**：要求已設定為依排程執行。</p></li><li><p>**失敗**：要求無法完成。 如果要求持續失敗，請聯絡客戶支援。</p></li></ul> |
@@ -165,7 +165,7 @@ ht-degree: 3%
 
 ## 篩選及排序請求
 
-1. 選取Data Warehouse頁面左側邊欄中的&#x200B;**篩選器**&#x200B;圖示。
+1. 在Data Warehouse頁面的左側邊欄中選取&#x200B;**篩選器**&#x200B;圖示。
 
    ![篩選要求](assets/dw-filter.png)
 
@@ -173,6 +173,6 @@ ht-degree: 3%
 
 ## 搜尋請求
 
-1. 在Data Warehouse頁面頂端的搜尋欄位中，指定您要檢視的要求名稱。
+1. 在Data Warehouse頁面頂端的搜尋欄位中，指定您要檢視的請求名稱。
 
    系統會依您的輸入篩選請求。

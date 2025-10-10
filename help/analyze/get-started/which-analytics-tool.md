@@ -4,7 +4,7 @@ title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 * 當您需要將資料導入 Adobe Analytics 且無法使用 AppMeasurement、Web SDK 或大量資料插入 API 時。
 
-「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)**」應在以下情況時使用：
+「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**」應在以下情況時使用：
 
 * 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，並且想要將該資料上傳至 Experience Cloud 時。
 * 如果您想要使用 CRM 資料在 Analytics 中進行較為深入的分析時，或是將 CRM 資料作為 Adobe Target 中的目標準則時。

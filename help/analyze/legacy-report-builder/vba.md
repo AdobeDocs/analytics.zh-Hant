@@ -1,6 +1,6 @@
 ---
 title: 如何在Report Builder中使用Visual Basic巨集
-description: 瞭解如何使用VBA巨集擴展Excel活頁簿的功能和Report Builder。
+description: 瞭解如何使用VBA巨集擴展Excel活頁簿和Report Builder的功能。
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 Visual Basic (VBA)巨集提供的功能可協助您重新整理Excel活頁簿。 Visual Basic可以存取活頁簿、Excel和Windows。
 
-您必須先執行最新版本的Report Builder並登入，才能執行VBA巨集。
+您必須先執行最新版的Report Builder並登入，才能執行VBA巨集。
 
 >[!IMPORTANT]
 >

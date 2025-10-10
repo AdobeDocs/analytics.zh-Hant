@@ -22,11 +22,11 @@ ht-degree: 5%
 對於已點按的指定連結，請檢查下列專案的父DOM元素（依序）：
 
 * 由[`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)設定的屬性中的值 — 預設設定為`id`屬性
-* 屬性`role="region"`時`aria-label`屬性中的值
-* 語意元素`<header>`、`<main>`、`<footer>`或`<nav>` （僅限Web SDK）
+* 屬性`aria-label`時`role="region"`屬性中的值
+* 語意元素`<header>`、`<main>`、`<footer>`或`<nav>` (僅限Web SDK)
 
 如果父DOM元素不符合上述任何條件，則會遞回地繼續在DOM階層中搜尋。 如果找不到相符的元素，則會傳回值`BODY`。
 
 ## 維度項目
 
-Dimension專案包含您網站上標示的地區。 特定區域值取決於使用的屬性，以及是否有語意HTML元素。
+Dimension專案包含您在網站上標示的地區。 特定區域值取決於使用的屬性，以及是否有語意HTML元素。

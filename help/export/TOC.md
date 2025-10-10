@@ -5,7 +5,7 @@ user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要和 Data Warehouse 擷取資料輸出。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
 

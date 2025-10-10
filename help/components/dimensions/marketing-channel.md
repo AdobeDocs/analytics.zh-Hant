@@ -1,6 +1,6 @@
 ---
 title: 行銷管道
-description: 訪客參與有效期內最近的行銷管道。
+description: 訪客參與期限內最近的行銷管道。
 feature: Dimensions
 exl-id: c833a801-b7c6-498c-8094-1a5ad6c22fe4
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f

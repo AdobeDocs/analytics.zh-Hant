@@ -5,7 +5,8 @@ role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -16,9 +17,9 @@ ht-degree: 68%
 
 您可以使用Excel增益集選單來快速存取Report Builder。
 
-## 要求
+## 需求
 
-下列作業系統和網頁瀏覽器支援Adobe Analytics的Report Builder。
+下列作業系統和網頁瀏覽器支援適用於Adobe Analytics的Report Builder。
 
 ### macOS
 
@@ -43,7 +44,7 @@ ht-degree: 68%
 
 ## Report Builder Excel 增益集
 
-您必須安裝Report Builder Excel增益集，才能使用Adobe Analytics的Report Builder。 安裝 Report Builder Excel 增益集後，您就可以從開啟的 Excel 活頁簿存取 Report Builder。
+您必須安裝Report Builder Excel增益集，才能使用適用於Adobe Analytics的Report Builder。 安裝 Report Builder Excel 增益集後，您就可以從開啟的 Excel 活頁簿存取 Report Builder。
 
 ### 下載並安裝 Report Builder 增益集
 
@@ -57,7 +58,7 @@ ht-degree: 68%
 
 1. 搜尋「Report Builder」並按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 在[授權條款與隱私權原則]對話方塊中，按一下[繼續]。**&#x200B;**
+1. 在[授權條款與隱私權原則]對話方塊中，按一下[繼續]。****
 
 **如果未顯示「商店」索引標籤**
 

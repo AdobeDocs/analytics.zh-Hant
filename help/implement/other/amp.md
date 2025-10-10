@@ -46,7 +46,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 
 `"adobeanalytics"`追蹤範本使用 `<amp-analytics>` HTML 標籤直接建立追蹤要求。您可以指定在特定頁面事件上引發的點擊要求，例如頁面顯示或點按。點擊事件可以量身打造，明確指定選取器，以適用於特定元素 ID 或等級。您可以將 `type="adobeanalytics"` 新增到 amp-analytics 標籤以載入範本。
 
-在以下的程式碼範例中，有兩個已定義的觸發器：`pageLoad` 和 `click`。文件變為可見時，`pageLoad` 觸發器就會引發，並包含 `pageName` 區段中定義的 `vars` 變數。第二個觸發器 `click` 則會於有人點按某按鈕時引發。已針對此事件設定值為`button clicked`的`eVar1`變數。
+在以下的程式碼範例中，有兩個已定義的觸發器：`pageLoad` 和 `click`。文件變為可見時，`pageLoad` 觸發器就會引發，並包含 `pageName` 區段中定義的 `vars` 變數。第二個觸發器 `click` 則會於有人點按某按鈕時引發。已針對此事件設定值為`eVar1`的`button clicked`變數。
 
 ```html
 <amp-analytics type="adobeanalytics">
@@ -79,7 +79,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 </amp-analytics>
 ```
 
-`<amp-analytics>`標籤支援變數替代，讓AMP能提供已知的資料值。 如需詳細資訊，請參閱GitHub上`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支援的變數。
+`<amp-analytics>`標籤支援變數替代，讓AMP能提供已知的資料值。 如需詳細資訊，請參閱GitHub上[`amp-analytics`支援的](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)變數。
 
 >[!NOTE]
 >
@@ -147,7 +147,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
 
 此作法會透過新增至 `iframeMessage` 要求參數中的查詢字串參數，將資料傳送至公用程式網頁。只要您的 `stats.html` 頁面已設為從這些參數收集資料，您就可以隨意命名這些查詢字串參數。
 
-`"adobeanalytics_nativeConfig"`範本也根據`<amp-analytics>`標籤的`extraUrlParams`區段中列出的變數，新增查詢字串引數。 在上例中，納入了 `pageName` 和 `v1` 參數。
+`"adobeanalytics_nativeConfig"`範本也根據`extraUrlParams`標籤的`<amp-analytics>`區段中列出的變數，新增查詢字串引數。 在上例中，納入了 `pageName` 和 `v1` 參數。
 
 >[!IMPORTANT]
 >

@@ -17,7 +17,7 @@ ht-degree: 21%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/3428570?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -64,7 +64,7 @@ ht-degree: 21%
 
    * 在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。您可以收合或展開篩選類別。 選取您要套用之任何篩選器旁的核取方塊。
 
-![篩選](assets/filters.png)
+![篩選器](assets/filters.png)
 
 ## 檢視資料摘要工作
 
@@ -136,7 +136,7 @@ ht-degree: 21%
 
 ![欄圖示](assets/cols.jpg)
 
-可使用下列欄:
+可使用下列欄：
 
 * **摘要名稱**：必要的資料行。 顯示摘要名稱。
 * **摘要 ID**: 顯示摘要 ID，此為唯一識別碼。

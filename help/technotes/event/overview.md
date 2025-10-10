@@ -6,7 +6,7 @@ feature: Curate and Share
 source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Analytics 提供簡單而強大的方式，讓您使用細分來關注或�
 觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [分析並傳達資料中的變數](https://video.tv.adobe.com/v/33316?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 * **0:27**：使用細分排除資料
-* **2:55**：將事件與先前範圍比較
+* **2:55**：將事件與先前的範圍比較
 * **8:42**：衍生使用計算量度的資料
 * **11:46**：與使用者溝通影響
 

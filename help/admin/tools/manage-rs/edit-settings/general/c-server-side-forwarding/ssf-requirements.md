@@ -18,11 +18,11 @@ ht-degree: 100%
 
 ## 解決方案需求
 
-伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant) 搭配使用。
+伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 搭配使用。
 
 ## 服務需求
 
-伺服器端轉送需要[身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)才能執行。身分識別服務提供的通用 ID 可識別 Experience Cloud 中所有解決方案的網站訪客。您必須實作 ID 服務，伺服器端轉送才會運作。
+伺服器端轉送需要[身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)才能執行。身分識別服務提供的通用 ID 可識別 Experience Cloud 中所有解決方案的網站訪客。您必須實作 ID 服務，伺服器端轉送才會運作。
 
 ## 程式碼版本
 

@@ -17,11 +17,11 @@ ht-degree: 39%
 
 ## 使用Web SDK擴充功能取消傳送事件
 
-在事件傳送回呼程式碼編輯器之前使用On並傳回`false`。
+在事件傳送回呼[!UICONTROL 程式碼編輯器之前使用]On並傳回`false`。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;底下的[!UICONTROL 設定]按鈕。
 1. 在[!UICONTROL 資料彙集]下，按一下&#x200B;**[!UICONTROL 在事件傳送回撥代碼前編輯]**&#x200B;按鈕。
 1. 在程式碼編輯器中，將下列程式碼置於您想要中止傳送資料至Edge的任何條件下：
 
@@ -31,7 +31,7 @@ return false;
 
 ## 取消手動傳送事件實作Web SDK
 
-使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+使用`onBeforeEventSend`回呼並傳回`false`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 alloy("configure"), {

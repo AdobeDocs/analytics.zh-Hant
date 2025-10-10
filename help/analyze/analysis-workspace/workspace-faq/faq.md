@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 * 仔細檢查報表套裝，確認報表中已填入資料。
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
-* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證資料正在收集中。
+* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)驗證資料正在收集中。
 
 
 +++

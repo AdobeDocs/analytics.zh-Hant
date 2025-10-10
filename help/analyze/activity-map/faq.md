@@ -7,7 +7,7 @@ exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 15%
+ht-degree: 22%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 15%
 
 與Activity Map相關的常見問題。
 
-+++如何授與Activity Map許可權？
++++如何授予Activity Map許可權？
 
-在[Adobe Admin Console](/help/admin/admin-console/home.md)中處理使用Activity Map及其相關維度的許可權。
+使用Activity Map及其相關維度的許可權會在[Adobe Admin Console](/help/admin/admin-console/home.md)中處理。
 
 Activity Map所需的[許可權專案](/help/admin/admin-console/permissions/product-profile.md)包括：
 
 * **[!UICONTROL Analytics工具]** > **[!UICONTROL Activity Map]**
 * **[!UICONTROL 分析工具]** > **[!UICONTROL 區段發佈]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Activity Map捲動範圍]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL 各地區的Activity Map連結]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Activity Map地區]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Activity Map連結]**
-* **[!UICONTROL Dimension]** > **[!UICONTROL Activity Map頁面]**
+* **[!UICONTROL 維度]** > **[!UICONTROL Activity Map捲動範圍]**
+* **[!UICONTROL 維度]** > **[!UICONTROL 各地區的Activity Map連結]**
+* **[!UICONTROL 維度]** > **[!UICONTROL Activity Map地區]**
+* **[!UICONTROL 維度]** > **[!UICONTROL Activity Map連結]**
+* **[!UICONTROL 維度]** > **[!UICONTROL Activity Map頁面]**
 
 如需詳細資訊，請參閱[Analytics工具的產品設定檔許可權](/help/admin/admin-console/permissions/analytics-tools.md)。
 
@@ -39,13 +39,13 @@ Activity Map所需的[許可權專案](/help/admin/admin-console/permissions/pro
 
 +++
 
-+++Activity Map如何支援單頁應用程式(SPA)？
++++Activity Map 如何支援單頁應用程式 (SPA)？
 
-每隔幾秒，Activity Map會掃描網頁以尋找變更。 Activity Map會在頁面上尋找新內容而不需要重新載入，但此新內容一律會歸因於第一個頁面維度值。
+每隔幾秒，Activity Map會掃描網頁以尋找變更。 Activity Map會在頁面上尋找新內容，不需要重新載入，但此新內容一律會歸因於第一個頁面維度值。
 
 * Activity Map 會查看它所知道的連結的可見度是否已變更。如果發現可見度有變更，則該連結的「頁面上連結」表格的「存在」欄會以[!UICONTROL 已顯示]或[!UICONTROL 已隱藏]來更新。
 
-* 當使用者互動建立新內容時，AppMeasurement判定為連結的任何新元素都會新增到頁面上的連結表格中。 Activity Map 會傳送包含這些新連結的新資料要求。傳回資料要求時，新連結會出現在[!UICONTROL 頁面]上的連結表格中。
+* 當使用者互動建立新內容時，AppMeasurement判斷為連結的任何新元素都會新增到頁面[!UICONTROL 上的]連結表格中。 Activity Map 會傳送包含這些新連結的新資料要求。傳回資料要求時，新連結會出現在[!UICONTROL 頁面]上的連結表格中。
 
 +++
 
@@ -55,15 +55,15 @@ Activity Map所需的[許可權專案](/help/admin/admin-console/permissions/pro
 
 +++
 
-+++Activity Map支援哪些瀏覽器和版本？
++++Activity Map 支援哪些瀏覽器和版本？
 
 Activity Map 支援最新版本的最新瀏覽器。
 
 +++
 
-+++Activity Map是否會增加伺服器呼叫？
++++Activity Map 是否會增加伺服器呼叫？
 
-Activity Map 本身不會傳送伺服器呼叫。反之，Activity Map內容資料變數會包含在後續頁面上的Analytics頁面檢視呼叫中。 不過，網路SDK上某些舊版的Activity Map會針對Activity Map資料傳送個別呼叫。 如果您使用最新版的Web SDK，Activity Map資料將會與以下事件合併。
+Activity Map 本身不會傳送伺服器呼叫。Activity Map內容資料變數會包含在後續頁面上的Analytics頁面檢視呼叫中。 不過，網路SDK上某些舊版Activity Map會針對Activity Map資料傳送個別呼叫。 如果您使用最新版的Web SDK，Activity Map資料將會與下列事件合併。
 
 +++
 
@@ -80,19 +80,19 @@ Activity Map 本身不會傳送伺服器呼叫。反之，Activity Map內容資�
 
 +++
 
-+++Activity Map如何處理使用多個報表套裝的頁面？
++++Activity Map 如何處理使用多個報表套裝的頁面？
 
-依預設，Activity Map會使用與頁面第一個標籤相關聯的報表套裝。 您可以透過&#x200B;**[!UICONTROL Activity Map設定]** > **[!UICONTROL 其他]**&#x200B;索引標籤選取其他報表套裝。
+依預設，Activity Map會使用與頁面第一個標籤相關聯的報表套裝。 您可以透過&#x200B;**[!UICONTROL Activity Map設定]** > **[!UICONTROL 其他]**&#x200B;索引標籤，選取其他報表套裝。
 
 +++
 
-+++Activity Map在頁面上掃描Adobe Analytics多久了？
++++Activity Map 在頁面上掃描 Adobe Analytics 多久了？
 
 在頁面完成事件後，Activity Map 會掃描長達 20 秒以查看 Adobe Analytics 是否存在。
 
 +++
 
-+++Activity Map如何處理動態內容？
++++Activity Map 如何處理動態內容？
 
 Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態變更：
 
@@ -104,7 +104,7 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 +++
 
-+++頁面流量報表是根據哪個量度？
++++頁面流量報告是以哪個量度為準？
 
 所有顯示的資料都是以頁面檢視次數為準。
 
@@ -116,8 +116,8 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 * Activity Map連結： `clickmaplink`
 * Activity Map頁面： `clickmappage`
-* Activity Map區域： `clickmapregion`
-* 依地區Activity Map連結： `clickmaplinkbyregion`
+* Activity Map地區： `clickmapregion`
+* 依地區的Activity Map連結： `clickmaplinkbyregion`
 
 +++
 
@@ -127,18 +127,18 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 +++
 
-+++Activity Map是否可與虛擬報表套裝相容？
++++Activity Map 是否可與虛擬報表套裝相容？
 
-是。不過，由於虛擬報表套裝本身限制，Activity Map的即時模式與虛擬報表套裝不相容。
+可以。不過，由於虛擬報表套裝本身限制，Activity Map的即時模式與虛擬報表套裝不相容。
 
 +++
 
-+++如何停用Activity Map？
++++我如何才能停用 Activity Map？
 
 停用Activity Map的方法取決於您的實作型別：
 
 * **Web SDK擴充功能**：在擴充功能組態設定中，取消勾選&#x200B;**[!UICONTROL 收集內部連結點按次數]**、**[!UICONTROL 收集外部連結點按次數]**&#x200B;和&#x200B;**[!UICONTROL 收集下載連結點按次數]**&#x200B;方塊。
-* **Web SDK JavaScript資料庫**：將[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設為`false`。
+* **Web SDK JavaScript資料庫**：將[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設為`false`。
 * **Analytics擴充功能**：在擴充功能組態設定中，取消勾選標示為&#x200B;**[!UICONTROL 使用Activity Map]**&#x200B;的方塊。
 * **AppMeasurement**：移除或註解`AppMeasurement.js`中的Activity Map模組，或使用空白內文覆寫模組函式呼叫：
 
@@ -148,17 +148,17 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 +++
 
-+++使用Activity Map覆蓋的系統需求為何？
++++使用Activity Map覆蓋圖的系統需求為何？
 
 您可以將最新版本的Chrome、Edge或Firefox搭配Activity Map擴充功能使用。
 
 +++
 
-+++將Activity Map用於個人識別資訊時，必須考量哪些事項？
++++使用Activity Map取得個人識別資訊時，需要考量哪些事項？
 
 考慮以下可使用Activity Map收集個人識別資料的情況：
 
-* **電子郵件連結**：如果可以按一下電子郵件地址來開啟使用者的郵件使用者端，則Activity Map可以收集被按下的電子郵件地址。
+* **電子郵件連結**：如果可以按一下電子郵件地址來開啟使用者的郵件使用者端，Activity Map可以收集被按下的電子郵件地址。
 * **使用者ID連結**：訪客登入後，Activity Map可以記錄任何包含訪客使用者ID的連結。
 * **敏感資訊連結**：若為金融機構，若為連結，且訪客點按該連結，則可追蹤帳號等敏感資訊。
 * **包含個人資訊的連結**：對於醫療保健網站，連結可以包含個人資訊。 如果訪客按一下這些連結，Activity Map會收集該連結文字。
@@ -169,17 +169,17 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 Activity Map會追蹤下列元素：
 
-* 具有`href`屬性的`<a>`或`<area>`標籤。 預設不會追蹤錨點標籤連結(`#`)。
-* 設定`s_objectID`變數的`onclick`屬性
+* 具有`<a>`屬性的`<area>`或`href`標籤。 預設不會追蹤錨點標籤連結(`#`)。
+* 設定`onclick`變數的`s_objectID`屬性
 * 含有值或子文字的`<input>`標籤或`submit`按鈕
-* 具有型別`image`和`src`屬性的`<input>`標籤
-* 沒有屬性`type="button"`的`<button>`標籤。 若要追蹤`<button>`標籤，請考慮改用`role="button"`或`submit="button"`等屬性。
+* 具有型別`<input>`和`image`屬性的`src`標籤
+* 沒有屬性`<button>`的`type="button"`標籤。 若要追蹤`<button>`標籤，請考慮改用`role="button"`或`submit="button"`等屬性。
 
 +++
 
-+++Activity Map自動追蹤的連結有哪些範例？
++++Activity Map自動追蹤的連結範例為何？
 
-以下範例說明Activity Map擁有追蹤連結所需的所有資訊。
+以下範例說明Activity Map具備追蹤連結所需的所有資訊。
 
 ```html
 <a href="home.html">Home</a>
@@ -201,7 +201,7 @@ Activity Map會追蹤下列元素：
 
 +++
 
-+++Activity Map不會自動追蹤的連結有哪些範例？
++++Activity Map不會自動追蹤的連結範例有哪些？
 
 * 錨點標籤沒有有效的`href`
 * [`s_objectID`](/help/implement/vars/page-vars/s-objectid.md)或[`tl()`](/help/implement/vars/functions/tl-method.md)方法皆不存在

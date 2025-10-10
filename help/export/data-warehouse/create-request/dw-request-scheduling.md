@@ -22,7 +22,7 @@ ht-degree: 33%
 
    有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-1. 在[新增Data Warehouse請求]頁面上，選取[排程選項] **標籤。**
+1. 在新的Data Warehouse請求頁面上，選取&#x200B;[!UICONTROL **排程選項**]&#x200B;索引標籤。
 
    ![報告目的地索引標籤](assets/dw-scheduling-options.png) <!-- update screenshot -->
 
@@ -39,4 +39,4 @@ ht-degree: 33%
 
    {style="table-layout:auto"}
 
-1. 繼續在&#x200B;[!UICONTROL **通知電子郵件**]&#x200B;標籤上設定您的Data Warehouse要求。 如需詳細資訊，請參閱[設定Data Warehouse要求的通知電子郵件](/help/export/data-warehouse/create-request/dw-request-email.md)。
+1. 繼續在&#x200B;[!UICONTROL **通知電子郵件**]&#x200B;標籤上設定您的Data Warehouse請求。 如需詳細資訊，請參閱[設定Data Warehouse要求的通知電子郵件](/help/export/data-warehouse/create-request/dw-request-email.md)。

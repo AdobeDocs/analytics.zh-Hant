@@ -16,13 +16,13 @@ ht-degree: 38%
 
 有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-若要設定Data Warehouse請求的通知電子郵件：
+若要為Data Warehouse請求設定通知電子郵件：
 
 1. 如果還沒有，可選取「**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**]」，開始在 Adobe Analytics 中建立請求。
 
    有關其他詳細資訊，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
-1. 在「新Data Warehouse請求」頁面上，選取「[!UICONTROL **通知電子郵件**]」標籤。
+1. 在新的Data Warehouse請求頁面上，選取「[!UICONTROL **通知電子郵件**]」標籤。
 
    ![報告目標標籤](assets/dw-notification-email.png)
 
@@ -35,6 +35,6 @@ ht-degree: 38%
 
    {style="table-layout:auto"}
 
-1. 選取&#x200B;[!UICONTROL **儲存請求**]&#x200B;以儲存Data Warehouse報表請求。
+1. 選取「[!UICONTROL **儲存請求**]」以儲存Data Warehouse報表請求。
 
    您現在可以將資料匯出至您設定的帳戶和位置。

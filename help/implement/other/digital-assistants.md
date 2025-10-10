@@ -6,8 +6,8 @@ exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 98%
+source-wordcount: '1256'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 本頁概略說明如何充分利用 Adobe Analytics，進而測量與最佳化這類體驗。
 
-## 數位體驗架構概述
+## 數位體驗架構概觀
 
 ![數位助理工作流程](assets/Digital-Assitants.png)
 
@@ -75,7 +75,7 @@ Cache-Control: no-cache
 
 ## 使用者/訪客身分識別
 
-Adobe Analytics 使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 來將使用時間內的互動連結在同一人身上。大部分數位助理都會傳回 `userID`，供您為不同使用者保留活動資訊。多數情況下，此值就是您當作唯一識別碼所傳遞的值。有些平台傳回的識別碼會超出允許的 100 個字元。在這些情況下，Adobe 建議您使用 MD5 或 Sha1 等標準雜湊演算法，將唯一識別碼雜湊成固定長度的值。
+Adobe Analytics 使用 [Adobe Experience Cloud 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)來將使用時間內的互動連結在同一人身上。大部分數位助理都會傳回 `userID`，供您為不同使用者保留活動資訊。多數情況下，此值就是您當作唯一識別碼所傳遞的值。有些平台傳回的識別碼會超出允許的 100 個字元。在這些情況下，Adobe 建議您使用 MD5 或 Sha1 等標準雜湊演算法，將唯一識別碼雜湊成固定長度的值。
 
 使用 ID 服務，您就能在對應不同裝置上的 ECID 時 (例如從網路對應到數位助理) 獲得最大的價值。如果您的應用程式是行動應用程式，請按照原樣使用 Experience Platform SDK，並使用 `setCustomerID` 方法傳送使用者 ID。不過，如果應用程式為服務，請使用服務提供的使用者 ID 做為 ECID，並在 `setCustomerID` 中進行設定。
 
@@ -93,9 +93,9 @@ Cache-Control: no-cache
 
 **Google:**「沒問題，您希望在什麼時間搭車呢？」
 
-**消費者:**「晚上八點半」
+**消費者：** 「8:30pm」
 
-**Google：**「好主意，司機八點半會準時到達」
+**Google：** 「好主意，驅動程式將會在8:30pm前到達」
 
 工作階段對於保留上下文資料十分重要，且有助於系統收集更多詳細資訊，讓數位助理更趨自然。若針對對話實施 Analytics，則在新工作階段開始，請執行兩項動作:
 

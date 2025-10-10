@@ -1,5 +1,5 @@
 ---
-title: 動態帳戶概述
+title: 動態帳戶概觀
 description: 瞭解如何使用 H 程式碼動態選取報表套裝的工作流程。
 feature: Implementation Basics
 exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
@@ -11,7 +11,7 @@ ht-degree: 100%
 
 ---
 
-# 動態帳戶概述
+# 動態帳戶概觀
 
 >[!IMPORTANT]
 >

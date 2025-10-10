@@ -17,7 +17,7 @@ ht-degree: 80%
 
 ## &#x200B;1. 確認您的實作仍完全符合我們的業務需求。
 
-與企業負責人及/或分析人員開會，檢討日新月異的業務需求。針對實施作業未能滿足的任何需求或測量機會，了解應如何更新 KPI 和測量計畫。別忘了在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation) 中記錄變更項目。
+與企業負責人及/或分析人員開會，檢討日新月異的業務需求。針對實施作業未能滿足的任何需求或測量機會，了解應如何更新 KPI 和測量計畫。別忘了在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation) 中記錄變更項目。
 
 ## &#x200B;2. 確認您的量度和變數仍正常運作。
 

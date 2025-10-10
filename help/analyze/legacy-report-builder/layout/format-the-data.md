@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何將標準和有限的格式套用至儲存格範圍。
-title: 如何以Report Builder格式化日期
+title: 如何在Report Builder中格式化日期
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 {{legacy-arb}}
 
-除了可透過Excel的「格式>儲存格(Ctrl+1)」功能使用的標準儲存格格式選項外，您還可以將有限的格式套用至具有Report Builder的儲存格範圍。 這些格式選擇取決於您選擇的度量。
+除了可透過Excel的「格式>儲存格(Ctrl+1)」功能使用的標準儲存格格式選項外，您還可以透過Report Builder將有限的格式套用至儲存格範圍。 這些格式選擇取決於您選擇的度量。
 
 [新增維度](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)至「列標籤」格線後，請按一下&#x200B;**[!UICONTROL 「格式」]**。
 

@@ -24,7 +24,7 @@ ht-degree: 17%
 
 ## 登入Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Experience Cloud登入可讓您使用Enterprise ID（電子郵件和密碼）登入Adobe Experience Cloud。
+Experience Cloud登入功能可讓您使用Enterprise ID （電子郵件和密碼）登入Adobe Experience Cloud。
 
 按一下&#x200B;**[!UICONTROL 「登入]** > **[!UICONTROL 使用 Enterprise ID 登入」]**，系統會將您重新導向至貴公司的單一登入頁面。如需Enterprise ID的詳細資訊，請參閱[登入您的公司或學校帳戶](https://helpx.adobe.com/tw/enterprise/kb/enterprise-id-faq.html#whatis)。
 
@@ -42,7 +42,7 @@ Experience Cloud登入可讓您使用Enterprise ID（電子郵件和密碼）登
 1. 按一下&#x200B;**[!UICONTROL 登入]**。 您也可以使用下列方法進行簽署：
 
    * 按一下「**[!UICONTROL 建立]**」。
-   * 在[要求管理員]中選取要求，然後按一下[新增] **或[管理]**&#x200B;**。**&#x200B;如需詳細資訊，請參閱[在請求管理員中選取請求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
+   * 在[要求管理員]中選取要求，然後按一下[新增] **[!UICONTROL 或[管理]]** **[!UICONTROL 。]**&#x200B;如需詳細資訊，請參閱[在請求管理員中選取請求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
    * 在Excel中按兩下請求。
 
 1. 填寫[!UICONTROL 「登入」]頁面中的欄位，然後按一下&#x200B;**[!UICONTROL 「確定」]**。

@@ -37,7 +37,7 @@ ht-degree: 80%
 1. 決定要從儲存格範圍或清單選取。
 1. 如果您要從清單選取，請按一下&#x200B;**[!UICONTROL 「新增」]**，選取要新增至流失路徑的查核點。您可以定義 3 到 8 個查核點(按一下&#x200B;**[!UICONTROL 「更多」]**&#x200B;可搜尋可用元素)。
 
-   如需精簡篩選的詳細資訊，請參閱[篩選Dimension](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)。
+   如需縮小篩選範圍的詳細資訊，請參閱[篩選維度](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)。
 
 1. 選取&#x200B;**[!UICONTROL 可用元素]**&#x200B;並按一下橘色箭頭，可將其從左欄移至右側。
 1. 按三次&#x200B;**[!UICONTROL 「確定」]**，然後按一下&#x200B;**[!UICONTROL 「完成」]**。

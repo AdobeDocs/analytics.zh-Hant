@@ -5,7 +5,7 @@ user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: 從外部來源大量或即時將資料讀入 Adobe Analytics。
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 100%
 

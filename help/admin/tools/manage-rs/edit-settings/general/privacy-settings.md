@@ -15,4 +15,4 @@ ht-degree: 100%
 
 您可以啟用瀏覽器 Cookie 的隱私權設定。
 
-請參閱核心服務使用手册中的「[啟用瀏覽器 cookie 的隱私權設定](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/browser-cookie-settings.html?lang=zh-Hant)」。
+請參閱核心服務使用手册中的「[啟用瀏覽器 cookie 的隱私權設定](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/browser-cookie-settings.html)」。

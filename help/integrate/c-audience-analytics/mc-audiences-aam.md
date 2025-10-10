@@ -55,6 +55,6 @@ Audience Analytics 整合具有以下主要優點：
 * 您是 Audience Manager 管理員。
 * 您使用身分識別服務 v1.5 或更新版本。
 * Adobe Audience Manager和Adobe Analytics報表套裝對應至同一個Experience Cloud組織。
-* 您使用[伺服器端轉送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)，並已實施作業[客群管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
+* 您使用[伺服器端轉送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)，並已實施作業[客群管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
 
 [客群分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些先決條件。

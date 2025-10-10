@@ -1,6 +1,6 @@
 ---
 description: 瞭解如何在同一個活頁簿中將試算表複製到另一個試算表。
-title: 如何以Report Builder複製工作表
+title: 如何在Report Builder中複製工作表
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
 role: User, Admin

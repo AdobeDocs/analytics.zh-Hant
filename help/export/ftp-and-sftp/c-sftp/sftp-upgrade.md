@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * [分類](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
 
-* [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=zh-Hant)
+* [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)
 
 * [資料摘要](/help/export/ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
 

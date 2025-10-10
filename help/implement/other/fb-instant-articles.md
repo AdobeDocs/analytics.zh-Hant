@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Facebook 即時文章可讓發佈者於 Facebook 上快速建立互動式文章。即時文章載入內容的速度快達行動網路的十倍。
 
-您可以將 Adobe Analytics 內嵌在 Facebook 即時文章中，藉此追蹤訪客行為。由於發佈者的內容發佈於 Facebook 應用程式內，而非發佈者的網站，則標記方法與標準 Analytics 實施略有不同。
+您可以將 Adobe Analytics 嵌入在 Facebook 即時文章中，藉此追蹤訪客行為。由於發佈者的內容發佈於 Facebook 應用程式內，而非發佈者的網站，則標記方法與標準 Analytics 實施略有不同。
 
 ## 工作流程
 
@@ -68,7 +68,7 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 ### 步驟 3：參考每個 Facebook 即時文章頁面上的 `stats.html`
 
-建立 Facebook 即時文章內容時，可以將 HTML 內容內嵌於 iframe 中。例如：
+建立 Facebook 即時文章內容時，可以將 HTML 內容嵌入於 iframe 中。例如：
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
@@ -93,4 +93,4 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 ## Facebook 即時文章與隱私權
 
-只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會透過 Facebook 即時文章支援您現有的隱私權政策。若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。此公用程式頁面也支援 Adobe Experience Cloud Identity Service，因此您可以將 Facebook 即時文章資料與 Experience Cloud 的其他部分整合。
+只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會透過 Facebook 即時文章支援您現有的隱私權政策。若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。此公用程式頁面也支援 Adobe Experience Cloud 身分識別服務，因此您可以將 Facebook 即時文章資料與 Experience Cloud 的其他部分整合。

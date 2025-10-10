@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何在Analysis Workspace的資料夾中整理您的專案。
+description: 了解在 Analysis Workspace 中如何將專案整理成各個資料夾。
 keywords: Analysis Workspace
-title: 資料夾總覽
+title: 資料夾概觀
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 

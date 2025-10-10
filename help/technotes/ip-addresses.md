@@ -14,7 +14,7 @@ ht-degree: 35%
 
 有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。
 
-除「中國效能最佳化」附加元件套件外，Adobe Analytics使用的所有IP位址都是Adobe Experience Cloud[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/ip-addresses)使用的IP位址的一部分。
+除「中國效能最佳化」附加元件套件外，Adobe Analytics使用的所有IP位址都是Adobe Experience Cloud[使用的](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)IP位址的一部分。
 
 ## 中國效能最佳化IP位址
 
@@ -22,7 +22,7 @@ ht-degree: 35%
 
 >[!IMPORTANT]
 >
->中國RDC不適用於Web SDK資料收集。 這些伺服器僅適用於AppMeasurement程式庫。
+>中國RDC不適用於Web SDK資料收集。 這些伺服器僅適用於AppMeasurement資料庫。
 
 中國的地區資料收集伺服器會使用下列IP位址：
 
@@ -36,6 +36,6 @@ ht-degree: 35%
 
 >[!MORELIKETHIS]
 >
->Adobe Experience Cloud使用的[個IP位址](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/ip-addresses)
+>Adobe Experience Cloud使用的[個IP位址](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Adobe Analytics使用的網域](domains.md)

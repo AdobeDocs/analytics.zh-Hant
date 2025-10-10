@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ![管理](assets/manage.png)
 
-最上層的資料來源一律為[!UICONTROL Web信標]。 此資料來源是您透過AppMeasurement進行典型資料收集所用的資料。 無法編輯或停用。
+最上層的資料來源一律為[!UICONTROL Web信標]。 此資料來源是您透過AppMeasurement進行一般資料收集所用的資料。 無法編輯或停用。
 
 每個資料來源都有以下選項：
 
@@ -75,5 +75,5 @@ ht-degree: 7%
 * **[!UICONTROL 列]**：檔案中的總列數。
 * **[!UICONTROL 錯誤]**：包含錯誤的列數。
 * **[!UICONTROL 警告]**：已不再使用。 包含警告的列數。
-* **[!UICONTROL 已接收]**：Adobe開始處理檔案的日期和時間。
+* **[!UICONTROL 已接收]**： Adobe開始處理檔案的日期和時間。
 * **[!UICONTROL 狀態]**：檔案的狀態（`Success`或`Failed`）。

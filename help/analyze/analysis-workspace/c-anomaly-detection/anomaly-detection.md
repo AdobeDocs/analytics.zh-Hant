@@ -119,17 +119,17 @@ Analysis Workspace 異常偵測的演算法包含
    <td colname="col3" colsep="1"> <p>沒有代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>僅每日粒度 </p> </td> 
    <td colname="col3"> <p>沒有代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 個代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 20 個代號 </p> </td> 
   </tr> 

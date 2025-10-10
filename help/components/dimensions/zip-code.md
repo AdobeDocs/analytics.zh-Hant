@@ -26,7 +26,7 @@ ht-degree: 79%
 如果您選擇使用任何涉及地域郵遞區號的選項：
 
 * 對於AppMeasurement實作，此維度可直接運作。
-* 針對Web SDK實作，請在[!UICONTROL 設定資料流]時啟用[地理查閱](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)。
+* 針對Web SDK實作，請在[!UICONTROL 設定資料流]時啟用[地理查閱](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
 
 ## 維度項目
 

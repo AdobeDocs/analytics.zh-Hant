@@ -17,11 +17,11 @@ ht-degree: 100%
 
 ## Experience Cloud 訪客 ID 與 Analytics 訪客 ID 有何不同？
 
-Identity Service 會指派不重複的持續性識別碼，以便在 Experience Cloud 的其他解決方案之間共用。Analytics 訪客 ID 僅供 Analytics 使用。Adobe 建議您在實作中使用 Experience Cloud 訪客 ID 服務。
+身分識別服務會指派不重複的持續性識別碼，以便在 Experience Cloud 的其他解決方案之間共用。Analytics 訪客 ID 僅供 Analytics 使用。Adobe 建議您在實作中使用 Experience Cloud 訪客 ID 服務。
 
 ## 如何實施心率視訊追蹤？
 
-請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 ## Adobe 的服務中斷是否會影響效能？
 
@@ -33,7 +33,7 @@ AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再�
 
 ## 如何使 Analytics 實作無效或加以移除？
 
-有時組織會因為合約到期，或是需減少伺服器呼叫數而想要移除實作。
+有時組織會因為合約過期，或是需減少伺服器呼叫數而想要移除實作。
 
 * **使用 Adobe Experience Platform Data Collection 進行實作**：在[!UICONTROL 擴充功能]索引標籤停用或是解除安裝適用的 Adobe Analytics、Web SDK 或 Mobile SDK 擴充功能，然後發佈。
 * **舊版 AppMeasurement 實作**：使用下列程式碼行取代 `s_code.js` 檔案的整個內容：

@@ -47,5 +47,5 @@ Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深�
 >[!MORELIKETHIS]
 >
 >[報表元件設定](/help/components/vrs/vrs-components.md)
->&#x200B;>[資料字典元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[資料字典元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

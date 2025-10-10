@@ -23,7 +23,7 @@ ht-degree: 47%
 
    >[!IMPORTANT]
    >
-   >AMO ID指的是要插入搜尋資料的Adobe Advertising Cloud (也稱為Adobe Media Optimizer)變數。
+   >AMO ID指的是要插入搜尋資料的Adobe Advertising Cloud （亦稱為Adobe Media Optimizer）變數。
 
 1. 選取&#x200B;**[!UICONTROL 不熟悉Advertising Analytics？ 按一下這裡以深入瞭解]**，瞭解有關Advertising Analytics的詳細資訊。
 
@@ -32,6 +32,6 @@ ht-degree: 47%
    | 設定 | 定義 |
    |--- |--- |
    | **[!UICONTROL 配置]** | 選取範圍： <br/> **[!UICONTROL 原始值（第一個）]**：看到的第一個值會獲得完整配置評分，無論該變數的後續值為何。 <br/>**[!UICONTROL 最近（上一個）]**：最後看到的值會獲得成功事件的完整配置評分，無論之前觸發了哪些變數。 |
-   | **[!UICONTROL 有效期限]** | 可讓您指定時段或事件，在發生此時段或事件後，eVar值就會過期（即不再接收成功事件的評分）。  如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。 |
+   | **[!UICONTROL 有效期限]** | 可讓您指定時段或事件，經過此時段或事件後，eVar值就會過期（即不再接收成功事件的評分）。  如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「啟用 Advertising Analytics 報表」]**(首次)，或&#x200B;**[!UICONTROL 「更新 Advertising Analytics 報表」]**(後續)。您的報表套裝現在已準備就緒，可以接收 Advertising Analytics 搜尋資料。您現在已準備好[建立Advertising帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。

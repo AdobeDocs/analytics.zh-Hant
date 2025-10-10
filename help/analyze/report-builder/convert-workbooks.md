@@ -9,13 +9,13 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
 # 將舊版Report Builder活頁簿轉換為資料區塊
 
-在採用新Report Builder技術時，您可以快速將目前的舊版活頁簿轉換為Javascript活頁簿。
+在改用新的Report Builder技術時，您可以快速將目前的舊版活頁簿轉換為Javascript活頁簿。
 
 >[!IMPORTANT]
 >
@@ -24,23 +24,23 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [轉換活頁簿](https://video.tv.adobe.com/v/3446193?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [轉換活頁簿](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 
-1. 依照[&#128279;](/help/analyze/report-builder/report-builder-setup.md)的指示進行設定新Report Builder。
+1. 依照[的指示進行](/help/analyze/report-builder/report-builder-setup.md)設定新的Report Builder。
 
 1. 開啟Excel，然後按一下右上方的Adobe Report Builder圖示。
 
-1. 按一下「**[!UICONTROL 登入]**」並登入Report Builder。
+1. 按一下&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
 
-1. Report Builder增益集偵測到此活頁簿是否包含[舊版Report Builder](/help/analyze/legacy-report-builder/home.md)要求。
+1. Report Builder增益集偵測到此活頁簿是否包含[舊版Report Builder](/help/analyze/legacy-report-builder/home.md)請求。
 
    ![升級活頁簿提示](assets/upgrade_workbook.png)
 
-1. 如果找到一或多個舊版要求，請按一下[升級] **&#x200B;**&#x200B;以升級活頁簿。
+1. 如果找到一或多個舊版要求，請按一下[升級] ****&#x200B;以升級活頁簿。
 
    >[!NOTE]
    >
@@ -62,17 +62,17 @@ ht-degree: 0%
 您現在可以[管理資料區塊](/help/analyze/report-builder/manage-reportbuilder.md)。
 
 
-## 新Report Builder中不支援舊版Report Builder功能 {#unsupported}
+## 新版 Report Builder 不支援舊版 Report Builder 功能 {#unsupported}
 
-將舊版Report Builder的功能與新Report Builder增益集比較時，有些舊版功能已無法使用：
+將舊版 Report Builder 的功能與新版 Report Builder 增益集的功能進行比較時，部分舊版功能不再可用：
 
 - 即時請求
 
 - 路徑/流失報告
 
-- 排程報表的FTP選項
+- 排程報告的 FTP 選項
 
-- 訪客量度。 下列量度將全部轉換為「不重複訪客」，即使報表結果可能不是完全相符： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`以及`visitorsyearly`。 這也適用於`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
+- 訪客量度。下列量度都將轉換至「不重複訪客」，即使報告結果可能不完全符合：`visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly` 以及 `visitorsyearly`。這也適用於 `mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly` 以及 `mobilevisitorsyearly`。
 
 ## 排程轉換的活頁簿 {#schedule}
 

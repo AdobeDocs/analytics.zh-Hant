@@ -4,7 +4,7 @@ description: 本指南會說明透過資料摘要和 Data Warehouse 將資料匯
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 source-git-commit: 68114921b40ffebd89e2843ad0f0cf44812cb13b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

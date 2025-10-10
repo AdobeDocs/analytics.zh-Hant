@@ -11,9 +11,9 @@ ht-degree: 79%
 
 ---
 
-# Analytics 資料摘要總覽
+# Analytics 資料摘要概觀
 
-資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。資料會在每小時結束時以小時的批量傳送，或在每天結束時以當天的批量傳送。
+資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。資料會在每小時結束時以小時的批次傳送，或在每天結束時以當天的批次傳送。
 
 ## 先決條件
 
@@ -36,7 +36,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [瀏覽資料摘要介面](https://video.tv.adobe.com/v/3428570?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [瀏覽資料摘要介面](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 

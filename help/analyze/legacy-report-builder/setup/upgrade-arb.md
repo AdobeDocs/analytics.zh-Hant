@@ -24,7 +24,7 @@ ht-degree: 51%
 
 * 所有個人設定（包括驗證設定）仍可繼續運作。
 
-升級Report Builder
+若要升級Report Builder
 
 1. 登入目前的 Report Builder 版本。
 1. 前往「**[!UICONTROL 選項]**」功能表，升級至最新版本。您目前的版本號碼會顯示在「選項」對話方塊底部。
@@ -42,7 +42,7 @@ ht-degree: 51%
 
    ![顯示Report Builder設定熒幕的熒幕擷圖。](assets/setup.png)
 
-1. 升級完成後，重新登入Report Builder。
+1. 升級完成後，請重新登入Report Builder。
 
 ## 手動升級指示 {#section_27A0200010DC4747A718F1A65B180599}
 
@@ -50,5 +50,5 @@ ht-degree: 51%
 
 1. 登入 Adobe Analytics 並前往&#x200B;**[!UICONTROL 「工具」]**。
 1. 按一下&#x200B;**[!UICONTROL 「Report Builder」]**。
-1. 在&#x200B;**[!UICONTROL 「概述」]**&#x200B;畫面上，選取 32 位元或 64 位元版本。
+1. 在&#x200B;**[!UICONTROL 「概觀」]**&#x200B;畫面上，選取 32 位元或 64 位元版本。
 1. 按一下&#x200B;**[!UICONTROL 「立即下載！」]**。

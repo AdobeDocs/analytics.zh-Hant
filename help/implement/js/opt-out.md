@@ -18,11 +18,11 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 
-您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議改用[Adobe Experience Cloud選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。 選擇加入服務更加健全，可跨多種Adobe Experience Cloud產品運作，包括Adobe Analytics和AppMeasurement。
+您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議改用[Adobe Experience Cloud選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)。 選擇加入服務更加健全，可跨多種Adobe Experience Cloud產品運作，包括Adobe Analytics和AppMeasurement。
 
 當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。如果使用者選擇不被追蹤且已設定選擇退出Cookie，AppMeasurement會繼續將資料傳送至Adobe。 不過這些資料不會經過處理，也不會納入報表。
 
@@ -44,7 +44,7 @@ ht-degree: 67%
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
    1. 記下 `trackingServer` 變數值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hant)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
    1. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標記。
    1. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。

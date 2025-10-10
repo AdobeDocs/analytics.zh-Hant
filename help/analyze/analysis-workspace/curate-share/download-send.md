@@ -118,7 +118,7 @@ ht-degree: 25%
 下載檔案時，您會看到下列通知：
 
 * 已要求藍色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv。_x _%完成]**，表示進度。 若要隨時取消下載，請選取&#x200B;**[!UICONTROL 取消下載]**。 若要關閉郵件，請選取![CrossSize100](/help/assets/icons/CrossSize100.svg)，這不會取消下載。
-* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**&#x200B;完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
+* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
 
 如果您一次要求多項下載，您會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列。
 
@@ -237,6 +237,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

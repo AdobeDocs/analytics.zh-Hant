@@ -37,7 +37,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/csp)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)。
 
 ## 手動追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 

@@ -63,4 +63,4 @@ ht-degree: 66%
 
 * 您可能需要使用資料科學家的服務，而非僅仰賴 Analysis Workspace。
 * 您可以仰賴原始資料，就像在 Adobe 資料摘要中一樣。
-* 例如，如果您想要考量您的曝光數資料，可考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。
+* 例如，如果您想要考量您的曝光數資料，可考慮使用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview)。

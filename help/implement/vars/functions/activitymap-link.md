@@ -20,7 +20,7 @@ ht-degree: 9%
 
 ## 使用網頁SDK覆寫連結值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
 
 ## 使用Adobe Analytics擴充功能覆寫連結
 
@@ -78,6 +78,6 @@ s.ActivityMap.link = function(ele, linkName) {
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. 如果傳遞了`linkName`，則方法已由`tl()`呼叫。 傳回以`linkName`傳入的`tl()`。
+1. 如果傳遞了`linkName`，則方法已由`tl()`呼叫。 傳回以`tl()`傳入的`linkName`。
 2. Activity Map呼叫時，絕不會傳遞`linkName`，因此請使用連結元素呼叫`customFunction()`。 您可以使用任何想要傳回值的自訂函式。
 3. 如果以上未傳回值，請使用一般收集作為遞補的連結名稱。

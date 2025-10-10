@@ -78,7 +78,7 @@ ht-degree: 5%
 1. 選取![時鐘](/help/assets/icons/Clock.svg)。
 1. 從內容功能表中選取&#x200B;**[!UICONTROL Within]**&#x200B;或&#x200B;**[!UICONTROL After]**。
 1. 指定時段（**[!UICONTROL 分鐘]**，**[!UICONTROL 小時]**，直到&#x200B;**[!UICONTROL 年]**）。
-1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**&#x200B;以開啟快顯視窗，讓您使用&#x200B;**[!UICONTROL -]**&#x200B;或&#x200B;**[!UICONTROL +]**&#x200B;輸入或指定數字。
+1. 選取![V形](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *數字&#x200B;*]**以開啟快顯視窗，讓您使用**[!UICONTROL -]**或**[!UICONTROL +]**輸入或指定數字。
 
 若要移除時間限制，請使用![CrossSize75](/help/assets/icons/CrossSize75.svg)。
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 
 ![序列在](assets/sequence-after.png)之後
 
-如果首頁的頁面檢視發生在2024年6月1日00:01，則為頁面女性提供頁面檢視 | 只要2024年6月15日00:01之後發生頁面檢視，鞋子就會符合。
+如果首頁的頁面檢視發生在2024年6月1日00:01，則對頁面的頁面檢視為女性 | 只要2024年6月15日:01之後發生該頁面檢視，鞋子就會符合。
 
 ##### [!UICONTROL Within]運運算元
 
@@ -109,7 +109,7 @@ ht-degree: 5%
 
 ![在](assets/sequence-within.png)內的順序
 
-如果首頁的頁面檢視發生於2024年6月1日12:01，則對頁面的頁面檢視為「女性」 | 只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會相符。
+如果首頁的頁面檢視發生於2024年6月1日的12:01，則對頁面的女性頁面進行頁面檢視 | 只要2024年6月15日12:16之前發生該頁面檢視，鞋子就會符合。
 
 ##### [!UICONTROL After]但[!UICONTROL Within]運運算元
 
@@ -117,7 +117,7 @@ ht-degree: 5%
 
 ![順序晚於](assets/sequence-afterbutwithin.png)但以內
 
-2024年6月1日點選首頁及回訪女性網站的任何訪客 | 2019年6月15日之後00:01，但2019年7月1日之前的「鞋子」頁面符合該區段的資格。
+2024年6月1日點選首頁及回訪女性網站的任何訪客 | 2019年6月15日之後00:01但在2019年7月1日之前的「鞋子」頁面符合該區段的資格。
 
 
 ### [!UICONTROL 點選]、[!UICONTROL 造訪]和[!UICONTROL Dimension]限制

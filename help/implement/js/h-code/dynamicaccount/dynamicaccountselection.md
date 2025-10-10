@@ -15,7 +15,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
-> 動態帳戶僅支援使用舊版 JavaScript 實施作業 (H Code)。目前的AppMeasurement程式庫或Adobe Experience Platform資料彙集中不支援這些變數。
+> 動態帳戶僅支援使用舊版 JavaScript 實施作業 (H Code)。目前的AppMeasurement資料庫或Adobe Experience Platform資料彙集中不支援這些變數。
 
 `dynamicAccountSelection` 變數是布林值，可判斷是否使用動態帳戶選擇。
 

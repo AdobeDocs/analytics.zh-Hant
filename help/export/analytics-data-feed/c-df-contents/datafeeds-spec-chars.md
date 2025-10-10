@@ -32,7 +32,7 @@ Adobe 使用逸出邏輯來確保傳送至資料收集伺服器的值不會損�
 | `\\n` | 資料收集期間會傳送值「`\n`」，由 Adobe 逸出。 |
 | `\\` | 資料收集期間會傳送值「`\`」，由 Adobe 逸出。 |
 
-例如，您網站的訪客使用內部搜尋並搜尋`"search\nstring"`。 您將`"search\nstring"`填入eVar1，然後將該值傳送給Adobe。 Adobe 會收到此點擊，然後逸出包含在字串中的新行。原始資料中的實際值為`"search\\nstring"`。
+例如，您網站的訪客使用內部搜尋並搜尋`"search\nstring"`。 您使用`"search\nstring"`填入eVar1，然後將該值傳送至Adobe。 Adobe 會收到此點擊，然後逸出包含在字串中的新行。原始資料中的實際值為`"search\\nstring"`。
 
 ## 多值變數 (events_list、products_list、mvvars) 中的特殊字元
 

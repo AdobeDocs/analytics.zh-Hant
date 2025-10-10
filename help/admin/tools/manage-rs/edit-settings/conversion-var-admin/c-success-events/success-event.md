@@ -16,7 +16,7 @@ ht-degree: 54%
 
 成功事件 (也稱為轉換事件或自訂事件) 是可以被追蹤的行動。 成功事件的條件由您決定。 例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
 
-如需成功事件的影片概觀，請參閱Analytics教學課程指南中的[轉換事件簡介](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
+如需成功事件的影片概觀，請參閱Analytics教學課程指南中的[轉換事件簡介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events)。
 
 ## 成功事件範例
 

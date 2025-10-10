@@ -20,9 +20,9 @@ ht-degree: 69%
 
 身為分析師，您可以鎖定活頁簿，讓組織內的其他使用者無法竄改，以保護您的活頁簿請求。同時，這些使用者仍然可以重新整理活頁簿中的請求。
 
-若要防止編輯活頁簿，請按一下Report Builder工具列( ![](assets/locked_icon.png))上的&#x200B;**[!UICONTROL 鎖定]**。
+若要防止編輯活頁簿，請按一下Report Builder工具列( **[!UICONTROL )上的]**&#x200B;鎖定![](assets/locked_icon.png)。
 
-若要取消活頁簿保護機制，請按一下[解除鎖定] **( ![](assets/unlocked_icon.png))。**
+若要取消活頁簿保護機制，請按一下[解除鎖定] **[!UICONTROL (]**)。![](assets/unlocked_icon.png)
 
 若要將已鎖定的活頁簿解鎖，您必須具備下列其中一項權限：
 

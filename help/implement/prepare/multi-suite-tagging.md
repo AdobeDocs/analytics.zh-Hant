@@ -17,7 +17,7 @@ ht-degree: 93%
 
 若要實作多套裝標記，您必須在您網頁和應用程式的追蹤程式碼中，加入全域報表套裝的報表套裝 ID (RSID)，也要加入適用的子報表套裝的 RSID。
 
-* 針對 Adobe Experience Platform 標記實作，請為[[!DNL Analytics] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)指定每個報表套裝。
+* 針對 Adobe Experience Platform 標記實作，請為[[!DNL Analytics] 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)指定每個報表套裝。
 
 * 若要舊版 JavaScript 和行動 SDK 實作，請用逗號且不含空格來區隔 RSID (`rsid1,rsid2,rsid3` 等)。
 

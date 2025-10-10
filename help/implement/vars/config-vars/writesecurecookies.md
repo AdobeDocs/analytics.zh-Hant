@@ -17,7 +17,7 @@ ht-degree: 76%
 
 `writeSecureCookies` 僅適用於由 AppMeasurement JavaScript 設定的 Cookie (`s_fid`, `s_cc` 和 `s_sq`)。`https` 回應所設定的 Cookie (`s_vi` 和 `s_ecid`) 可透過聯絡 Adobe 客戶服務以設為「安全」。
 
-在[此處](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=zh-Hant)進一步了解有關 Analytics Cookie。
+在[此處](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html)進一步了解有關 Analytics Cookie。
 
 >[!WARNING]
 >

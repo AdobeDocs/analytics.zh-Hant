@@ -35,7 +35,7 @@ Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件�
 
 ## 存取權
 
-Adobe 僅針對管理員層級使用者，在特定報告套裝上啟用 Data Warehouse（全域和子報表套裝可啟用此功能，統計報表套裝則無法啟用。） 管理員可以建立具有Data Warehouse存取權的群組，然後將非管理員層級的使用者與該群組相關聯。
+Adobe 僅針對管理員層級使用者，在特定報告套裝上啟用 Data Warehouse（全域和子報表套裝可啟用此功能，統計報表套裝則無法啟用。） 管理員可建立具有Data Warehouse存取權的群組，然後將非管理員層級的使用者與該群組建立關聯。
 
 請參閱「[管理 Data Warehouse 權限](/help/export/data-warehouse/t-dw-group.md)」。
 

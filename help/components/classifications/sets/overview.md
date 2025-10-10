@@ -18,13 +18,13 @@ ht-degree: 84%
 
 您必須是產品管理員或屬於包含許可權專案[!UICONTROL 報表套裝工具] > [!UICONTROL 分類]的產品設定檔，才能檢視此功能表專案。 請注意，雖然先前的分類管理介面位於[!UICONTROL 管理員]功能表下，但分類設定位於[!UICONTROL 元件]功能表下。
 
-## 改進項目
+## 改善
 
 與分類集一起發布的後端架構包含幾個顯著的改善：
 
 * 縮短處理時間 (72 小時 → 24 小時)
 * 重新設計的UI以管理分類
-* 未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/classifications)在 Adobe Experience Platform 中使用分類資料的選項
+* 未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)在 Adobe Experience Platform 中使用分類資料的選項
 
 與分類集一起發布的後端架構也包含幾個顯著的變更：
 

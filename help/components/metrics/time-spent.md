@@ -6,7 +6,7 @@ exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 64%
+ht-degree: 66%
 
 ---
 
@@ -18,20 +18,20 @@ Adobe Analytics產品提供各種[!UICONTROL 逗留時間] [量度](overview.md)
 
 | 量度 | 定義 | 適用於 |
 |---|---|---|
-| [[!UICONTROL 花費秒數總計]](total-seconds-spent.md) | 代表訪客與特定維度項目互動的總時間量。包括值的例項和在所有後續點擊中持續的項目。如果是 prop，則會對後續連結事件一併計算逗留時間。 | Analysis Workspace、Report Builder（稱為「總逗留時間」）、Data Warehouse |
+| [[!UICONTROL 花費秒數總計]](total-seconds-spent.md) | 代表訪客與特定維度項目互動的總時間量。包括值的例項和在所有後續點擊中持續的項目。如果是 prop，則會對後續連結事件一併計算逗留時間。 | Analysis Workspace、Report Builder （稱為「總逗留時間」）、Data Warehouse |
 | [[!UICONTROL 每次造訪逗留時間] （秒）](time-spent-per-visit.md) | 大約&#x200B;*總逗留秒數/（造訪彈回數）*<br>&#x200B;代表訪客每次造訪時與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
-| 每位訪客逗留時間[[[!UICONTROL 1&rbrace; （秒）]](time-spent-per-visitor.md)] | 大約總逗留秒數/不重複訪客&#x200B;*<br>代表訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。***注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
+| 每位訪客逗留時間[[!UICONTROL 1} （秒）]](time-spent-per-visitor.md) | 大約總逗留秒數/不重複訪客&#x200B;*代表訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。*<br>**注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
 | [!UICONTROL 逗留時間/使用者（狀態）] | 大約&#x200B;*行動應用程式總逗留秒數/不重複行動應用程式訪客*<br>&#x200B;代表行動應用程式訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
-| [[!UICONTROL 網站平均逗留時間] （秒）](average-time-on-site.md) | 代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。這不只限於名稱所建議的「網站」平均值。 如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意**：因為在計算中使用不同的分母，此量度與維度項目層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace，Report Builder（以分鐘為單位顯示） |
+| [[!UICONTROL 網站平均逗留時間] （秒）](average-time-on-site.md) | 代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。這不只限於名稱所建議的「網站」平均值。 如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意**：因為在計算中使用不同的分母，此量度與維度項目層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace、Report Builder （以分鐘數顯示） |
 | [[!UICONTROL 網站平均逗留時間]](average-time-on-site.md) | 這是與&#x200B;*網站平均逗留時間（秒）*&#x200B;相同的量度，除了格式為時間(`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL 平均頁面逗留時間] | 已停用的量度。<br>反之，Adobe建議您在需要維度專案的平均時間時，使用[[!UICONTROL 網站平均逗留時間]](average-time-on-site.md)。 | Report Builder (請求中包含維度時) |
+| [!UICONTROL 平均頁面逗留時間] | 已停用的量度。<br>若需要維度專案的平均時間，Adobe建議您改用[[!UICONTROL 網站平均逗留時間]](average-time-on-site.md)。 | Report Builder (請求中包含維度時) |
 
 ## 「逗留時間」維度
 
 | 維度 | 定義 | 適用於 |
 | --- | --- | --- |
 | [[!UICONTROL 每次造訪逗留時間 - 精細]](../dimensions/time-spent-per-visit.md) | 將瀏覽時的總逗留時間去除尾數後的為最接近的秒數，適用於可套用至屬於瀏覽一部分的每一次點擊。這是造訪層級維度。 | Analysis Workspace |
-| [[!UICONTROL 每次瀏覽逗留時間 - 分組]](../dimensions/time-spent-per-visit.md) | 詳細程度維度分成 9 個不同的範圍。這是造訪層級維度。這些範圍包括：<ul><li>少於 1 分鐘</li><li>1-5 分鐘</li><li>5-10 分鐘</li><li>10-30 分鐘</li><li>30-60 分鐘</li><li>1-2 小時</li><li>2-5 小時</li><li>5-10 小時</li><li>10-15 小時</li></ul>**注意**：時間區間不可高於此設定，因為一次造訪在經過 12 小時的活動後就會到期。 | Analysis Workspace，Report Builder |
+| [[!UICONTROL 每次瀏覽逗留時間 - 分組]](../dimensions/time-spent-per-visit.md) | 詳細程度維度分成 9 個不同的範圍。這是造訪層級維度。這些範圍包括：<ul><li>少於 1 分鐘</li><li>1-5 分鐘</li><li>5-10 分鐘</li><li>10-30 分鐘</li><li>30-60 分鐘</li><li>1-2 小時</li><li>2-5 小時</li><li>5-10 小時</li><li>10-15 小時</li></ul>**注意**：時間區間不可高於此設定，因為一次造訪在經過 12 小時的活動後就會到期。 | Analysis Workspace、Report Builder |
 | [[!UICONTROL 頁面逗留時間 - 精細]](../dimensions/time-spent-on-page.md) | 每次點擊的總逗留時間，去除尾數後為最接近的秒數。這個項目是點擊層級維度，且包含頁面檢視和連結事件。雖然名稱有別，但不僅限於「頁面」維度。 | Analysis Workspace |
 | [[!UICONTROL 頁面逗留時間 – 分段]](../dimensions/time-spent-on-page.md) | 詳細程度維度分成 10 個不同範圍；不過分段的維度只會計算頁面檢視次數 (而排除連結事件)。這是點擊層級維度。這些範圍包括：<ul><li>少於 15 秒</li><li>15 至 29 秒</li><li>30 至 59 秒</li><li>1 至 3 分鐘</li><li>3 至 5 分鐘</li><li>5 至 10 分鐘</li><li>10 至 15 分鐘</li><li>15 至 20 分鐘</li><li>20 至 30 分鐘</li><li>超過 30 分鐘</li></ul> | Analysis Workspace |
 
@@ -67,7 +67,7 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 
 +++
 
-+++哪一個逗留時間維度最適合搭配其他維度專案來進行劃分？
++++哪一個逗留時間維度最適合使用於劃分其他維度項目來劃分?
 
 [[!UICONTROL 頁面逗留時間 — 精細]](../dimensions/time-spent-on-page.md)維度是點選層級維度。 使用由其他維度來劃分這個項目會告訴您當劃分維度也存在時點擊持續的秒數。在以下範例中，搜尋辭彙「已分類」與54秒、59秒等點選時間相關聯，可能表示訪客正在花時間閱讀該辭彙傳回的內容。
 
@@ -83,7 +83,7 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 
 +++
 
-+++[!UICONTROL 網站平均逗留時間]與[!UICONTROL 每次造訪逗留時間]有何不同？
++++[!UICONTROL 「網站平均逗留時間」]和[!UICONTROL 「每次瀏覽逗留時間」]有何不同?
 
 差異在於量度中的分母:
 

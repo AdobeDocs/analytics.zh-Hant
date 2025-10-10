@@ -5,8 +5,8 @@ user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
 source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---

@@ -104,10 +104,10 @@ ht-degree: 69%
 
 1. 取消勾選&#x200B;**「顯示排程選項」**
 
-   &lbrack;按一下![取消核取[顯示排程選項]，一次傳送活頁簿。](./assets/send-now.png){width="40%"}
+   ![按一下[取消核取[顯示排程選項]，一次傳送活頁簿。](./assets/send-now.png){width="40%"}
 
 1. 按一下&#x200B;**「立即傳送」**。
 
-## 管理排程活頁簿
+## 管理安排的活頁簿
 
 如需有關管理已排程活頁簿的資訊，請參閱[管理已排程活頁簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。
