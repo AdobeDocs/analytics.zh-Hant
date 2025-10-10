@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的自由格式面板。_<br/>_請參閱[自由格式面板](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的自由格式面板。_<br/>_請參閱[自由格式面板](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe 
 >[!MORELIKETHIS]
 >
 >[建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Analytics 元件指南](/help/components/home.md)
->>[自由格式表格視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>&#x200B;>[Analytics 元件指南](/help/components/home.md)
+>&#x200B;>[自由格式表格視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

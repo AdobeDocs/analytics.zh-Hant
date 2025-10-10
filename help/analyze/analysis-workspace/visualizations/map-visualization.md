@@ -46,7 +46,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的地圖視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**地圖**。_
+_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
 ## 使用
 
-1. 新增![地圖](/help/assets/icons/Globe.svg)[!UICONTROL 地圖]視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。您僅可將地圖視覺效果拖曳至自由格式表格的頂部。
+1. 新增![地圖](/help/assets/icons/Globe.svg) [!UICONTROL 地圖]視覺效果。請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。您僅可將地圖視覺效果拖曳至自由格式表格的頂部。
 
    ![地圖設定](assets/map-configuration.png){width="50%"}
 

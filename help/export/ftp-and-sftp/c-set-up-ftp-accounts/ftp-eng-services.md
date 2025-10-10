@@ -21,7 +21,7 @@ ht-degree: 90%
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
-與透過 FTP 上傳 SAINT 類似，[!UICONTROL DB VISTA] 是透過 FTP 上傳接收資料。如需檔案格式與 [!UICONTROL DB VISTA] 上傳程序的的詳細資訊，請參閱 [!UICONTROL DB VISTA] 白皮書中的 [!UICONTROL DB VISTA ]介紹，前往 Adobe 套裝說明網站的「**[!UICONTROL 支援文件]** > **[!UICONTROL 白皮書]**」即可找到。
+與透過 FTP 上傳 SAINT 類似，[!UICONTROL DB VISTA] 是透過 FTP 上傳接收資料。如需檔案格式與 [!UICONTROL DB VISTA] 上傳程序的的詳細資訊，請參閱 [!UICONTROL DB VISTA] 白皮書中的 [!UICONTROL DB VISTA &#x200B;]介紹，前往 Adobe 套裝說明網站的「**[!UICONTROL 支援文件]** > **[!UICONTROL 白皮書]**」即可找到。
 
 ## 自訂參與 {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 

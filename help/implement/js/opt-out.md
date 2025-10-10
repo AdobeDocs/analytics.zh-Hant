@@ -18,7 +18,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>
-<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
+><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 

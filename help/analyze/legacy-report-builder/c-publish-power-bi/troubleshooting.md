@@ -40,7 +40,7 @@ ht-degree: 66%
 >[!IMPORTANT]
 >
 >Report Builder需要管理員來授權存取您的組織資源。 如果您需要存取權，請要求管理員授與您許可權。
->> Microsoft管理員可以檢閱&#x200B;*使用者可以註冊應用程式*&#x200B;設定，該設定可在&#x200B;**[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 使用者設定允許選項]**&#x200B;下找到。 如果此選項設定為&#x200B;**否**，則管理員可以註冊這些型別的應用程式。
+>&#x200B;> Microsoft管理員可以檢閱&#x200B;*使用者可以註冊應用程式*&#x200B;設定，該設定可在&#x200B;**[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 使用者設定允許選項]**&#x200B;下找到。 如果此選項設定為&#x200B;**否**，則管理員可以註冊這些型別的應用程式。
 
 使用者可登入其[Microsoft Power BI帳戶](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&prompt=logint&client_id=8d84f6d8-29a4-4484-a670-589b32400278&redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&locale=en_US)，藉此授與存取權。
 

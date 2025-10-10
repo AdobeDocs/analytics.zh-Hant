@@ -77,4 +77,4 @@ ht-degree: 92%
 
 ## Workspace 行為 {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-如需有關在 Analysis Workspace 中進行監控的詳細資訊，請參閱「[監管和共用專案 ](/help/analyze/analysis-workspace/curate-share/curate.md)」。
+如需有關在 Analysis Workspace 中進行監控的詳細資訊，請參閱「[監管和共用專案 &#x200B;](/help/analyze/analysis-workspace/curate-share/curate.md)」。

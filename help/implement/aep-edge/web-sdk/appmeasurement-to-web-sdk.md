@@ -63,7 +63,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
 
-在網頁SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)[`orgId`和](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`屬性：
+在網頁SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId`和](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`屬性：
 
 * 將`datastreamId`設定為在上一步中擷取的資料串流識別碼。
 * 將`orgId`設定為您組織的IMS組織。

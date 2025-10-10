@@ -18,7 +18,7 @@ ht-degree: 89%
 
 能使用布林邏輯搭配 AND/OR 搜尋運算式來排名篩選並設定篩選條件。
 
-「最受歡迎」篩選是使用布林邏輯搭配 AND/OR 條件設定而成的運算式篩選器，例如[!UICONTROL 「不含 ]*`<product name>`*的頁面」搭配條件或條件群組，例如[!UICONTROL 「包含全部」]、[!UICONTROL 「包含任一項」]或[!UICONTROL 「排除全部」]。您可以[儲存](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)這些運算式，以供此活頁簿中的其他請求或其他活頁簿使用。
+「最受歡迎」篩選是使用布林邏輯搭配 AND/OR 條件設定而成的運算式篩選器，例如[!UICONTROL 「不含 &#x200B;]*`<product name>`*的頁面」搭配條件或條件群組，例如[!UICONTROL 「包含全部」]、[!UICONTROL 「包含任一項」]或[!UICONTROL 「排除全部」]。您可以[儲存](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)這些運算式，以供此活頁簿中的其他請求或其他活頁簿使用。
 
 **建立最受歡迎篩選**
 

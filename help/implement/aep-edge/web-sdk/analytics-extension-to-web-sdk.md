@@ -127,7 +127,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在右側，將動作設定變更為下列專案：
    * [!UICONTROL 型別]：對於`s.t()`，請使用&#x200B;**[!UICONTROL 網頁詳細資訊頁面檢視]**。 針對`s.tl()`，使用&#x200B;**[!UICONTROL Web Webinteraction連結點按]**。 如果您使用[`s.tl()`](../../vars/functions/tl-method.md)，您也必須在資料物件中包含下列欄位。 執行[!UICONTROL 更新變數]動作組態時，這些欄位會列在[!UICONTROL 其他屬性]下：
       * [連結名稱](../../vars/functions/tl-method.md)
-      * [連結類型 ](../../vars/functions/tl-method.md)
+      * [連結類型 &#x200B;](../../vars/functions/tl-method.md)
       * [連結Url](../../vars/config-vars/linkurl.md)
 1. 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 1. 對使用Adobe Analytics傳送信標的每個動作設定重複這些步驟。
