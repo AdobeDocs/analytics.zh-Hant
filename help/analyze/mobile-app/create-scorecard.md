@@ -130,7 +130,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} 的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://video.tv.adobe.com/v/3445777?quality=12&learn=on&captions=chi_hant){target="_blank"} 的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://video.tv.adobe.com/v/3422732?quality=12&learn=on&captions=chi_hant){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
