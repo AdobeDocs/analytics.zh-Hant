@@ -66,19 +66,19 @@ ht-degree: 16%
 <tr>
 <td>4</td>
 <td><b>設定資料流</b>。資料流代表實施 Adobe Experience Platform Web SDK 時的伺服器端設定。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">設定資料流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant">設定資料流<a></td> 
 </tr>
 
 <tr>
 <td>5</td> 
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。此服務可控制資料是否及如何傳送至Adobe Analytics，以及特定要將資料傳送到哪些報表套裝。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 
 <tr>
 <td>6</td>
 <td><b>建立標籤屬性</b>。 屬性是用於參考標籤管理資料的總體容器。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-web">為網路建立或設定標記屬性</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=zh-Hant#for-web">為網路建立或設定標記屬性</a></td>
 </tr>
 
 <tr>
@@ -90,7 +90,7 @@ ht-degree: 16%
 <tr>
 <td>8</td>
 <td><b>迭代、驗證並發佈</b>至生產環境。內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">內嵌程式碼</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant">發佈總覽</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant#embed-code">內嵌程式碼</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant">發佈總覽</a></td>
 </tr>
 
 </table>

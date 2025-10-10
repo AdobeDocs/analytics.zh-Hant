@@ -35,7 +35,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 ## 使用 Web SDK 的第一方裝置 ID (FPID)
 
-使用 Adobe Experience Platform Web SDK，您可以選擇設定和管理您自己的裝置識別碼，而不是使用 Adobe 生成的 Experience Cloud ID (ECID)。 這些被稱為第一方裝置 ID (FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)。
+使用 Adobe Experience Platform Web SDK，您可以選擇設定和管理您自己的裝置識別碼，而不是使用 Adobe 生成的 Experience Cloud ID (ECID)。 這些被稱為第一方裝置 ID (FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hant)。
 
 ## 詳細資訊
 

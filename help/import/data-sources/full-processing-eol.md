@@ -34,12 +34,12 @@ ht-degree: 4%
 * **`aamlh`**： Adobe Audience Manager位置提示。
 * **`contextData.key`**： [內容資料變數](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**： Experience Cloud ID服務變數。 包含 `id`、`authState` 和 `isMCSeed`。
-* **`hints`**： [使用者端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html)變數。 包含`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
+* **`hints`**： [使用者端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant)變數。 包含`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
 * **`ipaddress`**：訪客的IP位址。
 * **`language`**： [語言](/help/components/dimensions/language.md)維度。
 * **`list1`** - **`list3`**： [清單變數](/help/implement/vars/page-vars/list.md)。
 * **`marketingCloudVisitorID`**：訪客的Experience Cloud ID。
-* **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)整合中所使用的Target資料裝載。
+* **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合中所使用的Target資料裝載。
 * **`trackingServer`**： [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)變數。
 * **`transactionID`**： [`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數。
 * **`userAgent`**：裝置的使用者代理字串。

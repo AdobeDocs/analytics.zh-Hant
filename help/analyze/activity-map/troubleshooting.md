@@ -19,7 +19,7 @@ ht-degree: 15%
 
 首先，請確定AppMeasurement正確收集Activity Map資料。
 
-1. 下載並安裝[Adobe Experience Cloud Debugger Chrome擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/home)。
+1. 下載並安裝[Adobe Experience Cloud Debugger Chrome擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)。
 2. 導覽至您的網頁，然後按一下連結。
 3. 後續頁面載入時，請開啟偵錯工具。 驗證您看到夾在`activitymap.`和`.activitymap`之間的Activity Map內容資料變數：
 

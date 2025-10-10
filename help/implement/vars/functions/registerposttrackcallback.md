@@ -41,7 +41,7 @@ alloy("sendEvent",{
 });
 ```
 
-如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events)。
+如需詳細資訊，請參閱Web SDK檔案中的[處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#handling-responses-from-events)。
 
 ## 使用Adobe Analytics擴充功能註冊後續追蹤回呼
 

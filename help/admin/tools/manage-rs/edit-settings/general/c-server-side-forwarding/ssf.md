@@ -33,12 +33,12 @@ ht-degree: 100%
 
 ## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) 確認 ECID 服務實施情形
 
-檢查 [Analytics 追蹤請求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)，確認是否已實施 Experience Cloud ID (ECID) 服務。
+檢查 [Analytics 追蹤請求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hant)，確認是否已實施 Experience Cloud ID (ECID) 服務。
 
 在「請求」索引標籤中，確認 ECID 值已完成設定。此步驟可告訴您身分識別服務已正確實施，此為伺服器端轉送的必要條件。
 
 * 如果畫面顯示 ECID 值，請繼續執行步驟 2。
-* 如果未顯示 ECID 值，請先[實施身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)，再繼續執行步驟 2。
+* 如果未顯示 ECID 值，請先[實施身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hant)，再繼續執行步驟 2。
 
 ## ![step2_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) 確認伺服器端轉送實施版本
 
@@ -52,10 +52,10 @@ ht-degree: 100%
 
    * **具有 DIL 的 Adob&#x200B;&#x200B;e Audience Manager 客戶**：密切協調下列兩個項目：
 
-      1. 移除 DIL 程式碼，並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼。
+      1. 移除 DIL 程式碼，並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼。
       1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。未移除 DIL 程式碼即啟用此設定將會使資料重複，並建立對 Audience Manager 的其他計費伺服器呼叫。
 
-   * **新 Adobe Audience Manager 客戶** - 安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼，並繼續進行步驟 3。在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
+   * **新 Adobe Audience Manager 客戶** - 安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼，並繼續進行步驟 3。在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
 
 ## ![step3_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 確認報表套裝的伺服器端轉送實施情形
 
@@ -71,4 +71,4 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) 或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。
+>您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant) 或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。

@@ -15,7 +15,7 @@ ht-degree: 2%
 
 下表顯示Adobe Experience Platform Edge Network自動對應至Adobe Analytics的資料物件變數。 如果您使用這些資料物件欄位路徑，則傳送資料至Adobe Analytics不需要額外的設定。
 
-如果您日後打算使用Customer Journey Analytics，建議使用這些欄位。 此實作方法可讓貴組織使用Web SDK將資料傳送至Adobe，而不需遵守XDM結構描述。 當您的組織準備好將資料傳送至Adobe Experience Platform時，您可以使用[資料流對應](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping)將資料物件欄位指向其各自的XDM欄位。
+如果您日後打算使用Customer Journey Analytics，建議使用這些欄位。 此實作方法可讓貴組織使用Web SDK將資料傳送至Adobe，而不需遵守XDM結構描述。 當您的組織準備好將資料傳送至Adobe Experience Platform時，您可以使用[資料流對應](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/data-prep#mapping)將資料物件欄位指向其各自的XDM欄位。
 
 ## 值優先順序
 

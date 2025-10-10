@@ -21,7 +21,7 @@ ht-degree: 12%
 
 ## 網頁SDK JavaScript資料庫中的連結排除
 
-啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`filterClickDetails`物件中使用`clickCollection`回呼。 在此回撥中，您可以檢查`linkName`的值，然後變更值或放棄連結追蹤資料的集合。
+啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`filterClickDetails`物件中使用`clickCollection`回呼。 在此回撥中，您可以檢查`linkName`的值，然後變更值或放棄連結追蹤資料的集合。
 
 ```js
 alloy("configure", {

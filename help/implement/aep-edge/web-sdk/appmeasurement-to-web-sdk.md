@@ -61,9 +61,9 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++**3.設定網頁SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
 
-在網頁SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId`和](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`屬性：
+在網頁SDK [`datastreamId`命令中使用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/datastreamid) [`orgId`和](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/orgid)`configure`屬性：
 
 * 將`datastreamId`設定為在上一步中擷取的資料串流識別碼。
 * 將`orgId`設定為您組織的IMS組織。
@@ -75,7 +75,7 @@ alloy("configure", {
 });
 ```
 
-您可以視您組織的實作需求，選擇在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中設定其他屬性。
+您可以視您組織的實作需求，選擇在[`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令中設定其他屬性。
 
 +++
 
@@ -116,7 +116,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5.更新方法呼叫以使用Web SDK**
 
-更新呼叫[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有執行個體，將它們取代為[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 我們需考慮三種情況：
+更新呼叫[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有執行個體，將它們取代為[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 我們需考慮三種情況：
 
 * **頁面檢視追蹤**：以Web SDK `sendEvent`命令取代頁面檢視追蹤呼叫：
 
@@ -128,7 +128,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自動連結追蹤**： [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設定屬性預設為啟用。 它會自動設定正確的連結追蹤變數，以將資料傳送至Adobe Analytics。 如果您想要停用自動連結追蹤，請在`false`[`configure`命令內將此屬性設定為](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)。
+* **自動連結追蹤**： [`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設定屬性預設為啟用。 它會自動設定正確的連結追蹤變數，以將資料傳送至Adobe Analytics。 如果您想要停用自動連結追蹤，請在`false`[`configure`命令內將此屬性設定為](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)。
 
 * **手動連結追蹤**：網頁SDK在pageview和非頁面檢視呼叫之間沒有個別的命令。 在裝載物件內提供該區別。
 

@@ -37,7 +37,7 @@ ht-degree: 96%
 
 ### 在規則中設定變數
 
-不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform 標記文件中的「[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)」。
+不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform 標記文件中的「[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=zh-Hant)」。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。

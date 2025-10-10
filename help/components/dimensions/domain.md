@@ -19,7 +19,7 @@ ht-degree: 52%
 Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，以決定存取點網域。有幾種方法 (包括反向 DNS 查詢) 是用來確定存取點網域。不需要任何設定，也沒有變數需填入。
 
 * 對於AppMeasurement實作，此維度可直接運作。
-* 針對Web SDK實作，請在[!UICONTROL 設定資料流]時啟用[網路查詢](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)。
+* 針對Web SDK實作，請在[!UICONTROL 設定資料流]時啟用[網路查詢](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)。
 
 ## 維度項目
 

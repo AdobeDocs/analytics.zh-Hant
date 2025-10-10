@@ -47,7 +47,7 @@ alloy("sendEvent", {
 });
 ```
 
-如需詳細資訊，請參閱網頁SDK檔案中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#using-the-sendbeacon-api)。
+如需詳細資訊，請參閱網頁SDK檔案中的[使用sendBeacon API](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#using-the-sendbeacon-api)。
 
 ## 透過Adobe Analytics擴充功能使用信標
 

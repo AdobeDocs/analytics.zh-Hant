@@ -138,7 +138,7 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 停用Activity Map的方法取決於您的實作型別：
 
 * **Web SDK擴充功能**：在擴充功能組態設定中，取消勾選&#x200B;**[!UICONTROL 收集內部連結點按次數]**、**[!UICONTROL 收集外部連結點按次數]**&#x200B;和&#x200B;**[!UICONTROL 收集下載連結點按次數]**&#x200B;方塊。
-* **Web SDK JavaScript資料庫**：將[`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設為`false`。
+* **Web SDK JavaScript資料庫**：將[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設為`false`。
 * **Analytics擴充功能**：在擴充功能組態設定中，取消勾選標示為&#x200B;**[!UICONTROL 使用Activity Map]**&#x200B;的方塊。
 * **AppMeasurement**：移除或註解`AppMeasurement.js`中的Activity Map模組，或使用空白內文覆寫模組函式呼叫：
 
