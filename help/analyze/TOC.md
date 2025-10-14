@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 99%
 
 ---
 
@@ -81,12 +81,13 @@ ht-degree: 100%
       + 自由格式表格 {#freeform-table}
          + [概觀](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [建立超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [檢視趨勢資料](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [篩選和排序](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + 欄和列的設定 {#column-row-settings}
             + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [篩選和排序](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [概觀](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定](analysis-workspace/visualizations/cohort-table/t-cohort.md)

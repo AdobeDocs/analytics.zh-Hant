@@ -5,10 +5,10 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: Visualizations
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 9035ea758a5e84812460c042685eae954303cc8a
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的折線圖視覺效果。_<br/>_請參閱[折線圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/line)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的折線圖視覺效果。_<br/>_請參閱[折線圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/line)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -43,13 +43,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 |---|---|
 | **[!UICONTROL 詳細程度]** | 請從詳細程度下拉式清單中選取，以將趨勢視覺效果從每日變更為每週、每月等。詳細程度也會在資料來源表格中更新。 |
 | **[!UICONTROL 顯示最小值]**<br/>**[!UICONTROL 顯示最大值&#x200B;]** | 您可以覆蓋最小值和最大值標籤以醒目提示顯示量度中的最小值和最大值。最小值/最大值是從視覺效果中的可見資料點衍生而來，而非維度中的完整數值集。<br/>![使用最小值和最大值標籤的覆蓋。](assets/min-max-labels.png) |
-| **[!UICONTROL 顯示趨勢線]** | 您可以選擇新增迴歸或移動平均趨勢線至您的折線圖序列。趨勢線有助於描繪出資料中更清晰的模式。選取後，從清單中選取一個模型。請參閱[模型](#models)，以了解可用模型的概觀和說明。<br/>![線性趨勢線](assets/show-linear-trendline.png)。 |
-
->[!TIP]
->
->建議將趨勢線套用至不包括今天 (部分資料) 或未來日期的資料。今天或未來日期的資料會扭曲趨勢線。但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。請前往視覺效果的資料來源表格，選擇您的量度欄，然後啟用「**[!UICONTROL 欄位設定]** > **[!UICONTROL 將零解讀為無值]**」。
-
-
+| **[!UICONTROL 顯示趨勢線]** | 您可以選擇新增迴歸或移動平均趨勢線至您的折線圖序列。趨勢線有助於描繪出資料中更清晰的模式。選取後，從清單中選取一個模型。請參閱[模型](#models)，以了解可用模型的概觀和說明。<br/>![線性趨勢線](assets/show-linear-trendline.png)。<p>**提示**&#x200B;建議將趨勢線套用至不包含今天（部分資料）或未來日期的資料。 今天或未來日期的資料會扭曲趨勢線。但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。請前往視覺效果的資料來源表格，選擇您的量度欄，然後啟用「**[!UICONTROL 欄位設定]** > **[!UICONTROL 將零解讀為無值]**」。</p> |
 
 ### 模型
 
@@ -67,7 +61,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
