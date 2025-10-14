@@ -3,10 +3,10 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,34 @@ ht-degree: 96%
 
 * **分類/建立書籤**：點擊沒有反向連結資料。
 * **搜尋引擎**：反向連結來自於已認可、且包含關鍵字查詢字串的搜尋引擎。
+* **交談AI工具**：反向連結來自於認可的交談AI工具。
 * **社交網路：**：反向連結資料屬於 Adobe 認可的社交網路。
 * **其他網站**：反向連結資料不屬於 Adobe 認可的搜尋引擎或社交網路。
+* **無JavaScript**：反向連結來自於未啟用JavaScript的瀏覽器。
 * **硬碟**：反向連結源自於訪客硬碟上的網頁本機複本。
 * **電子郵件**：反向連結源自於具有通訊協定 `imap://` 或 `mail://` 的 URL。其中不包括線上電子郵件服務，因為這些服務通常使用 `https://` 通訊協定。
+
+### 對話式人工智慧工具
+
+下列清單列出Adobe所使用的「對話式AI工具」查詢表。 Adobe 提供此清單以便 Adobe Analytics 客戶使用。如果您想要建議 Adobe 在此清單中新增某個網域，請透過組織中的支援委派聯絡客戶服務。
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### 社交網路
 

@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
    + [比較資料與第三方產品](ga-to-aa/compare-data.md)
++ [分析AI流量](/help/technotes/ai-traffic.md)
 + 分析受事件影響的資料 {#event}
    + [分析受事件影響的資料概觀](event/overview.md)
    + [疑難排解資料的尖峰/下降](event/spikes-drops.md)
