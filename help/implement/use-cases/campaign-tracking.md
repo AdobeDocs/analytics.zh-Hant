@@ -20,7 +20,7 @@ ht-degree: 100%
 1. [設定或調整您的 Adobe Analytics 實施以包含追蹤程式碼資料](#include-campaign-variables-in-your-implementation)
 1. [檢視 Analysis Workspace 中的報告](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) 可以有助於簡化這些步驟中的每一步，進而從您的行銷工作中獲取最大價值。如需詳細資訊，請聯絡 Adobe 業務代表。
+[Adobe Campaign](https://business.adobe.com/tw/products/campaign/adobe-campaign.html) 可以有助於簡化這些步驟中的每一步，進而從您的行銷工作中獲取最大價值。如需詳細資訊，請聯絡 Adobe 業務代表。
 
 ## 建立追蹤程式碼產生流程
 

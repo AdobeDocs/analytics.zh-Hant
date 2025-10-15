@@ -39,7 +39,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 ## 詳細資訊
 
-如需了解貴公司可採取哪些實用步驟來脫離第三方 Cookie，請參閱[借助 Adobe 獲得客戶並在無 Cookie 的世界中留住客戶](https://business.adobe.com/solutions/cookieless.html)和深入的[超越第三方 Cookie 的思維：您通往無第三方 Cookie 的世界的完整指南](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)。
+如需了解貴公司可採取哪些實用步驟來脫離第三方 Cookie，請參閱[借助 Adobe 獲得客戶並在無 Cookie 的世界中留住客戶](https://business.adobe.com/tw/solutions/cookieless.html)和深入的[超越第三方 Cookie 的思維：您通往無第三方 Cookie 的世界的完整指南](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)。
 
 >[!MORELIKETHIS]
 >
