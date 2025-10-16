@@ -46,7 +46,7 @@ ht-degree: 99%
 
 ## 實作重新導向 {#implement}
 
-若要透過重新導向擷取 [!DNL Analytics][!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
+若要透過重新導向擷取 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
 
 完成下列步驟，可保留原始反向連結 (例如前述案例中的 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 傳至您網站的資訊:
 
