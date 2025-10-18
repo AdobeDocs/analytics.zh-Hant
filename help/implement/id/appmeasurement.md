@@ -62,9 +62,9 @@ AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收�
 >
 >Adobe建議不要使用此方法來識別訪客。
 
-如果貴組織未使用訪客ID服務，AppMeasurement會使用專屬的訪客身分識別形式。 當訪客首次進入您的網站時，資料庫會檢查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie設定於符合[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （適用於HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) （適用於HTTP）的網域中。
+如果貴組織未使用訪客ID服務，AppMeasurement會使用專屬的訪客身分識別形式。 當訪客首次進入您的網站時，資料庫會檢查[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie設定於符合[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （適用於HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) （適用於HTTP）的網域中。
 
-* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
+* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
 * 如果您不參與Managed憑證方案，追蹤伺服器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子網域，使`s_vi` Cookie成為協力廠商Cookie。 由於現今瀏覽器隱私權實務趨於嚴謹，大部分的瀏覽器都會拒絕協力廠商Cookie。 在遭到拒絕後，AppMeasurement會嘗試改為設定第一方備援Cookie (`fid`)。
 
 如果您正確設定`trackingServerSecure`，則不需要進一步的訪客識別測量。
