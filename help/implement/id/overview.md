@@ -24,9 +24,9 @@ Adobe收到點選時，會依序進行下列檢查。 如果特定屬性存在�
 | 使用的順序 | 查詢參數 | 顯示時機 |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數已設定。 |
-| **2<sup>nd</sup>** | `aid` | 訪客有現有的[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
-| **3<sup>rd</sup>** | `mid` | 訪客有現有的[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)的實施上設定。 Adobe建議儘可能將ID服務用於所有實作。 |
-| **4<sup>th</sup>** | `fid` | 訪客有現有的[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie，或因任何原因而無法設定`aid`和`mid`。 |
+| **2<sup>nd</sup>** | `aid` | 訪客有現有的[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
+| **3<sup>rd</sup>** | `mid` | 訪客有現有的[`s_ecid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在使用[Adobe Experience Cloud Identity服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)的實施上設定。 Adobe建議儘可能將ID服務用於所有實作。 |
+| **4<sup>th</sup>** | `fid` | 訪客有現有的[`s_fid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie，或因任何原因而無法設定`aid`和`mid`。 |
 | **5<sup>th</sup>** | IP 位址、使用者代理、閘道 IP 位址 | 當訪客的瀏覽器不接受Cookie時，作為最後的手段用來識別不重複訪客。 |
 
 ## 影響不重複訪客計數的行為
