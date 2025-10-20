@@ -1,7 +1,7 @@
 ---
 title: 使用Adobe Analytics標籤擴充功能的訪客身分識別
 description: 實作Adobe Analytics標籤擴充功能時正確識別訪客。
-source-git-commit: 5bd1914dc52c664348f30793761f0fc347343156
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -30,10 +30,10 @@ Adobe Analytics標籤擴充功能可讓您使用標籤管理介面實施AppMeasu
 >
 >Adobe建議不要使用此方法來識別訪客。
 
-如果您的組織未使用訪客ID服務標籤擴充功能，Adobe Analytics標籤擴充功能將使用其本身的訪客身分識別形式。 當訪客首次進入您的網站時，擴充功能會檢查[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 當&#x200B;**[!UICONTROL 設定標籤延伸模組]**&#x200B;時，此Cookie設定在符合&#x200B;**[!UICONTROL SSL追蹤伺服器]** （適用於HTTPS）或[追蹤伺服器](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/analytics/overview) （適用於HTTP）的網域上。
+如果您的組織未使用訪客ID服務標籤擴充功能，Adobe Analytics標籤擴充功能將使用其本身的訪客身分識別形式。 當訪客首次進入您的網站時，擴充功能會檢查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 當&#x200B;**[!UICONTROL 設定標籤延伸模組]**&#x200B;時，此Cookie設定在符合&#x200B;**[!UICONTROL SSL追蹤伺服器]** （適用於HTTPS）或[追蹤伺服器](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) （適用於HTTP）的網域上。
 
-* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
-* 如果您不參與Managed憑證計畫，追蹤伺服器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子網域，使`s_vi` Cookie成為協力廠商Cookie。 由於現今瀏覽器隱私權實務趨於嚴謹，大部分的瀏覽器都會拒絕協力廠商Cookie。 在遭到拒絕後，AppMeasurement會嘗試改為設定第一方備援Cookie (`fid`)。
+* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
+* 如果您不參與Managed憑證計畫，追蹤伺服器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子網域，使`s_vi` Cookie成為協力廠商Cookie。 由於現今瀏覽器隱私權標準限制，大部分的瀏覽器都會拒絕第三方Cookie。 在遭到拒絕後，AppMeasurement會嘗試改為設定第一方備援Cookie (`fid`)。
 
 如果您正確設定[!UICONTROL SSL追蹤伺服器]，則不需要進一步的訪客識別測量。
 

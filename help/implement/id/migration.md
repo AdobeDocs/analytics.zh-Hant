@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics的訪客ID服務移轉考量事項
 description: 概述Adobe Analytics與訪客ID服務的介面。
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -28,10 +28,10 @@ ht-degree: 0%
 
 ## 跨網域追蹤
 
-有些舊版Analytics訪客ID實作可能會使用「友善的第三方Cookie」，也就是兩個網域在像`data.example.com`這樣的通用網域上共用相同的訪客Cookie。 由於友善的第三方Cookie仍是第三方Cookie，因此大部分的現代瀏覽器都會加以拒絕，導致Analytics仰賴備援ID (`fid`)來識別訪客。 移至ID服務可讓所有網域在第一方內容中設定`AMCV` Cookie，增加其保留訪客ID的可行性。
+有些舊版Analytics訪客ID實作可能會使用「友善的第三方Cookie」，也就是兩個網域在像`data.example.com`這樣的通用網域上共用相同的訪客Cookie。 由於好記的第三方Cookie仍是第三方Cookie，許多現代瀏覽器會加以拒絕，導致Analytics依賴備援ID (`fid`)來識別訪客。 移至ID服務可讓所有網域在第一方內容中設定`AMCV` Cookie，增加其保留訪客ID的可行性。
 
-當訪客ID服務嘗試為跨網域追蹤設定第三方Cookie ([`demdex` Cookie](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/cookies))時，它經常被大多數的現代瀏覽器拒絕。 請考慮使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/appendvisitorid)方法，在您擁有的網域之間傳遞Experience Cloud ID。
+當訪客ID服務嘗試設定跨網域追蹤的第三方Cookie ([`demdex` Cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies))時，它經常被現代瀏覽器拒絕。 請考慮使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid)方法，在您擁有的網域之間傳遞訪客的Experience Cloud ID (`mid`)。
 
 ## 伺服器端追蹤
 
-您可以呼叫[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getmcvid)以取得Experience Cloud ID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以取得舊版Analytics ID (`aid`)。 Adobe建議同時檢查兩者，以保留訪客身分識別邏輯。
+您可以呼叫[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)以取得Experience Cloud ID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以取得舊版Analytics ID (`aid`)。 Adobe建議同時檢查兩者，以保留訪客身分識別邏輯。

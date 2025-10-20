@@ -4,10 +4,10 @@ description: 使用不同的實施類型，順暢地在不同的實施間追蹤�
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 64%
+source-wordcount: '377'
+ht-degree: 59%
 
 ---
 
@@ -29,4 +29,4 @@ Adobe 建議在所有頁面上使用相同的實施類型來保持網站實施�
 | Experience Cloud ID 服務 | 實作 [`VisitorAPI.js`](appmeasurement.md) | 使用[Experience Cloud ID服務擴充功能](analytics-extension.md) | [原生包含](alloy.md) | [原生包含](web-sdk-extension.md) | 對ID服務[進行](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=zh-Hant)個別呼叫以取得所需的ID，並將`mid`納入查詢字串中 |
 | Edge網域 | [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md)變數 | 在[!UICONTROL 設定擴充功能]時，位於[!UICONTROL 一般]區段下的[SSL追蹤伺服器](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hant) | [設定 Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) 時，`edgeDomain` 屬性 | [!UICONTROL 設定擴充功能]時的[Edge網域](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=zh-Hant)欄位 | 影像的 `hostname` 請求 URL |
 
-如果在各個實施類型中有變數不一致，Adobe 會將其視為單獨的訪客。如果訪客未在您網站上跨實施類型進行無縫追蹤，最常見的原因是 ID 服務設定不正確。請確定每個實作型別在您的網站上正確取得相同的Experience Cloud ID (`mid`)。
+如果這些變數在每種實施型別中不一致，Adobe可能會將其視為個別訪客。 如果訪客未在您網站上跨實施類型進行無縫追蹤，最常見的原因是 ID 服務設定不正確。請確定每個實作型別在您的網站上正確取得相同的Experience Cloud ID (`mid`)。

@@ -1,9 +1,9 @@
 ---
 title: 使用網頁SDK標籤擴充功能識別訪客
 description: 實作網頁SDK標籤擴充功能時，正確識別訪客。
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
