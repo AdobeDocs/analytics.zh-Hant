@@ -29,7 +29,7 @@ Adobe收到點選時，會依序進行下列檢查。 如果特定屬性存在�
 | **4<sup>th</sup>** | `fid` | 訪客有現有的[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由於任何原因而無法設定`aid`和`mid`，AppMeasurement會自動產生遞補ID。 |
 | **5<sup>th</sup>** | IP位址+使用者代理 | 當訪客的瀏覽器不接受Cookie時，作為最後的手段用來識別不重複訪客。 雜湊訪客ID是在[IP模糊化](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)之前產生。 如果IP位址無法使用，則改用其他IP詳細資訊（例如閘道IP）。 |
 
-接著，選取的訪客ID會經過雜湊處理，成為其伺服器端識別碼。 此伺服器端識別碼可在`visid_high`資料摘要`visid_low`中當作[ + ](/help/export/analytics-data-feed/data-feed-overview.md)使用。
+接著，選取的訪客ID會經過雜湊處理，成為其伺服器端識別碼。 此伺服器端識別碼可在`visid_high`資料摘要`visid_low`中當作[&#x200B; + &#x200B;](/help/export/analytics-data-feed/data-feed-overview.md)使用。
 
 ## 影響不重複訪客計數的行為
 
