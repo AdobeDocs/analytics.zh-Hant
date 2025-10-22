@@ -1,9 +1,9 @@
 ---
 title: 使用AppMeasurement識別訪客
 description: 使用AppMeasurement實作Adobe Analytics時正確識別訪客。
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收�
 >
 >Adobe建議不要使用此方法來識別訪客。
 
-如果貴組織未使用訪客ID服務，AppMeasurement會使用專屬的訪客身分識別形式。 當訪客首次進入您的網站時，資料庫會檢查[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie設定於符合[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （適用於HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) （適用於HTTP）的網域中。
+如果貴組織未使用訪客ID服務，AppMeasurement會使用專屬的訪客身分識別形式。 當訪客首次進入您的網站時，資料庫會檢查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie設定於符合[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （適用於HTTPS）或[`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) （適用於HTTP）的網域中。
 
-* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
+* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
 * 如果您不參與Managed憑證方案，追蹤伺服器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子網域，使`s_vi` Cookie成為協力廠商Cookie。 由於現今瀏覽器隱私權標準限制，大部分的瀏覽器都會拒絕第三方Cookie。 在遭到拒絕後，AppMeasurement會嘗試改為設定第一方備援Cookie (`fid`)。
 
 如果您正確設定`trackingServerSecure`，則不需要進一步的訪客識別測量。
@@ -82,7 +82,7 @@ AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收�
 * 每個點選都必須包含相同的`visitorID`值，才能計為單一訪客。
    * 任何省略`visitorID`的點選都會自動嘗試使用其他訪客識別方法，將其視為個別訪客。
    * 任何包含與先前點選不同的`visitorID`值的點選會視為個別訪客。
-   * Adobe不提供任何方式將使用不同訪客ID的點選拼接在一起。
+   * Adobe不提供在Adobe Analytics中使用不同訪客ID來拼接點選的方法。
 * 使用`visitorID`識別的訪客不支援共用受眾、Analytics for Target和Customer屬性。
 
 如需使用此變數的實作指示，請參閱[`visitorID`](/help/implement/vars/config-vars/visitorid.md)。

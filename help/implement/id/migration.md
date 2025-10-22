@@ -1,16 +1,20 @@
 ---
 title: Adobe Analytics的訪客ID服務移轉考量事項
 description: 概述Adobe Analytics與訪客ID服務的介面。
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: f682f9c8533536e9b33f320f2a420055c6f4e397
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics的訪客ID服務移轉考量事項
 
-如果您的組織打算使用現有的Analytics實作改用訪客ID服務，有些重要主題值得考慮。 這些考量事項對於維持訪客身分識別的完整性，以及瞭解ID服務在存在現有Analytics實作時如何運作非常重要。
+如果您的組織打算使用現有的Analytics實作改用訪客ID服務，有些重要主題值得考慮。 這些考量事項可讓您維持訪客身分識別的完整性，並瞭解ID服務在現有Analytics實作存在時的運作方式。
+
+>[!TIP]
+>
+>此頁面僅適用於現有的AppMeasurement或Analytics擴充功能實作，且正在新增訪客ID服務或升級至網路SDK實作。 換言之，您的實作使用舊版Analytics ID (`aid`)，而正在改用Experience Cloud ID (`mid`)。 所有Web SDK實作已預設使用Experience Cloud ID (`mid`)。
 
 ## 訪客ID服務如何與舊版Analytics訪客Cookie介面
 
@@ -24,14 +28,14 @@ ht-degree: 0%
 
 如果您有多個將資料傳送至相同報表套裝的實作，而且只能對某些實作實作實施訪客ID服務，Adobe建議您設定寬限期。 例如，若您網站的支援區段是由獨立的標籤解決方案所管理，您可能會將訪客ID服務部署在網站其餘部分的支援區段之前。 如果沒有寬限期，檢視支援區段的新訪客會收到舊版Analytics訪客ID，導致系統計算兩個不同的訪客。 若使用寬限期，訪客ID服務會同時發出Experience Cloud ID (`mid`)和舊版Analytics訪客ID (`aid`)，讓沒有ID服務的網站區域能持續識別訪客。
 
-如果您在網站的所有區域間協調訪客ID服務的部署，就不需要寬限期。 若要設定寬限期，請連絡[Adobe客戶服務](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。
+如果您在網站的所有區域間協調訪客ID服務的部署，就不需要寬限期。 若要設定寬限期，請連絡[Adobe客戶服務](https://helpx.adobe.com/tw/marketing-cloud/contact-support.html)。 寬限期最多可設定180天，且可續約。 Adobe建議您在整個屬性設定為使用ID服務後，停止寬限期。
 
 ## 跨網域追蹤
 
 有些舊版Analytics訪客ID實作可能會使用「友善的第三方Cookie」，也就是兩個網域在像`data.example.com`這樣的通用網域上共用相同的訪客Cookie。 由於好記的第三方Cookie仍是第三方Cookie，許多現代瀏覽器會加以拒絕，導致Analytics依賴備援ID (`fid`)來識別訪客。 移至ID服務可讓所有網域在第一方內容中設定`AMCV` Cookie，增加其保留訪客ID的可行性。
 
-當訪客ID服務嘗試設定跨網域追蹤的第三方Cookie ([`demdex` Cookie](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/cookies))時，它經常被現代瀏覽器拒絕。 請考慮使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/appendvisitorid)方法，在您擁有的網域之間傳遞訪客的Experience Cloud ID (`mid`)。
+當訪客ID服務嘗試設定跨網域追蹤的第三方Cookie ([`demdex` Cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies))時，它經常被現代瀏覽器拒絕。 請考慮使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid)方法，在您擁有的網域之間傳遞訪客的Experience Cloud ID (`mid`)。
 
 ## 伺服器端追蹤
 
-您可以呼叫[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getmcvid)以取得Experience Cloud ID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以取得舊版Analytics ID (`aid`)。 Adobe建議同時檢查兩者，以保留訪客身分識別邏輯。
+您可以呼叫[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)以取得Experience Cloud ID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以取得舊版Analytics ID (`aid`)。 Adobe建議同時檢查兩者，以保留訪客身分識別邏輯。

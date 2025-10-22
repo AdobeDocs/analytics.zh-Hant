@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 94%
@@ -133,10 +133,10 @@ ht-degree: 94%
    + [整合模組](vars/integrate.md)
 + 訪客身分識別 {#id}
    + [概觀](id/overview.md)
-   + [使用AppMeasurement](id/appmeasurement.md)
-   + [使用Analytics擴充功能](id/analytics-extension.md)
-   + [使用Web SDK (Alloy)](id/alloy.md)
    + [使用Web SDK擴充功能](id/web-sdk-extension.md)
+   + [使用Web SDK (Alloy)](id/alloy.md)
+   + [使用Analytics擴充功能](id/analytics-extension.md)
+   + [使用AppMeasurement](id/appmeasurement.md)
    + [移轉至訪客ID服務](id/migration.md)
    + [追蹤各種實作型別](id/cross-type-implementation.md)
 + 準備實作 Adobe Analytics  {#prepare}
