@@ -4,10 +4,10 @@ description: 上下文資料變數可讓您在每個頁面上定義處理規則�
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 68%
+source-wordcount: '595'
+ht-degree: 64%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 68%
 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。您可以在上下文資料變數中傳送資料，而不必在程式碼中明確指派 Analytics 變數的值。處理規則接著會取用上下文資料變數值，再傳遞至個別的 Analytics 變數。請參閱「管理員使用指南」中的[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)。
 
 上下文資料變數有助於開發團隊收集命名元素中的資料，而非編號變數。例如，與其要求開發團隊將頁面的作者指派給 `eVar10`，不如要求將頁面作者指派給 `s.contextData["author"]`。接下來，貴組織中的 Analytics 管理員就可以建立處理規則，將上下文資料變數與分析變數對應，以便進行報告。開發團隊最終只需擔心上下文資料變數，不必擔心Adobe提供的許多頁面變數。
+
+所有內容資料變數的大小上限（包括索引鍵和值）為32 KB。
 
 ## 使用 Web SDK 的內容資料變數
 
@@ -54,7 +56,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * 有效的上下文資料變數只包含英數字元、底線和句點。如果您包含其他字元 (如連字號)，Adobe不保證處理規則能收集資料。
-* 請勿使用 `"a."` 來啟動上下文資料變數。此首碼由 Adobe 保留使用。例如，請勿使用 `s.contextData["a.InstallEvent"]`。
+* 請勿以`"a."`為前置詞的內容資料變數開頭。 此首碼由 Adobe 保留使用。例如，請勿使用 `s.contextData["a.InstallEvent"]`。
 * 上下文資料變數不區分大小寫。變數 `s.contextData["example"]` 等於 `s.contextData["EXAMPLE"]`。
 * 單一索引鍵不能包含多個值。 如果您想要針對多值變數使用內容資料變數，請使用分隔字元（通常是逗號）串連所有值，並使用處理規則將其傳遞至[清單prop](prop.md#list-props)或[清單變數](list.md)。
 

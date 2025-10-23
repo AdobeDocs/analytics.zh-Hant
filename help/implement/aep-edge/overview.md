@@ -4,10 +4,10 @@ description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料 - 
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 16%
+source-wordcount: '550'
+ht-degree: 15%
 
 ---
 
@@ -23,13 +23,13 @@ Adobe Experience Platform Edge Network 可讓您將預計要送給多個產品�
 
 ## `xdm`物件
 
-符合您根據[XDM](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) （體驗資料模型）建立的結構描述。 XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。如果您想要使用Adobe Analytics專屬的預先定義結構描述，您可以將[Adobe Analytics ExperienceEvent結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)新增到您的結構描述。 新增後，您可以使用Web SDK中的`xdm`物件填入此結構描述，以傳送資料至報表套裝。 資料到達Edge Network時，會將XDM物件轉譯為Adobe Analytics可瞭解的格式。
+符合您根據[XDM](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home) （體驗資料模型）建立的結構描述。 XDM 讓您在定義哪些欄位為事件一部分時更具靈活性。如果您想要使用Adobe Analytics專屬的預先定義結構描述，您可以將[Adobe Analytics ExperienceEvent結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)新增到您的結構描述。 新增後，您可以使用Web SDK中的`xdm`物件填入此結構描述，以傳送資料至報表套裝。 資料到達Edge Network時，會將XDM物件轉譯為Adobe Analytics可瞭解的格式。
 
 如需有關XDM欄位以及如何對應到Adobe Analytics變數的完整參考，請參閱[XDM物件變數對應到Analytics](xdm-var-mapping.md)。
 
 >[!TIP]
 >
->如果您日後打算改用[Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-landing)，Adobe建議您不要使用Adobe Analytics結構描述欄位群組。 Adobe建議[建立您自己的結構描述](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，並使用資料流對應來填入所需的Analytics變數。 當您準備好移至Customer Journey Analytics時，此策略不會將您鎖定在prop和eVar的結構描述。
+>如果您日後打算改用[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)，Adobe建議您不要使用Adobe Analytics結構描述欄位群組。 Adobe建議[建立您自己的結構描述](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect)，並使用資料流對應來填入所需的Analytics變數。 當您準備好移至Customer Journey Analytics時，此策略不會將您鎖定在prop和eVar的結構描述。
 
 ## `data`物件
 
@@ -78,3 +78,5 @@ a.x.objectarray.0.ad1 // 300x200
 a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
+
+特定內容資料變數裝載（包括索引鍵和值）的大小上限為32 KB。 您可以調整相關欄位，讓Adobe Analytics在[`xdm`](xdm-var-mapping.md)或[`data`](data-var-mapping.md)物件中辨識這些欄位，藉此縮小此裝載的大小。
