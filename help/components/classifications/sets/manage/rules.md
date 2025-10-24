@@ -1,51 +1,60 @@
 ---
-title: 分類集規則
-description: 檢視和編輯個別分類集的規則。
+title: 分類設定規則
+description: 瞭解如何檢視和編輯「分類設定」規則。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 # 分類集規則
 
-分類設定規則可讓您根據變數設定的值自動分類值。 這些規則適用於分類集所有訂閱的所有傳入變數值。
+>[!IMPORTANT]
+>
+>分類設定尚不支援規則。 在舊版規則產生器功能無法使用之前，已將規則功能新增到分類集介面。
+>>如果您確實需要分類的規則，請繼續使用[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)。
 
-**[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 設定]** >按一下想要的分類設定名稱> **[!UICONTROL 規則]**
 
-![分類設定規則UI](../../assets/csets-rules.png)
+<!--
+Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
-## 規則設定
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-套用至整個規則集的設定。
+![classification set rules UI](../../assets/csets-rules.png)
 
-* **[!UICONTROL 規則覆寫]**：決定存在分類值時所有規則的行為。
-   * **[!UICONTROL 套用至所有值]**：如果規則相符，一律覆寫分類值。
-   * **[!UICONTROL 僅套用至未設定的值]**：如果規則相符，則僅寫入空白的分類值。 如果分類值存在，不執行任何動作。
-* **[!UICONTROL 回顧期間]**：此規則啟動時，所有規則都會針對此處所設定的回顧期間內所見的所有唯一值執行。
+## Rule settings
 
-## 規則
+Settings that apply to the entire set of rules.
 
-針對每個唯一值執行的規則清單。
+* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
+  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
+  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
+* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
 
-* **[!UICONTROL 搜尋]**：可讓您依據符合條件篩選規則的搜尋方塊。
-* **[!UICONTROL 新增規則]**：將空白列新增至規則表格。
-* **[!UICONTROL 測試規則集]**：開啟可讓您驗證規則的測試UI。 在左側，您可以手動輸入索引鍵值，也可以拖放分類檔案以匯入許多要作為測試依據的值。 右邊是一個表格，顯示啟動規則集時分類值的初步結果。 由於此介面僅供驗證，因此不會分類任何值。
+## Rules
 
-按一下所需規則旁的核取方塊，選取一或多個規則。 選取規則後，會顯示下列選項：
+A list of rules that run for each unique value.
 
-* **[!UICONTROL 刪除]**：從規則表格中刪除列。
-* **[!UICONTROL 複製]**：將選取的資料列複製到規則表格中的新資料列。
+* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
+* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
+* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
 
-## 規則表格
+Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
 
-規則表格會垂直分成兩個主要部分：比對條件和分類動作。 每一列（個別規則）都包含比對條件和分類動作。
+* **[!UICONTROL Delete]**: Deletes the row from the rule table.
+* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
-* **規則編號**：規則的執行順序與設定規則表格的順序相同。 如果[!UICONTROL 規則覆寫]設定為[!UICONTROL 套用至所有值]，則最後一個符合的規則會覆寫相同分類維度的任何先前規則。 如果[!UICONTROL 規則覆寫]設定為[!UICONTROL 僅套用至未設定的值]，則套用設定分類值的第一個規則。
-* **[!UICONTROL 選取規則型別]**：規則條件。 選項包括[!UICONTROL 包含]、[!UICONTROL 結尾為]、[!UICONTROL 規則運算式]、[!UICONTROL 規則運算式]和[!UICONTROL 開頭為]。
-* **[!UICONTROL 輸入符合條件]**：要符合的文字字串。 如果您選取[!UICONTROL 規則運算式]作為規則型別，則會出現覆蓋圖，讓您輸入值、測試規則運算式並提供範例語法。
-* **[!UICONTROL 設定分類]**：一個下拉式清單，會設定您要指派值的分類維度。 有效的選項包括[結構描述](schema.md)中的元素。
-* **[!UICONTROL To]**：要設定分類值的文字字串。 如果規則型別為[!UICONTROL 規則運算式]，您可以包含文字和相符群組的組合。
+## Rule table
+
+The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
+
+* **Rule number**: Rules run in the same order that you configure the rule table. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to all values], the last matching rule overwrites any previous rules for the same classification dimension. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to only unset values], the first rule that sets a classification value applies.
+* **[!UICONTROL Select rule type]**: The rule criteria. Options include [!UICONTROL Contains], [!UICONTROL Ends with], [!UICONTROL Regular expression], [!UICONTROL Regular expression], and [!UICONTROL Starts with].
+* **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
+* **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
+* **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+
+-->

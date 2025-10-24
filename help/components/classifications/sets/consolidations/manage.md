@@ -1,40 +1,118 @@
 ---
-title: 分類集彙總管理員
-description: 將一或多個分類集合併為單一分類集。
+title: 管理「分類設定」合併
+description: 瞭解如何將一個或多個分類設定合併為單一分類設定。
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 5c2643a143e5c8e17fcf11cfa2da81183bc5c39a
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 6%
+source-wordcount: '594'
+ht-degree: 3%
 
 ---
 
-# 分類集整合管理員
+# 管理分類合併
 
-如果您有多個包含類似資料的分類集，您可以將它們合併成單一分類集。 合併兩個或多個分類集時，Adobe會產生新的分類集，其中包含來自每個個別分類集的所有分類資料。 當您上傳資料至許多包含相同分類資料的報表套裝或維度，並想要將其合併至單一工作流程時，合併會很有用。 您必須擁有Adobe Analytics的產品管理員存取權，才能檢視分類集合併管理員。
+如果您有多個包含類似分類資料的分類集，您可以將它們合併成單一分類集。 合併兩個或多個分類集時，Adobe會產生新的分類集，其中包含來自每個個別分類集的所有分類資料。 當您將資料上傳到許多報表套裝時，合併會很有用。 或者，當您有包含相同分類資料的維度，且想要將其合併為單一工作流程時。
 
-**[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 合併]**
+您必須擁有Adobe Analytics的產品管理員存取權，才能檢視分類集合併管理員。
 
-執行合併後，會移除原始分類設定，而合併的分類設定會取而代之。 按一下&#x200B;**[!UICONTROL 新增]**&#x200B;至[建立合併](process.md)。
 
-## 篩選「分類設定」
 
-分類設定合併管理員的左側會提供篩選設定，以找出所需的合併。 按一下篩選圖示切換篩選設定可見度。您可以依&#x200B;**[!UICONTROL 狀態]**、**[!UICONTROL 完成時間]**&#x200B;或&#x200B;**[!UICONTROL 建立時間]**&#x200B;來篩選合併。
+若要管理分類合併：
 
-![分類集合併篩選器](../../assets/classification-set-consolidation-filters.png)
+1. 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類集]**。
+1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 
-「分類設定合併管理員」欄的上方有其他篩選選項：
 
-* **[!UICONTROL 依標題搜尋]**：依名稱搜尋合併。
-* **顯示/隱藏欄**：除了[!UICONTROL 名稱]之外，還切換任何欄的可見度。
+## 分類整合管理員
 
-## 分類集合併管理員欄
+**[!UICONTROL 分類設定 — 合併]**&#x200B;管理員有下列介面元素：
 
-分類集合併管理員中有以下欄：
+![分類集 — 合併管理員](assets/classifications-sets-consolidations.png)
 
-* **[!UICONTROL 名稱]**：合併的名稱。
-* **[!UICONTROL 目前的工作]**：目前的工作。<!-- todo: better description -->
-* **[!UICONTROL 狀態]**：合併的狀態。<!-- todo: get list of possible statuses -->
-* **[!UICONTROL 建立日期]**：建立合併的日期和時間。
-* **[!UICONTROL 完成日期]**：合併完成（或失敗）的日期和時間。
+
+
+### 分類彙總清單
+
+清單➊顯示已建立並驗證且可能合併的分類合併。 清單有以下欄位：
+
+| 欄 | 說明 |
+|---|---|
+| **[!UICONTROL 合併名稱]** | 分類集合併的名稱。 |
+| **[!UICONTROL 目前的工作]** | 與分類集合併相關聯的工作。 |
+| **[!UICONTROL 狀態]** | 分類集合併的狀態。 可能的值包括： **[!UICONTROL 已建立]**、**[!UICONTROL 已取消]**、**[!UICONTROL 正在取消]**、**[!UICONTROL 正在驗證]**、**[!UICONTROL 已失敗的驗證]**、**[!UICONTROL 已驗證]**、**[!UICONTROL 比較]**、**[!UICONTROL 比較失敗]**、**[!UICONTROL 合併]**、**[!UICONTROL 已提交]**、**[!UICONTROL 合併]**、**[!UICONTROL 合併失敗]**、**[!UICONTROL 合併失敗已成功]**、**[!UICONTROL 正在等待審批]**、**[!UICONTROL 正在完成]**、**[!UICONTROL 失敗]**&#x200B;或&#x200B;**[!UICONTROL 已完成]**。 |
+| **[!UICONTROL 建立時間]** | 分類集合併的建立時間。 |
+| **[!UICONTROL 完成時間]** | 分類合併的完成時間。 |
+
+
+若要調整分類合併清單中欄的大小，您可以：
+
+* 暫留在欄分隔符號上，並將欄分隔符號拖曳到所需的欄寬。
+* 選取![V形向下](/help/assets/icons/ChevronDown.svg)並選取&#x200B;**[!UICONTROL 調整資料行大小]**。 帶有調整大小按鈕的垂直線允許您使用將欄大小調整到所需的大小。
+
+排序分類合併清單中的欄
+
+* 選取![V形向下](/help/assets/icons/ChevronDown.svg)並選取&#x200B;**[!UICONTROL 遞增排序]**&#x200B;或&#x200B;**[!UICONTROL 遞減排序]**。 箭頭(↑↓)表示哪一欄以及該欄的排序方式。
+
+### 搜尋和按鈕
+
+在分類彙總清單頂端的區域➋中，您可以：
+
+* 搜尋![搜尋](/help/assets/icons/Search.svg)以取得分類合併。 結果會顯示在分類彙總清單中。 選取![CrossSize200](/help/assets/icons/CrossSize200.svg)以清除搜尋。
+* 移除套用至分類集合併清單的任何篩選器。 選取![CrossSize100](/help/assets/icons/CrossSize100.svg)以移除篩選器。
+* 建立新的分類集合併。 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**&#x200B;以開啟[分類集合併]對話方塊，並定義新的分類集合併。
+* 定義分類彙總清單的欄。 選取![ColumnSetting](/help/assets/icons/ColumnSetting.svg)，並在&#x200B;**[!UICONTROL 自訂表格]**&#x200B;對話方塊中選取要顯示在&#x200B;**[!UICONTROL 下方的欄，並選取要顯示的欄]**。 選取&#x200B;**[!UICONTROL 套用]**&#x200B;以套用資料行設定。
+
+
+### 動作列
+
+當您在「分類設定」清單中選取一或多個分類設定時，會顯示藍色動作列➌。 動作列中可提供下列動作：
+
+| 圖示 | 動作 | 說明 |
+|---|---|---|
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | [編輯分類集合併](process.md#edit-a-consolidation) |
+| ![檢視詳細資料](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL 檢視]** | 檢視分類集合併的詳細資訊。 根據狀態，您可以[核准](process.md#approve)或[取消](process.md#cancel)合併。 |
+
+
+### 篩選面板
+
+選取![篩選器](/help/assets/icons/Filter.svg)以顯示可讓您篩選分類合併清單的篩選器面板➍。 您可以篩選：
+
+* **[!UICONTROL 狀態]**。 選取其中一個可能的值，以篩選狀態上的分類彙總清單。 |
+* **[!UICONTROL 完成時間]**。 選取其中一個可能值，以在完成時篩選分類彙總清單。
+* **[!UICONTROL 建立時間]**。 選取其中一個可能值，以在完成時篩選分類彙總清單。
+
+
+選取![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器面板。
+
+請注意，「篩選器」面板中顯示的篩選器會反映預先載入之分類合併的選項。
+
+
+<!--
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
+
+Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
+
+## Filter classification sets
+
+The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
+
+![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
+
+Additional filter options are available above the Classification set consolidation manager columns:
+
+* **[!UICONTROL Search by title]**: Search for consolidations by name.
+* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
+
+## Classification set consolidation manager columns
+
+The following columns are available in the Classification set consolidation manager:
+
+* **[!UICONTROL Name]**: The name of the consolidation.
+* **[!UICONTROL Current job]**: The current job. 
+* **[!UICONTROL Status]**: The status of the consolidation. 
+* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
+* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
+
+-->

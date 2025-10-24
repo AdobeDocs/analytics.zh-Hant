@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + 分類集 {#sets}
       + [概觀](classifications/sets/overview.md)
       + [資料檔案](classifications/sets/data-files.md)
-      + 管理分類集 {#manage}
-         + [分類集管理員](classifications/sets/manage/set-manager.md)
-         + [建立分類集](classifications/sets/manage/create.md)
-         + [分類集設定](classifications/sets/manage/settings.md)
-         + [分類集結構描述](classifications/sets/manage/schema.md)
-         + [分類集規則](classifications/sets/manage/rules.md)
-      + [分類集工作管理員](classifications/sets/job-manager.md)
-      + 分類集整合 {#consolidations}
-         + [整合管理員](classifications/sets/consolidations/manage.md)
-         + [整合流程](classifications/sets/consolidations/process.md)
+      + 分類集 {#manage}
+         + [管理](classifications/sets/manage/set-manager.md)
+         + [建立與編輯](classifications/sets/manage/create.md)
+         + [設定](classifications/sets/manage/settings.md)
+         + [結構描述](classifications/sets/manage/schema.md)
+         + [規則](classifications/sets/manage/rules.md)
+      + [分類工作](classifications/sets/job-manager.md)
+      + 分類彙總 {#consolidations}
+         + [管理](classifications/sets/consolidations/manage.md)
+         + [建立與編輯](classifications/sets/consolidations/process.md)
    + 分類規則產生器 (舊版){#classifications-rulebuilder}
       + [概觀](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)
