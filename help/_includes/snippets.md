@@ -1,5 +1,5 @@
 ---
-source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
+source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >全新的簡化版[Report Builder](/help/analyze/report-builder/rb-overview.md)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
->&#x200B;>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
+>>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 87%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
@@ -113,9 +113,9 @@ ht-degree: 87%
 
 | 模型 | 容器 | 回顧期間 | 說明 |
 |---|---|---|---|
-| 首次接觸 | 造訪 | 30 天 | 歸因只會檢視第三次造訪。在電子郵件和顯示廣告兩者之間，訪客先接觸到電子郵件，因此電子郵件在這次 50 美元的購買動作中獲得 100% 的貢獻度。 |
+| 首次接觸 | 造訪 | 報告期間 | 歸因只會檢視第三次造訪。在電子郵件和顯示廣告兩者之間，訪客先接觸到電子郵件，因此電子郵件在這次 50 美元的購買動作中獲得 100% 的貢獻度。 |
 | 首次接觸 | 訪客 | 30 天 | 歸因會檢視所有三次造訪。付費搜尋是第一次接觸，因此在這次 50 美元的購買動作中獲得 100% 貢獻度。 |
-| 線性 | 造訪 | 30 天 | 貢獻度由電子郵件和顯示廣告平分。兩個管道各獲得 25 美元的貢獻度。 |
+| 線性 | 造訪 | 報告期間 | 貢獻度由電子郵件和顯示廣告平分。兩個管道各獲得 25 美元的貢獻度。 |
 | 線性 | 訪客 | 30 天 | 貢獻度由付費搜尋、社交媒體、電子郵件和顯示廣告平分。每個管道在這次購買中各獲得 12.50 美元的貢獻度。 |
 | J 形 | 訪客 | 30 天 | 貢獻度由付費搜尋、社交媒體、電子郵件和顯示廣告平分。<ul><li>60% 歸給顯示廣告，價值 $30 美元，</li><li>20% 歸給付費搜尋，價值 $10 美元，</li><li>剩下的 20% 平分給社交媒體和電子郵件，各為 $5 美元。</li></ul> |
 | 時間耗損 | 訪客 | 30 天 | <ul><li>顯示廣告接觸點與轉換之間的間隔為零天。`2^(-0/7) = 1`</li><li>電子郵件接觸點與轉換之間的間隔為零天。`2^(-0/7) = 1`</li><li>社交媒體接觸點與轉換之間的間隔為六天。`2^(-6/7) = 0.552`</li><li>付費搜尋接觸點與轉換之間的間隔為九天。`2^(-9/7) = 0.41`</li>將這些值標準化會產生下列結果：<ul><li>顯示廣告：33.8%，價值 $16.88 美元</li><li>電子郵件：33.8%，價值 $16.88 美元</li><li>社交媒體：18.6%，價值 $9.32 美元</li><li>付費搜尋：13.8%，價值 $6.92 美元</li></ul></li></ul> |
