@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2962'
-ht-degree: 88%
+source-wordcount: '2997'
+ht-degree: 87%
 
 ---
 # 程式碼片段
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >全新的簡化版[Report Builder](/help/analyze/report-builder/rb-overview.md)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
->&#x200B;>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
+>>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 88%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
@@ -87,13 +87,14 @@ ht-degree: 88%
 
 歸因容器定義了歸因的所需範圍。可能的選項包括：
 
-* **造訪**：檢視造訪容器範圍內的轉換。
+* **造訪**：檢視造訪容器範圍內的轉換。 選取&#x200B;**[!UICONTROL 造訪]**&#x200B;時，[歸因回顧期間](#atribution-lookback-window)會自動設定為&#x200B;**[!UICONTROL 報告期間]**，且無法變更。
 * **訪客**：檢視來自訪客容器範圍的轉換。
 
 ## 歸因回顧期間 {#attribution-lookback-window}
 
 回顧期間是指轉換要納入接觸點時需要回顧的時間量。如果維度項目設定在回顧期間之外，則該值不會納入任何歸因計算。
 
+* **[!UICONTROL 報告期間]**：從轉換發生時開始回顧到報告期間開始。
 * **14 天**：回顧自轉換發生時間起最多 14 天。
 * **30 天**：回顧自轉換發生時間起最多 30 天。
 * **60 天**：回顧自轉換發生時間起最多 60 天。
@@ -106,7 +107,7 @@ ht-degree: 88%
 
 1. 9 月 15 日當天，某個訪客透過付費搜尋廣告前往您的網站後離開。
 1. 9 月 18 日當天，該訪客透過來自朋友的社交媒體連結再次造訪您的網站。對方在購物車中加入數個商品，但並未購買任何商品。
-1. 9 月 24 日當天，您的行銷團隊會寄送電子郵件給對方，郵件內含對方購物車中某些商品的優惠券。對方使用了抵用券，但也造訪了數個其他網站，看看是否有其他優惠券可用。對方透過顯示廣告找到了其他優惠券，最終以 $50 美元的價格購買商品。
+1. 9 月 24 日當天，您的行銷團隊會寄送電子郵件給對方，郵件內含對方購物車中某些商品的優惠券。對方使用了抵用券，但也造訪了數個其他網站，看看是否有其他優惠券可用。對方透過多媒體廣告找到了其他優惠券，最終以 $50 美元的價格購買商品。
 
 視您的歸因模型而定，容器和管道會得到不同的貢獻度。請參閱下表的範例：
 
