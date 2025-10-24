@@ -5,10 +5,10 @@ keywords: Analysis Workspace, 區段 IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 3324d04af41b5de1e42c6ec3958e17fc0fadd0df
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 76%
+source-wordcount: '590'
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 76%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 
@@ -50,9 +50,9 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 ## 使用
 
-若要使用&#x200B;**[!UICONTROL 歸因]**&#x200B;面板：
+若要使用&#x200B;**[!UICONTROL 區段比較]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](../panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 區段比較]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](../panels.md#create-a-panel)。
 
 1. 指定面板的[輸入](#panel-input)。
 
