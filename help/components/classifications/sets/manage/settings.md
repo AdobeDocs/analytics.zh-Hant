@@ -3,10 +3,10 @@ title: 「分類設定」設定
 description: 瞭解如何建立或編輯分類設定。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 2%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -14,19 +14,26 @@ ht-degree: 2%
 
 您可以編輯分類設定的初始設定。
 
-在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其設定的分類集。
+若要編輯分類設定的設定：
 
-在&#x200B;**[!UICONTROL 分類設定：]**&#x200B;分類設定標題&#x200B;**[!UICONTROL 對話方塊的&#x200B;_設定_]**&#x200B;索引標籤中，適當時：
+1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，選取&#x200B;**[!UICONTROL 設定]**索引標籤。
 
-![分類設定 — 設定](assets/classification-sets-settings.png)
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，適當時：
 
-1. 編輯&#x200B;**[!UICONTROL 名稱]**。
-1. 編輯&#x200B;**[!UICONTROL 描述（選擇性）]**。
-1. 在&#x200B;**[!UICONTROL 通知問題]**&#x200B;中編輯電子郵件地址清單（逗號分隔符號）。 如有任何問題，系統會以電子郵件通知這些使用者。
-1. 新增一或多個&#x200B;**[!UICONTROL 標籤（選擇性）]**&#x200B;至分類設定。 從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式功能表中選取現有標籤，或輸入新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。
-1. 編輯&#x200B;**[!UICONTROL 訂閱]**。
-   * 您可以定義多個&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;組合至一個分類集。
-   * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。
+   ![分類設定 — 設定](assets/classification-sets-settings.png)
+
+   1. 編輯&#x200B;**[!UICONTROL 名稱]**。
+   1. 編輯&#x200B;**[!UICONTROL 描述（選擇性）]**。
+   1. 在&#x200B;**[!UICONTROL 通知問題]**&#x200B;中編輯電子郵件地址清單（逗號分隔符號）。 如有任何問題，系統會以電子郵件通知這些使用者。
+   1. 新增一或多個&#x200B;**[!UICONTROL 標籤（選擇性）]**&#x200B;至分類設定。 從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式功能表中選取現有標籤，或輸入新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。
+   1. 編輯&#x200B;**[!UICONTROL 訂閱]**。
+      * 您可以定義多個&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;組合至一個分類集。
+      * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。
+
+      如需詳細資訊，請參閱[建立分類集](create.md)。
+
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取「**[!UICONTROL 取消]**」即可取消。
 
 
 <!--
