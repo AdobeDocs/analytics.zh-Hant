@@ -96,7 +96,7 @@ Drag the desired classification sets from the available column on the left to th
 
 1. 使用您用來建立合併的相同拖放介面，重新設定合併。
 1. 選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 重新驗證]**。 驗證可確保每個個別的分類集對此合併有效。 成功時，會顯示快顯通知訊息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已成功提交合併以進行驗證！]**
-1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。 或選取[播放] ![ ](/help/assets/icons/Play.svg) [執行]以執行合併，或選取[取消] ![ ](/help/assets/icons/Cancel.svg) [取消]取消分類。
+1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。 或選取[播放] ![&#x200B; &#x200B;](/help/assets/icons/Play.svg) [執行]以執行合併，或選取[取消] ![&#x200B; &#x200B;](/help/assets/icons/Cancel.svg) [取消]取消分類。
 
 
 

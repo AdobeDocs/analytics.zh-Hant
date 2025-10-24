@@ -16,7 +16,7 @@ ht-degree: 2%
 
 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其設定的分類集。
 
-在&#x200B;**[!UICONTROL 分類設定：]**&#x200B;分類設定標題&#x200B;**[!UICONTROL 對話方塊的&#x200B;_設定_]**索引標籤中，適當時：
+在&#x200B;**[!UICONTROL 分類設定：]**&#x200B;分類設定標題&#x200B;**[!UICONTROL 對話方塊的&#x200B;_設定_]**&#x200B;索引標籤中，適當時：
 
 ![分類設定 — 設定](assets/classification-sets-settings.png)
 

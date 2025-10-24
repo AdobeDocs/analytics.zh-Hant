@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >分類設定尚不支援規則。 在舊版規則產生器功能無法使用之前，已將規則功能新增到分類集介面。
->>如果您確實需要分類的規則，請繼續使用[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)。
+>&#x200B;>如果您確實需要分類的規則，請繼續使用[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)。
 
 
 <!--
