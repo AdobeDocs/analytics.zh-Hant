@@ -3,9 +3,9 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的標題。 「合併：分類合併」對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|
@@ -96,7 +96,7 @@ Drag the desired classification sets from the available column on the left to th
 
 1. 使用您用來建立合併的相同拖放介面，重新設定合併。
 1. 選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 重新驗證]**。 驗證可確保每個個別的分類集對此合併有效。 成功時，會顯示快顯通知訊息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已成功提交合併以進行驗證！]**
-1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。 或選取[播放] ![&#x200B; &#x200B;](/help/assets/icons/Play.svg) [執行]以執行合併，或選取[取消] ![&#x200B; &#x200B;](/help/assets/icons/Cancel.svg) [取消]取消分類。
+1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。 或選取[播放] ![ ](/help/assets/icons/Play.svg) [執行]以執行合併，或選取[取消] ![ ](/help/assets/icons/Cancel.svg) [取消]取消分類。
 
 
 

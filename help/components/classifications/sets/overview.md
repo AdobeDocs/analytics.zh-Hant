@@ -3,10 +3,10 @@ title: 「分類設定」概觀
 description: 瞭解如何使用分類設定來管理分類資料。 瞭解分類設定與舊版分類的差異。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 11%
+source-wordcount: '800'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 ![舊分類](manage/assets/classifications-legacy.svg)
 
-在「分類設定」中，您可以定義報表套裝的訂閱和索引鍵維度組合。 例如，適用於多個報告套裝的產品目錄分類，您只需定義一次作為分類設定。 在該分類集中，您可以設定多個報表套裝和索引鍵維度組合以訂閱該分類集。
+在「分類設定」中，您可以定義報表套裝的訂閱和索引鍵維度組合。 例如，適用於多個報告套裝的產品目錄分類，以及根據產品(SKU)維度，您只需定義一次作為分類集。 在該分類集中，您可以設定多個報表套裝和索引鍵維度組合以訂閱該分類集。
 
 ![分類設定](manage/assets/classifications-sets.svg)
 
@@ -42,7 +42,7 @@ ht-degree: 11%
 分類集的工作流程通常涉及以下步驟：
 
 1. 考慮您要為哪些報表套裝和維度組合建立分類集。 例如，可定義您針對任何要分類產品（包含更多詳細資訊）的報告套裝所建立的產品分類集。 例如，類別和顏色等詳細資訊。
-1. [建立一個分類集](/help/components/classifications/sets/manage/create.md)，其中包含一或多個可識別產品的報告套裝和維度組合的訂閱。 例如：
+1. [建立一個分類集](/help/components/classifications/sets/manage/create.md)，其中包含一或多個可識別產品的報表套裝和索引鍵維度組合的訂閱。 例如：
 
    | 報告套裝 | 主要維度 |
    |---|---|
@@ -77,13 +77,15 @@ ht-degree: 11%
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+在分類資料檔案中，您使用&#x200B;**[!UICONTROL 參照每個報表套裝的關鍵維度（例如：]**&#x200B;產品ID **[!UICONTROL 和]**&#x200B;產品SKU`Key`）。 而且您可以使用&#x200B;**[!UICONTROL 分類名稱]** （例如`Category`或`Color`）來參照每個分類。
+
 1. [將包含分類資料的檔案上傳](/help/components/classifications/sets/manage/schema.md#upload)至分類設定結構描述。
 
 1. [使用雲端位置，自動處理](/help/components/classifications/sets/manage/schema.md#automate)更新產品目錄的程式，您要看到這些更新反映在分類資料中。
 
 1. [下載](/help/components/classifications/sets/manage/schema.md#download)您的分類資料以驗證內容。
 
-1. [檢查工作歷史記錄](/help/components/classifications/sets/job-manager.md)以檢視分類上的動作（匯入、匯出等）。
+1. [檢查工作歷史記錄](/help/components/classifications/sets/job-manager.md)以檢視分類上動作（上傳、下載、範本等）的結果。
 1. 如果您因從舊版分類功能移轉而擁有多個類似的分類設定，請[合併](consolidations/manage.md)這些分類設定。
 
 
@@ -94,7 +96,7 @@ ht-degree: 11%
 
 * 縮短處理時間（從72小時縮短至24小時）。
 * 重新設計的使用者介面以管理分類。
-* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
+* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
 
 隨分類集發行的後端架構也包含幾項變更：
 

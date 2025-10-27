@@ -3,7 +3,7 @@ title: 管理「分類設定」
 description: 在Adobe Analytics中管理「分類設定」。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 | 欄 | 說明 |
 |---|---|
-| **[!UICONTROL 分類設定]** | 分類設定的標題。 選取標題以[編輯分類集](create.md#edit-a-classification-set)。 |
+| **[!UICONTROL 分類設定]** | 分類設定的名稱。 選取名稱以[編輯分類集](create.md#edit-a-classification-set)。 |
 | **[!UICONTROL 訂閱]** | 套用分類設定的訂閱數目。 |
 | **[!UICONTROL 分類]** | 分類設定包含的分類維度數。 |
 | **[!UICONTROL 自動化]** | 分類設定是否已設定為自動從雲端位置匯入資料？ 此自動化可設定為[分類集結構描述](schema.md)的一部分。 |
@@ -65,10 +65,10 @@ ht-degree: 5%
 | 圖示 | 動作 | 說明 |
 |---|---|---|
 | ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | [在分類設定產生器中編輯分類設定](create.md#edit-a-classification-set)。 |
-| ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類設定。<br/>在&#x200B;**[!UICONTROL 重新命名： _分類集_]**&#x200B;對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
+| ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類設定。<br/>在&#x200B;**[!UICONTROL 重新命名： _分類集_]**對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
 | ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL 合併]** | [合併分類集](/help/components/classifications/sets/consolidations/manage.md)。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除分類設定。<br/> **[!UICONTROL 刪除&#x200B;_分類集_？]**&#x200B;對話方塊出現。 無法復原刪除分類集。 任何使用此分類集的已排程專案或合併會繼續使用此分類集的定義，直到您重新儲存已排程專案或重新驗證已排程合併為止。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除分類設定。 |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤分類設定。<br/>在&#x200B;**[!UICONTROL 標籤： _分類設定_]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式功能表中選取一或多個標籤以新增標籤。 或輸入一或多個新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。 <br/>選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存標籤。 |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤分類設定。<br/>在&#x200B;**[!UICONTROL 標籤： _分類設定_]**對話方塊中，從&#x200B;**[!UICONTROL 標籤]**下拉式功能表中選取一或多個標籤以新增標籤。 或輸入一或多個新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。 <br/>選取&#x200B;**[!UICONTROL 儲存]**以儲存標籤。 |
 
 
 ### 篩選面板
