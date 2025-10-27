@@ -3,9 +3,9 @@ title: 「分類設定」設定
 description: 瞭解如何建立或編輯分類設定。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 3%
 
 若要編輯分類設定的設定：
 
-1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤。
 
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，適當時：
+1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
+1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，選取&#x200B;**[!UICONTROL 設定]**索引標籤。
+
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，適當時：
 
    ![分類設定 — 設定](assets/classification-sets-settings.png)
 

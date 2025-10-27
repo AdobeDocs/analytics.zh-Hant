@@ -3,9 +3,9 @@ title: 分類設定結構描述
 description: 瞭解如何檢視和編輯個別分類設定的結構。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1412'
 ht-degree: 4%
 
 ---
@@ -16,8 +16,11 @@ ht-degree: 4%
 
 若要編輯分類設定的綱要：
 
+
+1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
+1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 結構描述]**&#x200B;索引標籤。 該標籤包含下列介面元素：
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，選取&#x200B;**[!UICONTROL 結構描述]**索引標籤。 該標籤包含下列介面元素：
 
    ![分類設定 — 結構描述](assets/classification-sets-schema.png)
 
@@ -61,7 +64,7 @@ ht-degree: 4%
 
 ![分類設定 — 將分類新增至結構描述](assets/classification-sets-schema-add-classification.png)
 
-在&#x200B;**[!UICONTROL 新增&#x200B;_分類集_]**&#x200B;對話方塊的新分類中，輸入&#x200B;**[!UICONTROL 分類名稱]**&#x200B;並選取&#x200B;**[!UICONTROL 新增]**。 分類會新增至清單中。
+在&#x200B;**[!UICONTROL 新增&#x200B;_分類集_]**對話方塊的新分類中，輸入&#x200B;**[!UICONTROL 分類名稱]**並選取&#x200B;**[!UICONTROL 新增]**。 分類會新增至清單中。
 
 
 
@@ -101,14 +104,14 @@ ht-degree: 4%
 
 ![分類設定 — 結構描述下載分類資料](assets/classification-sets-schema-download-file.png)
 
-在&#x200B;**[!UICONTROL 下載&#x200B;_分類集_]**&#x200B;的資料對話方塊中：
+在&#x200B;**[!UICONTROL 下載&#x200B;_分類集_]**的資料對話方塊中：
 
 1. 輸入您要下載的&#x200B;**[!UICONTROL 資料列數目]**。 例如：`10000`。
 1. 若要選取您要下載分類資料列的期間，請為&#x200B;**[!UICONTROL 下載介於]**&#x200B;之間收到的資料列，輸入開始和結束資料。 或使用![行事曆](/help/assets/icons/Calendar.svg)使用行事曆快顯功能來選取期間。
 1. 若要選取要傳回的資料，請從&#x200B;**[!UICONTROL 傳回的資料]**&#x200B;中選取選項。
 
    * **[!UICONTROL 所有值]**&#x200B;會傳回目前分類資料的所有值。
-   * **[!UICONTROL 任何空白資料行]**&#x200B;會傳回包含現有分類資料之索引鍵值的資料行。 以及分類資料沒有值且不存在值的欄。
+   * **[!UICONTROL 任何空白資料行]**&#x200B;會傳回包含現有分類資料之索引鍵值的資料行。 以及不存在任何值的分類資料沒有值的欄。
    * **[!UICONTROL 所有資料行空白]**&#x200B;傳回索引鍵資料行，其中包含現有分類資料的值。 和分類資料沒有值的欄。
 1. 若要選取已下載分類資料的[檔案格式](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從&#x200B;**[!UICONTROL 檔案格式]**&#x200B;下拉式功能表中選取選項。 選項有:
 
@@ -131,7 +134,7 @@ ht-degree: 4%
 
 ![分類集結構描述 — 下載範本](assets/classification-sets-schema-download-template.png)
 
-在&#x200B;**[!UICONTROL 分類集&#x200B;_對話方塊的_]**&#x200B;下載範本中：
+在&#x200B;**[!UICONTROL 分類集&#x200B;_對話方塊的_]**下載範本中：
 
 1. 若要選取已下載分類資料的[檔案格式](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從&#x200B;**[!UICONTROL 檔案格式]**&#x200B;下拉式功能表中選取選項。 選項有:
 
@@ -152,11 +155,17 @@ ht-degree: 4%
 
 ![分類集結構描述 — 自動化](assets/classification-sets-schema-automate.png)
 
-在&#x200B;**[!UICONTROL 關聯/更新&#x200B;_分類集_]**&#x200B;的擷取位置對話方塊中：
+在&#x200B;**[!UICONTROL 關聯/更新&#x200B;_分類集_]**的擷取位置對話方塊中：
 
 1. 若要選取雲端位置，請從&#x200B;**[!UICONTROL 位置帳戶]**&#x200B;中選取選項。 只會顯示允許匯入分類資料[之支援帳戶型別的](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)位置帳戶。 若要建立新帳戶，請選取&#x200B;**[!UICONTROL 新帳戶]**。
 1. 若要選取位置，請從&#x200B;**[!UICONTROL 位置]**&#x200B;選取選項。 只顯示用於匯入分類資料的所選帳戶型別的位置。 若要建立新位置，請選取&#x200B;**[!UICONTROL 新位置]**。
-1. 若要選取分隔符號，請從&#x200B;**[!UICONTROL 清單分隔符號]**&#x200B;中選取選項。 選項包括：
+
+   >[!IMPORTANT]
+   >
+   >您建立或選取的位置應在&#x200B;**[!UICONTROL 貯體]**&#x200B;內包含&#x200B;**[!UICONTROL 首碼]** （資料夾），以託管分類資料檔案。 例如，名為`files`的資料夾。 在貯體的根託管檔案不適用於大多數雲端位置。
+   >
+
+1. 若要選取分隔符號，請從&#x200B;**[!UICONTROL 清單分隔符號]**&#x200B;下拉式功能表中選取選項。 選項包括：
    * **[!UICONTROL 逗號，]**
    * **[!UICONTROL 分號；]**
    * **[!UICONTROL 冒號：]**
@@ -170,7 +179,13 @@ ht-degree: 4%
 
 1. 若要通知使用者擷取工作已完成，請輸入電子郵件地址（以逗號分隔），以便&#x200B;**[!UICONTROL 電子郵件在擷取工作完成時通知（以逗號分隔）]**。
 1. 選取&#x200B;**[!UICONTROL 驗證]**。 已驗證與雲端位置的連線。
-1. 如果驗證成功，您會看到一則快顯通知訊息，顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置驗證成功。 已驗證與雲端儲存空間的連線。]**<br/>如果您已建立與雲端連線的連線，請選取&#x200B;**[!UICONTROL &#x200B;儲存&#x200B;]**。 否則，請選取&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或選取&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消雲端位置的設定。
+1. 如果驗證成功，您會看到一則快顯通知訊息，顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置驗證成功。 已驗證與雲端儲存空間的連線。]**<br/>如果您已建立與雲端連線的連線，請選取**[!UICONTROL &#x200B;儲存&#x200B;]**。 否則，請選取**[!UICONTROL &#x200B;更新&#x200B;]**。 或選取**[!UICONTROL &#x200B;取消&#x200B;]**以取消雲端位置的設定。
+
+當您上傳檔案到雲端位置時，會在15分鐘內偵測到檔案並將其作為匯入工作提交。 該匯入工作的結果會在[分類工作管理員](/help/components/classifications/sets/job-manager.md)中報告。 如果您被新增到使用者清單，以通知擷取工作已完成，您也會收到電子郵件訊息。
+
+例如：
+
+![分類設定 — 工作驗證電子郵件](assets/job-failed-validation.png){width="400"}
 
 
 ## 動作列
@@ -180,9 +195,9 @@ ht-degree: 4%
 | 圖示 | 動作 | 說明 |
 |---|---|---|
 | ![瀏覽](/help/assets/icons/Browse.svg) | **[!UICONTROL 新增查詢]** | 新增分類設定作為查詢（子分類）。<br/>在&#x200B;**[!UICONTROL 附加查閱]**&#x200B;資料表中： <ol><li>從&#x200B;**[!UICONTROL 分類名稱]**&#x200B;下拉式功能表中選取查詢分類。</li><li>選取&#x200B;**[!UICONTROL 新增]**。</li></ol>查詢分類已新增至分類，並使用內部ID列在&#x200B;**[!UICONTROL 分類者]**&#x200B;欄中。 |
-| ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 移除查詢]** | 移除分類設定做為查詢。 若要從分類中永久刪除查詢，請在&#x200B;**[!UICONTROL 從&#x200B;_分類_確認對話方塊中，移除&#x200B;_分類集_]**&#x200B;並選取&#x200B;**[!UICONTROL 刪除]**。 |
-| ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類。 在&#x200B;**[!UICONTROL 重新命名： _分類_]**&#x200B;對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除分類設定。 **[!UICONTROL 刪除&#x200B;_分類_]**&#x200B;對話方塊就會顯示。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除分類設定。 |
+| ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 移除查詢]** | 移除分類設定做為查詢。 若要從分類中永久刪除查詢，請在&#x200B;**[!UICONTROL 從&#x200B;_分類_確認對話方塊中，移除&#x200B;_分類集_]**並選取&#x200B;**[!UICONTROL 刪除]**。 |
+| ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類。 在&#x200B;**[!UICONTROL 重新命名： _分類_]**對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除分類設定。 **[!UICONTROL 刪除&#x200B;_分類_]**對話方塊就會顯示。 選取&#x200B;**[!UICONTROL 刪除]**以刪除分類設定。 |
 
 
 <!--

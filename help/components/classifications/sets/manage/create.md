@@ -3,9 +3,9 @@ title: 建立「分類設定」
 description: 瞭解建立分類設定時如何提供欄位和說明。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 ## 建立分類集
 
-若要建立「分類設定」，請在主要介面中：
+若要建立「分類設定」：
 
-1. 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類集]**。
+1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 選取![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**。
 1. 在&#x200B;**[!UICONTROL 新增分類集]**&#x200B;對話方塊中：
@@ -42,12 +42,12 @@ ht-degree: 2%
 
 ## 編輯分類設定
 
-若要編輯分類設定，請在主要介面中：
+若要編輯分類設定：
 
-1. 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類集]**。
+1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 選取分類設定的標題。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定標題_]**&#x200B;對話方塊中，您可以定義分類設定的[設定](settings.md)和[結構描述](schema.md)。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定標題_]**對話方塊中，您可以定義分類設定的[設定](settings.md)和[結構描述](schema.md)。
 1. 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的變更。 選取「**[!UICONTROL 取消]**」即可取消。
 
 

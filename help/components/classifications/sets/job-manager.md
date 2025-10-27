@@ -3,9 +3,9 @@ title: 分類作業管理員
 description: 瞭解如何檢視從分類設定產生的最新和已完成的分類作業。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,8 @@ ht-degree: 2%
 
 若要檢視分類工作並據以執行，請執行下列動作：
 
-1. 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類集]**。
+
+1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 工作]**&#x200B;索引標籤。
 
 ## 分類工作管理員
@@ -36,8 +37,8 @@ ht-degree: 2%
 | **[!UICONTROL 工作識別碼]** | 分類工作的識別碼。 |
 | **[!UICONTROL 分類設定]** | 與分類工作相關聯的分類設定。 |
 | **[!UICONTROL 大小]** | 作為分類作業的一部分匯出或匯入的檔案大小。 |
-| **[!UICONTROL 狀態]** | 分類工作的狀態。 可能的值包括： **[!UICONTROL 已建立]**、**[!UICONTROL 已排入佇列]**、**[!UICONTROL 已驗證]**、**[!UICONTROL 已失敗的驗證]**、**[!UICONTROL 正在處理]**、**[!UICONTROL 已完成處理]**、**[!UICONTROL 已失敗的處理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 進度]**。 |
-| **[!UICONTROL 檔案名稱]** | 識別用來匯入或匯出檔案做為分類作業一部分的名稱或功能。 可能的值包括： <ul><li>*沒有值*</li><li>分類作業中處理的檔案名稱。</li><li>**[!UICONTROL SAINT匯出]**：作業是從[舊版分類介面](/help/components/classifications/importer/c-working-with-saint.md)匯出。</li><li>在&#x200B;**[!UICONTROL timestamp _匯出_分類集&#x200B;_的_]**&#x200B;匯出：作業是從[結構描述](manage/schema.md#download)介面下載。</li></ul> |
+| **[!UICONTROL 狀態]** | 分類工作的狀態。 可能的值包括： **[!UICONTROL 已建立]**、**[!UICONTROL 已排入佇列]**、**[!UICONTROL 已驗證]**、**[!UICONTROL 已失敗的驗證]**、**[!UICONTROL 正在處理]**、**[!UICONTROL 已完成處理]**、**[!UICONTROL 已失敗的處理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 進度]**。 如果顯示，將滑鼠游標停留在警示![警示](/help/assets/icons/Alert.svg)上以顯示其他資訊。 |
+| **[!UICONTROL 檔案名稱]** | 識別用來匯入或匯出檔案做為分類作業一部分的名稱或功能。 可能的值包括： <ul><li>*沒有值*</li><li>分類作業中處理的檔案名稱。</li><li>**[!UICONTROL SAINT匯出]**：作業是從[舊版分類介面](/help/components/classifications/importer/c-working-with-saint.md)匯出。</li><li>在&#x200B;**[!UICONTROL timestamp _匯出_分類集&#x200B;_的_]**匯出：作業是從[結構描述](manage/schema.md#download)介面下載。</li></ul> |
 | **[!UICONTROL 工作型別]** | 分類工作的型別。 可能的值為： **[!UICONTROL 匯入]**&#x200B;或&#x200B;**[!UICONTROL 匯出]**。 |
 | **[!UICONTROL 來源]** | 分類工作的來源。 可能的值為： **[!UICONTROL 網頁API]**、**[!UICONTROL 直接API上傳]**、**[!UICONTROL Adobe]**、**[!UICONTROL SAINT]**&#x200B;或&#x200B;**[!UICONTROL 未知]**。 |
 | **[!UICONTROL 修改行]** | 分類作業修改的修改行數。 |
