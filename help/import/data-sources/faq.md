@@ -4,10 +4,10 @@ description: 與資料來源相關的常見問題。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 7%
 否。透過資料來源上傳的資料：
 
 * 未通過[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* 未通過[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+* 未通過[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
 * 未通過[VISTA規則](/help/technotes/vista.md)
 +++
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 +++
 
 +++一次可匯入多少資料？
-如果大小超過 50 MB 就會暫停處理，直到大小總計低於 50 MB 才會繼續。請確定FTP站台上所有檔案的總計大小小於50 MB。
+如果大小超過50 MB，處理會暫停，直到總計低於50 MB才會繼續。 請確定FTP站台上所有檔案的總計大小小於50 MB。
 +++
 
 +++如果我透過資料來源將負值傳入報表，會發生什麼情況？

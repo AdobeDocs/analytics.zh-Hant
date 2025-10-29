@@ -3,10 +3,10 @@ title: 行銷管道快速入門
 description: 了解行銷管道工作流程、自動設定，以及如何套用範本報告套裝設定至多個報告套裝。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -47,19 +47,19 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->如果先前未設定行銷管道，則會顯示[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。此設定提供數個預先設定好的行銷管道，供您進行自訂。Adobe 建議您使用這些規則作為範本。不過，如果您已有確定的管道定義，則可跳過自動設定。
+>如果先前未設定行銷管道，則會顯示[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。此設定提供數個預先設定好的行銷管道，供您進行自訂。Adobe建議您使用這些規則作為範本。 不過，如果您已有確定的管道定義，則可跳過自動設定。
 
 ![](assets/step3_icon.png)在[!UICONTROL 「行銷管道處理規則」]頁面上設定或調整每個管道的規則。
 
 當您在[!UICONTROL 「行銷頻道管理員」]頁面上建立管道後，接著請設定規則，讓管道可以擷取及報告資料。
 
-請參閱[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)。
+請參閱[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。
 
-如果管道是以自動設定建立的，則這些管道的規則已經定義好。您可修改規則以便符合您的需求。
+如果管道是以自動設定建立的，則這些管道的規則已經定義好。您可以視需要加以修改。
 
 ## 行銷管道的自動設定 {#run-auto-setup}
 
-行銷管道報告隨附一次性設定頁面，可協助您開始使用。其中提供數個行銷管道，您可用來追蹤。如果熟悉如何建立管道和規則，則可跳過該設定。不過，Adobe 仍建議讓精靈替您建立管道。自動設定可讓您觀看規則的建立方式，您也可自行編輯規則。您可隨時停用或刪除預定義管道。
+行銷管道報告隨附一次性設定頁面，可協助您開始使用。其中提供數個行銷管道，您可用來追蹤。如果熟悉如何建立管道和規則，則可跳過該設定。不過，Adobe 仍建議讓精靈替您建立管道。自動設定可讓您檢視規則的建構方式，或編輯以供您自用。 您可隨時停用或刪除預定義管道。
 
 如何執行行銷管道自動設定。
 

@@ -3,7 +3,7 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -43,10 +43,10 @@ ht-degree: 89%
 * **轉換變數：**&#x200B;也稱為 eVar。用於儲存自訂值及保留變數值，直到變數值過期為止。請參閱「元件」使用指南中的 [eVar](/help/components/dimensions/evar.md) 維度。
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱Analytics工具指南中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **自訂連結：**&#x200B;包含非頁面檢視資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
-* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)。
+* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。影像請求會傳送至 Adobe 的資料收集伺服器，以用於報告。
 * **資料聯結器：**&#x200B;已淘汰的開發解決方案，可讓協力廠商將資料上傳至Adobe Analytics的作業自動化。 該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。已取代為[Adobe Exchange市集](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)。
-* **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。最常用於將 Adobe Analytics 資料匯出至協力廠商資料庫。請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
+* **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。最常用於將 Adobe Analytics 資料匯出至第三方資料庫。請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
 * **資料層：** [資料層](/help/implement/prepare/data-layer.md)是網站上JavaScript物件的架構，包含Analytics實作中使用的變數值。 如此，在將值指派給 Analytics 變數時，可以更好控制和易於維護。
 * **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。通常會從 FTP 網站提取檔案。請參閱匯入使用手冊中的[資料來源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 的一項功能，可用來請求較大型的報告。請參閱匯出使用手冊中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
@@ -67,7 +67,7 @@ ht-degree: 89%
    * 自訂分析是自訂流量變數過去的名稱。
 * **KPI：**&#x200B;關鍵績效指標的縮寫。可協助企業瞭解其網站成效的量度。每個組織都有不同的 KPI，可衡量其不同方面業務的成效。請參閱實施作業使用手冊中的[建立解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * **延遲：**&#x200B;收集到資料的時間和資料可在報告中使用的時間之間的延後情況。一般報告套裝的延遲為 30-90 分鐘。請參閱技術說明使用手冊中的[延遲](/help/technotes/latency.md)。
-* **Launch：**&#x200B;不再當做詞彙使用。 Adobe Experience Platform 中的標記 (Adobe 目前的實作解決方案) 先前的簡稱。 請參閱 Adobe Experience Platform 使用手冊中的「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)」。
+* **Launch：**&#x200B;不再當做詞彙使用。 Adobe Experience Platform 中的標記 (Adobe 目前的實作解決方案) 先前的簡稱。 請參閱 Adobe Experience Platform 使用手冊中的「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」。
 * **清單 prop：**&#x200B;一種設定，可轉換一般流量變數以支援相同點擊中的多個值。如果已啟用此設定，任何自訂流量變數都可成為清單 prop。請參閱實施作業使用手冊中的 [prop](../implement/vars/page-vars/prop.md)。
 * **清單變數：**&#x200B;與轉換變數區分開的不同變數。清單變數支援相同點擊中的多個值，而變數值會保留在造訪中，類似於轉換變數。一個組織只能使用三個清單變數。請參閱實施作業使用手冊中的[清單](/help/implement/vars/page-vars/list.md)。
 * **登入公司**：貴組織所使用報告套裝的集合。某些組織擁有多個登入公司，適用於組織內的不同部門。
@@ -85,13 +85,13 @@ ht-degree: 89%
 * **主要伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，主要用於多套裝標記和計費的情境下。將相同點擊傳送至多個報告套裝時，第一個報告套裝為主要伺服器呼叫，其餘則為次要伺服器呼叫。此規則適用於所有點擊類型，包括頁面檢視和連結追蹤。另請見「次要伺服器呼叫」。
 * **處理規則：**&#x200B;可以指：
    * 處理規則，使用 Admin Console 中特定規則變更資料收集的一種方式。請參閱管理員使用手冊中的[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)。
-   * 行銷管道處理規則，判斷點擊所屬行銷管道的一組規則。請參閱管理員使用手冊中的[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)。
+   * 行銷管道處理規則，判斷點擊所屬行銷管道的一組規則。請參閱管理員使用手冊中的[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。
 * **Prop：**&#x200B;請見「流量變數」。
 * **排名報告：**&#x200B;一種報告格式，通常會依循含有量度的維度。此類型的報告可用於查看排名最前的項目，例如網站上檢視次數最多的頁面。另請見「趨勢報告」。
 * **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報告](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)。
 * **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md)增益集可讓您從Adobe Analytics資料建立自訂請求。
 * **報告套裝：**&#x200B;您所傳送資料的目的地總體容器。Adobe Analytics 中的所有報告都會參照報告套裝。
-* **Reports &amp; Analytics：**&#x200B;此工具[生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=zh-Hant)。
+* **Reports &amp; Analytics：**&#x200B;此工具[生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。例如，顯示過去 7 天的報告可視為滾動式日期範圍。另請見「靜態日期範圍」。
 * **RSID：**&#x200B;報告套裝 ID 的縮寫。報告套裝同時具有好記的名稱和報告套裝 ID。
 * **s.t()：**&#x200B;傳送頁面檢視影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.track()`。請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。

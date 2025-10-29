@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報告套裝等。
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [銷售 eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + 行銷管道 {#marketing-channels}
             + [行銷管道管理員](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [行銷管道處理規則](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [行銷管道處理規則](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [行銷管道分類](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [行銷管道期限](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
@@ -157,7 +157,7 @@ ht-degree: 100%
       + 將使用者移轉至 Adobe Admin Console  {#migrate-users}
          + [Analytics 使用者移轉至 Admin Console](tools/user-management/user-migration/c-migration-tool.md)
          + [移轉 Adobe ID 的 Analytics 使用者帳戶](tools/user-management/user-migration/t-migrate-users.md)
-         + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](tools/user-management/user-migration/migrate-enterprise.md)
+         + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](tools/user-management/user-migration/migrate-enterprise.md)
          + [停用舊版登入](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](tools/user-management/user-migration/developer.md)
 + [管理 API](https://developer.adobe.com/analytics-apis/docs/2.0/)
