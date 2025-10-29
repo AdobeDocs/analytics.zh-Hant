@@ -24,7 +24,7 @@ ht-degree: 98%
 
 在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷管道的報表套裝，自動設定可為您建立多個管道及其規則。您可視需要編輯預定義管道或建立自己的管道 (最多總共 25 個)。
 
-[!UICONTROL 新增管道至「行銷管道」頁面，與在「行銷管道處理規則」頁面上建立規則是相互獨立的][](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。建立規則時，您會將規則與管道相關聯。
+[!UICONTROL 新增管道至「行銷管道」頁面，與在「行銷管道處理規則」頁面上建立規則是相互獨立的][&#128279;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。建立規則時，您會將規則與管道相關聯。
 
 以下是建立管道的指引：
 
