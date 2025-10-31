@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -266,14 +266,14 @@ ht-degree: 98%
       + [資料檔案](classifications/sets/data-files.md)
       + 分類集 {#manage}
          + [管理](classifications/sets/manage/set-manager.md)
-         + [建立與編輯](classifications/sets/manage/create.md)
+         + [建立和編輯](classifications/sets/manage/create.md)
          + [設定](classifications/sets/manage/settings.md)
          + [結構描述](classifications/sets/manage/schema.md)
          + [規則](classifications/sets/manage/rules.md)
-      + [分類工作](classifications/sets/job-manager.md)
+      + [分類作業](classifications/sets/job-manager.md)
       + 分類彙總 {#consolidations}
          + [管理](classifications/sets/consolidations/manage.md)
-         + [建立與編輯](classifications/sets/consolidations/process.md)
+         + [建立和編輯](classifications/sets/consolidations/process.md)
    + 分類規則產生器 (舊版){#classifications-rulebuilder}
       + [概觀](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)
@@ -305,7 +305,7 @@ ht-degree: 98%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [搭配行銷管道使用 Attribution &#x200B;](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution ](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)
