@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
 workflow-type: tm+mt
-source-wordcount: '3686'
-ht-degree: 66%
+source-wordcount: '3680'
+ht-degree: 58%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 66%
 | --- | --- | --- |
 | **`accept_language`** | 列出所有接受的語言，如影像要求中的 Accept-Language HTTP 標頭所示。 | char(20) |
 | **`adload`** | 媒體廣告載入 | varchar(255) |
-| **`aemassetid`** | 對應至一組Adobe Experience Manager Assets資產ID (GUID)的多值變數。 增加曝光數事件 | 文字 |
-| **`aemassetsource`** | 識別資產事件的來源。用於 Adobe Experience Manager。 | varchar(255) |
-| **`aemclickedassetid`** | Adobe Experience Manager 資產的資產 ID。增加點擊事件 | varchar(255) |
+| **`aemassetid`** | 對應至一組Adobe Experience Manager Assets資產ID (GUID)的多值變數。 增加曝光事件。 | 文字 |
+| **`aemassetsource`** | 識別資產事件的來源。 用於Adobe Experience Manager。 | varchar(255) |
+| **`aemclickedassetid`** | Adobe Experience Manager資產的資產ID。 增加點選事件。 | varchar(255) |
 | **`browser`** | 表示瀏覽器的數值ID。 請參考`browser.tsv`查詢表。 | 不帶正負號的 int |
 | **`browser_height`** | [瀏覽器高度](/help/components/dimensions/browser-height.md)維度。 | 不帶正負號的 smallint |
 | **`browser_width`** | [瀏覽器寬度](/help/components/dimensions/browser-width.md) | 不帶正負號的 smallint |
@@ -54,8 +54,8 @@ ht-degree: 66%
 | **`cookies`** | [Cookie支援](/help/components/dimensions/cookie-support.md)維度。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
 | **`country`** | 表示訪客所在國家/地區的數值ID。 請參考`country.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`ct_connect_type`** | 和`connection_type`欄相關。最常見的值為LAN/Wifi、行動電信業者和資料機。 | char(20) |
-| **`curr_factor`** | 決定貨幣小數位數，並用於貨幣轉換。例如，USD使用兩位小數，所以此欄值為`2`。 | tinyint |
-| **`curr_rate`** | 交易發生當時的匯率。Adobe 與 XE 合作，以決定當日匯率。 | decimal(24,12) |
+| **`curr_factor`** | 決定貨幣的小數位數，並用於貨幣轉換。 例如，USD使用兩位小數，所以此欄值為`2`。 | tinyint |
+| **`curr_rate`** | 交易發生的匯率。 Adobe與XE合作，以決定當天的匯率。 | decimal(24,12) |
 | **`currency`** | 交易期間使用的貨幣代碼。 使用[`currencyCode`](/help/implement/vars/config-vars/currencycode.md)設定。 | char(8) |
 | **`cust_hit_time_gmt`** | 僅限啟用時間戳記的報告套裝。時間戳記根據 UNIX® 時間隨點擊傳送。 | int |
 | **`cust_visid`** | 自訂訪客ID （如果使用[`visitorID`](/help/implement/vars/config-vars/visitorid.md)設定）。 | varchar(255) |
@@ -66,18 +66,18 @@ ht-degree: 66%
 | **`dataprivacydmaconsent`** | 此值可識別透過Adobe Advertising將資料從Adobe Analytics傳送至第三方廣告提供者(例如Google)時是否獲得同意。 如需詳細資訊，請參閱[廣告同意](/help/components/dimensions/ad-consent.md)。 | varchar(100) |
 | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
 | **`domain`** | [網域](/help/components/dimensions/domain.md)維度。 根據訪客的網際網路存取點而定。 | varchar(100) |
-| **`duplicate_events`** | 列出每個計為重複項目的事件。 | varchar(255) |
+| **`duplicate_events`** | 列出計算為重複專案的每個事件。 | varchar(255) |
 | **`duplicate_purchase`** | 此旗標可判斷此點選的購買事件是否因為重複而被忽略。 | 不帶正負號的 tinyint |
 | **`duplicated_from`** | 僅用於包含點擊複製 VISTA 規則的報告套裝。指出從中複製點擊的報告套裝。 | varchar(40) |
 | **`ef_id`** | `ef_id`用於 Adobe Advertising 整合。 | varchar(255) |
-| **`evar1 - evar250`** | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用不同的 eVar。若要瞭解貴組織如何填入個別eVar的詳細資訊，最佳方式是貴組織專屬的[解決方案設計檔案](/help/implement/prepare/solution-design.md)。 | varchar(255) |
+| **`evar1 - evar250`** | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用eVar的方式都不同。 若要瞭解貴組織如何填入個別eVar的詳細資訊，最佳方式是貴組織專屬的[解決方案設計檔案](/help/implement/prepare/solution-design.md)。 | varchar(255) |
 | **`event_list`** | 以逗號分隔的數值ID清單，代表點選時觸發的事件。 包含預設事件和[自訂事件1-1000](/help/components/metrics/custom-events.md)。 使用`event.tsv`查詢。 | 文字 |
 | **`exclude_hit`** | 決定點選是否從報表中排除的旗標。 此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報告套裝上遺失時間戳記的點擊，或非時間戳記報告套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
-| **`first_hit_page_url`** | 訪客的第一個 URL。 | varchar(255) |
+| **`first_hit_page_url`** | 訪客的第一個URL。 | varchar(255) |
 | **`first_hit_pagename`** | [登入頁面原始](/help/components/dimensions/entry-dimensions.md)維度。 訪客的原始登入頁面名稱。 | varchar(100) |
 | **`first_hit_ref_domain`** | [原始反向連結網域](/help/components/dimensions/original-referring-domain.md)維度。 根據`first_hit_referrer`而定。訪客的第一個反向連結網域。 | varchar(100) |
 | **`first_hit_ref_type`** | 表示訪客第一個反向連結的反向連結型別數值ID。 請參考`referrer_type.tsv`查詢表。 | 不帶正負號的 tinyint |
-| **`first_hit_referrer`** | 訪客的第一個反向連結 URL。 | varchar(255) |
+| **`first_hit_referrer`** | 訪客的第一個反向連結URL。 | varchar(255) |
 | **`first_hit_time_gmt`** | 訪客初次點擊的時間戳記 (根據 UNIX® 時間)。 | int |
 | **`geo_city`** | 根據IP的點選來源城市名稱。 用於[城市](/help/components/dimensions/cities.md)維度。 | char(32) |
 | **`geo_country`** | 根據IP的點選來源國家/地區縮寫。 用於[國家/地區](/help/components/dimensions/countries.md)維度。 | char(4) |
@@ -102,7 +102,7 @@ ht-degree: 66%
 | **`latlon23`** | 位置 (100 公尺以內) | varchar(255) |
 | **`latlon45`** | 位置 (1 公尺以內) | varchar(255) |
 | **`mc_audiences`** | 訪客所屬的 Audience Manager 區段 ID 清單。`post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | 文字 |
-| **`mcvisid`** | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
+| **`mcvisid`** | Experience Cloud訪客ID。 128位元數字，由兩個串連的64位元數字組成，並補上19位數。 | varchar(255) |
 | **`mobile_id`** | 如果使用者使用行動裝置，則為裝置的數值 ID。`mobile_attributes.tsv` [動態查詢](dynamic-lookups.md)的索引鍵值。 | int |
 | **`mobileaction`** | 行動動作。在行動實作中呼叫`trackAction`時自動收集。 允許應用程式中的自動動作路徑。 | varchar(100) |
 | **`mobileappid`** | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本：`[AppName] [BundleVersion]` | varchar(255) |
@@ -122,7 +122,7 @@ ht-degree: 66%
 | **`mobiledayssincefirstuse`** | 自應用程式初次執行以來的天數。 | varchar(255) |
 | **`mobiledayssincelastuse`** | 自應用程式上次執行以來的天數。 | varchar(255) |
 | **`mobiledeeplinkid`** | 從內容資料變數`a.deeplink.id`中收集。用於贏取報表中，作為行動贏取連結的識別碼。 | varchar(255) |
-| **`mobiledevice`** | 行動裝置名稱。在 iOS 上，此名稱以逗號分隔的 2 位數字串形式儲存。第一個數字代表裝置代別，第二個數字代表裝置系列。 | varchar(255) |
+| **`mobiledevice`** | 行動裝置名稱。 在iOS上，這會儲存為逗號分隔的2位數字串。 第一個數字代表裝置代別，第二個數字代表裝置系列。 | varchar(255) |
 | **`mobilehourofday`** | 定義一天當中啟動應用程式的時段。請依照 24 小時數字格式。 | varchar(255) |
 | **`mobileinstalldate`** | Mobile 安裝日期。提供使用者初次開啟行動應用程式的日期。 | varchar(255) |
 | **`mobilelaunchnumber`** | 每次啟動行動應用程式時增加 1。 | varchar(255) |
@@ -149,23 +149,23 @@ ht-degree: 66%
 | **`new_visit`** | 此旗標可確定目前的點選是否為新造訪。 造訪閒置30分鐘後，由Adobe設定。 | 不帶正負號的 tinyint |
 | **`os`** | 表示訪客的作業系統的數值ID。 依據`user_agent`欄而定。`operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | 不帶正負號的 int |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
-| **`page_event_var1`** | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
-| **`page_event_var2`** | 僅用於連結追蹤影像要求。連結的自訂名稱（如果已指定）。 根據[中的值設定](/help/components/dimensions/custom-link.md)自訂連結[、](/help/components/dimensions/download-link.md)下載連結[或](/help/components/dimensions/exit-link.md)退出連結`page_event`。 | varchar(100) |
+| **`page_event_var1`** | 僅用於連結追蹤影像要求。 下載連結、退出連結或自訂連結的URL已點按。 | 文字 |
+| **`page_event_var2`** | 僅用於連結追蹤影像要求。 連結的自訂名稱（如果已指定）。 根據[中的值設定](/help/components/dimensions/custom-link.md)自訂連結[、](/help/components/dimensions/download-link.md)下載連結[或](/help/components/dimensions/exit-link.md)退出連結`page_event`。 | varchar(100) |
 | **`page_type`** | 找不到[頁面](/help/components/dimensions/pages-not-found.md)維度，該維度通常用於404頁面。 | char(20) |
 | **`page_url`** | 點擊的 URL。請注意，連結追蹤影像要求(`post_page_url`)的[`tl()`](/help/implement/vars/functions/tl-method.md)已移除，並使用varchar(255)的資料型別。 | 文字 |
 | **`pagename`** | [頁面](/help/components/dimensions/page.md)維度。 如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
 | **`pagename_no_url`** | 與 `pagename` 類似，但不會回復到 `page_url`。只有 `post` 列適用。 | varchar(100) |
 | **`paid_search`** | 決定點選是否符合付費搜尋偵測的旗標。 | 不帶正負號的 tinyint |
-| **`persistent_cookie`** | 用於[持續性 Cookie 支援](/help/components/dimensions/persistent-cookie-support.md)維度。指出訪客是否支援每次點擊後未捨棄的 Cookie。 | char(1) |
+| **`persistent_cookie`** | 用於[持續性 Cookie 支援](/help/components/dimensions/persistent-cookie-support.md)維度。指出訪客是否支援每次點選後都不會捨棄的Cookie。 | char(1) |
 | **`pointofinterest`** | 行動服務興趣點名稱 | varchar(255) |
 | **`pointofinterestdistance`** | 行動服務與興趣點中心的距離 | varchar(255) |
-| **`post_`**&#x200B;欄 | 包含報表中最終使用的值。每個後置欄會填入伺服器端邏輯、處理規則和 VISTA 規則之後。Adobe 建議在大多數情況下使用後置欄。 | 請參閱各個非後置欄 |
+| **`post_`**&#x200B;欄 | 包含最終用於報表中的值。 每個後置欄都會在伺服器端邏輯、處理規則和VISTA規則之後填入。 Adobe 建議在大多數情況下使用後置欄。 | 請參閱個別非後置欄 |
 | **`product_list`** | [`products`](/help/implement/vars/page-vars/products.md)頁面變數。 協助填入多個維度和量度，包括[類別](/help/components/dimensions/category.md)、[產品](/help/components/dimensions/product.md)、[單位](/help/components/metrics/units.md)和[收入](/help/components/metrics/revenue.md)。 | 文字 |
 | **`prop1`** - `prop75` | 自訂流量變數 1 - 75。用於 [Prop](/help/components/dimensions/prop.md) 維度。 | varchar(100) |
 | **`purchaseid`** | 使用[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)變數設定之購買的唯一識別碼。由`duplicate_purchase`欄使用。 | char(20) |
 | **`quarterly_visitor`** | 此旗標可確定點選是否為新的每季訪客。 | 不帶正負號的 tinyint |
 | **`ref_domain`** | [反向連結網域](/help/components/dimensions/referring-domain.md)維度。 根據`referrer`資料行。 | varchar(100) |
-| **`ref_type`** | 表示點選的反向連結型別的數值ID。 用於[反向連結類型](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站 <br>3：搜尋引擎 <br>4：硬碟 <br>5：USENET <br>6：分類/建立書籤 (無反向連結) <br>7：電子郵件 <br>8：無 JavaScript <br>9：社交網路 | 不帶正負號的 tinyint |
+| **`ref_type`** | 表示點選的反向連結型別的數值ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。 <ul><li>網站內</li><li>其他網站</li> <li>搜尋引擎</li> <li> 對話式人工智慧工具</li><li>硬碟</li> <li>USENET</li> <li>分類/建立書籤（無反向連結）</li> <li>電子郵件</li> <li>無JavaScript</li> <li>社交網路</li></ul> | 不帶正負號的 tinyint |
 | **`referrer`** | [反向連結](/help/components/dimensions/referrer.md)維度。 請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255) |
 | **`resolution`** | 表示熒幕解析度的數值ID。 用於[螢幕解析度](/help/components/dimensions/monitor-resolution.md)維度。使用`resolution.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`s_kwcid`** | 用於 Adobe Advertising 整合的關鍵字 ID。 | varchar(255) |
@@ -174,8 +174,8 @@ ht-degree: 66%
 | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。在使用者點進您的網站之前，指示您的網站要顯示哪個搜尋結果頁面。 | 不帶正負號的 smallint |
 | **`secondary_hit`** | 此旗標可判斷點選是否為次要點選。 此標幟通常源自複製點選的多套裝標籤和VISTA規則。 | 不帶正負號的 tinyint |
 | **`sourceid`** | 來源 ID | 不帶正負號的 int |
-| **`state`** | State 變數。 | varchar(50) |
-| **`stats_server`** | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
+| **`state`** | 狀態變數。 | varchar(50) |
+| **`stats_server`** | 沒用。 處理點擊的 Adobe 內部伺服器。 | char(30) |
 | **`t_time_info`** | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文字 |
 | **`tnt_action`** | 用於 Adobe Target 整合。 代表點擊合格的所有測試。 | 文字 |
@@ -183,9 +183,9 @@ ht-degree: 66%
 | **`transactionid`** | 唯一識別碼，日後可透過資料來源上傳各種資料點。使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | 文字 |
 | **`truncated_hit`** | 指出影像要求已截斷的旗標。 表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
 | **`user_agent`** | 在影像要求的HTTP標頭中傳送的使用者代理字串。 | 文字 |
-| **`user_hash`** | 未使用。報告套裝 ID 上的雜湊.請改用 `username`。 | 不帶正負號的 int |
+| **`user_hash`** | 沒用。 報告套裝 ID 上的雜湊.請改用 `username`。 | 不帶正負號的 int |
 | **`user_server`** | 用於[伺服器](/help/components/dimensions/server.md)維度。 | varchar(100) |
-| **`userid`** | 未使用。報告套裝 ID 的數值 ID。請改用 `username`。 | 不帶正負號的 int |
+| **`userid`** | 沒用。 報告套裝 ID 的數值 ID。請改用 `username`。 | 不帶正負號的 int |
 | **`username`** | 點擊的報告套裝 ID。 | char(40) |
 | **`va_closer_detail`** | [上次接觸詳細資料](/help/components/dimensions/last-touch-detail.md)維度。 | varchar(255) |
 | **`va_closer_id`** | 可識別[上次接觸管道](/help/components/dimensions/last-touch-channel.md)維度的數值ID。 您可於行銷管道管理員中查詢此ID。 | 不帶正負號的 tinyint |
@@ -249,7 +249,7 @@ ht-degree: 66%
 | **`visit_ref_type`** | 表示造訪的第一個反向連結的反向連結型別數值ID。 請參考`referrer_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | **`visit_referrer`** | 造訪的第一個反向連結。 | varchar(255) |
 | **`visit_search_engine`** | 表示造訪的第一個搜尋引擎數值ID。 請參考`search_engines.tsv`查詢表。 | 不帶正負號的 smallint |
-| **`visit_start_page_url`** | 造訪的第一個 URL。 | varchar(255) |
+| **`visit_start_page_url`** | 造訪的第一個網址。 | varchar(255) |
 | **`visit_start_pagename`** | 造訪首次點擊時的頁面名稱值。 | varchar(100) |
 | **`visit_start_time_gmt`** | 造訪的第一次點擊時間戳記 (根據 UNIX® 時間)。 | int |
 | **`weekly_visitor`** | 此旗標可確定點選是否為每週新訪客。 | 不帶正負號的 tinyint |
@@ -410,4 +410,4 @@ ht-degree: 66%
 >[!MORELIKETHIS]
 >
 >[XDM物件變數對應](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
+>[資料物件變數對應](/help/implement/aep-edge/data-var-mapping.md)
