@@ -26,7 +26,7 @@ ht-degree: 58%
 >
 >大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問題](../df-faq.md)。
 
-您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)上找到之前對此表格的更新。
+您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)上找到之前對此表格的更新。
 
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
