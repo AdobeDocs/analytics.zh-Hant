@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 662019f091208c63ea2e0ee613b3d639ed6bfe36
-workflow-type: ht
-source-wordcount: '6529'
-ht-degree: 100%
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
+workflow-type: tm+mt
+source-wordcount: '6543'
+ht-degree: 99%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
-* 如需 [!UICONTROL Customer Journey Analytics] 的相關資訊，請前往[此處](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant)。
-* 如需關於 Adobe 串流媒體服務的資訊，請參閱[在 Analytics 中測量音訊和影片](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
+* 如需 [!UICONTROL Customer Journey Analytics] 的相關資訊，請前往[此處](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)。
+* 如需關於 Adobe 串流媒體服務的資訊，請參閱[在 Analytics 中測量音訊和影片](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 ## 主要文件更新的詳細資訊
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2025 年 11 月** | |
+| VISTA規則的重要考量 | 更新有關[Vista規則](/help/technotes/vista.md)的重要考量。 |
 | **2025 年 10 月** | |
 | 分類集 | [分類集](/help/components/classifications/sets/overview.md)文件更新。 |
 | 歸因設定 | 反映模型、容器及回顧期間新歸因設定選項的其他更新。 |
@@ -118,7 +120,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
 | 開始使用內容增強功能 | 已新增概觀管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 改善串流媒體收集的報告文件 | 重新整理串流媒體收集指南之「報告」區段中的一些內容，包括將 API 文件合併到其自有區段中，以及調整一些文章的順序。 <p>將媒體工作區範本文章重命名為 [Workspace 媒體報告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=zh-Hant)，以與產品內的名稱保持一致。 </p> |
+| 改善串流媒體收集的報告文件 | 重新整理串流媒體收集指南之「報告」區段中的一些內容，包括將 API 文件合併到其自有區段中，以及調整一些文章的順序。 <p>將媒體工作區範本文章重命名為 [Workspace 媒體報告](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)，以與產品內的名稱保持一致。 </p> |
 | **2023 年 8 月** | |
 | 資料摘要釐清 | 更新[開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md)，以釐清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料之前的任何日期。 |
 | Adobe Experience Platform Edge Network 資料處理 | 已新增內容說明 Adobe Analytics 如何[處理來自 Edge Network 的資料](../implement/aep-edge/overview.md)。 |
@@ -126,7 +128,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
 | 比較實作方法 | 已更新比較不同實作方法的文件。[了解更多](../implement/prepare/comparison.md) |
 | 澄清資料摘要的 SFTP 設定不需要 Adobe 客戶服務 | 在[使用 SFTP 將 Adobe 資料傳送到外部 FTP 帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中，澄清不需要求助 Adobe 客戶服務即可為資料摘要設定 SFTP。 <p>同時，新增注意事項，表示不再建議使用 SFTP，客戶在設定資料摘要時應使用雲端目的地。</p> |
-| 串流媒體收集的文件改善 | 已針對串流媒體收集進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hant)，明確區分邊緣實作和僅限 Analytics 實作。還新增圖表，說明各種實作方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=zh-Hant)和[僅限 Analytics 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=zh-Hant)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=zh-Hant)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=zh-Hant) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hant)區域文章的內容和組織。這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=zh-Hant)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
+| 串流媒體收集的文件改善 | 已針對串流媒體收集進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)，明確區分邊緣實作和僅限 Analytics 實作。還新增圖表，說明各種實作方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html)和[僅限 Analytics 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html)區域文章的內容和組織。這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network API | 新增可更全面說明何時與如何使用 [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) 透過 Adobe Analytics 實作資料收集的文件。例如，在桌面應用程式、IoT 裝置、機上盒中透過 Adobe Analytics 實作資料收集。 |
 | 全球公司 ID | 以文件說明針對您登入的 Analytics 公司，[如何找到全球公司 ID](../admin/tools/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
@@ -183,7 +185,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 同意管理變數 | [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)和[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)的專屬頁面。 |
 | 多貨幣重新整理 | [多貨幣支援](/help/implement/vars/config-vars/currencycode.md)頁面已更新。 |
 | **2022 年 10 月** |  |
-| Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
+| Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | 用戶端提示 | 新的[概觀和常見問題集](/help/technotes/client-hints.md)。 |
 | 關鍵量度摘要 | 新的[關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)視覺化主題。 |
 | 分類集 | 新的使用者[分類集](/help/components/classifications/sets/overview.md)體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。 |
@@ -230,7 +232,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[花費的媒體播放時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)面板的新文件。 |
 | 2021 年 10 月 7 日 | 有關[行動計分卡視覺效果](/help/analyze/mobile-app/create-scorecard.md#apply-visualizations)的新文件 |
 | **2021 年 8 月** |  |
-| 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant) |
+| 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html) |
 | 2021 年 8 月 18 日 | 有關 [A4T 和虛擬報告套裝](/help/components/vrs/vrs-a4t.md)的新主題 |
 | 2021 年 8 月 18 日 | 有關[歸因最佳做法](/help/analyze/analysis-workspace/attribution/best-practices.md)的新主題 |
 | 2021 年 8 月 5 日 | 有關[計算重複執行個體數](/help/components/metrics/count-repeat-instances.md)的新主題 |
@@ -319,7 +321,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 4 日 | 徹底重寫[實作使用者指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新「自由表格」頁面，加入新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的相關資訊。 |
 | **2020 年 1 月** | |
-| 2020 年 1 月 24 日 | 工作區中「[列設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=zh-Hant#cja-workspace)」頁面的更新。 |
+| 2020 年 1 月 24 日 | 工作區中「[列設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace)」頁面的更新。 |
 | 2020 年 1 月 16 日 | 有關[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的新文件。啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 已修改「[我該使用哪種 Adobe Analytics 工具呢](/help/analyze/get-started/which-analytics-tool.md)」頁面。 |
@@ -331,13 +333,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 12 月 19 日 | 已將預設 [FTP 資料儲存空間限制](/help/export/ftp-and-sftp/ftp-limits.md)變更為 10 GB。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 有關「強制 IP 登入限制」服務終止的新主題。 |
-| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 11 月 21 日 | 已更新 [Audience Analytics 工作流程常見問題集](/help/integrate/c-audience-analytics/mc-audiences-faqs.md)來指示直播串流中的可用性。 |
 | 2019 年 10 月 25 日 | 已更新「[Adobe Analytics 重要概念](/help/technotes/terms.md)」頁面。 |
 | 2019 年 10 月 10 日 | 自由格式表格總計的更新：這類表格現在包含兩個總計：**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總和]**。表格總計列計入套用的[報告篩選器](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。以前只有區段會影響總計。[了解更多](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>此外，「**[!UICONTROL 顯示總計]**」和「**[!UICONTROL 顯示總量]**」選項已新增至「**[!UICONTROL 欄設定]**」。<br/>自由表格總計經過此變更後，相依的視覺效果就會隨之更新 (例如連結的「**[!UICONTROL 摘要數字]**」視覺效果)，匯出的 CSV 和 PDF 資料也會更新。 |
 | 2019 年 10 月 10 日 | 在工作區中，輕鬆地移除「未指定 (無)」的功能已新增為報告篩選的選項。 |
 | 2019 年 10 月 10 日 | 在工作區中，紫色的粒度元件 (分鐘、小時、天、週、月、季、年) 已過時。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
-| 2019 年 10 月 1 日 | 有關[工作區總計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant#cja-workspace)的新文件。 |
+| 2019 年 10 月 1 日 | 有關[工作區總計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace)的新文件。 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
 | 2019 年 9 月 19 日 | 已修改分段文件來說明[邏輯群組容器](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md#logic-group-containers)。 |
 | 2019 年 9 月 12 日 | [跨裝置分析](/help/components/cda/overview.md)的新文件 |
