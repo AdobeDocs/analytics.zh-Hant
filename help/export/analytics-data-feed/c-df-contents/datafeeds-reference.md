@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: '3690'
 ht-degree: 58%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 58%
 >
 >大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問題](../df-faq.md)。
 
-您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)上找到之前對此表格的更新。
+您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)上找到之前對此表格的更新。
 
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ ht-degree: 58%
 | **`purchaseid`** | 使用[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)變數設定之購買的唯一識別碼。由`duplicate_purchase`欄使用。 | char(20) |
 | **`quarterly_visitor`** | 此旗標可確定點選是否為新的每季訪客。 | 不帶正負號的 tinyint |
 | **`ref_domain`** | [反向連結網域](/help/components/dimensions/referring-domain.md)維度。 根據`referrer`資料行。 | varchar(100) |
-| **`ref_type`** | 表示點選的反向連結型別的數值ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。 <ul><li>網站內</li><li>其他網站</li> <li>搜尋引擎</li> <li> 對話式人工智慧工具</li><li>硬碟</li> <li>USENET</li> <li>分類/建立書籤（無反向連結）</li> <li>電子郵件</li> <li>無JavaScript</li> <li>社交網路</li></ul> | 不帶正負號的 tinyint |
+| **`ref_type`** | 表示點選的反向連結型別的數值ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。 <p>1：網站內</p><p>2：其他網站</p> <p>3：搜尋引擎</p> <p>4：硬碟</p> <p>5：USENET</p> <p>6：分類/建立書籤（無反向連結）</p> <p>7：電子郵件</p> <p>8：無JavaScript</p> <p>9：社交網路</p><p>10：對話式人工智慧工具</p> | 不帶正負號的 tinyint |
 | **`referrer`** | [反向連結](/help/components/dimensions/referrer.md)維度。 請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255) |
 | **`resolution`** | 表示熒幕解析度的數值ID。 用於[螢幕解析度](/help/components/dimensions/monitor-resolution.md)維度。使用`resolution.tsv`查詢表。 | 不帶正負號的 smallint |
 | **`s_kwcid`** | 用於 Adobe Advertising 整合的關鍵字 ID。 | varchar(255) |
