@@ -23,7 +23,7 @@ ht-degree: 48%
 
 ## xdm物件欄位對應
 
-您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)上找到之前對此表格的更新。
+您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/implement/aep-edge/xdm-var-mapping.md)上找到之前對此表格的更新。
 
 | XDM 欄位路徑 | Analytics變數和說明 |
 | --- | --- |
