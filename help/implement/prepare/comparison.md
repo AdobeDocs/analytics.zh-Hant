@@ -31,7 +31,7 @@ ht-degree: 38%
 
 >[!CAUTION]
 >
->版本 4 Mobile SDK 於 2021 年 8 月 31 日終止支援。 如需詳細資訊，請參閱[Adobe Mobile Services生命週期結束常見問題集](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)。
+>版本 4 Mobile SDK 於 2021 年 8 月 31 日終止支援。 如需詳細資訊，請參閱[Adobe Mobile Services生命週期結束常見問題集](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=zh-Hant)。
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [Edge Network API](/help/implement/aep-edge/api/overview.md) |
