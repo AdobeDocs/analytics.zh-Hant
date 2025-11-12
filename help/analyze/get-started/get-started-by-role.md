@@ -3,7 +3,7 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 99%
@@ -79,7 +79,7 @@ Analytics 管理員應先完成以下任務，再將 Adobe Analytics 提供給�
 | 貢獻分析 | 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合客群細分群體間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。 | [貢獻分析概觀](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Analytics 分段 | 可讓您建立、管理、共用功能強大且目標專一的客群細分群體，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報告。 | [Analytics 分段](/help/components/segmentation/seg-home.md) |
 | 將對象發佈到 Audience Manager | Adobe Audience Manager 是一個功能強大的資料管理平台，可協助您從第一方、第二方 (合作夥伴) 與第三方資料整合建置不重複對象輪廓。 | [Audience Analytics 概觀](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
-| 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant">串流媒體服務</a></li> | [Analytics 整合](/help/integrate/home.md) |
+| 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html">串流媒體服務</a></li> | [Analytics 整合](/help/integrate/home.md) |
 
 {style="table-layout:auto"}
 

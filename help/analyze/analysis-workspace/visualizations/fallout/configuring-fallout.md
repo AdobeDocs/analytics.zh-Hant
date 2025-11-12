@@ -4,18 +4,18 @@ title: 設定流失視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 73%
+ht-degree: 65%
 
 ---
 
 # 設定流失視覺效果
 
-您可指定接觸點來建立多維度流失序列。通常，接觸點就是網站上的某個頁面。但接觸點不限於頁面。例如，您可以新增事件 (例如件數)，以及不重複人員和回訪次數。您也可以新增維度，例如類別、瀏覽器類型或內部搜尋詞。
+您可以指定接觸點來建立多維度流失序列。 通常接觸點是您網站上的頁面。 不過，接觸點並不限於頁面。 例如，您可以新增事件 (例如件數)，以及不重複人員和回訪次數。您也可以新增維度，例如類別、瀏覽器型別或內部搜尋詞。
 
-您甚至可以在接觸點內新增區段。例如，您可能想比較 iOS 和 Android™ 使用者之類的區段。將所需區段拖曳至流失上方，這些區段的相關資訊會新增至流失報告中。如果只想顯示這些區段，您可以移除「所有造訪數」基線。
+您甚至可以在接觸點內新增區段。 例如，您可能想比較 iOS 和 Android™ 使用者之類的區段。將所需區段拖曳至流失上方，這些區段的相關資訊會新增至流失報告中。如果只想顯示這些區段，您可以移除「所有造訪數」基線。
 
 對於可新增的步驟數或是可使用的維度數並沒有限制。
 
@@ -74,14 +74,14 @@ ht-degree: 73%
 | **[!UICONTROL 趨勢接觸點]** | 在折線圖中查看接觸點的趨勢資料，其中包含一些預先建立的異常偵測資料。 |
 | **[!UICONTROL 趨勢接觸點 (%)]** | 總流失百分比趨勢。 |
 | **[!UICONTROL 所有接觸點趨勢 (%)]** | 在同一圖表上顯示流失中所有接觸點的百分比趨勢 (若已包括&#x200B;**[!UICONTROL 所有人員]**&#x200B;則除外)。 |
-| **[!UICONTROL 在此接觸點劃分區間]** | 如果訪客繼續進入下一個接觸點，可檢視訪客在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。這會建立顯示維度的自由表格。您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]**&#x200B;分割的[獨特訪客](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**&#x200B;作為量度。 檢查區段以瞭解如何決定遞補區段。 |
-| **[!UICONTROL 在此接觸點劃分流失]** | 檢視未透過funnel的訪客，在選定步驟後立即做了什麼事。 這會建立顯示維度的自由表格。您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 流失：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]** [流失：所有訪客>頁面等於任何首頁](/help/components/segmentation/segmentation-workflow/seg-quick.md)區段作為量度的分段&#x200B;**[!UICONTROL 獨特訪客]**。 檢查區段以瞭解如何判斷流失區段。 |
+| **[!UICONTROL 在此接觸點劃分區間]** | 如果訪客繼續進入下一個接觸點，可檢視訪客在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。這樣會建立自由表格，顯示您的維度。 您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]**&#x200B;分割的[獨特訪客](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**&#x200B;作為量度。 檢查區段以瞭解如何決定遞補區段。 |
+| **[!UICONTROL 在此接觸點劃分流失]** | 檢視未透過funnel的訪客，在選定步驟後立即做了什麼事。 這樣會建立自由表格，顯示您的維度。 您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 流失：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]** [流失：所有訪客>頁面等於任何首頁](/help/components/segmentation/segmentation-workflow/seg-quick.md)區段作為量度的分段&#x200B;**[!UICONTROL 獨特訪客]**。 檢查區段以瞭解如何判斷流失區段。 |
 | **[!UICONTROL 從接觸點建立區段]** | 從選取的接觸點建立新的區段。 |
 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

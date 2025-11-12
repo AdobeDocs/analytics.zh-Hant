@@ -1,11 +1,11 @@
 ---
-name: Mobile lifecycle metrics
+title: 行動生命週期量度
 description: 此量度是以使用 Mobile SDK 收集之資料為基礎。
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '37'
+source-wordcount: '40'
 ht-degree: 100%
 
 ---

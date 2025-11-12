@@ -4,7 +4,7 @@ description: 瞭解如何在Analysis Workspace的自由格式表格中建立維�
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [維度](https://video.tv.adobe.com/v/3445799?quality=12&learn=on&captions=chi_hant){target="_blank"}的超連結。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [維度](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"}的超連結。
 
 >[!ENDSHADEBOX]
 

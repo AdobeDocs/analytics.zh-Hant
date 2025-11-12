@@ -4,7 +4,7 @@ description: 瞭解如何在Analysis Workspace中管理註解。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 88%
@@ -34,7 +34,7 @@ ht-degree: 88%
 註解清單➊會顯示您擁有的所有註解、已設定您所有專案範圍的註解，以及與您共用的註解。 清單有以下欄位：
 
 | 欄 | 說明 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取將註解設為最愛項目![Star](/help/assets/icons/Star.svg)或取消最愛項目![StarOutline](/help/assets/icons/StarOutline.svg)。 |
 | **[!UICONTROL 標題和說明]** | 在註解產生器中提供。如要編輯標題和說明，請選取標題連結 - 開啟[註解產生器](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)。共用註解以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 報告套裝]** | 套用此註解的報表套裝。 |
@@ -129,9 +129,9 @@ The [!UICONTROL Annotations manager] shows you all of the annotations that you o
 ![](assets/annotation-mgr.png)
 
 | UI Element | Description |
-| --- | --- | 
+| --- | --- |
 | [!UICONTROL Title and Description] | Provided in the Annotations Builder. To edit the title and description, click the title link - this takes you back to the Annotations Builder.  |
-| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  | 
+| [!UICONTROL Report Suite] | The report suites that this annotation applies to.  |
 | [!UICONTROL Owner] | Indicates who owns the annotation. As a non-Admin, you can see only annotations that you own or those that were shared with you. |
 | [!UICONTROL Applied Date Range] | The date or date range that this annotation applies to. |
 | [!UICONTROL Shared with] | Lists how many individuals or groups that you shared the annotation with. Click for more detail. |

@@ -1,5 +1,5 @@
 ---
-source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '2999'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >全新的簡化版[Report Builder](/help/analyze/report-builder/rb-overview.md)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
->&#x200B;>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
+>這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 87%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
@@ -92,9 +92,9 @@ ht-degree: 87%
 
 ## 歸因回顧期間 {#attribution-lookback-window}
 
-回顧期間是指轉換要納入接觸點時需要回顧的時間量。如果維度項目設定在回顧期間之外，則該值不會納入任何歸因計算。
+回顧期間是指轉換要納入接觸點時需要回顧的時間量。如果維度項目設定於回顧期間之外，則此值不會納入任何歸因計算。
 
-* **[!UICONTROL 報告期間]**：從轉換發生時開始回顧到報告期間開始。
+* **[!UICONTROL 報告期間]**：回顧至轉換發生當下此報告期間的起始處。
 * **14 天**：回顧自轉換發生時間起最多 14 天。
 * **30 天**：回顧自轉換發生時間起最多 30 天。
 * **60 天**：回顧自轉換發生時間起最多 60 天。

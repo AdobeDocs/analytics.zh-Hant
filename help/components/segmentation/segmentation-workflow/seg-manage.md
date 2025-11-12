@@ -3,7 +3,7 @@ description: 瞭解如何使用區段管理器來管理區段，例如共用、�
 title: 管理區段
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 63%
@@ -34,7 +34,7 @@ ht-degree: 63%
 區段清單➊會顯示您擁有的所有區段、已設定您所有專案範圍的區段，以及已與您共用的區段。 清單有以下欄位：
 
 | 欄 | 說明 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以將區段設為我的最愛 ![Star](/help/assets/icons/Star.svg) 或取消我的最愛 ![StarOutline](/help/assets/icons/StarOutline.svg)。請參閱[將區段標示為我的最愛](t-seg-favorite.md) |
 | **[!UICONTROL 標題和說明]** | 若要編輯區段，請選取標題連結，以開啟[區段產生器](seg-build.md)。 共用的區段會以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 報表套裝]** | 套用此區段的報表套裝。 |
@@ -54,7 +54,7 @@ ht-degree: 63%
 |---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]** | 使用[區段產生器](seg-build.md)新增另一個區段。 |
 | ![Search](/help/assets/icons/Search.svg) [!UICONTROL *根據標題搜尋*] | 當未選取清單中任何區段時，請使用此搜尋欄位搜尋區段。 |
-| ![Label](/help/assets/icons/Label.svg) **[!UICONTROL 標記]** | 標記所選取之區段。在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
+| ![標籤](/help/assets/icons/Label.svg)**[!UICONTROL 標記]** | 標記所選取之區段。在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
 | ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用所選取之區段。在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話框中，您可以 ![Search](/help/assets/icons/Search.svg) *搜尋個人或群組*，或者您可以選取「**[!UICONTROL 組織]**」或「**[!UICONTROL 群組]**」。選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的共用詳細資訊。如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
 | ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。系統會提示您進行確認。 |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。選取後，您可以重新命名內嵌區段。 |
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hant) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

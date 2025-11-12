@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表選項
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 22%
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
    | [!UICONTROL **以壓縮檔案(ZIP)傳送報告**] | 以壓縮(ZIP)檔案格式傳送報表。 建議在使用電子郵件做為[報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)時啟用此選項。 |
    | [!UICONTROL **傳回所有列**] | 啟用時，所有列都會納入報告中。 停用此選項以指定要包含的列數。 |
    | [!UICONTROL **報表註解開始**] | 新增您要納入報告的任何註解。 註解會顯示在報表的開頭。 |
-   | [!UICONTROL **依量度排序**] | 在Data Warehouse中提供依遞減量度值排序的排名劃分報表。 依量度排序能讓您更容易解讀 Data Warehouse 報表，也更容易將那些報表與其他 Analytics 劃分報告檢視進行比較。<p>如需詳細資訊，請參閱[依量度排序](/help/export/data-warehouse/sorting-by-metric.md)。</p> |
+   | [!UICONTROL **依量度排序**] | 在Data Warehouse中提供依遞減量度值排序的排名劃分報表。 依量度排序可讓您更輕鬆地解讀Data Warehouse報表，並讓這些報表更易於與其他Analytics劃分報表檢視進行比較。<p>如需詳細資訊，請參閱[依量度排序](/help/export/data-warehouse/sorting-by-metric.md)。</p> |
    | [!UICONTROL **傳送資訊清單檔案**] | 包含報表中所包含檔案的中繼資料。<!-- What kind of metadata is included in the manifest file? --> |
    | [!UICONTROL **傳送數位簽章檔案**] | 允許報表收件者確認檔案是否來自Adobe，以及檔案是否尚未變更。 |
    | [!UICONTROL **當報告中沒有資料時，傳送空白檔案**] | 即使報表不含任何資料，仍會傳送報表。 |

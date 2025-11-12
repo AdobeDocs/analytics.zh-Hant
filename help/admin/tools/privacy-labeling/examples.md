@@ -4,10 +4,10 @@ title: 加上標籤範例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 100%
 
 假設您有以下點擊資料：
 
-* 第一行含有每個變數的標籤。
-* 第二行是變數的名稱。如果變數具有 ID 標籤，則會在括號中包含指派的命名空間。
-* 第三行之後是點擊資料。
+* 第一列包含每個變數的標籤。
+* 第二列是變數的名稱。 如果它有ID標籤，則會以括弧包含指派的名稱空間。
+* 點選資料從第三列開始。
 
 | 標籤 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
 | **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **訪客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| 點擊資料 | Mary | 77 | A | M | X |
+| 點選資料 | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
 | | John | 77 | D | P | W |
@@ -42,12 +42,13 @@ ht-degree: 100%
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 值</th>
-    <th rowspan="2">已傳回摘要<br/>檔案類型<br/></th>
+    <th>已傳回摘要<br/>檔案類型<br/></th>
     <th colspan="5" style="text-align:center">摘要存取檔案中的資料</th>
   </tr>
   <tr>
     <th>命名空間/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>訪客 ID</th>
     <th>MyEvar1</th>
@@ -61,8 +62,8 @@ ht-degree: 100%
     <td>不存在</td>
     <td>77</td>
     <td>不存在</td>
-    <td>M、P</td>
-    <td>X、W</td>
+    <td>M， P</td>
+    <td>X， W</td>
   </tr>
   <tr>
     <td>AAID=77</td>
@@ -71,53 +72,53 @@ ht-degree: 100%
     <td>不存在</td>
     <td>77</td>
     <td>不存在</td>
-    <td>M、P</td>
-    <td>X、W</td>
+    <td>M， P</td>
+    <td>X， W</td>
   </tr>
   <tr>
     <td>user=Mary</td>
     <td>false</td>
     <td>人員</td>
     <td>Mary</td>
-    <td>77、88、99</td>
+    <td>77， 88， 99</td>
     <td>A、B、C</td>
-    <td>M、N、O</td>
-    <td>X、Y、Z</td>
+    <td>M， N， O</td>
+    <td>X， Y， Z</td>
   </tr>
   <tr>
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>人員</td>
     <td>Mary</td>
-    <td>77、88、99</td>
+    <td>77， 88， 99</td>
     <td>A、B、C</td>
-    <td>M、N、O</td>
-    <td>X、Y、Z</td>
+    <td>M， N， O</td>
+    <td>X， Y， Z</td>
   </tr>
   <tr>
     <td>裝置</td>
     <td>不存在</td>
-    <td>77、88</td>
+    <td>77， 88</td>
     <td>A、B、C</td>
-    <td>N、P</td>
-    <td>U、W</td>
+    <td>N， P</td>
+    <td>U， W</td>
   </tr>
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>人員</td>
     <td>Mary</td>
-    <td>77、88、99</td>
+    <td>77， 88， 99</td>
     <td>A、B、C</td>
-    <td>M、N、O</td>
-    <td>X、Y、Z</td>
+    <td>M， N， O</td>
+    <td>X， Y， Z</td>
   </tr>
   <tr>
     <td>裝置</td>
     <td>不存在</td>
-    <td>66、77、88</td>
+    <td>66， 77， 88</td>
     <td>A、B、C</td>
-    <td>N、P</td>
+    <td>N， P</td>
     <td>U、W、Z</td>
   </tr>
   <tr>
@@ -125,9 +126,9 @@ ht-degree: 100%
     <td>false</td>
     <td>裝置</td>
     <td>不存在</td>
-    <td>55、77</td>
+    <td>55， 77</td>
     <td>不存在</td>
-    <td>M、R</td>
+    <td>M， R</td>
     <td>X</td>
   </tr>
   <tr>
@@ -135,10 +136,10 @@ ht-degree: 100%
     <td>true</td>
     <td>裝置</td>
     <td>不存在</td>
-    <td>55、77</td>
+    <td>55， 77</td>
     <td>不存在</td>
     <td>M、P、R</td>
-    <td>W、X</td>
+    <td>W， X</td>
   </tr>
 </table>
 

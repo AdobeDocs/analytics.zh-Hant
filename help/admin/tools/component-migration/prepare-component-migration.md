@@ -3,10 +3,10 @@ description: 說明準備將元件和專案從Adobe Analytics移轉至Customer J
 title: 準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
-source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '863'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 ## 先決條件
 
-在專案及其相關元件準備好移轉之前，您必須先遵循Adobe Customer Journey Analytics指南中[從Adobe Analytics演化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html?lang=zh-Hant)的步驟。 這些步驟包括：
+在專案及其相關元件準備好移轉之前，您必須先遵循Adobe Customer Journey Analytics指南中[從Adobe Analytics演化](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/aa-to-cja.html)的步驟。 這些步驟包括：
 
 1. 使用下列任一種方法將資料內嵌至Adobe Experience Platform，以便在Customer Journey Analytics中檢視Adobe Analytics報表套裝資料：
 
@@ -27,21 +27,21 @@ ht-degree: 10%
 
    * 若要使用Adobe Analytics來源聯結器，您需要：
 
-      1. [設定報告套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=zh-Hant#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [設定報告套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
       1. [擷取及使用資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hant)
 
    * 若要使用WebSDK，您需要：
 
-      1. [設定報告套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=zh-Hant#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+      1. [設定報告套裝以擷取至Adobe Experience Platform和Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=zh-Hant)
+      1. [透過Adobe Experience Platform Web SDK擷取資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. 建立已擷取資料的[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=zh-Hant)和[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=zh-Hant)。
+1. 建立已擷取資料的[連線](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html)和[資料檢視](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html)。
 
 1. 確保Customer Journey Analytics中的使用者已布建至資料對應的資料檢視。
 
-   如需詳細資訊，請參閱[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=zh-Hant#customer-journey-analytics-permissions-in-admin-console)中的[Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=zh-Hant)。
+   如需詳細資訊，請參閱[Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console)中的[Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html)。
 
    「許可權」索引標籤是Admin Console中每個產品設定檔的一部分。 您可以將使用者新增到特定的產品設定檔。然後，將許可權指派給特定的資料檢視，並指定產品設定檔中的使用者擁有哪些許可權。
 
@@ -59,7 +59,7 @@ ht-degree: 10%
 
 Customer Journey Analytics中尚未存在的區段、日期範圍和計算量度，會根據對應的維度和量度在那裡重新建立。
 
-|  | 「已移轉」 |
+|  | 已移轉 |
 |---------|---------|
 | **[所有者](/help/components/calculated-metrics/workflow/cm-manager.md)** | 維度與量度：否<p>區段和日期範圍： ![核取記號](assets/Smock_Checkmark_18_N.svg)</p> |
 | **[共用](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 維度與量度：否<p>區段和日期範圍：否</p> |
@@ -71,7 +71,7 @@ Customer Journey Analytics中尚未存在的區段、日期範圍和計算量度
 
 ### 已移轉的專案元素
 
-|  | 「已移轉」 |
+|  | 已移轉 |
 |---------|----------|
 | **[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
 | **[區段](/help/components/segmentation/seg-overview.md)** | ![核取記號](assets/Smock_Checkmark_18_N.svg) |
@@ -132,24 +132,24 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 * pagetimeseconds
 * singlepagevisits
 * visitnumber
-* timeprior
-* timespent
-* category
+* 時間優先順序
+* 逗留時間
+* 類別
 * connectiontype
 * customerloyalty
-* customlink
+* 自訂連結
 * downloadlink
-* exitlink
-* hitdepth
+* 退出連結
+* 點選深度
 * hittype
-* pathlength
+* 路徑長度
 * daysbeforefirstpurchase
 * dayssincelastpurchase
 * dayssincelastvisit
 * identificationstate
 * optoutreason
 * persistentcookie
-* returnfrequency
+* 回訪頻度
 * searchenginenatural
 * searchenginenaturalkeyword
 * mobilecarrier
@@ -165,7 +165,7 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 * timespentvisit
 * timespentvisitor
 * 重新載入
-* bounces
+* 跳出數
 * 跳出
 * pageevents
 * pageviewspervisit
@@ -180,12 +180,12 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 * singlevaluevisits
 * visitorhomepage
 * visitorsmcvisid
-* pagesnotfound
+* 頁面找不到
 * 新增參與
 * time_granular
 * concurrent_viewers_visitors
 * concurrent_viewers_occurrences
-* 問題
+* 裝置
 * estimatedpeople
 * playback_time_spent_seconds
 * playback_time_spent_minutes

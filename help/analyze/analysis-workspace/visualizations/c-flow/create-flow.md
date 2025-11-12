@@ -4,10 +4,10 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1685'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -130,13 +130,13 @@ ht-degree: 88%
 
 ## 設定
 
-流量設定的摘要會顯示在視覺效果的頂端。圖表中的路徑會依照比例顯示。具有較多活動的路徑看起來比較寬。
+流量設定的摘要會顯示在視覺效果的頂端。圖表中的路徑成比例。 活動較多的路徑看起來較厚。
 
 ![流量輸出範例顯示結束於造訪數、路徑分析維度：頁面和流量容器：訪客。](assets/flow-output.png)
 
 若要深入研究資料，您有幾個選項：
 
-* 流量圖是互動式的。將滑鼠移到圖表上方，可變更顯示的詳細資料。
+* 流程圖為互動式。 將滑鼠移到圖表上可變更顯示的詳細資料。
 
 * 當您在圖表中選取節點時，會顯示該節點的詳細資料。 再次選取節點，以將其摺疊。
 
@@ -167,7 +167,7 @@ ht-degree: 88%
 
 | 選項 | 說明 |
 |--- |--- |
-| **[!UICONTROL 焦點放在這個節點]** | 將焦點變更至選取的節點。焦點節點會出現在流量圖的中央。 |
+| **[!UICONTROL 焦點放在這個節點]** | 將焦點變更為選取的節點。 焦點節點會顯示在「流量」圖表的中心。 |
 | **[!UICONTROL 重新開始]** | 將您帶回自由格式圖表產生器，您可以在那裡建置新的流量圖。 |
 | **[!UICONTROL 建立此路徑的篩選器]** | 建立篩選器。此選取項目會將您帶往「篩選產生器」，讓您在該處設定新篩選器。 |
 | **[!UICONTROL 劃分]** | 依據可用的「維度」、「量度」或「時間」來劃分節點。 |
@@ -175,8 +175,8 @@ ht-degree: 88%
 | **[!UICONTROL 排除項目]**&#x200B;或&#x200B;**[!UICONTROL 還原排除項目]** | 從欄中移除特定節點，並自動將其建立為欄頂端的篩選器。若要還原排除項目，請從內容選單選取「**[!UICONTROL 還原排除項目]**」。您也可以開啟欄頂端的篩選器，並移除包含剛剛排除的項目的方塊。 |
 | **[!UICONTROL 趨勢]** | 建立節點的趨勢圖。 |
 | **[!UICONTROL 顯示下一欄]**/**[!UICONTROL 顯示上一欄]** | 顯示視覺效果下一欄 (右邊) 或上一欄 (左邊)。 |
-| **[!UICONTROL 隱藏欄]**&#x200B;n | 隱藏視覺效果的選取欄。 |
-| **[!UICONTROL 展開整個欄]** | 展開該欄以顯示所有節點。依預設，只會顯示前五個節點。 |
+| **[!UICONTROL 隱藏欄]**n | 隱藏視覺效果的選取欄。 |
+| **[!UICONTROL 展開整個欄]** | 展開欄以顯示所有節點。 依預設，只會顯示前五個節點。 |
 | **[!UICONTROL 從選取項目中建立客群]** | 根據選取欄建立客群。 |
 | **[!UICONTROL 摺疊整個欄]** | 隱藏該欄中的所有節點。 |
 
@@ -202,8 +202,8 @@ ht-degree: 88%
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
@@ -310,7 +310,7 @@ Above each column, a filter appears when you hover over it. By selecting the fil
 | [!UICONTROL Breakdown] | Break the node down by available Dimensions, Metrics, or Time. |
 | [!UICONTROL Trend] | Create a trended diagram for the node. |
 | Show next column / Show previous column | Reveals the next (right) or previous (left) column of the visualization. |
-| Hide column | Hides the selected column from the visualization. | 
+| Hide column | Hides the selected column from the visualization. |
 | [!UICONTROL Expand entire column] | Expand a column to show all nodes. By default, only the top five nodes display. |
 
 ## Example scenario for 'limit to first/last occurrence'

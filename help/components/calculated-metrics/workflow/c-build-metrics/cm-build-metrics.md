@@ -3,7 +3,7 @@ description: 了解計算量度產生器提供的畫布可用來拖放維度、�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -185,7 +185,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 >[!MORELIKETHIS]
 >
 >[使用函數](cm-using-functions.md)
->>[區段](/help/components/segmentation/seg-overview.md)
+>[區段](/help/components/segmentation/seg-overview.md)
 >
 
 

@@ -3,10 +3,10 @@ description: 瞭解如何共用、篩選、標籤、核准、複製、刪除計�
 title: 管理計算量度
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 29%
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
 | 欄 | 說明 |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以偏好![Star](/help/assets/icons/Star.svg)或取消偏好![StarOutline](/help/assets/icons/StarOutline.svg)計算量度。 檢視[將計算量度標示為我的最愛](cm-favorite.md) |
 | **[!UICONTROL 標題和說明]** | 若要編輯計算量度，請選取標題連結，以開啟[計算量度產生器](c-build-metrics/cm-build-metrics.md)。 共用計算量度以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 報告套裝]** | 套用此計算量度的報表套裝。 |

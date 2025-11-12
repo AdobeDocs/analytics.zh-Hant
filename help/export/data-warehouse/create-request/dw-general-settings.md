@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: Data Warehouse要求一般設定
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 33%
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 33%
    |---------|----------|
    | 請求名稱 | 管理請求時，此名稱會顯示在Data Warehouse首頁面上。 |
    | 日期範圍 | 選取要納入報表的日期範圍。 <p>您可以選擇自訂日期或預設的日期範圍。 預設範圍是相對於報表傳送日期。</p><p>下列預設集選項可供使用：</p><ul><li>今天</li><li>昨天</li><li>最近 7 天</li><li>最近 30 天</li><li>本週</li><li>上週</li><li>過去2週</li><li>最近3週</li><li>最近4週</li><li>本月</li><li>上個月</li><li>過去一小時</li></ul> |
-   | 詳細程度 | 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報表粒度需要更多的處理時間。如果是報告一整年的每月粒度，若是針對每個月提交一個報告請求，報告的處理速度會快很多。</p><p>**注意：**&#x200B;在Data Warehouse要求中套用詳細程度時，「日期」欄會新增到報告中。 根據所選的詳細程度，日期格式會變更，如下所示：</p><ul><li>**每小時粒度**：<ul> <li>**格式**： `mmmm d, yyyy`小時`H`</li><li>**範例**： 20XX年1月1日，小時0 </li></ul><li>**每日粒度**：<ul> <li>**格式**： `mmmm d, yyyy`</li><li>**範例**： 20XX年1月1日</li></ul><li>**每週粒度**：<ul> <li>**格式**：周`w, yyyy`</li><li>**範例**：第1週，20XX </li></ul><li>**每月粒度**：<ul> <li>**格式**： `mmmm yyyy`</li><li>**範例**： January 20XX </li></ul><li>**每季粒度**：<ul> <li>**格式**： `q`季`yyyy`</li><li>**範例**：第1季20XX </li></ul><li>**每年粒度**：<ul> <li>**格式**： `yyyy`</li><li>**範例**： 20XX</li></ul> |
+   | 詳細程度 | 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報表粒度需要更多的處理時間。如果您報告整年的每月粒度，而每個月都提交報表請求，報表的處理速度就會快很多。</p><p>**注意：**&#x200B;在Data Warehouse要求中套用詳細程度時，「日期」欄會新增到報告中。 根據所選的詳細程度，日期格式會變更，如下所示：</p><ul><li>**每小時粒度**：<ul> <li>**格式**： `mmmm d, yyyy`小時`H`</li><li>**範例**： 20XX年1月1日，小時0 </li></ul><li>**每日粒度**：<ul> <li>**格式**： `mmmm d, yyyy`</li><li>**範例**： 20XX年1月1日</li></ul><li>**每週粒度**：<ul> <li>**格式**：周`w, yyyy`</li><li>**範例**：第1週，20XX </li></ul><li>**每月粒度**：<ul> <li>**格式**： `mmmm yyyy`</li><li>**範例**： January 20XX </li></ul><li>**每季粒度**：<ul> <li>**格式**： `q`季`yyyy`</li><li>**範例**：第1季20XX </li></ul><li>**每年粒度**：<ul> <li>**格式**： `yyyy`</li><li>**範例**： 20XX</li></ul> |
    | 設為可供您組織中的使用者使用 | 只有您和任何系統管理員可看見所有Data Warehouse請求。 如果您想要讓組織中的所有人都能看到請求，請啟用此選項。 <p>如果您希望組織中的其他使用者協助建立或更新請求，啟用此選項會很有用。</p> |
 
    {style="table-layout:auto"}

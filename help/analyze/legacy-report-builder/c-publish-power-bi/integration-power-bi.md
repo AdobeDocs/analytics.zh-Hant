@@ -1,12 +1,13 @@
 ---
+title: 適用於 Power BI 的 Adobe Analytics 內容套件
 description: 了解 Adob​​e Analytics 內容套件以及預先建立的 Power BI 儀表板和報告。
 feature: Report Builder
 role: User, Admin
 exl-id: 835b24e2-0959-4aab-83c0-ba89badfc294
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '108'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +20,7 @@ Adobe Analytics 內容套件提供預先建置的 Power BI 儀表板及一組 Po
 可用的 3 個內容套件如下：
 
 * Adobe Analytics
-* Adobe Analytics 行動應用程式分析
-* Adobe Analytics 流量分析
+* Adobe Analytics行動應用程式分析
+* Adobe Analytics流量分析
 
 有關詳細資訊，請參閱「[適用於 Power BI 的 Adob&#x200B;&#x200B;e Analytics 內容套件](https://powerbi.microsoft.com/zh-tw/documentation/powerbi-content-pack-adobe-analytics/)」。

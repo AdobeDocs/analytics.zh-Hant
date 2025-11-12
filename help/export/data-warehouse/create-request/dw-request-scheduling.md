@@ -3,7 +3,7 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為 Data Warehouse 請求設定報告目標
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 33%

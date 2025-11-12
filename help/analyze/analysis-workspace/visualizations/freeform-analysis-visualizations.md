@@ -5,7 +5,7 @@ title: 視覺效果概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 88%
@@ -22,7 +22,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 
 | 圖示 | 名稱 | 說明 |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analyze/analysis-workspace/visualizations/area.md) | 區域圖視覺效果。類似線圖，但在線圖下方有一塊上色區域。有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analyze/analysis-workspace/visualizations/bar.md) | 長條圖視覺效果含有代表一或多個量度之多個值的垂直長條。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆疊長條圖](/help/analyze/analysis-workspace/visualizations/bar.md) | 堆疊長條圖視覺效果含有代表一或多個量度之多個值的垂直長條。 |
@@ -116,7 +116,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 若要編輯圖例標籤：
 
-1. 以滑鼠右鍵按一下圖例標籤。
+1. 以滑鼠右鍵按一下其中一個圖例標籤。
 1. 按一下&#x200B;**[!UICONTROL 「編輯標籤」]**。
 
    ![圖例標籤和編輯標籤選項。](assets/edit-label.png)

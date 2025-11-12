@@ -4,7 +4,7 @@ description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 78%
@@ -37,7 +37,7 @@ ht-degree: 78%
 | [!UICONTROL 預設量度] | 授與「報告套裝管理器」中「個別報告套裝設定 > 預設量度」的存取權。 |
 | [!UICONTROL 依 IP 位址排除] | 授與 Analytics 頂端導覽列中「管理員 > 依 IP 排除」的存取權。 |
 | [!UICONTROL 尋找方法] | 授與「報告套裝管理器」中「轉換 > 尋找方法」的存取權。 |
-| [!UICONTROL 清單變數 &#x200B;] | 授與「報告套裝管理器」中「轉換 > 清單變數」的存取權。 |
+| [!UICONTROL 清單變數 ] | 授與「報告套裝管理器」中「轉換 > 清單變數」的存取權。 |
 | [!UICONTROL 功能表自訂] | 授與「報告套裝管理器」中「一般 > 自訂功能表」的存取權。 |
 | [!UICONTROL 我的建議報表] | 未使用 |
 | [!UICONTROL 付費搜尋] | 授與「報告套裝管理器」中「一般 > 付費搜尋偵測」的存取權。 |

@@ -3,10 +3,10 @@ description: 了解如何使用量度、維度、區段及事件的拖放來建�
 title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1847'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -375,8 +375,8 @@ Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 放棄購物車 </td> 
-   <td colname="col2">檢視已新增項目至購物車但並未訂購任何項目的訪客的相關資料。在區段定義中，容器是「造訪」。 </td> 
+   <td colname="col1"> 捨棄購物車 </td> 
+   <td colname="col2">檢視訪客新增專案至購物車但未訂購任何專案的資料。 在區段定義中，容器是「造訪」。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 首次瀏覽次數 </td> 
@@ -404,7 +404,7 @@ Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於�
   </tr> 
   <tr> 
    <td colname="col1"> 單頁造訪次數 </td> 
-   <td colname="col2"> 檢視您看到單一頁面值之瀏覽中的資料，即使您可能在該次瀏覽期間提交多個頁面檢視亦同。隨附退出連結事件的單一頁面造訪會納入區段中。  </td> 
+   <td colname="col2"> 檢視您看到單一頁面值之造訪的資料，即使您在該造訪期間可能會提交多個頁面檢視亦然。 隨附退出連結事件的單一頁面造訪會納入區段中。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未新增至購物車的產品 </td> 

@@ -4,10 +4,10 @@ description: 了解用戶端提示如何逐漸取代使用者代理程式成為�
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -64,14 +64,14 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 下表會說明截至 2022 年 10 月的用戶端提示。
 
 | 提示 | 說明 | 高或低平圴資訊量 | 範例 |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | 瀏覽器和重要版本 | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | `true` |
 | Sec-CH-UA-Platform | 作業系統/平台 | 低 | `"Android"` |
 | 架構 | 網站架構  | 高 | `"arm"` |
 | 位元 | 架構位元 | 高 | `"64"` |
 | fullVersionList | 品牌及其版本的清單 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| model | 裝置型號 | 高 | `"Pixel 3"` |
+| 模型 | 裝置型號 | 高 | `"Pixel 3"` |
 | platformVersion | 作業系統/平台版本 | 高 | `"10"` |
 
 * 透過請求標頭收集的低平均資訊量提示。

@@ -3,10 +3,10 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1973'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 是指儲存和自訂報告所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。它可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。 | [Activity Map 概觀](/help/analyze/activity-map/overview.md) |
-   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hant) |
+   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支援此功能。 |  |
    | 行動服務 | 不再支援此功能。 |  |
    | Analytics 儀表板 (行動應用程式) | Adobe Analytics 儀表板應用程式可隨時隨地提供 Adobe Analytics 的深入分析。透過該應用程式，使用者可以檢視您使用 Adobe Analytics 桌面版 UI 建立的直覺式計分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 儀表板應用程式 |
@@ -106,12 +106,12 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    | 分類規則產生器 | 您可以建立自動的規則型分類並套用至多個報告套裝，如此就無須在每次追蹤程式碼變更時維護和上傳分類。 | [分類規則產生器工作流程](/help/components/classifications/crb/classification-rule-builder.md) |
    | 資料來源 | 使用資料來源管理員來建立、編輯或停用資料來源。您也可以使用此介面追蹤上傳至資料來源 FTP 位置的檔案狀態。 | [管理資料來源](/help/import/data-sources/manage.md) |
    | 程式碼管理員 | 程式碼管理員可讓您下載網站和行動平台的資料收集程式碼 | [程式碼管理員](/help/admin/tools/code-manager-admin.md) |
-   | 流量管理 | 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。 | [流量管理概觀](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
+   | 流量管理 | 「流量管理」頁面可讓您指定預期的流量變更。 這些設定可讓Adobe分配適當的資源，以確保可以及時追蹤及處理您的流量。 | [流量管理概觀](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
    | 伺服器呼叫使用量 | 伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。「伺服器呼叫使用量」儀表板，用於追蹤伺服器呼叫耗用量資料，並將其與合約限制進行比較。您可以設定警報以避免使用過量。 | [伺服器呼叫使用量概觀](/help/admin/tools/server-call-usage/overage-overview.md) |
    | 記錄檔 | 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報告套裝以及管理員變更。 | [記錄檔](/help/admin/tools/logs.md) |
    | Advertising Analytics | 設定Adobe Analytics以並排顯示所有Google Ads和Microsoft Advertising付費搜尋資料。 | [設定 Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | 資料摘要 | 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 | [Analytics 資料摘要概觀](/help/export/analytics-data-feed/data-feed-overview.md) |
-   | 依 IP 排除 | 您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。 | [依 IP 位址排除](/help/admin/tools/exclude-ip.md) |
+   | 依 IP 排除 | 您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。排除資料可排除IP位址資料，進而改善報表正確性。 此外，您也可以從拒絕服務或其他可能扭曲報表資料的惡意事件移除資料。 您可以設定排除專案或使用防火牆。 | [依 IP 位址排除](/help/admin/tools/exclude-ip.md) |
    | 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並幫助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
    | 資料治理隱私權標籤 | 為報告套裝資料加上標籤，代表您可為特定報告套裝內的每個變數，指派身分識別、敏感程度以及資料控管標籤。 | [加上隱私標籤](/help/admin/tools/privacy-labeling/labeling-overview.md) |
    | 公司設定首頁 | 公司設定頁面可讓您設定要對您的組織所管理的所有報告套裝套用的設定。 | [公司設定概觀](/help/admin/tools/company/c-company-settings.md) |

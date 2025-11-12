@@ -3,9 +3,9 @@ description: Analysis Workspace、Report Builder、Data Warehouse 與 Data Workb
 title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -26,13 +26,13 @@ ht-degree: 100%
 | **包含管理機器人篩選資料** <br> [了解更多](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | 否 | 是 - 獨立機器人報表 | 否 | 否 | 否 |
 | **低流量 (超出不重複值) 出現** <br> [了解更多](/help/technotes/low-traffic.md) | 有 | 是 | 否 | 否 | 是 |
 | **可見列限制 (分頁前)** | 400 | 50000 | 無限制 | 無限制 | 50000 |
-| **多報告套裝** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 有 | 否 | 是 | 否 | 是 |
+| **多報告套裝** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 有 | 否 | 是 | 無 |
 | **劃分數** | 無限制 | 最多 2 | 無限制 | 無限制 | 無限制，可跨多個查詢執行 |
 | **區段** <br> [了解更多](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 有 | 有 | 是，且具有[限制](/help/components/segmentation/seg-reference/seg-compatibility.md) | 無 | 是 |
 | **計算量度** <br> [了解更多](/help/components/calculated-metrics/cm-overview.md) | 是，且具有[歸因](/help/analyze/analysis-workspace/attribution/overview.md) | 是，使用 Attribution | 有 | 無 | 是，且具有[歸因](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **行銷管道** <br> [了解更多](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 有 | 有 | 有 | 是 - [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 是 |
 | **同類群組分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 有 | 否 | 否 | 否 |
-| **歸因** | 是，且具有[歸因](/help/analyze/analysis-workspace/attribution/overview.md) | 有限 | 否 | 否 | 是，且具有[歸因](/help/analyze/analysis-workspace/attribution/overview.md) | 否 |
+| **歸因** | 是，且具有[歸因](/help/analyze/analysis-workspace/attribution/overview.md) | 有限 | 否 | 否 | 是，且具有[歸因](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **組織** <br> [了解更多](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 專案和虛擬報告套裝 | 否 | 否 | 否 | 是 - 僅限虛擬報告套裝 |
 | **專案共用** <br> [了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，且具有專案角色 | 有 | 否 | 否 | 否 |
 | **排程傳送** | 有 | 有 | 有 | 是 | 否 |

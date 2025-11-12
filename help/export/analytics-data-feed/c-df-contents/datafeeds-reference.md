@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '3690'
 ht-degree: 58%
@@ -26,7 +26,7 @@ ht-degree: 58%
 >
 >大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問題](../df-faq.md)。
 
-您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)上找到之前對此表格的更新。
+您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)上找到之前對此表格的更新。
 
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
