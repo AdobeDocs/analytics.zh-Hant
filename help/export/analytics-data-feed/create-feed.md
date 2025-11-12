@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要，以及提供給Adobe的相關檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
 workflow-type: tm+mt
-source-wordcount: '4140'
-ht-degree: 53%
+source-wordcount: '4227'
+ht-degree: 51%
 
 ---
 
@@ -19,7 +19,25 @@ ht-degree: 53%
 
 建立資料摘要之前，請務必先對資料摘要有基本的瞭解，並確定您符合所有必要條件。 如需詳細資訊，請參閱[資料摘要概觀](data-feed-overview.md)。
 
-## 建立及設定資料摘要
+## 建立及設定資料摘要 {#create-and-configure-data-feed}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="取代作業系統字串"
+>abstract="此選項會偵測下列內嵌在客戶資料中的字串序列並將它們取代為空格，以清除資料輸出： <br/>Windows： CRLF、CR或TAB<br/>Mac和Linux： \n、\r或\t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="資訊清單"
+>abstract="選擇是否在每次資料摘要傳遞時都包含資訊清單檔案。 資訊清單檔案包含資料摘要中每個包含檔案的資訊。 在單一套件中傳送資料摘要資料時，您也可以選擇包含完成檔案，但建議使用資訊清單檔案。 "
+
+<!-- markdownlint-enable MD034 -->
 
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 選取右上角的9個方塊圖示，然後選取&#x200B;[!UICONTROL **Analytics**]。

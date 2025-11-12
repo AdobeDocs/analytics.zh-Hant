@@ -3,9 +3,9 @@ title: 動態查詢
 description: 瞭解什麼是動態查詢以及如何啟用動態查詢。 包括電信業者、行動屬性和作業系統型別。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,16 @@ ht-degree: 1%
 * **行動屬性**：為`mobile_id`欄提供額外內容，包括每個行動裝置追蹤的所有功能。 包含的檔案名稱為`mobile_attributes.tsv`。
 * **作業系統型別**：提供`os`資料行的替代內容。 `operating_systems.tsv`和`operating_system_type.tsv`都使用`os`資料行做為索引鍵，但只有`operating_system_type.tsv`是動態查詢。
 
-## 啟用動態查詢
+## 啟用動態查詢 {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="啟用動態查詢"
+>abstract="選取此選項可在您的資料摘要中接收其他查閱檔案，否則無法使用。 此設定可讓以下查閱表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動屬性</li><li>作業系統型別</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 若要接收上述的查閱檔案，您必須符合下列所有必要條件：
 
