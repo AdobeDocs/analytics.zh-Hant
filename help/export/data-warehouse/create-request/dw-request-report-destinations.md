@@ -3,7 +3,7 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 為 Data Warehouse 請求設定報告目標
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 82%
@@ -20,7 +20,7 @@ ht-degree: 82%
 >
 >設定報告目標時，請考慮以下事項：
 >
->* 我們建議您使用雲端帳戶或電子郵件作為您的報告目標。舊版[&#x200B; FTP 和 SFTP 帳戶](#legacy-destinations)可供使用，但不建議使用。
+>* 我們建議您使用雲端帳戶或電子郵件作為您的報告目標。舊版[ FTP 和 SFTP 帳戶](#legacy-destinations)可供使用，但不建議使用。
 >
 >* 您先前設定的任何雲端帳戶都適合供 Data Warehouse 使用。您可以透過以下任一方式設定雲端帳戶：
 >
