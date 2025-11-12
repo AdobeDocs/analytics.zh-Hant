@@ -4,7 +4,7 @@ title: 快速區段
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 79%
@@ -85,7 +85,7 @@ ht-degree: 79%
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 維度]**<br/>**[!UICONTROL 量度]**<br/>**[!UICONTROL 日期範圍]** | 從下拉式功能表選取![V形](/help/assets/icons/ChevronDown.svg)您要指定維度、量度或日期範圍的條件。 |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL 量度]**<br/>**[!UICONTROL 日期範圍]** | 從下拉式功能表選取![V形](/help/assets/icons/ChevronDown.svg)您要指定維度、量度或日期範圍的條件。 |
 | **[!UICONTROL *元件&#x200B;*]** | 條件的元件欄位。你可以&#x200B;[!UICONTROL *輸入以新增*]&#x200B;元件、從清單中選取元件，或者，您可以從元件面板中拖放一個元件。您只能將類似的元件放置在條件的元件欄位上。例如，您只能根據維度條件從元件面板中放置維度元件。<br/>您也可以透過拖放動作來取代現有元件。<br/>選取 ![CrossSize75](/help/assets/icons/CrossSize75.svg)，從元件欄位刪除該元件。 |
 | **[!UICONTROL *運算子&#x200B;*]** | 元件的運算子。如需詳細資訊，請參閱「[運算子](../seg-reference/seg-operators.md)」。僅適用於維度和量度。 |
 | **[!UICONTROL *值&#x200B;*]** | 條件的值。根據所選的運算子，可以從清單中選取值或輸入一個值。 |

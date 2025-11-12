@@ -3,10 +3,10 @@ title: 行動生命週期維度
 description: 以使用行動SDK收集的資料為依據的維度。
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 26%
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 | 生命週期維度名稱 | 說明 | 上下文資料變數 |
 | --- | --- | --- |
-| [!UICONTROL 首次啟動日期] | | 待定 |
+| [!UICONTROL 首次啟動日期] | | |
 | [!UICONTROL 裝置名稱(SDK)] | | `a.DeviceName` |
 | [!UICONTROL 作業系統版本(SDK)] | | `a.OSVersion` |
 | [!UICONTROL 解析度(SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 26%
 | [!UICONTROL 至興趣點中心的距離] | | `a.loc.dist` |
 | [!UICONTROL 啟動次數] | | `a.Launches` |
 | [!UICONTROL 首次使用後間隔天數] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL 動作名稱] | | 待定 |
+| [!UICONTROL 動作名稱] | | |
 | [!UICONTROL 期限值(evar)] | | `a.ltv.amount` |
-| [!UICONTROL 主要信標] | | 待定 |
-| [!UICONTROL 次要信標] | | 待定 |
-| [!UICONTROL 信標UUID] | | 待定 |
-| [!UICONTROL 鄰近地區信標] | | 待定 |
+| [!UICONTROL 主要信標] | | |
+| [!UICONTROL 次要信標] | | |
+| [!UICONTROL 信標UUID] | | |
+| [!UICONTROL 鄰近地區信標] | | |
 | [!UICONTROL 上次使用後間隔天數] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL 小時(SDK)] | | `a.HourOfDay` |
 | [!UICONTROL 星期(SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL 興趣點ID] | | 待定 |
+| [!UICONTROL 興趣點ID] | | |
 
 {style="table-layout:auto"}
 

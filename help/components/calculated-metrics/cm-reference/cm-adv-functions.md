@@ -4,10 +4,10 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '5020'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 表格函數和列函數的比較
 
-表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
+表格函式是每個表格列的輸出都相同的函式。 列函式是表格每一列的輸出都不同的函式。
 
 在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
@@ -1474,7 +1474,7 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 您要 Z 分數的量度 |
 | include_zeros | 計算中是否包括零值 |
 
-Z 分數為 0 (零) 表示分數與平均值相同。Z 分數可為正或負，代表其高於或低於平均值多少標準差。
+Z 分數為 0 (零) 表示分數與平均值相同。Z分數可以是正數或負數，指出其是否高於或低於平均值，以及標準差數目。
 
 Z 分數的方程式為：
 
@@ -1538,7 +1538,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Approximate Count Distinct (dimension)
 
-Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts.&nbsp; It is configured to guarantee the value is within 5% of the actual value 95% of the time.
+Returns the approximated distinct count of dimension items for the selected dimension. The function uses the HyperLogLog (HLL) method of approximating distinct counts. It is configured to guarantee the value is within 5% of the actual value 95% of the time.
 
 ```
 Approximate Count Distinct (dimension)

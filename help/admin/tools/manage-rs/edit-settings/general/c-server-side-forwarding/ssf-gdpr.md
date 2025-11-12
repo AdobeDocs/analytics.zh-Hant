@@ -4,10 +4,10 @@ title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 55%
+ht-degree: 50%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 55%
 
 | 實作方法 | 步驟 |
 |--- |--- |
-| Adobe Experience Platform 中的標記 | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的內容資料變數定義加到自訂程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為 *0*。 |
-| AppMeasurement | 將內容資料變數定義新增至AppMeasurement.js檔案： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：若客戶不同意目標式行銷，請定義contextdata變數，並將其設為「1」。 對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
+| Adobe Experience Platform 中的標記 | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的內容資料變數定義加到自訂程式碼編輯器：<br/>`s.contextData['cm.ssf'] = '1'` <br/>注意：若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為 *0*。 |
+| AppMeasurement | 將內容資料變數定義新增至AppMeasurement.js檔案： <br/>`s.contextData['cm.ssf'] = '1'` <br/>注意：若客戶不同意目標式行銷，請定義contextdata變數，並將其設為「1」。 對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
 ## 報告 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 您可以使用Adobe Analytics來報告有多少流量是經過同意且由伺服器端轉送，以及有多少流量不是經過同意且尚未轉送至Adobe Audience Manager。
 
-若要設定此類型報表，請將新的內容變數，透過處理規則對應至自訂流量變數 (prop)。若要這麼做
+若要設定這類報表，請透過處理規則將新的內容變數對應至自訂流量變數(prop)。 若要這麼做
 
 1. 請實作「cm.ssf」變數 (如上所示)。
-1. [啟用 prop。](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
+1. [啟用Prop。](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
 1. 使用處理規則將內容變數對應至 prop。
 
    1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝」]**，然後選取報表套裝。
