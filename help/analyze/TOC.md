@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
 source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 100%
 
@@ -218,7 +218,7 @@ ht-degree: 100%
             + [使用自訂運算式的日期範圍範例](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
             + [考量事項](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [來自儲存格的日期](legacy-report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
-         + [粒度](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
+         + [顆粒度](legacy-report-builder/data-requests/configuring-report-dates/granularity.md)
          + [自訂日曆](legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [互動式控制項](legacy-report-builder/data-requests/interactive-controls.md)
    + 配置 - 請求精靈步驟 2 {#layout}
