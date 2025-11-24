@@ -4,9 +4,9 @@ description: 瞭解如何將裝置資料連結在一起，將資料從以裝置�
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: 6c74f4d4c14765742a2aafdfff2a083c6b0a7183
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '850'
 ht-degree: 57%
 
 ---
@@ -17,16 +17,16 @@ ht-degree: 57%
 
 >[!WARNING]
 >
->跨裝置分析中的裝置圖表將於2025年12月31日&#x200B;**停止提供**。 請將目前任何啟用裝置圖表的VRS切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
+>跨裝置分析中的裝置圖表將於2025年12月31日&#x200B;**停止提供**。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
 >
 
 
 跨裝置分析 (CDA) 功能將 Analytics 從裝置導向檢視轉變為以人為導向的檢視。因此分析師可以瞭解跨瀏覽器、裝置或應用程式的使用者行為。Adobe 支援將裝置資料連結在一起的兩個重要工作流程：
 
-* [**依欄位拚接**](field-based-stitching.md)：推薦的拚接選項，因為這僅使用確定性比對將裝置連結在一起。
+* [依欄位拚接](field-based-stitching.md)：推薦的拚接選項，因為這僅使用確定性比對將裝置連結在一起。
 依欄位彙整可讓您選擇Analytics變數，作為虛擬報表套裝中跨裝置彙整的基礎。
 
-* [**裝置圖表**](device-graph.md)：跨裝置分析會與私人圖表通訊，以將裝置拚接在一起。
+* [裝置圖表](device-graph.md)：跨裝置分析會與私人圖表通訊，以將裝置拚接在一起。
 
 使用 CDA，您可以回答下列問題：
 
@@ -58,7 +58,7 @@ Microsoft Azure用於跨裝置分析。 Adobe 會使用 Azure 來儲存裝置圖
 * Adobe Analytics 報告套裝無法對應至多個組織識別碼。由於跨裝置分析會連結一個指定報表套裝中的裝置，因此跨裝置分析無法用於連結跨多個組織ID的資料。
 * 跨裝置分析使用複雜的處理管道，其中包含多個相依元件。 此管道與基本Analytics報告工作流程並行執行。 在原始報表套裝和Cross-Device Analytics虛擬報表套裝之間，預計點選總數的資料不符率約為1%。
 * Cross-Device Analytics 使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。例如，它們目前並不支援行銷管道變數。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](/help/components/vrs/vrs-about.md)和[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
-* 專用圖表是使用與Experience Cloud和Adobe Analytics中的[客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes)功能所使用相同ID同步的ID同步。 不過，跨裝置分析虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在Cross-Device Analytics虛擬報表套裝中使用。
+* 專用圖表是使用與Experience Cloud和Adobe Analytics中的[客戶屬性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)功能所使用相同ID同步的ID同步。 不過，跨裝置分析虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在Cross-Device Analytics虛擬報表套裝中使用。
 * 跨裝置分析目前與A4T不相容。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * Adobe的主動監控跨裝置分析銜接程式僅限於生產報表套裝。

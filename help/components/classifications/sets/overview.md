@@ -3,7 +3,7 @@ title: 「分類設定」概觀
 description: 瞭解如何使用分類設定來管理分類資料。 瞭解分類設定與舊版分類的差異。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 10%
@@ -77,7 +77,7 @@ ht-degree: 10%
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-在分類資料檔案中，您使用&#x200B;**[!UICONTROL 參照每個報表套裝的關鍵維度（例如：]**&#x200B;產品ID **[!UICONTROL 和]**&#x200B;產品SKU`Key`）。 而且您可以使用&#x200B;**[!UICONTROL 分類名稱]** （例如`Category`或`Color`）來參照每個分類。
+   在分類資料檔案中，您使用&#x200B;**[!UICONTROL 參照每個報表套裝的關鍵維度（例如：]**&#x200B;產品ID **[!UICONTROL 和]**&#x200B;產品SKU`Key`）。 而且您可以使用&#x200B;**[!UICONTROL 分類名稱]** （例如`Category`或`Color`）來參照每個分類。
 
 1. [將包含分類資料的檔案上傳](/help/components/classifications/sets/manage/schema.md#upload)至分類設定結構描述。
 
@@ -96,7 +96,7 @@ ht-degree: 10%
 
 * 縮短處理時間（從72小時縮短至24小時）。
 * 重新設計的使用者介面以管理分類。
-* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
+* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
 
 隨分類集發行的後端架構也包含幾項變更：
 
