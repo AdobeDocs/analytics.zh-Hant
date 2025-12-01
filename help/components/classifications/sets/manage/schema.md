@@ -156,14 +156,14 @@ ht-degree: 4%
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帳戶"
 >abstract="支援匯入分類資料之帳戶型別的位置帳戶清單。 選取&#x200B;**[!UICONTROL 新帳戶]**&#x200B;以建立新的位置帳戶。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="設定雲端匯入和匯出帳戶"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=zh-Hant" text="設定雲端匯入和匯出帳戶"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="位置"
 >abstract="位於所選位置支援匯入分類資料之帳戶的位置清單。 選取&#x200B;**[!UICONTROL 新位置]**&#x200B;以建立新位置。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="設定雲端匯入和匯出位置"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=zh-Hant" text="設定雲端匯入和匯出位置"
 
 
 若要自動擷取分類，請選取![齒輪](/help/assets/icons/Gear.svg) **[!UICONTROL 自動化]**。
