@@ -3,18 +3,25 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '981'
 ht-degree: 1%
 
 ---
 
 # 建立和編輯分類合併
 
-分類集合併可讓您從多個資料集取得分類，並將它們合併成一個。 使用此介面可建立從開始到結束的分類集合併。 對於從舊式分類移至分類集的組織來說，此介面最有價值。 大部分使用分類集的組織很可能不需要使用此合併工作流程。
+分類集合併可讓您從多個分類集取得分類，並將它們合併成一個。 使用此介面可建立從開始到結束的分類集合併。 此介面對於從舊式分類移至分類集的組織而言最有價值。 使用分類集的組織已經不需要使用此合併工作流程。
 
-## 建立合併
+## 建立合併 {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="「分類設定」優先順序"
+>abstract="![索引鍵](/help/assets/icons/Key.svg) *分類設定*&#x200B;是基礎分類設定，定義整體結構描述，並在任何合併衝突中優先處理。 其他分類設定則依從上到下的順序套用。"
+
 
 若要建立分類合併，請在Adobe Analytics主介面中：
 
@@ -29,11 +36,13 @@ ht-degree: 1%
    1. 在&#x200B;**[!UICONTROL 通知問題]**&#x200B;中輸入一或多個電子郵件地址（以逗號分隔）。 系統會向這些使用者傳送有關問題的電子郵件通知。
    1. 從&#x200B;**[!UICONTROL 要比對的「分類設定」]**&#x200B;下拉式功能表中選取分類設定。
 
-      **[!UICONTROL Source分類設定]**&#x200B;左側清單已填入與所選分類清單類似且可合併的分類設定。
+      **[!UICONTROL Source分類設定]**&#x200B;左側清單已填入與所選分類清單類似且可合併的分類設定。 右側清單會自動填入選取的![索引鍵](/help/assets/icons/Key.svg)分類設定。 該基底集定義了整體結構描述，並在任何合併衝突中一律優先。
 
-   1. 從左側清單中選取您要合併的分類集，並將選取的分類集拖放到右側清單，在選取的![索引鍵](/help/assets/icons/Key.svg) **[!UICONTROL _分類集_]**&#x200B;下方。
+   1. 從左側清單中選取您要合併的分類集，並將選取的分類集拖曳至右側清單，使其位於選取的![索引鍵](/help/assets/icons/Key.svg)基底&#x200B;**[!UICONTROL _分類集_]**&#x200B;之下。
 
-      您可以移動清單中個別和選取的「分類設定」。 您也可以透過拖放將![索引鍵](/help/assets/icons/Key.svg) **[!UICONTROL _分類設定_]**&#x200B;取代為選取的分類設定。
+      當您執行合併時，其他分類集會以遞增順序合併。 如果一個索引鍵存在於多個其他集中，則會採用來自排名最前分類集的索引鍵值。 如果![Key](/help/assets/icons/Key.svg)基底集和任何其他集合中都存在索引鍵，則會使用基底集中的值。
+
+      若要管理要使用哪些鍵值，請透過拖放來移動清單中的個別和選取的分類設定。 您也可以透過拖放將![索引鍵](/help/assets/icons/Key.svg) **[!UICONTROL _分類設定_]**&#x200B;取代為選取的分類設定。
 
    1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存分類合併。 選取「**[!UICONTROL 取消]**」即可取消。
 
@@ -75,7 +84,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**&#x200B;對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|
@@ -96,7 +105,7 @@ Drag the desired classification sets from the available column on the left to th
 
 1. 使用您用來建立合併的相同拖放介面，重新設定合併。
 1. 選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 重新驗證]**。 驗證可確保每個個別的分類集對此合併有效。 成功時，會顯示快顯通知訊息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已成功提交合併以進行驗證！]**
-1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。 或選取[播放] ![&#x200B; &#x200B;](/help/assets/icons/Play.svg) [執行]以執行合併，或選取[取消] ![&#x200B; &#x200B;](/help/assets/icons/Cancel.svg) [取消]取消分類。
+1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。 或選取![播放](/help/assets/icons/Play.svg) **[!UICONTROL 執行]**&#x200B;以執行合併，或選取![取消](/help/assets/icons/Cancel.svg) **[!UICONTROL 取消]**&#x200B;取消分類。
 
 
 
@@ -115,9 +124,20 @@ Once you have created a consolidation, a list of source datasets appears on the 
 1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。
 
 
-### 核准
+### 核准 {#approve}
 
-分類合併成功執行後，合併狀態為&#x200B;**[!UICONTROL 正在等待核准]**。 核准分類合併會以合併的分類設定取代個別分類設定，且會移除個別分類設定。
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="不相符"
+>abstract="當整合分類集中的值與來源分類集不符時，鍵值不相符百分比。"
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="不存在"
+>abstract="已整合分類集中，但來源分類集中沒有索引鍵的百分比。"
+
+分類合併成功執行後，合併狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 正在等待核准]**。 核准分類合併會以合併的分類設定取代個別分類設定，且會移除個別分類設定。
 
 ![分類集 — 合併等待核准](assets/classifications-sets-consolidations-waitingforapproval.png)
 

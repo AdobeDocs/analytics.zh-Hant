@@ -3,10 +3,10 @@ title: 「分類設定」概觀
 description: 瞭解如何使用分類設定來管理分類資料。 瞭解分類設定與舊版分類的差異。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 10%
+source-wordcount: '950'
+ht-degree: 9%
 
 ---
 
@@ -17,15 +17,28 @@ ht-degree: 10%
 
 ## 「分類設定」與「舊版分類」
 
-分類設定和舊版分類的主要差異，是分類與報表套裝的關係。
+分類設定和舊版分類的主要差異在於，分類設定將所有功能結合在一個介面中，而舊版分類需仰賴三個介面。
 
-在舊式分類中，每個分類都直接連結至報表套裝。 非常類似的分類（例如產品目錄）會在跨多個報表套裝使用時複製。
+### 舊版分類
 
-![舊分類](manage/assets/classifications-legacy.svg)
+![舊分類](./assets/classifications-legacy.svg)
 
-在「分類設定」中，您可以定義報表套裝的訂閱和索引鍵維度組合。 例如，適用於多個報告套裝的產品目錄分類，以及根據產品(SKU)維度，您只需定義一次作為分類集。 在該分類集中，您可以設定多個報表套裝和索引鍵維度組合以訂閱該分類集。
+在舊版分類中，分類![結構描述](/help/assets/icons2/Schema.svg) （例如流量、轉換、行銷管道等）都有各自的維度（索引鍵![索引鍵](/help/assets/icons2/Key.svg)）。 您將這些分類定義為[報表套裝設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)的一部分。
 
-![分類設定](manage/assets/classifications-sets.svg)
+您已在規則集中個別定義規則![BidRule](/help/assets/icons/BidRule.svg)，作為[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)介面的一部分。 在該介面中，您會將規則集與一個或多個報表套裝相關聯。
+
+您使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)下載範本![DocumentFragment](/help/assets/icons/DocumentFragment.svg)、將![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分類匯入或匯出![下載](/help/assets/icons/Download.svg)分類(從報表套裝 — 索引鍵（資料集）組合)。
+
+
+### 分類集
+
+![分類設定](./assets/classifications-sets.svg)
+
+分類設定將所有舊有的分類介面結合為一個。 每個分類設定都會定義：
+
+* 您要分類的一或多個訂閱，是報表套裝![資料](/help/assets/icons2/Data.svg)和維度![索引鍵](/help/assets/icons2/Key.svg) （索引鍵）的組合。 如果您想要根據產品SKU來分類產品，可以使用適用的產品SKU維度來定義所有報表套裝。 您也不必像舊版分類介面那樣，跨報表套裝復寫分類。
+* 索引鍵的分類![結構描述](/help/assets/icons2/Schema.svg) （結構描述）清單。 例如，對於產品分類，您可以指定類別、顏色、大小、性別等。 定義分類後，您可以下載範本![DocumentFragment](/help/assets/icons/DocumentFragment.svg)、上傳![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分類資料、下載![下載](/help/assets/icons/Download.svg)分類資料等。
+* 一或多個規則![BidRule](/help/assets/icons/BidRule.svg)可支援分類。
 
 
 若要從Adobe Analytics介面的&#x200B;**[!UICONTROL 元件]**&#x200B;功能表存取&#x200B;**[!UICONTROL 分類集]**，您必須是產品管理員或屬於包含許可權專案[!UICONTROL 報告套裝工具] > [!UICONTROL 分類]的產品設定檔。 請注意，舊版分類管理介面可從&#x200B;**[!UICONTROL 管理員]**&#x200B;功能表取得。
@@ -81,6 +94,8 @@ ht-degree: 10%
 
 1. [將包含分類資料的檔案上傳](/help/components/classifications/sets/manage/schema.md#upload)至分類設定結構描述。
 
+1. 設定[規則](manage/rules.md)以自動分類過去傳入的資料和資料。
+
 1. [使用雲端位置，自動處理](/help/components/classifications/sets/manage/schema.md#automate)更新產品目錄的程式，您要看到這些更新反映在分類資料中。
 
 1. [下載](/help/components/classifications/sets/manage/schema.md#download)您的分類資料以驗證內容。
@@ -96,7 +111,7 @@ ht-degree: 10%
 
 * 縮短處理時間（從72小時縮短至24小時）。
 * 重新設計的使用者介面以管理分類。
-* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
+* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
 
 隨分類集發行的後端架構也包含幾項變更：
 
