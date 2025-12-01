@@ -3,9 +3,9 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
+source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '982'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="「分類設定」優先順序"
->abstract="![索引鍵](/help/assets/icons/Key.svg) *分類設定*&#x200B;是基礎分類設定，定義整體結構描述，並在任何合併衝突中優先處理。 其他分類設定則依從上到下的順序套用。"
+>abstract="![索引鍵](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分類設定*&#x200B;是基礎分類設定，定義整體結構描述，並在任何合併衝突中優先處理。 其他分類設定則依從上到下的順序套用。"
 
 
 若要建立分類合併，請在Adobe Analytics主介面中：
@@ -84,7 +84,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**&#x200B;對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|
