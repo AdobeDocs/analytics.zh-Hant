@@ -3,14 +3,23 @@ title: 延遲送達點擊
 description: 了解資料摘要如何處理延遲送達點擊。
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# 延遲送達點擊
+# 延遲送達點擊 {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="允許延遲送達點選"
+>abstract="選取此選項，可在設定的報告頻率（每日、每小時或每15分鐘）內，包含資料摘要工作完成資料處理之後抵達的資料。 啟用此選項後，每次資料摘要處理資料時，都會檢視任何已送達的延遲點選，並將它們與下一個已傳送的資料摘要檔案批次處理。"
+
+<!-- markdownlint-enable MD034 -->
 
 歷史資料可能會在資料摘要工作完成特定小時或當天的處理後才送達，例如透過時間戳記點擊或資料來源。延遲送達點擊是 Adobe 提供的後端自訂設定，可協助將此資料納入資料摘要。
 
