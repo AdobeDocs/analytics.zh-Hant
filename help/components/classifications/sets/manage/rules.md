@@ -3,7 +3,7 @@ title: 分類設定規則
 description: 瞭解如何檢視和編輯「分類設定」規則。
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >分類設定尚不支援規則。 在舊版規則產生器功能無法使用之前，已將規則功能新增到分類集介面。
->&#x200B;>如果您確實需要分類的規則，請繼續使用[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)。
-
+>如果您確實需要分類的規則，請繼續使用[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)。
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
