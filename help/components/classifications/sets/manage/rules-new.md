@@ -4,9 +4,9 @@ description: 瞭解如何使用分類集規則來定義分類資料的規則。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1578'
 ht-degree: 11%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 11%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
    * 如果您是第一次存取「分類設定」的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或您目前決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
 
@@ -96,7 +96,17 @@ ht-degree: 11%
 
 您想要定義一個規則，當索引鍵維度「內部行銷活動」的值以`Email`開頭時（例如： **[!UICONTROL ），自動將]**&#x200B;指派為`em`Channel`em:FY2025:Summer Sale`分類的值。
 
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
 ![規則 — 開頭為](assets/rule-startswith.png)
+
+>[!TAB 測試結果]
+
+![規則 — 從測試結果開始](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ ht-degree: 11%
 
 #### 必要輸入
 
-輸入&#x200B;**[!UICONTROL 結尾為]**&#x200B;的值。 例如：`Sale`。
+輸入&#x200B;**[!UICONTROL 結尾為]**&#x200B;的值。 例如：`2025`。
 
 #### 使用案例
 
-當索引鍵維度「內部行銷活動」的值包含`Sale`時（例如： **[!UICONTROL ），您要定義規則以自動將]**&#x200B;指派為`Sale`Type`em:FY2025:Summer Sale`分類的值。
+當索引鍵維度「內部行銷活動」的值包含`2025`時（例如： **[!UICONTROL ），您要定義規則以自動將]**&#x200B;指派為`2025`Year`em:Summer Sale:FY2025`分類的值。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
 
 ![規則 — 結尾為](assets/rule-endswith.png)
+
+>[!TAB 測試結果]
+
+![規則 — 以測試結果結束](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ ht-degree: 11%
 
 #### 必要輸入
 
-輸入&#x200B;**[!UICONTROL Contains]**&#x200B;的值。 例如：`2025`。
+輸入&#x200B;**[!UICONTROL Contains]**&#x200B;的值。 例如：`Winter`。
 
 #### 使用案例
 
-您想要定義一個規則，當索引鍵維度「內部行銷活動」的值以`2025`結束時（例如： **[!UICONTROL ），自動將]**&#x200B;指派為`2025`Year`em:FY2025:Summer Sale`分類的值。
+您想要定義一個規則，當Internal Campaign的關鍵維度值包含`Winter Sale`時（例如： **[!UICONTROL ），自動將]**&#x200B;指派為`Winter`Type`fb:Winter:FY2024`分類的值。
+
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
 
 ![規則 — Contains](assets/rule-contains.png)
+
+>[!TAB 測試結果]
+
+![規則 — 包含結果](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ ht-degree: 11%
 
 #### 使用案例
 
-您想要定義一個規則，當索引鍵維度「內部行銷活動」的值符合`2025 Summer Email`時，自動將&#x200B;**[!UICONTROL 指派為]** Type`em:FY2025:Summer`分類的值。
+當索引鍵維度「內部行銷活動」的值符合`Email`時，您要定義規則以自動將&#x200B;**[!UICONTROL 指派為]**&#x200B;管道`Summer Sale`分類的值，**[!UICONTROL 指派為]**&#x200B;型別`2025`分類的值，以及&#x200B;**[!UICONTROL 指派為]**&#x200B;年`em:FY2025:Summer`分類的值。
+
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
 
 ![規則 — 符合](assets/rule-match.png)
+
+>[!TAB 測試結果]
+
+![規則 — 符合](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ ht-degree: 11%
 
 #### 必要輸入
 
-輸入&#x200B;**[!UICONTROL 規則運算式]**&#x200B;的值。 例如：`^(.+)\:(.+)\:(.+)$`。
+輸入&#x200B;**[!UICONTROL 規則運算式]**&#x200B;的值。 例如：`^(.+)\:(.+)\:FY(.+)$`。
 
 #### 使用案例
 
-您想要定義規則，以套用規則運算式&#x200B;**[!UICONTROL 並將比對群組（]**、**[!UICONTROL 和]**）套用至關鍵維度Internal Campaign的值，自動指派值給&#x200B;**[!UICONTROL Channel]**、`^(.+)\:(.+)\:(.+)$`Type`$1`和`$2`Year`$3`分類。
+您想要定義規則，以套用規則運算式&#x200B;**[!UICONTROL 並將比對群組（]**、**[!UICONTROL 和]**）套用至關鍵維度Internal Campaign的值，自動指派值給&#x200B;**[!UICONTROL Channel]**、`^(.+)\:(.+)\:FY(.+)$`Type`$1`和`$2`Year`$3`分類。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
 
 ![規則 — 規則運算式](assets/rule-regex.png)
+
+>[!TAB 測試結果]
+
+![規則 — 規則運算式測試結果](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### 參考表格 {#section_0211DCB1760042099CCD3ED7A665D716}

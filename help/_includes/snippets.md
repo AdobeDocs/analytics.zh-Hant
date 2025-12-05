@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2991'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >全新的簡化版[Report Builder](/help/analyze/report-builder/rb-overview.md)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
 >這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 87%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
@@ -131,7 +131,7 @@ Customer Journey analytics 的各種視覺化是為分析您提供給客戶的�
 | 函數 | 歷程畫布 | 流失 | 流量 |
 |---------|----------|---------|---------|
 | **預先定義的頁面序列** | 是</br>結合預先定義的探索性分析。在使用路徑上預先定義的節點時，將使用最終路徑 (只要訪客最終從一個預先定義的節點移到另一個預先定義的節點，就會納入計算)。也可以顯示立即（非最終）的下一個節點。 | 是</br>此路徑可以是最終路徑，也可以受限到下一個接觸點 | 否 |
-| **頁面的探索性序列 (臨時分析)** | 是</br>結合預先定義的探索性分析。在使用路徑上預先定義的節點時，將使用最終路徑 (只要訪客最終從一個預先定義的節點移到另一個預先定義的節點，就會納入計算)。也可以顯示立即（非最終）的下一個節點。 | 有限的</br>讓您按一下右鍵並在自由格式表中檢視立即的流失。 | 是</br>僅探索性分析。始終在節點之間的一個維度執行個體內。這表示每個節點顯示的是路徑上立即 (非最終) 的下一個接觸點。 |
+| **頁面的探索性序列 (臨時分析)** | 是</br>結合預先定義的探索性分析。在使用路徑上預先定義的節點時，將使用最終路徑 (只要訪客最終從一個預先定義的節點移到另一個預先定義的節點，就會納入計算)。也可以顯示立即（非最終）的下一個節點。 | 有限的</br>讓您按一下右鍵並在自由格式表格中檢視立即的流失。 | 是</br>僅探索性分析。始終在節點之間的一個維度執行個體內。這表示每個節點顯示的是路徑上立即 (非最終) 的下一個接觸點。 |
 | **顯示人們離開 (流失) 和繼續前進 (流過) 之處** | 是</br>針對預先定義及探索歷程顯示 | 是</br>顯示預先定義的歷程 | 是</br>顯示探索性歷程 |
 | **線性歷程** | 有 | 是 | 無 |
 | **具有多個進入點和路徑的非線性歷程。** | 有 | 否 | 是 |
@@ -194,7 +194,7 @@ Customer Journey analytics 的各種視覺化是為分析您提供給客戶的�
 
 >[!WARNING]
 >
->分類匯入工具已棄用，在&#x200B;**2026年8月31日**&#x200B;後將無法存取。 請切換至[分類設定](/help/components/classifications/sets/overview.md)體驗，以確保繼續正常運作。
+>分類匯入工具將於2026年8月31日&#x200B;**棄用**。 請切換為使用[分類設定](/help/components/classifications/sets/overview.md)體驗，以確保繼續正常運作。
 >
 
 
@@ -203,6 +203,6 @@ Customer Journey analytics 的各種視覺化是為分析您提供給客戶的�
 
 >[!WARNING]
 >
->分類規則產生器已棄用，在&#x200B;**2026年8月31日**&#x200B;後將無法再存取。 一旦可用，請切換至[分類設定](/help/components/classifications/sets/overview.md)體驗，以確保繼續正常運作。
+>分類規則產生器將於&#x200B;**2026年8月31日**&#x200B;棄用。 一旦可用，請切換成使用[分類集規則](/help/components/classifications/sets/manage/rules.md)體驗，以確保繼續正常運作。
 >
 
