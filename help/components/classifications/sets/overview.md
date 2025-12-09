@@ -3,7 +3,7 @@ title: 「分類設定」概觀
 description: 瞭解如何使用分類設定來管理分類資料。 瞭解分類設定與舊版分類的差異。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
+source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -21,13 +21,14 @@ ht-degree: 9%
 
 ### 舊版分類
 
-![舊分類](./assets/classifications-legacy.svg)
+![舊分類](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
 在舊版分類中，分類![結構描述](/help/assets/icons2/Schema.svg) （例如流量、轉換、行銷管道等）都有各自的維度（索引鍵![索引鍵](/help/assets/icons2/Key.svg)）。 您將這些分類定義為[報表套裝設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)的一部分。
 
 您已在規則集中個別定義規則![BidRule](/help/assets/icons/BidRule.svg)，作為[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)介面的一部分。 在該介面中，您會將規則集與一個或多個報表套裝相關聯。
 
 您使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)下載範本![DocumentFragment](/help/assets/icons/DocumentFragment.svg)、將![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分類匯入或匯出![下載](/help/assets/icons/Download.svg)分類(從報表套裝 — 索引鍵（資料集）組合)。
+
 
 
 ### 分類集
@@ -111,7 +112,7 @@ ht-degree: 9%
 
 * 縮短處理時間（從72小時縮短至24小時）。
 * 重新設計的使用者介面以管理分類。
-* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
+* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
 
 隨分類集發行的後端架構也包含幾項變更：
 
