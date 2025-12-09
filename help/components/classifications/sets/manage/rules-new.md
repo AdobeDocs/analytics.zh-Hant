@@ -4,9 +4,9 @@ description: 瞭解如何使用分類集規則來定義分類資料的規則。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
+source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1673'
 ht-degree: 10%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 10%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
    * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
 
@@ -233,10 +233,14 @@ ht-degree: 10%
 
 >[!ENDTABS]
 
++++
+
 
 ### Split
 
 根據Token將索引鍵維度值分割至一或多個分類。
+
++++ 詳細內容
 
 #### 必要輸入
 
@@ -244,7 +248,7 @@ ht-degree: 10%
 
 #### 使用案例
 
-您想要定義一個規則，以根據&#x200B;**&#x200B;** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
+您想要定義一個規則，以根據&#x200B;**** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
 
 >[!BEGINTABS]
 
@@ -257,6 +261,8 @@ ht-degree: 10%
 ![規則 — 分割測試結果](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### 參考表格 {#section_0211DCB1760042099CCD3ED7A665D716}
