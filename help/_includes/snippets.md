@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
 workflow-type: tm+mt
-source-wordcount: '2991'
+source-wordcount: '2992'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >全新的簡化版[Report Builder](/help/analyze/report-builder/rb-overview.md)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
 >這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 87%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
