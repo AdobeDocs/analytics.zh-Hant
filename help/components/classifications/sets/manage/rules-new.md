@@ -4,9 +4,9 @@ description: 瞭解如何使用分類集規則來定義分類資料的規則。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1661'
 ht-degree: 10%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 10%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
    * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
 
@@ -248,7 +248,7 @@ ht-degree: 10%
 
 #### 使用案例
 
-您想要定義一個規則，以根據&#x200B;**&#x200B;** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
+您想要定義一個規則，以根據&#x200B;**** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
 
 >[!BEGINTABS]
 
@@ -296,7 +296,6 @@ ht-degree: 10%
 | `a{3,}` | 3 個或更多 a |
 | `a{3,6}` | 介於 3 到 6 個 a |
 
-+++
 
 
 ## 規則優先順序
@@ -313,11 +312,22 @@ ht-degree: 10%
 
 ### 範例
 
-您要使用分類&#x200B;**[!UICONTROL 輸入]**&#x200B;來分類，使用者如何使用搜尋字串做為關鍵維度來搜尋運動員。 例如，使用此規則集：
+您要使用分類&#x200B;**[!UICONTROL 型別]**&#x200B;來分類使用者如何使用搜尋字串做為索引鍵維度來搜尋團隊、一般型別或播放器。 例如，透過使用此規則集：
 
-![規則優先順序](assets/rule-priority.png)
++++ 詳細內容
 
-* 當使用者搜尋`Cowboys Fantasy Tony Romo`時，`Romo`被分類為&#x200B;**[!UICONTROL 型別]**。
-* 當使用者搜尋`Cowboys Fantasy Tony Romeo`時，`Fantasy`被分類為&#x200B;**[!UICONTROL 型別]**。
-* 當使用者搜尋`Cowboys vs. Broncos`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — 優先順序](assets/rule-priority.png)
+
+>[!TAB 測試結果]
+
+![規則 — 優先順序測試結果](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
