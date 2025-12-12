@@ -39,7 +39,7 @@ Activity Map資料收集需要&#x200B;**[!UICONTROL Adobe Experience Platform We
 **[!UICONTROL Click資料彙集]**&#x200B;組態設定會處理Activity Map資料彙集，通常預設為啟用。 您可以確認，這已在擴充功能的組態設定中啟用：
 
 1. 登入[experience.adobe.com](https://experience.adobe.com)
-1. 選取[快速存取]功能表中的[資料彙集]**[!UICONTROL 或右上方的產品選取器。]**
+1. 選取[快速存取]功能表中的[資料彙集]&#x200B;**[!UICONTROL 或右上方的產品選取器。]**
 1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 標籤]**。
 1. 選取要編輯的標籤。
 1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 擴充功能]**。
@@ -73,7 +73,7 @@ alloy("configure", {
 **[!UICONTROL 使用Activity Map]**&#x200B;組態設定會處理Activity Map資料收集，通常預設為啟用。 它適用於所有標籤擴充功能v1.9.0或更新版本。 您可以確認，這已在擴充功能的組態設定中啟用：
 
 1. 登入[experience.adobe.com](https://experience.adobe.com)
-1. 選取[快速存取]功能表中的[資料彙集]**[!UICONTROL 或右上方的產品選取器。]**
+1. 選取[快速存取]功能表中的[資料彙集]&#x200B;**[!UICONTROL 或右上方的產品選取器。]**
 1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 標籤]**。
 1. 選取要編輯的標籤。
 1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 擴充功能]**。
