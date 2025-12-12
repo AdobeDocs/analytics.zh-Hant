@@ -4,9 +4,9 @@ title: Activity Map 概觀
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Activity Map作為一個概念，由幾個重要元件組成：
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)：變更填入Activity Map地區維度的屬性。
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md)：自訂Activity Map用來填入Activity Map連結維度的邏輯。
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md)：自訂Activity Map用來填入Activity Map地區維度的邏輯。
-* **覆蓋**：可讓您檢視網站上覆蓋之點按資料的瀏覽器擴充功能。 如需詳細資訊，請參閱[Activity Map擴充功能介面](overlay/overview.md)。
+* **覆蓋**：可讓您檢視網站上覆蓋之點按資料的瀏覽器擴充功能。 如需詳細資訊，請參閱[Activity Map擴充功能介面](overlay/overview.md)。 此功能不適用於Web SDK實作。
 * **維度**：除了覆蓋延伸功能外，Activity Map還提供幾個可在Analysis Workspace中使用的維度。
    * [Activity Map連結](/help/components/dimensions/activity-map-link.md)：被點按的連結名稱。
    * [Activity Map地區](/help/components/dimensions/activity-map-region.md)：被點按的地區名稱。
@@ -37,7 +37,7 @@ Activity Map作為一個概念，由幾個重要元件組成：
 
 * **熱度圖**： Activity Map會產生熱度圖，顯示網頁中最常點按或互動的區域。 熱度圖使用色彩編碼來代表參與程度，讓您能夠識別熱點並優先關注高影響力區域。 此資訊對於最佳化call-to-action按鈕、連結、表單或任何其他互動式元素非常有用。
 
-* **覆蓋報表**： Activity Map中的覆蓋報表可提供網頁上特定元素的詳細點選量度。 透過瞭解個別元素的點進率和參與層級，您可以微調設計和內容策略以提升使用者體驗。
+* **覆蓋報表**： Activity Map中的覆蓋報表可提供網頁上特定元素的詳細點選量度。 透過瞭解個別元素的點進率和參與層級，您可以微調設計和內容策略以提升使用者體驗。 此功能不適用於Web SDK實作。
 
 * **區段分析**：您可以根據不同的區段來分析使用者行為，例如流量來源、人口統計或角色。 透過劃分資料，您可以揭示特定使用者群組的寶貴見解、實現個人化體驗和目標式行銷策略。
 
