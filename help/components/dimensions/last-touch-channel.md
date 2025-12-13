@@ -3,10 +3,10 @@ title: 上次接觸管道
 description: 訪客參與期限內最近的行銷管道。
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 90%
 * 在「報表套裝設定」下的「行銷管道管理員」中，將所需的維度項目設為管道。
 * 設定包含所需點擊條件的行銷管道處理規則。
 * 訪客對您網站的點擊必須符合行銷管道處理規則中列出的條件。
+
+>[!TIP]
+>
+>如果將此維度與使用[參與率歸因](/help/analyze/analysis-workspace/attribution/models.md)的量度搭配使用，則當其他歸因模型未使用時，可將評分歸因於`None`。 參與率量度需要在報告時段內使用行銷管道[執行個體](../metrics/instances.md)來接收評分。 如果行銷管道最初設定在報表回溯期之外，而報表回溯期內只存在持續值，則參與度量會將點數歸因於`None`。 其他歸因模型會將評分歸因於持續值。 若要避免在此案例中歸因至`None`，請考慮使用非參與歸因模型。
 
 ## 維度項目
 
