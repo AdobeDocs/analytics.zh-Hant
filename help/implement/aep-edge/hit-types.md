@@ -13,7 +13,7 @@ ht-degree: 20%
 
 # Adobe Analytics中的Edge Network事件型別
 
-Adobe Analytics會根據您在AppMeasurement中呼叫的函式，以不同方式處理點選。 例如，[`s.t`](/help/implement/vars/functions/t-method.md)和[`s.tl`](/help/implement/vars/functions/tl-method.md)包含或省略某些維度，並以不同方式增加[頁面檢視](/help/components/metrics/page-views.md)。 Adobe Experience Platform只包含[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview)命令。 [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm)或[`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data)裝載中的特定屬性會決定資料在Adobe Analytics中的解譯方式。
+Adobe Analytics會根據您在AppMeasurement中呼叫的函式，以不同方式處理點選。 例如，[`s.t`](/help/implement/vars/functions/t-method.md)和[`s.tl`](/help/implement/vars/functions/tl-method.md)包含或省略某些維度，並以不同方式增加[頁面檢視](/help/components/metrics/page-views.md)。 Adobe Experience Platform只包含[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/overview)命令。 [`xdm`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/xdm)或[`data`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/data)裝載中的特定屬性會決定資料在Adobe Analytics中的解譯方式。
 
 Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/help/components/metrics/page-views.md)和[連結事件](/help/components/metrics/page-events.md)：
 
@@ -29,7 +29,7 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 >[!TIP]
 >
->承載中的XDM欄位名稱區分大小寫（例如，`webPageDetails.URL`）。 `xdm.eventType`欄位是字串值，具有自己的一組接受值，且這些值中的大小寫可能與XDM欄位名稱不符。 如需接受的值，請參閱`eventType`XDM ExperienceEvent類別[中的](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType)欄位。
+>承載中的XDM欄位名稱區分大小寫（例如，`webPageDetails.URL`）。 `xdm.eventType`欄位是字串值，具有自己的一組接受值，且這些值中的大小寫可能與XDM欄位名稱不符。 如需接受的值，請參閱`eventType`XDM ExperienceEvent類別[中的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent#eventType)欄位。
 
 +++使用`xdm`欄位的最小頁面檢視
 
@@ -193,4 +193,4 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能結構描述欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)，了解更多資訊。
+請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)，了解更多資訊。
