@@ -3,9 +3,9 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
+source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**&#x200B;對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|
@@ -143,7 +143,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
 
 若要核准分類集合併，請執行下列步驟：
 
-1. 使用&#x200B;**[!UICONTROL 相似度報表]**&#x200B;來檢閱合併。 此報告顯示含有下列資料欄的表格：
+1. 使用&#x200B;**[!UICONTROL 相似度報表]**&#x200B;報表來檢閱合併。 此報告顯示含有下列資料欄的表格：
 
    * **[!UICONTROL 分類設定名稱]**：分類設定的名稱。
    * **[!UICONTROL 不相符]**：索引鍵值不符合來源分類集的資料列百分比。 如果不相符百分比很高，不相符可能表示分類資料太不同。 檢查並確保選取的分類設定有類似的分類資料。

@@ -3,7 +3,7 @@ title: 「分類設定」概觀
 description: 瞭解如何使用分類設定來管理分類資料。 瞭解分類設定與舊版分類的差異。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,12 +12,12 @@ ht-degree: 9%
 
 # 分類集概觀
 
-分類集會提供管理分類和規則的單一介面。此工作流程會將在報告套裝設定中建立的分類與[分類匯入工具](/help/components/classifications/sets/manage/set-manager.md)結合。 如此將可透過單一直覺式介面建立和管理分類資料。
+分類集會提供管理分類和規則的單一介面。此工作流程結合了[報告套裝設定](/help/admin/tools/manage-rs/report-suites-admin.md)中的分類建立與[分類匯入工具](/help/components/classifications/sets/manage/set-manager.md)。 如此將可透過單一直覺式介面建立和管理分類資料。
 
 
 ## 「分類設定」與「舊版分類」
 
-分類設定和舊版分類的主要差異在於，分類設定將所有功能結合在一個介面中，而舊版分類需仰賴三個介面。
+分類設定和舊版分類的主要差異在於，分類設定將所有功能結合在一個介面中，而舊版分類需依賴三個介面。
 
 ### 舊版分類
 
@@ -25,7 +25,7 @@ ht-degree: 9%
 
 在舊版分類中，分類![結構描述](/help/assets/icons2/Schema.svg) （例如流量、轉換、行銷管道等）都有各自的維度（索引鍵![索引鍵](/help/assets/icons2/Key.svg)）。 您將這些分類定義為[報表套裝設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)的一部分。
 
-您已在規則集中個別定義規則![BidRule](/help/assets/icons/BidRule.svg)，作為[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)介面的一部分。 在該介面中，您會將規則集與一個或多個報表套裝相關聯。
+您已在規則集中個別定義規則![BidRule](/help/assets/icons/BidRule.svg)，作為[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)介面的一部分。 在該介面中，您可以將規則集與一個或多個報表套裝建立關聯。
 
 您使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)下載範本![DocumentFragment](/help/assets/icons/DocumentFragment.svg)、將![UploadToCloud](/help/assets/icons/UploadToCloud.svg)分類匯入或匯出![下載](/help/assets/icons/Download.svg)分類(從報表套裝 — 索引鍵（資料集）組合)。
 
@@ -58,7 +58,7 @@ ht-degree: 9%
 1. 考慮您要為哪些報表套裝和維度組合建立分類集。 例如，可定義您針對任何要分類產品（包含更多詳細資訊）的報告套裝所建立的產品分類集。 例如，類別和顏色等詳細資訊。
 1. [建立一個分類集](/help/components/classifications/sets/manage/create.md)，其中包含一或多個可識別產品的報表套裝和索引鍵維度組合的訂閱。 例如：
 
-   | 報告套裝 | 主要維度 |
+   | 報告套裝 | 關鍵維度 |
    |---|---|
    | 報告套裝1 | 產品 ID |
    | 報告套裝2 | 產品SKU |
@@ -112,7 +112,7 @@ ht-degree: 9%
 
 * 縮短處理時間（從72小時縮短至24小時）。
 * 重新設計的使用者介面以管理分類。
-* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
+* 透過[Adobe Experience Platform來源聯結器將分類資料用於Adobe Analytics中的選項](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)。
 
 隨分類集發行的後端架構也包含幾項變更：
 

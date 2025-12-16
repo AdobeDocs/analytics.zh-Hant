@@ -4,9 +4,9 @@ description: 瞭解如何使用分類集規則來定義分類資料的規則。
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1662'
 ht-degree: 10%
 
 ---
@@ -24,9 +24,13 @@ ht-degree: 10%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
-   * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
+   * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。
+
+     ![規則移轉](assets/rules-migration.png)
+
+     選項包括：
 
       * **移轉現有規則**。 匯入您目前的分類規則，並在新介面中繼續使用這些規則。 您現有的規則會保留，並轉換為新格式。
          * 選取&#x200B;**[!UICONTROL 移轉規則]**&#x200B;以繼續。
@@ -248,7 +252,7 @@ ht-degree: 10%
 
 #### 使用案例
 
-您想要定義一個規則，以根據&#x200B;**&#x200B;** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
+您想要定義一個規則，以根據&#x200B;**** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
 
 >[!BEGINTABS]
 
