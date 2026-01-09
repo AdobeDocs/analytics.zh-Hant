@@ -4,10 +4,10 @@ description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)及所需的拚接方法 (分別是[依欄位拚接](field-based-stitching.md)或[裝置圖表](device-graph.md))。
+>執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)和所需的拼接方法（[欄位式拼接](field-based-stitching.md)）。
 
 ## 1.向客戶服務提交票證，以便在跨裝置報表套裝上布建CDA
 
@@ -27,7 +27,7 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 * 您的 Adobe Experience Cloud 組織 ID (以 @AdobeOrg 結尾的英數字串)
 * 您要透過 CDA 啟用跨裝置報表套裝的報表套裝 ID
-* 您要使用哪種CDA方法(依欄位彙整或Adobe裝置圖表)
+* 您要使用哪種CDA方法（依欄位彙整）
 * 如果使用依欄位拚接，則需使用包含使用者 ID 的 prop/eVar
 * 您的重播頻率和回顧時間長度偏好設定。包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。
 預設值為每週重播一次且回顧期間為 7 天。 在此情況下，上一週的資料可能會有變動 (因為該資料正在逐步拼接和更新)。

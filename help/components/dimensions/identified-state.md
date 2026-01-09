@@ -1,16 +1,16 @@
 ---
-title: 識別的狀態
-description: 裝置圖表判斷旗標的辨識。
+title: 已識別的狀態
+description: 決定拼接識別的旗標。
 feature: Dimensions
 exl-id: 8c6e9003-96f8-460f-a490-203f67be6337
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 89%
+source-wordcount: '109'
+ht-degree: 83%
 
 ---
 
-# 識別的狀態
+# 已識別的狀態
 
 「識別的狀態」[維度](overview.md)是[跨裝置分析](../cda/overview.md)虛擬報表套裝的專屬維度。 它會報告在執行報告時系統是否識別 (拼接) 點擊。此維度有助於了解 CDA 拚接或「壓縮」資料的程度。
 
