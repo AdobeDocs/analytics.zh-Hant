@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1089'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 88%
 
 ### 預設下拉式選單
 
-此預設下拉式選單包括一組標準預設日期範圍和您儲存或與您共用的資料檢視的日期範圍元件。
+此預設下拉式選單包括一組標準預設日期範圍和您儲存或與您共用的報表套裝的日期範圍元件。
 
 ### 滾動日期
 

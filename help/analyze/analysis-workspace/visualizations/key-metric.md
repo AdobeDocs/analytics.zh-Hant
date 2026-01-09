@@ -4,10 +4,10 @@ title: 關鍵量度摘要
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的關鍵量度摘要視覺效果。_<br/>_請參閱[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的關鍵量度摘要視覺效果。_<br/>_請參閱[關鍵量度摘要](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/key-metric)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
    | 選項 | 說明 |
    | --- | --- |
    | **[!UICONTROL 量度]** | 選取想要檢查的量度。支援所有量度。 |
-   | **[!UICONTROL 主要日期範圍]** | 任意形狀表格目前的日期範圍。<p>從資料視圖中的任何適用的日期範圍中進行選擇。</p> <p>如果您想要使用與視覺效果所在面板上相同的日期範圍，請選擇「[!UICONTROL **面板日期範圍**]」。</p> |
+   | **[!UICONTROL 主要日期範圍]** | 自由格式表格目前的日期範圍。<p>從報表套裝中的任何可用日期範圍中選擇。</p> <p>如果您想要使用與視覺效果所在面板上相同的日期範圍，請選擇「[!UICONTROL **面板日期範圍**]」。</p> |
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
    | **[!UICONTROL 區段 (選擇性)]** | 您對於此摘要感興趣的任何區段。 |
 
@@ -126,6 +126,6 @@ _本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 
