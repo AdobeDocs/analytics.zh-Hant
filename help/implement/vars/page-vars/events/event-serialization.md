@@ -4,7 +4,7 @@ description: 協助您去除網站上重複的量度。
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -37,7 +37,7 @@ ht-degree: 83%
 
 如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，事件序列化會使用所需事件的XDM欄位`id`。 完整的 XDM 路徑取決於您要序列化的事件。
 
-例如，如果您想要序列化購物車新增量度，請將`xdm.commerce.productListAdds.id`設定為所要的序列化值。 如果您想要序列化自訂事件20，請將`xdm._experience.analytics.event1to100.event20`設定為所要的序列化值。
+例如，如果您想要序列化購物車新增量度，請將`xdm.commerce.productListAdds.id`設定為所要的序列化值。 如果您想要序列化自訂事件20，請將`xdm._experience.analytics.event1to100.event20.id`設定為所要的序列化值。
 
 如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，事件序列化會依照AppMeasurement字串語法使用`data.__adobe.analytics.events`。
 
