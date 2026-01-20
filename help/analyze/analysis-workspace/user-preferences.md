@@ -4,10 +4,10 @@ description: 了解如何設定使用者的一般和專案偏好設定。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
 workflow-type: tm+mt
-source-wordcount: '3456'
-ht-degree: 99%
+source-wordcount: '3485'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/3429993/?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -98,6 +98,11 @@ ht-degree: 99%
 
 按一下連結的偏好設定標題，以取得有關每個偏好設定的詳細資訊和內容。
 
+>[!IMPORTANT]
+>
+>您無法在&#x200B;**[!UICONTROL 使用者偏好設定]**&#x200B;的&#x200B;**[!UICONTROL 專案與分析]** > **[!UICONTROL 資料]**&#x200B;區段中定義數字格式。 數字格式是由為登入使用者設定的[預設語言](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language)自動決定。
+>
+
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **顯示** | | |
@@ -108,7 +113,6 @@ ht-degree: 99%
 |  | [行事曆](/help/analyze/analysis-workspace/c-panels/panels.md) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
 |  | [面板類型](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 計算重複執行個體數 | 指定是否要將重複例項計入報告。例如，此設定 (啟動時) 會將多個連續頁面檢視視為同一個頁面的多次頁面檢視。關閉後，則會計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如單次頁面造訪次數)，不適用於「流量」或「流失」視覺效果。</p> |
-|  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 |  | 顯示註解 | 選取專案中是否顯示註解。如需註解的詳細資訊，請參閱[註解概觀](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
