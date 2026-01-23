@@ -1,59 +1,321 @@
 ---
-title: 分類設定規則
-description: 瞭解如何檢視和編輯「分類設定」規則。
-exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
+title: 分類集規則
+description: 瞭解如何使用分類集規則來定義分類資料的規則。
 feature: Classifications
-source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
+source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 5%
+source-wordcount: '1682'
+ht-degree: 13%
 
 ---
 
+
 # 分類集規則
 
->[!IMPORTANT]
->
->分類設定尚不支援規則。 在舊版規則產生器功能無法使用之前，已將規則功能新增到分類集介面。
->如果您確實需要分類的規則，請繼續使用[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)。
+如果您的關鍵維度不斷變更，可使用規則支援自動分類。 透過上傳或自動化來更新分類會變成繁瑣的程式，或落後於新維度值的正確分類。 例如內部行銷活動、追蹤代碼或產品SKU。 維度必須包含可讓您套用一或多個規則的值，以便您可以從值衍生分類資料。
 
-<!--
-Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
+您可以在分類設定的內容中定義規則。 此上下文表示規則已套用（啟動時）至訂閱分類集的所有報表套裝和索引鍵維度組合。 此實作與舊版分類規則產生器的運作方式有些不同。 在分類規則產生器中，將一或多個規則定義為規則集的一部分，然後將規則集與一個或多個報表套裝建立關聯。 在新介面中，分類設定內的規則也稱為規則設定。 但是，規則集是在您設定其他分類集屬性的相同介面中定義。
 
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-![classification set rules UI](../../assets/csets-rules.png)
+若要定義分類集的規則集，請執行下列動作：
 
-## Rule settings
+1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
+1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
-Settings that apply to the entire set of rules.
+   * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
 
-* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
-  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
-  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
-* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
+      * **移轉現有規則**。 匯入您目前的分類規則，並在新介面中繼續使用這些規則。 您現有的規則會保留，並轉換為新格式。
+         * 選取&#x200B;**[!UICONTROL 移轉規則]**&#x200B;以繼續。
+         * 在&#x200B;**[!UICONTROL 確認移轉]**&#x200B;對話方塊中，閱讀移轉的影響。
+            * 選取&#x200B;**[!UICONTROL 移轉規則]**&#x200B;以確認移轉。 移轉完成後，請使用[規則集介面](#rule-set-interface)建立新規則，並編輯您現有的移轉規則。
+            * 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消移轉
 
-## Rules
+      * **重新開始**。 使用新的規則產生器，從頭開始建立新的分類規則。如果您想要重新設計分類邏輯，或重新開始新的分類規則，請選取此選項。
+         * 選取&#x200B;**[!UICONTROL 建立新規則]**&#x200B;以繼續。
+         * 在&#x200B;**[!UICONTROL 確認重新開始]**&#x200B;對話方塊中，閱讀重新開始的影響。
+            * 選取&#x200B;**[!UICONTROL 重新開始]**&#x200B;以確認重新開始並捨棄任何現有規則。 使用[規則集介面](#rule-set-interface)來建立新規則。
+            * 選取「**[!UICONTROL 取消]**」即可取消。
 
-A list of rules that run for each unique value.
 
-* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
-* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
-* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
+      * **使用舊版介面**。 繼續以使用先前的規則產生器介面。您隨時可以在準備就緒後遷移到新體驗。
+         * 選取&#x200B;**[!UICONTROL 前往舊版介面]**&#x200B;以繼續。 系統會將您導向舊版&#x200B;**[!UICONTROL 分類規則產生器]**&#x200B;介面。
 
-Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
+   * 如果您已經移轉規則或為分類集建立新規則，您最終會直接在規則集介面中。
 
-* **[!UICONTROL Delete]**: Deletes the row from the rule table.
-* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
-## Rule table
 
-The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
+## 規則集介面 {#rule-set-interface}
 
-* **Rule number**: Rules run in the same order that you configure the rule table. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to all values], the last matching rule overwrites any previous rules for the same classification dimension. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to only unset values], the first rule that sets a classification value applies.
-* **[!UICONTROL Select rule type]**: The rule criteria. Options include [!UICONTROL Contains], [!UICONTROL Ends with], [!UICONTROL Regular expression], [!UICONTROL Regular expression], and [!UICONTROL Starts with].
-* **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
-* **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
-* **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+>[!CONTEXTUALHELP]
+>id="classificationsets_rules_samplekeys"
+>title="範例索引鍵"
+>abstract="輸入或貼上測試金鑰以測試規則集。 每一行都是個別的索引鍵值。 選取&#x200B;**[!UICONTROL 測試規則集]**&#x200B;以顯示包含結果的對話方塊。"
 
--->
+
+若要建立或編輯規則，請使用規則集介面。
+
+![規則集介面](assets/rulesets-ui.png)
+
+| | 名稱 | 說明 |
+|---|---|---|
+| 1 | **[!UICONTROL 函數]** | 您可使用&#x200B;**[!UICONTROL 函式]**&#x200B;區域選取函式，並將函式拖放到規則集產生器。 |
+| 2 | **規則集產生器** | 您可使用一或多個規則來建置規則集。 規則是函式的實作，且一律僅與一個函式相關聯。 一個函式可以有多個運運算元。 將函式拖放至規則集產生器，即可建立規則。 函式型別會定義規則的介面。 <br/>如需詳細資訊，請參閱[規則介面](#rule-interface)。<br/>您可以在任何位置插入函式，這些函式會依序執行，以決定分類的最終值。<br/>使用&#x200B;**[!UICONTROL 全部收合]**&#x200B;來收合所有規則，並使用&#x200B;**[!UICONTROL 全部展開]**&#x200B;來展開所有規則。 |
+| 3 | **[!UICONTROL 狀態]** | 顯示規則集的狀態和上次修改日期。 <br/>選取&#x200B;**[!UICONTROL 啟動]**&#x200B;以啟動規則集。 <br/>選取&#x200B;**[!UICONTROL 停用]**&#x200B;以停用規則集。 |
+| 4 | **[!UICONTROL 回顧]** | 指定規則集的回顧視窗。<br/>從下拉式功能表中選取選項（1個月到6個月）。<br/>選取&#x200B;**[!UICONTROL 執行回顧]**&#x200B;以使用選取的回顧期間執行回顧。 |
+| 5 | **[!UICONTROL 測試選項]** | 使用範例索引鍵維度值來測試分類： <ul><li>在&#x200B;**[!UICONTROL 範例索引鍵]**&#x200B;文字區域中新增或貼上值。<br/>檢查&#x200B;**[!UICONTROL 記住範例金鑰]**，以確保範例金鑰在規則集介面的不同使用方式中持續存在。</li><li>選取&#x200B;**[!UICONTROL 測試規則集]**&#x200B;以測試您的規則集。</li></ul> |
+
+
+## 規則介面
+
+您可以在「規則」介面的規則集中定義每個個別規則。 介面由下列元素組成：
+
+![規則介面](assets/rule-ui.png)
+
+| | 說明 |
+|---|---|
+| 1 | 所選函式的名稱以及為函式輸入的輸入。 |
+| 2 | 所選函式的輸入。 輸入取決於選取的函式。 例如，對於&#x200B;**[!UICONTROL 規則運算式]**&#x200B;函式，輸入是規則運算式。 而且對於&#x200B;**[!UICONTROL Split]**&#x200B;函式，輸入是權杖。 為特定函式輸入適當的輸入。 例如，`^(.+)\:(.+)\:(.+)$`代表在內部行銷活動代碼中識別三個分類的規則運算式。 |
+| 3 | 每個作業都會將特定分類設定為值。 <br/>從&#x200B;**[!UICONTROL 設定分類]**&#x200B;下拉式功能表中選取分類，並輸入&#x200B;**[!UICONTROL 至]**&#x200B;的值。 <br/>使用![CrossSize400](/help/assets/icons/CrossSize400.svg)從清單中刪除操作。 |
+| 4 | 選取![新增](/help/assets/icons/Add.svg) **[!UICONTROL 新增作業]**&#x200B;以新增其他作業至函式。 |
+| 5 | 選取![V形向下](/help/assets/icons2/ChevronDown.svg)以摺疊規則。 選取![左側V形](/help/assets/icons/ChevronLeft.svg)以展開規則。<br/>選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除規則。 |
+
+## 函數引用
+
+對於每個支援的函式，請尋找以下有關所需輸入和範例使用案例的詳細資訊。
+
+
+### 開頭為……
+
+根據關鍵維度開頭的特定值設定分類。
+
++++ 詳細資料 
+
+#### 必要輸入
+
+輸入&#x200B;**[!UICONTROL 開頭為]**&#x200B;的值。 例如：`em`。
+
+#### 使用案例
+
+您想要定義規則，以便在關鍵維度「內部行銷活動」的值開頭為`Email`時（例如： **[!UICONTROL ），將]**&#x200B;指派為`em`管道`em:FY2025:Summer Sale`分類的值。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — 開頭為](assets/rule-startswith.png)
+
+>[!TAB 測試結果]
+
+![規則 — 從測試結果開始](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+
+### 結尾為……
+
+根據索引鍵維度結尾的特定值設定分類。
+
++++ 詳細資料 
+
+#### 必要輸入
+
+輸入&#x200B;**[!UICONTROL 結尾為]**&#x200B;的值。 例如：`2025`。
+
+#### 使用案例
+
+當索引鍵維度「內部行銷活動」的值包含`2025`時（例如： **[!UICONTROL ），您要定義規則以將]**&#x200B;指派為`2025`Year`em:Summer Sale:FY2025`分類的值。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — 結尾為](assets/rule-endswith.png)
+
+>[!TAB 測試結果]
+
+![規則 — 以測試結果結束](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+### 包含……
+
+根據索引鍵維度包含的特定值設定分類。
+
++++ 詳細資料 
+
+#### 必要輸入
+
+輸入&#x200B;**[!UICONTROL Contains]**&#x200B;的值。 例如：`Winter`。
+
+#### 使用案例
+
+當索引鍵維度Internal Campaign的值包含`Winter Sale`時（例如： **[!UICONTROL ），您要定義規則以將]**&#x200B;指派為`Winter`Type`fb:Winter:FY2024`分類的值。
+
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — Contains](assets/rule-contains.png)
+
+>[!TAB 測試結果]
+
+![規則 — 包含結果](assets/rule-contains-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+### 符合
+
+根據與索引鍵維度值相符的特定值設定分類。
+
++++ 詳細資料 
+
+#### 必要輸入
+
+輸入&#x200B;**[!UICONTROL Matches]**&#x200B;的值。 例如：`em:Summer:2025`。
+
+#### 使用案例
+
+您想要定義規則，將`Email`指派為&#x200B;**[!UICONTROL 管道]**&#x200B;分類的值，`Summer Sale`指派為&#x200B;**[!UICONTROL 型別]**&#x200B;分類的值，以及`2025`指派為&#x200B;**[!UICONTROL 年份]**&#x200B;分類的值。 但僅當關鍵維度「內部行銷活動」的值符合`em:Summer:2025`時。
+
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — 符合](assets/rule-matches.png)
+
+>[!TAB 測試結果]
+
+![規則 — 符合](assets/rule-matches-test.png)
+
+>[!ENDTABS]
+
++++
+
+
+### 規則運算式
+
+根據套用至索引鍵維度值的規則運算式設定一或多個分類。
+
++++ 詳細資料 
+
+#### 必要輸入
+
+輸入&#x200B;**[!UICONTROL 規則運算式]**&#x200B;的值。 例如：`^(.+)\:(.+)\:FY(.+)$`。
+
+#### 使用案例
+
+您要定義規則以指派值給&#x200B;**[!UICONTROL Channel]**、**[!UICONTROL Type]**&#x200B;和&#x200B;**[!UICONTROL Year]**&#x200B;分類，方法是套用規則運算式`^(.+)\:(.+)\:FY(.+)$`並使用符合群組（`$1`、`$2`和`$3`）給關鍵維度Internal Campaign的值。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — 規則運算式](assets/rule-regex.png)
+
+>[!TAB 測試結果]
+
+![規則 — 規則運算式測試結果](assets/rule-regex-test.png)
+
+>[!ENDTABS]
+
+
+
+#### 參考表格
+
+如需規則運算式的參考表格，請參閱下文。
+
+| 規則運算式 | 說明 |
+|---|---|
+| `(?ms)` | 比對整個規則運算式與多行輸入，允許`.`萬用字元比對任何新行字元 |
+| `(?i)` | 比對整個規則運算式以不區分大小寫 |
+| `[abc]` | a、b 或 c 其中一個字元 |
+| `[^abc]` | 除了下列之外的任何單一字元：a、b 或 c |
+| `[a-z]` | a-z 範圍內的任何單一字元 |
+| `[a-zA-Z]` | a-z 或 A-Z 範圍內的任何單一字元 |
+| `^` | 行的開始 (匹配行的開始) |
+| `$` | 匹配行的結尾（或結尾處的新行之前） |
+| `\A` | 字串的開始 |
+| `\z` | 字串的結尾 |
+| `.` | 匹配任何字元 (新行除外) |
+| `\s` | 任何空白字元 |
+| `\S` | 任何非空白字元 |
+| `\d` | 任何數字 |
+| `\D` | 任何非數字 |
+| `\w` | 任何單詞字元 (字母、數字、底線) |
+| `\W` | 任何非單詞字元 |
+| `\b` | 任何單詞邊界 |
+| `(...)` | 擷取括住的所有內容 |
+| `(a\b)` | a 或 b |
+| `a?` | 零個或一個 a |
+| `a*` | 零個或更多 a |
+| `a+` | 一或多個 a |
+| `a{3}` | 剛好 3 個 a |
+| `a{3,}` | 3 個或更多 a |
+| `a{3,6}` | 介於 3 到 6 個 a |
+
++++
+
+
+### Split
+
+根據Token將索引鍵維度值分割至一或多個分類。
+
++++ 詳細資料
+
+#### 必要輸入
+
+輸入&#x200B;**[!UICONTROL 分割]**&#x200B;的值。 例如：`:`。
+
+#### 使用案例
+
+您想要定義一個規則，以根據&#x200B;**** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
+
+>[!BEGINTABS]
+
+>[!TAB 規則]
+
+![規則 — 分割](assets/rule-split.png)
+
+>[!TAB 測試結果]
+
+![規則 — 分割測試結果](assets/rule-split-test.png)
+
+>[!ENDTABS]
+
++++
+
+## 規則優先順序
+
+最後一條規則會決定分類的值，如果：
+
+* 一個關鍵維度值符合多個規則。
+* 規則集包含具有相同&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業的規則。
+
+因此，您應該將最重要的&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業排入規則集內最後一個規則的等級。
+
+如果您建立的多個規則不共用相同的&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業，處理順序並不重要。
+
+
+### 範例
+
+您要使用分類&#x200B;**[!UICONTROL 輸入]**&#x200B;來分類，使用者如何使用搜尋字串做為關鍵維度來搜尋運動員。 例如，使用此規則集：
+
+![規則優先順序](assets/rule-priority.png)
+
+* 當使用者搜尋`Cowboys Fantasy Tony Romo`時，`Romo`被分類為&#x200B;**[!UICONTROL 型別]**。
+* 當使用者搜尋`Cowboys Fantasy Tony Romeo`時，`Fantasy`被分類為&#x200B;**[!UICONTROL 型別]**。
+* 當使用者搜尋`Cowboys vs. Broncos`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
+

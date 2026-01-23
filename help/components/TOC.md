@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 99%
+source-wordcount: '748'
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,7 @@ ht-degree: 99%
    + [語音量度](metrics/voice-metrics.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
    + [造訪數](metrics/visits.md)
-+ 區段 {#segmentation}
++ 分段 {#segmentation}
    + [Analytics 分段](segmentation/seg-home.md)
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)
@@ -270,7 +270,6 @@ ht-degree: 99%
          + [設定](classifications/sets/manage/settings.md)
          + [結構描述](classifications/sets/manage/schema.md)
          + [規則](classifications/sets/manage/rules.md)
-         + [新規則](classifications/sets/manage/rules-new.md)
       + [分類作業](classifications/sets/job-manager.md)
       + 分類彙總 {#consolidations}
          + [管理](classifications/sets/consolidations/manage.md)
@@ -306,7 +305,7 @@ ht-degree: 99%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [搭配行銷管道使用 Attribution &#x200B;](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution ](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)
