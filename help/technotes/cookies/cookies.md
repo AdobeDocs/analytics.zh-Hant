@@ -178,4 +178,4 @@ Adobe 建議客戶在變更資料收集之前，先在他們自己的公司內�
 >[!MORELIKETHIS]
 >
 >[可減輕瀏覽器 Cookie 限制之影響的選項](cookieless.md)
->>[Apple 的新 App Tracking Transparency Framework 對 Adobe Analytics 的影響](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>>[Apple 的新 App Tracking Transparency Framework 對 Adobe Analytics 的影響](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=zh-Hant)

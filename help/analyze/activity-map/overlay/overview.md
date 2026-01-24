@@ -50,7 +50,7 @@ Activity Map擴充功能可讓您檢視網站上覆蓋的點選資料。 您可�
 * **[!UICONTROL 顯示設定]**：開啟可變更設定的功能表（齒輪圖示）：
    * **[!UICONTROL 設定]**：開啟擴充功能的[設定](settings.md)。
    * **[!UICONTROL 說明]**：開啟檔案至Experience League （此頁面）。
-   * **[!UICONTROL Adobe社群]**：開啟[Experience League社群](https://experienceleaguecommunities.adobe.com/)。
+   * **[!UICONTROL Adobe社群]**：開啟[Experience League社群](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hant)。
    * **[!UICONTROL 關於]**：顯示擴充功能版本。
    * **[!UICONTROL 登出]**：將您登出擴充功能，要求您再次登入。
 * **[!UICONTROL 結束Activity Map]**：關閉擴充功能的所有覆蓋圖（X圖示）。

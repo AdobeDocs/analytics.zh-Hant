@@ -26,7 +26,7 @@ ht-degree: 68%
 * 建立控制面板，檢視這些重要度量和變數每小時的趨勢（或為每個度量設定[警報](/help/components/alerts/alerts-overview.md)）。 監控一兩天，確認資料走勢符合預期，且資料正確無誤。 尋找轉折點。做好準備，以便在發現任何重大問題時能立即解決。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://express.adobe.com/page/tnNQGNlfzta3b/)，監控 KPI 量度和變數的主要趨勢。
 
-*如需確認量度和變數正常運作的詳細資訊，請參閱 Adobe Analytics Champion 專家 Sarah Owen 提供的[這些秘訣](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)。*
+*如需確認量度和變數正常運作的詳細資訊，請參閱 Adobe Analytics Champion 專家 Sarah Owen 提供的[這些秘訣](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=zh-Hant)。*
 
 ## &#x200B;3. 徹底檢查網站更新區段的資料
 

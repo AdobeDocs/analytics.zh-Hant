@@ -87,7 +87,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 >[!MORELIKETHIS]
 >
->* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=zh-Hant)
+>* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=zh-Hant)
+>* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=zh-Hant)
 
