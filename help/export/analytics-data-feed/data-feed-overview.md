@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[導覽至資料摘要介面](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[導覽至資料摘要介面](https://video.tv.adobe.com/v/3428570?captions=chi_hant&quality=12&learn=on){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 

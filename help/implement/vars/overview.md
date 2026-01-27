@@ -27,7 +27,7 @@ Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會透過一
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[設定變數](https://video.tv.adobe.com/v/28755?quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[設定變數](https://video.tv.adobe.com/v/3456978?captions=chi_hant&quality=12&learn=on){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
