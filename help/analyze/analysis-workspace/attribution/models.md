@@ -1,26 +1,26 @@
 ---
-title: 歸因元件
-description: 瞭解定義歸因的元件。
+title: 成效歸因元件
+description: 了解定義成效歸因的各項元件。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
-# 歸因元件
+# 成效歸因元件
 
-Adobe Analytics中的歸因概念包含三個元件：
+Adobe Analytics 中的成效歸因概念包含三個元件：
 
-* **歸因模型：** [模型](#attribution-model)說明群組中點選的轉換分佈方式。 例如首次接觸或上次接觸。
-* **容器**： [容器](#container)會定義歸因的範圍，或如何為每個模型的點選分組。
-* **歸因回顧期間：** [回顧期間](#lookback-window)說明所選取模型的回顧天數。
+* **成效歸因模型：**[模型](#attribution-model)是描述轉換情形在群組中各個點擊之間的分佈方式。例如首次接觸或最後接觸。
+* **容器**：[容器](#container)會定義成效歸因的範圍，亦即如何將每個模型的點擊進行分組。
+* **成效歸因回溯時間範圍：**[回溯時間範圍](#lookback-window)描述所選模型可回溯的天數。
 
 
-## 歸因模型
+## 成效歸因模型
 
 {{attribution-models-details}}
 

@@ -1,37 +1,37 @@
 ---
-title: Adobe Analytics中的Edge Network事件型別
-description: Adobe Analytics如何解讀從Edge Network收到的事件。
+title: Adobe Analytics 中的 Edge Network 事件類型
+description: Adobe Analytics 如何解讀從 Edge Network 接收到的事件。
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 31085025-9c38-4375-8dfb-4fded6542ca7
 source-git-commit: 0096a53505b3b1bc925c813c2c6c11ee3c7ee0c0
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 20%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics中的Edge Network事件型別
+# Adobe Analytics 中的 Edge Network 事件類型
 
-Adobe Analytics會根據您在AppMeasurement中呼叫的函式，以不同方式處理點選。 例如，[`s.t`](/help/implement/vars/functions/t-method.md)和[`s.tl`](/help/implement/vars/functions/tl-method.md)包含或省略某些維度，並以不同方式增加[頁面檢視](/help/components/metrics/page-views.md)。 Adobe Experience Platform只包含[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/overview)命令。 [`xdm`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/xdm)或[`data`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/data)裝載中的特定屬性會決定資料在Adobe Analytics中的解譯方式。
+Adobe Analytics 會根據您在 AppMeasurement 中呼叫的函式，以不同方式處理點擊。例如，[`s.t`](/help/implement/vars/functions/t-method.md) 與 [`s.tl`](/help/implement/vars/functions/tl-method.md) 會包含或省略特定的維度，並以不同方式遞增[頁面檢視次數](/help/components/metrics/page-views.md)。Adobe Experience Platform 僅包含 [`sendEvent`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/collection/js/commands/sendevent/overview) 指令。[`xdm`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/collection/js/commands/sendevent/xdm) 或 [`data`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/collection/js/commands/sendevent/data) 承載中的特定屬性，會決定 Adobe Analytics 如何解讀該資料。
 
-Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/help/components/metrics/page-views.md)和[連結事件](/help/components/metrics/page-events.md)：
+Edge Network 會使用以下邏輯來判定 Adobe Analytics 的[頁面檢視次數](/help/components/metrics/page-views.md)與[連結事件](/help/components/metrics/page-events.md)：
 
-## 使用`xdm`物件的頁面檢視和連結事件
+## 使用 `xdm` 物件的頁面檢視次數與連結事件
 
 | XDM 承載包含... | Adobe Analytics... |
 |---|---|
 | `xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.URL` 且無 `xdm.web.webInteraction.type` | 考慮承載一個&#x200B;**頁面檢視** |
 | `xdm.eventType = web.webpagedetails.pageViews` | 考慮承載一個&#x200B;**頁面檢視** |
-| `xdm.web.webInteraction.type` 和 (`xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.URL`) | 將裝載視為&#x200B;**連結事件** <br/>也將`xdm.web.webPageDetails.name`和`xdm.web.webPageDetails.URL`設為`null` |
-| `xdm.web.webInteraction.type` 和 (`xdm.web.webInteraction.name` 或 `xdm.web.webInteraction.URL`) | 將裝載視為&#x200B;**連結事件** <br/>同時將`xdm.web.webPageDetails.name`和`xdm.web.webPageDetails.URL`設定為`null` （如果存在） |
-| 沒有`xdm.web.webInteraction.type`且沒有`xdm.web.webPageDetails.name`且沒有`xdm.web.webPageDetails.URL` | 放棄負載並忽略資料 |
+| `xdm.web.webInteraction.type` 和 (`xdm.web.webPageDetails.name` 或 `xdm.web.webPageDetails.URL`) | 將承載視為&#x200B;**連結事件**，<br/>同時也將 `xdm.web.webPageDetails.name` 與 `xdm.web.webPageDetails.URL` 設為 `null` |
+| `xdm.web.webInteraction.type` 和 (`xdm.web.webInteraction.name` 或 `xdm.web.webInteraction.URL`) | 將承載視為&#x200B;**連結事件** <br/>同時也將 `xdm.web.webPageDetails.name` 與 `xdm.web.webPageDetails.URL` 設為 `null`，若有 |
+| 無 `xdm.web.webInteraction.type` 和無 `xdm.web.webPageDetails.name` 和無 `xdm.web.webPageDetails.URL` | 放棄承載並忽略資料 |
 
 >[!TIP]
 >
->承載中的XDM欄位名稱區分大小寫（例如，`webPageDetails.URL`）。 `xdm.eventType`欄位是字串值，具有自己的一組接受值，且這些值中的大小寫可能與XDM欄位名稱不符。 如需接受的值，請參閱`eventType`XDM ExperienceEvent類別[中的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/classes/experienceevent#eventType)欄位。
+>承載中的 XDM 欄位名稱會區分大小寫 (例如：`webPageDetails.URL`)。`xdm.eventType` 欄位是一個字串值，自有一組可接受的值，而這些值的大小寫可能與 XDM 欄位名稱不一致。如需了解可接受的值，請參閱 [XDM ExperienceEvent 類別](https://experienceleague.adobe.com/tw/en/docs/experience-platform/xdm/classes/experienceevent#eventType)中的 `eventType` 欄位。
 
-+++使用`xdm`欄位的最小頁面檢視
++++使用 `xdm` 欄位的最低頁面檢視次數
 
 ```json
 {
@@ -48,7 +48,7 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-+++使用`xdm.eventType`的最小頁面檢視
++++使用 `xdm.eventType` 的最低頁面檢視次數
 
 ```json
 {
@@ -60,7 +60,7 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-+++使用建議欄位的最小連結事件
++++使用建議欄位的最少連結事件
 
 ```json
 {
@@ -78,15 +78,15 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-## 使用`data`物件的頁面檢視和連結事件
+## 使用 `data` 物件的頁面檢視次數與連結事件
 
-| 資料物件承載包含…… | Adobe Analytics... |
+| 資料物件承載包含… | Adobe Analytics... |
 |---|---|
 | `data.__adobe.analytics.pageName` 或 `data.__adobe.analytics.pageURL` 且無 `data.__adobe.analytics.linkType` | 考慮承載一個&#x200B;**頁面檢視** |
-| `data.__adobe.analytics.linkType` 和 (`data.__adobe.analytics.linkName` 或 `data.__adobe.analytics.linkURL`) | 將裝載視為&#x200B;**連結事件** <br/>也將`data.__adobe.analytics.pageName`和`data.__adobe.analytics.pageURL`設為`null` |
-| 沒有`data.__adobe.analytics.linkType`且沒有`data.__adobe.analytics.pageName`且沒有`data.__adobe.analytics.pageURL` | 放棄負載並忽略資料 |
+| `data.__adobe.analytics.linkType` 和 (`data.__adobe.analytics.linkName` 或 `data.__adobe.analytics.linkURL`) | 將承載視為&#x200B;**連結事件** <br/>同時也將 `data.__adobe.analytics.pageName` 與 `data.__adobe.analytics.pageURL` 設為 `null` |
+| 無 `data.__adobe.analytics.linkType` 和無 `data.__adobe.analytics.pageName` 和無 `data.__adobe.analytics.pageURL` | 放棄承載並忽略資料 |
 
-+++使用`data`欄位的最小頁面檢視
++++使用 `data` 欄位的最低頁面檢視次數
 
 ```json
 {
@@ -103,7 +103,7 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-+++使用`data`欄位的最小連結事件
++++使用 `data` 欄位的最少連結事件
 
 ```json
 {
@@ -123,29 +123,29 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 >[!NOTE]
 >
->如果您在相同承載中同時包含`xdm`物件和`data`物件，Adobe Analytics會檢查這兩個物件的個別欄位。
+>如果您在同一個承載中同時包含 `xdm` 物件與 `data` 物件，Adobe Analytics 會檢查這兩個物件各自對應的欄位。
 
-## A4T和決定相關事件
+## A4T 與決策相關事件
 
-除了區分頁面檢視和連結事件外，下列邏輯還會判斷某些決策事件是分類為A4T還是被捨棄。
+除了區分頁面檢視次數與連結事件之外，以下邏輯也會判定特定的決策事件是否歸類為 A4T，或是予以捨棄。
 
 | XDM 承載包含... | Adobe Analytics... |
 |---|---|
-| `xdm.eventType = decisioning.propositionDisplay` 與 `xdm._experience.decisioning` | 將裝載視為&#x200B;**A4T**&#x200B;呼叫。 |
-| `xdm.eventType = decisioning.propositionDisplay`且沒有`xdm._experience.decisioning` | 放棄負載並忽略資料 |
-| `xdm.eventType = decisioning.propositionInteract`和`xdm._experience.decisioning`且沒有`xdm.web.webInteraction.type` | 將裝載視為&#x200B;**A4T**&#x200B;呼叫。 |
-| `xdm.eventType = decisioning.propositionInteract`且沒有`xdm._experience.decisioning`且沒有`xdm.web.webInteraction.type` | 會捨棄裝載並忽略資料。 |
-| `xdm.eventType = decisioning.propositionFetch` | 放棄負載並忽略資料 |
+| `xdm.eventType = decisioning.propositionDisplay` 與 `xdm._experience.decisioning` | 將承載視為 **A4T** 呼叫。 |
+| `xdm.eventType = decisioning.propositionDisplay` 且沒有 `xdm._experience.decisioning` | 放棄承載並忽略資料 |
+| `xdm.eventType = decisioning.propositionInteract` 和 `xdm._experience.decisioning`，並且沒有 `xdm.web.webInteraction.type` | 將承載視為 **A4T** 呼叫。 |
+|  `xdm.eventType = decisioning.propositionInteract` 和無 `xdm._experience.decisioning` 和無 `xdm.web.webInteraction.type` | 放棄承載並忽略資料。 |
+| `xdm.eventType = decisioning.propositionFetch` | 放棄承載並忽略資料 |
 
 >[!TIP]
 >
->已棄用下列`eventType`個值。 請注意，這些值影響邏輯的方式與目前的對應值相同：
+>以下 `eventType` 值已淘汰。請注意，這些值對邏輯的影響方式，與其目前對應的值相同：
 >
->* 事件型別`display`已過時。 請改用 `decisioning.propositionDisplay`。
->* 事件型別`click`已過時。 請改用 `decisioning.propositionInteract`。
->* 事件型別`personalization.request`已過時。 請改用 `decisioning.propositionFetch`。
+>* 事件類型 `display` 已淘汰。請改用 `decisioning.propositionDisplay`。
+>* 事件類型 `click` 已淘汰。請改用 `decisioning.propositionInteract`。
+>* 事件類型 `personalization.request` 已淘汰。請改用 `decisioning.propositionFetch`。
 
-+++最小化A4T顯示
++++最小 A4T 顯示
 
 ```json
 {
@@ -169,7 +169,7 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-+++最小的A4T互動
++++最少 A4T 互動
 
 ```json
 {
@@ -193,4 +193,4 @@ Edge Network使用以下邏輯來判斷Adobe Analytics [頁面檢視次數](/hel
 
 +++
 
-請參閱「[Adobe Analytics ExperienceEvent 完整延伸功能結構描述欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)，了解更多資訊。
+請參閱 [Adobe Analytics ExperienceEvent 完整擴充功能結構描述欄位群組](https://experienceleague.adobe.com/tw/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension)，了解更多資訊。

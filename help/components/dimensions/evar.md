@@ -6,7 +6,7 @@ exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '851'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 77%
 
 *此說明頁面將說明 eVar 做為[維度](overview.md)的運作方式。如需實作 eVar 的相關資訊，請參閱實作使用手冊中的「[eVar](/help/implement/vars/page-vars/evar.md)」。*
 
-eVar是自訂[維度](overview.md)，您可以視需要使用。 如果您有[解決方案設計檔案](/help/implement/prepare/solution-design.md)，則貴組織專屬的大部分維度最終都會變成[!UICONTROL eVars]。
+eVar 是自訂[維度](overview.md)，您可以自由使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則您的組織特有的大多數維度最終都會變成 [!UICONTROL eVar]。
 
-依預設，eVar可存留於其設定所在的點選之外。 如需有關eVar持續性如何在Adobe架構上運作的詳細資訊，請參閱下列章節： [eVar如何運作](#how-evars-work)及[eVar如何繫結至量度](#how-evars-tie-to-metrics)。 您可以在[報表套裝設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)中的[!UICONTROL 轉換變數]下啟用、停用或自訂其到期日和配置。 下圖顯示轉換變數介面中eVar定義的範例：
+依預設，eVar 會在其設定的點擊之後繼續生效。請參閱下方 [eVar 的運作方式](#how-evars-work)以及 [eVar 如何與量度連結](#how-evars-tie-to-metrics)區段，以深入了解 eVar 在 Adobe 的架構中如何持久生效。您可以在[!UICONTROL 報告套裝設定]中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)底下，啟用、停用或自訂其期限與功勞分配。下列影像顯示轉換變數介面中的 eVar 定義範例：
 
 ![Evar 範例](assets/evars-sample.png)
 
 可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
-報告中使用的（大寫或小寫）大小寫是根據您在指定日曆月份中傳送的第一個值。 大小寫會隨著報告期間以及在該期間首次收集的eVar值的大小寫而改變。
+報告中使用的大寫或小寫字母，皆是以您在該日曆月份中傳送的第一個值為準。字母的大小寫可能會依據報告期間，以及該期間內最先收集到的 eVar 值之大小寫而有所變化。
 
 ## 將資料填入 eVar 中
 
@@ -45,7 +45,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 ### eVar 連結至量度的方式
 
-成功事件和eVar通常在不同的時間定義。 `post_evar` 欄可讓 eVar 值連結至事件，並顯示報告中的資料。以下列造訪為例：
+成功事件與 eVar 會在多次不同的時間中頻繁地進行定義。`post_evar` 欄可讓 eVar 值連結至事件，並顯示報告中的資料。以下列造訪為例：
 
 1. 訪客造訪您的網站，首先停留在首頁上。
 2. 他們使用您網站的內部搜尋功能來搜尋「貓」。您的實作使用 eVar1 進行內部搜尋。
@@ -78,10 +78,10 @@ Adobe Analytics 中的工具 (例如 Analysis Workspace) 運作時，會使用�
 
 Analysis Workspace 使用下列邏輯提取此報告：
 
-* 檢視所有`event_list`值，並挑選出其中包含`purchase`的所有列。
-* 在這些資料列中，顯示`post_evar1`值。
+* 逐一檢視所有 `event_list` 值，並挑選出所有包含`purchase`的列。
+* 從那些列當中，顯示 `post_evar1` 的值。
 
-產生的報告在左側顯示`post_evar1`中包含的每個不同值，以及在右側有多少訂單歸因於該值。
+產生的報告會在左側顯示 `post_evar1` 中包含的每個不同的值，並在右側顯示有多少筆訂單的成效歸因於該值。
 
 ### 配置和期限的重要性
 

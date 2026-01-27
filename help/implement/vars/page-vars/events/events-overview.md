@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 使用 Web SDK 的事件
 
-如果使用[XDM物件](/help/implement/aep-edge/xdm-var-mapping.md)，自訂事件會使用下列XDM欄位：
+如果使用 [XDM 物件](/help/implement/aep-edge/xdm-var-mapping.md)，自訂事件會使用下列 XDM 欄位：
 
 * 自訂事件 1-100 會對應到 `xdm._experience.analytics.event1to100.event1` - `xdm._experience.analytics.event1to100.event100`。
 * 自訂事件 101-200 會對應到 `xdm._experience.analytics.event101to200.event100` - `xdm._experience.analytics.event101to200.event200`。
@@ -38,7 +38,7 @@ ht-degree: 85%
 >
 >如果在 `productListItems` 下設定事件 (例如 `productListItems._experience.analytics.event1.value`)，並且該事件尚未在此欄位中，則該事件會自動新增到此欄位中。
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則所有事件都使用`data.__adobe.analytics.events`，並遵循AppMeasurement字串語法。 如果您設定此欄位，在XDM物件中設定的任何事件都會被覆寫，且不會傳送至Adobe Analytics。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，所有事件會依照 AppMeasurement 語法使用 `data.__adobe.analytics.events`。如果您設定此欄位，XDM 物件中所設定的任何事件都會被覆寫，且不會傳送至 Adobe Analytics。
 
 ## 使用 Adobe Analytics 擴充功能的事件
 
@@ -48,21 +48,21 @@ ht-degree: 85%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設定為 Adobe Analytics，並將[!UICONTROL 「動作類型」]設定為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段。
 
 您可以使用幾個功能：
 
-* 可讓您選取要包含之事件的下拉式清單
+* 讓您選取要包含哪些事件的下拉式清單
 * 供序列化使用的選用文字欄位。如需詳細資訊，請參閱[事件序列化](event-serialization.md)。
-* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，在下拉式清單中選取`event1`並在此欄位中包含`10`，可在報告中將`event1`增加10。
+* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，在下拉式清單中選取 `event1`，並在此欄位中包含 `10`，會讓報告中的 `event1` 增加 10。
 * 新增其他事件的按鈕。您可以在合理的範圍內向單一規則新增任意數量的事件。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.events
 
-`s.events` 變數是字串，其中包含您要納入點擊中的逗號分隔事件清單。變數最多可允許64,000個位元組，實際可視點選需求允許多個事件。 有效值包括：
+`s.events` 變數是字串，其中含有要包含至點擊中的逗號分隔事件清單。此變數最多可使用 64k 位元組，實際上可讓單一點擊包含所需數量的事件。有效值包括：
 
-* `event1` - `event1000`：自訂事件，視需要設定。請將每個事件的使用方式記錄在貴組織的[解決方案設計文件](../../../prepare/solution-design.md)中。可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請聯絡您的Adobe客戶團隊。
+* `event1` - `event1000`：自訂事件，視需要設定。請將每個事件的使用方式記錄在貴組織的[解決方案設計文件](../../../prepare/solution-design.md)中。可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定可使用的自訂事件數量，請聯絡您的 Adobe 帳戶團隊。
 * `purchase`：將[訂單](/help/components/metrics/orders.md)量度增加 1，並使用在 `products` 變數中設定的值來計算[件數](/help/components/metrics/units.md)和[收入](/help/components/metrics/revenue.md)。如需詳細資訊，請參閱[購買事件](event-purchase.md)。
 * `prodView`：增加[產品檢視](/help/components/metrics/product-views.md)量度。
 * `scOpen`：增加[購物車](/help/components/metrics/carts.md)量度。

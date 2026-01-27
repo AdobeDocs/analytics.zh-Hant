@@ -173,8 +173,8 @@ ht-degree: 100%
    + [單位數](metrics/units.md)
    + [語音量度](metrics/voice-metrics.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
-   + [造訪數](metrics/visits.md)
-+ 分段 {#segmentation}
+   + [造訪次數](metrics/visits.md)
++ 區段 {#segmentation}
    + [Analytics 分段](segmentation/seg-home.md)
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)

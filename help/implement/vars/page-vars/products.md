@@ -7,7 +7,7 @@ role: Admin, Developer
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 67%
 >
 >如果此變數設定於點擊中，但沒有 [`events`](events/events-overview.md) 變數，則[產品檢視](/help/components/metrics/product-views.md)量度會增加 1。 請務必每個使用 `products` 變數的點擊上設定適當的事件。
 
-## 使用網頁SDK的產品
+## 使用 Web SDK 的產品
 
-如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品會對應至下列變數：
+如果使用 [**XDM 物件**](/help/implement/aep-edge/xdm-var-mapping.md)，產品會對應至下列變數：
 
-* 類別對應至`xdm.productListItems[].productCategories[].categoryID`。 它使用`productCategories[]`陣列中的第一個專案。 `lineItemId`也正確對應，但Adobe建議`categoryID`，因為它是標準XDM。 如果兩個XDM欄位都存在，則會以`lineItemId`優先。
-* 產品對應至`xdm.productListItems[].SKU`或`xdm.productListItems[].name`。 如果兩個XDM欄位都存在，則會使用`xdm.productListItems[].SKU`。
-* 數量對應至`xdm.productListItems[].quantity`。
-* 價格已對應至`xdm.productListItems[].priceTotal`。
-* 銷售eVar對應至`xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1`至`xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，端視您要繫結至產品的eVar而定。
-* 銷售事件對應至`xdm.productListItems[]._experience.analytics.event1to100.event1.value`至`xdm.productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 若您在這些欄位之一中設定事件，該事件會自動包含在傳送至Adobe Analytics的[事件](events/events-overview.md)字串中。
+* 類別會對應至 `xdm.productListItems[].productCategories[].categoryID`。其使用 `productCategories[]` 陣列中的第一個項目。`lineItemId` 也正確對應，但 Adobe 建議使用 `categoryID`，因為其是標準 XDM。如果兩個 XDM 欄位皆存在，則會以 `lineItemId` 為優先。
+* 產品會對應至 `xdm.productListItems[].SKU` 或 `xdm.productListItems[].name`。如果兩個 XDM 欄位皆存在，則會使用 `xdm.productListItems[].SKU`。
+* 數量會對應至 `xdm.productListItems[].quantity`。
+* 價格會對應至 `xdm.productListItems[].priceTotal`。
+* 銷售 eVar 會對應至 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar1` 到 `xdm.productListItems._experience.analytics.customDimensions.eVars.eVar250`，取決於您想要與產品綁定的 eVar。
+* 銷售事件會對應至 `xdm.productListItems[]._experience.analytics.event1to100.event1.value` 到 `xdm.productListItems._experience.analytics.event901to1000.event1000.value`，取決於您想要與產品綁定的事件。如果您在其中一個欄位中設定事件，該事件就會自動包含在傳送至 Adobe Analytics 的[事件](events/events-overview.md)字串中。
 
 ```json
 {
@@ -53,7 +53,7 @@ ht-degree: 67%
 }
 ```
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則產品變數會使用AppMeasurement語法中的`data.__adobe.analytics.products`。 若您設定此欄位，在XDM物件中設定的任何產品都會被覆寫，且不會傳送至Adobe Analytics。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，產品變數會依照 AppMeasurement 語法使用 `data.__adobe.analytics.products`。如果您設定此欄位，XDM 物件中所設定的任何產品都會被覆寫，且不會傳送至 Adobe Analytics。
 
 ```json
 {
@@ -67,9 +67,9 @@ ht-degree: 67%
 }
 ```
 
-## 使用Adobe Analytics擴充功能的產品
+## 使用 Adobe Analytics 擴充功能的產品
 
-Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；但有多個協力廠商擴充功能可提供協助。
+在 Adobe Experience Platform 資料彙集中，沒有專用欄位可設定這個變數；不過，市面上有多個第三方擴充功能可提供協助。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
@@ -78,11 +78,11 @@ Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；�
 
 您可以使用其中一個擴充功能，或依照下方的 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.products
+## AppMeasurement 中的 s.products，以及 Analytics 擴充功能的自訂程式碼編輯器
 
 `s.products` 變數是字串，其中包含每個產品的多個分隔欄位。 在字串中以分號 (`;`) 分隔每個欄位。
 
-* **類別** （選擇性）：產品類別。 此欄位的長度上限為 100 個位元組。
+* **類別**(選用)：產品類別。此欄位的長度上限為 100 個位元組。
 * **產品名稱** (必要)：產品的名稱。 此欄位的長度上限為 100 個位元組。
 * **數量** (選用)：此產品在購物車內的數量有多少。此欄位僅適用於購買事件的點擊。
 * **價格** (選用)：小數形式的產品總價。如果數量超過一個，請將價格設定為總價，而非個別產品價格。調整此值的貨幣，使其與 [`currencyCode`](../config-vars/currencycode.md) 變數相符。請勿在此欄位中加入貨幣符號。此欄位僅適用於購買事件的點擊。
@@ -94,7 +94,7 @@ Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。整個`products`字串的長度上限為64,000個位元組。 請在字串中以逗號 (`,`) 分隔每項產品。
+此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。整個`products`字串的最大長度為 64k 位元組。請在字串中以逗號 (`,`) 分隔每項產品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart

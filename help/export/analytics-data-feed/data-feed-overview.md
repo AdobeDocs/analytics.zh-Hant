@@ -1,13 +1,13 @@
 ---
-description: 瞭解如何使用資料摘要從Adobe Analytics中取得原始資料。 瞭解使用資料摘要的先決條件，以及後續步驟。
-keywords: 點按資料流；資料摘要；資料摘要；資料摘要
-title: Analytics資料摘要概觀
+description: 了解如何透過資料摘要從 Adobe Analytics 取得原始資料。了解使用資料摘要的先決條件以及接下來該做的步驟。
+keywords: 點按資料流;資料摘要;資料摘要;資料摘要
+title: Analytics 資料摘要概觀
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 79%
 * [資料摘要最佳實務](/help/export/analytics-data-feed/data-feeds-best-practices.md)：建立和管理資料摘要的最佳實務。
 * [建立資料摘要](create-feed.md)：建立資料摘要的技術詳細資訊，詳細說明個別欄位
 * [管理資料摘要](df-manage-feeds.md)：深入了解如何導覽資料摘要介面
-* [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案<!-- Is this still the output users can download from the destination? I aske Jun. -->內的內容
+* [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案 <!-- Is this still the output users can download from the destination? I aske Jun. --> 內包含的內容。
 * [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單。
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [瀏覽資料摘要介面](https://video.tv.adobe.com/v/3428570?quality=12&learn=on&captions=chi_hant){target="_blank"}以取得示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[導覽至資料摘要介面](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找您的資料摘要ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}以取得示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[尋找您的資料摘要 ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]

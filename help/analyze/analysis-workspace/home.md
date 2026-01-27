@@ -1,6 +1,6 @@
 ---
 title: Analysis Workspace 概觀
-description: 了解 Adobe Analytics 的首要分析工具，即 Analysis Workspace 的詳細資訊。使用專案、面板、表格、視覺效果及其他元件來生動地呈現資料，並組織及共用您的分析。
+description: 了解關於 Adobe Analytics 的首要分析工具 Analysis Workspace。使用專案、面板、表格、視覺效果及其他元件來生動地呈現資料，並組織及共用您的分析。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2

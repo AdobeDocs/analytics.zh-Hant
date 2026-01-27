@@ -6,7 +6,7 @@ exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
 source-git-commit: f26f406848ab26092738089aac64ed9b4fc08019
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 83%
 
 ## 每日、每週、每月、每季和每年不重複訪客
 
-Analysis Workspace 會根據報告的詳細程度處理不重複訪客。例如，如果您使用[日](../dimensions/day.md)維度，則會看到每個維度項目的每日不重複訪客。但在計算報表總計時，則會針對自由表格的日期範圍刪除不重複訪客的重複項目。
+Analysis Workspace 會根據報告的顆粒度處理不重複訪客。例如，如果您使用[日](../dimensions/day.md)維度，則會看到每個維度項目的每日不重複訪客。但在計算報表總計時，則會針對自由格式表格的日期範圍刪除不重複訪客的重複項目。
 
 ## 此量度的計算方式
 
-此量度會計算指定維度專案的不重複訪客ID數量。 如需Adobe Analytics如何識別獨特訪客的詳細資訊，請參閱[訪客識別概觀](/help/implement/id/overview.md)。
+此量度會計算指定維度項目的不重複訪客識別碼數量。請參閱[訪客識別概觀](/help/implement/id/overview.md)，以深入了解 Adobe Analytics 如何識別不重複訪客。

@@ -1,12 +1,12 @@
 ---
 title: 維度概觀
-description: 瞭解什麼是維度以及如何在Adobe Analytics中使用維度。
+description: 了解什麼是維度以及如何在 Adobe Analytics 中使用維度。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

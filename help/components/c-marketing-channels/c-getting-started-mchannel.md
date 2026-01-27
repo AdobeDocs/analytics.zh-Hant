@@ -6,7 +6,7 @@ exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
 source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 >
 >Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中所述。
 
-「行銷管道」常用來提供訪客如何進入您的網站的相關資訊。您可以根據所要追蹤的管道以及追蹤方式，建立及自訂行銷管道處理規則。
+「行銷管道」常用來提供訪客如何進入您的網站的洞察。您可以根據所要追蹤的管道以及追蹤方式，建立及自訂行銷管道處理規則。
 
 行銷管道的中心為「首次和上次接觸」量度，這是標準轉換量度的元件。
 
@@ -47,7 +47,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->如果先前未設定行銷管道，則會顯示[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。此設定提供數個預先設定好的行銷管道，供您進行自訂。Adobe建議您使用這些規則作為範本。 不過，如果您已有確定的管道定義，則可跳過自動設定。
+>如果先前未設定行銷管道，則會顯示[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。此設定提供數個預先設定好的行銷管道，供您進行自訂。Adobe 建議您將這些規則作為範本使用。不過，如果您已有確定的管道定義，則可跳過自動設定。
 
 ![](assets/step3_icon.png)在[!UICONTROL 「行銷管道處理規則」]頁面上設定或調整每個管道的規則。
 
@@ -55,11 +55,11 @@ ht-degree: 93%
 
 請參閱[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。
 
-如果管道是以自動設定建立的，則這些管道的規則已經定義好。您可以視需要加以修改。
+如果管道是以自動設定建立的，則這些管道的規則已經定義好。您可以根據需求進行修改。
 
 ## 行銷管道的自動設定 {#run-auto-setup}
 
-行銷管道報告隨附一次性設定頁面，可協助您開始使用。其中提供數個行銷管道，您可用來追蹤。如果熟悉如何建立管道和規則，則可跳過該設定。不過，Adobe 仍建議讓精靈替您建立管道。自動設定可讓您檢視規則的建構方式，或編輯以供您自用。 您可隨時停用或刪除預定義管道。
+行銷管道報告隨附一次性設定頁面，可協助您開始使用。其中提供數個行銷管道，您可用來追蹤。如果熟悉如何建立管道和規則，則可跳過該設定。不過，Adobe 仍建議讓精靈替您建立管道。您可以透過自動設定了解規則的建構方式，或是針對您自己的用途編輯規則。您可隨時停用或刪除預定義管道。
 
 如何執行行銷管道自動設定。
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >存取管理工具中的管道設定應用程式時，會自動顯示[!UICONTROL 行銷管道：自動設定]頁面。（請參閱[行銷管道管理員](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)。）如果您的報表套裝包含一或多個行銷管道，則不會顯示此頁面。 除非選擇其他不包含行銷管道的報告，否則無法再存取該頁面。
+   >存取管理工具中的管道設定應用程式時，會自動顯示[!UICONTROL 行銷管道：自動設定]頁面。(請參閱[行銷管道管理員](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md))。如果您的報告套裝包含一個或多個行銷管道，則此頁面不會顯示。除非選擇其他不包含行銷管道的報告，否則無法再存取該頁面。
 
 1. 確保選定想要建立的管道。
 

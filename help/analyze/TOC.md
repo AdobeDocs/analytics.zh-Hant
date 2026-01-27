@@ -74,7 +74,7 @@ ht-degree: 100%
       + 資料字典 {#data-dictionary}
          + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
          + [檢視資料字典中的元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [編輯資料字典中的元件條目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [編輯資料字母排序中的元件條目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [監視資料字典健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 視覺效果 {#visualizations}
       + [概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)

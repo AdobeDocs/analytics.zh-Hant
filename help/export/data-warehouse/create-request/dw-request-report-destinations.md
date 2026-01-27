@@ -6,7 +6,7 @@ exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
 workflow-type: tm+mt
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 82%
 >
 >設定報告目標時，請考慮以下事項：
 >
->* 我們建議您使用雲端帳戶或電子郵件作為您的報告目標。舊版[&#x200B; FTP 和 SFTP 帳戶](#legacy-destinations)可供使用，但不建議使用。
+>* 我們建議您使用雲端帳戶或電子郵件作為您的報告目標。可以使用[舊版 FTP 和 SFTP 帳戶](#legacy-destinations)，但不建議使用。
 >
 >* 您先前設定的任何雲端帳戶都適合供 Data Warehouse 使用。您可以透過以下任一方式設定雲端帳戶：
 >
@@ -28,7 +28,7 @@ ht-degree: 82%
 >   
 >   * 當[匯入 Adob&#x200B;&#x200B;e Analytics 分類資料](/help/components/locations/locations-manager.md)時 (可以使用帳戶，但不能使用在這些帳戶上設定的任何位置。)
 >   
->   * 從「位置」管理員，在「[元件 > 位置](/help/components/locations/configure-import-accounts.md)」中。
+>   * 從位置管理員，在[「元件」>「位置」](/help/components/locations/configure-import-accounts.md)中。
 >
 >* 雲端帳戶與您的 Adob&#x200B;&#x200B;e Analytics 使用者帳戶有關聯。其他使用者無法使用或查看您設定的雲端帳戶。
 >
@@ -48,11 +48,11 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >只有在您已設定帳戶或您已與所屬組織共用帳戶時，您才可以使用這些帳戶。
+   >只有在您已設定帳戶或與所屬組織共用帳戶時，才可以使用這些帳戶。
    >
    >如果您是系統管理員，則可以使用「[!UICONTROL **顯示所有目標**]」選項。如果您有權存取組織中任何使用者建立的所有帳戶和位置，請啟用此選項。
 
-   1. 從&#x200B;[!UICONTROL **帳戶**]&#x200B;下拉式功能表中選取帳戶。
+   1. 請從&#x200B;[!UICONTROL **「帳戶」**]&#x200B;下拉式功能表中選取帳戶。
 
       您在 Adob&#x200B;&#x200B;e Analytics 的以下任何區域中設定的任何雲端帳戶都可供使用：
 
@@ -66,26 +66,26 @@ ht-degree: 82%
 
 1. (視情況而定) 如果您無法存取已在 Adob&#x200B;&#x200B;e Analytics 中設定的雲端帳戶，您可以設定一個：
 
-   1. 選取&#x200B;[!UICONTROL **帳戶**]&#x200B;下拉式功能表，然後選取&#x200B;[!UICONTROL **新增帳戶**]。
+   1. 選取&#x200B;[!UICONTROL **「帳戶」**]&#x200B;下拉式功能表，然後選取&#x200B;[!UICONTROL **「新增帳戶」**]。
 
-   1. 在新增帳戶對話方塊中，指定下列資訊：
+   1. 在「新增帳戶」對話框中，註明以下資訊：
 
       | 欄位 | 函數 |
       |---------|----------|
-      | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會出現該名稱。 |
-      | [!UICONTROL **位置帳戶描述**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
-      | [!UICONTROL **讓您的組織中的所有使用者都可以使用帳戶**] | 啟用此選項可允許組織中的其他使用者使用該帳戶。<p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> |
-      | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶類型。我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如[設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
+      | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。建立位置時會出現此名稱 |
+      | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
+      | [!UICONTROL **將帳戶設為可供您組織中的所有使用者使用**] | 啟用此選項，讓您組織中的其他使用者可以使用該帳戶。<p>共用帳戶時，請考量以下事項：</p><ul><li>您共用的帳戶無法取消共用。</li><li>共用的帳戶僅能由帳戶所有者進行編輯。</li><li>任何人都可以為共用的帳戶建立位置。</li></ul> |
+      | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶類型。我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可建立的帳戶類型，如[設定是否允許使用者建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。如果您無法依照本節所述建立帳戶，請聯絡您的系統管理員。</p> |
 
-   1. 在&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定您所選取帳戶型別的特定資訊。
+   1. 在&#x200B;[!UICONTROL **「帳戶屬性」**]&#x200B;區段中，指定您所選取帳戶類型的專屬資訊。
 
-      如需設定指示，請展開下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的區段。 （也可使用其他舊帳戶型別，但不建議使用。）
+      如需設定指示，請展開下方與您所選取之&#x200B;[!UICONTROL **帳戶類型**]&#x200B;相對應的區段。(另外也提供其他舊帳戶類型，但不建議使用)。
 
-      **帳戶型別**
+      **帳戶類型**
 
       +++Amazon S3 Role ARN
 
-      **注意：**&#x200B;搭配Data Warehouse使用Amazon S3時，僅支援SSE-S3加密。
+      **注意事項：**&#x200B;使用 Amazon S3 搭配 Data Warehouse 時，僅支援 SSE-S3 加密。
 
       若要設定 Amazon S3 角色 ARN 帳戶，請註明以下資訊：
 
@@ -117,9 +117,9 @@ ht-degree: 82%
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
       | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-      | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定Azure SAS，您必須使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p><p>或</p><p>如果您要直接授與存取角色而不建立存取原則，請參閱[Microsoft Azure檔案，瞭解如何使用Azure入口網站](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)指派Azure角色。 這會新增應用程式ID的角色指派，以存取金鑰儲存庫URI。 </p> |
-      | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中（位於&#x200B;**金鑰儲存庫**&#x200B;設定頁面上）。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
-      | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+      | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果您想要直接授予存取角色而不建立存取原則，請參閱 [Microsoft Azure 文件，了解如何使用 Azure 入口網站指派 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。這會將角色指派新增到應用程式 ID，以存取金鑰保存庫 URI。 </p> |
+      | [!UICONTROL **金鑰保存庫祕密名稱**] | 在將祕密值新增至 Azure Key Vault 時所建立的祕密名稱。在 Microsoft Azure 中，這項資訊位於您所建立的 Key Vault 內，位在&#x200B;**「Key Vault」**&#x200B;設定頁面若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+      | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
       {style="table-layout:auto"}
 
@@ -133,7 +133,7 @@ ht-degree: 82%
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
       | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-      | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+      | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
       {style="table-layout:auto"}
 
@@ -143,7 +143,7 @@ ht-degree: 82%
 
       >[!NOTE]
       >
-      >電子郵件帳戶只能與[資料摘要](/help/export/analytics-data-feed/create-feed.md)搭配使用。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件帳戶)。
+      >電子郵件帳戶僅能搭配[資料摘要](/help/export/analytics-data-feed/create-feed.md)使用。(電子郵件帳戶不支援 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或[分類集](/help/components/classifications/sets/overview.md))。
 
       若要設定 Azure RBAC 帳戶，請註明以下資訊：
 
@@ -157,7 +157,7 @@ ht-degree: 82%
 
 1. 在「[!UICONTROL **報告選項**]」標籤中，繼續設定您的 Data Warehouse 請求。有關詳細資訊，請參閱「[為 Data Warehouse 請求設定報告選項](/help/export/data-warehouse/create-request/dw-request-report-options.md)」。
 
-## 舊版帳戶型別
+## 舊帳戶類型
 
 >[!IMPORTANT]
 >

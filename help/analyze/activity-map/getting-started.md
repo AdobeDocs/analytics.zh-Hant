@@ -1,62 +1,62 @@
 ---
-title: Activity Map快速入門
-description: 開始使用Activity Map覆蓋和維度。
+title: Activity Map 快速入門
+description: 使用 Activity Map 疊加層與維度快速入門。
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Activity Map快速入門
+# Activity Map 快速入門
 
-Adobe Analytics中的Activity Map包含四個主要元素：
+Adobe Analytics 中的 Activity Map 由四個主要元素組成：
 
-* **報表套裝設定**：您必須在報表套裝設定中啟用Activity Map。 啟用後，報表套裝會針對Activity Map維度和量度建立數個保留變數。
-* **實作**：在您的網站或屬性上收集Activity Map資料。 自訂資料收集方式可改善報表的品質和體驗。
-* **Workspace維度和量度**：當您的實作已正確設定時，您可以在Analysis Workspace中使用Activity Map維度和量度。
-* **覆蓋**： Adobe提供瀏覽器擴充功能，可在您網站的內容中檢視Activity Map資料。 此功能不適用於Web SDK實作。
+* **報告套裝設定**：您必須在報告套裝設定中啟用 Activity Map。啟用後，報告套裝會為 Activity Map 維度和量度建立數個保留變數。
+* **實施**：收集您的網站或資產上的 Activity Map 資料。自訂資料彙集方式可提升報告的品質與體驗。
+* **Workspace 維度與量度**：當您的實施內容設定正確時，就可以在 Analysis Workspace 中使用 Activity Map 維度與量度。
+* **疊加層**：Adobe 提供瀏覽器擴充功能，讓您在網站環境中檢視 Activity Map 資料。此功能不適用於 Web SDK 實施方式。
 
-## 啟用報表套裝設定
+## 啟用報告套裝設定
 
-報表套裝必須啟用Activity Map報表，您才能開始收集資料。 如果您的實施傳送Activity Map資料至未啟用Activity Map報告的報表套裝，則點選中不會包含Activity Map資料。
+報告套裝必須先啟用 Activity Map 報告功能，然後才能開始收集資料。如果您的實施將 Activity Map 資料傳送至未啟用 Activity Map 報告功能的報告套裝，該點擊中不會包含 Activity Map 資料。
 
-**[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** >選取報表套裝> **[!UICONTROL 編輯設定]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map報表]** > **[!UICONTROL 啟用Activity Map報表]**
+**[!UICONTROL 「管理」]**>**[!UICONTROL 「報告套裝」]**>「選取報告套裝」>**[!UICONTROL 「編輯設定」]**>**[!UICONTROL 「Activity Map」]**>**[!UICONTROL 「Activity Map 報告」]**>**[!UICONTROL 「啟用 Activity Map 報告」]**
 
-啟用Activity Map報表會建立多個後端保留變數。 如需詳細資訊，請參閱Activity Map管理指南中的[Adobe Analytics報表](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
+啟用 Activity Map 報告會建立數個後端保留變數。如需更多資訊，請參閱 Adobe Analytics 管理指南中的[ Activity Map 報告](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
 
 ## 程式碼安裝
 
-您的實作必須正確設定，才能將Activity Map資料傳送至Adobe。 使用Web SDK實作Adobe Analytics時，無法使用覆蓋瀏覽器擴充功能。
+您的實施必須正確設定，才能將 Activity Map 資料傳送至 Adobe。使用 Web SDK 方式實施 Adobe Analytics 時，疊加層瀏覽器擴充功能將無法使用。
 
 +++Web SDK 標記擴充功能
 
-Activity Map資料收集需要&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;擴充功能v2.23或更新版本。 擴充功能版本（最低至v2.16）支援有限。 這些先前的擴充功能版本會以與其他資料分開的事件，傳送Activity Map資料。 這個額外的事件會增加您傳送至Adobe Analytics或Adobe Experience Platform的點選次數。
+Activity Map 資料彙集需要 **[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;擴充功能 v2.23 或以上。低至 v2.16 的擴充功能版本僅提供有限支援。這些先前的擴充功能版本會以獨立事件的方式來傳送 Activity Map 資料，與您其餘的資料分開。此一額外事件會增加您傳送至 Adobe Analytics 或 Adobe Experience Platform 的點擊數。
 
-**[!UICONTROL Click資料彙集]**&#x200B;組態設定會處理Activity Map資料彙集，通常預設為啟用。 您可以確認，這已在擴充功能的組態設定中啟用：
+**[!UICONTROL 點按資料彙集]**&#x200B;設定負責收集 Activity Map 資料，且通常會預設啟用。您可以在擴充功能的設定中檢查，確認該功能已啟用：
 
-1. 登入[experience.adobe.com](https://experience.adobe.com)
-1. 選取[快速存取]功能表中的[資料彙集]&#x200B;**[!UICONTROL 或右上方的產品選取器。]**
-1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 標籤]**。
-1. 選取要編輯的標籤。
-1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 擴充功能]**。
-1. 在已安裝的擴充功能清單中選取&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**，然後在右側選取&#x200B;**[!UICONTROL 設定]**。
-1. 找出標示為[!UICONTROL 資料彙集]的區段，並確定核取方塊&#x200B;**[!UICONTROL 啟用[啟用點選資料彙集]]**。
-1. 選取「**[!UICONTROL 儲存]**」。
-1. 如有需要，請將變更建置至程式庫，並將變更發佈至生產環境。
+1. 登入 [experience.adobe.com](https://experience.adobe.com)
+1. 在快速存取功能表或右上角的產品選擇器中，選取&#x200B;**[!UICONTROL 「資料彙集」]**。
+1. 在左側導覽功能表中，選取&#x200B;**[!UICONTROL 「標記」]**。
+1. 選取要編輯的標記。
+1. 在左側導覽功能表中，選取&#x200B;**[!UICONTROL 「擴充功能」]**。
+1. 在已安裝的擴充功能清單中，選取&#x200B;**[!UICONTROL 「Adobe Experience Platform Web SDK」]**，然後在右側選取&#x200B;**[!UICONTROL 「設定」]**。
+1. 找到標示為[!UICONTROL 「資料彙集」]的區段，並確認已啟用&#x200B;**[!UICONTROL 「啟用點按資料彙集」]**&#x200B;核取方塊。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 如有需要，請將您的變更建置到程式庫中，並將變更發佈至生產環境。
 
-如需詳細資訊，請參閱[設定Web SDK標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)。
+如需更多資訊，請參閱[設定 Web SDK 標記擴充功能](https://experienceleague.adobe.com/tw/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection)。
 
 +++
 
-+++Web SDK JavaScript資料庫(`alloy.js`)
++++Web SDK JavaScript 程式庫 (`alloy.js`)
 
-Activity Map資料收集需要Web SDK JavaScript資料庫v2.20或更新版本。 程式庫版本若降至v2.15，則支援有限。 這些舊版程式庫會以與其他資料分開的事件，傳送Activity Map資料。 這個額外的事件會增加您傳送至Adobe Analytics或Adobe Experience Platform的點選次數。
+收集 Activity Map 資料需使用 Web SDK JavaScript 程式庫 v2.20 或以上版本。低至 v2.15 的程式庫版本僅提供有限支援。這些先前的程式庫版本會以獨立事件的方式來傳送 Activity Map 資料，與您其餘的資料分開。此一額外事件會增加您傳送至 Adobe Analytics 或 Adobe Experience Platform 的點擊數。
 
-Web SDK設定變數[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)會處理Activity Map資料的自動收集。 除非明確停用，否則預設為啟用。
+Web SDK 設定變數 [`clickCollectionEnabled`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) 會負責自動收集 Activity Map 資料。除非明確停用，否則會預設啟用。
 
 ```js
 alloy("configure", {
@@ -68,47 +68,47 @@ alloy("configure", {
 
 +++
 
-+++Adobe Analytics標籤擴充功能
++++Adobe Analytics 標記擴充功能
 
-**[!UICONTROL 使用Activity Map]**&#x200B;組態設定會處理Activity Map資料收集，通常預設為啟用。 它適用於所有標籤擴充功能v1.9.0或更新版本。 您可以確認，這已在擴充功能的組態設定中啟用：
+**[!UICONTROL 使用 Activity Map]** 設定會負責收集 Activity Map 資料，且通常是預設啟用。所有 v1.9.0 或以上版本的標記擴充功能皆可使用此設定。您可以在擴充功能的設定中檢查，確認該功能已啟用：
 
-1. 登入[experience.adobe.com](https://experience.adobe.com)
-1. 選取[快速存取]功能表中的[資料彙集]&#x200B;**[!UICONTROL 或右上方的產品選取器。]**
-1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 標籤]**。
-1. 選取要編輯的標籤。
-1. 在左側導覽功能表中選取&#x200B;**[!UICONTROL 擴充功能]**。
-1. 選取已安裝擴充功能清單中的&#x200B;**[!UICONTROL Adobe Analytics]**，然後在右側選取&#x200B;**[!UICONTROL 設定]**。
-1. 確定核取方塊&#x200B;**[!UICONTROL 使用Activity Map]**&#x200B;已啟用。
-1. 選取「**[!UICONTROL 儲存]**」。
-1. 如有需要，請將變更建置至程式庫，並將變更發佈至生產環境。
+1. 登入 [experience.adobe.com](https://experience.adobe.com)
+1. 在快速存取功能表或右上角的產品選擇器中，選取&#x200B;**[!UICONTROL 「資料彙集」]**。
+1. 在左側導覽功能表中，選取&#x200B;**[!UICONTROL 「標記」]**。
+1. 選取要編輯的標記。
+1. 在左側導覽功能表中，選取&#x200B;**[!UICONTROL 「擴充功能」]**。
+1. 在已安裝的擴充功能清單中選取&#x200B;**[!UICONTROL 「Adobe Analytics」]**，然後在右側選取&#x200B;**[!UICONTROL 「設定」]**。
+1. 請確認已啟用&#x200B;**[!UICONTROL 「使用 Activity Map」]**&#x200B;核取方塊。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+1. 如有需要，請將您的變更建置到程式庫中，並將變更發佈至生產環境。
 
-如需詳細資訊，請參閱[Adobe Analytics擴充功能概觀](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/analytics/overview)。
-
-+++
-
-+++Adobe Analytics JavaScript資料庫(`AppMeasurement.js`)
-
-Activity Map模組會處理Activity Map資料收集，並包含在所有AppMeasurement程式庫1.6版或更新版本中。 您可以檢查`AppMeasurement.js`檔案，以確定已包含該檔案。
-
-1. 導覽至GitHub上的[最新Adobe Analytics AppMeasurement版本](https://github.com/adobe/appmeasurement/releases/latest)。
-1. 下載壓縮的AppMeasurement程式庫檔案，然後開啟包含在內的`AppMeasurement.js`。
-1. Activity Map模組包含在此檔案頂端附近。 請確定此模組包含在您的網站所使用的AppMeasurement程式庫中。
+如需更多資訊，請參閱 [Adobe Analytics 擴充功能概觀](https://experienceleague.adobe.com/tw/en/docs/experience-platform/tags/extensions/client/analytics/overview)。
 
 +++
 
-## 適用的維度
++++Adobe Analytics JavaScript 資料庫 (`AppMeasurement.js`)
 
-為您的報表套裝和實作同時啟用Activity Map後，您就可以在Analysis Workspace中開始使用下列維度：
+Activity Map 模組負責收集 Activity Map 資料，而且所有 v1.6 或以上的 AppMeasurement 程式庫皆包含此模組。您可以檢查 `AppMeasurement.js` 檔案，以確認其中包含此模組。
 
-* [[!UICONTROL Activity Map連結]](/help/components/dimensions/activity-map-link.md)
-* [[!UICONTROL Activity Map地區]](/help/components/dimensions/activity-map-region.md)
-* [[!UICONTROL Activity Map頁面]](/help/components/dimensions/activity-map-page.md)
-* [[!UICONTROL 各地區的Activity Map連結]](/help/components/dimensions/activity-map-link-by-region.md)
+1. 導覽至 GitHub 上[最新的 Adobe Analytics AppMeasurement 版本](https://github.com/adobe/appmeasurement/releases/latest)。
+1. 下載壓縮的 AppMeasurement 程式庫檔案，然後開啟其中包含的 `AppMeasurement.js`。
+1. Activity Map 模組包含在此檔案靠近頂部的位置。請確保您的網站所使用的 AppMeasurement 程式庫中包含此模組。
+
++++
+
+## 可用維度
+
+當報告套裝與實施皆已啟用 Activity Map 時，您就可以在 Analysis Workspace 中開始使用下列維度：
+
+* [[!UICONTROL Activity Map 連結]](/help/components/dimensions/activity-map-link.md)
+* [[!UICONTROL Activity Map 區域]](/help/components/dimensions/activity-map-region.md)
+* [[!UICONTROL Activity Map 頁面]](/help/components/dimensions/activity-map-page.md)
+* [[!UICONTROL 依區域區分的 Activity Map 連結]](/help/components/dimensions/activity-map-link-by-region.md)
 
 ## 下載並安裝瀏覽器擴充功能或附加元件
 
-除了Analysis Workspace中可用的維度之外，您也可以在網站上以覆蓋圖檢視Activity Map資料。 若要檢視此覆蓋圖，請下載並安裝Activity Map瀏覽器擴充功能或附加元件。
+除了在 Analysis Workspace 中可用的維度之外，您也可以在網站上以疊加層的方式檢視 Activity Map 資料。若要檢視此疊加層，請下載並安裝 Activity Map 瀏覽器擴充功能或附加元件。
 
-**[!UICONTROL 工具]** > **[!UICONTROL Activity Map]** > **[!UICONTROL 下載Activity Map]**
+**[!UICONTROL 「工具」]**>**[!UICONTROL 「Activity Map」]**>**[!UICONTROL 「下載 Activity Map」]**
 
-此連結會帶您前往瀏覽器支援的擴充功能或附加元件市集，您可以在其中安裝。 安裝後，擴充功能或附加元件會顯示在瀏覽器的右上方，您可以在此登入並啟用覆蓋。
+此連結會帶您前往瀏覽器所支援的擴充功能或附加元件市場，而您可在該處進行安裝。安裝完成後，該擴充功能或附加元件會顯示在瀏覽器右上角，而您可在那裡登入並啟用疊加層。

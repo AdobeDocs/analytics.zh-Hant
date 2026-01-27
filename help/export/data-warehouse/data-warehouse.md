@@ -1,13 +1,13 @@
 ---
-description: 瞭解Data Warehouse以及如何篩選資料，讓您建立和執行自訂報表。
-title: Data Warehouse概觀
+description: 了解 Data Warehouse 以及如何篩選資料，讓您能夠建立並執行自訂報告。
+title: Data Warehouse 概觀
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ Data Warehouse 報告可依據您的特定問題，顯示來自原始資料的�
 
 Data Warehouse 報告會透過電子郵件發送或發送給雲端儲存空間提供者，並且會需要長達 72 小時的處理時間。處理時間依查詢的複雜度以及請求的資料量而定。
 
-Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件大小上限是 10 MB。
+Data Warehouse 會自動壓縮任何超過 1 MB 大小的檔案。電子郵件附件最大 10 MB。
 
 ## 存取權
 
-Adobe 僅針對管理員層級使用者，在特定報告套裝上啟用 Data Warehouse（全域和子報表套裝可啟用此功能，統計報表套裝則無法啟用。） 管理員可建立具有Data Warehouse存取權的群組，然後將非管理員層級的使用者與該群組建立關聯。
+Adobe 僅為管理員層級的使用者，針對特定報告套裝啟用 Data Warehouse。(此功能可以對全域報告套裝和子報告套裝啟用，但無法對統計報告套裝啟用。) 管理員可以建立一個可以存取 Data Warehouse 的群組，然後將非管理員層級的使用者與該群組相關聯。
 
 請參閱「[管理 Data Warehouse 權限](/help/export/data-warehouse/t-dw-group.md)」。
 

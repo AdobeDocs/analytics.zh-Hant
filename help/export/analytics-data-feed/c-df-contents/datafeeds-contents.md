@@ -8,27 +8,27 @@ exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# 資料摘要內容 — 概觀
+# 資料摘要內容 - 概觀
 
-以下章節說明如何存取及瞭解資料摘要傳送中的檔案。
+以下各節將說明如何存取和理解所傳遞的資料摘要中找到的檔案。
 
 ## 存取資料摘要內容
 
-若要存取資料摘要的內容：
+要存取資料摘要的內容：
 
-1. 登入資料摘要目的地網站。
+1. 登入資料摘要的目標網站。
 
-   這是您在建立資料摘要時設定的目的地網站，例如Amazon S3或Google Cloud Platform貯體。
+   這是您在建立資料摘要時設定的目標網站，例如 Amazon S3 或 Google Cloud Platform 儲存貯體。
 
 1. 將壓縮的資料摘要檔案下載到您的本機電腦。
 
 1. 使用可支援 `.tar.gz` 副檔名的程式來解壓縮壓縮檔案。
 
-1. 在您選擇的試算表或資料庫應用程式中開啟`hit_data.tsv`檔案，以檢視當天的原始資料。—>
+1. 開啟試算表或所選資料庫應用程式中的 `hit_data.tsv` 檔案，以查看那一天的原始資料。 -->
 
 ## 資訊清單檔案 {#feed-manifest}
 
@@ -65,9 +65,9 @@ Datafeed-Manifest-Version: 1.0
  Record-Count: 611
 ```
 
-每個資訊清單檔案包含標題，指出查閱檔案總數、資料檔案以及所有資料檔案中的記錄總數。此標題之後有多個區段，包含資料摘要傳送中每個檔案的相關資訊。
+每個清單檔案包含一個標頭，指出查詢檔案、資料檔案的總數，以及所有資料檔案中的記錄總數。此標題之後有多個區段，包含資料摘要傳送中每個檔案的相關資訊。
 
-有些摘要的設定為接收 `.fin` 檔案，而非 `.txt` 資訊清單。`.fin`表示上傳完成，但其包含的中繼資料為舊格式。
+有些摘要的設定為接收 `.fin` 檔案，而非 `.txt` 資訊清單。`.fin` 表示上傳已完成，但其中包含的後設資料為舊版格式。
 
 ## 查閱檔案
 
@@ -81,24 +81,24 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`**：包含`hit_data.tsv`欄標題的單一列。
-* **`browser.tsv`**：將瀏覽器ID （`browser`摘要欄）對應到瀏覽器的易記名稱。
-* **`browser_type.tsv`**：將瀏覽器ID （`browser`摘要欄）對應至瀏覽器型別。
-* **`color_depth.tsv`**：將色彩深度ID （`color`摘要欄）對應至色彩深度。
-* **`connection_type.tsv`**：將連線型別識別碼（`connection_type`摘要資料行）對應到連線型別。
-* **`country.tsv`**：將國家/地區識別碼（`country`摘要欄）對應到國家/地區名稱。
-* **`javascript_version.tsv`**：將JavaScript版本ID （`javascript`摘要欄）對應至JavaScript版本。
-* **`languages.tsv`**：將語言識別碼（`language`摘要資料行）對應至語言。
-* **`operating_systems.tsv`**：將作業系統ID （`os`摘要資料行）對應到作業系統名稱。
-* **`plugins.tsv`**：將外掛程式ID （`plugin`摘要資料行）對應到各個對應的外掛程式名稱。
-* **`resolution.tsv`**：將解析度識別碼（`resolution`摘要資料行）對應到監視器解析度。
-* **`referrer_type.tsv`**：將反向連結型別識別碼（`ref_type`摘要欄）對應到反向連結型別。
-* **`search_engines.tsv`**：將搜尋引擎ID （`search_engine`摘要欄）對應到搜尋引擎名稱。
-* **`event.tsv`**：將每個事件ID （`event_list`摘要資料行）對應至其個別的事件名稱。
+* **`column_headers.tsv`**：包含 `hit_data.tsv` 的欄標頭的一列。
+* **`browser.tsv`**：將瀏覽器 ID (`browser` 摘要欄) 對應到瀏覽器的易記名稱。
+* **`browser_type.tsv`**：將瀏覽器 ID (`browser` 摘要欄) 對應到瀏覽器類型。
+* **`color_depth.tsv`**：將色彩深度 ID (`color` 摘要欄) 對應到色彩深度。
+* **`connection_type.tsv`**：將連線類型 ID (`connection_type` 摘要欄) 對應到連線類型。
+* **`country.tsv`**：將國家/地區 ID (`country` 摘要欄) 對應到國家/地區名稱。
+* **`javascript_version.tsv`**：將 JavaScript 版本 ID (`javascript` 摘要欄) 對應到 JavaScript 版本。
+* **`languages.tsv`**：將語言 ID (`language` 摘要欄) 對應到語言。
+* **`operating_systems.tsv`**：將作業系統 ID (`os` 摘要欄) 對應到作業系統名稱。
+* **`plugins.tsv`**：將外掛程式 ID (`plugin` 摘要欄) 對應到各自的外掛程式名稱。
+* **`resolution.tsv`**：將解析度 ID (`resolution` 摘要欄) 對應到顯示器解析度。
+* **`referrer_type.tsv`**：將反向連結類型 ID (`ref_type` 摘要欄) 對應到反向連結類型。
+* **`search_engines.tsv`**：將搜尋引擎 ID (`search_engine` 摘要欄) 對應到搜尋引擎名稱。
+* **`event.tsv`**：將每個事件 ID (`event_list` 摘要欄) 對應到各自的事件名稱。
 
 ## 點擊資料檔案
 
-點擊資料以 `hit_data.tsv` 檔案提供。此檔案中的資料量由傳送格式決定 (每小時或每日、單一檔案或多個檔案)。此檔案僅包含點擊資料。欄標題則與查閱檔案一同傳送。此檔案的每一行包含單一伺服器呼叫。
+點擊資料以 `hit_data.tsv` 檔案提供。此檔案中的資料量取決於傳遞格式 (每小時或每日，以及單一檔案或多個檔案)。此檔案只包含點擊資料。欄標頭會與查詢檔案分開傳遞。此檔案中的每一列包含單一的伺服器呼叫。
 
 Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。所有檔案都使用 ISO-8859-1 編碼。
 
@@ -107,7 +107,7 @@ Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。�
 * `[YYYY-mm-dd]` 指資料摘要的開始日期。
 * `[HHMMSS]` 僅用於每小時摘要，且是指資料摘要的開始小時。
 * `[compression_suffix]` 是指使用的壓縮類型。通常資料摘要會壓縮成 `tar.gz` 或 `zip` 檔案。
-* `[format_suffix]`參考檔案格式型別。 通常資料摘要檔案格式為`.tsv`。
+* `[format_suffix]`指的是檔案格式類型。通常資料摘要檔案格式為 `.tsv`。
 
 ### 每日、單一檔案
 
@@ -139,7 +139,7 @@ Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。�
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-擷取後，每個資料檔案都包含單一`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]`檔案（內含約2GB的未壓縮資料），以及任何必要欄的查閱檔案。
+擷取後，每個資料檔案都包含單一 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` 檔案 (內含約 2GB 解壓縮資料)，以及任何必要欄的查詢檔案。
 
 ## 資料檔案大小
 

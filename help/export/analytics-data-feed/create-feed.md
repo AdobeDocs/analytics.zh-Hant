@@ -56,7 +56,7 @@ ht-degree: 100%
    | [!UICONTROL **完成時發送電子郵件**] | 在摘要處理完成時要對此電子郵件地址發送通知。電子郵件地址的格式必須正確。 |
    | [!UICONTROL **資料摘要時間間隔**] | 對於回填或歷史資料，選取&#x200B;**「每日」**。每日資料摘包含完整一天的資料，從報告套裝時區的午夜到次日午夜。若是連續資料，選取&#x200B;**「每小時」** (連續資料摘要也可以選擇「每日」，依您選擇)。每小時資料摘包含一個小時的資料。 |
    | [!UICONTROL **延遲處理**] | 在處理資料摘要檔案之前，必須等候一段特定時間。延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。多數情況下延遲並不會發生。摘要最多可延遲 120 分鐘。 |
-   | [!UICONTROL **開始與結束日期**] | 開始日期表示您想要資料摘要開始的日期。若要立即開始處理歷史資料的資料摘要，將此日期設定為過去收集資料的任何日期。開始和結束日期取決於報表套裝的時區。 |
+   | [!UICONTROL **開始與結束日期**] | 開始日期表示您想要資料摘要開始的日期。若要立即開始處理歷史資料的資料摘要，將此日期設定為過去收集資料的任何日期。開始和結束日期取決於報告套裝的時區。 |
    | [!UICONTROL **連續資料摘要**] | 勾選此核取方塊可移除結束日期，讓資料摘要可無限期進行。當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。一旦當前的小時或當天結束，處理程序就會在指定的延遲後開始。 |
 
 1. 在&#x200B;[!UICONTROL **「目標」**]&#x200B;區段的&#x200B;[!UICONTROL **「類型」**]&#x200B;下拉功能表中，選取要傳送資料的目標。
@@ -65,14 +65,14 @@ ht-degree: 100%
    >
    >設定報告目標時，請考慮以下事項：
    >
-   >*  我們建議您使用雲端帳戶作為報告目標。可以使用[舊版 FTP 和 SFTP 帳戶](#legacy-destinations)，但不建議使用。
+   >* 我們建議您使用雲端帳戶作為報告目標。可以使用[舊版 FTP 和 SFTP 帳戶](#legacy-destinations)，但不建議使用。
    >* 您先前設定的任何雲端帳戶都可供資料摘要使用。您可以透過以下任一方式設定雲端帳戶：
    >
    >   * 在設定[資料倉儲](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的雲端帳戶時
    >   
    >   * 在[匯入 Adobe Analytics 分類資料](/help/components/locations/locations-manager.md)時 (不可以使用任何已設定用於匯入分類資料的位置)。
    >   
-   >   * 從位置管理員，在[「元件」>「位置」](/help/components/locations/configure-import-accounts.md)中
+   >   * 從位置管理器，在[「元件」>「位置」](/help/components/locations/configure-import-accounts.md)中
    >
    >* 雲端帳戶與您的 Adob&#x200B;&#x200B;e Analytics 使用者帳戶有關聯。其他使用者無法使用或查看您設定的雲端帳戶。
    >
@@ -152,7 +152,7 @@ ht-degree: 100%
 
          目標現已設定為將資料傳送至您指定的 Amazon S3 位置。
 
-      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理員](/help/components/locations/locations-manager.md)中進行。
+      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理器](/help/components/locations/locations-manager.md)中進行。
 
    +++
 
@@ -226,7 +226,7 @@ ht-degree: 100%
 
          目標現已設定為將資料傳送至您指定的 Azure RBAC 位置。
 
-      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理員](/help/components/locations/locations-manager.md)中進行。
+      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理器](/help/components/locations/locations-manager.md)中進行。
 
    +++
 
@@ -301,7 +301,7 @@ ht-degree: 100%
 
          目標現已設定為將資料傳送至您指定的 Azure SAS 位置。
 
-      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理員](/help/components/locations/locations-manager.md)中進行。
+      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理器](/help/components/locations/locations-manager.md)中進行。
 
    +++
 
@@ -309,7 +309,7 @@ ht-degree: 100%
 
    您可以將資料摘要直接傳送至 Google Cloud Platform (GCP) 的儲存貯體。此目標類型僅需要您的 GCP 帳戶名稱與位置 (儲存貯體) 名稱。
 
-   Adobe Analytics 使用跨帳戶驗證，將檔案從 Adobe Analytics 上傳到您 GCP 實例中指定的位置。
+   Adobe Analytics 使用跨帳戶驗證，將檔案從 Adobe Analytics 上傳到您 GCP 執行個體中指定的位置。
 
    要將 GCP 儲存貯體設定為資料摘要的目標，請執行下列步驟：
 
@@ -371,7 +371,7 @@ ht-degree: 100%
 
          目標現已設定為將資料傳送至您指定的 GCP 位置。
 
-      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理員](/help/components/locations/locations-manager.md)中進行。
+      1. (視情況而定) 如果您需要管理剛建立的目標 (帳戶與位置)，可在[位置管理器](/help/components/locations/locations-manager.md)中進行。
 
    +++
 
