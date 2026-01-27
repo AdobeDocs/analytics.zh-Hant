@@ -119,17 +119,17 @@ Analysis Workspace 的異常偵測演算法包括
    <td colname="col3" colsep="1"> <p>沒有權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/tw/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>只限每日顆粒度 </p> </td> 
    <td colname="col3"> <p>沒有權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/tw/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 個權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/tw/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 20 個權杖 </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Analysis Workspace 的異常偵測演算法包括
    <td colname="col3"> <p>每月 2 個權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete、<a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete、<a href="https://business.adobe.com/tw/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>無限量的權杖 </p> </td> 
   </tr> 
