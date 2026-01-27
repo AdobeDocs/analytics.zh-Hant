@@ -3,7 +3,7 @@ title: 「分類設定」設定
 description: 瞭解如何建立或編輯分類設定。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: 7e966bc91bb774ade739bd27cfe04447f6542746
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，選取&#x200B;**[!UICONTROL 設定]**索引標籤。
 
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，適當時：
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，適當時：
 
    ![分類設定 — 設定](assets/classification-sets-settings.png)
 
@@ -34,9 +34,9 @@ ht-degree: 3%
       * 您可以定義多個&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;組合至一個分類集。
       * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。
 
-      如需詳細資訊，請參閱[建立分類集](create.md)。
+      如需詳細資訊，請參閱[建立分類集](/help/components/classifications/sets/create.md)。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取「**[!UICONTROL 取消]**」即可取消。
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取「**[!UICONTROL 取消]**」進行取消。
 
 
 <!--
