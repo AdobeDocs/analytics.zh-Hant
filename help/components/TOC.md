@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -264,9 +264,9 @@ ht-degree: 100%
    + 分類集 {#sets}
       + [概觀](classifications/sets/overview.md)
       + [資料檔案](classifications/sets/data-files.md)
-      + 分類集 {#manage}
-         + [管理](classifications/sets/manage/set-manager.md)
-         + [建立和編輯](classifications/sets/manage/create.md)
+      + [建立和編輯](classifications/sets/manage/create.md)
+      + [管理](classifications/sets/manage/set-manager.md)
+      + 分類設定 {#set}
          + [設定](classifications/sets/manage/settings.md)
          + [結構描述](classifications/sets/manage/schema.md)
          + [規則](classifications/sets/manage/rules.md)
@@ -274,25 +274,26 @@ ht-degree: 100%
       + 分類彙總 {#consolidations}
          + [管理](classifications/sets/consolidations/manage.md)
          + [建立和編輯](classifications/sets/consolidations/process.md)
-   + 分類規則產生器 (舊版){#classifications-rulebuilder}
-      + [概觀](classifications/crb/classification-rule-builder.md)
-      + [分類規則集](classifications/crb/classification-rule-set.md)
-      + [分類規則](classifications/crb/classification-quickstart-rules.md)
-      + [分類規則定義](classifications/crb/classification-rule-definitions.md)
-      + [子分類和規則產生器](classifications/crb/subclassification-rule-builder.md)
-   + 分類匯入工具 (舊版){#classifications-importer}
-      + [分類匯入工具概觀](classifications/importer/c-working-with-saint.md)
-      + [分類資料檔案](classifications/importer/c-saint-data-files.md)
-      + [刪除分類資料](classifications/importer/t-delete-classification-data.md)
-      + [分類範本](classifications/importer/c-download-saint-data.md)
-      + [瀏覽器匯入](classifications/importer/browser-import.md)
-      + [瀏覽器匯出](classifications/importer/browser-export.md)
-      + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTP 匯出](classifications/importer/ftp-export.md)
-      + [處理時間](classifications/importer/processing-time.md)
-      + [子分類](classifications/importer/subclassifications.md)
-      + [疑難排解](classifications/importer/troubleshooting.md)
-      + [常見問題](classifications/importer/importer-faq.md)
+   + 舊版分類 {#legacy-classifications}
+      + 分類規則產生器 {#classifications-rulebuilder}
+         + [概觀](classifications/crb/classification-rule-builder.md)
+         + [分類規則集](classifications/crb/classification-rule-set.md)
+         + [分類規則](classifications/crb/classification-quickstart-rules.md)
+         + [分類規則定義](classifications/crb/classification-rule-definitions.md)
+         + [子分類和規則產生器](classifications/crb/subclassification-rule-builder.md)
+      + 分類匯入工具 {#classifications-importer}
+         + [分類匯入工具概觀](classifications/importer/c-working-with-saint.md)
+         + [分類資料檔案](classifications/importer/c-saint-data-files.md)
+         + [刪除分類資料](classifications/importer/t-delete-classification-data.md)
+         + [分類範本](classifications/importer/c-download-saint-data.md)
+         + [瀏覽器匯入](classifications/importer/browser-import.md)
+         + [瀏覽器匯出](classifications/importer/browser-export.md)
+         + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+         + [FTP 匯出](classifications/importer/ftp-export.md)
+         + [處理時間](classifications/importer/processing-time.md)
+         + [子分類](classifications/importer/subclassifications.md)
+         + [疑難排解](classifications/importer/troubleshooting.md)
+         + [常見問題](classifications/importer/importer-faq.md)
 + 位置 {#locations}
    + [地點管理員](/help/components/locations/locations-manager.md)
    + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
@@ -309,3 +310,4 @@ ht-degree: 100%
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)
+
