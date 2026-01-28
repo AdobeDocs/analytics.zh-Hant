@@ -3,7 +3,7 @@ title: 管理「分類設定」合併
 description: 瞭解如何將一個或多個分類設定合併為單一分類設定。
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 3%
@@ -70,7 +70,7 @@ ht-degree: 3%
 
 | 圖示 | 動作 | 說明 |
 |---|---|---|
-| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | [編輯分類集合併](process.md#edit-a-consolidation) |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 編輯]** | [編輯分類集合併](process.md#edit-a-consolidation) |
 | ![檢視詳細資料](/help/assets/icons/ViewDetail.svg) | **[!UICONTROL 檢視]** | 檢視分類集合併的詳細資訊。 根據狀態，您可以[核准](process.md#approve)或[取消](process.md#cancel)合併。 |
 
 
@@ -86,33 +86,3 @@ ht-degree: 3%
 選取![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器面板。
 
 請注意，「篩選器」面板中顯示的篩選器會反映預先載入之分類合併的選項。
-
-
-<!--
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
-
-Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
-
-## Filter classification sets
-
-The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
-
-![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
-
-Additional filter options are available above the Classification set consolidation manager columns:
-
-* **[!UICONTROL Search by title]**: Search for consolidations by name.
-* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
-
-## Classification set consolidation manager columns
-
-The following columns are available in the Classification set consolidation manager:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Current job]**: The current job. 
-* **[!UICONTROL Status]**: The status of the consolidation. 
-* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
-* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
-
--->

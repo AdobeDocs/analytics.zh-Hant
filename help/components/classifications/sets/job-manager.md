@@ -3,7 +3,7 @@ title: 分類作業管理員
 description: 瞭解如何檢視從分類設定產生的最新和已完成的分類作業。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 | **[!UICONTROL 分類設定]** | 與分類工作相關聯的分類設定。 |
 | **[!UICONTROL 大小]** | 作為分類作業的一部分匯出或匯入的檔案大小。 |
 | **[!UICONTROL 狀態]** | 分類工作的狀態。 可能的值包括： **[!UICONTROL 已建立]**、**[!UICONTROL 已排入佇列]**、**[!UICONTROL 已驗證]**、**[!UICONTROL 已失敗的驗證]**、**[!UICONTROL 正在處理]**、**[!UICONTROL 已完成處理]**、**[!UICONTROL 已失敗的處理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 進度]**。 如果顯示，將滑鼠游標停留在警示![警示](/help/assets/icons/Alert.svg)上以顯示其他資訊。 |
-| **[!UICONTROL 檔案名稱]** | 識別用來匯入或匯出檔案做為分類作業一部分的名稱或功能。 可能的值包括： <ul><li>*沒有值*</li><li>分類作業中處理的檔案名稱。</li><li>**[!UICONTROL SAINT匯出]**：作業是從[舊版分類介面](/help/components/classifications/importer/c-working-with-saint.md)匯出。</li><li>在&#x200B;**[!UICONTROL timestamp _匯出_分類集&#x200B;_的_]**&#x200B;匯出：作業是從[結構描述](manage/schema.md#download)介面下載。</li></ul> |
+| **[!UICONTROL 檔案名稱]** | 識別用來匯入或匯出檔案做為分類作業一部分的名稱或功能。 可能的值包括： <ul><li>*沒有值*</li><li>分類作業中處理的檔案名稱。</li><li>**[!UICONTROL SAINT匯出]**：作業是從[舊版分類介面](/help/components/classifications/importer/c-working-with-saint.md)匯出。</li><li>在&#x200B;**[!UICONTROL timestamp _匯出_分類集&#x200B;_的_]**匯出：作業是從[結構描述](manage/schema.md#download)介面下載。</li></ul> |
 | **[!UICONTROL 工作型別]** | 分類工作的型別。 可能的值為： **[!UICONTROL 匯入]**&#x200B;或&#x200B;**[!UICONTROL 匯出]**。 |
 | **[!UICONTROL 來源]** | 分類工作的來源。 可能的值為： **[!UICONTROL 網頁API]**、**[!UICONTROL 直接API上傳]**、**[!UICONTROL Adobe]**、**[!UICONTROL SAINT]**&#x200B;或&#x200B;**[!UICONTROL 未知]**。 |
 | **[!UICONTROL 修改行]** | 分類作業修改的修改行數。 |
@@ -81,46 +81,3 @@ ht-degree: 2%
 選取![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器面板。
 
 請注意，「篩選器」面板中顯示的篩選器會反映預先載入之分類作業的選項。
-
-
-<!--
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
-
-You cannot create jobs from this interface. Create jobs by uploading data to a classification set (either manually or through a configured external location), requesting a download file, or requesting a template file.
-
-## Filter classification sets
-
-The left side of the Classification set job manager provides filter settings to locate the desired job. Clicking the filter icon toggles the filter settings visibility. You can filter Classification sets by **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, or **[!UICONTROL Source]**.
-
-![Classification set job filters](../assets/classification-set-job-filters.png)
-
-Additional filter options are available above the Classification set job manager columns:
-
-* **[!UICONTROL Search by title]**: Search for jobs by filename.
-* **[!UICONTROL Load more]**: The Classification set job manager initially displays up to 1000 jobs. If more jobs exist, click this button to load 1000 more jobs.
-* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Filename] and [!UICONTROL Completion time].
-
-## Classification set job manager columns
-
-The following columns are available in the Classification set job manager:
-
-* **[!UICONTROL Filename]**: The name of the upload or download file.
-* **[!UICONTROL Classification set]**: The name of the Classification set that the file applies to. You can click the Classification set name to reach the Classification set's [Settings](manage/settings.md).
-* **[!UICONTROL Size]**: The size of the file.
-* **[!UICONTROL Status]**: The status of the job processing the file.
-  * **[!UICONTROL Created]**: The job was submitted.
-  * **[!UICONTROL Queued]**: The file is ready to be processed, and is waiting for a classification server to process the file.
-  * **[!UICONTROL Validated]**: The file is valid and is waiting to be processed.
-  * **[!UICONTROL Failed validation]**: The file is formatted incorrectly or otherwise invalid. The file does not go through processing.
-  * **[!UICONTROL Processing]**: The file is actively being processed by Adobe.
-  * **[!UICONTROL Failed processing]**: The file failed processing.
-  * **[!UICONTROL Complete]**: Processing is complete. Classification data is visible in reporting.
-  * **[!UICONTROL Failed]**: Generic failure not related to validation or processing.
-* **[!UICONTROL Job type]**: The type of job.
-* **[!UICONTROL Source]**: The job source.
-* **[!UICONTROL File download]**: Only applies to download jobs, such as downloading classification data or downloading templates. When a download is ready, this column provides a download link.
-* **[!UICONTROL Modified lines]**: The number of modified lines.
-* **[!UICONTROL Completed lines]**: The number of completed lines.
-* **[!UICONTROL Completion time]**: The date and time that the job completed (or failed).
--->

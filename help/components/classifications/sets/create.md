@@ -3,7 +3,7 @@ title: 建立「分類設定」
 description: 瞭解建立分類設定時如何提供欄位和說明。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 
          * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。
 
-        如果您新增另一個分類集中已存在的&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 關鍵Dimension]**&#x200B;組合，則會顯示紅色訊息。
+        如果您新增另一個分類集中已存在的&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 關鍵Dimension]**組合，則會顯示紅色訊息。
 您可以：
          * 選取&#x200B;**[!UICONTROL 新增至現有]**&#x200B;以開啟其他分類集，並選取[新增分類至該其他分類集的結構描述](manage/schema.md)。
          * 將&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;變更為尚未訂閱另一個分類集的組合。
@@ -50,36 +50,5 @@ ht-degree: 3%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 選取分類設定的名稱。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，您可以定義分類設定的[設定](manage/settings.md)和[結構描述](manage/schema.md)。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，您可以定義分類設定的[設定](manage/settings.md)和[結構描述](manage/schema.md)。
 1. 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的變更。 選取「**[!UICONTROL 取消]**」進行取消。
-
-
-<!--
-
-
-### Schema
-
-In the Schema tab 
-
-
-
-
-
-You can use the Classification set manager to create a classification set.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
-
-When creating a classification set, the following fields are available.
-
-* **[!UICONTROL Name]**: A text field used to identify the classification set. This field cannot be edited upon creation, but can be renamed later.
-* **[!UICONTROL Column Name]**: The name of the first classification dimension that you want to create. This field is the dimension name used in Analysis Workspace, and the column name when exporting classification data. You can add more column names after the classification set is created.
-* **[!UICONTROL Type]**: Radio buttons that indicate the type of classification.
-  * **[!UICONTROL Primary]**: Apply to dimensions collected in Analytics. They are a way to group (classify) granular dimension values into more meaningful levels of data. For example, you might want to group internal search keywords into internal search categories, to better understand themes in your search data.
-  * **[!UICONTROL Lookup]**: Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. It is metadata about a classification value, rather than the original dimension. For example, the Product variable might have a primary classification of 'Color code'. A lookup table of 'Color name' could then be attached to 'Color code' to further explain what each code means.
-* **[!UICONTROL Subscriptions]** The report suites and dimensions that this classification set applies to. You can add multiple report suite and dimension combinations to a classification set.
-
-![Create a Classification set](../../assets/classification-set-create.png)
-
-If a classification set exists for a given report suite + variable, the classification is added to the schema instead. A given report suite + variable combination cannot belong to multiple classification sets.
-
--->

@@ -2,7 +2,7 @@
 title: 分類集規則
 description: 瞭解如何使用分類集規則來定義分類資料的規則。
 feature: Classifications
-source-git-commit: 1a07d14d11e3353c5f45fb26463168a75fe11ddf
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 13%
@@ -24,7 +24,7 @@ ht-degree: 13%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
    * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
 
@@ -283,7 +283,7 @@ ht-degree: 13%
 
 #### 使用案例
 
-您想要定義一個規則，以根據&#x200B;**&#x200B;** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
+您想要定義一個規則，以根據&#x200B;**** Token **[!UICONTROL 將關鍵維度Internal Campaign的值分割為]** Channel **[!UICONTROL 、]** Type`:`和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
 
 >[!BEGINTABS]
 
@@ -320,4 +320,3 @@ ht-degree: 13%
 * 當使用者搜尋`Cowboys Fantasy Tony Romo`時，`Romo`被分類為&#x200B;**[!UICONTROL 型別]**。
 * 當使用者搜尋`Cowboys Fantasy Tony Romeo`時，`Fantasy`被分類為&#x200B;**[!UICONTROL 型別]**。
 * 當使用者搜尋`Cowboys vs. Broncos`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
-

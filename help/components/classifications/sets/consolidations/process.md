@@ -3,7 +3,7 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -56,27 +56,6 @@ ht-degree: 1%
 
 
 
-<!--
-         
-  
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]** > **[!UICONTROL Add]**
-
-The following fields are available when creating a consolidation:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this consolidation.
-* **[!UICONTROL Dataset to match]**: A drop-down list of all classification sets.
-
-Once you select a classification set, a table with two columns appears:
-
-* The right column contains all classification sets that you want to consolidate. It starts with the classification set selected using the above drop-down list.
-* The left column contains all classification sets eligible to be merged with the originally selected dataset. **Schemas must exactly match to be eligible for consolidation**. If schemas do not match the selected classification set, they do not appear in this left column.
-
-Drag the desired classification sets from the available column on the left to the consolidation column on the right. Once the consolidation is given a name and two or more classification sets are in the right column, click **[!UICONTROL Save & Continue]**.
-
--->
-
 ## 編輯合併 {#edit-a-classification}
 
 >[!CONTEXTUALHELP]
@@ -94,7 +73,7 @@ Drag the desired classification sets from the available column on the left to th
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**&#x200B;對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|

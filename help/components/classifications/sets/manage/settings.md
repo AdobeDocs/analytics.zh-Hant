@@ -3,7 +3,7 @@ title: 「分類設定」設定
 description: 瞭解如何建立或編輯分類設定。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 7e966bc91bb774ade739bd27cfe04447f6542746
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，選取&#x200B;**[!UICONTROL 設定]**索引標籤。
 
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，適當時：
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，適當時：
 
    ![分類設定 — 設定](assets/classification-sets-settings.png)
 
@@ -37,23 +37,3 @@ ht-degree: 3%
       如需詳細資訊，請參閱[建立分類集](/help/components/classifications/sets/create.md)。
 
    1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存設定。 選取「**[!UICONTROL 取消]**」進行取消。
-
-
-<!--
-
-Configure a classification set's settings.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Settings]**
-
-![classification set settings](../../assets/classification-set-settings.png)
-
-The following fields are available in this tab:
-
-* **[!UICONTROL Name]**: The classification set name.
-* **[!UICONTROL Description]**: The description for the classification set.
-* **[!UICONTROL Notify of issues]**: A comma-delimited list of email addresses that are notified of issues with this classification set.
-* **[!UICONTROL Tags]**: Add one or more tags to the selected classification set. Tags allow you to organize or group classification sets so that it is easier to locate them in the future.
-* **[!UICONTROL Type]**: The type of classification between [!UICONTROL Primary] and [!UICONTROL Lookup]. Primary classifications are typically used. You cannot alter a classification set's type after it is created.
-* **[!UICONTROL Subscriptions]**: The report suite and dimension combinations that the classification set applies to.
-
--->

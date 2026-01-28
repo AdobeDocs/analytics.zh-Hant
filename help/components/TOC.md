@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -277,15 +277,15 @@ ht-degree: 99%
    + 舊版分類 {#legacy-classifications}
       + 分類規則產生器 {#classifications-rulebuilder}
          + [概觀](classifications/crb/classification-rule-builder.md)
-         + [分類規則集](classifications/crb/classification-rule-set.md)
-         + [分類規則](classifications/crb/classification-quickstart-rules.md)
-         + [分類規則定義](classifications/crb/classification-rule-definitions.md)
-         + [子分類和規則產生器](classifications/crb/subclassification-rule-builder.md)
+         + [規則集](classifications/crb/classification-rule-set.md)
+         + [規則](classifications/crb/classification-quickstart-rules.md)
+         + [規則定義](classifications/crb/classification-rule-definitions.md)
+         + [子分類](classifications/crb/subclassification-rule-builder.md)
       + 分類匯入工具 {#classifications-importer}
-         + [分類匯入工具概觀](classifications/importer/c-working-with-saint.md)
-         + [分類資料檔案](classifications/importer/c-saint-data-files.md)
+         + [概觀](classifications/importer/c-working-with-saint.md)
+         + [資料檔案](classifications/importer/c-saint-data-files.md)
          + [刪除分類資料](classifications/importer/t-delete-classification-data.md)
-         + [分類範本](classifications/importer/c-download-saint-data.md)
+         + [範本](classifications/importer/c-download-saint-data.md)
          + [瀏覽器匯入](classifications/importer/browser-import.md)
          + [瀏覽器匯出](classifications/importer/browser-export.md)
          + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -306,7 +306,8 @@ ht-degree: 99%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [搭配行銷管道使用 Attribution &#x200B;](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution ](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)
+
