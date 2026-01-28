@@ -3,7 +3,7 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -44,7 +44,7 @@ ht-degree: 1%
 
       若要管理要使用哪些鍵值，請透過拖放來移動清單中的個別和選取的分類設定。 您也可以透過拖放將![索引鍵](/help/assets/icons/Key.svg) **[!UICONTROL _分類設定_]**&#x200B;取代為選取的分類設定。
 
-   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存分類合併。 選取「**[!UICONTROL 取消]**」即可取消。
+   1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存分類合併。 選取「**[!UICONTROL 取消]**」進行取消。
 
 儲存後，系統會自動驗證分類合併以進行合併。 此驗證可確保每個個別分類集對此合併有效。 一旦成功，分類合併清單中的專案就會顯示狀態&#x200B;**[!UICONTROL 已驗證]**。
 
@@ -77,14 +77,24 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## 編輯合併
+## 編輯合併 {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="不相符"
+>abstract="當整合分類集中的值與來源分類集不符時，鍵值不相符百分比。"
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="不存在"
+>abstract="已整合分類集中，但來源分類集中沒有索引鍵的百分比。"
 
 若要編輯分類合併，請在Adobe Analytics主介面中：
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**&#x200B;對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|
@@ -124,18 +134,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
 1. 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以關閉對話方塊。
 
 
-### 核准 {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="不相符"
->abstract="當整合分類集中的值與來源分類集不符時，鍵值不相符百分比。"
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="不存在"
->abstract="已整合分類集中，但來源分類集中沒有索引鍵的百分比。"
+### 核准
 
 分類合併成功執行後，合併狀態為![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL 正在等待核准]**。 核准分類合併會以合併的分類設定取代個別分類設定，且會移除個別分類設定。
 
@@ -149,7 +148,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
    * **[!UICONTROL 不相符]**：索引鍵值不符合來源分類集的資料列百分比。 如果不相符百分比很高，不相符可能表示分類資料太不同。 檢查並確保選取的分類設定有類似的分類資料。
    * **[!UICONTROL 不存在]**：索引鍵值在![索引鍵](/help/assets/icons/Key.svg)分類設定中，但不在來源分類設定中的資料列百分比。 所有缺失的列都會新增至整合的分類集。
 
-1. 如果分類合併已準備好進行核准，請選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 核准]**。 **[!UICONTROL 核准合併？]**&#x200B;對話方塊提示確認。 選取&#x200B;**[!UICONTROL 核准]**&#x200B;以核准合併。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 如果分類合併已準備好進行核准，請選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 核准]**。 **[!UICONTROL 核准合併？]**&#x200B;對話方塊提示確認。 選取&#x200B;**[!UICONTROL 核准]**&#x200B;以核准合併。 選取「**[!UICONTROL 取消]**」進行取消。
 
 核准後，就會建立合併的分類集。 狀態已設定為&#x200B;**[!UICONTROL 完成]**。
 
