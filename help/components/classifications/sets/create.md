@@ -34,7 +34,7 @@ ht-degree: 3%
 
          * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。
 
-        如果您新增另一個分類集中已存在的&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 關鍵Dimension]**組合，則會顯示紅色訊息。
+        如果您新增另一個分類集中已存在的&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 關鍵Dimension]**&#x200B;組合，則會顯示紅色訊息。
 您可以：
          * 選取&#x200B;**[!UICONTROL 新增至現有]**&#x200B;以開啟其他分類集，並選取[新增分類至該其他分類集的結構描述](manage/schema.md)。
          * 將&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;變更為尚未訂閱另一個分類集的組合。
@@ -50,5 +50,5 @@ ht-degree: 3%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 選取分類設定的名稱。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，您可以定義分類設定的[設定](manage/settings.md)和[結構描述](manage/schema.md)。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，您可以定義分類設定的[設定](manage/settings.md)和[結構描述](manage/schema.md)。
 1. 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的變更。 選取「**[!UICONTROL 取消]**」進行取消。
