@@ -4,16 +4,16 @@ title: 篩選與排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
 workflow-type: tm+mt
-source-wordcount: '1123'
-ht-degree: 72%
+source-wordcount: '1577'
+ht-degree: 50%
 
 ---
 
-# 篩選和排序
+# 篩選和排序自由格式表格
 
-Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
+Analysis Workspace 中的自由格式表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
 ## 篩選表格
 
@@ -21,9 +21,9 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
-> 只有動態維度項目才能依照本節所述進行篩選。無法篩選靜態維度項目。有關詳細資訊，請參閱「[自由格式表中的動態與靜態維度項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
+> 只有動態維度項目才能依照本節所述進行篩選。無法篩選靜態維度項目。有關詳細資訊，請參閱「[自由格式表格中的動態與靜態維度項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
 
-您可以使用多種方法來篩選自由格式表中的資料列。
+您可以使用多種方法來篩選自由格式表格中的資料列。
 
 * 排除表格中的特定資料列
 * 套用篩選器至表格
@@ -57,7 +57,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 套用簡單或進階篩選器至表格
 
-若要篩選自由表格中的資料：
+若要篩選自由格式表格中的資料：
 
 1. 將滑鼠停留在含有您要篩選的資料欄位上。<!--only some types of columns show the filter... Which? Just Dimensions?-->
 
@@ -125,6 +125,91 @@ Note: this option does not seem to work. AN-338422
 
 ## 排序表格
 
-您可以依照 Analysis Workspace 中屬於維度或量度的任何欄位，來排序自由格式的資料。箭頭表示資料的排序方式 (**↓** 降序，或 **↑** 為升序)。
+您可以在Analysis Workspace中依下列欄型別排序自由表格的資料：
 
-![排序](assets/sorting.gif)
+* 任何量度欄
+
+* 任何維度欄（字串型維度除外）
+
+您甚至可以同時依多個欄排序。
+
+依預設，維度會依遞增順序排序，量度則依遞減順序排序。
+
+## 依單一欄排序表格
+
+依照本節所述排序單一資料行的資料時，套用至資料表的所有[進階排序](#sort-tables-by-multiple-columns-advanced-sorting)都會被移除。
+
+若要依單一欄排序表格中的資料，請執行下列動作：
+
+1. 將游標移至您要排序的資料行標頭上，然後選取&#x200B;**排序**&#x200B;圖示![排序](/help/assets/icons/SortOrderDown.svg) （當它出現時）。
+
+   ![排序下拉式功能表](assets/sort-dropdown-menu.png)
+
+1. 選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**。
+
+   將排序套用至欄時，排序圖示保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
+
+## 依多個欄排序表格（進階排序）
+
+{{release-limited-testing-section}}
+
+### 將排序套用至多個欄
+
+若要依多欄排序表格中的資料，請執行下列動作：
+
+1. 將游標移至您要排序之任何資料行的標頭上，然後選取&#x200B;**排序**&#x200B;圖示![排序](/help/assets/icons/SortOrderDown.svg) （當它出現時）。
+
+   ![排序下拉式功能表](assets/sort-dropdown-menu.png)
+
+1. 選取&#x200B;**[!UICONTROL 進階排序]**。
+
+   ![進階排序對話方塊](assets/sort-advanced-dialog.png)
+
+1. 在進階排序對話方塊中，執行下列任一項作業：
+
+   * 選取&#x200B;**[!UICONTROL 新增排序資料行]**&#x200B;按鈕，以新增尚未排序的資料行。
+
+   * 選取&#x200B;**移除**&#x200B;圖示![移除](/help/assets/icons/Close.svg)，移除您不再想要排序的欄。
+
+   * 在清單中上下拖曳欄，以調整排序優先順序。
+
+     如需詳細資訊，請參閱[排序優先順序](#sort-priority)。
+
+   * 在下拉式功能表中選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**，以變更排序值。
+
+   * 選取欄名稱下拉式功能表，以選取不同的欄。
+
+1. 選取&#x200B;**[!UICONTROL 「套用」]**。
+
+將排序套用至欄時，排序圖示仍會保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
+
+![多重排序範例](assets/dimensions-multiple-sort.png)
+
+### 排序優先順序
+
+當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
+
+具有主要優先順序的欄決定主要順序；具有次要優先順序的欄決定列在主要欄中具有相同值的順序；具有第三優先順序的欄決定列在主要欄和次要欄中具有相同值的順序；依此類推。
+
+例如，假設表格中包含下列資料欄：
+
+* 日（維度）
+
+* 頁面檢視（量度）
+
+* 造訪次數（量度）
+
+* 內容速度（量度）
+
+您可以為每個欄指派排序優先順序，如下所示：
+
+| 欄（元件）名稱 | 元件類型 | 排序優先順序 |
+|---------|----------|---------|
+| 日 | 維度 | 1 |
+| 頁面檢視次數 | 量度 | 2 |
+| 造訪次數 | 量度 | 3 |
+| 內容速度 | 量度 | 4 |
+
+藉由為每一欄指定排序優先順序，您可以精確控制資料在表格中的顯示方式。 在此範例中，資訊會先依日排序，然後依頁面檢視排序，再依造訪排序，最後依內容速度排序。
+
+![多重排序範例](assets/dimensions-multiple-sort.png)
