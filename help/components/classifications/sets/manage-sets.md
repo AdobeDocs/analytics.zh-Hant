@@ -65,10 +65,10 @@ ht-degree: 5%
 | 圖示 | 動作 | 說明 |
 |---|---|---|
 | ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 編輯]** | [在分類設定產生器中編輯分類設定](create-set.md#edit-a-classification-set)。 |
-| ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類設定。<br/>在&#x200B;**[!UICONTROL 重新命名： _分類集_]**對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
+| ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類設定。<br/>在&#x200B;**[!UICONTROL 重新命名： _分類集_]**&#x200B;對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
 | ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL 合併]** | [合併分類集](/help/components/classifications/sets/consolidations/manage.md)。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除分類設定。<br/> **[!UICONTROL 刪除&#x200B;_分類集_？]**&#x200B;對話方塊出現。 無法復原刪除分類集。 任何使用此分類集的已排程專案或合併會繼續使用此分類集的定義，直到您重新儲存已排程專案或重新驗證已排程合併為止。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除分類設定。 |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤分類設定。<br/>在&#x200B;**[!UICONTROL 標籤： _分類設定_]**對話方塊中，從&#x200B;**[!UICONTROL 標籤]**下拉式功能表中選取一或多個標籤以新增標籤。 或輸入一或多個新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。 <br/>選取&#x200B;**[!UICONTROL 儲存]**以儲存標籤。 |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標籤分類設定。<br/>在&#x200B;**[!UICONTROL 標籤： _分類設定_]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式功能表中選取一或多個標籤以新增標籤。 或輸入一或多個新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。 <br/>選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存標籤。 |
 
 
 ### 篩選面板
