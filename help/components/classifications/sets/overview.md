@@ -3,7 +3,7 @@ title: 分類集概觀
 description: 了解如何使用分類集來管理分類資料。了解分類集與舊版分類的區別。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
+source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 分類集概觀
 
-分類集會提供管理分類和規則的單一介面。此工作流程將在[»報告套裝設定](/help/admin/tools/manage-rs/report-suites-admin.md)中建立分類的功能與[分類匯入工具](/help/components/classifications/sets/set-manager.md)結合。結果是提供一個直覺易用的介面，可用來建立和管理分類資料。
+分類集會提供管理分類和規則的單一介面。此工作流程將在[»報告套裝設定](/help/admin/tools/manage-rs/report-suites-admin.md)中建立分類的功能與[分類匯入工具](/help/components/classifications/sets/manage-sets.md)結合。結果是提供一個直覺易用的介面，可用來建立和管理分類資料。
 
 
 ## 分類集與舊版分類
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 分類集包含三個主要功能區域：
 
-* [**[!UICONTROL 分類集]**](set-manager.md)：建立、編輯和刪除分類集。
+* [**[!UICONTROL 分類集]**](manage-sets.md)：建立、編輯和刪除分類集。
 * [**[!UICONTROL 工作]**](job-manager.md)：查看分類集工作的狀態。
 * [**[!UICONTROL 合併]**](consolidations/manage.md)：將多個分類集合併為單一分類集。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 分類集的工作流程通常包括以下步驟：
 
 1. 考慮您要為哪些報告套裝和維度組合建立分類集。例如，您可以定義一個產品分類集，並套用至您想要對產品進行更詳細分類的任何報告套裝。例如，像類別和顏色等詳細資料。
-1. [建立分類集](/help/components/classifications/sets/create.md)，使用一個或多個報告套裝的訂閱，以及用來識別產品的主要維度組合。例如：
+1. [建立分類集](/help/components/classifications/sets/create-set.md)，使用一個或多個報告套裝的訂閱，以及用來識別產品的主要維度組合。例如：
 
    | 報告套裝 | 主要維度 |
    |---|---|
