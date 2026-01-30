@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
+source-git-commit: ee29f837d72cf3243e92230dbee5b379d1c6c415
 workflow-type: tm+mt
-source-wordcount: '4227'
-ht-degree: 100%
+source-wordcount: '4257'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,15 @@ ht-degree: 100%
 >id="aa_datafeed_export_file"
 >title="manifest"
 >abstract="選擇是否在每次傳送資料摘要時包含資訊清單檔案。資訊清單檔案包含資料摘要中包含的每個檔案的相關資訊。在以單一封裝傳送資料摘要的資料時，您也可以選擇包含完成檔案，但建議包含資訊清單檔案。 "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_notify"
+>title="完成時通知"
+>abstract="指定一或多個電子郵件地址，在傳送資料摘要後，應傳送通知。 多個電子郵件地址必須以逗號分隔。"
 
 <!-- markdownlint-enable MD034 -->
 
