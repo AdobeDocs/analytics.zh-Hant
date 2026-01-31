@@ -1,17 +1,17 @@
 ---
-title: XDM 物件變數對應至 Adobe Analytics
+title: XDM物件欄位對應到Adobe Analytics
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 100%
+source-wordcount: '1470'
+ht-degree: 94%
 
 ---
 
-# XDM 物件變數對應至 Adobe Analytics
+# XDM物件欄位對應到Adobe Analytics
 
 下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 的 XDM 變數。如果您使用這些 XDM 欄位路徑，則不需要額外設定即可將資料傳送至 Adobe Analytics。這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent 範本]**&#x200B;欄位類組中。如果您打算將資料發送至 Adobe Analytics 和 Adobe Experience Platform，建議使用這些欄位。
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## 值優先順序
 
-此表中的大多數 XDM 欄位與[資料物件欄位](data-var-mapping.md)一致。如果您同時設定特定的 XDM 物件欄位及其對應的資料物件欄位，則以資料物件欄位為優先。如果您同時使用 XDM 物件欄位和資料物件欄位，Adobe 建議使用資料物件欄位來設定自訂事件。如果欄位 `data.__adobe.analytics.events` 存在，它將覆蓋所有與商務和自訂事件相關的 XDM 物件欄位。
+此資料表中的大部分XDM物件欄位都對應至[對應的資料物件欄位](data-var-mapping.md)。 在Adobe Analytics擷取期間，值會先從XDM對應至Analytics變數。 可辨識的資料物件欄位會接著進行對應，並在對應至相同Analytics變數時覆寫先前設定的任何值。 例如，如果`data.__adobe.analytics.events`存在，則會取代原本衍生自XDM的整個事件集；事件不會跨兩個來源合併。
 
 ## XDM 物件欄位對應
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到。
 
 | XDM 欄位路徑 | Analytics 變數與說明 |
 | --- | --- |

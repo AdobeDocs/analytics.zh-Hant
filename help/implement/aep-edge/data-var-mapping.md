@@ -1,31 +1,31 @@
 ---
-title: 資料物件變數對應至 Adobe Analytics
+title: 資料物件欄位對應到Adobe Analytics
 description: 查看哪些資料物件欄位會被 Experience Platform Edge 自動對應至 Analytics 變數。
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
+source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 77%
 
 ---
 
-# 資料物件變數對應至 Adobe Analytics
+# 資料物件欄位對應到Adobe Analytics
 
-下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 的資料物件變數。如果您使用這些資料物件欄位路徑，則不需要額外設定即可將資料傳送至 Adobe Analytics。
+下表顯示Adobe Experience Platform Edge Network自動對應至Adobe Analytics的資料物件欄位。 如果您使用這些資料物件欄位路徑，則不需要額外設定即可將資料傳送至 Adobe Analytics。
 
 如果您未來打算使用 Customer Journey Analytics，建議使用這些欄位。此實施方法允許您的組織使用 Web SDK 將資料傳送至 Adobe，而無需符合 XDM 架構。當您的組織準備將資料傳送至 Adobe Experience Platform 時，您可以使用[資料流對應](https://experienceleague.adobe.com/tw/en/docs/experience-platform/datastreams/data-prep#mapping)將資料物件欄位對應到其各自的 XDM 欄位。
 
 ## 值優先順序
 
-此表中的大多數資料物件欄位與[已對應的 XDM 欄位](xdm-var-mapping.md)一致。如果同時設定資料物件欄位及其對應的 XDM 欄位，則以資料物件欄位為優先。例如，如果欄位 `data.__adobe.analytics.events` 存在，其會覆蓋所有與事件相關的 XDM 物件欄位。
+此資料表中大部分的資料物件欄位都對應至[對應的XDM欄位](xdm-var-mapping.md)。 在Adobe Analytics擷取期間，值會先從XDM對應至Analytics變數。 可辨識的資料物件欄位會接著進行對應，並在對應至相同Analytics變數時覆寫先前設定的任何值。 例如，如果`data.__adobe.analytics.events`存在，則會取代原本衍生自XDM的整個事件集；事件不會跨兩個來源合併。 資料物件欄位中的空白字串(`""`)會遮蔽其點選對應的Analytics變數，即使對應的XDM欄位包含值亦然。
 
 某些資料物件欄位亦支援其對應的[查詢參數值](../validate/query-parameters.md)作為簡寫值。只要對應到的變數是唯一的，您可以互換使用標準資料物件欄位與簡寫資料物件欄位。請避免同時設定標準資料物件欄位及其對應的簡寫資料物件欄位。Adobe 無法保證哪一個欄位會具有優先順序。
 
 ## 資料物件欄位對應
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到。與 AppMeasurement 變數相同，所有資料物件欄位皆區分大小寫。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到。與 AppMeasurement 變數相同，所有資料物件欄位皆區分大小寫。
 
 | 資料物件欄位路徑 | Analytics 變數與說明 |
 | --- | --- |
