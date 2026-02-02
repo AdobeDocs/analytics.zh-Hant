@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 100%
    + [安排用於電子郵件的活頁簿](report-builder/schedule-reportbuilder.md)
    + [安排用於雲端匯出的活頁簿](/help/analyze/report-builder/report-builder-export.md)
    + [管理安排的活頁簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [受限制的標籤](report-builder/restricted-labels.md)
    + [Report Builder 設定](report-builder/report-builder-settings.md)
 + 舊版 Report Builder {#legacy-report-builder}
    + [舊版 Adobe Report Builder 說明](legacy-report-builder/home.md)

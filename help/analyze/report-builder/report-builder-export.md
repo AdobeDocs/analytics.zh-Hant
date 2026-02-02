@@ -1,23 +1,22 @@
 ---
 title: 從Report Builder匯出報表
-description: 說明如何將資料從Report Builder匯出至安全目的地
+description: 瞭解如何從Report Builder將資料匯出至安全目的地。
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: da7b4568fcdb03ff97437879e84a1ed45749494d
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 30%
+source-wordcount: '1257'
+ht-degree: 33%
 
 ---
 
 # 透過匯出至雲端目的地來排程活頁簿
 
-您可以將Adobe Analytics活頁簿從Report Builder匯出至Google、Azure和Amazon等雲端提供者。
 
-或者，您也可以使用電子郵件與他人共用活頁簿，如[排程活頁簿以透過電子郵件共用](/help/analyze/report-builder/schedule-reportbuilder.md)中所述。
+您可以將Customer Journey Analytics活頁簿從Report Builder匯出至Google、Azure和Amazon等雲端提供者。
 
 [將報表從Report Builder匯出至雲端的優點包括](#advantages-of-exporting-to-the-cloud)可在協力廠商工具中使用報表，或將報表與外部資料結合。
 
@@ -33,6 +32,10 @@ ht-degree: 30%
 
 1. [從Report Builder匯出報告](#export-a-report-from-report-builder)
 
+1. 存取您雲端帳戶中的資料，並[在Adobe中管理匯出](/help/components/locations/configure-import-locations.md)
+
+![步驟1到4中所述的匯出程式。](assets/report-builder-export-process.png)
+
 ## 從Report Builder匯出報告
 
 >[!NOTE]
@@ -47,11 +50,7 @@ ht-degree: 30%
 
 1. 選取&#x200B;[!UICONTROL **排程**]。
 
-<!-- add screenshot -->
-
 1. 在&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤上，選取加號圖示以建立新排程
-
-   ![Report Builder排程索引標籤](assets/report-builder-schedule-cloud.png)
 
    或
 
@@ -59,18 +58,20 @@ ht-degree: 30%
 
 1. 在&#x200B;[!UICONTROL **Adobe Report Builder**]&#x200B;右側面板中，指定下列資訊以繼續建立新排程：
 
+   ![Report Builder排程索引標籤](assets/report-builder-schedule-cloud.png)
+
    | 欄位名稱 | 函數 |
    |---------|----------|
    | **[!UICONTROL 檔案]** | 顯示目前選取要匯出的活頁簿檔案。 選取檔案名稱旁的活頁簿圖示![表格選取](/help/assets/icons/TableSelect.svg)，以選擇目前的活頁簿（如果尚未選取）。 |
    | **[!UICONTROL 檔案名稱]** <!--should be File name --> | 可讓您在匯出活頁簿之前變更檔案名稱。<p>活頁簿檔案名稱預設為活頁簿的名稱</p> |
-   | **[!UICONTROL 檔案型別]** | 選擇匯出的檔案型別。 您可以選擇Excel、PDF或CSV。<p>選取&#x200B;**[!UICONTROL CSV]**&#x200B;時，請注意，排程活頁簿會以ZIP附件傳送。 某些企業電子郵件管理單位可能會封鎖含有ZIP附件的電子郵件。 您會看到相應的警告。</p> |
-   | **[!UICONTROL 附加時間戳記至檔案名稱]** | 選取此選項可在匯出的檔案名稱中包含匯出的時間戳記。 |
+   | **[!UICONTROL 檔案型別]** | 選擇匯出的檔案型別。 您可以選擇Excel、PDF或CSV。 <p>選取&#x200B;**[!UICONTROL CSV]**&#x200B;時，請注意，排程活頁簿會以ZIP附件傳送。 某些企業電子郵件管理單位可能會封鎖含有ZIP附件的電子郵件。 您會看到相應的警告。</p> |
+   | **[!UICONTROL 附加時間戳記至檔案名稱]** | 選取此選項可將時間戳記附加至檔案名稱，以識別活頁簿的更新日期。 時間戳記有助於檢視在特定日期傳送的活頁簿版本。 選取後，您可在以下兩者之間選擇： |
    | **[!UICONTROL 檔案名稱預覽]** <!--should be File name preview --> | 顯示匯出後檔案名稱顯示方式的預覽。 |
    | **[!UICONTROL 以密碼保護活頁簿]** | 指定密碼來保護匯出的檔案，以便只有擁有密碼的人可以存取它。 <p>密碼必須至少為8個字元，且至少包含1個數字和1個特殊字元（例如`!`、`@`、`#`和`$`）。</p> |
-   | **[!UICONTROL 電子郵件]** | 選取此選項可將檔案傳送到特定電子郵件地址。 如需此選項的詳細資訊，請參閱[透過電子郵件共用排程活頁簿](/help/analyze/report-builder/schedule-reportbuilder.md)。 |
+   | **[!UICONTROL 電子郵件]** | 選取此選項可將檔案傳送到特定電子郵件地址。 如需詳細資訊，請參閱[透過電子郵件共用排程活頁簿](schedule-reportbuilder.md)。 |
    | **[!UICONTROL 其他傳遞]** | 選取此選項以將檔案傳送至雲端帳戶，然後使用如下所述的&#x200B;**[!UICONTROL 帳戶]**&#x200B;和&#x200B;**[!UICONTROL 位置]**&#x200B;下拉式功能表來選取帳戶和位置。 |
-   | **[!UICONTROL 帳戶]** | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。建立位置時會出現該名稱。 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。</li><li>**[!UICONTROL 讓您的組織中的所有使用者都可以使用帳戶]**：選取此選項可允許組織中的其他使用者使用該帳戶。 共用帳戶時，請考量下列事項：<ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul></li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3角色ARN、Google Cloud Platform、Azure SAS和Azure RBAC。</li></ul><li>若要完成設定帳戶，請繼續進行[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的步驟6，然後展開與您選取的&#x200B;[!UICONTROL **帳戶型別**]&#x200B;相對應的區段。 <p>可用的帳戶型別如下：</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
-   | **[!UICONTROL 位置]** | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取「[!UICONTROL **新增位置**]」，然後註明下列資訊： <ul><li>[!UICONTROL **名稱**]：位置的名稱。</li><li>[!UICONTROL **說明**]：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 讓位置可供組織中的所有使用者使用]**：選取此選項可允許組織中的其他使用者使用該位置。 共用帳戶時，請考量下列事項：<ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由帳戶擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul></li><li>[!UICONTROL **位置帳戶**]：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續前往下面與您在「[!UICONTROL **位置帳戶**]」欄位中所選帳戶類型相對應的連結：<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
+   | **[!UICONTROL 帳戶]** | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。建立位置時會出現此名稱 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。</li><li>**[!UICONTROL 讓您的組織中的所有使用者都可以使用帳戶]**：選取此選項可允許組織中的其他使用者使用該帳戶。 共用帳戶時，請考量以下事項：<ul><li>您共用的帳戶無法取消共用。</li><li>共用的帳戶僅能由帳戶所有者進行編輯。</li><li>任何人都可以為共用的帳戶建立位置。</li></ul></li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3角色ARN、Google Cloud Platform、Azure SAS和Azure RBAC。</li></ul><li>若要完成設定帳戶，請繼續進行[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的步驟6，然後展開與您選取的&#x200B;[!UICONTROL **帳戶型別**]&#x200B;相對應的區段。 <p>可用的帳戶型別如下：</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
+   | **[!UICONTROL 位置]** | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取「[!UICONTROL **新增位置**]」，然後註明下列資訊： <ul><li>[!UICONTROL **名稱**]：位置的名稱。</li><li>[!UICONTROL **說明**]：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 讓位置可供組織中的所有使用者使用]**：選取此選項可允許組織中的其他使用者使用該位置。 共用帳戶時，請考量以下事項：<ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由帳戶擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul></li><li>[!UICONTROL **位置帳戶**]：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續前往下面與您在「[!UICONTROL **位置帳戶**]」欄位中所選帳戶類型相對應的連結：<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL 顯示排程選項]** | 選取此選項可檢視排程匯出的其他選項。 如果您只想傳送一次匯出，請取消選取此選項。 取消選取此選項時，會立即起始匯出。 |
    | **[!UICONTROL 開始於]** | 排定匯出應該開始的日期和時間。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
    | **[!UICONTROL 結束於]** | 排定匯出到期的日期和時間。在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
@@ -82,7 +83,6 @@ ht-degree: 30%
 
    資料將以您指定的頻率發送到您指定的雲端帳戶。
 
-   您會在Report Builder中心底部看到確認快顯通知，而排程活頁簿會列在「活頁簿」索引標籤下方。
 
 ## 匯出至雲端的優點
 
@@ -113,15 +113,3 @@ ht-degree: 30%
 * **資料區塊：**&#x200B;所有資料區塊都必須包含欄、列或值的至少一個元件。
 
 * **環境：**&#x200B;請確定Adobe Analytics使用的[IP位址](/help/technotes/ip-addresses.md)和[網域](/help/technotes/domains.md)允許通過其組織的防火牆。
-
-
-<!--
-## Manage exports
-
-After data is exported from Analysis Workspace, you can edit, re-export, duplicate, tag, or delete existing exports, as described in [Manage exports](/help/components/exports/manage-exports.md). 
-
--->
-
-## 管理安排的活頁簿
-
-如需有關管理已排程活頁簿的資訊，請參閱[管理已排程活頁簿](/help/analyze/report-builder/manage-schedules-reportbuilder.md)。

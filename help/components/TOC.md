@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
+source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -266,7 +266,7 @@ ht-degree: 99%
       + [資料檔案](classifications/sets/data-files.md)
       + [建立和編輯](/help/components/classifications/sets/create-set.md)
       + [管理](/help/components/classifications/sets/manage-sets.md)
-      + 分類設定 {#set}
+      + 分類集 {#set}
          + [設定](classifications/sets/manage/settings.md)
          + [結構描述](classifications/sets/manage/schema.md)
          + [規則](classifications/sets/manage/rules.md)
@@ -296,8 +296,8 @@ ht-degree: 99%
          + [常見問題](classifications/importer/importer-faq.md)
 + 位置 {#locations}
    + [地點管理員](/help/components/locations/locations-manager.md)
-   + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
-   + [雲端匯入位置](/help/components/locations/configure-import-locations.md)
+   + [設定雲端帳戶](/help/components/locations/configure-import-accounts.md)
+   + [設定雲端位置](/help/components/locations/configure-import-locations.md)
 + [已排程的專案](scheduled-projects-manager.md)
 + [排程報告佇列](scheduled-reports-admin.md)
 + 即時報告 {#real-time-reporting}
@@ -306,7 +306,7 @@ ht-degree: 99%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [搭配行銷管道使用 Attribution &#x200B;](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution ](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)

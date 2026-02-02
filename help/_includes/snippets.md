@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3005'
 ht-degree: 87%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->全新的簡化版[Report Builder](/help/analyze/report-builder/rb-overview.md)已於2024年10月16日發行。 Mac、Windows和網頁瀏覽器都支援此功能。
+>自2024年10月16日起，推出精簡的新版[Report Builder](/help/analyze/report-builder/rb-overview.md)。 此Report Builder在macOS、Windows和網頁瀏覽器上受支援，並可搭配Adobe Analytics和Customer Journey Analytics使用。
 >這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,11 +22,11 @@ ht-degree: 87%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
-| 選項 | 功能 |
+| 選項 | 函數 |
 |---------|----------|
 | [!UICONTROL **建議**] | 以建議置於清單頂端的元件來對元件進行排序。您或貴組織中其他人近期最頻繁使用的元件會顯示在清單的較高位置。 |
 | [!UICONTROL **字母順序**] | 依字母順序對元件進行排序。 |
@@ -38,13 +38,13 @@ ht-degree: 87%
 
 >[!AVAILABILITY]
 >
->本文中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
+>本文中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能普遍開放使用時，便會移除此注意事項。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
 ## 發佈階段有限測試部份 {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
+>本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能普遍開放使用時，便會移除此注意事項。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
 
 ## 外掛程式免責聲明 {#plug-in}
@@ -67,7 +67,7 @@ ht-degree: 87%
 
 當量度的回顧期間內出現多個值時，歸因模型決定哪些維度項目可以取得該量度的評分。只有在回顧期間內設定多個維度項目時，歸因模型才適用。如果只設定一個維度項目，則無論使用何種歸因模型，該維度項目都會獲得 100% 的評分。
 
-| 圖示 | 歸因模型 | 定義 |
+| 圖示 | 成效歸因模型 | 定義 |
 | :---: | :--- | --- |
 | ![上次接觸](/help/assets/icons/AttributeLastTouch.svg) | 上次接觸 | 在歸因回顧期間中首個出現的接觸點會給予 100% 的評分。對於未另行指定歸因模型的任何量度，此歸因模型通常是預設值。各組織通常在轉換時間較短的情況下使用此模型，例如分析內部搜尋關鍵字。 |
 | ![首次接觸](/help/assets/icons/AttributeFirstTouch.svg) | 首次接觸 | 在歸因回顧期間中首個出現的接觸點會給予 100% 的評分。組織通常會使用此模型了解品牌認知度或客戶贏取。 |
@@ -133,13 +133,13 @@ Customer Journey analytics 的各種視覺化是為分析您提供給客戶的�
 | **預先定義的頁面序列** | 是</br>結合預先定義的探索性分析。在使用路徑上預先定義的節點時，將使用最終路徑 (只要訪客最終從一個預先定義的節點移到另一個預先定義的節點，就會納入計算)。也可以顯示立即（非最終）的下一個節點。 | 是</br>此路徑可以是最終路徑，也可以受限到下一個接觸點 | 否 |
 | **頁面的探索性序列 (臨時分析)** | 是</br>結合預先定義的探索性分析。在使用路徑上預先定義的節點時，將使用最終路徑 (只要訪客最終從一個預先定義的節點移到另一個預先定義的節點，就會納入計算)。也可以顯示立即（非最終）的下一個節點。 | 有限的</br>讓您按一下右鍵並在自由格式表格中檢視立即的流失。 | 是</br>僅探索性分析。始終在節點之間的一個維度執行個體內。這表示每個節點顯示的是路徑上立即 (非最終) 的下一個接觸點。 |
 | **顯示人們離開 (流失) 和繼續前進 (流過) 之處** | 是</br>針對預先定義及探索歷程顯示 | 是</br>顯示預先定義的歷程 | 是</br>顯示探索性歷程 |
-| **線性歷程** | 有 | 是 | 無 |
-| **具有多個進入點和路徑的非線性歷程。** | 有 | 否 | 是 |
+| **線性歷程** | 是 | 是 | 無 |
+| **具有多個進入點和路徑的非線性歷程。** | 是 | 否 | 是 |
 | **主要量度** | 任何量度，包括計算量度 | 僅工作階段或人員 | 僅發生次數 (路徑檢視) |
 | **次要量度** | 是<p>任何量度，包括計算量度</p> | 否 | 否 |
 | **節點或接觸點中的元件支援** | 量度、維度專案、篩選器和日期範圍。 | 量度、維度專案、篩選器和日期範圍。 | 僅限於維度項目 (起始和結束接觸點除外) |
 | **比較篩選器** | 無 | 是<p>在同一份報表中，執行兩個不同篩選器的並排比較。</p> | 否 |
-| **拖放元件互動** | 有 | 是 | 無 |
+| **拖放元件互動** | 是 | 是 | 無 |
 | **Adobe Journey Optimizer 歷程** | 是</br>從Journey Optimizer開啟歷程，以進行更深入的分析及自訂 | 否 | 否 |
 
 {style="table-layout:auto"}
