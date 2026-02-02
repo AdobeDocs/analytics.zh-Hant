@@ -85,7 +85,7 @@ ht-degree: 1%
 
    * 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以關閉通知，並繼續使用活頁簿處理新Report Builder的更新要求。
 
-   * 選取「下載升級報告」****&#x200B;以下載並開啟顯示升級結果的新Excel活頁簿。 如需範例，請參閱下文。
+   * 選取「下載升級報告」**&#x200B;**&#x200B;以下載並開啟顯示升級結果的新Excel活頁簿。 如需範例，請參閱下文。
 
      ![Excel Report Builder升級報告活頁簿](assets/upgrade-report.png)
 
