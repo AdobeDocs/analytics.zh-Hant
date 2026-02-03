@@ -3,9 +3,9 @@ title: 分類集概觀
 description: 了解如何使用分類集來管理分類資料。了解分類集與舊版分類的區別。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '895'
 ht-degree: 100%
 
 ---
@@ -123,8 +123,3 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >分類集的效能主要取決於包含資料的唯一關鍵值數量。當您擁有包含大量唯一值的變數時，請小心處理。特別是當您將來自多個報告套裝和維度的這些變數合併為單一分類集時。
-
-## 限制
-
-* 分類集尚不支援規則。在[舊版規則產生器](/help/components/classifications/crb/classification-rule-builder.md)功能未停止使用之前，規則功能已加入到分類集介面中。
-* 舊版分類規則和設定無法遷移至分類集。在舊版分類功能未停止使用之前，已將遷移公用程式加入至分類集介面。
