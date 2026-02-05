@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 匯出指南
 breadcrumb-title: 匯出指南
 user-guide-description: 了解如何使用資料摘要和 Data Warehouse 擷取資料輸出。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 99%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
       + [資料摘要內容概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [頁面事件查閱](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [頁面事件查詢](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [動態查詢](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [銷售 eVar 查閱](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [延遲送達點選](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [資料摘要常見問答集](analytics-data-feed/df-faq.md)
    + [資料摘要最佳做法](analytics-data-feed/data-feeds-best-practices.md)
    + [資料摘要的疑難排解](analytics-data-feed/troubleshooting.md)

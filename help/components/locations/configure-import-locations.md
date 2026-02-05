@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
 workflow-type: tm+mt
-source-wordcount: '1694'
-ht-degree: 30%
+source-wordcount: '1703'
+ht-degree: 33%
 
 ---
 
@@ -59,7 +59,9 @@ ht-degree: 30%
    | [!UICONTROL **讓位置可供您組織中的所有使用者使用**] | 啟用此選項可允許組織中的其他使用者使用該位置。<p>共用位置時，請考量下列事項：</p><ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由位置擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul> |
    | [!UICONTROL **位置帳戶**] | 選取您要建立此位置的位置帳戶。 如需有關如何建立帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)。 |
 
-1. 若要完成設定位置的表單，請繼續下列對應您在&#x200B;[!UICONTROL **位置帳戶**]&#x200B;欄位中所選帳戶型別的區段。 （也可使用其他舊帳戶型別，但不建議使用。）
+1. 若要完成設定位置的表單，請繼續[設定位置](#configure-a-location)。 使用對應到您在&#x200B;[!UICONTROL **位置帳戶**]&#x200B;欄位中所選帳戶型別的區段中的資訊。 (另外也提供其他舊帳戶類型，但不建議使用)。
+
+## 設定位置
 
 ### Amazon S3 Role ARN
 
@@ -69,12 +71,12 @@ ht-degree: 30%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **儲存貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>請確定Adobe提供的使用者ARN具有`S3:PutObject`許可權，才能將檔案上傳至此儲存貯體。 </p><p>貯體名稱必須符合特定的命名規則。例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。[AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如，folder_name/ |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
    您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
@@ -93,12 +95,12 @@ ht-degree: 30%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **貯體**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 |
+   | [!UICONTROL **儲存貯體**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如，folder_name/ |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
    您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
@@ -117,12 +119,12 @@ ht-degree: 30%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **容器**] | 在您指定的帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的容器。 |
+   | [!UICONTROL **容器**] | 在您指定的帳戶內，用來接收 Adobe Analytics 資料的容器。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如， `folder_name/` |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
    您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
@@ -141,13 +143,13 @@ ht-degree: 30%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **帳戶**] | Azure儲存體帳戶。 |
-   | [!UICONTROL **容器**] | 在您指定的帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的容器。確保您授予權限可上傳檔案至先前已建立的 Azure 應用程式。 |
+   | [!UICONTROL **帳戶**] | Azure 儲存體帳戶。 |
+   | [!UICONTROL **容器**] | 在您指定的帳戶內，用來接收 Adobe Analytics 資料的容器。確保您授予權限可上傳檔案至先前已建立的 Azure 應用程式。 |
    | [!UICONTROL **前置詞**] | 在容器內，您希望資料放置的資料夾。註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。例如， `folder_name/` |
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
    您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
@@ -170,17 +172,17 @@ ht-degree: 30%
 
    {style="table-layout:auto"}
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
    您現在可以將資料匯出至使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)時設定的帳戶和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件位置)。
 
-### 舊版帳戶型別
+### 舊帳戶類型
 
 這些舊帳戶型別只有在使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)和[Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md)匯出資料時才能使用。 當匯入具有[分類集](/help/components/classifications/sets/manage/schema.md)的資料時，這些選項無法使用。
 
 +++FTP
 
-資料摘要資料可以傳送至Adobe或客戶託管的FTP位置。 指定目錄使用路徑欄位將摘要檔案放在資料夾中。
+資料摘要的資料可以傳送至 Adobe 或客戶託管的 FTP 位置。指定目錄使用路徑欄位將摘要檔案放在資料夾中。
 
 | 欄位 | 函數 |
 |---------|----------|

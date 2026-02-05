@@ -3,10 +3,10 @@ title: 管理資料摘要
 description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1257'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/3428570?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -25,16 +25,16 @@ ht-degree: 21%
 ## 檢視資料摘要
 
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-1. 選取右上角的9個方塊圖示，然後選取&#x200B;[!UICONTROL **Analytics**]。
-1. 在頂端導覽列中，移至&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在右上角選取九宮格圖示，然後選取&#x200B;[!UICONTROL **「Analytics」**]。
+1. 在頂端導覽列中，前往&#x200B;[!UICONTROL **「管理」**]>[!UICONTROL **「資料摘要」**]。
 
    系統會顯示您有權存取之所有報表套裝的資料摘要。 或者，如果尚未設定摘要，頁面會顯示[!UICONTROL 建立新資料摘要]按鈕。
 
-   ![資料摘要](assets/feeds.png)
+   ![資料摘要管理員](assets/data-feed-manager.png)
 
 ## 建立資料摘要
 
-「[!UICONTROL 新增]」按鈕可讓您建立新的摘要。 如需詳細資訊，請參閱[建立資料摘要](create-feed.md)。
+**[!UICONTROL 建立資料摘要]**&#x200B;按鈕可讓您建立新的摘要。 如需詳細資訊，請參閱[建立資料摘要](create-feed.md)。
 
 ## 編輯資料摘要
 
@@ -46,13 +46,15 @@ ht-degree: 21%
 
 1. 對資料摘要進行任何需要的變更。
 
+   如需資料摘要選項的相關資訊，請參閱[建立資料摘要](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)中的[建立並設定資料摘要](/help/export/analytics-data-feed/create-feed.md)。
+
    針對您正在編輯的資料摘要更新&#x200B;[!UICONTROL **目的地**]&#x200B;區段時，您可以在&#x200B;[!UICONTROL **帳戶**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉式欄位中選擇要用於新資料摘要的其他帳戶和位置。
 
    可以編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 編輯帳戶或地點會影響與該帳戶或地點相關聯的所有專案。
 
    舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 ## 篩選及搜尋資料摘要清單
 
@@ -62,9 +64,9 @@ ht-degree: 21%
 
    * 在搜尋欄位中，開始輸入摘要的名稱。 只有符合的摘要會顯示在可用摘要清單中。
 
-   * 在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。您可以收合或展開篩選類別。 選取您要套用之任何篩選器旁的核取方塊。
+   * 在最左側，選取篩選器圖示以顯示或隱藏篩選選項。 篩選器依類別組織，包括&#x200B;**[!UICONTROL 報告套裝]**、**[!UICONTROL 所有者]**、**[!UICONTROL 狀態]**&#x200B;和&#x200B;**[!UICONTROL 標籤]**。 您可以收合或展開篩選類別。 選取您要套用之任何篩選器旁的核取方塊。
 
-![篩選器](assets/filters.png)
+     ![篩選器](assets/filters.png)
 
 ## 檢視資料摘要工作
 

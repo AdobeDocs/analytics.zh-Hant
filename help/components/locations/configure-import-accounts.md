@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入和匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 55%
+source-wordcount: '1583'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 >[!NOTE]
 >
->建立和編輯帳戶時，請考量下列事項： <ul><li>系統管理員可以限制使用者建立帳戶，如[設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</li><li>只有建立帳號的使用者或系統管理員才能編輯帳號。</li></ul>
+>建立和編輯帳戶時，請考量下列事項： <ul><li>系統管理員可以限制使用者建立帳戶，如[設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請聯絡您的系統管理員。</li><li>只有建立帳號的使用者或系統管理員才能編輯帳號。</li></ul>
 
 您可以設定雲端帳戶，用於下列任何或所有用途：
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 
 如需有關如何檢視和刪除現有帳戶的資訊，請參閱[位置管理員](/help/components/locations/locations-manager.md)。
 
-若要設定雲端匯入或匯出帳戶：
+## 開始從帳戶頁面建立或編輯帳戶
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **位置**]。
 1. 在[!UICONTROL 位置]頁面上，選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;索引標籤。
@@ -46,20 +46,26 @@ ht-degree: 55%
 
    [!UICONTROL **新增帳戶**]&#x200B;對話方塊隨即顯示。
 
+1. 繼續[設定位置帳戶](#configure-a-location-account)。
+
+## 設定位置帳戶
+
+若要在開始建立或編輯雲端匯入或匯出帳戶後進行設定：
+
 1. 註明下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會出現該名稱。 |
-   | [!UICONTROL **位置帳戶描述**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
-   | [!UICONTROL **讓您的組織中的所有使用者都可以使用帳戶**] | 啟用此選項可允許組織中的其他使用者使用該帳戶。<p>共用帳戶時，請考量下列事項：</p><ul><li>您無法取消共用您共用的帳戶。</li><li>共用帳戶只能由帳戶擁有者編輯。</li><li>任何人都可以建立共用帳戶的位置。</li></ul> |
-   | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶類型。我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可以建立的帳戶型別，如[設定使用者是否可以建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請連絡您的系統管理員。</p> |
+   | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。建立位置時會出現此名稱 |
+   | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
+   | [!UICONTROL **將帳戶設為可供您組織中的所有使用者使用**] | 啟用此選項，讓您組織中的其他使用者可以使用該帳戶。<p>共用帳戶時，請考量以下事項：</p><ul><li>您共用的帳戶無法取消共用。</li><li>共用的帳戶僅能由帳戶所有者進行編輯。</li><li>任何人都可以為共用的帳戶建立位置。</li></ul> |
+   | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶類型。我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可建立的帳戶類型，如[設定是否允許使用者建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。如果您無法依照本節所述建立帳戶，請聯絡您的系統管理員。</p> |
 
-1. 在&#x200B;[!UICONTROL **帳戶屬性**]&#x200B;區段中，指定您所選取帳戶型別的特定資訊。
+1. 在&#x200B;[!UICONTROL **「帳戶屬性」**]&#x200B;區段中，指定您所選取帳戶類型的專屬資訊。
 
-   如需設定指示，請展開下列對應至您選取之&#x200B;[!UICONTROL **帳戶型別**]&#x200B;的區段。 （也可使用其他舊帳戶型別，但不建議使用。）
+   如需設定指示，請展開下方與您所選取之&#x200B;[!UICONTROL **帳戶類型**]&#x200B;相對應的區段。(另外也提供其他舊帳戶類型，但不建議使用)。
 
-   **帳戶型別**
+   **帳戶類型**
 
    +++Amazon S3 Role ARN
 
@@ -95,9 +101,9 @@ ht-degree: 55%
    |---------|----------|
    | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定Azure SAS，您必須使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何指定 Key Vault 存取權原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)」。</p> |
-   | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中（位於&#x200B;**金鑰儲存庫**&#x200B;設定頁面上）。 若要了解更多資訊，請參閱「[Microsoft Azure 文件有關如何從 Azure Key Vault 設定和擷取密碼](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)」。 |
-   | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+   | [!UICONTROL **金鑰保存庫祕密名稱**] | 在將祕密值新增至 Azure Key Vault 時所建立的祕密名稱。在 Microsoft Azure 中，這項資訊位於您所建立的 Key Vault 內，位在&#x200B;**「Key Vault」**&#x200B;設定頁面若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -111,7 +117,7 @@ ht-degree: 55%
    |---------|----------|
    | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **位置帳戶密碼**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -139,7 +145,7 @@ ht-degree: 55%
 
    +++FTP
 
-   資料摘要資料可以傳送至Adobe或客戶託管的FTP位置。 FTP 主機、使用者名稱和密碼為必填。請使用路徑欄位將摘要檔案置入檔案夾。資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
+   資料摘要的資料可以傳送至 Adobe 或客戶託管的 FTP 位置。FTP 主機、使用者名稱和密碼為必填。請使用路徑欄位將摘要檔案置入檔案夾。資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -154,7 +160,14 @@ ht-degree: 55%
 
    +++SFTP
 
-   SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地站點，才能包含有效的 RSA 或 DSA 公開金鑰。建立摘要時，您可以下載相關的公開金鑰。
+   SFTP 可支援資料摘要。這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或DSA公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
+
+   下載資料摘要的RSA或DSA公開金鑰時，請執行下列其中一項操作：
+
+   * 將下載的公開金鑰檔案重新命名為`authorized_keys`，然後將檔案上傳至SFTP伺服器上的`.ssh`資料夾。
+
+   * 如果您有包含其他金鑰的現有`authorized_keys`檔案，請將Adobe提供的金鑰新增至您現有的`authorized_keys`檔案，並確定您不會覆寫現有金鑰。
+
 
    +++
 
@@ -203,6 +216,6 @@ ht-degree: 55%
 
    +++
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. 繼續[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)。
