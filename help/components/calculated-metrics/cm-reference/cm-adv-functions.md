@@ -4,9 +4,9 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 98%
 
 ---
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 您要四捨五入的量度 |
 
 
-## 信賴度 {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="信賴度"
->abstract="使用 WASKR 方法計算隨時有效的信賴度，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。"
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
-<!-- markdownlint-enable MD034 -->
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 信賴度 (標準化容器、成功量度、控制、顯著性臨界值)]**
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-使用 WASKR 方法計算隨時有效的信賴度，如[時間一致中央極限定理和漸進信賴序列](https://arxiv.org/pdf/2103.06476)所述。
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
-信賴度指有多少證據顯示指定變體與控制變體相同的機率測度。信賴度越高表示控制和非控制變體具有相同績效假設的證據越少。
-
-| 引數 | 說明 |
+| Argument | Description |
 | --- | --- |
-| 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
-| 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
-| 顯著性臨界值 | 此函數中的臨界值設定為預設值 95%。 |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## 信賴度 (下界) {#confidence-lower}
@@ -396,7 +396,7 @@ CDF-Z(-3) ? 0.0013499
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 >
 
 
@@ -728,25 +728,24 @@ CDF-Z(-3) ? 0.0013499
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
-## 提升度 (#lift)
+## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="提升度"
->abstract="與控制值相比的提升率。"
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
-| 引數 | 說明 |
+| Argument | Description |
 | --- | --- |
-| 標準化容器 | 執行測試的基礎 (人員、工作階段或事件)。 |
-| 成功量度 | 使用者用來比較變體的一個或多個量度。 |
-| 控制 | 和實驗中所有其他變體進行比較的變體。輸入控制變體維度項目的名稱。 |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## 線性迴歸：相關係數 {#linear-regression-correlation-coefficient}
 
