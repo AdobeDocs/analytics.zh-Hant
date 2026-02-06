@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 31%
+ht-degree: 19%
 
 ---
 
@@ -37,37 +37,37 @@ ht-degree: 31%
 
 +++ 如何在Audience Manager中建立Analytics目的地？
 
-請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)」。
+請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)」。
 
 +++
 
 +++ 建立和儲存Analytics目的地後，需要多久才會在我選取的報表套裝中顯示資料？
 
-將新資料填入您的報表套裝可能需要數小時。
+將新資料填入報表套裝中可能需要數小時的時間。
 
 +++
 
 +++ 我已建立新的Analytics目的地，但在可用區段的「目的地對應」區段中看不到。 這個目的地在哪裡，我要如何找到？
 
-當您在「**[!UICONTROL 區段對應]**」中選取「**[!UICONTROL 自動對應所有目前和未來的區段]**」選項時，Analytics目的地會從區段的「目的地對應」區段消失。 要防止此情況，請選取&#x200B;**[!UICONTROL 「手動對應區段」]**&#x200B;來取代自動選項。
+當您在「**[!UICONTROL 區段對應]**」中選取「**[!UICONTROL 自動對應所有目前和未來的區段]**」選項時，Analytics目的地會從區段的「目的地對應」區段消失。 若要防止此情況，請選取&#x200B;**[!UICONTROL 手動對應區段]**，而非自動選項。
 
 +++
 
-此功能可否在Analytics提供來自Adobe Audience Manager的所有資訊？
++++ 此功能可否在Analytics提供來自Adobe Audience Manager的所有資訊？
 
-否，只限在啟用 Audience Manager 對象期間或之後以及在符合區段資格期間或之後造訪您網站之使用者的相關資料。
+不會，僅限與啟用Audience Manager對象期間或之後以及區段資格期間/之後造訪您網站的人相關的資料。
 
 +++
 
 +++ 這可提供每個區段的可定址對象總數嗎？
 
-不一定。您可得知在符合區段資格期間或之後來到您網站的該區段訪客數。
+不盡然。 它會告訴您在區段資格期間或之後，該區段中造訪您網站的訪客數量。
 
 +++
 
 +++ 這跟連到Analytics的舊版Cookie目的地有何不同？
 
-區段是符合資格且在同一點選中即時傳回。 系統會自動顯示易記名稱。
+區段是符合資格且在同一點選中即時傳回。 好記的名稱會自動顯示。
 
 +++
 
@@ -113,13 +113,13 @@ ht-degree: 31%
 
 * 選項1：繼續讓整合工作以立即可用狀態作業，對特定訪客傳送最新的150個合格區段。
 
-* 選項2：在Adobe Audience Manager中，選擇對您業務而言最重要的150個區段進行整合。 Adobe Audience Manager接著只會針對這150個區段檢查訪客。 此方法的缺點是，在所有訪客中，您僅能收到這 150 個區段。換句話說，由於整合的按點擊性質，「選項 1」方法可以提供無限區段。
+* 選項2：在Adobe Audience Manager中，選擇對您業務而言最重要的150個區段進行整合。 Adobe Audience Manager接著只會針對這150個區段檢查訪客。 此方法的缺點是，您只會收到所有訪客的這150個區段。 另一方面，由於整合的每次點選性質，選項1方法可提供不限數量的區段。
 
 +++
 
 +++ 為了進行整合，Analytics是否需要為額外的伺服器呼叫付費？
 
-否。Adobe Audience Manager受眾會整合至Analytics點選伺服器端。 這不會導致 Analytics (主要或次要) 的額外伺服器呼叫。
+否。Adobe Audience Manager受眾會整合至Analytics點選伺服器端。 這不會產生對Analytics的其他伺服器呼叫（主要或次要）。
 
 +++
 
