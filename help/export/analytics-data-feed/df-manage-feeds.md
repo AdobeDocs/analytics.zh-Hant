@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/3428570?captions=chi_hant&quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
