@@ -4,7 +4,7 @@ description: 了解跨裝置分析中「重播」的概念
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ ht-degree: 89%
 *資料在收集當天的顯示方式：*
 
 | 時間戳記 | ECID | eVar1 或 CustomerID | 點擊說明 | 使用依欄位彙整的人員量度（累計） |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob 使用自己的桌上型電腦，未經過驗證 | `1` (246) |
 | `2` | `246` | `Bob` | Bob 在其桌上型電腦上登入 | `2` (246 和 Bob) |
 | `3` | `3579` | - | Bob 使用自己的行動裝置，未經過驗證 | `3` (246、Bob 和 3579) |

@@ -3,7 +3,7 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d0e3a81a9b38468602b7c2b0f573425013ef78c7
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '2114'
 ht-degree: 25%
