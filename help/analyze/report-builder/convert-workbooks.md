@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [轉換活頁簿](https://video.tv.adobe.com/v/3446193?captions=chi_hant&quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [轉換活頁簿](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ ht-degree: 1%
 
 若要開啟舊版活頁簿，您可以：
 
-* 直接從您的本機電腦或網路開啟舊版活頁簿。 在Excel中開啟舊版活頁簿時：
-
-   1. 從Excel帶狀圖列選取![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
-   1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
-   1. 然後[轉換舊版活頁簿](#convert-a-workbook)。
-
-* 從&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[排程](report-builder-hub.md)索引標籤開啟已排程的舊版活頁簿。 若要這麼做：
+* 從&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[排程](report-builder-hub.md)索引標籤開啟已排程的舊版活頁簿。 這是排程舊版活頁簿的偏好方法。 當您要[排程轉換的舊版活頁簿](#schedule-a-converted-legacy-workbook)時，您可以選擇使用與舊版活頁簿關聯的排程。
 
    1. 開啟Excel，然後從Excel功能區列選取![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
 
@@ -56,6 +50,13 @@ ht-degree: 1%
       ![舊版工作台](assets/upgrade-legacy-schedule.png)
 
    1. 從清單中選取![SelectBox](/help/assets/icons/SelectBox.svg)您要轉換的排程活頁簿，然後選取![下載](/help/assets/icons/Download.svg)。 活頁簿會下載並在Excel的新視窗中開啟。 您現在可以[轉換舊版Report Builder活頁簿](#convert-a--workbook)。
+
+
+* 直接從您的本機電腦或網路開啟舊版活頁簿。 使用此方法時，系統不提供您使用可能與舊版活頁簿關聯的排程。 <br/>在Excel中開啟舊版活頁簿時：
+
+   1. 從Excel帶狀圖列選取![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
+   1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
+   1. 然後[轉換舊版活頁簿](#convert-a-workbook)。
 
 
 ## 轉換舊版活頁簿
@@ -85,18 +86,18 @@ ht-degree: 1%
 
    * 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以關閉通知，並繼續使用活頁簿處理新Report Builder的更新要求。
 
-   * 選取「下載升級報告」**&#x200B;**&#x200B;以下載並開啟顯示升級結果的新Excel活頁簿。 如需範例，請參閱下文。
+   * 選取「下載升級報告」****&#x200B;以下載並開啟顯示升級結果的新Excel活頁簿。 如需範例，請參閱下文。
 
      ![Excel Report Builder升級報告活頁簿](assets/upgrade-report.png)
 
-您現在可以[管理資料區塊](/help/analyze/report-builder/manage-reportbuilder.md)。
+您現在可以[管理活頁簿中的資料區塊](/help/analyze/report-builder/manage-reportbuilder.md)。 這些資料區塊是升級的結果，會取代您舊有的Report Builder請求。
 
 
 ## 排程轉換的舊版活頁簿
 
 您可以選擇使用您從Report Builder中心的&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤下載並開啟的舊版活頁簿的排程詳細資料。 此選項不適用於具有您從本機電腦或網路開啟之排程詳細資料的舊版活頁簿。
 
-1. 排程活頁簿。 若要使用舊版排程來排程轉換的舊版活頁簿：
+1. 若要使用舊版排程來排程轉換的舊版活頁簿：
 
    * 從Report Builder中心選取&#x200B;**[!UICONTROL 傳送活頁簿]**，或
    * 從Report Builder中&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤可用的&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL 排程活頁簿]**。
