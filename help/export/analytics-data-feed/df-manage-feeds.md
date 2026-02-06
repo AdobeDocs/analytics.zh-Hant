@@ -3,7 +3,7 @@ title: 管理資料摘要
 description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 20%
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/3428570?captions=chi_hant&quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ ht-degree: 20%
 
    或
 
-   若要檢視特定資料摘要的工作，請選取一或多個資料摘要旁的核取方塊，然後選取&#x200B;[!UICONTROL **工作歷史記錄**]。
+   若要檢視特定資料摘要的工作記錄，請選取資料摘要旁的核取方塊，然後選取&#x200B;[!UICONTROL **工作記錄**]。
 
    如需詳細資訊，請參閱[管理資料摘要工作](df-manage-jobs.md)。
 
