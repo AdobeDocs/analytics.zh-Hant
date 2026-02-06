@@ -3,9 +3,9 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2137'
 ht-degree: 25%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 25%
 建立資料摘要時，您需要向 Adobe 提供：
 
 * 關於原始資料檔案傳送目標的相關資訊
+
 * 您要在每個檔案中包含的資料
+
+* 資料摘要的傳送頻率（如果您選擇包含延遲送達點選，則包括回顧視窗）
 
 在建立資料摘要之前，務必先對資料摘要有基本的了解，並確認您已滿足所有先決條件。如需詳細資訊，請參閱[資料摘要概觀](data-feed-overview.md)。
 
@@ -81,7 +84,7 @@ ht-degree: 25%
    | [!UICONTROL **取代作業系統字串**] | 收集資料時，有些字元（例如新的行）可能會造成問題。 選取此選項可移除摘要檔案中的這些字元。<p>此選項會偵測以下內嵌於客戶資料中的字串序列，並以空格取代：</p> <ul><li>**Windows：** CRLF、CR或TAB</li><li>**Mac和Linux：** \n、\r或\t</li></ul> |
    | [!UICONTROL **啟用動態查詢**] | 動態查閱可讓您在資料摘要中接收其他無法使用的查閱檔案。 此設定可讓以下查閱表格隨每個資料摘要檔案一起傳送：<ul><li> **電信業者名稱**</li><li>**行動屬性**</li><li>**作業系統型別**</li></ul><p>如需詳細資訊，請參閱[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)。</p> |
    | **允許延遲送達點選** | 歷史資料可能會在資料摘要工作完成特定小時或當天的處理後送達，例如透過時間戳記點選或資料來源。<p>選取此選項，可在設定的報告頻率內（通常是每日或每小時），包含資料摘要工作完成資料處理之後抵達的資料。 啟用此選項後，每次資料摘要處理資料時，都會檢視任何已送達的延遲點選，並將它們與下一個已傳送的資料摘要檔案批次處理。</p><p>如需詳細資訊，請參閱[延遲送達點選](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
-   | **回顧期間** （適用於延遲送達的點選） | 啟用選項&#x200B;**[!UICONTROL 允許延遲點選]**&#x200B;時，會顯示此選項。 選取回顧期間以限制包括的延遲點選的時間範圍。 若要允許所有延遲送達點選，不論延遲多久，請選取&#x200B;**[!UICONTROL 無限制]**。 您可以選擇預設間隔，例如&#x200B;**[!UICONTROL 1小時]**、**[!UICONTROL 2小時]**、**[!UICONTROL 1週]**、**[!UICONTROL 2週]**&#x200B;等。 或者，選取&#x200B;**[!UICONTROL 自訂回顧期間]**，然後在&#x200B;**[!UICONTROL 自訂回顧]**&#x200B;欄位中指定最多26,280小時的回顧期間。 |
+   | **回顧期間** （適用於延遲送達的點選） | 此選項會在選項&#x200B;**[!UICONTROL 允許延遲送達點選]**&#x200B;啟用時顯示。 選取回顧期間以限制包括的延遲點選的時間範圍。 若要允許所有延遲送達點選，不論延遲多久，請選取&#x200B;**[!UICONTROL 無限制]**。 您可以選擇預設間隔，例如&#x200B;**[!UICONTROL 1小時]**、**[!UICONTROL 2小時]**、**[!UICONTROL 1週]**、**[!UICONTROL 2週]**&#x200B;等。 或者，選取&#x200B;**[!UICONTROL 自訂回顧期間]**，然後在&#x200B;**[!UICONTROL 自訂回顧]**&#x200B;欄位中指定最多26,280小時的回顧期間。 |
 
 1. 在&#x200B;[!UICONTROL **資料結構**]&#x200B;區段的&#x200B;**[!UICONTROL 報表套裝]**&#x200B;欄位中，選取包含您要匯出之資料的來源報表套裝。 <p>選取報表套裝時，請考量下列事項：</p> <ul><li>如果相同報表套裝中建立了多個資料摘要，則每個資料摘要都必須有不同的欄定義。</li><li>只有來源報表套裝支援資料摘要，虛擬報表套裝並不受支援。</li><li>可用欄的清單取決於所選報表套裝所屬的登入公司。 如果您變更報表套裝，可用欄的清單可能會變更。 </li></ul>
 
@@ -135,7 +138,7 @@ ht-degree: 25%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **帳戶**] | 進行下列一項：<ul><li>**使用現有帳戶：**&#x200B;選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入帳戶名稱，然後從下拉式選單中選取。 <p>只有在您已設定帳戶，或帳戶與您所屬的某個組織共用時，您才可使用帳戶。</p></li><li>**建立新帳戶：**&#x200B;在&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[設定位置帳戶](/help/components/locations/configure-import-accounts.md)。</li></ul> |
-   | [!UICONTROL **位置**] | 進行下列一項：<ul><li>**使用現有的位置：**&#x200B;選取&#x200B;**[!UICONTROL 位置]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入位置名稱，然後從下拉式選單中選取它。</li><li>**建立新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定位置的資訊，請參閱[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[設定位置](/help/components/locations/configure-import-locations.md)。 |
+   | [!UICONTROL **位置**] | 進行下列一項：<ul><li>**使用現有的位置：**&#x200B;選取&#x200B;**[!UICONTROL 位置]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入位置名稱，然後從下拉式選單中選取它。</li><li>**建立新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定位置的資訊，請參閱[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[設定位置](/help/components/locations/configure-import-locations.md)。</li></ul> |
    | [!UICONTROL **完成時通知**] | 指定一或多個電子郵件地址，在資料摘要成功傳送或無法傳送後，應傳送通知。 多個電子郵件地址必須以逗號分隔。 |
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
@@ -146,7 +149,7 @@ ht-degree: 25%
 
 管理範本時，您可以建立新範本、使用已建立的範本、複製範本、編輯範本及刪除範本。
 
-[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**] > **[!UICONTROL 管理範本]**
+**[!UICONTROL 管理員]** > **[!UICONTROL 資料摘要]** > **[!UICONTROL 管理範本]**
 
 ![管理資料行範本](assets/data-feed-template-manage.png)
 
