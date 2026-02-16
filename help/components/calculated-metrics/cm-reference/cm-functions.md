@@ -4,9 +4,9 @@ description: 了解基本計算量度函數。
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 49%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最大值***(Revenue*)， 1， 0))來反白劃分中表現最好的專案。
 >
 
 ## 欄最小值 {#column-minimum}
@@ -123,7 +123,7 @@ ht-degree: 49%
 
 >[!TIP]
 >
->使用[IF](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
+>使用[IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if)陳述式(例如&#x200B;**IF**(*Revenue* = **欄最小值***(Revenue*)， 1， 0))來反白劃分中表現最低的專案。
 >
 
 
@@ -205,9 +205,9 @@ ht-degree: 49%
 |---|---|
 | 量度 | 套用至底數 e 的指數。 |
 
-**使用案例**：將數字或量度提升至指定的乘冪，例如平方值或套用指數增長因子。 當建立成長趨勢模型或擴充量度至指數級時，這項功能相當實用。
+**使用案例**：將&#x200B;*e*&#x200B;提升至指定數字或量度的冪。 當建立成長趨勢模型或擴充量度至指數級時，這項功能相當實用。
 
-**在計算量度產生器**&#x200B;中：使用&#x200B;**指數**&#x200B;搭配量度和乘冪值。 例如： **指數**（*造訪*， 2）對&#x200B;*造訪*&#x200B;量度進行平方。
+**在計算量度產生器**&#x200B;中：使用&#x200B;**指數**&#x200B;與量度。 例如： **指數**（*造訪*）會將&#x200B;*e*&#x200B;提升至&#x200B;*造訪*&#x200B;量度的冪。
 
 >[!TIP]
 >
