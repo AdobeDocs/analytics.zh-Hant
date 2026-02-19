@@ -3,10 +3,10 @@ title: 散佈圖
 description: 瞭解如何在Analysis Workspace中建立和解讀散佈視覺效果，以分析維度專案與最多三個量度之間的關係。
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
+source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 63%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的散佈圖視覺效果。_<br/>_請參閱[散佈圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的散佈圖視覺效果。_<br/>_請參閱[散佈圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -42,14 +42,14 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺散佈圖效果](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[視覺散佈圖效果](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->當您[設定圖例在散佈中可見]&#x200B;(/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings時，圖例只有在資料來源包含有限數量的（選取的）維度專案時才會顯示。
+>當您[設定圖例在散佈中可見](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)時，圖例只有在資料來源包含有限數量的（選取的）維度專案時才會顯示。
 
 
 >[!MORELIKETHIS]
