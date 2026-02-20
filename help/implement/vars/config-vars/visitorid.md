@@ -17,7 +17,7 @@ Adobe使用數種不同的方法來[識別您網站上的訪客](../../id/overvi
 
 >[!IMPORTANT]
 >
->Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+>Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## Analytics如何使用`visitorID`
 
@@ -58,4 +58,4 @@ s.visitorID = "abc123";
 
 ## 使用網頁SDK的訪客ID
 
-Adobe Experience Platform Edge Network可讓您使用XDM的[身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)來提供多個識別碼。 「身分對應」中的每個身分都有不同的名稱空間。 您可以在[資料流組態](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)中，指定應該用於訪客ID的名稱空間。 設定此欄位後，當您傳送具有為此名稱空間指定的值的事件時，系統會自動將其用作Analytics中的訪客ID。
+Adobe Experience Platform Edge Network可讓您使用XDM的[身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=zh-Hant#using-identitymap)來提供多個識別碼。 「身分對應」中的每個身分都有不同的名稱空間。 您可以在[資料流組態](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#analytics)中，指定應該用於訪客ID的名稱空間。 設定此欄位後，當您傳送具有為此名稱空間指定的值的事件時，系統會自動將其用作Analytics中的訪客ID。
