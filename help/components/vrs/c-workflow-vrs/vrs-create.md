@@ -46,7 +46,7 @@ ht-degree: 57%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

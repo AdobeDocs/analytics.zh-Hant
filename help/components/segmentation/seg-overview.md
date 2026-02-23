@@ -240,7 +240,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

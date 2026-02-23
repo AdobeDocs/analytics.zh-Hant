@@ -34,14 +34,14 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-請參閱示範影片的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找及建立區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}。
+請參閱示範影片的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找及建立區段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的遞延日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的遞延日期範圍](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [套用區段的其他方法](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [套用區段的其他方法](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -15,7 +15,7 @@ ht-degree: 41%
 設定Advertising Analytics的工作流程包含下列步驟：
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [按照個別報表套裝來啟用 Advertising Analytics 報告](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)。 為啟用 Experience Cloud 的報表套裝啟用 [!UICONTROL Advertising Analytics] 報告。
