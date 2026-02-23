@@ -4,7 +4,7 @@ description: 瞭解如何使用和解讀Analysis Workspace中的歸因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 94%
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 屬性面板。_<br/>_請參閱[屬性面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/attribution)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 屬性面板。_<br/>_請參閱[屬性面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/attribution)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -83,12 +83,12 @@ Adobe Analytics 強化歸因功能，讓您可以：
 * **總量度**：報告時間範圍內發生的轉換總數，並歸因於您指定的維度。
 * **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
 * **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。表格的作用與 Workspace 中的其他自由格式表格相仿，可讓您新增量度、區段或劃分等元件。
-* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
+* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
 * **效能詳細資料**：透過散佈圖視覺效果，視覺化比較最多三個歸因模型。
-* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
+* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
 * **流量**：可讓您查看哪些管道最常互動，以及人員歷程中的順序。
 
-## 歸因模型
+## 成效歸因模型
 
 {{attribution-models-details}}
 
@@ -114,7 +114,7 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 

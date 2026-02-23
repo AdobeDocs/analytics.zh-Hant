@@ -4,9 +4,9 @@ title: 快速區段
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1178'
 ht-degree: 79%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速區段](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -75,7 +75,7 @@ ht-degree: 79%
 | 元素 | 說明 |
 |---|---|
 | **[!UICONTROL 名稱]** | 該名稱是從快速區段定義自動衍生。 |
-| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。透過長條圖和百分比可以了解整體資料中有多少是快速區段結果的一部分。![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
+| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。透過長條圖和百分比可以洞察整體資料中有多少是快速區段結果的一部分。![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
 | **[!UICONTROL 包括]**<br/>**[!UICONTROL 排除]** | 從下拉式清單![V形](/help/assets/icons/ChevronDown.svg)中選取是否要從面板中的資料包含或排除快速區段的結果。 |
 | **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 人員]** | 從下拉式功能表中選取![V形向下鍵](/help/assets/icons/ChevronDown.svg)快速區段的範圍。 |
 

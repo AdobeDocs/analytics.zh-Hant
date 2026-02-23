@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 100%
+source-wordcount: '1461'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -53,7 +53,7 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 |---------|----------|
 | [!UICONTROL **名稱**] | 識別專案名稱。 |
 | [!UICONTROL **類型**] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
-| [!UICONTROL **標籤**] | 標記專案，可方便分類整理。 |
+| [!UICONTROL **標記**] | 標記專案，可方便分類整理。 |
 | [!UICONTROL **已排程**] | 設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。 按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
 | [!UICONTROL **專案角色**] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
 | [!UICONTROL **報告套裝**] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報告套裝，多寡視您的分析使用情形而定。報告套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |

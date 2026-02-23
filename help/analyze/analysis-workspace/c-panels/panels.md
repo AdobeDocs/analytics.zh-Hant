@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2228'
-ht-degree: 100%
+source-wordcount: '2229'
+ht-degree: 99%
 
 ---
 
@@ -29,14 +29,14 @@ ht-degree: 100%
 | [媒體同時檢視者](media-concurrent-viewers.md) | 分析不同時段的同時檢視者，並取得尖峰同時檢視情形的詳細資訊，並可加以劃分及比較。 |
 | [媒體播放時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放時間，以了解何時達到尖峰同時檢視人數或是檢視人數何時下降。 |
 | [下一個或上一個項目](next-previous.md) | 顯示人們造訪的下一頁或上一頁。 |
-| [快速深入分析](quickinsight.md) | 快速建置自由格式表格和伴隨的視覺效果，加快分析及揭露深入分析的速度。 |
+| [快速洞察](quickinsight.md) | 快速建置自由格式表格和伴隨的視覺效果，加快分析及發現洞察的速度。 |
 | [頁面摘要](page-summary.md) | 探索有關特定頁面的關鍵統計資料。 |
 | [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關差異。 |
 
 
-[!UICONTROL 快速深入分析]、[!UICONTROL 空白]和[!UICONTROL 自由格式]面板是您開始分析的絕佳地方，而[!UICONTROL 歸因]則適合更進階的分析。![AddCircle](/help/assets/icons/AddCircle.svg)位於版面底部，因此您可以隨時新增空白面板。
+[!UICONTROL 快速洞察]、[!UICONTROL 空白]和[!UICONTROL 自由格式]面板是您開始分析的絕佳地方，而[!UICONTROL 歸因]則適合更進階的分析。![AddCircle](/help/assets/icons/AddCircle.svg)位於版面底部，因此您可以隨時新增空白面板。
 
-預設的開始面板為[!UICONTROL 自由格式]面板，但您可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)或[快速深入分析](/help/analyze/analysis-workspace/c-panels/quickinsight.md)設為預設面板。請參閱[專案和分析偏好設定](/help/analyze/analysis-workspace/user-preferences.md#projects--analyses-preferences)。
+預設的開始面板為[!UICONTROL 自由格式]面板，但您可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)或[快速洞察](/help/analyze/analysis-workspace/c-panels/quickinsight.md)設為預設面板。請參閱[專案和分析偏好設定](/help/analyze/analysis-workspace/user-preferences.md#projects--analyses-preferences)。
 
 
 ## 建立面板
@@ -58,7 +58,7 @@ ht-degree: 100%
   | 選取… | 若要建立... |
   |---|---|
   | ![Table](/help/assets/icons/Table.svg) | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) |
-  | ![Line](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) |
+  | ![折線圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) |
   | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help//analyze/analysis-workspace/visualizations/bar.md) |
   | ![123](/help/assets/icons/123.svg) | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) |
   | ![Text](/help/assets/icons/Text.svg) | [文字](/help/analyze/analysis-workspace/visualizations/text.md) |
@@ -171,7 +171,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![影片已發佈](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://video.tv.adobe.com/v/23877?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![影片已發佈](/help/assets/icons/VideoCheckedOut.svg) [下拉式區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -346,7 +346,7 @@ Right-clicking a drop-down segment provides the following options:
 * **[!UICONTROL Add label]**: When you add a drop-down segment to a project, a label is automatically set to the component name. If you delete the label, you can add it again with this option.
 * **[!UICONTROL Require selection]**: Requires that a segment is set on the panel. 
 
-[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant) to learn more about how to add drop-down filters to your project.
+[Watch the video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) to learn more about how to add drop-down filters to your project.
 
 #### Use static drop-down segments
 

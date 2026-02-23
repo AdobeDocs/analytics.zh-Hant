@@ -3,7 +3,7 @@ description: Advertising Analytics 工作流程概觀
 title: 工作流程概觀
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 41%
@@ -15,7 +15,7 @@ ht-degree: 41%
 設定Advertising Analytics的工作流程包含下列步驟：
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [按照個別報表套裝來啟用 Advertising Analytics 報告](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)。 為啟用 Experience Cloud 的報表套裝啟用 [!UICONTROL Advertising Analytics] 報告。

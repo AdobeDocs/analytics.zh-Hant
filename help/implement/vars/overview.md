@@ -5,9 +5,9 @@ keywords: appmeasurement, 變數, vars, 設定, 頁面, 實作
 feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會透過一
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[設定變數](https://video.tv.adobe.com/v/3456978?captions=chi_hant&quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[設定變數](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-variables-in-the-admin-console){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 

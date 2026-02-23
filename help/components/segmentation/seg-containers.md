@@ -4,10 +4,10 @@ keywords: 細分；區段
 title: 區段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '3563'
-ht-degree: 85%
+source-wordcount: '3564'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
@@ -47,7 +47,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://video.tv.adobe.com/v/3429098?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -142,7 +142,7 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
@@ -167,7 +167,7 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
@@ -182,7 +182,7 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
@@ -204,7 +204,7 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
@@ -231,7 +231,7 @@ Country = United States + Order = True
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
 </tr>
 
 </table>
@@ -390,7 +390,7 @@ Country = United States + Order = True
 
 ### 「造訪」容器層級的頁面檢視
 
-許多區段規則都會識別每次造訪的頁面檢視數。當這種識別情況發生時，只要有一個點擊符合規則，就會套用整個「訪客」容器。此區段報告格外寶貴，因為以造訪為基礎的頁面檢視，可提供以每次造訪的頁面檢視數為基礎的分析。
+許多區段規則都會識別每次造訪的頁面檢視數。當這種識別情況發生時，只要有一個點擊符合規則，就會套用整個「訪客」容器。此區段報告格外寶貴，因為以造訪為基礎的頁面檢視，可提供以每次造訪的頁面檢視數為基礎的洞察。
 
 - **頁面等於「冬季外套」頁面時的「造訪」容器**：「訪客」容器層級的「頁面」報告中會顯示這幾次造訪的所有頁面檢視，其中包含「冬季服飾」頁面的檢視。如果有頁面符合區段規則，則與該次造訪關聯的所有頁面檢視都會納入到報告中。
 - **頁面等於「首頁」頁面時的「造訪」容器**：在含有此區段的「頁面」報告中，只會顯示第一次造訪的資料，這是因為訪客在第二次造訪中並未檢視「首頁」頁面。

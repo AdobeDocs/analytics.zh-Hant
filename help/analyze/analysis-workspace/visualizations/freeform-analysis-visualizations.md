@@ -5,7 +5,7 @@ title: 視覺效果概述
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: b2e6b10fb468d5661f65b31c60d4d16b93dc9139
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 88%
@@ -32,7 +32,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analyze/analysis-workspace/visualizations/donut.md) | 環形圖視覺效果類似於圓形圖，以整體的部分或區段來顯示資料。 |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失視覺效果會顯示在一系列預先定義的連續頁面中，個人在哪個位置離開 (流失) 和繼續通過 (流過)。 |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果會顯示客戶使用您網站和應用程式的正確路徑。 |
-| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表格視覺效果是一種互動式視覺效果。自由格式表視覺效果是 Workspace 中資料分析的基礎。 |
+| ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表格視覺效果是一種互動式視覺效果。自由格式表格視覺效果是 Workspace 中資料分析的基礎。 |
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md) | 直方圖視覺效果是根據量度數量將個人、瀏覽次數或事件數分類到貯體中。 |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆疊橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 堆疊橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
@@ -43,7 +43,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | ![PageRule](/help/assets/icons/PageRule.svg) | [區段標題](section-header.md) | 若要識別並闡明面板內部區段。 |
 | ![MoveUpDown](/help/assets/icons/MoveUpDown.svg) | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要變化視覺效果會以大數字或百分比來顯示所選儲存格之間的變化。 |
 | ![123](/help/assets/icons/123.svg)</p> | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 摘要數字視覺效果會以一個大數字顯示選取的儲存格。 |
-| ![Text](/help/assets/icons/Text.svg) | [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 文字視覺效果會讓您將使用者定義的文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| ![Text](/help/assets/icons/Text.svg) | [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 文字視覺效果會讓您將使用者定義的文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和洞察新增額外內容 |
 | ![ModernGridView](/help/assets/icons/ModernGridView.svg) | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md)<p> | 樹狀圖視覺效果會以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | ![Type](/help/assets/icons/TwoDots.svg) | [文氏圖表](/help/analyze/analysis-workspace/visualizations/venn.md) | 文氏圖表視覺效果使用圓圈來描繪最多 3 個區段的量度重疊。 |
 
@@ -147,7 +147,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | 選項 | 說明 |
 | --- | --- |
 | **[!UICONTROL 視覺效果類型]** | 變更用於資料視覺化的視覺效果類型。 |
-| **[!UICONTROL 詳細程度]** | 變更趨勢視覺效果的時間詳細程度。這項變更也適用於資料來源表。 |
+| **[!UICONTROL 顆粒度]** | 變更趨勢視覺效果的時間顆粒度。這項變更也適用於資料來源表。 |
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 100% 堆疊]** | 將圖表轉變為 100% 堆疊的視覺效果。僅適用於區域、長條圖及堆疊橫條圖視覺效果。 |
 | **[!UICONTROL 可見圖例]** | 顯示圖例文字。 |
@@ -200,69 +200,3 @@ Analysis Workspace 中有以下視覺效果類型：
 如果您不確定選擇哪種視覺化效果，請在任意自由格式表格列 (停留時適用) 中選取「![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覺化]**」。此選取項目為新增視覺效果的最快方式。Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如：如果您已選取一列，即建立一個趨勢[折線圖](line.md)。如果您已選取三個篩選器列，即會建立一個[文氏圖表](venn.md)。
 
 ![快速視覺效果](assets/quick-viz.png)
-
-
-<!--
-## Settings {#settings}
-
-![](assets/settings.png)
-
-| Setting | Description |
-| --- | --- |
-| Visualization Type | Change the type of visual used to depict the data. |
-| Granularity | For trended visualizations, you can change the time granularity (day, week, month, etc.) from this drop-down list. This change also applies to the data source table. |
-| Percentages | Displays values in percentages. |
-| 100% Stacked | This setting on area stacked, bar stacked or horizontal bar stacked visualizations turns the chart into a "100% stacked" visualization. Example: ![Stacked 100%](assets/stacked_100_percent.png) |
-| Legend Visible | Lets you hide the detailed legend text for the Summary Number/Summary Change visualization. |
-| Limit Max Items | Lets you limit the number of items that a visualization displays. |
-| Anchor Y Axis at Zero | If all the values plotted on the chart are considerably above zero, the chart default will make the bottom of the y-axis NON-ZERO. If you check this box, the y-axis will be forced to zero (and it will re-draw the chart). |
-| Normalization | Forces metrics to equal proportions. This is helpful when plotted metrics are of very different magnitudes. |
-| Display Dual Axis | Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). This is helpful when plotted metrics are of very different magnitudes. |
-| Show Anomalies | Enhances line graphs and freeform tables by displaying anomaly detection. Anomaly detection in line visualizations includes an expected value (dashed line) and an expected range (shaded band). |
-
-## Legend {#legend}
-
-A visualization legend helps you to relate date in a source table to plotted series in the visualization. The legend is interactive - you can click a legend item to show/hide a series in the visualization. This is helpful if you want to simplify the data being visualized. 
-
-Additionally, you can rename legend labels to help you make visuals more consumable. Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
-
-To edit a legend label:
-
-1. Right-click one of the legend labels.
-1. Click **[!UICONTROL Edit Label]**.
-
-   ![](assets/edit-label.png)
-
-1. Enter the new label text.
-1. Press **[!UICONTROL Enter]** to save.
-
-## Right-click menu {#right-click}
-
-Additional functionality for a visualziation is available by right-clicking on the visualization header. Settings will vary by visualization. Some of the settings available are:
-
-![](assets/right-click.png)
-
-| Setting | Description |
-| --- | --- |
-| Insert Copied Panel/Visualization|Lets you paste ("insert") a copied panel or visualization to another place within the project, or into a completely different project. |
-| Copy Visualization | Lets you right-click and copy a visualization, so that you can insert it to another place within the project, or into a completely different project. |
-| [Download items as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items) | Download up to 50,000 dimension items for the selected dimension as a CSV. |
-| [Download data as CSV](/help/analyze/analysis-workspace/curate-share/download-send.md#download-data) | Download visualization data source as a CSV. |
-| Duplicate Visualization | Makes an exact duplicate of the current visualization, which you can then modify. |
-| Edit Description | Add (or edit) a text description for the visualization. |
-| Get Visualization Link | Lets you direct someone to a specific visualization within a project. When the link is clicked, the recipient will be required to login before being directed to the exact visualization linked to. |
-| Start Over | (Works for Flow, Venn, Histogram) Deletes the configuration for the current visualization so you can re-configure it from scratch. |
-
-## Create Visual icon {#quick-viz}
-
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). This the the fastest way to add a visualization. Clicking it prompts Analysis Workspace to take an educated guess at which visualization would best fit your data. For example, if you have 1 row selected, it will create a trended line graph. If you have 3 segment rows selected, it will create a Venn diagram. 
-
-![](assets/quick-viz.png)
-
-## Change the scale axis on visualizations
-
-Here is a video overview:
-
->[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
-
--->

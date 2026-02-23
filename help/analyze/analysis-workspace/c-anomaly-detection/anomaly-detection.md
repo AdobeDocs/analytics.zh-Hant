@@ -4,10 +4,10 @@ title: 異常偵測概觀
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1294'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[異常偵測](https://video.tv.adobe.com/v/25444?quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[異常偵測](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Analysis Workspace 的異常偵測演算法包括
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[貢獻度分析](https://video.tv.adobe.com/v/25443?quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[貢獻度分析](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Analysis Workspace 的異常偵測演算法包括
    <td colname="col3" colsep="1"> <p>沒有權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/tw/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>只限每日顆粒度 </p> </td> 
    <td colname="col3"> <p>沒有權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/tw/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 個權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/tw/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 20 個權杖 </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Analysis Workspace 的異常偵測演算法包括
    <td colname="col3"> <p>每月 2 個權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete、<a href="https://business.adobe.com/tw/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete、<a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>無限量的權杖 </p> </td> 
   </tr> 

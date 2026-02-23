@@ -5,10 +5,10 @@ title: 在流失分析中套用區段
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 42%
 
    ![](assets/fallout-definesegment.png)
 
-1. 提供區段的標題和描述，然後將其儲存。
+1. 為區段提供標題和說明，然後將其儲存。
 
    您現在可以在任何需要的專案中使用此區段。
 
@@ -51,12 +51,6 @@ ht-degree: 42%
 
 您可以在「流失」視覺效果中比較無數區段。 （請注意，以下影片說明您最多可以比較3個區段，這是錯誤的。）
 
-
->[!BEGINSHADEBOX]
-
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [在流失視覺效果中比較區段](https://video.tv.adobe.com/v/24046?quality=12&learn=on){target="_blank"}。
-
->[!ENDSHADEBOX]
 
 
 1. 從左側的[!UICONTROL 區段]面板選取您要比較的區段。 在此範例中，選取了兩個區段： **[!UICONTROL iOS]**&#x200B;和&#x200B;**[!UICONTROL Android]**。

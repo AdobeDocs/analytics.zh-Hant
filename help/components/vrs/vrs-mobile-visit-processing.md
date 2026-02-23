@@ -1,16 +1,16 @@
 ---
 description: 虛擬報表套裝中的內容感知作業變更了 Adobe Analytics 計算行動造訪次數的方式。本文針對行動造訪次數定義的方式，說明背景點擊數與應用程式啟動事件數 (兩者均由行動 SDK 設定) 的處理含意。
-title: 內容感知作業
+title: 內容感知工作階段
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1578'
 ht-degree: 43%
 
 ---
 
-# 內容感知作業
+# 內容感知工作階段
 
 虛擬報表套裝中的內容感知作業，變更了 Adobe Analytics 計算從任何裝置造訪次數的方式。本文也針對行動造訪次數定義的方式，說明背景點擊數與應用程式啟動事件數 (兩者均由行動 SDK 設定) 的處理含意。
 
@@ -19,7 +19,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [內容感知工作階段](https://video.tv.adobe.com/v/3428480?captions=chi_hant&quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [內容感知工作階段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

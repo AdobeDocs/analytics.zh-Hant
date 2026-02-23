@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 93%
+source-wordcount: '509'
+ht-degree: 63%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的摘要編號和摘要變更視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**摘要編號和摘要變更**。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的摘要編號和摘要變更視覺效果。_<br/>_檢視此文章的[ ](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_**摘要編號和摘要變更**。_
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [摘要數字和摘要變更視覺效果](https://video.tv.adobe.com/v/335564/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [摘要數字和摘要變更視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -39,10 +39,10 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 使用![摘要化](/help/assets/icons/123.svg)**[!UICONTROL 摘要數字]**&#x200B;視覺效果可強調專案中重要的大數字。 此視覺效果使用關聯資料來源，其行為方式如下：
 
-* 如果未選取儲存格，則會選取該欄的總計。
-* 如果選取單一儲存格，則會顯示該儲存格的摘要。
-* 如果選取多個儲存格，則會顯示第一個選取的儲存格。
-* 如果選取欄，則會挑選欄中第一個儲存格的值。
+* 如果未選取儲存格，則選取欄的總計。
+* 如果選取了單一儲存格，它會顯示該儲存格的摘要。
+* 如果選取了多個儲存格，則會顯示第一個選取的儲存格。
+* 如果選取欄，則會選取欄中的第一個儲存格值。
 
 ![摘要數字視覺效果](asses/../assets/summary-number.png)
 
@@ -73,12 +73,12 @@ The green and red color of the Summary Change can be controlled through [custom 
 
 此視覺效果的運作方式如下：
 
-* 如果未選取儲存格，則會比較欄中前兩個儲存格的值。
-* 如果選取一個儲存格，由於與自身比較儲存格的值，因此會顯示 0。
-* 如果選取兩個儲存格，會取第一個選取的儲存格為分子，第二個選取的儲存格為分母。
-* 如果選取超過兩個儲存格，僅會比較前兩個選取的儲存格。
-* 如果選取某個範圍中的儲存格，會比較該範圍第一個與最後一個選取的儲存格。
-* 如果選取欄，會就第一個值的本身進行比較，顯示變更為 0。
+* 如果未選取任何儲存格，則會比較欄中的前兩個儲存格值。
+* 如果選取一個儲存格，則會顯示0，因為它會將儲存格值與本身做比較。
+* 如果選取了兩個儲存格，則會將第一個選取的儲存格視為分子，將第二個儲存格視為分母。
+* 如果選取兩個以上的儲存格，則只會考慮前兩個儲存格進行比較。
+* 如果選取了儲存格範圍，則會比較第一個儲存格和範圍中最後選取的儲存格。
+* 如果選取該欄，則會比較第一個值與本身，其顯示為0的變更。
 
 
 ![摘要變更視覺效果顯示兩個數字間的差異 (變更)](assets/summary-change.png)
@@ -95,6 +95,6 @@ The green and red color of the Summary Change can be controlled through [custom 
 >[!MORELIKETHIS]
 >
 >[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

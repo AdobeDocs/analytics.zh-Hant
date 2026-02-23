@@ -3,9 +3,9 @@ title: 管理資料摘要
 description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://video.tv.adobe.com/v/3428570?captions=chi_hant&quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

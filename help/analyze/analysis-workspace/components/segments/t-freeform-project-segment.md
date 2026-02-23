@@ -4,10 +4,10 @@ title: 區段概述
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 43%
+source-wordcount: '307'
+ht-degree: 42%
 
 ---
 
@@ -34,14 +34,14 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-請參閱示範影片的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找及建立區段](https://video.tv.adobe.com/v/334092?quality=12&learn=on){target="_blank"}。
+請參閱示範影片的![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [尋找及建立區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的遞延日期範圍](https://video.tv.adobe.com/v/25403?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段中的遞延日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [套用區段的其他方法](https://video.tv.adobe.com/v/30994?quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [套用區段的其他方法](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

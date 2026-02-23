@@ -5,9 +5,9 @@ uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 feature: Freeform Tables
 role: User, Admin
 exl-id: 9057e930-b4c6-439e-b82a-8ab9828de91d
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 96%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 

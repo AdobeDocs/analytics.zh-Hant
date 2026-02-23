@@ -4,10 +4,10 @@ keywords: 點按資料流;資料摘要;資料摘要;資料摘要
 title: Analytics 資料摘要概觀
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[導覽至資料摘要介面](https://video.tv.adobe.com/v/3428570?captions=chi_hant&quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[導覽至資料摘要介面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[尋找您的資料摘要 ID](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[尋找您的資料摘要 ID](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]

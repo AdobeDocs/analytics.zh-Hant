@@ -4,10 +4,10 @@ description: 了解關於 Adobe Analytics 的首要分析工具 Analysis Workspa
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1384'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ Analysis Workspace 可讓您快速建置分析以收集洞察，然後與其他�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://video.tv.adobe.com/v/26266/?quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

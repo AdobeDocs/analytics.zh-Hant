@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [轉換活頁簿](https://video.tv.adobe.com/v/3446193?captions=chi_hant&quality=12&learn=on){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [轉換活頁簿](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
    * 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以關閉通知，並繼續使用活頁簿處理新Report Builder的更新要求。
 
-   * 選取「下載升級報告」**&#x200B;**&#x200B;以下載並開啟顯示升級結果的新Excel活頁簿。 如需範例，請參閱下文。
+   * 選取「下載升級報告」****&#x200B;以下載並開啟顯示升級結果的新Excel活頁簿。 如需範例，請參閱下文。
 
      ![Excel Report Builder升級報告活頁簿](assets/upgrade-report.png)
 

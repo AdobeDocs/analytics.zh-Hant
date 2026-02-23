@@ -4,10 +4,10 @@ keywords: 虛擬報告套裝
 title: 建立虛擬報告套裝
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 62%
+source-wordcount: '675'
+ht-degree: 57%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 62%
 開始建立虛擬報告套裝前，請謹記以下一些注意事項。
 
 * 非管理員使用者看不到「虛擬報表套裝」管理員。
-* 虛擬報告套裝無法共用。「共用」是透過群組/權限達成。
+* 虛擬報告套裝無法共用。「共用」透過群組/許可權完成。
 * 在虛擬報表套裝管理員中，您只看得到您自己的虛擬報表套裝。 必須按一下「全部顯示」才能查看其他人的虛擬報告套裝。
 
 1. 導覽至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**。
@@ -31,9 +31,9 @@ ht-degree: 62%
 | 元素 | 說明 |
 | --- |--- |
 | 名稱 | 虛擬報告套裝的名稱不會繼承自父報告套裝，且應為不同的名稱。 |
-| 說明 | 為您的企業使用者著想，加入適當說明。 |
+| 說明 | 新增良好的說明，讓您的業務使用者獲益。 |
 | 標記 | 您可新增標記來組織報告套裝。 |
-| 來源 | 此虛擬報套裝會繼承報告套裝的以下設定。繼承大部分的服務層級和功能 (例如 eVar 設定、處理規則、分類等)。若要在虛擬報表套裝上變更這些繼承設定，您必須編輯父報表套裝（「管理員>報表套裝」）。 |
+| 來源 | 此虛擬報套裝會繼承報告套裝的以下設定。大部分的服務層級和功能(例如eVar設定、處理規則、分類等)都是繼承的。 若要在虛擬報表套裝上變更這些繼承設定，您必須編輯父報表套裝（「管理員>報表套裝」）。 |
 | 時區 | 選擇時區是選用的。如果您選擇時區，則會與虛擬報表套裝一併儲存。 如果您沒有選擇時區，則系統會使用父報告套裝的時區。編輯虛擬報表套裝時，與虛擬報表套裝一併儲存的時區會顯示在下拉式選取器中。 如果虛擬報表套裝是在新增時區支援之前建立，則父報表套裝的時區會顯示在下拉式選取器中。 |
 | 區段 | 您可以只新增一個區段，也可以堆疊區段。注意：將兩個區段堆疊在一起時，會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。如果嘗試刪除或修改虛擬報告套裝目前使用中的區段，便會出現警告。 |
 
@@ -46,7 +46,7 @@ ht-degree: 62%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://video.tv.adobe.com/v/3428480?quality=12&learn=on&captions=chi_hant){target="_blank"}。
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
