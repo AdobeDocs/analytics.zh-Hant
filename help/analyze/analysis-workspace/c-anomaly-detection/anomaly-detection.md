@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[異常偵測](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [異常偵測](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ Analysis Workspace 的異常偵測演算法包括
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[貢獻度分析](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [貢獻度分析](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Analysis Workspace 的異常偵測演算法包括
    <td colname="col3" colsep="1"> <p>沒有權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>只限每日顆粒度 </p> </td> 
    <td colname="col3"> <p>沒有權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 個權杖 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 20 個權杖 </p> </td> 
   </tr> 
