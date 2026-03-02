@@ -40,7 +40,7 @@ ht-degree: 0%
 
 * 從&#x200B;**[!UICONTROL Report Builder中心]**&#x200B;的[排程](report-builder-hub.md)索引標籤開啟已排程的舊版活頁簿。 此動作是排程舊版活頁簿的偏好方法。 當您要[排程轉換的舊版活頁簿](#schedule-a-converted-legacy-workbook)時，您可以選擇使用與舊版活頁簿關聯的排程。
 
-   1. 開啟[!DNL Excel]並從![功能區列選取](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedonWhite **** Report Builder[!DNL Excel]。
+   1. 開啟[!DNL Excel]並從![功能區列選取](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedonWhite **&#x200B;**&#x200B;Report Builder[!DNL Excel]。
 
    1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * 直接從您的本機電腦或網路開啟舊版活頁簿。 使用此方法時，系統不提供您使用可能與舊版活頁簿關聯的排程。 <br/>當舊版活頁簿在[!DNL Excel]中開啟時：
 
-   1. 從![功能區列選取](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedOnWhite **** Report Builder[!DNL Excel]。
+   1. 從![功能區列選取](/help/assets/icons/AdobeLogoRedOnWhite.svg)AdobeLogoRedOnWhite **&#x200B;**&#x200B;Report Builder[!DNL Excel]。
    1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
    1. 然後[轉換舊版活頁簿](#convert-a-workbook)。
 
@@ -82,7 +82,7 @@ ht-degree: 0%
 
    如果升級成功，便會顯示&#x200B;**[!UICONTROL 活頁簿升級已完成]**&#x200B;通知。
 
-   ![ [!DNL Excel] Report Builder升級報告熒幕擷圖顯示移轉已完成](assets/upgrade-complete.png)
+   ![&#x200B; [!DNL Excel] Report Builder升級報告熒幕擷圖顯示移轉已完成](assets/upgrade-complete.png)
 
    * 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以關閉通知，並繼續使用活頁簿處理新Report Builder的更新要求。
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 1. 系統提供您使用舊版活頁簿的排程詳細資料，作為預設排程設定。
 
-   ![ [!DNL Excel] Report Builder舊版排程設定選項的熒幕擷圖](assets/upgrade-legacy-schedule-convert.png)
+   ![&#x200B; [!DNL Excel] Report Builder舊版排程設定選項的熒幕擷圖](assets/upgrade-legacy-schedule-convert.png)
 
    * 選取&#x200B;**[!UICONTROL 使用]**&#x200B;以使用舊版排程詳細資料。 排程詳細資料已預先填入[傳送活頁簿](schedule-reportbuilder.md#schedule-a-workbook)介面。
    * 選取&#x200B;**[!UICONTROL 不要使用]**&#x200B;以不使用舊版排程詳細資料。
