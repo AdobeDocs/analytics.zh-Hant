@@ -4,10 +4,10 @@ title: 篩選與排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -151,8 +151,6 @@ Note: this option does not seem to work. AN-338422
 
 ## 依多個欄排序表格（進階排序）
 
-{{release-limited-testing-section}}
-
 ### 將排序套用至多個欄
 
 若要依多欄排序表格中的資料，請執行下列動作：
@@ -187,7 +185,7 @@ Note: this option does not seem to work. AN-338422
 
 ### 排序優先順序
 
-當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序排序。 優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
+當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序進行排序。優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
 
 具有主要優先順序的欄決定主要順序；具有次要優先順序的欄決定列在主要欄中具有相同值的順序；具有第三優先順序的欄決定列在主要欄和次要欄中具有相同值的順序；依此類推。
 
