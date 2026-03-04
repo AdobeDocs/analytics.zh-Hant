@@ -3,18 +3,27 @@ title: 管理資料摘要工作
 description: 瞭解如何管理資料摘要中的個別作業。 瀏覽介面、使用篩選和搜尋，以及尋找欄定義。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
-# 管理資料摘要作業
+# 管理資料摘要作業 {#manage-data-feed-jobs}
 
 作業是指輸出壓縮檔案的個別工作。 它們係經由摘要所建立與管理。
 
 您可以檢視每個資料摘要、重新傳送作業或重新處理作業的工作歷史記錄。
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="資料摘要工作歷史記錄"
+>abstract="您可以從此頁面檢視指定資料摘要的資料摘要作業清單。 依請求ID或請求期間開始日期搜尋作業。 有關每個工作的資訊會顯示在可用的欄中。 您也可以使用相同的資料重新傳送工作，或在重新傳送工作之前重新處理工作的來源資料。"
+
+<!-- markdownlint-enable MD034 -->
 
 ## 檢視資料摘要的工作記錄
 
@@ -68,6 +77,8 @@ ht-degree: 11%
 
 1. 選取資料摘要旁的核取方塊，其中包含您要重新傳送的工作，然後選取&#x200B;[!UICONTROL **工作歷史記錄**]。
 
+1. （選用）在搜尋欄位中，依請求ID或請求期間開始日期進行搜尋，以搜尋資料摘要作業清單。
+
 1. 選取一或多個資料摘要工作旁的核取方塊，然後選取&#x200B;**[!UICONTROL 重新傳送]**。<!-- What does the status need to be? Error, ... -->
 
    ![重新處理資料摘要工作](assets/data-feed-job-resend.png)
@@ -81,6 +92,8 @@ ht-degree: 11%
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
 
 1. 選取資料摘要旁的核取方塊，其中包含您要重新處理的工作，然後選取&#x200B;[!UICONTROL **工作歷史記錄**]。
+
+1. （選用）在搜尋欄位中，依請求ID或請求期間開始日期進行搜尋，以搜尋資料摘要作業清單。
 
 1. 選取一或多個資料摘要工作旁的核取方塊，然後選取&#x200B;**[!UICONTROL 重新處理]**。<!-- What does the status need to be? Error, ... -->
 

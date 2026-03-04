@@ -3,23 +3,32 @@ title: 管理資料摘要
 description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# 管理資料摘要
+# 管理資料摘要 {#manage-data-feeds}
 
 資料摘要管理員可讓您建立、編輯和刪除組織的資料摘要。如果您有存取資料摘要管理員的權限，就能管理所有可見報表套裝的資料摘要。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="管理資料摘要"
+>abstract="您可以從此頁面檢視、建立及管理資料摘要。 依名稱或ID搜尋摘要，或選取篩選器圖示以檢視可用的篩選器。"
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## 檢視資料摘要
@@ -62,7 +71,7 @@ ht-degree: 15%
 
 1. 使用搜尋或篩選來找出特定摘要。
 
-   * 在搜尋欄位中，開始輸入摘要的名稱。 只有符合的摘要會顯示在可用摘要清單中。
+   * 在搜尋欄位中，開始輸入摘要的名稱或ID。 只有符合的摘要會顯示在可用摘要清單中。
 
      ![Search](assets/search.png)
 
