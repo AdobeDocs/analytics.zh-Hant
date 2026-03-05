@@ -46,7 +46,7 @@ ht-degree: 67%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
+_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的地圖視覺效果。_<br/>_檢視此文章的[&#x200B; &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/map)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**地圖**。_
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中地圖視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中地圖視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -132,7 +132,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

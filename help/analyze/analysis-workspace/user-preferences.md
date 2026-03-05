@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
