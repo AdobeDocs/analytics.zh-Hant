@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="允許延遲送達點選"
->abstract="選取此選項，可在設定的報告頻率內（通常是每日或每小時），包含資料摘要工作完成資料處理之後抵達的資料。 啟用此選項後，每次資料摘要處理資料時，都會檢視任何已送達的延遲點選，並將它們與下一個已傳送的資料摘要檔案批次處理。"
+>title="允許延遲送達點擊"
+>abstract="選取此選項，可在設定的報告頻率內 (通常是每日或每小時)，納入資料摘要工作完成資料處理之後抵達的資料。啟用此選項，則每次資料摘要處理資料時，都會查看任何送達的延遲點擊，並將其整批放進下一個傳送的資料摘要檔案中。"
 
 <!-- markdownlint-enable MD034 -->
 

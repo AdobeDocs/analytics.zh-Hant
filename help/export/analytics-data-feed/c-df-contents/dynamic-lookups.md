@@ -6,13 +6,13 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
 # 動態查詢
 
-動態查詢可讓您在資料摘要中接收其他查詢檔案（若未提供）。 此設定可讓以下查閱表格隨每個資料摘要檔案一起傳送：
+動態查詢可讓您在資料摘要中接收其他查詢檔案（若未提供）。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：
 
 * **電信業者名稱**：提供`carrier`資料行的額外內容。 包含的檔案名稱為`carrier.tsv`。
 * **行動屬性**：為`mobile_id`欄提供額外內容，包括每個行動裝置追蹤的所有功能。 包含的檔案名稱為`mobile_attributes.tsv`。
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="啟用動態查詢"
->abstract="選取此選項可在您的資料摘要中接收其他查閱檔案，否則無法使用。 此設定可讓以下查閱表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動屬性</li><li>作業系統型別</li></ul>"
+>abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動屬性</li><li>作業系統類型</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

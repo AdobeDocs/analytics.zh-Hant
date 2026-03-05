@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
->title="「分類設定」優先順序"
->abstract="![索引鍵](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分類設定*&#x200B;是基礎分類設定，定義整體結構描述，並在任何合併衝突中優先處理。 其他分類設定則依從上到下的順序套用。"
+>title="分類集優先順序"
+>abstract="![索引鍵](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分類集*&#x200B;是基底分類集，定義整體結構描述，並且在任何合併衝突中為優先。其他分類集則依從上到下的順序套用。"
 
 
 若要建立分類合併，請在Adobe Analytics主介面中：
@@ -61,19 +61,19 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="不相符"
->abstract="當整合分類集中的值與來源分類集不符時，鍵值不相符百分比。"
+>abstract="當合併分類集中的值與來源分類集不相符時，索引鍵不相符的百分比。"
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="不存在"
->abstract="已整合分類集中，但來源分類集中沒有索引鍵的百分比。"
+>abstract="合併分類集而非來源分類集中索引鍵的百分比。"
 
 若要編輯分類合併，請在Adobe Analytics主介面中：
 
 1. 從&#x200B;**[!UICONTROL 元件]**&#x200B;功能表選取&#x200B;**[!UICONTROL 分類集]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取&#x200B;**[!UICONTROL 合併]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集合併]**&#x200B;管理員中：
-   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**&#x200B;對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
+   1. 選取分類合併的名稱。 **[!UICONTROL 合併： _分類合併名稱_]**對話方塊就會顯示。 外觀和可用動作取決於合併的目前狀態，以及您是否仍然可以選擇修改分類合併。
 
       | 可用動作 | 說明 |
       |---|---|

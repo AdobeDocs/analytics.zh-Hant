@@ -144,11 +144,11 @@ ht-degree: 100%
 {{attribution-container}}
 
 
-## 回顧視窗 {#lookback-winwow}
+## 回顧時間範圍 {#lookback-winwow}
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lookbackwindow"
->title="回顧視窗"
+>title="回顧時間範圍"
 >abstract="此設定可決定要為每個轉換套用的資料歸因期間。"
 
 {{attribution-lookback-window}}
