@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -29,14 +29,19 @@ ht-degree: 3%
 
 1. 在Report Builder中心選取&#x200B;**[!UICONTROL 排程]**
 
-1. 選取&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤。 您會看到所有排程活頁簿的清單。
+1. 選取&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤。 您會看到所有排程活頁簿的清單。 （或者，您可以選取「**[!UICONTROL 舊版]**」標籤，檢視需要移轉至新Report Builder的舊版活頁簿清單。）
 
    ![排程活頁簿](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   您可以將滑鼠停留在圖示上，以檢視排程活頁簿的狀態。
+1. 執行以下任一操作：
 
-   使用![搜尋](/help/assets/icons/Search.svg)來搜尋特定的排程活頁簿。
-使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
+   * 將滑鼠指標暫留在圖示上，即可檢視排程活頁簿的狀態。
+
+   * 在搜尋欄位![搜尋](/help/assets/icons/Search.svg)中，搜尋特定的排程活頁簿。
+
+   * 選取欄圖示![ColumnSetting](/help/assets/icons/ColumnSetting.svg)以定義要顯示的欄。
+
+   * 選取篩選圖示![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選取&#x200B;[!UICONTROL **全部顯示**]&#x200B;以顯示指定組織的所有排程活頁簿。
 
 1. 選取一或多個活頁簿。
 
