@@ -185,7 +185,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-加入[Adobe Experience League](https://experienceleague.adobe.com/)以存取[檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics)、[教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)等內容以協助您成功。
+加入[Adobe Experience League](https://experienceleague.adobe.com/zh-hant)以存取[檔案](https://experienceleague.adobe.com/zh-hant/docs/analytics)、[教學課程](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)等內容以協助您成功。
 
 
 ## Adobe Admin Console
@@ -204,7 +204,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-加入Adobe Experience League以[提出支援案例、檢閱使用中及過去的案例](https://experienceleague.adobe.com/home#support)。
+加入Adobe Experience League以[提出支援案例、檢閱使用中及過去的案例](https://experienceleague.adobe.com/home?lang=zh-Hant#support)。
 
 
 ## Adobe Analytics
@@ -217,7 +217,7 @@ CARDS
 
 完成Adobe Analytics及其支援平台的上線後，請考慮探索下列資源，以加深瞭解並提升您的技能：
 
-1. [Adobe Analytics簡介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [瞭解並建立報表套裝](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Adobe Analytics簡介](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [瞭解並建立報表套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Adobe Analytics 文件](https://experienceleague.adobe.com/zh-hant/docs/analytics)
 4. [Adobe Analytics教學課程與影片](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/overview)
