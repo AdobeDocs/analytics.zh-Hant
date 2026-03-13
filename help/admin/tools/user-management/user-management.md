@@ -5,10 +5,10 @@ title: 使用者和產品管理
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 ## Adobe Admin Console 管理員的說明資源 {#help}
 
-| 工作或資源 | 說明 |
+| 任務或資源 | 說明 |
 | --- | --- |
-| 將 Analytics 使用者 ID 遷移到 Adobe Admin Console | Adobe 會協助 Analytics 管理員將使用者 ID 移轉至 Adobe Admin Console。此移轉作業會分批進行。輪到移轉您的使用者時，Adobe 會以含有相關說明的電子郵件通知 Analytics 管理員。[Analytics User Management](/help/admin/tools/user-management/user-migration/c-migration-tool.md) 中有遷移工具可簡化這項作業。<p>**重要**：使用者移轉當天，系統會將您先前的權限群組自動複製到 Adobe Admin Console。您再也無法於 Analytics「管理工具」中邀請新的使用者或建立新群組。 如需如何準備遷移作業以及受影響之管理功能的相關資訊，請檢閱 Analytics 使用者遷移至 Adobe Admin Console 的常見問答和說明。 |
+| 將 Analytics 使用者 ID 遷移到 Adobe Admin Console | Adobe可協助Analytics管理員將使用者ID移轉至Adobe Admin Console。 這項工作將分批次進行。 輪到您移轉使用者時，Adobe會透過電子郵件通知Analytics管理員，並提供相關指示。 [Analytics User Management](/help/admin/tools/user-management/user-migration/c-migration-tool.md) 中有遷移工具可簡化這項作業。<p>**重要**：使用者移轉當天，系統會將您先前的權限群組自動複製到 Adobe Admin Console。您再也無法於 Analytics「管理工具」中邀請新的使用者或建立新群組。 如需如何準備遷移作業以及受影響之管理功能的相關資訊，請檢閱 Analytics 使用者遷移至 Adobe Admin Console 的常見問答和說明。 |
 | 啟動 Adobe Admin Console | 您遷移使用者帳戶後，您就可以在 Adobe Admin Console 中管理所有解決方案中的使用者和產品。 瀏覽至：`https://adminconsole.adobe.com/enterprise/`。 也請參閱[管理 Experience Cloud 使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant)。 |
 | 管理 Adobe Analytics 產品設定檔、使用者和權限 | 請參閱 [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md)。 |
 
-<!---
+<!--
 ## User Management Descriptions {#section_7C19842A3D4249109A9399D4DF18DE75}
 
 The following table describes elements on the [!UICONTROL Users] tab in [!UICONTROL User Management].

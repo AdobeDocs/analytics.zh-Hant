@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: cbf448d668df0fc7795b3b5f385bd3d362dc492e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 26%
@@ -37,13 +37,13 @@ ht-degree: 26%
 
 若要排程活頁簿：
 
-1. 在Report Builder中心選取「**[!UICONTROL 排程]**」以建立排程，讓您將活頁簿Excel檔案(.xlsx)自動散發給個人或群組。
+1. 在Report Builder中心中選擇&#x200B;**[!UICONTROL 計畫]**&#x200B;以建立計畫，以便您可以自動將工作簿Excel檔案(.xlsx)分發給個人或組。
 
-   ![選取[排程]按鈕以建立排程。](./assets/schedule.png){zoomable="yes"}
+   ![選擇「計畫」按鈕以建立計畫。](./assets/schedule.png){zoomable="yes"}
 
-1. 選取&#x200B;**[!UICONTROL 排程活頁簿]**&#x200B;或![新增](/help/assets/icons/Add.svg)以建立新的排程活頁簿。
+1. 選擇&#x200B;**[!UICONTROL 計畫工作簿]**&#x200B;或![添加](/help/assets/icons/Add.svg)以建立新的計畫工作簿。
 
-   ![排程活頁簿視窗。](./assets/schedule-workbook.png){zoomable="yes"}
+   ![「計畫工作簿」窗口。](./assets/schedule-workbook.png){zoomable="yes"}
 
    排程窗格會顯示活頁簿的一些預先定義資訊，例如活頁簿名稱和上次修改活頁簿的日期。
 
@@ -72,9 +72,10 @@ ht-degree: 26%
    您可以在檔案名稱附加時間戳記，以識別活頁簿的更新日期。時間戳記有助於檢視在特定日期傳送的活頁簿版本。 選取後，您可在以下兩者之間選擇：
 
    * **[!UICONTROL ISO日期格式]**，這會導致`YYYY-MM-DD`附加至檔案名稱。
-   * **[!UICONTROL ISO日期格式+時間戳記]**，結果會將`YYYY-MM-DD_HH-MM-SS`附加至檔案名稱。
+   * **[!UICONTROL ISO日期格式+時間戳]**，導致`YYYY-MM-DD_HH-MM-SS`附加到檔案名。
 
-<!-- Does no longer seem to be an option? 
+<!--
+Does no longer seem to be an option? 
 1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
 
     When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
@@ -82,12 +83,12 @@ ht-degree: 26%
     ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
 -->
 
-1. 在&#x200B;**[!UICONTROL 密碼保護活頁簿]**&#x200B;中輸入密碼。 有效的密碼至少需要8個字元、一個數字和一個特殊字元。 選取![VisibilityOff](/help/assets/icons/VisibilityOff.svg)以顯示密碼，選取![Visibility](/help/assets/icons/Visibility.svg)隱藏密碼（預設）。
+1. 在&#x200B;**[!UICONTROL 密碼保護工作簿]**&#x200B;中輸入密碼。 有效密碼至少需要8個字元、數字和特殊字元。 選擇![VisibilityOff](/help/assets/icons/VisibilityOff.svg)以顯示密碼，選擇![Visibility](/help/assets/icons/Visibility.svg)以隱藏密碼（預設）。
 
 
 ### 電子郵件
 
-在&#x200B;**[!UICONTROL 電子郵件]**&#x200B;區段中，您提供電子郵件的收件者、主旨和說明。
+在&#x200B;**[!UICONTROL 電子郵件]**&#x200B;部分，您提供電子郵件的收件人、主題和說明。
 
 ![排程電子郵件設定](assets/schedule-email.png){zoomable="yes"}
 
@@ -110,7 +111,7 @@ ht-degree: 26%
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 
-1. 選取&#x200B;**[!UICONTROL 頻率]**。 視選取的頻率而定，您會有其他選項。 請參閱下表。
+1. 選擇&#x200B;**[!UICONTROL 頻率]**。 根據所選頻率，您確實有其他選項。 請參閱下表。
 
    | 頻率 | 選項 |
    |---|---|
@@ -127,11 +128,11 @@ ht-degree: 26%
 若要傳送活頁簿：
 
 * 如果您尚未使用&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;定義排程，請選取&#x200B;**[!UICONTROL 立即傳送]**，以立即透過電子郵件傳送活頁簿。
-* 如果您已使用&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;定義排程，請選取&#x200B;**[!UICONTROL 依排程傳送]**，以使用您定義的排程透過電子郵件傳送活頁簿。
+* 如果您已使用&#x200B;**[!UICONTROL 顯示計畫選項]**&#x200B;定義了計畫，請選擇&#x200B;**[!UICONTROL 按計畫發送]**&#x200B;以使用您定義的計畫通過電子郵件發送工作簿。
 
-在這兩種情況下，您都會在Report Builder中心底部看到確認快顯通知。
+在這兩種情況下，您都會看到Report Builder中心底部的確認烤麵包。
 
-若要取消傳送活頁簿，請選取&#x200B;**[!UICONTROL 取消]**。
+要取消發送工作簿，請選擇&#x200B;**[!UICONTROL 取消]**。
 
 ## 管理舊版排程活頁簿
 

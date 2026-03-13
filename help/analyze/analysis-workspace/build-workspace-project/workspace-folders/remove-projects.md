@@ -1,24 +1,25 @@
 ---
-description: 瞭解如何從Analysis Workspace移除專案。
+description: 瞭解如何從Analysis Workspace刪除項目。
 keywords: Analysis Workspace
-title: 移除專案
+title: 刪除項目
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
-source-git-commit: 6fad2afb2b5792b6d6fbf8d94fff37b92cc18bda
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 7%
 
 ---
 
-# 移除專案
+# 刪除項目
 
 
-請參閱管理專案[中的](../freeform-overview.md#actions)動作，瞭解如何從Analysis Workspace移除專案。
+有關如何從Analysis Workspace刪除項目，請參閱[管理項目中的操作](../freeform-overview.md#actions)。
 
 
 
-<!-- Is this article still needed; not in the TOC anymore
+<!--
+Is this article still needed; not in the TOC anymore
 
 
 # Delete projects

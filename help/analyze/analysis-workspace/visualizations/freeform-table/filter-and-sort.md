@@ -4,7 +4,7 @@ title: 篩選與排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 51%
@@ -27,7 +27,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 * 排除表格中的特定資料列
 * 套用篩選器至表格
-* 使用區段篩選
+* 使用段篩選器
 
 請務必閱讀每種方法如何影響[自由格式表格總計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
@@ -45,14 +45,16 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
    按住 ***Shift*** 鍵以選取資料列範圍，或按住 ***cmd*** 鍵 (在 Mac 系統上)，或按 ***ctrl*** 鍵 (在 Windows 系統上) 以選取多個資料列。
 
-<!--### Right-click > Delete selected rows
+<!--
+### Right-click > Delete selected rows
 
 Note: this option does not seem to work. AN-338422
 
 1. Select 1 or more rows. 
 1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
 
-   This action will remove the rows from the table and apply a table filter.-->
+   This action will remove the rows from the table and apply a table filter.
+-->
 
 
 ### 套用簡單或進階篩選器至表格
@@ -100,15 +102,15 @@ Note: this option does not seem to work. AN-338422
 
 #### 設定線條視覺效果以包含篩選條件
 
-1. 選取量度欄標頭中的走勢圖。
+1. 在度量列標題中選擇迷你圖。
 
-   選取走勢圖儲存格時，會顯示為深灰色。 這表示篩選條件包含在連線的線條視覺效果中。 篩選條件會套用為欄上的區段。<!--show how to see it? Show what the segment looks like when it's applied? -->
+   選擇迷你圖單元格時，它顯示為深灰色。 這表示在連接的線可視化中包含篩選器條件。 篩選條件將作為列上的段應用。<!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   已選取![走勢圖](assets/table-sparkline-selected.png)
+   已選擇![迷你圖](assets/table-sparkline-selected.png)
 
-#### 瞭解欄總計何時可能不準確
+#### 瞭解列合計可能不準確的時間
 
-在下列情況下，欄總數可能會不準確：
+在以下情形中，列合計可能不準確：
 
 * 當在左欄中使用靜態元件時，[欄總計會計算為列的總和](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
 
@@ -143,15 +145,15 @@ Note: this option does not seem to work. AN-338422
 
 1. 將游標移至您要排序的資料行標頭上，然後選取&#x200B;**排序**&#x200B;圖示![排序](/help/assets/icons/SortOrderDown.svg) （當它出現時）。
 
-   ![排序下拉式功能表](assets/sort-dropdown-menu.png)
+   ![排序下拉菜單](assets/sort-dropdown-menu.png)
 
-1. 選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**。
+1. 選擇&#x200B;**[!UICONTROL 升序]**&#x200B;或&#x200B;**[!UICONTROL 降序]**。
 
-   將排序套用至欄時，排序圖示保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
+   對列應用排序時，排序表徵圖仍可見。 箭頭指示資料的排序方式（![按升序排序](/help/assets/icons/SortOrderUp.svg)，或按降序排序![按排序](/help/assets/icons/SortOrderDown.svg)）。
 
-## 依多個欄排序表格（進階排序）
+## 按多列對表排序（高級排序）
 
-### 將排序套用至多個欄
+### 對多列應用排序
 
 若要依多欄排序表格中的資料，請執行下列動作：
 
@@ -175,13 +177,13 @@ Note: this option does not seem to work. AN-338422
 
    * 在下拉式功能表中選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**，以變更排序值。
 
-   * 選取欄名稱下拉式功能表，以選取不同的欄。
+   * 通過選擇列名下拉菜單選擇其他列。
 
 1. 選取&#x200B;**[!UICONTROL 「套用」]**。
 
-將排序套用至欄時，排序圖示仍會保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
+對列應用排序時，排序表徵圖仍可見。 箭頭指示資料的排序方式（![按升序排序](/help/assets/icons/SortOrderUp.svg)，或按降序排序![按排序](/help/assets/icons/SortOrderDown.svg)）。
 
-![多重排序範例](assets/dimensions-multiple-sort.png)
+![多排序示例](assets/dimensions-multiple-sort.png)
 
 ### 排序優先順序
 

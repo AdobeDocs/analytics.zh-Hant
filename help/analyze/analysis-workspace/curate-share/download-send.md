@@ -4,7 +4,7 @@ title: 下載專案和資料
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 281dbf68c7a3f1afc35d775c731904bd9c413d6a
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 25%
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # 下載專案和資料
 
-您可以將Analysis Workspace專案和資料下載至本機裝置。 此下載檔案可以是複製資料、CSV （逗號分隔值資料）檔案或PDF （可攜式檔案格式）檔案。
+您可以將Analysis Workspace項目和資料下載到本地設備。 此下載可以是複製資料、CSV（逗號分隔值資料）檔案或PDF（可移植文檔格式）文檔。
 
 * 如果您想要在下載的檔案中加入視覺效果，請選取PDF選項。
 * 如果您只需要純文字資料，請選取CSV和複製的資料選項。
@@ -27,18 +27,18 @@ ht-degree: 25%
 
 ### 將專案下載為PDF檔案
 
-將專案下載為PDF時，請考量下列事項：
+將項目下載為PDF時，請考慮以下事項：
 
-* 在專案下載至您的工作站之前，請勿離開專案。 由於專案在Adobe伺服器上重新執行以便PDF呈現，下載作業可能需要幾分鐘的時間。 呈現下載時，您可以繼續變更專案。 如果PDF的轉譯時間超過5分鐘，系統會提示您改為[傳送電子郵件給PDF](../curate-share/send-schedule-files.md)。
+* 在項目下載到您的工作站之前，不要離開項目。 由於專案在Adobe伺服器上重新執行以便PDF呈現，下載作業可能需要幾分鐘的時間。 呈現下載時，您可以繼續變更專案。 如果PDF的轉譯時間超過5分鐘，系統會提示您改為[傳送電子郵件給PDF](../curate-share/send-schedule-files.md)。
 * 下載項目將呈現為單一頁面，而不套用任何分頁。
-* PDF包含可在Analysis Workspace的瀏覽器頁面中看到的內容。 若要避免截斷內容，請選取「![調整大小](/help/assets/icons/Resize.svg)」以自動調整任何自訂大小的視覺效果或面板的大小。
-* 在下載的PDF中，可點選自由表格中的[超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
+* PDF包含可在Analysis Workspace的瀏覽器頁面中看到的內容。 為避免截斷內容，請選擇![調整大小](/help/assets/icons/Resize.svg)以自動調整任何自定義大小的可視化效果或面板的大小。
+* 在下載的PDF中可按一下自由形式表中的[超連結](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)。
 
-若要將專案下載為PDF檔案：
+將項目下載為PDF檔案：
 
-1. 選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 下載PDF]**。
+1. 選擇&#x200B;**[!UICONTROL 項目]** > **[!UICONTROL 下載PDF]**。
 
-   綠色列會顯示下列訊息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已要求您的下載。 請稍候。]**
+   將顯示綠色欄，並顯示以下消息： ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 已請求下載。 請稍候。]**
 
 1. 下載準備就緒後，綠色列會顯示以下訊息： ![核取記號圓圈](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL *專案名稱&#x200B;*PDF已準備就緒。]**
 
@@ -46,9 +46,9 @@ ht-degree: 25%
 
    根據您的瀏覽器設定，PDF會自動下載至您先前設定的資料夾，或提示您選擇將下載PDF的資料夾。
 
-   檔案名稱由&#x200B;*專案名稱* - *報告套裝名稱* - *日期*&#x200B;組成。 例如，`Example Project - Omni-Channel - Luma - Jun 30, 2025.pdf`。
+   檔案名由&#x200B;*項目名稱* - *報表套件名稱* - *日期*&#x200B;組成。 例如，`Example Project - Omni-Channel - Luma - Jun 30, 2025.pdf`。
 
-### 將專案下載為CSV檔案
+### 將項目下載為CSV檔案
 
 1. 選取&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 下載CSV]**。
 
@@ -60,41 +60,42 @@ ht-degree: 25%
 
 內容功能表中的&#x200B;**[!UICONTROL 複製到剪貼簿]**&#x200B;選項可讓您從Analysis Workspace快速複製資料，並將資料貼到協力廠商工具中。
 
-* 如果您想要複製顯示的表格資料，請選取表格標頭，並從內容功能表選取&#x200B;**將資料複製到剪貼簿**。
-* 如果您想要複製資料的子集，請在表格中選取專案，然後從內容功能表中選取&#x200B;**將選取專案複製到剪貼簿**。
+* 如果要複製顯示的表資料，請選擇表標題，然後從上下文菜單中選擇&#x200B;**將資料複製到剪貼簿**。
+* 如果要複製資料的子集，請在表中進行選擇，然後從上下文菜單中選擇&#x200B;**將選擇內容複製到剪貼簿**。
 
 >[!TIP]
 >
 >您可以使用快速鍵&#x200B;**_cmd + c_** (macOS)或&#x200B;**_ctrl + c_** (Windows)，將您的選取內容複製到剪貼簿。 然後使用&#x200B;**_cmd + v_** (macOS)或&#x200B;**_ctrl + v_** (Windows)貼上資料。
 
 
-![「複製」選擇複製到剪貼簿選項。 &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![「複製」選擇複製到剪貼簿選項。 ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## 將視覺效果中的資料下載為CSV檔案 {#download-data}
 
-從快顯選單下載為CSV選項可讓您將資料表格或任何視覺效果的資料來源下載為CSV檔。
+從上下文菜單下載為CSV選項允許您下載資料表或任何可視化為CSV的資料源。
 
-若要進行此步驟：
+若要這麼做：
 
-* 從任何表格或視覺效果的標題中，選取內容功能表中的&#x200B;**[!UICONTROL 將資料下載為CSV檔]**。 這樣會將表格中顯示的資料或視覺效果的基本資料來源下載為 CSV 檔。
+* 從任何表或可視化的標題中，從上下文菜單中選擇&#x200B;**[!UICONTROL 將資料下載為CSV]**。 這樣會將表格中顯示的資料或視覺效果的基本資料來源下載為 CSV 檔。
 
-<!-- Only relevant as soon as CJA supports Map visualization 
+<!--
+Only relevant as soon as CJA supports Map visualization 
   >[!NOTE]
   >
   >  Note: the Map visualization does not support this option.
 -->
 
-* 在表格中，從內容功能表選取&#x200B;**[!UICONTROL 將選取專案下載為CSV檔]**。 使用此選項只會下載選取內容，不會下載完整的顯示表格。
+* 在表中，從上下文菜單中選擇&#x200B;**[!UICONTROL 下載選擇為CSV]**。 使用此選項只會下載選取內容，不會下載完整的顯示表格。
 
 ![下載資料為 CSV 選項。](assets/download-data-as-csv.png)
 
 ## 將專案下載為CSV檔案 {#download-items}
 
-如果您想要分析表格中超過400列的可見資料，請從表格標頭或任何一列的內容功能表中選取&#x200B;**以CSV格式下載專案(_Dimension名稱_)**。 此選項可針對選取的維度匯出多達 50,000 個維度項目 (根據表格排序)，並有套用的排序選項和篩選器。如果您從表格頂端選取此選項，會匯出表格中的第一個維度。
+如果要分析表中超過可見的400行的資料，請從表頭或任何行的上下文菜單中選擇&#x200B;**將項目下載為CSV(_Dimension名稱_)**。 此選項可針對選取的維度匯出多達 50,000 個維度項目 (根據表格排序)，並有套用的排序選項和篩選器。如果從表格頂部選擇此選項，則會導出表格中的第一個尺寸。
 
 ![將項目下載為 CSV (頁面) 選項。](assets/download-items-as-csv.png)
 
-自由表格中不強制執行任何限制。 為確保最佳效能，建議在少於20欄的表格中使用此選項。
+在自由形式表中不強制任何限制。 為確保最佳效能，建議在列數少於20的表中使用此選項。
 
 >[!TIP]
 >
@@ -105,7 +106,7 @@ ht-degree: 25%
 
 ### 已下載的項目檔案 {#items-file}
 
-下列自由表格功能會套用至下載的檔案：
+自由形式表的下列功能將應用於下載的檔案：
 
 * 所有面板區段都會套用為篩選條件。
 * 表格中所選維度&#x200B;**上方**&#x200B;的劃分會套用為每一欄上方的篩選條件。
@@ -118,17 +119,17 @@ ht-degree: 25%
 下載檔案時，您會看到下列通知：
 
 * 已要求藍色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv。_x _%完成]**，表示進度。 若要隨時取消下載，請選取&#x200B;**[!UICONTROL 取消下載]**。 若要關閉郵件，請選取![CrossSize100](/help/assets/icons/CrossSize100.svg)，這不會取消下載。
-* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**&#x200B;完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
+* 完成檔案下載後，已下載綠色&#x200B;**[!UICONTROL _表名&#x200B;_-_Dimension _.csv]**完成通知。 該檔案將下載到為瀏覽器配置的下載資料夾中。
 
 如果您一次要求多項下載，您會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列。
 
 
-## 常見問答 {#faq}
+## 常見問題 {#faq}
 
 | 問題 | 回答 |
 | --- | --- |
 | 為什麼我下載的PDF只包含一個頁面？ | [下載PDF](#download-as-csv-or-pdf)功能無法將下載的PDF分頁。 |
-| 我可以使用&#x200B;**[!UICONTROL 將專案下載為CSV檔]**&#x200B;選項匯出50,000個以上的專案嗎？ | 雖然每項下載最多可包含 50,000 個維度項目，您還是可以變更表格的排序，以擷取較冷門的項目，或是套用篩選條件來下載更明確的項目。 |
+| 是否可以使用&#x200B;**[!UICONTROL 下載項目作為CSV]**&#x200B;選項導出50,000個以上項目？ | 雖然每項下載最多可包含 50,000 個維度項目，您還是可以變更表格的排序，以擷取較冷門的項目，或是套用篩選條件來下載更明確的項目。 |
 | 「**[!UICONTROL 複製視覺效果]**」有什麼作用？ | 不同於&#x200B;[!UICONTROL **將資料複製到剪貼簿**]&#x200B;或&#x200B;[!UICONTROL **將選取專案複製到剪貼簿**]，**[!UICONTROL 複製視覺效果]**&#x200B;內容功能表選項不是匯出選項。 此選項可讓您[複製視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)或[將面板](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu)從Workspace中的某個位置複製到另一個位置。 例如，從某個面板複製到相同專案中的另一個面板，或從一個專案複製到另一個專案。 |
 
 
@@ -237,6 +238,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

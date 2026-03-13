@@ -4,7 +4,7 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: fd4d0a9f7c3083720f9d69a0299bb02426dbe451
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4799'
 ht-degree: 97%
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## 表格函數和列函數的比較
 
-表格函式是每個表格列的輸出都相同的函式。 列函式是表格每一列的輸出都不同的函式。
+表函式是表中每行的輸出相同的函式。 行函式是表中每行的輸出不同的函式。
 
 在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
@@ -228,7 +228,8 @@ CDF-Z(-3) ? 0.0013499
 | 量度 | 您要四捨五入的量度 |
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Confidence {#confidence}
 
@@ -249,7 +250,6 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | success-metric | The metric or metrics that a user is comparing variants with. |
 | control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 | significance-threshold | The threshold in this function is set to a default of 95%. |
-
 -->
 
 
@@ -396,8 +396,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
->
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 
 
 ## 等於 {#equal}
@@ -440,7 +439,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回相關係數。
+[!BADGE 表]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回相關係數。
 
 
 | 引數 | 說明 |
@@ -463,7 +462,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 列]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 Y。
+[!BADGE 行]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回 Y。
 
 
 | 引數 | 說明 |
@@ -487,7 +486,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 b。
+[!BADGE 表]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回 b。
 
 | 引數 | 說明 |
 |---|---|
@@ -510,7 +509,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 a。
+[!BADGE 表]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回 a。
 
 
 | 引數 | 說明 |
@@ -728,7 +727,8 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 `Metric 1 <= Metric 2`
 
 
-<!-- Only available in CJA 
+<!--
+Only available in CJA 
 
 ## Lift (#lift)
 
@@ -1473,7 +1473,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 | 量度 | 您要 Z 分數的量度 |
 | include_zeros | 計算中是否包括零值 |
 
-Z 分數為 0 (零) 表示分數與平均值相同。Z分數可以是正數或負數，指出其是否高於或低於平均值，以及標準差數目。
+Z 分數為 0 (零) 表示分數與平均值相同。Z得分可以是正數或負數，表示其高於或低於平均值以及多少標準偏差。
 
 Z 分數的方程式為：
 
