@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->跨裝置分析中的裝置圖表[已過時](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)，於&#x200B;**2025年12月31日**&#x200B;不再提供。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
+>跨裝置分析中的裝置圖表[已過時](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/device-graph)，於&#x200B;**2025年12月31日**&#x200B;不再提供。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
 >
 
 

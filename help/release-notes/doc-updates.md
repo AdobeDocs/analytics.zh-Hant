@@ -31,7 +31,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 新增使用地理和技術報表的相關資訊 | 新增在不同Analytics產品[文章中使用地理與技術報表](/help/analyze/get-started/analytics-product-comparison.md)時差異的相關資訊。 |
 | **2026 年 1 月** | |
 | 分類集規則產生器 | 分類集[功能中新](/help/components/classifications/sets/manage/rules.md)規則產生器功能的檔案。 |
-| 裝置圖表 | 已移除對[已中止裝置圖表功能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)的參考。 |
+| 裝置圖表 | 已移除對[已中止裝置圖表功能](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/device-graph)的參考。 |
 
 ### 2025 {#year2025}
 
