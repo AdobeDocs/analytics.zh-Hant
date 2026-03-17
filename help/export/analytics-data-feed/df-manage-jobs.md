@@ -6,7 +6,7 @@ exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 8%
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="資料摘要工作歷史記錄"
->abstract="您可以從此頁面檢視指定資料摘要的資料摘要作業清單。 依請求ID或請求期間開始日期搜尋作業。 有關每個工作的資訊會顯示在可用的欄中。 您也可以使用相同的資料重新傳送工作，或在重新傳送工作之前重新處理工作的來源資料。"
+>abstract="您可以在此頁面檢視特定資料摘要的資料摘要工作清單。依請求 ID 或請求期間開始日期搜尋工作。各工作的相關資訊會顯示在可用欄中。您也可以使用相同的資料重新傳送工作，或重新處理工作的來源資料後再重新傳送工作。"
 
 <!-- markdownlint-enable MD034 -->
 

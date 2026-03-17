@@ -6,7 +6,7 @@ exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料摘要管理](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="管理資料摘要"
->abstract="您可以從此頁面檢視、建立及管理資料摘要。 依名稱或ID搜尋摘要，或選取篩選器圖示以檢視可用的篩選器。"
+>abstract="您可以在此頁面檢視、建立及管理資料摘要。依名稱或 ID 搜尋摘要，或選取篩選器圖示以檢視可用的篩選器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,7 +61,7 @@ ht-degree: 15%
 
    可以編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 編輯帳戶或地點會影響與該帳戶或地點相關聯的所有專案。
 
-   舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
+   舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure Blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
@@ -101,7 +101,7 @@ ht-degree: 15%
 
    可以編輯帳戶和位置，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)和[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中所述。 編輯帳戶或地點會影響與該帳戶或地點相關聯的所有專案。
 
-   舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
+   舊版的資料摘要管理員可讓您建立FTP、SFTP、S3和Azure Blob目的地。 無法編輯或複製在這些舊版資料摘要管理員中建立的目的地。
 
 ## 暫停資料摘要
 

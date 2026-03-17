@@ -7,7 +7,7 @@ role: User
 source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '4799'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 ## 表格函數和列函數的比較
 
-表函式是表中每行的輸出相同的函式。 行函式是表中每行的輸出不同的函式。
+表格函式是每個表格列的輸出都相同的函式。 列函式是表格每一列的輸出都不同的函式。
 
 在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
@@ -396,7 +396,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。<br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 
 
 ## 等於 {#equal}
@@ -432,14 +432,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="指數迴歸：相關係數"
->abstract="指數回歸：Y = b * exp(aX)。 傳回相關係數。"
+>abstract="指數迴歸：Y = b * exp(aX)。傳回相關係數。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回相關係數。
+[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回相關係數。
 
 
 | 引數 | 說明 |
@@ -455,14 +455,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="指數迴歸：預計 Y"
->abstract="指數回歸：Y = b * exp(aX)。 傳回 Y。"
+>abstract="指數迴歸：Y = b * exp(aX)。傳回 Y。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 行]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回 Y。
+[!BADGE 列]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 Y。
 
 
 | 引數 | 說明 |
@@ -479,14 +479,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="指數迴歸：截距"
->abstract="指數回歸：Y = b * exp(aX)。 傳回 b。"
+>abstract="指數迴歸：Y = b * exp(aX)。傳回 b。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回 b。
+[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 b。
 
 | 引數 | 說明 |
 |---|---|
@@ -502,14 +502,14 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="指數迴歸：斜率"
->abstract="指數回歸：Y = b * exp(aX)。 傳回 a。"
+>abstract="指數迴歸：Y = b * exp(aX)。傳回 a。"
 
 <!-- markdownlint-enable MD034 -->
 
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表]{type="Neutral"}指數回歸： Y = b * exp(aX)。 傳回 a。
+[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 a。
 
 
 | 引數 | 說明 |
@@ -1473,7 +1473,7 @@ Only available in CJA
 | 量度 | 您要 Z 分數的量度 |
 | include_zeros | 計算中是否包括零值 |
 
-Z 分數為 0 (零) 表示分數與平均值相同。Z得分可以是正數或負數，表示其高於或低於平均值以及多少標準偏差。
+Z 分數為 0 (零) 表示分數與平均值相同。Z分數可以是正數或負數，指出其是否高於或低於平均值，以及標準差數目。
 
 Z 分數的方程式為：
 
