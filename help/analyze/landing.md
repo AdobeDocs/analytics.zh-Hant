@@ -4,42 +4,50 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 99%
+source-wordcount: '1488'
+ht-degree: 87%
 
 ---
 
 # Adobe Analytics 登陸頁面
 
-Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] (已終止服務) 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、範本區段，以及可協助您更有效地快速入門的學習區段。
+Adobe Analytics登陸頁面包含下列子標籤：
+
+**[!UICONTROL 專案]**：結合您所建立或其他人建立並與您共用的資料元件、表格和視覺效果的自訂設計。 [!UICONTROL 專案]也指空白專案和空白移動計分卡。
+
+**[!UICONTROL 範本]**：包含Adobe提供的範本以及貴組織專屬的任何範本。
+
+**[!UICONTROL 學習]**：包含實作影片導覽、教學課程和檔案連結。
+
+![AA登陸頁面左側邊欄](assets/aa-landing-page-left-rail.png)
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
+## 專案 {#navigate-projects}
 
+左側邊欄中的&#x200B;**[!UICONTROL 專案]**&#x200B;區段用作&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤的首頁。
 
-Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
+若要存取Adobe Analytics中的專案：
+
+1. 選取「[!UICONTROL **工作區**]」標籤。
+
+1. 在左側邊欄中選取&#x200B;[!UICONTROL **專案**]。
+
+「專案」區段會顯示公司資料夾、您建立的任何個人資料夾、您的Workspace專案以及行動計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。請參閱[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 
 **[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
 
-**[!UICONTROL 範本]**&#x200B;包括 Adobe 所提供的範本以及任何特定於貴組織的範本。
-
-「**[!UICONTROL 學習]**」標籤包含實作影片導覽、教學課程和文件連結。
-
-## 瀏覽至「[!UICONTROL 專案]」索引標籤。 {#navigate-projects}
-
-「[!UICONTROL 專案]」標籤可用作 [!UICONTROL Workspace] 首頁。「專案」索引標籤會顯示公司資料夾、您建立的任何個人資料夾、您的專案和 Mobile 計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。 如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
-
-![登陸 - 所有項目](assets/landing-all2.png)
-
 >[!NOTE]
 >
->下列數項設定會在工作階段和跨工作階段期間持續存在。例如，您選取的索引標籤、選取的篩選器、選取的欄，以及欄排序方向。 搜尋結果不會持續存在。
+>以下幾項設定會跨工作階段持續存在。 例如，您選取的索引標籤、選取的區段、選取的欄，以及欄排序方向。搜尋結果不會持續存在。
+
+請參閱[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 
 ### 自訂表格欄
 
@@ -89,9 +97,15 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 | 顯示：資料夾與專案或所有專案 | 變更表格上的視圖設定，以根據資料夾組織顯示資料夾和專案&#x200B;**或**&#x200B;以無組織的清單顯示所有專案。 |
 | &lt; (返回按鈕) | 將您傳回至工作區專案或壣表中最新的登陸頁面設定。 離開登陸頁面時您擁有頁面設定，會在您返回時持續留在該頁面。 |
 
-## 瀏覽至「[!UICONTROL 範本]」索引標籤 {#navigate-reports}
+## 範本 {#navigate-reports}
 
-如需關於在 Adobe Analytics 中使用客戶屬性的詳細資訊，請參閱下列資源：
+若要存取Adobe Analytics中的範本：
+
+1. 選取「[!UICONTROL **工作區**]」標籤。
+
+1. 在左側邊欄的&#x200B;[!UICONTROL **範本**]&#x200B;區段中，您可以選取Adobe範本或公司範本。
+
+如需使用範本的相關資訊，請參閱下列資源：
 
 * [使用範本](/help/analyze/analysis-workspace/templates/use-templates.md)
 
@@ -101,7 +115,7 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 
 「學習」頁面包含實作影片導覽、教學課程和文件連結。
 
-使用 Adobe Analytics 中的「學習」頁面學習 Adobe Analytics 的初級、中級或進階功能和使用案例。
+使用Adobe Analytics中的學習頁面來瞭解Adobe Analytics中的初學者、中繼或進階功能和使用案例。
 
 ### 存取「學習」頁面
 
@@ -120,8 +134,8 @@ Adobe Analytics 登陸頁面含有以下子標籤：專案、範本和學習。
 
 使用者可以設定他們偏好的登陸頁面。
 
-1. 前往「Analytics > [!UICONTROL 元件] > [!UICONTROL 偏好設定] > [!UICONTROL 一般]」。
-1. 確認您偏好哪個登陸頁面：
+1. 在Adobe Analytics中選取&#x200B;[!UICONTROL **元件**] > [!UICONTROL **偏好設定**] > [!UICONTROL **一般**]。
+1. 選取您偏好的登陸頁面。
 
    ![設定登陸頁面](assets/landing-pref.png)
 
