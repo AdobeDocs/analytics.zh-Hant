@@ -145,7 +145,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 | **[!UICONTROL 廣告平台]** | 廣告DSP或搜尋引擎名稱。 | &amp;amp；檢查； | &amp;amp；檢查； |
 | **[!UICONTROL 廣告標題]** | 廣告型別(DSP)或廣告標題（搜尋、社交和Commerce）。 | &amp;amp；檢查； | &amp;amp；檢查； |
 | **[!UICONTROL 廣告型別]** | 廣告型別，例如`text`、`video`、`display`或`native`。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 ]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
+| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 &#x200B;]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
 | **[!UICONTROL Campaign]** | 行銷活動名稱。 | &amp;amp；檢查； | &amp;amp；檢查； |
 | **[!UICONTROL Creative體驗名稱]** | 和廣告互動相關聯的創意體驗名稱，代表測試或個人化中使用的一組創意變體。 | &amp;amp；檢查； | |
 | **[!UICONTROL Creative分支名稱]** | 創意體驗中的分支名稱，代表創意實驗中的特定變數或路徑。 | &amp;amp；檢查； | |
