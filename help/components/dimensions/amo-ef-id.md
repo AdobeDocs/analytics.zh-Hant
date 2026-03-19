@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising整合中使用的廣告點選識別碼。 這是Adobe Advertising用來將活動與訪客層級的線上點選或廣告曝光度建立關聯的唯一Token。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
+**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising整合中使用的廣告點選識別碼。 這是Adobe Advertising用來將活動與訪客層級的線上點選或廣告曝光度建立關聯的唯一Token。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
 
 ## 將資料填入此維度中
 

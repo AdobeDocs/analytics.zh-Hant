@@ -11,7 +11,7 @@ ht-degree: 3%
 
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;是用於Adobe Advertising整合中的串連識別碼集合。 儲存在此維度中的值會自動組織為個別、更人類看得懂的分類維度，以用於Analytics報表。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
+**[!UICONTROL AMO ID]**&#x200B;是用於Adobe Advertising整合中的串連識別碼集合。 儲存在此維度中的值會自動組織為個別、更人類看得懂的分類維度，以用於Analytics報表。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
 
 ## 將資料填入此維度中
 
@@ -133,7 +133,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分類
 
-啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立下列分類。 整合會自動維護分類值。
+啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立下列分類。 整合會自動維護分類值。
 
 | 分類 | 說明 | DSP | 搜尋，<br>社交， &amp;<br>Commerce |
 | --- | --- | :---: | :---: |

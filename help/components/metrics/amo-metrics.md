@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Advertising度量
 
-啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立這些量度。 如需詳細資訊，請參閱Adobe Advertising檔案中的[Analysis Workspace中的Adobe Advertising量度](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)。
+啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立這些量度。 如需詳細資訊，請參閱Adobe Advertising檔案中的[Analysis Workspace中的Adobe Advertising量度](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics)。
 
 | 量度 | 說明 |
 | --- | --- |
