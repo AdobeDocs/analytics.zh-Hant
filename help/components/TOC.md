@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '745'
 ht-degree: 98%
 
 ---
@@ -25,6 +25,9 @@ ht-degree: 98%
    + [Activity Map 地區](dimensions/activity-map-region.md)
    + [廣告平台同意](dimensions/ad-consent.md)
    + [所有搜尋頁面排名](dimensions/all-search-page-rank.md)
+   + [AMO ID](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [AMO Meta 廣告點按 ID](dimensions/amo-meta-id.md)
    + [上午/下午](dimensions/am-pm.md)
    + [機器人名稱](dimensions/bot-name.md)
    + [瀏覽器高度](dimensions/browser-height.md)
@@ -120,7 +123,7 @@ ht-degree: 98%
    + [郵遞區號](dimensions/zip-code.md)
 + 量度 {#metrics}
    + [量度概觀](metrics/overview.md)
-   + [計算重複實例數](metrics/count-repeat-instances.md)
+   + [Advertising度量](metrics/amo-metrics.md)
    + [平均頁面深度](metrics/average-page-depth.md)
    + [每次造訪的平均頁面瀏覽數](metrics/average-page-views-per-visit.md)
    + [平均工作階段長度](metrics/average-session-length.md)
@@ -306,7 +309,7 @@ ht-degree: 98%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [搭配行銷管道使用 Attribution &#x200B;](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution ](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)

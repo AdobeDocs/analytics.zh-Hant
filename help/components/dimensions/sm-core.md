@@ -3,10 +3,10 @@ title: 串流媒體服務核心維度
 description: 為報表套裝啟用[!UICONTROL 媒體核心]時可用的維度。
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 7%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 7%
 | **[!UICONTROL 內容區段]** | 說明已檢視部分內容的間隔（分鐘）。 此區段的計算方式為播放工作階段期間播放點值的最大值與最小值。 | 媒體關閉 | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL 內容型別]** | 內容型別。 有效值包括`song`、`podcast`、`audiobook`、`radio`、`VoD`、`Live`、`Linear`、`UGC`、`DVoD`或自訂值。 | 媒體開始、媒體關閉 | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL 媒體路徑]** | 訪客到達內容所使用的路徑。 | 媒體開始 | `a.media.path` | |
+| **[!UICONTROL 媒體工作階段識別碼]** | 識別個別播放所獨有的內容資料流的例項。 | 媒體開始、媒體關閉 | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL 資料流型別]** | 資料流型別。 有效值包括 `audio` 和 `video`。 | 媒體開始、媒體關閉 | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 除了上述維度之外，Adobe會自動建立下列分類維度。 您必須上傳分類資料，才能檢視使用這些維度的報表。
