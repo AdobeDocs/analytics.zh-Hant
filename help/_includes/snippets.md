@@ -1,8 +1,8 @@
 ---
-source-git-commit: b1a774e6f6af0c27a5e60f8f7e4c8eaf96005928
+source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 87%
+source-wordcount: '3047'
+ht-degree: 86%
 
 ---
 # 程式碼片段
@@ -14,7 +14,7 @@ ht-degree: 87%
 >自2024年10月16日起，推出精簡的新版[Report Builder](/help/analyze/report-builder/rb-overview.md)。 此Report Builder在macOS、Windows和網頁瀏覽器上受支援，並可搭配Adobe Analytics和Customer Journey Analytics使用。
 >這個舊版Report Builder增益集版本仍可運作。 您可以[將舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換為新的Report Builder。
 
-## Reports & Analytics 生命週期結束通知 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ ht-degree: 87%
 > 
 >自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。本通知說明生命週期結束程序。
 >
->進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。
+>進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_en)。
 
 ## 元件排序選項 {#components-sort-options}
 
@@ -61,6 +61,9 @@ ht-degree: 87%
 >本節所述的功能僅適用於已擁有該功能授權的現有客戶。 此功能不再作為現有或新客戶的額外附加元件提供。
 >
 
+## 影片示範Customer Journey Analytics {#videocja}
+
+此影片示範使用Customer Journey Analytics的功能。 不過，Adobe Analytics也提供類似功能。 請注意 Adobe Analytics 和 Customer Journey Analytics 之間的術語差異 (例如「*造訪*」與「*工作階段*」)。
 
 
 ## 歸因模型 {#attribution-models-details}
