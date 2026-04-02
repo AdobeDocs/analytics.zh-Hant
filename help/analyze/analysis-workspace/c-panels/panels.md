@@ -4,9 +4,9 @@ title: Analysis Workspace中的面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
+source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
 workflow-type: tm+mt
-source-wordcount: '2729'
+source-wordcount: '2769'
 ht-degree: 42%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 42%
 
 ## 報告套裝
 
-每個面板都與一個[報告套裝](/help/admin/tools/manage-rs/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**&#x200B;識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[報告套裝](/help/admin/tools/manage-rs/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
 建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
 
@@ -137,7 +137,7 @@ ht-degree: 42%
      您可以選取方括弧中的文字（例如&#x200B;**[!UICONTROL 固定開始 — 每日滾動]**）來延伸面板，並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資料。
 
       1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
+      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。為運算式的個別部分選擇適當的值。
          * 選取目前的值。例如，**[!UICONTROL 目前的年份]**。
          * 選取一個值進行其他計算。例如，**[!UICONTROL 加]**。
          * 當您指定其他計算時，請指定一個值。例如，`1`。
@@ -224,16 +224,16 @@ ht-degree: 42%
 
 對於您按住&#x200B;**⇧位時放置**&#x200B;的任何量度、區段或日期範圍元件，都會建立區段下拉式功能表。 該下拉式功能表可讓您根據拖放元件的可用專案來篩選面板。
 
-對於您按住&#x200B;*⇧位時放置*&#x200B;的任何&#x200B;**維度**&#x200B;元件，會建立區段下拉式功能表。 該下拉式功能表可讓您根據可放置的維度專案（[靜態](#static)區段下拉式功能表）或維度元件（[動態](#dynamic)區段下拉式功能表）的專案來篩選面板。 若要明確設定下拉式功能表以使用區段進行篩選：
+對於您按住&#x200B;*⇧位時放置*&#x200B;的任何&#x200B;**維度**&#x200B;元件，會建立區段下拉式功能表。 該下拉式功能表可讓您根據可放置的維度專案（[靜態](#static)區段下拉式功能表）或維度元件（[動態](#dynamic)區段下拉式功能表）的專案來篩選面板。 若要明確設定下拉式功能表以使用區段來篩選面板：
 
-* 選取![劃分](/help/assets/icons/Breakdown.svg)，並從元件![的內容功能表中選取](/help/assets/icons/Filter.svg)篩選器❾。
+* 選取![劃分](/help/assets/icons/Breakdown.svg)並選取![篩選](/help/assets/icons/Filter.svg) **[!UICONTROL 區段]** | **[!UICONTROL 從元件]**&#x200B;的內容功能表篩選面板❾中的資料。
 
 
 #### 劃分面板
 
-對於您按住&#x200B;*⇧位時放置*&#x200B;的任何&#x200B;**維度**&#x200B;元件，會建立區段下拉式功能表。 您可以改為設定下拉式功能表來劃分。 若要明確設定下拉式功能表以使用劃分進行劃分：
+對於您按住&#x200B;*⇧位時放置*&#x200B;的任何&#x200B;**維度**&#x200B;元件，會建立區段下拉式功能表。 您可以設定該下拉式功能表，以根據下拉維度專案的可用專案（[靜態](#static)劃分下拉式功能表）或維度元件（[動態](#dynamic)劃分下拉式功能表）來劃分面板。 若要明確設定下拉式功能表以使用劃分來劃分面板：
 
-* 選取![篩選器](/help/assets/icons/Filter.svg)，然後從元件![的內容功能表中選取](/help/assets/icons/Breakdown.svg)劃分❾。
+* 選取![篩選器](/help/assets/icons/Filter.svg)並選取![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]** | **[!UICONTROL 從元件]**&#x200B;的內容功能表劃分面板❾中的資料。
 
 >[!IMPORTANT]
 >
@@ -281,13 +281,13 @@ ht-degree: 42%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用篩選器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用篩選器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動態下拉式功能表](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動態下拉式功能表](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}。
 
 {{videocja}}
 
