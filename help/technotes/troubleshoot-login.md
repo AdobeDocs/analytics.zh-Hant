@@ -20,7 +20,7 @@ Adobe Analytics 會使用多種驗證方法來登入：
 
 **如果您定期存取 Analytics 且開始遇到隨意的登入問題，您可清除瀏覽器的 Cookie 和快取記憶即可解決大部分問題。**
 
-有時，可用性問題會影響登入功能。查看 [status.adobe.com](https://status.adobe.com)，了解任何未結案的事件。否則，請根據您組織的驗證方法使用適當的章節。
+有時，可用性問題會影響登入功能。查看 [status.adobe.com](https://status.adobe.com/zh-tw)，了解任何未結案的事件。否則，請根據您組織的驗證方法使用適當的章節。
 
 ## Adobe ID
 
