@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5dde5298f522d6045f8872c878f6796dcfa0f710
+source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 53%
+source-wordcount: '1041'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 53%
 
 | 功能和說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
-| **Activity Map改良功能**<br/> Activity Map包含下列增強功能：</p><ul><li>支援Activity Map Overlay擴充功能，搭配Adobe Analytics的Web SDK實作。</li><li>支援WebSDK追蹤（當追蹤移至Analytics）。</li><li>更新整個使用者介面的樣式。</li></ul><p>(文件連結待補充。)</p> | | 2026 年 4 月 |
 | **適用於Adobe Analytics的MCP伺服器** <br/>您現在可以使用MCP （模型內容通訊協定）將Adobe Analytics連結到您現有的代理式工作流程。 您可以使用自然語言來請求報表和深入分析。<p>(文件連結待補充。)</p> | | 2026年4月底 |
 | **串流媒體服務：支援排程資料** <br/>您現在可以上傳過去直播串流媒體內容的排程資料，以更輕鬆準確地追蹤觀看率。<p>以下是支援排程資料上傳的直播內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>(原規劃於 2025 年 10 月 29 日發行)</p> |
 | **其他API日期範圍格式**<br/>&#x200B;現在支援兩種新格式，以便在Analytics 2.0 API報表請求中指定日期範圍。 這包括日期公式和混合格式。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026 年 3 月 |
@@ -62,6 +61,6 @@ ht-degree: 53%
 ## 相關資源
 
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
-* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-Hant)
+* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html)
 * [串流媒體服務發行說明](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=zh-hant)
-* [Adobe Experience Cloud 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+* [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
