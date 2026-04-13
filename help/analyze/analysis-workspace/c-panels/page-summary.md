@@ -1,6 +1,6 @@
 ---
-description: 瞭解如何使用頁面摘要面板顯示所選頁面的摘要資訊。
-title: 頁面摘要面板
+description: Learn how to use the page summary panel to show summary information for a selected page.
+title: Page Summary Panel
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**_<br/>_中無等效面板_。_
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 | 輸入 | 說明 |
 | --- | --- |
-| **[!UICONTROL 頁面]** | 選取您要探索其關鍵統計資料的頁面的頁面維度。 例如&#x200B;**[!UICONTROL home]**，探索首頁的統計資料。 使用下拉式功能表選取頁面或開始輸入（例如`home`）以快速搜尋頁面。 |
+| **[!UICONTROL 頁面]** | Select a page dimension for which page you want to explore key statistics. For example **[!UICONTROL home]** to explore statistics for the Home page. Use the drop-down menu to select a page or start typing (for example `home`) to quickly search for pages. |
 
 {style="table-layout:auto"}
 

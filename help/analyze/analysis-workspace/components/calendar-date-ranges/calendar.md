@@ -23,7 +23,7 @@ ht-degree: 100%
 
 您可以使用日期範圍元件來重新定義面板的行事曆。
 
-或者，您可以使用自由格式表中的日期範圍作為量度或維度。
+或者，您可以使用自由格式表格中的日期範圍作為量度或維度。
 
 ![日期範圍使用](assets/date-ranges-usage.png)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表所屬面板指定的行事曆。
+>當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表格所屬面板指定的行事曆。
 >
 
 使用日期範圍的方式與[使用任何元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)的方式一樣。您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：
@@ -49,7 +49,7 @@ ht-degree: 100%
    - **[!UICONTROL 新增時段欄]**。您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
    - **[!UICONTROL 比較時段]**。 您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
 
-1. 根據您的選擇，額外的日期範圍欄將會新增至自由格式表中。
+1. 根據您的選擇，額外的日期範圍欄將會新增至自由格式表格中。
 
 ## 預設日期範圍
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-Hant) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |
