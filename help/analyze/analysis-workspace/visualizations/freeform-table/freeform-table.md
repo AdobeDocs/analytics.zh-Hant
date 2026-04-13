@@ -1,6 +1,6 @@
 ---
-title: 自由表格概述
-description: 瞭解如何使用自由表格，這是Analysis Workspace中資料分析的基礎。
+title: Freeform Table Overview
+description: Learn how to use freeform tables, which are the foundation for data analysis in Analysis Workspace.
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3

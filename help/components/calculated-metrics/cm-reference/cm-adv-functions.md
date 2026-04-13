@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ## 表格函數和列函數的比較
 
-表格函式是每個表格列的輸出都相同的函式。 列函式是表格每一列的輸出都不同的函式。
+A table function is one where the output is the same for every row of the table. A row function is one where the output is different for every row of the table.
 
 在適用且相關的情況下，函數會以函數類型進行註解：[!BADGE 表格]{type="Neutral"}或[!BADGE 列]{type="Neutral"}
 
@@ -439,7 +439,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：相關係數 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回相關係數。
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). 傳回相關係數。
 
 
 | 引數 | 說明 |
@@ -462,7 +462,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：預測 Y (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 列]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 Y。
+[!BADGE Row]{type="Neutral"} Exponential regression: Y = b * exp(aX). 傳回 Y。
 
 
 | 引數 | 說明 |
@@ -486,7 +486,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：截距 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 b。
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). 傳回 b。
 
 | 引數 | 說明 |
 |---|---|
@@ -509,7 +509,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 ![效果](/help/assets/icons/Effect.svg)**[!UICONTROL 指數迴歸：斜率 (metric_X、metric_Y、include_zeros)]**
 
 
-[!BADGE 表格]{type="Neutral"}指數回歸：Y = b * exp(aX)。 傳回 a。
+[!BADGE Table]{type="Neutral"} Exponential regression: Y = b * exp(aX). 傳回 a。
 
 
 | 引數 | 說明 |
@@ -1473,7 +1473,7 @@ Only available in CJA
 | 量度 | 您要 Z 分數的量度 |
 | include_zeros | 計算中是否包括零值 |
 
-Z 分數為 0 (零) 表示分數與平均值相同。Z分數可以是正數或負數，指出其是否高於或低於平均值，以及標準差數目。
+Z 分數為 0 (零) 表示分數與平均值相同。A Z-score can be positive or negative, indicating whether it is above or below the mean and by how many standard deviations.
 
 Z 分數的方程式為：
 

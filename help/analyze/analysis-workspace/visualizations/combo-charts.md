@@ -1,5 +1,5 @@
 ---
-description: 瞭解如何在Analysis Workspace中將比較資料視覺化，例如建置和上個月、去年等的比較資料。
+description: Learn how to visualize comparison data in Analysis Workspace, such as building comparisons to last month, last year, and so on.
 title: 組合
 feature: Visualizations
 role: User, Admin

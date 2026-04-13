@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [將標記資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 使用 JavaScript 實作 Analytics {#js}
    + [JavaScript 概觀](js/overview.md)
-   + [實作選擇退出連結](js/opt-out.md)
+   + {hide-from-toc}[實施退出連結](js/opt-out.md)
    + [變數覆寫](js/overrides.md)
    + [從 H 程式碼移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}

@@ -4,9 +4,8 @@ description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
-hidefromtoc: true
 role: Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -18,7 +17,7 @@ ht-degree: 67%
 >[!IMPORTANT]
 >
 > 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
+> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 
@@ -51,7 +50,7 @@ ht-degree: 67%
 
 找出實作的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
 
-* 協力廠商 Cookie：`https://example.data.adobedc.net/optout.html`
+* 第三方 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie：`https://stats.example.com/optout.html`
 
 ## 選擇退出查詢字串參數
