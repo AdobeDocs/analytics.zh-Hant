@@ -1,17 +1,17 @@
 ---
 description: 設定雲端匯入帳戶以及可上傳分類資料的位置
 keywords: Analysis Workspace
-title: 設定雲端匯入和匯出位置
+title: 設定雲端匯入及匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
 
 ---
 
-# 設定雲端匯入和匯出位置
+# 設定雲端匯入及匯出位置
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -26,7 +26,7 @@ ht-degree: 33%
 * 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)時匯出檔案
 * 使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述
 
-您必須使用存取雲端帳戶的必要資訊來設定Adobe Analytics。 此程式包括新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中所述，然後新增及設定該帳戶內的位置（如本文所述）。
+您必須使用存取雲端帳戶的必要資訊來設定Adobe Analytics。 此程式包括新增及設定帳戶（例如Amazon S3角色ARN、Google Cloud Platform等），如[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中所述，然後新增及設定該帳戶內的位置（如本文所述）。
 
 如需有關如何檢視和刪除現有位置的資訊，請參閱[位置管理員](/help/components/locations/locations-manager.md)。
 
@@ -174,7 +174,7 @@ ht-degree: 33%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   您現在可以將資料匯出至使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)時設定的帳戶和位置。 ([Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件位置)。
+   您現在可以將資料匯出至使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)時設定的帳戶和位置。 （[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)、[Report Builder](/help/analyze/report-builder/report-builder-export.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件位置）。
 
 ### 舊帳戶類型
 
@@ -241,7 +241,7 @@ ht-degree: 33%
 
 +++Azure Blob
 
-Data Warehouse 支援 Azure Blob 目標。容器、帳戶和金鑰為必填。Amazon 會自動加密閒置的資料。下載資料時，則會自動解密。如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+Data Warehouse支援Azure Blob目的地。 容器、帳戶和金鑰為必填。Azure會自動加密閒置的資料。 下載資料時，則會自動解密。如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
 
 >[!NOTE]
 >
