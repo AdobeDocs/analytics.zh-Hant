@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 設定雲端匯入及匯出位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
+source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1711'
 ht-degree: 33%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 33%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
+   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
    匯入的資料匯入後，不會從雲端目的地刪除。
 
@@ -102,7 +102,7 @@ ht-degree: 33%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
+   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
    匯入的資料匯入後，不會從雲端目的地刪除。
 
@@ -126,7 +126,7 @@ ht-degree: 33%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
+   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
    匯入的資料匯入後，不會從雲端目的地刪除。
 
@@ -151,7 +151,7 @@ ht-degree: 33%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
+   您現在可以將資料匯入或匯出至您設定的帳戶和位置，或從這些帳戶和位置匯出資料。 若要匯出資料，請使用[資料摘要](/help/export/analytics-data-feed/create-feed.md)、[Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)或[Report Builder](/help/analyze/report-builder/report-builder-export.md)。 若要匯入資料，請使用[分類集](/help/components/classifications/sets/overview.md)。
 
    匯入的資料匯入後，不會從雲端目的地刪除。
 
