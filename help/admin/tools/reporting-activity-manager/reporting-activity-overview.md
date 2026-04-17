@@ -4,16 +4,14 @@ title: 報告活動管理員概觀
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # 報告活動管理員概觀
-
-[!UICONTROL 報告活動管理員]可供管理員使用。
 
 當您的組織在尖峰報告期間體驗報告效能降低時，報告活動管理員可讓您自行診斷並修正容量問題，無需 Adobe 客戶服務介入。您可以在單一介面中輕鬆管理報告佇列並立即採取行動，以改善使用者體驗。
 
