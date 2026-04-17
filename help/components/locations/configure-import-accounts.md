@@ -1,17 +1,17 @@
 ---
 description: 設定雲端匯入帳戶以及可上傳分類資料的位置
 keywords: Analysis Workspace
-title: 設定雲端匯入和匯出帳戶
+title: 設定雲端匯入及匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
-# 設定雲端匯入和匯出帳戶
+# 設定雲端匯入及匯出帳戶
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -26,7 +26,7 @@ ht-degree: 68%
 * 使用[Report Builder](/help/analyze/report-builder/report-builder-export.md)時匯出檔案
 * 使用[分類集](/help/components/classifications/sets/overview.md)匯入結構描述
 
-您需要為Adobe Analytics設定存取雲端帳戶所需的必要資訊。 此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照[設定雲端匯入及匯出位置](/help/components/locations/configure-import-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
+您需要為Adobe Analytics設定存取雲端帳戶所需的必要資訊。 此程式包含依照本文所述新增及設定帳戶（例如Amazon S3角色ARN、Google Cloud Platform等），然後依照[設定雲端匯入及匯出位置](/help/components/locations/configure-import-locations.md)所述，新增及設定該帳戶內的位置（例如帳戶內的資料夾）。
 
 如需有關如何檢視和刪除現有帳戶的資訊，請參閱[位置管理員](/help/components/locations/locations-manager.md)。
 
@@ -145,14 +145,19 @@ ht-degree: 68%
 
    +++FTP
 
-   資料摘要的資料可以傳送至 Adobe 或客戶託管的 FTP 位置。FTP 主機、使用者名稱和密碼為必填。請使用路徑欄位將摘要檔案置入檔案夾。資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
+   >[!IMPORTANT]
+   >
+   >不應使用FTP，因為資料是以純文字流經網際網路。
+
+
+   資料摘要的資料可以傳送至 Adobe 或客戶託管的 FTP 位置。需要FTP主機、使用者名稱和密碼。
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **主機**] | 輸入所需的FTP目的地URL。 例如，`ftp.adobe.com`。 |
-   | [!UICONTROL **路徑**] | 可留空。 |
+   | [!UICONTROL **主機名稱**] | 輸入所需的FTP目的地URL。 例如，`ftp.adobe.com`。 |
+   | [!UICONTROL **連線埠**] | 可留空。 使用此欄位可將摘要檔案置於資料夾中。 資料夾必須已存在；如果指定的連線埠不存在，摘要會傳回錯誤。 |
    | [!UICONTROL **使用者名稱**] | 輸入要登入FTP網站的使用者名稱。 |
-   | [!UICONTROL **密碼並確認密碼**] | 輸入密碼以登入FTP站台。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 輸入密碼（密碼）以登入FTP站台。 |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ ht-degree: 68%
 
    +++SFTP
 
-   SFTP 可支援資料摘要。這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或DSA公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
+   SFTP 可支援資料摘要。這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或ed25519公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
 
-   下載資料摘要的RSA或DSA公開金鑰時，請執行下列其中一項操作：
+   下載資料摘要的RSA或ed25519公開金鑰時，請執行下列其中一項操作：
 
    * 將下載的公開金鑰檔案重新命名為`authorized_keys`，然後將檔案上傳至SFTP伺服器上的`.ssh`資料夾。
 
