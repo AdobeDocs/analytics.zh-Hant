@@ -3,7 +3,7 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 30%
@@ -120,7 +120,7 @@ ht-degree: 30%
    >
    >設定報告目標時，請考慮以下事項：
    >
-   >* Adobe建議您為報表目的地使用雲端帳戶。 可以使用[舊版 FTP 和 SFTP 帳戶](#legacy-destinations)，但不建議使用。
+   >* Adobe建議您為報表目的地使用雲端帳戶。 可以使用[舊版 FTP 和 SFTP 帳戶](/help/components/locations/configure-import-accounts.md)，但不建議使用。
    >* 您先前設定的任何雲端帳戶都可用於資料摘要。 您可以透過以下任一方式設定雲端帳戶：
    >
    >   * 在設定[資料倉儲](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的雲端帳戶時
