@@ -4,10 +4,10 @@ description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 78%
+source-wordcount: '622'
+ht-degree: 74%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 78%
 | [!UICONTROL 預設量度] | 授與「報告套裝管理器」中「個別報告套裝設定 > 預設量度」的存取權。 |
 | [!UICONTROL 依 IP 位址排除] | 授與 Analytics 頂端導覽列中「管理員 > 依 IP 排除」的存取權。 |
 | [!UICONTROL 尋找方法] | 授與「報告套裝管理器」中「轉換 > 尋找方法」的存取權。 |
-| [!UICONTROL 清單變數 &#x200B;] | 授與「報告套裝管理器」中「轉換 > 清單變數」的存取權。 |
+| [!UICONTROL 清單變數 ] | 授與「報告套裝管理器」中「轉換 > 清單變數」的存取權。 |
 | [!UICONTROL 功能表自訂] | 授與「報告套裝管理器」中「一般 > 自訂功能表」的存取權。 |
 | [!UICONTROL 我的建議報表] | 未使用 |
 | [!UICONTROL 付費搜尋] | 授與「報告套裝管理器」中「一般 > 付費搜尋偵測」的存取權。 |
@@ -46,7 +46,7 @@ ht-degree: 78%
 | [!UICONTROL 即時報表] | 授予Adobe範本中「參與>即時」的存取權。 |
 | [!UICONTROL 報告活動管理員管理員] | 未使用 |
 | [!UICONTROL 報告活動管理員存取權] | 未使用 |
-| [!UICONTROL 報表套裝管理] | 授與「報告套裝管理器」的存取權，但不允許任何變更。 |
+| [!UICONTROL 報表套裝管理] | 授予「報表套裝管理器」的存取權。 允許建立報表套裝，但不授與存取許可權給&#39;[!UICONTROL 編輯設定]&#39;下的任何專案。 另請參閱[[!UICONTROL 報表套裝管理員UI存取權]](analytics-tools.md)。 |
 | [!UICONTROL 回訪] | 未使用 |
 | [!UICONTROL R&amp;A儀表板公司摘要小報告] | 未使用 |
 | [!UICONTROL R&amp;A儀表板外部小報告] | 未使用 |
@@ -60,5 +60,3 @@ ht-degree: 78%
 | [!UICONTROL 流量變數] | 授與「報告套裝管理器」中「流量 > 流量變數」的存取權。 |
 | [!UICONTROL 不重複訪客] | 授與「轉換 > 不重複訪客變數」的存取權。通常不會用於新版的實施中。 |
 | [!UICONTROL URL 篩選器] | 授與「報告套裝管理器」中「一般 > 內部 URL 篩選器」的存取權。 |
-
-{style="table-layout:auto"}
