@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報告套裝等。
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
 + Analytics 管理員工具 {#admin-tools}
    + [管理員工具概觀](tools/c-admin-tools.md)
-   + [程式碼管理員](tools/code-manager-admin.md)
+   + [代碼管理員](tools/code-manager-admin.md)
    + [Analytics 庫存](tools/analytics-inventory.md)
    + [資料來源](tools/data-sources.md)
    + [依 IP 位址排除](tools/exclude-ip.md)
@@ -160,4 +160,3 @@ ht-degree: 100%
          + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](tools/user-management/user-migration/migrate-enterprise.md)
          + [停用舊版登入](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](tools/user-management/user-migration/developer.md)
-+ [管理 API](https://developer.adobe.com/analytics-apis/docs/2.0/)
