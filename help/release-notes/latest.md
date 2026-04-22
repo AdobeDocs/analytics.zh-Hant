@@ -3,16 +3,16 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 7a245e2c24e8763c93150aa5b9f3ac2d197f6f1f
+source-git-commit: 907f510e02a0f5cb378c139a20cc147304ad0d70
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 100%
+source-wordcount: '1103'
+ht-degree: 90%
 
 ---
 
 # 最新的 Adobe Analytics 發行說明 (2026 年 4 月)
 
-**上次更新日期**：2026 年 4 月 9 日
+**上次更新日期**：2026年4月22日
 
 這些發行說明涵蓋 2026 年 4 月發行期間。Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。因此，這些發行說明每月會更新多次。請定期進行檢查。
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
-| **適用於 Adobe Analytics 的 MCP 伺服器**<br/>您現在可以使用 MCP (模型內容協定) 將 Adobe Analytics 與您現有的代理式工作流程串聯。您可以使用自然語言請求報告和洞察。<p>(文件連結待補充。)</p> | | 2026 年 4 月底 |
+| **適用於Adobe Analytics的MCP伺服器** <br/>Analytics MCP （模型內容通訊協定）伺服器可讓您將支援的MCP使用者端連線至Adobe Analytics。 在連線之後，您的MCP使用者端可以叫用產品特定工具來擷取資料、執行查詢，或執行支援的作業作為LLM或代理工作流程的一部分。 如需詳細資訊，請參閱[Analytics MCP伺服器](https://developer.adobe.com/analytics-mcp/docs/)。<p>如果您在Beta版使用這些MCP伺服器，請注意，Beta版和生產端點之間有不同的URL。 請確定在5月31日之前建立的任何代理工作流程均已更新為使用生產端點。</p> | | 2026年4月29日 |
 | **串流媒體服務：支援排程資料**<br/>您現在可以上傳過去串流媒體直播內容的排程資料，讓您追蹤觀看人數更輕鬆也更準確。<p>以下是支援排程資料上傳的直播內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>(原規劃於 2025 年 10 月 29 日發行)</p> |
 | **額外的 API 日期範圍格式設定**<br/>&#x200B;現在於 Analytics 2.0 API 報告請求中指定日期範圍時，支援兩種新格式。包括日期公式和混合格式。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | 2026 年 3 月 |
 | **API 報告請求中含有選用維度**<br/>&#x200B;報告 API 請求中有一個非必要的維度物件。若未指定維度，回應會顯示總計報告的資料。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | 2026 年 3 月 |
