@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1317'
 ht-degree: 41%
 
 ---
@@ -58,12 +58,12 @@ ht-degree: 41%
 「報表時間處理功能」不支援下列維度和量度：
 
 * **Analytics for Target**
-* **Advertising Cloud維度/量度分析**
+* [**Advertising維度/量度**](/help/components/dimensions/amo-id.md)
 * **計數器eVar**
 * [**首次購買間隔天數**](/help/components/dimensions/days-before-first-purchase.md)
 * [**上次購買間隔天數**](/help/components/dimensions/days-since-last-purchase.md)
 * [**上次造訪間隔天數**](/help/components/dimensions/days-since-last-visit.md)
-* **原始登入頁面**
+* [**登入頁面原始**](/help/components/dimensions/entry-dimensions.md)
 * **線性配置eVar**
 * **清單變數**
 * [**「行銷管道」維度**](/help/components/dimensions/marketing-channel.md)

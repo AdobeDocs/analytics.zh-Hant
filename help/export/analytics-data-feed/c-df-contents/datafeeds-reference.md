@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 92%
 | **`post_`** | **`ef_id`** | EF ID，用於Adobe Advertising整合。 | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用 eVar 的方式不同。有關您的組織如何填入各自 eVar 的更多資訊，最佳參考來源是您組織特定的[解決方案設計文件](/help/implement/prepare/solution-design.md)。 | varchar(255) |
 | **`post_`** | **`event_list`** | 用逗號分隔的數值 ID 列表，代表在該點擊上觸發的事件。包含商務事件和[自訂事件1-1000](/help/components/metrics/custom-events.md)。 使用`event.tsv`查詢。 | text |
-| | **`exclude_hit`** | 一個標幟，用來判斷該點擊是否被排除在報告之外。此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報告套裝上遺失時間戳記的點擊，或非時間戳記報告套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | tinyint unsigned |
+| | **`exclude_hit`** | 一個標幟，用來判斷該點擊是否被排除在報告之外。此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報告套裝上遺失時間戳記的點擊，或非時間戳記報告套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合Analytics點選的Adobe Advertising點選 | tinyint unsigned |
 | | **`first_hit_pagename`** | [原始進入頁面](/help/components/dimensions/entry-dimensions.md)維度。訪客的原始進入頁面名稱。 | varchar(100) |
 | | **`first_hit_page_url`** | 訪客的第一個 URL。 | varchar(255) |
 | | **`first_hit_referrer`** | 訪客的第一個反向連結 URL。 | varchar(255) |
