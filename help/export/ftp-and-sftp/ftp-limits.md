@@ -1,19 +1,19 @@
 ---
-description: 所有 Adobe FTP 帳戶都具備 2 GB (或 63 個檔案) 的資料儲存限制。檔案會在這些 FTP 帳戶中保留 90 天。
+description: 所有Adobe FTP帳戶都具備2 GB （或63個檔案）的資料儲存限制。 檔案會在這些 FTP 帳戶中保留 90 天。
 keywords: ftp;sftp
-title: FTP 限制和資料保留
+title: FTP和SFTP限制及資料保留
 feature: FTP Export
 exl-id: ffd6bdcb-ebca-4ad3-b467-5ab2b984ca72
-source-git-commit: 0cbabeff05ea3ecc685160e3333c17aeff83dc4a
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 100%
+source-wordcount: '94'
+ht-degree: 56%
 
 ---
 
-# FTP 限制和資料保留
+# FTP和SFTP限制及資料保留
 
-所有 Adobe FTP 帳戶都具備 100 GB 的資料儲存限制。檔案會在這些 FTP 帳戶中保留 90 天。
+所有Adobe FTP和SFTP帳戶都具備100 GB的資料儲存限制。 檔案會在這些 FTP 帳戶中保留 90 天。
 
 ## 同時連線的限制
 

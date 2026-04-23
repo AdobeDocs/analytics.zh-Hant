@@ -4,18 +4,18 @@ keywords: ftp;sftp
 title: 工程技術服務參與 FTP
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '156'
+ht-degree: 71%
 
 ---
 
-# 工程技術服務參與 FTP
+# 工程技術服務參與FTP或SFTP
 
-許多 Adobe 工程技術服務參與牽涉到資料交換，這通常需要用到 FTP。
+許多Adobe工程技術服務參與牽涉到資料交換，這通常需要FTP或SFTP。
 
-這些參與項目包括 [!UICONTROL DB VISTA] 和自訂專案。
+這些參與包括[!UICONTROL DB VISTA]和自訂專案。
 
 如需FTP限制和資料保留的詳細資訊，請參閱[FTP限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
