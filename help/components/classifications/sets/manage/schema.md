@@ -3,9 +3,9 @@ title: 分類設定結構描述
 description: 瞭解如何檢視和編輯個別分類設定的結構。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
@@ -214,7 +214,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->在成功匯入和處理檔案後，手動或使用檔案輪換從雲端位置移除檔案。 否則，會在下次匯入工作時重新匯入及重新處理檔案。
+>在成功匯入和處理檔案後，手動或使用檔案輪換原則從雲端位置移除檔案。 否則，會在下次匯入工作時重新匯入及重新處理檔案。
 
 
 
