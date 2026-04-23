@@ -38,7 +38,7 @@ ht-degree: 88%
       + [管理 Advertising 帳戶](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 疑難排解](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常見問答](c-advertising-analytics/aa-faq.md)
-+ 適用於Advertising的[Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
++ [適用於Advertising的Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 + [Adobe Analytics 中的 Adobe Campaign 報表](adobe-campaign.md)
 + [將 Adobe Analytics 資料和 Adobe Campaign Classic 整合](analytics-to-campaign-classic.md)
