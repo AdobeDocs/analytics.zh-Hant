@@ -3,16 +3,16 @@ title: 分類設定結構描述
 description: 瞭解如何檢視和編輯個別分類設定的結構。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1616'
 ht-degree: 7%
 
 ---
 
 # 分類集結構描述
 
-此結構描述是您要套用至您為分類設定定義之關鍵維度的分類清單。 例如，如果您已將產品定義為關鍵維度，而此欄位包含產品SKU，則您會使用結構描述來新增產品名稱、產品顏色、產品大小等分類。
+此結構描述是您要套用至您為分類設定定義之關鍵維度的分類清單。 例如，如果您已將product定義為主要維度，而此欄位包含產品SKU，請使用結構描述來新增產品名稱、顏色和大小等分類。
 
 若要編輯分類設定的綱要：
 
@@ -107,7 +107,7 @@ ht-degree: 7%
 在&#x200B;**[!UICONTROL 下載&#x200B;_分類集名稱_]**&#x200B;的資料對話方塊中：
 
 1. 輸入您要下載的&#x200B;**[!UICONTROL 資料列數目]**。 例如：`10000`。
-1. 若要選取您要下載分類資料列的期間，請為&#x200B;**[!UICONTROL 下載介於]**&#x200B;之間收到的資料列，輸入開始和結束資料。 或使用![行事曆](/help/assets/icons/Calendar.svg)使用行事曆快顯功能來選取期間。
+1. 若要選取您要下載分類資料列的期間，請為&#x200B;**[!UICONTROL 下載介於]**&#x200B;之間收到的資料列，輸入開始和結束日期。 或使用![行事曆](/help/assets/icons/Calendar.svg)使用行事曆快顯功能來選取期間。
 1. 若要選取要傳回的資料，請從&#x200B;**[!UICONTROL 傳回的資料]**&#x200B;中選取選項。
 
    * **[!UICONTROL 所有值]**&#x200B;會傳回目前分類資料的所有值。
@@ -119,7 +119,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗號分隔值]** (CSV)。
    * **[!UICONTROL Excel索引標籤分隔值]** （TSV或TAB）。
 
-1. 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從[File-Encoding]下拉式功能表中選取選項。 選項有:
+1. 若要選取下載檔案時所要使用的[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請按2。 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從[檔案編碼]下拉式選單中選取選項。 選項有:
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁文–1]**。
@@ -146,7 +146,7 @@ ht-degree: 7%
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁文–1]**。
 
-1. 選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載分類資料範本。 您可以在瀏覽器的預設下載目錄中找到下載的檔案，其標題為<code><i>分類設定</i>。<i>csv</i>|<i>tsv</i></code>。如果檔案已經存在，則序號為<code>(<i>x</i>)</code> 會新增至檔案名稱。
+1. 選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載分類資料範本。 您可以在瀏覽器的預設下載目錄中找到已下載的檔案。 檔案的標題為<code><i>分類設定</i>。<i>csv</i>|<i>tsv</i></code>。如果檔案已經存在，則序號為<code>(<i>x</i>)</code> 會新增至檔案名稱。
 
 
 ### 自動化 {#automate}
@@ -166,8 +166,6 @@ ht-degree: 7%
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=zh-hant" text="設定雲端匯入及匯出位置"
 
 您可以透過設定和使用雲端帳戶和雲端位置，自動擷取分類資料。
-
-
 
 >[!IMPORTANT]
 >若要從雲端帳戶自動進行分類擷取，您（或您的網路管理員）必須指定IP位址範圍，才能將資料擷取至您的網路。 根據您使用的Analytics資料中心的位置，設定一或多個IP位址範圍。
@@ -206,14 +204,18 @@ ht-degree: 7%
    * **[!UICONTROL 拉丁文–1]**。
 
 1. 若要通知使用者擷取工作已完成，請輸入電子郵件地址（以逗號分隔），以便&#x200B;**[!UICONTROL 電子郵件在擷取工作完成時通知（以逗號分隔）]**。
-1. 選取&#x200B;**[!UICONTROL 驗證]**。 已驗證與雲端位置的連線。
-1. 如果驗證成功，您會看到一則快顯通知訊息，顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置驗證成功。 已驗證與雲端儲存空間的連線。]**<br/>如果您已建立與雲端連線的連線，請選取&#x200B;**[!UICONTROL &#x200B;儲存&#x200B;]**。 否則，請選取&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或選取&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消雲端位置的設定。
+1. 選取&#x200B;**[!UICONTROL 驗證]**。 已驗證與雲端位置的連線如果驗證成功，會顯示一則快顯通知訊息，顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置驗證成功。 已驗證與雲端儲存空間的連線。]**<br/>如果您已建立與雲端連線的連線，請選取&#x200B;**[!UICONTROL &#x200B;儲存&#x200B;]**。 否則，請選取&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或選取&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消雲端位置的設定。
 
 當您上傳檔案到雲端位置時，會在15分鐘內偵測到檔案並將其作為匯入工作提交。 該匯入工作的結果會在[分類工作管理員](/help/components/classifications/sets/job-manager.md)中報告。 如果您被新增到使用者清單，以通知擷取工作已完成，您也會收到電子郵件訊息。
 
 例如：
 
 ![分類設定 — 工作驗證電子郵件](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>在成功匯入和處理檔案後，手動或使用檔案輪換從雲端位置移除檔案。 否則，會在下次匯入工作時重新匯入及重新處理檔案。
+
 
 
 ## 動作列
