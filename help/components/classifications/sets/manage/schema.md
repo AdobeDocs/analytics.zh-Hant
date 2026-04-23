@@ -1,14 +1,15 @@
 ---
 title: 分類設定結構描述
-description: 瞭解如何檢視和編輯個別分類設定的結構。
+description: 瞭解如何檢視和編輯Adobe Analytics中分類集的結構描述。 使用雲端位置新增、上傳、下載或自動化分類資料。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1618'
 ht-degree: 7%
 
 ---
+
 
 # 分類集結構描述
 
@@ -36,7 +37,7 @@ ht-degree: 7%
 | 欄 | 說明 |
 |---|---|
 | **[!UICONTROL 分類名稱]** | 您為分類提供的名稱。 |
-| **[!UICONTROL 識別名稱]** | 系統針對分類所衍生的名稱。 此名稱是唯讀值，您可以使用身分名稱 |
+| **[!UICONTROL 識別名稱]** | 系統產生的分類名稱。 此名稱是唯讀值，您可以使用身分名稱。 |
 | **[!UICONTROL 已由]**&#x200B;分類 | 若使用，會連結至用來分類此分類的查詢分類設定。 |
 
 
@@ -65,8 +66,6 @@ ht-degree: 7%
 ![分類設定 — 將分類新增至結構描述](assets/classification-sets-schema-add-classification.png)
 
 在&#x200B;**[!UICONTROL 新增&#x200B;_分類集名稱_]**&#x200B;對話方塊的新分類中，輸入&#x200B;**[!UICONTROL 分類名稱]**&#x200B;並選取&#x200B;**[!UICONTROL 新增]**。 分類會新增至清單中。
-
-
 
 ### 上傳
 
@@ -119,7 +118,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗號分隔值]** (CSV)。
    * **[!UICONTROL Excel索引標籤分隔值]** （TSV或TAB）。
 
-1. 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從&#x200B;**[!UICONTROL File-Encoding]**&#x200B;下拉式功能表中選取選項。 選項有:
+1. 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從&#x200B;**[!UICONTROL 檔案編碼]**&#x200B;下拉式功能表中選取選項。 選項有:
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁文–1]**。
@@ -141,7 +140,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗號分隔值]**。
    * **[!UICONTROL Excel索引標籤分隔值]**。
 
-1. 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從[File-Encoding]下拉式功能表中選取選項。 選項有:
+1. 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從&#x200B;**[!UICONTROL 檔案編碼]**&#x200B;下拉式功能表中選取選項。 選項有:
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁文–1]**。
@@ -204,7 +203,7 @@ ht-degree: 7%
    * **[!UICONTROL 拉丁文–1]**。
 
 1. 若要通知使用者擷取工作已完成，請輸入電子郵件地址（以逗號分隔），以便&#x200B;**[!UICONTROL 電子郵件在擷取工作完成時通知（以逗號分隔）]**。
-1. 選取&#x200B;**[!UICONTROL 驗證]**。 已驗證與雲端位置的連線如果驗證成功，會顯示一則快顯通知訊息，顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置驗證成功。 已驗證與雲端儲存空間的連線。]**<br/>如果您已建立與雲端連線的連線，請選取&#x200B;**[!UICONTROL &#x200B;儲存&#x200B;]**。 否則，請選取&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或選取&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消雲端位置的設定。
+1. 選取&#x200B;**[!UICONTROL 驗證]**。 已驗證與雲端位置的連線。 如果驗證成功，就會顯示toast訊息，顯示![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 位置驗證成功。 已驗證與雲端儲存空間的連線。]**<br/>如果您已建立與雲端連線的連線，請選取&#x200B;**[!UICONTROL &#x200B;儲存&#x200B;]**。 否則，請選取&#x200B;**[!UICONTROL &#x200B;更新&#x200B;]**。 或選取&#x200B;**[!UICONTROL &#x200B;取消&#x200B;]**&#x200B;以取消雲端位置的設定。
 
 當您上傳檔案到雲端位置時，會在15分鐘內偵測到檔案並將其作為匯入工作提交。 該匯入工作的結果會在[分類工作管理員](/help/components/classifications/sets/job-manager.md)中報告。 如果您被新增到使用者清單，以通知擷取工作已完成，您也會收到電子郵件訊息。
 
