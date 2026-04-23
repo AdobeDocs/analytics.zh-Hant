@@ -3,9 +3,9 @@ title: 分類設定結構描述
 description: 瞭解如何檢視和編輯個別分類設定的結構。
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1605'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 7%
    * **[!UICONTROL 逗號分隔值]** (CSV)。
    * **[!UICONTROL Excel索引標籤分隔值]** （TSV或TAB）。
 
-1. 若要選取下載檔案時所要使用的[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請按2。 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從[檔案編碼]下拉式選單中選取選項。 選項有:
+1. 若要在下載檔案時選取[檔案編碼](/help/components/classifications/sets/data-files.md#general-file-requirements)，請從&#x200B;**[!UICONTROL File-Encoding]**&#x200B;下拉式功能表中選取選項。 選項有:
 
    * **[!UICONTROL UTF-8]**。
    * **[!UICONTROL 拉丁文–1]**。
