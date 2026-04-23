@@ -3,10 +3,10 @@ title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 60%
+source-wordcount: '894'
+ht-degree: 46%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 60%
 
 ## Analysis Workspace支援的維度
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |---|---|
-| 目標分析 | `targetraw` |
+| Analytics for Target | `targetraw` |
 | 適用客群 ID | `mcaudiences` |
 | [瀏覽器](browser.md) | `browser` |
 | [瀏覽器類型](browser-type.md) | `browsertype` |
@@ -48,7 +48,7 @@ ht-degree: 60%
 | [Java 已啟用](java-enabled.md) | `javaenabled` |
 | [語言](language.md) | `language` |
 | [上次接觸管道](last-touch-channel.md) | `lasttouchchannel` |
-| [上次接觸管道詳細資料](last-touch-detail.md) | `lasttouchchanneldetail` |
+| [Last Touch Channel Detail](last-touch-detail.md) | `lasttouchchanneldetail` |
 | 清單變數 | `listvariables` |
 | [行銷管道](marketing-channel.md) | `marketingchannel` |
 | [行動音訊支援](mobile-dimensions.md) | `mobileaudiosupport` |
@@ -65,7 +65,7 @@ ht-degree: 60%
 | [行動熒幕大小](mobile-dimensions.md) | `mobilescreensize` |
 | [行動熒幕寬度](mobile-dimensions.md) | `mobilescreenwidth` |
 | [行動瀏覽器URL的最大長度](mobile-dimensions.md) | `mobileurllength` |
-| [行動視訊支援](mobile-dimensions.md) | `mobilevideosupport` |
+| [Mobile Video Support](mobile-dimensions.md) | `mobilevideosupport` |
 | [監視器解析度](monitor-resolution.md) | `monitorresolution` |
 | [作業系統](operating-systems.md) | `operatingsystem` |
 | [原始反向連結網域](original-referring-domain.md) | `referringdomainoriginal` |
@@ -93,11 +93,11 @@ ht-degree: 60%
 | [US DMA](us-dma.md) | `geodma` |
 | [美國州](us-states.md) | `state` |
 | [事件之前時間](time-prior-to-event.md) | `timeprior` |
-| [每次造訪逗留時間 — 分段](time-spent-per-visit.md) | `timespent` |
-| [造訪深度](visit-depth.md) | `pathlength` |
+| [Time Spent per Visit - Bucketed](time-spent-per-visit.md) | `timespent` |
+| [Visit Depth](visit-depth.md) | `pathlength` |
 | [訪問次數](visit-number.md) | `visitnumber` |
 | [郵遞區號](zip-code.md) | `zip` |
-| [上午/下午](am-pm.md) | `timepartampm` |
+| [AM / PM](am-pm.md) | `timepartampm` |
 | [瀏覽器高度 — 分段](browser-height.md) | `browserheightbucketed` |
 | [瀏覽器寬度 — 分段](browser-width.md) | `browserwidthbucketed` |
 | [日](day.md) | `daterangeday` |
@@ -109,12 +109,12 @@ ht-degree: 60%
 | [專案自訂分析](entry-dimensions.md) | `entryprops` |
 | [專案清單變數](entry-dimensions.md) | `entrylistvariables` |
 | [專案伺服器](entry-dimensions.md) | `entryserver` |
-| [進入網站區域](entry-dimensions.md) | `entrysitesections` |
-| [退出自訂分析](exit-dimensions.md) | `exitprops` |
-| [退出清單變數](exit-dimensions.md) | `exitlistvariables` |
-| [退出頁面](exit-dimensions.md) | `exitpage` |
-| [退出伺服器](exit-dimensions.md) | `exitserver` |
-| [退出網站區域](exit-dimensions.md) | `exitsitesections` |
+| [Entry Site Section](entry-dimensions.md) | `entrysitesections` |
+| [Exit Custom Insights](exit-dimensions.md) | `exitprops` |
+| [Exit List Variables](exit-dimensions.md) | `exitlistvariables` |
+| [Exit Page](exit-dimensions.md) | `exitpage` |
+| [Exit Server](exit-dimensions.md) | `exitserver` |
+| [Exit Site Section](exit-dimensions.md) | `exitsitesections` |
 | [點選深度](hit-depth.md) | `hitdepth` |
 | [點擊類型](hit-type.md) | `hittype` |
 | [小時](hour.md) | `daterangehour` |
@@ -125,7 +125,7 @@ ht-degree: 60%
 | [行動裝置號碼](mobile-dimensions.md) | `mobiledevicenumber` |
 | [行動DRM](mobile-dimensions.md) | `mobiledrm` |
 | [行動資訊服務](mobile-dimensions.md) | `mobileinformationservices` |
-| [行動Java VM](mobile-dimensions.md) | `mobilejavavm` |
+| [Mobile Java VM](mobile-dimensions.md) | `mobilejavavm` |
 | [行動郵件裝飾](mobile-dimensions.md) | `mobilemaildecoration` |
 | [行動網路通訊協定](mobile-dimensions.md) | `mobilenetprotocols` |
 | [行動即按即說](mobile-dimensions.md) | `mobilepushtotalk` |
@@ -146,9 +146,9 @@ ht-degree: 60%
 
 ## 僅於 Analysis Workspace 中支援的內容感知維度
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| Activity Map XY | `clickmapxy` |
+| ACTIVITY MAP XY | `clickmapxy` |
 | 媒體工作階段 ID | `videosessionid` |
 | Nielsen 存取方法 | `nielsenaccmethod` |
 | Nielsen 應用程式 ID | `nielsenappid` |
@@ -159,45 +159,45 @@ ht-degree: 60%
 
 ### 視訊（串流媒體服務）
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
 | [內容](sm-core.md) | `video` |
 | [內容區段](sm-core.md) | `videosegment` |
-| [內容類型](sm-core.md) | `videocontenttype` |
+| [內容型別](sm-core.md) | `videocontenttype` |
 | [廣告播放器名稱](sm-ads.md) | `videoadplayername` |
-| [Pod 位置中的廣告](sm-ads.md) | `videoadinpod` |
+| Pod位置中的[廣告](sm-ads.md) | `videoadinpod` |
 | [掉格](sm-quality.md) | `videoqoedroppedframecountevar` |
-| [錯誤](sm-quality.md) | `videoqoeerrorcountevar` |
+| [個錯誤](sm-quality.md) | `videoqoeerrorcountevar` |
 | [平均位元速率](sm-quality.md) | `videoqoebitrateaverageevar` |
 | [位元速率變更](sm-quality.md) | `videoqoebitratechangecountevar` |
 | [總緩衝期間](sm-quality.md) | `videoqoebuffertimeevar` |
 | [緩衝事件](sm-quality.md) | `videoqoebuffercountevar` |
 | [開始時間](sm-quality.md) | `videoqoetimetostartevar` |
-| [廣告 Pod](sm-ads.md) | `videoadpod` |
+| [廣告Pod](sm-ads.md) | `videoadpod` |
 | [媒體路徑](sm-core.md) | `videopath` |
-| [廣告](sm-ads.md) | `videoad` |
-| [內容播放器名稱](sm-core.md) | `videoplayername` |
-| [內容頻道](sm-core.md) | `videochannel` |
-| [章節](sm-chapters.md) | `videochapter` |
-| [內容名稱 (變數)](sm-core.md) | `videoname` |
-| [內容長度 (變數)](sm-core.md) | `videolength` |
+| [Ad](sm-ads.md) | `videoad` |
+| [Content Player Name](sm-core.md) | `videoplayername` |
+| [Content Channel](sm-core.md) | `videochannel` |
+| [Chapter](sm-chapters.md) | `videochapter` |
+| [Content Name (variable)](sm-core.md) | `videoname` |
+| [內容長度（變數）](sm-core.md) | `videolength` |
 | [廣告名稱（變數）](sm-ads.md) | `videoadname` |
 | [廣告長度（變數）](sm-ads.md) | `videoadlength` |
-| [Show](sm-video-metadata.md) | `videoshow` |
-| [季數](sm-video-metadata.md) | `videoseason` |
-| [集數](sm-video-metadata.md) | `videoepisode` |
+| [節目](sm-video-metadata.md) | `videoshow` |
+| [季](sm-video-metadata.md) | `videoseason` |
+| [集](sm-video-metadata.md) | `videoepisode` |
 | [網路](sm-video-metadata.md) | `videonetwork` |
-| [節目類型](sm-video-metadata.md) | `videoshowtype` |
+| [顯示型別](sm-video-metadata.md) | `videoshowtype` |
 | [個廣告載入](sm-ads.md) | `videoadload` |
 | [MVPD](sm-video-metadata.md) | `videomvpd` |
-| [時段](sm-video-metadata.md) | `videodaypart` |
-| [廣告商](sm-ads.md) | `videoadadvertiser` |
+| [天部分](sm-video-metadata.md) | `videodaypart` |
+| [Advertiser](sm-ads.md) | `videoadadvertiser` |
 | [行銷活動 ID](sm-ads.md) | `videoadcampaign` |
-| [類型](sm-video-metadata.md) | `videogenre` |
-| [資料流類型](sm-core.md) | `videostreamtype` |
-| [播放器 SDK 錯誤 ID](sm-quality.md) | `videoqoeplayersdkerrors` |
-| [外部錯誤 ID](sm-quality.md) | `videoqoeextneralerrors` |
-| [媒體摘要類型](sm-video-metadata.md) | `videofeedtype` |
+| [型別](sm-video-metadata.md) | `videogenre` |
+| [資料流型別](sm-core.md) | `videostreamtype` |
+| [播放器SDK錯誤ID](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [外部錯誤ID](sm-quality.md) | `videoqoeextneralerrors` |
+| [媒體摘要型別](sm-video-metadata.md) | `videofeedtype` |
 | [進入媒體路徑](entry-dimensions.md) | `entryvideopath` |
 | [退出媒體路徑](exit-dimensions.md) | `exitvideopath` |
 | [專案型別](entry-dimensions.md) | `entryvideogenre` |
@@ -211,9 +211,9 @@ ht-degree: 60%
 
 Adobe Social已淘汰。
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| 詞彙 | `socialterm` |
+| 辭彙 | `socialterm` |
 | 社交平台/屬性 | `socialcontentprovider` |
 | 作者 | `socialauthor` |
 | 語言 | `sociallanguage` |
@@ -226,14 +226,14 @@ Adobe Social已淘汰。
 | 擁有的屬性與應用程式 | `socialownedpropertypropertyvsapp` |
 | 擁有的屬性名稱 | `socialownedpropertyname` |
 | 擁有的定義屬性與貼文 | `socialowneddefinitionpropertyvspost` |
-| 擁有的定義分析類型 | `socialowneddefinitioninsighttype` |
+| 擁有的定義洞察類型 | `socialowneddefinitioninsighttype` |
 | 擁有的定義分析值 | `socialowneddefinitioninsightvalue` |
 | 擁有的定義量度 | `socialowneddefinitionmetric` |
 | 資產 | `socialmediaid` |
 
 ### Mobile SDK
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
 | [首次啟動日期](lifecycle-dimensions.md) | `mobileinstalldate` |
 | [應用程式ID](lifecycle-dimensions.md) | `mobileappid` |
@@ -241,8 +241,8 @@ Adobe Social已淘汰。
 | [首次使用後間隔天數](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
 | [上次使用後間隔天數](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
 | [小時(SDK)](lifecycle-dimensions.md) | `mobilehourofday` |
-| [星期(SDK)](lifecycle-dimensions.md) | `mobiledayofweek` |
-| [作業系統(SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
+| [Day of Week (SDK)](lifecycle-dimensions.md) | `mobiledayofweek` |
+| [Operating System (SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
 | [上次升級後間隔天數](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
 | [上次升級後啟動次數](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
 | [裝置名稱(SDK)](lifecycle-dimensions.md) | `mobiledevice` |
@@ -256,7 +256,7 @@ Adobe Social已淘汰。
 | [位置 (1 公尺以內)](lifecycle-dimensions.md) | `latlon45` |
 | [興趣點名稱](lifecycle-dimensions.md) | `pointofinterest` |
 | [至興趣點中心的距離](lifecycle-dimensions.md) | `pointofinterestdistance` |
-| [位置準確度](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
+| [Location Accuracy](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
 | [放置類別](lifecycle-dimensions.md) | `mobileplacecategory` |
 | [地標ID](lifecycle-dimensions.md) | `mobileplaceid` |
 | [主要進入信標](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
@@ -268,29 +268,29 @@ Adobe Social已淘汰。
 | [鄰近地區進入信標](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
 | [鄰近地區退出信標](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
 | AMO EF ID | `amo_ef_id` |
 | AMO ID | `amo_cid` |
 
 ### Activity Map
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| [各地區的Activity Map連結](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Activity Map地區](activity-map-region.md) | `clickmapregion` |
-| [Activity Map連結](activity-map-link.md) | `clickmaplink` |
-| [Activity Map頁面](activity-map-page.md) | `clickmappage` |
+| [依區域區分的 Activity Map 連結](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Activity Map 區域](activity-map-region.md) | `clickmapregion` |
+| [Activity Map 連結](activity-map-link.md) | `clickmaplink` |
+| [Activity Map 頁面](activity-map-page.md) | `clickmappage` |
 
 ### Nielsen 整合
 
 如需有關如何實作此整合的詳細資訊，請參閱Adobe Exchange上的[Nielsen擴充功能](https://exchange.adobe.com/apps/ec/101361)。
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| Nielsen 廣告模型 | `nielsenadmodel` |
+| Nielsen廣告模型 | `nielsenadmodel` |
 | Nielsen 區段 C | `nielsensegmentc` |
 | Nielsen 區段 B | `nielsensegmentb` |
 | Nielsen 區段 A | `nielsensegmenta` |
@@ -309,7 +309,7 @@ Adobe Social已淘汰。
 
 ### Adobe Experience Manager (AEM)
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
 | 資產 ID | `aemassetid` |
 | 資產來源 | `aemassetsource` |
@@ -319,6 +319,6 @@ Adobe Social已淘汰。
 
 ### Adobe Campaign
 
-| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| Adobe Campaign 執行的傳送 ID | `ac_delivery_internal_name` |
+| Adobe Campaign執行的傳送ID | `ac_delivery_internal_name` |
