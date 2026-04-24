@@ -3,7 +3,7 @@ title: FTP和SFTP伺服器的安全性需求
 description: 瞭解FTP和SFTP伺服器的安全性需求。
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 3%
@@ -32,7 +32,7 @@ ht-degree: 3%
 >FTP和SFTP是舊有的目的地型別。 Adobe建議您改用新型雲端目的地型別（例如Amazon S3、Google Cloud Platform或Azure），而不要依照本文所述將FTP帳戶升級為SFTP和輪換SFTP密碼。 這些雲端目的地提供更高層級的安全性。 如需詳細資訊，請參閱[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)。
 >
 >* **如果FTP和SFTP帳戶僅用於「分類」，請移轉至「分類設定」。**
->如果您的FTP或SFTP帳戶僅用於分類，您應該從&#x200B;**分類匯入工具**&#x200B;移轉至&#x200B;**分類設定**，而非依照本文所述將FTP帳戶升級為SFTP和旋轉SFTP密碼。 分類匯入工具將遭取代，且在&#x200B;**2026年8月31日**&#x200B;後無法再存取。 如需詳細資訊，請參閱[分類集總覽](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/sets/overview)。
+>如果您的FTP或SFTP帳戶僅用於分類，您應該從&#x200B;**分類匯入工具**&#x200B;移轉至&#x200B;**分類設定**，而非依照本文所述將FTP帳戶升級為SFTP和旋轉SFTP密碼。 分類匯入工具將遭取代，且在&#x200B;**2026年8月31日**&#x200B;後無法再存取。 如需詳細資訊，請參閱[分類集總覽](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview)。
 
 ## 先決條件
 
@@ -177,7 +177,7 @@ ht-degree: 3%
 
 1. 對您建立的每個SFTP帳戶重複此程式。
 
-如需詳細指示，請參閱[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)。
+如需詳細指示，請參閱[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations)。
 
 ### 步驟3：編輯資料摘要和Data Warehouse請求，以使用新的SFTP目的地
 
@@ -211,7 +211,7 @@ ht-degree: 3%
 
 1. 在Data Warehouse頁面上，選取您要編輯的請求。
 
-   ![管理要求](/help/technotes/assets/dw-manage-request.png)
+   ![管理要求](assets/dw-manage-request.png)
 
 1. 選取「[!UICONTROL **編輯**]」。
 
