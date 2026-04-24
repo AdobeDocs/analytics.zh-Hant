@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: 從外部來源大量或即時將資料讀入 Adobe Analytics。
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+index: true
+source-git-commit: d1ce4b6a6db2d8016559f2553e7f94d240a16c71
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 100%
    + [檔案格式](data-sources/file-format.md)
    + [檔案上傳](data-sources/file-upload.md)
    + [交易 ID](data-sources/transactionid.md)
-   + [常見問題集](data-sources/faq.md)
+   + [常見問題](data-sources/faq.md)
 + [大量資料插入 API](bulk-data-insertion-api/bulk-data-insert.md)
 + [資料插入 API](c-data-insertion-api/c-data-insertion-api.md)
 + 匯入使用案例 {#use-cases}
