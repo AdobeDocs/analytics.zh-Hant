@@ -3,10 +3,10 @@ title: FTP和SFTP伺服器的安全性需求
 description: 瞭解FTP和SFTP伺服器的安全性需求。
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 9067b57a7436656b6776de08e8411ee0a87f2b20
+source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 2%
+source-wordcount: '1933'
+ht-degree: 3%
 
 ---
 
@@ -28,21 +28,21 @@ ht-degree: 2%
 >
 >完成本文中的步驟之前，請先考量下列情況。
 >
->* **Adobe建議儘可能轉換至現代化的雲端目的地，而非升級至SFTP。**
+>* **Adobe建議儘可能轉換至現代化的雲端目的地，而不要升級至SFTP。**
 >FTP和SFTP是舊有的目的地型別。 Adobe建議您改用新型雲端目的地型別（例如Amazon S3、Google Cloud Platform或Azure），而不要依照本文所述將FTP帳戶升級為SFTP和輪換SFTP密碼。 這些雲端目的地提供更高層級的安全性。 如需詳細資訊，請參閱[設定雲端匯入和匯出帳戶](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts)。
 >
 >* **如果FTP和SFTP帳戶僅用於「分類」，請移轉至「分類設定」。**
->如果您的FTP或SFTP帳戶僅用於分類，您應該從&#x200B;**分類匯入工具**&#x200B;移轉至&#x200B;**分類設定**，而非依照本文所述將FTP帳戶升級為SFTP和旋轉SFTP密碼。 分類匯入工具將遭取代，且在&#x200B;**2026年8月31日**&#x200B;後無法再存取。 如需詳細資訊，請參閱[分類集總覽](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/classifications/sets/overview)。
+>如果您的FTP或SFTP帳戶僅用於分類，您應該從&#x200B;**分類匯入工具**&#x200B;移轉至&#x200B;**分類設定**，而非依照本文所述將FTP帳戶升級為SFTP和旋轉SFTP密碼。 分類匯入工具將遭取代，且在&#x200B;**2026年8月31日**&#x200B;後無法再存取。 如需詳細資訊，請參閱[分類集總覽](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview)。
 
 ## 先決條件
 
-### Inventory your FTP accounts
+### 清查您的FTP帳戶
 
-You must complete the SFTP upgrade steps on this page for every FTP site used with Data Feeds or Data Warehouse.
+您必須針對與資料摘要或Data Warehouse搭配使用的每個FTP站台，完成本頁面上的SFTP升級步驟。
 
-As such, you must identify all FTP accounts that are receiving data for Data Feeds or Data Warehouse. This information is shown in your FTP configuration settings, as described in the [Legacy account types](/help/components/locations/configure-import-accounts.md#configure-a-location-account) section of the article [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
+因此，您必須識別接收資料摘要或Data Warehouse資料的所有FTP帳戶。 此資訊會顯示在您的FTP組態設定中，如文章[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的[舊版帳戶型別](/help/components/locations/configure-import-accounts.md#configure-a-location-account)區段所述。
 
-For each account, gather the following information:
+針對每個帳戶，收集下列資訊：
 
 * **主機**：您的帳戶所連線之FTP伺服器的主機名稱（例如，`ftp.omniture.com`、`ftp2.omniture.com`等）。
 
@@ -66,13 +66,13 @@ For each account, gather the following information:
 
 ### 步驟1：產生您組織的SSH金鑰以下載資料
 
-This section describes how to generate your organization&#39;s SSH keys (a public/private key pair) that are used to **download data** from the SFTP server.
+本節說明如何產生您組織的SSH金鑰（公開/私密金鑰組），這些金鑰用於從SFTP伺服器&#x200B;**下載資料**。
 
 >[!NOTE]
 >
->In a future step, you will download another public key provided by Adobe. This is part of a second public/private key pair, which is used by Adobe to **upload data** to the SFTP server.
+>在未來的步驟中，您將下載Adobe提供的另一個公開金鑰。 這是第二個公開/私用金鑰組的一部分，Adobe會使用該金鑰組，將資料&#x200B;**上傳**&#x200B;至SFTP伺服器。
 
-To set up secure transfer for downloading data from your FTP server:
+若要設定安全傳輸，以便從FTP伺服器下載資料：
 
 1. 登入可從FTP伺服器下載資料的工作站。
 
@@ -108,15 +108,15 @@ To set up secure transfer for downloading data from your FTP server:
 
 >[!NOTE]
 >
->In a future step, you will configure this new location account to be used as the destination for your Data Feeds and Data Warehouse deliveries.
+>在未來的步驟中，您將設定此新位置帳戶，以作為資料摘要和Data Warehouse傳遞的目的地。
 
-#### Create the SFTP account
+#### 建立SFTP帳戶
 
-1. In Adobe Analytics, go to [!UICONTROL **Components**] > [!UICONTROL **Locations**].
+1. 在Adobe Analytics中，前往&#x200B;[!UICONTROL **元件**] > [!UICONTROL **位置**]。
 
-1. Select the [!UICONTROL **Location accounts**] tab.
+1. 選取&#x200B;[!UICONTROL **位置帳戶**]&#x200B;索引標籤。
 
-1. Select [!UICONTROL **Add account**].
+1. 選取&#x200B;[!UICONTROL **新增帳戶**]。
 
 1. 在&#x200B;[!UICONTROL **帳戶型別**]&#x200B;下拉式功能表中，選取&#x200B;[!UICONTROL **SFTP （舊版）**]。
 
@@ -150,12 +150,12 @@ To set up secure transfer for downloading data from your FTP server:
 
 1. 將[!DNL `authorized_keys`]檔案上傳至您的FTP伺服器：
 
-   1. Connect to the FTP server and log in with your username and password.
+   1. 連線至FTP伺服器，並使用您的使用者名稱和密碼登入。
 這可以是Adobe託管的FTP伺服器或您自己的FTP伺服器。
    1. 建立 [!DNL .ssh] 目錄 (如果尚未存在)。
    1. 上傳 [!DNL `authorized_keys`] 檔案至 [!DNL .ssh] 目錄。
 
-1. Update your firewall settings to allow inbound connections from the SFTP server. When using an Adobe-hosted SFTP server, allow inbound connections from Adobe&#39;s IP ranges on port 22.
+1. 更新您的防火牆設定，以允許來自SFTP伺服器的輸入連線。 使用Adobe代管的SFTP伺服器時，請允許來自連線埠22上Adobe IP範圍的輸入連線。
 
 1. 使用您的SFTP使用者端登入伺服器以測試連線。
 
@@ -177,17 +177,17 @@ To set up secure transfer for downloading data from your FTP server:
 
 1. 對您建立的每個SFTP帳戶重複此程式。
 
-For detailed instructions, see [Configure cloud import and export locations](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations).
+如需詳細指示，請參閱[設定雲端匯入和匯出位置](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations)。
 
 ### 步驟3：編輯資料摘要和Data Warehouse請求，以使用新的SFTP目的地
 
-Update any existing scheduled Data Feeds and Data Warehouse requests that currently send data to FTP destinations to use the new SFTP destinations you created.
+更新目前傳送資料至FTP目的地的任何現有排程資料摘要和Data Warehouse請求，以使用您建立的新SFTP目的地。
 
-#### Edit Data Feeds
+#### 編輯資料摘要
 
-Edit each scheduled data feed that is configured with the old FTP destination to use the new SFTP destination:
+編輯每個已設定為使用舊FTP目的地的排程資料摘要，以使用新SFTP目的地：
 
-1. In Adobe Analytics, select [!UICONTROL **Admin**] > [!UICONTROL **Data feeds**].
+1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
 
 1. 找到您要編輯的資料摘要。 若要尋找資料摘要，您可以[篩選及搜尋資料摘要清單](#filter-and-search-the-list-of-data-feeds)。
 
@@ -201,7 +201,7 @@ Edit each scheduled data feed that is configured with the old FTP destination to
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-如需詳細資訊，請參閱[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed)中的[編輯資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)。
+如需詳細資訊，請參閱[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的[編輯資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed)。
 
 #### 編輯Data Warehouse請求
 
@@ -209,13 +209,13 @@ Edit each scheduled data feed that is configured with the old FTP destination to
 
 1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**]。
 
-1. On the Data Warehouse page, select the request that you want to edit.
+1. 在Data Warehouse頁面上，選取您要編輯的請求。
 
-   ![Manage a request](assets/dw-manage-request.png)
+   ![管理要求](/help/technotes/assets/dw-manage-request.png)
 
 1. 選取「[!UICONTROL **編輯**]」。
 
-1. Select the [!UICONTROL **Report destination**] tab.
+1. 選取&#x200B;[!UICONTROL **報告目的地**]&#x200B;標籤。
 
 1. 在&#x200B;[!UICONTROL **帳戶**]&#x200B;欄位中，使用下拉式功能表選取您建立的新SFTP目的地。
 
@@ -223,7 +223,7 @@ Edit each scheduled data feed that is configured with the old FTP destination to
 
 1. 選取&#x200B;[!UICONTROL **儲存變更**]。
 
-如需詳細資訊，請參閱[管理Data Warehouse請求](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests)中的[編輯請求](/help/export/data-warehouse/data-warehouse-requests-manage.md)。
+如需詳細資訊，請參閱[管理Data Warehouse請求](/help/export/data-warehouse/data-warehouse-requests-manage.md)中的[編輯請求](/help/export/data-warehouse/data-warehouse-requests-manage.md#edit-requests)。
 
 ### 步驟4：更新防火牆設定
 
