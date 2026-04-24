@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和舊版 Report Builder 以及 Activity Map。
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -73,9 +74,9 @@ ht-degree: 100%
          + [範例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
       + 資料字典 {#data-dictionary}
          + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [檢視資料字典中的元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [檢視資料字母排序中的元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
          + [編輯資料字母排序中的元件條目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [監視資料字典健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
+         + [監視資料字母排序健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 視覺效果 {#visualizations}
       + [概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -188,7 +189,7 @@ ht-degree: 100%
       + [解除安裝 Report Builder](legacy-report-builder/setup/t-uninstall-arb.md)
       + [從 Microsoft Excel 函數叫用 Report Builder 功能](legacy-report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具列](legacy-report-builder/reportbuilder-toolbar.md)
-   + 資料請求  {#data-requests}
+   + 資料請求 {#data-requests}
       + [資料請求 - 請求精靈步驟 1](legacy-report-builder/data-requests/data-requests.md)
       + [建立資料請求](legacy-report-builder/data-requests/t-create-a-data-request.md)
       + 報告套裝 {#report-suites}
@@ -211,7 +212,7 @@ ht-degree: 100%
          + [請求精靈定義 - 遞延日期](legacy-report-builder/data-requests/configuring-report-dates/r-arb-rolling-dates.md)
          + [即時報告](legacy-report-builder/data-requests/configuring-report-dates/real-time.md)
          + [設定即時報告請求](legacy-report-builder/data-requests/configuring-report-dates/t-real-time.md)
-         + 自訂的日期運算式  {#customized-date-expressions}
+         + 自訂的日期運算式 {#customized-date-expressions}
             + [自訂日期運算式 - 概觀](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
             + [日期縮寫](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
             + [個別的開始日期或結束日期](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
@@ -242,12 +243,12 @@ ht-degree: 100%
       + [設定自訂版面](legacy-report-builder/layout/configure-the-custom-layout.md)
       + [將量度和維度對應至儲存格](legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [建立 Microchart](legacy-report-builder/layout/t-create-a-microchart.md)
-      + 篩選器維度  {#filter-dimenson}
+      + 篩選器維度 {#filter-dimenson}
          + [篩選維度概觀](legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md)
          + [最受歡迎篩選](legacy-report-builder/layout/c-filter-dimensions/t-most-popular-filtering.md)
          + [特定篩選](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
          + [儲存的篩選](legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)
-   + 管理請求  {#manage-requests}
+   + 管理請求 {#manage-requests}
       + [管理請求 - 定義](legacy-report-builder/manage-requests/r-arb-manage-requests.md)
       + [診斷訊息](legacy-report-builder/manage-requests/diagnostic-messages.md)
       + [遞增排序或遞減排序](legacy-report-builder/manage-requests/sort-ascending-or-descending.md)
@@ -258,7 +259,7 @@ ht-degree: 100%
       + [重新整理所有工作表的請求](legacy-report-builder/manage-requests/t-refresh-requests-for-all-sheets.md)
       + [新增相依請求](legacy-report-builder/manage-requests/add-dependent-requests.md)
       + [分類](legacy-report-builder/manage-requests/classification.md)
-      + 複製請求  {#copy-requests}
+      + 複製請求 {#copy-requests}
          + [複製請求概觀](legacy-report-builder/manage-requests/c-copy-requests/copy-requests.md)
          + [複製簡單請求](legacy-report-builder/manage-requests/c-copy-requests/t-copy-simple-requests.md)
          + [複製相鄰的請求](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
@@ -293,7 +294,7 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [概觀](activity-map/overview.md)
    + [快速入門](activity-map/getting-started.md)
-   + 覆蓋  {#overlay}
+   + 覆蓋 {#overlay}
       + [擴充功能概觀](activity-map/overlay/overview.md)
       + [Launch 擴充功能](activity-map/overlay/launch.md)
       + [擴充設定](activity-map/overlay/settings.md)
