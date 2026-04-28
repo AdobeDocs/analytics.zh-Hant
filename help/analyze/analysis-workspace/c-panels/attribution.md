@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 94%
+source-wordcount: '714'
+ht-degree: 91%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="歸因面板"
->abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;屬性依據的維度。此維度可以是行銷管道、活動或任何其他維度。<br/>**模型**<br/>&#x200B;此模型可決定如何將積分指派給接觸點。<br/>**回顧視窗**<br/>&#x200B;此設定可決定套用至每個轉換的資料歸因期間。"
+>abstract="使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。<br/><br/>**參數&#x200B;**<br/>**管道**<br/>&#x200B;要歸因的維度。 這個維度可能是行銷管道、行銷活動或任何其他維度。<br/>**模型**<br/>&#x200B;模型會決定如何將評分指派給接觸點。<br/>**回顧視窗**<br/>&#x200B;此設定可決定套用至每個轉換的資料歸因期間。"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Attribution IQ 面板"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 屬性面板。_<br/>_請參閱[屬性面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/attribution)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄歸因面板。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/attribution)。_
 
 >[!ENDSHADEBOX]
 
-建立比較各種歸因模型的分析時，**[!UICONTROL 歸因]**&#x200B;面板是可採用的簡單方式。此面板提供您專用的工作區來使用和比較歸因模型。
+建立比較各種歸因模型的分析時，**[!UICONTROL 歸因]**&#x200B;面板是可採用的簡單方式。 此面板提供您專用的工作區來使用和比較歸因模型。
 
 Adobe Analytics 強化歸因功能，讓您可以：
 
@@ -52,7 +52,7 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 若要使用&#x200B;**[!UICONTROL 歸因]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 歸因]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -62,11 +62,11 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 您可以使用下列輸入設定來設定歸因面板：
 
-1. 新增&#x200B;**[!UICONTROL 成功量度]**&#x200B;和要歸因的&#x200B;**[!UICONTROL 管道]**。其範例包括行銷管道或自訂維度，例如內部促銷。
+1. 新增&#x200B;**[!UICONTROL 成功量度]**&#x200B;和要歸因的&#x200B;**[!UICONTROL 管道]**。 其範例包括行銷管道或自訂維度，例如內部促銷。
 
    ![歸因面板視窗顯示數個指定的維度和量度。](assets/attribution-panel.png)
 
-1. 從[包含的模型](#attribution-models)選取一或多個&#x200B;**[!UICONTROL 歸因模型]**，從[容器](#container)選取&#x200B;**[!UICONTROL 容器]**，並從[回顧期間](#lookback-window)選取要用來比較的&#x200B;**[!UICONTROL 回顧期間]**。
+1. 從&#x200B;**[!UICONTROL 包含的模型]**&#x200B;選取一或多個[歸因模型](#attribution-models)，從&#x200B;**[!UICONTROL 容器]**&#x200B;選取[容器](#container)，並從&#x200B;**[!UICONTROL 回顧期間]**&#x200B;選取要用來比較的[回顧期間](#lookback-window)。
 
 1. 請選取「**[!UICONTROL 建置]**」，在面板中建置視覺效果。
 
@@ -81,11 +81,11 @@ Adobe Analytics 強化歸因功能，讓您可以：
 以下視覺效果為面板輸出的一部分。
 
 * **總量度**：報告時間範圍內發生的轉換總數，並歸因於您指定的維度。
-* **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
-* **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。表格的作用與 Workspace 中的其他自由格式表格相仿，可讓您新增量度、區段或劃分等元件。
-* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
+* **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。 每個長條的顏色代表不同的歸因模型。
+* **歸因比較表**：顯示與長條圖相同的資料，以表格的形式呈現。 在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。 表格的作用與 Workspace 中的其他自由格式表格相仿，可讓您新增量度、區段或劃分等元件。
+* **重疊圖**：文氏圖表會顯示前三大維度項目，及其共同參與轉換的頻率。 例如，重疊的泡泡圖尺寸表示人員同時接觸到兩個維度項目時發生轉換的頻率。 選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
 * **效能詳細資料**：透過散佈圖視覺效果，視覺化比較最多三個歸因模型。
-* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
+* **趨勢效能**：顯示排名前面的維度項目的歸因轉換趨勢。 選取相鄰自由格式表格中的其他列，可依據您的選取項目更新視覺效果。
 * **流量**：可讓您查看哪些管道最常互動，以及人員歷程中的順序。
 
 ## 成效歸因模型
@@ -96,7 +96,7 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 {{attribution-container}}
 
-## 回顧期間
+## 回顧時間範圍
 
 {{attribution-lookback-window}}
 
@@ -114,7 +114,7 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 
