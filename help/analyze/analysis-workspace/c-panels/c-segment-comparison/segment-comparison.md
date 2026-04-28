@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
 source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 74%
+source-wordcount: '601'
+ht-degree: 69%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="區段比較面板"
->abstract="在所有資料點快速比較兩個區段，以自動找到相關差異。<br/><br/>**參數&#x200B;**<br/>**新增區段**：您要分析的第一個區段。<br/>**相互比較**：您想要進行比較的第二個區段，該區段會自動填入「*其他所有人*」(第一個區段的相反)。如果需要，您可以用不同的區段來取代「*其他所有人*」。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
+>abstract="針對所有資料點快速比較兩個細分群體，自動找出相關差異。<br/><br/>**參數&#x200B;**<br/>**新增一個細分群體**：您要分析的第一個細分群體。<br/>**相互比較**：您想要進行比較的第二個區段，該區段會自動填入「*其他所有人*」(第一個區段的相反)。 如果需要，您可以用不同的區段來取代「*其他所有人*」。<br/>**進階設定**：在區段比較中排除元件被分析的能力。"
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的區段比較面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄區段比較面板。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._中沒有對應的面板
 
 >[!ENDSHADEBOX]
 
-「區段比較」面板可從不限數量的區段中找出統計資料上最顯著的差異。 此功能會針對您存取的所有維度和量度進行反覆自動分析。比較會自動找出帶動公司KPI的受眾區段關鍵特性，讓您檢視區段重疊的程度。
+「區段比較」面板可從不限數量的區段中找出統計資料上最顯著的差異。 此功能會針對您存取的所有維度和量度進行反覆自動分析。 比較會自動找出帶動公司KPI的受眾區段關鍵特性，讓您檢視區段重疊的程度。
 
 
 >[!BEGINSHADEBOX]
@@ -71,9 +71,9 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 | **[!UICONTROL 新增區段]** | 選取您要比較的維度。 |
 | **[!UICONTROL 比較對象]** | 選取您要用來比較初始選取區段的維度。 如果您未選取特定區段，則此預設區段為&#x200B;**[!UICONTROL 其他所有人]**&#x200B;使用。 |
 | **[!UICONTROL 顯示/隱藏進階設定]** | 請選取「**[!UICONTROL 顯示進階設定]**」以設定&#x200B;**[!UICONTROL 排除的元件]**；選取「**[!UICONTROL 隱藏進階設定]**」以隱藏&#x200B;**[!UICONTROL 排除的元件]**。 |
-| **[!UICONTROL 排除的元件]** | 您可以指定的元件，例如&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 區段]**&#x200B;以供排除。<br><ul><li>將一個或多個維度、量度或區段從容器拖曳至&#x200B;**[!UICONTROL 排除的元件]**&#x200B;容器中。</li><li>若要移除元件，請選取類型 (**[!UICONTROL 維度]**、**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 區段]**)，並選取「![CrossSize75](/help/assets/icons/CrossSize75.svg)」以移除元件。若要移除所有元件，請選取「**[!UICONTROL 清除全部]**」。</li><li>若要將目前維度、量度和區段的選取項目設定為預設值，請選取「**[!UICONTROL 設定為預設值]**」。</li></ul> |
+| **[!UICONTROL 排除的元件]** | 您可以指定的元件，例如&#x200B;**[!UICONTROL 維度]**、**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 區段]**&#x200B;以供排除。<br><ul><li>將一個或多個維度、量度或區段從容器拖曳至&#x200B;**[!UICONTROL 排除的元件]**&#x200B;容器中。</li><li>若要移除元件，請選取類型 (**[!UICONTROL 維度]**、**[!UICONTROL 量度]**&#x200B;或&#x200B;**[!UICONTROL 區段]**)，並選取「![CrossSize75](/help/assets/icons/CrossSize75.svg)」以移除元件。 若要移除所有元件，請選取「**[!UICONTROL 清除全部]**」。</li><li>若要將目前維度、量度和區段的選取項目設定為預設值，請選取「**[!UICONTROL 設定為預設值]**」。</li></ul> |
 
-請選取「**[!UICONTROL 「建置]**」以建置面板。
+請選取「**[!UICONTROL 建置]**」以建置面板。
 
 ### 面板輸出
 
