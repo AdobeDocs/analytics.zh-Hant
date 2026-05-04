@@ -4,9 +4,9 @@ description: 追蹤新訪客與重複訪客的活動。
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+source-git-commit: 53f44c09cd68fce618f08ea0042c411cfc6d1681
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 71%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-`getNewRepeat` 外掛程式可讓您判斷網站訪客是新訪客還是在指定天數內回訪的重複訪客。如果您想要使用自訂天數將訪客識別為「new」，Adobe 建議使用此外掛程式。如果Analysis Workspace中的&#39;[!UICONTROL 新訪客]&#39;和&#39;[!UICONTROL 重複訪客]&#39;區段符合您組織的需求，就不需要此外掛程式。
+`getNewRepeat` 外掛程式可讓您判斷網站訪客是新訪客還是在指定天數內回訪的重複訪客。 如果您想要使用自訂天數將訪客識別為「new」，Adobe 建議使用此外掛程式。 如果Analysis Workspace中的[!UICONTROL 首次造訪]和[!UICONTROL 回訪]區段符合您組織的需求，就不需要此外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -65,7 +65,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -78,11 +78,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 `getNewRepeat` 函數會使用以下引數：
 
-* **`d`** (整數，選用)：將訪客重設回 `"New"` 的訪客距離上次造訪需間隔的最小天數。如果未設定此引數，其預設值為 30 天。
+* **`d`** (整數，選用)：將訪客重設回 `"New"` 的訪客距離上次造訪需間隔的最小天數。 如果未設定此引數，其預設值為 30 天。
 
 如果外掛程式設定的 Cookie 不存在或已過期，此函數會傳回 `"New"` 值。 如果外掛程式設定的 Cookie 存在，且自目前點擊以來的時間量及 Cookie 中設定的時間超過 30 分鐘，則會傳回 `"Repeat"` 值。 此函數會為整個造訪傳回相同的值。
 
-此外掛程式使用 `"s_nr[LENGTH]"` Cookie，其中的 `[LENGTH]` 等於 `d` 引數。Cookie 包含代表訪客 (`"New"` 或 `"Repeat"`) 目前時間和狀態的 Unix 時間戳記。
+此外掛程式使用 `"s_nr[LENGTH]"` Cookie，其中的 `[LENGTH]` 等於 `d` 引數。 Cookie 包含代表訪客 (`"New"` 或 `"Repeat"`) 目前時間和狀態的 Unix 時間戳記。
 
 ## 範例
 
@@ -107,4 +107,4 @@ s.eVar2 = getNewRepeat(365);
 ### 2.0 (2018 年 4 月 16 日)
 
 * 以較小的程式碼大小重新編譯
-* 移除為 Cookie 命名以儲存造訪資訊的功能。外掛程式現在會根據傳入 `d` 引數的值，以動態方式為 Cookie 命名。
+* 移除為 Cookie 命名以儲存造訪資訊的功能。 外掛程式現在會根據傳入 `d` 引數的值，以動態方式為 Cookie 命名。
