@@ -14,7 +14,7 @@ ht-degree: 98%
 >全新的簡化版 [Report Builder](/help/analyze/report-builder/rb-overview.md) 自 2024 年 10 月 16 日起提供。 此 Report Builder 在 macOS、Windows 和網頁瀏覽器上皆能使用，並可搭配 Adobe Analytics 和 Customer Journey Analytics 運用。
 >此舊版 Report Builder 增益集版本仍可運作。 您可以[將舊版活頁簿轉換](/help/analyze/report-builder/convert-workbooks.md)為新的 Report Builder。
 
-## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
+## Reports & Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
