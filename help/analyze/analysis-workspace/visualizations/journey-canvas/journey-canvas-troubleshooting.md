@@ -4,7 +4,7 @@ title: 歷程畫布疑難排解
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -15,9 +15,11 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的Journey Canvas視覺效果。<br/><br/>_&#x200B;若需本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中的Journey Canvas視覺效果。<br/><br/>_&#x200B;若需本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
 
 >[!ENDSHADEBOX]
+
+{{release-limited-testing}}
 
 您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。
 
