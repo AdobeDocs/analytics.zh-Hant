@@ -4,9 +4,9 @@ title: 日期範圍概觀
 feature: Date Ranges
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 100%
 
 ---
@@ -35,18 +35,18 @@ ht-degree: 100%
 >當您在自由格式表中使用日期範圍時，日期範圍會覆寫自由格式表格所屬面板指定的行事曆。
 >
 
-使用日期範圍的方式與[使用任何元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)的方式一樣。您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：
+使用日期範圍的方式與[使用任何元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md#analysis-workspace-components)的方式一樣。 您從![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** 元件面板將日期範圍拖曳到：
 
 - **[!UICONTROL 行事曆]**：您使用日期範圍![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的行事曆設定。
 - **量度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;量度，![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**日期範圍作為量度，或使用日期範圍元件來![篩選](/help/assets/icons/Filter.svg)**[!UICONTROL &#x200B;篩選&#x200B;]**量度。
-- **維度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的維度。現在的新維度是&#x200B;**[!UICONTROL 日期範圍]**。只要維度是日期範圍，您就可以![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**其他日期範圍作為維度項目。
+- **維度欄標題**：您![切換](/help/assets/icons/Switch.svg) **[!UICONTROL 取代]**&#x200B;目前的維度。 現在的新維度是&#x200B;**[!UICONTROL 日期範圍]**。 只要維度是日期範圍，您就可以![新增](/help/assets/icons/Add.svg)**[!UICONTROL 新增&#x200B;]**其他日期範圍作為維度項目。
 - **維度項目**：您可依日期範圍![劃分](/help/assets/icons/Breakdown.svg) **[!UICONTROL 劃分]**&#x200B;特定維度項目。
 
 您也可以直接在自由格式表格視覺效果中新增日期範圍欄：
 
 1. 在量度欄中，從內容選單中選取：
 
-   - **[!UICONTROL 新增時段欄]**。您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
+   - **[!UICONTROL 新增時段欄]**。 您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
    - **[!UICONTROL 比較時段]**。 您可以在根據目前行事曆的建議選項中選取，或建立[自訂日期範圍](#custom-date-ranges)。
 
 1. 根據您的選擇，額外的日期範圍欄將會新增至自由格式表格中。
@@ -76,7 +76,7 @@ Analysis Workspace 提供許多預設的日期範圍。
 
 ## 自訂日期範圍
 
-您可以建立專屬的自訂日期範圍。有關建立日期範圍時可使用的各種選項，請參閱[建立日期範圍](create.md)。然後，您可以在[日期範圍產生器](create.md#date-range-builder)中建立、修改和儲存日期範圍。
+您可以建立專屬的自訂日期範圍。 有關建立日期範圍時可使用的各種選項，請參閱[建立日期範圍](create.md)。 然後，您可以在[日期範圍產生器](create.md#date-range-builder)中建立、修改和儲存日期範圍。
 
 您可以使用[日期範圍管理器](manage.md)來管理日期範圍。
 
@@ -112,7 +112,7 @@ The first click on a calendar starts a date range selection. The second click co
 
 You can also drag dates (and time dimensions) into a Workspace project. You can select specific days, weeks, months, years, or a rolling date.
 
-[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html?lang=zh-Hant) (4:07)
+[Using Date Ranges and Calendar in Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-dates-in-analysis-workspace.html) (4:07)
 
 | Setting | Description |
 |--- |--- |

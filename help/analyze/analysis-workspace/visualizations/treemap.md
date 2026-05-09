@@ -5,10 +5,10 @@ uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 91%
+source-wordcount: '193'
+ht-degree: 72%
 
 ---
 
@@ -25,29 +25,29 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的樹狀圖視覺效果。_<br/>_請參閱[樹狀圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/treemap)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄樹狀圖視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[樹狀圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/treemap)。_
 
 >[!ENDSHADEBOX]
 
-使用 ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL 樹狀圖]**&#x200B;視覺效果，以一組巢狀矩形顯示階層式 (樹結構) 資料。
+使用 ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL 樹狀圖]**&#x200B;視覺效果，以一組巢狀矩形顯示階層式 (樹狀結構) 資料。
 
 每個樹狀分支都會呈現一個矩形，接著再與代表子分支的較小矩形並排顯示。
 
 ![樹狀圖範例顯示了表示子分支的較小矩形的圖磚。](assets/treemap.png)
 
-透過樹狀圖，您可以看到其他方式不容易發現的模式。透過維度的顏色和大小，您可以發現維度是如何相關聯，以及某個維度是否特別相關。樹狀圖還有一個優點是，透過結構可以有效地利用空間。
+透過樹狀圖，您可以看到其他方式不容易發現的模式。 透過維度的顏色和大小，您可以發現維度是如何相關聯，以及某個維度是否特別相關。 樹狀圖還有一個優點是，透過結構可以有效地利用空間。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [樹狀圖視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[樹狀圖視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!MORELIKETHIS]
 >
->[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

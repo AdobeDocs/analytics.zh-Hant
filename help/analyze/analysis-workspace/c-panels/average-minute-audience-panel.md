@@ -1,13 +1,13 @@
 ---
-title: Media Average Minute Audience Panel
-description: Learn how to use and interpret the Media Average Minute Audience panel in Analysis Workspace.
+title: 「媒體平均每分鐘觀眾數」面板
+description: 瞭解如何使用和解讀Analysis Workspace中的「媒體平均每分鐘觀眾數」面板。
 feature: Panels
 role: User, Admin
 exl-id: be8371ee-8bc6-4a99-8527-dd94eab8a7f9
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 92%
+source-wordcount: '1850'
+ht-degree: 91%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaaverageminuteaudience_panel"
 >title="媒體平均分鐘觀眾數"
->abstract="顯示特定媒體內容或自訂時段內的效能。<br/><br/>**一般參數&#x200B;**<br/>**計算指標**：選取要用於面板的指標。選取&#x200B;**特定內容**&#x200B;可根據內容長度分析特定內容或事件的平均分鐘觀眾數。**選取自訂時段**&#x200B;可分析自訂選定時段內的平均分鐘觀眾數變化。<br/>**報告維度**：選取按&#x200B;**內容 ID** 維度的&#x200B;**影片名稱**&#x200B;進行報告。僅當您選取特定內容作為指標時才可用。<br/>**顆粒度**：選取報告的顆粒度。僅當您選取自訂時段作為指標時才可用。<br/>**篩選內容依據 (可選)**：選取特定節目、季別、劇集，或選取自訂維度來篩選內容。<br/><br/>**進階設定&#x200B;**<br/>**表格設定**：選取是否在表格中顯示計算值。<br/>**逗留時間量度**：選取您想要用於特定內容計算的逗留時間量度。僅當您選取特定內容作為指標時才可用。"
+>abstract="顯示特定媒體內容或自訂時段內的效能。<br/><br/>**一般參數&#x200B;**<br/>**計算指標**：選取要用於面板的指標。 選取&#x200B;**特定內容**&#x200B;可根據內容長度分析特定內容或事件的平均分鐘觀眾數。 **選取自訂時段**&#x200B;可分析自訂選定時段內的平均分鐘觀眾數變化。<br/>**報告維度**：選取按&#x200B;**內容 ID** 維度的&#x200B;**影片名稱**&#x200B;進行報告。 僅當您選取「特定」內容做為量度時才可用。<br/>**顆粒度**：選取報告的顆粒度。 僅當您選取自訂時段作為指標時才可用。<br/>**篩選內容依據 (可選)**：選取特定節目、季別、劇集，或選取自訂維度來篩選內容。<br/><br/>**進階設定&#x200B;**<br/>**表格設定**：選取是否在表格中顯示計算值。<br/>**逗留時間量度**：選取您想要用於特定內容計算的逗留時間量度。 僅當您選取特定內容作為指標時才可用。"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Media average minute audience panel in_  ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_See [Media average minute audience panel](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中的「媒體平均每分鐘觀眾數」面板。<br/>_請參閱_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本本文的[媒體平均每分鐘觀眾數](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel)。_
 
 >[!ENDSHADEBOX]
 
 >[!NOTE]
 >
->The **[!UICONTROL Media average minute audience]** panel is available only to customers who have purchased the Adobe Analytics for Streaming Media Add-on.
+>**[!UICONTROL 媒體平均每分鐘觀眾數]**&#x200B;面板僅適用於已購買適用於串流媒體的Adobe Analytics附加元件的客戶。
 >
 >請聯絡您的 Adobe 銷售代表或 Adobe 帳戶團隊以取得更多資訊。
 >
@@ -49,7 +49,7 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 * 觀看特定媒體串流所花的時間除以內容的時長的資訊，或
 * 在選取顆粒度的自訂時段期間內觀看所花費的時間。
 
-媒體平均分鐘觀眾數面板，可讓您透過比較任意長度或類型的方案來了解內容平均耗用量。例如，透過比較 30 分鐘情境喜劇和 3 小時運動賽事，您可以了解平均耗用量。
+媒體平均分鐘觀眾數面板，可讓您透過比較任意長度或類型的方案來了解內容平均耗用量。 例如，透過比較 30 分鐘情境喜劇和 3 小時運動賽事，您可以了解平均耗用量。
 
 此外，您可以使用媒體平均分鐘觀眾數面板比較或附加數位平均分鐘觀眾數和線性電視平均分鐘量度。
 
@@ -59,13 +59,13 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 
 * 允許在處理視圖後更新持續時間分類 (如果持續時間分類不存在或需要更正)
 
-  如果在使用量度時進行此更新，則持續時間分類不存在 (如果此分類不存在)。或者持續時間分類已經過期 (如果分類存在但不正確)。
+  如果在使用量度時進行此更新，則持續時間分類不存在 (如果此分類不存在)。 或者持續時間分類已經過期 (如果分類存在但不正確)。
 
 ## 使用
 
 若要使用&#x200B;**[!UICONTROL 媒體平均分鐘觀眾數]**&#x200B;面板：
 
-1. 建立&#x200B;**[!UICONTROL 媒體平均分鐘觀眾數]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立&#x200B;**[!UICONTROL 媒體平均分鐘觀眾數]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 確保您為面板選取報表套裝，該面板具有從Adobe Analytics for Streaming Media附加元件設定的元件。
 
@@ -81,9 +81,9 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 
    | 設定 | 說明 |
    |---------|------------|
-   | **面板日期範圍** | 面板日期範圍預設為&#x200B;[!UICONTROL **本月**]。您可將其編輯為一次檢視一天或數月。<br></br>此視覺效果僅限 1440 列資料 (例如，以分鐘為顆粒度測量 24 小時)。 如果日期範圍和顆粒度組合結果超過 1440 列，則顆粒度會自動更新以符合完整的日期範圍。 |
-   | [!UICONTROL **將區段放置在此處 (或其他任何元件)**] | 如同其他面板，此設定會根據您已建立的區段篩選選取項目。此設定是檢視特定平台、直播串流或其他常見媒體區段的絕佳方式。 |
-   | [!UICONTROL **計算以下項目的量度**] | 選擇是否要查看平均分鐘觀眾數[**[!UICONTROL 特定內容]**](#specific-content)。或者如果您想了解[**[!UICONTROL 自訂時段]**](#custom-time-period)的平均分鐘觀眾數。<br/><br/>請選取&#x200B;[!UICONTROL **自訂時段**]： <ul><li>如果持續時間不適用，或者 </li><li>您想要檢視此時間序列的平均分鐘觀眾數，而此序列包含多個內容片段，或者</li><li>未指定特定持續時間的內容 (例如在直播串流或活動期間)</li></ul></li></li></ul> <p>此設定會變更工作流程和報表輸出。</p> |
+   | **面板日期範圍** | 面板日期範圍預設為&#x200B;[!UICONTROL **本月**]。 您可以編輯為一次檢視一天或多個月。<br></br> 此視覺效果僅限 1440 列資料 (例如以分鐘為最小顆粒度測量 24 小時)。 如果日期範圍和顆粒度組合結果超過 1440 列，則顆粒度會自動更新以符合完整的日期範圍。 |
+   | [!UICONTROL **將區段放置在此處 (或其他任何元件)**] | 如同其他面板，此設定會根據您已建立的區段篩選選取項目。 此設定是檢視特定平台、直播串流或其他常見媒體區段的絕佳方式。 |
+   | [!UICONTROL **計算以下項目的量度**] | 選擇是否要查看平均分鐘觀眾數[**[!UICONTROL 特定內容]**](#specific-content)。 或者如果您想了解[**[!UICONTROL 自訂時段]**](#custom-time-period)的平均分鐘觀眾數。<br/><br/>請選取&#x200B;[!UICONTROL **自訂時段**]： <ul><li>如果持續時間不適用，或者 </li><li>您想要檢視此時間序列的平均分鐘觀眾數，而此序列包含多個內容片段，或者</li><li>未指定特定持續時間的內容 (例如在直播串流或活動期間)</li></ul></li></li></ul> <p>此設定會變更工作流程和報表輸出。</p> |
 
 1. 繼續[特定內容](#specific-content)或者[自訂時段](#custom-time-period)，取決於您在下拉式清單的&#x200B;[!UICONTROL **計算量度**]。
 
@@ -94,7 +94,7 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
    | 設定 | 說明 |
    |---------|------------|
    | [!UICONTROL **報告維度**] | 當您選取特定內容時，可以選取報表輸出來使用影片名稱或內容 ID 欄位，以顯示其內容及其相關的平均分鐘觀眾數。 |
-   | [!UICONTROL **內容篩選依據 (可選)**] | 根據您想要的檢視或是資料結構化的方式來選擇如何篩選特定內容。 <ul>[!UICONTROL **節目、季度、集數**]：在下拉式清單顯示您可使用搜尋來篩選的可用節目 (或透過從左側邊攔拖放節目名稱)。您可以在該處結束選擇，以查看所有季度的節目，也可以依個別季度然後依個別集數篩選節目。 此設定會針對所選時段顯示這些節目、季度或集數的資料。</li><li>[!UICONTROL **自訂維度**]：如果您的節目名稱在自訂維度下，您可以在維度 (可選) 下拉式清單或使用左側邊欄搜尋來尋找。此維度項目會自動根據該選擇填入，而且被視為集數。</li><li>[!UICONTROL **無**]：針對您所選的選取項目來顯示所有具有平均分鐘觀眾數資料的影片名稱。(根據預設選取此選項。)</li></ul> |
+   | [!UICONTROL **內容篩選依據 (可選)**] | 根據您想要的檢視或是資料結構化的方式來選擇如何篩選特定內容。 <ul>[!UICONTROL **節目、季度、集數**]：在下拉式清單顯示您可使用搜尋來篩選的可用節目 (或透過從左側邊攔拖放節目名稱)。 您可以在該處結束選擇，以查看所有季度的節目，也可以依個別季度然後依個別集數篩選節目。 此設定會針對所選時段顯示這些節目、季度或集數的資料。</li><li>[!UICONTROL **自訂維度**]：如果您的節目名稱在自訂維度下，您可以在維度 (可選) 下拉式清單或使用左側邊欄搜尋來尋找。 此維度項目會自動根據該選擇填入，而且被視為集數。</li><li>[!UICONTROL **無**]：針對您所選的選取項目來顯示所有具有平均分鐘觀眾數資料的影片名稱。 (根據預設選取此選項。)</li></ul> |
 
 1. 繼續「[特定內容進階設定](#specific-content-advanced-settings)」，以設定進階設定。
 
@@ -104,8 +104,8 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 
    | 選項 | 說明 |
    |---------|------------|
-   | **[!UICONTROL 表格設定]** | 預設選項 (**[!UICONTROL 在表格中顯示計算值]**) 會將平均分鐘觀眾數的分子和分母顯示為表格中的前幾欄。取消選取此選項將移除這兩欄。平均分鐘觀眾數欄仍保留在表格中影片名稱或內容 ID 旁。 |
-   | **[!UICONTROL 逗留時間量度]** | 您可以選擇預設「**[!UICONTROL 內容逗留時間]**」選項，其中僅包括內容時間。或者您可以選擇使用「**[!UICONTROL 媒體逗留時間]**」，包括內容和廣告時間一起作為平均分鐘觀眾數的分子計算。 |
+   | **[!UICONTROL 表格設定]** | 預設選項 (**[!UICONTROL 在表格中顯示計算值]**) 會將平均分鐘觀眾數的分子和分母顯示為表格中的前幾欄。 取消選取此選項將移除這兩欄。 平均分鐘觀眾數欄仍保留在表格中影片名稱或內容 ID 旁。 |
+   | **[!UICONTROL 逗留時間量度]** | 您可以選擇預設「**[!UICONTROL 內容逗留時間]**」選項，其中僅包括內容時間。 或者您可以選擇使用「**[!UICONTROL 媒體逗留時間]**」，包括內容和廣告時間一起作為平均分鐘觀眾數的分子計算。 |
 
 1. 請選取「[!UICONTROL **建置**]」，以完成媒體平均分鐘觀眾數面板的建立。
 
@@ -117,8 +117,8 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 
    | 選項 | 說明 |
    |---------|------------|
-   | **[!UICONTROL 顆粒度]** | 預設顆粒度為 [!UICONTROL **5 分鐘**]，但是您可以在選取的時段內選擇用於時間序列分母的任何顆粒度。For example, selecting 12:00 pm to 12:30 pm with a 5-minute granularity returns the average minute audience over the full half hour as well as six rows with the average minute audience for each 5-minute period. 這些列會當作時間序列圖表的資料點使用。 |
-   | [!UICONTROL **內容篩選依據 (可選)**] | 根據您想要的檢視或是資料結構化的方式來選擇如何篩選特定內容。 <ul>[!UICONTROL **節目、季度、集數**]：在下拉式清單顯示您可使用搜尋來篩選的可用節目 (或透過從左側邊攔拖放節目名稱)。您可以在該處結束選擇，以查看所有季度的節目，也可以依個別季度然後依個別集數篩選節目。 此設定會針對所選時段顯示這些節目、季度或集數的資料。</li><li>[!UICONTROL **自訂維度**]：如果您的節目名稱在自訂維度下，您可以在維度 (可選) 下拉式清單或使用左側邊欄搜尋來尋找。此維度項目會自動根據該選擇填入，而且被視為集數。</li><li>[!UICONTROL **無**]：針對您所選的選取項目來顯示所有具有平均分鐘觀眾數資料的影片名稱。(根據預設選取此選項。)</li></ul> |
+   | **[!UICONTROL 顆粒度]** | 預設顆粒度為 [!UICONTROL **5 分鐘**]，但是您可以在選取的時段內選擇用於時間序列分母的任何顆粒度。 例如，選取12:00 pm到12:30 pm當作5分鐘詳細程度，會傳回超過半小時的平均每分鐘觀眾數，以及每5分鐘時段的平均每分鐘觀眾數。 這些列會當作時間序列圖表的資料點使用。 |
+   | [!UICONTROL **內容篩選依據 (可選)**] | 根據您想要的檢視或是資料結構化的方式來選擇如何篩選特定內容。 <ul>[!UICONTROL **節目、季度、集數**]：在下拉式清單顯示您可使用搜尋來篩選的可用節目 (或透過從左側邊攔拖放節目名稱)。 您可以在該處結束選擇，以查看所有季度的節目，也可以依個別季度然後依個別集數篩選節目。 此設定會針對所選時段顯示這些節目、季度或集數的資料。</li><li>[!UICONTROL **自訂維度**]：如果您的節目名稱在自訂維度下，您可以在維度 (可選) 下拉式清單或使用左側邊欄搜尋來尋找。 此維度項目會自動根據該選擇填入，而且被視為集數。</li><li>[!UICONTROL **無**]：針對您所選的選取項目來顯示所有具有平均分鐘觀眾數資料的影片名稱。 (根據預設選取此選項。)</li></ul> |
 
 1. 繼續「[自訂時段進階設定](#custom-time-period-advanced-settings)」，以設定進階設定。
 
@@ -152,7 +152,7 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 
 #### 特定內容資料來源
 
-媒體平均分鐘觀眾數面板僅使用平均分鐘觀眾量度來收集資料。面板中不能使用劃分或其他量度。
+媒體平均分鐘觀眾數面板僅使用平均分鐘觀眾量度來收集資料。 面板中不能使用劃分或其他量度。
 
 | 量度 | 說明 |
 |--------|-------------|
@@ -177,7 +177,7 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 
 #### 自訂時段資料來源
 
-媒體平均分鐘觀眾數面板僅使用平均分鐘觀眾量度來收集資料。面板中不能使用劃分或其他量度。
+媒體平均分鐘觀眾數面板僅使用平均分鐘觀眾量度來收集資料。 面板中不能使用劃分或其他量度。
 
 | 量度 | 說明 |
 |---|---|
@@ -187,7 +187,7 @@ _This article documents the Media average minute audience panel in_  ![AdobeAnal
 >[!MORELIKETHIS]
 >
 > [建立面板](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [媒體同時檢視者面板](media-concurrent-viewers.md)
+> [媒體同時檢閱者面板](media-concurrent-viewers.md)
 > [媒體播放時間面板](media-playback-time-spent.md)
 >
 

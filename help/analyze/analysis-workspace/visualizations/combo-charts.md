@@ -1,13 +1,13 @@
 ---
-description: Learn how to visualize comparison data in Analysis Workspace, such as building comparisons to last month, last year, and so on.
+description: 瞭解如何在Analysis Workspace中將比較資料視覺化，例如建置和上個月、去年等的比較資料。
 title: 組合
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '618'
+ht-degree: 95%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的組合視覺化。_
+_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的組合視覺化。_
 
-_請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
 
-![組合圖表](/help/assets/icons/ComboChart.svg)**[!UICONTROL 組合]**&#x200B;視覺化讓您可輕鬆快速地建置比較視覺化，而無需先建置表格。您可以輕鬆地以折線/條形組合的形式檢視資料趨勢。
+![組合圖表](/help/assets/icons/ComboChart.svg)**[!UICONTROL 組合]**&#x200B;視覺化讓您可輕鬆快速地建置比較視覺化，而無需先建置表格。 您可以輕鬆地以折線/條形組合的形式檢視資料趨勢。
 
 使用[!UICONTROL 組合]進行：
 
@@ -50,7 +50,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
 ## 使用
 
-1. 新增![評論](/help/assets/icons/ComboChart.svg) [!UICONTROL 組合]視覺化。請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
+1. 新增![評論](/help/assets/icons/ComboChart.svg)[!UICONTROL 組合]視覺化。 請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
@@ -58,8 +58,8 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
    | 折線比較類型 | 定義 |
    | --- | --- |
-   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![與所選時段以及時段的次要選取欄位進行折線比較。](assets/combo-time-period.png) |
-   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱[支援的函數](#supported-functions)清單。<p>![顯示所選函數以及可用的支援功能清單的折線比較下拉式選單。](assets/combo-functions.png) |
+   | **[!UICONTROL 時間比較]** | 最常見的比較類型 - 例如，將此時段與 4 週前進行比較。 如果您已選取[!UICONTROL 時間比較]，請針對您要比較的時段進行次要比較。<p>![與所選時段以及時段的次要選取欄位進行折線比較。](assets/combo-time-period.png) |
+   | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。 請參閱[支援的函數](#supported-functions)清單。<p>![顯示所選函數以及可用的支援功能清單的折線比較下拉式選單。](assets/combo-functions.png) |
    | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![比較兩個量度的組合圖表。](assets/combo-2metrics-settings.png) |
 
    {style="table-layout:auto"}
@@ -68,9 +68,9 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
    輸出看起來會類似下列所示：
 
-   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 &#x200B;](assets/combo-output.png)
+   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 ](assets/combo-output.png)
 
-   目前期間顯示在長條圖中。折線圖會表示比較期間。折線圖上的圓點稱為&#x200B;*槓鈴*。
+   目前期間顯示在長條圖中。 折線圖會表示比較期間。 折線圖上的圓點稱為&#x200B;*槓鈴*。
 
 ## 支援的函數
 
@@ -80,7 +80,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 | --- | --- |
 | **[!UICONTROL 欄總和]** | 將欄中量度的所有數值 (涵蓋維度的所有元素) 相加。 |
 | **[!UICONTROL 累積平均值]** | 傳回最後 N 列的平均值。 |
-| **[!UICONTROL 中位數]** | 傳回欄中量度的中位數。中位數是一組數字中位於中間的數字。一半數字的值大於或等於中位數，另一半數字的值則小於或等於中位數。 |
+| **[!UICONTROL 中位數]** | 傳回欄中量度的中位數。 中位數是一組數字中位於中間的數字。 一半數字的值大於或等於中位數，另一半數字的值則小於或等於中位數。 |
 | **[!UICONTROL 累積]** | N 列的累積總和。 |
 | **[!UICONTROL 欄最大值]** | 傳回量度欄中一組維度元素的最大值。 |
 | **[!UICONTROL 平均值]** | 傳回量度的算術平均值或平均值。 |
@@ -98,7 +98,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
 >[!MORELIKETHIS]
 >
->[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

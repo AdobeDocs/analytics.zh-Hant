@@ -1,13 +1,13 @@
 ---
-description: Learn how to use the page summary panel to show summary information for a selected page.
-title: Page Summary Panel
+description: 瞭解如何使用頁面摘要面板顯示所選頁面的摘要資訊。
+title: 頁面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 90%
+ht-degree: 87%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="頁面摘要面板"
->abstract="快速地檢視部分高層級的量度以及進出特定頁面的移動。<br/><br/>**參數&#x200B;**<br/>**新增頁面維度項目**：開啟元件邊欄，找到頁面維度，並且按一下胡蘿蔔圖示將其展開，以查看維度項目。然後，將您想要了解的特定頁面拖曳到產生器中。拖放維度項目後，報表即會自動填入有關頁面的關鍵資訊。"
+>abstract="快速地檢視部分高層級的量度以及進出特定頁面的移動。<br/><br/>**參數&#x200B;**<br/>**新增頁面維度項目**：開啟元件邊欄，找到頁面維度，並且按一下胡蘿蔔圖示將其展開，查看維度項目。 然後，將您想要了解的特定頁面拖曳到產生器中。 拖放維度項目後，報表即會自動填入有關頁面的關鍵資訊。"
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的頁面摘要面板。![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;_<br/>_中無等效面板_。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄頁面摘要面板。_<br/>_在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._中沒有對應的面板
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 若要使用「**[!UICONTROL 頁面摘要]**」面板：
 
-1. 建立「**[!UICONTROL 頁面摘要]**」面板：有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立「**[!UICONTROL 頁面摘要]**」面板： 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -56,8 +56,8 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 | 存取點 | 說明 |
 | --- | --- |
-| [!UICONTROL 報告] | <ul><li>此面板已拖曳至專案中。</li><li>左側邊欄已摺疊。</li><li>僅支援「頁面」維度。</li><li>已套用預設設置，在此情況下，[!UICONTROL 頁面] 維度最熱門的造訪頁面。您可以修改此設定。</li></ul> |
-| Workspace | 建立新專案並選取左側邊欄的面板圖示。將[!UICONTROL 頁面摘要]面板拖曳至自由格式表格上方。請注意，此頁面[!UICONTROL 維度項目] 欄位留空。從下拉式清單中選取維度項目。 |
+| [!UICONTROL 報告] | <ul><li>此面板已拖曳至專案中。</li><li>左側邊欄已摺疊。</li><li>僅支援「頁面」維度。</li><li>已套用預設設置，在此情況下，[!UICONTROL 頁面] 維度最熱門的造訪頁面。 您可以修改此設定。</li></ul> |
+| Workspace | 建立新專案並選取左側邊欄的面板圖示。 將[!UICONTROL 頁面摘要]面板拖曳至自由格式表格上方。 請注意，此頁面[!UICONTROL 維度項目] 欄位留空。 從下拉式清單中選取維度項目。 |
 
 ### 面板輸入 {#panel-input}
 
@@ -67,7 +67,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 | 輸入 | 說明 |
 | --- | --- |
-| **[!UICONTROL 頁面]** | Select a page dimension for which page you want to explore key statistics. For example **[!UICONTROL home]** to explore statistics for the Home page. Use the drop-down menu to select a page or start typing (for example `home`) to quickly search for pages. |
+| **[!UICONTROL 頁面]** | 選取您要探索其關鍵統計資料的頁面的頁面維度。 例如&#x200B;**[!UICONTROL home]**，探索首頁的統計資料。 使用下拉式功能表選取頁面或開始輸入（例如`home`）以快速搜尋頁面。 |
 
 {style="table-layout:auto"}
 
@@ -89,10 +89,10 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 | **[!UICONTROL 所有頁面檢視次數的百分比]** | 造訪此頁面的所有頁面檢視次數的百分比摘要數字。 |
 | **[!UICONTROL 頁面逗留時間]** | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)視覺效果顯示在此頁面的逗留時間。 |
 | **[!UICONTROL 單次頁面造訪數]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示此頁面是唯一造訪的頁面之頁面檢視次數。 |
-| **[!UICONTROL 重新載入]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示重新載入期間維度項目出現的次數。訪客重新整理瀏覽器是觸發重新載入的最常見方式。 |
+| **[!UICONTROL 重新載入]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示重新載入期間維度項目出現的次數。 訪客重新整理瀏覽器是觸發重新載入的最常見方式。 |
 | **[!UICONTROL 登入]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示指定的維度項目在造訪中被擷取為第一個值的次數。 |
 | **[!UICONTROL 退出]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示指定的維度項目在造訪中被擷取為最後一個值的次數。 |
-| **[!UICONTROL 流量]** | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 視覺效果使用選取頁面作業焦點。您可以僅如同在任何[流量](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)視覺效果一樣進一步深入了解資料。 |
+| **[!UICONTROL 流量]** | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 視覺效果使用選取頁面作業焦點。 您可以僅如同在任何[流量](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)視覺效果一樣進一步深入了解資料。 |
 
 {style="table-layout:auto"}
 

@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 30%
+source-wordcount: '2151'
+ht-degree: 31%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 * 資料摘要的傳送頻率（如果您選擇包含延遲送達點選，則包括回顧視窗）
 
-在建立資料摘要之前，務必先對資料摘要有基本的了解，並確認您已滿足所有先決條件。如需詳細資訊，請參閱[資料摘要概觀](data-feed-overview.md)。
+在建立資料摘要之前，務必先對資料摘要有基本的了解，並確認您已滿足所有先決條件。 如需詳細資訊，請參閱[資料摘要概觀](data-feed-overview.md)。
 
 ## 建立並設定資料摘要 {#create-and-configure-data-feed}
 
@@ -38,7 +38,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="manifest"
->abstract="選擇是否在每次傳送資料摘要時包含資訊清單檔案。資訊清單檔案包含資料摘要中所包含之每個檔案的相關資訊。在以單一封裝傳送資料摘要的資料時，您也可以選擇包含完成檔案，但建議包含資訊清單檔案。 "
+>abstract="選擇是否在每次傳送資料摘要時包含資訊清單檔案。 資訊清單檔案包含資料摘要中所包含之每個檔案的相關資訊。 在以單一封裝傳送資料摘要的資料時，您也可以選擇包含完成檔案，但建議包含資訊清單檔案。 "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -47,7 +47,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_notify"
 >title="完成時通知"
->abstract="指定一或多個電子郵件地址，在傳送資料摘要後，向其傳送通知。多個電子郵件地址必須以逗號分隔。"
+>abstract="指定一或多個電子郵件地址，在傳送資料摘要後，向其傳送通知。 多個電子郵件地址必須以逗號分隔。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -69,21 +69,21 @@ ht-degree: 30%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **名稱**] | 資料摘要的名稱名稱在選取的報表套裝中必須是唯一的，且長度最多可為255個字元。 [了解更多](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[中所述的標籤進行篩選，並在](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)管理資料摘要[中搜尋資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)的清單。 |
+   | [!UICONTROL **名稱**] | 資料摘要的名稱 名稱在選取的報表套裝中必須是唯一的，且長度最多可為255個字元。 [了解更多](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
+   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)的清單。 |
    | [!UICONTROL **說明**] | 指定資料摘要的說明。 編輯資料摘要時，會顯示您新增的說明。 |
 
 1. 在&#x200B;[!UICONTROL **資料格式**]&#x200B;區段中，指定下列資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **壓縮格式**] | 使用的壓縮類型。**Gzip** 會輸出 `.tar.gz` 格式的檔案。**Zip** 會輸出 `.zip` 格式的檔案。 |
-   | [!UICONTROL **封裝類型**] | 若需最多的資料摘要，請選取&#x200B;[!UICONTROL **「多個檔案」**]。此選項會將您的資料分頁為未壓縮的 2GB 區塊。(如果選取&#x200B;[!UICONTROL **「多個檔案」**]&#x200B;選項，且報告時間範圍的未壓縮資料小於 2GB，則會傳送一個檔案)。選取&#x200B;**「單一檔案」**&#x200B;則會將 `hit_data.tsv` 檔案輸出為單一檔案，可能會非常龐大。 |
-   | [!UICONTROL **資訊清單**] | 選擇是否在每次資料摘要傳遞時都包含資訊清單檔案。 <p>您可以從下列選項中選擇：</p><ul><li>**[!UICONTROL 資訊清單檔案]**：包含資料摘要中所含每個檔案的資訊。</li><li>**[!UICONTROL 完成檔案（舊版）]**：表示資料摘要已成功完成。 不包含其他資訊。 此選項適用於原本使用此選項但需要重新處理的現有摘要。 它僅適用於以單一套件傳送資料摘要資料時。 </li><li>**[!UICONTROL 無]**：不包含任何檔案</li></ul> |
-   | [!UICONTROL **即使沒有資料也傳送資訊清單**] | 當某個資料摘要時間間隔未收集到資料時，決定 Adobe 是否應將[資訊清單檔案](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)傳送至目標。如果您選取&#x200B;**資訊清單檔案**，則在未收集資料時，您會收到類似下列的資訊清單檔案：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
+   | [!UICONTROL **壓縮格式**] | 使用的壓縮類型。 **Gzip** 會輸出 `.tar.gz` 格式的檔案。 **Zip** 會輸出 `.zip` 格式的檔案。 |
+   | [!UICONTROL **封裝類型**] | 若需最多的資料摘要，請選取&#x200B;[!UICONTROL **「多個檔案」**]。 此選項會將您的資料分頁為未壓縮的 2GB 區塊。 （如果選取了&#x200B;[!UICONTROL **多個檔案**]&#x200B;選項，且報表回溯期的未壓縮資料小於2GB，則會傳送一個檔案。） 選取&#x200B;**單一檔案**&#x200B;會將`hit_data.tsv`檔案輸出為單一的、可能是大型的檔案。 |
+   | [!UICONTROL **資訊清單**] | 選擇是否在每次傳送資料摘要時包含資訊清單檔案。 <p>您可以從下列選項中選擇：</p><ul><li>**[!UICONTROL 資訊清單檔案]**：包含資料摘要中所含每個檔案的資訊。</li><li>**[!UICONTROL 完成檔案（舊版）]**：表示資料摘要已成功完成。 不包含其他資訊。 此選項適用於原本使用此選項但需要重新處理的現有摘要。 它僅適用於以單一套件傳送資料摘要資料時。 </li><li>**[!UICONTROL 無]**：不包含任何檔案</li></ul> |
+   | [!UICONTROL **即使沒有資料也傳送資訊清單**] | 當某個資料摘要時間間隔未收集到資料時，決定 Adobe 是否應將[資訊清單檔案](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest)傳送至目標。 如果您選取&#x200B;**資訊清單檔案**，則在未收集資料時，您會收到類似下列的資訊清單檔案：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **取代作業系統字串**] | 收集資料時，有些字元（例如新的行）可能會造成問題。 選取此選項可移除摘要檔案中的這些字元。<p>此選項會偵測以下內嵌於客戶資料中的字串序列，並以空格取代：</p> <ul><li>**Windows：** CRLF、CR或TAB</li><li>**Mac和Linux：** \n、\r或\t</li></ul> |
    | [!UICONTROL **啟用動態查詢**] | 動態查閱可讓您在資料摘要中接收其他無法使用的查閱檔案。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li> **電信業者名稱**</li><li>**行動屬性**</li><li>**作業系統型別**</li></ul><p>如需詳細資訊，請參閱[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)。</p> |
-   | **允許延遲送達點選** | 歷史資料可能會在資料摘要工作完成特定小時或當天的處理後送達，例如透過時間戳記點選或資料來源。<p>選取此選項，可在設定的報告頻率內 (通常是每日或每小時)，納入資料摘要工作完成資料處理之後抵達的資料。啟用此選項，則每次資料摘要處理資料時，都會查看任何送達的延遲點擊，並將其整批放進下一個傳送的資料摘要檔案中。</p><p>如需詳細資訊，請參閱[延遲送達點選](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
+   | **允許延遲送達點選** | 歷史資料可能會在資料摘要工作完成特定小時或當天的處理後才送達，例如透過時間戳記點擊或資料來源。<p>選取此選項，可在設定的報告頻率內 (通常是每日或每小時)，納入資料摘要工作完成資料處理之後抵達的資料。 啟用此選項，則每次資料摘要處理資料時，都會查看任何送達的延遲點擊，並將其整批放進下一個傳送的資料摘要檔案中。</p><p>如需詳細資訊，請參閱[延遲送達點選](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md)。</p> |
    | **回顧期間** （適用於延遲送達的點選） | 此選項會在選項&#x200B;**[!UICONTROL 允許延遲送達點選]**&#x200B;啟用時顯示。 選取回顧期間以限制包括的延遲點選的時間範圍。 若要允許所有延遲送達點選，不論延遲多久，請選取&#x200B;**[!UICONTROL 無限制]**。 您可以選擇預設間隔，例如&#x200B;**[!UICONTROL 1小時]**、**[!UICONTROL 2小時]**、**[!UICONTROL 1週]**、**[!UICONTROL 2週]**&#x200B;等。 或者，選取&#x200B;**[!UICONTROL 自訂回顧期間]**，然後在&#x200B;**[!UICONTROL 自訂回顧]**&#x200B;欄位中指定最多26,280小時的回顧期間。 |
 
 1. 在&#x200B;[!UICONTROL **資料結構**]&#x200B;區段的&#x200B;**[!UICONTROL 報表套裝]**&#x200B;欄位中，選取包含您要匯出之資料的來源報表套裝。 <p>選取報表套裝時，請考量下列事項：</p> <ul><li>如果相同報表套裝中建立了多個資料摘要，則每個資料摘要都必須有不同的欄定義。</li><li>只有來源報表套裝支援資料摘要，虛擬報表套裝並不受支援。</li><li>可用欄的清單取決於所選報表套裝所屬的登入公司。 如果您變更報表套裝，可用欄的清單可能會變更。 </li></ul>
@@ -109,9 +109,9 @@ ht-degree: 30%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **頻率**] | 選取資料摘要的傳送頻率。 可用選項會根據您的報表套裝設定動態填入。 <p>下列為常用選項：</p><ul><li>**每日**：摘要包含一整天的資料，從報表套裝時區的午夜到午夜。 此選項可用於回填或歷史資料，或用於繼續摘要。</li><li>**小時**：摘要包含一個小時的資料量。 使用此選項繼續摘要。</li></ul><p>匯出頻率可以是15分鐘，但預設無法使用。 若要讓此選項在您的環境中可用，您必須先聯絡Adobe客戶服務，要求將您的報表套裝設定為支援15分鐘匯出。</p> |
-   | [!UICONTROL **處理延遲**] | 選擇是否在處理資料摘要檔案之前等候特定時間。 延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。多數情況下延遲並不會發生。摘要最多可延遲8小時（480分鐘），或如果選取自訂時間量（延遲9,999分鐘或約1週），延遲時間甚至更長。 |
-   | [!UICONTROL **連續資料摘要**] | 選取後，此選項會移除結束日期，使摘要無限期進行處理。 當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。當目前小時或當天結束時，處理會在指定的延遲後開始。 |
-   | [!UICONTROL **開始日期**] | 指定資料摘要的開始日期。 若要立即開始處理歷史資料的資料摘要，將此日期設定為過去收集資料的任何日期。開始日期取決於報表套裝的時區。 |
+   | [!UICONTROL **處理延遲**] | 選擇是否在處理資料摘要檔案之前等候特定時間。 延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。 在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。 多數情況下延遲並不會發生。 摘要最多可延遲8小時（480分鐘），或如果選取自訂時間量（延遲9,999分鐘或約1週），延遲時間甚至更長。 |
+   | [!UICONTROL **連續資料摘要**] | 選取後，此選項會移除結束日期，使摘要無限期進行處理。 當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。 當目前小時或當天結束時，處理會在指定的延遲後開始。 |
+   | [!UICONTROL **開始日期**] | 指定資料摘要的開始日期。 若要立即開始處理歷史資料的資料摘要，將此日期設定為過去收集資料的任何日期。 開始日期取決於報表套裝的時區。 |
    | [!UICONTROL **結束日期**] | 指定資料摘要的結束日期。 結束日期取決於報表套裝的時區。 |
 
 1. 在&#x200B;[!UICONTROL **目的地**]&#x200B;區段中，設定您要傳送資料的目的地。
@@ -129,7 +129,7 @@ ht-degree: 30%
    >   
    >   * 從位置管理器，在[「元件」>「位置」](/help/components/locations/configure-import-accounts.md)中
    >
-   >* 雲端帳戶與您的 Adob&#x200B;&#x200B;e Analytics 使用者帳戶有關聯。其他使用者無法使用或檢視您設定的雲端帳戶，除非您提供這些帳戶給組織中的所有使用者。
+   >* 雲端帳戶與您的 Adob&#x200B;&#x200B;e Analytics 使用者帳戶有關聯。 其他使用者無法使用或檢視您設定的雲端帳戶，除非您提供這些帳戶給組織中的所有使用者。
    >
    >* 您可以在「[元件 > 位置](/help/components/locations/configure-import-accounts.md)」中，編輯從「位置」管理員建立的任何位置
 
@@ -137,8 +137,8 @@ ht-degree: 30%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **帳戶**] | 進行下列一項：<ul><li>**使用現有帳戶：**&#x200B;選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入帳戶名稱，然後從下拉式選單中選取。 <p>只有在您已設定帳戶，或帳戶與您所屬的某個組織共用時，您才可使用帳戶。</p></li><li>**建立新帳戶：**&#x200B;在&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md#configure-a-location-account)中的[設定位置帳戶](/help/components/locations/configure-import-accounts.md)。</li></ul> |
-   | [!UICONTROL **位置**] | 進行下列一項：<ul><li>**使用現有的位置：**&#x200B;選取&#x200B;**[!UICONTROL 位置]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入位置名稱，然後從下拉式選單中選取它。</li><li>**建立新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定位置的資訊，請參閱[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md#configure-a-location)中的[設定位置](/help/components/locations/configure-import-locations.md)。</li></ul> |
+   | [!UICONTROL **帳戶**] | 進行下列一項：<ul><li>**使用現有帳戶：**&#x200B;選取&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入帳戶名稱，然後從下拉式選單中選取。 <p>只有在您已設定帳戶，或帳戶與您所屬的某個組織共用時，您才可使用帳戶。</p></li><li>**建立新帳戶：**&#x200B;在&#x200B;**[!UICONTROL 帳戶]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定帳戶的資訊，請參閱[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的[設定位置帳戶](/help/components/locations/configure-import-accounts.md#configure-a-location-account)。</li></ul> |
+   | [!UICONTROL **位置**] | 進行下列一項：<ul><li>**使用現有的位置：**&#x200B;選取&#x200B;**[!UICONTROL 位置]**&#x200B;欄位旁的下拉式功能表。 或者，開始輸入位置名稱，然後從下拉式選單中選取它。</li><li>**建立新位置：**&#x200B;在&#x200B;**[!UICONTROL 位置]**&#x200B;欄位下選取&#x200B;**[!UICONTROL 新增]**。 如需有關如何設定位置的資訊，請參閱[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中的[設定位置](/help/components/locations/configure-import-locations.md#configure-a-location)。</li></ul> |
    | [!UICONTROL **完成時通知**] | 指定一或多個電子郵件地址，在資料摘要成功傳送或無法傳送後，應傳送通知。 多個電子郵件地址必須以逗號分隔。 |
 
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。

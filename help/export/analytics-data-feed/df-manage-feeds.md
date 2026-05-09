@@ -3,16 +3,16 @@ title: 管理資料摘要
 description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 17%
+source-wordcount: '1329'
+ht-degree: 18%
 
 ---
 
 # 管理資料摘要 {#manage-data-feeds}
 
-資料摘要管理員可讓您建立、編輯和刪除組織的資料摘要。如果您有存取資料摘要管理員的權限，就能管理所有可見報表套裝的資料摘要。
+資料摘要管理員可讓您建立、編輯和刪除組織的資料摘要。 如果您有存取資料摘要管理員的權限，就能管理所有可見報表套裝的資料摘要。
 
 
 >[!BEGINSHADEBOX]
@@ -26,7 +26,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="管理資料摘要"
->abstract="您可以在此頁面檢視、建立及管理資料摘要。依名稱或 ID 搜尋摘要，或選取篩選器圖示以檢視可用的篩選器。"
+>abstract="您可以在此頁面檢視、建立及管理資料摘要。 依名稱或 ID 搜尋摘要，或選取篩選器圖示以檢視可用的篩選器。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -55,7 +55,7 @@ ht-degree: 17%
 
 1. 對資料摘要進行任何需要的變更。
 
-   如需資料摘要選項的相關資訊，請參閱[建立資料摘要](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)中的[建立並設定資料摘要](/help/export/analytics-data-feed/create-feed.md)。
+   如需資料摘要選項的相關資訊，請參閱[建立資料摘要](/help/export/analytics-data-feed/create-feed.md)中的[建立並設定資料摘要](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed)。
 
    針對您正在編輯的資料摘要更新&#x200B;[!UICONTROL **目的地**]&#x200B;區段時，您可以在&#x200B;[!UICONTROL **帳戶**]&#x200B;和&#x200B;[!UICONTROL **位置**]&#x200B;下拉式欄位中選擇要用於新資料摘要的其他帳戶和位置。
 
@@ -164,16 +164,16 @@ ht-degree: 17%
    * **報表套裝**：摘要參考資料所在的報表套裝。
    * **報表套裝識別碼**：報表套裝的唯一識別碼。
    * **間隔**: 指出摘要是每小時還是每日傳送。
-   * **目的地類型**: 摘要的目的地類型。例如，Amazon S3、GCP或Azure。
+   * **目的地類型**: 摘要的目的地類型。 例如，Amazon S3、GCP或Azure。
    * **目的地**：檔案的放置位置。
    * **擁有者**: 建立摘要的使用者帳戶。
    * **狀態**: 摘要的狀態。
       * 作用中: 摘要運作中。
       * 待核准: 在某些情況下，摘要必須先經過 Adobe 的核准，才能開始產生作業。
       * 已刪除: 摘要已刪除。
-      * 完成: 摘要已完成處理。您可以編輯、保留或取消已完成的摘要。
-      * 擱置中: 摘要已建立，但尚未啟用。摘要只會在此狀態中維持短暫的過渡時間。
-      * 非作用中: 意同於「暫停」或「中止」狀態。如需當非作用中摘要重新啟動時，回填摘要和即時摘要會發生什麼動作的詳細資訊，請參閱[啟動資料摘要](#activate-a-data-feed)。
+      * 完成: 摘要已完成處理。 您可以編輯、保留或取消已完成的摘要。
+      * 擱置中: 摘要已建立，但尚未啟用。 摘要只會在此狀態中維持短暫的過渡時間。
+      * 非作用中: 意同於「暫停」或「中止」狀態。 如需當非作用中摘要重新啟動時，回填摘要和即時摘要會發生什麼動作的詳細資訊，請參閱[啟動資料摘要](#activate-a-data-feed)。
    * **上次修改日期**：上次修改摘要的日期。 日期和時間會以報表套裝的時區顯示，並計入GMT時差。
    * **開始日期**：摘要產生第一個作業的日期。 日期和時間會以報表套裝的時區顯示，並計入GMT時差。
    * **結束日期**：摘要最後一項工作的日期。 持續的資料摘要沒有結束日期。

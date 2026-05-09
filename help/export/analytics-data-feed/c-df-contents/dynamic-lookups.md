@@ -3,7 +3,7 @@ title: 動態查詢
 description: 瞭解什麼是動態查詢以及如何啟用動態查詢。 包括電信業者、行動屬性和作業系統型別。
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="啟用動態查詢"
->abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動屬性</li><li>作業系統類型</li></ul>"
+>abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動裝置屬性</li><li>作業系統類型</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -4,10 +4,10 @@ title: Analytics 庫存
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 20%
+source-wordcount: '1224'
+ht-degree: 23%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="analytics-inventory"
 >title="Analytics 庫存"
->abstract="此頁面提供您 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。當您開始準備升級至 Customer Journey Analytics 時，這些資訊能提供極大幫助。"
+>abstract="此頁面提供您 Adobe Analytics 環境的全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。 當您開始準備升級至 Customer Journey Analytics 時，這些資訊能提供極大幫助。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -68,7 +68,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-components"
 >title="元件"
->abstract="此區段顯示您 Adobe Analytics 環境中存在的專案、區段和計算量度的數量。專案和元件可以遷移至 Customer Journey Analytics。"
+>abstract="此區段顯示您 Adobe Analytics 環境中存在的專案、區段和計算量度的數量。 專案和元件可以遷移至 Customer Journey Analytics。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -108,13 +108,13 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | 元素 | 說明 |
    | --- | --- |
    | 名稱 | 報表套裝的名稱 |
-   | ID | 報表套裝ID (rsid)。 指定僅能含英數字元的不重複 ID。此ID在建立後即無法變更。 Adobe會設定必要的ID首碼，此值無法變更。 |
-   | 發生次數 (過去 90 天) | 「發生次數」量度會顯示指定的維度經設定或持續存在的點擊次數。此報表套裝在過去90天內收到多少點選？ |
+   | ID | 報表套裝ID (rsid)。 指定僅能含英數字元的不重複 ID。 此ID在建立後即無法變更。 由 Adobe 設定必要的 ID 首碼，此值無法變更。 |
+   | 發生次數 (過去 90 天) | 「發生次數」量度會顯示指定的維度經設定或持續存在的點擊次數。 此報表套裝在過去90天內收到多少點選？ |
    | 量度 | 此報告套裝中定義了多少量度？ |
    | 維度 | 此報告套裝中已定義多少維度？ |
-   | Analytics for Target (A4T) 已啟用 | [預設為隱藏]是否已為[Analytics for Target](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
+   | Analytics for Target (A4T) 已啟用 | [預設為隱藏]是否已為[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
    | 行銷管道已啟用 | [預設為隱藏]此報表套裝是否已為[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)啟用？ |
-   | 來源連接器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料[啟用](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 來源連接器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用[Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
    | 行事曆類型 | [預設為隱藏]如需詳細資訊，請參閱[自訂行事曆](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
 
 #### 分析維度
@@ -132,7 +132,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | ID | 維度識別碼。 |
    | 類型 | 維度的型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
-   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 決定哪些維度適合移轉至CJA。
 
@@ -153,13 +153,13 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | ID | 量度ID。 |
    | 類型 | 量度型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
-   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[的](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 判斷哪些量度適合移轉至CJA。
 
 ### 匯出至 CSV
 
-1. 若要將報表套裝清單、維度或量度匯出至.csv檔案，請按一下[匯出至CSV] **&#x200B;**。
+1. 若要將報表套裝清單、維度或量度匯出至.csv檔案，請按一下[匯出至CSV] ****。
 
 1. .csv檔案將會顯示在您的「下載」資料夾中。
 

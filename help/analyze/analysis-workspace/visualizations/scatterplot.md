@@ -3,10 +3,10 @@ title: 散佈圖
 description: 瞭解如何在Analysis Workspace中建立和解讀散佈視覺效果，以分析維度專案與最多三個量度之間的關係。
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 65%
+source-wordcount: '252'
+ht-degree: 52%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的散佈圖視覺效果。_<br/>_請參閱[散佈圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄散佈視覺效果。_<br/>_請參閱本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版的[散佈圖](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot)。_
 
 >[!ENDSHADEBOX]
 
 
 ![圖表散佈圖](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 散佈圖]**&#x200B;視覺效果可協助您識別資料中不同量度之間的關聯和模式。 視覺效果會顯示維度專案與最多三個量度之間的關係。 此視覺效果需要三個元件，且支援視覺效果最多四個元件。
 
-* 列元件 (通常為維度) 代表圖形上的每個點。不同的列以不同顏色的點顯示。
+* 列元件 (通常為維度) 代表圖形上的每個點。 不同的列以不同顏色的點顯示。
 * 最左側的欄 (通常為量度) 繪製點在 Y 軸 (垂直軸) 上的位置。
 * 第二欄繪製點在 X 軸 (水平軸) 上的位置。
 * 第三欄則決定點的半徑。
@@ -42,7 +42,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺散佈圖效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[視覺散佈圖效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 >[!MORELIKETHIS]
 >
->[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
