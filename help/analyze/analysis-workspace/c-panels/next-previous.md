@@ -25,7 +25,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的下一個或上一個專案面板。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[下一個或上一個專案面板](/help/analyze/analysis-workspace/c-panels/next-previous.md)。_
+_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的下一個或上一個專案面板。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[下一個或上一個專案面板](/help/analyze/analysis-workspace/c-panels/next-previous.md)。_
 
 >[!ENDSHADEBOX]
 

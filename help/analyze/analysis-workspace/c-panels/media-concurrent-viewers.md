@@ -35,7 +35,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**&#x200B;中記錄「媒體同時檢閱者」面板。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[媒體同時檢閱者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**&#x200B;中記錄「媒體同時檢閱者」面板。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[媒體同時檢閱者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)。_
 
 >[!ENDSHADEBOX]
 

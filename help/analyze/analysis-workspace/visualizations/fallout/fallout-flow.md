@@ -25,7 +25,7 @@ ht-degree: 49%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄流失視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄流失視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[流失](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow)。_
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)[ 流失視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 流失視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

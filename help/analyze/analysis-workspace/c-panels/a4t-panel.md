@@ -33,7 +33,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Analytics for Target面板。_<br/>_如需如何在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中比較不同使用者體驗、行銷或訊息變數的詳細資訊，請參閱[實驗面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Analytics for Target面板。_<br/>_如需如何在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中比較不同使用者體驗、行銷或訊息變數的詳細資訊，請參閱[實驗面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)。_
 
 >[!ENDSHADEBOX]
 

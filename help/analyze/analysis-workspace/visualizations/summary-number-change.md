@@ -16,7 +16,7 @@ ht-degree: 61%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的摘要編號和摘要變更視覺效果。_<br/>_請參閱_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本本文的[摘要編號和摘要變更](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的摘要編號和摘要變更視覺效果。_<br/>_請參閱_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本本文的[摘要編號和摘要變更](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change)。_
 
 >[!ENDSHADEBOX]
 

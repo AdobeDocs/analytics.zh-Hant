@@ -25,7 +25,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Quick Insights面板。_<br/>_請參閱[Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Quick Insights面板。_<br/>_請參閱[Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
 

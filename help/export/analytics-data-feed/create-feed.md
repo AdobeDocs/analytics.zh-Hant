@@ -70,7 +70,7 @@ ht-degree: 31%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **名稱**] | 資料摘要的名稱 名稱在選取的報表套裝中必須是唯一的，且長度最多可為255個字元。 [了解更多](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)的清單。 |
+   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[&#128279;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要的清單。 |
    | [!UICONTROL **說明**] | 指定資料摘要的說明。 編輯資料摘要時，會顯示您新增的說明。 |
 
 1. 在&#x200B;[!UICONTROL **資料格式**]&#x200B;區段中，指定下列資訊：
