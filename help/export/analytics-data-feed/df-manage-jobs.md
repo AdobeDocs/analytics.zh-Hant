@@ -3,9 +3,9 @@ title: 管理資料摘要工作
 description: 瞭解如何管理資料摘要中的個別作業。 瀏覽介面、使用篩選和搜尋，以及尋找欄定義。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '545'
 ht-degree: 20%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
 >title="資料摘要工作歷史記錄"
->abstract="您可以在此頁面檢視特定資料摘要的資料摘要工作清單。依請求 ID 或請求期間開始日期搜尋工作。各工作的相關資訊會顯示在可用欄中。您也可以使用相同的資料重新傳送工作，或重新處理工作的來源資料後再重新傳送工作。"
+>abstract="您可以在此頁面檢視特定資料摘要的資料摘要工作清單。 依請求 ID 或請求期間開始日期搜尋工作。 各工作的相關資訊會顯示在可用欄中。 您也可以使用相同的資料重新傳送工作，或重新處理工作的來源資料後再重新傳送工作。"
 
 <!-- markdownlint-enable MD034 -->
 

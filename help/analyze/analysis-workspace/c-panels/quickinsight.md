@@ -4,10 +4,10 @@ title: 快速深入分析面板
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 91%
+source-wordcount: '1157'
+ht-degree: 90%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;**Adobe Analytics** 中的快速洞察面板。_<br/>_檢視此文章的[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/quickinsight.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**快速深入分析面板**。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Quick Insights面板。_<br/>_請參閱[Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
 
 
-[!UICONTROL 快速洞察]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。
+[!UICONTROL 快速洞察]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。 對於想要快速解答簡單的問題而無須自行建立表格的進階使用者，這也是絕佳的工具。
 
 當您首次使用 [!UICONTROL Analysis Workspace]，您可能想知道：
 
@@ -40,7 +40,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;*
 * 在哪裡建立篩選
 * 及更多內容。
 
-為了協助您解決這些問題，[!UICONTROL 快速深入分析]會運用演演算法，提供您的公司最常使用的維度、量度、區段和日期範圍。 此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。實際上，您會在下拉式清單中看到標記為「[!UICONTROL 熱門]」的維度、量度和區段，如下所示：
+為了協助您解決這些問題，[!UICONTROL 快速深入分析]會運用演演算法，提供您的公司最常使用的維度、量度、區段和日期範圍。 此演算法是根據您自己的公司在 [!UICONTROL Analysis Workspace] 的資料元件使用情況。 實際上，您會在下拉式清單中看到標記為「[!UICONTROL 熱門]」的維度、量度和區段，如下所示：
 
 ![「快速洞察」面板。](assets/popular-tag.png)
 
@@ -53,24 +53,24 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;*
 
 ## 基本關鍵術語
 
-以下是您需要熟悉的一些基本術語。每個資料表格都包含 2 個以上建置要素 (元件)，讓您用來說明自己的資料故事。
+以下是您需要熟悉的一些基本術語。 每個資料表格都包含 2 個以上建置要素 (元件)，讓您用來說明自己的資料故事。
 
 | 組成要素 (元件) | 定義 |
 |---|---|
-| **[!UICONTROL 維度]** | 維度是量度資料的描述或特性，您可以在專案中加以檢視、劃分及比較。這是可劃分為維度項目的非數值和日期。例如，*瀏覽器*&#x200B;或&#x200B;*頁面*&#x200B;是維度。 |
-| **[!UICONTROL 維度項目]** | 維度項目是維度的個別值。例如，瀏覽器維度的維度項目為 *Chrome*、*Firefox*、*Edge*&#x200B;等。 |
+| **[!UICONTROL 維度]** | 維度是量度資料的描述或特性，您可以在專案中加以檢視、劃分及比較。 這是可劃分為維度項目的非數值和日期。 例如，*瀏覽器*&#x200B;或&#x200B;*頁面*&#x200B;是維度。 |
+| **[!UICONTROL 維度項目]** | 維度項目是維度的個別值。 例如，瀏覽器維度的維度項目為 *Chrome*、*Firefox*、*Edge*&#x200B;等。 |
 | **[!UICONTROL 量度]** | 量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
-| **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。 |
-| **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。例如，您可以將「依行動裝置劃分美國各州」劃分為每個州的行動裝置造訪次數。或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
-| **[!UICONTROL 區段]** | 區段可讓您根據特性或網站互動來識別訪客的子集。例如，您可以建置[!UICONTROL 人員]區段，根據 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：來自 Facebook 的訪客、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
+| **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。 例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。 |
+| **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。 例如，您可以將「依行動裝置劃分美國各州」劃分為每個州的行動裝置造訪次數。 或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
+| **[!UICONTROL 區段]** | 區段可讓您根據特性或網站互動來識別訪客的子集。 例如，您可以建置[!UICONTROL 人員]區段，根據 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：來自 Facebook 的訪客、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
 
 ## 使用
 
 若要使用&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板：
 
-1. 建立一個&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立一個&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
-1. 首次使用&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板時，您可能要完成簡短的[!UICONTROL 入門教學課程]，以了解一些基本概念。選取「快速洞察」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 入門教學課程]**。
+1. 首次使用&#x200B;**[!UICONTROL 快速洞察]**&#x200B;面板時，您可能要完成簡短的[!UICONTROL 入門教學課程]，以了解一些基本概念。 選取「快速洞察」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 入門教學課程]**。
 
 1. 指定面板的[輸入](#panel-input)。
 
@@ -93,7 +93,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;*
 您可以透過三種方式指定建置要素：
 
 * 從左側面板拖放元件。
-* 開始在建置要素欄位之一中輸入內容。找到輸入後，建置要素欄位會自動填入可能的值。
+* 開始在建置要素欄位之一中輸入內容。 找到輸入後，建置要素欄位會自動填入可能的值。
 * 指定建置區塊下拉式清單（例如&#x200B;**[!UICONTROL Analyze]**&#x200B;中的&#x200B;**[!UICONTROL 國家]**），並搜尋可能值的清單（使用![V形右側](/help/assets/icons/ChevronRight.svg)）以取得您要使用的值（例如&#x200B;**[!UICONTROL 國家/地區代碼]**）。
 
 選取&#x200B;**[!UICONTROL 清除]**&#x200B;以清除所有輸入欄位。
@@ -107,7 +107,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;*
 
    * 以[!UICONTROL 過去 12 個月]來自[!UICONTROL 搜尋引擎]的[!UICONTROL 造訪數]來劃分包含維度 ([!UICONTROL 國家/地區網站]) 和量度 ([!UICONTROL 造訪數]) 的自由格式表格。
 
-   * 隨附的視覺效果，在此案例中為[長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。產生的視覺效果會以您新增至表格的資料類型為基礎。任何以時間為基礎的資料 (例如，每日/月的[!UICONTROL 造訪]次數)，都會預設為[!UICONTROL 折線圖]。任何非時間型資料 (例如，每個[!UICONTROL 裝置]的[!UICONTROL 造訪]次數) 都會預設為[!UICONTROL 長條圖]。您可以按一下視覺化呈現類型旁的下拉箭頭，以變更視覺化呈現類型。
+   * 隨附的視覺效果，在此案例中為[長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。 產生的視覺效果會以您新增至表格的資料類型為基礎。 任何以時間為基礎的資料 (例如，每日/月的[!UICONTROL 造訪]次數)，都會預設為[!UICONTROL 折線圖]。 任何非時間型資料 (例如，每個[!UICONTROL 裝置]的[!UICONTROL 造訪]次數) 都會預設為[!UICONTROL 長條圖]。 您可以按一下視覺化呈現類型旁的下拉箭頭，以變更視覺化呈現類型。
 
 1. 嘗試新增一些更精細的功能，如以下[更多秘訣](#more-tips)所述
 
@@ -117,7 +117,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;*
 
 [!UICONTROL 快速洞察產生器]會出現其他有用的提示，其中部分取決於您最後的動作。
 
-* 首先，您可能要完成&#x200B;**[!UICONTROL 更多秘訣]**&#x200B;教學課程。本教學課程會在您建立專案的 24 小時後顯示，其中至少包含一個維度和一個量度。選取「快速洞察」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 更多秘訣]**。
+* 首先，您可能要完成&#x200B;**[!UICONTROL 更多秘訣]**&#x200B;教學課程。 本教學課程會在您建立專案的 24 小時後顯示，其中至少包含一個維度和一個量度。 選取「快速洞察」面板標題旁的![HelpOutline](/help/assets/icons/HelpOutline.svg)，然後從快顯視窗中選取&#x200B;**[!UICONTROL 更多秘訣]**。
 
   ![The Quick Insights Panel notification displayed after you select the Help icon.](assets/qibuilder4.png)
 
@@ -125,17 +125,17 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)_&#x200B;*
 
   ![Quick Insights Builder Result](assets/qibuilder-result.png)
 
-   * **[!UICONTROL 分析]**&#x200B;維度&#x200B;**[!UICONTROL 劃分依據]**：最多可將維度劃分為 3 個層級，以深入研究您真正需要的資料。請參閱➊、➋和➌。
+   * **[!UICONTROL 分析]**&#x200B;維度&#x200B;**[!UICONTROL 劃分依據]**：最多可將維度劃分為 3 個層級，以深入研究您真正需要的資料。 請參閱➊、➋和➌。
 
-   * 新增更多量度&#x200B;**[!UICONTROL 依據]**：您最多可以再增加 2 個量度。請參閱➍和➎。
+   * 新增更多量度&#x200B;**[!UICONTROL 依據]**：您最多可以再增加 2 個量度。 請參閱➍和➎。
 
-   * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個區段。例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。請參閱➏、➐和➑。
+   * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個區段。 例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。 請參閱➏、➐和➑。
 
-   * 在：您可以指定日期範圍。請參閱➒。
+   * 在：您可以指定日期範圍。 請參閱➒。
 
 ## 已知限制
 
-如果您嘗試直接在表格中進行編輯，[!UICONTROL 快速洞察]面板會無法同步。選取面板右上方的[!UICONTROL 重新同步產生器]，將其還原為先前的&#x200B;**[!UICONTROL 快速洞察]**&#x200B;設定。
+如果您嘗試直接在表格中進行編輯，[!UICONTROL 快速洞察]面板會無法同步。 選取面板右上方的[!UICONTROL 重新同步產生器]，將其還原為先前的&#x200B;**[!UICONTROL 快速洞察]**&#x200B;設定。
 
 直接在表格中新增任何項目之前，您會收到警告：
 

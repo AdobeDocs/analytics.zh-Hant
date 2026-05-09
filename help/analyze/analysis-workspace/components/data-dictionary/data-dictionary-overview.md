@@ -4,10 +4,10 @@ title: 資料字典概觀
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 90%
+source-wordcount: '582'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="component_datadictionary"
 >title="資料字典"
->abstract="資料字典可協助使用者和管理員進行追蹤，並且更加了解其 Analytics 環境中的元件。<br/>Analytics 管理員負責組織資料字典中每個元件的相關資訊。"
+>abstract="資料字典可協助使用者和管理員進行追蹤，並且更加了解其 Analytics 環境中的元件。 <br/>Analytics 管理員負責組織資料字典中每個元件的相關資訊。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -65,7 +65,7 @@ Analytics 管理員可以使用資料字典作以下用途：
 
 * 識別尚未核准的元件。
 
-* 直接在 Analysis Workspace 中更新元件說明。對「資料字典」中元件說明所做的任何更新都會反映在報表套裝中。
+* 直接在 Analysis Workspace 中更新元件說明。 對「資料字典」中元件說明所做的任何更新都會反映在報表套裝中。
 
   同樣地，對報表套裝中元件說明所做的任何更新都會反映在Analysis Workspace中。
 

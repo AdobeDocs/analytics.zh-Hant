@@ -3,10 +3,10 @@ title: 建立和編輯分類合併
 description: 說明如何建立、驗證、執行、核准和取消分類合併。
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 9%
+source-wordcount: '998'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分類集優先順序"
->abstract="![索引鍵](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分類集*&#x200B;是基底分類集，定義整體結構描述，並且在任何合併衝突中為優先。其他分類集則依從上到下的順序套用。"
+>abstract="![索引鍵](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分類集*&#x200B;是基底分類集，定義整體結構描述，並且在任何合併衝突中為優先。 其他分類集則依從上到下的順序套用。"
 
 
 若要建立分類合併，請在Adobe Analytics主介面中：
@@ -127,7 +127,7 @@ Once you have created a consolidation, a list of source datasets appears on the 
    * **[!UICONTROL 不相符]**：索引鍵值不符合來源分類集的資料列百分比。 如果不相符百分比很高，不相符可能表示分類資料太不同。 檢查並確保選取的分類設定有類似的分類資料。
    * **[!UICONTROL 不存在]**：索引鍵值在![索引鍵](/help/assets/icons/Key.svg)分類設定中，但不在來源分類設定中的資料列百分比。 所有缺失的列都會新增至整合的分類集。
 
-1. 如果分類合併已準備好進行核准，請選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 核准]**。 **[!UICONTROL 核准合併？]**&#x200B;對話方塊提示確認。 選取&#x200B;**[!UICONTROL 核准]**&#x200B;以核准合併。 選取「**[!UICONTROL 取消]**」進行取消。
+1. 如果分類合併已準備好進行核准，請選取![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 核准]**。 **[!UICONTROL 核准合併？]** 對話方塊提示確認。 選取&#x200B;**[!UICONTROL 核准]**&#x200B;以核准合併。 選取「**[!UICONTROL 取消]**」進行取消。
 
 核准後，就會建立合併的分類集。 狀態已設定為&#x200B;**[!UICONTROL 完成]**。
 

@@ -4,10 +4,10 @@ title: 空白面板
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 88%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 空白面板。_<br/>_檢視此文章的[&#x200B; &#x200B;](/help/analyze/analysis-workspace/c-panels/blank-panel.md)CustomerJourneyAnalytics_ ![Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg)版本的&#x200B;_&#x200B;**空白面板**。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄空白面板。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)。_
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 若要使用&#x200B;**[!UICONTROL 空白面板]**：
 
-1. 建立一個&#x200B;**[!UICONTROL 空白面板]**。有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
+1. 建立一個&#x200B;**[!UICONTROL 空白面板]**。 有關如何建立面板的資訊，請參閱[建立面板](panels.md#create-a-panel)。
 
    ![Create a panel](assets/create-panel.png)
 
@@ -55,7 +55,7 @@ _本文記錄_![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;
 
 您可以：
 
-* 選取![AddCircle](/help/assets/icons/AddCircle.svg)(在面板&#x200B;**當中**) 以新增其他視覺化呈現。此時將出現快顯視窗讓您選取視覺化呈現。
+* 選取![AddCircle](/help/assets/icons/AddCircle.svg)(在面板&#x200B;**當中**) 以新增其他視覺化呈現。 此時將出現快顯視窗讓您選取視覺化呈現。
 
   | 選取.. | 若要建立... |
   |---|---|
