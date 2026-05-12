@@ -3,37 +3,50 @@ title: 串流媒體服務核心維度
 description: 為報表套裝啟用[!UICONTROL 媒體核心]時可用的維度。
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
+TQID: https://experienceleague.adobe.com/JYaEwFPGW4YHtZySogcJkYvDCHPJy-l0JlGxh9eFHSQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 6%
+source-wordcount: 275
+ht-degree: 1%
 
 ---
 
 # 串流媒體服務核心維度
 
-*此頁面說明您為報表套裝啟用[!UICONTROL 媒體核心]時可用的維度。 如需可用的量度，請參閱[串流媒體服務核心量度](../metrics/sm-core.md)。*
+串流媒體服務核心維度為透過串流媒體收集程式庫收集的資料提供基本報告功能。 這些維度需要&#x200B;**[!UICONTROL 適用於串流媒體的Adobe Analytics附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-串流媒體服務核心維度透過串流媒體服務程式庫收集的資料提供基本報表功能。 使用這些維度需要&#x200B;**[!UICONTROL 適用於串流媒體的Adobe Analytics附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+若要使用這些維度，請為報表套裝啟用[[!UICONTROL 媒體報表]](/help/admin/tools/manage-rs/edit-settings/media-management.md)下的&#x200B;**[!UICONTROL 媒體核心]**。
 
-當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[媒體核心](/help/admin/tools/manage-rs/edit-settings/media-management.md)時，可以使用下列維度：
+可使用下列維度：
 
-| 維度名稱 | 說明 | 伴隨傳送 | 上下文資料變數 | XDM欄位 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 內容]** | 內容的內容ID。 | 媒體開始、媒體關閉 | `a.media.`<br>`name` | `xdm.mediaCollection.`<br>`sessionDetails.name`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.name` |
-| **[!UICONTROL 內容頻道]** | 播放內容的分發站台或頻道。 任何字串值都有效。 | 媒體開始、媒體關閉 | `a.media.`<br>`channel` | `xdm.mediaCollection.`<br>`sessionDetails.channel`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.channel` |
-| **[!UICONTROL 內容長度（變數）]** | 使用內容的最大長度（或持續時間），以秒為單位。 數個量度需要此維度，包括&#39;[!UICONTROL 平均每分鐘觀眾數]&#39;。 如果此維度未設定，將無法使用相依量度。<br><br>也提供名為&#39;[!UICONTROL 視訊長度]&#39;的分類維度，其目的類似。 此維度和分類會被視為兩個不同的維度。 | 媒體開始、媒體關閉 | `a.media.`<br>`length` | `xdm.mediaCollection.`<br>`sessionDetails.length`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.length` |
-| **[!UICONTROL 內容名稱（變數）]** | 內容的易記名稱。 也提供名為&#39;[!UICONTROL 視訊名稱]&#39;的分類，其目的類似。 此維度和分類會被視為兩個不同的維度。 | 媒體開始、媒體關閉 | `a.media.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`sessionDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.friendlyName` |
-| **[!UICONTROL 內容播放器名稱]** | 內容播放器的名稱。 | 媒體開始、媒體關閉 | `a.media.`<br>`playerName` | `xdm.mediaCollection.`<br>`sessionDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.playerName` |
-| **[!UICONTROL 內容區段]** | 說明已檢視部分內容的間隔（分鐘）。 此區段的計算方式為播放工作階段期間播放點值的最大值與最小值。 | 媒體關閉 | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
-| **[!UICONTROL 內容型別]** | 內容型別。 有效值包括`song`、`podcast`、`audiobook`、`radio`、`VoD`、`Live`、`Linear`、`UGC`、`DVoD`或自訂值。 | 媒體開始、媒體關閉 | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
-| **[!UICONTROL 媒體路徑]** | 訪客到達內容所使用的路徑。 | 媒體開始 | `a.media.path` | |
-| **[!UICONTROL 媒體工作階段識別碼]** | 識別個別播放所獨有的內容資料流的例項。 | 媒體開始、媒體關閉 | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
-| **[!UICONTROL 資料流型別]** | 資料流型別。 有效值包括 `audio` 和 `video`。 | 媒體開始、媒體關閉 | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
+* [[!UICONTROL 內容]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL 內容頻道]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL 內容長度（變數）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL 內容名稱（變數）]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL 內容播放器名稱]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL 內容區段]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL 內容型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL 媒體路徑]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL 媒體工作階段識別碼]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL 資料流型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 除了上述維度之外，Adobe會自動建立下列分類維度。 您必須上傳分類資料，才能檢視使用這些維度的報表。
 
-| 分類名稱 | 父維度 | 說明 |
-| --- | --- | --- |
-| **[!UICONTROL 視訊長度]** | [!UICONTROL 內容] | 使用內容的最大長度（或持續時間），以秒為單位。 相依於內容長度的量度無法使用此分類；您必須建立計算量度，才能使用此分類取得&#39;[!UICONTROL 平均每分鐘觀眾數]&#39;等量度。 |
-| **[!UICONTROL 視訊名稱]** | [!UICONTROL 內容] | 內容的易記名稱。 它等同於&#39;[!UICONTROL 內容名稱（變數）]&#39;的分類。 |
+| 分類名稱 | 父維度 |
+| --- | --- |
+| [[!UICONTROL 視訊長度]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL 內容] |
+| [[!UICONTROL 視訊名稱]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL 內容] |
+
+如需對應的量度，請參閱[串流媒體服務核心量度](../metrics/sm-core.md)。

@@ -3,24 +3,38 @@ title: 串流媒體服務廣告量度
 description: 為報表套裝啟用[!UICONTROL 媒體廣告]時可用的量度。
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/I4CXBdLXx-dS1lZAVSfno-rbEkLKWxNccLwP58HSNzk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 5%
+source-wordcount: 140
+ht-degree: 0%
 
 ---
 
 # 串流媒體服務廣告量度
 
-*此頁面說明您為報表套裝啟用[!UICONTROL 媒體廣告]時可用的量度。 如需可用的維度，請參閱[串流媒體服務廣告維度](../dimensions/sm-ads.md)。*
+串流媒體服務廣告量度為透過串流媒體收集程式庫收集的資料提供補充報告功能。 這些量度需要&#x200B;**[!UICONTROL 適用於串流媒體的Adobe Analytics附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-串流媒體服務廣告量度透過串流媒體服務程式庫，為資料收集提供補充報告功能。 使用這些量度需要&#x200B;**[!UICONTROL 適用於串流媒體的Adobe Analytics附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+若要使用這些量度，請為報表套裝啟用[[!UICONTROL 媒體報表]](/help/admin/tools/manage-rs/edit-settings/media-management.md)下的&#x200B;**[!UICONTROL 媒體廣告]**。
 
-當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[媒體廣告](/help/admin/tools/manage-rs/edit-settings/media-management.md)時，可以使用下列量度：
+可使用下列量度：
 
-| 量度名稱 | 說明 | 伴隨傳送 | 上下文資料變數 | XDM欄位 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 廣告完成]** | 影片廣告完成時觸發。 | 廣告關閉 | `a.media.ad.complete` | `xdm.mediaReporting.`<br>`advertisingDetails.isCompleted` |
-| **[!UICONTROL 廣告開始]** | 視訊廣告開始時觸發。 | 廣告開始 | `a.media.ad.view` | `xdm.mediaReporting.`<br>`advertisingDetails.isStarted` |
-| **[!UICONTROL 廣告逗留時間]** | 觀看廣告花費的總時間，以秒為單位。 | 廣告關閉 | `a.media.ad.timePlayed` | `xdm.mediaReporting.`<br>`advertisingDetails.timePlayed` |
-| **[!UICONTROL 媒體逗留時間]** | 加總所有&#39;[!UICONTROL 播放]&#39;事件（主要內容和廣告內容）的事件持續時間（以秒為單位）。 | 媒體關閉 | `a.media.totalTimePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.totalTimePlayed` |
+* [[!UICONTROL 廣告完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL 廣告開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL 廣告逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL 媒體逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+
+如需對應的維度，請參閱[串流媒體服務廣告維度](../dimensions/sm-ads.md)。
