@@ -3,32 +3,37 @@ title: 串流媒體服務核心量度
 description: 為報表套裝啟用[!UICONTROL 媒體核心]時可用的量度。
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: 252
+ht-degree: 1%
 
 ---
 
 # 串流媒體服務核心量度
 
-*此頁面說明您為報表套裝啟用[!UICONTROL 媒體核心]時可用的量度。 如需可用的維度，請參閱[串流媒體服務核心維度](../dimensions/sm-core.md)。*
+串流媒體服務核心量度為透過串流媒體收集程式庫收集的資料提供基本報告功能。 這些量度需要&#x200B;**[!UICONTROL 適用於串流媒體的Adobe Analytics附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
 
-串流媒體服務核心量度為透過串流媒體服務收集程式庫收集的資料提供基本報告功能。 使用這些量度需要&#x200B;**[!UICONTROL 適用於串流媒體的Adobe Analytics附加元件]**。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
+若要使用這些量度，請為報表套裝啟用[[!UICONTROL 媒體報表]](/help/admin/tools/manage-rs/edit-settings/media-management.md)下的&#x200B;**[!UICONTROL 媒體核心]**。
 
-當您在&#x200B;**[!UICONTROL 媒體報告]**&#x200B;下啟用[媒體核心](/help/admin/tools/manage-rs/edit-settings/media-management.md)時，可以使用下列量度：
+可使用下列量度：
 
-| 量度名稱 | 說明 | 伴隨傳送 | 上下文資料變數 | XDM欄位 |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL 平均分鐘觀眾數]** | 指定內容花費的總時間除以所有播放工作階段的長度。<br>`[Time spent] / [Media length]` | 媒體關閉 | `a.media.`<br>`averageMinuteAudience` | `xdm.mediaReporting.`<br>`sessionDetails.`<br>`averageMinuteAudience` |
-| **[!UICONTROL 內容完成]** | 內容片段完成時觸發。 此量度並不一定表示他們檢視了整個內容；他們可以略過前面。 這僅表示內容已到達內容的結尾。 | | `a.media.complete` | `xdm.mediaReporting.`<br>`sessionDetails.isCompleted` |
-| **[!UICONTROL 已暫停受影響的資料流]** | 如果在內容播放期間發生一或多次暫停即觸發的布林值。 | 媒體關閉 | `a.media.pause` | `xdm.mediaReporting.`<br>`sessionDetails.`<br>`hasPauseImpactedStreams` |
-| **[!UICONTROL 暫停事件]** | 錄放工作階段發生的暫停次數。 | 媒體關閉 | `a.media.pauseCount` | `xdm.mediaReporting.`<br>`sessionDetails.pauseCount` |
-| **[!UICONTROL 總暫停期間]** | 所有暫停事件的總持續時間（秒）。 | 媒體關閉 | `a.media.pauseTime` | `xdm.mediaReporting.`<br>`sessionDetails.pauseTime` |
-| **[!UICONTROL 內容開始]** | 使用媒體的第一個時間格。 如果使用者在廣告期間或緩衝期間中斷，則不會觸發此事件。 | 媒體關閉 | `a.media.play` | `xdm.mediaReporting.`<br>`sessionDetails.isPlayed` |
-| **[!UICONTROL 10%進度標籤]**<br>**[!UICONTROL 25%進度標籤]**<br>**[!UICONTROL 50%進度標籤]**<br>**[!UICONTROL 75%進度標籤]**<br>**[!UICONTROL 95%進度標籤]** | 根據長度，播放點超過內容的指定標籤。 每個標籤只會計算1次，即使回頭搜尋也不會重複計入。 如果往前搜尋，跳過的標籤不會計入。 | 媒體關閉 | `a.media.progress10`<br>`a.media.progress25`<br>`a.media.progress50`<br>`a.media.progress75`<br>`a.media.progress95` | `xdm.mediaReporting.`<br>`sessionDetails.hasProgress10`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress25`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress50`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress75`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasProgress95` |
-| **[!UICONTROL 內容繼續]** | 在超過30分鐘的緩衝、暫停或延遲期間後繼續播放內容時觸發的布林值。 如果播放器在VideoInfo trackPlay上設定，也會觸發。 | 媒體關閉 | `a.media.resume` | `xdm.mediaCollection.`<br>`sessionDetails.hasResume`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.hasResume` |
-| **[!UICONTROL 內容區段檢視]** | 在已檢視區段的第一個影格上觸發的布林值。 | 媒體關閉 | `a.media.segmentView` | `xdm.mediaReporting.`<br>`sessionDetails.`<br>`hasSegmentView` |
-| **[!UICONTROL 媒體開始]** | 媒體最初載入時觸發的布林值。 此事件包含廣告、緩衝和錯誤。 | 媒體開始 | `a.media.view` | `xdm.mediaReporting.`<br>`sessionDetails.isViewed` |
-| **[!UICONTROL 內容逗留時間]** | 主要內容中屬於「播放」型別之所有事件的總事件持續時間（以秒為單位）。 | 媒體關閉 | `a.media.timePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.timePlayed` |
-| **[!UICONTROL 不重複播放時間]** | 播放不重複內容的總時間，以秒為單位。 此量度不包括檢視重複內容時的播放時間，例如回頭搜尋。 | 媒體關閉 | `a.media.`<br>`uniqueTimePlayed` | `xdm.mediaReporting.`<br>`sessionDetails.`<br>`uniqueTimePlayed` |
+* [[!UICONTROL 平均分鐘觀眾數]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-minute-audience)
+* [[!UICONTROL 內容完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)
+* [[!UICONTROL 已暫停受影響的資料流]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
+* [[!UICONTROL 暫停事件]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)
+* [[!UICONTROL 總暫停期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)
+* [[!UICONTROL 內容開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-starts)
+* [[!UICONTROL 進度標籤]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)
+* [[!UICONTROL 內容繼續]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)
+* [[!UICONTROL 內容區段檢視]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)
+* [[!UICONTROL 媒體開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)
+* [[!UICONTROL 內容逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)
+* [[!UICONTROL 不重複播放時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/unique-time-played)
+
+如需對應的維度，請參閱[串流媒體服務核心維度](../dimensions/sm-core.md)。
