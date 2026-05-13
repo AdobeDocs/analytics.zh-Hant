@@ -6,10 +6,14 @@ feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 TQID: https://experienceleague.adobe.com/I834qVgOoOjpjwrrX3Lmp-NvV98hxXlgJXNA9DiSpKA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 174
@@ -33,7 +37,7 @@ ht-degree: 53%
 
 1. 在「套裝」標題中，按一下&#x200B;**[!UICONTROL 「管理員]** >**[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
-1. 在&#x200B;****「選取分類類型」欄位中，選取您要新增分類的變數。
+1. 在&#x200B;**&#x200B;**「選取分類類型」欄位中，選取您要新增分類的變數。
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分類]**」。
 
    ![步驟資訊](/help/admin/tools/assets/traffic-classification.png)

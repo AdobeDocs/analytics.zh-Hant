@@ -6,10 +6,16 @@ feature: Report Suite Settings
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 role: Admin
 TQID: https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 326
@@ -23,7 +29,7 @@ ht-degree: 58%
 
 ## 解決方案需求
 
-伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 搭配使用。
+伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [&#x200B; Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 搭配使用。
 
 ## 服務需求
 

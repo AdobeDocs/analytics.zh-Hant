@@ -4,11 +4,21 @@ description: 設定Adobe Analytics以追蹤付費搜尋量度（例如Google Ads
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
 TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1216
@@ -77,9 +87,9 @@ ht-degree: 77%
    ![對應](assets/data-source-mapping.png)
 
 1. 選擇資料維度
-勾選「追蹤代碼」旁的方塊，然後按一下「下一步**[!UICONTROL 」]**。
+勾選「追蹤代碼」旁的方塊，然後按一下「下一步&#x200B;**[!UICONTROL 」]**。
 1. 對應資料維度。
-將匯入的資料維度 (屬性) 對應到您想要用來儲存它的 Adobe Analytics 屬性。 這可能是標準維度或 eVar。 當您按**[!UICONTROL 下一步]**&#x200B;之後，摘要中會顯示產生的對應：
+將匯入的資料維度 (屬性) 對應到您想要用來儲存它的 Adobe Analytics 屬性。 這可能是標準維度或 eVar。 當您按&#x200B;**[!UICONTROL 下一步]**&#x200B;之後，摘要中會顯示產生的對應：
 
    ![摘要](assets/data-source-summary.png)
 
@@ -106,9 +116,9 @@ ht-degree: 77%
 1. 刪除上方任何多餘的列。
 1. 若要將追蹤程式碼與目的地URL分開：
 a. 從所有欄複製並貼上資料。
-b. 按一下**[!UICONTROL 資料>資料行文字]**。
-c. 在精靈的步驟1中，確定已選取**[!UICONTROL 分隔符號]**，然後按一下&#x200B;**[!UICONTROL 下一步]**。
-d. 在精靈的步驟2中，根據您建立URL的方式指定分隔字元(？ 或 &amp;)，然後按**[!UICONTROL 下一步]**。
+b. 按一下&#x200B;**[!UICONTROL 資料>資料行文字]**。
+c. 在精靈的步驟1中，確定已選取&#x200B;**[!UICONTROL 分隔符號]**，然後按一下&#x200B;**[!UICONTROL 下一步]**。
+d. 在精靈的步驟2中，根據您建立URL的方式指定分隔字元(？ 或 &amp;)，然後按&#x200B;**[!UICONTROL 下一步]**。
 e. 在精靈的步驟3中，預覽您的資料，並確定其中一欄為「trackingcodename=trackingcode」。 如果您有其他變數，請重複這些步驟 (使用 &amp; 當作分隔符號)。
 f. 刪除追蹤代碼、曝光數、點按數和成本以外的所有欄。 新增稱為「日期」的一個新欄，並依照以下順序組織您的欄：日期 :: 追蹤代碼 :: 曝光率 :: 點按數 :: 成本。
 1. 將此資料新增到您在上述「設定資料來源」一節中所下載的範本。

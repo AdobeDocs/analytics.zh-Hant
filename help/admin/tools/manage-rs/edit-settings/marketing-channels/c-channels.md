@@ -6,9 +6,13 @@ feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
 TQID: https://experienceleague.adobe.com/o-l-xrW6JQDjwjD5SZU-ZIX6sgo3unB5byiFnn1xyug
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 746
@@ -28,7 +32,7 @@ ht-degree: 98%
 
 在行銷管道管理員中新增或啟用行銷管道。 對於沒有行銷管道的報表套裝，自動設定可為您建立多個管道及其規則。 您可視需要編輯預定義管道或建立自己的管道 (最多總共 25 個)。
 
-[!UICONTROL 新增管道至「行銷管道」頁面，與在「行銷管道處理規則」頁面上建立規則是相互獨立的][](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。 建立規則時，您會將規則與管道相關聯。
+[!UICONTROL 新增管道至「行銷管道」頁面，與在「行銷管道處理規則」頁面上建立規則是相互獨立的][&#128279;](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)。 建立規則時，您會將規則與管道相關聯。
 
 以下是建立管道的指引：
 

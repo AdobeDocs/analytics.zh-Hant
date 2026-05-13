@@ -7,11 +7,21 @@ type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1202
@@ -88,11 +98,11 @@ ht-degree: 1%
 
    如果升級成功，便會顯示&#x200B;**[!UICONTROL 活頁簿升級已完成]**&#x200B;通知。
 
-   ![ [!DNL Excel] Report Builder升級報告熒幕擷圖顯示移轉已完成](assets/upgrade-complete.png)
+   ![&#x200B; [!DNL Excel] Report Builder升級報告熒幕擷圖顯示移轉已完成](assets/upgrade-complete.png)
 
    * 選取&#x200B;**[!UICONTROL 關閉]**&#x200B;以關閉通知，並繼續使用活頁簿處理新Report Builder的更新要求。
 
-   * 選取[下載]升級報告&#x200B;]**以下載並開啟顯示升級結果的新[!DNL Excel]活頁簿。**[!UICONTROL &#x200B;如需範例，請參閱下文。
+   * 選取[下載]升級報告&#x200B;**以下載並開啟顯示升級結果的新[!DNL Excel]活頁簿。**&#x200B;如需範例，請參閱下文。
 
      ![顯示移轉報告的[!DNL Excel] Report Builder升級報告熒幕擷圖](assets/upgrade-report.png)
 
@@ -110,7 +120,7 @@ ht-degree: 1%
 
 1. 系統提供您使用舊版活頁簿的排程詳細資料，作為預設排程設定。
 
-   ![ [!DNL Excel] Report Builder舊版排程設定選項的熒幕擷圖](assets/upgrade-legacy-schedule-convert.png)
+   ![&#x200B; [!DNL Excel] Report Builder舊版排程設定選項的熒幕擷圖](assets/upgrade-legacy-schedule-convert.png)
 
    * 選取&#x200B;**[!UICONTROL 使用]**&#x200B;以使用舊版排程詳細資料。 排程詳細資料已預先填入[傳送活頁簿](schedule-reportbuilder.md#schedule-a-workbook)介面。
    * 選取&#x200B;**[!UICONTROL 不要使用]**&#x200B;以不使用舊版排程詳細資料。
@@ -127,7 +137,7 @@ ht-degree: 1%
 
 * **路徑/流失報告**。 不支援退出請求，並且會從轉換的舊版活頁簿中移除。
 
-* 排程報告&#x200B;**的**[!DNL FTP]&#x200B;選項。 排程報表以傳送至[!DNL FTP]位置的選項已無法使用。
+* 排程報告&#x200B;**的**&#x200B;[!DNL FTP]&#x200B;選項。 排程報表以傳送至[!DNL FTP]位置的選項已無法使用。
 
 * **將活頁簿發佈到排程報告的[!DNL Power BI]選項**。 將報表排程至[!DNL Power BI]的選項已無法使用。
 

@@ -5,9 +5,13 @@ feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 TQID: https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 295
@@ -37,7 +41,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄專案符號視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[專案符號](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄專案符號視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[專案符號](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)。_
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +64,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 項目圖表選項]** | 在[!UICONTROL 項目圖表]視覺效果中的&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;及&#x200B;**[!UICONTROL 低目標]**&#x200B;的指定值。 <br/>**[!UICONTROL 高目標&#x200B;]**是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**和**[!UICONTROL &#x200B;中目標&#x200B;]**會建立低於高目標的範圍。 注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。 例如：如果您的目標是百分之二十，輸入 `20`。 |
+| **[!UICONTROL 項目圖表選項]** | 在[!UICONTROL 項目圖表]視覺效果中的&#x200B;**[!UICONTROL 高目標]**、**[!UICONTROL 中目標]**&#x200B;及&#x200B;**[!UICONTROL 低目標]**&#x200B;的指定值。 <br/>**[!UICONTROL 高目標&#x200B;]**&#x200B;是您的主要目標。**[!UICONTROL &#x200B;低目標&#x200B;]**&#x200B;和&#x200B;**[!UICONTROL &#x200B;中目標&#x200B;]**&#x200B;會建立低於高目標的範圍。 注意：當勾選「**[!UICONTROL &#x200B;百分比&#x200B;]**」選項時，請以整數形式輸入目標。 例如：如果您的目標是百分之二十，輸入 `20`。 |
 
 >[!MORELIKETHIS]
 >

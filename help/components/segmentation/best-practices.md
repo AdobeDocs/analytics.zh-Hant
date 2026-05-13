@@ -4,10 +4,16 @@ description: 瞭解一些細分最佳實務。
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 304
@@ -21,7 +27,7 @@ ht-degree: 60%
 
 ## 僅使用`Contains`運運算元作為最後手段
 
-[**[!UICONTROL Contains ]**運運算元](/help/components/segmentation/seg-reference/seg-operators.md)是分段中需要最多處理的功能之一，因為運運算元必須分析每個值的全部內容。 如果所需值位於字串的開頭或結尾，請考慮使用其他運運算元，例如**[!UICONTROL &#x200B;開頭為&#x200B;]**或**[!UICONTROL &#x200B;結尾為&#x200B;]**。
+[**[!UICONTROL Contains &#x200B;]**&#x200B;運運算元](/help/components/segmentation/seg-reference/seg-operators.md)是分段中需要最多處理的功能之一，因為運運算元必須分析每個值的全部內容。 如果所需值位於字串的開頭或結尾，請考慮使用其他運運算元，例如&#x200B;**[!UICONTROL &#x200B;開頭為&#x200B;]**&#x200B;或&#x200B;**[!UICONTROL &#x200B;結尾為&#x200B;]**。
 
 如果區段中的&#x200B;**[!UICONTROL Contains]**&#x200B;運運算元傳回大量結果，報表通常會逾時。 例如，如果您建立了區段，其中&#x200B;**[!UICONTROL 反向連結]** **[!UICONTROL 等於]** `"."`，則區段會搜尋每個值的內容。 請考慮改用&#x200B;**[!UICONTROL 存在]**&#x200B;運運算元。
 

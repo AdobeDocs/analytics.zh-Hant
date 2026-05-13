@@ -5,11 +5,23 @@ feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1224
@@ -120,7 +132,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | 維度 | 此報告套裝中已定義多少維度？ |
    | Analytics for Target (A4T) 已啟用 | [預設為隱藏]是否已為[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)啟用此報表套裝？ |
    | 行銷管道已啟用 | [預設為隱藏]此報表套裝是否已為[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)啟用？ |
-   | 來源連接器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用[Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 來源連接器已啟用 | 在Adobe Experience Platform中，此報表套裝是否已針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)啟用Adobe Analytics Source Connector？ 換言之，此報表套裝可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
    | 行事曆類型 | [預設為隱藏]如需詳細資訊，請參閱[自訂行事曆](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
 
 #### 分析維度
@@ -138,7 +150,7 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | ID | 維度識別碼。 |
    | 類型 | 維度的型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
-   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector啟用此維度？ 換言之，此維度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 決定哪些維度適合移轉至CJA。
 
@@ -159,13 +171,13 @@ Analytics詳細目錄的目標是協助您回答下列問題：
    | ID | 量度ID。 |
    | 類型 | 量度型別。 可能的值包括轉換、流量、導覽、流量來源、客戶、日期或Adobe產品特定的維度，例如AEM、受眾、Adobe Campaign、行動應用程式等。 |
    | 說明 | 並非所有維度都有說明。 |
-   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的[Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
+   | 來源連接器已啟用 | 在Adobe Experience Platform中，是否針對報表套裝資料[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/sources/connectors/adobe-applications/analytics)的Adobe Analytics Source Connector啟用此量度？ 換言之，此量度可以使用Analytics Source Connector移轉至Customer Journey Analytics嗎？ |
 
 1. 判斷哪些量度適合移轉至CJA。
 
 ### 匯出至 CSV
 
-1. 若要將報表套裝清單、維度或量度匯出至.csv檔案，請按一下[匯出至CSV] ****。
+1. 若要將報表套裝清單、維度或量度匯出至.csv檔案，請按一下[匯出至CSV] **&#x200B;**。
 
 1. .csv檔案將會顯示在您的「下載」資料夾中。
 
