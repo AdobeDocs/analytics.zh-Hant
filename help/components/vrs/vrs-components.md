@@ -37,7 +37,7 @@ ht-degree: 45%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件組織](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [元件組織](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

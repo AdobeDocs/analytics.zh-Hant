@@ -59,4 +59,4 @@ ht-degree: 74%
 
 以下是此程式的影片：
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

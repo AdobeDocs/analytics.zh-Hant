@@ -65,13 +65,13 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。 任意將
 
 +++資料如何進入您的 Analysis Workspace 專案？
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料進入 Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} 的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [資料進入 Analysis Workspace](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} 的示範影片。
 
 +++
 
 +++如何追蹤 Workspace 的使用情況？
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [記錄追蹤](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [記錄追蹤](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"}的示範影片。
 
 +++
 
@@ -88,7 +88,7 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。 任意將
 * 仔細檢查報表套裝，確認報表中已填入資料。
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。 請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
-* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)驗證資料正在收集中。
+* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證資料正在收集中。
 
 
 +++

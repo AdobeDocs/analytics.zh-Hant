@@ -55,11 +55,11 @@ Analytics Components 可協助您微調及啟用資料分析。 元件包括：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
 * [Experience League](https://landing.adobe.com/experience-league/)

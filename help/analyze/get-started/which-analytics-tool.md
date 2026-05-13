@@ -85,7 +85,7 @@ ht-degree: 73%
 
 * 當您需要將資料導入 Adobe Analytics 且無法使用 AppMeasurement、Web SDK 或大量資料插入 API 時。
 
-「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**」應在以下情況時使用：
+「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)**」應在以下情況時使用：
 
 * 如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，且想要將該資料上傳至Experience Cloud。
 * 如果您想要使用CRM資料在Analytics中進行更深入的分析，或在Adobe Target中作為鎖定目標條件。
