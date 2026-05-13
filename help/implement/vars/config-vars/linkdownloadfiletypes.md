@@ -4,10 +4,14 @@ description: 判斷要以下載連結形式自動追蹤的副檔名。
 feature: Appmeasurement Implementation
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/xe-ClVo-348u2ash9QODi2hIdGrVv6sIeN739EfPZ7c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 55%
+source-wordcount: 419
+ht-degree: 57%
 
 ---
 
@@ -36,12 +40,12 @@ ht-degree: 55%
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 移至[!UICONTROL 擴充功能]標籤，然後按一下&#x200B;**[!UICONTROL Adobe Experience Platform Web SDK]**&#x200B;底下的[!UICONTROL 設定]按鈕。
+1. 移至[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL Adobe Experience Platform Web SDK]底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
 1. 在[!UICONTROL 資料彙集]下，在&#x200B;**[!UICONTROL 下載連結限定詞]**&#x200B;文字欄位中設定所要的值。
 
 ## 手動下載連結限定詞實作網頁SDK
 
-[使用](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) [`downloadLinkQualifier`設定](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant#automaticLinkTracking) SDK。 欄位會在點按的URL上使用Regex來判斷是否為有效的下載連結。 如果未定義`downloadLinkQualifier`，預設值會設為`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
+[使用[`downloadLinkQualifier`](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) SDK。 欄位會在點按的URL上使用Regex來判斷是否為有效的下載連結。 如果未定義`downloadLinkQualifier`，預設值會設為`\\.(exe|zip|wav|mp3|mov|mpg|avi|wmv|pdf|doc|docx|xls|xlsx|ppt|pptx)$`。
 
 ```json
 alloy("configure", {
@@ -55,14 +59,14 @@ alloy("configure", {
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+3. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示&#x200B;**[!UICONTROL 「下載擴充功能」]**&#x200B;欄位。
 
-在欄位中輸入文字並按一下&#x200B;**[!UICONTROL 「新增」]**，將副檔名新增至清單。按一下各自的&#x200B;**&#39;X&#39;**&#x200B;圖示，從清單中移除副檔名。
+在欄位中輸入文字並按一下&#x200B;**[!UICONTROL 「新增」]**，將副檔名新增至清單。 按一下各自的&#x200B;**&#39;X&#39;**&#x200B;圖示，從清單中移除副檔名。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkDownloadFileTypes
 
-`s.linkDownloadFileTypes` 變數是以逗號分隔的副檔名字串，因此請勿使用空格。
+`s.linkDownloadFileTypes` 變數是以逗號分隔的副檔名字串， 因此請勿使用空格。
 
 如果此變數未定義，自動下載連結追蹤將無法發揮作用 (即便 [`trackDownloadLinks`](trackdownloadlinks.md) 是 `true`)。
 

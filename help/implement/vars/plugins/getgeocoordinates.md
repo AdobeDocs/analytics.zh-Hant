@@ -4,9 +4,13 @@ description: 追蹤訪客的 geoLocation。
 feature: Appmeasurement Implementation
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/J2-s2pL6xp76W77wcDjjzeRgqkPfFBxJiklOtWD-7SU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 598
 ht-degree: 71%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 71%
 
 {{plug-in}}
 
-`getGeoCoordinates` 外掛程式可讓您擷取訪客裝置的經緯度。如果您想要在 Analytics 變數中擷取地理位置資料，Adobe 建議您使用此外掛程式。
+`getGeoCoordinates` 外掛程式可讓您擷取訪客裝置的經緯度。 如果您想要在 Analytics 變數中擷取地理位置資料，Adobe 建議您使用此外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -64,7 +68,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -77,13 +81,13 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 `getGeoCoordinates` 函數不使用任何引數。 它會傳回以下其中一個值：
 
-* `"geo coordinates not available"`：針對外掛程式執行時沒有地理位置資料的裝置。此值在造訪的第一次點擊時很常見，尤其是當訪客需要先同意追蹤其位置的情況下。
+* `"geo coordinates not available"`：針對外掛程式執行時沒有地理位置資料的裝置。 此值在造訪的第一次點擊時很常見，尤其是當訪客需要先同意追蹤其位置的情況下。
 * `"error retrieving geo coordinates"`：當外掛程式嘗試擷取裝置位置時遇到任何錯誤時
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`：其中的 [LATITUDE]/[LONGITUDE] 分別代表緯度與經度
 
 >[!NOTE]
 >
->座標值會四捨五入到小數點後第四位最接近的值。例如，`"40.438635333"` 值會四捨五入為 `"40.4386"`，藉此限制要擷取的獨特值數目。這些值足以精準定位 20 英尺內裝置的確切位置。
+>座標值會四捨五入到小數點後第四位最接近的值。 例如，`"40.438635333"` 值會四捨五入為 `"40.4386"`，藉此限制要擷取的獨特值數目。 這些值足以精準定位 20 英尺內裝置的確切位置。
 
 需要的話，此外掛程式會使用名為　`"s_ggc"`　的 Cookie 來儲存點擊之間的座標。
 

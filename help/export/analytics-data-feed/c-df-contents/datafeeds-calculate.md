@@ -4,10 +4,15 @@ keywords: 資料摘要；量度；預先欄位；後置欄位；bots；日期篩
 title: 計算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: 500
+ht-degree: 95%
 
 ---
 
@@ -17,11 +22,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->通常從 Analysis Workspace 排除的點擊會包含在資料摘要中。如果相關，請考慮在查詢中加入以下條件：
+>通常從 Analysis Workspace 排除的點擊會包含在資料摘要中。 如果相關，請考慮在查詢中加入以下條件：
 >
 >* **`exclude_hit`**：Analysis Workspace 僅包含符合 `exclude_hit = 0` 條件的資料。
 >* **`customer_perspective`**：Analysis Workspace 僅包含符合 `customer_perspective = 0` 條件的資料，除非您使用包含行動背景點擊的虛擬報告套裝。
->* **`hit_source`**：來自資料來源的資料在原始資料和 Analysis Workspace 之間可能存在差異。如果您想要排除來自資料來源的點擊，請排除符合 `hit_source = 5,7,8,9` 條件的所有列。
+>* **`hit_source`**：來自資料來源的資料在原始資料和 Analysis Workspace 之間可能存在差異。 如果您想要排除來自資料來源的點擊，請排除符合 `hit_source = 5,7,8,9` 條件的所有列。
 
 ## 頁面檢視
 
@@ -38,11 +43,11 @@ ht-degree: 100%
 
 >[!TIP]
 >
->網際網路違規、系統不正確或使用自訂訪客 ID，可能會在極少數情況中針對不同的瀏覽使用相同的 `visit_num` 值。雖然是選擇性的，但在計算造訪次數時請使用 `visit_start_time_gmt`，以確保這些造訪次數被納入計算。
+>網際網路違規、系統不正確或使用自訂訪客 ID，可能會在極少數情況中針對不同的瀏覽使用相同的 `visit_num` 值。 雖然是選擇性的，但在計算造訪次數時請使用 `visit_start_time_gmt`，以確保這些造訪次數被納入計算。
 
 ## 訪客
 
-Adobe 用來識別不重複訪客的所有方法 (自訂訪客 ID、Experience Cloud ID 服務等) 最終都會計算為 `post_visid_high` 和 `post_visid_low` 中的一個值。這兩欄的串連可用來當作識別獨特訪客的標準，不論識別為獨特訪客的方式為何皆然。如果您想了解 Adobe 用來識別獨特訪客的方法，請使用 `post_visid_type` 欄。
+Adobe用來識別不重複訪客的所有方法（自訂訪客ID、Experience Cloud ID服務等） 最終都會計算為`post_visid_high`和`post_visid_low`中的值。 這兩欄的串連可用來當作識別獨特訪客的標準，不論識別為獨特訪客的方式為何皆然。 如果您想了解 Adobe 用來識別獨特訪客的方法，請使用 `post_visid_type` 欄。
 
 1. 串連 `post_visid_high` 和 `post_visid_low`。
 2. 計算值的唯一數目。
@@ -56,7 +61,7 @@ Adobe 用來識別不重複訪客的所有方法 (自訂訪客 ID、Experience C
 
 ## 自訂事件
 
-在 `post_event_list` 欄中，所有量度都會以逗號分隔的整數計算。使用 `event.tsv` 來比對數值與所需事件。例如，`post_event_list = 1,200` 表示點擊包含購買事件和自訂事件 1。
+在 `post_event_list` 欄中，所有量度都會以逗號分隔的整數計算。 使用 `event.tsv` 來比對數值與所需事件。 例如，`post_event_list = 1,200` 表示點擊包含購買事件和自訂事件 1。
 
 1. 計算 `post_event_list` 中出現的事件查閱值次數。
 
@@ -67,15 +72,15 @@ Adobe 用來識別不重複訪客的所有方法 (自訂訪客 ID、Experience C
 1. 串連 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 2. 依此串連值排序，然後依 `visit_page_num` 套用次要排序。
 3. 如果點擊不是瀏覽中的最後一個，請從後續點擊的 `post_cust_hit_time` 值中減去該 `post_cust_hit_time` 值。
-4. 此數字是點擊的逗留時間 (以秒為單位)。可套用篩選條件，以著重在維度項目或事件。
+4. 此數字是點擊的逗留時間 (以秒為單位)。 可套用篩選條件，以著重在維度項目或事件。
 
 ## 訂購、件數和收入
 
-如果點擊的 `currency` 值不符合報告套裝的貨幣，則會使用當天的匯率來轉換。`post_product_list` 欄使用轉換的幣值，因此此欄中的所有點擊都使用相同的貨幣。
+如果點擊的 `currency` 值不符合報告套裝的貨幣，則會使用當天的匯率來轉換。 `post_product_list` 欄使用轉換的幣值，因此此欄中的所有點擊都使用相同的貨幣。
 
 1. 排除 `duplicate_purchase = 1` 的所有行。
 2. 僅包含 `event_list` 包含購買事件的列。
-3. 剖析 `post_product_list` 欄以擷取所有價格資料。`post_product_list` 欄的格式與 `s.products` 變數的格式相同。
+3. 剖析 `post_product_list` 欄以擷取所有價格資料。 `post_product_list` 欄的格式與 `s.products` 變數的格式相同。
 4. 計算所需量度：
    * 計算列數來計算訂購數
    * 加總產品字串中的 `quantity` 數目以計算件數

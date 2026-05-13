@@ -4,9 +4,13 @@ description: 檢查某值是否包含在另一個以字元分隔的值中。
 feature: Appmeasurement Implementation
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/XiS8L9VtHOhRngh08qP2PPH6vOZ9Vkahl8awtl8reYo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: 565
 ht-degree: 87%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 87%
 
 {{plug-in}}
 
-`inList` 外掛程式可讓您檢查某值是否已存在於分隔字串或 JavaScript 陣列物件中。有其他多種外掛程式依賴 `inList` 外掛程式才能運作。此外掛程式可提供比 JavaScript 方法 `indexOf()` 更明顯的優點，其不會比對字串的一部分。例如，如果您使用此外掛程式來檢查 `"event2"`，它將不會比對包含 `"event25"` 的字串。如果您不需要檢查分隔字串或陣列中的值，或您想要使用自己的 `indexOf()` 邏輯，就不需要此外掛程式。
+`inList` 外掛程式可讓您檢查某值是否已存在於分隔字串或 JavaScript 陣列物件中。 有其他多種外掛程式依賴 `inList` 外掛程式才能運作。 此外掛程式可提供比 JavaScript 方法 `indexOf()` 更明顯的優點，其不會比對字串的一部分。 例如，如果您使用此外掛程式來檢查 `"event2"`，它將不會比對包含 `"event25"` 的字串。 如果您不需要檢查分隔字串或陣列中的值，或您想要使用自己的 `indexOf()` 邏輯，就不需要此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -50,7 +54,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,8 +69,8 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 * **`lv`** (必要，字串或陣列)：要搜尋的分隔值清單或 JavaScript 陣列物件
 * **`vtc`** (必要，字串)：要搜尋的值
-* **`d`** (選用，字串)：用於分隔 `lv` 引數中個別值的分隔字元。若未設定，則預設為逗號 (`,`)。
-* **`cc`** (選用，布林值)：如果設為 `true` 或 `1`，則會進行區分大小寫的檢查。 如果設為 `false` 或省略，則會進行不區分大小寫的檢查。預設為 `false`。
+* **`d`** (選用，字串)：用於分隔 `lv` 引數中個別值的分隔字元。 若未設定，則預設為逗號 (`,`)。
+* **`cc`** (選用，布林值)：如果設為 `true` 或 `1`，則會進行區分大小寫的檢查。 如果設為 `false` 或省略，則會進行不區分大小寫的檢查。 預設為 `false`。
 
 如果找到相符項目，呼叫此函數會傳回 `true`，若找不到相符項目則會傳回 `false`。
 
@@ -112,7 +116,7 @@ if(inList(s.linkTrackVars,"eVar1","|")) {
 
 ### v2.1 (2019 年 9 月 26 日)
 
-* 新增非布林值的 `cc` 引數選項。例如，`1` 是有效的大小寫檢查值。
+* 新增非布林值的 `cc` 引數選項。 例如，`1` 是有效的大小寫檢查值。
 
 ### v2.0 (2018 年 4 月 17 日)
 

@@ -3,24 +3,30 @@ title: 其他平台常用的量度轉譯指南
 description: 透過 Google Analytics 使用者更熟悉的術語，瞭解如何提取許多常見報表的量度資料。
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/0gpsqdwdU6kZjZGLy5YZ1h-b1C4lGUnEwOEKdzvjxyU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 507
 ht-degree: 100%
 
 ---
 
 # 其他平台常用的量度轉譯指南
 
-在 Google Analytics 等其他平台上，許多報表會擁有相同數目的量度。使用此頁來瞭解如何重新建立許多報表中使用的量度。
+在 Google Analytics 等其他平台上，許多報表會擁有相同數目的量度。 使用此頁來瞭解如何重新建立許多報表中使用的量度。
 
-若要將多個量度新增至工作區自由表格，請從工作區中量度標頭旁的元件區域拖曳量度：
+若要將多個量度新增至工作區自由格式表格，請從工作區中量度標頭旁的元件區域拖曳量度：
 
 ![其他量度](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## 贏取量度
 
-**使用者**&#x200B;約略等同於工作區中的&#x200B;**獨特訪客**。如需詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/metrics/unique-visitors.md)量度。
+**使用者**&#x200B;約略等同於工作區中的&#x200B;**獨特訪客**。 如需詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/metrics/unique-visitors.md)量度。
 
 可透過下列方式取得&#x200B;**新使用者**：
 
@@ -29,15 +35,15 @@ ht-degree: 100%
 
    ![首次瀏覽次數](../assets/first_time_visits.png)
 
-**工作階段**&#x200B;約略等同於 Analysis Workspace 中的&#x200B;**造訪次數**。如需詳細資訊，請參閱「元件」使用指南中的[造訪次數](/help/components/metrics/visits.md)量度。
+**工作階段**&#x200B;約略等同於 Analysis Workspace 中的&#x200B;**造訪次數**。 如需詳細資訊，請參閱「元件」使用指南中的[造訪次數](/help/components/metrics/visits.md)量度。
 
 ![贏取量度](../assets/acquisition_metrics.png)
 
 ## 行為量度
 
-**跳出率**&#x200B;可在 Analysis Workspace 中以量度形式提供。如需詳細資訊，請參閱「元件」使用指南中的[跳出率](/help/components/metrics/bounce-rate.md)量度。
+**跳出率**&#x200B;可在 Analysis Workspace 中以量度形式提供。 如需詳細資訊，請參閱「元件」使用指南中的[跳出率](/help/components/metrics/bounce-rate.md)量度。
 
-**頁面/工作階段**&#x200B;是一項計算量度。它可透過下列方式取得：
+**頁面/工作階段**&#x200B;是一項計算量度。 它可透過下列方式取得：
 
 1. 如果您已建立此計算量度，請在「量度」下找出該量度，並將其拖曳至工作區。
 2. 如果您尚未建立此計算量度，請按一下量度清單旁的 **+** 圖示，以開啟計算量度產生器。
@@ -53,15 +59,15 @@ ht-degree: 100%
 
    進一步瞭解「元件」使用指南中的[計算量度](/help/components/calculated-metrics/cm-overview.md)。
 
-**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。在「元件」使用手冊中進一步了解[每次造訪逗留時間](/help/components/metrics/time-spent-per-visit.md)量度。
+**平均 工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。 在「元件」使用手冊中進一步了解[每次造訪逗留時間](/help/components/metrics/time-spent-per-visit.md)量度。
 
 ## 轉換量度
 
-**目標轉換率**、**目標完成**&#x200B;以及&#x200B;**目標值**&#x200B;需要在這兩個平台上進行額外實施。如果您的實施已採用產品維度和購買事件，請考慮下列步驟：
+**目標轉換率**、**目標完成**&#x200B;以及&#x200B;**目標值**&#x200B;需要在這兩個平台上進行額外實施。 如果您的實施已採用產品維度和購買事件，請考慮下列步驟：
 
 1. 將&#x200B;**訂購**&#x200B;量度、**收入**&#x200B;量度和&#x200B;**造訪**&#x200B;量度拖曳至工作區。
-1. 建立&#x200B;**每次造訪訂購**&#x200B;的計算量度。在兩個量度標頭上按住 Ctrl 鍵並按一下 (Windows) 或按住 Cmd 鍵並按一下 (Mac OS) 來反白顯示。以滑鼠右鍵按一下其中一個標頭，選取&#x200B;**從選取範圍建立量度**，然後按一下&#x200B;**除**。這項新量度類似「目標轉換率」。
-1. 如果需要小數位數，請編輯「計算量度」。按一下量度標頭中的「資訊」按鈕，然後按鉛筆圖示。在「計算量度產生器」視窗中新增 1 或 2 個小數位數，然後按一下「儲存」。
+1. 建立&#x200B;**每次造訪訂購**&#x200B;的計算量度。 在兩個量度標頭上按住 Ctrl 鍵並按一下 (Windows) 或按住 Cmd 鍵並按一下 (Mac OS) 來反白顯示。 以滑鼠右鍵按一下其中一個標頭，選取&#x200B;**從選取範圍建立量度**，然後按一下&#x200B;**除**。 這項新量度類似「目標轉換率」。
+1. 如果需要小數位數，請編輯「計算量度」。 按一下量度標頭中的「資訊」按鈕，然後按鉛筆圖示。 在「計算量度產生器」視窗中新增 1 或 2 個小數位數，然後按一下「儲存」。
 
    ![每次存取訂購](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 

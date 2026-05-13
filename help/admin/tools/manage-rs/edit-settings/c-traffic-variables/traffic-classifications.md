@@ -1,26 +1,31 @@
 ---
-description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
+description: 流量分類可讓您分類流量變數(prop)。 流量分類只能使用文字分類。
 subtopic: Classifications
 title: 流量分類
 feature: Admin Tools
 role: Admin
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/I834qVgOoOjpjwrrX3Lmp-NvV98hxXlgJXNA9DiSpKA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: 174
+ht-degree: 53%
 
 ---
 
 # 流量分類
 
-流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
+流量分類可讓您分類流量變數(prop)。 流量分類只能使用文字分類。
 
 ## 流量分類
 
-流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
+流量分類可讓您分類流量變數(prop)。 流量分類只能使用文字分類。
 
-「流量分類」頁面可讓您建立選定報表套裝的分類。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的屬性產生。
+「流量分類」頁面可讓您為選取的報表套裝建立分類。 分類之後，任何您可以使用關鍵資料產生的報表，也可以使用關聯的屬性來產生。
 
 ## 新增流量分類
 

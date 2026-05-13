@@ -3,9 +3,14 @@ description: 瞭解如何標籤區段以讓您組織區段。
 title: 標記細分群體
 feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/L11V6VfhEwdkZmDuqdxeE0SWDIfSYwtZTpFFupBznH4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 198
 ht-degree: 4%
 
 ---
@@ -29,9 +34,9 @@ ht-degree: 4%
       * 從清單中選取一或多個現有標籤，或
       * 輸入新標籤並按&#x200B;**[!UICONTROL ENTER]**。 重複以上步驟以新增多個新標籤。
 
-1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存區段的標籤。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存區段的標籤。 選取「**[!UICONTROL 取消]**」進行取消。
 
-儲存後，標籤會列在[!UICONTROL 區段產生器]中選取區段的[標籤](seg-build.md)欄位中。
+儲存後，標籤會列在[區段產生器](seg-build.md)中選取區段的[!UICONTROL 標籤]欄位中。
 
 
 ## 建議

@@ -4,10 +4,15 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
+TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 87%
+source-wordcount: 1511
+ht-degree: 86%
 
 ---
 
@@ -25,7 +30,7 @@ Adobe Analytics登陸頁面包含下列子標籤：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -35,17 +40,17 @@ Adobe Analytics登陸頁面包含下列子標籤：
 
 若要存取Adobe Analytics中的專案：
 
-1. 選取「[!UICONTROL **工作區**]」標籤。
+1. 選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤。
 
 1. 在左側邊欄中選取&#x200B;[!UICONTROL **專案**]。
 
-「專案」區段會顯示公司資料夾、您建立的任何個人資料夾、您的Workspace專案以及行動計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。請參閱[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
+「專案」區段會顯示公司資料夾、您建立的任何個人資料夾、您的Workspace專案以及行動計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。 請參閱[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 
-**[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白移動計分卡。
+**[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。 [!UICONTROL 專案]也指空白專案和空白移動計分卡。
 
 >[!NOTE]
 >
->以下幾項設定會跨工作階段持續存在。 例如，您選取的索引標籤、選取的區段、選取的欄，以及欄排序方向。搜尋結果不會持續存在。
+>以下幾項設定會跨工作階段持續存在。 例如，您選取的索引標籤、選取的區段、選取的欄，以及欄排序方向。 搜尋結果不會持續存在。
 
 請參閱[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)以了解更多資訊。
 
@@ -62,9 +67,9 @@ Adobe Analytics登陸頁面包含下列子標籤：
 | [!UICONTROL **名稱**] | 識別專案名稱。 |
 | [!UICONTROL **類型**] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
 | [!UICONTROL **標記**] | 標記專案，可方便分類整理。 |
-| [!UICONTROL **已排程**] | 設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。 按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。如果您是專案所有人，您還能[編輯專案排程](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
+| [!UICONTROL **已排程**] | 設定為[!UICONTROL 開啟] (若專案已排程) 或[!UICONTROL 關閉] (若專案未排程)。 按一下[!UICONTROL 開啟]連結可讓您查看排程專案的資訊。 如果您是專案所有人，您還能[編輯專案排程](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)。 |
 | [!UICONTROL **專案角色**] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
-| [!UICONTROL **報告套裝**] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報告套裝，多寡視您的分析使用情形而定。報告套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
+| [!UICONTROL **報告套裝**] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。 該報告套裝也會決定左側邊欄內會有哪些元件。 在專案中，您可以使用一或多個報告套裝，多寡視您的分析使用情形而定。 報告套裝清單是根據相關性來分類。 Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
 | [!UICONTROL **所有者**] | 識別建立專案的人員。 |
 | [!UICONTROL **共用對象**] | 顯示目前共用專案的人員。 |
 | [!UICONTROL **上次修改日期**] | 上次修改專案的日期和時間。 |
@@ -72,7 +77,7 @@ Adobe Analytics登陸頁面包含下列子標籤：
 | [!UICONTROL **上次使用**] | 透過顯示組織內任何使用者上次開啟專案的日期和時間，幫助確定專案對組織中的使用者是否重要。<p>檢視此欄時請考慮以下事項：</p><ul><li>使用情況資訊從 2023 年 9 月開始提供。</li><li>本欄僅適用於系統管理員。</li></ul> |
 | [!UICONTROL **專案 ID**] | 可用來為專案偵錯。 |
 | [!UICONTROL **最大日期範圍**] | 更長的日期範圍會增加專案複雜性，並可能增加處理和載入次數。 |
-| [!UICONTROL **查詢數**] | 專案載入時，向 Analytics 提出的請求總數。較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。載入專案或傳送已排程專案後才能使用此資料。 |
+| [!UICONTROL **查詢數**] | 專案載入時，向 Analytics 提出的請求總數。 較高的專案查詢數會增加專案複雜性，並可能增加處理和載入次數。 載入專案或傳送已排程專案後才能使用此資料。 |
 | [!UICONTROL **位置**] | 顯示專案位置所在的資料夾。 |
 
 ### 專案頁面上的其他 UI 元素
@@ -88,7 +93,7 @@ Adobe Analytics登陸頁面包含下列子標籤：
 | [!UICONTROL 開啟發行說明] | 開啟最新 Adobe Experience Cloud 發行說明的 Adobe Analytics 部分。 |
 | 篩選器圖示 | 按標記、報告套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
 | 搜尋列 | 搜尋表格中的所有欄。 |
-| 選取方塊 | 選取一個或多個專案，以顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。您可能沒有執行所列出所有操作的權限。 |
+| 選取方塊 | 選取一個或多個專案，以顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。 您可能沒有執行所列出所有操作的權限。 |
 | [!UICONTROL 我的最愛] | 將星號新增至可用作篩選器的最喜愛專案或資料夾旁。 |
 | [!UICONTROL 名稱] | 識別專案名稱。 |
 | 釘選圖示 | 釘選項目，使其一直出現在清單的頂部，但您可以將其順序上下移動來重新調整順序。 使用省略符號選項選單，並選擇在清單中&#x200B;**上移** 或&#x200B;**下移**。 |
@@ -101,7 +106,7 @@ Adobe Analytics登陸頁面包含下列子標籤：
 
 若要存取Adobe Analytics中的範本：
 
-1. 選取「[!UICONTROL **工作區**]」標籤。
+1. 選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤。
 
 1. 在左側邊欄的&#x200B;[!UICONTROL **範本**]&#x200B;區段中，您可以選取Adobe範本或公司範本。
 
@@ -124,11 +129,11 @@ Adobe Analytics登陸頁面包含下列子標籤：
 ### 「學習」頁面功能
 
 * **篩選內容：**&#x200B;左側欄中的「篩選器」圖示讓您按經驗級別 (初級、中級或進階) 以及按內容類型 (文件、影片或導覽和教學課程) 篩選學習內容。
-* **追蹤進度：**&#x200B;在選取一段內容後，會出現「**[!UICONTROL 已檢視]**」標記。此標記可幫助您透過學習內容追蹤您的進度。您可以選取&#x200B;**[!UICONTROL 已檢視]**&#x200B;標記以將其從內容中刪除。
-* **檢視其他的內容：**&#x200B;在觀看任何影片時，選取「**[!UICONTROL 深入了解]**」按鈕以檢視 Experience League 上的相關文件內容。或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
+* **追蹤進度：**&#x200B;在選取一段內容後，會出現「**[!UICONTROL 已檢視]**」標記。 此標記可幫助您透過學習內容追蹤您的進度。 您可以選取&#x200B;**[!UICONTROL 已檢視]**&#x200B;標記以將其從內容中刪除。
+* **檢視其他的內容：**&#x200B;在觀看任何影片時，選取「**[!UICONTROL 深入了解]**」按鈕以檢視 Experience League 上的相關文件內容。 或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
    * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
    * [!UICONTROL **造訪 Experience League**]：檢視有關 Experience League 的全套 Adobe Analytics 文件。
-* **適用於新使用者的基礎知識：**&#x200B;建議新使用者使用此「[!UICONTROL 工作區基礎知識]」導覽。此導覽將直接帶您進入工作區並引導您完成最常見的操作。也可以透過面板標題的工具提示快顯視窗，直接在工作區中重新啟動此導覽。
+* **適用於新使用者的基礎知識：**&#x200B;建議新使用者使用此「[!UICONTROL 工作區基礎知識]」導覽。 此導覽將直接帶您進入工作區並引導您完成最常見的操作。 也可以透過面板標題的工具提示快顯視窗，直接在工作區中重新啟動此導覽。
 
 ## 設定您的登陸頁面 {#set-landing}
 
@@ -145,6 +150,6 @@ Adobe Analytics登陸頁面包含下列子標籤：
 | --- | --- |
 | 我以前在[!UICONTROL 工作區]看到的範本在哪裡？ | 這些範本分類列在「[!UICONTROL 範本]」索引標籤下。 |
 | 我在 Beta 版計劃 UI 中進行的工作是否會移轉至生產環境的[!UICONTROL 工作區]體驗？ | 是，在 Beta 版中完成的任何工作都會移轉至舊有/現有的[!UICONTROL 工作區]體驗。 |
-| 我的上一個 Reports &amp; Analytics「我的最愛」是否會移轉過來？ | 否，這些不會移轉過來。但是，[!UICONTROL 工作區]中任何「我的最愛」會移轉過來。 |
+| 我的上一個 Reports &amp; Analytics「我的最愛」是否會移轉過來？ | 否，這些不會移轉過來。 但是，[!UICONTROL 工作區]中任何「我的最愛」會移轉過來。 |
 | 我可釘選的專案數量是否有上限？ | 沒有，您可以釘選的專案數量沒有限制。 |
 | 管理員是否可以為他們的使用者指定此登陸頁面？ | 否，管理員不可以代表他們的使用者指定此登陸頁面。 個人使用者必須自己開啟切換功能。 |

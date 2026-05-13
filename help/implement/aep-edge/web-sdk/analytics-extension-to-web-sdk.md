@@ -2,9 +2,13 @@
 title: 從Adobe Analytics標籤擴充功能移轉至網路SDK標籤擴充功能
 description: 更新Adobe Experience Platform資料收集標籤上的Analytics實作，以使用Web SDK擴充功能。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: 1729
 ht-degree: 6%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 6%
 
 | 優點 | 缺點 |
 | --- | --- |
-| <ul><li>**您的網站上沒有程式碼變更**：因為您的實作已安裝標籤，所以可以在標籤介面中進行所有移轉更新。</li><li>**使用您現有的實作**：此方法不需要全新實作。 雖然這確實需要新的規則動作，但您可以以最小的變更重複使用現有的資料元素和規則條件。</li><li>**不需要結構描述**：對於移轉至Web SDK的這個階段，您不需要XDM結構描述。 相反地，您可以填入`data`物件，這會直接將資料傳送到Adobe Analytics。 一旦移轉至Web SDK完成，您就可以為貴組織建立結構描述，並使用資料流對應來填入適用的XDM欄位。 如果移轉流程的這個階段需要結構描述，貴組織將被強制使用Adobe Analytics XDM結構描述。 使用此結構描述會使您的組織未來更難以使用您自己的結構描述。</li></ul> | <ul><li>**實作技術債**：由於此方法使用您現有實作的修改形式，因此可能更難追蹤實作邏輯並在需要時執行變更。 自訂程式碼可能特別難以偵錯。</li><li>**需要對應才能將資料傳送到 Platform**：當您的組織準備好使用 Customer Journey Analytics 時，您必須將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform 中的資料集。此動作要求`data`物件中的每個欄位必須是資料流對應工具中的專案，以將其指派給XDM結構描述欄位。 此工作流程僅需進行一次對應，且不涉及進行實施變更。但是，這是額外進行的步驟，在 XDM 物件中傳送資料時不需要進行。</li></ul> |
+| <ul><li>**您的網站上沒有程式碼變更**：因為您的實作已安裝標籤，所以可以在標籤介面中進行所有移轉更新。</li><li>**使用您現有的實作**：此方法不需要全新實作。 雖然這確實需要新的規則動作，但您可以以最小的變更重複使用現有的資料元素和規則條件。</li><li>**不需要結構描述**：對於移轉至Web SDK的這個階段，您不需要XDM結構描述。 相反地，您可以填入`data`物件，這會直接將資料傳送到Adobe Analytics。 一旦移轉至Web SDK完成，您就可以為貴組織建立結構描述，並使用資料流對應來填入適用的XDM欄位。 如果移轉流程的這個階段需要結構描述，貴組織將被強制使用Adobe Analytics XDM結構描述。 使用此結構描述會使您的組織未來更難以使用您自己的結構描述。</li></ul> | <ul><li>**實作技術債**：由於此方法使用您現有實作的修改形式，因此可能更難追蹤實作邏輯並在需要時執行變更。 自訂程式碼可能特別難以偵錯。</li><li>**需要對應才能將資料傳送到 Platform**：當您的組織準備好使用 Customer Journey Analytics 時，您必須將資料傳送至 Adob&#x200B;&#x200B;e Experience Platform 中的資料集。 此動作要求`data`物件中的每個欄位必須是資料流對應工具中的專案，以將其指派給XDM結構描述欄位。 此工作流程僅需進行一次對應，且不涉及進行實施變更。 但是，這是額外進行的步驟，在 XDM 物件中傳送資料時不需要進行。</li></ul> |
 
 Adobe建議在下列情況下使用此實施路徑：
 
@@ -34,7 +38,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 下列步驟包含需努力達成的具體目標。 按一下每個步驟，以取得如何完成的詳細指示。
 
-+++**1.建立和設定資料流**
++++**1. 建立和設定資料流**
 
 在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送至Customer Journey Analytics。
 
@@ -45,7 +49,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 輸入想要的名稱，然後選取&#x200B;**[!UICONTROL 儲存]**。
 1. 建立資料流後，請選取&#x200B;**[!UICONTROL 新增服務]**。
 1. 在服務下拉式功能表中，選取&#x200B;**[!UICONTROL Adobe Analytics]**。
-1. 輸入與您目前傳送分析資料的目標網站相同的報表套裝ID。 按一下「**[!UICONTROL 儲存]**」。
+1. 輸入與您目前傳送分析資料的目標網站相同的報表套裝ID。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ![新增Adobe Analytics服務](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
 
@@ -69,13 +73,13 @@ Adobe建議在下列情況下使用此實施路徑：
 
    ![資料流選擇](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 您的標籤屬性現在已安裝Web SDK。
 
 +++
 
-+++**3.建立資料物件資料元素**
++++**3. 建立資料物件資料元素**
 
 資料物件資料元素提供直覺式架構，可設定Web SDK用來傳送至資料流的裝載。 您在下列步驟中更新的大部分規則都會與此資料元素互動。
 
@@ -89,7 +93,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在右側，選取下列設定：
    * 屬性選項按鈕： [!UICONTROL 資料]
    * 解決方案： [!UICONTROL Adobe Analytics]
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
 ![建立資料元素](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
@@ -97,7 +101,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++
 
-+++**4.更新規則以使用Web SDK擴充功能，而非Analytics擴充功能**
++++**4. 更新規則以使用Web SDK擴充功能，而非Analytics擴充功能**
 
 此步驟包含移轉至Web SDK所需的大部分工作，且需要瞭解您實作的運作方式。 以下提供範例來作為如何編輯典型標籤規則的範例。 更新實施中的所有標籤規則，以Web SDK擴充功能取代Adobe Analytics擴充功能的所有參考。
 
@@ -127,14 +131,14 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在右側，將動作設定變更為下列專案：
    * [!UICONTROL 型別]：對於`s.t()`，請使用&#x200B;**[!UICONTROL 網頁詳細資訊頁面檢視]**。 針對`s.tl()`，使用&#x200B;**[!UICONTROL Web Webinteraction連結點按]**。 如果您使用[`s.tl()`](../../vars/functions/tl-method.md)，您也必須在資料物件中包含下列欄位。 執行[!UICONTROL 更新變數]動作組態時，這些欄位會列在[!UICONTROL 其他屬性]下：
       * [連結名稱](../../vars/functions/tl-method.md)
-      * [連結類型 &#x200B;](../../vars/functions/tl-method.md)
-      * [連結Url](../../vars/config-vars/linkurl.md)
+      * [連結類型](../../vars/functions/tl-method.md)
+      * [連結 URL](../../vars/config-vars/linkurl.md)
 1. 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 1. 對使用Adobe Analytics傳送信標的每個動作設定重複這些步驟。
 
 +++
 
-+++**5.發佈更新的規則**
++++**5. 發佈更新的規則**
 
 發佈更新規則的工作流程，與標籤設定的任何其他變更相同。
 
@@ -142,7 +146,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 選取「**[!UICONTROL 新增資料庫]**」。
 1. 為此標籤認可命名，例如「升級至Web SDK」。
 1. 選取&#x200B;**[!UICONTROL 新增所有變更的資源]**。
-1. 選取「**[!UICONTROL 儲存]**」。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 1. 發佈工作流程會顯示橘色點，表示正在建置。 圓點變成綠色後，您的變更即可在開發環境中使用。
 1. 在開發環境中測試您的變更，以確保所有規則皆正確引發，且資料物件會填入預期值。
 1. 準備就緒後，請提交程式庫進行核准、建置到測試環境，最後核准並發佈到生產環境。
@@ -151,7 +155,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++
 
-+++**6.停用Analytics擴充功能**
++++**6. 停用Analytics擴充功能**
 
 當您的標籤實作完全在網頁SDK上後，您就可以停用Adobe Analytics擴充功能。
 

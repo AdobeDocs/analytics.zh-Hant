@@ -3,10 +3,16 @@ description: 了解如何移轉行動服務處理規則至 Adobe Analytics
 title: 移轉行動服務處理規則至 Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+TQID: https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 88%
+source-wordcount: 701
+ht-degree: 89%
 
 ---
 
@@ -14,19 +20,19 @@ ht-degree: 88%
 
 本文件旨在提供如何移轉任何其他處理規則 (超出生命週期量度) 的說明；讓您了解將行動服務 UI 中建立的處理規則移轉至 Adobe Analytics。
 
-處理規則用於將內容資料變數的值移至 prop 和 eVar。例如，您可以將「搜尋-字詞」內容資料變數值放入 Commerce 變數 eVar 的值，並月且覆蓋每次點擊的值。若沒有處理規則，內容資料變數就毫無意義，且不會填入 Analytics 的任何報告。
+處理規則用於將內容資料變數的值移至 prop 和 eVar。 例如，您可以將「搜尋-字詞」內容資料變數值放入 Commerce 變數 eVar 的值，並月且覆蓋每次點擊的值。 若沒有處理規則，內容資料變數就毫無意義，且不會填入 Analytics 的任何報告。
 
 本文件還會讓您了解如何在 Analysis Workspace 中進行行動使用情況的報告。
 
 ## 移轉處理規則
 
-如果您是利用行動服務的免費功能，例如處理規則和使用報告功能，則您可以無縫地移至 Analytics UI (處理規則 UI 或 Analysis Workspace) 以實現這些功能。若是生命週期量度或設定在 AA 處理規則 UI 內的規則，您不必進行任何移轉。生命週期量度是「即時可用」量度，當 SDK 首次實施作業於您的應用程式中時會自動收集這些量度。
+如果您是利用行動服務的免費功能，例如處理規則和使用報告功能，則您可以無縫地移至 Analytics UI (處理規則 UI 或 Analysis Workspace) 以實現這些功能。 若是生命週期量度或設定在 AA 處理規則 UI 內的規則，您不必進行任何移轉。 生命週期量度是「即時可用」量度，當 SDK 首次實施作業於您的應用程式中時會自動收集這些量度。
 
 如果您在行動服務 UI (超出生命週期量度) 中建立任何其他 (超出生命週期量度) 處理規則，您應該將那些則規移轉過去，以便在您失去行動服務存取權後，可在 Analytics 中編輯/刪除這些規則。
 
 1. 登入 `experience.adobe.com`，並前往「行動服務」。
 1. 在您要移轉至 Adobe Analytics 的內容變數對應所在行動應用程式，按一下齒輪圖示。
-1. 按一下「**[!UICONTROL 管理變數和量度]**」選單項目，然後按一下「**[!UICONTROL 自訂變數]**」標籤。在這裡，您可以看到已新增至設定中的內容變數對應 (內容資料)。記下這些設定（或拍攝熒幕擷圖）。 範例：
+1. 按一下「**[!UICONTROL 管理變數和量度]**」選單項目，然後按一下「**[!UICONTROL 自訂變數]**」標籤。 在這裡，您可以看到已新增至設定中的內容變數對應 (內容資料)。 記下這些設定（或拍攝熒幕擷圖）。 範例：
 
    ![內容變數](assets/context-var.png)
 
@@ -37,7 +43,7 @@ ht-degree: 88%
 
    ![處理規則](assets/proc-rule.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## Analysis Workspace 中的行動使用報告。
 
@@ -76,5 +82,5 @@ ht-degree: 88%
 如果您正在利用行動服務的付費功能，則您沒有前往其他內部/外部工具的可行移轉路徑：
 
 * 若需要擷取連結，我們可將您導向 Adobe 合作夥伴以滿足您的需求。
-* 推送訊息和應用程式內的傳送訊息適用於 Adobe Campaign Standard 和 Adobe Campaign Classic (僅限推送)。但是，目標定位所用的基本資料集不同。我們建議您找 Adobe 帳戶團隊，以確定傳送訊息資料的移轉選項。
+* 推送訊息和應用程式內的傳送訊息適用於 Adobe Campaign Standard 和 Adobe Campaign Classic (僅限推送)。 但是，目標定位所用的基本資料集不同。 我們建議您找 Adobe 帳戶團隊，以確定傳送訊息資料的移轉選項。
 * 關於定位功能，請您採用新的[Adobe Experience Platform定位服務](https://www.adobe.com/experience-platform/location-service.html)，所有Adobe Experience Platform客戶均可免費使用。

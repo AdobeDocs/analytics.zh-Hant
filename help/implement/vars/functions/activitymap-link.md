@@ -4,10 +4,14 @@ description: 自訂Activity Map收集連結點選的方式。
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 3a31f80b-dbee-4a45-ac3c-0b8ca198c95a
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/BfvVQ2QOXfd91kd3Aah02cz0GvibPo8v-8nThdqFckA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 9%
+source-wordcount: 308
+ht-degree: 10%
 
 ---
 
@@ -20,11 +24,11 @@ ht-degree: 9%
 
 ## 使用網頁SDK覆寫連結值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
 
 ## 使用Adobe Analytics擴充功能覆寫連結
 
-Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
 ## AppMeasurement中的ActivityMap.link和Analytics擴充功能自訂程式碼編輯器
 
@@ -78,6 +82,6 @@ s.ActivityMap.link = function(ele, linkName) {
 <button type="button" onclick="s.tl(this,'o',customFunction(this)">Add To Cart</button>
 ```
 
-1. 如果傳遞了`linkName`，則方法已由`tl()`呼叫。 傳回以`tl()`傳入的`linkName`。
+1. 如果傳遞了`linkName`，則方法已由`tl()`呼叫。 傳回以`linkName`傳入的`tl()`。
 2. Activity Map呼叫時，絕不會傳遞`linkName`，因此請使用連結元素呼叫`customFunction()`。 您可以使用任何想要傳回值的自訂函式。
 3. 如果以上未傳回值，請使用一般收集作為遞補的連結名稱。

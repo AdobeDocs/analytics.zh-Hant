@@ -5,10 +5,16 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/9OjAFYHo5uhcfbQQOB46jfG1R2wIQCBHXEr842EcZQ0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 96%
+source-wordcount: 338
+ht-degree: 95%
 
 ---
 
@@ -30,7 +36,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensiona
 
 ## 行動應用程式互動和事件
 
-在此範例流程中，[!UICONTROL 畫面名稱]維度用於深入了解應用程式中使用者使用的各種畫面 (場景)。傳回的熱門畫面為 **[!UICONTROL Luma：內容：iOS：en：首頁]** (此為應用程式的首頁)：
+在此範例流程中，[!UICONTROL 畫面名稱]維度用於深入了解應用程式中使用者使用的各種畫面 (場景)。 傳回的熱門畫面為 **[!UICONTROL Luma：內容：iOS：en：首頁]** (此為應用程式的首頁)：
 
 ![顯示已新增項目的流量。](assets/flowapp.png)
 
@@ -44,13 +50,13 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensiona
 
   ![顯示最終頁面維度的流量拖曳至空白處。](assets/flowapp-add.png)
 
-下列的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件類型]**&#x200B;維度的結果。視覺效果提供行動應用程式使用者在新增產品至購物車、關閉應用程式、顯示優惠等動作之前，如何在應用程式內各種畫面之間移動的洞察。
+下列的流量視覺效果顯示新增&#x200B;**[!UICONTROL 事件類型]**&#x200B;維度的結果。 視覺效果提供行動應用程式使用者在新增產品至購物車、關閉應用程式、顯示優惠等動作之前，如何在應用程式內各種畫面之間移動的洞察。
 
 ![在清單頂端顯示頁面維度結果的流量。](assets/flowapp-result.png)
 
 ## 行銷活動如何推動網頁造訪數
 
-您想要分析哪些行銷活動可推動網站造訪數。您建立以&#x200B;**[!UICONTROL 行銷活動名稱]**&#x200B;作為維度的流量視覺效果
+您想要分析哪些行銷活動可推動網站造訪數。 您建立以&#x200B;**[!UICONTROL 行銷活動名稱]**&#x200B;作為維度的流量視覺效果
 
 ![流量網頁行銷活動名稱維度](assets/flowweb.png)
 
@@ -58,6 +64,6 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensiona
 
 ![流量網頁行銷活動名稱和網頁維度](assets/flowweb-replace.png)
 
-您可以將滑鼠停留在任意流量上，以查看更多詳細資訊。例如哪些行銷活動導致購物車結帳。
+您可以將滑鼠停留在任意流量上，以查看更多詳細資訊。 例如哪些行銷活動導致購物車結帳。
 
 ![流量網頁行銷活動名稱和網頁維度停留](assets/flowweb-hover.png)

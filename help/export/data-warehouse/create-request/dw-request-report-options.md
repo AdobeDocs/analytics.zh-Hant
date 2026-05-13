@@ -3,16 +3,21 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表選項
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 454
 ht-degree: 17%
 
 ---
 
 # 設定Data Warehouse請求的報表選項
 
-建立 Data Warehouse 請求時有多種可用的設定選項。以下資訊說明如何設定請求的報表選項。
+建立 Data Warehouse 請求時有多種可用的設定選項。 以下資訊說明如何設定請求的報表選項。
 
 有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
@@ -30,7 +35,7 @@ ht-degree: 17%
 
    | 選項 | 函數 |
    |---------|----------|
-   | [!UICONTROL **檔案名稱**] | 識別報表。 <p>如果檔案名稱中使用了下列任何特殊字元，則無法儲存請求： <code>！ &quot; # $ &amp; &#39; ( ) * + ， / ： ； > = &lt; ？@ [ ] \ ^ &#39; { } \| ~</code> </p><p>%字元後面必須有&quot;R&quot;、&quot;rsid&quot;或&quot;id&quot;，才能使用，如下所示： <code>%R</code>，<code>%rsid</code>，和<code>%id</code>。</p> |
+   | [!UICONTROL **檔案名稱**] | 識別報表。 <p>如果檔案名稱中使用了下列任何特殊字元，則無法儲存請求： <code>！ &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &#39; { } \| ~</code> </p><p>%字元後面必須有&quot;R&quot;、&quot;rsid&quot;或&quot;id&quot;，才能使用，如下所示： <code>%R</code>，<code>%rsid</code>，和<code>%id</code>。</p> |
    | [!UICONTROL **將報表日期範圍附加至檔案名稱**] | 新增日期範圍至報表檔案名稱。 <p>例如，如果您請求從2024年5月1日到2024年5月7日的資料，則檔案名稱包含20240501 - 20240507日期範圍。</p> |
    | [!UICONTROL **CSV**] | 傳送CSV檔案格式的報表，以供在試算表中檢視資料。 |
    | [!UICONTROL **Tableau (TDE)**] | 傳送Tableau資料擷取(TDE)檔案格式的報告，可用來在Tableau中顯示其他資料中的資料和圖層。 |

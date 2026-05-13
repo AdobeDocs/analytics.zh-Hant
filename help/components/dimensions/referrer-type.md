@@ -3,9 +3,13 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 98316266eb25c01c571901a62aa076276622bfc5
+TQID: https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: 502
 ht-degree: 88%
 
 ---
@@ -16,11 +20,11 @@ ht-degree: 88%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的多個查閱表格。每個值都以點擊的[反向連結](referrer.md)為基礎，而這有賴於[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。請確定反向連結維度和內部 URL 篩選器皆已正確設定。
+此維度會參考 Adobe 內部的多個查閱表格。 每個值都以點擊的[反向連結](referrer.md)為基礎，而這有賴於[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 請確定反向連結維度和內部 URL 篩選器皆已正確設定。
 
 ## 維度項目
 
-維度項目包含點擊的反向連結類型。特定值包括：
+維度項目包含點擊的反向連結類型。 特定值包括：
 
 * **分類/建立書籤**：點擊沒有反向連結資料。
 * **搜尋引擎**：反向連結來自於已認可、且包含關鍵字查詢字串的搜尋引擎。
@@ -29,11 +33,11 @@ ht-degree: 88%
 * **其他網站**：反向連結資料不屬於 Adobe 認可的搜尋引擎或社交網路。
 * **無JavaScript**：反向連結來自於未啟用JavaScript的瀏覽器。
 * **硬碟**：反向連結源自於訪客硬碟上的網頁本機複本。
-* **電子郵件**：反向連結源自於具有通訊協定 `imap://` 或 `mail://` 的 URL。其中不包括線上電子郵件服務，因為這些服務通常使用 `https://` 通訊協定。
+* **電子郵件**：反向連結源自於具有通訊協定 `imap://` 或 `mail://` 的 URL。 其中不包括線上電子郵件服務，因為這些服務通常使用 `https://` 通訊協定。
 
 ### 對話式人工智慧工具
 
-下列清單列出Adobe所使用的「對話式AI工具」查詢表。 Adobe 提供此清單以便 Adobe Analytics 客戶使用。如果您想要建議 Adobe 在此清單中新增某個網域，請透過組織中的支援委派聯絡客戶服務。
+下列清單列出Adobe所使用的「對話式AI工具」查詢表。 Adobe 提供此清單以便 Adobe Analytics 客戶使用。 如果您想要建議 Adobe 在此清單中新增某個網域，請透過組織中的支援委派聯絡客戶服務。
 
 * `https://chatgpt.com`
 * `https://chat.com`
@@ -57,7 +61,7 @@ ht-degree: 88%
 
 ### 社交網路
 
-下列清單列出 Adobe 所使用的「社交網路」查閱表格。Adobe 提供此清單以便 Adobe Analytics 客戶使用。如果您想要建議 Adobe 在此清單中新增某個網域，請透過組織中的支援委派聯絡客戶服務。
+下列清單列出 Adobe 所使用的「社交網路」查閱表格。 Adobe 提供此清單以便 Adobe Analytics 客戶使用。 如果您想要建議 Adobe 在此清單中新增某個網域，請透過組織中的支援委派聯絡客戶服務。
 
 >[!NOTE]
 >
@@ -233,7 +237,7 @@ ht-degree: 88%
 
 ### 「其他網站」維度項目中的搜尋引擎
 
-當您在「反向連結類型」維度中檢視特定網域時，可能會發現某些您認為應列在「搜尋引擎」下方 (而非「其他網站」下方) 的網域。例如，您可能會在「其他網站」下方看到 `'google.com'`。
+當您在「反向連結類型」維度中檢視特定網域時，可能會發現某些您認為應列在「搜尋引擎」下方 (而非「其他網站」下方) 的網域。 例如，您可能會在「其他網站」下方看到 `'google.com'`。
 
-* **「搜尋引擎」維度項目中的搜尋引擎網域**：反向連結符合由 Adobe 分類為搜尋引擎的所有條件。反向連結網域是有效的搜尋引擎， *且*&#x200B;反向連結 URL 包含關鍵字查詢字串參數。
-* **「其他網站」維度項目中的搜尋引擎網域**：反向連結 URL 不符合分類為搜尋引擎的所有條件。常見的範例包括搜尋以外的其他功能專用的子網域。例如，`mail.google.com` 或 `autos.yahoo.com` 不是搜尋引擎，但位於通常與搜尋相關聯的上層網域上。這些子網域不包含關鍵字查詢字串，正因如此，這些子網域才會包含在「其他網站」下，而非「搜尋引擎」下。
+* **「搜尋引擎」維度項目中的搜尋引擎網域**：反向連結符合由 Adobe 分類為搜尋引擎的所有條件。 反向連結網域是有效的搜尋引擎， *且*&#x200B;反向連結 URL 包含關鍵字查詢字串參數。
+* **「其他網站」維度項目中的搜尋引擎網域**：反向連結 URL 不符合分類為搜尋引擎的所有條件。 常見的範例包括搜尋以外的其他功能專用的子網域。 例如，`mail.google.com` 或 `autos.yahoo.com` 不是搜尋引擎，但位於通常與搜尋相關聯的上層網域上。 這些子網域不包含關鍵字查詢字串，正因如此，這些子網域才會包含在「其他網站」下，而非「搜尋引擎」下。

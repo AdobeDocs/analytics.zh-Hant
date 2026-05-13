@@ -4,24 +4,28 @@ description: 可在實施中使用的自訂變數。
 feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/X5HNYsZBAIMpvsM7ktZhQCSHt1icRQdcpzIkUBJjxv4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: 409
+ht-degree: 96%
 
 ---
 
 # eVar
 
-*此說明頁面說明如何實施 eVar。如需 eVar 如何當作維度的詳細資訊，請參閱元件使用手冊中的 [eVar](/help/components/dimensions/evar.md)。*
+*此說明頁面說明如何實施 eVar。 如需 eVar 如何當作維度的詳細資訊，請參閱元件使用手冊中的 [eVar](/help/components/dimensions/evar.md)。*
 
-eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。依預設，eVar 可存留於其設定的點擊之外。您可以在報告套裝設定中的[「轉換變數」](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)下自訂其期限和配置。
+eVar 是自訂變數，您可以視需要使用。 如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。 依預設，eVar 可存留於其設定的點擊之外。 您可以在報告套裝設定中的[「轉換變數」](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)下自訂其期限和配置。
 
-可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
+可用的 eVar 數量取決於您與 Adobe 訂定的合約。 在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
 ## 在報表套裝設定中設定 eVar
 
-在實作中使用 eVar 之前，請務必在報表套裝設定中設定每個 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
+在實作中使用 eVar 之前，請務必在報表套裝設定中設定每個 eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
 
 ## 使用 Web SDK 的 eVar
 
@@ -38,14 +42,14 @@ eVar會對應至下列變數：
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設定為 Adobe Analytics，並將[!UICONTROL 「動作類型」]設定為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「eVar」]區段。
 
-您可以將 eVar 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。
+您可以將 eVar 設為一個值或資料元素。 您也可以複製其他 Analytics 變數的值。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.eVar1 - s.eVar250
 
-每個 eVar 都是字串，其中包含貴組織專屬的自訂值。它們的最大長度為 255 個位元組；超過 255 個位元組的值會在傳送至 Adobe 時自動截斷。
+每個 eVar 都是字串，其中包含貴組織專屬的自訂值。 它們的最大長度為 255 個位元組；超過 255 個位元組的值會在傳送至 Adobe 時自動截斷。
 
 ```js
 s.eVar1 = "Example custom value";
@@ -53,7 +57,7 @@ s.eVar1 = "Example custom value";
 
 ## 計數器 eVar
 
-eVar 值通常包含字串值。不過您可以設定 eVar，改為包含計數器。例如，您想要計算購買前進行的內部搜尋數目。建議您使用下列語法，避免設定文字值：
+eVar 值通常包含字串值。 不過您可以設定 eVar，改為包含計數器。 例如，您想要計算購買前進行的內部搜尋數目。 建議您使用下列語法，避免設定文字值：
 
 ```js
 // Increment a counter eVar by 1
@@ -63,8 +67,8 @@ s.eVar1 = "+1";
 s.eVar1 = "+12.49";
 ```
 
-若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar 計數器不能包含負數。
+若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。 eVar 計數器不能包含負數。
 
 >[!IMPORTANT]
 >
->您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
+>您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。

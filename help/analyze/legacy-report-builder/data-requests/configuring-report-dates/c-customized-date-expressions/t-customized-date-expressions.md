@@ -5,20 +5,24 @@ uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
 role: User, Admin
 exl-id: b3bdc07e-5c2d-4be3-86c9-b4b7380be0f6
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/s6Q9D3KoMLw0-95kydXM0IyO-NjaSNF6hKcHK25KMH0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 25%
+source-wordcount: 281
+ht-degree: 12%
 
 ---
 
-# 自訂的日期運算式 
+# 自訂的日期運算式
 
 {{legacy-arb}}
 
 您可以建立自訂運算式來指定複雜的日期範圍。
 
-當您建立運算式時，請參閱日曆以正確指定周數和天數。 Excel 有數種內建的功能可讓您計算日期間的天數、工作日數、月數及年份數。您可以在公式中使用這些功能來計算其他間隔，如週數和季數。
+當您建立運算式時，請參閱日曆以正確指定周數和天數。 Excel有數個內建函式，可讓您計算日期之間的天數、工作天數、月數及年數。 您可以在公式中使用這些函式來計算其他間隔，例如周和季。
 
 **啟用自訂運算式**
 
@@ -29,7 +33,7 @@ ht-degree: 25%
    ![熒幕擷圖顯示選取的遞延日期。](assets/rolldates1.png)
 
 1. 切換為每週、每月、每季或每年滾動。 請注意下列選項如何變更。
-1. 如需更多自訂選項，請按一下[顯示進階選項]。**&#x200B;**
+1. 如需更多自訂選項，請按一下[顯示進階選項]。****
 
    ![熒幕擷圖反白顯示[顯示進階選項]。](assets/rolldates2.png)
 

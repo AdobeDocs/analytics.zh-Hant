@@ -4,9 +4,13 @@ description: 將銷售 eVar 新增至產品變數。
 feature: Appmeasurement Implementation
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ZfOvSvoKgSRbESRnKQo-59s4GteAEgTwXINoXpyVsk4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 557
 ht-degree: 87%
 
 ---
@@ -15,11 +19,11 @@ ht-degree: 87%
 
 {{plug-in}}
 
-`addProductEvar` 外掛程式可讓您輕鬆將使用產品語法的 Adobe Analytics 銷售 eVar 新增至產品變數，而不需擔心產品變數的現有內容是否會變更/移動/刪除。如果您想要輕鬆將產品語法銷售 eVar 新增至 [`products`](../page-vars/products.md) 變數，Adobe 建議您使用此外掛程式。如果您不使用銷售 eVar 搭配產品語法，就不需要使用 `addProductEvar` 外掛程式。
+`addProductEvar` 外掛程式可讓您輕鬆將使用產品語法的 Adobe Analytics 銷售 eVar 新增至產品變數，而不需擔心產品變數的現有內容是否會變更/移動/刪除。 如果您想要輕鬆將產品語法銷售 eVar 新增至 [`products`](../page-vars/products.md) 變數，Adobe 建議您使用此外掛程式。 如果您不使用銷售 eVar 搭配產品語法，就不需要使用 `addProductEvar` 外掛程式。
 
 >[!NOTE]
 >
-> 此外掛程式不會取代產品項目中已存在的 eVar。它只會附加您使用此外掛程式設定的值。在附加該產品已存在的 eVar 時請務必小心。
+>此外掛程式不會取代產品項目中已存在的 eVar。 它只會附加您使用此外掛程式設定的值。 在附加該產品已存在的 eVar 時請務必小心。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -54,7 +58,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,11 +71,11 @@ function addProductEvar(en,ev,ap){var e=en,f=ev,d=ap;if("-v"===e)return{plugin:"
 
 `addProductEvar` 外掛程式使用下列引數：
 
-* **`en`** (必要，字串)：為 eVar，可新增至產品變數中目前的最後一個項目。如果產品變數空白，外掛程式會建立「空白」產品項目，而且其 eVar 值會附加至項目結尾。
+* **`en`** (必要，字串)：為 eVar，可新增至產品變數中目前的最後一個項目。 如果產品變數空白，外掛程式會建立「空白」產品項目，而且其 eVar 值會附加至項目結尾。
 * **`ev`** (必要，字串)：指派給 eVar 的值。
-* **`ap`** (可選，布林)：如果產品變數目前包含多個產品項目，true 值 (或 1) 會將 eVar 新增至&#x200B;**所有**&#x200B;產品項目。預設值為 false (或 0)，這只會將 eVar 新增至產品變數中的&#x200B;**最後一個**&#x200B;項目。
+* **`ap`** (可選，布林)：如果產品變數目前包含多個產品項目，true 值 (或 1) 會將 eVar 新增至&#x200B;**所有**&#x200B;產品項目。  預設值為 false (或 0)，這只會將 eVar 新增至產品變數中的&#x200B;**最後一個**&#x200B;項目。
 
-`addProductEvar` 外掛程式不會傳回任何內容，而是將在 `en` 和 `ev` 引數中指定的 eVar (和 eVar 值) 新增至 `products` 變數。
+`addProductEvar` 外掛程式不會傳回任何內容， 而是將在 `en` 和 `ev` 引數中指定的 eVar (和 eVar 值) 新增至 `products` 變數。
 
 ## 範例
 

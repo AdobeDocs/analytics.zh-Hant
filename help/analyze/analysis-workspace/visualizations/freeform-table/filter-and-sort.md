@@ -4,16 +4,20 @@ title: 篩選與排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/KdxCXtqVLrAOSHSp90t6Qmiz7v91eTgeSK-U4EjKc4U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: 1585
 ht-degree: 51%
 
 ---
 
 # 篩選和排序自由格式表格
 
-Analysis Workspace 中的自由格式表格是互動式資料分析的基礎。因此，它們可包含數千列資訊。若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
+Analysis Workspace 中的自由格式表格是互動式資料分析的基礎。 因此，它們可包含數千列資訊。 若要有效地展示最重要的資訊，對資料進行篩選和排序相當重要。
 
 ## 篩選表格
 
@@ -21,13 +25,13 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
-> 只有動態維度項目才能依照本節所述進行篩選。無法篩選靜態維度項目。有關詳細資訊，請參閱「[自由格式表格中的動態與靜態維度項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
+> 只有動態維度項目才能依照本節所述進行篩選。 無法篩選靜態維度項目。 有關詳細資訊，請參閱「[自由格式表格中的動態與靜態維度項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)。
 
 您可以使用多種方法來篩選自由格式表格中的資料列。
 
 * 排除表格中的特定資料列
 * 套用篩選器至表格
-* 使用段篩選器
+* 使用區段篩選
 
 請務必閱讀每種方法如何影響[自由格式表格總計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)。
 
@@ -37,7 +41,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
->當您按照本節所述排除資料列時， 「[!UICONTROL 永遠排除項目]」規則會自動加入[!UICONTROL 進階]篩選器對話框。您可以透過選取 ![篩選器](/help/assets/icons/Filter.svg) 篩選器圖示，然後選取「[**[!UICONTROL 顯示進階]**](#apply-a-simple-or-advanced-filter-to-a-table)」來檢視套用的規則。
+>當您按照本節所述排除資料列時， 「[!UICONTROL 永遠排除項目]」規則會自動加入[!UICONTROL 進階]篩選器對話框。 您可以透過選取 ![篩選器](/help/assets/icons/Filter.svg) 篩選器圖示，然後選取「[**[!UICONTROL 顯示進階]**](#apply-a-simple-or-advanced-filter-to-a-table)」來檢視套用的規則。
 
 若要排除自由格式表格的特定資料列：
 
@@ -73,8 +77,8 @@ Note: this option does not seem to work. AN-338422
 
    | 選項 | 函數 |
    |---------|----------|
-   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。取消選取此選項，可隱藏&#x200B;**[!UICONTROL 無值]**&#x200B;資料列。 |
-   | [!UICONTROL **搜尋單字或片語**] | 指定您想要篩選的單字或片語。只顯示包含指定字詞或確切片語的行。 |
+   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。 取消選取此選項，可隱藏&#x200B;**[!UICONTROL 無值]**&#x200B;資料列。 |
+   | [!UICONTROL **搜尋單字或片語**] | 指定您想要篩選的單字或片語。 只顯示包含指定字詞或確切片語的行。 |
 
 
 1. (選用) 若要依不同條件或依多個條件篩選，請選取&#x200B;[!UICONTROL **顯示進階**]。
@@ -85,12 +89,12 @@ Note: this option does not seem to work. AN-338422
 
    | 選項 | 函數 |
    |---------|----------|
-   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。取消選取此選項，可隱藏&#x200B;**[!UICONTROL 無值]**&#x200B;資料列。 |
+   | [!UICONTROL **包括「無值」**] | 選取此選項，在表格中顯示&#x200B;**[!UICONTROL 無值]**&#x200B;資料列，這些資料為沒有所選維度的值。 取消選取此選項，可隱藏&#x200B;**[!UICONTROL 無值]**&#x200B;資料列。 |
    | [!UICONTROL **符合**] | 選擇&#x200B;[!UICONTROL **如果滿足所有條件**]&#x200B;即可僅顯示符合您指定之所有條件的資料。 此選項通常會產生更精細的資料。<br/><br/>選擇&#x200B;[!UICONTROL **如果符合任何條件即可顯示符合**]&#x200B;您指定之任何篩選條件的資料。 此選項通常會產生較少精細的資料。 |
-   | [!UICONTROL **標準**] | 從下列篩選選項中選取：<br/><ul><li>[!UICONTROL **包含片語**] (預設)：篩選結果中只會包含您指定之確切片語的資料。 字詞必須按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **包含任何詞語**]：篩選結果中只會包含來自您所指定片語的一或多個字詞。 </li><li>[!UICONTROL **包含所有詞語**]：篩選結果中只會包含來自您所指定片語的所有字詞的資料。字詞不必按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **不包含任何詞語**]：篩選結果中只會顯示不含您所指定片語的一或多個字詞。 </li><li>[!UICONTROL **不包含片語**]：篩選結果中只會顯示不含您指定之確切片語的資料。 字詞必須按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **等於**]：篩選結果中只會包含與您所指定之片語完全相符的資料。 </li><li>[!UICONTROL **不等於**]：篩選結果中只會包含與您所指定之片語不完全相符的資料。 </li><li>[!UICONTROL **開頭為**]：篩選結果中只會包含以您指定的字詞或確切片語開頭的資料。 </li><li>[!UICONTROL **結尾為**]：篩選結果中只會包含以您指定的字詞或確切片語結尾的資料。 </li></ul>選取 ![新增](/help/assets/icons/Add.svg) [!UICONTROL **「新增資料列」**]&#x200B;以新增多個篩選條件。 您為「[!UICONTROL **符合**]」選取的選項會確定「**[!UICONTROL 如果滿足所有條件]**」或「**[!UICONTROL 如果滿足任何條件]**」。 |
+   | [!UICONTROL **標準**] | 從下列篩選選項中選取：<br/><ul><li>[!UICONTROL **包含片語**] (預設)：篩選結果中只會包含您指定之確切片語的資料。 字詞必須按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **包含任何詞語**]：篩選結果中只會包含來自您所指定片語的一或多個字詞。 </li><li>[!UICONTROL **包含所有詞語**]：篩選結果中只會包含來自您所指定片語的所有字詞的資料。 字詞不必按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **不包含任何詞語**]：篩選結果中只會顯示不含您所指定片語的一或多個字詞。 </li><li>[!UICONTROL **不包含片語**]：篩選結果中只會顯示不含您指定之確切片語的資料。 字詞必須按照&#x200B;[!UICONTROL **搜尋字詞或片語欄位**]&#x200B;中指定的順序排列。</li><li>[!UICONTROL **等於**]：篩選結果中只會包含與您所指定之片語完全相符的資料。 </li><li>[!UICONTROL **不等於**]：篩選結果中只會包含與您所指定之片語不完全相符的資料。 </li><li>[!UICONTROL **開頭為**]：篩選結果中只會包含以您指定的字詞或確切片語開頭的資料。 </li><li>[!UICONTROL **結尾為**]：篩選結果中只會包含以您指定的字詞或確切片語結尾的資料。 </li></ul>選取 ![新增](/help/assets/icons/Add.svg) [!UICONTROL **「新增資料列」**]&#x200B;以新增多個篩選條件。 您為「[!UICONTROL **符合**]」選取的選項會確定「**[!UICONTROL 如果滿足所有條件]**」或「**[!UICONTROL 如果滿足任何條件]**」。 |
    | [!UICONTROL **永遠排除項目**] | 指定要從篩選資料中排除的任何項目的名稱。 |
 
-1. 選取「**[!UICONTROL 套用]**」以篩選資料。選取「**[!UICONTROL 清除]**」以清除所有輸入的資料。選取「**[!UICONTROL 取消]**」以取消並關閉對話框。<br/>彩色 ![篩選器](/help/assets/icons/FilterColored.svg) **篩選器**&#x200B;圖示是指示並顯示將篩選器套用至表格時的詳細資訊。
+1. 選取「**[!UICONTROL 套用]**」以篩選資料。 選取「**[!UICONTROL 清除]**」以清除所有輸入的資料。 選取「**[!UICONTROL 取消]**」以取消並關閉對話框。 <br/>彩色 ![篩選器](/help/assets/icons/FilterColored.svg) **篩選器**&#x200B;圖示是指示並顯示將篩選器套用至表格時的詳細資訊。
 
 ### 在走勢圖和線條視覺效果中的趨勢資料中包含篩選條件 {#include-filter-criteria}
 
@@ -102,15 +106,15 @@ Note: this option does not seem to work. AN-338422
 
 #### 設定線條視覺效果以包含篩選條件
 
-1. 在度量列標題中選擇迷你圖。
+1. 選取量度欄標頭中的走勢圖。
 
-   選擇迷你圖單元格時，它顯示為深灰色。 這表示在連接的線可視化中包含篩選器條件。 篩選條件將作為列上的段應用。<!--show how to see it? Show what the segment looks like when it's applied? -->
+   選取走勢圖儲存格時，會顯示為深灰色。 這表示篩選條件包含在連線的線條視覺效果中。 篩選條件會套用為欄上的區段。<!--show how to see it? Show what the segment looks like when it's applied? -->
 
-   已選擇![迷你圖](assets/table-sparkline-selected.png)
+   已選取![走勢圖](assets/table-sparkline-selected.png)
 
-#### 瞭解列合計可能不準確的時間
+#### 瞭解欄總計何時可能不準確
 
-在以下情形中，列合計可能不準確：
+在下列情況下，欄總數可能會不準確：
 
 * 當在左欄中使用靜態元件時，[欄總計會計算為列的總和](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
 
@@ -145,15 +149,15 @@ Note: this option does not seem to work. AN-338422
 
 1. 將游標移至您要排序的資料行標頭上，然後選取&#x200B;**排序**&#x200B;圖示![排序](/help/assets/icons/SortOrderDown.svg) （當它出現時）。
 
-   ![排序下拉菜單](assets/sort-dropdown-menu.png)
+   ![排序下拉式功能表](assets/sort-dropdown-menu.png)
 
-1. 選擇&#x200B;**[!UICONTROL 升序]**&#x200B;或&#x200B;**[!UICONTROL 降序]**。
+1. 選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**。
 
-   對列應用排序時，排序表徵圖仍可見。 箭頭指示資料的排序方式（![按升序排序](/help/assets/icons/SortOrderUp.svg)，或按降序排序![按排序](/help/assets/icons/SortOrderDown.svg)）。
+   將排序套用至欄時，排序圖示保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
 
-## 按多列對表排序（高級排序）
+## 依多個欄排序表格（進階排序）
 
-### 對多列應用排序
+### 將排序套用至多個欄
 
 若要依多欄排序表格中的資料，請執行下列動作：
 
@@ -177,17 +181,17 @@ Note: this option does not seem to work. AN-338422
 
    * 在下拉式功能表中選取&#x200B;**[!UICONTROL 遞增]**&#x200B;或&#x200B;**[!UICONTROL 遞減]**，以變更排序值。
 
-   * 通過選擇列名下拉菜單選擇其他列。
+   * 選取欄名稱下拉式功能表，以選取不同的欄。
 
 1. 選取&#x200B;**[!UICONTROL 「套用」]**。
 
-對列應用排序時，排序表徵圖仍可見。 箭頭指示資料的排序方式（![按升序排序](/help/assets/icons/SortOrderUp.svg)，或按降序排序![按排序](/help/assets/icons/SortOrderDown.svg)）。
+將排序套用至欄時，排序圖示仍會保持可見。 箭頭表示資料的排序方式（![排序](/help/assets/icons/SortOrderUp.svg)為遞增或![排序](/help/assets/icons/SortOrderDown.svg)為遞減）。
 
-![多排序示例](assets/dimensions-multiple-sort.png)
+![多重排序範例](assets/dimensions-multiple-sort.png)
 
 ### 排序優先順序
 
-當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序進行排序。優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
+當您排序多個欄的資料時，資料會根據您指派給每個欄的優先順序進行排序。 優先順序編號會顯示在排序圖示![排序優先順序圖示](assets/sort-priority-icon.png)旁邊。
 
 具有主要優先順序的欄決定主要順序；具有次要優先順序的欄決定列在主要欄中具有相同值的順序；具有第三優先順序的欄決定列在主要欄和次要欄中具有相同值的順序；依此類推。
 
@@ -206,7 +210,7 @@ Note: this option does not seem to work. AN-338422
 | 欄（元件）名稱 | 元件類型 | 排序優先順序 |
 |---------|----------|---------|
 | 日 | 維度 | 1 |
-| 頁面檢視次數 | 量度 | 2 |
+| 頁面檢視 | 量度 | 2 |
 | 造訪次數 | 量度 | 3 |
 | 內容速度 | 量度 | 4 |
 

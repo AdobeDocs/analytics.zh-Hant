@@ -4,10 +4,15 @@ title: 伺服器端轉送資料和程式碼參考
 feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DuHi1F4wU6EfxGe8s9EWZ54TX7KnkN3MmAOUE8a9oqw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 97%
+source-wordcount: 561
+ht-degree: 90%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 97%
 
 ## 設定變數 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=zh-Hant) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hant)。
+前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=zh-Hant) (DCS) 所使用的特殊系統層級索引鍵值組。 另請參閱 [DCS API 呼叫的支援屬性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hant)。
 
 | 參數 | 說明 |
 |--- |--- |
@@ -28,11 +33,11 @@ ht-degree: 97%
 
 ## HTTP 標題 {#section_0549705E76004F9585224AEF872066C0}
 
-這些標題為包含資訊的欄位，例如 HTTP 呼叫中的資料請求和回應。
+這些標題是包含類似HTTP呼叫中資料請求和回應的欄位。
 
 | HTTP 標題 | 說明 | Audience Manager 所接受的 h_ key |
 | --- | --- | --- |
-| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。它會顯示為 `host name .demdex.net`。 請參閱[了解對 Demdex 網域的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
+| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。 它會顯示為 `host name .demdex.net`。 請參閱[了解對 Demdex 網域的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
 | User-Agent | 設為傳入 Analytics 的 User-Agent 標題。 | `h_user-agent` |
 | Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 | `h_accept-language` |
 | Referer | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referer` 標題收集。 | `h_referer` |
@@ -43,7 +48,7 @@ ht-degree: 97%
 
 ## 客戶定義的訊號 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-前置詞為 `c_` 的參數可識別客戶定義的變數。另請參閱 [DCS API 呼叫的支援屬性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hant)。
+前置詞為 `c_` 的參數可識別客戶定義的變數。 另請參閱[DCS API呼叫的支援屬性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hant)。
 
 | 訊號 | 說明 |
 | --- |--- |
@@ -52,14 +57,14 @@ ht-degree: 97%
 | `c_channel` | 由 `s.channel` 所設定。 |
 | `c_clientDateTime` | 時間戳記格式為 `dd/mm/yyy hh:mm:ss  W TZ`。 `TZ` 的單位為分鐘，且符合 `Date.getTimezoneOffset` 方法的傳回。 |
 | `c_colorDepth` | 指定為 16 或 32 位元色彩。 |
-| `c_connectionType` | 指定連線類型。選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
+| `c_connectionType` | 指定連線型別。 選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
 | `c_contextData.*` | 範例：<ul><li>AppMeasurement：`s.contextData`</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>訊號：`c_contextData.category=news`</li></ul> |
-| `c_cookiesEnabled` | 指定 Cookie 是否可啟用。選項包括：是、否、未知 |
+| `c_cookiesEnabled` | 指定是否可以啟用Cookie。 選項包括：是、否、未知 |
 | `c_currencyCode` | 用於交易的貨幣類型。 |
 | `c_evar#` | 自訂 eVar |
 | `c_events` | 由 `s.events` 所設定。 |
 | `c_hier#` | 自訂階層變數。 |
-| `c_javaEnabled` | 指定 Java 是否可啟用。選項包括：是、否、未知 |
+| `c_javaEnabled` | 指定是否可以啟用Java。 選項包括：是、否、未知 |
 | `c_javaScriptVersion` | 瀏覽器支援的 JavaScript 版本。 |
 | `c_latitude` | 緯度數值 |
 | `c_linkClick` | 選項包括：自訂、下載退出 |
@@ -68,7 +73,7 @@ ht-degree: 97%
 | `c_linkExitURL` | 退出連結 URL。 |
 | `c_list#` | 自訂清單變數。 |
 | `c_longitude` | 經度數值。 |
-| `c_mediaPlayerType` | 適用於媒體串流追蹤請求。選項包括：其他、primetime |
+| `c_mediaPlayerType` | 適用於媒體串流追蹤請求。 選項包括：其他、primetime |
 | `c_pageName` | 頁面名稱 (如果有設定)。 |
 | `c_pageURL` | 瀏覽器網址列中的頁面位址。 |
 | `c_products` | 產品字串 (由 `s.products` 所設定)。 |

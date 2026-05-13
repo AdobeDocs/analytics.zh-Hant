@@ -6,16 +6,22 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
-source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
+TQID: https://experienceleague.adobe.com/4BaqA2FPfve4sF2K-Tpxd0hcbVlAWw2QeVhl4xxeb9s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: 514
 ht-degree: 81%
 
 ---
 
 # Report Builder 概觀
 
-Report Builder 可讓您使用 Adobe Analytics 資料輕鬆建立、編輯和重新整理自訂報告。透過 Report Builder 簡單靈活拖放 UI，即可在 Excel 中從 Adobe Analytics 資料建立複雜的資料查詢和自訂報告。
+Report Builder 可讓您使用 Adobe Analytics 資料輕鬆建立、編輯和重新整理自訂報告。 透過 Report Builder 簡單靈活拖放 UI，即可在 Excel 中從 Adobe Analytics 資料建立複雜的資料查詢和自訂報告。
 
 使用適用於Adobe Analytics的Report Builder，您可以：
 
@@ -46,9 +52,9 @@ Report Builder 可讓您使用 Adobe Analytics 資料輕鬆建立、編輯和重
 
 您仍然可以使用兩個版本的 Report Builder，但請注意下列事項：
 
-- 請勿同時對同一檔案使用兩個版本的 Report Builder。兩個版本之間互相排斥。
+- 請勿同時對同一檔案使用兩個版本的 Report Builder。 兩個版本之間互相排斥。
 - 您仍然可以在舊版活頁簿上使用舊版 Report Builder，並在新活頁簿上使用新版 Report Builder。
-- 此外，您也可以自動將[舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換至新版 Report Builder 格式。在此之前，請複製並重新命名此檔案。
+- 此外，您也可以自動將[舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)轉換至新版 Report Builder 格式。 在此之前，請複製並重新命名此檔案。
 
 ### 不支援舊版Report Builder功能
 
@@ -57,9 +63,9 @@ Report Builder 可讓您使用 Adobe Analytics 資料輕鬆建立、編輯和重
 
 ## 常見使用案例
 
-- **資料擷取**：Adobe Report Builder 可讓您將 Adobe Analytics 中的資料擷取至 Excel 中。您可以建立自訂報告和查詢，以擷取與您的分析相關的特定資料點。
+- **資料擷取**：Adobe Report Builder 可讓您將 Adobe Analytics 中的資料擷取至 Excel 中。 您可以建立自訂報告和查詢，以擷取與您的分析相關的特定資料點。
 
-- **自訂報告**：您可以在 Excel 中設計和格式化自訂報告，以滿足您的特定報告需求。為不同利害關係人量身訂做報告時，此功能特別實用。
+- **自訂報告**：您可以在 Excel 中設計和格式化自訂報告，以滿足您的特定報告需求。 為不同利害關係人量身訂做報告時，此功能特別實用。
 
 - **臨時分析**：使用者可以快速產生臨時報告來回答特定問題或探索資料趨勢，無需經歷冗長的報告建立過程。
 
@@ -71,12 +77,12 @@ Report Builder 可讓您使用 Adobe Analytics 資料輕鬆建立、編輯和重
 
 >[!IMPORTANT]
 >
->此概觀影片顯示 Customer Journey Analytics 的 Report Builder 使用者介面。在Adobe Analytics中使用Report Builder時，部分使用者介面和術語會有所不同。 否則，使用者體驗相同。
+>此概觀影片顯示 Customer Journey Analytics 的 Report Builder 使用者介面。 在Adobe Analytics中使用Report Builder時，部分使用者介面和術語會有所不同。 否則，使用者體驗相同。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 概觀](https://video.tv.adobe.com/v/3452591?captions=chi_hant&quality=12&learn=on){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Report Builder 概觀](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

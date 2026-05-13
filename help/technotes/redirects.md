@@ -1,58 +1,63 @@
 ---
-description: 重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
+description: 重新導向會將瀏覽器指向新位置，使用者不必互動。 它們會在網頁瀏覽器（使用者端重新導向）或網頁伺服器（伺服器端重新導向）執行。
 keywords: Analytics 實作
 title: 重新導向與別名
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 69%
 
 ---
 
 # 重新導向與別名
 
-重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
+重新導向會將瀏覽器指向新位置，使用者不必互動。 它們會在網頁瀏覽器（使用者端重新導向）或網頁伺服器（伺服器端重新導向）執行。
 
 ## 重新導向與別名 {#aliases}
 
-重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
+重新導向會將瀏覽器指向新位置，使用者不必互動。 它們會在網頁瀏覽器（使用者端重新導向）或網頁伺服器（伺服器端重新導向）執行。
 
-由於重新導向不需要任何使用者操作，因此使用者通常不會察覺正在執行重新導向。唯一可指出發生了重新導向的位置，是瀏覽器的網址列。網址列會顯示與瀏覽器最初請求的連結不同的 URL。
+由於重新導向不需要任何使用者互動，因此重新導向通常會在使用者未察覺的情況下執行。 表示已發生重新導向的唯一專案是瀏覽器的位址列。 位址列顯示的URL與瀏覽器最初要求的連結不同。
 
-重新導向雖然只有兩種類型，但有許多方式可以實施。例如，用戶端重新導向的發生，可能是因為使用者要瀏覽器開啟的網頁中包含將瀏覽器重新導向至其他 URL 的指令碼或特殊 HTML 程式碼。伺服器端重新導向的發生，則可能是因為頁面包含伺服器端指令碼，或網頁伺服器已設為將使用者導向其他 URL。
+雖然只有兩種型別的重新導向，但可透過多種方式實作。 例如，使用者端重新導向可能會發生，因為使用者將瀏覽器指向的網頁包含指令碼或特殊HTML程式碼，會將瀏覽器重新導向至其他URL。 伺服器端重新導向，可能是因為頁面包含伺服器端指令碼，或是因為網頁伺服器已設定為將使用者指向其他URL。
 
 ## Analytics 和重新導向 {#aa-redirects}
 
-[!DNL Analytics] 會從瀏覽器收集一些資料，因此需仰賴特定瀏覽器屬性來運作。其中「反向連結 URL」(或 referrer) 與「目前 URL」兩項屬性可透過伺服器端重新導向來變更。瀏覽器由於會辨識出請求的是某個 URL，但傳回的卻是不同的 URL，因此會清除「反向連結 URL」。結果，反向連結 URL 會空白，而 [!DNL Analytics] 可能會報告該頁面沒有反向連結存在。
+[!DNL Analytics] 會從瀏覽器收集一些資料，因此需仰賴特定瀏覽器屬性來運作。 其中兩個屬性，「反向連結URL」（或「反向連結」）和「目前URL」可透過伺服器端重新導向來變更。 因為瀏覽器知道已要求一個URL，但傳回不同的URL，所以會清除反向連結URL。 結果，反向連結 URL 會空白，而 [!DNL Analytics] 可能會報告該頁面沒有反向連結存在。
 
 ## 範例：沒有重新導向的瀏覽 {#browse-without}
 
 假設有下面這種使用者未遇到重新導向的情況:
 
 1. 使用者在瀏覽器中前往 `www.google.com`，並在搜尋欄位中輸入「discount airline tickets」，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
-1. 瀏覽器顯示的搜尋結果包含您網站的連結 [!DNL https://www.example.com/] 。顯示搜尋結果後，瀏覽器的網址列顯示了使用者在搜尋欄位中輸入的搜尋詞彙 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`.
-1. 使用者按一下您的假設網站的連結 [!DNL https://www.example.com/] 。當使用者點按此連結並開啟了 [!DNL example.com] 網站時，[!DNL Analytics] 會使用 JavaScript 收集反向連結 URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 和目前的 URL (`https://www.example.com/`)。
+1. 瀏覽器顯示的搜尋結果包含您網站的連結 [!DNL https://www.example.com/] 。 顯示搜尋結果後，瀏覽器的網址列顯示了使用者在搜尋欄位中輸入的搜尋詞彙 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)。 請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`.
+1. 使用者按一下您的假設網站的連結 [!DNL https://www.example.com/] 。 當使用者點按此連結並開啟了 [!DNL example.com] 網站時，[!DNL Analytics] 會使用 JavaScript 收集反向連結 URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 和目前的 URL (`https://www.example.com/`)。
 1. [!DNL Analytics] 會在不同的報表中報告在此互動期間收集到的資訊，例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]和[!DNL Search Keywords]。
 
 ## 範例：有重新導向的瀏覽 {#browse-with}
 
-重新導向可能會使瀏覽器忘掉真正的反向連結 URL。假設有下列情況：
+重新導向可能會導致瀏覽器將真正的反向連結URL遮蔽掉。 假設有下列情況：
 
 1. 使用者在瀏覽器中前往 `https://www.google.com`，並在搜尋欄位中輸入 *discount airline tickets*，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
-1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaii.example/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
-1. 使用者點按連結 `https://www.flytohawaii.example/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
+1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。 請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。 瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaii.example/] 。 此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
+1. 使用者點按連結 `https://www.flytohawaii.example/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。 進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。 因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
 
 ## 實作重新導向 {#implement}
 
-若要透過重新導向擷取 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
+若要透過重新導向擷取 [!DNL Analytics][!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
 
 完成下列步驟，可保留原始反向連結 (例如前述案例中的 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 傳至您網站的資訊:
 
 ## 設定反向連結覆寫 JavaScript 程式碼 {#override}
 
-下列程式碼片段顯示兩個 JavaScript 變數: `s.referrer` 和 `s.pageURL`。此程式碼會放置在重新導向的最終登陸頁面上。
+下列程式碼片段顯示兩個 JavaScript 變數: `s.referrer` 和 `s.pageURL`。 此程式碼會放置在重新導向的最終登陸頁面上。
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -68,11 +73,11 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->請僅在頁面上設定 *`s.referrer`* 一次。若設定次數超過一次，且一併設定受追蹤的每個追蹤呼叫或每個連結點擊，則會使反向連結及相關維度 (例如搜尋引擎和關鍵字) 重複計算為兩次。
+>請僅在頁面上設定 *`s.referrer`* 一次。 若設定次數超過一次，且一併設定受追蹤的每個追蹤呼叫或每個連結點擊，則會使反向連結及相關維度 (例如搜尋引擎和關鍵字) 重複計算為兩次。
 
 ## 使用 getQueryParam 重新導向 {#getqueryparam}
 
-使用 [!UICONTROL getQueryParam] 雖然可讓您輕鬆在 [!DNL Analytics] 變數中填入查詢字串值，但它必須與暫存變數一起實施，才不會在查詢字串為空時覆寫合法的反向連結。使用 [!UICONTROL getQueryParam] 的最佳方式是以下列假程式碼的方法連結 [!UICONTROL getValue] 外掛程式。
+使用 [!UICONTROL getQueryParam] 雖然可讓您輕鬆在 [!DNL Analytics] 變數中填入查詢字串值，但它必須與暫存變數一起實施，才不會在查詢字串為空時覆寫合法的反向連結。 使用 [!UICONTROL getQueryParam] 的最佳方式是以下列假程式碼的方法連結 [!UICONTROL getValue] 外掛程式。
 
 ```js
 // AppMeasurement 1.x 
@@ -90,13 +95,13 @@ if(tempVar)
 
 ## 修改重新導向機制 {#modify}
 
-由於瀏覽器會移除反向連結 URL，因此您必須設定可處理重新導向的機制 (例如網站伺服器、伺服器端程式碼、用戶端程式碼)，以傳送原始反向連結資訊。如果您也想記錄別名連結 URL，則這項資訊也必須傳送至最終登陸頁面。使用&#x200B;*`s_pageURL`*&#x200B;變數覆寫目前的URL。
+由於瀏覽器會移除反向連結URL，因此您必須設定處理重新導向（例如網頁伺服器、伺服器端代碼、使用者端代碼）的機制，以傳遞原始反向連結資訊。 如果您也想要記錄別名連結URL，這也必須傳遞至最終登陸頁面。 使用&#x200B;*`s_pageURL`*&#x200B;變數覆寫目前的URL。
 
 由於有許多方式可實作重新導向，因此您應向網頁營運團隊或線上廣告合作夥伴確認，以找出您網站上執行重新導向的特定機制。
 
 ## 擷取原始反向連結 {#original}
 
-在正常情況下，[!DNL Analytics] 將會從瀏覽器的 [!UICONTROL document.referrer] 屬性取得反向連結 URL，並從 [!UICONTROL document.location] 屬性取得目前的 URL。 您可以將值傳遞至 *`referrer`* 和 *`pageURL`* 變數，藉此覆寫預設處理作業。藉由將值傳至反向連結變數，您可以指示 [!DNL Analytics] 應忽略 [!UICONTROL document.referrer] 屬性中的反向連結資訊，而使用您所定義的替代值。
+在正常情況下，[!DNL Analytics] 將會從瀏覽器的 [!UICONTROL document.referrer] 屬性取得反向連結 URL，並從 [!UICONTROL document.location] 屬性取得目前的 URL。 您可以將值傳遞至 *`referrer`* 和 *`pageURL`* 變數，藉此覆寫預設處理作業。 藉由將值傳至反向連結變數，您可以指示 [!DNL Analytics] 應忽略 [!UICONTROL document.referrer] 屬性中的反向連結資訊，而使用您所定義的替代值。
 
 因此，登陸頁面的最終版本將必須包含下列程式碼，以更正「折扣機票」情境所產生的問題。
 
@@ -117,14 +122,14 @@ s.pageURL="https://www.flytohawaii.example"
 
 執行測試，以確認正在擷取反向連結、原始 URL (*`s_server`*) 和促銷活動變數。
 
-在 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant) 中，這些變數將以下列參數的形式表示。
+在 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-tw) 中，這些變數將以下列參數的形式表示。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> <b>URL 或查詢字串值</b> </th> 
-   <th class="entry"> <b>DigitalPulse 除錯程式中顯示的值</b> </th> 
+   <th class="entry"> <b>URL或查詢字串值</b> </th> 
+   <th class="entry"> DigitalPulse Debugger中顯示的<b>值</b> </th> 
   </tr> 
  </thead>
  <tbody> 

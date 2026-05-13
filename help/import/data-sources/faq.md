@@ -4,10 +4,15 @@ description: 與資料來源相關的常見問題。
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: 430
+ht-degree: 5%
 
 ---
 
@@ -28,7 +33,7 @@ ht-degree: 3%
 +++
 
 +++透過資料來源上傳的資料是否會執行其他處理，例如處理規則？
-否。透過資料來源上傳的資料：
+否。 透過資料來源上傳的資料：
 
 * 未通過[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 * 未通過[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
@@ -36,7 +41,7 @@ ht-degree: 3%
 +++
 
 +++可以刪除使用資料來源匯入的資料嗎？
-是。您可以使用[資料修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)刪除此資料。 Adobe強烈建議先將資料來源上傳至測試報表套裝，再上傳至生產報表套裝，以免移除資料。
+是。 您可以使用[資料修復API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)刪除此資料。 Adobe強烈建議先將資料來源上傳至測試報表套裝，再上傳至生產報表套裝，以免移除資料。
 +++
 
 +++一次可匯入多少資料？
@@ -48,7 +53,7 @@ ht-degree: 3%
 +++
 
 +++副檔名是否區分大小寫？
-是。不會處理副檔名為`.TXT`或`.FIN`的檔案。 請確認副檔名全部為小寫。
+是。 不會處理副檔名為`.TXT`或`.FIN`的檔案。 請確認副檔名全部為小寫。
 +++
 
 +++我可以新增多少欄到資料來源檔案？

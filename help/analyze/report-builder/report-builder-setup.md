@@ -6,10 +6,15 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: 1e893ce94ee3da46bbf22d7a90573681950d1135
+TQID: https://experienceleague.adobe.com/a7cYk3fdAL90KUUllMaAmlhqrNPSboBmOoQ9gaPbDWg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 39%
+source-wordcount: 564
+ht-degree: 40%
 
 ---
 
@@ -58,7 +63,7 @@ ht-degree: 39%
 
 1. 搜尋「Report Builder」並按一下&#x200B;**[!UICONTROL 新增]**。
 
-1. 在[授權條款與隱私權原則]對話方塊中，按一下[繼續]。**&#x200B;**
+1. 在[授權條款與隱私權原則]對話方塊中，按一下[繼續]。****
 
 **如果未顯示「商店」索引標籤**
 
@@ -70,7 +75,7 @@ ht-degree: 39%
 
 **如果您的組織封鎖對 Microsoft Store 的存取權**
 
-- 和您的 IT 或安全小組洽詢，要求核准使用 Report Builder 增益集。取得核准後，在Office增益集對話方塊中，選取&#x200B;**[!UICONTROL 管理員管理的]**&#x200B;索引標籤。
+- 和您的 IT 或安全小組洽詢，要求核准使用 Report Builder 增益集。 取得核准後，在Office增益集對話方塊中，選取&#x200B;**[!UICONTROL 管理員管理的]**&#x200B;索引標籤。
 
   ![Office增益集對話方塊中的[管理員管理]索引標籤。](./assets/image1.png)
 
@@ -88,11 +93,11 @@ ht-degree: 39%
 
 1. 按一下 Report Builder 圖示，即可啟動 Report Builder。
 
-1. 在Adobe Report Builder工具列中，按一下&#x200B;**[!UICONTROL 登入]**。
+1. 在 Adobe Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 登入]**。
 
    ![按一下Report Builder登入按鈕。](/help/analyze/report-builder/assets/rb_login.png)
 
-1. 輸入您的 Adobe Experience ID 帳戶資訊。您的帳戶資訊應該與您的Adobe Analytics憑證相符。
+1. 輸入您的 Adobe Experience ID 帳戶資訊。 您的帳戶資訊應該與您的Adobe Analytics憑證相符。
 
    ![您的登入圖示和組織。](/help/analyze/report-builder/assets/image4.png)
 
@@ -104,7 +109,7 @@ ht-degree: 39%
 
 1. 按一下您登入時顯示的組織名稱。
 
-1. 從可用組織清單中選取一個組織。只會列出您有存取權限的組織。
+1. 從可用組織清單中選取一個組織。 只會列出您有存取權限的組織。
 
    ![您可以存取的組織清單。](/help/analyze/report-builder/assets/image5.png)
 

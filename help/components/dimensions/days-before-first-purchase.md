@@ -3,9 +3,15 @@ title: 首次購買間隔天數
 description: 訪客首次造訪與首次購買之間的天數。
 feature: Dimensions
 exl-id: 651f9d55-49b9-402a-b7c7-ba4fba62c695
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/fA8CgahXKwJfiynK-I8yuD-byaIyFPkaii3FzkrrPoI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 83%
 
 ---
@@ -18,8 +24,8 @@ ht-degree: 83%
 
 ## 將資料填入此維度中
 
-Adobe 會根據您實施作業中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。如果您在網站上實施作業 `purchase` 事件，此維度一律有效。
+Adobe 會根據您實施作業中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。 如果您在網站上實施作業 `purchase` 事件，此維度一律有效。
 
 ## 維度項目
 
-維度項目包括訪客首次造訪網站與首次購買之間的天數。每個天數都是個別的維度項目，若訪客的首次造訪與首次購買發生於同一天，則會出現「同一天」。
+維度項目包括訪客首次造訪網站與首次購買之間的天數。 每個天數都是個別的維度項目，若訪客的首次造訪與首次購買發生於同一天，則會出現「同一天」。

@@ -4,9 +4,13 @@ description: 確保每頁只引發一次特定常式。
 feature: Appmeasurement Implementation
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/7kJ-oRIsYzFeRnApFYvIigsBMb8QgeBtjCiHt8am7Nk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: 742
 ht-degree: 77%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`p_fo` 外掛程式是公用程式，可檢查特定 JavaScript 物件是否存在。如果物件不存在，外掛程式將會建立該物件並傳回 `true`。如果頁面上已存在 JavaScript 物件，則會傳回 `false`。若要在頁面上執行一次程式碼，此外掛程式很實用。其他多個外掛程式依賴此程式碼才能運作。如果您不擔心某個頁面上程式碼執行的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
+`p_fo` 外掛程式是公用程式，可檢查特定 JavaScript 物件是否存在。 如果物件不存在，外掛程式將會建立該物件並傳回 `true`。 如果頁面上已存在 JavaScript 物件，則會傳回 `false`。 若要在頁面上執行一次程式碼，此外掛程式很實用。 其他多個外掛程式依賴此程式碼才能運作。 如果您不擔心某個頁面上程式碼執行的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -64,7 +68,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -85,9 +89,9 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ### 範例 #1
 
-以下程式碼將檢查頁面中是否存在「myobject」物件。如果「myobject」物件不存在，則程式碼會建立「myobject」物件並傳回 true 值。因此，條件陳述式中的程式碼 (即 Console.log(&#39;hello&#39;);) 將會執行。
+以下程式碼將檢查頁面中是否存在「myobject」物件。  如果「myobject」物件不存在，則程式碼會建立「myobject」物件並傳回 true 值。  因此，條件陳述式中的程式碼 (即 Console.log(&#39;hello&#39;);) 將會執行。
 
-另一方面，如果 p_fo 呼叫發生時「myobject」物件已存在，p_fo 函數便會傳回 false 值，因此條件陳述式會被視為 false。在這種情況下，條件陳述式中的程式碼將不會執行。
+另一方面，如果 p_fo 呼叫發生時「myobject」物件已存在，p_fo 函數便會傳回 false 值，因此條件陳述式會被視為 false。  在這種情況下，條件陳述式中的程式碼將不會執行。
 
 ```js
 if(p_fo("myobject"))

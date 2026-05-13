@@ -4,10 +4,15 @@ description: 將值附加至支援多個值的變數。
 feature: Appmeasurement Implementation
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/6WIccys5OCj1QCxELr-6L4h-Qs-gzV-LfirCaoHADW0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 90%
+source-wordcount: 718
+ht-degree: 89%
 
 ---
 
@@ -18,10 +23,10 @@ ht-degree: 90%
 `apl` 外掛程式可讓您安全地將新值新增至以清單分隔的變數，如 [`events`](../page-vars/events/events-overview.md)、[`linkTrackVars`](../config-vars/linktrackvars.md)、[`list`](../page-vars/list.md) 等。
 
 * 如果您要新增的值不存在於變數中，程式碼會將值新增至字串的結尾。
-* 如果您要新增的值已存在於變數中，此外掛程式不會變更值。此功能可讓您的實施避免重複值。
+* 如果您要新增的值已存在於變數中，此外掛程式不會變更值。 此功能可讓您的實施避免重複值。
 * 如果您要新增值的目的地變數為空，外掛程式會將變數設為新值。
 
-如果您想要將新值新增至現有變數，而且該變數包含由分隔值組成的字串，Adobe 建議您使用此外掛程式。如果您偏好將包含分隔值之變數的字串串連起來，則不需要使用此外掛程式。
+如果您想要將新值新增至現有變數，而且該變數包含由分隔值組成的字串，Adobe 建議您使用此外掛程式。 如果您偏好將包含分隔值之變數的字串串連起來，則不需要使用此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -56,7 +61,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -71,9 +76,9 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 * **`lv`** (必要，字串)：為變數，其中包含要新增新值的目的地項目分隔清單
 * **`vta`** (必要，字串)：為逗號分隔的新值清單，可新增至 `lv` 引數的值。
-* **`d1`** (可選，字串)：用來分隔各個值的分隔字元已包含在 `lv` 引數中。若未設定，則預設為逗號 (`,`)。
-* **`d2`** (可選，字串)：輸出分隔字元。若未設定，預設值與 `d1` 相同。
-* **`cc`** (可選，布林)：指出是否使用區分大小寫檢查的標幟。如果是 `true`，複製檢查會區分大小寫。如果是 `false` 或未設定，複製檢查將不區分大小寫。預設為 `false`。
+* **`d1`** (可選，字串)：用來分隔各個值的分隔字元已包含在 `lv` 引數中。  若未設定，則預設為逗號 (`,`)。
+* **`d2`** (可選，字串)：輸出分隔字元。 若未設定，預設值與 `d1` 相同。
+* **`cc`** (可選，布林)：指出是否使用區分大小寫檢查的標幟。 如果是 `true`，複製檢查會區分大小寫。 如果是 `false` 或未設定，複製檢查將不區分大小寫。 預設為 `false`。
 
 `apl` 函數會傳回 `lv` 引數的值，再加上 `vta` 引數中任何非重複的值。
 

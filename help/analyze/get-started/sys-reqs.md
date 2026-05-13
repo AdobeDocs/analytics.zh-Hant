@@ -3,9 +3,13 @@ title: Adobe Analytics 系統需求
 description: 使用 Adobe Analytics 的系統需求。
 feature: Workspace Basics
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/g1vx8w5-xediBUnktEPyZyV6iBFHd-thXhbuBdSYBYw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: 193
 ht-degree: 100%
 
 ---
@@ -20,19 +24,19 @@ ht-degree: 100%
 
 * 有效的 Adobe Analytics 授權
 
-  Adobe Analytics 需要網站授權。如需詳細資訊，請聯絡您的 Adobe 客戶代表。
+  Adobe Analytics 需要網站授權。 如需詳細資訊，請聯絡您的 Adobe 客戶代表。
 
 * 支援的瀏覽器
 
-  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](/help/analyze/get-started/sys-reqs.md)。
+  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。 如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](/help/analyze/get-started/sys-reqs.md)。
 
 ## 系統需求
 
-大多數 Adobe Analytics 解決方案都在瀏覽器中執行。以下資訊會提供瀏覽器和用戶端解決方案的系統需求。
+大多數 Adobe Analytics 解決方案都在瀏覽器中執行。 以下資訊會提供瀏覽器和用戶端解決方案的系統需求。
 
 ### 瀏覽器解決方案的系統需求
 
-大部分的 Adobe Analytics 解決方案 (包括 Analysis Workspace) 都是以瀏覽器為基礎。因此，要使用 Adobe Analytics，最重要的需求就是要有新型的網頁瀏覽器。Adobe 支援以下最新穩定版的瀏覽器：
+大部分的 Adobe Analytics 解決方案 (包括 Analysis Workspace) 都是以瀏覽器為基礎。 因此，要使用 Adobe Analytics，最重要的需求就是要有新型的網頁瀏覽器。 Adobe 支援以下最新穩定版的瀏覽器：
 
 * Microsoft Edge
 * Google Chrome

@@ -4,16 +4,22 @@ description: 將程式碼貼在您的網站上以引入新功能。
 feature: Appmeasurement Implementation
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ImzoBRU0DajPc99vRlu1698CteFNk9dOS2OZrN9DBZs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: 328
 ht-degree: 96%
 
 ---
 
 # 外掛程式概觀
 
-外掛程式是程式碼的片段，可執行數種進階功能，協助您實施 Analytics。這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實施中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。
+外掛程式是程式碼的片段，可執行數種進階功能，協助您實施 Analytics。 這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實施中無法使用的功能。 Adobe 在進階解決方案中另外提供了許多外掛程式。
 
 {{plug-in}}
 
@@ -23,7 +29,7 @@ Adobe 提供多種安裝指定外掛程式的方式：
 * 使用自訂程式碼編輯器貼上外掛程式的程式碼
 * 將外掛程式的程式碼貼入您的 `AppMeasurement.js` 檔案中
 
-每個組織的實施需求均不同，您可以決定要如何將外掛程式納入實施中。在網站上加入程式碼時，請務必符合下列條件：
+每個組織的實施需求均不同，您可以決定要如何將外掛程式納入實施中。 在網站上加入程式碼時，請務必符合下列條件：
 
 1. 第一步為實例化 Analytics 追蹤物件 (使用 [`s_gi`](../functions/s-gi.md))。
    * 當 Adobe Analytics 載入時，您已啟用標記功能的網站會自動將追蹤物件實體化。
@@ -36,4 +42,4 @@ Adobe 提供多種安裝指定外掛程式的方式：
    * 已啟用標記功能的網站內外的所有實作都會使用 JavaScript 來呼叫外掛程式。 請使用該外掛程式頁面上記錄的格式呼叫外掛程式。
 4. 驗證您的實施並發佈。
 
-許多組織都使用 [`doPlugins`](../functions/doplugins.md) 函數呼叫外掛程式。雖然此函數並非必要項目，但 Adobe 認為使用此函數是最佳做法。AppMeasurement 會在編譯和傳送影像要求之前呼叫此函數，這是最理想的作法，因為有多個外掛程式相依於其他 Analytics 變數。
+許多組織都使用 [`doPlugins`](../functions/doplugins.md) 函數呼叫外掛程式。 雖然此函數並非必要項目，但 Adobe 認為使用此函數是最佳做法。 AppMeasurement 會在編譯和傳送影像要求之前呼叫此函數，這是最理想的作法，因為有多個外掛程式相依於其他 Analytics 變數。

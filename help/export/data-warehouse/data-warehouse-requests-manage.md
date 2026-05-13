@@ -4,9 +4,13 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: 1150
 ht-degree: 4%
 
 ---
@@ -19,7 +23,7 @@ ht-degree: 4%
 
 ## 檢視請求
 
-依預設，您只能檢視您建立的請求，除非使用者已選擇讓組織中的其他人看到他們的請求(如[Data Warehouse請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述)。 系統管理員可以檢視所有要求。
+依預設，您只能檢視您建立的請求，除非使用者已選擇讓組織中的其他人看到他們的請求（如[Data Warehouse請求一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)中所述）。 系統管理員可以檢視所有要求。
 
 若要檢視Data Warehouse請求：
 
@@ -89,7 +93,7 @@ ht-degree: 4%
    | [!UICONTROL **開始日期**] | 報表開始的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **完成日期**] | 報表完成的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **日期已更新**] | 報表的上次更新日期與時間。<p>這會以起始請求之使用者的時區顯示。</p> |
-   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報告已建立，但尚未處理。</li><li>[!UICONTROL **擱置中**]：報告正在等待處理。</li><li>[!UICONTROL **正在處理**]：報告目前正在處理。</li><li>[!UICONTROL **已完成**]：報告已完成，現在可以使用。</li><li>[!UICONTROL **已排程**]：報告已排程，但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：]報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生，但無法傳送。 檢查目的地[的](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)設定，然後重新傳送報告。</li></ul>。 |
+   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報告已建立，但尚未處理。</li><li>[!UICONTROL **擱置中**]：報告正在等待處理。</li><li>[!UICONTROL **正在處理**]：報告目前正在處理。</li><li>[!UICONTROL **已完成**]：報告已完成，現在可以使用。</li><li>[!UICONTROL **已排程**]：報告已排程，但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：]報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生，但無法傳送。 檢查目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)的[設定，然後重新傳送報告。</li></ul>。 |
    | [!UICONTROL **從**] | 報表中包含之整體時間範圍的開始日期。<p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **結束日期**] | 報表中包含之整體時間範圍的結束日期。 <p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **舊版要求識別碼**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
@@ -105,7 +109,7 @@ ht-degree: 4%
    | [!UICONTROL **重新執行報告**] | 使用原始傳送時的資料再次執行報表。 您可以重新執行具有以下任何狀態的報表： [!UICONTROL **已取消**]、[!UICONTROL **已完成**]、[!UICONTROL **錯誤 — 正在處理**]，或&#x200B;[!UICONTROL **錯誤 — 無法傳送**]。 |
    | [!UICONTROL **重新傳送報告**] | 重新傳送先前產生的報告檔案。 您可以重新傳送具有以下任何狀態的報表： [!UICONTROL **已完成**]&#x200B;或&#x200B;[!UICONTROL **錯誤 — 無法傳送**]。 |
 
-## 複製請求 
+## 複製請求
 
 當您複製請求時，所有設定選項都會從原始請求複製。
 

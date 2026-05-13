@@ -4,18 +4,22 @@ description: 可讓您自訂用來辨識動態變數的字串。
 feature: Appmeasurement Implementation
 exl-id: fe208723-0cf2-4899-be7a-8f23c6501c11
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/4NlOgI1maQuMHenSZHUnc7ESvlbst09v4CmOMlBbfEE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 70%
+source-wordcount: 279
+ht-degree: 71%
 
 ---
 
 # dynamicVariablePrefix
 
-動態變數是一種速記概念，可讓您將某個變數的值複製到另一個變數。它們有助於縮短影像要求的 URL 長度，因此對於較長的變數值非常有用。如需此概念的詳細資訊，請參閱[動態變數](../page-vars/dynamic-variables.md)。
+動態變數是一種速記概念，可讓您將某個變數的值複製到另一個變數。 它們有助於縮短影像要求的 URL 長度，因此對於較長的變數值非常有用。 如需此概念的詳細資訊，請參閱[動態變數](../page-vars/dynamic-variables.md)。
 
-依預設，動態變數會使用 `D=` 首碼。`dynamicVariablePrefix` 變數可讓您自訂用來辨識動態變數的字串。它會區分大小寫。
+依預設，動態變數會使用 `D=` 首碼。 `dynamicVariablePrefix` 變數可讓您自訂用來辨識動態變數的字串。 它會區分大小寫。
 
 ## 使用網頁SDK的動態變數首碼
 
@@ -31,14 +35,14 @@ ht-degree: 70%
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 「全域變數」]摺疊式功能表，如此可顯示[!UICONTROL 「動態變數首碼」]欄位。
 
-依預設，此欄位包含 `D=`。如果您想使用不同的動態變數首碼，可以變更值。只要值與網站上的字元編碼相符，您就可以使用任何想要的值。
+依預設，此欄位包含 `D=`。 如果您想使用不同的動態變數首碼，可以變更值。 只要值與網站上的字元編碼相符，您就可以使用任何想要的值。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.dynamicVariablePrefix
 
-`s.dynamicVariablePrefix` 變數是可包含任何字元順序的字串。如果此變數未定義，AppMeasurement 預設會使用 `D=` 字串。
+`s.dynamicVariablePrefix` 變數是可包含任何字元順序的字串。 如果此變數未定義，AppMeasurement 預設會使用 `D=` 字串。
 
 ```js
 // An example that changes the dynamic variable prefix

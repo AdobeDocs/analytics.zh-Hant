@@ -1,16 +1,21 @@
 ---
 description: 瞭解如何對個別量度進行分段，以便讓您在同一視覺效果中進行量度比較。
-title: 分段量度
+title: 區段量度
 feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/t1HtjinGP02YSBQk1Z95t6wIQ0OhuFb14GKfpd8Y9Eg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: 463
 ht-degree: 1%
 
 ---
 
-# 分段量度
+# 區段量度
 
 在[計算量度產生器](cm-build-metrics.md#definition-builder)中，您可以在量度定義中套用區段。 如果您想要在分析中將量度用於資料的子集，套用區段會很有幫助。
 
@@ -29,8 +34,8 @@ ht-degree: 1%
 
 ## 受歡迎頁面
 
-1. [從名為](../cm-workflow.md)的Workspace專案建立計算量度`Germany`。
-1. 從[計算量度產生器](cm-build-metrics.md)中，[使用「國家/地區」欄位，建立標題為](/help/components/segmentation/segmentation-workflow/seg-build.md)的區段`Germany`。
+1. [從名為`Germany`的Workspace專案建立計算量度](../cm-workflow.md)。
+1. 從[計算量度產生器](cm-build-metrics.md)中，[使用「國家/地區」欄位，建立標題為`Germany`的區段](/help/components/segmentation/segmentation-workflow/seg-build.md)。
 
    >[!TIP]
    >

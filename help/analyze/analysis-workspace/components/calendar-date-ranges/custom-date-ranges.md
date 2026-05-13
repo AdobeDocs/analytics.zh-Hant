@@ -5,9 +5,14 @@ title: 自訂日期範圍的範例
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/aE8L1czTiBKQG3MR-9aCxkBgO2qLp17K-n7Qmnjj-YM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: 118
 ht-degree: 100%
 
 ---
@@ -20,9 +25,9 @@ ht-degree: 100%
 
 ## 兩個月前
 
-+++ 詳細內容
++++ 詳細資料
 
-您想要使用一個自訂日期範圍來定義前兩個月。您使用其中一個預設集。
+您想要使用一個自訂日期範圍來定義前兩個月。 您使用其中一個預設集。
 
 ![過去的前兩個月](assets/date-range-example-simple.png)
 
@@ -31,9 +36,9 @@ ht-degree: 100%
 
 ## 滾動計算至上週結束
 
-+++ 詳細內容
++++ 詳細資料
 
-您想要使用一個日期範圍，定義從一週前的今天，直到那一週結束之間的時段。例如，若現在是 2024 年 9 月 11 日星期三。您想要的日期範圍是從 2024 年 9 月 4 日星期三，直到 2024 年 9 月 7 日星期六。
+您想要使用一個日期範圍，定義從一週前的今天，直到那一週結束之間的時段。 例如，若現在是 2024 年 9 月 11 日星期三。 您想要的日期範圍是從 2024 年 9 月 4 日星期三，直到 2024 年 9 月 7 日星期六。
 
 ![日期範圍範例](assets/date-range-example.png)
 

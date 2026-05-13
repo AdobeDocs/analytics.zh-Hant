@@ -4,10 +4,14 @@ title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: 585
+ht-degree: 52%
 
 ---
 
@@ -15,9 +19,9 @@ ht-degree: 50%
 
 本節內容將解釋[歐盟 Cookie 合規性法規](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies) (已於 2017 年 9 月 30 日生效) 推動之伺服器端轉送的增強功能。
 
-伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。啟用伺服器端轉送功能後，也可在資料收集過程中讓 Analytics 推送資料到其他 Experience Cloud 解決方案，並讓這些解決方案推送資料到 Analytics。
+伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。 啟用伺服器端轉送功能後，也可在資料收集過程中讓 Analytics 推送資料到其他 Experience Cloud 解決方案，並讓這些解決方案推送資料到 Analytics。
 
-在過去，伺服器端轉送無法區分同意與預先同意的事件/點擊。 自2018年11月1日起，您做為資料控管單位(Adobe Analytics客戶)可以選擇將預先許可的資料限制在Adobe Analytics，並防止其轉送至Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 變數一經設定，在收到同意之前不會將這些點選傳送至Adobe Audience Manager。
+在過去，伺服器端轉送無法區分同意與預先同意的事件/點擊。 自2018年11月1日起，您做為資料控管單位（Adobe Analytics客戶）可以選擇將預先許可的資料限制在Adobe Analytics，並防止其轉送至Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 Adobe Audience Manager。
 
 這個新的內容變數`cm.ssf=1`存在於點選時，系統會標籤該點選，且不會將其從伺服器端轉送至Adobe Audience Manager。 相反地，如果此字串未出現在點選上，則點選會轉送至Adobe Audience Manager。
 

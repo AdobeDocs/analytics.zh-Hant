@@ -4,10 +4,15 @@ keywords: 虛擬報告套裝
 title: 建立虛擬報告套裝
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 57%
+source-wordcount: 697
+ht-degree: 48%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 57%
 開始建立虛擬報告套裝前，請謹記以下一些注意事項。
 
 * 非管理員使用者看不到「虛擬報表套裝」管理員。
-* 虛擬報告套裝無法共用。「共用」透過群組/許可權完成。
+* 虛擬報告套裝無法共用。 「共用」透過群組/許可權完成。
 * 在虛擬報表套裝管理員中，您只看得到您自己的虛擬報表套裝。 必須按一下「全部顯示」才能查看其他人的虛擬報告套裝。
 
 1. 導覽至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**。
@@ -33,9 +38,9 @@ ht-degree: 57%
 | 名稱 | 虛擬報告套裝的名稱不會繼承自父報告套裝，且應為不同的名稱。 |
 | 說明 | 新增良好的說明，讓您的業務使用者獲益。 |
 | 標記 | 您可新增標記來組織報告套裝。 |
-| 來源 | 此虛擬報套裝會繼承報告套裝的以下設定。大部分的服務層級和功能(例如eVar設定、處理規則、分類等)都是繼承的。 若要在虛擬報表套裝上變更這些繼承設定，您必須編輯父報表套裝（「管理員>報表套裝」）。 |
-| 時區 | 選擇時區是選用的。如果您選擇時區，則會與虛擬報表套裝一併儲存。 如果您沒有選擇時區，則系統會使用父報告套裝的時區。編輯虛擬報表套裝時，與虛擬報表套裝一併儲存的時區會顯示在下拉式選取器中。 如果虛擬報表套裝是在新增時區支援之前建立，則父報表套裝的時區會顯示在下拉式選取器中。 |
-| 區段 | 您可以只新增一個區段，也可以堆疊區段。注意：將兩個區段堆疊在一起時，會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。如果嘗試刪除或修改虛擬報告套裝目前使用中的區段，便會出現警告。 |
+| 來源 | 此虛擬報套裝會繼承報告套裝的以下設定。 大部分的服務層級和功能（例如eVar設定、處理規則、分類等）都是繼承的。 若要在虛擬報表套裝上變更這些繼承設定，您必須編輯父報表套裝（「管理員>報表套裝」）。 |
+| 時區 | 選擇時區是選用的。 如果您選擇時區，則會與虛擬報表套裝一併儲存。 如果您沒有選擇時區，則系統會使用父報告套裝的時區。  編輯虛擬報表套裝時，與虛擬報表套裝一併儲存的時區會顯示在下拉式選取器中。 如果虛擬報表套裝是在新增時區支援之前建立，則父報表套裝的時區會顯示在下拉式選取器中。 |
+| 區段 | 您可以只新增一個區段，也可以堆疊區段。   注意：將兩個區段堆疊在一起時，會使用 AND 陳述式加以連結。 無法變更為 OR 陳述式。 如果嘗試刪除或修改虛擬報告套裝目前使用中的區段，便會出現警告。 |
 
 ## 定義造訪定義
 
@@ -46,19 +51,19 @@ ht-degree: 57%
 
 >[!BEGINSHADEBOX]
 
-檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
+檢視![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [調整示範視訊的造訪定義](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 | 元素 | 說明 |
 | --- |--- |
 | **設定造訪定義** |  |
-| 啟用報表時間處理功能 | 使用報表時間處理功能，以變更預設造訪逾時長度。這些設定不具破壞性，只會套用至 Analysis Workspace。[了解更多](/help/components/vrs/vrs-report-time-processing.md) |
-| 造訪逾時 | 定義自動開始新的造訪之前，不重複訪客需達到的閒置時間。這會影響造訪量度、造訪區段容器，以及在造訪時過期的 eVar。 |
+| 啟用報表時間處理功能 | 使用報表時間處理功能，變更預設造訪逾時長度。 這些設定不具破壞性，只會套用至Analysis Workspace。 [了解更多](/help/components/vrs/vrs-report-time-processing.md) |
+| 造訪逾時 | 定義自動開始新造訪前，不重複訪客必須達到的閒置時間。 這將會影響瀏覽量度、瀏覽區段容器，以及在瀏覽時過期的eVar。 |
 | 因事件而開始新的造訪 | 不論工作階段是否逾期，只要觸發了指定事件，就會作為新的工作階段開始。 |
 | **行動應用程式造訪設定** | 修改Adobe行動SDK收集之行動應用程式點選的造訪次數定義方式。 這些設定不具破壞性，只會套用至Analysis Workspace。 |
 | 避免將背景點擊動作計為新的造訪 | 避免將背景點擊動作計為新的造訪，以及避免造訪次數和不重複訪客量度誇大不實。 |
-| 每次應用程式啟動時，即開始新的造訪 | 應用程式啟動後，便開始新的工作階段。[了解更多](/help/components/vrs/vrs-mobile-visit-processing.md) |
+| 每次應用程式啟動時，即開始新的造訪 | 應用程式啟動後，便開始新的工作階段。 [了解更多](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## 包含和重新命名元件
 

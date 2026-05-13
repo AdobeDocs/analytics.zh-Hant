@@ -4,10 +4,15 @@ description: 用來透過HTTP將資料傳送至Adobe的網域。
 feature: Appmeasurement Implementation
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
 role: Admin, Developer
-source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
+TQID: https://experienceleague.adobe.com/6H8uZ4J-mT8NcC4OiiTgtBnP8eAgaMMzxzUHkS-9kGs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 13%
+source-wordcount: 120
+ht-degree: 19%
 
 ---
 
@@ -19,6 +24,6 @@ ht-degree: 13%
 
 `trackingServer`變數決定了AppMeasurement用來透過HTTP將資料傳送至Adobe的網域。 如果此變數未正確定義，您的實作可能會遭遇資料遺失。
 
-在[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/home)之前，此變數也會決定協力廠商Cookie的設定位置。 Adobe強烈建議儘可能在所有實施中使用ID服務。
+在[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)之前，此變數也會決定協力廠商Cookie的設定位置。 Adobe強烈建議儘可能在所有實施中使用ID服務。
 
-如果未設定`trackingServer`，AppMeasurement會使用[`trackingServerSecure`](trackingserversecure.md)作為遞補。 許多較舊實作未設定`trackingServerSecure`，使用`trackingServer`作為安全頁面的遞補內容。 由於HTTPS非常普遍，Adobe建議儘可能使用`trackingServerSecure`。
+如果未設定[`trackingServerSecure`](trackingserversecure.md)，AppMeasurement會使用`trackingServer`作為遞補。 許多較舊實作未設定`trackingServerSecure`，使用`trackingServer`作為安全頁面的遞補內容。 由於HTTPS非常普遍，Adobe建議儘可能使用`trackingServerSecure`。

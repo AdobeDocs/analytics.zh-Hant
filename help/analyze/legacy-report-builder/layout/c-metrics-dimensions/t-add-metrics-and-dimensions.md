@@ -5,14 +5,18 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/nKf59WLxvtYrcyR-mQ8oM41rUDLl3qpkwbujRDBV27A
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 38%
+source-wordcount: 585
+ht-degree: 15%
 
 ---
 
-# 新增度量和維度
+# 新增量度和維度
 
 {{legacy-arb}}
 
@@ -23,11 +27,11 @@ ht-degree: 38%
 
    ![顯示「請求精靈」的熒幕擷圖：步驟2，其箭頭從量度清單指向所需的頁面檢視區段。](assets/adding_metrics.png)
 
-   由於您可以在請求中顯示度量多次，因此在新增度量時，系統不會移除「[!UICONTROL 度量]」索引標籤中的度量。例如，您可以顯示小計度量以指出每個值相加的結果。然而，可用度量的清單會在您每次新增或移除維度時改變。
+   新增量度時，這些量度不會從[!UICONTROL 量度]標籤中移除，因為您可以在請求中顯示多次量度。 例如，除了每個值外，您還可以顯示量度小計。 不過，每次新增或移除維度時，可用量度的清單就會變更。
 
-   您只能將度量新增至「[!UICONTROL 度量]」配置區段。會在「[!UICONTROL 欄標籤]」配置中新增度量為「[!UICONTROL 度量標題]」。如果您將「[!UICONTROL 度量標題]」從「[!UICONTROL 欄配置]」移動到「[!UICONTROL 列配置]」，度量標題會顯示在該處，並作為劃分度量使用。
+   您只能將量度新增至[!UICONTROL 量度]配置區段。 已將量度新增至[!UICONTROL 欄標籤]配置，做為[!UICONTROL 量度標頭]。 如果您將「[!UICONTROL 度量標題]」從「[!UICONTROL 欄配置]」移動到「[!UICONTROL 列配置]」，度量標題會顯示在該處，並作為劃分度量使用。
 
-   請注意，搜尋列會顯示在「度量」標籤上，位在「度量」清單正上方。
+   請注意，搜尋列會顯示在「量度」標籤上，「量度」清單的正上方。
 
    ![熒幕擷圖顯示量度搜尋列。](assets/search_bar_metric.png)
 
@@ -37,7 +41,7 @@ ht-degree: 38%
 
 * 當您輸入搜尋詞時，清單會自動更新，以顯示標籤與搜尋詞相符的量度。
 * 相符專案不區分大小寫，並等同於&#x200B;*包含*&#x200B;搜尋。
-* 不支援全字搜尋和其他特殊搜尋標幟（開頭為、結尾為、AND或OR等）。
+* 全字搜尋和其他特殊搜尋旗標（開頭為、結尾為、AND或OR等） 不受支援。
 
 如果您在按一下[!UICONTROL 完成]或[!UICONTROL 取消]後結束「請求精靈」，或返回「請求精靈步驟1」或變更「量度類別」，搜尋字詞就會被清除。
 
@@ -46,13 +50,13 @@ ht-degree: 38%
 * 當您從清單中拖放（或按兩下）量度專案，以便將其新增至「樞紐配置/自訂配置量度」面板時。
 * 當您從「樞紐配置/自訂配置」量度面板中移除量度專案時。
 * 按一下Dimension標籤，然後返回「量度」標籤。
-* 當您叫用其他子表單（模組或無模式）時，這些表單在退出時會返回至「請求精靈：步驟2」。 這些表單範例包括
+* 當您叫用其他子表單（模組或無模式）時，這些表單在退出時會返回至「請求精靈：步驟2」。 這些表單的範例包括
 
-   * 維度篩選表單
-   * 日期範圍格式化表單
+   * Dimension篩選器Forms
+   * 日期範圍格式Forms
    * 格式選項表單
-   * 附加於開頭-結尾文字表單
-   * 輸入範圍位置表單
+   * 前置後置文字表單
+   * 輸出範圍位置表單
 
 ## 依量度排序請求
 
@@ -65,16 +69,17 @@ ht-degree: 38%
 
    在[!UICONTROL 維度]索引標籤上，系統會顯示劃分維度，或您於[!UICONTROL 請求精靈：步驟1]以及報表套裝設定上選取之任何基礎報表的分類。 將維度拖放到版面格點時，它會從樹狀檢視中移除，並重新計算剩餘可用維度的清單。
 
-   系統會自動新增[!UICONTROL 「日期」]維度。可用的日期維度會隨著在[!UICONTROL 「請求精靈: 步驟 1」]中選擇的粒度而改變。有效值為：
+   系統會自動新增[!UICONTROL 「日期」]維度。 可用的日期維度會隨著在[!UICONTROL 「請求精靈: 步驟 1」]中選擇的顆粒度而改變。 有效值為：
 
    * 小時
    * 日
    * 週
    * 月
    * 年
-   * 日期範圍 (未指定詳細程度時)
+   * 日期範圍（未指定粒度時）
 
 1. 設定[格式選項](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md)和篩選器，修改量度和維度。
-1. 按一下&#x200B;**[!UICONTROL 完成]**。在以下範例中，維度與[!UICONTROL 「頁面」]度量相關。[!UICONTROL 反向連結網域]維度會建立介於[!UICONTROL 頁面]和[!UICONTROL 反向連結網域]之間的劃分報表。 只會針對您可以新增至劃分報表的維度更新[!UICONTROL 「維度」]索引標籤。
+1. 按一下&#x200B;**[!UICONTROL 完成]**。
+在以下範例中，維度與[!UICONTROL 「頁面」]度量相關。 [!UICONTROL 反向連結網域]維度會建立介於[!UICONTROL 頁面]和[!UICONTROL 反向連結網域]之間的劃分報表。 [!UICONTROL Dimension]索引標籤已更新，其中僅包含您可新增至劃分報表的維度。
 
    ![熒幕擷圖顯示與量度相關的維度。](assets/page_pageview_02.png)

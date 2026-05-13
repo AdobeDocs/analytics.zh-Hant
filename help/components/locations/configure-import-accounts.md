@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: 設定雲端匯入及匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
+TQID: https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 66%
+source-wordcount: 1763
+ht-degree: 69%
 
 ---
 
@@ -56,14 +61,14 @@ ht-degree: 66%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。建立位置時會出現此名稱 |
+   | [!UICONTROL **位置帳戶名稱**] | 位置帳戶的名稱。 建立位置時會出現此名稱 |
    | [!UICONTROL **位置帳戶說明**] | 提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。 |
    | [!UICONTROL **將帳戶設為可供您組織中的所有使用者使用**] | 啟用此選項，讓您組織中的其他使用者可以使用該帳戶。<p>共用帳戶時，請考量以下事項：</p><ul><li>您共用的帳戶無法取消共用。</li><li>共用的帳戶僅能由帳戶所有者進行編輯。</li><li>任何人都可以為共用的帳戶建立位置。</li></ul> |
-   | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶類型。我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可建立的帳戶類型，如[設定是否允許使用者建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。如果您無法依照本節所述建立帳戶，請聯絡您的系統管理員。</p> |
+   | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶類型。 我們建議為每種帳戶類型設定一個帳戶，並根據需要在該帳戶內設定多個位置。<p>系統管理員可以限制使用者可建立的帳戶類型，如[設定是否允許使用者建立帳戶](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts)中所述。 如果您無法依照本節所述建立帳戶，請聯絡您的系統管理員。</p> |
 
 1. 在&#x200B;[!UICONTROL **「帳戶屬性」**]&#x200B;區段中，指定您所選取帳戶類型的專屬資訊。
 
-   如需設定指示，請展開下方與您所選取之&#x200B;[!UICONTROL **帳戶類型**]&#x200B;相對應的區段。(另外也提供其他舊帳戶類型，但不建議使用)。
+   如需設定指示，請展開下方與您所選取之&#x200B;[!UICONTROL **帳戶類型**]&#x200B;相對應的區段。 (另外也提供其他舊帳戶類型，但不建議使用)。
 
    **帳戶類型**
 
@@ -75,7 +80,7 @@ ht-degree: 66%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **角色 ARN**] | 您必須提供角色 ARN (Amazon 資源名稱)，以便 Adobe 可以使用該角色來取得 Amazon S3 帳戶的存取權。為此，您需要為來源帳戶建立 IAM 權限原則，將該原則附加給使用者，然後為目標帳戶建立角色。有關特定資訊，請參閱「[此 AWS 文件](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)」。 |
+   | [!UICONTROL **角色 ARN**] | 您必須提供角色 ARN (Amazon 資源名稱)，以便 Adobe 可以使用該角色來取得 Amazon S3 帳戶的存取權。 為此，您需要為來源帳戶建立 IAM 權限原則，將該原則附加給使用者，然後為目標帳戶建立角色。 有關特定資訊，請參閱「[此 AWS 文件](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/)」。 |
 
    {style="table-layout:auto"}
 
@@ -87,7 +92,7 @@ ht-degree: 66%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **專案 ID**] | 您的 Google Cloud 專案 ID。請參閱「[Google Cloud 文件關於如何取得專案 ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects)」。 |
+   | [!UICONTROL **專案 ID**] | 您的 Google Cloud 專案 ID。 請參閱「[Google Cloud 文件關於如何取得專案 ID](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects)」。 |
 
    {style="table-layout:auto"}
 
@@ -99,11 +104,11 @@ ht-degree: 66%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
-   | [!UICONTROL **金鑰保存庫祕密名稱**] | 在將祕密值新增至 Azure Key Vault 時所建立的祕密名稱。在 Microsoft Azure 中，這項資訊位於您所建立的 Key Vault 內，位在&#x200B;**「Key Vault」**&#x200B;設定頁面若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
-   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。  若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。 若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+   | [!UICONTROL **金鑰保存庫祕密名稱**] | 在將祕密值新增至 Azure Key Vault 時所建立的祕密名稱。 在 Microsoft Azure 中，這項資訊位於您所建立的 Key Vault 內，位在&#x200B;**「Key Vault」**&#x200B;設定頁面 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -115,9 +120,9 @@ ht-degree: 66%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -133,7 +138,7 @@ ht-degree: 66%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **收件者**] | 傳送報告時可以向特定使用者傳送電子郵件通知。指定單一電子郵件地址或逗號分隔的電子郵件地址清單。 |
+   | [!UICONTROL **收件者**] | 傳送報告時可以向特定使用者傳送電子郵件通知。 指定單一電子郵件地址或逗號分隔的電子郵件地址清單。 |
 
    {style="table-layout:auto"}
 
@@ -150,7 +155,7 @@ ht-degree: 66%
    >不應使用FTP，因為資料是以純文字流經網際網路。
 
 
-   資料摘要的資料可以傳送至 Adobe 或客戶託管的 FTP 位置。需要FTP主機、使用者名稱和密碼。
+   資料摘要的資料可以傳送至 Adobe 或客戶託管的 FTP 位置。 FTP 主機、使用者名稱和密碼為必填。
 
    | 欄位 | 函數 |
    |---------|----------|
@@ -165,7 +170,7 @@ ht-degree: 66%
 
    +++SFTP
 
-   SFTP 可支援資料摘要。這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或ed25519公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
+   SFTP 可支援資料摘要。 這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或ed25519公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
 
    下載資料摘要的RSA或ed25519公開金鑰時，請執行下列其中一項操作：
 
@@ -178,7 +183,7 @@ ht-degree: 66%
 
    +++S3
 
-   您可以直接傳送倉儲資料至 Amazon S3 貯體。此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
+   您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
 
    您提供來上傳 Data Warehouse 資料的使用者必須具備以下[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 
@@ -213,11 +218,11 @@ ht-degree: 66%
 
    +++Azure Blob
 
-   Data Warehouse支援Azure Blob目的地。 容器、帳戶和金鑰為必填。Amazon 會自動加密閒置的資料。下載資料時，則會自動解密。如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+   Data Warehouse支援Azure Blob目的地。 容器、帳戶和金鑰為必填。 Amazon 會自動加密閒置的資料。 下載資料時，則會自動解密。 如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
 
    >[!NOTE]
    >
-   >您必須實作自己的處理程序，才能管理 Data Warehouse 目標的磁碟空間。Adobe 不會從伺服器刪除任何資料。
+   >您必須實作自己的處理程序，才能管理 Data Warehouse 目標的磁碟空間。 Adobe 不會從伺服器刪除任何資料。
 
    +++
 

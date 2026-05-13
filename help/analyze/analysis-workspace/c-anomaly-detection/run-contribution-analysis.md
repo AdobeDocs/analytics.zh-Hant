@@ -4,16 +4,22 @@ title: 執行貢獻分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/gRnQxBkxEqtDdZ-zbgeg4Oe0MweTmqKwtThl3NYPpgs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 14%
+source-wordcount: 554
+ht-degree: 9%
 
 ---
 
 # 執行貢獻分析
 
-[「貢獻分析」是密集型機器學習程序，專門設計來找出 Adobe Analytics 中所觀察到異常值的貢獻者。](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)目的是要協助使用者比以往更快找出重點區域或機會以便進行其他分析。
+[「貢獻分析」是密集型機器學習程序，專門設計來找出 Adobe Analytics 中所觀察到異常值的貢獻者。](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) 目的是要協助使用者比以往更快找出重點區域或機會以便進行其他分析。
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ ht-degree: 14%
 
 ## 排除維度
 
-您可能會想要從「貢獻分析」中排除一些維度。 例如，您可能不在意任何與瀏覽器或硬體相關的維度，因此希望藉由移除這些項目來加快分析速度。
+您可能會想要從「貢獻分析」中排除一些維度。 例如，您可能根本不在乎任何瀏覽器或硬體相關維度，而您想透過移除這些維度來加快分析速度。
 
 若要管理排除的維度：
 

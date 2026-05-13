@@ -3,9 +3,14 @@ title: 將受事件影響的日期與先前的範圍比較
 description: 將事件與先前的趨勢進行比較，以瞭解事件的影響，例如實施問題或中斷。
 exl-id: 5e4ac1db-2740-4ec1-9d6a-5aa2005fadfd
 feature: Curate and Share
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/g9-IhtHCTJQ0C7wF-FxwHkYuH7QnOLtEvH20JwBz0lE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: 627
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 1. 導覽至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 日期範圍]**。
 2. 按一下「**[!UICONTROL 新增]**」。
-3. 選取事件發生時的日期範圍。 按一下「**[!UICONTROL 儲存]**」。
+3. 選取事件發生時的日期範圍。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    ![日期範圍產生器](assets/date_range_builder.png)
 
@@ -71,6 +76,6 @@ ht-degree: 0%
 
    ![資料表產生器區段](assets/table_builder_segments.png)
 
-4. 按一下&#x200B;**[!UICONTROL 建置]**。 從產生的表格中，您可以檢視任何所需區段之受影響範圍與前一週、月和年的比較。
+4. 按一下&#x200B;**[!UICONTROL 「建置」]**。 從產生的表格中，您可以檢視任何所需區段之受影響範圍與前一週、月和年的比較。
 
    ![已完成資料表](assets/table_builder_finished.png)

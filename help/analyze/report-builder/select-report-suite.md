@@ -6,9 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
-source-git-commit: 6f7de360ac24261eabb46c6cfce99449261706de
+TQID: https://experienceleague.adobe.com/eqAH1gQYgJ05VVa7THd7taOB7S3mhzyOk-29zQHoIxM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 383
 ht-degree: 1%
 
 ---
@@ -26,11 +31,11 @@ ht-degree: 1%
 * 結構相似或相同的多個報表套裝。
 * 包含自訂元件和配置圖的複雜資料區塊格式。
 
-若要從儲存格選取報表套裝，請先建置資料區塊，並將多個報表套裝指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;**[!UICONTROL 面板的]**&#x200B;報告套裝重新整理不同報告套裝的資料區塊。
+若要從儲存格選取報表套裝，請先建置資料區塊，並將多個報表套裝指派至資料區塊以外的儲存格。 然後，使用儲存格&#x200B;]**面板的**[!UICONTROL &#x200B;報告套裝重新整理不同報告套裝的資料區塊。
 
 1. 建立資料區塊。 如需有關建立資料區塊的資訊，請參閱[建立資料區塊](/help/analyze/report-builder/create-a-data-block.md)。
 
-1. 選取![報表套裝](/help/assets/icons/DataViewSelector.svg)中的&#x200B;**[!UICONTROL DataViewSelector]**。
+1. 選取&#x200B;**[!UICONTROL 報表套裝]**&#x200B;中的![DataViewSelector](/help/assets/icons/DataViewSelector.svg)。
 
 1. 在資料區塊外使用![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg)選取儲存格。
 
@@ -54,4 +59,4 @@ ht-degree: 1%
    ![從儲存格變更報表套裝](assets/change-data-view-from-cell.png){zoomable="yes"}
 1. 選擇性，選取&#x200B;**[!UICONTROL 變更時重新整理資料區塊]**。
 
-1. 選取&#x200B;**[!UICONTROL 「套用」]**。Report Builder會根據選取的報表套裝重新整理資料區塊。
+1. 選取&#x200B;**[!UICONTROL 「套用」]**。 Report Builder會根據選取的報表套裝重新整理資料區塊。

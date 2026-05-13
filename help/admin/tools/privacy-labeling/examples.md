@@ -4,10 +4,15 @@ title: 加上標籤範例
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
+TQID: https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 78%
+source-wordcount: 734
+ht-degree: 84%
 
 ---
 
@@ -35,9 +40,9 @@ ht-degree: 78%
 
 ## 範例存取請求 {#access}
 
-如果提交存取請求，您將收到兩個可以傳回至資料主體的檔案。其中一個檔案是 CSV 檔案，其中包含為資料主體接收到每個點擊的一列，以及每個具有適當存取標籤變數的欄。另一個檔案則是摘要 HTML 檔案，其中列出每個變數，其後是資料主體變數顯示的所有唯一值，以及每個唯一值顯示的次數。
+如果提交存取請求，您將收到兩個可以傳回至資料主體的檔案。 其中一個檔案是 CSV 檔案，其中包含為資料主體接收到每個點擊的一列，以及每個具有適當存取標籤變數的欄。 另一個檔案則是摘要 HTML 檔案，其中列出每個變數，其後是資料主體變數顯示的所有唯一值，以及每個唯一值顯示的次數。
 
-針對我們的範例，此摘要檔案包含下表所示的值。請求可能僅傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。唯有使用人員 ID 且 `expandIds` 為 true 時，系統才會傳回兩個摘要檔案。
+針對我們的範例，此摘要檔案包含下表所示的值。 請求可能僅傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。 唯有使用人員 ID 且 `expandIds` 為 true 時，系統才會傳回兩個摘要檔案。
 
 <table>
   <tr>
@@ -80,7 +85,7 @@ ht-degree: 78%
     <td>false</td>
     <td>人員</td>
     <td>Mary</td>
-    <td>77， 88， 99</td>
+    <td>77, 88, 99</td>
     <td>A、B、C</td>
     <td>M， N， O</td>
     <td>X， Y， Z</td>
@@ -90,7 +95,7 @@ ht-degree: 78%
     <td rowspan="2">true</td>
     <td>人員</td>
     <td>Mary</td>
-    <td>77， 88， 99</td>
+    <td>77, 88, 99</td>
     <td>A、B、C</td>
     <td>M， N， O</td>
     <td>X， Y， Z</td>
@@ -98,7 +103,7 @@ ht-degree: 78%
   <tr>
     <td>裝置</td>
     <td>不存在</td>
-    <td>77， 88</td>
+    <td>77, 88</td>
     <td>A、B、C</td>
     <td>N， P</td>
     <td>U， W</td>
@@ -108,7 +113,7 @@ ht-degree: 78%
     <td rowspan="2">true</td>
     <td>人員</td>
     <td>Mary</td>
-    <td>77， 88， 99</td>
+    <td>77, 88, 99</td>
     <td>A、B、C</td>
     <td>M， N， O</td>
     <td>X， Y， Z</td>
@@ -116,7 +121,7 @@ ht-degree: 78%
   <tr>
     <td>裝置</td>
     <td>不存在</td>
-    <td>66， 77， 88</td>
+    <td>66, 77, 88</td>
     <td>A、B、C</td>
     <td>N， P</td>
     <td>U、W、Z</td>
@@ -126,7 +131,7 @@ ht-degree: 78%
     <td>false</td>
     <td>裝置</td>
     <td>不存在</td>
-    <td>55， 77</td>
+    <td>55, 77</td>
     <td>不存在</td>
     <td>M， R</td>
     <td>X</td>
@@ -136,7 +141,7 @@ ht-degree: 78%
     <td>true</td>
     <td>裝置</td>
     <td>不存在</td>
-    <td>55， 77</td>
+    <td>55, 77</td>
     <td>不存在</td>
     <td>M、P、R</td>
     <td>W， X</td>
@@ -293,7 +298,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->僅包含 `user=Mary` 和 `DEL-PERSON` 標籤列上儲存格欄會受到影響。此外，在實務上，包含 `A_ID` 的變數可能是 prop 或 eVar。其取代值會是開頭為「`Privacy-`」，其後接隨機數字 (GUID) 的字串，而非將數值取代為不同的隨機數值。
+>僅包含 `user=Mary` 和 `DEL-PERSON` 標籤列上儲存格欄會受到影響。 此外，在實務上，包含 `A_ID` 的變數可能是 prop 或 eVar。 其取代值會是開頭為「`Privacy-`」，其後接隨機數字 (GUID) 的字串，而非將數值取代為不同的隨機數值。
 
 <table>
   <tr>

@@ -1,18 +1,24 @@
 ---
 description: 讓管理員層級使用者查看與管理組織中的排程報表。
-title: 排程報表佇列
+title: 排程報告佇列
 feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+TQID: https://experienceleague.adobe.com/HL78cbB5NqKCjv4NvZ5OiqjfbwBjI0KAC8hEr8Afd2U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 100%
+source-wordcount: 319
+ht-degree: 51%
 
 ---
 
-# 排程報表佇列
+# 排程報告佇列
 
 讓管理員層級使用者查看與管理組織中的排程報表。
 
@@ -20,18 +26,18 @@ ht-degree: 100%
 
 「排程報表管理員」中的管理層級功能包含：
 
-* 在組織中[「顯示所有計劃報表」](/help/components/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)的選項。
-* 組織中的[進階篩選功能](/help/components/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
-* 新的[「報表佇列」](/help/components/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)標籤會列出報告伺服器上所有佇列等候執行的報告。
-* 在「報表佇列」介面中公開「[排程 ID](/help/components/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1)」。
+* [顯示組織中所有排程報告](/help/components/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)的選項。
+* 整個組織中的[進階篩選功能](/help/components/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
+* 新的[報告佇列](/help/components/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)索引標籤會列出在報告伺服器上排入佇列等待執行的所有報告。
+* 在報表佇列介面中公開[排程ID](/help/components/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1)。
 
-## 顯示所有計劃報表 {#section_3F167CAAEEC24140B476CF95B7402690}
+## 顯示所有排程報告 {#section_3F167CAAEEC24140B476CF95B7402690}
 
 在&#x200B;**[!UICONTROL 報表清單]**&#x200B;索引標籤上，除了您私人排程的報表，您還可以&#x200B;**[!UICONTROL 顯示組織中所有已排程報表]**。
 
 >[!NOTE]
 >
->**[!UICONTROL 報表名稱]**&#x200B;欄會顯示正在排程的報表名稱，而&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄則會顯示您在「進階傳送選項」中所設定的所有自訂檔案名稱。 結果就是，若您排定相同報表類型的多份報表並且逐一指定自訂名稱，則「排程報告管理員」就會顯示具有相同報表名稱但是檔案名稱不同的多個項目。這是由於正在排程的後端報表是相同的所致，因此「報表名稱」欄會出現除了自訂檔案名稱 (依設定) 之外的所有報表名稱皆相同的情況。
+>**[!UICONTROL 報表名稱]**&#x200B;欄會顯示正在排程的報表名稱，而&#x200B;**[!UICONTROL 檔案名稱]**&#x200B;欄則會顯示您在「進階傳送選項」中所設定的所有自訂檔案名稱。 因此，如果您排程多個相同報表型別的報表，並為每個報表指定自訂名稱，則「排程報表管理員」會顯示多個報表名稱相同但檔案名稱不同的專案。 這是因為排程的後端報表是相同的，因此「報表名稱」欄除了自訂檔案名稱（如設定）之外，其他所有名稱都將具有相同的報表名稱。
 
 ![](assets/show_all_scheduled_reports.png)
 
@@ -43,11 +49,11 @@ ht-degree: 100%
 
 ## 報表佇列 {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-此佇列可讓您管理排程報告，以及可能可以刪除「堵塞」佇列的排程報告。(通常報告在 4 小時後逾時)。
+此佇列可讓您管理或可能刪除佇列中「塞滿」的任何排程報告。 （通常報表會在4小時後逾時）。
 
 ![](assets/scheduled_reports_2.png)
 
-「報表佇列」也能讓您「跳過計劃報表一次」。只需按一下&#x200B;**[!UICONTROL 「管理」]**&#x200B;欄中的藍色圖示。
+「報表佇列」也可讓您「略過一次排程報表」。 只需按一下&#x200B;**[!UICONTROL 「管理」]**&#x200B;欄中的藍色圖示。
 
 ## 排程 ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 

@@ -5,10 +5,16 @@ title: 在流失分析中套用區段
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/LZiLhy8ufqzxHyxjqWy1XLv5uU7JgB5eqzPm6wbXF6s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 41%
+source-wordcount: 449
+ht-degree: 44%
 
 ---
 
@@ -18,7 +24,7 @@ ht-degree: 41%
 
 >[!IMPORTANT]
 >
->在流失分析中當作查核點使用的區段，其所用容器的層級必須低於流失視覺效果的整體設定。分析訪客相關流失率時，當作查核點使用的區段必須為「造訪」或「點擊」相關區段。分析造訪相關流失率時，當作查核點使用的區段必須為「點擊」相關區段。如果使用無效的組合，流失率會計為 100%。當您新增不相容的區段作為接觸點時，流失視覺效果中會顯示警告。 特定的無效區段容器組合會產生無效的流失率圖表，例如：
+>在流失分析中當作查核點使用的區段，其所用容器的層級必須低於流失視覺效果的整體設定。 分析訪客相關流失率時，當作查核點使用的區段必須為「造訪」或「點擊」相關區段。 分析造訪相關流失率時，當作查核點使用的區段必須為「點擊」相關區段。 如果使用無效的組合，流失率會計為 100%。 當您新增不相容的區段作為接觸點時，流失視覺效果中會顯示警告。 特定的無效區段容器組合會產生無效的流失率圖表，例如：
 >
 >* 使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點。
 >* 使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點。
@@ -27,7 +33,7 @@ ht-degree: 41%
 
 ## 從接觸點建立區段
 
-1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。若要這麼做，請以滑鼠右鍵按一下接觸點並選取&#x200B;**[!UICONTROL 「從接觸點建立區段」]**。
+1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。 若要這麼做，請以滑鼠右鍵按一下接觸點並選取&#x200B;**[!UICONTROL 「從接觸點建立區段」]**。
 
    ![](assets/fallout-createsegment.png)
 

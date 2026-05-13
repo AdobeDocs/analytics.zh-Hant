@@ -4,9 +4,13 @@ description: 取得最後一個傳至變數的值。
 feature: Appmeasurement Implementation
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/8LOSmK68Rib9J6sYHXOqq73SR9jkryLSwNHUI0NebhY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: 784
 ht-degree: 77%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`getPreviousValue` 外掛程式可讓您將變數設定為先前點擊上設定的值。如果您的實施包含目前點擊中的所有所需值，就不需要此外掛程式。
+`getPreviousValue` 外掛程式可讓您將變數設定為先前點擊上設定的值。 如果您的實施包含目前點擊中的所有所需值，就不需要此外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -65,7 +69,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /* Adobe Consulting Plugin: getPreviousValue v3.0 */
@@ -77,10 +81,10 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 `getPreviousValue` 函數會使用以下引數：
 
-* **`v`** (字串，必要)：具有您要傳遞至下一個影像要求之值的變數。用來擷取上一頁值的通用變數為 `s.pageName`。
-* **`c`** (字串，選用)：儲存值的 Cookie 名稱。如果未設定此引數，其預設值為 `"s_gpv"`。
+* **`v`** (字串，必要)：具有您要傳遞至下一個影像要求之值的變數。 用來擷取上一頁值的通用變數為 `s.pageName`。
+* **`c`** (字串，選用)：儲存值的 Cookie 名稱。  如果未設定此引數，其預設值為 `"s_gpv"`。
 
-當您呼叫此方法時，它會傳回 Cookie 中包含的字串值。 此外掛程式會重設 Cookie 期限，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
+當您呼叫此方法時，它會傳回 Cookie 中包含的字串值。 此外掛程式會重設 Cookie 期限，並從 `v` 引數指派變數值。 閒置 30 分鐘後，Cookie 便會到期。
 
 ## 範例
 
@@ -111,14 +115,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-此程式碼會產生伺服器呼叫，其中 `pageName` 為「Home」且未設定 prop7。 然而，`getPreviousValue` 的呼叫會將 `pageName` 的值儲存在 `gpv_Page` Cookie 中。 假設下列程式碼緊接著在相同頁面上執行：
+此程式碼會產生伺服器呼叫，其中 `pageName` 為「Home」且未設定 prop7。  然而，`getPreviousValue` 的呼叫會將 `pageName` 的值儲存在 `gpv_Page` Cookie 中。 假設下列程式碼緊接著在相同頁面上執行：
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-由於 `t()` 函數並未在此程式碼區塊中執行，因此不會傳送另一個影像要求。 然而，這次執行 `getPreviousValue` 函數程式碼時，`prop7` 設定為 `pageName` 的上一個值 (「Home」)，然後將 `pageName` 的新值 (「New value」) 儲存在 `gpv_Page` Cookie 中。 接下來，假設訪客導覽至另一個頁面，且在此頁面上執行下列程式碼：
+由於 `t()` 函數並未在此程式碼區塊中執行，因此不會傳送另一個影像要求。  然而，這次執行 `getPreviousValue` 函數程式碼時，`prop7` 設定為 `pageName` 的上一個值 (「Home」)，然後將 `pageName` 的新值 (「New value」) 儲存在 `gpv_Page` Cookie 中。 接下來，假設訪客導覽至另一個頁面，且在此頁面上執行下列程式碼：
 
 ```js
 s.pageName = "Page 2";

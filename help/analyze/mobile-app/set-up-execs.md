@@ -4,18 +4,24 @@ title: 透過應用程式設定主管使用者
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: 755
 ht-degree: 100%
 
 ---
 
 # 透過應用程式設定主管使用者
 
-某些情況下，主管使用者可能需要額外的協助，才能存取及使用應用程式。本節提供相關資訊，幫助您提供這類協助。
+某些情況下，主管使用者可能需要額外的協助，才能存取及使用應用程式。 本節提供相關資訊，幫助您提供這類協助。
 
-## 確認應用程式使用者能夠存取 Adobe Analytics
+## 確認應用程式使用者有 Adobe Analytics 存取權
 
 1. 在 [Experience Cloud Admin Console](/help/admin/admin-console/permissions/product-profile.md) 中設定新使用者。
 
@@ -28,19 +34,19 @@ ht-degree: 100%
 * 其裝置的最低行動作業系統需求為 iOS 10 (含) 以上版本，或 Android 4.4 (KitKat) (含) 以上版本
 * 使用者處於 Adobe Analytics 的有效登入狀態。
 * 您已為使用者正確建立行動計分卡，並和他們共用這些計分卡。
-* 使用者可存取計分卡中的元件。請注意，您可在共用計分卡時選取&#x200B;**[!UICONTROL 共用嵌入元件]**&#x200B;的選項。
+* 使用者可存取計分卡中的元件。 請注意，您可在共用計分卡時選取&#x200B;**[!UICONTROL 共用嵌入元件]**&#x200B;的選項。
 
 ## 協助高階主管下載和安裝應用程式
 
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)]** 底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)]** 底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -52,7 +58,7 @@ ht-degree: 100%
 
 1. 要求高階主管使用者登入應用程式。
 
-   「**[!UICONTROL 選擇公司]**」畫面隨即顯示。此畫面會列出高階主管使用者所屬的登入公司。
+   「**[!UICONTROL 選擇公司]**」畫面隨即顯示。 此畫面會列出高階主管使用者所屬的登入公司。
 
 1. 要求他們點選適用於您所共用的計分卡的登入公司或 Experience Cloud 組織名稱。
 
@@ -75,7 +81,7 @@ ht-degree: 100%
 
 圖磚的其他資訊：
 
-* 走勢圖的粒度取決於日期範圍的長度：
+* 走勢圖的顆粒度取決於日期範圍的長度：
 * 若長度為一天，圖表會顯示每小時趨勢
    * 若長度為一天以上、一年以下，則會顯示每日趨勢
    * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
@@ -89,7 +95,7 @@ ht-degree: 100%
 
    * 點選走勢圖上的任一點，可查看與線上該點相關聯的資料。
 
-   * 其中包含一個表格，會顯示新增至圖磚的維度資料。點選向下箭頭可選取維度。如果未將任何維度新增至圖磚，表格將會顯示圖表資料。
+   * 其中包含一個表格，會顯示新增至圖磚的維度資料。 點選向下箭頭可選取維度。 如果未將任何維度新增至圖磚，表格將會顯示圖表資料。
 
 1. 若要變更計分卡的日期範圍，點選日期標題並選取想要檢視的主要和比較日期範圍組合。
 
@@ -114,4 +120,4 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請聯絡您的 Adobe 帳戶團隊。
+>自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。 這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。 該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。 若要選擇不使用上述效能增強功能，請聯絡您的 Adobe 帳戶團隊。

@@ -4,10 +4,14 @@ description: 使用自訂訪客 ID。
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: de98bf68c57f5453b6662f6e6e57312d8fd3e642
+TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 19%
+source-wordcount: 510
+ht-degree: 20%
 
 ---
 
@@ -17,7 +21,7 @@ Adobe使用數種不同的方法來[識別您網站上的訪客](../../id/overvi
 
 >[!IMPORTANT]
 >
->Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+>Adobe 建議您不要使用此變數。 請改用 [Adobe Experience Cloud 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## Analytics如何使用`visitorID`
 
@@ -46,11 +50,11 @@ Adobe使用數種不同的方法來[識別您網站上的訪客](../../id/overvi
 3. 移至[!UICONTROL 擴充功能]標籤，然後選取Adobe Analytics底下的&#x200B;**[!UICONTROL 設定]**&#x200B;按鈕。
 4. 展開[!UICONTROL 「Cookie」]摺疊式功能表，如此可顯示[!UICONTROL 「訪客 ID」]欄位。
 
-將此欄位指派給包含自訂訪客 ID 的資料元素。**請勿將此欄位設為所有訪客的單一靜態值。**&#x200B;使用會針對每位訪客解析並在所有點選中保持不變的資料元素。
+將此欄位指派給包含自訂訪客 ID 的資料元素。 **請勿針對所有訪客將此欄位設為單一靜態值。** 使用會針對每位訪客解析並在所有點選中保持不變的資料元素。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.visitorID
 
-`s.visitorID` 變數是包含訪客自訂唯一識別碼的字串。有效值包括最多100個位元組的英數字元。 請避免在此變數中使用虛線、空格、底線或符號。
+`s.visitorID` 變數是包含訪客自訂唯一識別碼的字串。 有效值包括最多100個位元組的英數字元。 請避免在此變數中使用虛線、空格、底線或符號。
 
 ```js
 s.visitorID = "abc123";
@@ -58,4 +62,4 @@ s.visitorID = "abc123";
 
 ## 使用網頁SDK的訪客ID
 
-Adobe Experience Platform Edge Network可讓您使用XDM的[身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=zh-Hant#using-identitymap)來提供多個識別碼。 「身分對應」中的每個身分都有不同的名稱空間。 您可以在[資料流組態](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#analytics)中，指定應該用於訪客ID的名稱空間。 設定此欄位後，當您傳送具有為此名稱空間指定的值的事件時，系統會自動將其用作Analytics中的訪客ID。
+Adobe Experience Platform Edge Network可讓您使用XDM的[身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap)來提供多個識別碼。 「身分對應」中的每個身分都有不同的名稱空間。 您可以在[資料流組態](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics)中，指定應該用於訪客ID的名稱空間。 設定此欄位後，當您傳送具有為此名稱空間指定的值的事件時，系統會自動將其用作Analytics中的訪客ID。

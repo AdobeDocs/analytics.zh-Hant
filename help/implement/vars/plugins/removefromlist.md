@@ -4,9 +4,13 @@ description: 從字元分隔字串中移除特定值。
 feature: Appmeasurement Implementation
 exl-id: d66b757e-b39f-4b6e-9999-6fbde87505af
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/Tg-oPqPsLwxneOUflu99ZloO0dV--OHHq8EtkUeoDPo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: 1074
 ht-degree: 93%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 93%
 
 {{plug-in}}
 
-`rfl` 外掛程式可讓您「安全地」從分隔字串中移除值，例如 [`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) 等。如果您想從分隔字串中移除特定值，而不想顧慮分隔字元，此外掛程式非常實用。其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
+`rfl` 外掛程式可讓您「安全地」從分隔字串中移除值，例如 [`events`](../page-vars/events/events-overview.md)、[`products`](../page-vars/products.md)、[`list`](../page-vars/list.md) 等。 如果您想從分隔字串中移除特定值，而不想顧慮分隔字元，此外掛程式非常實用。 其他多個外掛程式依賴此程式碼才能正確運作。 如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
 
 此外掛程式使用下列邏輯：
 
@@ -55,7 +59,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -69,10 +73,10 @@ function rfl(lv,vr,d1,d2,df){var b=lv,f=vr,e=d1,h=d2,g=df;if("-v"===b)return{plu
 `rfl` 函數會使用以下引數：
 
 * **`lv`** (必要，字串)：包含分隔值清單的變數 (或字串)
-* **`vr`** (必要，字串)：您要從 `lv` 引數中移除的值。Adobe 建議您不要在 `rfl` 單一呼叫期間移除多個值。
-* **`d1`** (選用，字串)：`lv` 引數使用的分隔字元。預設為逗號 (`,`)。
-* **`d2`** (選用，字串)：您要讓傳回字串使用的分隔字元。預設為與 `d1` 引數相同的值。
-* **`df`** (選用，布林值)：如果為 `true`，則僅強制從 `lv` 引數中複製 `vr` 引數的例項，而非所有例項。若未設定，則預設為 `false`。
+* **`vr`** (必要，字串)：您要從 `lv` 引數中移除的值。 Adobe 建議您不要在 `rfl` 單一呼叫期間移除多個值。
+* **`d1`** (選用，字串)：`lv` 引數使用的分隔字元。 預設為逗號 (`,`)。
+* **`d2`** (選用，字串)：您要讓傳回字串使用的分隔字元。 預設為與 `d1` 引數相同的值。
+* **`df`** (選用，布林值)：如果為 `true`，則僅強制從 `lv` 引數中複製 `vr` 引數的例項，而非所有例項。 若未設定，則預設為 `false`。
 
 呼叫此函數會傳回包含 `lv` 引數的修改字串，但字串中不包含 `vr` 引數中所指定值的任何實例 (或重複實例)。
 

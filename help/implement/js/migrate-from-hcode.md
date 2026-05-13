@@ -4,16 +4,21 @@ description: 決定將實作從 H 程式碼移出時所需的項目。
 feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Ml3fp170Ggn8-lpJCvDOAMBMF1izsmrG0BAnWcS-BUo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 91%
+source-wordcount: 297
+ht-degree: 90%
 
 ---
 
 # 移轉至 JavaScript 適用的 AppMeasurement
 
-如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。我們建議您透過 [Adobe Experience Platform 中的標記](../launch/overview.md)實作 Analytics，不過也可以使用更新的 JavaScript 實作。
+如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。 我們建議您透過 [Adobe Experience Platform 中的標記](../launch/overview.md)實作 Analytics，不過也可以使用更新的 JavaScript 實作。
 
 與 H 程式碼相比，AppMeasurement 有下列顯著變更：
 
@@ -34,7 +39,7 @@ ht-degree: 91%
 
 ## 範例 Appmeasurement 程式碼
 
-典型的 `AppMeasurement.js` 檔案。請務必將設定變數設定在 `doPlugins` 函數上方。
+典型的 `AppMeasurement.js` 檔案。 請務必將設定變數設定在 `doPlugins` 函數上方。
 
 ```js
 // Initialize AppMeasurement
@@ -89,4 +94,4 @@ s.t();
 </script>
 ```
 
-也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。如需詳細資訊，請參閱 [JavaScript 實作](/help/implement/js/overview.md)。
+也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。 如需詳細資訊，請參閱 [JavaScript 實作](/help/implement/js/overview.md)。

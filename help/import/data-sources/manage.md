@@ -4,16 +4,20 @@ description: 瀏覽管理資料來源介面。
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/Tc5-I54BKMPlv2tVZb9pMYfvdddcTPuskdh3W24wFUU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 7%
+source-wordcount: 664
+ht-degree: 6%
 
 ---
 
 # 管理資料來源
 
-使用資料來源管理員來建立、編輯或停用資料來源。您也可以使用此介面追蹤上傳至資料來源 FTP 位置的檔案狀態。
+使用資料來源管理員來建立、編輯或停用資料來源。 您也可以使用此介面追蹤上傳至資料來源 FTP 位置的檔案狀態。
 
 **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料來源]**
 
@@ -31,7 +35,7 @@ ht-degree: 7%
 
 每個資料來源都有以下選項：
 
-* **[!UICONTROL 重新啟動處理]**：重新啟動先前因錯誤而停止的資料來源處理。 處理將繼續進行，直到發生下一個錯誤。只有當您選取&#x200B;**[!UICONTROL 發生錯誤時停止處理]**&#x200B;時，資料來源才會停止處理資料來源檔案。
+* **[!UICONTROL 重新啟動處理]**：重新啟動先前因錯誤而停止的資料來源處理。 處理作業會持續進行，直到遇到下一個錯誤為止。 只有當您選取&#x200B;**[!UICONTROL 發生錯誤時停止處理]**&#x200B;時，資料來源才會停止處理資料來源檔案。
 * **[!UICONTROL 完成處理]**：已不再使用 — 此按鈕僅用於[完整處理資料來源](full-processing-eol.md)。
 * **[!UICONTROL 發生錯誤時停止處理]**：指示處理伺服器遇到錯誤時停止處理的核取方塊。 在您選取&#x200B;**[!UICONTROL 重新啟動處理]**&#x200B;之前，資料來源不會繼續處理。 資料來源發生檔案錯誤時，會通知您發生錯誤。 Adobe會將發生錯誤的檔案移到FTP伺服器上名為`files_with_errors`的資料夾。 解決問題後，請重新提交檔案以進行處理。
 * **[!UICONTROL 設定]**：一個連結，可引導您完成此資料來源的資料來源建立精靈。 此精靈可讓您重新命名資料來源，或重新設定下載範本檔案時自動包含的變數。

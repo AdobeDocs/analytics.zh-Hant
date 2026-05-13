@@ -4,10 +4,14 @@ description: 產生並操控數字以用於其他 JavaScript 變數。
 feature: Appmeasurement Implementation
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/7WVxmxkKMYN46kxxU60czA8VkpFb5VbGSRNe4IQYV8U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 89%
+source-wordcount: 645
+ht-degree: 88%
 
 ---
 
@@ -15,11 +19,11 @@ ht-degree: 89%
 
 {{plug-in}}
 
-Numbers Suite 提供一系列 JavaScript 函數。其中包含下列外掛程式：
+Numbers Suite 提供一系列 JavaScript 函數。 其中包含下列外掛程式：
 
-* **`zeroPad`**：在數字的開頭加上特定數量的零。如果變數需要特定位數，此外掛程式非常實用；例如當您使用 JavaScript 日期物件，且想要以兩位數 (而非僅一位數) 來格式化日期的月和日時。例如 `01/09/2020` 而非 `1/9/2020`。
-* **`randomNumber`**：產生具有特定位數的隨機數。如果您部署協力廠商標記，而且想要防快取的隨機數，此外掛程式就相當實用。
-* **`twoDecimals`**：將數字捨入至最接近的百位數。此外掛程式適用於貨幣用途，可讓您將數字捨入至有效的貨幣值。
+* **`zeroPad`**：在數字的開頭加上特定數量的零。 如果變數需要特定位數，此外掛程式非常實用；例如當您使用 JavaScript 日期物件，且想要以兩位數 (而非僅一位數) 來格式化日期的月和日時。 例如 `01/09/2020` 而非 `1/9/2020`。
+* **`randomNumber`**：產生具有特定位數的隨機數。 如果您部署協力廠商標記，而且想要防快取的隨機數，此外掛程式就相當實用。
+* **`twoDecimals`**：將數字捨入至最接近的百位數。 此外掛程式適用於貨幣用途，可讓您將數字捨入至有效的貨幣值。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -54,7 +58,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -74,11 +78,11 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 `zeroPad` 函數會使用以下引數：
 
 * **num** (必要，整數)：要填補的數字。 如果此引數包含小數，該函數會將其值四拾五入。
-* **nod** (必要，整數)：最終傳回值的位數。如果要填補的數字位數小於要填補的位數，則外掛程式會將零加到 `num` 引數的開頭。
+* **nod** (必要，整數)：最終傳回值的位數。 如果要填補的數字位數小於要填補的位數，則外掛程式會將零加到 `num` 引數的開頭。
 
 `randomNumber` 函數會使用以下引數：
 
-* **nod** (選用，整數)：要產生的隨機數字位數。最大值為 17 位數。預設值為 10 位數。
+* **nod** (選用，整數)：要產生的隨機數字位數。 最大值為 17 位數。 預設值為 10 位數。
 
 `twoDecimals` 函數會使用以下引數：
 

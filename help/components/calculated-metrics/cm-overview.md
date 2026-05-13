@@ -4,10 +4,15 @@ keywords: 計算量度
 title: 計算量度概觀
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 99%
+source-wordcount: 317
+ht-degree: 75%
 
 ---
 
@@ -15,9 +20,9 @@ ht-degree: 99%
 
 計算量度為您可以利用現有量度建立的自訂量度。
 
-計算量度是您可從現有量度建立的自訂量度。計算量度提供一種靈活的方式來建置、管理和策劃自訂量度，使您能夠分析資料而無需變更實施。
+計算量度是您可從現有量度建立的自訂量度。 計算量度提供一種靈活的方式來建置、管理和策劃自訂量度，使您能夠分析資料而無需變更實施。
 
-每個 [!DNL Analytics] 套件皆提供計算量度，但適用於 Experience Cloud 的 Adobe Analytics Foundation Pack 僅提供基本計算量度，包括[格式類型 (小數、時間、百分比、貨幣)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)、[配置變更 (預設、線性、參與率等)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)、[量度類型 (標準、總計)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) 及[基本運算子](workflow/c-build-metrics/cm-build-metrics.md#operators) (加、減、乘、除)。
+每個[!DNL Analytics]套件都有計算量度可以使用，不過Experience Cloud的Adobe Analytics Foundation Pack僅限於基本計算量度，包括[格式型別（小數、時間、百分比、貨幣）](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)、[配置變更（預設、線性、參與率等）](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)、[量度型別（標準、總計）](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)和[基本運運算元](workflow/c-build-metrics/cm-build-metrics.md#operators) （加、減、乘、除）。
 
 
 請參閱 [Adobe Analytics 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics.html)，以了解更多資訊。
@@ -40,11 +45,11 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 您可以
 
 * 建立 [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]以及[!UICONTROL 貢獻度分析]的[各個量度](/help/components/calculated-metrics/workflow/cm-workflow.md)。
-* [建立區段量度](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)，不需要變更實作，可以從報告執行時間推導得出。例如，您可以建立「*新訪客*」量度，計算這是其首個工作階段的人員數量。
+* [建立區段量度](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md)，不需要變更實作，可以從報告執行時間推導得出。 例如，您可以建立「*新訪客*」量度，計算這是其首個工作階段的人員數量。
 
-* 在各個報告套裝之間[共用量度](/help/components/calculated-metrics/workflow/cm-sharing.md)。這表示所有新建立的量度皆會套用至相同登入公司的所有報告套裝。
+* 在各個報告套裝之間[共用量度](/help/components/calculated-metrics/workflow/cm-sharing.md)。 這表示所有新建立的量度皆會套用至相同登入公司的所有報告套裝。
 
-* [結合統計函數](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)，協助您更清楚說明資料。例如，您可以計算報告中的項目數或為每個項目加入標準差數量。
+* [結合統計函數](/help/components/calculated-metrics/cm-reference/cm-adv-functions.md)，協助您更清楚說明資料。 例如，您可以計算報告中的項目數或為每個項目加入標準差數量。
 
 ## 限制
 
@@ -59,13 +64,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段的分段計算量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段的分段計算量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +90,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[建立量度](/help/components/calculated-metrics/workflow/cm-workflow.md)
->[建置量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[建立量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
 >[使用函數](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

@@ -4,10 +4,14 @@ title: 如何編輯多個請求的量度
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 28%
+source-wordcount: 598
+ht-degree: 13%
 
 ---
 
@@ -22,19 +26,19 @@ ht-degree: 28%
 新增量度時，請考量下列准則：
 
 * 只能將量度新增至「樞紐配置」請求。
-如果某些選取的請求為「自訂配置」，則無法新增量度。如果已自訂版面，Report Builder就不知道將新量度放置於試算表中的哪個位置。
+如果部分選取的請求為自訂配置，則無法新增量度。 如果已自訂版面，Report Builder就不知道將新量度放置於試算表中的哪個位置。
 * 如果您只選取「自訂配置」請求，則無法使用&#x200B;**[!UICONTROL 新增度量]**&#x200B;選項。
 * 新增量度會增加請求的大小，並可能導致與其他請求重疊。 請確定您的請求周圍有足夠的空間可以新增量度。
 * 如果新增的量度已存在於其中一個選取的請求中，則不會新增至該請求。
 
 新增一或多個量度的方式
 
-1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」(或者，您也能按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 編輯多項]** > `<choose metric>` > **[!UICONTROL 編輯群組」]**，選取要修正的一組請求)。
+1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」 (或者，您也能按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 編輯多項]** > `<choose metric>` > **[!UICONTROL 編輯群組」]**，選取要修正的一組請求)。
 1. 選取[!UICONTROL 「新增量度」]，並選取要新增的量度。
 
    ![熒幕擷圖顯示選取的[編輯請求，新增量度]選項。](assets/add_metric.png)
 
-1. 重新整理請求，以查看實際資料。在您重新整理資料之前，會顯示離線資料。
+1. 重新整理請求以檢視實際資料。 在您重新整理資料之前，會顯示離線資料。
 
 ## 取代量度
 
@@ -47,18 +51,18 @@ ht-degree: 28%
    * **在「樞紐配置」**&#x200B;中，如果樞紐配置請求輸出日期、瀏覽、訪客、每日不重複，且以&#x200B;*收入*&#x200B;取代&#x200B;*訪客*，則更新的請求配置將會是：日期、瀏覽、收入和每日不重複。
    * **在「自訂配置」**&#x200B;中，如果&#x200B;*訪客*&#x200B;量度是在儲存格F11中輸出，則更新的請求配置將在相同的儲存格F11中顯示&#x200B;*收入*。
 
-* 如果取代的量度已套用某項作業 (計算平均值、開頭附加文字、結尾附加文字、建立 Microchart)，則這些作業也會套用至新量度。
+* 如果替代的量度套用了某些操作（平均、前置文字、後置文字、微圖表），這些操作也將套用到新量度。
 
-若要更換量度
+取代量度
 
-1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」或者，您可以按一下「**[!UICONTROL 管理]** > **[!UICONTROL 編輯多個]** > **`<choose metric>`** > **[!UICONTROL 編輯群組]**」來選取要修改的請求群組。
+1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」 或者，您可以按一下「**[!UICONTROL 管理]** > **[!UICONTROL 編輯多個]** > **`<choose metric>`** > **[!UICONTROL 編輯群組]**」來選取要修改的請求群組。
 
 1. 選取&#x200B;**[!UICONTROL 「更換量度」]**。
 
    ![已選取「取代量度」的「編輯群組」熒幕擷圖。](assets/replace_metric.png)
 
 1. 選取您要取代的量度和取代量度。
-1. 重新整理請求。在您重新整理資料之前，會顯示離線資料。
+1. 重新整理請求。 在您重新整理資料之前，會顯示離線資料。
 
 ## 移除量度 {#section_D3CD5BAC7670416593B633B2B8423C60}
 
@@ -69,11 +73,11 @@ ht-degree: 28%
 
 移除量度的方式
 
-1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」或者，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 編輯多個]** > **`<choose metric>`** > **[!UICONTROL 編輯群組]**&#x200B;以選取要修改的請求群組。
+1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」 或者，按一下&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 編輯多個]** > **`<choose metric>`** > **[!UICONTROL 編輯群組]**&#x200B;以選取要修改的請求群組。
 
 1. 選取&#x200B;**[!UICONTROL 「移除量度」]**。
 
    ![熒幕擷圖顯示選取的[編輯群組和移除量度]選項。](assets/remove_metric.png)
 
-1. 選取一或多個量度，將其自請求移除。
-1. 重新整理請求。除非重新整理，否則無法查看離線資料。
+1. 選取一個或多個要從請求中移除的量度。
+1. 重新整理請求。 在重新整理之前，您會看到離線資料。

@@ -4,10 +4,15 @@ title: 日期比較
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 768
+ht-degree: 95%
 
 ---
 
@@ -17,7 +22,7 @@ ht-degree: 100%
 
 ## 比較時段
 
-分析需要相關內容，而通常那些內容會由先前的時段提供。例如，「*您的表現與去年同時期比較，有多大改善或退步？」這個問題*&#x200B;是了解您的企業的基本問題。「日期比較」會自動包括「*差異*」欄，其中顯示與特定時段相較的百分比變化。
+分析需要相關內容，而通常那些內容會由先前的時段提供。 例如，問題&#x200B;*與去年的這個時間相比，您現在做得好或壞多少？* 是瞭解業務的基礎。 「日期比較」會自動包括「*差異*」欄，其中顯示與特定時段相較的百分比變化。
 
 1. 建立[自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)，加入您要進行時段比較的任何維度和量度。
 1. 在面板或欄上設定時段，來判斷比較時間段，以及其為滾動式或固定式的時間比較。
@@ -63,7 +68,7 @@ ht-degree: 100%
 
    | 選項 | 說明 |
    |---|---|
-   | **[!UICONTROL 此日期範圍之前的 *x* 週/月/季/年]** | 使用緊接在此日期範圍之前的週/月/等時段建立一欄。 |
+   | **[!UICONTROL 此日期範圍之前的 *x* 週/月/季/年]** | 新增一欄，在此日期範圍之前加入周/月/等。 |
    | **[!UICONTROL 對比去年此日期範圍的 *x* 週/月/季/年]** | 新增一年前的相同日期範圍。 |
    | **[!UICONTROL 根據此日期範圍的自訂日期範圍]** | 讓您建立自訂日期範圍。 |
 
@@ -83,7 +88,7 @@ ht-degree: 100%
 
 您可以讓每一欄的日期與同一列中所有開始日期一致。
 
-例如，您對上週 (截至 2024 年 10 月 5 日) 和前一週進行逐日比較。預設情況下，左欄將從 9 月 22 日開始，右欄則將從 9 月 29 日開始。
+例如，您對上週 (截至 2024 年 10 月 5 日) 和前一週進行逐日比較。 預設情況下，左欄將從 9 月 22 日開始，右欄則將從 9 月 29 日開始。
 
 ![日期未對齊](assets/not-align-dates.png)
 
@@ -95,7 +100,7 @@ ht-degree: 100%
 
 * 所有新項目均根據預設啟用此設定。
 
-* 此設定套用至整個表格。例如，如果您變更此設定是要在表格內部進行劃分，則設定會套用至整個表格。
+* 此設定套用至整個表格。 例如，如果您變更此設定是要在表格內部進行劃分，則設定會套用至整個表格。
 
 
 <!--
@@ -106,7 +111,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

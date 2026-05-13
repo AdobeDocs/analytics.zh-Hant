@@ -3,9 +3,15 @@ title: 上次接觸管道
 description: 訪客參與期限內最近的行銷管道。
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
+TQID: https://experienceleague.adobe.com/wUNsv-0snBfk6EE6yeCEuT8-hGvBu9U8tjKDfxhVRA0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 337
 ht-degree: 67%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 67%
 
 此維度會直接參照您在[「行銷管道管理員」](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md)中定義的管道名稱。
 
-傳送至 Adobe 資料收集伺服器的每個點擊，都會透過報表套裝的行銷管道處理規則執行。它會以數值順序反覆每個規則，直到找到相符項目，而該行銷管道會繫結至點擊。上次接觸管道會持續與訪客同時存在，直到對方超過訪客參與期間 (預設為 30 天) 沒有造訪網站。
+傳送至 Adobe 資料收集伺服器的每個點擊，都會透過報表套裝的行銷管道處理規則執行。 它會以數值順序反覆每個規則，直到找到相符項目，而該行銷管道會繫結至點擊。 上次接觸管道會持續與訪客同時存在，直到對方超過訪客參與期間 (預設為 30 天) 沒有造訪網站。
 
 如果您要將此維度設為特定值，則需執行下列步驟：
 
@@ -32,4 +38,4 @@ ht-degree: 67%
 
 ## 維度項目
 
-維度項目包含「行銷管道管理員」中的所有管道名稱。預設情況下，值包括 `"Paid search"`、`"Natural search"`、`"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"` 和 `"Referring domains"`。您可以在「行銷管道管理員」中新增或刪除管道，而這會影響此維度的值。
+維度項目包含「行銷管道管理員」中的所有管道名稱。 預設情況下，值包括 `"Paid search"`、`"Natural search"`、`"Display"`、`"Email"`、`"Affiliate"`、`"Direct"`、`"Internal"`、`"Social networks"` 和 `"Referring domains"`。 您可以在「行銷管道管理員」中新增或刪除管道，而這會影響此維度的值。

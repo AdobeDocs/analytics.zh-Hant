@@ -4,9 +4,14 @@ title: 組合
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/-uq3857ot-ryC7kM65VnCpoCfIB6LceHHcJNumujJcQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: 618
 ht-degree: 95%
 
 ---
@@ -25,9 +30,9 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics** 中的組合視覺化。_
+_本文會記錄_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics** 中的組合視覺化。_
 
-_請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** 版本。_
+_請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** 版本。_
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +55,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
 ## 使用
 
-1. 新增![評論](/help/assets/icons/ComboChart.svg) [!UICONTROL 組合]視覺化。 請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
+1. 新增![評論](/help/assets/icons/ComboChart.svg)[!UICONTROL 組合]視覺化。 請參閱「[將視覺化新增至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)」
 
 1. 從下拉式清單，選取 X 軸的維度和 Y 軸的量度。
 
@@ -68,7 +73,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
    輸出看起來會類似下列所示：
 
-   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 &#x200B;](assets/combo-output.png)
+   ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 ](assets/combo-output.png)
 
    目前期間顯示在長條圖中。 折線圖會表示比較期間。 折線圖上的圓點稱為&#x200B;*槓鈴*。
 

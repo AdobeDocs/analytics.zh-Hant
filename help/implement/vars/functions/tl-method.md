@@ -4,18 +4,22 @@ description: 傳送連結追蹤呼叫給 Adobe。
 feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/l5MY6tkXyDYBXEsrW11OBlFjgVANZplcRdwMZW9UL-U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: 873
 ht-degree: 62%
 
 ---
 
 # tl
 
-`tl()` 方法是 Adobe Analytics 的重要核心元件。它會使用頁面上定義的所有 Analytics 變數、編譯成影像要求，然後將該資料傳送至 Adobe 資料收集伺服器。它的作用與 [`t()`](t-method.md) 方法類似，不過此方法不會增加頁面瀏覽數。若要追蹤連結和其他不視為完整頁面載入的元素，這個方法非常有用。
+`tl()` 方法是 Adobe Analytics 的重要核心元件。 它會使用頁面上定義的所有 Analytics 變數、編譯成影像要求，然後將該資料傳送至 Adobe 資料收集伺服器。 它的作用與 [`t()`](t-method.md) 方法類似，不過此方法不會增加頁面瀏覽數。 若要追蹤連結和其他不視為完整頁面載入的元素，這個方法非常有用。
 
-如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 已啟用，AppMeasurement 會自動呼叫 `tl()` 方法，以便傳送下載連結和退出連結追蹤資料。如果您的組織想進一步控制要追蹤的連結與其行為，可以手動呼叫 `tl()` 方法。自訂連結只能手動追蹤。
+如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 已啟用，AppMeasurement 會自動呼叫 `tl()` 方法，以便傳送下載連結和退出連結追蹤資料。 如果您的組織想進一步控制要追蹤的連結與其行為，可以手動呼叫 `tl()` 方法。 自訂連結只能手動追蹤。
 
 ## 使用網頁SDK進行連結追蹤
 
@@ -84,13 +88,13 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 ### 連結物件 (必要)
 
-連結物件引數決定在離開頁面進行導覽前，瀏覽器是否最多等候 500 毫秒。如果影像要求在 500 毫秒內傳送，頁面會立即導覽至點按的連結。
+連結物件引數決定在離開頁面進行導覽前，瀏覽器是否最多等候 500 毫秒。 如果影像要求在 500 毫秒內傳送，頁面會立即導覽至點按的連結。
 
 >[!NOTE]
 >
->AppMeasurement 會自動針對退出連結啟用 [`useBeacon`](../config-vars/usebeacon.md) 變數，因此現代瀏覽器不再需要該引數。此引數在舊版 AppMeasurement 中較常使用。
+>AppMeasurement 會自動針對退出連結啟用 [`useBeacon`](../config-vars/usebeacon.md) 變數，因此現代瀏覽器不再需要該引數。 此引數在舊版 AppMeasurement 中較常使用。
 
-* `this`：等候最多 500 毫秒，讓 AppMeasurement 有時間傳送影像要求。預設值。
+* `this`：等候最多 500 毫秒，讓 AppMeasurement 有時間傳送影像要求。 預設值。
 * `true`：請勿等候。
 
 ```JavaScript
@@ -122,7 +126,7 @@ s.tl(true,"e","Example exit link");
 
 ### 連結名稱（建議）
 
-連結名稱引數是決定連結追蹤維度項目的字串。在報告中使用[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)、或[退出連結](/help/components/dimensions/exit-link.md)維度時，該字串包含維度項目。如果此引數未經設定，則會使用 [linkURL](../config-vars/linkurl.md) 變數。
+連結名稱引數是決定連結追蹤維度項目的字串。 在報告中使用[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)、或[退出連結](/help/components/dimensions/exit-link.md)維度時，該字串包含維度項目。 如果此引數未經設定，則會使用 [linkURL](../config-vars/linkurl.md) 變數。
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
@@ -131,7 +135,7 @@ s.tl(true,"d","Sea turtle PDF report");
 
 ### 變數覆寫（可選擇使用）
 
-可讓您變更單一呼叫的變數值。如需詳細資訊，請參閱[變數覆寫](../../js/overrides.md)。
+可讓您變更單一呼叫的變數值。 如需詳細資訊，請參閱[變數覆寫](../../js/overrides.md)。
 
 ```js
 var y = new Object();
@@ -179,7 +183,7 @@ function trackClickInteraction(name){
 
 ### 避免追蹤重複的連結
 
-如果 `trackDownloadLinks` 或 `trackExternalLinks` 已啟用，而且如果正確的篩選器相符，AppMeasurement 就會自動進行連結追蹤呼叫。如果您也手動針對這些連結點擊呼叫 `s.tl()`，可以將重複資料傳送至 Adobe。重複資料會增加報表數量，降低精確度。
+如果 `trackDownloadLinks` 或 `trackExternalLinks` 已啟用，而且如果正確的篩選器相符，AppMeasurement 就會自動進行連結追蹤呼叫。 如果您也手動針對這些連結點擊呼叫 `s.tl()`，可以將重複資料傳送至 Adobe。 重複資料會增加報表數量，降低精確度。
 
 例如，以下函數會針對相同的連結點擊傳送兩個連結追蹤呼叫 (手動和自動下載連結)：
 
@@ -189,7 +193,7 @@ function trackDownload(obj) {
 }
 ```
 
-您可以使用以下經過修改的函數，協助預防重複的連結追蹤呼叫。它會先檢查連結物件是否存在，並僅在連結物件為空字串時傳送手動連結追蹤呼叫。
+您可以使用以下經過修改的函數，協助預防重複的連結追蹤呼叫。 它會先檢查連結物件是否存在，並僅在連結物件為空字串時傳送手動連結追蹤呼叫。
 
 ```JavaScript
 function linkCode(obj) {

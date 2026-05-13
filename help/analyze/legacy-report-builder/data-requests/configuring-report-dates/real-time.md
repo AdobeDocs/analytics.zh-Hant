@@ -5,29 +5,35 @@ uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: User, Admin
 exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/asAfV6KFI2WLoa9jRGA408d-VrzRbGK5lDz-i6FMatc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: 259
+ht-degree: 33%
 
 ---
 
-# 即時報表
+# 即時報告
 
 {{legacy-arb}}
 
 顯示網頁流量與頁面訪問量即時排名，如此您便可更快速了解網站的趨勢。
 
-在即時報表中，Analytics 使用高頻度量及網站分析，將動態消息和零售網站的報表流量及頁面訪問量趨勢視覺化。可讓您了解資料中每一分鐘的即時趨勢，在收集資料後幾秒鐘內即可提供。它收集並串流資料至介面，使用即時關聯及追蹤內容與部分轉換。
+針對即時報表，Analytics會使用高頻量度和網站分析，以視覺化方式報告動態新聞和零售網站的流量和頁面檢視趨勢。 即時瞭解資料中的趨勢，從收集資料的分鐘到分鐘，只需幾秒鐘即可完成。 它會收集資料，並透過即時關聯和追蹤內容與部分轉換，將資料串流至介面。
 
 您可以：
 
-* 使用現有的度量、維度及分類，為每個報表套裝建立最多三個即時報表。使用次要維度關連至 (或劃分) 主要維度。
-* 除了新增全網站度量外，還可為每個報表新增三個維度或分類 (一個主要、兩個次要)。
-* 使用任何自訂事件、購物車事件或是例項。
-* 檢視達 20 小時的歷史、即時資料。
+* 使用現有的量度、維度和分類，為每個報告套裝建立最多三個即時報告。 使用次要維度來關聯主要維度（或劃分主要維度）。
+* 除了全網站量度外，為每個報告新增三個維度（或分類） （一個主要和兩個次要）。
+* 使用任何自訂事件、購物車事件或例項。
+* 檢視長達20小時的歷史即時資料。
 
-使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)啟用即時權限。
+即時尊重使用者和群組的許可權。 例如，如果您無權檢視收入，則無法檢視包含收入資料的即時報表。 不支援eVar （轉換量度）。 已在[管理工具](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)中啟用即時許可權。
 
 >[!NOTE]
 >

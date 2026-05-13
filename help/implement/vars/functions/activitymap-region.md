@@ -4,10 +4,14 @@ description: 自訂Activity Map收集所點按地區的方式。
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/--7PQfTw20gS6EdKvtlbaUtvw5HrdHx49NNDSC3JAso
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 13%
+source-wordcount: 218
+ht-degree: 15%
 
 ---
 
@@ -20,11 +24,11 @@ ht-degree: 13%
 
 ## 使用網頁SDK覆寫區域值
 
-您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
+您可以使用[`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend)回呼來更改網頁SDK承載或中止傳送資料。
 
 ## 使用Adobe Analytics擴充功能覆寫區域
 
-Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
 ## AppMeasurement中的ActivityMap.region和Analytics擴充功能自訂程式碼編輯器
 

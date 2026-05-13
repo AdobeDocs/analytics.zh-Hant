@@ -4,9 +4,13 @@ description: 將自訂事件新增至產品和事件變數。
 feature: Appmeasurement Implementation
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/WnRum8j4fP5rzQ4pz3hK2ORcpIv69oOz14mgvb1x3ME
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: 517
 ht-degree: 86%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 86%
 
 {{plug-in}}
 
-`addProductEvent` 外掛程式會將數值或貨幣事件新增至 [`products`](../page-vars/products.md) 變數。如果您想要將數值或貨幣事件新增至 `products` 變數，又不想擔心產品字串格式，Adobe 建議您使用此外掛程式。如果您未在 `products` 變數中使用數值或貨幣事件，就不需要使用此外掛程式。
+`addProductEvent` 外掛程式會將數值或貨幣事件新增至 [`products`](../page-vars/products.md) 變數。 如果您想要將數值或貨幣事件新增至 `products` 變數，又不想擔心產品字串格式，Adobe 建議您使用此外掛程式。 如果您未在 `products` 變數中使用數值或貨幣事件，就不需要使用此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -50,7 +54,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,11 +67,11 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 `addProductEvent` 函數會使用以下引數：
 
-* **`en`** (必要，字串)：要新增至 `products` 變數中最後一個項目的事件。如果 `products` 變數為空，系統會建立「空白」產品項目並附加事件 (與事件值)。
-* **`ev`** (必要，字串)：`en` 引數中指派給數值或貨幣事件的值。若未設定，則預設為 `1`。 未包含在字串引號中的數字也是有效的。
-* **`ap`** (可選，布林)：如果產品變數目前包含多個產品項目，`true` 值 (或 `1`) 會將事件新增至所有產品項目。若未設定，則預設為 `false`。
+* **`en`** (必要，字串)：要新增至 `products` 變數中最後一個項目的事件。 如果 `products` 變數為空，系統會建立「空白」產品項目並附加事件 (與事件值)。
+* **`ev`** (必要，字串)：`en` 引數中指派給數值或貨幣事件的值。  若未設定，則預設為 `1`。 未包含在字串引號中的數字也是有效的。
+* **`ap`** (可選，布林)：如果產品變數目前包含多個產品項目，`true` 值 (或 `1`) 會將事件新增至所有產品項目。  若未設定，則預設為 `false`。
 
-`addProductEvent` 不傳回任何內容，而是將事件與事件值新增至 `products` 變數。此外掛程式也會自動將事件新增至 [`events`](../page-vars/events/events-overview.md) 變數，因為此處也需要它。
+`addProductEvent` 不傳回任何內容， 而是將事件與事件值新增至 `products` 變數。 此外掛程式也會自動將事件新增至 [`events`](../page-vars/events/events-overview.md) 變數，因為此處也需要它。
 
 ## Cookie
 

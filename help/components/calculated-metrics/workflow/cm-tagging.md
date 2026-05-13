@@ -1,12 +1,17 @@
 ---
 description: 瞭解如何標籤計算量度以組織計算量度。
-title: 標記計算量度
+title: 標籤計算量度
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/GcufWZx6B2e-vv8MFhMsaW34nqfr2XdEK1bQ931HzRk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 5%
+source-wordcount: 170
+ht-degree: 4%
 
 ---
 
@@ -30,9 +35,9 @@ ht-degree: 5%
       * 從清單中選取一或多個現有標籤，或
       * 輸入新標籤並按&#x200B;**[!UICONTROL ENTER]**。 重複以上步驟以新增多個新標籤。
 
-1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存計算量度的標籤。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存計算量度的標籤。 選取「**[!UICONTROL 取消]**」進行取消。
 
-儲存後，標籤會列在[!UICONTROL 計算量度產生器]中選取之計算量度的[標籤](cm-tagging.md)欄位中。
+儲存後，標籤會列在[計算量度產生器](cm-tagging.md)中選取之計算量度的[!UICONTROL 標籤]欄位中。
 
 <!--
 In the Calculated metric manager, you can organize segments by tagging them.

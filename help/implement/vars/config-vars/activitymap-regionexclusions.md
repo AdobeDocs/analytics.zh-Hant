@@ -4,10 +4,14 @@ description: 依地區篩選Activity Map資料。
 role: Admin, Developer
 feature: Appmeasurement Implementation
 exl-id: 353282aa-860c-45dc-a6b0-8d9f1fa09f13
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/zUbYze30ROCQXroX3h85fwC-YMzJDyTKpnMgealhAZA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 13%
+source-wordcount: 198
+ht-degree: 18%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 13%
 
 ## 網頁SDK JavaScript資料庫中的地區排除
 
-啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`filterClickDetails`物件中使用`clickCollection`回呼。 在此回撥中，您可以檢查`linkRegion`的值，然後變更值或放棄連結追蹤資料的集合。
+啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`clickCollection`物件中使用`filterClickDetails`回呼。 在此回撥中，您可以檢查`linkRegion`的值，然後變更值或放棄連結追蹤資料的集合。
 
 ```js
 alloy("configure", {
@@ -39,7 +43,7 @@ alloy("configure", {
 
 ## 使用Adobe Analytics擴充功能的地區排除
 
-Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
 ## 使用AppMeasurement的s.ActivityMap.regionExclusions
 

@@ -1,17 +1,22 @@
 ---
-description: 管理員負責監控資料字典的健康狀況。這包括元件是否正在收集資料、獲得核准、包含特定說明，以及沒有重複。
-title: 監視資料字典健康狀況
+description: 管理員負責監控資料字典的健康狀況。 這包括元件是否正在收集資料、獲得核准、包含特定說明，以及沒有重複。
+title: 監視資料字母排序健康狀況
 feature: Components
 role: Admin
 exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: 237
 ht-degree: 100%
 
 ---
 
-# 監視資料字典健康狀況
+# 監視資料字母排序健康狀況
 
 Analytics 管理員負責維持健康的資料字典。
 
@@ -33,7 +38,7 @@ Analytics 管理員負責維持健康的資料字典。
 
 1. 開啟 Analysis Workspace 專案。
 
-1. 選取 Analysis Workspace 左邊的資料字典圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
+1. 選取 Analysis Workspace 左邊的資料字典圖示。 (存取資料字典的替代方法說明請見[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
 
    顯示資料字典視窗。
 
@@ -51,4 +56,4 @@ Analytics 管理員負責維持健康的資料字典。
 
    根據您所選取的，適當的篩選器將套用於資料字典，並且僅顯示相關的元件。
 
-1. 編輯任何元件以提升資料字典的健康狀況。有關如何在資料字典中編輯元件的資訊，請參閱[在資料字典中編輯元件條目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。
+1. 編輯任何元件以提升資料字典的健康狀況。 有關如何在資料字典中編輯元件的資訊，請參閱[在資料字典中編輯元件條目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。

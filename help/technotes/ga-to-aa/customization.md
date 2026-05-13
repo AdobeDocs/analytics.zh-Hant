@@ -3,16 +3,22 @@ title: Adobe Analytics 中的報表自訂功能
 description: 瞭解如何在 Adobe Analytics 中自訂報表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/vvVKR7JKV12zgIic0rso4OihH5kyAoZBV983R3VmOic
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 609
 ht-degree: 94%
 
 ---
 
 # 自訂報表
 
-在 Google Analytics 等協力廠商平台中，有數個自訂選項可供使用。這些自訂功能可讓使用者建立儀表板、自訂報表、已儲存報表，以及自訂警報。由於 Analysis Workspace 可讓使用者從空白畫布建立報表，因此大部分的自訂功能都直接內建在工具中。
+在 Google Analytics 等第三方平台中，有數個自訂選項可供使用。 這些自訂功能可讓使用者建立儀表板、自訂報表、已儲存報表，以及自訂警報。 由於 Analysis Workspace 可讓使用者從空白畫布建立報表，因此大部分的自訂功能都直接內建在工具中。
 
 本頁假設使用者具備使用 [!UICONTROL Analysis Workspace] 的基本知識。 如果您尚不熟悉 Adobe Analytics 中的工具，請參閱[在 Analysis Workspace 中建立基本報表 (Google Analytics 使用者適用)](reports/create-report.md)。
 
@@ -54,11 +60,11 @@ ht-degree: 94%
 
 ## 自訂報表
 
-在 Google Analytics 中建立自訂報表時，必填欄位類似在工作區中建立視覺效果時的工作流程。不同平台之間的維度、量度和篩選器定義都類似。在 Analysis Workspace 中，需要將維度和量度拖曳至自由表格，而不是從清單中選取維度和量度。
+在 Google Analytics 中建立自訂報表時，必填欄位類似在工作區中建立視覺效果時的工作流程。 不同平台之間的維度、量度和篩選器定義都類似。 在 Analysis Workspace 中，需要將維度和量度拖曳至自由格式表格，而不是從清單中選取維度和量度。
 
 ### 自訂報表中的計算量度
 
-自訂報表是 Google Analytics 中允許使用計算量度的少數區域之一。由於 Analysis Workspace 的運作方式有如畫布，因此計算量度能以回溯的方式運作，而且可在任何情境中運作。
+自訂報表是 Google Analytics 中允許使用計算量度的少數區域之一。 由於 Analysis Workspace 的運作方式有如畫布，因此計算量度能以回溯的方式運作，而且可在任何情境中運作。
 
 要建立計算量度：
 
@@ -72,4 +78,4 @@ ht-degree: 94%
 
 ## 自訂警報
 
-警報可在兩種平台上使用。在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。如需詳細資訊，請參閱「元件使用指南」中的[警示概觀](/help/components/alerts/alerts-overview.md)。
+警報可在兩種平台上使用。 在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。 如需詳細資訊，請參閱「元件使用指南」中的[警示概觀](/help/components/alerts/alerts-overview.md)。

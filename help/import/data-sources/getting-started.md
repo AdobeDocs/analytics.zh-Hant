@@ -4,10 +4,15 @@ description: 將範例資料上傳至開發報表套裝。
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/ekoyQHdhFXTc4bbOReIbGc-CKnhA3--laugeI91RvnU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 0%
+source-wordcount: 678
+ht-degree: 1%
 
 ---
 
@@ -24,7 +29,7 @@ ht-degree: 0%
 1. 使用右上方的下拉式清單，選取開發報表套裝。
 1. 按一下左上方的&#x200B;**[!UICONTROL 建立]**&#x200B;按鈕。
 1. 在[!UICONTROL 選取類別]下，選擇「[!UICONTROL 一般]」，然後在[!UICONTROL 選取型別]下，選擇「[!UICONTROL 一般資料Source （僅限摘要資料）]」。
-1. 按一下&#x200B;**[!UICONTROL 啟動]**。 隨即開啟快顯視窗，顯示[!UICONTROL 資料Source啟動精靈]。
+1. 按一下&#x200B;**[!UICONTROL 啟用]**。 隨即開啟快顯視窗，顯示[!UICONTROL 資料Source啟動精靈]。
    1. 步驟1：為資料來源命名，然後按一下免責宣告核取方塊。
    1. 步驟2：此步驟在舊版Adobe Analytics中有更多用途。 按一下核取方塊，然後在其旁邊的文字欄位中輸入任何值。
    1. 步驟3：選擇要包含在資料來源範本檔案中的量度。 從下拉式清單中選取「事件1」。
@@ -58,7 +63,7 @@ ht-degree: 0%
 1. 在Windows檔案總管、尋找器或您選擇的FTP使用者端中，導覽至[ftp://ftp.omniture.com](ftp://ftp.omniture.com)。
 1. 出現登入認證提示時，請使用資料來源建立精靈的最後一步驟中提供的使用者名稱和密碼。 您可以導覽至[!UICONTROL 資料來源]，然後按一下您建立的資料來源旁的&#x200B;**[!UICONTROL FTP資訊]**，以再次參考它。
 1. 驗證後，將您編輯的檔案拖曳至已驗證的FTP視窗。
-1. 在FTP視窗之外的任何位置建立空白文字檔。 為您提供和您上傳至FTP站台的資料來源檔案相同的檔案名稱，但有一個例外。 請指定`.txt`檔案型別，而不是`.fin`檔案型別。 請確定您的作業系統設定可讓您檢視及變更檔案型別。
+1. 在FTP視窗之外的任何位置建立空白文字檔。 為您提供和您上傳至FTP站台的資料來源檔案相同的檔案名稱，但有一個例外。 請指定`.fin`檔案型別，而不是`.txt`檔案型別。 請確定您的作業系統設定可讓您檢視及變更檔案型別。
 1. 將空的`.fin`檔案拖曳到與資料來源檔案相同的FTP位置。 `.fin`檔案的存在會告知Adobe資料來源檔案已完全上傳並準備好擷取。
 1. 幾分鐘後，檔案會從FTP位置消失，並顯示在報表中。
 1. 重新整理「資料來源」頁面，並驗證檔案是否已成功內嵌。

@@ -3,10 +3,16 @@ title: 遷移至 Adobe Analytics 的常見問題集
 description: 取得從第三方平台移動至 Adobe 時的常見問題解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 58d53d6013abcd7d99f2c3cb640d6a648a4ef360
+TQID: https://experienceleague.adobe.com/NJPnGHUG-9krAfzRZiNbMd7DS9q5gRGTm-1KM3DMXag
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 53%
+source-wordcount: 418
+ht-degree: 54%
 
 ---
 
@@ -14,7 +20,7 @@ ht-degree: 53%
 
 **如何將我的歷史資料從第三方平台移轉至 Adobe Analytics？**
 
-每個 Analytics 平台都有不同的資料收集、處理和儲存方式。Adobe 建議您不要移轉歷史資料，而應建立明確的截止日期，以開始在 Adobe Analytics 內收集和使用資料。會計年度的一開始、日曆年度的一開始或日曆月份的一開始，都是經常使用的截止日期。如果使用者想要檢視歷史資料，可登入第三方平台以取得任何特定的歷史報表需求。
+每個 Analytics 平台都有不同的資料收集、處理和儲存方式。 Adobe 建議您不要移轉歷史資料，而應建立明確的截止日期，以開始在 Adobe Analytics 內收集和使用資料。 會計年度的一開始、日曆年度的一開始或日曆月份的一開始，都是經常使用的截止日期。 如果使用者想要檢視歷史資料，可登入第三方平台以取得任何特定的歷史報表需求。
 
 如果貴組織堅持要將歷史資料移轉到Adobe，請聯絡您的Adobe客戶團隊。 實作顧問可與貴組織合作，將 Google Analytics 資料匯出轉譯為 Adobe 資料收集伺服器可內嵌的資料來源。
 
@@ -29,6 +35,6 @@ ht-degree: 53%
 
 存取此[!UICONTROL Workspace]專案的使用者現在可以使用此下拉式篩選器，將區段或其他元件套用至專案。 如需詳細資訊，請參閱 Adobe Analytics 工具指南中的[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
-**我習慣按一下維度項目來查看深入分析。我該如何在 Analysis Workspace 中重現這樣簡單的工作流程？**
+**我習慣按一下維度項目來查看深入分析。 我該如何在 Analysis Workspace 中重現這樣簡單的工作流程？**
 
-[!UICONTROL Analysis Workspace] 中的維度項目也有簡單的劃分工作流程。使用維度專案上的內容功能表來存取劃分。 然後選取&#x200B;**[!UICONTROL 劃分]**，以及所需的元件。 您可以對每個值使用&#x200B;***ctrl***+***select*** (Windows)或&#x200B;***cmd***+***select*** (Mac)，將相同的劃分套用至多個維度專案。
+[!UICONTROL Analysis Workspace] 中的維度項目也有簡單的劃分工作流程。 使用維度專案上的內容功能表來存取劃分。 然後選取&#x200B;**[!UICONTROL 劃分]**，以及所需的元件。 您可以對每個值使用&#x200B;***ctrl***+***select*** (Windows)或&#x200B;***cmd***+***select*** (Mac)，將相同的劃分套用至多個維度專案。

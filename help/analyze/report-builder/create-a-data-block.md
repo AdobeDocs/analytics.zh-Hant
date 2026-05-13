@@ -6,16 +6,20 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
-source-git-commit: ff1722416fe5062d16c12185d17271ebc2d6b624
+TQID: https://experienceleague.adobe.com/RDgK9vgflGZC0HWd1GD-9nmBNdsJAHYEWt4jrmLGw5w
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 20%
+source-wordcount: 773
+ht-degree: 21%
 
 ---
 
 # 建立資料區塊
 
-*資料區塊*&#x200B;是由單一資料請求所建立的資料表。Report Builder 活頁簿可包含多個資料區塊。當您建立資料區塊時，請先設定資料區塊，然後再建置資料區塊。
+*資料區塊*&#x200B;是由單一資料請求所建立的資料表。 Report Builder 活頁簿可包含多個資料區塊。 當您建立資料區塊時，請先設定資料區塊，然後再建置資料區塊。
 
 ## 設定資料區塊
 
@@ -75,7 +79,7 @@ ht-degree: 20%
 
    拖放表格窗格中每個清單內的元件，以重新排序元件，或選取![MoreSmall](/help/assets/icons/MoreSmall.svg)，然後選取![向上箭頭](/help/assets/icons/ArrowUp.svg)、向上箭頭![、向下箭頭](/help/assets/icons/ArrowDown.svg)、以及更多以移動清單內的元件。
 
-   當您將元件加入表格時，工作表中的「資料區塊」位置會顯示資料區塊的預覽。資料區塊預覽的版面配置會隨著您新增、移動或移除表格中的項目而自動更新。
+   當您將元件加入表格時，工作表中的「資料區塊」位置會顯示資料區塊的預覽。 資料區塊預覽的版面配置會隨著您新增、移動或移除表格中的項目而自動更新。
 
    ![熒幕擷圖顯示新增的元件和更新的工作表。](./assets/image10.png)
 
@@ -113,9 +117,9 @@ ht-degree: 20%
 
 >[!MORELIKETHIS]
 >
->[選擇報表套裝](select-report-suite.md)
+>[選取報表套裝](select-report-suite.md)
 >[選取日期範圍](select-date-range.md)
->[篩選維度](filter-dimensions.md)
+>[篩選器維度](filter-dimensions.md)
 >[使用區段](work-with-segments.md)
 >
 

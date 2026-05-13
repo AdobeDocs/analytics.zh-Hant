@@ -4,9 +4,14 @@ title: 已知限制
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/LyEGQ6cujNFJLknmiTqwNpj0iRKnimoZzTUbokSpIzE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 309
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 ## 表格
 
 * 日期範圍或量度在表格中設為列時，無法新增日期比較欄。
-* 區段在表格中設為列時，「從選取項目建立量度」功能會遭停用。此外，「從選取項目建立量度」不可套用至對齊日期的欄。
+* 區段在表格中設為列時，「從選取項目建立量度」功能會遭停用。 此外，「從選取項目建立量度」不可套用至對齊日期的欄。
 * 用於劃分列的條件式格式無法使用自訂範圍。
 * 採用「加總列中的值來計算總計」設定時 (通常與「靜態」列項目搭配使用)，表格總列數無法跟隨趨勢產生變化。
 
@@ -31,13 +36,13 @@ ht-degree: 100%
 ## 區段
 
 * [!UICONTROL 「事件」]、[!UICONTROL 「人員」]等特定量度和維度無法進行劃分。
-* 在[面板放置區](/help/analyze/analysis-workspace/c-panels/panels.md)中建立的臨時區段是一種快速區段。除非設定為公開，否則它們不會顯示在 Workspace 或區段元件管理器的左側面板中。如需詳細資訊，請參閱[快速區段](/help/components/segmentation/segmentation-workflow/seg-quick.md)。
+* 在[面板放置區](/help/analyze/analysis-workspace/c-panels/panels.md)中建立的臨時區段是一種快速區段。 除非設定為公開，否則它們不會顯示在 Workspace 或區段元件管理器的左側面板中。 如需詳細資訊，請參閱[快速區段](/help/components/segmentation/segmentation-workflow/seg-quick.md)。
 
-## 計算的量度
+## 計算量度
 
-* 特定視覺化呈現中無法使用計算量度。請參閱[視覺化呈現](#visualizations)。
+* 特定視覺化呈現中無法使用計算量度。 請參閱[視覺化呈現](#visualizations)。
 * 「[!UICONTROL 歸因]」面板中無法使用計算量度，因為計算量度本身可能包含個別的歸因模型。
-* 如果從工作區中建立計算量度，而非經由「[!UICONTROL 元件 > 區段]」建立，則某些元件和運算子會無法使用。例如 [!UICONTROL IP 位址]。
+* 如果從工作區中建立計算量度，而非經由「[!UICONTROL 元件 > 區段]」建立，則某些元件和運算子會無法使用。 例如 [!UICONTROL IP 位址]。
 
 ## 日期範圍
 
@@ -46,7 +51,7 @@ ht-degree: 100%
 
 ## 報告設定
 
-* [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
+* [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。 Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
 
 
 

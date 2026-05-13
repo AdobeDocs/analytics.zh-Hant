@@ -4,16 +4,21 @@ description: 防止某些 IP 位址產生的資料出現在報表中。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 role: Admin
-source-git-commit: 4b4febd839682d88164b2f505245441d18ef2543
+TQID: https://experienceleague.adobe.com/OfpXjqwAyn6DDwykgQMbYMIZXNPklUVvDFU1CsuC9CU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: 318
 ht-degree: 28%
 
 ---
 
 # 依 IP 位址排除
 
-您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。排除資料可排除IP位址資料，進而改善報表正確性。 此外，您也可以從拒絕服務或其他可能扭曲報表資料的惡意事件移除資料。
+您可以從報告中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。 排除資料可排除IP位址資料，進而改善報表正確性。 此外，您也可以從拒絕服務或其他可能扭曲報表資料的惡意事件移除資料。
 
 若要依IP位址排除資料，您可以依照下列說明設定排除專案，或是[設定防火牆](/help/technotes/ip-addresses.md)。
 
@@ -25,7 +30,7 @@ ht-degree: 28%
 >
 >* 依 IP 位址排除的點擊在帳單中會計為[伺服器呼叫](/help/technotes/terms.md)。
 >* 私人 IP 位址不需要排除。 只有外部 IP 位址可以聯繫 Adobe 資料收集伺服器。 私人位址包括 `10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*` 和 `169.254.*.*`。
->* 您可以使用萬用字元指標(&#42;)來排除某個位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
+>* 您可以使用萬用字元指標(&#42;)來排除某個位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。 最多可以排除 50 個不同的 IP 位址。
 >* 在設定排除後5分鐘內任何進入系統的新點選，都會排除排除的IP位址中的資料。
 >* 變更IP位址前所擷取的點選資料不受影響。 IP排除僅適用於未來的資料。
 >* 排除的點選仍會顯示在[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) （標示為`exclude_hit = 4`）中。

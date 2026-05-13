@@ -4,16 +4,21 @@ description: 使用外部檔案將資料匯入Adobe Analytics。
 exl-id: 5ec8bc51-dfd2-497c-aebc-a32d87efc97e
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/AOl1PUYf4TL0FrYB8eHL-JLiWvz6ixJYKUPpIZEFqj8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: 327
+ht-degree: 4%
 
 ---
 
 # 資料來源概觀
 
-Adobe Analytics資料來源可讓您匯入更多重要的線上或離線資料以用於報表。 它們十分有助於瞭解網站外部業務的各個層面，以及它們如何與您的網站互動。 使用資料來源的一般工作流程包含下列步驟：
+Adobe Analytics 資料來源可讓您匯入更多重要的線上或離線資料以用於報告。 它們十分有助於瞭解網站外部業務的各個層面，以及它們如何與您的網站互動。 使用資料來源的一般工作流程包含下列步驟：
 
 1. 您的組織會從其他來源收集資料。 範例包括點按前資料、客服中心資料或發生在網站外部的交易資訊。
 1. 資料的格式化，是以Tab分隔的文字檔案讓Adobe Analytics瞭解。
