@@ -2,12 +2,11 @@
 description: 了解如何設定歷程畫布視覺化圖表。
 title: 設定歷程畫布視覺化圖表
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: '5614'
-ht-degree: 96%
+source-wordcount: '5783'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -39,7 +38,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -147,7 +146,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 1. 重複此程序，繼續新增節點來建置您的歷程。
 
-1. 繼續自訂歷程，如下一個區段所述。 您可以連接節點、重新命名節點、套用劃分、建立客群、新增時間限制等。
+1. 繼續自訂歷程，如下一個區段所述。 您可以連線節點、重新命名節點、套用劃分、新增時間限制等。
 
 ### 根據現有節點顯示熱門的節點
 
@@ -441,6 +440,8 @@ To change the color of a node or arrow:
 
 * 節點之間的多個箭頭
 
+* 流失資料（流失顯示在節點上時）
+
 套用劃分時，請考量下列事項：
 
 * 劃分會套用至主要量度。 次要量度不受影響。
@@ -451,15 +452,17 @@ To change the color of a node or arrow:
 
 * 如果在歷程的較早時間點進行變更，則會更新劃分資料。
 
-#### 將劃分套用至一個或多個節點或箭頭
+#### 將劃分套用至節點、箭頭或流失資料
 
-1. 在歷程畫布視覺化圖表中，選取一個或多個要套用劃分的節點，然後在其中一個選取的節點上按一下滑鼠右鍵。
+1. 在「歷程」畫布視覺效果中，執行下列任一項作業：
 
-   或
+   * 以滑鼠右鍵按一下您要套用劃分的節點即將傳送的流失（顯示流失時）。
 
-   在歷程畫布視覺化圖表中，選取您要套用劃分的 2 個節點之間的一個或多個箭頭，然在其中一個選取的箭頭上按一下滑鼠右鍵。
+   * 選取一或多個要套用劃分的節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
-   若要選取多個節點或箭頭，請按住 Command (在 Mac 上) 或 Ctrl (在 Windows 上)。
+   * 在2個要套用劃分的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+
+     若要選取多個節點或箭頭，請按住 Command (在 Mac 上) 或 Ctrl (在 Windows 上)。
 
 1. 選取「[!UICONTROL **劃分**]」。
 
@@ -505,21 +508,33 @@ To change the color of a node or arrow:
 
 * 節點之間的多個箭頭
 
+* 流失資料（流失顯示在節點上時）
+
 若要檢視趨勢資料：
 
-1. 在歷程畫布視覺化圖表中，選取一個或多個您要檢視趨勢資料的節點，然後在其中一個選取的節點上按一下滑鼠右鍵。
+1. 在「歷程」畫布視覺效果中，執行下列任一項作業：
 
-   或
+   * 以滑鼠右鍵按一下您要檢視趨勢資料之節點的流失（顯示流失時）。
 
-   在歷程畫布視覺化圖表中，選取您想要檢視趨勢資料的兩個節點之間的一個或多個箭頭，然後在其中一個選取的箭頭上按一下滑鼠右鍵。
+   * 選取您要檢視趨勢資料的一或多個節點，然後以滑鼠右鍵按一下其中一個選取的節點。
 
-   若要選取多個節點或箭頭，請按住 Command (在 Mac 上) 或 Ctrl (在 Windows 上)。
+   * 在2個您要檢視趨勢資料的節點之間選取一或多個箭頭，然後以滑鼠右鍵按一下其中一個選取的箭頭。
+
+     若要選取多個節點或箭頭，請按住 Command (在 Mac 上) 或 Ctrl (在 Windows 上)。
 
 1. 選取「[!UICONTROL **趨勢**]」。
 
-### 根據節點或箭頭建立區段
+### 根據節點、箭頭或流失建立區段
 
-您可以根據歷程中的節點或箭頭來建立新區段。 區段建立後，您就可以在 Analysis Workspace 的任何位置使用。
+建立區段的選項適用於畫布上的下列物件：
+
+* 單一節點
+
+* 節點之間的箭頭
+
+* 流失資料（流失顯示在節點上時）
+
+區段建立後，您就可以在 Analysis Workspace 的任何位置使用。
 
 從歷程畫布建立的區段使用[循序細分](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。 這表示區段會使用 THEN 運算子，將人們流經的事件 (歷程) 序列連接在一起，再到達選取的節點或箭頭。 所有符合所選節點或箭頭的事件都會納入區段中。
 
@@ -527,9 +542,9 @@ To change the color of a node or arrow:
 
 若要建立區段：
 
-1. 在歷程畫布視覺化圖表中，在您要用來建立區段的節點或箭頭上按一下滑鼠右鍵。
+1. 在「歷程畫布」視覺效果中，以滑鼠右鍵按一下您要用來建立區段的節點、箭頭或流失資料。
 
-1. 選取「[!UICONTROL **從節點建立區段**]」，或「[!UICONTROL **從箭頭建立區段**]」。
+1. 選取&#x200B;[!UICONTROL **從節點建立區段**]、[!UICONTROL **從箭頭**]&#x200B;建立區段，或&#x200B;[!UICONTROL **從流失建立區段**]。
 
    接著會顯示區段產生器。 在&#x200B;[!UICONTROL **定義**]&#x200B;區段中，區段的定義是根據您選取的節點或箭頭及其在歷程中的內容建立的。
 
@@ -546,6 +561,22 @@ To change the color of a node or arrow:
 1. 在歷程畫布視覺化圖表中，選取一個或多個要刪除的節點，然後在其中一個選取的節點上按一下滑鼠右鍵。
 
 1. 選取「[!UICONTROL **刪除**]」。
+
+### 排除節點
+
+當您從歷程排除節點時，歷程資料會更新，以排除經過該節點的歷程。 歷程的區段定義也會更新，以排除經過該節點的歷程。
+
+若要從歷程排除節點：
+
+1. 在「歷程」畫布視覺效果中，以滑鼠右鍵按一下您要排除的節點。
+
+1. 選取&#x200B;[!UICONTROL **從歷程排除**]。
+
+若要在歷程中重新包含排除的節點：
+
+1. 在「歷程」畫布視覺效果中，以滑鼠右鍵按一下排除的節點。
+
+1. 選取&#x200B;[!UICONTROL **移除歷程排除**]。
 
 ### 刪除節點之間的箭頭
 

@@ -4,27 +4,14 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7c04b33e94152be8826005cb9617cb49dadbdcb9
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
-source-wordcount: 1340
-ht-degree: 62%
+source-wordcount: 1365
+ht-degree: 61%
 
 ---
 
@@ -39,7 +26,7 @@ ht-degree: 62%
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
 | **適用於Adobe Analytics的MCP伺服器** <br/>Analytics MCP （模型內容通訊協定）伺服器可讓您將支援的MCP使用者端連線至Adobe Analytics。 在連線之後，您的MCP使用者端可以叫用產品特定工具來擷取資料、執行查詢，或執行支援的作業作為LLM或代理工作流程的一部分。 如需詳細資訊，請參閱[Analytics MCP伺服器](https://developer.adobe.com/analytics-mcp/docs/)。<p>如果您在Beta版使用這些MCP伺服器，請注意，Beta版和生產端點之間有不同的URL。 請確定在5月31日之前建立的任何代理工作流程均已更新為使用生產端點。</p> | | 2026年5月5日 |
-| **Adobe Analytics中的歷程畫布** <br/>歷程畫布是Analysis Workspace中的視覺效果，可讓您通過分析人們如何進行或離開歷程，深入瞭解已定義的使用者歷程。 它可讓您建立節點和箭頭的彈性圖形，代表歷程中所包含的事件、維度專案和區段的任意組合。 將節點拖曳至畫布或重新排列歷程的事件和條件時，資料會更新。<p>歷程畫布先前僅適用於Customer Journey Analytics。</p><p>(文件連結待補充。)<!--To learn more about Journey canvas in Adobe Analytics, see Journey canvas overview. To learn how to build a Journey canvas visualization in Adobe Analytics, see Configure Journey canvas.--></p> | 2026年5月18日 | 2026年6月5日 |
+| **Adobe Analytics中的歷程畫布** <br/>歷程畫布是Analysis Workspace中的視覺效果，可讓您通過分析人們如何進行或離開歷程，深入瞭解已定義的使用者歷程。 它可讓您建立節點和箭頭的彈性圖形，代表歷程中所包含的事件、維度專案和區段的任意組合。 將節點拖曳至畫布或重新排列歷程的事件和條件時，資料會更新。<p>歷程畫布先前僅適用於Customer Journey Analytics。</p><p>若要進一步瞭解Adobe Analytics中的Journey Canvas，請參閱[Journey Canvas概觀](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md)。 </p><p>若要瞭解如何在Adobe Analytics中建置歷程畫布視覺效果，請參閱[設定歷程畫布](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)。</p> | 2026年5月18日 | 2026年6月5日 |
 | **歸因模型API報告指南** <br/>新的Adobe Analytics 2.0 API歸因模型報告指南已推出。 指南涵蓋如何在Dimension API報表中包含歸因模型物件資料。<p>如需詳細資訊，請參閱[Dimension API歸因模型](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel)。</p> | | 2026年5月 |
 | **串流媒體服務：支援排程資料**<br/>您現在可以上傳過去串流媒體直播內容的排程資料，讓您追蹤觀看人數更輕鬆也更準確。<p>以下是支援排程資料上傳的直播內容範例：</p><ul><li>FAST (免費廣告支援的電視) 平台</li><li>本地串流</li><li>現場體育賽事</li></ul><p>透過上傳排程資料，您可以追蹤上傳檔案中指定時間內播出的各個節目之觀看人數資料。 您甚至可以收集特定主題或節目區段的觀看人數資料。</p><p>無論您以何種方式實施串流媒體收集，均可使用這些功能。</p><p>過去在分析直播內容時，無法準確地將特定工作階段與特定節目相關聯，亦無法將特定工作階段與個別主題或節目區段相關聯。</p><p>如需詳細資訊，請參閱[上傳排程資料以追蹤即時內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 2025 年 10 月 29 日 | 2026 年上半年<p>(原規劃於 2025 年 10 月 29 日發行)</p> |
 
@@ -82,4 +69,4 @@ ht-degree: 62%
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
 * [Customer Journey Analytics發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 * [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
-* [Adobe Experience Cloud 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+* [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
