@@ -82,4 +82,4 @@ ht-degree: 60%
 * [2025 年舊版發行說明](/help/release-notes/2025.md)
 * [Customer Journey Analytics發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 * [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
-* [Adobe CX Enterprise產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新
+* [Adobe CX Enterprise產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新版更新

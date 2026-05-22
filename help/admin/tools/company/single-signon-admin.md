@@ -22,4 +22,4 @@ ht-degree: 28%
 
 Adobe CX Enterprise中的單一登入是透過Admin Console實作。
 
-如需協助，請參閱[管理使用手冊](https://www.adobe.com/go/analytics_sso_en)。
+如需協助，請參閱[管理使用手冊](https://www.adobe.com/go/analytics_sso_tw)。
