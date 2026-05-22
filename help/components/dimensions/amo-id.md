@@ -4,10 +4,18 @@ description: Adobe Media Optimizer ID，用於Adobe Advertising整合。
 feature: Dimensions
 exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
 TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 793
@@ -151,7 +159,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 | **[!UICONTROL 廣告平台]** | 廣告DSP或搜尋引擎名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
 | **[!UICONTROL 廣告標題]** | 廣告型別(DSP)或廣告標題（搜尋、社交和Commerce）。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
 | **[!UICONTROL 廣告型別]** | 廣告型別，例如`text`、`video`、`display`或`native`。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
-| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 ]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
+| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 &#x200B;]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
 | **[!UICONTROL Campaign]** | 行銷活動名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
 | **[!UICONTROL Creative體驗名稱]** | 和廣告互動相關聯的創意體驗名稱，代表測試或個人化中使用的一組創意變體。 | 檢查(&amp;C)； | |
 | **[!UICONTROL Creative分支名稱]** | 創意體驗中的分支名稱，代表創意實驗中的特定變數或路徑。 | 檢查(&amp;C)； | |
