@@ -3,9 +3,19 @@ title: 資料摘要的疑難排解
 description: 瞭解資料摘要工作可能無法處理或傳送資料的原因。 解決資料摘要的潛在問題。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: 471
 ht-degree: 95%
 
 ---
@@ -34,12 +44,12 @@ ht-degree: 95%
 
 如果新的資料摘要傳回錯誤，請手動將測試檔案上傳到 FTP 網站來進行疑難排解。 在大多數情況下，您可以使用這些步驟來確定故障點。
 
-1. 使用檔案總管 (Windows) 或 Finder (Mac) 登入您的 FTP 站台。請務必使用 FTP 通訊協定 (`ftp://`) 並允許 [Adobe 的 IP 位址](/help/technotes/ip-addresses.md)通過貴組織的防火牆。 如果您無法連線 FTP 網站，請洽詢 FTP 網站負責人來確定正確的目的地。
+1. 使用檔案總管 (Windows) 或 Finder (Mac) 登入您的 FTP 站台。 請務必使用 FTP 通訊協定 (`ftp://`) 並允許 [Adobe 的 IP 位址](/help/technotes/ip-addresses.md)通過貴組織的防火牆。 如果您無法連線 FTP 網站，請洽詢 FTP 網站負責人來確定正確的目的地。
 
    ![檔案總管](assets/file_explorer.png)
 
-2. 此時會出現快顯視窗，詢問使用者名稱和密碼。請輸入您的驗證憑證。如果接受憑證，視窗會顯示 FTP 站台上的目前內容。如果認證不被接受，請洽詢 FTP 負責人，以確定使用者名稱和密碼正確無誤。 如果使用 SFTP，請務必遵循 [SFTP 指南](../ftp-and-sftp/c-sftp/ftp-sftp.md)中的每個步驟。 請注意，Adobe 不是所有 SFTP 使用案例都有支援。
-3. 將檔案拖曳至已驗證的視窗，即可將檔案上傳至 FTP 站台。任何影像或文字檔案均可。如果嘗試將檔案置入 FTP 站台時發生錯誤，請與 FTP 擁有者合作，確認磁碟空間足夠，且使用者名稱具有 FTP 站台的寫入權限。
+2. 此時會出現快顯視窗，詢問使用者名稱和密碼。 請輸入您的驗證憑證。 如果接受憑證，視窗會顯示 FTP 站台上的目前內容。 如果認證不被接受，請洽詢 FTP 負責人，以確定使用者名稱和密碼正確無誤。 如果使用 SFTP，請務必遵循 [SFTP 指南](../ftp-and-sftp/c-sftp/ftp-sftp.md)中的每個步驟。 請注意，Adobe 不是所有 SFTP 使用案例都有支援。
+3. 將檔案拖曳至已驗證的視窗，即可將檔案上傳至 FTP 站台。 任何影像或文字檔案均可。 如果嘗試將檔案置入 FTP 站台時發生錯誤，請與 FTP 擁有者合作，確認磁碟空間足夠，且使用者名稱具有 FTP 站台的寫入權限。
 4. 確認檔案位於 FTP 站台後，您可以刪除上一步驟中上傳的檔案。
 
 如果正確執行上述所有步驟，但還是收到 FTP 錯誤，請聯絡客戶服務。

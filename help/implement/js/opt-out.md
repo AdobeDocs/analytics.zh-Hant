@@ -5,10 +5,26 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
+TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 67%
+source-wordcount: 638
+ht-degree: 65%
 
 ---
 
@@ -16,18 +32,17 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>
-> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
+> 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
 
-網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
+網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。 Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 
-您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議改用[Adobe Experience Cloud選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。 選擇加入服務更加健全，可跨多種Adobe Experience Cloud產品運作，包括Adobe Analytics和AppMeasurement。
+您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議改用[Adobe CX Enterprise選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。 選擇加入服務更為健全，可搭配多個Adobe CX Enterprise產品運作，包括Adobe Analytics和AppMeasurement。
 
-當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。如果使用者選擇不被追蹤且已設定選擇退出Cookie，AppMeasurement會繼續將資料傳送至Adobe。 不過這些資料不會經過處理，也不會納入報表。
+當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。 如果使用者選擇不被追蹤且已設定選擇退出Cookie，AppMeasurement會繼續將資料傳送至Adobe。 不過這些資料不會經過處理，也不會納入報表。
 
 >[!TIP]
 >
->Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md)。
+>Adobe 另提供隱私權設定給每個報表套裝。 請參閱「管理員使用指南」中的[隱私權設定](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md)。
 
 ## 退出 URL
 
@@ -43,12 +58,12 @@ ht-degree: 67%
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
    1. 記下 `trackingServer` 變數值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hant)：
+* 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hant)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
-   1. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標記。
+   1. 開啟CX Enterprise Debugger，然後前往[!UICONTROL 網路標籤]。
    1. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
 
-找出實作的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
+找出實作的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。 例如：
 
 * 第三方 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie：`https://stats.example.com/optout.html`
@@ -59,7 +74,7 @@ ht-degree: 67%
 
 ### 地區
 
-加入 `locale` 查詢字串參數，自動切換選擇退出頁面的語言。將以下任一值指派給此查詢字串參數：
+加入 `locale` 查詢字串參數，自動切換選擇退出頁面的語言。 將以下任一值指派給此查詢字串參數：
 
 * `en_US` （英文，預設）
 * `bg_BG` （保加利亞文）
@@ -88,22 +103,22 @@ ht-degree: 67%
 
 ### 快顯視窗
 
-在頁面中新增「關閉視窗」按鈕，保留將選擇退出頁面變成快顯視窗的可能。使用 `popup` 查詢字串參數，並指定 `1` 值。
+在頁面中新增「關閉視窗」按鈕，保留將選擇退出頁面變成快顯視窗的可能。 使用 `popup` 查詢字串參數，並指定 `1` 值。
 
 例如，`https://example.data.adobedc.net/optout.html?popup=1` 會載入包含「關閉視窗」按鈕的選擇退出頁面。
 
 >[!NOTE]
 >
->在過去，此查詢字串參數會強制顯示快顯視窗。不過現代化的瀏覽器大多將快顯視窗的控制權交給一般使用者。
+>在過去，此查詢字串參數會強制顯示快顯視窗。 不過現代化的瀏覽器大多將快顯視窗的控制權交給一般使用者。
 
 ### 單一點擊選擇退出
 
-允許使用者立即選擇退出追蹤。新增 `opt_out` 和 `confirm_change` 兩個查詢字串參數，並為每個參數指定 `1` 值。
+允許使用者立即選擇退出追蹤。 新增 `opt_out` 和 `confirm_change` 兩個查詢字串參數，並為每個參數指定 `1` 值。
 
 例如，`https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` 會立即將選擇退出 Cookie 安裝在訪客頁面上。
 
 ### 單一點擊選擇加入
 
-透過刪除選擇退出 Cookie，讓使用者立即選擇重新加入追蹤。新增 `opt_in` 和 `confirm_change` 兩個查詢字串參數，並為每個參數指定 `1` 值。
+透過刪除選擇退出 Cookie，讓使用者立即選擇重新加入追蹤。 新增 `opt_in` 和 `confirm_change` 兩個查詢字串參數，並為每個參數指定 `1` 值。
 
 例如，`https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` 會立即刪除訪客的選擇退出 Cookie。

@@ -3,10 +3,19 @@ title: 管理資料摘要
 description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯和檢視資料摘要。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 18%
+source-wordcount: 1329
+ht-degree: 24%
 
 ---
 
@@ -47,11 +56,11 @@ ht-degree: 18%
 
 ## 編輯資料摘要
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 找到您要編輯的資料摘要。 若要尋找資料摘要，您可以[篩選及搜尋資料摘要清單](#filter-and-search-the-list-of-data-feeds)。
 
-1. 在&#x200B;[!UICONTROL **摘要名稱**]&#x200B;欄中選取資料摘要。
+1. 在「[!UICONTROL **摘要名稱**]」欄中選取資料摘要。
 
 1. 對資料摘要進行任何需要的變更。
 
@@ -67,7 +76,7 @@ ht-degree: 18%
 
 ## 篩選及搜尋資料摘要清單
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 使用搜尋或篩選來找出特定摘要。
 
@@ -81,7 +90,7 @@ ht-degree: 18%
 
 ## 檢視資料摘要工作
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取「[!UICONTROL **工作**]」標籤，檢視您的每個摘要所建立的個別工作。
 
@@ -91,7 +100,7 @@ ht-degree: 18%
 
 ## 複製資料摘要
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取您要複製之資料摘要旁的核取方塊，然後選取&#x200B;[!UICONTROL **複製**]。
 
@@ -111,7 +120,7 @@ ht-degree: 18%
 
 若要暫停資料摘要：
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取您要暫停的資料摘要旁的核取方塊，然後選取&#x200B;[!UICONTROL **暫停**]。
 
@@ -127,7 +136,7 @@ ht-degree: 18%
 
 若要啟用資料摘要：
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取您要啟動的非使用中資料摘要旁的核取方塊，然後選取&#x200B;[!UICONTROL **啟動**]。
 
@@ -137,7 +146,7 @@ ht-degree: 18%
 
 若要刪除資料摘要：
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取您要刪除之資料摘要旁的核取方塊，然後選取&#x200B;[!UICONTROL **刪除**]。
 

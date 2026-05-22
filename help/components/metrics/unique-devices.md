@@ -3,22 +3,34 @@ title: 不重複裝置
 description: 不重複裝置數量。
 feature: Metrics
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 16a9c9a2b6692b9b1944cfdb9b5b0411d48db666
+TQID: https://experienceleague.adobe.com/7KUpaGPuFGBHTXj8L4MKnjOsi1YQtA8KUCIXSa-NtXc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 266
 ht-degree: 73%
 
 ---
 
 # 不重複裝置
 
-「不重複裝置」[量度](overview.md)是計算獨特、未識別裝置和獨特虛擬裝置數的[跨裝置分析](../cda/overview.md)量度。 未識別裝置指產生匿名點擊的裝置。獨特的虛擬裝置指依裝置識別的不同使用者。
+「不重複裝置」[量度](overview.md)是計算獨特、未識別裝置和獨特虛擬裝置數的[跨裝置分析](../cda/overview.md)量度。 未識別裝置指產生匿名點擊的裝置。 獨特的虛擬裝置指依裝置識別的不同使用者。
 
 ## 此量度的計算方式
 
 針對每個裝置，將所有與其相關聯的不同使用者 (如果裝置包含非拼接點擊，則包括匿名) 相加。
 
-請注意，該量度並不等於非 CDA 報表套裝中的[不重複訪客](unique-visitors.md)。例如，單一裝置由 3 個不同的帳戶共用。如果所有3個帳戶都在報表時段中造訪您的網站，則產生的報表會在CDA中顯示3個不重複裝置。 CDA 之外的相同資料將顯示 1 個不重複訪客。
+請注意，該量度並不等於非 CDA 報表套裝中的[不重複訪客](unique-visitors.md)。 例如，單一裝置由 3 個不同的帳戶共用。 如果所有3個帳戶都在報表時段中造訪您的網站，則產生的報表會在CDA中顯示3個不重複裝置。 CDA 之外的相同資料將顯示 1 個不重複訪客。
 
 ## 範例
 

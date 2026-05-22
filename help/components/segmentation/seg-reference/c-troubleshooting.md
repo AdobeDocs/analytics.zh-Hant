@@ -1,18 +1,30 @@
 ---
-description: 瞭解如何排除和修復與網段相關的問題。
+description: 瞭解如何疑難排解及修正與區段相關的問題。
 title: 疑難排解
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/-9XPy2cFezGBFnygKW4gbHG2zuNBfn5Z29InEDF58ZM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: 181
 ht-degree: 9%
 
 ---
 
 # 疑難排解
 
-本文列出了有關這些段的一些常見問題以及如何解決這些問題。
+本文列出區段的一些常見問題，以及如何疑難排解這些問題。
 
 <!--
 Looks like this is not part anymore of the current UI.
@@ -29,25 +41,25 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 可能的原因包括：
 
-* 反向嵌套 — 例如，在![訪問](/help/assets/icons/User.svg) **[!UICONTROL 訪問]**&#x200B;容器下嵌套![用戶](/help/assets/icons/Visit.svg) **[!UICONTROL 訪問者]**&#x200B;容器。
-* 該報告不支援分段。
-* 沒有與分段標準匹配的資料。
+* 反向巢狀 — 例如，在![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 造訪]**&#x200B;容器下巢狀![使用者](/help/assets/icons/User.svg) **[!UICONTROL 訪客]**&#x200B;容器。
+* 報表不支援分段。
+* 沒有資料符合分段條件。
 
-## 為什麼我看不到在段管理器中建立的段？ {#invisible}
-
-可能的原因包括：
-
-* 某些維僅在Data Warehouse中可用，在「段」(Segment)管理器中不可用。
-* 只為特定報表套件選中段。
-* 共用段可能已被其他用戶刪除。
-* 由於資料中心或瀏覽器快取問題，無法載入段。
-* 尚未保存段。
-* IP地址可能在用戶端被阻止。
-
-## 為什麼應用段後顯示的資料似乎不正確？ {#page-data}
+## 為什麼我在區段管理員中看不到我建立的區段？ {#invisible}
 
 可能的原因包括：
 
-* 規則或運算子對於所需結果不正確。
-* 段中容器的使用不正確。
-* 用於段的流量變數設定不正確或已過期。
+* 部分維度僅可在Data Warehouse中使用，不可在「區段管理器」中使用。
+* 系統只會針對特定報表套裝勾選「區段」 。
+* 共用區段可能已遭其他使用者刪除。
+* 由於資料中心或瀏覽器快取問題，無法載入區段。
+* 區段尚未儲存。
+* 使用者端可能會封鎖IP位址。
+
+## 為什麼在套用區段後顯示的資料不正確？ {#page-data}
+
+可能的原因包括：
+
+* 規則或運運算元對所需結果而言不正確。
+* 區段內容器的使用不正確。
+* 用來劃分割槽段的流量變數未正確設定或已過期。

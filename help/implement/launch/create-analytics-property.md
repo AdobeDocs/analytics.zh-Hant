@@ -4,16 +4,29 @@ description: 使用標記建立空間來自訂資料收集的方式。
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/2cZHjGRwvLZPL-jmGLOQpgSXr5Rib8nMeqFWj2cCKAA'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 100%
+source-wordcount: 520
+ht-degree: 94%
 
 ---
 
 # 建立 Adobe Analytics 標記屬性
 
-Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Cloud 解決方案 (包括 Analytics)。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實作。
+Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決方案（包括Analytics）。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實作。
 
 ## 先決條件
 
@@ -21,15 +34,15 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 ## 建立標記屬性，並安裝重要擴充功能
 
-屬性是用來管理標記的普遍容器。擴充功能可讓您安裝產品專屬標記並加以設定。
+屬性是用來管理標記的普遍容器。 擴充功能可讓您安裝產品專屬標記並加以設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下 **[!UICONTROL 新增屬性]**。
-1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的標記屬性以輸入其設定。
 1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 目錄]**。
 1. 找出「Experience Cloud ID Service」，然後按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 所有設定 (包括 Experience Cloud 組織 ID) 皆應已填寫。按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 所有設定（包括CX Enterprise組織ID）皆應已填寫。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 返回擴充功能目錄，找到 Adobe Analytics 並按一下&#x200B;**[!UICONTROL 安裝]**。
 
 如需更多詳細資訊，請參閱 [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)的完整文件。
@@ -50,7 +63,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
      >[!NOTE]
      >
-     >此值用作協助入門的示例。如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
+     >此值用作協助入門的示例。 如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
    * 已勾選簡潔文字
    * 儲存期限：無
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
@@ -61,7 +74,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
-1. 按一下&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增規則]**。將其重新命名`Global Rule`。
+1. 按一下&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增規則]**。 將其重新命名`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：核心
    * 事件類型：已載入資料庫 (頁面頂端)

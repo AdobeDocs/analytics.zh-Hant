@@ -4,9 +4,21 @@ description: 描述雜湊碰撞為何及其出現方式。
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: e6dd38fe34d7e0ab69bdf1c68716427905caa356
+TQID: 'https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: e992d880-33bc-4949-a648-aa7d410276cd
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: 539
 ht-degree: 5%
 
 ---
@@ -37,16 +49,16 @@ Adobe Analytics對大部分的維度使用32位元雜湊，這表示有2<sup>32<
 
 ## 緩解雜湊碰撞
 
-雜湊碰撞無法完全消除，但可減輕其對報表的影響。 大部分的雜湊碰撞都會發生於兩個不常見的值，而這些值對報表沒有實質影響。 即使雜湊與通用和不常用的值發生衝突，結果也微不足道。 However, in rare cases where two popular values experience a hash collision, it is possible to see its effect clearly. Adobe recommends the following to reduce its effect in reports:
+雜湊碰撞無法完全消除，但可減輕其對報表的影響。 大部分的雜湊碰撞都會發生於兩個不常見的值，而這些值對報表沒有實質影響。 即使雜湊與通用和不常用的值發生衝突，結果也微不足道。 但是，在少數情況下，當兩個常用的值遇到雜湊碰撞時，可以清楚看到其影響。 Adobe建議採取下列措施來減少其在報表中的影響：
 
-* **Change the date range**: Hash tables change each month. Changing the date range to span another month can give each value different hashes that don&#39;t collide. It is usually the fastest way to clear a visible anomaly from a specific report.
-* **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
-* **Use [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) or [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md)**: These tools do not rely on hash tables.
-* **Move to [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant)**: Customer Journey Analytics has no hashing layer and [no cardinality limits on dimensions](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Consider moving to this product if hash collisions or [[!UICONTROL Low-Traffic]](/help/technotes/low-traffic.md) frequently affect your reports.
+* **變更日期範圍**：雜湊表格每個月都會變更。 將日期範圍變更為跨越另一個月，可能會為每個值提供互不抵觸的不同雜湊。 這通常是清除特定報表中可見異常的最快方式。
+* **減少唯一值的數量**：您可以調整實作或使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)，協助減少維度所收集的唯一值的數量。 例如，如果您的維度收集URL，您可以移除查詢字串或通訊協定。
+* **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)或[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)**：這些工具不依賴雜湊表。
+* **移至[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant)**： Customer Journey Analytics沒有雜湊層，且[維度沒有基數限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果雜湊碰撞或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)經常影響您的報表，請考慮移至此產品。
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Low-Traffic] value in Adobe Analytics](/help/technotes/low-traffic.md)
->* [Processing rules overview](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+>* Adobe Analytics中的[[!UICONTROL 低流量]值](/help/technotes/low-traffic.md)
+>* [處理規則總覽](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->

@@ -4,9 +4,23 @@ description: 儲存值以便稍後隨時擷取。
 feature: Appmeasurement Implementation
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/mofGb9F4bP7uHIBulSDfMlNzss4Uafl3yQF17oEyhqo'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 716
 ht-degree: 70%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與Adobe Experience Platform資料收集中Adobe Analytics擴充功能的[!UICONTROL 儲存期間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果Analytics擴充功能中的[!UICONTROL 儲存持續時間]功能已足夠，就不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。 其作用與Adobe Experience Platform資料收集中Adobe Analytics擴充功能的[!UICONTROL 儲存期間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果Analytics擴充功能中的[!UICONTROL 儲存持續時間]功能已足夠，就不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -65,7 +79,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -79,10 +93,10 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 `getAndPersist` 函數會使用以下引數：
 
 * **`vtp`** (必要)：要在頁面之間保留的值
-* **`cn`** (選用)：要儲存值的 Cookie 名稱。如果此引數未設定，系統會將 Cookie 命名為 `"s_gapv"`
-* **`ex`** (選用)：Cookie 過期的天數。如果此引數為 `0` 或未設定，Cookie 會在造訪結束時過期 (閒置 30 分鐘)。
+* **`cn`** (選用)：要儲存值的 Cookie 名稱。 如果此引數未設定，系統會將 Cookie 命名為 `"s_gapv"`
+* **`ex`** (選用)：Cookie 過期的天數。 如果此引數為 `0` 或未設定，Cookie 會在造訪結束時過期 (閒置 30 分鐘)。
 
-如果 `vtp` 引數中的變數已設定，外掛程式會設定 Cookie，然後傳回 Cookie 值。如果 `vtp` 引數中的變數未設定，外掛程式只會傳回 Cookie 值。
+如果 `vtp` 引數中的變數已設定，外掛程式會設定 Cookie，然後傳回 Cookie 值。 如果 `vtp` 引數中的變數未設定，外掛程式只會傳回 Cookie 值。
 
 ## 範例
 

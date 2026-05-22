@@ -4,9 +4,26 @@ description: 追蹤訪客的目前造訪次數。
 feature: Appmeasurement Implementation
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/KlNcru45h6rsw9Yce3UBLZEiTm8BSYID7M2Ey2ZLzi8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: 821
 ht-degree: 76%
 
 ---
@@ -15,7 +32,7 @@ ht-degree: 76%
 
 {{plug-in}}
 
-`getVisitNum` 外掛程式會傳回在指定天數內造訪過網站的所有訪客造訪次數。Analysis Workspace 提供的「造訪次數」維度具有類似功能。如果您想更深入控製造訪次數的增加方式，Adobe 建議使用此外掛程式。如果 Analysis Workspace 中的內建「造訪次數」維度足以滿足您的報表需求，就不需要此外掛程式。
+`getVisitNum` 外掛程式會傳回在指定天數內造訪過網站的所有訪客造訪次數。 Analysis Workspace 提供的「造訪次數」維度具有類似功能。 如果您想更深入控製造訪次數的增加方式，Adobe 建議使用此外掛程式。 如果 Analysis Workspace 中的內建「造訪次數」維度足以滿足您的報表需求，就不需要此外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -65,7 +82,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -78,15 +95,15 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 `getVisitNum` 函數會使用以下引數：
 
-* **`rp`** (選用，整數或字串)：造訪次數計數器重設前的天數。若未設定，則預設為 `365`。
+* **`rp`** (選用，整數或字串)：造訪次數計數器重設前的天數。  若未設定，則預設為 `365`。
    * 此引數為`"w"`時，計數器會在當週結束時（本週六晚上11:59）重設
    * 此引數為 `"m"` 時，計數器會在當月結束時 (本月的最後一天) 重設
    * 此引數為 `"y"` 時，計數器會在當年結束時 (12 月 31 日) 重設
-* **`erp`** (選用，布林值)：`rp` 引數為數字時，此引數會決定是否應延長造訪次數的期限。若設為 `true`，您網站的後續點擊會重設造訪次數計數器。若設為 `false`，造訪次數計數器重設時，您網站的後續點擊不會延長。預設為 `true`。`rp` 引數為字串時，此引數無效。
+* **`erp`** (選用，布林值)：`rp` 引數為數字時，此引數會決定是否應延長造訪次數的期限。 若設為 `true`，您網站的後續點擊會重設造訪次數計數器。 若設為 `false`，造訪次數計數器重設時，您網站的後續點擊不會延長。 預設為 `true`。 `rp` 引數為字串時，此引數無效。
 
-訪客閒置 30 分鐘後再返回您的網站時，造訪次數會增加。呼叫此函數會傳回一個整數，該整數代表訪客目前的造訪次數。
+訪客閒置 30 分鐘後再返回您的網站時，造訪次數會增加。 呼叫此函數會傳回一個整數，該整數代表訪客目前的造訪次數。
 
-此外掛程式會設定名為 `"s_vnc[LENGTH]"` 的第一方 Cookie，其中的 `[LENGTH]` 是傳入 `rp` 引數的值。例如 `"s_vncw"`、`"s_vncm"` 或 `"s_vnc365"`。Cookie 的值是 Unix 時間戳記的組合，代表造訪計數器重設的時間，例如當週結束時、當月結束時或閒置 365 天後。其中也包含目前的造訪次數。此外掛程式會設定另一個名為 `"s_ivc"` 的 Cookie，該 Cookie 設為 `true` 且閒置 30 分鐘後會到期。
+此外掛程式會設定名為 `"s_vnc[LENGTH]"` 的第一方 Cookie，其中的 `[LENGTH]` 是傳入 `rp` 引數的值。 例如 `"s_vncw"`、`"s_vncm"` 或 `"s_vnc365"`。 Cookie 的值是 Unix 時間戳記的組合，代表造訪計數器重設的時間，例如當週結束時、當月結束時或閒置 365 天後。 其中也包含目前的造訪次數。 此外掛程式會設定另一個名為 `"s_ivc"` 的 Cookie，該 Cookie 設為 `true` 且閒置 30 分鐘後會到期。
 
 ## 範例
 

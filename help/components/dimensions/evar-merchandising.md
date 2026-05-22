@@ -3,10 +3,23 @@ title: eVar （銷售維度）
 description: 繫結至產品維度的自訂變數。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 92%
+source-wordcount: 437
+ht-degree: 79%
 
 ---
 
@@ -16,9 +29,9 @@ ht-degree: 92%
 
 如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)」。
 
-測量外部促銷活動或外部搜尋詞的成功情形時，通常會想使用單一值來接收發生之任何成功事件的評分。例如，如果客戶按一下促銷活動電子郵件中的連結而前往您的網站，其隨後進行的所有購買都應評給該促銷活動。
+在衡量外部促銷活動或外部搜尋詞的成功時，您通常會想要單一值來接收發生任何成功事件的評分。 例如，如果客戶按一下電子郵件行銷活動中的連結來造訪您的網站，則因此進行的所有購買都應計入該行銷活動。
 
-如果是在客戶尋找多個項目時，由內部搜尋或類別瀏覽驅動的事件呢？例如，客戶在您的網站上搜尋 `"goggles"`，接著新增一組產品至購物車：
+如果是在客戶尋找多個項目時，由內部搜尋或類別瀏覽驅動的事件呢？ 例如，客戶在您的網站上搜尋 `"goggles"`，接著新增一組產品至購物車：
 
 ![護目鏡範例](assets/merch-example-goggles.png)
 
@@ -26,21 +39,21 @@ ht-degree: 92%
 
 ![外套範例](assets/merch-example-coat.png)
 
-訪客完成此次購買後，您對 `"winter coat"` 的內部搜尋會獲得購買護目鏡的評分 (假設 eVar 使用預設的「最近」配置)。這樣對 `"winter coat"` 有利，但對行銷決策不利。
+訪客完成此次購買後，您對 `"winter coat"` 的內部搜尋會獲得購買護目鏡的評分 (假設 eVar 使用預設的「最近」配置)。 這樣對 `"winter coat"` 有利，但對行銷決策不利。
 
-| 內部搜尋詞 | 收入 |
+| 內部搜尋字詞 | 收入 |
 |---|---|
-| 冬季大衣 | $157 |
+| 冬季外套 | $157 |
 
 ## 銷售變數如何解決這個問題
 
-銷售 eVar 可讓您在成功事件發生時，將 eVar 的目前值指派給產品。即使稍後對該特定 eVar 設定了一或多個新值，這個值仍維持繫結至該產品。
+銷售 eVar 可讓您在成功事件發生時，將 eVar 的目前值指派給產品。 即使稍後對該特定 eVar 設定了一或多個新值，這個值仍維持繫結至該產品。
 
-如果在上述範例中為 eVar 啟用了銷售，搜尋詞彙 `"goggles"` 就會繫結至滑雪鏡，而搜尋詞彙 `"winter coat"` 會繫結至羽絨外套。銷售 eVar 會在產品層級分配收入，每個詞彙會獲得與其相關聯之產品收入金額的評分：
+如果在上述範例中為 eVar 啟用了銷售，搜尋詞彙 `"goggles"` 就會繫結至滑雪鏡，而搜尋詞彙 `"winter coat"` 會繫結至羽絨外套。 銷售 eVar 會在產品層級分配收入，每個詞彙會獲得與其相關聯之產品收入金額的評分：
 
-| 內部搜尋詞 | 收入 |
+| 內部搜尋字詞 | 收入 |
 |---|---|
-| 冬季大衣 | $119 |
+| 冬季外套 | $119 |
 | 護目鏡 | $38 |
 
 如需實作指示，請參閱[銷售 eVar](/help/implement/vars/page-vars/evar-merchandising.md)。
@@ -50,7 +63,7 @@ ht-degree: 92%
 不建議將[例項](../metrics/instances.md)量度用於銷售變數。
 
 * 對於使用產品語法的銷售變數，例項完全不會增加。
-* 對於使用轉換變數語法的銷售變數，在每次設定 eVar 時都會計算例項。不過，它會歸因於維度項目 `"None"`，除非相同的點擊上發生了以下所有情況：
+* 對於使用轉換變數語法的銷售變數，在每次設定 eVar 時都會計算例項。 不過，它會歸因於維度項目 `"None"`，除非相同的點擊上發生了以下所有情況：
    * 銷售 eVar 設定了某個值。
    * `products` 變數以某個值定義。
    * 已設定綁定事件。

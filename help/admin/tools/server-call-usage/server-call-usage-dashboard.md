@@ -4,10 +4,22 @@ title: 檢視目前伺服器呼叫使用量
 feature: Server Call Usage
 exl-id: 07eac732-b9d6-41ab-be34-5688eaa8166e
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/5DgWR4QWklOEMK1Ato17-lcpMdnRgaIrMfds9ATXUpE'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: 293
+ht-degree: 25%
 
 ---
 
@@ -19,27 +31,27 @@ ht-degree: 100%
 >
 >您看到的所有使用量和承諾使用量，是所有登入公司和報表套裝的累計值。
 
-「目前使用量」控制面板
+目前使用情況儀表板
 
-* 顯示每種伺服器呼叫類型的伺服器呼叫耗用量和承諾使用量的明細。對於不同的客戶，此檢視可能不同，並且與您的合約包含的內容一致。例如，您可能已註冊 4 種不同類型的伺服器呼叫，分別是適用於 Web 的主要和次要伺服器，以及適用於行動的主要和次要伺服器。在這種情況下，此檢視包含 4 個標籤，每種類型一個標籤。在每個標籤中，您可以檢視目前使用期間的耗用量。
-* 將目前使用量 (綠線) 與合約使用限制 (紅線) 進行比較。
+* 顯示每個伺服器呼叫型別之伺服器呼叫耗用量和承諾使用量的明細。 此檢視表可能會因不同客戶而異，並與您的合約內容一致。 例如，您可能已註冊4種不同的伺服器呼叫型別，主要和次要的網頁呼叫型別，以及主要和次要的手機呼叫型別。 在這種情況下，此檢視將包含4個標籤，每個型別各一個。 在每個頁標中，您都可以檢視目前使用期間的耗用量。
+* 比較目前使用量（綠線）與合約使用量限制（紅線）。
 
   ![](/help/admin/tools/server-call-usage/assets/current_period.png)
 
-* 將您目前期間的使用量與去年的使用量 (藍線) 進行比較。很顯然地，只有當貴公司擁有去年的伺服器呼叫使用量資料時，才會出現藍線。
+* 將您目前期間的使用狀況與去年的使用狀況（藍線）作比較。 很明顯地，只有當貴公司擁有上一年的伺服器呼叫使用量資料時，藍線才會出現。
 
   >[!NOTE]
   >
-  > 如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/tools/server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
+  >如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/tools/server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
 
-* 列出使用的呼叫百分比 (百分比和原始資料)，以及實際使用期間的百分比 (百分比和原始資料)。
-* 預設情況下會每天更新，有 5 天的處理延遲。
-* 可讓您摺疊和展開所有小報告。
+* 列出已使用的呼叫百分比（以百分比和原始資料表示），以及已使用的使用期間百分比（以百分比和原始資料表示）。
+* 預設會每天更新，延遲處理時間為5天。
+* 可讓您摺疊和展開所有小報表。
 
 ![](/help/admin/tools/server-call-usage/assets/server_call_dashboard.png)
 
-| 使用者介面術語 | 定義 |
+| UI詞語 | 定義 |
 | --- | --- |
-| 目前期間使用量 (綠色) | 目前期間是以[使用期間](/help/admin/tools/server-call-usage/overage-overview.md)為基礎。 |
-| 先前期間使用情形 (藍色) | 先前期間定義為目前使用期間減去 1 年。 |
-| 使用量限制 (紅色) | 此使用期間的合約使用量限制。 |
+| 目前期間使用量（綠色） | 目前期間是以[使用期間](/help/admin/tools/server-call-usage/overage-overview.md)為基礎。 |
+| 上一期間使用量（藍色） | 先前期間定義為目前使用期間減去1年。 |
+| 使用量限制（紅色） | 您在此使用期間的合約使用限制。 |

@@ -3,16 +3,28 @@ title: 維度概觀
 description: 了解什麼是維度以及如何在 Adobe Analytics 中使用維度。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: 163
 ht-degree: 100%
 
 ---
 
 # 維度概觀
 
-維度是 Adobe Analytics 中通常會包含字串值的變數。常見的維度包括[頁面](page.md)、[反向連結網域](referring-domain.md)或 [eVar](evar.md)。相對地，[量度](../metrics/overview.md)包含繫結至維度的數值。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
+維度是 Adobe Analytics 中通常會包含字串值的變數。 常見的維度包括[頁面](page.md)、[反向連結網域](referring-domain.md)或 [eVar](evar.md)。 相對地，[量度](../metrics/overview.md)包含繫結至維度的數值。 基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
 
 例如，如果將「**[!UICONTROL 頁面]**」維度和「**[!UICONTROL 造訪次數]**」量度結合，您將會獲得排名報表，其中顯示您最常造訪的頁面：
 
@@ -24,8 +36,8 @@ ht-degree: 100%
 
 {style="table-layout:fixed"}
 
-每個維度分別代表您的網站不同的部分或面向。您可以將其中的一或多個維度與一或多個量度結合，以建立所需的報表。
+每個維度分別代表您的網站不同的部分或面向。 您可以將其中的一或多個維度與一或多個量度結合，以建立所需的報表。
 
 ## 新增維度說明
 
-Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中新增維度和其他元件的說明。有關如何將說明新增至維度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
+Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中新增維度和其他元件的說明。 有關如何將說明新增至維度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。

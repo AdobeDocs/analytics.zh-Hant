@@ -3,10 +3,20 @@ description: 瞭解區段建立使用者介面。
 title: 建立區段
 feature: Segmentation
 exl-id: 0cec43bd-c2cc-4c8a-ae16-e8b5ad61f281
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/s8SCegMSTdPKWLB7DF4LhpcoVcbwgPO2rwBT3v3w-tY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: 220
+ht-degree: 0%
 
 ---
 
@@ -20,12 +30,12 @@ ht-degree: 3%
 
 ![建立區段的方式](assets/create-segment.png)
 
-* **A**. 在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 區段]**。 從![區段](/help/assets/icons/AddCircle.svg)管理員[!UICONTROL **[!UICONTROL 選取]**]AddCircle[Add](seg-manage.md)。
-* **B**. 在Workspace專案中，從「元件」左側面板選取![區段](/help/assets/icons/Add.svg) ![區段](/help/assets/icons/Segmentation.svg)的&#x200B;**新增**。
-* **C**. 在Workspace專案中，從視覺效果的內容功能表中，選取&#x200B;**[!UICONTROL 從選取專案建立區段]**。
-* **D**. 在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立區段]**。
-* **E**。 在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+e]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+e]** (Windows)。
-* **F**。 選取![在](/help/assets/icons/Add.svg)將區段拖放到此處（或任何其他元件）***拖放區域中新增***。 此動作會建立僅限專案的區段。
+* **A**。在主介面中，選取&#x200B;**[!UICONTROL 元件]**&#x200B;並選取&#x200B;**[!UICONTROL 區段]**。 從[[!UICONTROL 區段]管理員](seg-manage.md)選取![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**]。
+* **B**。在Workspace專案中，從「元件」左側面板選取![區段](/help/assets/icons/Segmentation.svg) **區段**&#x200B;的![新增](/help/assets/icons/Add.svg)。
+* **C**。在Workspace專案中，從視覺效果的內容功能表中，選取「**[!UICONTROL 從選取專案建立區段]**」。
+* **D**。在Workspace專案中，從功能表選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 建立區段]**。
+* **E**。在Workspace專案中，使用捷徑&#x200B;**[!UICONTROL shift+cmd+e]** (macOS)或&#x200B;**[!UICONTROL shift+ctrl+e]** (Windows)。
+* **F**。選取&#x200B;***在此放置區段（或任何其他元件）***&#x200B;放置區中的![新增](/help/assets/icons/Add.svg)。 此動作會建立僅限專案的區段。
 
 若要定義新區段，請使用[區段產生器](seg-build.md)。
 

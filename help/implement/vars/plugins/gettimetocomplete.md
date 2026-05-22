@@ -4,10 +4,24 @@ description: 測量完成任務所花費的時間。
 feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/GbehSttxbJlbYKbBIHCUy34Bz5JN7LsRMOEO5wAfmg8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 89%
+source-wordcount: 638
+ht-degree: 88%
 
 ---
 
@@ -15,7 +29,7 @@ ht-degree: 89%
 
 {{plug-in}}
 
-`getTimeToComplete` 外掛程式會追蹤使用者在網站上完成程序所花的時間。「時鐘」從呼叫 `start` 動作時開始，在呼叫 `stop` 動作時結束。如果網站上有工作流程需要一些時間才能完成，而且您想瞭解訪客完成該工作流程所花的時間，Adobe 建議您使用此外掛程式。如果您網站上的工作流程耗時較短 (少於 3 秒)，就不需要使用此外掛程式，因為精細度只會降至完整秒。
+`getTimeToComplete` 外掛程式會追蹤使用者在網站上完成程序所花的時間。 「時鐘」從呼叫 `start` 動作時開始，在呼叫 `stop` 動作時結束。 如果網站上有工作流程需要一些時間才能完成，而且您想瞭解訪客完成該工作流程所花的時間，Adobe 建議您使用此外掛程式。 如果您網站上的工作流程耗時較短 (少於 3 秒)，就不需要使用此外掛程式，因為顆粒度只會降至完整秒。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -50,7 +64,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,8 +77,8 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 `getTimeToComplete` 函數會使用以下引數：
 
-* **`sos`** (選用，字串)：要啟動計時器時請設為 `"start"`。要停止計時器時設為 `"stop"`。預設為 `"start"`。
-* **`cn`** (選用，字串)：儲存開始時間的 Cookie 名稱。預設為 `"s_gttc"`。
+* **`sos`** (選用，字串)：要啟動計時器時請設為 `"start"`。 要停止計時器時設為 `"stop"`。 預設為 `"start"`。
+* **`cn`** (選用，字串)：儲存開始時間的 Cookie 名稱。 預設為 `"s_gttc"`。
 * **`exp`** (選項，整數)：cookie (和和計時器) 過期的秒數、小時數或天數 (取決於 `tp` 時間分段引數)。 預設為 30 分鐘。
 * **`tp`** (選項，字串)：cookie (和計時器) 過期的時間分段字串，與 `exp` 一起使用。 設定為 &quot;d&quot; 表示天數、“h” 表示小時數，或 “s” 表示秒數。 如果未設定，無論 `exp` 引數如何設定，cookie (和計時器) 過期預設為 30 分鐘。
 
@@ -96,7 +110,7 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 3.1 (2019 年 9 月 30 日)
 
-* 新增第一個引數中需要「start」或「stop」值的邏輯。傳入的其他所有值都會讓外掛程式停止執行。
+* 新增第一個引數中需要「start」或「stop」值的邏輯。  傳入的其他所有值都會讓外掛程式停止執行。
 * 將 `inList 2.0` 外掛程式更新至 `inList 2.1`。
 
 ### 3.0 (2018 年 8 月 23 日)

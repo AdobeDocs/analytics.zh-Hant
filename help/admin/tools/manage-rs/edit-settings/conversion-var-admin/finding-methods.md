@@ -1,19 +1,31 @@
 ---
-description: 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
+description: 「尋找方法」頁面會識別各種尋找方法報表如何接收網站上轉換成功事件的評分。 例如，如果搜尋引擎將訪客轉介至您的網站進行購買，則「尋找方法」會指定搜尋引擎接收轉介點數的方式。
 title: 尋找方法
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 49%
 
 ---
 
 # 尋找方法
 
-「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
+「尋找方法」頁面會識別各種尋找方法報表如何接收網站上轉換成功事件的評分。 例如，如果搜尋引擎將訪客轉介至您的網站進行購買，則「尋找方法」會指定搜尋引擎接收轉介點數的方式。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 尋找方法]**
 
@@ -33,10 +45,10 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> 配置 </td> 
-   <td colname="col2"> 指定如何套用反向連結的評分。支援的配置選項包括： <p> <span class="uicontrol">最近 (最後一個)：</span>將所有評分給予最後一個反向連結 (預設)。 </p> <p> <span class="uicontrol">原始值：</span>首個反向連結獲得全部評價。 </p> <p> <span class="uicontrol">線性：</span>所有反向連結獲得相同評價。 </p> </td> 
+   <td colname="col2"> 指定如何套用轉介的評價。 支援的配置選項包括： <p> <span class="uicontrol">最近 (最後一個)：</span>將所有評分給予最後一個反向連結 (預設)。 </p> <p> <span class="uicontrol">原始值：</span>首個反向連結獲得全部評價。 </p> <p> <span class="uicontrol">線性：</span>所有反向連結獲得相同評價。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 過期時間 </td> 
+   <td colname="col1"> 有效期限 </td> 
    <td colname="col2"> 
     <ul id="ul_95EB224CAD164E9997B148E08AFA5F9B"> 
      <li id="li_C240460C21E14AA498D2EA62B9354710"> <span class="uicontrol">瀏覽：</span>在指定的閒置時段後；通常約為 30 分鐘。 </li> 
@@ -56,4 +68,4 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> 所有「尋找方法」將在瀏覽結束時過期。如果您選擇在不同的事件 (例如，購物車結帳) 發生後過期，在瀏覽期間發生「購物車結帳」時，「尋找方法」會過期。如果「購物車結帳」未在瀏覽期間發生，則「尋找方法」仍在瀏覽結束時過期。
+>所有「尋找方法」將在瀏覽結束時過期。 如果您選擇在不同的事件（例如「購物車結帳」）後到期，則當造訪期間發生購物車結帳時，「尋找方法」就會到期。 如果造訪期間並未發生購物車結帳，則尋找方法仍會在造訪結束時過期。

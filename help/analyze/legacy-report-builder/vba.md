@@ -4,9 +4,21 @@ description: 瞭解如何使用VBA巨集擴展Excel活頁簿和Report Builder的
 feature: Report Builder
 role: User, Admin
 exl-id: 0d92bce2-22ae-4b0c-af1d-3d12f2041ddf
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/RxOpojtJn2vi5uMO8CGzCCm7FcPp4qVwbH-XTEBSRsY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: 195
 ht-degree: 64%
 
 ---
@@ -27,7 +39,7 @@ Adobe支援三種Report Builder API方法。
 
 ## `RefreshAllReportBuilderRequests()`
 
-`RefreshAllReportBuilderRequests()` 巨集會重新整理作用中活頁簿裡所有的 Report Builder 請求。首先透過其產品 ID 呼叫 Report Builder COM 增益集，然後呼叫 `RefreshAllRequests()` API 命令：
+`RefreshAllReportBuilderRequests()` 巨集會重新整理作用中活頁簿裡所有的 Report Builder 請求。 首先透過其產品 ID 呼叫 Report Builder COM 增益集，然後呼叫 `RefreshAllRequests()` API 命令：
 
 ```vba
 Sub RefreshAllReportBuilderRequests()
@@ -44,7 +56,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-`RefreshAllReportBuilderRequestsInActiveWorksheet()` 巨集會重新整理作用中工作表裡所有的 Report Builder 請求。`RefreshWorksheetRequests()` API 呼叫會將工作表物件視為引數。您可以對任何包含 Report Builder 請求的任何工作表使用此呼叫：
+`RefreshAllReportBuilderRequestsInActiveWorksheet()` 巨集會重新整理作用中工作表裡所有的 Report Builder 請求。 `RefreshWorksheetRequests()` API 呼叫會將工作表物件視為引數。 您可以對任何包含 Report Builder 請求的任何工作表使用此呼叫：
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()
@@ -61,7 +73,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInCellsRange()`
 
-`RefreshAllReportBuilderRequestsInCellsRange()` 巨集會重新整理儲存格輸出與指定儲存格範圍相交的所有 Report Builder 請求。此範例中使用的儲存格範圍，指向作用中活頁簿內「資料」工作表的 `B1:B54` 範圍。範圍運算式支援所有支援的 Excel 範圍運算式：
+`RefreshAllReportBuilderRequestsInCellsRange()` 巨集會重新整理儲存格輸出與指定儲存格範圍相交的所有 Report Builder 請求。 此範例中使用的儲存格範圍，指向作用中活頁簿內「資料」工作表的 `B1:B54` 範圍。 範圍運算式支援所有支援的 Excel 範圍運算式：
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInCellsRange()

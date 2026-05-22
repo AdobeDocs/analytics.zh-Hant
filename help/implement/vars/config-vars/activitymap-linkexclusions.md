@@ -4,10 +4,24 @@ description: 依連結名稱篩選Activity Map資料。
 role: Admin, Developer
 feature: Appmeasurement Implementation
 exl-id: 9fc95016-362d-4c21-806e-e23adce9b6f7
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/m4ovqFSZBZ88KFm8lnKRI7z5wbbTNZygEj8koL6HC6E'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 12%
+source-wordcount: 206
+ht-degree: 17%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 12%
 
 ## 網頁SDK JavaScript資料庫中的連結排除
 
-啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`filterClickDetails`物件中使用`clickCollection`回呼。 在此回撥中，您可以檢查`linkName`的值，然後變更值或放棄連結追蹤資料的集合。
+啟用[`clickCollectionEnabled`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)時，請在`clickCollection`物件中使用`filterClickDetails`回呼。 在此回撥中，您可以檢查`linkName`的值，然後變更值或放棄連結追蹤資料的集合。
 
 ```js
 alloy("configure", {
@@ -43,7 +57,7 @@ alloy("configure", {
 
 ## 使用Adobe Analytics擴充功能連結排除專案
 
-Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
 ## 使用AppMeasurement的s.ActivityMap.linkExclusions
 

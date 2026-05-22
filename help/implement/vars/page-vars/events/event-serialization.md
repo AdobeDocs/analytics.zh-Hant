@@ -4,16 +4,31 @@ description: 協助您去除網站上重複的量度。
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
+TQID: https://experienceleague.adobe.com/43YfbDVjSH7ZJ8kqlXwAnb8UsIEoG3Ei-NRnkLLW63Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 83%
+source-wordcount: 436
+ht-degree: 87%
 
 ---
 
 # 事件 ID 序列化
 
-事件序列化為實作措施以防止重複事件進入 Analytics 報告的程序。若您不希望量度因訪客重新整理頁面而不實膨脹，請務必去除重複事件。
+事件序列化為實作措施以防止重複事件進入 Analytics 報告的程序。 若您不希望量度因訪客重新整理頁面而不實膨脹，請務必去除重複事件。
 
 >[!NOTE]
 >
@@ -21,13 +36,13 @@ ht-degree: 83%
 
 ## 設定事件序列化
 
-您必須先在報告套裝設定中將事件的[!UICONTROL 「獨特事件記錄」]設定設為[!UICONTROL 「使用事件 ID」]。請參閱「管理員使用指南」中的[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)。
+您必須先在報告套裝設定中將事件的[!UICONTROL 「獨特事件記錄」]設定設為[!UICONTROL 「使用事件 ID」]。 請參閱「管理員使用指南」中的[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)。
 
 使用事件 ID 時，去重複化會發生在以下層級：
 
-* 每個變數都會使用自己的表格來進行去重複化。例如，`event1:ABC` 和 `event2:ABC` 都會計入報表。
-* 去重複化會在所有訪客之間發生。如果訪客 A 傳送 `event1:ABC` 後訪客 B 也傳送 `event1:ABC`，Adobe 會忽略訪客 B 的第二個例項。
-* 去重複化不會過期。如果訪客傳送 `event1:ABC` 後於 2 年後再回來傳送 `event1:ABC`，Adobe 會忽略第二個例項。
+* 每個變數都會使用自己的表格來進行去重複化。 例如，`event1:ABC` 和 `event2:ABC` 都會計入報表。
+* 去重複化會在所有訪客之間發生。 如果訪客 A 傳送 `event1:ABC` 後訪客 B 也傳送 `event1:ABC`，Adobe 會忽略訪客 B 的第二個例項。
+* 去重複化不會過期。 如果訪客傳送 `event1:ABC` 後於 2 年後再回來傳送 `event1:ABC`，Adobe 會忽略第二個例項。
 
 >[!TIP]
 >
@@ -49,14 +64,14 @@ ht-degree: 83%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設定為 Adobe Analytics，並將[!UICONTROL 「動作類型」]設定為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段，其中每個事件都包含[!UICONTROL 「事件 ID」]欄位。
 
 有效值是長度最多 20 個位元組的英數字元。 如果輸入的值超過 20 個位元組，系統會截斷至前 20 個位元組。
 
 ## 使用 AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的事件 ID
 
-事件序列化是 `s.events` 變數的一部分。在字串中使用冒號為每個事件指派 ID。
+事件序列化是 `s.events` 變數的一部分。 在字串中使用冒號為每個事件指派 ID。
 
 ```js
 // Assign custom ID serialization to a single value

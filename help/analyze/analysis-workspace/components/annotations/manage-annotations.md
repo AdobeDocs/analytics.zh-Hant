@@ -4,16 +4,28 @@ description: 瞭解如何在Analysis Workspace中管理註解。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/eBokOX3-Zn7bzy8FYdAO-iEGQOCmAtJ4H57hvCLjawc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 766
 ht-degree: 88%
 
 ---
 
 # 管理註解
 
-您可以從中央「[!UICONTROL 註解]」管理介面共用、篩選、標記、核准、複製、刪除註解或將註解標記為最愛項目。若要管理註解：
+您可以從中央「[!UICONTROL 註解]」管理介面共用、篩選、標記、核准、複製、刪除註解或將註解標記為最愛項目。 若要管理註解：
 
 * 在主介面中選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 註解]**。
 
@@ -36,12 +48,12 @@ ht-degree: 88%
 | 欄 | 說明 |
 | --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取將註解設為最愛項目![Star](/help/assets/icons/Star.svg)或取消最愛項目![StarOutline](/help/assets/icons/StarOutline.svg)。 |
-| **[!UICONTROL 標題和說明]** | 在註解產生器中提供。如要編輯標題和說明，請選取標題連結 - 開啟[註解產生器](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)。共用註解以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
+| **[!UICONTROL 標題和說明]** | 在註解產生器中提供。 如要編輯標題和說明，請選取標題連結 - 開啟[註解產生器](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)。 共用註解以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 報告套裝]** | 套用此註解的報表套裝。 |
-| **[!UICONTROL 所有者]** | 註解的所有者。做為使用者，您只能看到您擁有的註解或與您共用的註解。 |
+| **[!UICONTROL 所有者]** | 註解的所有者。 做為使用者，您只能看到您擁有的註解或與您共用的註解。 |
 | **[!UICONTROL 套用的日期範圍]** | 此註解套用的日期或日期範圍。 |
 | **[!UICONTROL 標記]** | 此註解的標記。 |
-| **[!UICONTROL 共用對象]** | 您共用註解的個人或群組。選取開啟「**[!UICONTROL 共用元件]**」對話框。 |
+| **[!UICONTROL 共用對象]** | 您共用註解的個人或群組。 選取開啟「**[!UICONTROL 共用元件]**」對話框。 |
 | **[!UICONTROL 修改日期]** | 顯示上次修改註解的日期和時間。 |
 
 {style="table-layout:auto"}
@@ -56,24 +68,24 @@ ht-degree: 88%
 |:--:|---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) | **[!UICONTROL 新增]** | 使用[註解產生器](create-annotations.md#annotation-builder)新增其他註解。 |
 | ![Search](/help/assets/icons/Search.svg) | [!UICONTROL *依標題搜尋*] | 當未選取清單中任何註解時，使用此搜尋欄位搜尋註解。 |
-| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標記所選取的註解。在&#x200B;**[!UICONTROL 標記元件]**&#x200B;對話框中，選取或取消選取所選取註解的標記。選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選取註解的標記。 |
-| ![Share](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用所選取的註解。在&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話框中，您可以![Search](/help/assets/icons/Search.svg)*搜尋個人或群組*，或者您可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選取註解的共用詳細資訊。如需更多詳細資訊，請參閱[共用註解](#share-annotations)。 |
-| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的註解。系統會提示您進行確認。 |
-| ![Edit](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名所選取的單一註解。選取後，您可以用內嵌方式重新命名。 |
-| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製所選取的註解。使用相同的名稱和字尾建立新註解 (複製) |
+| ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標記所選取的註解。 在&#x200B;**[!UICONTROL 標記元件]**&#x200B;對話框中，選取或取消選取所選取註解的標記。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選取註解的標記。 |
+| ![共用](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用所選取的註解。 在&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話框中，您可以![Search](/help/assets/icons/Search.svg)*搜尋個人或群組*，或者您可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選取註解的共用詳細資訊。 如需更多詳細資訊，請參閱[共用註解](#share-annotations)。 |
+| ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的註解。 系統會提示您進行確認。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名所選取的單一註解。 選取後，您可以用內嵌方式重新命名。 |
+| ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製所選取的註解。 使用相同的名稱和字尾建立新註解 (複製) |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將註解匯出至 `Annotations List.csv` 檔案。 |
 
 ### 使用中的篩選欄
 
-篩選器列➌顯示作用中的篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
+篩選器列➌顯示作用中的篩選器（如果有的話）。 您可以使用![CrossSize75](/help/assets/icons/CrossSize75.svg)快速移除篩選條件。 如果指定多個篩選條件，您可以使用&#x200B;**[!UICONTROL 移除全部]**&#x200B;來移除所有篩選條件。
 
 ### 篩選面板
 
-您可以使用&#x200B;**[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選註解。 篩選面板顯示篩選的類型和執行該篩選的註解數量。選取![Filter](/help/assets/icons/Filter.svg)以切換篩選面板的顯示內容。
+您可以使用&#x200B;**[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選註解。 篩選面板顯示篩選的類型和執行該篩選的註解數量。 選取![Filter](/help/assets/icons/Filter.svg)以切換篩選面板的顯示內容。
 
 若要對篩選清單進行篩選：
 
-1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。如果您需要更多空間顯示篩選清單，可以再次選取![Filter](/help/assets/icons/Filter.svg)來關閉面板。
+1. 選取![Filter](/help/assets/icons/Filter.svg)開啟「篩選」面板。 如果您需要更多空間顯示篩選清單，可以再次選取![Filter](/help/assets/icons/Filter.svg)來關閉面板。
 1. 您可以使用任何可用的 [篩選部分](#filter-sections)來篩選註解。
 
    >[!INFO]
@@ -90,7 +102,7 @@ ht-degree: 88%
 {{otherfiltersfiltersection}}
 
 
-[註解清單](manage-annotations.md#annotations-list)會根據您的篩選設定進行自動更新。您可以在[使用中的篩選欄](manage-annotations.md#active-filter-bar)中查看已設定的篩選。
+[註解清單](manage-annotations.md#annotations-list)會根據您的篩選設定進行自動更新。 您可以在[使用中的篩選欄](manage-annotations.md#active-filter-bar)中查看已設定的篩選。
 
 
 ## 編輯註解
@@ -107,14 +119,14 @@ ht-degree: 88%
 
 共用註解或使用與您共用的註解時適用以下情況：
 
-* 您與其他使用者共用的專案中僅限專案的註解，會向那些使用者顯示。使用者無法編輯或刪除這些僅限專案的註解。
+* 您與其他使用者共用的專案中僅限專案的註解，會向那些使用者顯示。 使用者無法編輯或刪除這些僅限專案的註解。
 * 如果您儲存註解並直接與使用者共用，該使用者必須具有管理員權限，才能編輯和刪除註解。
 
-* 如果是與您共用專案，則在該專案中建立的註解僅顯示在該專案中。若是直接與您共用註解，則該註解在可以顯示註解的所有專案中均會出現。
+* 如果是與您共用專案，則在該專案中建立的註解僅顯示在該專案中。 若是直接與您共用註解，則該註解在可以顯示註解的所有專案中均會出現。
 
 ## 註解和時區
 
-所有註解在建立時均有時間戳記，但不包含小時或時區資訊。在報表時間，會使用為面板設定的報表套裝的時區。
+所有註解在建立時均有時間戳記，但不包含小時或時區資訊。 在報表時間，會使用為面板設定的報表套裝的時區。
 
 
 <!--

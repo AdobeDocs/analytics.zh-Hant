@@ -5,10 +5,20 @@ title: 傳送及排程專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
+TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 25%
+source-wordcount: 502
+ht-degree: 26%
 
 ---
 
@@ -35,9 +45,9 @@ ht-degree: 25%
    * [!UICONTROL **CSV**]：如果您需要純文字資料，請選擇此選項。
    * [!UICONTROL **PDF**]：如果您希望下載的檔案包含專案中所有顯示 (可見) 的表格和視覺效果，請選擇此選項。
 1. （選用）使用&#x200B;**[!UICONTROL 說明]**&#x200B;新增要包含在電子郵件中的說明。
-1. 新增收件者或群組。您也可以輸入電子郵件地址。
+1. 新增收件者或群組。 您也可以輸入電子郵件地址。
 1. （選擇性）選取&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;至[排程檔案匯出](#schedule-file-export)。
-1. 按一下&#x200B;**[!UICONTROL 立即傳送]**。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 按一下&#x200B;**[!UICONTROL 立即傳送]**。 選取「**[!UICONTROL 取消]**」進行取消。
 
 
 ## 排程檔案匯出 {#schedule}
@@ -49,7 +59,7 @@ ht-degree: 25%
    * [!UICONTROL **CSV**]：如果您需要純文字資料，請選擇此選項。
    * [!UICONTROL **PDF**]：如果您希望下載的檔案包含專案中所有顯示 (可見) 的表格和視覺效果，請選擇此選項。
 1. （選用）使用&#x200B;**[!UICONTROL 說明]**&#x200B;新增要包含在電子郵件中的說明。
-1. 新增收件者或群組。您也可以輸入電子郵件地址。
+1. 新增收件者或群組。 您也可以輸入電子郵件地址。
 1. （僅適用於Healthcare Shield客戶）提供[密碼保護排程報告](#password-protect-a-new-scheduled-project)的密碼。
 1. 請確定已選取&#x200B;**[!UICONTROL 顯示排程選項]**。
 1. 選取&#x200B;**[!UICONTROL 頻率]**。 您可以選取：
@@ -64,10 +74,10 @@ ht-degree: 25%
    | **[!UICONTROL 每年依月份日期]**&#x200B;傳送 | 選取&#x200B;**[!UICONTROL 一週中的某天]**，選取一個月中的&#x200B;**[!UICONTROL 周]**，然後選取一年中的&#x200B;**[!UICONTROL 每月]**。 |
    | **[!UICONTROL 依特定日期每年傳送]** | 選取&#x200B;**[!UICONTROL 月份]**，並從&#x200B;**[!UICONTROL 於當月的這個日期傳送]**&#x200B;中選取值。 |
 
-1. 輸入從&#x200B;**[!UICONTROL 開始的]**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
-1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」即可取消。
+1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」進行取消。
 
 
 ## 已排程的專案管理員 {#manager}

@@ -4,24 +4,44 @@ title: 隱私權標籤概觀
 feature: Data Governance
 role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 98%
+source-wordcount: 534
+ht-degree: 94%
 
 ---
 
 # 隱私權標籤概觀
 
-為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分識別、敏感程度以及資料控管標籤。請務必先熟悉[標籤及其定義](/help/admin/tools/privacy-labeling/labels.md)。
+為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分識別、敏感程度以及資料控管標籤。 請務必先熟悉[標籤及其定義](/help/admin/tools/privacy-labeling/labels.md)。
 
 >[!NOTE]
 >
->請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實施行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
+>請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。 啟用新的解決方案整合時，您可能需要檢閱標籤，因為它們可能會公開需要加上標籤的新變數。 重新實施行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
 ## 指派或編輯報表套裝的隱私權標籤 {#assign-edit}
 
-**範例**：身為資料控管單位，您計畫從資料主體收集電子郵件地址和 Cookie ID，以處理其資料隱私權請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。
+**範例**：身為資料控管單位，您計畫從資料主體收集電子郵件地址和 Cookie ID，以處理其資料隱私權請求。 這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。
 
 1. 在 Adobe Analytics 中，導覽至 **[!UICONTROL Analytics]** > 管理員 > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料設定和彙集]** > **[!UICONTROL 資料控管]**。
 
@@ -32,9 +52,9 @@ ht-degree: 98%
 1. 在左側的篩選器區段中，選擇要加標籤的變數群組。 您一次只能為一個變數群組加標籤。
 
    * **標準元件** - 標準元件是現成可用的 Analytics 維度和指標，這是在 Analytics 內依預設收集的資料。
-   * **轉換變數** - 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。 其主要作用是將自訂行銷報告中的轉換成功量度區段。eVar 可以是根據瀏覽為準，其功能類似於 Cookie。 傳送到 eVar 變數的值，會在預定的期間內跟隨使用者。
-   * **清單變數** - 清單變數是自訂變數，您可以視需要使用。 它們的作用與 eVar 類似，但是它們可以在同一次點擊中包含多個值。清單變數沒有字元限制。
-   * **流量變數** - 自訂分析流量變數 (或 prop) 可讓您為自訂資料與特定流量相關的事件建立相互關聯。 prop 變數會嵌入至網站每個頁面上的實施代碼中。
+   * **轉換變數** - 自訂洞察轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。 其主要作用是將自訂行銷報告中的轉換成功量度區段。 eVar 可以是根據瀏覽為準，其功能類似於 Cookie。 傳送到 eVar 變數的值，會在預定的期間內跟隨使用者。
+   * **清單變數** - 清單變數是自訂變數，您可以視需要使用。 它們的作用與 eVar 類似，但是它們可以在同一次點擊中包含多個值。 清單變數沒有字元限制。
+   * **流量變數** - 自訂洞察流量變數 (或 prop) 可讓您為自訂資料與特定流量相關的事件建立相互關聯。 prop 變數會嵌入至網站每個頁面上的實施代碼中。
    * **成功事件** - 成功事件 (也稱為轉換事件或自訂事件) 是可以被追蹤的行動。 成功事件的條件由您決定。 例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
    * **分類** - 分類劃分是用於映射可回報資料的分析到相關屬性。 分類的用途廣泛，但最常用來分類促銷活動追蹤程式碼 (內部和外部) 和產品 ID。
 

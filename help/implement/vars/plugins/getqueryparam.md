@@ -4,9 +4,23 @@ description: 擷取 URL 查詢字串參數的值。
 feature: Appmeasurement Implementation
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/R5uYQzbQiyGuvM9ng4Eux7pNdPoecJl4rLQ5L18seak'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: 803
 ht-degree: 73%
 
 ---
@@ -15,9 +29,9 @@ ht-degree: 73%
 
 {{plug-in}}
 
-`getQueryParam` 外掛程式讓您可擷取 URL 中所含任何查詢字串參數的值。如需從登陸頁面 URL 擷取內部和外部促銷活動程式碼，此外掛程式非常有用。擷取搜尋詞或其他查詢字串參數時，它也很有用。
+`getQueryParam` 外掛程式讓您可擷取 URL 中所含任何查詢字串參數的值。 如需從登陸頁面 URL 擷取內部和外部促銷活動程式碼，此外掛程式非常有用。 擷取搜尋詞或其他查詢字串參數時，它也很有用。
 
-此外掛程式提供完善的功能，可剖析複雜的 URL，包括雜湊和包含多個查詢字串參數的 URL。如果您只有簡單的查詢字串引數需求，Adobe建議您使用Web SDK或Adobe Analytics擴充功能，或是AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法，來使用URL引數功能。
+此外掛程式提供完善的功能，可剖析複雜的 URL，包括雜湊和包含多個查詢字串參數的 URL。 如果您只有簡單的查詢字串引數需求，Adobe建議您使用Web SDK或Adobe Analytics擴充功能，或是AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法，來使用URL引數功能。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -76,9 +90,9 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 `getQueryParam` 函數會使用以下引數：
 
-* **`qsp`** (必要)：要在 URL 中尋找的查詢字串參數清單 (以逗號分隔)。不區分大小寫。
-* **`de`** (選用)：有多個查詢字串參數相符時要使用的分隔字元。預設為空字串。
-* **`url`** (選用)：自訂 URL、字串或變數，系統會從其中擷取查詢字串參數值。預設為 `window.location`。
+* **`qsp`** (必要)：要在 URL 中尋找的查詢字串參數清單 (以逗號分隔)。 不區分大小寫。
+* **`de`** (選用)：有多個查詢字串參數相符時要使用的分隔字元。 預設為空字串。
+* **`url`** (選用)：自訂 URL、字串或變數，系統會從其中擷取查詢字串參數值。 預設為 `window.location`。
 
 若呼叫此函數，系統會根據上述引數和 URL 傳回值：
 

@@ -5,10 +5,23 @@ title: 處理規則使用案例
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
+TQID: 'https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 24%
+source-wordcount: 832
+ht-degree: 21%
 
 ---
 
@@ -29,19 +42,19 @@ ht-degree: 24%
 | 規則集 | 值 |
 | --- | --- |
 | 條件 | `search_term` （內容資料）已設定 |
-| 動作 | [!UICONTROL 以]覆寫`search_term` eVar3的值（內容資料） |
+| 動作 | [!UICONTROL 以`search_term`覆寫] eVar3的值（內容資料） |
 
 ![顯示內容資料變數使用情況的處理規則介面熒幕擷圖](assets/set-context-data.png)
 
-如果只有少數幾個 eVar 可填入，上述範例非常實用。如果您的組織有數百個上下文資料變數，每個變數都需要專屬 eVar，建議使用條件陳述式。符合單一處理規則的條件陳述式有數十個，方便您的組織填入報表套裝中的所有 eVar，不需受限於 150 個處理規則的上限。
+如果只有少數幾個 eVar 可填入，上述範例非常實用。 如果您的組織有數百個上下文資料變數，每個變數都需要專屬 eVar，建議使用條件陳述式。 符合單一處理規則的條件陳述式有數十個，方便您的組織填入報表套裝中的所有 eVar，不需受限於 150 個處理規則的上限。
 
 下列範例會將各種上下文資料變數填入多個變數中。 一個動作也包含條件陳述式：
 
 | 規則集 | 值 |
 | --- | --- |
-| 動作 | [!UICONTROL 以]覆寫`spa.billing_customer_name` eVar55的值（內容資料） |
-| 動作 | 如果已設定[!UICONTROL &#x200B; （內容資料），請使用] （內容資料）覆寫`testhierarchy` Prop7的值`testhierarchy` |
-| 動作 | [!UICONTROL 以]覆寫`spa.ims_org` eVar8的值（內容資料） |
+| 動作 | [!UICONTROL 以`spa.billing_customer_name`覆寫] eVar55的值（內容資料） |
+| 動作 | 如果已設定`testhierarchy` （內容資料），請使用`testhierarchy` （內容資料）覆寫 Prop7的值 |
+| 動作 | [!UICONTROL 以`spa.ims_org`覆寫] eVar8的值（內容資料） |
 
 ![處理規則介面的熒幕擷圖，顯示如何有條件地設定值](assets/add-conditional.png)
 
@@ -68,21 +81,21 @@ ht-degree: 24%
 
 +++使用查詢字串引數填入變數
 
-您可以使用查詢字串引數填入變數。 在大多數情況下，您通常會調整實施以取得所需的查詢字串值。 不過，如果您無法輕鬆調整實作以收集此資料，處理規則是個適當的替代方案。 如果發生打字錯誤或類似問題因而無法填入值，您可使用處理規則來填入值。
+您可以使用查詢字串引數填入變數。 在大多數情況下，您通常會調整實施以取得所需的查詢字串值。 不過，如果您無法輕鬆調整實作以收集此資料，處理規則是個適當的替代方案。 如果因拼寫錯誤或類似問題而無法填入值，您可以使用處理規則填入變數。
 
 覆寫值之前，請務必先檢查值是否空白或包含預期值。
 
 | 規則集 | 值 |
 | --- | --- |
 | 條件 | 行銷活動未設定 |
-| 動作 | [!UICONTROL 以]查詢字串引數[!UICONTROL 覆寫]促銷活動的值`cpid` |
+| 動作 | [!UICONTROL 以[!UICONTROL 查詢字串引數]覆寫]促銷活動的值`cpid` |
 
 ![顯示條件行銷活動邏輯的處理規則介面熒幕擷圖](assets/set-campaign-conditionally.png)
 
 | 規則集 | 值 |
 | --- | --- |
 | 條件 | [!UICONTROL 查詢字串引數] `q` [!UICONTROL 已設定] |
-| 動作 | [!UICONTROL 以]查詢字串引數[!UICONTROL 覆寫]個內部搜尋詞的值`q` |
+| 動作 | [!UICONTROL 以[!UICONTROL 查詢字串引數]覆寫]個內部搜尋詞的值`q` |
 
 ![顯示內部搜尋字詞邏輯的處理規則介面熒幕擷圖](assets/populate-internal-search-terms.png)
 
@@ -108,7 +121,7 @@ ht-degree: 24%
 | 規則集 | 值 |
 | --- | --- |
 | 條件 | 無（一律執行） |
-| 動作 | [!UICONTROL 以]串連值[!UICONTROL 類別+頁面名稱覆寫] eVar1的值 |
+| 動作 | [!UICONTROL 以[!UICONTROL 串連值]類別+頁面名稱覆寫] eVar1的值 |
 
 ![顯示串連值的處理規則介面熒幕擷圖](assets/add-subcategory-using-concat.png)
 
@@ -123,7 +136,7 @@ Adobe建議您儘可能使用最嚴格的比對選項，以避免不想要的覆
 | 規則集 | 值 |
 | --- | --- |
 | 條件 | 如果prop1 [!UICONTROL 開頭為] &quot;[!DNL Shoping]&quot; |
-| 動作 | [!UICONTROL 以]自訂值[!UICONTROL 覆寫] Prop1的值[!DNL Shopping] |
+| 動作 | [!UICONTROL 以[!UICONTROL 自訂值]覆寫] Prop1的值[!DNL Shopping] |
 
 ![處理規則介面的熒幕擷圖，顯示如何修正錯字](assets/clean-up-values-in-report.png)
 
@@ -133,9 +146,9 @@ Adobe建議您儘可能使用最嚴格的比對選項，以避免不想要的覆
 
 您可以使用處理規則從點選中移除或捨棄特定事件，而不變更您的實作。 如果您將事件設為自訂值`0`，則事件不會計入。
 
-| 規則集 | 值 |
-| 條件 | 無（一律執行） |
-| 動作 | [!UICONTROL 將event] Event1設為[!UICONTROL 自訂值] `0` |
+|規則集 |值 |
+|條件 |無（一律執行） |
+|動作 | [!UICONTROL 將event] Event1設為[!UICONTROL 自訂值] `0` |
 
 ![處理規則介面的熒幕擷圖顯示給以移除事件](assets/remove_event.png)
 

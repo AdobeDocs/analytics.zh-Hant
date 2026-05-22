@@ -3,10 +3,30 @@ title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 46%
+source-wordcount: 905
+ht-degree: 47%
 
 ---
 
@@ -16,7 +36,7 @@ ht-degree: 46%
 
 >[!NOTE]
 >
->此清單中省略了自訂變數名稱、分類和訪客屬性。這些維度項目是個別報表套裝專用。
+>此清單中省略了自訂變數名稱、分類和訪客屬性。 這些維度項目是個別報表套裝專用。
 
 ## Analysis Workspace支援的維度
 
@@ -48,7 +68,7 @@ ht-degree: 46%
 | [Java 已啟用](java-enabled.md) | `javaenabled` |
 | [語言](language.md) | `language` |
 | [上次接觸管道](last-touch-channel.md) | `lasttouchchannel` |
-| [Last Touch Channel Detail](last-touch-detail.md) | `lasttouchchanneldetail` |
+| [上次接觸管道詳細資料](last-touch-detail.md) | `lasttouchchanneldetail` |
 | 清單變數 | `listvariables` |
 | [行銷管道](marketing-channel.md) | `marketingchannel` |
 | [行動音訊支援](mobile-dimensions.md) | `mobileaudiosupport` |
@@ -65,7 +85,7 @@ ht-degree: 46%
 | [行動熒幕大小](mobile-dimensions.md) | `mobilescreensize` |
 | [行動熒幕寬度](mobile-dimensions.md) | `mobilescreenwidth` |
 | [行動瀏覽器URL的最大長度](mobile-dimensions.md) | `mobileurllength` |
-| [Mobile Video Support](mobile-dimensions.md) | `mobilevideosupport` |
+| [行動視訊支援](mobile-dimensions.md) | `mobilevideosupport` |
 | [監視器解析度](monitor-resolution.md) | `monitorresolution` |
 | [作業系統](operating-systems.md) | `operatingsystem` |
 | [原始反向連結網域](original-referring-domain.md) | `referringdomainoriginal` |
@@ -93,11 +113,11 @@ ht-degree: 46%
 | [US DMA](us-dma.md) | `geodma` |
 | [美國州](us-states.md) | `state` |
 | [事件之前時間](time-prior-to-event.md) | `timeprior` |
-| [Time Spent per Visit - Bucketed](time-spent-per-visit.md) | `timespent` |
-| [Visit Depth](visit-depth.md) | `pathlength` |
+| [每次造訪逗留時間 — 分段](time-spent-per-visit.md) | `timespent` |
+| [造訪深度](visit-depth.md) | `pathlength` |
 | [訪問次數](visit-number.md) | `visitnumber` |
 | [郵遞區號](zip-code.md) | `zip` |
-| [AM / PM](am-pm.md) | `timepartampm` |
+| [上午/下午](am-pm.md) | `timepartampm` |
 | [瀏覽器高度 — 分段](browser-height.md) | `browserheightbucketed` |
 | [瀏覽器寬度 — 分段](browser-width.md) | `browserwidthbucketed` |
 | [日](day.md) | `daterangeday` |
@@ -109,12 +129,12 @@ ht-degree: 46%
 | [專案自訂分析](entry-dimensions.md) | `entryprops` |
 | [專案清單變數](entry-dimensions.md) | `entrylistvariables` |
 | [專案伺服器](entry-dimensions.md) | `entryserver` |
-| [Entry Site Section](entry-dimensions.md) | `entrysitesections` |
-| [Exit Custom Insights](exit-dimensions.md) | `exitprops` |
-| [Exit List Variables](exit-dimensions.md) | `exitlistvariables` |
-| [Exit Page](exit-dimensions.md) | `exitpage` |
-| [Exit Server](exit-dimensions.md) | `exitserver` |
-| [Exit Site Section](exit-dimensions.md) | `exitsitesections` |
+| [進入網站區域](entry-dimensions.md) | `entrysitesections` |
+| [退出自訂分析](exit-dimensions.md) | `exitprops` |
+| [退出清單變數](exit-dimensions.md) | `exitlistvariables` |
+| [退出頁面](exit-dimensions.md) | `exitpage` |
+| [退出伺服器](exit-dimensions.md) | `exitserver` |
+| [退出網站區域](exit-dimensions.md) | `exitsitesections` |
 | [點選深度](hit-depth.md) | `hitdepth` |
 | [點擊類型](hit-type.md) | `hittype` |
 | [小時](hour.md) | `daterangehour` |
@@ -125,7 +145,7 @@ ht-degree: 46%
 | [行動裝置號碼](mobile-dimensions.md) | `mobiledevicenumber` |
 | [行動DRM](mobile-dimensions.md) | `mobiledrm` |
 | [行動資訊服務](mobile-dimensions.md) | `mobileinformationservices` |
-| [Mobile Java VM](mobile-dimensions.md) | `mobilejavavm` |
+| [行動Java VM](mobile-dimensions.md) | `mobilejavavm` |
 | [行動郵件裝飾](mobile-dimensions.md) | `mobilemaildecoration` |
 | [行動網路通訊協定](mobile-dimensions.md) | `mobilenetprotocols` |
 | [行動即按即說](mobile-dimensions.md) | `mobilepushtotalk` |
@@ -148,7 +168,7 @@ ht-degree: 46%
 
 | 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| ACTIVITY MAP XY | `clickmapxy` |
+| Activity Map XY | `clickmapxy` |
 | 媒體工作階段 ID | `videosessionid` |
 | Nielsen 存取方法 | `nielsenaccmethod` |
 | Nielsen 應用程式 ID | `nielsenappid` |
@@ -175,11 +195,11 @@ ht-degree: 46%
 | [開始時間](sm-quality.md) | `videoqoetimetostartevar` |
 | [廣告Pod](sm-ads.md) | `videoadpod` |
 | [媒體路徑](sm-core.md) | `videopath` |
-| [Ad](sm-ads.md) | `videoad` |
-| [Content Player Name](sm-core.md) | `videoplayername` |
-| [Content Channel](sm-core.md) | `videochannel` |
-| [Chapter](sm-chapters.md) | `videochapter` |
-| [Content Name (variable)](sm-core.md) | `videoname` |
+| [廣告](sm-ads.md) | `videoad` |
+| [內容播放器名稱](sm-core.md) | `videoplayername` |
+| [內容頻道](sm-core.md) | `videochannel` |
+| [章節](sm-chapters.md) | `videochapter` |
+| [內容名稱（變數）](sm-core.md) | `videoname` |
 | [內容長度（變數）](sm-core.md) | `videolength` |
 | [廣告名稱（變數）](sm-ads.md) | `videoadname` |
 | [廣告長度（變數）](sm-ads.md) | `videoadlength` |
@@ -191,7 +211,7 @@ ht-degree: 46%
 | [個廣告載入](sm-ads.md) | `videoadload` |
 | [MVPD](sm-video-metadata.md) | `videomvpd` |
 | [天部分](sm-video-metadata.md) | `videodaypart` |
-| [Advertiser](sm-ads.md) | `videoadadvertiser` |
+| [廣告商](sm-ads.md) | `videoadadvertiser` |
 | [行銷活動 ID](sm-ads.md) | `videoadcampaign` |
 | [型別](sm-video-metadata.md) | `videogenre` |
 | [資料流型別](sm-core.md) | `videostreamtype` |
@@ -213,7 +233,7 @@ Adobe Social已淘汰。
 
 | 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| 辭彙 | `socialterm` |
+| 詞彙 | `socialterm` |
 | 社交平台/屬性 | `socialcontentprovider` |
 | 作者 | `socialauthor` |
 | 語言 | `sociallanguage` |
@@ -241,8 +261,8 @@ Adobe Social已淘汰。
 | [首次使用後間隔天數](lifecycle-dimensions.md) | `mobiledayssincefirstuse` |
 | [上次使用後間隔天數](lifecycle-dimensions.md) | `mobiledayssincelastuse` |
 | [小時(SDK)](lifecycle-dimensions.md) | `mobilehourofday` |
-| [Day of Week (SDK)](lifecycle-dimensions.md) | `mobiledayofweek` |
-| [Operating System (SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
+| [星期(SDK)](lifecycle-dimensions.md) | `mobiledayofweek` |
+| [作業系統(SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
 | [上次升級後間隔天數](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
 | [上次升級後啟動次數](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
 | [裝置名稱(SDK)](lifecycle-dimensions.md) | `mobiledevice` |
@@ -256,7 +276,7 @@ Adobe Social已淘汰。
 | [位置 (1 公尺以內)](lifecycle-dimensions.md) | `latlon45` |
 | [興趣點名稱](lifecycle-dimensions.md) | `pointofinterest` |
 | [至興趣點中心的距離](lifecycle-dimensions.md) | `pointofinterestdistance` |
-| [Location Accuracy](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
+| [位置準確度](lifecycle-dimensions.md) | `mobileplaceaccuracy` |
 | [放置類別](lifecycle-dimensions.md) | `mobileplacecategory` |
 | [地標ID](lifecycle-dimensions.md) | `mobileplaceid` |
 | [主要進入信標](lifecycle-dimensions.md) | `entrymobilebeaconmajor` |
@@ -290,7 +310,7 @@ Adobe Social已淘汰。
 
 | 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |
-| Nielsen廣告模型 | `nielsenadmodel` |
+| Nielsen 廣告模型 | `nielsenadmodel` |
 | Nielsen 區段 C | `nielsensegmentc` |
 | Nielsen 區段 B | `nielsensegmentb` |
 | Nielsen 區段 A | `nielsensegmenta` |

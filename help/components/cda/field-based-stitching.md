@@ -1,25 +1,37 @@
 ---
-title: 欄位式拚接
+title: 欄位型拼接
 description: 了解使用欄位式拚接方式來結合資料的先決條件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: 582
 ht-degree: 83%
 
 ---
 
-# 欄位式拚接
+# 欄位型拼接
 
 {{available-existing-customers}}
 
-跨裝置分析提供將資料拚接在一起的兩種不同方法。此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。使用該變數作為將裝置連結在一起的基礎。Adobe 建議使用此拚接選項，以提高訪客追踪的透明度和可預測性。
+跨裝置分析提供將資料拚接在一起的兩種不同方法。 此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。 使用該變數作為將裝置連結在一起的基礎。 Adobe 建議使用此拚接選項，以提高訪客追踪的透明度和可預測性。
 
 ## 依欄位拚接的專屬先決條件
 
-如果想使用欄位式拚接來實施作業跨裝置分析，需具備下列條件。請與組織內部團隊和Adobe客戶團隊合作，確保您符合以下所有條件。
+如果想使用欄位式拚接來實施作業跨裝置分析，需具備下列條件。 請與組織內部團隊和Adobe客戶團隊合作，確保您符合以下所有條件。
 
 >[!WARNING]
 >
@@ -32,12 +44,12 @@ ht-degree: 83%
 ## 欄位式拚接的專屬限制
 
 * 欄位式拚接最適合用於擁有高使用者識別率/驗證率的報表套裝。
-* 雖然每個 prop 和 eVar 都有如何針對報表用途處理大小寫字元的規則，但欄位式拚接並不會以任何方式轉換用於拚接的 prop 或 eVar。欄位式拚接會使用指定欄位中的值，因為該值存在於後製 VISTA 規則和後製處理規則中。拚接程序區分大小寫。例如，如果有時在 prop/eVar 中出現「Bob」一詞，有時又出現「BOB」一詞，則拚接程序會將兩者視為兩個不同的人。
-* 在欄位式拚接區分大小寫的前提下，Adobe 建議審查適用於欄位式拚接所使用的 prop 或 eVar 的任何 VISTA 規則或處理規則。這些規則需要經過審查，以確保其不會引入相同 ID 的新形式。例如，您應確保沒有任何 VISTA 或處理規則僅在一部分點擊中，將小寫字母引入 prop 或 eVar。
-* 欄位式拚接不支援針對拚接用途使用一個以上的 prop 或 eVar。例如，如果 eVar12 包含登入 ID，eVar20 包含電子郵件 ID，您必須選擇其中一個。
+* 雖然每個 prop 和 eVar 都有如何針對報表用途處理大小寫字元的規則，但欄位式拚接並不會以任何方式轉換用於拚接的 prop 或 eVar。 欄位式拚接會使用指定欄位中的值，因為該值存在於後製 VISTA 規則和後製處理規則中。 拼接程序區分大小寫。 例如，如果有時在 prop/eVar 中出現「Bob」一詞，有時又出現「BOB」一詞，則拚接程序會將兩者視為兩個不同的人。
+* 在欄位式拚接區分大小寫的前提下，Adobe 建議審查適用於欄位式拚接所使用的 prop 或 eVar 的任何 VISTA 規則或處理規則。 這些規則需要經過審查，以確保其不會引入相同 ID 的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分點擊中，將小寫字母引入 prop 或 eVar。
+* 欄位式拚接不支援針對拚接用途使用一個以上的 prop 或 eVar。 例如，如果 eVar12 包含登入 ID，eVar20 包含電子郵件 ID，您必須選擇其中一個。
 * 欄位式拚接不會合併或串連欄位 (例如 eVar10 + prop5)。
-* prop 或 eVar 應該包含單一類型的 ID。例如，prop 或 eVar 不應包含登入 ID 和電子郵件 ID 的組合。
-* 如果針對同一訪客發生了具有相同時間戳記的多個點擊，但拚接的 prop 或 eVar 中的值不同，則 CDA 將會根據字母順序進行選擇。因此，如果訪客 A 有兩個具有相同時間戳記的點擊，且其中一個點擊指定 Bob，而另一個點擊指定 Ann，則 CDA 將會選擇 Ann。
+* prop 或 eVar 應該包含單一類型的 ID。 例如，prop 或 eVar 不應包含登入 ID 和電子郵件 ID 的組合。
+* 如果針對同一訪客發生了具有相同時間戳記的多個點擊，但拚接的 prop 或 eVar 中的值不同，則 CDA 將會根據字母順序進行選擇。 因此，如果訪客 A 有兩個具有相同時間戳記的點擊，且其中一個點擊指定 Bob，而另一個點擊指定 Ann，則 CDA 將會選擇 Ann。
 
 
 ## 後續步驟

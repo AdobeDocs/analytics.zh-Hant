@@ -3,16 +3,30 @@ title: Data Warehouse的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 45%
+source-wordcount: 580
+ht-degree: 47%
 
 ---
 
 # Data Warehouse 中的元件支援
 
-Data Warehouse架構中的獨特處理可允許使用某些在Adobe Analytics其他功能中通常無法使用的元件。 由於其獨特的架構，某些元件無法用於報表或區段。請參閱本頁內容，了解可以使用以及無法使用的項目。
+Data Warehouse架構中的獨特處理可允許使用某些在Adobe Analytics其他功能中通常無法使用的元件。 由於其獨特的架構，某些元件無法用於報表或區段。 請參閱本頁內容，了解可以使用以及無法使用的項目。
 
 ## Data Warehouse 的獨有元件
 
@@ -23,7 +37,7 @@ Data Warehouse架構中的獨特處理可允許使用某些在Adobe Analytics其
 * **Experience Cloud ID**：針對使用Experience Cloud ID服務(ECID)的實作，128位元數字由兩個串連的64位元數字組成，兩個數字皆補至19位數。
 * **頁面URL**：點選發生的頁面URL。
 * **購買ID**：購買的唯一識別碼，請使用purchaseID變數設定。
-* **訪客識別碼**：提供訪客的唯一識別碼。 此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+* **訪客識別碼**：提供訪客的唯一識別碼。 此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。 如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ### 專門支援的量度
 
@@ -36,7 +50,7 @@ Data Warehouse 中不支援某些維度和量度。
 
 >[!NOTE]
 >
->如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。建立或編輯區段時，請務必檢查產品相容性。
+>如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。 建立或編輯區段時，請務必檢查產品相容性。
 
 ### 不支援的維度
 
@@ -61,7 +75,7 @@ Data Warehouse 中不支援某些維度和量度。
 ### 不支援的量度
 
 * 某些以路徑為主的量度，包括：
-   * 彈回數
+   * 退回數
    * 登入點
    * 退出點
    * 重新載入
@@ -81,7 +95,7 @@ Data Warehouse 中不支援某些維度和量度。
 * 小時
 * 分鐘
 
-但是，使用這些維度時，日期的輸出是非標準值。
+但使用這些維度時，日期輸出不是使用標準格式。
 
 在Data Warehouse中計算日期輸出時，請考慮下列事項：
 

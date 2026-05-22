@@ -4,10 +4,25 @@ description: 使用Adobe Experience Platform Edge Network API傳送資料給Adob
 exl-id: 1ede95b7-4f17-4d69-aba6-62b253b6693a
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/lvnplKx6dPwmmbZWgSShGvZXD2TtUoigi-HNiKutZSg'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: b3e5f43e-2e2f-43c0-810a-044a5f91e31a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 35%
+source-wordcount: 332
+ht-degree: 42%
 
 ---
 
@@ -41,7 +56,7 @@ ht-degree: 35%
 
 <tr>
 <td>3</td>
-<td><b>設定資料流</b>。資料流代表使用Adobe Experience Platform Edge Network API的API時的伺服器端設定。</td>
+<td><b>設定資料流</b>。 資料流代表使用Adobe Experience Platform Edge Network API的API時的伺服器端設定。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant">設定資料流<a></td> 
 </tr>
 
@@ -52,7 +67,7 @@ ht-degree: 35%
 </tr>
 
 <td>5</td>
-<td><b>將 Adobe Analytics 服務</b>新增到您的資料流。該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
+<td><b>將 Adobe Analytics 服務</b>新增到您的資料流。 該服務控制資料是否以及如何發送到 Adobe Analytics。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/interacting-other-adobe-solutions/interacting-adobe-analytics.html?lang=zh-Hant">與Adobe Analytics互動</a></td>
 </tr>
 

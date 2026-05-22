@@ -3,10 +3,22 @@ description: 定義電子商務網站的一般設定。
 title: 商務
 feature: Report Suite Settings
 exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/l1-8tv-5dvKi4rx9-2tRoN4hK9ROr-ajWgKm0uFggrI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 59%
 
 ---
 
@@ -16,35 +28,35 @@ ht-degree: 100%
 
 | 轉換變數 | 類型 | 子關聯 | 配置 | 過期 | `s_code` 變數 |
 |---|---|---|---|---|---|
-| 內部行銷活動 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar1` |
-| 內部搜尋詞 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar2` |
-| 銷售類別 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar3` |
-| 商務變數 4 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar4` |
-| 商務變數 5 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar5` |
+| 內部行銷活動 | 字串 | 基本 | 最近（上一次） | 瀏覽 | `evar1` |
+| 內部搜尋詞 | 字串 | 基本 | 最近（上一次） | 瀏覽 | `evar2` |
+| 銷售類別 | 字串 | 基本 | 最近（上一次） | 瀏覽 | `evar3` |
+| Commerce變數4 | 字串 | 基本 | 最近（上一次） | 瀏覽 | `evar4` |
+| Commerce變數5 | 字串 | 基本 | 最近（上一次） | 瀏覽 | `evar5` |
 
 | 成功事件 | 類型 | `s_code` 變數 |
 |---|---|---|
-| 註冊 | 計數器 (無子關聯) | `event1` |
-| 自訂事件 1-5 | 計數器 (無子關聯) | `event1, event2, event3, event4, event5` |
+| 註冊 | 計數器（無子關連） | `event1` |
+| 自訂事件1-5 | 計數器（無子關連） | `event1, event2, event3, event4, event5` |
 
-| 自訂分析變數 | `s_code` 變數 |
+| 自訂洞察變數 | `s_code` 變數 |
 |---|---|
 | 流量屬性 1 - 5 | `prop1, prop2, prop3, prop4, prop5` |
 
-下表包含標準商務事件的清單。這些事件的初始設定在所有報表套裝範本中均相同。s_code 變數為「不適用」的事件不需要設定，由系統自動提供。
+下表包含標準商務事件清單。 這些事件的初始設定在所有報表套裝範本中皆相同。 s_code變數為N/A的事件不需要設定，系統會自動提供。
 
-| 標準商務事件 | 類型 | `s_code` 變數 |
+| 標準Commerce事件 | 類型 | `s_code` 變數 |
 |---|---|---|
 | 收入 | 計數器 | `purchase` |
 | 訂購 | 計數器 | `purchase` |
-| 件數 | 計數器 | `purchase` |
+| 單位數 | 計數器 | `purchase` |
 | 購物車 | 計數器 | `scOpen` |
 | 購物車檢視 | 計數器 | `scView` |
-| 例項 | 計數器 | 不適用 |
+| 實例 | 計數器 | 不適用 |
 | 結帳 | 計數器 | `scCheckout` |
 | 購物車新增 | 計數器 | `scAdd` |
 | 購物車移除 | 計數器 | `scRemove` |
-| 瀏覽 | 計數器 (無子關聯) | 不適用 |
-| 頁面檢視 | 計數器 (無子關聯) | 不適用 |
-| 每日不重複訪客 | 計數器 (無子關聯) | 不適用 |
-| 不重複訪客 | 計數器 (無子關聯) | 不適用 |
+| 造訪次數 | 計數器（無子關連） | 不適用 |
+| 頁面檢視次數 | 計數器（無子關連） | 不適用 |
+| 每日不重複訪客 | 計數器（無子關連） | 不適用 |
+| 不重複訪客 | 計數器（無子關連） | 不適用 |

@@ -4,26 +4,40 @@ description: 允許保留連結追蹤維度中的查詢字串。
 feature: Appmeasurement Implementation
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/HI9yasKxMWctqoHOlZfkvMEWo1tDa3UWuWo22Bl3jFM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: 331
 ht-degree: 84%
 
 ---
 
 # linkLeaveQueryString
 
-依預設，AppMeasurement 會將查詢字串從連結追蹤 URL 中移除。使用 `linkLeaveQueryString` 變數，可保留連結追蹤維度中的查詢字串。
+依預設，AppMeasurement 會將查詢字串從連結追蹤 URL 中移除。 使用 `linkLeaveQueryString` 變數，可保留連結追蹤維度中的查詢字串。
 
-對於某些退出連結和下載連結，URL 的重要部分可能會在查詢字串中。例如，下載連結 (如 `https://example.com/download.asp?filename=myfile.exe`) 的查詢字串就包含重要連結資訊。
+對於某些退出連結和下載連結，URL 的重要部分可能會在查詢字串中。 例如，下載連結 (如 `https://example.com/download.asp?filename=myfile.exe`) 的查詢字串就包含重要連結資訊。
 
-如果連結追蹤資訊不在網站的 URL 中，就不需要使用此變數。移除連結追蹤 URL 中的查詢字串，有助於限制維度所包含的獨特值數目。
+如果連結追蹤資訊不在網站的 URL 中，就不需要使用此變數。 移除連結追蹤 URL 中的查詢字串，有助於限制維度所包含的獨特值數目。
 
 `linkLeaveQueryString` 的啟用將套用至所有連結追蹤維度 (包括自訂連結、退出連結和下載連結)。
 
 >[!TIP]
 >
-> 此變數不會影響連結追蹤以外的維度。它只會影響自訂連結、退出連結和下載連結。
+>此變數不會影響連結追蹤以外的維度。 它只會影響自訂連結、退出連結和下載連結。
 
 ## 使用網頁SDK處理連結查詢字串
 
@@ -35,14 +49,14 @@ ht-degree: 84%
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+3. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示[!UICONTROL 「保留 URL 參數」]勾選方塊。
 
 如果您想在連結追蹤維度中納入查詢字串，請勾選此方塊。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkLeaveQueryString
 
-`s.linkLeaveQueryString` 變數是布林值。其預設值為 `false`。
+`s.linkLeaveQueryString` 變數是布林值。 其預設值為 `false`。
 
 * 若將此變數設為 `true`，查詢字串會保留在連結追蹤 URL 中。
 * 若將此變數設為 `false` 或未定義，連結追蹤 URL 中的查詢字串將遭到移除。

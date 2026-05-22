@@ -5,9 +5,25 @@ title: 同類群組分析使用案例
 feature: Visualizations
 role: User, Admin
 exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
-source-git-commit: 544502d98995134383291724b3c04d0b6acad728
+TQID: https://experienceleague.adobe.com/w6aNkoW0CrJNaBLn7XdI84npSxu-5jDJDGmrao4w-GU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: 1019
 ht-degree: 4%
 
 ---
@@ -20,7 +36,7 @@ ht-degree: 4%
 
 假設您想分析安裝您應用程式的使用者在一段時間內與應用程式的互動情形。 使用者是否安裝應用程式，且之後從未使用過應用程式？ 或者他們會先使用應用程式一段時間，然後停止使用應用程式？ 或者，使用者是否仍會隨著時間繼續參與？
 
-您可以建立六個月同類群組分析。 訪客在後續幾個月不會計為&#x200B;*`engaged`*，除非這些使用者有工作階段或至少啟動應用程式。 [!UICONTROL 同類群組分析]接著會顯示使用模式，其中 *`App Install`* 一律發生在第 0 個月。您可能會發現無論使用者於何時安裝應用程式，使用量都在第2個月下降。 這項分析可讓您傳送電子郵件或推播訊息給安裝應用程式後進入第二個月期間的所有使用者，提醒他們使用應用程式。
+您可以建立六個月同類群組分析。 訪客在後續幾個月不會計為&#x200B;*`engaged`*，除非這些使用者有工作階段或至少啟動應用程式。 [!UICONTROL 同類群組分析]接著會顯示使用模式，其中 *`App Install`* 一律發生在第 0 個月。 您可能會發現無論使用者於何時安裝應用程式，使用量都在第2個月下降。 這項分析可讓您傳送電子郵件或推播訊息給安裝應用程式後進入第二個月期間的所有使用者，提醒他們使用應用程式。
 
 +++ 同類群組表格視覺效果範例
 

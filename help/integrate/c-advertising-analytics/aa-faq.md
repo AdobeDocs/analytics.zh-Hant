@@ -3,10 +3,28 @@ description: 有關 Advertising Analytics 的常見問題集。
 title: Advertising Analytics 的常見問題集
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/HC9F-en-nLFRkxsaY6Szdtb3jR5NgdpsbjSAX6kTBlQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 13%
+source-wordcount: 1298
+ht-degree: 14%
 
 ---
 
@@ -105,7 +123,7 @@ Advertising Analytics運用一系列自訂API，將資料從搜尋引擎透過Ad
 
 +++ 我正在嘗試將我的Advertising Analytics帳戶對應到特定的報表套裝，不過在報表套裝強制回應中找不到帳戶。 原因為何？ 
 
-您必須先[布建所需的報表套裝，才能將報表套裝指派給Advertising Analytics帳戶，以進行Advertising Analytics報表](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+您必須先[布建所需的報表套裝，Advertising Analytics報表才能將報表套裝指派給Advertising Analytics帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 您可以透過個別的「管理員」頁面完成指派作業，請依序存取： 「管理員>報表套裝> `[select report suite]` >編輯設定> Advertising Analytics設定」。
 
 +++
@@ -128,13 +146,13 @@ Advertising Analytics運用一系列自訂API，將資料從搜尋引擎透過Ad
 
 +++
 
-+++ 在點按&#x200B;*之前*&#x200B;可擷取哪些內容？ 我們是否提供曝光數、成本、平均位置等？ 就帶來了曝光數、成本、平均位置等資料？
++++ 在點按&#x200B;*之前*&#x200B;可擷取哪些內容？ 即使沒有點按，我們也會帶來曝光數、成本、平均位置等嗎？
 
 AMO ID會擷取搜尋引擎量度：曝光數、成本、點按數、平均位置和平均品質分數。 如果沒有點按，但有曝光數，則曝光/位置/品質分數資料仍會傳送至Analytics。 一般來說，如果沒有點按，也不會產生費用。
 
 +++
 
-+++ 會在哪個層級擷取此資料？ *訪客？點擊？* 
++++ 會在哪個層級擷取此資料？ *訪客？ 點擊？* 
 
 搜尋引擎量度會在點選層級擷取，並連結至AMO ID （及其分類）。 這是摘要層級資料，未連線至造訪/訪客。 因此，搜尋引擎量度只能用於點選層級範圍且以AMO ID （或其分類）為基礎的區段。
 
@@ -144,7 +162,7 @@ AMO ID也會從登陸頁面上該頁面點選的擷取（這會將此ID連結至
 
 +++ 我們是否僅擷取google.com或&#x200B;*國家/地區版本* （例如google.co.uk、google.it、google.fr或google.de）？ 
 
-「廣告平台」分類會擷取「Google Adwords」和「Bing Ads」等值。 常用的最佳作法就是將國碼納入行銷活動命名的一部分。接著，您就可以往下篩選或區隔 (例如，如果所有的行銷活動是以 countrycode_ 開頭，您可建立一個區段，讓其中的行銷活動 (AMO ID) 是以「UK_」為開頭，就能取得英國的資料)。
+「廣告平台」分類會擷取「Google Adwords」和「Bing Ads」等值。 常用的最佳作法就是將國碼納入行銷活動命名的一部分。 接著，您就可以往下篩選或區隔 (例如，如果所有的行銷活動是以 countrycode_ 開頭，您可建立一個區段，讓其中的行銷活動 (AMO ID) 是以「UK_」為開頭，就能取得英國的資料)。
 
 +++
 

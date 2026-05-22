@@ -5,10 +5,32 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 41%
+source-wordcount: 1354
+ht-degree: 42%
 
 ---
 
@@ -34,7 +56,7 @@ ht-degree: 41%
 
 下列為啟用「報表時間處理」時，目前可供虛擬報表套裝使用的設定選項：
 
-* **[!UICONTROL 造訪逾時]：**&#x200B;造訪逾時設定會在自動開始新造訪前，定義不重複訪客必須達到的閒置時間。 已預設為 30 分鐘。例如，若您將造訪逾時設為15分鐘，系統便會針對收集到的各點選順序建立新的造訪群組，並按照15分鐘閒置時間加以區隔。 此設定不僅會影響您的造訪計數，也會影響造訪區段容器的評估方式，以及任何在造訪時過期的eVar的造訪過期邏輯。 減少造訪逾時可能會增加報表中的造訪總數，而增加造訪逾時可能會減少報表中的造訪總數。
+* **[!UICONTROL 造訪逾時]：**&#x200B;造訪逾時設定會在自動開始新造訪前，定義不重複訪客必須達到的閒置時間。 已預設為 30 分鐘。 例如，若您將造訪逾時設為15分鐘，系統便會針對收集到的各點選順序建立新的造訪群組，並按照15分鐘閒置時間加以區隔。 此設定不僅會影響您的造訪計數，也會影響造訪區段容器的評估方式，以及任何在造訪時過期的eVar的造訪過期邏輯。 減少造訪逾時可能會增加報表中的造訪總數，而增加造訪逾時可能會減少報表中的造訪總數。
 * **[!UICONTROL 行動應用程式造訪設定]：**&#x200B;若報表套裝包含行動應用程式透過 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html?lang=zh-Hant) 產生的資料，則可使用其他造訪設定。 這些設定不具破壞性，只會影響透過Mobile SDK收集的點選。 這些設定對於在行動SDK外部收集的資料沒有影響。
 * **[!UICONTROL 避免背景點擊數開始新造訪]：**&#x200B;當應用程式處於背景狀態時，Mobile SDK 會收集背景點擊數。
 * **[!UICONTROL 每次應用程式啟動後都開始新的造訪]：**&#x200B;除了造訪逾時設定外，每當 Mobile SDK 記錄應用程式啟動事件時，您也可以強制開始造訪，而不考量閒置視窗。 此設定會影響造訪量度與造訪區段容器，以及 eVar 的造訪過期邏輯。
@@ -63,21 +85,21 @@ ht-degree: 41%
 * [**首次購買間隔天數**](/help/components/dimensions/days-before-first-purchase.md)
 * [**上次購買間隔天數**](/help/components/dimensions/days-since-last-purchase.md)
 * [**上次造訪間隔天數**](/help/components/dimensions/days-since-last-visit.md)
-* [**登入頁面原始**](/help/components/dimensions/entry-dimensions.md)
+* [**原始登入頁面**](/help/components/dimensions/entry-dimensions.md)
 * **線性配置eVar**
 * **清單變數**
-* [**「行銷管道」維度**](/help/components/dimensions/marketing-channel.md)
+* [**行銷管道維度**](/help/components/dimensions/marketing-channel.md)
 * [**原始反向連結網域**](/help/components/dimensions/original-referring-domain.md)
 * [**回訪頻率**](/help/components/dimensions/return-frequency.md)
 * [**單次存取**](/help/components/metrics/single-access.md)
 * **交易ID資料來源**
-* [**造訪次數**](/help/components/dimensions/visit-number.md)
+* [**訪問次數**](/help/components/dimensions/visit-number.md)
 
 ## 受影響的維度和量度
 
 以下為根據選取之「報表時間處理功能」設定，而受影響的維度與量度清單：
 
-* 若啟用「避免背景點擊數開始一次新造訪」，便會發生下列變更。如需詳細資訊，請參閱[內容感知作業化](vrs-mobile-visit-processing.md)。
+* 若啟用「避免背景點擊數開始一次新造訪」，便會發生下列變更。 如需詳細資訊，請參閱[內容感知作業化](vrs-mobile-visit-processing.md)。
    * [**彈回數**](/help/components/metrics/bounces.md) / [**彈回率：**](/help/components/metrics/bounce-rate.md)&#x200B;系統不會將前景點選未追蹤的背景點選視為彈回，也不會對彈回率產生任何影響。
    * [**每次造訪逗留秒數：**](/help/components/metrics/time-spent-per-visit.md)&#x200B;只有包含前景點擊的造訪會歸入此量度。
    * **每次造訪逗留時間：**&#x200B;只有包含前景點擊的造訪會歸入此量度。
@@ -85,9 +107,9 @@ ht-degree: 41%
    * [**登入維度**](/help/components/dimensions/entry-dimensions.md) / [**退出維度：**](/help/components/dimensions/exit-dimensions.md)&#x200B;此維度中只會顯示包含前景點選的登入與退出造訪。
    * [**獨特訪客量度：**](/help/components/metrics/unique-visitors.md)&#x200B;獨特訪客不包含在報表日期範圍內只有背景點擊的訪客。
 * [**造訪數：**](/help/components/metrics/visits.md)&#x200B;造訪數會反映虛擬報表套裝的所有設定，而這些設定可能會與基本報表套裝有所差異。
-* **具有事件 ID 的序列化事件：**&#x200B;使用事件序列化與事件 ID 的事件，只會針對訪客在報表日期範圍內發生的事件刪除重複項目。由於「報表時間處理」日期範圍的緣故，不會針對所有日期或訪客刪除這些事件的全域重複項目。
+* **具有事件 ID 的序列化事件：**&#x200B;使用事件序列化與事件 ID 的事件，只會針對訪客在報表日期範圍內發生的事件刪除重複項目。 由於「報表時間處理」日期範圍的緣故，不會針對所有日期或訪客刪除這些事件的全域重複項目。
 * **購買** / [**收入**](/help/components/metrics/revenue.md) / [**訂單**](/help/components/metrics/orders.md) / [**單位：**](/help/components/metrics/units.md)&#x200B;使用購買ID時，這些量度僅會因為「報表時間處理」日期範圍的緣故，針對報表日期範圍內某訪客所發生的重複購買ID刪除重複的專案，而非針對所有日期或所有訪客刪除全域的重複專案。
 * [**非銷售eVars**](/help/components/dimensions/evar.md) / **保留的eVars：**&#x200B;在eVar中設定的值只有在因為「報表時間處理」日期範圍的緣故而設定於報表日期範圍內時，才會持續存在。 此外，如果持續存在期間跨越日光節約時間轉換，則過期時間可能會提前或延後一小時。
 * [**銷售eVar**](/help/components/dimensions/evar-merchandising.md) / **保留的eVar：**&#x200B;請參閱上文。 此外，針對轉換語法方面，其中設定為「any event」(任何事件) 的綁定項目，將會改用「any hit」(任何點擊)。
 * [**點擊類型：**](/help/components/dimensions/hit-type.md)&#x200B;此維度會將點擊類型指定為前景或背景。
-* **具有 (低流量) 或「已超出不重複限制」的維度：**(低流量) 條列項目在使用報告時間處理時的決定稍有不同，並且不能保證符合在基本報表套裝上產生報表時所觀察到的結果。不屬於低流量的Dimension條列專案不能保證代表該條列專案的100%資料。 維度中存在的唯一值數量越多，這些差異就越明顯。
+* **具有 (低流量) 或「已超出不重複限制」的維度：**(低流量) 條列項目在使用報告時間處理時的決定稍有不同，並且不能保證符合在基本報表套裝上產生報表時所觀察到的結果。 不屬於低流量的Dimension條列專案不能保證代表該條列專案的100%資料。 維度中存在的唯一值數量越多，這些差異就越明顯。

@@ -3,10 +3,34 @@ description: 啟用用於行動應用程式追蹤的維度和量度。
 title: 應用程式報告
 feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/oF-tETs2-MWjSLoo5bVUmrr2nS4N1o2shD4DkMDAVLU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 13%
+source-wordcount: 543
+ht-degree: 11%
 
 ---
 
@@ -50,7 +74,7 @@ ht-degree: 13%
 * [!UICONTROL 作業系統版本(SDK)]
 * [!UICONTROL 解析度(SDK)]
 
-下列為可使用的度量:
+可使用下列量度：
 
 * [!UICONTROL 應用程式中的動作時間]
 * [!UICONTROL 動作時間總計]
@@ -67,7 +91,7 @@ ht-degree: 13%
 
 * 追蹤經緯度資料
 * 識別、建立及視覺化特定地標。 地標必須在行動SDK設定檔案中定義。
-* 追蹤藍牙信標 (UUID、主要、次要及鄰近地區)。
+* 追蹤藍芽信標（UUID、主要、次要和近似程度）。
 
 啟用[!UICONTROL 位置追蹤]時，可使用下列維度：
 
@@ -98,13 +122,13 @@ ht-degree: 13%
 * [!UICONTROL 語音應用程式回應]
 * [!UICONTROL 語音語言]
 
-下列為可使用的度量:
+可使用下列量度：
 
 * [!UICONTROL 語音結束工作階段]
 * [!UICONTROL 語音錯誤]
 * [!UICONTROL 語音語音]
 
-## 背景點選數的舊式報表和歸因
+## 背景點按數的舊式報告和歸因
 
 舊版報表表示應用程式在背景時產生的點選會被視為一般的前景點選。 它們會顯示在報表中並影響歸因。 此舊版設定通常用於維持與舊版實作的一致性。
 

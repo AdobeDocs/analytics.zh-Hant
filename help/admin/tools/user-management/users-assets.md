@@ -4,10 +4,22 @@ title: 管理Analytics使用者和資產
 feature: Admin Tools
 exl-id: 849a8279-4850-4458-bdd2-85052a17ee21
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/d8CK9Vf-eaEU6P9386J1eO-JpD5u4l3VoqRcMwvXcW0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 4%
+source-wordcount: 455
+ht-degree: 9%
 
 ---
 
@@ -42,6 +54,6 @@ ht-degree: 4%
 | ![移轉](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Briefcase_18_N.svg) **[!UICONTROL 移轉]** | 您可以將一個或多個使用者移轉至Enterprise ID或Adobe ID。 |
 | ![行事曆已鎖定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_CalendarLocked_18_N.svg) **[!UICONTROL 設定到期日]** | 您可以為選取的使用者設定使用舊版Adobe Analytics登入的有效日期。  選取日期，以使用行事曆快顯視窗來指定日期。 選取&#x200B;**[!UICONTROL 完成]**&#x200B;以確認過期。 |
 | ![轉移資產](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Switch_18_N.svg) **[!UICONTROL 轉移資產]** | 只有選取一位使用者時，才能使用此動作。 如果使用者擁有可轉移的資產，您可以選取帳戶專案（如書籤、控制面板等）。 選取&#x200B;**[!UICONTROL 轉移]**&#x200B;以完成轉移。<br/>![轉移資產](assets/transfer-assets.png) |
-| ![刪除帳戶](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除帳戶]** | 畫面會顯示一個對話方塊，確認刪除選取的帳戶。 選取&#x200B;**[!UICONTROL 確定]**&#x200B;以刪除帳戶。 選取「**[!UICONTROL 取消]**」即可取消。 |
+| ![刪除帳戶](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Delete_18_N.svg) **[!UICONTROL 刪除帳戶]** | 畫面會顯示一個對話方塊，確認刪除選取的帳戶。 選取&#x200B;**[!UICONTROL 確定]**&#x200B;以刪除帳戶。 選取「**[!UICONTROL 取消]**」進行取消。 |
 | ![匯出為CSV](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileCSV_18_N.svg) **[!UICONTROL 匯出為CSV]** | 此動作會立即下載檔案，檔案中包含所選使用者的逗號分隔值清單及其詳細資料（名稱、移轉狀態、電子郵件等）。 |
 

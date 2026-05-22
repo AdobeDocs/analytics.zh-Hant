@@ -4,10 +4,26 @@ description: 使用 Adobe Analytics 追蹤您的行銷工作。
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: 583
+ht-degree: 98%
 
 ---
 
@@ -20,17 +36,17 @@ ht-degree: 100%
 1. [設定或調整您的 Adobe Analytics 實施以包含追蹤程式碼資料](#include-campaign-variables-in-your-implementation)
 1. [檢視 Analysis Workspace 中的報告](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/tw/products/campaign/adobe-campaign.html) 可以有助於簡化這些步驟中的每一步，進而從您的行銷工作中獲取最大價值。如需詳細資訊，請聯絡 Adobe 業務代表。
+[Adobe Campaign](https://business.adobe.com/tw/products/campaign/adobe-campaign.html) 可以有助於簡化這些步驟中的每一步，進而從您的行銷工作中獲取最大價值。 如需詳細資訊，請聯絡 Adobe 業務代表。
 
 ## 建立追蹤程式碼產生流程
 
-每個組織對追蹤程式碼都有不同的需求。某些組織可能需求不大，而手動建立追蹤程式碼就已綽綽有餘。 其他組織可能希望進一步控制追蹤，並擁有多個系統來建立所需的追蹤程式碼。如果您的組織除了 Adobe Analytics 之外也使用 Google Analytics，您的組織可能已建有 `utm` 追蹤程式碼模型。
+每個組織對追蹤程式碼都有不同的需求。 某些組織可能需求不大，而手動建立追蹤程式碼就已綽綽有餘。 其他組織可能希望進一步控制追蹤，並擁有多個系統來建立所需的追蹤程式碼。 如果您的組織除了 Adobe Analytics 之外也使用 Google Analytics，您的組織可能已建有 `utm` 追蹤程式碼模型。
 
-無論您選擇如何建立或產生追蹤程式碼，擁有一致的系統可讓您的組織更容易將追蹤程式碼群組在一起以進行報告。結構一致的追蹤程式碼允許您建立[分類規則](/help/components/classifications/crb/classification-rule-builder.md)，讓您能夠分析分類績效。
+無論您選擇如何建立或產生追蹤程式碼，擁有一致的系統可讓您的組織更容易將追蹤程式碼群組在一起以進行報告。 結構一致的追蹤程式碼允許您建立[分類規則](/help/components/classifications/crb/classification-rule-builder.md)，讓您能夠分析分類績效。
 
 ## 將所需的追蹤程式碼新增到 URL 中
 
-獲得所需的追蹤程式碼值後，您可以將其新增到您在線上張貼的任何連結中，例如廣告、社交媒體或電子郵件。新增這些追蹤程式碼通常發生在連結的查詢字串中。 您使用哪個查詢字串參數取決於您組織的追蹤要求；一個常見的查詢字串參數是 `cid` (行銷活動 ID 的縮寫)。某些也使用 Google Analytics 的組織可能已經有多個活動查詢字串參數，例如 `utm_source`、`utm_medium` 和其他。
+獲得所需的追蹤程式碼值後，您可以將其新增到您在線上張貼的任何連結中，例如廣告、社交媒體或電子郵件。 新增這些追蹤程式碼通常發生在連結的查詢字串中。 您使用哪個查詢字串參數取決於您組織的追蹤要求；一個常見的查詢字串參數是 `cid` (行銷活動 ID 的縮寫)。 某些也使用 Google Analytics 的組織可能已經有多個活動查詢字串參數，例如 `utm_source`、`utm_medium` 和其他。
 
 將查詢字串新增到電子郵件中的連結看起來如下：
 
@@ -53,7 +69,7 @@ Adobe Analytics 有專屬的[追蹤程式碼](/help/components/dimensions/tracki
 
 適當設定好實施以收集追蹤程式碼資料後，您可以在 Analysis Workspace 中檢視報告。
 
-1. 登入 [Adobe Experience Cloud](https://experience.adobe.com) 並選取 [!UICONTROL Adobe Analytics]。
+1. 登入[Adobe CX Enterprise](https://experience.adobe.com)並選取[!UICONTROL Adobe Analytics]。
 1. 建立 [Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)。
 1. 在左側的元件清單中，將[追蹤程式碼](/help/components/dimensions/tracking-code.md)維度拖曳到工作區畫布。
 1. 將所需的量度，例如[瀏覽次數](/help/components/metrics/visits.md)或[訂購量](/help/components/metrics/orders.md)，拖曳到工作區畫布的右側。

@@ -4,10 +4,21 @@ title: 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 97%
+source-wordcount: 769
+ht-degree: 72%
 
 ---
 
@@ -25,22 +36,22 @@ ht-degree: 97%
 * 設定網域
 * 將網域連結至目錄
 
-如需說明，請參閱[設定身分系統](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)。
+如需說明，請參閱[設定識別系統](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)。
 
-如果其他組織已有另一個業務單位或團隊建立目錄，請依照[目錄信任](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html#Directorytrusting)所述步驟，在您預計由 Analytics 使用的組織中建立目錄。
+如果目錄已由其他業務單位或團隊在另一個組織中建立，請按照[目錄託管](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html#Directorytrusting)中的步驟來在用於Analytics的組織中建立目錄。
 
 ## 移轉 Enterprise ID 與 Federated ID 的使用者帳戶 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 此程序中，您需要完成以下步驟：
 
-* 從&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Analytics 使用者與資產」]**&#x200B;下載使用者登入清單。
+* 從&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Analytics使用者與Assets]**&#x200B;下載使用者登入清單。
 
-* 從&#x200B;**[!UICONTROL 「Admin Console]** > **[!UICONTROL 使用者」]**&#x200B;下載最新使用者清單。
+* 從&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL 使用者]**&#x200B;下載目前的使用者清單。
 
 * 比較兩份清單 (尋找重複項目，以免覆寫 Adobe Admin Console 中的帳戶資料)。
 * 將含有 Enterprise ID 或 Federated ID 使用者的已完成 [!DNL .csv] (位於&#x200B;**[!UICONTROL 「Admin Console]** > **[!UICONTROL 使用者」]**) 上傳到 Adobe Admin Console。
 
-如果您需要將現有的 Adobe ID 使用者帳戶移轉到 Enterprise ID 或 Federated ID，請聯絡 Adobe 客戶服務並提出[大量使用者身分切換](https://helpx.adobe.com/tw/enterprise/using/bulk-operations.html)申請。
+如果您需要將現有的Adobe ID使用者帳戶移轉至Enterprise ID或Federated ID，請聯絡Adobe客戶服務並請求[大量使用者身分識別引數](https://helpx.adobe.com/tw/enterprise/using/bulk-operations.html)。
 
 **移轉使用者帳戶**
 
@@ -81,7 +92,7 @@ ht-degree: 97%
 
       >[!IMPORTANT]
       >
-      >如果發現重複項目，請刪除 Analytics [!DNL User Logins List.csv] 檔案中的重複項目。 這麼做可防止覆寫 Adobe Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
+      >如果發現重複項目，請刪除 Analytics [!DNL User Logins List.csv] 檔案中的重複項目。 此步驟有助於防止覆寫Adobe Admin Console中的現有CX Enterprise使用者許可權，並提供您要移轉的帳戶清單。
 
 1. 從 Adobe Admin Console 下載 CSV 範本：
    1. 在「使用者」索引標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**，然後按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**。
@@ -141,7 +152,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
-> [!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
+>[!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
 
 1. 在 Adobe Admin Console 的「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**&#x200B;上傳範本檔案 (如步驟 3 所示)。
 1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/tools/user-management/user-migration/t-migrate-users.md)所述)。
@@ -149,8 +160,8 @@ ht-degree: 97%
 
    ![步驟資訊](/help/admin/tools/user-management/user-migration/assets/migrate-as-enterprise.png)
 
-   在您按下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者就會在 Adobe Admin Console 中與 Enterprise ID/Federated ID 帳戶連結。 Analytics 的舊版使用者帳戶權限會符合&#x200B;**[!UICONTROL 「Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 產品描述檔」]**&#x200B;中授予 Enterprise/Federated ID 登入的權限。使用者 ID 會顯示在「完成移轉程序」區塊中。您可以停用其舊版 [!DNL my.omniture.com] 存取權。
+   在您按下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者就會在 Adobe Admin Console 中與 Enterprise ID/Federated ID 帳戶連結。 Analytics舊版使用者帳戶的許可權會符合&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 產品設定檔]**&#x200B;中授予Enterprise/Federated ID登入的許可權。 使用者 ID 會顯示在「完成移轉程序」區塊中。 您可以停用其舊版 [!DNL my.omniture.com] 存取權。
 
    使用者移轉後，「移轉狀態」欄下方的狀態會從&#x200B;**[!UICONTROL 「未啟動」]**&#x200B;變更為&#x200B;**[!UICONTROL 「已移轉」]**。
 
-   移轉工具中顯示的 Adobe ID 使用者也可透過此程序移轉。切換身分之前，使用者仍需使用其 Adobe ID 登入。如需身分切換的相關說明，請聯絡 Adobe 客戶服務。
+   在此過程中，移轉工具中顯示的Adobe ID使用者也可以進行移轉。 使用者仍須使用Adobe ID登入，直到執行身分切換為止。 請聯絡Adobe客戶服務，協助處理身分識別切換。

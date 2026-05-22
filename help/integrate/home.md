@@ -3,16 +3,31 @@ title: Analytics 整合
 description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+autotag-review: '2026-05-22T12:18:44.598Z'
+TQID: 'https://experienceleague.adobe.com/NUV0IjVqKSnMvXyQlI9GpQk-ILTFMj9qBTtG-fZ3JIU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 72%
+source-wordcount: 218
+ht-degree: 65%
 
 ---
 
 # Analytics 整合
 
-本指南著重於整合多個Adobe Experience Cloud解決方案，例如Audience Manager、Advertising或Target。 內容包括：
+本指南著重於整合多個Adobe CX Enterprise解決方案，例如Audience Manager、Advertising或Target。 內容包括：
 
 * **Audience Analytics：**&#x200B;整合 Adobe Audience Manager 與 Adobe Analytics。
 * **Advertising Analytics：**&#x200B;並排顯示付費搜尋資料與 Adobe Analytics 資料。
@@ -45,11 +60,11 @@ ht-degree: 72%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
-* [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
+* [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
 * [Experience League](https://landing.adobe.com/experience-league/)

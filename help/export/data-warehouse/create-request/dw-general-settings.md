@@ -3,16 +3,29 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: Data Warehouse要求一般設定
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: 'https://experienceleague.adobe.com/-FIw9vHeGpDbpd09GgRQqgK-5-srLyNCjDCLLhPBEYI'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 27%
+source-wordcount: 399
+ht-degree: 30%
 
 ---
 
 # Data Warehouse要求一般設定
 
-建立 Data Warehouse 請求時有多種可用的設定選項。以下資訊說明如何設定請求的一般設定。
+建立 Data Warehouse 請求時有多種可用的設定選項。 以下資訊說明如何設定請求的一般設定。
 
 有關如何開始建立請求的資訊，以及其他重要設定選項的連結，請參閱「[建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)」。
 
@@ -31,8 +44,8 @@ ht-degree: 27%
    | 選項 | 函數 |
    |---------|----------|
    | 請求名稱 | 管理請求時，此名稱會顯示在Data Warehouse首頁面上。 |
-   | 日期範圍 | 選取要納入報表的日期範圍。 <p>您可以選擇自訂日期或預設的日期範圍。 預設範圍是相對於報表傳送日期。</p><p>下列預設集選項可供使用：</p><ul><li>今天</li><li>昨天</li><li>最近 7 天</li><li>最近 30 天</li><li>本週</li><li>上週</li><li>過去2週</li><li>最近3週</li><li>最近4週</li><li>本月</li><li>上個月</li><li>過去一小時</li></ul> |
-   | 詳細程度 | 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報表粒度需要更多的處理時間。如果您報告整年的每月粒度，而每個月都提交報表請求，報表的處理速度就會快很多。</p><p>**注意：**&#x200B;在Data Warehouse要求中套用詳細程度時，「日期」欄會新增到報告中。 根據所選的詳細程度，日期格式會變更，如下所示：</p><ul><li>**每小時粒度**：<ul> <li>**格式**： `mmmm d, yyyy`小時`H`</li><li>**範例**： 20XX年1月1日，小時0 </li></ul><li>**每日粒度**：<ul> <li>**格式**： `mmmm d, yyyy`</li><li>**範例**： 20XX年1月1日</li></ul><li>**每週粒度**：<ul> <li>**格式**：周`w, yyyy`</li><li>**範例**：第1週，20XX </li></ul><li>**每月粒度**：<ul> <li>**格式**： `mmmm yyyy`</li><li>**範例**： January 20XX </li></ul><li>**每季粒度**：<ul> <li>**格式**： `q`季`yyyy`</li><li>**範例**：第1季20XX </li></ul><li>**每年粒度**：<ul> <li>**格式**： `yyyy`</li><li>**範例**： 20XX</li></ul> |
+   | 日期範圍 | 選取要納入報表的日期範圍。 <p>您可以選擇自訂日期或預設的日期範圍。 預設範圍是相對於報表傳送日期。</p><p>下列預設集選項可供使用：</p><ul><li>今天</li><li>昨天</li><li>最近 7 天</li><li>最近 30 天</li><li>本週</li><li>上週</li><li>最近 2 週</li><li>最近 3 週</li><li>最近 4 週</li><li>本月</li><li>上個月</li><li>前 1 小時</li></ul> |
+   | 顆粒度 | 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報告顆粒度需要更多的處理時間。 如果您報告整年的每月粒度，而每個月都提交報表請求，報表的處理速度就會快很多。</p><p>**注意：**&#x200B;在Data Warehouse要求中套用詳細程度時，「日期」欄會新增到報告中。 根據所選的詳細程度，日期格式會變更，如下所示：</p><ul><li>**每小時粒度**：<ul> <li>**格式**： `mmmm d, yyyy`小時`H`</li><li>**範例**： 20XX年1月1日，小時0 </li></ul><li>**每日粒度**：<ul> <li>**格式**： `mmmm d, yyyy`</li><li>**範例**： 20XX年1月1日</li></ul><li>**每週粒度**：<ul> <li>**格式**：周`w, yyyy`</li><li>**範例**：第1週，20XX </li></ul><li>**每月粒度**：<ul> <li>**格式**： `mmmm yyyy`</li><li>**範例**： January 20XX </li></ul><li>**每季粒度**：<ul> <li>**格式**： `q`季`yyyy`</li><li>**範例**：第1季20XX </li></ul><li>**每年粒度**：<ul> <li>**格式**： `yyyy`</li><li>**範例**： 20XX</li></ul> |
    | 設為可供您組織中的使用者使用 | 只有您和任何系統管理員可看見所有Data Warehouse請求。 如果您想要讓組織中的所有人都能看到請求，請啟用此選項。 <p>如果您希望組織中的其他使用者協助建立或更新請求，啟用此選項會很有用。</p> |
 
    {style="table-layout:auto"}

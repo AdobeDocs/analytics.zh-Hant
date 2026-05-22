@@ -5,10 +5,23 @@ title: 可用於處理規則的維度和量度
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: 721
+ht-degree: 15%
 
 ---
 
@@ -27,7 +40,7 @@ ht-degree: 10%
 
 | 屬性 | 讀取/寫入狀態 | 說明 |
 | --- | --- | --- |
-| **頁面 URL** | 讀取+寫入 | [頁面URL](/help/components/dimensions/page-url.md)維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面URL值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
+| **頁面 URL** | 讀取+寫入 | [頁面 URL](/help/components/dimensions/page-url.md) 維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面URL值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
 | **頁面名稱** | 讀取+寫入 | [頁面](/help/components/dimensions/page.md)維度。 連結追蹤點選在到達處理規則之前會移除此維度。 如果您使用處理規則重新插入頁面值，則點選會視為[頁面檢視](/help/components/metrics/page-views.md)，而非[頁面事件](/help/components/metrics/page-events.md)。 Adobe建議在修改頁面維度之前，先檢查頁面維度中的值。 |
 | **報告套裝ID** | 唯讀 | 處理規則執行所在的報表套裝。 此報告套裝可能與最初透過AppMeasurement傳送的報告套裝不同，例如使用VISTA規則時。 |
 | **AppMeasurement程式碼版本** | 唯讀 | 用來產生影像要求的AppMeasurement程式庫版本。 |
@@ -49,13 +62,13 @@ ht-degree: 10%
 
 | 變數 | 讀取/寫入狀態 | 說明 |
 | --- | --- | --- |
-| **eVar 1-250** | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md)維度。 |
-| **Campaign** | 讀取+寫入 | [追蹤代碼](/help/components/dimensions/tracking-code.md)維度。 |
-| **購買ID** | 讀取+寫入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)實作變數。 |
+| **eVar 1-250** | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md) 維度。 |
+| **Campaign** | 讀取+寫入 | [追蹤程式碼](/help/components/dimensions/tracking-code.md)維度。 |
+| **購買ID** | 讀取+寫入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 實施變數。 |
 | **州別** | 讀取+寫入 | （已淘汰） [`state`](/help/implement/vars/page-vars/state.md)實作變數。 |
 | **Zip** | 讀取+寫入 | [郵遞區號](/help/components/dimensions/zip-code.md)維度。 |
-| **貨幣代碼** | 讀取+寫入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md)實作變數。 重要：如果您將此變數設為無效值，點選會被捨棄。 |
-| **交易 ID** | 讀取+寫入 | [`transactionID`](/help/import/data-sources/transactionid.md)實作變數。 |
+| **貨幣代碼** | 讀取+寫入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 實施變數。 重要：如果您將此變數設為無效值，點選會被捨棄。 |
+| **交易 ID** | 讀取+寫入 | [`transactionID`](/help/import/data-sources/transactionid.md) 實施變數。 |
 
 >[!NOTE]
 >Adobe不支援使用處理規則設定[`products`](/help/implement/vars/page-vars/products.md)實作變數。
@@ -64,7 +77,7 @@ ht-degree: 10%
 
 | 變數 | 讀取/寫入狀態 | 說明 |
 | --- | --- | --- |
-| **Prop 1-75** | 讀取+寫入 | [Prop](/help/components/dimensions/prop.md)維度。 |
+| **Prop 1-75** | 讀取+寫入 | [Prop](/help/components/dimensions/prop.md) 維度。 |
 | **階層1-5** | 讀取+寫入 | （已淘汰） [階層](/help/components/dimensions/hierarchy.md)維度。 |
 | **伺服器** | 讀取+寫入 | [伺服器](/help/components/dimensions/server.md)維度。 |
 | **管道** | 讀取+寫入 | [網站區段](/help/components/dimensions/site-section.md)維度。 |
@@ -75,7 +88,7 @@ ht-degree: 10%
 
 >[!IMPORTANT]
 >
->如果處理規則未將指定的內容資料變數對應至其他變數(例如prop或eVar)，內容資料變數中的值將會永久遺失。
+>如果處理規則未將指定的內容資料變數對應至其他變數（例如prop或eVar），內容資料變數中的值將會永久遺失。
 
 ## 成功事件
 

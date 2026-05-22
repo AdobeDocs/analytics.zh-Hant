@@ -3,16 +3,27 @@ title: Adobe Analytics 中的 VISTA 規則
 description: 進一步了解 VISTA 規則及其功能。
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
+TQID: https://experienceleague.adobe.com/x3pRtt4sTKGPnD30xXJWIX6OEjaDWHED-S2-0BXCcDg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: 354
 ht-degree: 57%
 
 ---
 
 # Adobe Analytics 中的 VISTA 規則
 
-VISTA 規則是自訂資料修改的另一種形式，您可以在資料收集和處理之間應用。請參閱[處理順序](processing-order.md) 以進一步了解 VISTA 規則套用之資料管道中的確切階段。VISTA 規則僅影響收集的目前資料；它不會改變現有資料。
+VISTA 規則是自訂資料修改的另一種形式，您可以在資料收集和處理之間應用。 請參閱[處理順序](processing-order.md) 以進一步了解 VISTA 規則套用之資料管道中的確切階段。 VISTA 規則僅影響收集的目前資料；它不會改變現有資料。
 
 VISTA 規則的一些常見使用案例包括：
 
@@ -22,7 +33,7 @@ VISTA 規則的一些常見使用案例包括：
 * 將變數值複製到其他變數
 * 將可能影響變數值的檔案上傳到 Adobe FTP 站台
 
-[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)、[機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)、[虛擬報告套裝](/help/components/vrs/vrs-about.md)已經提供了 VISTA 規則的許多使用案例，或者只是更新您的 Adobe Analytics 實施。Adobe 建議僅將 VISTA 規則作為最後的手段。
+[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)、[機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)、[虛擬報告套裝](/help/components/vrs/vrs-about.md)已經提供了 VISTA 規則的許多使用案例，或者只是更新您的 Adobe Analytics 實施。 Adobe 建議僅將 VISTA 規則作為最後的手段。
 
 >[!IMPORTANT]
 >
@@ -36,8 +47,8 @@ VISTA 規則的一些常見使用案例包括：
 
 ## 建立 VISTA 規則 {#create}
 
-您必須使用 Adobe Professional Services 才能建立 VISTA 規則。如果您想要建立VISTA規則，請聯絡您的Adobe客戶團隊。
+您必須使用 Adobe Professional Services 才能建立 VISTA 規則。 如果您想要建立VISTA規則，請聯絡您的Adobe客戶團隊。
 
 ## 請參閱現有的 VISTA 規則 {#see}
 
-Adobe 不提供可檢視現有 VISTA 規則的 UI。聯絡您的Adobe客戶團隊或客戶服務，提供所需的報表套裝，以擷取現有VISTA規則清單。
+Adobe 不提供可檢視現有 VISTA 規則的 UI。 聯絡您的Adobe客戶團隊或客戶服務，提供所需的報表套裝，以擷取現有VISTA規則清單。

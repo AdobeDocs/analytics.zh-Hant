@@ -1,21 +1,32 @@
 ---
-description: 瞭解如何為 Analytics 使用者停用舊版登入。
+description: 瞭解如何停用Analytics使用者的舊版登入。
 title: 停用舊版登入
 feature: Admin Tools
 exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/xwLXKuaeoKB5-TSVC7FLQXdUsBEeOg-zuITMa8Z3OIo'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: 185
+ht-degree: 52%
 
 ---
 
 # 停用舊版登入
 
-瞭解如何為 Analytics 使用者停用舊版登入。
+瞭解如何停用Analytics使用者的舊版登入。
 
-將使用者從舊版 Analytics 使用者管理系統移轉至 Adobe Admin Console 後，即可停用他們的舊版登入功能。停用舊版登入後，如果使用者嘗試使用舊版登入，系統會將使用者重新導向到 Experience Cloud 登入。
+使用者從舊版Analytics使用者管理系統移轉至Adobe Admin Console後，您就可以停用其舊版登入。 如果使用者嘗試使用舊版登入，則停用舊版登入會將使用者重新導向至CX Enterprise登入。
 
 1. 在&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 使用者 ID 移轉」]**&#x200B;中，開啟「移轉」工具。
 1. 在 [!DNL User Information] 中找出含有所需使用者的網域，然後按一下&#x200B;**[!UICONTROL 「選取使用者」]**。
@@ -23,9 +34,9 @@ ht-degree: 100%
 
    ![](/help/admin/tools/user-management/user-migration/assets/user-info.png)
 
-   符合資格的使用者在「移轉狀態」欄下的狀態會變成 *`Migrated`*。您必須先移轉使用者，才能停用其舊版登入。
+   符合資格的使用者在「移轉狀態」欄下的狀態會變成 *`Migrated`*。 您必須先移轉使用者，才能停用其舊版登入。
 1. 按一下&#x200B;**[!UICONTROL 「停用舊版登入」]**，然後按一下&#x200B;**[!UICONTROL 「完成」]**。
 
    「停用舊版登入」表示使用者可以繼續使用其舊版 [!DNL my.omniture.com] 使用者名稱和密碼。
 
-   您無法為尚未移轉的使用者停用舊版登入功能。一旦停用，使用者必須使用其 Experience Cloud ID 登入和存取 Analytics。
+   您無法停用尚未移轉之使用者的舊版登入。 停用後，使用者必須使用其Experience Cloud ID登入及存取Analytics。

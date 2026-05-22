@@ -6,10 +6,18 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
+TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 5%
+source-wordcount: 383
+ht-degree: 6%
 
 ---
 
@@ -77,4 +85,4 @@ ht-degree: 5%
    * ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg)表示活頁簿已成功傳送。
    * ![AlertRed](/help/assets/icons/AlertRed.svg)表示發生錯誤。
 
-或者，您也可以在![活頁簿](/help/assets/icons/History.svg)索引標籤中，為一個或多個選取的活頁簿選取&#x200B;**[!UICONTROL 歷程記錄]**。 此動作顯示&#x200B;**[!UICONTROL History]**&#x200B;索引標籤，其中包含依您的選取範圍篩選的清單。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除篩選器。
+或者，您也可以在&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中，為一個或多個選取的活頁簿選取![歷程記錄](/help/assets/icons/History.svg)。 此動作顯示&#x200B;**[!UICONTROL History]**&#x200B;索引標籤，其中包含依您的選取範圍篩選的清單。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除篩選器。

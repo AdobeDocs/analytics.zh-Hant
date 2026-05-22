@@ -4,16 +4,29 @@ keywords: 頁面;事件;頁面_事件;張貼_頁面_事件
 title: 頁面事件查詢
 feature: Data Feeds
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
-source-git-commit: e16b0d7b3fe585dc8e9274a77833ad5af3c63124
+TQID: 'https://experienceleague.adobe.com/VaSk-h0AVXNcL-YoxuFu2XJwzING-08-GX2Pgt6dj4s'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 226
 ht-degree: 100%
 
 ---
 
 # 頁面事件查詢
 
-用來根據 `page_event` 值判定點擊類型的查詢表。如同 [ 資料欄參考](datafeeds-reference.md)所述，`page_event` 與 `post_page_event` 欄位是「tinyint unsigned」。
+用來根據 `page_event` 值判定點擊類型的查詢表。 如同 [ 資料欄參考](datafeeds-reference.md)所述，`page_event` 與 `post_page_event` 欄位是「tinyint unsigned」。
 
 * 請參閱 [`t()`](/help/implement/vars/functions/t-method.md)，以了解如何為 AppMeasurement 與 Web SDK 實施頁面檢視呼叫。
 * 請參閱 [`tl()`](/help/implement/vars/functions/tl-method.md)，以了解如何為 AppMeasurement 與 Web SDK 實施連結追蹤呼叫。
@@ -21,10 +34,10 @@ ht-degree: 100%
 
 | `page_event` 值 | `post_page_event` 值 | 說明 |
 | --- | --- | --- |
-| `0` | `0` | 所有標準的頁面檢視呼叫。這是大多數點擊的預設值。 |
-| `10` | `100` | 自訂連結。將連結類型設為 `o` (AppMeasurement) 或 `xdm.web.webInteraction.type` 至 `other` (Web SDK 或 Mobile SDK)。 |
-| `11` | `101` | 下載連結。將連結類型設為 `d` (AppMeasurement) 或 `xdm.web.webInteraction.type` 至 `download` (Web SDK 或 Mobile SDK)。 |
-| `12` | `102` | 退出連結。將連結類型設為 `e` (AppMeasurement) 或 `xdm.web.webInteraction.type` 至 `exit` (Web SDK 或 Mobile SDK)。 |
+| `0` | `0` | 所有標準的頁面檢視呼叫。 這是大多數點擊的預設值。 |
+| `10` | `100` | 自訂連結。 將連結類型設為 `o` (AppMeasurement) 或 `xdm.web.webInteraction.type` 至 `other` (Web SDK 或 Mobile SDK)。 |
+| `11` | `101` | 下載連結。 將連結類型設為 `d` (AppMeasurement) 或 `xdm.web.webInteraction.type` 至 `download` (Web SDK 或 Mobile SDK)。 |
+| `12` | `102` | 退出連結。 將連結類型設為 `e` (AppMeasurement) 或 `xdm.web.webInteraction.type` 至 `exit` (Web SDK 或 Mobile SDK)。 |
 | `31` | `76` | 媒體開始 |
 | `32` | `77` | 媒體更新 (不含其他變數處理) |
 | `33` | `78` | 媒體更新 (含其他變數處理) |

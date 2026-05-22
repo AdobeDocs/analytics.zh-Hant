@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -134,7 +134,7 @@ ht-degree: 78%
 | | **`latlon1`** | 位置 (10 公里以內) | varchar(255) |
 | | **`latlon23`** | 位置 (100 公尺以內) | varchar(255) |
 | | **`latlon45`** | 位置 (1 公尺以內) | varchar(255) |
-| | **`mcvisid`** | Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 19 位的 128 位數。 | varchar(255) |
+| | **`mcvisid`** | CX Enterprise訪客ID。 由兩個連接的 64 位數組成，並填入至 19 位的 128 位數。 | varchar(255) |
 | **`post_`** | **`mc_audiences`** | 訪客所屬的 Audience Manager 區段 ID 清單。 `post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | text |
 | **`post_`** | **`mobileaction`** | 行動動作。 在行動裝置實施中呼叫 `trackAction` 時自動收集。 允許應用程式中的自動動作路徑。 | varchar(100) |
 | **`post_`** | **`mobileappid`** | 行動應用程式 ID。 以下列格式儲存應用程式名稱和版本：`[AppName] [BundleVersion]` | varchar(255) |

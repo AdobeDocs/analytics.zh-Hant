@@ -3,10 +3,24 @@ description: 分類規則會定期尋找未分類的詞語。 如果找到符合
 title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
+TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 64%
+source-wordcount: 1978
+ht-degree: 62%
 
 ---
 
@@ -18,14 +32,14 @@ ht-degree: 64%
 
 **[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 分類規則產生器]**
 
-規則產生器可讓您建立&#x200B;*分類規則集*，這是一份&#x200B;*分類規則*&#x200B;清單。規則符合您指定的條件，然後執行動作。
+規則產生器可讓您建立&#x200B;*分類規則集*，這是一份&#x200B;*分類規則*&#x200B;清單。 規則符合您指定的條件，然後執行動作。
 
 分類規則可方便執行下列作業：
 
 * **電子郵件**&#x200B;和&#x200B;**多媒體廣告**：建立分類規則以便將個別顯示廣告行銷活動分組，好讓您了解顯示促銷活動針對電子郵件促銷活動的成效。
 
 * **追蹤程式碼**：建立分類規則將衍生自追蹤程式碼內之字串的索引鍵值分類，並和您定義的特定準則比對。
-* **搜尋詞**：使用[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)和萬用字元來簡化分類搜尋詞的程序。例如，如果搜尋詞包含 *`baseball`*，您可將分類 *`Sports League`* 設定為 *`MLB`*。
+* **搜尋詞**：使用[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)和萬用字元來簡化分類搜尋詞的程序。 例如，如果搜尋詞包含 *`baseball`*，您可將分類 *`Sports League`* 設定為 *`MLB`*。
 
 例如，假設電子郵件促銷活動 ID 的追蹤程式碼是：
 
@@ -61,18 +75,18 @@ about_classification_rules.xml
 
 * **規則運算式**：[分類規則中的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)底下提供說明。
 
-* **報告套裝**：至少要選取一個報告套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報告套裝。
+* **報告套裝**：至少要選取一個報告套裝後，才能選擇分類。 您必須先建立規則集並指派變數後，才能套用報告套裝。
 
   測試規則集時，請使用報表中的索引鍵（經過分類的變數）來檢視規則集將如何影響索引鍵。 （[索引鍵](/help/components/classifications/importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄）。
 
-* **規則優先順序**：如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。請參閱[關於規則優先順序](/help/components/classifications/crb/classification-quickstart-rules.md)。
+* **規則優先順序**：如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。 請參閱[關於規則優先順序](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
-* **規則數目上限**：您可以建立的規則數目並無限制。然而，大量規則可能會影響瀏覽器效能。
+* **規則數目上限**：您可以建立的規則數目並無限制。 然而，大量規則可能會影響瀏覽器效能。
 * **處理**：視您的分類相關流量大小而定，會以頻繁間隔處理規則。
 
   作用中規則每四小時處理一次，通常一個月檢查返回的分類資料。 規則會自動檢查新值，並使用匯入工具上傳分類。
 
-* **覆寫現有的分類**：請參閱「[規則什麼時候不會將索引鍵分類？」](/help/components/classifications/crb/classification-quickstart-rules.md) 如有必要，您可以使用匯入工具來刪除或移除現有的分類。
+* **覆寫現有的分類**：請參閱[規則什麼時候不會將索引鍵分類？](/help/components/classifications/crb/classification-quickstart-rules.md) 如有必要，您可以使用匯入工具來刪除或移除現有的分類。
 
 ## 規則什麼時候不會將索引鍵分類？
 
@@ -87,7 +101,7 @@ about_classification_rules.xml
 
   >[!NOTE]
   >
-  >在報表中，只要有索引鍵存在，分類就會套用到任何指定的時間範圍。報告的日期範圍不會影響報告。
+  >在報表中，只要有索引鍵存在，分類就會套用到任何指定的時間範圍。 報告的日期範圍不會影響報告。
 
 ![](assets/overwrite_keys.png)
 
@@ -133,14 +147,14 @@ about_classification_rules.xml
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
-| 規則運算式 | &Hat;(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
+| 規則運算式 | &amp;Hat；(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
 
 **語法**
 
 | 規則運算式 | 字串或比對結果 | 對應的比對群組 |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`： `em:JuneSale:20XX0601` `$1`： em `$2`： JuneSale `$3`： 20XX0601 |
-| 建立語法 | `^` = 以該行開始 () = 將字元分組，並且讓您以括號擷取相符字元。`(.+)` = 擷取一個 ( .) 字元和 ( + ) 任何其他項目 \ = 字串的開始。`$` = 指示前面的字元 (或字元群組) 是行裡面最後一個。 | |
+| 建立語法 | `^` =以該行開始() =將字元分組，並讓您擷取括弧中的相符字元。 `(.+)` =擷取一個( . )字元和( + )任何其他專案\ =字串的開頭。 `$` =指示前面的字元（或字元群組）是行裡面最後一個。 | |
 
 請參閱[規則運算式 — 參考表](/help/components/classifications/crb/classification-quickstart-rules.md)，以取得規則運算式中字元含義的相關資訊。
 
@@ -267,17 +281,17 @@ rule_priority.xml
 
 以下是將運動員的搜尋類型分類的搜尋詞規則範例：
 
-| 規則編號 | 規則型別 | 符合 | 設定分類 | 結束日期 |
+| 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
-| 1 | 包含 | 牛仔隊 | 搜尋型別 | 團隊 |
-| 2 | 包含 | Fantasy | 搜尋型別 | Fantasy |
-| 3 | 包含 | Romo | 搜尋型別 | 玩家 |
+| 1 | 包含 | 牛仔隊 | 搜尋類型 | 團隊 |
+| 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
+| 3 | 包含 | Romo | 搜尋類型 | 玩家 |
 
 如果使用者搜尋&#x200B;*`Cowboys fantasy Tony Romo`*，會分類字詞&#x200B;*`Player`*，因為它符合「設定分類」欄中顯示的最後一個指定分類。
 
 同樣地，假設您在一個規則集裡面為下列搜尋詞設定兩個規則：
 
-| 規則編號 | 規則型別 | 符合 | 設定分類 | 結束日期 |
+| 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | 牛仔隊 | 城市 | Dallas |
 | 2 | 包含 | 野馬隊 | 城市 | Denver |
@@ -296,7 +310,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在這個程序中，您必須套用規則到一個或多個報告套裝。雖然沒有限制，但建議每個規則集的規則數介於500到1000之間。 如果您有超過100個規則，請考慮使用[子分類](/help/components/classifications/importer/subclassifications.md)來簡化規則集。
+>在這個程序中，您必須套用規則到一個或多個報告套裝。 雖然沒有限制，但建議每個規則集的規則數介於500到1000之間。 如果您有超過100個規則，請考慮使用[子分類](/help/components/classifications/importer/subclassifications.md)來簡化規則集。
 
 若要新增或編輯分類規則：
 
@@ -333,7 +347,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >如果一個索引鍵符合設定同一個分類的多個規則 (在「設定分類」欄裡)，則會使用符合分類的最後一個規則。請參閱上文的&#x200B;**關於規則優先順序**，以取得關於排序規則的詳細資訊。
+   >如果一個索引鍵符合設定同一個分類的多個規則 (在「設定分類」欄裡)，則會使用符合分類的最後一個規則。 請參閱上文的&#x200B;**關於規則優先順序**，以取得關於排序規則的詳細資訊。
 
 1. [測試您的規則集](/help/components/classifications/crb/classification-quickstart-rules.md)。
 1. 測試之後，按一下&#x200B;**[!UICONTROL 「作用中」]**&#x200B;以驗證及啟動規則。
@@ -350,7 +364,7 @@ t_classifications_test_rule.xml
 
  -->
 
-您可以測試分類規則或規則集。執行測試會檢查規則集內所有的規則。
+您可以測試分類規則或規則集。 執行測試會檢查規則集內所有的規則。
 
 若要測試分類規則集：
 

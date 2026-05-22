@@ -4,10 +4,20 @@ keywords: ftp;sftp
 title: 使用被動式 FTP 模式
 feature: FTP Export
 exl-id: 92f39569-ee41-4c1d-b7de-7a0fff42896c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+TQID: 'https://experienceleague.adobe.com/r59xjXQj3CYM1r-e1dpNMkLMoW72Io9-PtL-vaRCDNM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 85%
+source-wordcount: 100
+ht-degree: 48%
 
 ---
 
@@ -15,4 +25,4 @@ ht-degree: 85%
 
 主動式 FTP 和被動式 FTP 會控制連接埠連線的建立方式，且選項與防火牆有一些關聯。
 
-Adobe 使用被動式 FTP，因為這是比較安全的資料傳輸模式，資料流程是由檔案傳輸程式 (FTP) 用戶端設定與起始，而非 FTP 伺服器程式。如果您連線至Adobe FTP時遇到困難，請務必使用被動模式。
+Adobe使用被動式FTP，這是更安全的資料傳輸形式，資料流程由檔案傳輸程式(FTP)使用者端設定，而非FTP伺服器程式啟動。 如果您連線至Adobe FTP時遇到困難，請務必使用被動模式。

@@ -6,9 +6,19 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/57Kc6Mgv1-HwWIEjxYj-zEjJSSIqHMxn5-KHxAeVsUQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: 908
 ht-degree: 26%
 
 ---
@@ -19,9 +29,9 @@ ht-degree: 26%
 >
 >除了排程活頁簿以透過電子郵件共用（如本節所述）之外，您還可以排程要匯出至雲端目的地的活頁簿，如[排程要匯出至雲端目的地的活頁簿](/help/analyze/report-builder/report-builder-export.md)所述。
 
-儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。「排程」功能可讓您建立排程，自動更新活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的客群。設定排程可讓收件者定期自動更新。您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
+儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。 「排程」功能可讓您建立排程，自動更新活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的客群。 設定排程可讓收件者定期自動更新。 您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
 
-您可以為單一活頁簿建立多個排程。例如，您可以每天將活頁簿傳送給您的團隊，也可以建立兩個不同的排程，每週將活頁簿傳送給主管一次。
+您可以為單一活頁簿建立多個排程。 例如，您可以每天將活頁簿傳送給您的團隊，也可以建立兩個不同的排程，每週將活頁簿傳送給主管一次。
 
 「排程」功能也可以讓您設定活頁簿的密碼保護，以及編輯先前排程的活頁簿。
 
@@ -37,13 +47,13 @@ ht-degree: 26%
 
 若要排程活頁簿：
 
-1. 在Report Builder中心中選擇&#x200B;**[!UICONTROL 計畫]**&#x200B;以建立計畫，以便您可以自動將工作簿Excel檔案(.xlsx)分發給個人或組。
+1. 在Report Builder中心選取「**[!UICONTROL 排程]**」以建立排程，讓您將活頁簿Excel檔案(.xlsx)自動散發給個人或群組。
 
-   ![選擇「計畫」按鈕以建立計畫。](./assets/schedule.png){zoomable="yes"}
+   ![選取[排程]按鈕以建立排程。](./assets/schedule.png){zoomable="yes"}
 
-1. 選擇&#x200B;**[!UICONTROL 計畫工作簿]**&#x200B;或![添加](/help/assets/icons/Add.svg)以建立新的計畫工作簿。
+1. 選取&#x200B;**[!UICONTROL 排程活頁簿]**&#x200B;或![新增](/help/assets/icons/Add.svg)以建立新的排程活頁簿。
 
-   ![「計畫工作簿」窗口。](./assets/schedule-workbook.png){zoomable="yes"}
+   ![排程活頁簿視窗。](./assets/schedule-workbook.png){zoomable="yes"}
 
    排程窗格會顯示活頁簿的一些預先定義資訊，例如活頁簿名稱和上次修改活頁簿的日期。
 
@@ -69,10 +79,10 @@ ht-degree: 26%
 
 1. (選用) 選取&#x200B;**[!UICONTROL 「將時間戳記附加到檔案名稱」]**。
 
-   您可以在檔案名稱附加時間戳記，以識別活頁簿的更新日期。時間戳記有助於檢視在特定日期傳送的活頁簿版本。 選取後，您可在以下兩者之間選擇：
+   您可以在檔案名稱附加時間戳記，以識別活頁簿的更新日期。 時間戳記有助於檢視在特定日期傳送的活頁簿版本。 選取後，您可在以下兩者之間選擇：
 
    * **[!UICONTROL ISO日期格式]**，這會導致`YYYY-MM-DD`附加至檔案名稱。
-   * **[!UICONTROL ISO日期格式+時間戳]**，導致`YYYY-MM-DD_HH-MM-SS`附加到檔案名。
+   * **[!UICONTROL ISO日期格式+時間戳記]**，結果會將`YYYY-MM-DD_HH-MM-SS`附加至檔案名稱。
 
 <!--
 Does no longer seem to be an option? 
@@ -83,18 +93,18 @@ Does no longer seem to be an option?
     ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
 -->
 
-1. 在&#x200B;**[!UICONTROL 密碼保護工作簿]**&#x200B;中輸入密碼。 有效密碼至少需要8個字元、數字和特殊字元。 選擇![VisibilityOff](/help/assets/icons/VisibilityOff.svg)以顯示密碼，選擇![Visibility](/help/assets/icons/Visibility.svg)以隱藏密碼（預設）。
+1. 在&#x200B;**[!UICONTROL 密碼保護活頁簿]**&#x200B;中輸入密碼。 有效的密碼至少需要8個字元、一個數字和一個特殊字元。 選取![VisibilityOff](/help/assets/icons/VisibilityOff.svg)以顯示密碼，選取![Visibility](/help/assets/icons/Visibility.svg)隱藏密碼（預設）。
 
 
 ### 電子郵件
 
-在&#x200B;**[!UICONTROL 電子郵件]**&#x200B;部分，您提供電子郵件的收件人、主題和說明。
+在&#x200B;**[!UICONTROL 電子郵件]**&#x200B;區段中，您提供電子郵件的收件者、主旨和說明。
 
 ![排程電子郵件設定](assets/schedule-email.png){zoomable="yes"}
 
-1. 輸入&#x200B;**收件者**。您可以輸入組織中可辨識的人員名稱。 或者，您可以輸入組織外人員的電子郵件地址。
+1. 輸入&#x200B;**收件者**。 您可以輸入組織中可辨識的人員名稱。 或者，您可以輸入組織外人員的電子郵件地址。
 
-1. 輸入電子郵件的&#x200B;**主旨**&#x200B;以及收件者的說明。主旨預設為活頁簿檔案名稱，但您可以視需要修改主旨。您可以在說明區段中新增詳細資料。
+1. 輸入電子郵件的&#x200B;**主旨**&#x200B;以及收件者的說明。 主旨預設為活頁簿檔案名稱，但您可以視需要修改主旨。 您可以在說明區段中新增詳細資料。
 
 1. 您可以選擇在&#x200B;**[!UICONTROL 描述]**&#x200B;文字區域中輸入描述。
 
@@ -107,11 +117,11 @@ Does no longer seem to be an option?
 
 1. 選取&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;以定義排程。
 
-1. 輸入從&#x200B;**[!UICONTROL 開始的]**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 
-1. 選擇&#x200B;**[!UICONTROL 頻率]**。 根據所選頻率，您確實有其他選項。 請參閱下表。
+1. 選取&#x200B;**[!UICONTROL 頻率]**。 視選取的頻率而定，您會有其他選項。 請參閱下表。
 
    | 頻率 | 選項 |
    |---|---|
@@ -128,11 +138,11 @@ Does no longer seem to be an option?
 若要傳送活頁簿：
 
 * 如果您尚未使用&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;定義排程，請選取&#x200B;**[!UICONTROL 立即傳送]**，以立即透過電子郵件傳送活頁簿。
-* 如果您已使用&#x200B;**[!UICONTROL 顯示計畫選項]**&#x200B;定義了計畫，請選擇&#x200B;**[!UICONTROL 按計畫發送]**&#x200B;以使用您定義的計畫通過電子郵件發送工作簿。
+* 如果您已使用&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;定義排程，請選取&#x200B;**[!UICONTROL 依排程傳送]**，以使用您定義的排程透過電子郵件傳送活頁簿。
 
-在這兩種情況下，您都會看到Report Builder中心底部的確認烤麵包。
+在這兩種情況下，您都會在Report Builder中心底部看到確認快顯通知。
 
-要取消發送工作簿，請選擇&#x200B;**[!UICONTROL 取消]**。
+若要取消傳送活頁簿，請選取&#x200B;**[!UICONTROL 取消]**。
 
 ## 管理舊版排程活頁簿
 

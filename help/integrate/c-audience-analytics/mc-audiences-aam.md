@@ -1,13 +1,30 @@
 ---
 description: Adobe Audience Manager (Adobe Audience Manager)是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴及第三方資料整合建立獨一無二的對象設定檔。 對於廣告商而言，這些受眾設定檔可協助定義用於任何數位頻道的最具價值區段。
-solution: Experience Cloud
+solution: Analytics
 title: Audience Analytics 概觀
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: 'https://experienceleague.adobe.com/WPB1fEJx1MaWpUNRCZ48ghAVyKyc5IwoGOdgQQ-tPhI'
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 13%
+source-wordcount: 522
+ht-degree: 15%
 
 ---
 
@@ -54,7 +71,7 @@ Audience Analytics 整合具有以下主要優點：
 * 您同時是Audience Manager和Adobe Analytics的客戶。
 * 您是Audience Manager管理員。
 * 您使用身分識別服務 v1.5 或更新版本。
-* Adobe Audience Manager和Adobe Analytics報表套裝對應至同一個Experience Cloud組織。
+* Adobe Audience Manager和Adobe Analytics報表套裝對應至同一個CX Enterprise組織。
 * 您使用[伺服器端轉送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)，並已實施作業[客群管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
 
 [客群分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些先決條件。

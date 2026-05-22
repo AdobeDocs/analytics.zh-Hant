@@ -1,17 +1,26 @@
 ---
 description: 說明將篩選條件套用至路徑報表的步驟。
-title: 使用請求精靈篩選路徑報表
+title: 使用請求精靈篩選路徑報告
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 62%
+source-wordcount: 427
+ht-degree: 57%
 
 ---
 
-# 使用請求精靈篩選路徑報表
+# 使用請求精靈篩選路徑報告
 
 {{legacy-arb}}
 
@@ -29,7 +38,7 @@ ht-degree: 62%
 
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
-1. 在精靈的步驟 2 中，按一下&#x200B;**[!UICONTROL 「列標籤」]**&#x200B;底下的&#x200B;**[!UICONTROL 「前 1-10 項 (模式已套用)」]**&#x200B;連結。依預設，在路徑報表中，模式皆已套用。
+1. 在精靈的步驟 2 中，按一下&#x200B;**[!UICONTROL 「列標籤」]**&#x200B;底下的&#x200B;**[!UICONTROL 「前 1-10 項 (模式已套用)」]**&#x200B;連結。 依預設，在路徑報表中，模式皆已套用。
 
    ![顯示預設路徑模式的熒幕擷圖。](assets/site_section_path_2.png)
 
@@ -46,7 +55,7 @@ ht-degree: 62%
 
    ![](assets/custom_pattern.png)
 
-1. 您也可以從&#x200B;**[!UICONTROL 「選取模式」]**&#x200B;下拉式清單中選取預先定義的模式，並加以修改。可用的模式包括：
+1. 您也可以從&#x200B;**[!UICONTROL 「選取模式」]**&#x200B;下拉式清單中選取預先定義的模式，並加以修改。 可用的模式包括：
 
    ![](assets/select_a_pattern.png)
 
@@ -56,19 +65,19 @@ ht-degree: 62%
 
 您可以在選取陣列後編輯預先定義的陣列。
 
-1. 繼續上述步驟，選取模式。 例如，您可以選取「**[!UICONTROL 退出網站模式]**」:
+1. 繼續上述步驟，選取模式。 例如，選取&#x200B;**[!UICONTROL 退出網站模式]**：
 
    ![熒幕擷圖反白顯示選取的模式。](assets/exited_site_pattern.png)
 
-1. 定義使用者在退出前所依循的網站區域路徑。 按一下&#x200B;**[!UICONTROL 「特定項目: 已選取 0 項」]**。如果您正在編輯現有請求，您可以從儲存格範圍中選取或從區段清單中選取，以定義此路徑。
+1. 定義使用者在退出前所依循的網站區域路徑。 按一下&#x200B;**[!UICONTROL 「特定項目: 已選取 0 項」]**。 如果您正在編輯現有請求，您可以從儲存格範圍中選取或從區段清單中選取，以定義此路徑。
 
-1. 若要從先前請求的儲存格範圍中選取，請選取&#x200B;**[!UICONTROL 「從儲存格範圍」]**，然後按一下儲存格選取器圖示。接著，從報表中選取儲存格。
+1. 若要從先前請求的儲存格範圍中選取，請選取&#x200B;**[!UICONTROL 「從儲存格範圍」]**，然後按一下儲存格選取器圖示。 接著，從報表中選取儲存格。
 
    ![熒幕擷圖顯示從儲存格範圍或清單選擇選項。](assets/choose_site_section_paths.png)
 
 1. 若要從網站區域清單選取，請選取&#x200B;**[!UICONTROL 「從清單」]**，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-1. 選取元素，然後按一下橘色箭頭，以將元素從&#x200B;**[!UICONTROL 「可用元素」]**&#x200B;欄移至&#x200B;**[!UICONTROL 「選擇的元素」]**&#x200B;欄。按一下「**[!UICONTROL 確定]**」。
+1. 選取元素，然後按一下橘色箭頭，以將元素從&#x200B;**[!UICONTROL 「可用元素」]**&#x200B;欄移至&#x200B;**[!UICONTROL 「選擇的元素」]**&#x200B;欄。 按一下&#x200B;**[!UICONTROL 確定]**。
 
    ![熒幕擷圖顯示可用的元素和選取的元素。](assets/move_site_section_elements.png)
 

@@ -6,9 +6,18 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+TQID: https://experienceleague.adobe.com/oY3qEglLOmMH-VdZuq0190iQxG6FHUWBRUGTAI9LvMw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: 641
 ht-degree: 6%
 
 ---
@@ -29,7 +38,7 @@ ht-degree: 6%
 
 * 或者：
 
-   1. 選取![表格](/help/assets/icons/MoreSmall.svg)窗格中特定量度的&#x200B;**[!UICONTROL MoreSmall]**，然後選取&#x200B;**[!UICONTROL 篩選量度]**。
+   1. 選取&#x200B;**[!UICONTROL 表格]**&#x200B;窗格中特定量度的![MoreSmall](/help/assets/icons/MoreSmall.svg)，然後選取&#x200B;**[!UICONTROL 篩選量度]**。
 
       ![區段索引標籤顯示量度。](./assets/filter-metric.png){zoomable="yes"}
 
@@ -39,7 +48,7 @@ ht-degree: 6%
    1. 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以從&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單中移除區段。 或選取&#x200B;**[!UICONTROL 全部清除]**&#x200B;以從&#x200B;**[!UICONTROL 套用的區段]**&#x200B;清單中移除所有區段。
    1. 選取&#x200B;**[!UICONTROL 「套用」]**。
 
-若要檢視已套用的篩選器，可將滑鼠游標停留在「表格」窗格中的量度上或選取量度。含有已套用區段的量度會顯示區段圖示。
+若要檢視已套用的篩選器，可將滑鼠游標停留在「表格」窗格中的量度上或選取量度。 含有已套用區段的量度會顯示區段圖示。
 
 
 ## 快速編輯區段

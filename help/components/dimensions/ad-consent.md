@@ -3,9 +3,26 @@ title: 廣告平台同意
 description: 請參閱第三方廣告提供者的廣告同意設定。
 feature: Dimensions
 exl-id: bf63112d-7d20-4e35-9a59-5be21135ae51
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Ou6-B5pFx-ku9H2iEqLN0Ly6-t01CzQUODo0poMk8Bs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: 342
 ht-degree: 3%
 
 ---
@@ -56,6 +73,6 @@ contextData.['adConsent'] = "YN..."
 
 您的組織會決定實作此內容資料變數的邏輯。 值在其設定所在的點選過後即不存在，因此您必須在每個頁面上設定內容資料變數。
 
-當您透過Adobe Advertising將廣告資料作為轉換事件傳送到GoogleAdobe Advertising時，請洽詢Adobe Analytics團隊以協助整合。
+當您透過Adobe Advertising將廣告資料作為轉換事件傳送到Google時，請洽詢Adobe Analytics團隊以協助整合。
 
 如需詳細資訊，請參閱[隱私權報告](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md)。

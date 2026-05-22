@@ -5,10 +5,21 @@ title: 使用者和產品管理
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/NSfOfy6aLyM69Xqgn-bXb5PHzbI1eIWg4Q5pf8mXvSA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 83%
+source-wordcount: 266
+ht-degree: 81%
 
 ---
 
@@ -24,8 +35,8 @@ ht-degree: 83%
 
 | 任務或資源 | 說明 |
 | --- | --- |
-| 將 Analytics 使用者 ID 遷移到 Adobe Admin Console | Adobe可協助Analytics管理員將使用者ID移轉至Adobe Admin Console。 這項工作將分批次進行。 輪到您移轉使用者時，Adobe會透過電子郵件通知Analytics管理員，並提供相關指示。 [Analytics User Management](/help/admin/tools/user-management/user-migration/c-migration-tool.md) 中有遷移工具可簡化這項作業。<p>**重要**：使用者移轉當天，系統會將您先前的權限群組自動複製到 Adobe Admin Console。您再也無法於 Analytics「管理工具」中邀請新的使用者或建立新群組。 如需如何準備遷移作業以及受影響之管理功能的相關資訊，請檢閱 Analytics 使用者遷移至 Adobe Admin Console 的常見問答和說明。 |
-| 啟動 Adobe Admin Console | 您遷移使用者帳戶後，您就可以在 Adobe Admin Console 中管理所有解決方案中的使用者和產品。 瀏覽至：`https://adminconsole.adobe.com/enterprise/`。 也請參閱[管理 Experience Cloud 使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant)。 |
+| 將 Analytics 使用者 ID 遷移到 Adobe Admin Console | Adobe可協助Analytics管理員將使用者ID移轉至Adobe Admin Console。 這項工作將分批次進行。 輪到您移轉使用者時，Adobe會透過電子郵件通知Analytics管理員，並提供相關指示。 [Analytics User Management](/help/admin/tools/user-management/user-migration/c-migration-tool.md) 中有遷移工具可簡化這項作業。<p>**重要**：使用者移轉當天，系統會將您先前的權限群組自動複製到 Adobe Admin Console。 您再也無法於 Analytics「管理工具」中邀請新的使用者或建立新群組。 如需如何準備遷移作業以及受影響之管理功能的相關資訊，請檢閱 Analytics 使用者遷移至 Adobe Admin Console 的常見問答和說明。 |
+| 啟動 Adobe Admin Console | 您遷移使用者帳戶後，您就可以在 Adobe Admin Console 中管理所有解決方案中的使用者和產品。 瀏覽至：`https://adminconsole.adobe.com/enterprise/`。 另請參閱[管理CX Enterprise使用者和產品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant)。 |
 | 管理 Adobe Analytics 產品設定檔、使用者和權限 | 請參閱 [Adobe Admin Console 中的 Analytics](/help/admin/admin-console/home.md)。 |
 
 <!--

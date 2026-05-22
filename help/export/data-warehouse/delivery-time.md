@@ -3,16 +3,29 @@ title: 疑難排解Data Warehouse請求傳送時間
 description: 判斷可能延長 Data Warehouse 請求傳送時間的潛在問題。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+TQID: 'https://experienceleague.adobe.com/oWkM-wTuJ75sR6AzkjD8WfY9DYLUdtToSGyu8hJIXVk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: 358
 ht-degree: 59%
 
 ---
 
 # 疑難排解 Data Warehouse 請求傳送時間
 
-傳送指定的 Data Warehouse 請求可能需要一小時以內至數天或更長時間。由於下列因素，很難估計處理請求所需的確切時間：
+傳送指定的 Data Warehouse 請求可能需要一小時以內至數天或更長時間。 由於下列因素，很難估計處理請求所需的確切時間：
 
 * 請求的日期範圍
 * 請求時段內報表套裝收到的流量
@@ -39,4 +52,4 @@ ht-degree: 59%
 
 * **Analysis Workspace**：雖然不提供無限制的維度項目，但幾乎包含 Data Warehouse 提供的所有其他使用案例。
 * **資料摘要**：每天擷取報表套裝中的所有原始資料，並傳送至雲端目的地。 然後，您可以將資料匯入您自己的資料庫並執行查詢，以取得您需要的資料。
-* **自訂工程技術服務解決方案**：Adobe 工程技術服務可為貴組織提供自訂解決方案，但需支付額外費用。如需詳細資訊，請聯絡您的Adobe客戶團隊。
+* **自訂工程技術服務解決方案**：Adobe 工程技術服務可為貴組織提供自訂解決方案，但需支付額外費用。 如需詳細資訊，請聯絡您的Adobe客戶團隊。

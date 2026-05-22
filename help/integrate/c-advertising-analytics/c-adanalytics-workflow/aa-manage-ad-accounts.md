@@ -3,10 +3,20 @@ description: 在 Advertising Analytics 中管理帳戶。
 title: 管理 Advertising 帳戶
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+autotag-review: '2026-05-19T13:32:36.907Z'
+TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 7%
+source-wordcount: 552
+ht-degree: 18%
 
 ---
 
@@ -23,7 +33,7 @@ ht-degree: 7%
 | 名稱或元素 | 說明 |
 |---|---|
 | **[!UICONTROL 名稱]** | *帳戶名稱*。 您可以選取名稱來編輯搜尋引擎設定。 |
-| ![Edit](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 選取以重新命名廣告帳戶或編輯搜尋引擎設定。 |
+| ![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | 選取以重新命名廣告帳戶或編輯搜尋引擎設定。 |
 | ![更多內容](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | 選取此選項可開啟內容功能表，讓您[對應報表套裝](#map-reporting-suites)、[啟動或暫停廣告帳戶](#activate-or-pause-advertising-accounts)。 |
 | **[!UICONTROL 報告套裝]** | 列出Advertising帳戶對應的報表套裝。 |
 | **[!UICONTROL 類型]** | 顯示廣告帳戶的型別。 依預設，型別為[!UICONTROL 搜尋] |

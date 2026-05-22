@@ -5,9 +5,23 @@ feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 role: Admin
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: 'https://experienceleague.adobe.com/x4raBXJrinRqi2LpaWgc-zbzPoHKIELZ3zt5IV8oBWM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: 437
 ht-degree: 6%
 
 ---
@@ -36,7 +50,7 @@ ht-degree: 6%
 
 當您使用此時間戳記設定將資料傳送至報表套裝時，每次點選都必須包含[`timestamp`](/help/implement/vars/page-vars/timestamp.md)變數。 如果任何點選遺失`timestamp`實作變數，則會永久捨棄該點選。
 
-啟動時間戳記的作業資料最多可保留 92 日。換言之，造訪將「持續開放」92天，可在同一次造訪/工作階段中包含任何其他點選。 雖然您可以將資料新增至現有工作階段，但Adobe建議依每個訪客的順序新增點選。 個別訪客非依序收到的點選可能會產生非預期的報表結果，不過許多限制可透過報表時間處理來緩解。
+啟動時間戳記的作業資料最多可保留 92 日。 換言之，造訪將「持續開放」92天，可在同一次造訪/工作階段中包含任何其他點選。 雖然您可以將資料新增至現有工作階段，但Adobe建議依每個訪客的順序新增點選。 個別訪客非依序收到的點選可能會產生非預期的報表結果，不過許多限制可透過報表時間處理來緩解。
 
 ## 可選時間戳記
 

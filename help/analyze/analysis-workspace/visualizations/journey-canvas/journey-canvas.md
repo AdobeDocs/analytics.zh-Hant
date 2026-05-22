@@ -2,12 +2,11 @@
 description: 了解如何在 Analysis Workspace 中使用歷程畫布。
 title: 歷程畫布概觀
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -16,31 +15,19 @@ ht-degree: 88%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_button"
+>id="aa_journeycanvas_button"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。 用於具有多個入口點和路徑的歷程。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>abstract="顯示人們如何完成或退出一系列接觸點。 用於具有多個進入點和路徑的歷程。"
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_panel"
+>id="aa_journeycanvas_panel"
 >title="歷程畫布"
 >abstract="分析人們如何完成或退出定義的歷程。 建立由節點和箭頭組成的彈性圖表來表示事件、維度項目和區段的任何組合，藉以建置使用者歷程分析。 拖曳畫布上的節點，重新排列歷程的事件和條件。 當您這樣做時，資料會隨之更新。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="歷程畫布"
->abstract="顯示人們如何完成或退出一系列接觸點。 用於具有多個入口點和路徑的歷程。"
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
+>abstract="顯示人們如何完成或退出一系列接觸點。 用於具有多個進入點和路徑的歷程。"
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -51,7 +38,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的Journey Canvas視覺效果。<br/><br/>_&#x200B;若需本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
 

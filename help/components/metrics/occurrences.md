@@ -3,28 +3,40 @@ title: 發生次數
 description: 變數經設定或持續存在的點擊次數。
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
+TQID: https://experienceleague.adobe.com/04bDCj1dkVb9gIDMbpvvGea92oOzd-N0XLfzf4t-6iA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 57%
+source-wordcount: 280
+ht-degree: 66%
 
 ---
 
 # 發生次數
 
-「發生次數」[量度](overview.md)顯示點擊次數，其中會設定或保留指定的維度。當您將工作區中的維度拖曳至空白畫布時，Adobe 會自動將此量度套用至專案。
+「發生次數」[量度](overview.md)顯示點擊次數，其中會設定或保留指定的維度。 當您將工作區中的維度拖曳至空白畫布時，Adobe 會自動將此量度套用至專案。
 
 ## 此量度的計算方式
 
-在報告套裝中的所有點擊中，納入維度項目經定義或持續存在的點擊。有些維度 (例如 [eVar](../dimensions/evar.md)) 在其設定所在的點擊過後仍會持續存在。此量度會計算初始值和持續值。
+在報告套裝中的所有點擊中，納入維度項目經定義或持續存在的點擊。 有些維度 (例如 [eVar](../dimensions/evar.md)) 在其設定所在的點擊過後仍會持續存在。 此量度會計算初始值和持續值。
 
 ## 與類似量度比較
 
-* **發生次數與[例項](instances.md)**：發生次數會計入維度項目經設定或持續存在的點擊。例項不包含維度項目持續存在的點擊。
-* **發生次數與[頁面檢視](page-views.md)**：發生次數包含所有點擊類型，包括頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))、連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))，以及來自摘要[資料來源](/help/import/data-sources/overview.md)笉的資料。頁面檢視量度僅包括頁面檢視追蹤呼叫，不包括連結追蹤呼叫和摘要資料來源。
+* **發生次數與[例項](instances.md)**：發生次數會計入維度項目經設定或持續存在的點擊。 例項不包含維度項目持續存在的點擊。
+* **發生次數與[頁面檢視](page-views.md)**：發生次數包含所有點擊類型，包括頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))、連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))，以及來自摘要[資料來源](/help/import/data-sources/overview.md)笉的資料。 頁面檢視量度僅包括頁面檢視追蹤呼叫，不包括連結追蹤呼叫和摘要資料來源。
 
 ## 持續性
 
-持續性是給定維度值在其設定的事件之外與量度相關的能力。 它使用配置和到期日的組合。 配置可讓您確定當一個列中可以同時保留多個維度專案時保留哪個值。 有效期可讓您確定維度專案在其設定的事件之後持續多長時間。
+持續性是給定維度值在其設定的事件之外與量度相關的能力。 其使用配置和過期時間的組合。 配置可讓您確定當一個列中可以同時保留多個維度專案時保留哪個值。 有效期可讓您確定維度專案在其設定的事件之後持續多長時間。
 
-持續性僅在維度上可用，並且可追溯至套用到的資料。 它是發生在套用篩選或其他分析作業之前的立即資料轉換。 如果未啟用持續性，則維度僅與相同事件中存在的量度相關。
+持續性僅在維度上可用，並且可追溯至套用到的資料。 它是發生在套用篩選或其他分析作業之前的立即資料轉換。 如果未啟用持續性，則維度僅與同一事件中存在的量度相關。

@@ -4,9 +4,23 @@ description: 移除或取代字串中所有不必要的字元。
 feature: Appmeasurement Implementation
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/HDrIijvBxwPpQDAp-ehOBvm7chyG8UNbp-GRIJZxlvU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 459
 ht-degree: 68%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 68%
 
 {{plug-in}}
 
-`cleanStr` 外掛程式會移除或取代字串中所有不必要的字元，包括 HTML 標記字元、額外的空格、標記和新行/歸位字元。它也能以直式單引號(`'`)取代左/右單引號。 如果您想要移除變數值中不必要的字元，而Adobe資料收集中的「清除文字」功能無法滿足您的實作需求，Adobe Experience Platform建議您使用此外掛程式。 如果收集的資料未包含不必要的字元，或是Adobe Experience Platform資料收集中的「清除文字」功能足以滿足需求，就不需要此外掛程式。
+`cleanStr` 外掛程式會移除或取代字串中所有不必要的字元，包括 HTML 標記字元、額外的空格、標記和新行/歸位字元。 它也能以直式單引號(`'`)取代左/右單引號。 如果您想要移除變數值中不必要的字元，而Adobe資料收集中的「清除文字」功能無法滿足您的實作需求，Adobe Experience Platform建議您使用此外掛程式。 如果收集的資料未包含不必要的字元，或是Adobe Experience Platform資料收集中的「清除文字」功能足以滿足需求，就不需要此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -50,7 +64,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/

@@ -5,28 +5,42 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+TQID: https://experienceleague.adobe.com/v-XrDQsKzc7MKVieH-v7P3EBfD37dAgVqSLQFNWQT-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dee9fe88-97f4-4ee3-915e-9abf8abf2b46
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: 307
 ht-degree: 87%
 
 ---
 
-
 # 行動計分卡註解
 
-您可以在行動計分卡上顯示在Analysis Workspace中建立的註解。 行動計分卡中的註解讓您共用有關組織和行銷活動內容資料的細微差別和深入分析。
+您可以在行動計分卡上顯示在Analysis Workspace中建立的註解。 行動計分卡中的註解讓您共用有關組織和行銷活動內容資料的細微差別和洞察。
 
 
 ## 在行動計分卡中顯示註解
 
 如果要顯露行動計分卡中的註解，先從 Workspace 專案或元件選單建立註解。
 
-有關建立註解的詳細資訊，請參閱[建立註解](create-annotations.md)。行動計分卡預設為關閉註解，您想在行動計分卡中顯露的每張計分卡均必須啟用註解。
+有關建立註解的詳細資訊，請參閱[建立註解](create-annotations.md)。 行動計分卡預設為關閉註解，您想在行動計分卡中顯露的每張計分卡均必須啟用註解。
 
-1. 開啟註解。如果想要開啟註解，請參閱[開啟或關閉註解](overview.md#turn-annotations-on-or-off)。
+1. 開啟註解。 如果想要開啟註解，請參閱[開啟或關閉註解](overview.md#turn-annotations-on-or-off)。
 
-1. 建立註解並確保其分享到您的所有專案。請參閱[建立註解](create-annotations.md)以了解更多資訊。
+1. 建立註解並確保其分享到您的所有專案。 請參閱[建立註解](create-annotations.md)以了解更多資訊。
 
 1. 選取&#x200B;**[!UICONTROL 顯示註解]**&#x200B;以在行動計分卡上顯示該註解。
 
@@ -36,17 +50,17 @@ ht-degree: 87%
 
 ## 在行動計分卡中檢視註解
 
-啟用註解時，可在計分卡產生器看到註解圖示。註解僅會顯示在詳細檢視的圖表與表格。從計分卡的主要並排檢視中無法看到註解圖示。
+啟用註解時，可在計分卡產生器看到註解圖示。 註解僅會顯示在詳細檢視的圖表與表格。 從計分卡的主要並排檢視中無法看到註解圖示。
 
 ![計分卡產生器，醒目提示註解圖示。](assets/annotations-scorecard.png)
 
-如果可以看到註解圖示，就無法在產生器版面中完整檢視註解或與註解互動。使用![播放圓圈](/help/assets/icons/PlayCircle.svg)「**[!UICONTROL 預覽]**」可檢視在應用程式中出現的註解並與註解互動。
+如果可以看到註解圖示，就無法在產生器版面中完整檢視註解或與註解互動。 使用![播放圓圈](/help/assets/icons/PlayCircle.svg)「**[!UICONTROL 預覽]**」可檢視在應用程式中出現的註解並與註解互動。
 
-在 Workspace 中建立註解時便要選取註解顏色。灰色註解代表註解不只一個。
+在 Workspace 中建立註解時便要選取註解顏色。 灰色註解代表註解不只一個。
 
 ## 預覽註解
 
-您可以使用![PlayCircle](/help/assets/icons/PlayCircle.svg)「預覽」來預覽註解。選取註解以開啟註解的詳細資訊。
+您可以使用![PlayCircle](/help/assets/icons/PlayCircle.svg)「預覽」來預覽註解。 選取註解以開啟註解的詳細資訊。
 
 ![Annotation mobile scorecard preview](assets/annotations-scorecard-preview.png)
 

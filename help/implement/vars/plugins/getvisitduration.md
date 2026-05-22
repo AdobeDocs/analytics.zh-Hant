@@ -4,10 +4,24 @@ description: 追蹤訪客目前為止在網站上逗留的時間。
 feature: Appmeasurement Implementation
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/OUw5EZxg9Fs6byMdgMx2K6legXrrQtSJJahvvGnfcQ8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 70%
+source-wordcount: 581
+ht-degree: 71%
 
 ---
 
@@ -15,7 +29,7 @@ ht-degree: 70%
 
 {{plug-in}}
 
-`getVisitDuration` 外掛程式會追蹤訪客截至該時間點為止在網站上逗留的時間長度，以分鐘為單位。如果您想要追蹤網站上截至該時間點的累計時間，或追蹤執行活動所花費的時間，Adobe 建議使用此外掛程式。此外掛程式不會追蹤事件之間的時間長度；如果需要此功能，請使 [`getTimeBetweenEvents`](gettimebetweenevents.md) 用外掛程式。
+`getVisitDuration` 外掛程式會追蹤訪客截至該時間點為止在網站上逗留的時間長度，以分鐘為單位。 如果您想要追蹤網站上截至該時間點的累計時間，或追蹤執行活動所花費的時間，Adobe 建議使用此外掛程式。 此外掛程式不會追蹤事件之間的時間長度；如果需要此功能，請使 [`getTimeBetweenEvents`](gettimebetweenevents.md) 用外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -64,7 +78,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -82,7 +96,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 * `"1 minute"`
 * `"[x] minutes"` (其中 `[x]` 是訪客進到網站以來經過的分鐘數)
 
-此外掛程式會建立名為 `"s_dur"` 的第一方 Cookie，這是訪客進到網站以來經過的毫秒數。閒置 30 分鐘後，Cookie 便會到期。
+此外掛程式會建立名為 `"s_dur"` 的第一方 Cookie，這是訪客進到網站以來經過的毫秒數。 閒置 30 分鐘後，Cookie 便會到期。
 
 ## 範例
 

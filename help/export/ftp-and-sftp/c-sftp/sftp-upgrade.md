@@ -3,20 +3,35 @@ title: SFTP 服務升級 - 常見問題
 description: 有關規劃 SFTP 服務升級的常見問題。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: 'https://experienceleague.adobe.com/HKI-iOTx-gHbsmL8BJszgs5e5nlflk67s64eqs2dd-k'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: 444
+ht-degree: 95%
 
 ---
 
 # SFTP 服務升級 - 常見問題
 
-在 2022 年 9 月 20 日，Adobe Analytics 將會升級其安全檔案傳輸通訊協定 ([SFTP]) 服務，以提供改良的檔案傳輸安全性功能。在這次變更後，我們將不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定將不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 將符合以下詳述的變更。
+在 2022 年 9 月 20 日，Adobe Analytics 將會升級其安全檔案傳輸通訊協定 ([SFTP]) 服務，以提供改良的檔案傳輸安全性功能。 在這次變更後，我們將不再支援某些 SFTP 用戶端設定。 這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。 FTP 通訊協定將不受影響。 為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 將符合以下詳述的變更。
 
 ## 我要如何判斷我的組織目前正在使用哪些演算法、連線類型和通訊協定？
 
-您正在使用的 FTP/SFTP 軟體應該會指示您為了與 Adobe Analytics 交換資料而在設定的連線中使用哪些特定的設定。此軟體應該也會包含可供連線使用的不同選項的相關文件。在這次更新後將受到支援的選項已在業界受到廣泛的支持和接納。
+您正在使用的 FTP/SFTP 軟體應該會指示您為了與 Adobe Analytics 交換資料而在設定的連線中使用哪些特定的設定。 此軟體應該也會包含可供連線使用的不同選項的相關文件。 在這次更新後將受到支援的選項已在業界受到廣泛的支持和接納。
 
 將被移除的連線選項通常被認為是過時的，不會用於目前的軟體。 如果您在過去三年內曾經升級 FTP/SFTP 軟體，這表示您可能已經有相容的連線。
 
@@ -38,7 +53,8 @@ ht-degree: 100%
 
 ## 這次更新將包含哪些特定的變更？
 
-底下詳細清單列出即將移除以及將會受到支援的連線和演算法：
+底下詳細清單列出將移除和將移除的連線和演演算法
+支援：
 
 * SFTP 通訊協定 mac 演算法：
 

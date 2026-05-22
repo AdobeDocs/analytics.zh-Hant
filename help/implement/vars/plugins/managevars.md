@@ -4,9 +4,23 @@ description: 一次變更多個 Analytics 變數的值。
 feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/mZDvJ4k5jqazEdHUywoGhHNG9KhDF1JxpdtrwiB5jVc'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 712
 ht-degree: 83%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 83%
 
 {{plug-in}}
 
-`manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。如果您想一次清除多個變數的值，Adobe 建議使用此外掛程式。
+`manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。 您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。 如果您想一次清除多個變數的值，Adobe 建議使用此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -50,7 +64,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,8 +77,8 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 `manageVars` 函數會使用以下引數：
 
-* **`cb`** (必要，字串)：外掛程式用來操控 Analytics 變數的回呼函數名稱。您可以使用類似 `cleanStr` 的 Adobe 函數或您自己的自訂函數。
-* **`l`** (選用，字串)：您要操控之 Analytics 變數的逗號分隔清單。若未設定，則預設為所有 Adobe Analytics 變數，包括：
+* **`cb`** (必要，字串)：外掛程式用來操控 Analytics 變數的回呼函數名稱。 您可以使用類似 `cleanStr` 的 Adobe 函數或您自己的自訂函數。
+* **`l`** (選用，字串)：您要操控之 Analytics 變數的逗號分隔清單。 若未設定，則預設為所有 Adobe Analytics 變數，包括：
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -81,7 +95,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * 所有階層變數
    * 所有清單變數
    * 所有上下文資料變數
-* **`Il`** (選用，布林值)：如果要&#x200B;*排除* `l` 引數中宣告的變數清單而非包括，則設為 `false`。預設為 `true`。
+* **`Il`** (選用，布林值)：如果要&#x200B;*排除* `l` 引數中宣告的變數清單而非包括，則設為 `false`。 預設為 `true`。
 
 呼叫此函數不會傳回任何內容。 而是根據所需的回呼函數變更 Analytics 變數的值。
 
@@ -95,7 +109,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 manageVars("lowerCaseVars");
 ```
 
-...會將上述所有變數的值變更為小寫版本。唯一的例外是事件變數，因為有些事件（如scAdd、scCheckout等）會區分大小寫，且不應採用小寫
+...會將上述所有變數的值變更為小寫版本。  唯一的例外是事件變數，因為有些事件（例如scAdd、scCheckout等） 區分大小寫，且不應變為小寫
 
 ### 範例 #2
 
@@ -135,13 +149,13 @@ manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 manageVars("cleanStr");
 ```
 
-...會變更上述所有變數的值，包括事件變數。具體而言，cleanStr 回呼函數會對每個變數的值執行下列動作：
+...會變更上述所有變數的值，包括事件變數。  具體而言，cleanStr 回呼函數會對每個變數的值執行下列動作：
 
 * 移除 HTML 編碼
 * 移除值開頭和結尾的空格
 * 以直式單引號(`'`)取代左/右單引號
 * 以空格取代定位字元、換行字元和歸位字元
-* 以單空格取代所有雙（或三等）空格
+* 取代所有雙倍（或三倍等） 空格
 
 ## 版本記錄
 

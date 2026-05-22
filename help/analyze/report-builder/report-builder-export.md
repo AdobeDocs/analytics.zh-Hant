@@ -6,9 +6,25 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: da7b4568fcdb03ff97437879e84a1ed45749494d
+TQID: https://experienceleague.adobe.com/GQb-eyhHPlUC3rweaoprqj6LO34gSymgC1buu2gl9iw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: 1263
 ht-degree: 33%
 
 ---
@@ -70,12 +86,12 @@ ht-degree: 33%
    | **[!UICONTROL 以密碼保護活頁簿]** | 指定密碼來保護匯出的檔案，以便只有擁有密碼的人可以存取它。 <p>密碼必須至少為8個字元，且至少包含1個數字和1個特殊字元（例如`!`、`@`、`#`和`$`）。</p> |
    | **[!UICONTROL 電子郵件]** | 選取此選項可將檔案傳送到特定電子郵件地址。 如需詳細資訊，請參閱[透過電子郵件共用排程活頁簿](schedule-reportbuilder.md)。 |
    | **[!UICONTROL 其他傳遞]** | 選取此選項以將檔案傳送至雲端帳戶，然後使用如下所述的&#x200B;**[!UICONTROL 帳戶]**&#x200B;和&#x200B;**[!UICONTROL 位置]**&#x200B;下拉式功能表來選取帳戶和位置。 |
-   | **[!UICONTROL 帳戶]** | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。建立位置時會出現此名稱 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。</li><li>**[!UICONTROL 讓您的組織中的所有使用者都可以使用帳戶]**：選取此選項可允許組織中的其他使用者使用該帳戶。 共用帳戶時，請考量以下事項：<ul><li>您共用的帳戶無法取消共用。</li><li>共用的帳戶僅能由帳戶所有者進行編輯。</li><li>任何人都可以為共用的帳戶建立位置。</li></ul></li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3角色ARN、Google Cloud Platform、Azure SAS和Azure RBAC。</li></ul><li>若要完成設定帳戶，請繼續進行[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的步驟6，然後展開與您選取的&#x200B;[!UICONTROL **帳戶型別**]&#x200B;相對應的區段。 <p>可用的帳戶型別如下：</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
+   | **[!UICONTROL 帳戶]** | 選取您想要發送資料的雲端匯出帳戶。 <p>或者，如果您尚未設定要使用的雲端帳戶，則您可以設定一個新帳戶：<ol><li>選取「[!UICONTROL **新增帳戶**]」，然後註明下列資訊：<ul><li>[!UICONTROL **位置帳戶名稱**]：指定位置帳戶的名稱。 建立位置時會出現此名稱 </li><li>[!UICONTROL **位置帳戶說明**]：提供帳戶的簡短說明，有助區分該帳戶與相同帳戶類型的其他帳戶。</li><li>**[!UICONTROL 讓您的組織中的所有使用者都可以使用帳戶]**：選取此選項可允許組織中的其他使用者使用該帳戶。 共用帳戶時，請考量以下事項：<ul><li>您共用的帳戶無法取消共用。</li><li>共用的帳戶僅能由帳戶所有者進行編輯。</li><li>任何人都可以為共用的帳戶建立位置。</li></ul></li><li>[!UICONTROL **帳戶型別**]：選取您要匯出的雲端帳戶型別。 可用的帳戶型別為Amazon S3角色ARN、Google Cloud Platform、Azure SAS和Azure RBAC。</li></ul><li>若要完成設定帳戶，請繼續進行[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)中的步驟6，然後展開與您選取的&#x200B;[!UICONTROL **帳戶型別**]&#x200B;相對應的區段。 <p>可用的帳戶型別如下：</p><ul><li>Amazon S3 Role ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
    | **[!UICONTROL 位置]** | 選取您想要發送匯出資料的帳戶位置。<p>或者，如果您尚未設定要在所選帳戶上使用的位置，則您可以設定新位置：<ol><li>選取「[!UICONTROL **新增位置**]」，然後註明下列資訊： <ul><li>[!UICONTROL **名稱**]：位置的名稱。</li><li>[!UICONTROL **說明**]：提供位置的簡短說明，有助區分該位置與帳戶的其他位置。</li><li>**[!UICONTROL 讓位置可供組織中的所有使用者使用]**：選取此選項可允許組織中的其他使用者使用該位置。 共用帳戶時，請考量以下事項：<ul><li>您無法取消共用您共用的位置。</li><li>共用位置只能由帳戶擁有者編輯。</li><li>只有在與位置關聯的帳戶也共用時，才能共用位置。</li></ul></li><li>[!UICONTROL **位置帳戶**]：選取您想要建立位置的帳戶。</li></ul><li>若要完成位置設定，請繼續前往下面與您在「[!UICONTROL **位置帳戶**]」欄位中所選帳戶類型相對應的連結：<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
    | **[!UICONTROL 顯示排程選項]** | 選取此選項可檢視排程匯出的其他選項。 如果您只想傳送一次匯出，請取消選取此選項。 取消選取此選項時，會立即起始匯出。 |
    | **[!UICONTROL 開始於]** | 排定匯出應該開始的日期和時間。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
-   | **[!UICONTROL 結束於]** | 排定匯出到期的日期和時間。在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
-   | **[!UICONTROL 頻率]** | 您可以將頻率設定為特定日期的每小時、每日、每週、每月或每年。例如，您可以設定排程，在當月第一個星期日晚上傳送活頁簿，讓收件者能在星期一早上第一時間收到收件匣中的電子郵件。 |
+   | **[!UICONTROL 結束於]** | 排定匯出到期的日期和時間。 在您設定的日期和時間之後，排定匯出不會再進行。 <p>此選項只有在選擇排定匯出頻率時才會出現。</p> |
+   | **[!UICONTROL 頻率]** | 您可以將頻率設定為特定日期的每小時、每日、每週、每月或每年。 例如，您可以設定排程，在當月第一個星期日晚上傳送活頁簿，讓收件者能在星期一早上第一時間收到收件匣中的電子郵件。 |
 
    {style="table-layout:auto"}
 
@@ -98,7 +114,7 @@ ht-degree: 33%
 
 * 將結構資料輸出為串連值。
 
-* 匯出單次或依排程。
+* 一次性或按排程匯出。
 
 * 匯出Excel、PDF或CSV格式的檔案。
 

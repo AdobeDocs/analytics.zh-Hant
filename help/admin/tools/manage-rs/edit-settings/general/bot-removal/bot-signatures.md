@@ -4,10 +4,21 @@ description: 辨識機器人的常見識別碼。
 feature: Bot Removal
 role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: ec140990-1570-4311-94d4-2d6b38511bbe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: 536
+ht-degree: 94%
 
 ---
 
@@ -65,7 +76,7 @@ ht-degree: 100%
 
 ## 造訪中沒有 KPI
 
-機器人通常不會新增商品到購物車或結帳。 在大多數期間，機器人不會提交潛在客戶表單或其他成功事件，但某些機器人確實會提交簡單的 HTML 表單。 
+機器人通常不會新增商品到購物車或結帳。 在大多數情況下，機器人不會提交潛在客戶表單或其他成功事件，但某些機器人確實會提交簡單的HTML表單。 &#x200B;
 
 ## 存在著特定查詢字串
 
@@ -73,6 +84,6 @@ ht-degree: 100%
 
 ## 源自於分散式運算平台的 IP 位址
 
-網站託管服務 (例如 Amazon Web Services 或 Google 雲端) 可能會被濫用為機器人農場。 以下 IP 位址很容易成為機器人：
+網站託管服務 (例如 Amazon Web Services 或 Google 雲端) 可能會被濫用為機器人農場。 這些IP位址很容易成為機器人：
 &#x200B;
 * [Google 雲端](https://cloud.google.com/compute/)：以 `&#x200B;35.199` 或 `35.194&#x200B;` 開頭的 IP 位址

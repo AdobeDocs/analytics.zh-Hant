@@ -3,10 +3,21 @@ title: Adobe Analytics使用的網域
 description: 允許這些網域通過貴組織的防火牆，以獲得最佳的Adobe Analytics使用體驗。
 feature: Data Configuration and Collection
 exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
-source-git-commit: c1d1693bef617e3ebd6bf4f007c2235b2098a016
+TQID: https://experienceleague.adobe.com/y5UXvG8gVAw4fp-Hep-nNHixMQydt-xjr5MGNbp0SQk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 13%
+source-wordcount: 159
+ht-degree: 9%
 
 ---
 
@@ -22,17 +33,17 @@ ht-degree: 13%
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com`、`esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Microsoft® Azure Blob儲存體 | `awaascicdprodva7.blob.core.windows.net` |
-| Microsoft® Azure CDN | `aauicdnva7.azureedge.net` |
+| ® Azure Blob儲存 | `awaascicdprodva7.blob.core.windows.net` |
+| ® AZURE CDN | `aauicdnva7.azureedge.net` |
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud 網域
+## Adobe CX Enterprise網域
 
-除了上述網域外，Adobe Experience Cloud還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)。
+除了上述網域外，Adobe CX Enterprise還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[CX Enterprise使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
 >Adobe Analytics使用的[個IP位址](ip-addresses.md)
 >
->[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)
+>CX Enterprise使用的[網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)

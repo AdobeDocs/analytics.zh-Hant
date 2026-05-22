@@ -4,18 +4,34 @@ title: Adobe Analytics 儀表板高階主管指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: 'https://experienceleague.adobe.com/3ixzbDDfd6T1YbGDD-U1mHUEmaGcAUIaVGGTF6jaCDg'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 92%
+source-wordcount: 1287
+ht-degree: 91%
 
 ---
 
 # 高階主管使用者快速入門指南
 
-下列資訊可讓高階主管使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓高階主管使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。 若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
-這份指南旨在協助高階主管使用者閱讀和理解 Analytics 儀表板上的計分卡。此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+這份指南旨在協助高階主管使用者閱讀和理解 Analytics 儀表板上的計分卡。 此應用程式可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 在裝置上設定控制面板
 
@@ -36,13 +52,13 @@ ht-degree: 92%
 
 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
-[iOS 連結](https://apple.co/2zXq0aN)
+[iOS連結](https://apple.co/2zXq0aN)
 
 **若高階主管使用者使用 Android：**
 
 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
-[Android 連結](https://bit.ly/2LM38Oo)
+[Android連結](https://bit.ly/2LM38Oo)
 
 下載並安裝完畢後，高階主管使用者就可使用現有的 Adobe Analytics 憑證登入應用程式。
 
@@ -81,7 +97,7 @@ ht-degree: 92%
 
    圖磚的其他資訊：
 
-   * 走勢圖的粒度取決於日期範圍的長度：
+   * 走勢圖的顆粒度取決於日期範圍的長度：
 
       * 若長度為一天，圖表會顯示每小時趨勢
       * 若長度為一天以上、一年以下，則會顯示每日趨勢
@@ -146,8 +162,8 @@ ht-degree: 92%
 
 | 詞語 | 定義 |
 |--- |--- |
-| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的高階主管人員 |
-| 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
+| 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和洞察的高階主管人物誌 |
+| 組織者 | 從 Analytics 尋找及分發洞察，以及設定計分卡以供消費者檢視的資料識讀人員人物誌 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
 | 計分卡 | 包含一或多個圖磚的控制面板畫面 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |

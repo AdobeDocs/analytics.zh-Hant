@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
-user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+user-guide-description: 了解實作 Adobe Analytics 的方法。 自訂收集的資料，以充份運用 Analytics 資料。
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Analytics 實作指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
-+ Analytics 變數、函數和方法  {#vars}
++ Analytics 變數、函數和方法 {#vars}
    + [概觀](vars/overview.md)
    + 設定變數 {#config-vars}
       + [設定變數概觀](vars/config-vars/configuration-variables.md)
@@ -139,7 +139,7 @@ ht-degree: 100%
    + [使用 AppMeasurement](id/appmeasurement.md)
    + [移轉至訪客 ID 服務](id/migration.md)
    + [在不同的實施類型中進行追蹤](id/cross-type-implementation.md)
-+ 準備實作 Adobe Analytics  {#prepare}
++ 準備實作 Adobe Analytics {#prepare}
    + [建立資料層](prepare/data-layer.md)
    + [比較實作方法](prepare/comparison.md)
    + [全域報告套裝考量事項](prepare/global-rs.md)
@@ -170,24 +170,24 @@ ht-degree: 100%
    + [將標記資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 使用 JavaScript 實作 Analytics {#js}
    + [JavaScript 概觀](js/overview.md)
-   + {hide-from-toc}[實施退出連結](js/opt-out.md)
+   + {hide-from-toc}[實作選擇退出連結](js/opt-out.md)
    + [變數覆寫](js/overrides.md)
    + [從 H 程式碼移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}
       + [H 程式碼概觀](js/h-code/overview.md)
-      + 動態帳戶  {#dynamicaccount}
+      + 動態帳戶 {#dynamicaccount}
          + [動態帳戶概觀](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [疑難排解 H 程式碼](js/h-code/troubleshooting.md)
-   + 舊版跨裝置識別  {#xdevice-visid}
+   + 舊版跨裝置識別 {#xdevice-visid}
       + [跨裝置連結使用者概觀](js/xdevice-visid/xdevice-connecting.md)
       + [變數持續性](js/xdevice-visid/variable-persistence.md)
       + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
-+ 在其他平台上實作 Analytics  {#other}
++ 在其他平台上實作 Analytics {#other}
    + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
    + [在 Ajax 上實作 Analytics](other/ajax.md)
    + [在 AMP 上實作 Analytics](other/amp.md)
@@ -197,8 +197,8 @@ ht-degree: 100%
 + 實作使用案例 {#use-cases}
    + [搭配 iFrames 使用 AppMeasurement](use-cases/iframe.md)
    + [Campaign 追蹤工作流程](use-cases/campaign-tracking.md)
-+ 驗證實作  {#validate}
-   + [舊版 Adobe Experience Cloud Debugger](validate/debugger.md)
++ 驗證實作 {#validate}
+   + [舊版除錯工具](validate/debugger.md)
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)

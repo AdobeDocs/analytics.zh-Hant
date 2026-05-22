@@ -3,9 +3,23 @@ title: 平均頁面深度
 description: 維度平均存在於多少頁面的深度中。
 feature: Metrics
 exl-id: 6625405a-bda5-4723-8d22-4bc5b7e44d4e
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/Pm2WxRPqn9M-7IdrFQ2Tkj9t-L8ug3nZGr6ncpZg7lg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 365
 ht-degree: 55%
 
 ---
@@ -20,9 +34,9 @@ ht-degree: 55%
 
 ## 此量度的計算方式
 
-造訪的第一個頁面具有頁面深度 `0`。下一個頁面的頁面深度為 1，且會隨著每個頁面檢視而遞增，直到造訪結束為止。此量度只會隨著頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))呼叫而增加，而不會隨著連結追蹤([`tl()`](/help/implement/vars/functions/tl-method.md))呼叫而增加。
+造訪的第一個頁面具有頁面深度 `0`。 下一個頁面的頁面深度為 1，且會隨著每個頁面檢視而遞增，直到造訪結束為止。 此量度只會隨著頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))呼叫而增加，而不會隨著連結追蹤([`tl()`](/help/implement/vars/functions/tl-method.md))呼叫而增加。
 
-針對指定的維度項目，加總該維度項目的所有頁面深度，然後將其除以造訪次數。產生的數字即為平均頁面深度，會捨入進位至最接近的整數。維度項目的平均頁面深度若為 `0`，表示它經常出現在造訪的第一個頁面。
+針對指定的維度項目，加總該維度項目的所有頁面深度，然後將其除以造訪次數。 產生的數字即為平均頁面深度，會捨入進位至最接近的整數。 維度項目的平均頁面深度若為 `0`，表示它經常出現在造訪的第一個頁面。
 
 例如，請考量下列範例造訪：
 
@@ -42,10 +56,10 @@ If 'Count repeat instances' is disabled:
 
 >[!TIP]
 >
->如果您想看到具有小數位數的平均頁面深度，請建立計算量度，並以此量度作為公式中的唯一元素。將計算量度中的小數位數增加至所需的小數。
+>如果您想看到具有小數位數的平均頁面深度，請建立計算量度，並以此量度作為公式中的唯一元素。 將計算量度中的小數位數增加至所需的小數。
 
 ## 高於 100% 的百分比
 
-此量度常包含高於 100% 的百分比。分母是整個維度的平均頁面深度，分子是維度專案的平均頁面深度。
+此量度常包含高於 100% 的百分比。 分母是整個維度的平均頁面深度，分子是維度專案的平均頁面深度。
 
-如果整個維度的平均頁面深度低於指定維度專案的平均頁面深度，您就會看到高於100%的百分比。 依此量度排序的排名報表，會顯示異常的平均頁面深度值，而這類值通常沒有價值。Adobe 建議在排名報表中依其他量度 (例如[造訪](visits.md)) 進行排序。
+如果整個維度的平均頁面深度低於指定維度專案的平均頁面深度，您就會看到高於100%的百分比。 依此量度排序的排名報表，會顯示異常的平均頁面深度值，而這類值通常沒有價值。 Adobe 建議在排名報表中依其他量度 (例如[造訪](visits.md)) 進行排序。

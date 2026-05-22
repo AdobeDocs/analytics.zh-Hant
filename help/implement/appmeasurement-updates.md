@@ -30,10 +30,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 2843
-ht-degree: 72%
+source-wordcount: 2885
+ht-degree: 57%
 
 ---
 
@@ -192,12 +192,12 @@ ht-degree: 72%
 
 發行日期：**2018 年 9 月 20 日**
 
-此版本確保 [!DNL AppMeasurement] 程式庫正確提交所有連接種類的 Cookie。
+此版本確保AppMeasurement程式庫正確提交所有連線型別的Cookie。
 
-* [!DNL AppMeasurement] 在 POST 期間會封鎖 Cookie 傳輸。 (AN-165538)
+* AppMeasurement會在POST期間封鎖Cookie傳輸。 (AN-165538)
 * 刪除XDomainRequest的支援。 (AN-165733)
-* 將 [!DNL AppMeasurement] 的預設 Cookie 期限值從五年縮短為兩年。 (AN-158572)
-* 從代碼管理器中移除媒體模組 ([!DNL AppMeasurement]) (AN-166590)
+* 將AppMeasurement的預設Cookie期限值從五年縮短為兩年。 (AN-158572)
+* 從代碼管理器中移除媒體模組(AppMeasurement) (AN-166590)
 
 ## 2.9.0 版本
 
@@ -205,9 +205,9 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->使用 [!DNL Experience Cloud] ID 服務的客戶需要具備訪客 API 3.0 或更新版本。 Adobe 建議只要更新相關的程式碼程式庫 ([!DNL at.js] 等等)，就要升級至最新的 Visitor API 版本。[!DNL AppMeasurement.js]
+>使用Experience Cloud ID服務的客戶需要具備訪客API 3.0或更新版本。 Adobe 建議只要更新相關的程式碼程式庫 (`at.js` 等等)，就要升級至最新的 Visitor API 版本。`AppMeasurement.js`
 
-* 更新 [!DNL AppMeasurement] 以使用更新後的訪客介面要求 ID。 (AN-151483)
+* 更新AppMeasurement以使用更新後的訪客介面要求ID。 (AN-151483)
 * 修正連結追蹤關閉後，連結追蹤Cookie持續被寫入的問題。 (AN-156332)
 * 修正多次呼叫時 `registerPreTrackCallback` 和 `registerPostTrackCallback` 會破壞回呼函數簽名的問題。 (AN-158566)
 
@@ -215,9 +215,9 @@ ht-degree: 72%
 
 發行日期：**2018 年 4 月 12 日**
 
-* 更新 [!DNL AppMeasurement] 以使用更新後的訪客介面要求 ID。 (AN-151483)
+* 更新AppMeasurement以使用更新後的訪客介面要求ID。 (AN-151483)
 * 一旦連結追蹤關閉，連結追蹤Cookie就會持續被寫入。 (AN-156332)
-* 將 [!DNL AppMeasurement] 的預設 Cookie 期限值從五年縮短為兩年。 (AN-158572)
+* 將AppMeasurement的預設Cookie期限值從五年縮短為兩年。 (AN-158572)
 
 ## 2.8.1 版本
 
@@ -231,9 +231,9 @@ ht-degree: 72%
 
 重新組合訪客 API 3.1.0 (AN-159524)，並包含 Hotfix：(CORE-11390、CORE-10634)
 
-* 將 VAPI v3.1 與 [!DNL AppMeasurement] v2.8 搭配組合。 (AN-158353)
+* 將VAPI v3.1與AppMeasurement v2.8搭配組合。 (AN-158353)
 * 重構建立資料收集端點以促進共用。 (AN-156647)
-* 將請求的來回時間量度新增至 [!DNL AppMeasurement]。 (AN-158343)
+* 將請求的來回時間量度新增至AppMeasurement。 (AN-158343)
 
 ## 2.7.0 版本
 
@@ -247,13 +247,13 @@ ht-degree: 72%
 
 發行日期：**2017 年 11 月 9 日**
 
-修正呼叫 s_gl 時，[!DNL AppMeasurement] 程式庫無法每次都設為正確帳戶組合的問題。 (AN-152153)
+修正呼叫s_gl時，AppMeasurement程式庫無法每次都設定正確帳戶組合的問題。 (AN-152153)
 
 ## 2.5.0 版本
 
 發行日期：**2017 年 9 月 21 日**
 
-* 納入 [!DNL dil.js 6.12] ([!DNL Audience Manager] 模組)
+* 納入`dil.js` 6.12 （Audience Manager模組）
 * 納入訪客 API 2.5.0。
 
 ## 2.4.0 版本
@@ -274,7 +274,7 @@ ht-degree: 72%
 
 發行日期：**2017 年 6 月 8 日**
 
-* 新增對多重 [!DNL AppMeasurement] 具現化階層的支援。 (AN-138237)
+* 新增對多重AppMeasurement具現化階層的支援。 (AN-138237)
 * 納入訪客 API 2.2.0 版本。 (AN-144042)
 
 ## 2.1.0 版本
@@ -307,39 +307,39 @@ ht-degree: 72%
 更新日期：**2016 年 11 月 11 日**
 
 * 納入 Visitor API 1.10.1。
-* 使用 Demdex Integration Library (DIL) 6.6 更新 [!DNL Audience Manager] 模組。 (AN-132065)
+* 使用Demdex Integration Library (DIL) 6.6更新Audience Manager模組。 (AN-132065)
 * 納入 Visitor API 1.9.0。 (AN-132072)
-* 使用 DIL 6.5 和其他設定更新 [!DNL AppMeasurement] [!DNL Audience Manager] 模組 (AN-129411)
+* 使用AppMeasurement 6.5和其他設定更新DIL Audience Manager模組(AN-129411)
 * 包括 Visitor API 1.8.0 (AN-129887)
 
 ## 1.6.4 版本
 
 更新日期: **2016 年 8 月 18 日**
 
-* 更新 [!DNL AppMeasurement]，可讀取和寫入 AMCV Cookie。 (AN-127098)
+* 更新AppMeasurement以讀取和寫入AMCV Cookie。 (AN-127098)
 * 納入 Visitor API 1.7.0。
 
 >[!NOTE]
 >
->另請參閱下列 [!DNL JavaScript] 1.6.3 版本的版本注意事項中，對 Experience Cloud ID 服務的更新要求。
+>另請參閱下列JavaScript 1.6.3版的發行說明中，對Experience Cloud ID服務的更新要求。
 
 ## 1.6.3 版本
 
 更新日期: **2016 年 8 月 4 日**
 
-* 修正 [!DNL AppMeasurement] 提前終止請求連線的問題。 (AN-126448)
+* 修正AppMeasurement提前終止請求連線的問題。 (AN-126448)
 
 >[!IMPORTANT]
 >
->1.6.0 版本 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版本或更新版本使用。 如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 AppMeasurement 1.6.3 版或更新版本。
+>1.6.0版Experience Cloud ID服務&#x200B;*需要*&#x200B;適用於JavaScript 1.6.3或更新版本的AppMeasurement。 如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 AppMeasurement 1.6.3 版或更新版本。
 
 ## 1.6.2 版本
 
 發行日期：**2016 年 7 月 21 日**
 
 * 已納入 Visitor API 1.6.0。
-* 修正導致 [!DNL AppMeasurement] 在訪客 API 中呼叫了錯誤隱藏方法的問題。 (AN-126006)
-* 修正造成[!DNL JavaScript]錯誤的問題：「屬性僅在v:image上有效」。 (AN-124009)
+* 修正導致AppMeasurement在訪客API中呼叫了錯誤隱藏方法的問題。 (AN-126006)
+* 修正造成JavaScript錯誤的問題：「屬性僅在v:image上有效」。 (AN-124009)
 
 ## 1.6.1 版本
 
@@ -352,8 +352,8 @@ ht-degree: 72%
 
 發行日期：**2016 年 4 月 21 日**
 
-* [!DNL AppMeasurement] Activity Map 模組已整合至 [!DNL AppMeasurement] 標準模組，因此您僅需參考一個 [!DNL .js] 檔案。 此外，預設已啟用Activity Map追蹤。 (AN-112689)
-* 修正 [!DNL AppMeasurement] 中查詢字串變數順序的截斷問題，因此 *`pageURLRest`* 會顯示於最後。 (AN-114647)
+* AppMeasurement Activity Map模組已整合至AppMeasurement標準模組，因此您僅需參照一個`.js`檔案。 此外，預設已啟用Activity Map追蹤。 (AN-112689)
+* 修正AppMeasurement中查詢字串變數順序的截斷問題，因此&#x200B;*`pageURLRest`*&#x200B;會顯示於最後。 (AN-114647)
 
 ## 1.5.4 版本
 
@@ -366,7 +366,7 @@ ht-degree: 72%
 
 發行日期：**2016 年 1 月 21 日**
 
-* 修正使用 POST 來追蹤呼叫時，[!DNL Audience Manager] 模組的處理方式。 (AN-115381)
+* 修正使用POST來追蹤呼叫時，Audience Manager模組的處理方式。 (AN-115381)
 * 將頁面URL (&quot;-g&quot;)的其餘部分移至追蹤請求查詢字串的結尾。 (AN-114647)
 
 ## 1.5.2 版本
@@ -381,7 +381,7 @@ ht-degree: 72%
 發行日期：**2015 年 9 月 17 日**
 
 * 納入 Visitor API 1.5.2
-* 更新[!DNL Audience Manager]模組以使用Adobe Audience Manager DIL 6.2 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
+* 更新Audience Manager模組，以使用Adobe Audience Manager DIL 6.2 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
 
 ## 1.5 版本
 
@@ -402,7 +402,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->**已知問題**：在訪客 API / [!DNL AppMeasurement] [!DNL Audience Manager] 模組整合中，有可發佈在 IE6-9 中提出之 iFrame 要求的兩個目的地：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。 如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`。
+>**已知問題**：在訪客API / AppMeasurement Audience Manager模組整合中，有可發佈在IE6-9中提出之iFrame要求的兩個目的地： `//fast.<subdomain>.demdex.net/dest5.html`和`//fast.<subdomain>.demdex.net/dest4.html`。 如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`。
 
 ## 1.4.4 版本
 
@@ -450,7 +450,7 @@ ht-degree: 72%
 
   >[!IMPORTANT]
   >
-  >若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實作用於 Experience Cloud。
+  >若要讓Analytics呼叫使用`POST`方法，而不是AppMeasurement中的`GET`方法（解決IE[&#128279;](/help/implement/js/troubleshooting.md)中個截斷URL的方法），您必須對CX Enterprise使用最新的訪客ID服務實作。
 
 ## 1.4 版本
 
@@ -468,20 +468,20 @@ ht-degree: 72%
 
 發行日期：**2014 年 6 月 19 日**
 
-* 修正處理訪客 API 欄位 (如舊版 [!DNL Analytics] 訪客 ID) 的完成和等待標幟時會發生錯誤的問題。
+* 修正處理訪客API欄位（例如舊版Analytics訪客ID）的完成和等待標幟時會發生錯誤的問題。
 * 支援訪客 ID 服務 1.3 的新功能。
 
 ## 1.3.1 版本
 
 發行日期：**2014 年 5 月 22 日**
 
-* [!DNL JavaScript] `s_gi` 適用的 [!DNL AppMeasurement] 功能無法正確地找到使用 H-Code `s_gi` 所建立的例項。 請注意，此問題只有影響到某些雙重標籤實作，意即 [!DNL JavaScript] 適用的 [!DNL AppMeasurement] 和 H-Code 出現在具備個別例項的相同頁面，而報表套裝也使用 `s_gi` 尋找例項。
+* 適用於JavaScript `s_gi`的AppMeasurement功能無法正確尋找使用H代碼`s_gi`建立的執行個體。 請注意，此問題只有影響到某些雙重標籤實作，意即JavaScript適用的AppMeasurement和H-Code出現在具備個別例項的相同頁面，而報表套裝也使用`s_gi`尋找例項。
 
 ## 1.3 版本
 
 發行日期：**2014 年 4 月 17 日**
 
-* 支援 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 支援[CX Enterprise Visitor ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## 1.2.4 版本
 
@@ -499,7 +499,7 @@ ht-degree: 72%
 
 發行日期：**2014 年 2 月 6 日**
 
-* 修正 [!DNL Audience Manager] DIL 模組的相容性問題。 [!DNL Audience Manager] 客戶也必須更新至 DIL 模組的 4.8 版本。
+* 已修正Audience Manager DIL模組的相容性問題。 Audience Manager客戶也必須更新至DIL模組的4.8版本。
 
 ## 1.2.1 版本
 
@@ -531,7 +531,7 @@ ht-degree: 72%
 發行日期：**2013 年 8 月 15 日**
 
 * 新增支援透過 Adobe 標籤管理進行部署。
-* 修正 [!DNL AppMeasurement] 物件上無法設定階層變數的問題。
+* 修正無法在AppMeasurement物件上設定階層變數的問題。
 
 ## 1.0.2 版本
 
@@ -549,7 +549,7 @@ ht-degree: 72%
 
 發行日期：**2013 年 5 月 23 日**
 
-代碼管理器現在提供新版 [!DNL JavaScript] [!DNL AppMeasurement] 程式庫。 本程式庫提供與 [!DNL s_code.js] 相同的核心功能，但可更加輕鬆快速地在行動版與桌面版網頁上使用。
+代碼管理器現在提供新的JavaScript AppMeasurement資料庫。 本程式庫提供與 `s_code.js` 相同的核心功能，但可更加輕鬆快速地在行動版與桌面版網頁上使用。
 
 * 執行速度較 H.25 程式碼快 3 到 7 倍。
 * 未壓縮大小僅為 21k，而採用 gzipped 壓縮的大小為 8k (H.25 程式碼的未壓縮大小為 33k，而採用 gzipped 的大小為 13 k)。

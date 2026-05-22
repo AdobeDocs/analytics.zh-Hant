@@ -5,10 +5,20 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/Qwd6RD0nq7mnMte5UFJVDuLqzqnKGHoOHlm-kYqtsog
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 79%
+source-wordcount: 328
+ht-degree: 74%
 
 ---
 
@@ -18,7 +28,7 @@ ht-degree: 79%
 
 您可以根據請求的報告套裝、顆粒度及日期範圍，同時變更數個請求。
 
-您可以根據請求的報告套裝、區段、顆粒度及日期範圍，同時變更數個請求。例如，您可以更新報表的參數，使所有請求均以相同的報表套裝或區段為基礎，或假設您保留相同的期間數，則可以將每日報表轉換為每週或每月報表。您可以編輯目前工作表或試算表的所有工作表的多個請求。
+您可以根據請求的報告套裝、區段、顆粒度及日期範圍，同時變更數個請求。 例如，您可以更新報表的參數，使所有請求均以相同的報表套裝或區段為基礎，或假設您保留相同的期間數，則可以將每日報表轉換為每週或每月報表。 您可以編輯目前工作表或試算表的所有工作表的多個請求。
 
 **若要編輯多個請求**
 
@@ -26,7 +36,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >若要編輯個別工作表中儲存格所含的請求，請清除[!UICONTROL 「請求管理員」]中的[!UICONTROL 「所有工作表」]選項。如果數個工作表中均有請求，預設會勾選此核取方塊。
+   >若要編輯個別工作表中儲存格所含的請求，請清除[!UICONTROL 「請求管理員」]中的[!UICONTROL 「所有工作表」]選項。 如果數個工作表中均有請求，預設會勾選此核取方塊。
 
 1. 在[!UICONTROL 「請求管理員」]表單中選擇兩個或兩個以上的請求，然後按一下&#x200B;**[!UICONTROL 「編輯多項」]**。
 
@@ -36,7 +46,7 @@ ht-degree: 79%
    * **依報表套裝**：依報表套裝將畫面上顯示的請求分組。
    * **依區段**：依區段名稱將請求分組。
 
-      * **選擇區段**：沒有任何請求區段時顯示。若要新增區段，請按一下&#x200B;**[!UICONTROL 編輯群組]**，然後從[!UICONTROL 編輯群組]面板中選取區段。
+      * **選擇區段**：沒有任何請求區段時顯示。 若要新增區段，請按一下&#x200B;**[!UICONTROL 編輯群組]**，然後從[!UICONTROL 編輯群組]面板中選取區段。
 
    * **依量度**：請參閱[編輯多個請求的量度](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md)。
 

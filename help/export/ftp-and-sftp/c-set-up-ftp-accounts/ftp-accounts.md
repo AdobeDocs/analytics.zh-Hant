@@ -4,10 +4,22 @@ keywords: ftp;sftp
 title: 設定 FTP 帳戶 - 概觀
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
+TQID: 'https://experienceleague.adobe.com/dB-Sb1aM5VYz5FAkvxOunFGeAQvttU7vxCjjqj1pesQ'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 17%
+source-wordcount: 316
+ht-degree: 6%
 
 ---
 
@@ -25,4 +37,4 @@ Adobe客戶會透過其標準流程收到維護通知，因為維護事件已排
 
 Adobe FTP 主機名稱是 `ftp://ftp.omniture.com` 或 `ftp://ftp2.omniture.com`。
 
-此項資訊以及使用者名稱和密碼應在 [!UICONTROL Experience Cloud] 中提供 (針對分類和資料來源)，或由負責設定您申請之帳戶的 Adobe 代表提供。如果您不知道要使用的FTP或SFTP位址，請聯絡您的Adobe客戶團隊，他們可提供正確位址。 此外，針對分類和資料來源帳戶，Adobe沒有處理FTP或SFTP檔案的特定時間。 相反地，Adobe會使用持續輪詢FTP或SFTP帳戶以尋找新檔案程式的指令碼。 系統會儘快處理上傳至這些帳戶的檔案。
+此項資訊以及使用者名稱和密碼應在CX Enterprise中提供（針對分類和資料來源），或由負責設定您申請之帳戶的Adobe代表提供。 如果您不知道要使用的FTP或SFTP位址，請聯絡您的Adobe客戶團隊，他們可提供正確位址。 此外，針對分類和資料來源帳戶，Adobe沒有處理FTP或SFTP檔案的特定時間。 相反地，Adobe會使用持續輪詢FTP或SFTP帳戶以尋找新檔案程式的指令碼。 系統會儘快處理上傳至這些帳戶的檔案。

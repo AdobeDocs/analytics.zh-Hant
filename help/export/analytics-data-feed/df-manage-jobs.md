@@ -3,10 +3,21 @@ title: 管理資料摘要工作
 description: 瞭解如何管理資料摘要中的個別作業。 瀏覽介面、使用篩選和搜尋，以及尋找欄定義。
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: 'https://experienceleague.adobe.com/4ACex-y-w3ppGhC1tRX8qH4WeU1NT9ubcJBlhSh9sY0'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 20%
+source-wordcount: 545
+ht-degree: 23%
 
 ---
 
@@ -73,7 +84,7 @@ ht-degree: 20%
 
 若要重新傳送一或多個資料摘要工作：
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取資料摘要旁的核取方塊，其中包含您要重新傳送的工作，然後選取&#x200B;[!UICONTROL **工作歷史記錄**]。
 
@@ -89,7 +100,7 @@ ht-degree: 20%
 
 若要重新處理一或多個資料摘要工作：
 
-1. 在Adobe Analytics中，選取&#x200B;[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]。
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**] > [!UICONTROL **資料摘要**]」。
 
 1. 選取資料摘要旁的核取方塊，其中包含您要重新處理的工作，然後選取&#x200B;[!UICONTROL **工作歷史記錄**]。
 

@@ -4,26 +4,40 @@ description: 複製變數而不增加影像要求長度。
 feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 78%
+source-wordcount: 444
+ht-degree: 82%
 
 ---
 
 # 動態變數
 
-動態變數可讓您將值從某個變數複製到另一個變數，而不增加影像要求的長度。在多個變數中擷取相同資料時，這些變數很有幫助。
+動態變數可讓您將值從某個變數複製到另一個變數，而不增加影像要求的長度。 在多個變數中擷取相同資料時，這些變數很有幫助。
 
-在舊版 Analytics 中，影像要求長度是預防資料截斷非常重要的環節。AppMeasurement 改良功能容許的影像要求查詢字串長度大幅增加，因此通常不需要動態變數。
+在舊版 Analytics 中，影像要求長度是預防資料截斷非常重要的環節。 AppMeasurement 改良功能容許的影像要求查詢字串長度大幅增加，因此通常不需要動態變數。
 
-動態變數支援在影像要求中使用查詢字串參數或 HTTP 標題。如需可參考的可用參數完整清單，請參閱[資料彙集查詢參數](../../validate/query-parameters.md)。如需可參考的可用 HTTP 要求欄位完整清單，請參閱 Wikipedia 上的[標準要求欄位](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
+動態變數支援在影像要求中使用查詢字串參數或 HTTP 標題。 如需可參考的可用參數完整清單，請參閱[資料彙集查詢參數](../../validate/query-parameters.md)。 如需可參考的可用 HTTP 要求欄位完整清單，請參閱 Wikipedia 上的[標準要求欄位](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
 
-當 Adobe 辨識出動態變數首碼時，會自動複製報表套裝中的查詢字串或 HTTP 標題值。此動作會在其他任何處理 (包括處理規則和 VISTA 規則) 之前進行。
+當 Adobe 辨識出動態變數首碼時，會自動複製報表套裝中的查詢字串或 HTTP 標題值。 此動作會在其他任何處理 (包括處理規則和 VISTA 規則) 之前進行。
 
 >[!TIP]
 >
->複製變數時請留意字元上限。例如，如果將 `eVar1` 複製到 `prop1`，`prop1` 的值可能會遭到截斷，因為它有 100 個位元組的限制 (`eVar1` 則有 255 個位元組的限制)。
+>複製變數時請留意字元上限。 例如，如果將 `eVar1` 複製到 `prop1`，`prop1` 的值可能會遭到截斷，因為它有 100 個位元組的限制 (`eVar1` 則有 255 個位元組的限制)。
 
 ## 使用網頁SDK的動態變數
 
@@ -43,14 +57,14 @@ ht-degree: 78%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 將[!UICONTROL 擴充功能]下拉式清單設定為Adobe Analytics，並將[!UICONTROL 動作型別]設定為[!UICONTROL 設定變數]。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設定為 Adobe Analytics，並將[!UICONTROL 「動作類型」]設定為[!UICONTROL 「設定變數」]。
 6. 找出所需的維度項目。
 
-將動態變數首碼放置在文字欄位中，隨後加上您要參考的查詢字串參數或 HTTP 標題。依預設，動態變數首碼為 `D=`。
+將動態變數首碼放置在文字欄位中，隨後加上您要參考的查詢字串參數或 HTTP 標題。 依預設，動態變數首碼為 `D=`。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的動態變數
 
-動態變數是指派給其他變數的文字字串。預設的動態變數首碼為 `D=`。動態變數會區分大小寫。
+動態變數是指派給其他變數的文字字串。 預設的動態變數首碼為 `D=`。 動態變數會區分大小寫。
 
 ```js
 // Copy eVar1 into eVar2. The query string parameter of eVar1 is v1.
@@ -66,4 +80,4 @@ s.eVar1 = "D=g";
 
 >[!NOTE]
 >
-> 在為實施作業除錯時，動態變數會顯示為字串。值由 Adobe 資料收集伺服器從伺服器端複製。
+>在為實施作業除錯時，動態變數會顯示為字串。 值由 Adobe 資料收集伺服器從伺服器端複製。

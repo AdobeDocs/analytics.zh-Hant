@@ -4,9 +4,21 @@ description: 您網站上被點按的地區。
 feature: Dimensions
 role: User, Admin
 exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
-source-git-commit: bcab98e453247c74b7d96497d34e6aea9ca32bc7
+TQID: https://experienceleague.adobe.com/mmLp5-dgKGeovIOMPZxliyhfbpUSMLXca-3Qs6QA0SA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 5%
 
 ---
@@ -22,8 +34,8 @@ ht-degree: 5%
 對於已點按的指定連結，請檢查下列專案的父DOM元素（依序）：
 
 * 由[`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md)設定的屬性中的值 — 預設設定為`id`屬性
-* 屬性`aria-label`時`role="region"`屬性中的值
-* 語意元素`<header>`、`<main>`、`<footer>`或`<nav>` (僅限Web SDK)
+* 屬性`role="region"`時`aria-label`屬性中的值
+* 語意元素`<header>`、`<main>`、`<footer>`或`<nav>` （僅限Web SDK）
 
 如果父DOM元素不符合上述任何條件，則會遞回地繼續在DOM階層中搜尋。 如果找不到相符的元素，則會傳回值`BODY`。
 

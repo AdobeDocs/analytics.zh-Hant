@@ -4,9 +4,23 @@ description: 從目前的網站路徑建立易讀的 pageName。
 feature: Appmeasurement Implementation
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/NBn8IxQAsxWD7yO9L910M7RzB5Wlrd6dno2va0We12g'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 725
 ht-degree: 75%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 75%
 
 {{plug-in}}
 
-`getPageName` 外掛程式可為目前的 URL 建立易讀、好記的格式化版本。如果您想要在報表中輕鬆設定且理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建議使用此外掛程式。如果您已有 `pageName` 變數的命名結構 (例如透過資料層)，就不需要此外掛程式。若您沒有其他解決方案可設定 `pageName` 變數，最好使用此外掛程式。
+`getPageName` 外掛程式可為目前的 URL 建立易讀、好記的格式化版本。 如果您想要在報表中輕鬆設定且理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建議使用此外掛程式。 如果您已有 `pageName` 變數的命名結構 (例如透過資料層)，就不需要此外掛程式。 若您沒有其他解決方案可設定 `pageName` 變數，最好使用此外掛程式。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -65,7 +79,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -78,10 +92,10 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 `getPageName` 函數會使用以下引數：
 
-* **`si`** (選用，字串)：在代表網站 ID 的字串開頭插入的 ID。此值可以是數值 ID 或好記的名稱。未設定時，其預設值為目前的網域。
+* **`si`** (選用，字串)：在代表網站 ID 的字串開頭插入的 ID。 此值可以是數值 ID 或好記的名稱。 未設定時，其預設值為目前的網域。
 * **`qv`** (選用，字串)：以逗號分隔的查詢字串參數清單，若在 URL 中找到，便會新增至字串
 * **`hv`** (選用，字串)：在 URL 雜湊中找到的逗號分隔參數清單，若在 URL 中找到，則會新增至字串
-* **`de`** (選用，字串)：分割字串個別部分的分隔字元。預設為縱線字元 (`|`)。
+* **`de`** (選用，字串)：分割字串個別部分的分隔字元。 預設為縱線字元 (`|`)。
 
 此函數所傳回的字串會包含易用格式版本的 URL。 此字串通常會指派給 `pageName` 變數，但也可用於其他變數。
 

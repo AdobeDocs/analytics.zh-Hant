@@ -4,26 +4,40 @@ title: 設定流失視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 121fac9958dc34be513a23d5c3ad76d5f0e6b665
+TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 898
 ht-degree: 30%
 
 ---
 
 # 設定流失視覺效果
 
-您可以指定&#x200B;**接觸點**&#x200B;來建立多維度流失序列。 在許多情況下，接觸點是您網站上的頁面。 不過，接觸點並不限於頁面。 例如，您可以新增事件 (例如件數)，以及不重複人員和回訪次數。您也可以新增維度，例如類別、瀏覽器型別或內部搜尋詞。
+您可以指定&#x200B;**接觸點**&#x200B;來建立多維度流失序列。 在許多情況下，接觸點是您網站上的頁面。 不過，接觸點並不限於頁面。 例如，您可以新增事件 (例如件數)，以及不重複人員和回訪次數。 您也可以新增維度，例如類別、瀏覽器型別或內部搜尋詞。
 
-您甚至可以在接觸點內新增區段。 例如，您可能想要比較區段，例如iOS和Android使用者。 將所需區段拖曳至流失上方，這些區段的相關資訊會新增至流失報告中。如果只想顯示這些區段，您可以移除「所有造訪數」基線。
+您甚至可以在接觸點內新增區段。 例如，您可能想要比較區段，例如iOS和Android使用者。 將所需區段拖曳至流失上方，這些區段的相關資訊會新增至流失報告中。 如果只想顯示這些區段，您可以移除「所有造訪數」基線。
 
 「流失」視覺效果對於可新增的接觸點數目或可使用的元件數目沒有限制。
 
-您可以對維度、量度及區段進行路徑分析。例如，假設某人正在一個頁面上檢視`shoes, shirt`，而在下一個頁面上檢視`shirt, socks`。 來自鞋子的下一個產品流量報告會是上衣和襪子，「而非」上衣。
+您可以對維度、量度及區段進行路徑分析。 例如，假設某人正在一個頁面上檢視`shoes, shirt`，而在下一個頁面上檢視`shirt, socks`。 來自鞋子的下一個產品流量報告會是上衣和襪子，「而非」上衣。
 
 ## 使用
 
-1. 新增 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;視覺效果。請參閱[新增視覺效果至面板](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
+1. 新增 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL 流失]**&#x200B;視覺效果。 請參閱[新增視覺效果至面板](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。
 
 1. 將元件拖曳至&#x200B;**[!UICONTROL 新增接觸點]**&#x200B;下拉式功能表。
 
@@ -36,7 +50,7 @@ ht-degree: 30%
 
 1. 繼續新增接觸點，直到完成您的序列。
 
-   長條灰色部分裡頭圈起來的數字，是接觸點之間的流失 (不是該點的整體流失)。長條圖綠色部分中的圓圈數字表示從上一個接觸點到目前接觸點的成功瀑布。
+   長條灰色部分裡頭圈起來的數字，是接觸點之間的流失 (不是該點的整體流失)。 長條圖綠色部分中的圓圈數字表示從上一個接觸點到目前接觸點的成功瀑布。
 
    ![流失視覺效果](assets/fallout-visualization.png)
 
@@ -95,13 +109,13 @@ ht-degree: 30%
 | **[!UICONTROL 趨勢接觸點]** | 在折線圖中查看接觸點的趨勢資料，其中包含一些預先建立的異常偵測資料。 |
 | **[!UICONTROL 趨勢接觸點 (%)]** | 總流失百分比趨勢。 |
 | **[!UICONTROL 所有接觸點趨勢 (%)]** | 在同一圖表上顯示流失中所有接觸點的百分比趨勢(除了&#x200B;**[!UICONTROL 所有訪客]** （如果包含）)。 |
-| **[!UICONTROL 在此接觸點劃分割槽間]** | 如果訪客繼續進入下一個接觸點，可檢視訪客在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。此選項會建立自由表格，顯示您的維度。 您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]**&#x200B;分割的[獨特訪客](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**&#x200B;作為量度。 檢查區段以瞭解如何決定遞補區段。 |
-| **[!UICONTROL 此接觸點的劃分流失]** | 檢視未透過funnel的訪客，在選定步驟後立即做了什麼事。 此選項會建立自由表格，顯示您的維度。 您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 流失：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以&#x200B;**[!UICONTROL 僅限專案的快速區段]** [流失：所有訪客>頁面等於任何首頁](/help/components/segmentation/segmentation-workflow/seg-quick.md)區段作為量度的分段&#x200B;**[!UICONTROL 獨特訪客]**。 檢查區段以瞭解如何判斷流失區段。 |
+| **[!UICONTROL 在此接觸點劃分割槽間]** | 如果訪客繼續進入下一個接觸點，可檢視訪客在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。 此選項會建立自由表格，顯示您的維度。 您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以[僅限專案的快速區段](/help/components/segmentation/segmentation-workflow/seg-quick.md)分割的&#x200B;**[!UICONTROL 獨特訪客]** **[!UICONTROL 區間：所有訪客>頁面等於任何首頁]**&#x200B;作為量度。 檢查區段以瞭解如何決定遞補區段。 |
+| **[!UICONTROL 此接觸點的劃分流失]** | 檢視未透過funnel的訪客，在選定步驟後立即做了什麼事。 此選項會建立自由表格，顯示您的維度。 您可以取代表格的尺寸和其他元素。 例如，標示為&#x200B;**[!UICONTROL 流失：所有訪客>頁面等於任何首頁]**，並包含&#x200B;**[!UICONTROL 頁面]**&#x200B;作為維度，以及以[僅限專案的快速區段](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL 流失：所有訪客>頁面等於任何首頁]**&#x200B;區段作為量度的分段&#x200B;**[!UICONTROL 獨特訪客]**。 檢查區段以瞭解如何判斷流失區段。 |
 | **[!UICONTROL 從接觸點建立區段]** | 從選取的接觸點建立新的區段。 |
 
 >[!MORELIKETHIS]
 >
->[將視覺化新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[視覺化內容選單](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

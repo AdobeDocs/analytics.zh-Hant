@@ -3,16 +3,26 @@ title: post_product_list 中的銷售 eVar 例項查閱
 description: 為資料摘要的 post_product_list 欄中的每個查閱值，尋找 Merchandising eVar 例項。
 feature: Data Feeds
 exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+TQID: 'https://experienceleague.adobe.com/bkXTvZE0D01wa7p3oRvr32mnnznt8Irjw1vHDtFkXL8'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 100%
 
 ---
 
 # post_product_list 中的銷售 eVar 例項查閱
 
-在資料摘要中，[post_product_list](datafeeds-reference.md) 欄可能包含銷售 eVar 例項。每個 eVar 由一個數字表示。
+在資料摘要中，[post_product_list](datafeeds-reference.md) 欄可能包含銷售 eVar 例項。 每個 eVar 由一個數字表示。
 
 post_product_list 的銷售 eVar 例項查閱，與資料摘要中的 event_list 查閱欄不同。
 

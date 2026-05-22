@@ -3,10 +3,20 @@ title: 單次存取
 description: 維度項目在造訪中未變更的次數。
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+TQID: https://experienceleague.adobe.com/9rDXvGopDNEhkh6cA-JmkwazYWagbMDo1g7yZ2n-gLI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 15%
+source-wordcount: 484
+ht-degree: 19%
 
 ---
 
@@ -32,10 +42,10 @@ ht-degree: 15%
 
 如果停用[[!UICONTROL 計算重複執行個體]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings)，量度定義會稍微變更：
 
-* **單次存取**：顯示指定的維度專案在整個造訪中未變更的造訪次數。
+* **單次存取**：顯示指定的維度項目在整個造訪中未變更的造訪次數。
 * **單頁造訪次數**：顯示&#39;[!UICONTROL 頁面]&#39;維度在整個造訪中未變更的造訪次數。
 
 例如，請考量下列範例中的兩次點選造訪。 報表中的維度是[[!UICONTROL 網站區段]](../dimensions/site-section.md)，而且&#39;[!UICONTROL 計數重複執行個體]&#39;已停用。
 
-* 訪客點擊了兩個頁面，但兩者位於相同的網站區段中。由於網站區段在造訪期間保持不變，因此會計為單次存取。 由於造訪包含多個唯一的[!UICONTROL 頁面]維度專案，因此不會計為單頁造訪次數。
-* 訪客點擊了位於不同網站區段的兩個頁面，但這兩個頁面的名稱恰好相同。該次造訪不會計為單次存取，因為有兩個不重複的網站區段值。 由於有單一不重複的[!UICONTROL 頁面]維度專案，因此會計為單頁造訪次數。
+* 訪客點擊了兩個頁面，但兩者位於相同的網站區段中。 由於網站區段在造訪期間保持不變，因此會計為單次存取。 由於造訪包含多個唯一的[!UICONTROL 頁面]維度專案，因此不會計為單頁造訪次數。
+* 訪客點擊了位於不同網站區段的兩個頁面，但這兩個頁面的名稱恰好相同。 該次造訪不會計為單次存取，因為有兩個不重複的網站區段值。 由於有單一不重複的[!UICONTROL 頁面]維度專案，因此會計為單頁造訪次數。

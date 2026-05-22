@@ -4,9 +4,23 @@ description: 對變數清單執行函數。
 feature: Appmeasurement Implementation
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/JDOu3ZPBp0KDTSaP45O9K8vy-EiVbinY-SHPQg11dZw'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 619
 ht-degree: 88%
 
 ---
@@ -15,7 +29,7 @@ ht-degree: 88%
 
 {{plug-in}}
 
-`pt` 外掛程式會對 Analytics 變數清單執行函數或方法。例如，您可以選擇性地對多個變數執行 [`clearVars`](../functions/clearvars.md) 函數，而不需每次都手動呼叫該函數。 其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
+`pt` 外掛程式會對 Analytics 變數清單執行函數或方法。 例如，您可以選擇性地對多個變數執行 [`clearVars`](../functions/clearvars.md) 函數，而不需每次都手動呼叫該函數。 其他多個外掛程式依賴此程式碼才能正確運作。 如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -50,7 +64,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -64,9 +78,9 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 `pt` 函數會使用以下引數：
 
 * **`l`** (必要，字串)：變數清單，包含 `cf` 引數的函數可針對此清單執行。
-* **`de`** (選用，字串)：區分 `l` 引數中變數清單的分隔字元。預設為逗號 (`,`)。
+* **`de`** (選用，字串)：區分 `l` 引數中變數清單的分隔字元。 預設為逗號 (`,`)。
 * **`cf`** (必要，字串)：要針對 `l` 引數中包含的每個變數呼叫的 AppMeasurement 物件中，所包含的回呼函數名稱。
-* **`fa`** (選用，字串)：如果 `cf` 引數中的函數會在執行時呼叫其他引數，請在此處納入它們。預設為 `undefined`。
+* **`fa`** (選用，字串)：如果 `cf` 引數中的函數會在執行時呼叫其他引數，請在此處納入它們。 預設為 `undefined`。
 
 如果回呼函數 (在 `cf` 引數中) 傳回值，呼叫此函數便會傳回值。
 
@@ -74,7 +88,7 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ### 範例 #1
 
-下列程式碼是 getQueryParam 外掛程式的一部分。它會針對 URL 查詢字串 (fullQueryString) 中包含的每個鍵值組執行 getParameterValue 協助程式函數。若要擷取各個鍵值組，fullQueryString 必須以「&amp;」字元分隔並分割。parameterKey 會參考外掛程式特別嘗試從查詢字串中擷取的查詢字串參數
+下列程式碼是 getQueryParam 外掛程式的一部分。  它會針對 URL 查詢字串 (fullQueryString) 中包含的每個鍵值組執行 getParameterValue 協助程式函數。  若要擷取各個鍵值組，fullQueryString 必須以「&amp;」字元分隔並分割。 parameterKey 會參考外掛程式特別嘗試從查詢字串中擷取的查詢字串參數
 
 ```js
 returnValue = pt(fullQueryString, "&", "getParameterValue", parameterKey)

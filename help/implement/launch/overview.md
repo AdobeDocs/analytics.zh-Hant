@@ -4,20 +4,34 @@ description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe A
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: 'https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 79%
+source-wordcount: 396
+ht-degree: 69%
 
 ---
 
 # 使用 Analytics 擴充功能實施 Adobe Analytics
 
-在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。Adobe目前的建議方法是透過Adobe Experience Platform中的[標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)。
+在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。 Adobe目前的建議方法是透過Adobe Experience Platform中的[標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)。
 
-Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
+Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。 您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
-所有擁有有效Adobe Experience Cloud合約的客戶都可以使用標籤。 如果您不確定您是否擁有存取權，請聯絡貴組織的任一位 Experience Cloud 系統管理員。
+凡是已簽署有效Adobe CX Enterprise合約的客戶，都可以使用「標籤」。 如果您不確定您是否擁有存取權，請聯絡貴組織的其中一個CX Enterprise系統管理員。
 
 實施任務的高層級概觀：
 
@@ -52,13 +66,13 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 </tr>
 
 <tr>
-<td>4</td><td>在標記屬性中<b>安裝 Analytics 擴充功能</b>。設定 Analytics 擴充功能以將資料發送到 Adobe Analytics。</td>
+<td>4</td><td>在標記屬性中<b>安裝 Analytics 擴充功能</b>。 設定 Analytics 擴充功能以將資料發送到 Adobe Analytics。</td>
 <td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=zh-Hant">Adobe Analytics 擴充功能概觀</a></td>
 </tr>
 
 <tr>
 <td>5</td>
-<td><b>部署至開發環境</b>。有一個可以迭代標記開發的環境。</td>
+<td><b>部署至開發環境</b>。 有一個讓您可反複進行標籤開發程式的環境。</td>
 <td><a href="./deploy-dev.md">將 Analytics 實施部署至開發環境</td>
 </tr>
 

@@ -4,9 +4,24 @@ keywords: Analysis Workspace
 title: 地點管理員
 feature: Classifications
 exl-id: ace70568-220a-44e8-8e5f-f73002b9e2a2
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+TQID: https://experienceleague.adobe.com/h1mgdT-o4pJHt8qk3WlIovLoOubAygCh36497nYYG10
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: 1495
 ht-degree: 1%
 
 ---
@@ -32,7 +47,7 @@ ht-degree: 1%
 
    * **篩選器：**&#x200B;選取「篩選器」圖示以篩選位置清單。
 
-     您可以依&#x200B;**[!UICONTROL 位置型別]**、**[!UICONTROL 帳戶]**&#x200B;或由&#x200B;**[!UICONTROL 建立的]**&#x200B;來篩選位置。
+     您可以依&#x200B;**[!UICONTROL 位置型別]**、**[!UICONTROL 帳戶]**&#x200B;或由&#x200B;**建立的**&#x200B;來篩選位置。
 
      ![位置篩選器](assets/locations-filters.png)
 
@@ -47,7 +62,7 @@ ht-degree: 1%
 * **[!UICONTROL 位置名稱]**：位置名稱。 選取位置名稱旁的3點功能表，以[編輯位置](/help/components/locations/configure-import-locations.md)或將其刪除。
 * **[!UICONTROL 位置型別]**：與位置關聯的帳戶型別。
 * **[!UICONTROL 帳戶]**：與位置關聯的特定帳戶。
-* **應用程式**：位置可以搭配使用的應用程式型別(例如資料摘要、Data Warehouse或分類設定)。
+* **應用程式**：位置可以搭配使用的應用程式型別（例如資料摘要、Data Warehouse或分類設定）。
 * **[!UICONTROL 上次使用]**：上次使用位置的日期。
 * **[!UICONTROL 建立者]**：建立位置的使用者。
 * **[!UICONTROL 建立日期]**：建立位置的日期。
@@ -146,7 +161,7 @@ ht-degree: 1%
 
 1. 在&#x200B;[!UICONTROL **位置帳戶**]&#x200B;區段中，取消選取&#x200B;[!UICONTROL **允許使用者建立和管理位置帳戶**]&#x200B;選項。
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. （選擇性）刪除使用者已建立而您不再想要他們使用的任何帳戶，如[刪除帳戶](#delete-an-account)中所述。
 
@@ -162,7 +177,7 @@ ht-degree: 1%
 
 1. 在&#x200B;[!UICONTROL **位置**]&#x200B;區段中，取消選取&#x200B;[!UICONTROL **允許使用者建立和管理位置**]&#x200B;選項。
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 1. （選擇性）刪除使用者已建立而您不再希望他們使用的任何位置，如[刪除位置](#delete-a-location)中所述。
 
@@ -218,6 +233,6 @@ ht-degree: 1%
 
    * 舊版帳戶型別，包括&#x200B;[!UICONTROL **Amazon S3**]、[!UICONTROL **Azure**]、[!UICONTROL **FTP**]&#x200B;和&#x200B;[!UICONTROL **SFTP**]
 
-1. 選取「[!UICONTROL **儲存**]」。
+1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
 

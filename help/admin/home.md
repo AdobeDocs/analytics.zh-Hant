@@ -4,10 +4,23 @@ description: Adobe Analytics 管理員的管理說明，包括 Admin Console 的
 feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
-source-git-commit: 65e1bfb6793f2e5be3d025214f4797edd6e316a1
+TQID: https://experienceleague.adobe.com/cHTZXklRrRyFVRmUb2dDiZ4Pnt0-la3PrGaJFFEa2QM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: 353
+ht-degree: 92%
 
 ---
 
@@ -15,7 +28,7 @@ ht-degree: 100%
 
 ![橫幅](/assets/doc_banner_admin.png)
 
-本說明適用於 Adobe Analytics 的管理員。內容包括 Admin Console 的使用者和產品管理、設定報表套裝、變數、分類和資料收集的相關說明。
+本說明適用於 Adobe Analytics 的管理員。 內容包括 Admin Console 的使用者和產品管理、設定報表套裝、變數、分類和資料收集的相關說明。
 
 
 >[!BEGINSHADEBOX]
@@ -26,28 +39,28 @@ ht-degree: 100%
 
 Adobe Analytics 目前有兩個管理員區域：
 
-* Adobe Admin Console：使用此區域來佈建 Experience Cloud 工具，並管理使用者權限。此區域位於 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
+* Adobe Admin Console：使用此區域來布建CX Enterprise工具，並管理使用者許可權。 此區域位於 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
 * Analytics Admin 工具：此區域用於管理報表套裝和變數。 您可以按一下 Adobe Analytics 頂端標題中的[!UICONTROL 管理員]來存取該區域。
 
 本指南涵蓋：
 
-* 在 Analytics Admin 工具 中完成的所有工作。 此區域包括設定報表套裝、變數、分類或資料控管。如需可用報表套裝和公司設定的清單，請參閱[管理員工具](tools/c-admin-tools.md)。
-* 在 Adobe Admin Console 中完成的所有 Analytics 專屬工作。此區域包含產品佈建和使用者權限管理。如需可在 Adobe Admin Console 中完成之動作的清單，請參閱 [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)。
+* 在 Analytics Admin 工具 中完成的所有工作。 此區域包括設定報表套裝、變數、分類或資料控管。 如需可用報表套裝和公司設定的清單，請參閱[管理員工具](tools/c-admin-tools.md)。
+* 在 Adobe Admin Console 中完成的所有 Analytics 專屬工作。 此區域包含產品佈建和使用者權限管理。 如需可在 Adobe Admin Console 中完成之動作的清單，請參閱 [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)。
 
-本指南不涵蓋 Adobe Admin Console 提供的許多一般功能。請改為參閱企業版使用手冊中的 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
+本指南不涵蓋 Adobe Admin Console 提供的許多一般功能。 請改為參閱企業版使用手冊中的 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
 ## 重要文章
 
 * [Analytics 首位管理員入門指南](admin-console/first-admin-guide.md)：如果您的組織剛開始接觸 Adobe Analytics，請遵循本指南操作，開始發揮 Adobe Analytics 的價值。
-* [報表套裝管理器](tools/manage-rs/report-suites-admin.md)：Analytics 中最常使用的管理員工具。「報表套裝管理器」包含變數管理、分類管理、時區等設定。
+* [報表套裝管理器](tools/manage-rs/report-suites-admin.md)：Analytics 中最常使用的管理員工具。 「報表套裝管理器」包含變數管理、分類管理、時區等設定。
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
-* [Experience League 上的 Adobe Analytics 社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics 資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
+* [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
 * [Experience League](https://landing.adobe.com/experience-league/)

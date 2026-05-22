@@ -1,12 +1,21 @@
 ---
 description: 回答實施作業 Audience Analytics 時可能遇到的問題。
-solution: Experience Cloud
+solution: Analytics
 title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
+TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2:
+  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: 1120
 ht-degree: 19%
 
 ---
@@ -27,7 +36,7 @@ ht-degree: 19%
 
 這不適用於將Adobe Analytics資料傳送至Adobe Audience Manager。 問問自己：
 
-* 您是否會將Analytics共用區段與Experience Cloud中的MCA維度共用？
+* 您是否會將分析共用區段與CX Enterprise中的MCA維度共用？
 
 * 您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統？
 
@@ -105,11 +114,11 @@ ht-degree: 19%
 
 +++
 
-+++ 我的Analytics報表中為何顯示「已達對象上限」？ (注意：這也會在Data Warehouse中呈現為「對象ID = -1」和`::max_audiences_exceeded::`)
++++ 我的Analytics報表中為何顯示「已達對象上限」？ （注意：這也會在Data Warehouse中呈現為「對象ID = -1」和`::max_audiences_exceeded::`）
 
 根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段，系統會將最近符合資格的&#x200B;**150個區段**&#x200B;傳送至Analytics，其餘清單則會截斷。 系統會傳送額外標幟給 Analytics，表示細分群體清單已遭截斷，並在「客群名稱」維度中顯示為「已達客群上限」，在「客群 ID」維度中則會顯示「-1」。
 
-雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果報告中出現「已達客群上限」，您有兩種因應方式：
+雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。 如果報告中出現「已達客群上限」，您有兩種因應方式：
 
 * 選項1：繼續讓整合工作以立即可用狀態作業，對特定訪客傳送最新的150個合格區段。
 
@@ -119,7 +128,7 @@ ht-degree: 19%
 
 +++ 為了進行整合，Analytics是否需要為額外的伺服器呼叫付費？
 
-否。Adobe Audience Manager受眾會整合至Analytics點選伺服器端。 這不會產生對Analytics的其他伺服器呼叫（主要或次要）。
+否。 Adobe Audience Manager受眾會整合至Analytics點選伺服器端。 這不會產生對Analytics的其他伺服器呼叫（主要或次要）。
 
 +++
 
@@ -127,13 +136,13 @@ ht-degree: 19%
 
 +++ 如果我已實作舊式SSF，我是否還需要前往Analytics「管理控制檯」並開啟報表套裝SSF？
 
-是。在Adobe Audience Manager目的地設定中，您只會看到已開啟SSF的報表套裝。
+是。 在Adobe Audience Manager目的地設定中，您只會看到已開啟SSF的報表套裝。
 
 +++
 
 +++ 為什麼我無法在Analytics「管理控制檯」中開啟某些報表套裝的SSF？
 
-您只能啟用對應至 Experience Cloud 組織的套裝。
+您只能啟用對應至您CX Enterprise Org的套裝。
 
 如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 
@@ -155,7 +164,7 @@ ht-degree: 19%
 
 +++ 從Adobe Audience Manager整合的客戶屬性和客戶資料有何不同？
 
-客戶屬性不是以時間為基礎；可回溯套用並前進。 Adobe Audience Manager整合資料以時間為基礎，僅支援未來發展。 此外，客戶屬性是Experience Cloud訪客ID的查詢表，而Adobe Audience Manager整合則是將訪客的資料彙整至每個點選中。
+客戶屬性不是以時間為基礎；可回溯套用並前進。 Adobe Audience Manager整合資料以時間為基礎，僅支援未來發展。 此外，客戶屬性是CX Enterprise訪客ID的查詢表，而Adobe Audience Manager整合則是將訪客的資料彙整至每個點選中。
 
 +++
 

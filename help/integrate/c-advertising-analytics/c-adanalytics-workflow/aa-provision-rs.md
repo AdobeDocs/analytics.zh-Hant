@@ -1,22 +1,35 @@
 ---
-description: 設定 Experience Cloud 對應的報表套裝，以供 Advertising Analytics 使用。
+description: 設定CX Enterprise對應的報表套裝，以用於Advertising Analytics。
 title: 啟用 Advertising Analytics 的報表套裝
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: 'https://experienceleague.adobe.com/sGEXiz2RiDhf9p-2df76o-XxBERTKPB-O-rZeIb4BBI'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 27%
+source-wordcount: 268
+ht-degree: 18%
 
 ---
 
 # 啟用 Advertising Analytics 的報表套裝
 
-若要在Analytics中檢視任何Advertising Analytics搜尋資料，您需要為Advertising Analytics報表設定每個Experience Cloud對應的報表套裝。
+若要在Analytics中檢視任何Advertising Analytics搜尋資料，您必須為Advertising Analytics報表設定每個CX Enterprise對應的報表套裝。
 
 1. 導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**」。
 
-1. 選取已對應至您 Experience Cloud 組織的報表套裝。
+1. 選取已對應至您CX Enterprise組織的報表套裝。
 1. 按一下 **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定]**。
 
    ![報表](assets/aa-reporting.png)

@@ -4,10 +4,26 @@ description: 測量特定動作發生的時間。
 feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 77%
+source-wordcount: 857
+ht-degree: 78%
 
 ---
 
@@ -15,13 +31,13 @@ ht-degree: 77%
 
 {{plug-in}}
 
-`getTimeParting` 外掛程式可讓您擷取網站上所發生任何可測量活動的時間詳細資訊。若要依指定日期範圍內任何可重複的時間區隔方式來劃分量度，此外掛程式非常有用。例如，您可以比較一週內兩天之間的轉換率，例如所有週日比較所有週四。您也可以比較一天中的時段，例如所有早上比較所有晚上。
+`getTimeParting` 外掛程式可讓您擷取網站上所發生任何可測量活動的時間詳細資訊。 若要依指定日期範圍內任何可重複的時間區隔方式來劃分量度，此外掛程式非常有用。 例如，您可以比較一週內兩天之間的轉換率，例如所有週日比較所有週四。 您也可以比較一天中的時段，例如所有早上比較所有晚上。
 
-Analysis Workspace 提供類似且現成可用的維度，其格式與此外掛程式稍有不同。如需詳細資訊，請參閱分析使用手冊中的[時間分段維度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。有些組織認為 Analysis Workspace 的現成維度已夠用。
+Analysis Workspace 提供類似且現成可用的維度，其格式與此外掛程式稍有不同。 如需詳細資訊，請參閱分析使用手冊中的[時間分段維度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。 有些組織認為 Analysis Workspace 的現成維度已夠用。
 
 >[!IMPORTANT]
 >
->此外掛程式 4.0+版本與先前版本有顯著的差別。Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
+>此外掛程式 4.0+版本與先前版本有顯著的差別。 Adobe 強烈建議您「從頭開始」實施此外掛程式。 參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
 
 ## 使用Web SDK擴充功能安裝外掛程式
 
@@ -71,7 +87,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。 保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -84,7 +100,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 `getTimeParting` 函數會使用以下引數：
 
-**`t`** (選用但建議使用，字串)：將訪客的當地時間轉換為該時區的時區名稱。預設為 UTC/GMT 時間。如需有效值的完整清單，請參閱 Wikipedia 上的 [TZ 資料庫時區清單](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)。
+**`t`** (選用但建議使用，字串)：將訪客的當地時間轉換為該時區的時區名稱。  預設為 UTC/GMT 時間。 如需有效值的完整清單，請參閱 Wikipedia 上的 [TZ 資料庫時區清單](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)。
 
 常見的有效值包括：
 
@@ -145,11 +161,11 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 6.1 (2018 年 11 月 26 日)
 
-* Internet Explorer 瀏覽器的修正。這類變數可傳回時間，但只能使用訪客的當地時間。
+* Internet Explorer 瀏覽器的修正。 這類變數可傳回時間，但只能使用訪客的當地時間。
 
 ### 6.0 (2018 年 8 月 14 日)
 
-* 全面重寫以符合國際標準。現在可適當轉換日光節約時間和所有時區。
+* 全面重寫以符合國際標準。 現在可適當轉換日光節約時間和所有時區。
 
 ### 5.0 (2018 年 4 月 17 日)
 
@@ -158,7 +174,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->此外掛程式的先前版本無法適用未來的所有年份。如果您使用此外掛程式的先前版本，Adobe 強烈建議您升級到最新版本，以避免發生 JavaScript 錯誤和遺失資料。如果升級此外掛程式不可行，請確保外掛程式代碼中的 `s._tpdst` 變數包含未來的適當年份。
+>此外掛程式的先前版本無法適用未來的所有年份。 如果您使用此外掛程式的先前版本，Adobe 強烈建議您升級到最新版本，以避免發生 JavaScript 錯誤和遺失資料。 如果升級此外掛程式不可行，請確保外掛程式代碼中的 `s._tpdst` 變數包含未來的適當年份。
 
 ### 4.0 (2016 年 8 月 22 日)
 
