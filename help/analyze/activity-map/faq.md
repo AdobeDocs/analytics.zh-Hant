@@ -4,19 +4,13 @@ description: 與Activity Map相關的常見問題。
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-TQID: https://experienceleague.adobe.com/Bpcg3brrcxd9D6O3vFfhdZ7evCrJfarsKSzlOcYCMUg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/Bpcg3brrcxd9D6O3vFfhdZ7evCrJfarsKSzlOcYCMUg'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1123
 ht-degree: 22%
@@ -57,7 +51,7 @@ Activity Map所需的[許可權專案](/help/admin/admin-console/permissions/pro
 
 * Activity Map 會查看它所知道的連結的可見度是否已變更。 如果發現可見度有變更，則該連結的「頁面上連結」表格的「存在」欄會以[!UICONTROL 已顯示]或[!UICONTROL 已隱藏]來更新。
 
-* 當使用者互動建立新內容時，AppMeasurement判斷為連結的任何新元素都會新增到頁面上的連結表格中。 Activity Map 會傳送包含這些新連結的新資料要求。 傳回資料要求時，新連結會出現在[!UICONTROL 頁面]上的連結表格中。
+* 當使用者互動建立新內容時，AppMeasurement判斷為連結的任何新元素都會新增到頁面]上的[!UICONTROL 連結表格中。 Activity Map 會傳送包含這些新連結的新資料要求。 傳回資料要求時，新連結會出現在[!UICONTROL 頁面]上的連結表格中。
 
 +++
 

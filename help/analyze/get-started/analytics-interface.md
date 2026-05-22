@@ -3,9 +3,14 @@ description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介
 title: 了解 Analytics 介面
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: 1993
 ht-degree: 93%
 
 ---
@@ -74,7 +79,7 @@ Adobe Analytics 介面由以下主要區域組成，包括用於管理 Analysis 
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 是指儲存和自訂報告所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。 它可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。 | [Activity Map 概觀](/help/analyze/activity-map/overview.md) |
-   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=zh-Hant) |
+   | 推薦經典版 | 推薦是 Adobe Target 功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [推薦](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html) |
    | Search &amp; Promote | 不再支援此功能。 |  |
    | 行動服務 | 不再支援此功能。 |  |
    | Analytics 儀表板 (行動應用程式) | Adobe Analytics 儀表板應用程式可隨時隨地提供 Adobe Analytics 的洞察。 透過該應用程式，使用者可以檢視您使用 Adobe Analytics 桌面版 UI 建立的直覺式計分卡。 | iOS App Store 或 Google Play 商店中的 Adobe Analytics 儀表板應用程式 |

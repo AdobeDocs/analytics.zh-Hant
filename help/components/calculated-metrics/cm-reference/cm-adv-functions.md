@@ -4,9 +4,15 @@ description: 了解進階計算量度函數。
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+autotag-review: '2026-05-22T11:11:45.846Z'
+TQID: 'https://experienceleague.adobe.com/7dHbhdyNtBxVeSQVPNZMLEBBcuwipxEqbx1Nq0900XE'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '4863'
+source-wordcount: 4863
 ht-degree: 96%
 
 ---
@@ -396,7 +402,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。 此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。 此函數對比率進行平均，而不是對過去 N 個的收入進行加總，並對過去 N 個人數進行加總然後除以它們。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 
 
 ## 等於 {#equal}

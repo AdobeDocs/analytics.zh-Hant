@@ -4,18 +4,13 @@ description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe A
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 69%
@@ -24,7 +19,7 @@ ht-degree: 69%
 
 # 使用 Analytics 擴充功能實施 Adobe Analytics
 
-在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。 Adobe目前的建議方法是透過Adobe Experience Platform中的[標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)。
+在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實施用於收集資料的程式碼。 Adobe目前的建議方法是透過Adobe Experience Platform中的[標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 
 Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。 您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
@@ -76,7 +71,7 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 <tr>
 <td>6</td> 
 <td><b>驗證並發佈至生產環境</b>. 內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=zh-Hant#embed-code">內嵌程式碼</a><br/><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">內嵌程式碼</a><br/><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
 </tr>
 
 </table>

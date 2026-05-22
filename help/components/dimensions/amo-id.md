@@ -2,22 +2,28 @@
 title: AMO ID
 description: Adobe Media Optimizer ID，用於Adobe Advertising整合。
 feature: Dimensions
-source-git-commit: 408d8db0d1e3c8301a066fe54d611ec7b8e3418a
+exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
+TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 3%
+source-wordcount: 793
+ht-degree: 2%
 
 ---
 
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;是用於Adobe Advertising整合中的串連識別碼集合。 儲存在此維度中的值會自動組織為個別、更人類看得懂的分類維度，以用於Analytics報表。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
+**[!UICONTROL AMO ID]**&#x200B;是用於Adobe Advertising整合中的串連識別碼集合。 儲存在此維度中的值會自動組織為個別、更人類看得懂的分類維度，以用於Analytics報表。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
 
 ## 將資料填入此維度中
 
 此維度會以多種方式收集其值：
 
-* 針對點進流量，資料會從`s_kwcid`頁面URL[中的](page-url.md)查詢字串引數收集，通常是在廣告驅動流量進入網站的頁面上。
+* 針對點進流量，資料會從[頁面URL](page-url.md)中的`s_kwcid`查詢字串引數收集，通常是在廣告驅動流量進入網站的頁面上。
 * 當URL不包含追蹤程式碼，但Adobe Advertising JavaScript在前兩分鐘內偵測到點選時，也可擷取點進流量。
 * 對於支援的檢視流量，Adobe Advertising會使用補充ID (`SDID`)補充後端上的值。
 
@@ -133,30 +139,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分類
 
-啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立下列分類。 整合會自動維護分類值。
+啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立下列分類。 整合會自動維護分類值。
 
 | 分類 | 說明 | DSP | 搜尋，<br>社交， &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL 帳戶]** | 帳戶名稱。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 廣告顯示URL]** | 廣告中顯示的URL。 | | &amp;amp；檢查； |
-| **[!UICONTROL 廣告說明]** | 廣告說明(DSP)或廣告內文（搜尋、社交和Commerce）。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 廣告目的地URL]** | 廣告的目的地URL。 | | &amp;amp；檢查； |
-| **[!UICONTROL 廣告群組]** | 廣告群組名稱。 | | &amp;amp；檢查； |
-| **[!UICONTROL 廣告平台]** | 廣告DSP或搜尋引擎名稱。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 廣告標題]** | 廣告型別(DSP)或廣告標題（搜尋、社交和Commerce）。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 廣告型別]** | 廣告型別，例如`text`、`video`、`display`或`native`。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 &#x200B;]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
-| **[!UICONTROL Campaign]** | 行銷活動名稱。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL Creative體驗名稱]** | 和廣告互動相關聯的創意體驗名稱，代表測試或個人化中使用的一組創意變體。 | &amp;amp；檢查； | |
-| **[!UICONTROL Creative分支名稱]** | 創意體驗中的分支名稱，代表創意實驗中的特定變數或路徑。 | &amp;amp；檢查； | |
-| **[!UICONTROL Creative分支ID]** | 指派給創意體驗中創意分支的唯一識別碼。 | &amp;amp；檢查； | |
-| **[!UICONTROL Creative名稱]** | 提供給使用者的特定廣告創意資產名稱。 | &amp;amp；檢查； | |
-| **[!UICONTROL Creative變體名稱]** | 在創意體驗或分支中使用的創意的特定變體名稱。 | &amp;amp；檢查； | |
-| **[!UICONTROL 關鍵字]** | 關鍵字。 | | &amp;amp；檢查； |
-| **[!UICONTROL 關鍵字元合型別]** | 關鍵字和相符型別。 | | &amp;amp；檢查； |
-| **[!UICONTROL 登陸型別]** | 登入頁面專案是瀏覽還是點進。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 符合型別]** | 搜尋相符型別。 | | &amp;amp；檢查； |
-| **[!UICONTROL 網路]** | RTB (DSP)或廣告網路名稱（搜尋、社交和Commerce）。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 最佳化]** | 套件名稱(DSP)或產品組合名稱（搜尋、社交和Commerce）。 | &amp;amp；檢查； | &amp;amp；檢查； |
-| **[!UICONTROL 位置]** | 位置名稱。 | &amp;amp；檢查； | |
-| **[!UICONTROL 產品目標]** | 產品清單廣告的產品目標。 | | &amp;amp；檢查； |
+| **[!UICONTROL 帳戶]** | 帳戶名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告顯示URL]** | 廣告中顯示的URL。 | | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告說明]** | 廣告說明(DSP)或廣告內文（搜尋、社交和Commerce）。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告目的地URL]** | 廣告的目的地URL。 | | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告群組]** | 廣告群組名稱。 | | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告平台]** | 廣告DSP或搜尋引擎名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告標題]** | 廣告型別(DSP)或廣告標題（搜尋、社交和Commerce）。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 廣告型別]** | 廣告型別，例如`text`、`video`、`display`或`native`。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 ]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
+| **[!UICONTROL Campaign]** | 行銷活動名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL Creative體驗名稱]** | 和廣告互動相關聯的創意體驗名稱，代表測試或個人化中使用的一組創意變體。 | 檢查(&amp;C)； | |
+| **[!UICONTROL Creative分支名稱]** | 創意體驗中的分支名稱，代表創意實驗中的特定變數或路徑。 | 檢查(&amp;C)； | |
+| **[!UICONTROL Creative分支ID]** | 指派給創意體驗中創意分支的唯一識別碼。 | 檢查(&amp;C)； | |
+| **[!UICONTROL Creative名稱]** | 提供給使用者的特定廣告創意資產名稱。 | 檢查(&amp;C)； | |
+| **[!UICONTROL Creative變體名稱]** | 在創意體驗或分支中使用的創意的特定變體名稱。 | 檢查(&amp;C)； | |
+| **[!UICONTROL 關鍵字]** | 關鍵字。 | | 檢查(&amp;C)； |
+| **[!UICONTROL 關鍵字元合型別]** | 關鍵字和相符型別。 | | 檢查(&amp;C)； |
+| **[!UICONTROL 登陸型別]** | 登入頁面專案是瀏覽還是點進。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 符合型別]** | 搜尋相符型別。 | | 檢查(&amp;C)； |
+| **[!UICONTROL 網路]** | RTB (DSP)或廣告網路名稱（搜尋、社交和Commerce）。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 最佳化]** | 套件名稱(DSP)或產品組合名稱（搜尋、社交和Commerce）。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
+| **[!UICONTROL 位置]** | 位置名稱。 | 檢查(&amp;C)； | |
+| **[!UICONTROL 產品目標]** | 產品清單廣告的產品目標。 | | 檢查(&amp;C)； |

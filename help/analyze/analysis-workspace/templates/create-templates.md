@@ -4,13 +4,11 @@ title: 建立和管理範本
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+subfeature_v2: id: afb76b85-c4c7-4167-959c-8c31401f54be
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 726
 ht-degree: 100%
@@ -53,7 +51,7 @@ ht-degree: 100%
 
 1. 在 Analysis Workspace 中，選取「[!UICONTROL **Workspace**]」索引標籤，然後選取「**[!UICONTROL _登入公司名稱&#x200B;_範本]**」。
 
-1. 如果您正在查看欄檢視 ![欄檢視圖示](assets/column-view-icon.png) 中的範本：
+1. 如果您正在檢視欄檢視![欄檢視圖示](assets/column-view-icon.png)中的範本：
 
    1. 前往要編輯或刪除的範本，選取範本名稱旁邊的資訊圖示。
 

@@ -4,9 +4,14 @@ description: 了解定義成效歸因的各項元件。
 feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: 'https://experienceleague.adobe.com/MTNpygpH4BiCFULvhUiv8yj3QocsNHI6z2Ko3hvbi90'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edc
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: 84
 ht-degree: 100%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 100%
 
 Adobe Analytics 中的成效歸因概念包含三個元件：
 
-* **成效歸因模型：**[模型](#attribution-model)是描述轉換情形在群組中各個點擊之間的分佈方式。例如首次接觸或最後接觸。
+* **成效歸因模型：**[模型](#attribution-model)是描述轉換情形在群組中各個點擊之間的分佈方式。 例如首次接觸或最後接觸。
 * **容器**：[容器](#container)會定義成效歸因的範圍，亦即如何將每個模型的點擊進行分組。
 * **成效歸因回溯時間範圍：**[回溯時間範圍](#lookback-window)描述所選模型可回溯的天數。
 
@@ -30,7 +35,7 @@ Adobe Analytics 中的成效歸因概念包含三個元件：
 {{attribution-container}}
 
 
-## 回顧期間
+## 回顧時間範圍
 
 {{attribution-lookback-window}}
 
@@ -69,7 +74,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/custom-lookback-windows-in-attribution-iq){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

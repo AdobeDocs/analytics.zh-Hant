@@ -3,9 +3,14 @@ title: 建立資料摘要
 description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案資訊。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: 2151
 ht-degree: 31%
 
 ---
@@ -70,7 +75,7 @@ ht-degree: 31%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **名稱**] | 資料摘要的名稱 名稱在選取的報表套裝中必須是唯一的，且長度最多可為255個字元。 [了解更多](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[&#128279;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要的清單。 |
+   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)的清單。 |
    | [!UICONTROL **說明**] | 指定資料摘要的說明。 編輯資料摘要時，會顯示您新增的說明。 |
 
 1. 在&#x200B;[!UICONTROL **資料格式**]&#x200B;區段中，指定下列資訊：

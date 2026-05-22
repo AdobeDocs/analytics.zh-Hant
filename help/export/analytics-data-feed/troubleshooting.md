@@ -3,15 +3,12 @@ title: 資料摘要的疑難排解
 description: 瞭解資料摘要工作可能無法處理或傳送資料的原因。 解決資料摘要的潛在問題。
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-TQID: https://experienceleague.adobe.com/JkayhoeQk24AwoDkz25lvZBzq-xNcFjW6l-cN-TwuKk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 95%
@@ -26,7 +23,7 @@ ht-degree: 95%
 
 如果您的資料摘要原本會在每小時或每天順利運作，但最近卻失敗了，請查看以下項目：
 
-* 使用 [Adobe 狀態工具](https://status.adobe.com/zh-tw/experience_cloud)來判斷是否有任何排程的維護時段或可用性問題。 如果當時有已知問題，Adobe 會在服務恢復後自動處理已排程的資料摘要。
+* 使用 [Adobe 狀態工具](https://status.adobe.com/en/experience_cloud)來判斷是否有任何排程的維護時段或可用性問題。 如果當時有已知問題，Adobe 會在服務恢復後自動處理已排程的資料摘要。
 * 請確定 FTP 網站上有足夠的可用空間。 如果 FTP 網站的磁碟空間用完了，請從伺服器中刪除一些檔案，為新檔案騰出空間。
 * 如果沒有已知問題，FTP 網站也有足夠的磁碟空間，您就可以重新傳送資料摘要。
 
