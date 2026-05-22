@@ -4,20 +4,11 @@ title: 發佈區段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 1432
@@ -45,7 +36,7 @@ ht-degree: 29%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [發佈區段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [發佈區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +47,7 @@ ht-degree: 29%
 
 ## 先決條件
 
-* 請確認您要儲存此區段的目標報表套裝已在CX Enterprise [&#128279;](/help/components/segmentation/segmentation-workflow/seg-publish.md)中啟用。 否則，您無法將其發佈至CX Enterprise。
+* 請確認您要儲存此區段的目標報表套裝已在CX Enterprise ](/help/components/segmentation/segmentation-workflow/seg-publish.md)中[啟用。 否則，您無法將其發佈至CX Enterprise。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
@@ -142,14 +133,14 @@ ht-degree: 29%
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
 1. 載入頁面並勾選「應用程式 > Cookie」。 Adobe Audience Manager UUID應在第三方中設定
-Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
+Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
 在瀏覽器上（以下範例中為`35721780439475290181087231320657663953`）。
 
    ![Chrome 開發者工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 訪客輪廓檢視器]
 
-載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
+載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
 
 ## 在Audience Manager中檢視區段特徵
 

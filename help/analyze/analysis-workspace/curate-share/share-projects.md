@@ -6,23 +6,11 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
 source-wordcount: 2059
@@ -59,7 +47,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -175,7 +163,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以取得示範影片。
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -220,7 +208,7 @@ ht-degree: 88%
 
 ## 查看與您共用的專案
 
-當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
 
 當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。 例如，該連結可能已在電子郵件、內部網站等中提供。
 
