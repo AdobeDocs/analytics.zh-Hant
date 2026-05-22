@@ -5,9 +5,9 @@ user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
 source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 + [漸進式網頁應用程式](pwa.md)
 + [重新導向與別名](redirects.md)
 + [安全性資源](security.md)
-+ [FTP和SFTP的安全性](sftp-password-rotation.md)
++ [FTP 和 SFTP 的安全性](sftp-password-rotation.md)
 + [使用詞彙 (字彙表)](terms.md)
 + [疑難排解登入](troubleshoot-login.md)
 + [疑難排解被登出](troubleshoot-sessions.md)
