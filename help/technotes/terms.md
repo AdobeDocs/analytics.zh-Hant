@@ -4,41 +4,15 @@ description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2640
-ht-degree: 88%
+source-wordcount: 2638
+ht-degree: 86%
 
 ---
 
@@ -61,7 +35,7 @@ ht-degree: 88%
 * **促銷活動：**&#x200B;可以指：
    * 促銷活動變數，會填入「追蹤代碼」維度。 請參閱實施作業使用手冊中的[促銷活動](../implement/vars/page-vars/campaign.md)。
    * 「追蹤代碼」維度的預設分類；會自動為所有報告套裝建立。
-   * Adobe Campaign，Adobe Experience Cloud 的一部分。 請前往 [Adobe.com](https://www.adobe.com/tw/marketing/campaign.html) 取得更多資訊。
+   * Adobe Campaign，Adobe CX Enterprise的一部分。 請前往 [Adobe.com](https://www.adobe.com/tw/marketing/campaign.html) 取得更多資訊。
 * **管道：**&#x200B;可以指：
    * 管道變數，會填入「網站區段」維度。 請參閱實施作業使用手冊中的[頁面變數](/help/implement/vars/page-vars/page-variables.md)。
    * 行銷管道，此元件有助於瞭解使用者如何到達您的網站。 請參閱元件使用手冊中的[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
@@ -75,7 +49,7 @@ ht-degree: 88%
 * **轉換變數：**&#x200B;也稱為 eVar。 用於儲存自訂值及保留變數值，直到變數值過期為止。 請參閱「元件」使用指南中的 [eVar](/help/components/dimensions/evar.md) 維度。
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。 在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。 請參閱Analytics工具指南中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **自訂連結：**&#x200B;包含非頁面檢視資料的點擊類型。 請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。 另請見「點擊」。
-* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。 請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)。
+* **客戶屬性：** CX Enterprise允許上傳屬性資料的功能。 請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。 影像請求會傳送至 Adobe 的資料收集伺服器，以用於報告。
 * **資料聯結器：**&#x200B;已淘汰的開發解決方案，可讓協力廠商將資料上傳至Adobe Analytics的作業自動化。 該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。 已取代為[Adobe Exchange市集](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)。
 * **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。 最常用於將 Adobe Analytics 資料匯出至第三方資料庫。 請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
@@ -99,14 +73,14 @@ ht-degree: 88%
    * 自訂洞察是自訂流量變數過去的名稱。
 * **KPI：**&#x200B;關鍵績效指標的縮寫。 可協助企業瞭解其網站成效的量度。 每個組織都有不同的 KPI，可衡量其不同方面業務的成效。 請參閱實施作業使用手冊中的[建立解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * **延遲：**&#x200B;收集到資料的時間和資料可在報告中使用的時間之間的延後情況。 一般報告套裝的延遲為 30-90 分鐘。 請參閱技術說明使用手冊中的[延遲](/help/technotes/latency.md)。
-* **Launch：**&#x200B;不再當做詞彙使用。 Adobe Experience Platform 中的標記 (Adobe 目前的實作解決方案) 先前的簡稱。 請參閱 Adobe Experience Platform 使用手冊中的「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)」。
+* **Launch：**&#x200B;不再當做詞彙使用。 Adobe Experience Platform 中的標記 (Adobe 目前的實作解決方案) 先前的簡稱。 請參閱 Adobe Experience Platform 使用手冊中的「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」。
 * **清單 prop：**&#x200B;一種設定，可轉換一般流量變數以支援相同點擊中的多個值。 如果已啟用此設定，任何自訂流量變數都可成為清單 prop。 請參閱實施作業使用手冊中的 [prop](../implement/vars/page-vars/prop.md)。
 * **清單變數：**&#x200B;與轉換變數區分開的不同變數。 清單變數支援相同點擊中的多個值，而變數值會保留在造訪中，類似於轉換變數。 一個組織只能使用三個清單變數。 請參閱實施作業使用手冊中的[清單](/help/implement/vars/page-vars/list.md)。
 * **登入公司**：貴組織所使用報告套裝的集合。 某些組織擁有多個登入公司，適用於組織內的不同部門。
 * **行銷管道：** Adobe Analytics 的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷管道處理規則來自訂用於分類點擊的邏輯。 請參閱元件使用手冊中的[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含量化資料的元件類型。 度量值通常包含數字，例如頁面檢視次數、造訪次次數和營收。 維度通常是其對應項目。
 * **行動應用程式：**&#x200B;也稱為&#x200B;**Adobe Analytics [!UICONTROL 儀表板]**，行動應用程式可讓使用者透過行動裝置存取直覺式計分卡。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。 iOS 和 Android 作業系統均支援行動應用程式。
-* **行動服務：**&#x200B;這是已淘汰的 Adobe 產品，可將整個 Adobe Experience Cloud 上行動應用程式的行動裝置行銷功能彙整在一起，好讓您了解並改進使用者與行動應用程式的互動。
+* **Mobile Services：**&#x200B;已淘汰的Adobe產品整合了Adobe CX Enterprise的行動應用程式行動行銷功能，讓您瞭解並改進使用者與應用程式的互動。
 * **多套裝標記：**&#x200B;將相同點擊傳送至多個報告套裝的作法。 隨著虛擬報告套裝的推出，此作法基本上已失去必要性。 大部分的多套裝標記作業都有助於調整全域報告套裝。
 * **正規化：**&#x200B;整理視覺化效果的方式，可納入所有量度並將其強制為等比例，以便更輕鬆進行趨勢比較。
 * **發生次數：**&#x200B;一種量度類型，可顯示多少點擊已設定或存在某個維度項目。 請參閱「元件」使用指南中的[發生次數](/help/components/metrics/occurrences.md)量度。
@@ -123,7 +97,7 @@ ht-degree: 88%
 * **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。 請參閱管理員使用手冊中的[即時報告](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md)。
 * **Report Builder：** Javascript [Report Builder](/help/analyze/report-builder/rb-overview.md)增益集可讓您從Adobe Analytics資料建立自訂請求。
 * **報告套裝：**&#x200B;您所傳送資料的目的地總體容器。 Adobe Analytics 中的所有報告都會參照報告套裝。
-* **Reports &amp; Analytics：**&#x200B;此工具[生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=zh-Hant)。
+* **Reports &amp; Analytics：**&#x200B;此工具[生命週期結束](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)。
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。 例如，顯示過去 7 天的報告可視為滾動式日期範圍。 另請見「靜態日期範圍」。
 * **RSID：**&#x200B;報告套裝 ID 的縮寫。 報告套裝同時具有好記的名稱和報告套裝 ID。
 * **s.t()：**&#x200B;傳送頁面檢視影像請求的 AppMeasurement 資料庫中函數的名稱。 有些 AppMeasurement 資料庫會改用 `s.track()`。 請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。

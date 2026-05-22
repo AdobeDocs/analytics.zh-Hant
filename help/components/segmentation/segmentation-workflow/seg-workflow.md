@@ -4,19 +4,14 @@ title: 區段工作流程概觀
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 266
-ht-degree: 47%
+source-wordcount: 265
+ht-degree: 40%
 
 ---
 
@@ -33,7 +28,7 @@ ht-degree: 47%
 | 4 | [標記區段](/help/components/segmentation/segmentation-workflow/seg-tag.md) | 標記區段以方便進行組織和共用。 請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。 |
 | 5 | [核准區段](/help/components/segmentation/segmentation-workflow/seg-approve.md) | 核准區段以使成為標準區段。 |
 | 6 | [使用區段](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | 您可以從區段元件直接將區段套用至報表。 |
-| 7 | [共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 將細分群體共用給其他 Analytics 工具、Adobe Target 和 Adobe Experience Cloud 中的預定客群。 |
+| 7 | [共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | 將區段共用給其他Analytics工具、Adobe Target和Adobe CX Enterprise中的預定對象。 |
 | 8 | [篩選區段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | 依標記、擁有者和其他篩選器 (「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」) 進行篩選。 |
 | 9 | [將區段標示為我的最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | 將區段標示為我的最愛是組織區段以方便使用的另一種方法。 |
 

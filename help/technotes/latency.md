@@ -5,22 +5,14 @@ title: 資料可用性與延遲
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 824
-ht-degree: 85%
+source-wordcount: 823
+ht-degree: 83%
 
 ---
 
@@ -46,7 +38,7 @@ ht-degree: 85%
 
 ## 依賴延遲的功能
 
-Adobe Experience Cloud 中的某些功能，除了標準處理時間之外，還隨附固有的延遲時間長度。
+Adobe CX Enterprise中的部分功能除了標準處理時間之外，還隨附固有的延遲時間長度。
 
 * Analytics for Target (A4T) 需要額外 5-10 分鐘的延遲，才能將從兩個平台收集而來的資料儲存在相同的點擊中。
 * 時間戳記資料需要額外的時間，因為需在不同伺服器上處理這些資料。 處理即時或接近即時收到的時間戳記點擊最多需要 15 分鐘。 處理以前一天的時間戳記收到的點擊最多需要 2 小時。 越久以前的點擊需要越長的時間，每天最多增加約 24 小時。

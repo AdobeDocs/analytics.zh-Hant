@@ -5,18 +5,11 @@ title: 計算量度概觀
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 317
 ht-degree: 75%
@@ -29,7 +22,7 @@ ht-degree: 75%
 
 計算量度是您可從現有量度建立的自訂量度。 計算量度提供一種靈活的方式來建置、管理和策劃自訂量度，使您能夠分析資料而無需變更實施。
 
-每個[!DNL Analytics]套件都有計算量度可以使用，不過Experience Cloud的Adobe Analytics Foundation Pack僅限於基本計算量度，包括[格式型別（小數、時間、百分比、貨幣）](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)、[配置變更（預設、線性、參與率等）](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)、[量度型別（標準、總計）](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)和[基本運運算元](workflow/c-build-metrics/cm-build-metrics.md#operators) （加、減、乘、除）。
+每個[!DNL Analytics]套件都有計算量度可以使用，不過CX Enterprise適用的Adobe Analytics Foundation Pack僅限於基本計算量度，包括[格式型別（小數、時間、百分比、貨幣）](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)、[配置變更（預設、線性、參與率等）](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)、[量度型別（標準、總計）](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md)和[基本運運算元](workflow/c-build-metrics/cm-build-metrics.md#operators) （加、減、乘、除）。
 
 
 請參閱 [Adobe Analytics 產品說明](https://helpx.adobe.com/tw/legal/product-descriptions/adobe-analytics.html)，以了解更多資訊。
@@ -71,13 +64,13 @@ Here is a comparison of calculated metrics and advanced calculated metrics capab
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [計算量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段的分段計算量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段的分段計算量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 

@@ -1,18 +1,14 @@
 ---
 description: 您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段是新的Analytics維度，稱為「對象ID」和「對象名稱」，其使用方式與Analytics收集的任何其他維度相同。 「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。 這些維度目前在 Data Workbench 或直播串流中均不可用。 可以利用 Audiences 維度的部分例子包括
-solution: Experience Cloud
+solution: Analytics
 title: 在 Analytics 中使用客群資料
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 TQID: https://experienceleague.adobe.com/HrTqqIUJD3KivNI331cWjeyWSPA3ZT2k05KZJulAhDs
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dfbc811c84e295ab4bc69345e3459f349f8a5084
 workflow-type: tm+mt
 source-wordcount: 570
 ht-degree: 58%

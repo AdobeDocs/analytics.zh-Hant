@@ -6,27 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 2060
-ht-degree: 94%
+source-wordcount: 2059
+ht-degree: 88%
 
 ---
 
@@ -59,7 +47,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -78,9 +66,9 @@ ht-degree: 94%
 
 與組織中的使用者和群組共用特定專案角色時，請考慮以下事項：
 
-* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。 專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant) 中管理的使用者權限影響。
+* 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。 專案角色與[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant)中管理的使用者許可權無關。
 
-* 在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant) 中的產品設定檔所定義。 管理員可將任何群組當作共用對象，包括「全部」。 非管理員則可與其所屬的任何群組共用，但「全部」除外。
+* 在Adobe Analytics中，群組是由[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant)中的產品設定檔所定義。 管理員可將任何群組當作共用對象，包括「全部」。 非管理員則可與其所屬的任何群組共用，但「全部」除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。 如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。 例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。
 
@@ -149,8 +137,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="需要 Experience Cloud 驗證"
->abstract="您的組織要求使用者必須登入 Experience Cloud 才能使用此連結。"
+>title="需要CX Enterprise驗證"
+>abstract="您的組織需要使用者登入CX Enterprise才能使用此連結。"
 
 您可以對沒有 Adobe Analytics 存取權的人員授予 Analysis Workspace 專案的[唯讀存取權](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 這些人員可以包括：
 
@@ -175,7 +163,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以取得示範影片。
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -198,15 +186,15 @@ ht-degree: 94%
 
 1. 選擇是否啟用以下安全選項 (此選項可由您的 Analytics 管理員控制)：
 
-   * **[!UICONTROL 需要 Experience Cloud 驗證]：**
+   * **[!UICONTROL 需要CX Enterprise驗證]：**
 
-     啟用此選項後，唯一可以存取專案的使用者，就是可以登入建立您共用之專案所在的 Adobe Experience Cloud 組織的使用者。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
+     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe CX Enterprise組織。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
 
      Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
       * 如果此選項未顯示，就代表您的 Analytics 管理員未啟用此功能。
 
-      * 如果此選項已啟用並顯示為灰色，就代表您的 Analytics 管理員需要對存取 Analysis Workspace 專案的所有人進行 Experience Cloud 驗證。
+      * 如果此選項已啟用且變暗，您的Analytics管理員需要CX Enterprise驗證才能存取Analysis Workspace專案。
 
 1. 在「**[!UICONTROL 與任何人共用 (無需登入)]**」欄位旁邊，按一下「**複製連結**」圖示 ![複製連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)，將連結複製到系統剪貼簿。
 
@@ -220,7 +208,7 @@ ht-degree: 94%
 
 ## 查看與您共用的專案
 
-當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
 
 當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。 例如，該連結可能已在電子郵件、內部網站等中提供。
 

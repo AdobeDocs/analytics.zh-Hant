@@ -4,24 +4,15 @@ description: 使用 Adobe Experience Cloud ID 服務的不重複訪客數量。
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 378
-ht-degree: 93%
+ht-degree: 76%
 
 ---
 
@@ -31,7 +22,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->如果您使用多個 Experience Cloud 服務 (例如 Adobe Target 或 Adobe Audience Manager)，此量度在除錯方面尤其重要。 在多項 Experience Cloud 產品間共用的區段，不會包含沒有 Experience Cloud ID 的訪客。
+>如果您使用多種CX Enterprise服務（例如Adobe Target或Adobe Audience Manager），此量度在除錯方面尤其重要。 在CX Enterprise產品間共用的區段不會包含沒有Experience Cloud ID的訪客。
 
 ## 此量度的計算方式
 
@@ -39,7 +30,7 @@ ht-degree: 93%
 
 ## 對您的 Experience Cloud ID 設定進行除錯
 
-「具有 Experience Cloud ID 的訪客」量度可用於 Experience Cloud 整合的疑難排解，或用來識別未部署 ID 服務的網站區域。
+「具有Experience Cloud ID的訪客」量度可用於CX Enterprise整合的疑難排解，或用來識別未部署ID服務的網站區域。
 
 拖曳「具有 Experience Cloud ID 的訪客」與「不重複訪客」而使其並排，以便相互比較：
 

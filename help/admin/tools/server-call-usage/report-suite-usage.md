@@ -5,16 +5,13 @@ feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
 TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 436
-ht-degree: 48%
+ht-degree: 43%
 
 ---
 
@@ -26,11 +23,11 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->如果報表套裝未與 Experience Cloud 組織綁定，則其使用資料不會反映在此儀表板上。 此外，帳單ID可以繫結至多個Experience Cloud組織；組織與帳單ID之間並不一定存在1:1關係。
+>如果報表套裝未連結至CX Enterprise組織，則其使用量資料不會反映在此控制面板上。 此外，帳單ID可以繫結至多個CX Enterprise組織；組織與帳單ID之間並不一定有1:1關係。
 
 報表套裝使用量控制面板
 
-* 顯示Experience Cloud組織中每個報表套裝的目前使用期間伺服器呼叫使用量（所有呼叫、主要、次要、行動主要、行動次要）。
+* 顯示CX企業組織中每個報表套裝的目前使用期間伺服器呼叫使用量（所有呼叫、主要、次要、行動主要、行動次要）。
 * 顯示每個伺服器呼叫類別的整體使用量百分比。
 * 每日更新。
 * 可下載。

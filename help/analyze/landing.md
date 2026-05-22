@@ -5,27 +5,14 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1511
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -43,7 +30,7 @@ Adobe Analytics登陸頁面包含下列子標籤：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adobe Analytics 登陸頁面](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +90,7 @@ Adobe Analytics登陸頁面包含下列子標籤：
 | [!UICONTROL Analysis Workspace 專案] | 建立空白[工作區專案](/help/analyze/analysis-workspace/home.md)，供您設計和建置。 |
 | [!UICONTROL Mobile 計分卡] | 建立空白 [行動計分卡](/help/analyze/mobile-app/curator.md)，供您設計和建置。 |
 | [!UICONTROL 開啟訓練教學課程] | 開啟工作區培訓教學課程，引導您完成逐步教學課程中建置新入門專案的流程。 |
-| [!UICONTROL 開啟發行說明] | 開啟最新 Adobe Experience Cloud 發行說明的 Adobe Analytics 部分。 |
+| [!UICONTROL 開啟發行說明] | 開啟最新Adobe CX企業版發行說明的Adobe Analytics區段。 |
 | 篩選器圖示 | 按標記、報告套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
 | 搜尋列 | 搜尋表格中的所有欄。 |
 | 選取方塊 | 選取一個或多個專案，以顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。 您可能沒有執行所列出所有操作的權限。 |

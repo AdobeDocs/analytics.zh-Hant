@@ -5,21 +5,12 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 837
 ht-degree: 54%
@@ -32,7 +23,7 @@ ht-degree: 54%
 
 >[!WARNING]
 >
->跨裝置分析中的裝置圖表[已過時](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/device-graph)，於&#x200B;**2025年12月31日**&#x200B;不再提供。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
+>跨裝置分析中的裝置圖表[已過時](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)，於&#x200B;**2025年12月31日**&#x200B;不再提供。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
 >
 
 
@@ -70,7 +61,7 @@ ht-degree: 54%
 * Adobe Analytics 報告套裝無法對應至多個組織識別碼。 由於跨裝置分析會連結一個指定報表套裝中的裝置，因此跨裝置分析無法用於連結跨多個組織ID的資料。
 * 跨裝置分析使用複雜的處理管道，其中包含多個相依元件。 此管道與基本Analytics報告工作流程並行執行。 在原始報表套裝和Cross-Device Analytics虛擬報表套裝之間，預計點選總數的資料不符率約為1%。
 * Cross-Device Analytics 使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。 例如，它們目前並不支援行銷管道變數。 如需這些限制的詳細資訊，請參閱[虛擬報表套裝](/help/components/vrs/vrs-about.md)和[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
-* 專用圖表是使用與Experience Cloud和Adobe Analytics中的[客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes)功能所使用相同ID同步的ID同步。 不過，跨裝置分析虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在Cross-Device Analytics虛擬報表套裝中使用。
+* 專用圖表會使用與CX Enterprise和Adobe Analytics中的[客戶屬性](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes)功能所使用之ID同步相同的ID同步。 不過，跨裝置分析虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在Cross-Device Analytics虛擬報表套裝中使用。
 * 跨裝置分析目前與A4T不相容。
 * 1.4 API 不受支援。 Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * Adobe的主動監控跨裝置分析銜接程式僅限於生產報表套裝。

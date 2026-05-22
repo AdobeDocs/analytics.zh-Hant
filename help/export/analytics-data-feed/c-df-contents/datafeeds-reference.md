@@ -6,38 +6,12 @@ title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -58,7 +32,7 @@ ht-degree: 78%
 >
 >大多數欄包含類似的欄，其前置詞為 `post_`。 後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。 Adobe 建議在大多數情況下使用後置欄。 如需詳細資訊，請參閱[資料摘要常見問題](../df-faq.md)。
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到。
 
 | Post | 欄名稱 | 欄說明 | 資料類型 |
 | ---: | :--- | --- | --- |
@@ -78,7 +52,7 @@ ht-degree: 78%
 | | **`ch_hdr`** | 透過 HTTP 請求標頭收集的用戶端提示。 | text |
 | | **`ch_js`** | 透過使用者代理用戶端提示 JavaScript API 收集的用戶端提示。 | text |
 | **`post_`** | **`clickmaplink`** | [Activity Map連結](/help/components/dimensions/activity-map-link.md)維度。 | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | 依地區[&#128279;](/help/components/dimensions/activity-map-link-by-region.md)維度區分的Activity Map連結。 | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | 依地區](/help/components/dimensions/activity-map-link-by-region.md)維度區分的[Activity Map連結。 | varchar(255) |
 | **`post_`** | **`clickmappage`** | [Activity Map頁面](/help/components/dimensions/activity-map-page.md)維度。 | varchar(255) |
 | **`post_`** | **`clickmapregion`** | [Activity Map地區](/help/components/dimensions/activity-map-region.md)維度。 | varchar(255) |
 | | **`code_ver`** | 用於編譯及傳送影像要求的 API 或客戶端 SDK 版本。 | char(16) |
@@ -134,7 +108,7 @@ ht-degree: 78%
 | | **`latlon1`** | 位置 (10 公里以內) | varchar(255) |
 | | **`latlon23`** | 位置 (100 公尺以內) | varchar(255) |
 | | **`latlon45`** | 位置 (1 公尺以內) | varchar(255) |
-| | **`mcvisid`** | Experience Cloud 訪客 ID。 由兩個連接的 64 位數組成，並填入至 19 位的 128 位數。 | varchar(255) |
+| | **`mcvisid`** | CX Enterprise訪客ID。 由兩個連接的 64 位數組成，並填入至 19 位的 128 位數。 | varchar(255) |
 | **`post_`** | **`mc_audiences`** | 訪客所屬的 Audience Manager 區段 ID 清單。 `post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | text |
 | **`post_`** | **`mobileaction`** | 行動動作。 在行動裝置實施中呼叫 `trackAction` 時自動收集。 允許應用程式中的自動動作路徑。 | varchar(100) |
 | **`post_`** | **`mobileappid`** | 行動應用程式 ID。 以下列格式儲存應用程式名稱和版本：`[AppName] [BundleVersion]` | varchar(255) |

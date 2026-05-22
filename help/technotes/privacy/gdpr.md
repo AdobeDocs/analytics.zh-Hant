@@ -5,20 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 TQID: https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 88%
+source-wordcount: 478
+ht-degree: 64%
 
 ---
 
@@ -34,15 +28,15 @@ ht-degree: 88%
 
 當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。 身為資料處理者，Adobe 會根據貴公司的權限和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
 
-身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。 如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。 如需範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/marketing-cloud.html#collect)。
+身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。 如果您使用Adobe CX Enterprise解決方案，Adobe可能會根據您使用的解決方案，以及您選擇傳送至Adobe CX Enterprise帳戶的資訊，為您託管個人資料。 如需範例清單，請參閱[Adobe CX Enterprise隱私權。](https://www.adobe.com/tw/privacy/marketing-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
 ## Adobe 如何處理 GDPR 資料
 
-Adobe Experience Cloud 提供整合式解決方案，可將品牌的資料治理基礎結構連接其用於建立和管理消費者體驗的 Adobe 工具。 Adobe Experience Cloud 的資料治理功能，可啟用資料治理原則和資料使用情況之間的直接關聯。
+Adobe CX Enterprise提供整合式解決方案，可連線您品牌的資料控管基礎架構，以及用來建立和管理消費者體驗的Adobe工具。 Adobe CX Enterprise的資料控管功能可將資料控管原則與資料使用方式直接連結。
 
-請熟悉 [Adobe Analytics 如何處理 GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，了解 GDPR 整備步驟，以及如何與 Adobe Experience Cloud GDPR API 整合。
+請熟悉[Adobe Analytics如何處理GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html)，瞭解GDPR整備步驟，以及如何與Adobe CX Enterprise GDPR API整合。
 
 ## GDPR 整備與您的 Adobe Analytics 資料
 

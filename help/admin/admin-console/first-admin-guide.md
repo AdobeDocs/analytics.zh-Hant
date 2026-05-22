@@ -5,26 +5,22 @@ exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 role: Admin
 TQID: https://experienceleague.adobe.com/hzdbjV7PEd5kBAUYWm0-4buGfJ3duim0x799GwGtMJw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 185
-ht-degree: 43%
+ht-degree: 31%
 
 ---
 
 # Adobe Analytics 的第一個管理指南
 
-在 Adobe Analytics 中為任何使用者指派角色之前，必須將使用者指派為 Experience Cloud 中的第一位管理員。 接著，第一位管理員便可為組織中的使用者提供其他關鍵角色。
+必須先將使用者指派為CX Enterprise的第一個管理員，才能在Adobe Analytics中指派任何使用者。 接著，第一位管理員便可為組織中的使用者提供其他關鍵角色。
 
-第一位管理員是讓組織其他成員開始使用每個Experience Cloud解決方案，包括Adobe Analytics。
+第一位管理員是讓組織其他成員開始使用各種CX企業解決方案，包括Adobe Analytics。
 
 ## 第一個管理員的布建流程
 

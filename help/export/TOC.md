@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 匯出指南
 breadcrumb-title: 匯出指南
 user-guide-description: 了解如何使用資料摘要和 Data Warehouse 擷取資料輸出。
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 99%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [建立資料摘要](analytics-data-feed/create-feed.md)
    + [管理資料摘要](analytics-data-feed/df-manage-feeds.md)
    + [管理資料摘要工作](analytics-data-feed/df-manage-jobs.md)
-   + 資料摘要內容  {#data-feed-contents}
+   + 資料摘要內容 {#data-feed-contents}
       + [資料摘要內容概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
@@ -51,8 +51,8 @@ ht-degree: 99%
    + [Data Warehouse 支援的元件](data-warehouse/component-support.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
-   + [透過 Adobe Experience Cloud 使用 FTP 和 SFTP](ftp-and-sftp/ftp-overview.md)
-   + 設定 Adobe 託管的 FTP 帳戶  {#set-up-ftp-accounts}
+   + [透過Adobe CX Enterprise使用FTP和SFTP](ftp-and-sftp/ftp-overview.md)
+   + 設定 Adobe 託管的 FTP 帳戶 {#set-up-ftp-accounts}
       + [設定 FTP 帳戶 - 概觀](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分類](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [資料來源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
@@ -73,4 +73,4 @@ ht-degree: 99%
       + [使用 SFTP 傳送 Adobe 資料至外部 FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [傳送 Data Warehouse 請求至 SFTP 伺服器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Adobe Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [ADOBE ANALYTICS API](https://developer.adobe.com/analytics-apis/docs/2.0/)

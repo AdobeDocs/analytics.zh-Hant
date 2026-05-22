@@ -3,18 +3,12 @@ title: 從Adobe Analytics標籤擴充功能移轉至網路SDK標籤擴充功能
 description: 更新Adobe Experience Platform資料收集標籤上的Analytics實作，以使用Web SDK擴充功能。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1729
+source-wordcount: 1731
 ht-degree: 6%
 
 ---
@@ -48,7 +42,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送至Customer Journey Analytics。
 
-1. 導覽至[experience.adobe.com](https://experience.adobe.com)並使用您的認證登入。
+1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)，並使用您的認證登入。
 1. 使用右上方的首頁或產品選擇器來導覽至&#x200B;**[!UICONTROL 資料彙集]**。
 1. 在左側導覽中，選取&#x200B;**[!UICONTROL 資料串流]**。
 1. 選取「**[!UICONTROL 新資料流]**」。

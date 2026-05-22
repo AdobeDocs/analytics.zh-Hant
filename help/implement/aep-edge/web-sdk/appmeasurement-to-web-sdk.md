@@ -3,18 +3,12 @@ title: 從AppMeasurement移轉至Web SDK
 description: 將您的Adobe Analytics實作從AppMeasurement JavaScript資料庫更新至網頁SDK JavaScript資料庫。
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
 TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: 1434
 ht-degree: 9%
 
 ---
@@ -48,7 +42,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送至Customer Journey Analytics。
 
-1. 導覽至[experience.adobe.com](https://experience.adobe.com)並使用您的認證登入。
+1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)，並使用您的認證登入。
 1. 使用右上方的首頁或產品選擇器來導覽至&#x200B;**[!UICONTROL 資料彙集]**。
 1. 在左側導覽中，選取&#x200B;**[!UICONTROL 資料串流]**。
 1. 選取「**[!UICONTROL 新資料流]**」。
@@ -71,9 +65,9 @@ Adobe建議在下列情況下使用此實施路徑：
 
 +++**3. 設定網頁SDK**
 
-使用Web SDK [`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
+使用Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令，將您的實作設定為指向上一步驟中建立的資料流。 必須在每個頁面上設定`configure`命令，因此您可以將其與程式庫安裝程式碼一併納入。
 
-在網頁SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/orgid)屬性：
+在網頁SDK `configure`命令中使用[`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid)和[`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid)屬性：
 
 * 將`datastreamId`設定為在上一步中擷取的資料串流識別碼。
 * 將`orgId`設定為您組織的IMS組織。
@@ -85,7 +79,7 @@ alloy("configure", {
 });
 ```
 
-您可以視您組織的實作需求，選擇在[`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令中設定其他屬性。
+您可以視您組織的實作需求，選擇在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令中設定其他屬性。
 
 +++
 
@@ -126,7 +120,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. 更新方法呼叫以使用Web SDK**
 
-更新呼叫[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有執行個體，將它們取代為[`sendEvent`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 我們需考慮三種情況：
+更新呼叫[`s.t()`](../../vars/functions/t-method.md)和[`s.tl()`](../../vars/functions/tl-method.md)的所有執行個體，將它們取代為[`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview)命令。 我們需考慮三種情況：
 
 * **頁面檢視追蹤**：以Web SDK `sendEvent`命令取代頁面檢視追蹤呼叫：
 
@@ -138,7 +132,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
   alloy("sendEvent", dataObj);
   ```
 
-* **自動連結追蹤**： [`clickCollectionEnabled`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設定屬性預設為啟用。 它會自動設定正確的連結追蹤變數，以將資料傳送至Adobe Analytics。 如果您想要停用自動連結追蹤，請在[`configure`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/overview)命令內將此屬性設定為`false`。
+* **自動連結追蹤**： [`clickCollectionEnabled`](https://experienceleague.adobe.com/tw/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled)設定屬性預設為啟用。 它會自動設定正確的連結追蹤變數，以將資料傳送至Adobe Analytics。 如果您想要停用自動連結追蹤，請在[`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview)命令內將此屬性設定為`false`。
 
 * **手動連結追蹤**：網頁SDK在pageview和非頁面檢視呼叫之間沒有個別的命令。 在裝載物件內提供該區別。
 

@@ -5,21 +5,14 @@ feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
 TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1155
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -29,10 +22,10 @@ Adobe Analytics 支持各種類型的管理員。 有完整權限的 Adobe Analy
 
 >[!NOTE]
 >
->在 Adobe Analytics 中為任何使用者指派角色之前，必須將使用者指派為 Experience Cloud 中的第一位管理員。 然後，第一位管理員可以為組織中的使用者提供其他關鍵角色，如本文所述。 有關第一位管理員的更多資訊，請參閱 [Adobe Analytics 第一位管理員指南](/help/admin/admin-console/first-admin-guide.md)。
+>必須先將使用者指派為CX Enterprise的第一個管理員，才能在Adobe Analytics中指派任何使用者。 然後，第一位管理員可以為組織中的使用者提供其他關鍵角色，如本文所述。 有關第一位管理員的更多資訊，請參閱 [Adobe Analytics 第一位管理員指南](/help/admin/admin-console/first-admin-guide.md)。
 
 
-## Experience Cloud 和 Adobe Analytics 中的關鍵角色
+## CX Enterprise和Adobe Analytics的關鍵角色
 
 使用 Adobe Analytics 時請考慮以下關鍵角色：
 
@@ -72,7 +65,7 @@ Adobe Analytics 支持各種類型的管理員。 有完整權限的 Adobe Analy
 1. 將此檔案命名為「Data Collection full admin access」，然後按一下「**[!UICONTROL 完成]**」。
 1. 返回「**[!UICONTROL 產品設定檔]**」頁面，按一下新建的設定檔，然後按一下「**[!UICONTROL 權限]**」索引標籤。
 1. 按一下其中一個權限細項。 如果可使用「**[!UICONTROL 自動加入]**」，則啟用它。 如果無法使用自動加入，請按一下「**[!UICONTROL 全部新增]**」。 這兩個選項都會將所有權限項目移至右欄。
-1. 按一下「**[!UICONTROL 儲存]**」。 對所有權限類別重複上述步驟。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 對所有權限類別重複上述步驟。
 1. 當所有權限類別都授與設定檔之後，請按一下最上方的「**[!UICONTROL 概觀]**」返回概觀頁面。
 1. 在 [!UICONTROL Experience Platform Launch] 動態磚底下，按一下「**[!UICONTROL 指派使用者]**」。
 1. 輸入您要授與 Analytics 完整存取權的電子郵件地址，並將新建的完整管理員存取設定檔指派給對方。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
@@ -88,9 +81,9 @@ Adobe Analytics 支持各種類型的管理員。 有完整權限的 Adobe Analy
 
 [建立 Analytics 標記屬性](/help/implement/launch/create-analytics-property.md)：請您的資料收集管理員登入此工具，並建立在您的網站上實作的屬性
 
-在 Adobe Analytics 中為任何使用者指派角色之前，必須將使用者指派為 Experience Cloud 中的第一位管理員。 然後，第一位管理員可以為組織中的使用者提供其他關鍵角色，如本文所述。
+必須先將使用者指派為CX Enterprise的第一個管理員，才能在Adobe Analytics中指派任何使用者。 然後，第一位管理員可以為組織中的使用者提供其他關鍵角色，如本文所述。
 
-第一位管理員是讓組織其他成員開始使用各種 Experience Cloud 解決方案的起點。
+第一位管理員是讓組織其他成員能夠使用各個CX企業解決方案的起點。
 
 簽訂合約以後
 

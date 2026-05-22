@@ -4,20 +4,14 @@ description: 允許這些網域通過貴組織的防火牆，以獲得最佳的A
 feature: Data Configuration and Collection
 exl-id: 41f11b71-c97e-45e8-9ca5-7992f02579f5
 TQID: https://experienceleague.adobe.com/y5UXvG8gVAw4fp-Hep-nNHixMQydt-xjr5MGNbp0SQk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 11%
+source-wordcount: 159
+ht-degree: 9%
 
 ---
 
@@ -38,12 +32,12 @@ ht-degree: 11%
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud 網域
+## Adobe CX Enterprise網域
 
-除了上述網域外，Adobe Experience Cloud還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)。
+除了上述網域外，Adobe CX Enterprise還仰賴數個網域進行資料收集和匯出報表。 如需此網域清單，請參閱[CX Enterprise使用的網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)。
 
 >[!MORELIKETHIS]
 >
 >Adobe Analytics使用的[個IP位址](ip-addresses.md)
 >
->[Adobe Experience Cloud使用的網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/domains)
+>CX Enterprise使用的[網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)

@@ -3,15 +3,10 @@ title: 使用網頁SDK JavaScript資料庫的訪客身分識別
 description: 實作Web SDK JavaScript程式庫時正確識別訪客。
 exl-id: e650d6b1-6e29-4a9c-98dd-8482f50968d1
 TQID: https://experienceleague.adobe.com/R6O--qqR7SzlArrIDFCWunUEAduzmAS2Skm6BKyREnw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 192
 ht-degree: 2%
@@ -20,7 +15,7 @@ ht-degree: 2%
 
 # 使用網頁SDK JavaScript資料庫的訪客身分識別
 
-Adobe Experience Platform Web SDK JavaScript資料庫(`alloy.js`)為所有Adobe Experience Cloud應用程式（包括Adobe Analytics）提供統一、最新的資料收集方法。 雖然大多數客戶通常會實作[Web SDK標籤擴充功能](web-sdk-extension.md)，但您可以自行或在協力廠商標籤管理系統中使用Web SDK JavaScript資料庫。 請參閱GitHub上的[Alloy](https://github.com/adobe/alloy)以下載最新版本的程式庫。
+Adobe Experience Platform Web SDK JavaScript資料庫(`alloy.js`)為所有Adobe CX Enterprise應用程式（包括Adobe Analytics）提供統一、最新的資料收集方法。 雖然大多數客戶通常會實作[Web SDK標籤擴充功能](web-sdk-extension.md)，但您可以自行或在協力廠商標籤管理系統中使用Web SDK JavaScript資料庫。 請參閱GitHub上的[Alloy](https://github.com/adobe/alloy)以下載最新版本的程式庫。
 
 身分資料可以延伸，以使用XDM的`identityMap`支援自訂ID和多個名稱空間。 Adobe建議使用Adobe Experience Cloud ID Service做為Analytics的主要識別碼，並針對進階案例使用其他識別管理選項。
 

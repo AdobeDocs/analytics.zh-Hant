@@ -5,22 +5,15 @@ feature: Admin Tools
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 role: Admin
 TQID: https://experienceleague.adobe.com/cHTZXklRrRyFVRmUb2dDiZ4Pnt0-la3PrGaJFFEa2QM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 353
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -39,7 +32,7 @@ ht-degree: 96%
 
 Adobe Analytics 目前有兩個管理員區域：
 
-* Adobe Admin Console：使用此區域來佈建 Experience Cloud 工具，並管理使用者權限。 此區域位於 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
+* Adobe Admin Console：使用此區域來布建CX Enterprise工具，並管理使用者許可權。 此區域位於 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
 * Analytics Admin 工具：此區域用於管理報表套裝和變數。 您可以按一下 Adobe Analytics 頂端標題中的[!UICONTROL 管理員]來存取該區域。
 
 本指南涵蓋：
@@ -56,11 +49,11 @@ Adobe Analytics 目前有兩個管理員區域：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
+* [聯絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

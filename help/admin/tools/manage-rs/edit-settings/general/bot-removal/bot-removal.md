@@ -5,23 +5,15 @@ feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 785
-ht-degree: 64%
+ht-degree: 60%
 
 ---
 
@@ -50,7 +42,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-以下為透過「資料元素」擷取此 ID 的方式。 請務必在「資料元素」中正確填入您的 Experience Cloud OrgID。
+以下為透過「資料元素」擷取此 ID 的方式。 請務必在「資料元素」中正確填入您的CX Enterprise OrgID。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -68,7 +60,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-請記得將 Experience Cloud 訪客 ID 設為維度並套用「機器人」區段。
+請記得將CX Enterprise訪客ID設為維度並套用「機器人」區段。
 
 ### 步驟4：將此清單傳回Adobe作為客戶屬性
 
@@ -101,7 +93,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 >[!MORELIKETHIS]
 >
->* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=zh-Hant)
->* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=zh-Hant)
->* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=zh-Hant)
+>* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

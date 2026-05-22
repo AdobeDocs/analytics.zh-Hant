@@ -5,24 +5,19 @@ feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/x3NtfziIBWYyzUcbWk6QUjLjgTJBhdmyNl5KqfLXkdg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 519
-ht-degree: 100%
+source-wordcount: 520
+ht-degree: 94%
 
 ---
 
 # 建立 Adobe Analytics 標記屬性
 
-Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Cloud 解決方案 (包括 Analytics)。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實作。
+Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決方案（包括Analytics）。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實作。
 
 ## 先決條件
 
@@ -38,7 +33,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 1. 按一下您新建立的標記屬性以輸入其設定。
 1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 目錄]**。
 1. 找出「Experience Cloud ID Service」，然後按一下&#x200B;**[!UICONTROL 安裝]**。
-1. 所有設定 (包括 Experience Cloud 組織 ID) 皆應已填寫。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 所有設定（包括CX Enterprise組織ID）皆應已填寫。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 返回擴充功能目錄，找到 Adobe Analytics 並按一下&#x200B;**[!UICONTROL 安裝]**。
 
 如需更多詳細資訊，請參閱 [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)的完整文件。

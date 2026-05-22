@@ -5,23 +5,15 @@ feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 815
-ht-degree: 84%
+ht-degree: 81%
 
 ---
 
@@ -31,7 +23,7 @@ ht-degree: 84%
 
 ## 檢視隱私權標籤 {#view-privacy}
 
-1. 登入 Adobe Experience Cloud。
+1. 登入Adobe CX Enterprise。
 2. 導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料設定和收集]** > **[!UICONTROL 資料控管]**。
 
    >[!NOTE]
@@ -69,7 +61,7 @@ ht-degree: 84%
 
    >[!IMPORTANT]
    >
-   >請記住，您選取的所有報告套裝都必須對應至您的 Experience Cloud 組織。
+   >請記住，您選取的所有報表套裝都必須對應至您的CX Enterprise組織。
 
    將一個變數或一組變數的標籤複製到不同的報告套裝時，複製的標籤會出現在目標報告套裝中對應位置的變數。 若是標準元件、清單變數、成功事件，系統會將標籤複製到目標報表套裝中&#x200B;**名稱相同**&#x200B;的變數。
 

@@ -3,11 +3,11 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
-user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報告套裝等。
-source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
+user-guide-description: 瞭解Analytics管理工作，例如在CX Enterprise Admin Console中管理使用者和產品、設定報表套裝等。
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 + [Analytics 管理員指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
-+ Adobe Admin Console  {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [概觀](admin-console/home.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics 中的管理員角色](admin-console/admin-roles-in-analytics.md)
@@ -35,11 +35,11 @@ ht-degree: 100%
       + [概觀](tools/reporting-activity-manager/reporting-activity-overview.md)
       + [檢視報告活動](tools//reporting-activity-manager/reporting-activity.md)
       + [取消報告請求](tools/reporting-activity-manager/reporting-activity-cancel-requests.md)
-   + 元件移轉  {#component-migration}
+   + 元件移轉 {#component-migration}
       + [準備移轉](tools/component-migration/prepare-component-migration.md)
       + [移轉工作流程](tools/component-migration/component-migration.md)
    + 報告套裝管理員 {#manage-report-suites}
-      + 編輯報告套裝的設定值  {#edit-report-suite}
+      + 編輯報告套裝的設定值 {#edit-report-suite}
          + 一般 {#report-suite-general}
             + [一般帳戶設定](tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
             + [內部 URL 篩選器](tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)
@@ -113,12 +113,12 @@ ht-degree: 100%
       + [全域報告套裝](tools/manage-rs/rollup-report-suite.md)
       + [儲存報告套裝搜尋](tools/manage-rs/t-report-suite-saved-search.md)
       + [下載報告套裝設定值](tools/manage-rs/t-download-rs-settings.md)
-      + 新的報告套裝  {#c-new-report-suite}
+      + 新的報告套裝 {#c-new-report-suite}
          + [建立報告套裝](tools/manage-rs/new-rs/t-create-a-report-suite.md)
          + [建立報告套裝群組](tools/manage-rs/new-rs/t-create-rs-group.md)
          + [新的報告套裝 - 設定](tools/manage-rs/new-rs/new-report-suite.md)
          + [並非從來源報告套裝複製的設定](tools/manage-rs/new-rs/settings-not-copied-from-rs.md)
-      + 報告套裝範本  {#report-suite-templates}
+      + 報告套裝範本 {#report-suite-templates}
          + [報告套裝範本概觀](tools/manage-rs/rs-templates/report-suite-templates.md)
          + [整合入口網站](tools/manage-rs/rs-templates/aggregator-portal.md)
          + [商務](tools/manage-rs/rs-templates/commerce-admin.md)
@@ -154,7 +154,7 @@ ht-degree: 100%
    + 使用者和產品管理 (舊版) {#user-product-management}
       + [使用者和產品管理 (舊版)](tools/user-management/user-management.md)
       + [管理舊版使用者帳戶、資產和截止期限](tools/user-management/users-assets.md)
-      + 將使用者移轉至 Adobe Admin Console  {#migrate-users}
+      + 將使用者移轉至 Adobe Admin Console {#migrate-users}
          + [Analytics 使用者移轉至 Admin Console](tools/user-management/user-migration/c-migration-tool.md)
          + [移轉 Adobe ID 的 Analytics 使用者帳戶](tools/user-management/user-migration/t-migrate-users.md)
          + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](tools/user-management/user-migration/migrate-enterprise.md)

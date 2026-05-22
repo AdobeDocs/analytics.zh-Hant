@@ -5,23 +5,11 @@ title: 隱私權概觀
 feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1004
 ht-degree: 88%
@@ -30,7 +18,7 @@ ht-degree: 88%
 
 # 隱私權概觀
 
-Adobe 希望幫助您的組織讓您能遵守適用的法律和法規。 如需詳細資訊，請參閱[Adobe Experience Cloud隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target=_blank}。 在 Adob&#x200B;&#x200B;e Analytics 和您的組織之間，Adobe 的角色是「資料處理方」，而您是「資料管控方」(在適用隱私權和資料保護法律下為同等責任方)。 貴組織實施 Adobe 解決方案的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。 在使用 Adob&#x200B;&#x200B;e Analytics 時，您的組織有責任遵守您自己的隱私權原則、您與 Adob&#x200B;&#x200B;e 的服務協議以及所有適用的法律。
+Adobe 希望幫助您的組織讓您能遵守適用的法律和法規。 如需詳細資訊，請參閱[Adobe CX企業版隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html){target=_blank}。 在 Adob&#x200B;&#x200B;e Analytics 和您的組織之間，Adobe 的角色是「資料處理方」，而您是「資料管控方」(在適用隱私權和資料保護法律下為同等責任方)。 貴組織實施 Adobe 解決方案的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。 在使用 Adob&#x200B;&#x200B;e Analytics 時，您的組織有責任遵守您自己的隱私權原則、您與 Adob&#x200B;&#x200B;e 的服務協議以及所有適用的法律。
 
 Adobe 強烈建議遵守以下總體概念進行：
 

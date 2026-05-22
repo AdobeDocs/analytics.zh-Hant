@@ -5,24 +5,14 @@ feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 635
-ht-degree: 89%
+ht-degree: 78%
 
 ---
 
@@ -34,13 +24,13 @@ ht-degree: 89%
 
 [將 Analytics 實施部署至開發環境](deploy-dev.md)：必須將 Analytics 實施發佈至開發環境才能關注此頁面。
 
-## 使用 Experience Cloud Debugger 驗證開發實施
+## 使用CX Enterprise Debugger驗證開發實施
 
-Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標記的擴充功能。
+CX Enterprise Debugger是顯示存在於頁面上所有CX Enterprise標籤的擴充功能。
 
 1. 安裝[Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)或Firefox的擴充功能。
 2. 瀏覽至您已在上面實作標記的開發網站。
-3. 按一下瀏覽器上的 Adobe Experience Cloud Debugger 圖示。
+3. 按一下瀏覽器中的Adobe CX Enterprise Debugger圖示。
 4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、標記及 Adobe Experience Cloud 訪客 ID 服務中看到內容。
 
 ## 將開發實作部署至暫存/生產環境
@@ -62,7 +52,7 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 
 確認您可在您網站的使用中版本上看到資料，然後開始進行 Adobe Analytics 的正式資料收集。
 
-1. 一旦您已確認網站負責人已將標記程式碼推送至生產環境，請在 Chrome 中瀏覽至您的網站首頁，然後開啟 [!UICONTROL Adobe Experience Cloud Debugger]。
+1. 一旦您已確認網站擁有者已將標籤程式碼推送至生產環境，請在Chrome中導覽至您的網站首頁，然後開啟Adobe CX Enterprise Debugger。
 2. 如果一切運作正常，則應該會在開發環境的測試中看到類似的資料。 此時，您正在網站上收集資料，且現在可以開始使用 Adobe Analytics 來建立報表。
 
 ## 疑難排解
