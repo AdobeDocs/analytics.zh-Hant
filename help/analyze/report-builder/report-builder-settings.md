@@ -16,10 +16,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 257
-ht-degree: 29%
+source-wordcount: 285
+ht-degree: 24%
 
 ---
 
@@ -65,54 +65,7 @@ ht-degree: 29%
 
 ## 疑難排解
 
-**[!UICONTROL 疑難排解記錄]**&#x200B;設定會將所有使用者端/伺服器資料記錄到本機檔案。 使用此選項來協助解決支援申請單。
+疑難排解並幫助解決支援票證、啟用以記錄Report Builder請求。 在&#x200B;**[!UICONTROL Report Builder]**&#x200B;面板中：
 
-若要啟用疑難排解記錄，請檢查&#x200B;**[!UICONTROL 將Report Builder請求記錄到本機檔案]**。
-
-<!--
-Use the **Settings** pane to configure application-level settings such as the language displayed by the UI or whether or not to work in off-line mode. The settings are applied immediately and they are set for all future sessions until they're changed.
-
-To change Report Builder settings
-
-1. Click the **Settings** icon.
-
-1. Make changes to Enable off-line mode, select a Language, or enable Troubleshooting log settings.
-
-1. Click **Apply**.
-
-    ![Report Builder settings.](./assets/image38.png)
-
-## Off-line mode
-
-When creating and editing a data block in off-line mode, data is not retrieved. Instead, simulation data is used so that you can quickly create and edit a data block without waiting for the request to run. When you are back online, the *Refresh data block* command or *Refresh all data blocks* command refreshes the data blocks that you created with actual data.
-
-To enable off-line mode
-
-1. Click the **[!UICONTROL Settings]** icon.
-
-1. Select **[!UICONTROL Enable off-line mod]e**.
-
-1. Enter a positive integer in the **[!UICONTROL Display metric data as]** field.
-
-1. Click **[!UICONTROL Apply]**.
-
-## Language
-
-You can choose the language for the Report Builder UI. All supported Adobe Analytics languages are available.
-
-To select the language used in the Report Builder UI
-
- 1. Click Settings.
-
- 1. Select a language from the **[!UICONTROL Language]** drop down menu.
-
-     ![Report Builder date range pane showing the Language list with English selected.](./assets/image39.png)
-
- 1. Click **[!UICONTROL Apply].**
-
-## Troubleshooting
-
-Use the Troubleshooting setting to log all client/server data to a local file. Use this option to help resolve support tickets.
-
-To enable the Troubleshooting option, select **[!UICONTROL Log report builder data block to web console]**.
--->
+1. 選取![設定](/help/assets/icons/Setting.svg)。
+1. 選取&#x200B;**[!UICONTROL 將Report Builder請求資料區塊記錄到網頁主控台]**。 <br/>要求傳送至您的網頁瀏覽器主控台。 請參閱您的網頁瀏覽器檔案，瞭解如何開啟主控台記錄作為網頁瀏覽器開發人員工具的一部分。
