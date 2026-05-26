@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 此結構描述是您要套用至您為分類設定定義之關鍵維度的分類清單。 例如，如果您已將product定義為主要維度，而此欄位包含產品SKU，請使用結構描述來新增產品名稱、顏色和大小等分類。
 
 若要編輯分類設定的綱要：
-
 
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。

@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 285
 ht-degree: 24%
@@ -69,3 +69,4 @@ ht-degree: 24%
 
 1. 選取![設定](/help/assets/icons/Setting.svg)。
 1. 選取&#x200B;**[!UICONTROL 將Report Builder請求資料區塊記錄到網頁主控台]**。 <br/>要求傳送至您的網頁瀏覽器主控台。 請參閱您的網頁瀏覽器檔案，瞭解如何開啟主控台記錄作為網頁瀏覽器開發人員工具的一部分。
+
