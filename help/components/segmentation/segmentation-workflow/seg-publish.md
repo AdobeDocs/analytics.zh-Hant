@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 1432
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="CX Enterprise發佈"
->abstract="您可以將對象發佈到對象庫，以便在Target和其他CX Enterprise解決方案中將對象用於行銷活動。"
+>title="CX Enterprise 發佈"
+>abstract="您可以將客群發佈至客群庫，即可在 Target 和其他 CX Enterprise 解決方案的行銷活動使用該客群。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
