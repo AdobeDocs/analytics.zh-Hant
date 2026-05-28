@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 31%
@@ -84,7 +84,7 @@ ht-degree: 31%
 1. 選取「**[!UICONTROL 新增]**」以建立新區段。
    ![發佈CX Enterprise](assets/publish-ec.png)
 1. 提供區段的標題和說明。 您必須先填寫這些欄位，才能儲存區段。
-1. 在&#x200B;**[!UICONTROL CX Enterprise發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至CX Enterprise （針對&#x200B;*報表套裝*）]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （適用於&#x200B;*報表套裝*）]**。
 
    >[!IMPORTANT]
    >

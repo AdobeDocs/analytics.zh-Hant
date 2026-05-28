@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
 workflow-type: tm+mt
 source-wordcount: 785
 ht-degree: 60%
@@ -52,7 +52,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 以下為透過「資料元素」擷取此 ID 的方式。 請務必在「資料元素」中正確填入您的CX Enterprise OrgID。
 
-```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
+`return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
 設定這個「資料元素」後，請按照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)，使用 Adobe Experience Platform 中的標記將已宣告的 ID 傳遞到 ECID 工具中。
 
