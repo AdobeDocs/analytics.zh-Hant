@@ -31,8 +31,8 @@ ht-degree: 0%
 
 可使用下列量度：
 
-* [[!UICONTROL 章節完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
-* [[!UICONTROL 章節開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
-* [[!UICONTROL 章節逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+* [[!UICONTROL 章節完成]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL 章節開始]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL 章節逗留時間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
 
 如需對應的維度，請參閱[串流媒體服務章節維度](../dimensions/sm-chapters.md)。

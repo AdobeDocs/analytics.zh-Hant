@@ -32,16 +32,16 @@ ht-degree: 1%
 
 下列維度可供使用：
 
-* [[!UICONTROL 章節]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)
+* [[!UICONTROL 章節]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/chapter)
 
 除了上述維度之外，Adobe會自動建立下列分類維度。 您必須上傳分類資料，才能檢視使用這些維度的報表。
 
 | 分類名稱 | 父維度 |
 | --- | --- |
-| [[!UICONTROL 創作者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL 內容]](sm-core.md) |
-| [[!UICONTROL 章節長度]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 章節] |
-| [[!UICONTROL 章節名稱]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 章節] |
-| [[!UICONTROL 章節位移]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章節] |
-| [[!UICONTROL 章節位置]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 章節] |
+| [[!UICONTROL 創作者]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL 內容]](sm-core.md) |
+| [[!UICONTROL 章節長度]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL 章節] |
+| [[!UICONTROL 章節名稱]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL 章節] |
+| [[!UICONTROL 章節位移]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL 章節] |
+| [[!UICONTROL 章節位置]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL 章節] |
 
 如需對應的量度，請參閱[串流媒體服務章節量度](../metrics/sm-chapters.md)。

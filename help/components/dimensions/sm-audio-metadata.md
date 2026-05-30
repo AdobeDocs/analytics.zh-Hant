@@ -32,9 +32,9 @@ ht-degree: 0%
 
 可使用下列維度：
 
-* [[!UICONTROL 相簿]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL 藝人]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
-* [[!UICONTROL 作者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
-* [[!UICONTROL Label]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
-* [[!UICONTROL 發行者]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
-* [[!UICONTROL 電台]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)
+* [[!UICONTROL 相簿]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL 藝人]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL 作者]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL Label]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL 發行者]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL 電台]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/station)

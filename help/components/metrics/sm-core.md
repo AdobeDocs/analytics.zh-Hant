@@ -28,17 +28,17 @@ ht-degree: 1%
 
 可使用下列量度：
 
-* [[!UICONTROL 平均分鐘觀眾數]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-minute-audience)
-* [[!UICONTROL 內容完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)
-* [[!UICONTROL 已暫停受影響的資料流]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
-* [[!UICONTROL 暫停事件]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)
-* [[!UICONTROL 總暫停期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)
-* [[!UICONTROL 內容開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-starts)
-* [[!UICONTROL 進度標籤]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)
-* [[!UICONTROL 內容繼續]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)
-* [[!UICONTROL 內容區段檢視]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)
-* [[!UICONTROL 媒體開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)
-* [[!UICONTROL 內容逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)
-* [[!UICONTROL 不重複播放時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/unique-time-played)
+* [[!UICONTROL 平均分鐘觀眾數]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/average-minute-audience)
+* [[!UICONTROL 內容完成]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-completes)
+* [[!UICONTROL 已暫停受影響的資料流]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/paused-impacted-streams)
+* [[!UICONTROL 暫停事件]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/pause-events)
+* [[!UICONTROL 總暫停期間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/total-pause-duration)
+* [[!UICONTROL 內容開始]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-starts)
+* [[!UICONTROL 進度標籤]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)
+* [[!UICONTROL 內容繼續]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-resumes)
+* [[!UICONTROL 內容區段檢視]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-segment-views)
+* [[!UICONTROL 媒體開始]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/media-starts)
+* [[!UICONTROL 內容逗留時間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-time-spent)
+* [[!UICONTROL 不重複播放時間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/unique-time-played)
 
 如需對應的維度，請參閱[串流媒體服務核心維度](../dimensions/sm-core.md)。

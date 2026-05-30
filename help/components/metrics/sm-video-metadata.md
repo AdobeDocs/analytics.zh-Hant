@@ -32,6 +32,6 @@ ht-degree: 0%
 
 下列為可用的量度：
 
-* [[!UICONTROL 已授權]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+* [[!UICONTROL 已授權]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/authorized)
 
 如需對應的維度，請參閱[串流媒體服務視訊中繼資料維度](../dimensions/sm-video-metadata.md)。
