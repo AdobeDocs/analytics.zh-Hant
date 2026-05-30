@@ -35,14 +35,14 @@ ht-degree: 0%
 
 可使用下列維度：
 
-* [[!UICONTROL 平均位元速率]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)
-* [[!UICONTROL 位元速率變更]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
-* [[!UICONTROL 緩衝事件]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)
-* [[!UICONTROL 總緩衝期間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
-* [[!UICONTROL 掉格]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)
-* [[!UICONTROL 個錯誤]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)
-* [[!UICONTROL 外部錯誤識別碼]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)
-* [[!UICONTROL 播放器SDK錯誤ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
-* [[!UICONTROL 開始時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)
+* [[!UICONTROL 平均位元速率]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/average-bitrate)
+* [[!UICONTROL 位元速率變更]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/bitrate-changes)
+* [[!UICONTROL 緩衝事件]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/buffer-events)
+* [[!UICONTROL 總緩衝期間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)
+* [[!UICONTROL 掉格]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/dropped-frames)
+* [[!UICONTROL 個錯誤]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/errors)
+* [[!UICONTROL 外部錯誤識別碼]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/external-error-ids)
+* [[!UICONTROL 播放器SDK錯誤ID]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)
+* [[!UICONTROL 開始時間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/time-to-start)
 
 如需對應的量度，請參閱[串流媒體服務品品質度](../metrics/sm-quality.md)

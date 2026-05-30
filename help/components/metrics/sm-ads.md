@@ -32,9 +32,9 @@ ht-degree: 0%
 
 可使用下列量度：
 
-* [[!UICONTROL 廣告完成]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL 廣告開始]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL 廣告逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL 媒體逗留時間]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL 廣告完成]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL 廣告開始]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL 廣告逗留時間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL 媒體逗留時間]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 如需對應的維度，請參閱[串流媒體服務廣告維度](../dimensions/sm-ads.md)。
