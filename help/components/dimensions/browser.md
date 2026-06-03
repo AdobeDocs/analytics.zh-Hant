@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ ht-degree: 59%
 維度項目包括使用的瀏覽器名稱和版本。 相同瀏覽器的不同版本是分別的維度項目。
 
 部分維度項目包含 `"(unknown version)"`，而不是版本號碼。 此維度專案會參考Adobe尚未新增至其查閱表格的最新瀏覽器版本。 由於瀏覽器經常更新，所以特定瀏覽器的 `"(unknown version)"` 為通用且暫時。 Adobe 一般會在每月維護版本更新查閱表格。
+
+部分維度專案包含`.999`作為次要版本編號，例如`"Chrome 148.999"`。 此值表示Adobe無法可靠地判斷瀏覽器的次要版本。 當Chrome或Edge瀏覽器傳送不含[使用者端提示](/help/technotes/client-hints.md)的請求時，使用者代理字串中的次要版本不被視為可信。 Adobe會以`.999`取代這些次要版本，而不是以可能不準確的次要版本誇大維度專案。 同樣地，如果任何瀏覽器回報異常高的版本編號（超過99999），Adobe會將其標準化為`999.999`。
