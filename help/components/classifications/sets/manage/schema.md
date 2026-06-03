@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
+source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: 1676
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 9%
 | 欄 | 說明 |
 |---|---|
 | **[!UICONTROL 分類名稱]** | 您為分類提供的名稱。 |
-| **[!UICONTROL 識別名稱]** | 系統產生的分類名稱。 此名稱是唯讀值，您可以使用身分名稱。 |
+| **[!UICONTROL 身分名稱]** | 系統產生的分類名稱。 此名稱是唯讀值，衍生自初始分類名稱。 身分名稱會在內部用來儲存分類，當作可報告維度的ID，且無法變更。 |
 | **[!UICONTROL 已由]**&#x200B;分類 | 若使用，會連結至用來分類此分類的查詢分類設定。 |
 
 
