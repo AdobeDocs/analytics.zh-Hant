@@ -17,9 +17,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: dff998aaa4a262883badaec17d2e6281dc856252
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: 209
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 可使用下列維度：
 
-* [!UICONTROL 個廣告載入]
+* [[!UICONTROL 個廣告載入]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
 * [[!UICONTROL 天部分]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/day-part)
 * [[!UICONTROL 集]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode)
 * [[!UICONTROL 媒體摘要型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-feed-type)
