@@ -33,14 +33,14 @@ ht-degree: 0%
 可使用下列維度：
 
 * [[!UICONTROL 個廣告載入]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
-* [[!UICONTROL 天部分]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL 集]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL 媒體摘要型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL 型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL 網路]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL 季]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL 節目]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL 顯示型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL 天部分]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL 集]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL 媒體摘要型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL 型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL 網路]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL 季]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL 節目]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL 顯示型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show-type)
 
 如需對應的量度，請參閱[串流媒體服務視訊中繼資料量度](../metrics/sm-video-metadata.md)。
