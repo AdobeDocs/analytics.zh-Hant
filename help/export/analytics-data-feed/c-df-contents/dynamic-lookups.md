@@ -4,15 +4,10 @@ description: 瞭解什麼是動態查詢以及如何啟用動態查詢。 包括
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 306
@@ -35,7 +30,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="啟用動態查詢"
->abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動裝置屬性</li><li>作業系統類型</li></ul>"
+>abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動屬性</li><li>作業系統類型</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 
