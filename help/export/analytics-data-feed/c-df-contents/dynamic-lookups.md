@@ -35,7 +35,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="啟用動態查詢"
->abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動裝置屬性</li><li>作業系統類型</li></ul>"
+>abstract="選取此選項可在您的資料摘要中接收其他查詢檔案，否則無法使用。 此設定可讓以下查詢表格隨每個資料摘要檔案一起傳送：<ul><li>電信業者名稱</li><li>行動屬性</li><li>作業系統類型</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 
