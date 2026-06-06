@@ -32,7 +32,7 @@ ht-degree: 0%
 
 可使用下列維度：
 
-* [[!UICONTROL 個廣告載入]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
+* [[!UICONTROL 個廣告載入]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad-load-type)
 * [[!UICONTROL 天部分]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/day-part)
 * [[!UICONTROL 集]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode)
 * [[!UICONTROL 媒體摘要型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-feed-type)
