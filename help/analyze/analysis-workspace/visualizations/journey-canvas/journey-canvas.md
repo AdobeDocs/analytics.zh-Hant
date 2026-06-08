@@ -3,7 +3,7 @@ description: 了解如何在 Analysis Workspace 中使用歷程畫布。
 title: 歷程畫布概觀
 feature: Visualizations
 role: User, Admin
-source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 89%
@@ -41,8 +41,6 @@ ht-degree: 89%
 _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。 它可讓您定義歷程，然後檢視人們如何離開（流失）或繼續通過（流過）歷程。
 

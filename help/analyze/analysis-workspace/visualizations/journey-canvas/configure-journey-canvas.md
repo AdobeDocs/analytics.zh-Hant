@@ -3,7 +3,7 @@ description: 了解如何設定歷程畫布視覺化圖表。
 title: 設定歷程畫布視覺化圖表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -17,8 +17,6 @@ ht-degree: 90%
 _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 您可以利用歷程畫布視覺化圖表，針對您提供給使用者和客戶的歷程進行分析並獲取深入洞察。
 
