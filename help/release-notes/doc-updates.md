@@ -31,7 +31,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
 source-wordcount: 7326
 ht-degree: 95%
@@ -120,7 +120,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 已更新管理資料摘要的文件 | 已更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊以改善明確度。 <p>更新包括：</p><ul><li>為各種任務建立單獨章節，使資訊更易於瀏覽和使用。</li><li>已新增有關重新啟動之即時摘要行為變更的資訊。 這些變更目前為「有限可用性」的狀態，尚未提供給所有客戶使用。</li><li>已新增表示資料摘要必須為「使用中」狀態才能刪除。</li> |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
-| 已更新為提及串流媒體服務功能的產品名稱 | 當提及用於收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」的地方將替換為名稱「串流媒體收集附加元件」和「串流媒體收集」。 <p>這些更新可在 Adobe Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中找到。</p> |
+| 已更新為提及串流媒體服務功能的產品名稱 | 提及用來收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」之處已替換為「串流媒體收集附加元件」和「串流媒體收集」等名稱。 <p>這些更新可在 Adobe Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中找到。</p> |
 | 已改善的警報文件 | 更新並改善有關警報的文件。 這些更新包括有關[建立警報](/help/components/alerts/alert-builder.md)、[管理警報](/help/components/alerts/alert-manager.md)的資訊，和[概觀資訊](/help/components/alerts/alerts-overview.md)。 |
 | 已棄用 `cookieDomainPeriods` | 現在，AppMeasurement 會自動偵測要設定 Cookie 的正確網域，因此已棄用 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 變數。 |
 | 停用 Data Connectors 文件 | 將 Data Connectors 生命週期終止頁面移至[停產產品](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-connectors)。 |
@@ -152,7 +152,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 12 月** | |
-| 改進機器人規則文件 | 已更新[了解和設定機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)中的資訊，以改善明確度。<p>改善部份包括：</p> <ul><li>更新文章標題，使其更能說明內容</li><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li><li>新增有關上傳機器人規則時 CSV 檔案需求的更多詳細資料</li></ul> |
+| 改進機器人規則文件 | 已更新[了解和設定機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)中的資訊，以改善明確度。<p>改善項目包括：</p> <ul><li>更新文章標題，使其更能說明內容</li><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li><li>新增有關上傳機器人規則時 CSV 檔案需求的更多詳細資料</li></ul> |
 | 新的「報告」區段 | 增加新的「報告」區段，其中包含有關[使用範本](/help/analyze/analysis-workspace/templates/use-templates.md)和[建立公司範本](/help/analyze/analysis-workspace/templates/create-templates.md)的資訊。 |
 | 更新了異常偵測和貢獻分析文件 | 異常偵測和貢獻分析的文件以前位於 Virtual Analyst 區段中。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li><li>貢獻分析文件已合併到異常偵測文件中。</li></ul> |
 | 「Attribution IQ」變更為「歸因」 | 將整份文件中所有出現的「Attribution IQ」變更為「[歸因](/help/analyze/analysis-workspace/attribution/overview.md)」。 |
@@ -355,7 +355,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs](/help/analyze/labs.md) 的文件。 |
 | 2020 年 2 月 25 日 | 新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
 | 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新工作區範本。 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。 需使用 CDA 的報告套裝。 如需詳細資訊，請參閱[設定 Cross-Device Analytics](/help/components/cda/setup.md)。 |
-| 2020 年 2 月 20 日 | 工作區中的全新快速鍵：<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
+| 2020 年 2 月 20 日 | 工作區中的全新快速鍵：<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
 | 2020 年 2 月 20 日 | 工作區增強功能： <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 2020 年 2 月 20 日 | 已在「說明」選單中新增工作區偵錯程式，好讓您更順暢地啟用它來偵錯工作區請求。 [了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 18 日 | 新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
@@ -398,7 +398,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 7 月 18 日 | 在工作區的左側欄中，使用者現在可以選擇「_顯示過去 18 個月的項目_」。 之前，回顧期間的上限為 6 個月。 這能讓您更加輕鬆地與去年或最多 18 個月前的頁面或行銷活動進行比較。 |
 | 2019 年 7 月 18 日 | 有關 Analysis Workspace 中稱為[「Magento：行銷和商務」](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)的全新工作區範本的文件。 此範本是專為 Magento 電子商務客戶所設計，但所有零售商都可使用此範本來取得有關其商務活動的獨特洞察。 |
 | 2019 年 6 月 13 日 | 已在工作區中的左側欄搜尋中新增立即可用的篩選器。 除了您今天看到的專案（維度、量度、已批准等），新增了新的篩選器，例如計算量度、客戶屬性、eVar、Prop、視訊等，讓您更容易找到所需的元件。 |
-| 2019 年 6 月 4 日 | 全新指南撰寫完成，標題為[從第三方的分析平台改用 Adobe Analytics](/help/technotes/ga-to-aa/home.md)。 |
+| 2019 年 6 月 4 日 | 全新指南已撰寫完畢，標題為從協力廠商的分析平台改用Adobe Analytics。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
 | 2019 年 5 月 9 日 | 已在「流量」視覺效果中新增設定：「包含重複執行個體」。 請參閱[流量設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 2019 年 4 月 11 日 | 工作區最佳化增強功能的最佳做法：效能最佳化 |

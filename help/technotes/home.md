@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
-source-wordcount: 454
+source-wordcount: 440
 ht-degree: 97%
 
 ---
@@ -49,11 +49,6 @@ Adobe Analytics 的一些主要功能包括：
 * 報告：該平台提供一系列報告選項，包括排程報告、臨時報告和可自訂的儀表板，使企業能夠與利害關係人分享洞察，並協作訂定資料驅動的決策。
 
 總言之，Adobe Analytics 是強大的網站分析解決方案，提供企業所需的工具來測量、分析和最佳化其數位行銷活動。 借助即時資料、進階分析和歸因建模，企業可以做出資料驅動的決策，推動數位轉型並提高 ROI。
-
-
-## 重要技術備忘稿文章
-
-* [從第三方分析平台轉換成 Adobe Analytics](ga-to-aa/home.md)
 
 ## 更多 Analytics 使用手冊
 
