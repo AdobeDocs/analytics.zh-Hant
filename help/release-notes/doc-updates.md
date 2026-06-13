@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
 workflow-type: tm+mt
-source-wordcount: 7326
-ht-degree: 95%
+source-wordcount: 7375
+ht-degree: 94%
 
 ---
 
@@ -51,6 +51,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2026年6月** | |
+| 已將GA取代為AA指南 | GA至AA指南參考了Universal Analytics，後者已於2023年廢止。 新的指南已取代它，[從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026年5月** | |
 | 串流媒體維度和量度 | 串流媒體檔案的重大更新。 範例連結包括[串流媒體服務核心維度](/help/components/dimensions/sm-core.md)和[串流媒體服務核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
