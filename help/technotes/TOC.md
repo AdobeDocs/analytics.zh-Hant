@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
-source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: ht
-source-wordcount: '221'
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,6 @@ ht-degree: 100%
 
 + [Analytics 技術備忘稿](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
-+ Google Analytics 使用者適用的 Adobe Analytics {#ga-to-aa}
-   + [Google Analytics 使用者適用的 Adobe Analytics 說明](ga-to-aa/home.md)
-   + [帳戶與報表套裝](ga-to-aa/accounts.md)
-   + [自訂報表檢視](ga-to-aa/customization.md)
-   + Google Analytics 報表 {#reports}
-      + [為 GA 使用者在 Analysis Workspace 建立基本報表](ga-to-aa/reports/create-report.md)
-      + [用於其他 Analytics 平台的通用量度](ga-to-aa/reports/common-metrics.md)
-      + [即時](ga-to-aa/reports/realtime-reports.md)
-      + [客群](ga-to-aa/reports/audience-reports.md)
-      + [贏取](ga-to-aa/reports/acquisition-reports.md)
-      + [行為](ga-to-aa/reports/behavior-reports.md)
-      + [轉換](ga-to-aa/reports/conversions-reports.md)
-   + [常見問題集](ga-to-aa/faq.md)
-   + [處理平台間的差異](ga-to-aa/processing-differences.md)
-   + [比較資料與第三方產品](ga-to-aa/compare-data.md)
 + [分析 AI 流量](/help/technotes/ai-traffic.md)
 + 分析受事件影響的資料 {#event}
    + [分析受事件影響的資料概觀](event/overview.md)
