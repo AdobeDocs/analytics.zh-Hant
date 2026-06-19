@@ -4,30 +4,15 @@ title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 89%
+source-wordcount: 1052
+ht-degree: 85%
 
 ---
 
@@ -145,6 +130,10 @@ Analysis Workspace 包含以下附加功能：
 - 在自由格式表格視覺效果中使用區段作為維度。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用區段。
 
+## Data Warehouse相容性
+
+並非所有區段功能都與Data Warehouse相容。 某些區段結構和維度不受支援，且在建立Data Warehouse請求時不會顯示使用這些區段的區段。 如需支援和不支援功能的完整清單，請參閱[Data Warehouse區段相容性](/help/export/data-warehouse/segment-compatibility.md)。
+
 ## Adobe 提供的區段
 
 此元件左側邊欄顯示由您和您的公司建立的區段，以及現成可用的 Adobe 區段。 當您按一下「**[!UICONTROL 全部顯示]**」時，這些區段通常會顯示在清單底部，並且標示![Adobe 小標誌](/help/assets/icons/AdobeLogoSmall.svg)。
@@ -261,7 +250,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

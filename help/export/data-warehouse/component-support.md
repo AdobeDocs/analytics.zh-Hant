@@ -1,133 +1,89 @@
 ---
 title: Data Warehouse的元件支援
-description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
+description: 瞭解當您建置Data Warehouse請求時可以使用哪些維度和量度，哪些無法使用，以及哪些維度和量度的行為不同。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 TQID: https://experienceleague.adobe.com/NhSEyPN3093B9M0SngJluJdZScI2lXvRyHkXQd8gg-4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 580
-ht-degree: 47%
+source-wordcount: 362
+ht-degree: 11%
 
 ---
 
 # Data Warehouse 中的元件支援
 
-Data Warehouse架構中的獨特處理可允許使用某些在Adobe Analytics其他功能中通常無法使用的元件。 由於其獨特的架構，某些元件無法用於報表或區段。 請參閱本頁內容，了解可以使用以及無法使用的項目。
+本頁說明您在建立Data Warehouse請求時可使用的維度和量度。 區段包含哪些元件可供使用、哪些元件無法使用，以及哪些元件的行為與其他Adobe Analytics工具中不同。
 
-## Data Warehouse 的獨有元件
+## Data Warehouse專屬的維度
 
-在Adobe Analytics中使用其他功能時，無法在Data Warehouse中使用某些維度和量度。
+下列維度可用於Data Warehouse，但不可用於其他Adobe Analytics功能。
 
-### 專門支援的維度
+* [[!UICONTROL Experience Cloud訪客ID]](/help/components/dimensions/experience-cloud-visitor-id.md)
+* [[!UICONTROL IP位址]](/help/components/dimensions/ip-address.md)
+* [[!UICONTROL 頁面 URL]](/help/components/dimensions/page-url.md)
+* [[!UICONTROL 購買ID]](/help/components/dimensions/purchase-id.md)
+* [[!UICONTROL 訪客 ID]](/help/components/dimensions/visitor-id.md)
 
-* **Experience Cloud ID**：針對使用Experience Cloud ID服務(ECID)的實作，128位元數字由兩個串連的64位元數字組成，兩個數字皆補至19位數。
-* **頁面URL**：點選發生的頁面URL。
-* **購買ID**：購買的唯一識別碼，請使用purchaseID變數設定。
-* **訪客識別碼**：提供訪客的唯一識別碼。 此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。 如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+## 不支援的維度
 
-### 專門支援的量度
+下列維度無法在Data Warehouse報表或區段中使用：
 
-* **瀏覽次數**：在Data Warehouse內容中，此量度會排除非永久性Cookie瀏覽次數。
-* **瀏覽次數 — 所有訪客**：在Data Warehouse中，此量度與Adobe Analytics內其他工具中的瀏覽量度更接近。
+* [[!UICONTROL 上午/下午]](/help/components/dimensions/am-pm.md)
+* 除[[!UICONTROL 登入頁面]](/help/components/dimensions/entry-dimensions.md)和[[!UICONTROL 原始登入頁面]](/help/components/dimensions/entry-dimensions.md)之外允許的所有登入維度
+* 除了允許的[[!UICONTROL 退出頁面]](/help/components/dimensions/exit-dimensions.md)和[[!UICONTROL 退出連結]](/help/components/dimensions/exit-link.md)之外，所有退出維度
+* [[!UICONTROL 點選深度]](/help/components/dimensions/hit-depth.md)
+* [[!UICONTROL 回訪頻率]](/help/components/dimensions/return-frequency.md)
+* [[!UICONTROL 事件之前時間]](/help/components/dimensions/time-prior-to-event.md)
+* [[!UICONTROL 頁面逗留時間 — 分段]](/help/components/dimensions/time-spent-on-page.md)
+* [[!UICONTROL 每次造訪逗留時間 — 分段]](/help/components/dimensions/time-spent-per-visit.md)
+* [[!UICONTROL 所有搜尋頁面排名]](/help/components/dimensions/all-search-page-rank.md)
+* [[!UICONTROL 階層]](/help/components/dimensions/overview.md#retired-dimensions)變數
+* [[!UICONTROL 點擊類型]](/help/components/dimensions/hit-type.md)
+* [[!UICONTROL 付費搜尋]](/help/components/dimensions/paid-search.md)
+* [[!UICONTROL 單頁存取次數]](/help/components/dimensions/single-page-visits.md)
+* [[!UICONTROL 追蹤選擇退出原因]](/help/components/dimensions/tracking-opt-out-reason.md)
+* [[!UICONTROL 美國州]](/help/components/dimensions/us-states.md)
 
-## Data Warehouse 中不支援的支援元件
+有些維度可在Data Warehouse請求中使用，但無法用於區段內。 如需詳細資訊，請參閱[Data Warehouse區段相容性](segment-compatibility.md)。
 
-Data Warehouse 中不支援某些維度和量度。
+## 具有非標準日期格式的維度
 
->[!NOTE]
->
->如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。 建立或編輯區段時，請務必檢查產品相容性。
+Data Warehouse報表支援下列以時間為基礎的維度，但其輸出使用非標準格式：
 
-### 不支援的維度
+* [[!UICONTROL 年]](/help/components/dimensions/year.md)
+* [[!UICONTROL 季度]](/help/components/dimensions/quarter.md)
+* [[!UICONTROL 月]](/help/components/dimensions/month.md)
+* [[!UICONTROL 週]](/help/components/dimensions/week.md)
+* [[!UICONTROL 日]](/help/components/dimensions/day.md)
+* [[!UICONTROL 小時]](/help/components/dimensions/hour.md)
+* [[!UICONTROL 分鐘]](/help/components/dimensions/minute.md)
 
-* 上午/下午
-* 某些以路徑為主的維度，包括：
-   * 除「登入頁面」外的所有登入維度
-   * 除「退出頁面」和「退出連結」外的所有退出維度
-   * 點擊深度
-   * 回訪頻率
-   * 事件之前時間
-   * 頁面逗留時間 - 分段
-   * 每次瀏覽逗留時間 - 分段
-* 所有搜尋頁面排名
-* 階層變數
-* 點擊類型
-* 找不到頁面 (可作為維度使用；不支援分段)
-* 付費搜尋
-* 單頁造訪次數
-* 追蹤選擇退出原因
-* 美國各州
+日期值以`1YYMMDDHHMM`格式輸出：
 
-### 不支援的量度
+* **年(YY)**：位移1900。 將`1900`加到前三位數。 例如，`125` =年&#x200B;**2025**。
+* **月**：以零為基礎。 一月= `00`，二月= `01`， ...，十二月= `11`。
 
-* 某些以路徑為主的量度，包括：
-   * 退回數
-   * 登入點
-   * 退出點
-   * 重新載入
-   * 單次存取
-   * 「逗留時間」量度
-* 參與率量度（如[建立「參與率」量度](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)中所述）
+例如，如果日期範圍周欄位顯示`1260901`，則年份是1900 + 126 = **2026**，而月份是09 = **10月**。
 
-### 以不同方式支援的維度（非標準日期格式）
+## Data Warehouse中定義不同的量度
 
-支援下列以時間為基礎的維度：
+* **[[!UICONTROL 瀏覽次數]](/help/components/metrics/visits.md)**：排除非永久性Cookie瀏覽次數，不同於其他Adobe Analytics工具中的瀏覽次數量度。
+* **[[!UICONTROL 造訪 — 所有訪客]](/help/components/metrics/visits.md)**：計算所有訪客，包含具有非永久性Cookie的訪客，使其更接近於Adobe Analytics其他位置的標準[!UICONTROL 造訪]量度。
 
-* 年
-* 季
-* 月
-* 週
-* 日
-* 小時
-* 分鐘
+## 不支援的量度
 
-但使用這些維度時，日期輸出不是使用標準格式。
+下列量度無法在Data Warehouse中使用：
 
-在Data Warehouse中計算日期輸出時，請考慮下列事項：
-
-* 日期維度會以下列格式顯示： `1YYMMDDHHMM`
-
-* 年(YY)由1900抵銷。 這表示您將`1900`新增至日期欄位的前3個值。
-
-  例如，如果Data Warehouse中日期範圍周欄位的值為`1250901`，您會新增1900到125，這會產生2025年。
-
-* 所有月份都是以零為基準，1月則以00表示，2月則以01表示，依此類推，如下所示：
-
-   * 00：一月
-   * 01:2月
-   * 02:3月
-   * 03:4月
-   * 04： 5月
-   * 05:6月
-   * 06:7月
-   * 07:8月
-   * 08:9月
-   * 09:10月
-   * 10:11月
-   * 11:12月
-
-  例如，如果Data Warehouse中「日期範圍週」欄位的值為`1250901`，則月份會顯示為09，表示10月。
-
-
-
-
-## Data Warehouse中作為維度的區段
-
-當您在 Data Warehouse 中使用區段作為維度時，報告會傳回一欄含有 `"0"` 或 `"1"`：
-
-* **`"0"`**：該維度項目不符合區段標準。
-* **`"1"`**：該維度項目符合區段標準。
+* [[!UICONTROL 退回]](/help/components/metrics/bounces.md)
+* [[!UICONTROL 登入]](/help/components/metrics/entries.md)
+* [[!UICONTROL 退出]](/help/components/metrics/exits.md)
+* [[!UICONTROL 重新載入]](/help/components/metrics/reloads.md)
+* [[!UICONTROL 單次存取]](/help/components/metrics/single-access.md)
+* 任何[[!UICONTROL 逗留時間]](/help/components/metrics/time-spent.md)量度
+* 任何使用[參與率](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md)歸因模型的量度
