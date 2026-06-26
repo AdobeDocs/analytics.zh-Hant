@@ -3,11 +3,9 @@ title: 子點選分析
 description: 瞭解子點選分析如何讓您在Adobe Analytics中篩選點選中的個別產品，消除產品報表中的歸因出血。
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -36,8 +34,8 @@ ht-degree: 0%
 
 ![顯示產品類別Men](./assets/product-category-segmentation-hits.png)點選層級分段的面板
 
-因此，所有包含至少一個&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而這些訂單中其他產品的收入包含在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中。
-當您報告類別時，會報告&#x200B;**[!UICONTROL 零售：時尚產品類別]**&#x200B;的所有其他值，這些值屬於包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;之產品的訂單。
+因此，所有包含至少一個&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而這些訂單中其他產品的收入包含在&#x200B;**[!UICONTROL 線上收入]**量度中。
+當您報告類別時，會報告**[!UICONTROL 零售：時尚產品類別]**&#x200B;的所有其他值，這些值屬於包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;之產品的訂單。
 
 >[!TAB 子點選分析]
 
@@ -45,8 +43,8 @@ ht-degree: 0%
 
 ![顯示產品類別Men](./assets/product-category-segmentation-sub-hits.png)之子點選層級的分割面板
 
-因此，所有至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的產品收入。
-當您報告類別時，僅報告&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售業：時尚產品類別]**。
+因此，所有至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**的產品收入。
+當您報告類別時，僅報告**[!UICONTROL 男性]** **[!UICONTROL 零售業：時尚產品類別]**。
 
 >[!TAB 子點選分析（排除）]
 
@@ -86,3 +84,4 @@ ht-degree: 0%
 長條圖視覺效果包含新的子點選容器下拉式功能表。 這可讓您在產品層級儲存量度值。 例如，計算每筆訂單的產品發生次數，而非每次點選。
 
 色階分佈圖是唯一需要選取子點選容器的視覺效果。 所有其他面板和視覺效果都可搭配子點選分析資料使用，不需要額外設定。
+
