@@ -5,23 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/f2r9jWtF5HgCP6jUKg3YnLFxNwx1DiUBI-2Nquy5-K0'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 82%
+source-wordcount: 304
+ht-degree: 67%
 
 ---
 
@@ -35,7 +27,7 @@ ht-degree: 82%
 
 ## 使用網頁SDK的時間戳記
 
-XDM欄位`xdm.timestamp`下的Adobe Analytics[&#128279;](/help/implement/aep-edge/xdm-var-mapping.md)時間戳記為對應。 此欄位僅支援Unix時間。
+XDM欄位`xdm.timestamp`下的Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md)時間戳記為[對應。 此欄位僅支援Unix時間。
 
 ## 使用Adobe Analytics擴充功能的時間戳記
 
@@ -43,11 +35,11 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。 請依
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.timestamp
 
-`s.timestamp` 變數是包含點擊日期和時間的字串。 有效的時間戳記格式包括[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)和[Unix時間](https://en.wikipedia.org/wiki/Unix_time) （以秒為單位）。
+`s.timestamp` 變數是包含點擊日期和時間的字串。 有效的時間戳記格式包括[ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)和[Unix時間](https://en.wikipedia.org/wiki/Unix_time) （以秒為單位）。
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2024-01-01T00:00:00Z";
+s.timestamp = "2026-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -61,24 +53,24 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 值
 
-以 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 表示的日期和時間，可能會採用數種不同的形式。 Adobe 不支援 ISO 8601 的所有功能。
+以 [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) 表示的日期和時間，可能會採用數種不同的形式。 Adobe 不支援 ISO 8601 的所有功能。
 
 * 日期與時間都必須提供，使用 `T` 分隔。
 * 小時和分鐘都是必要值；秒數是選用值，不過建議提供。
 * 不支援週日期和序數日期。
-* 日期可採用標準或延伸格式。 例如 `2024-01-01T00:00:00Z` 和 `20240101T000000Z` 都有效。
-* 技術上來說，分數形式的分鐘和秒是有效值，不過 Adobe 會忽略分數部分。
+* 日期可採用標準或延伸格式。 例如 `2026-01-01T00:00:00Z` 和 `20260101T000000Z` 都有效。
+* 技術上來說，分數形式的分鐘和秒是有效的，但分數會被忽略。 Adobe Analytics僅支援第二級精確度的時間戳記。 如果毫秒級的精確度是組織的優先順序，請考慮使用Customer Journey Analytics。
 * 支援的標準和延伸格式的時區。
 
 以下是 `timestamp` 變數中的有效範例 ISO 8601 值：
 
 ```text
-2024-01-01T00:00:00+00:00
-2024-01-01T00:00:00Z
-2024-01-01T00:00:00
-2024-01-01T00:00
-20240101T000000+0000
-20240101T000000Z
-20240101T000000
-20240101T0000
+2026-01-01T00:00:00+00:00
+2026-01-01T00:00:00Z
+2026-01-01T00:00:00
+2026-01-01T00:00
+20260101T000000+0000
+20260101T000000Z
+20260101T000000
+20260101T0000
 ```
