@@ -21,10 +21,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 638
-ht-degree: 65%
+source-wordcount: 603
+ht-degree: 69%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
-> 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而您想要選擇退出，**<span style="color:red">本文不適合您</span>**。 請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
+> 本文為（計畫）在其網站上實作Adobe Analytics **的** Adobe Analytics客戶提供有關如何為網站使用者提供選擇退出連結的說明。 <p><p>> 如果您&#x200B;**正在造訪已實作Adobe Analytics**&#x200B;的網站，而且您想要選擇退出，**<span style="color:red">本文不適合您</span>**。請參閱[Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html)以控制Adobe如何使用您的資訊。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。 Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 
@@ -46,7 +46,7 @@ ht-degree: 65%
 
 ## 退出 URL
 
-貴組織的退出頁面取決於實作中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 變數值。
+貴組織的退出頁面取決於實作中的 [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) 變數值。
 
 * 在Analytics擴充功能中：
    1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。

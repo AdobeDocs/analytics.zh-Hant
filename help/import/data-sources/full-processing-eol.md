@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 415
 ht-degree: 8%
@@ -51,12 +51,12 @@ ht-degree: 8%
 * **`contextData.key`**： [內容資料變數](/help/implement/vars/page-vars/contextdata.md)。
 * **`customerID`**： Experience Cloud ID服務變數。 包含 `id`、`authState` 和 `isMCSeed`。
 * **`hints`**： [使用者端提示](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant)變數。 包含`bitness`、`brands`、`mobile`、`model`、`platform`、`platformversion`和`wow64`。
-* **`ipaddress`**：訪客的IP位址。
+* **`ipaddress`**： [IP位址](/help/components/dimensions/ip-address.md)維度。
 * **`language`**： [語言](/help/components/dimensions/language.md)維度。
 * **`list1`** - **`list3`**： [清單變數](/help/implement/vars/page-vars/list.md)。
 * **`marketingCloudVisitorID`**：訪客的Experience Cloud ID。
 * **`tnta`**： [Analytics for Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)整合中所使用的Target資料裝載。
-* **`trackingServer`**： [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md)變數。
+* **`trackingServer`**： [`trackingServer`](/help/implement/vars/config-vars/configuration-variables.md)變數。
 * **`transactionID`**： [`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數。
 * **`userAgent`**：裝置的使用者代理字串。
 

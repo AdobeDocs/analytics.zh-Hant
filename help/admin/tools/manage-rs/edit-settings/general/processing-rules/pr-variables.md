@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +64,21 @@ ht-degree: 15%
 | --- | --- | --- |
 | **eVar 1-250** | 讀取+寫入 | [eVar](/help/components/dimensions/evar.md) 維度。 |
 | **Campaign** | 讀取+寫入 | [追蹤程式碼](/help/components/dimensions/tracking-code.md)維度。 |
-| **購買ID** | 讀取+寫入 | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) 實施變數。 |
-| **州別** | 讀取+寫入 | （已淘汰） [`state`](/help/implement/vars/page-vars/state.md)實作變數。 |
+| **購買ID** | 讀取+寫入 | [購買識別碼](/help/components/dimensions/purchase-id.md)維度。 |
+| **州別** | 讀取+寫入 | （已淘汰） [訪客狀態](/help/components/dimensions/overview.md#retired-dimensions)維度。 |
 | **Zip** | 讀取+寫入 | [郵遞區號](/help/components/dimensions/zip-code.md)維度。 |
 | **貨幣代碼** | 讀取+寫入 | [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) 實施變數。 重要：如果您將此變數設為無效值，點選會被捨棄。 |
 | **交易 ID** | 讀取+寫入 | [`transactionID`](/help/import/data-sources/transactionid.md) 實施變數。 |
 
 >[!NOTE]
->Adobe不支援使用處理規則設定[`products`](/help/implement/vars/page-vars/products.md)實作變數。
+>Adobe不支援使用處理規則設定[Product](/help/components/dimensions/product.md)維度。
 
 ## 流量變數
 
 | 變數 | 讀取/寫入狀態 | 說明 |
 | --- | --- | --- |
 | **Prop 1-75** | 讀取+寫入 | [Prop](/help/components/dimensions/prop.md) 維度。 |
-| **階層1-5** | 讀取+寫入 | （已淘汰） [階層](/help/components/dimensions/hierarchy.md)維度。 |
+| **階層1-5** | 讀取+寫入 | （已淘汰） [階層](/help/components/dimensions/overview.md#retired-dimensions)維度。 |
 | **伺服器** | 讀取+寫入 | [伺服器](/help/components/dimensions/server.md)維度。 |
 | **管道** | 讀取+寫入 | [網站區段](/help/components/dimensions/site-section.md)維度。 |
 

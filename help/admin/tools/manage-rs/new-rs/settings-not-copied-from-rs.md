@@ -15,7 +15,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 77
 ht-degree: 38%
@@ -30,6 +30,6 @@ ht-degree: 38%
 
 * [分類](/help/components/classifications/classifications-overview.md)資料（複製分類結構）
 * [交易識別碼儲存](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
-* [階層](/help/components/dimensions/hierarchy.md)標籤
+* [階層](/help/components/dimensions/overview.md#retired-dimensions)標籤
 * 在流量變數上進行[路徑分析](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
 * [VISTA 規則](/help/technotes/vista.md)

@@ -20,16 +20,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 830
-ht-degree: 17%
+source-wordcount: 862
+ht-degree: 16%
 
 ---
 
 # trackingServerSecure
 
 `trackingServerSecure`變數決定了AppMeasurement用來透過HTTPS將資料傳送至Adobe的網域。 如果此變數未正確定義，您的實作可能會遭遇資料遺失。
+
+>[!NOTE]
+>
+>[`trackingServer`](configuration-variables.md#retired-configuration-variables)是此變數的淘汰變體。 它指定透過HTTP傳送的資料網域；如果是HTTPS盛行，請改用`trackingServerSecure`。 如果`s.trackingServerSecure`為空白，AppMeasurement會退回至`s.trackingServer`值。
 
 在[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)之前，此變數也會決定協力廠商Cookie的設定位置。 Adobe強烈建議儘可能在所有實施中使用ID服務。
 
@@ -86,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 您用於`trackingServerSecure` （或`edgeDomain`）的值取決於幾個因素：
 
 * 您參與[Adobe管理的憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)
-* 若您已實作並正確設定[Adobe Experience Cloud Identity服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)
+* 若您已實作並正確設定[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)
 
 **如果您的組織參與Adobe管理的憑證方案**，請將值設定為設定憑證時選取的第一方網域。 通常此值是您的組織所擁有的子網域。 例如，`data.example.com`。 貴組織中的CNAME記錄會將該資料重新導向至Adobe。
 
@@ -108,7 +112,7 @@ Adobe強烈建議將此資訊保留在[解決方案設計檔案](../../prepare/s
 
 ## 不使用訪客ID服務所產生的影響
 
-Adobe強烈建議在所有實作中使用[Adobe Experience Cloud Identity服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。 ID服務可透過數種不同的方式實作：
+Adobe強烈建議在所有實作中使用[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。 ID服務可透過數種不同的方式實作：
 
 * 手動AppMeasurement實作使用`VisitorAPI.js`並呼叫`getInstance`方法。 如需詳細資訊，請參閱[實作適用於Analytics的Experience Cloud Identity服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/setup-analytics)。
 * 使用Adobe Analytics標籤擴充功能的實作使用[Adobe Experience Cloud ID服務標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/id-service/overview)。 新增後，就不需要其他設定。

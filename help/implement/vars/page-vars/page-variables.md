@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 47%
 
 ---
 
@@ -37,3 +37,10 @@ ht-degree: 100%
 * [`campaign`](campaign.md)：將此變數設為促銷活動追蹤的查詢字串參數。
 * [`events`](events/events-overview.md)：填入量度以用於報表中。
 * [`products`](products.md)：如果您有電子商務網站，請在訪客檢視或購買產品時設定此變數。
+
+## 已淘汰的頁面變數
+
+下列頁面變數已淘汰。 如果您在舊版實作中遇到這些錯誤，請參考這裡檔案。
+
+* **`hier`**：已實作階層變數(`hier1`-`hier5`)以擷取網站的結構以進行報告。 此維度已遭到淘汰，在Analysis Workspace中不是可用維度。 請改用[eVar](evar.md)和分類。
+* **`state`**：擷取訪客通常透過送貨或帳單表單進入的美國州。 請改用[[!UICONTROL 美國州]](/help/components/dimensions/us-states.md)維度，Adobe會自動從訪客的地理位置填入該維度。

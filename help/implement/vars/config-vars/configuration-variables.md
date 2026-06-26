@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 65%
+source-wordcount: 385
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 65%
 
 在使用Web SDK擴充功能或Analytics擴充功能的實作中，通常會從擴充功能的設定中找到設定變數：
 
-1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 使用您的Adobe Experience Platform認證登入[Adobe ID資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 按一下[擴充功能]索引標籤，然後按一下擴充功能下方的[設定]。
 
@@ -44,3 +44,18 @@ ht-degree: 65%
 >[!IMPORTANT]
 >
 >呼叫追蹤方法（[`t()`](../functions/t-method.md)或[`tl()`](../functions/tl-method.md)）之前，請確定所有設定變數均已設定完畢。 請避免在 [`doPlugins()`](../functions/doplugins.md) 函數中配置設定變數。
+
+## 淘汰的設定變數
+
+下列設定變數已淘汰。 如果您在舊版實作中遇到這些錯誤，請參考這裡檔案。
+
+* **`account`**：已決定資料要傳送到的報表套裝。 報表套裝現在已透過追蹤物件例項化（[`s_gi()`](../functions/s-gi.md)方法）處理。 如果您需要在追蹤物件例項化後變更報表套裝，請使用[`s.sa()`](../functions/sa-method.md)方法。
+* **`cookieDomain`**：已判斷AppMeasurement設定Cookie的網域。 目前版本的AppMeasurement會自動偵測正確的Cookie網域，使此變數過時。
+* **`cookieDomainPeriods`**：協助AppMeasurement判斷當網域包含多個句號時儲存Cookie的位置。 目前版本的AppMeasurement會自動偵測正確的網域，使此變數過時。
+* **`fpCookieDomainPeriods`**： `cookieDomainPeriods`的第一方對等項，用來在第一方網域的尾碼包含額外句號（例如`example.co.uk`）時在正確位置設定Cookie。 目前版本的AppMeasurement會自動偵測正確的網域，使此變數過時。
+* **`trackingServer`**：指定用來透過HTTP傳送資料給Adobe的網域。 它已被取代，代之以安全資料收集而非HTTPS。 請改用 [`trackingServerSecure`](trackingserversecure.md)。
+* **`trackInlineStats`**：啟用或停用舊版[Activity Map](/help/analyze/activity-map/overview.md)。
+* **`visitorMigrationKey`**：攜帶用來將訪客從第三方移轉至第一方Cookie的金鑰。 此服務已淘汰，因為現代資料庫會設定第一方備援Cookie (`fid`)，且仰賴Experience Cloud ID服務取得身分。
+* **`visitorMigrationServer`**：指定在第三方到第一方Cookie移轉期間使用的伺服器。
+* **`visitorMigrationServerSecure`**： `visitorMigrationServer`的HTTPS對等項。
+* **`visitorNameSpace`**：協助判斷第三方Cookie網域。 已淘汰，改用[`trackingServerSecure`](trackingserversecure.md)變數用於未使用Experience Cloud ID服務的實作。

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
-source-wordcount: 1850
+source-wordcount: 1841
 ht-degree: 91%
 
 ---
@@ -174,7 +174,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 |--------|-------------|
 | **[!UICONTROL 平均分鐘觀眾數]** | 檢視您的媒體串流所花的時間除以透過「分類」提供的影片長度 (持續時間)。 |
 
-#### 自訂時段 {#custom-time-period-output}
+#### 自訂時段
 
 媒體平均分鐘觀眾數面板會傳回以下內容：
 
@@ -331,7 +331,7 @@ The Media average minute audience panel uses only the Average Minute Audience me
 |--------|-------------|
 | Average Minute Audience | The time spent viewing your media stream divided by the video length (duration) supplied via Classifications. |
 
-### Custom time period {#custom-time-period-output}
+### Custom time period
 
 The Media average minute audience panel returns the following:
 

@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 7375
+source-wordcount: 7391
 ht-degree: 94%
 
 ---
@@ -52,11 +52,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2026年6月** | |
+| 查詢字串參考更新 | [資料收集查詢引數](/help/implement/validate/query-parameters.md)的重大修訂。 |
+| Data Warehouse中的區段 | 更新[Data Warehouse區段相容性](/help/export/data-warehouse/segment-compatibility.md)。 |
 | 已將GA取代為AA指南 | GA至AA指南參考了Universal Analytics，後者已於2023年廢止。 新的指南已取代它，[從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
-| **2026年5月** | |
+| **2026 年 5 月** | |
 | 串流媒體維度和量度 | 串流媒體檔案的重大更新。 範例連結包括[串流媒體服務核心維度](/help/components/dimensions/sm-core.md)和[串流媒體服務核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
-| 劃分面板 | 已重新建構面板[&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的拖放區域檔案，以支援新的[劃分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
+| 劃分面板 | 已重新編排[面板放置區](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的說明文件，以支援新增的[劃分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
 | 已識別新報表套裝的IP模糊化預設選項 | 新增資訊以指出&#x200B;**移除IP位址**&#x200B;是新報表套裝[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)的預設IP模糊化選項。 |
 | 處理訂單大修 | 大幅改善Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的處理順序。 |
 | Adobe Advertising整合 | 新增Adobe Advertising整合維度和量度，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
@@ -78,7 +80,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 歸因設定 | 反映模型、容器及回顧期間新歸因設定選項的其他更新。 |
 | 其他的訪客身分識別改善 | 新增「[訪客身分識別](/help/implement/id/overview.md)」區段，概述在所有實施類型中識別訪客的建議方式。 |
 | **2025 年 9 月** | |
-| 訪客身分識別改善 | 釐清有關訪客身分識別的最佳做法，著重於 AppMeasurement 中 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 和 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 變數的用途。 |
+| 訪客身分識別改善 | 釐清有關訪客身分識別的最佳做法，著重於 AppMeasurement 中 `trackingServer` 和 [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) 變數的用途。 |
 | **2025 年 8 月** | |
 | 資料摘要名稱必須是唯一 | 清楚說明為什麼[資料摘要名稱必須是唯一](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique)。 |
 | 棄用警告 | 已針對[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)和[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)區段中的文章新增棄用警告。 |
@@ -92,7 +94,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2025 年 3 月** |  |
 | Analytics 庫存 | [Analytics 庫存](/help/admin/tools/analytics-inventory.md)提供您的 Adobe Analytics 環境全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。 |
 | Customer Journey Analytics 升級指南 | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的[逐步指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=zh-hant#recommended-upgrade-steps-for-most-organizations)。 |
-| 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。 新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱 [Data Warehouse元件支援](/help/export/data-warehouse/component-support.md)中的[以不同方式支援的維度 (非標準日期格式)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting)。</p> |
+| 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。 新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中元件支援中的[維度具有非標準日期格式](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 更新有關 IP 排除項目的資訊 | 新增資訊，說明 [IP 排除項目](/help/admin/tools/exclude-ip.md)最多可能需要 5 分鐘才能生效，以及變更僅適用於新的相符項目 (在設定排除項目之前擷取的資料不受影響)。 <p>也更新內容版面以改善可讀性。</p> |
 | **2025 年 2 月** |  |
 | 暫停和重新啟用資料摘要的相關更新資訊 | 當[暫停及重新啟用資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。 在摘要暫停到重新啟用期間不會進行資料處理。 |
@@ -124,7 +126,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2024 年 6 月** | |
 | 已更新為提及串流媒體服務功能的產品名稱 | 提及用來收集串流媒體資料並將其顯示在 Analysis Workspace 的串流媒體功能集時，出現「媒體分析」和「串流媒體」之處已替換為「串流媒體收集附加元件」和「串流媒體收集」等名稱。 <p>這些更新可在 Adobe Analytics 文件以及[串流媒體收集文件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)中找到。</p> |
 | 已改善的警報文件 | 更新並改善有關警報的文件。 這些更新包括有關[建立警報](/help/components/alerts/alert-builder.md)、[管理警報](/help/components/alerts/alert-manager.md)的資訊，和[概觀資訊](/help/components/alerts/alerts-overview.md)。 |
-| 已棄用 `cookieDomainPeriods` | 現在，AppMeasurement 會自動偵測要設定 Cookie 的正確網域，因此已棄用 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 變數。 |
+| 已棄用 `cookieDomainPeriods` | 現在，AppMeasurement 會自動偵測要設定 Cookie 的正確網域，因此已棄用 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 變數。 |
 | 停用 Data Connectors 文件 | 將 Data Connectors 生命週期終止頁面移至[停產產品](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-connectors)。 |
 | **2024 年 5 月** | |
 | 在資料摘要和 Data Warehouse 中透過 Google Cloud Platform 使用組織原則限制時的必要資訊 | 將 Adobe 擁有的 Google Cloud Platform 組織 ID 新增至[資料摘要](/help/export/analytics-data-feed/create-feed.md)和 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 文件中。 <p>只有當組織在 Google Cloud Platform 中使用[組織原則限制](https://cloud.google.com/storage/docs/org-policy-constraints)時才需要此資訊。</p> |
@@ -137,7 +139,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 與分類集中的「所有者」相關的文件已移除 | 「所有者」篩選器和欄已從[分類集管理員](/help/components/classifications/sets/manage-sets.md)中移除，「所有者」欄位已從[分類集設定](/help/components/classifications/sets/manage/settings.md)中移除。 <p>文件已更新以刪除此篩選器、欄和欄位。</p> |
 | 刪除了文件中有關設定雲端匯入和匯出位置的可摺疊區段 | 刪除了[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中的可摺疊區段，可獲得說明雲端帳戶類型的資訊。 |
 | **2024 年 3 月** | |
-| AppMeasurement 更新 | [發行說明](/help/implement/appmeasurement-updates.md) - AppMeasurement 更新 v2.26.0。<br/>包括對 [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) 設定變數文件的參考和更新。 |
+| AppMeasurement 更新 | [發行說明](/help/implement/appmeasurement-updates.md) - AppMeasurement 更新 v2.26.0。<br/>包括對 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 設定變數文件的參考和更新。 |
 | 關於「使用於」欄的使用情況資訊，僅從 2023 年 9 月開始提供。 | 澄清[專案登陸頁面](/help/analyze/landing.md)上的「**使用於**」欄的使用情況資訊只能追溯到 2023 年 9 月。 |
 | **2024 年 2 月** | |
 | 有關管理 Data Warehouse 請求的資訊更新 | 澄清依預設使用者只能查看他們在[管理 Data Warehouse 請求](/help/export/data-warehouse/data-warehouse-requests-manage.md)時所建立的請求。 |

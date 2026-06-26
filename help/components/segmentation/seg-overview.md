@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 89%
+source-wordcount: 1052
+ht-degree: 85%
 
 ---
 
@@ -144,6 +144,10 @@ Analysis Workspace 包含以下附加功能：
 - 您可以[比較區段](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)。
 - 在自由格式表格視覺效果中使用區段作為維度。
 - 在[流失分析](../../analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)中使用區段。
+
+## Data Warehouse相容性
+
+並非所有區段功能都與Data Warehouse相容。 某些區段結構和維度不受支援，且在建立Data Warehouse請求時不會顯示使用這些區段的區段。 如需支援和不支援功能的完整清單，請參閱[Data Warehouse區段相容性](/help/export/data-warehouse/segment-compatibility.md)。
 
 ## Adobe 提供的區段
 

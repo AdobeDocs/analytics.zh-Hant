@@ -16,10 +16,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 78%
+source-wordcount: 232
+ht-degree: 75%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 78%
 
 * 您可以在[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)中使用此維度，以查看訪客在點進哪些頁面之後遇到錯誤。 然後，您可以與組織中的開發團隊合作，以修正每個頁面上的連結。
 * 您可以將此維度與[反向連結](referrer.md)維度搭配使用，以查看訪客從何處透過外部連結到達您的網站。 然後，您可以實作重新導向連至所需的位置，或與第三方合作以修正連結。
+
+>[!NOTE]
+>
+>在Data Warehouse中，此維度名為&#39;[!UICONTROL 頁面型別錯誤]&#39;。
 
 ## 將資料填入此維度中
 

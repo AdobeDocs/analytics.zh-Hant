@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 匯出指南
 breadcrumb-title: 匯出指南
 user-guide-description: 了解如何使用資料摘要和 Data Warehouse 擷取資料輸出。
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 94%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 94%
    + [依量度排序](data-warehouse/sorting-by-metric.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援的元件](data-warehouse/component-support.md)
+   + [Data Warehouse 區段相容性](data-warehouse/segment-compatibility.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [透過Adobe CX Enterprise使用FTP和SFTP](ftp-and-sftp/ftp-overview.md)

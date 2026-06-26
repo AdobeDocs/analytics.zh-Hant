@@ -18,7 +18,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 1955
 ht-degree: 76%
@@ -85,7 +85,7 @@ ht-degree: 76%
 | `xdm.environment.operatingSystem` | 行動生命週期維度[作業系統](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.environment.operatingSystemVersion` | 協助設定行動生命週期維度[作業系統版本](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定個別 [eVar](/help/components/dimensions/evar.md) 維度。 |
-| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | 設定個別[階層](/help/components/dimensions/hierarchy.md)維度。 |
+| `xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`hierarchies.hier5` | 設定個別[階層](/help/components/dimensions/overview.md#retired-dimensions)維度。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 清單屬性分隔符號覆寫。 不建議使用此欄位，因為分隔符號是根據報告套裝設定，從[流量變數管理員](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)自動擷取。 使用此欄位可能會造成所使用的分隔符號與 Analytics 預期使用的分隔符號不相符。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`listProps.prop1.values`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 字串陣列含有個別[清單流量變數](../vars/page-vars/prop.md#list-props)值。 |
 | `xdm._experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 將每個相關 `list[]` 陣列中的所有 `value` 字串都串連到其相關的[清單變數](../vars/page-vars/list.md)。 分隔符號是根據[報告套裝設定](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)中設置的值來自動選擇。 |
@@ -95,7 +95,7 @@ ht-degree: 76%
 | `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。 |
 | `xdm.marketing.trackingCode` | 設定[追蹤程式碼](/help/components/dimensions/tracking-code.md)維度。 |
 | `xdm.media.mediaTimed.completes.value` | 串流媒體服務量度[內容完成](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-completes)。 |
-| `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |
+| `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`、`a.media.timePlayed`、`a.media.play` |
 | `xdm.media.mediaTimed.federated.value` | 串流媒體服務量度[聯合資料](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/federated-data)。 |
 | `xdm.media.mediaTimed.firstQuartiles.value` | 串流媒體服務量度 [25% 進度標記](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
 | `xdm.media.mediaTimed.mediaSegmentView.value` | 串流媒體服務量度[內容區段觀看次數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-segment-views)。 |

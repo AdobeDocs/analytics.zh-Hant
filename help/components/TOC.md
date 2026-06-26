@@ -3,14 +3,13 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
-user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。 了解跨裝置分析。
+source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 98%
+source-wordcount: '777'
+ht-degree: 97%
 
 ---
-
 
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
@@ -27,7 +26,7 @@ ht-degree: 98%
    + [所有搜尋頁面排名](dimensions/all-search-page-rank.md)
    + [AMO ID](dimensions/amo-id.md)
    + [AMO EF ID](dimensions/amo-ef-id.md)
-   + [AMO Meta 廣告點按 ID](dimensions/amo-meta-id.md)
+   + [AMO Meta廣告點選ID](dimensions/amo-meta-id.md)
    + [上午/下午](dimensions/am-pm.md)
    + [機器人名稱](dimensions/bot-name.md)
    + [瀏覽器高度](dimensions/browser-height.md)
@@ -59,14 +58,15 @@ ht-degree: 98%
    + [eVar (銷售)](dimensions/evar-merchandising.md)
    + [退出維度](dimensions/exit-dimensions.md)
    + [退出連結](dimensions/exit-link.md)
+   + [Experience Cloud 訪客 ID](dimensions/experience-cloud-visitor-id.md)
    + [首次接觸管道](dimensions/first-touch-channel.md)
    + [首次接觸管道詳細資料](dimensions/first-touch-detail.md)
-   + [階層](dimensions/hierarchy.md)
    + [點擊深度](dimensions/hit-depth.md)
    + [點擊類型](dimensions/hit-type.md)
    + [當天特定時間](dimensions/hour-of-day.md)
    + [小時](dimensions/hour.md)
    + [已識別的狀態](dimensions/identified-state.md)
+   + [IP 位址](dimensions/ip-address.md)
    + [Java 已啟用](dimensions/java-enabled.md)
    + [語言](dimensions/language.md)
    + [上次接觸管道](dimensions/last-touch-channel.md)
@@ -89,6 +89,7 @@ ht-degree: 98%
    + [永久性 Cookie 支援](dimensions/persistent-cookie-support.md)
    + [產品](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [購買 ID](dimensions/purchase-id.md)
    + [季別](dimensions/quarter-of-year.md)
    + [季](dimensions/quarter.md)
    + [反向連結類型](dimensions/referrer-type.md)
@@ -117,6 +118,7 @@ ht-degree: 98%
    + [語音維度](dimensions/voice-dimensions.md)
    + [造訪深度](dimensions/visit-depth.md)
    + [造訪次數](dimensions/visit-number.md)
+   + [訪客 ID](dimensions/visitor-id.md)
    + [週](dimensions/week.md)
    + [平日/週末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
@@ -182,6 +184,7 @@ ht-degree: 98%
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
+   + {hide-from-toc}[子點選分析](segmentation/sub-hit.md)
    + 工作流程 {#segmentation-workflow}
       + [概觀](segmentation/segmentation-workflow/seg-workflow.md)
       + [規劃區段](segmentation/segmentation-workflow/seg-plan.md)
@@ -201,7 +204,6 @@ ht-degree: 98%
       + [使用區段](segmentation/segmentation-workflow/t-seg-apply.md)
    + 參考 {#segment-reference}
       + [運算子](segmentation/seg-reference/seg-operators.md)
-      + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
    + [舊版區段常見問題](segmentation/seg-transition.md)
@@ -309,8 +311,7 @@ ht-degree: 98%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [搭配行銷管道使用 Attribution &#x200B;](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution](c-marketing-channels/mchannel-best-practices.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)
-

@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 47%
@@ -136,7 +136,7 @@ ht-degree: 47%
 | [退出伺服器](exit-dimensions.md) | `exitserver` |
 | [退出網站區域](exit-dimensions.md) | `exitsitesections` |
 | [點選深度](hit-depth.md) | `hitdepth` |
-| [點擊類型](hit-type.md) | `hittype` |
+| [點擊類型](hit-type.md) | `customerperspective` |
 | [小時](hour.md) | `daterangehour` |
 | [當天幾點](hour-of-day.md) | `timeparthourofday` |
 | [行銷管道詳細資料](marketing-detail.md) | `marketingchanneldetail` |

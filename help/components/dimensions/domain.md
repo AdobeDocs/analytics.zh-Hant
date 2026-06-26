@@ -20,16 +20,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 141
-ht-degree: 54%
+source-wordcount: 162
+ht-degree: 47%
 
 ---
 
 # 網域
 
 「網域」[維度](overview.md)會報告訪客用來存取網際網路的存取點。
+
+>[!NOTE]
+>
+>Data Warehouse包含報告類似資訊的停用&#39;[!UICONTROL 網域]&#39; (plural)維度。 Adobe建議使用此維度&#39;[!UICONTROL 網域]&#39; （單數），以維持一致性。
 
 ## 將資料填入此維度中
 
