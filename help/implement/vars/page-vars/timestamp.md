@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 82%
+source-wordcount: 304
+ht-degree: 67%
 
 ---
 
@@ -43,11 +43,11 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。 請依
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.timestamp
 
-`s.timestamp` 變數是包含點擊日期和時間的字串。 有效的時間戳記格式包括[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)和[Unix時間](https://en.wikipedia.org/wiki/Unix_time) （以秒為單位）。
+`s.timestamp` 變數是包含點擊日期和時間的字串。 有效的時間戳記格式包括[ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)和[Unix時間](https://en.wikipedia.org/wiki/Unix_time) （以秒為單位）。
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2024-01-01T00:00:00Z";
+s.timestamp = "2026-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -61,24 +61,24 @@ s.timestamp = new Date().toISOString();
 
 ## ISO 8601 值
 
-以 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 表示的日期和時間，可能會採用數種不同的形式。 Adobe 不支援 ISO 8601 的所有功能。
+以 [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) 表示的日期和時間，可能會採用數種不同的形式。 Adobe 不支援 ISO 8601 的所有功能。
 
 * 日期與時間都必須提供，使用 `T` 分隔。
 * 小時和分鐘都是必要值；秒數是選用值，不過建議提供。
 * 不支援週日期和序數日期。
-* 日期可採用標準或延伸格式。 例如 `2024-01-01T00:00:00Z` 和 `20240101T000000Z` 都有效。
-* 技術上來說，分數形式的分鐘和秒是有效值，不過 Adobe 會忽略分數部分。
+* 日期可採用標準或延伸格式。 例如 `2026-01-01T00:00:00Z` 和 `20260101T000000Z` 都有效。
+* 技術上來說，分數形式的分鐘和秒是有效的，但分數會被忽略。 Adobe Analytics僅支援第二級精確度的時間戳記。 如果毫秒級的精確度是組織的優先順序，請考慮使用Customer Journey Analytics。
 * 支援的標準和延伸格式的時區。
 
 以下是 `timestamp` 變數中的有效範例 ISO 8601 值：
 
 ```text
-2024-01-01T00:00:00+00:00
-2024-01-01T00:00:00Z
-2024-01-01T00:00:00
-2024-01-01T00:00
-20240101T000000+0000
-20240101T000000Z
-20240101T000000
-20240101T0000
+2026-01-01T00:00:00+00:00
+2026-01-01T00:00:00Z
+2026-01-01T00:00:00
+2026-01-01T00:00
+20260101T000000+0000
+20260101T000000Z
+20260101T000000
+20260101T0000
 ```
