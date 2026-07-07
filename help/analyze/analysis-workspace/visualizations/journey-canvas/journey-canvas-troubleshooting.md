@@ -3,7 +3,7 @@ description: 瞭解如何在Analysis Workspace中使用Journey Canvas視覺效�
 title: 歷程畫布疑難排解
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的Journey Canvas視覺效果。<br/><br/>_&#x200B;若需本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中的Journey Canvas視覺效果。<br/><br/>_&#x200B;若需本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本，請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting)。_
 
 >[!ENDSHADEBOX]
 
@@ -151,5 +151,4 @@ The following configurations can result in nodes that show percentages that exce
 * When the **[!UICONTROL Percentage value]** field is set to **[!UICONTROL Percent of total]** or **[!UICONTROL Percent of start node]**, and a primary metric is selected that results in less data for the start node than on subsequent nodes.
 
   For example, if Revenue is selected as the primary metric, and no revenue is being realized on the primary metric, then on any node where revenue is being realized will show as exceeding 100%. 
-
 -->
