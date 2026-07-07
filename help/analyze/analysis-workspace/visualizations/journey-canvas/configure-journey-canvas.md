@@ -3,7 +3,7 @@ description: 了解如何設定歷程畫布視覺化圖表。
 title: 設定歷程畫布視覺化圖表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -583,5 +583,4 @@ To change the color of a node or arrow:
 若要刪除歷程畫布中節點之間的箭頭：
 
 1. 在歷程畫布視覺化圖表中，選取您要刪除的 2 個節點之間的一個或多個箭頭，然後在其中一個選取的箭頭上按一下滑鼠右鍵。
-
 1. 選取「[!UICONTROL **刪除**]」。
