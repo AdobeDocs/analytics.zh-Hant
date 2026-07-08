@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 95%
+source-wordcount: 2004
+ht-degree: 86%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 95%
 您可以設定定義的類型和範圍：
 
 1. 若要指定定義的類型，請指定是否要建立一個包含定義或一個排除定義。 選取 ![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 「選項」]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**。
-1. 若要指定定義的範圍，請從&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**&#x200B;下拉式選單中，選取您所需的的定義範圍是&#x200B;**[!UICONTROL 「點擊」]**、**[!UICONTROL 「造訪」]**&#x200B;或&#x200B;**[!UICONTROL 「訪客」]**。
+1. 若要指定定義的範圍，請從「**[!UICONTROL 包含]**」或「**[!UICONTROL 排除]**」下拉式功能表選取，是否要定義範圍是&#x200B;**[!UICONTROL 點選]**、**[!UICONTROL 造訪]**、**[!UICONTROL 訪客]**&#x200B;或&#x200B;**[!UICONTROL 產品]**。 您針對[子點選分析](/help/components/segmentation/sub-hit.md)使用案例使用&#x200B;**[!UICONTROL 產品]**。
 
 您稍後可以隨時變更這些設定。
 
@@ -96,7 +96,9 @@ ht-degree: 95%
 
 若要新增元件：
 
-1. 將元件面板中的元件拖放至「**[!UICONTROL 將量度、區段和/或維度拖放至此處]**」。 您可以使用元件列中的「![搜尋](/help/assets/icons/Search.svg)」來搜尋特定元件。
+1. 將元件面板中的元件拖放至「**[!UICONTROL 將量度、區段和/或維度拖放至此處]**」。
+   * 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
+   * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL 產品]**&#x200B;元件。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
 1. 指定元件的詳細資訊。 例如，從「**[!UICONTROL 選擇值]**」中選取一個值。 或輸入一個值。 指定一個或多個值的內容和方式取決於元件和運算子。
 1. 可選擇修訂預設的運算子。 例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。 請參閱「[運算子](../seg-reference/seg-operators.md)」，了解可用運算子詳細概觀。
 
@@ -121,7 +123,7 @@ ht-degree: 95%
 * 若要為容器新增另一個元件，請將元件從元件面板拖曳到容器中。 使用藍色插入線作為準則。
 * 若要在容器外部新增另一個元件，請將元件從元件面板拖曳到容器外部，但拖曳到主定義容器內部。 使用藍色插入線作為準則。
 * 若要修改容器內元件之間、容器之間或容器與元件之間的邏輯，請選取適當的「**[!UICONTROL 以及]**」(And)、「**[!UICONTROL 或]**」(Or)、「**[!UICONTROL 然後]**」(Then)。 選取&#x200B;**[!UICONTROL 「Then」]**&#x200B;時，會將區段轉換為循序區段。 如需更多資訊，請參閱[建立循序區段](seg-sequential-build.md)。
-* 若要切換容器層級，請選取 ![網頁](/help/assets/icons/WebPage.svg)**[!UICONTROL 「點擊」]**、![造訪](/help/assets/icons/Visit.svg)**[!UICONTROL 「造訪」]**&#x200B;或 ![使用者](/help/assets/icons/User.svg)**[!UICONTROL 「訪客」]**。
+* 若要切換容器層級，請選取![網頁頁面](/help/assets/icons/WebPage.svg) **[!UICONTROL 點選]**、![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 造訪]**、![使用者](/help/assets/icons/User.svg) **[!UICONTROL 訪客]**&#x200B;或![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 產品]**。
 
 您可以在容器中使用 ![設定](/help/assets/icons/Setting.svg) 來執行下列動作：
 
@@ -133,6 +135,9 @@ ht-degree: 95%
 | **[!UICONTROL 容器名稱]** | 根據容器的預設說明為容器重新命名。 在文字欄位中輸入名稱。 如果您未輸入任何資料，則使用預設說明。 |
 | **[!UICONTROL 刪除容器]** | 根據定義來刪除容器。 |
 
+將產品維度或量度拖曳至區段產生器時，系統會自動選取&#x200B;**[!UICONTROL 產品]**&#x200B;容器，而不會使用預設的&#x200B;**[!UICONTROL 點選]**&#x200B;容器。 此行為會將區段的範圍限定為個別產品，而非整個點選。
+
+將產品層級和點選層級元件拖曳至單一區段規則時，系統會使用&#x200B;**[!UICONTROL 點選]**&#x200B;容器，這是最高（最小粒度）的共用容器。 如果屬於區段規則的所有元件都是產品層級，則會使用&#x200B;**[!UICONTROL 產品]**&#x200B;容器。
 
 ## 日期範圍
 

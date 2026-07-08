@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 77%
+source-wordcount: 1292
+ht-degree: 70%
 
 ---
 
@@ -91,9 +91,9 @@ ht-degree: 77%
 | 元素 | 說明 |
 |---|---|
 | **[!UICONTROL 名稱]** | 該名稱是從快速區段定義自動衍生。 |
-| **[!UICONTROL 人員]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所得的資料。 透過長條圖和百分比可以洞察整體資料中有多少是快速區段結果的一部分。 ![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
+| **[!UICONTROL _量度_]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![警報](/help/assets/icons/Alert.svg) | 預覽快速區段所產生量度資料的視覺效果。 透過長條圖和百分比可以洞察整體資料中有多少是快速區段結果的一部分。 ![警報](/help/assets/icons/AlertRed.svg)表示快速區段未傳回資料。 |
 | **[!UICONTROL 包括]**<br/>**[!UICONTROL 排除]** | 從下拉式清單![V形](/help/assets/icons/ChevronDown.svg)中選取是否要從面板中的資料包含或排除快速區段的結果。 |
-| **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 人員]** | 從下拉式功能表中選取![V形向下鍵](/help/assets/icons/ChevronDown.svg)快速區段的範圍。 |
+| **[!UICONTROL 事件]**<br/>**[!UICONTROL 工作階段]**<br/>**[!UICONTROL 人員]**<br/>**[!UICONTROL 產品]** | 從下拉式功能表中選取![V形向下鍵](/help/assets/icons/ChevronDown.svg)快速區段的範圍。 將&#x200B;**[!UICONTROL 產品]**&#x200B;用於[次點選分析](/help/components/segmentation/sub-hit.md)使用案例。<ul><li>將產品維度或產品量度拖曳至「快速區段」面板時，系統會自動選取&#x200B;**[!UICONTROL 產品]**&#x200B;容器，而不會使用預設的&#x200B;**[!UICONTROL 點選]**&#x200B;容器。 此行為會將區段的範圍限定為個別產品，而非整個點選。</li><li>將產品層級和點選層級元件拖曳至單一區段規則時，系統會使用&#x200B;**[!UICONTROL 點選]**&#x200B;容器，這是最高（最小粒度）的共用容器。 如果屬於區段規則的所有元件都是產品層級，則會使用&#x200B;**[!UICONTROL 產品]**&#x200B;容器。</li></ul> |
 
 ### 條件區域
 

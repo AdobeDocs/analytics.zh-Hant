@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。 了解跨裝置分析。
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: 6c65d675050e0e05fcf364faee2d00dcb23dfd22
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
@@ -184,7 +184,7 @@ ht-degree: 97%
    + [關於區段](segmentation/seg-overview.md)
    + [關於區段容器](segmentation/seg-containers.md)
    + [Analysis Workspace 中的分段功能](segmentation/segmentation-in-analysis-workspace.md)
-   + {hide-from-toc}[子點選分析](segmentation/sub-hit.md)
+   + [子點選分析](segmentation/sub-hit.md)
    + 工作流程 {#segmentation-workflow}
       + [概觀](segmentation/segmentation-workflow/seg-workflow.md)
       + [規劃區段](segmentation/segmentation-workflow/seg-plan.md)
