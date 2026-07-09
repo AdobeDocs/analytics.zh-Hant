@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
+source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
 workflow-type: tm+mt
 source-wordcount: 1895
 ht-degree: 9%
@@ -226,7 +226,7 @@ ht-degree: 9%
 >在成功匯入和處理檔案後，手動或使用檔案輪換原則從雲端位置移除檔案。 否則，系統會根據檔案的最後修改日期，使用30天的記錄，重新匯入及重新處理檔案。 請參閱下列範例。
 >
 
-### 範例
+#### 範例
 
 名為`import.csv`的匯入檔案於2026年5月1日建立及上傳，並於2026年6月16日更新及上傳。 未移除檔案時，於：
 
