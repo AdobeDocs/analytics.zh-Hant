@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 2%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 2%
 | **[!UICONTROL 狀態]** | 分類工作的狀態。 可能的值包括： **[!UICONTROL 已建立]**、**[!UICONTROL 已排入佇列]**、**[!UICONTROL 已驗證]**、**[!UICONTROL 已失敗的驗證]**、**[!UICONTROL 正在處理]**、**[!UICONTROL 已完成處理]**、**[!UICONTROL 已失敗的處理]**、**[!UICONTROL 已完成]**&#x200B;或&#x200B;**[!UICONTROL 進度]**。 如果顯示，將滑鼠游標停留在警示![警示](/help/assets/icons/Alert.svg)上以顯示其他資訊。 |
 | **[!UICONTROL 檔案名稱]** | 識別用來匯入或匯出檔案做為分類作業一部分的名稱或功能。 可能的值包括： <ul><li>*沒有值*</li><li>分類作業中處理的檔案名稱。</li><li>**[!UICONTROL SAINT匯出]**：作業是從[舊版分類介面](/help/components/classifications/importer/c-working-with-saint.md)匯出。</li><li>在&#x200B;_timestamp _&#x200B;**匯出_分類集&#x200B;_的**&#x200B;匯出：作業是從[結構描述](manage/schema.md#download)介面下載。</li></ul> |
 | **[!UICONTROL 工作型別]** | 分類工作的型別。 可能的值為： **[!UICONTROL 匯入]**&#x200B;或&#x200B;**[!UICONTROL 匯出]**。 |
-| **[!UICONTROL 來源]** | 分類工作的來源。 可能的值為： **[!UICONTROL 網頁API]**、**[!UICONTROL 直接API上傳]**、**[!UICONTROL Adobe]**、**[!UICONTROL SAINT]**&#x200B;或&#x200B;**[!UICONTROL 未知]**。 |
+| **[!UICONTROL 來源]** | 分類工作的來源。 如需可能來源的詳細資訊，請參閱[篩選面板](#filter-panel)。 |
 | **[!UICONTROL 修改行]** | 分類作業修改的修改行數。 |
 | **[!UICONTROL 總行]** | 分類工作已處理的行總數。 |
 | **[!UICONTROL 完成時間]** | 分類工作的完成時間。 |
@@ -88,6 +88,21 @@ ht-degree: 2%
 * **[!UICONTROL 狀態]**。 選取其中一個可能值，以篩選狀態上的分類作業清單。
 * **[!UICONTROL 工作型別]**。 選取其中一個可能值，以篩選工作型別上的分類工作清單。
 * **[!UICONTROL Source]**。 選取其中一個可能值，以篩選來源上的分類作業清單。
+
+  **[!UICONTROL Source]**&#x200B;可能的值為：
+
+  | 來源 | 說明 |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Adobe在內部程式中建立的作業。 例如，合併。 |
+  | **[!UICONTROL 後端]** | 已遭取代的FTP匯入程式所建立的工作。 |
+  | **[!UICONTROL 雲端擷取]** | 從雲端位置匯入分類資料所產生的作業。 |
+  | **[!UICONTROL 直接API匯出]** | 因使用Adobe Analytics 2.0 API匯出分類資料而產生的作業。 |
+  | **[!UICONTROL 直接API上傳]** | 因使用Adobe Analytics 2.0 API上傳分類資料而產生的作業。 |
+  | **[!UICONTROL 重新發佈]** | 重新發佈後產生的工作。 |
+  | **[!UICONTROL 規則型分類]** | 規則型分類結果的作業。 |
+  | **[!UICONTROL Saint]** | 作為舊版規則型分類結果的作業。 |
+  | **[!UICONTROL 網頁API]** | 因使用網頁API匯出或上傳分類資料而產生的作業。 |
+  | **[!UICONTROL 未知]** | 來源不明的作業。 |
 
 
 選取![篩選器](/help/assets/icons/Filter.svg) **[!UICONTROL 隱藏篩選器]**&#x200B;以隱藏篩選器面板。
