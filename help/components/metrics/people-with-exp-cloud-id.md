@@ -26,7 +26,7 @@ ht-degree: 58%
 
 ## 此量度的計算方式
 
-在考慮每個[人員](people.md) （已識別或未識別）的情況下，如果點選包含`mid`查詢字串（根據[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie），則此[量度](overview.md)會增加。
+在考慮每個[人員](people.md) （已識別或未識別）的情況下，如果點選包含`mid`查詢字串（根據[`s_ecid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie），則此[量度](overview.md)會增加。
 
 您可以使用 ID 服務建立計算量度 `[People with ECID] ÷ [People]`，以獲取您網站的訪客百分比。
 
