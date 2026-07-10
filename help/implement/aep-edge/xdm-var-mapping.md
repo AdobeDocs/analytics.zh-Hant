@@ -18,10 +18,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1955
-ht-degree: 76%
+source-wordcount: 1973
+ht-degree: 75%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 76%
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](/help/components/dimensions/prop.md)維度。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | 套用[事件序列化](../vars/page-vars/events/event-serialization.md)至個別[自訂事件](/help/components/metrics/custom-events.md)量度。 每個事件 ID 位於其 100 群組父系中。 例如，若要將序列化應用於 `event678`，請使用 `xdm._experience.analytics.event601to700.event678.id`。 |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](/help/components/metrics/custom-events.md)量度增加所需的數量。 每個事件位於其 100 群組父系中。 例如，`event567` 的欄位是 `xdm._experience.analytics.event501to600.event567.value`。 |
-| `xdm.identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。 |
+| `xdm.identityMap.ECID[0].id` | 使用[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[Experience Platform身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)收集的ECID。 |
 | `xdm.marketing.trackingCode` | 設定[追蹤程式碼](/help/components/dimensions/tracking-code.md)維度。 |
 | `xdm.media.mediaTimed.completes.value` | 串流媒體服務量度[內容完成](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-completes)。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`、`a.media.timePlayed`、`a.media.play` |

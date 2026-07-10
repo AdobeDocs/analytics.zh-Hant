@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 94%
 
 ---
@@ -217,7 +217,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。 查看[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
 | Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。 請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md)」。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 已徹底重寫，現已發佈在 Adobe Developer 上。 |
-| 跨實作類型追蹤 | 已更新使用範例[追蹤不同的實作類型](../implement/id/cross-type-implementation.md)，以符合 Experience Cloud ID 服務。 |
+| 跨實作類型追蹤 | 已更新跨不同實作型別的使用案例[追蹤](../implement/id/cross-type-implementation.md)以容納訪客ID服務。 |
 | **2023 年 1 月** | |
 | 篩選和排序表格 | 已更新[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。 重新命名本文的「分頁、篩選和排序表格」。 |
 | 資料夾 | [檔案夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |

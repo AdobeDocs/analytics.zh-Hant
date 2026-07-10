@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
-ht-degree: 20%
+ht-degree: 19%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe使用數種不同的方法來[識別您網站上的訪客](../../id/overvi
 
 >[!IMPORTANT]
 >
->Adobe 建議您不要使用此變數。 請改用 [Adobe Experience Cloud 身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+>Adobe 建議您不要使用此變數。 請改用[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。
 
 ## Analytics如何使用`visitorID`
 

@@ -18,10 +18,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 60%
+source-wordcount: 784
+ht-degree: 56%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ## 使用 Adobe 工具組合
 
-此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。 這些功能包括：Experience Cloud ID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式概觀。
+此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。 這些功能包括：訪客ID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式概觀。
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
@@ -50,11 +50,11 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-以下為透過「資料元素」擷取此 ID 的方式。 請務必在「資料元素」中正確填入您的CX Enterprise OrgID。
+以下為透過資料元素擷取此ID的方式。 請務必在資料元素中正確填入您的IMS組織ID。
 
 `return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
-設定這個「資料元素」後，請按照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)，使用 Adobe Experience Platform 中的標記將已宣告的 ID 傳遞到 ECID 工具中。
+設定此資料元素後，請依照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)，使用Adobe Experience Platform中的標籤將已宣告的ID傳遞到ECID工具中。
 
 ### 步驟 2：使用分段來識別機器人
 
@@ -68,7 +68,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-請記得將CX Enterprise訪客ID設為維度並套用「機器人」區段。
+請記得將[!UICONTROL Experience Cloud訪客ID]設為維度並套用「機器人」區段。
 
 ### 步驟4：將此清單傳回Adobe作為客戶屬性
 

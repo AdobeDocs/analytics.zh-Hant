@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 16%
+source-wordcount: 870
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables)是此變數的淘汰變體。 它指定透過HTTP傳送的資料網域；如果是HTTPS盛行，請改用`trackingServerSecure`。 如果`s.trackingServerSecure`為空白，AppMeasurement會退回至`s.trackingServer`值。
 
-在[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)之前，此變數也會決定協力廠商Cookie的設定位置。 Adobe強烈建議儘可能在所有實施中使用ID服務。
+在[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home) (`VisitorAPI.js`)之前，此變數也會決定協力廠商Cookie的設定位置。 Adobe強烈建議儘可能在所有實施中使用訪客ID服務。
 
 ## 使用Web SDK擴充功能的Edge網域
 
@@ -90,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 您用於`trackingServerSecure` （或`edgeDomain`）的值取決於幾個因素：
 
 * 您參與[Adobe管理的憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)
-* 若您已實作並正確設定[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)
+* 若您已實作[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)並正確設定
 
 **如果您的組織參與Adobe管理的憑證方案**，請將值設定為設定憑證時選取的第一方網域。 通常此值是您的組織所擁有的子網域。 例如，`data.example.com`。 貴組織中的CNAME記錄會將該資料重新導向至Adobe。
 
@@ -110,15 +110,15 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Adobe強烈建議將此資訊保留在[解決方案設計檔案](../../prepare/solution-design.md)中，以在整個組織內保持一致。
 
-## 不使用訪客ID服務所產生的影響
+## 不使用訪客ID服務或Experience Platform Identity服務所產生的影響
 
-Adobe強烈建議在所有實作中使用[Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。 ID服務可透過數種不同的方式實作：
+Adobe強烈建議在所有實作中使用ECID作為訪客身分的主要形式。 您可透過數種不同的方式實作ECID，具體取決於實作型別：
 
-* 手動AppMeasurement實作使用`VisitorAPI.js`並呼叫`getInstance`方法。 如需詳細資訊，請參閱[實作適用於Analytics的Experience Cloud Identity服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/setup-analytics)。
-* 使用Adobe Analytics標籤擴充功能的實作使用[Adobe Experience Cloud ID服務標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/id-service/overview)。 新增後，就不需要其他設定。
-* 使用任何形式的Web SDK （`alloy.js`或Web SDK標籤擴充功能）的實作已原生內建ID服務。 設定`edgeDomain`值之後不需要設定。
+* 手動AppMeasurement實作使用`VisitorAPI.js`並呼叫`getInstance`方法。 如需詳細資訊，請參閱[實作Analytics的訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/setup-analytics)。
+* 使用Adobe Analytics標籤擴充功能的實作使用[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/id-service/overview)，這會實作訪客ID服務。 新增後，就不需要其他設定。
+* 使用任何形式的Web SDK （`alloy.js`或Web SDK標籤擴充功能）的實施會自動包含Experience Platform Identity Service。 設定`edgeDomain`值之後不需要設定。
 
-**如果您的實作未使用Identity Service**，請考慮下列對實作的影響：
+**如果您的實作不使用ECID**，請考慮下列對實作的影響：
 
-* 如果未使用身分識別服務，`trackingServerSecure`會決定Cookie位置。 將此變數設為協力廠商網域會強制AppMeasurement使用備援Cookie，因為大部分的現代瀏覽器都會拒絕協力廠商Cookie。
+* 如果未使用訪客ID服務或Experience Platform Identity服務，`trackingServerSecure`會決定Cookie位置。 將此變數設為協力廠商網域會強制AppMeasurement使用備援Cookie，因為大部分的現代瀏覽器都會拒絕協力廠商Cookie。
 * 內部連結追蹤和Activity Map可能不太可靠。

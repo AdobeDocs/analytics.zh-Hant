@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 470
+source-wordcount: 468
 ht-degree: 91%
 
 ---
@@ -107,4 +107,4 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 ## Facebook 即時文章與隱私權
 
-只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會透過 Facebook 即時文章支援您現有的隱私權政策。 若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。 此公用程式頁面也支援Adobe Experience Cloud Identity Service，因此您可以將Facebook即時文章資料與CX Enterprise的其他部分整合。
+只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會透過 Facebook 即時文章支援您現有的隱私權政策。 若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。 此公用程式頁面也支援訪客ID服務，因此您可以將Facebook即時文章資料與CX Enterprise的其他部分整合。

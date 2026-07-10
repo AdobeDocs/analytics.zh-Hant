@@ -13,9 +13,9 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 535
 ht-degree: 82%
 
 ---
@@ -34,12 +34,11 @@ ht-degree: 82%
 
 Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要開始此程序，請聯絡客戶服務，並備妥以下資訊：
 
-* 您的Adobe CX Enterprise組織ID （以@AdobeOrg結尾的英數字串）
+* 您的IMS組織ID （以@AdobeOrg結尾的英數字串）
 * 您要透過 CDA 啟用跨裝置報表套裝的報表套裝 ID
 * 您要使用哪種CDA方法（依欄位彙整）
 * 如果使用依欄位拚接，則需使用包含使用者 ID 的 prop/eVar
-* 您的重播頻率和回顧時間長度偏好設定。 包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。
-預設值為每週重播一次且回顧期間為 7 天。 在此情況下，上一週的資料可能會有變動 (因為該資料正在逐步拼接和更新)。
+* 您的重播頻率和回顧時間長度偏好設定。 包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。預設值為每週重播一次且回顧期間為 7 天。 在此情況下，上一週的資料可能會有變動 (因為該資料正在逐步拼接和更新)。
 
 向客戶服務提供此資訊後，他們就會與 Adobe 工程部門合作，好讓您選擇的報表套裝進行 CDA 處理。
 

@@ -30,10 +30,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2881
-ht-degree: 57%
+source-wordcount: 2880
+ht-degree: 55%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 57%
 發行日期： **2024年3月4日**
 
 * AppMeasurement會自動辨識並利用國家/地區程式碼最上層網域的根網域，而這之前需要特定的Cookie網域設定。 更新可能會因為此自動識別而產生影響。
-* 此分佈包含Identity Service Library 5.5.0和Data Integration Library 9.6。
+* 此分佈包含訪客ID服務程式庫5.5.0和Data Integration Library 9.6。
 
 ## 2.25.0 版本
 
@@ -178,7 +178,7 @@ ht-degree: 57%
 
 * Audience Manager 模組已更新至 DIL 9.1。 (AN-175255)
 * GTM安全性原則不允許Activity Map模組。 (AN-174679)
-* 改善 AppMeasurement；在身分識別服務不核准選擇加入時，讓使用者可以選擇退出。 (AN-175259)
+* 改善AppMeasurement，當訪客ID服務不核准選擇加入時，讓使用者可以選擇退出。 (AN-175259)
 
 ## 2.11.0 版本
 
@@ -205,7 +205,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->使用Experience Cloud ID服務的客戶需要具備訪客API 3.0或更新版本。 Adobe 建議只要更新相關的程式碼程式庫 (`at.js` 等等)，就要升級至最新的 Visitor API 版本。`AppMeasurement.js`
+>使用訪客ID服務的客戶需要具備訪客API 3.0或更新版本。 Adobe 建議只要更新相關的程式碼程式庫 (`at.js` 等等)，就要升級至最新的 Visitor API 版本。`AppMeasurement.js`
 
 * 更新AppMeasurement以使用更新後的訪客介面要求ID。 (AN-151483)
 * 修正連結追蹤關閉後，連結追蹤Cookie持續被寫入的問題。 (AN-156332)
@@ -321,7 +321,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->另請參閱下列JavaScript 1.6.3版的發行說明中，對Experience Cloud ID服務的更新要求。
+>另請參閱下列JavaScript 1.6.3版的發行說明中，對訪客ID服務的更新要求。
 
 ## 1.6.3 版本
 
@@ -331,7 +331,7 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->1.6.0版Experience Cloud ID服務&#x200B;*需要*&#x200B;適用於JavaScript 1.6.3或更新版本的AppMeasurement。 如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 AppMeasurement 1.6.3 版或更新版本。
+>1.6.0版訪客ID服務&#x200B;*需要*&#x200B;適用於JavaScript 1.6.3版或更新版本的AppMeasurement。 如果您想要升級為1.6.0版的訪客ID服務，請務必使用AppMeasurement 1.6.3或更新版本。
 
 ## 1.6.2 版本
 
@@ -469,7 +469,7 @@ ht-degree: 57%
 發行日期：**2014 年 6 月 19 日**
 
 * 修正處理訪客API欄位（例如舊版Analytics訪客ID）的完成和等待標幟時會發生錯誤的問題。
-* 支援訪客 ID 服務 1.3 的新功能。
+* 支援訪客ID服務1.3的新功能。
 
 ## 1.3.1 版本
 
@@ -481,7 +481,7 @@ ht-degree: 57%
 
 發行日期：**2014 年 4 月 17 日**
 
-* 支援[CX Enterprise Visitor ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 支援[訪客識別碼服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。
 
 ## 1.2.4 版本
 
@@ -512,7 +512,7 @@ ht-degree: 57%
 發行日期：**2013 年 11 月 14 日**
 
 * 新增對[心率視訊測量](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。
 
 ## 1.1.1 版本
 

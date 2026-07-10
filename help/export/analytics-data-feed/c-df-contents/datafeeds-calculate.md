@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 95%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 ## 訪客
 
-Adobe用來識別不重複訪客的所有方法（自訂訪客ID、Experience Cloud ID服務等） 最終都會計算為`post_visid_high`和`post_visid_low`中的值。 這兩欄的串連可用來當作識別獨特訪客的標準，不論識別為獨特訪客的方式為何皆然。 如果您想了解 Adobe 用來識別獨特訪客的方法，請使用 `post_visid_type` 欄。
+Adobe用來識別不重複訪客的所有方法（自訂訪客ID、ECID等） 最終都會計算為`post_visid_high`和`post_visid_low`中的值。 這兩欄的串連可用來當作識別獨特訪客的標準，不論識別為獨特訪客的方式為何皆然。 如果您想了解 Adobe 用來識別獨特訪客的方法，請使用 `post_visid_type` 欄。
 
 1. 串連 `post_visid_high` 和 `post_visid_low`。
 2. 計算值的唯一數目。

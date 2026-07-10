@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 44%
 
 | 參數 | Analytics 實施變數 | 說明 |
 | --- | --- | --- |
-| `aamlh` | 無 | Audience Manager位置提示。 識別透過Experience Cloud ID服務同步Audience Manager ID時所用的地區資料中心。 |
-| `aamb` | 無 | Audience Manager blob. 透過Experience Cloud ID服務在ID同步期間傳遞的編碼Audience Manager設定檔資料。 |
+| `aamlh` | 無 | Audience Manager位置提示。 識別區域資料中心，用於透過訪客ID服務同步Audience Manager ID。 |
+| `aamb` | 無 | Audience Manager blob. 透過訪客ID服務在ID同步期間傳遞的編碼Audience Manager設定檔資料。 |
 | `aid` | 無 | 舊版Analytics訪客ID，儲存在`s_vi` Cookie中。 已由現代實作中的`mid`引數取代。 |
 | `AQB` | 無 | 指出影像要求查詢字串的開頭。 |
 | `AQE` | 無 | 指出影像要求的結尾，表示要求並未被截斷。 |
@@ -71,7 +71,7 @@ ht-degree: 44%
 | `lat` | 無 | **已不再使用。** 緯度。 由舊版行動SDK實作設定；目前的行動實作會透過資料串流傳送地理位置。 |
 | `lon` | 無 | **已不再使用。** 經度。 由舊版行動SDK實作設定；目前的行動實作會透過資料串流傳送地理位置。 |
 | `lrt` | 無 | 「上次請求時間」，即上次請求的往返時間，以毫秒為單位。 只有在從單一頁面(例如單頁應用程式(SPA))傳送多個請求時，才會傳送它。 |
-| `mcorgid` | 無 | Experience Cloud組織ID，可向Experience Cloud ID服務識別組織。 |
+| `mcorgid` | 無 | IMS組織ID，可向訪客ID服務識別組織。 |
 | `mid` | 無 | 用於[[!UICONTROL Experience Cloud訪客ID]](/help/components/dimensions/experience-cloud-visitor-id.md)維度。 |
 | `ms_a` | 無 | 當追蹤的串流媒體是音訊而非視訊時，Media SDK將設為`1`。 |
 | `ndh` | 無 | AppMeasurement新增至其產生的每個影像請求。 由於硬式編碼請求通常會忽略它，因此它的存在表示點選來自AppMeasurement。 |
