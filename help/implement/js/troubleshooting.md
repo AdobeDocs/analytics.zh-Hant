@@ -5,25 +5,15 @@ feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
 TQID: https://experienceleague.adobe.com/U97L94cxnWYpnqsJ3FJh7EBbdIHpFHxfJP7uqoqrGgU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 702
-ht-degree: 93%
+source-wordcount: 686
+ht-degree: 89%
 
 ---
 
@@ -103,7 +93,7 @@ s.pageName = "        Home Page";
 
 將很長的值填入許多變數的實作有時會遇到截斷的影像要求。 有些較舊的瀏覽器 (例如 Internet Explorer) 會對影像要求 URL 施加 2083 個字元的限制。 如果您的組織遇到很長的影像要求，請嘗試下列步驟：
 
-* **使用 Experience Cloud ID 服務**：AppMeasurement 程式庫 1.4.1和更新版本會在影像要求過長時，使用 HTTP POST 來自動傳送影像要求。 不論資料長度為何，使用此方法傳送的資料都不會遭截斷。 如需詳細資訊，請參閱 [Adobe Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* **使用最新版的AppMeasurement**：AppMeasurement資料庫1.4.1和更新版本會在影像要求過長時，使用HTTP POST來自動傳送影像要求。 不論資料長度為何，使用此方法傳送的資料都不會遭截斷。
 * **使用處理規則**：[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)可將值從一個變數複製到另一個變數。 此方法可讓您省去在多個變數中設定相同值的繁瑣操作。 例如：
 
   一律執行：<br>

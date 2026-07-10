@@ -5,29 +5,15 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +23,8 @@ ht-degree: 44%
 
 | 參數 | Analytics 實施變數 | 說明 |
 | --- | --- | --- |
-| `aamlh` | 無 | Audience Manager位置提示。 識別透過Experience Cloud ID服務同步Audience Manager ID時所用的地區資料中心。 |
-| `aamb` | 無 | Audience Manager blob. 透過Experience Cloud ID服務在ID同步期間傳遞的編碼Audience Manager設定檔資料。 |
+| `aamlh` | 無 | Audience Manager位置提示。 識別區域資料中心，用於透過訪客ID服務同步Audience Manager ID。 |
+| `aamb` | 無 | Audience Manager blob. 透過訪客ID服務在ID同步期間傳遞的編碼Audience Manager設定檔資料。 |
 | `aid` | 無 | 舊版Analytics訪客ID，儲存在`s_vi` Cookie中。 已由現代實作中的`mid`引數取代。 |
 | `AQB` | 無 | 指出影像要求查詢字串的開頭。 |
 | `AQE` | 無 | 指出影像要求的結尾，表示要求並未被截斷。 |
@@ -71,7 +57,7 @@ ht-degree: 44%
 | `lat` | 無 | **已不再使用。** 緯度。 由舊版行動SDK實作設定；目前的行動實作會透過資料串流傳送地理位置。 |
 | `lon` | 無 | **已不再使用。** 經度。 由舊版行動SDK實作設定；目前的行動實作會透過資料串流傳送地理位置。 |
 | `lrt` | 無 | 「上次請求時間」，即上次請求的往返時間，以毫秒為單位。 只有在從單一頁面(例如單頁應用程式(SPA))傳送多個請求時，才會傳送它。 |
-| `mcorgid` | 無 | Experience Cloud組織ID，可向Experience Cloud ID服務識別組織。 |
+| `mcorgid` | 無 | IMS組織ID，可向訪客ID服務識別組織。 |
 | `mid` | 無 | 用於[[!UICONTROL Experience Cloud訪客ID]](/help/components/dimensions/experience-cloud-visitor-id.md)維度。 |
 | `ms_a` | 無 | 當追蹤的串流媒體是音訊而非視訊時，Media SDK將設為`1`。 |
 | `ndh` | 無 | AppMeasurement新增至其產生的每個影像請求。 由於硬式編碼請求通常會忽略它，因此它的存在表示點選來自AppMeasurement。 |

@@ -5,35 +5,15 @@ feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2881
-ht-degree: 57%
+source-wordcount: 2880
+ht-degree: 55%
 
 ---
 
@@ -58,7 +38,7 @@ ht-degree: 57%
 發行日期： **2024年3月4日**
 
 * AppMeasurement會自動辨識並利用國家/地區程式碼最上層網域的根網域，而這之前需要特定的Cookie網域設定。 更新可能會因為此自動識別而產生影響。
-* 此分佈包含Identity Service Library 5.5.0和Data Integration Library 9.6。
+* 此分佈包含訪客ID服務程式庫5.5.0和Data Integration Library 9.6。
 
 ## 2.25.0 版本
 
@@ -178,7 +158,7 @@ ht-degree: 57%
 
 * Audience Manager 模組已更新至 DIL 9.1。 (AN-175255)
 * GTM安全性原則不允許Activity Map模組。 (AN-174679)
-* 改善 AppMeasurement；在身分識別服務不核准選擇加入時，讓使用者可以選擇退出。 (AN-175259)
+* 改善AppMeasurement，當訪客ID服務不核准選擇加入時，讓使用者可以選擇退出。 (AN-175259)
 
 ## 2.11.0 版本
 
@@ -205,7 +185,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->使用Experience Cloud ID服務的客戶需要具備訪客API 3.0或更新版本。 Adobe 建議只要更新相關的程式碼程式庫 (`at.js` 等等)，就要升級至最新的 Visitor API 版本。`AppMeasurement.js`
+>使用訪客ID服務的客戶需要具備訪客API 3.0或更新版本。 Adobe 建議只要更新相關的程式碼程式庫 (`at.js` 等等)，就要升級至最新的 Visitor API 版本。`AppMeasurement.js`
 
 * 更新AppMeasurement以使用更新後的訪客介面要求ID。 (AN-151483)
 * 修正連結追蹤關閉後，連結追蹤Cookie持續被寫入的問題。 (AN-156332)
@@ -321,7 +301,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->另請參閱下列JavaScript 1.6.3版的發行說明中，對Experience Cloud ID服務的更新要求。
+>另請參閱下列JavaScript 1.6.3版的發行說明中，對訪客ID服務的更新要求。
 
 ## 1.6.3 版本
 
@@ -331,7 +311,7 @@ ht-degree: 57%
 
 >[!IMPORTANT]
 >
->1.6.0版Experience Cloud ID服務&#x200B;*需要*&#x200B;適用於JavaScript 1.6.3或更新版本的AppMeasurement。 如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 AppMeasurement 1.6.3 版或更新版本。
+>1.6.0版訪客ID服務&#x200B;*需要*&#x200B;適用於JavaScript 1.6.3版或更新版本的AppMeasurement。 如果您想要升級為1.6.0版的訪客ID服務，請務必使用AppMeasurement 1.6.3或更新版本。
 
 ## 1.6.2 版本
 
@@ -450,7 +430,7 @@ ht-degree: 57%
 
   >[!IMPORTANT]
   >
-  >若要讓Analytics呼叫使用`POST`方法，而不是AppMeasurement中的`GET`方法（解決IE[&#128279;](/help/implement/js/troubleshooting.md)中個截斷URL的方法），您必須對CX Enterprise使用最新的訪客ID服務實作。
+  >若要讓Analytics呼叫使用`POST`方法，而不是AppMeasurement中的`GET`方法（解決IE](/help/implement/js/troubleshooting.md)中[個截斷URL的方法），您必須對CX Enterprise使用最新的訪客ID服務實作。
 
 ## 1.4 版本
 
@@ -469,7 +449,7 @@ ht-degree: 57%
 發行日期：**2014 年 6 月 19 日**
 
 * 修正處理訪客API欄位（例如舊版Analytics訪客ID）的完成和等待標幟時會發生錯誤的問題。
-* 支援訪客 ID 服務 1.3 的新功能。
+* 支援訪客ID服務1.3的新功能。
 
 ## 1.3.1 版本
 
@@ -481,7 +461,7 @@ ht-degree: 57%
 
 發行日期：**2014 年 4 月 17 日**
 
-* 支援[CX Enterprise Visitor ID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 支援[訪客識別碼服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。
 
 ## 1.2.4 版本
 
@@ -512,7 +492,7 @@ ht-degree: 57%
 發行日期：**2013 年 11 月 14 日**
 
 * 新增對[心率視訊測量](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)。
 
 ## 1.1.1 版本
 
