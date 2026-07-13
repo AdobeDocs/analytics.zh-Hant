@@ -4,30 +4,15 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +27,7 @@ ht-degree: 59%
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
 | **子點選分析** <br/>子點選分析可讓您在比點選層級更精細的層級分析產品資料。 您可以對點選中的個別產品進行分段，而不需篩選整個點選。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。</p><p>如需詳細資訊，請參閱[子點選分析](/help/components/segmentation/sub-hit.md)。</p> | 7月8日 | 2026年7月底 |
-| **Activity Map擴充功能： Web SDK支援和UI重新整理** <br/>Adobe Analytics的Web SDK實作現在可以使用Activity Map覆蓋擴充功能來檢視其網站上覆蓋的點選資料。<p>以往，Activity Map覆蓋擴充功能僅適用於AppMeasurement實施。</p> <p>除了Web SDK支援，Activity Map Overlay擴充功能也包含更新的外觀。</p><p>(文件連結待補充。)</p> | | 2026年7月底 |
+| **Activity Map擴充功能： UI重新整理** <br/>Activity Map Overlay擴充功能具有更新的外觀和風格，以及可支援未來增強功能的基本改善。<p>(文件連結待補充。)</p> | | 2026年7月底 |
 | **AA 2.0 API搜尋功能指南** <br/>使用搜尋功能來[傳回報告中的維度專案子集](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。<p>如需詳細資訊，請參閱Adobe Developer上報表端點指南中的[搜尋功能](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。 | | 2026年7月1日 |
 | **使用AA API自動化週期性報告** <br/>使用報表API依排程為資料管道設定自動週期性報告，並採用最新量度。 <p>如需詳細資訊，請參閱Adobe Developer上的[自動循環Analytics報表端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)。</p> | | 2026年7月1日 |
 | **AA的新擴充引數** <br/>使用新的Dimension API擴充引數來擷取配置型別、有效期、資料型別和銷售的eVar設定欄位。 <p>如需詳細資訊，請參閱Adobe Developer上的[API參考](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)和[維度端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)。</p> | | 2026年7月1日 |
@@ -85,5 +70,5 @@ ht-degree: 59%
 >* [2026年舊版發行說明](/help/release-notes/2026.md)
 >* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 >* [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+>* [Adobe CX Enterprise 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
 
