@@ -3,10 +3,10 @@ description: 了解如何在 Analysis Workspace 中使用歷程畫布。
 title: 歷程畫布概觀
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_請參閱[Journey Canvas概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
 
@@ -49,6 +49,10 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 [節點已連線](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes)為「最終路徑」，這表示只要訪客最終從某個節點移至另一個節點，就會計入訪客，無論兩個節點之間發生任何事件。 使用者沿著路徑移動所分配的時間由容器設定來決定。
 
 ![歷程畫布](assets/journey-canvas.png)
+
+## 存取需求
+
+歷程畫布可供Adobe Analytics [Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/prime.html)和[Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/ultimate.html)客戶使用。
 
 ## 主要功能
 
@@ -144,4 +148,4 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 >[!MORELIKETHIS]
 >
-> * [Adobe Customer Journey Analytics 歷程畫布視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=zh-Hant)
+> * [Adobe Customer Journey Analytics 歷程畫布視覺效果指南](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
