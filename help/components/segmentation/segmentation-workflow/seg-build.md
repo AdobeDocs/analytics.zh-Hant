@@ -4,22 +4,14 @@ title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 86%
+source-wordcount: 1963
+ht-degree: 74%
 
 ---
 
@@ -28,7 +20,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="產品相容性"
->abstract="少數幾項可供使用的區段條件無法與所有 Adobe Analytics 工具相容。 此清單中列出與區段相容的工具。 若要讓細分群體與所有 Adobe Analytics 工具相容，請編輯您的條件。"
+>abstract="有些區段標準與某些Adobe Analytics工具不相容。 此清單中會指出相容的工具。 編輯您的條件以確保相容性。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +30,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="將此區段的資料和報告套裝的資料進行比較。 此預覽百分比是根據&#x200B;**過去 90 天**&#x200B;的總數。<br><br/>如果預覽未載入，您的連線可能仍在進行回填。"
+>abstract="比較區段資料與報表套裝資料。 預覽百分比是根據&#x200B;**過去90天**。<br><br/>如果未載入預覽，表示您的連線正在回填。"
 
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。 對於您從[[!UICONTROL 區段]管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
@@ -83,7 +75,7 @@ ht-degree: 86%
 
 您可以設定定義的類型和範圍：
 
-1. 若要指定定義的類型，請指定是否要建立一個包含定義或一個排除定義。 選取 ![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 「選項」]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**。
+1. 若要指定定義的型別，請指定您要建置包含或排除定義。 選取 ![設定](/help/assets/icons/Setting.svg)**[!UICONTROL 「選項」]**，並從下拉式選單中選取&#x200B;**[!UICONTROL 「包括」]**&#x200B;或&#x200B;**[!UICONTROL 「排除」]**。
 1. 若要指定定義的範圍，請從「**[!UICONTROL 包含]**」或「**[!UICONTROL 排除]**」下拉式功能表選取，是否要定義範圍是&#x200B;**[!UICONTROL 點選]**、**[!UICONTROL 造訪]**、**[!UICONTROL 訪客]**&#x200B;或&#x200B;**[!UICONTROL 產品]**。 您針對[子點選分析](/help/components/segmentation/sub-hit.md)使用案例使用&#x200B;**[!UICONTROL 產品]**。
 
 您稍後可以隨時變更這些設定。
@@ -122,7 +114,7 @@ ht-degree: 86%
 * 若要將現有元件新增至容器中，請將元件拖曳到容器中。
 * 若要為容器新增另一個元件，請將元件從元件面板拖曳到容器中。 使用藍色插入線作為準則。
 * 若要在容器外部新增另一個元件，請將元件從元件面板拖曳到容器外部，但拖曳到主定義容器內部。 使用藍色插入線作為準則。
-* 若要修改容器內元件之間、容器之間或容器與元件之間的邏輯，請選取適當的「**[!UICONTROL 以及]**」(And)、「**[!UICONTROL 或]**」(Or)、「**[!UICONTROL 然後]**」(Then)。 選取&#x200B;**[!UICONTROL 「Then」]**&#x200B;時，會將區段轉換為循序區段。 如需更多資訊，請參閱[建立循序區段](seg-sequential-build.md)。
+* 若要修改元件、容器或其組合的邏輯，請選取適當的&#x200B;**[!UICONTROL And]**、**[!UICONTROL Or]**、**[!UICONTROL Then]**。 選取&#x200B;**[!UICONTROL 「Then」]**&#x200B;時，會將區段轉換為循序區段。 如需更多資訊，請參閱[建立循序區段](seg-sequential-build.md)。
 * 若要切換容器層級，請選取![網頁頁面](/help/assets/icons/WebPage.svg) **[!UICONTROL 點選]**、![造訪](/help/assets/icons/Visit.svg) **[!UICONTROL 造訪]**、![使用者](/help/assets/icons/User.svg) **[!UICONTROL 訪客]**&#x200B;或![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL 產品]**。
 
 您可以在容器中使用 ![設定](/help/assets/icons/Setting.svg) 來執行下列動作：
@@ -141,14 +133,14 @@ ht-degree: 86%
 
 ## 日期範圍
 
-您可以建置包含滾動日期範圍的區段。 如此一來，您便可以回答有關持續進行的活動或事件的問題。 舉例來說，您可以建置包括「*過去 60 天內在線上購買過一次的人*」的區段。
+您可以建置包含滾動日期範圍的區段。 如此一來，您便可以回答有關持續進行的活動或事件的問題。 例如，您可以建立區段，包含&#x200B;*過去60天內進行線上購買的所有人員*。
 
 ![使用滾動日期範圍進行劃分](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -157,11 +149,11 @@ ht-degree: 86%
 
 您可以使用區段來建置區段。 當您在區段中使用區段時，您可以最佳化您的區段並降低複雜性。
 
-假設您想要根據互動管道 (5) 和美國各州 (50) 的組合進行劃分。 您可以建置 250 個區段，每個區段皆為裝置類型 (手機和平板電腦) 和美國各州的唯一組合。 若要取得加州平板電腦使用者的結果，您可以使用該 250 個區段之一：
+假設您想將互動頻道(5)和美國州(50)組合分段。 您可以建置 250 個區段，每個區段皆為裝置類型 (手機和平板電腦) 和美國各州的唯一組合。 若要在加州取得平板電腦使用者，請使用250個區段之一：
 
-![加州和平板電腦的簡易區段](assets/segment-ca-tablet-single.png)
+![加州和平板電腦的簡單區段](assets/segment-ca-tablet-single.png)
 
-或者，您可以定義 55 個區段：50 個區段用於美國各州，而 5 個區段用於可能的互動管道。 然後堆疊區段以取得相同的結果。 若要取得加州行動應用程式使用者的結果，您需要堆疊兩個區段：
+或者，定義55個區段：50個區段適用於美國州，5個適用於可能的互動管道。 若要取得相同的結果，請棧疊區段。 若要取得加州行動應用程式使用者，請棧疊兩個區段：
 
 ![加州和平板電腦的堆疊區段](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +180,7 @@ ht-degree: 86%
 
 
 
-當您在區段產生器中使用維度時，您可以選擇指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
+在「區段產生器」中使用維度時，您可以選擇指定該維度的歸因模型。 您選取的歸因模型會決定資料是否符合您為維度元件指定的條件。
 
 在維度元件中選取「![設定](/help/assets/icons/Setting.svg)」，然後從快顯視窗中選取一個歸因模型：
 
@@ -196,7 +188,7 @@ ht-degree: 86%
 |---|---|
 | **[!UICONTROL 重複模型 (預設)]** | 包含維度的實例和持續值來確定資格。 |
 | **[!UICONTROL 例項]** | 僅包含維度的實例值來確定資格。 |
-| **[!UICONTROL 非重複的例項]** | 包含維度的唯一實例 (非重複) 值來確定資格。 |
+| **[!UICONTROL 非重複的例項]** | 包含維度的唯一實例 (非重複) 值來確定資格。 非重複例項是排除重複例項時套用於「流量」中的模型。 |
 
 
 ![建立區段時的維度歸因模型](assets/segment-dimension-attribution.png)
@@ -213,16 +205,11 @@ ht-degree: 86%
 下表說明每個歸因模型，其中傳入的事件是符合該條件的 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)。
 
 
-| 女性頁面 - 歸因 - <br/>*歸因模型* | 事件 1：<br/>頁面名稱等於<br/>女性 | 事件 2：<br/>頁面名稱等於<br/>男性 | 事件 3：<br/>頁面名稱等於<br/>女性 | 事件 4：<br/>頁面名稱等於<br/>女性<br/> (持續) | 事件 5：<br/>頁面名稱等於<br/>結帳 | 事件 6：<br/>頁面名稱等於<br/>女性 | 事件 7：<br/>頁面名稱等於<br/>首頁 |
+| 女性頁面 - 歸因 - <br/>*歸因模型* | 事件 1：<br/>頁面名稱等於<br/>女性 | 事件 2：<br/>頁面名稱等於<br/>男性 | 事件 3：<br/>頁面名稱等於<br/>女性 | 事件 4：<br/>頁面名稱等於<br/>女性<br/> (持續) | 事件 5：<br/>頁面名稱等於<br/>結帳 | 事件 6：<br/>頁面名稱等於<br/>女性 | 事件7：<br/>頁面名稱等於<br/>女性（明確設定） |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| 重複 (預設) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
-| 例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
+| 重複 (預設) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| 例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 非重複的例項 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) | ![移除](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![移除](/help/assets/icons/Remove.svg) |
-
-使用三個區段的事件報告範例如下：
-
-![區段歸因模型結果](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -276,7 +263,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -337,7 +324,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -380,7 +367,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## 區段範本 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-區段範本是針對常見的細分使用案例所提供，例如「**[!UICONTROL 首次造訪]**」或「**[!UICONTROL 來自行動裝置的造訪]**。 這些範本可在 Workspace 專案中和區段產生器中作為新區段的組成要素。
+區段範本是針對常見的細分使用案例所提供，例如「**[!UICONTROL 首次造訪]**」或「**[!UICONTROL 來自行動裝置的造訪]**。 它們可在Workspace專案和區段產生器中作為新區段的組成要素。
 
 Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於識別範本。 可用範本的範例如下所示：
 
