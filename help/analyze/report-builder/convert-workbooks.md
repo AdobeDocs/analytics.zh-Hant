@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # 轉換舊版Report Builder活頁簿
 
-舊版Report Builder將於2026年6月終止服務。 您應該將活頁簿從舊版Report Builder移轉至新Report Builder。 新的Report Builder提供便利的方法，可快速移轉使用舊版Report Builder建立的活頁簿。
+舊版Report Builder將於2026年6月終止服務。 將您的活頁簿從舊版Report Builder移轉至新Report Builder。 新的Report Builder提供便利的方法，可快速移轉使用舊版Report Builder建立的活頁簿。
 
 >[!IMPORTANT]
 >
->在轉換舊版活頁簿之前，請先複製每個活頁簿並重新命名一個版本。 這可確保您隨時擁有原始舊版活頁簿的副本（需要時）。
+>在轉換舊版活頁簿之前，請先複製每個活頁簿並重新命名一個版本。 這可確保您隨時擁有原始舊版活頁簿的副本（如有需要）。
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +56,23 @@ ht-degree: 1%
 
 * 從[Report Builder中心](report-builder-hub.md)的&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤開啟已排程的舊版活頁簿。 此動作是排程舊版活頁簿的偏好方法。 當您要[排程轉換的舊版活頁簿](#schedule-a-converted-legacy-workbook)時，您可以選擇使用與舊版活頁簿關聯的排程。
 
-   1. 開啟[!DNL Excel]並從[!DNL Excel]功能區列選取![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
+  1. 開啟[!DNL Excel]並從[!DNL Excel]功能區列選取![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
 
-   1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
+  1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
 
-   1. 在[Report Builder中心](report-builder-hub.md)中選取&#x200B;**[!UICONTROL 排程]**。
-   1. 選取&#x200B;**[!UICONTROL 舊版]**&#x200B;標籤。 索引標籤會列出您已建立的舊版Report Builder排程活頁簿。
+  1. 在[Report Builder中心](report-builder-hub.md)中選取&#x200B;**[!UICONTROL 排程]**。
+  1. 選取&#x200B;**[!UICONTROL 舊版]**&#x200B;標籤。 索引標籤會列出您已建立的舊版Report Builder排程活頁簿。
 
-      ![舊版工作台](assets/upgrade-legacy-schedule.png)
+     ![舊版工作台](assets/upgrade-legacy-schedule.png)
 
-   1. 從清單中選取![SelectBox](/help/assets/icons/SelectBox.svg)您要轉換的排程活頁簿，然後選取![下載](/help/assets/icons/Download.svg)。 活頁簿已下載，並在[!DNL Excel]的新視窗中開啟。 您現在可以[轉換舊版Report Builder活頁簿](#convert-a--workbook)。
+  1. 從清單中選取![SelectBox](/help/assets/icons/SelectBox.svg)您要轉換的排程活頁簿，然後選取![下載](/help/assets/icons/Download.svg)。 活頁簿已下載並在新的[!DNL Excel]視窗中開啟。 您現在可以[轉換舊版Report Builder活頁簿](#convert-a--workbook)。
 
 
-* 直接從您的本機電腦或網路開啟舊版活頁簿。 使用此方法時，系統不提供您使用可能與舊版活頁簿關聯的排程。 <br/>當舊版活頁簿在[!DNL Excel]中開啟時：
+* 直接從您的本機電腦或網路開啟舊版活頁簿。 使用此方法時，系統不會提供您與舊版活頁簿相關聯的排程。 <br/>當舊版活頁簿在[!DNL Excel]中開啟時：
 
-   1. 從[!DNL Excel]功能區列選取![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
-   1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
-   1. 然後[轉換舊版活頁簿](#convert-a-workbook)。
+  1. 從[!DNL Excel]功能區列選取![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]**。
+  1. 選取&#x200B;**[!UICONTROL 登入]**&#x200B;並登入Report Builder。
+  1. 然後[轉換舊版活頁簿](#convert-a-workbook)。
 
 
 ## 轉換舊版活頁簿
@@ -116,17 +116,17 @@ ht-degree: 1%
 1. 若要使用舊版排程來排程轉換的舊版活頁簿：
 
    * 從Report Builder中心選取&#x200B;**[!UICONTROL 傳送活頁簿]**，或
-   * 從Report Builder中&#x200B;**[!UICONTROL 排程]**&#x200B;索引標籤可用的&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL 排程活頁簿]**。
+   * 從Report Builder **[!UICONTROL 排程]**&#x200B;索引標籤的&#x200B;**[!UICONTROL 活頁簿]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL 排程活頁簿]**。
 
 1. 系統提供您使用舊版活頁簿的排程詳細資料，作為預設排程設定。
 
    ![&#x200B; [!DNL Excel] Report Builder舊版排程設定選項的熒幕擷圖](assets/upgrade-legacy-schedule-convert.png)
 
    * 選取&#x200B;**[!UICONTROL 使用]**&#x200B;以使用舊版排程詳細資料。 排程詳細資料已預先填入[傳送活頁簿](schedule-reportbuilder.md#schedule-a-workbook)介面。
-   * 選取&#x200B;**[!UICONTROL 不要使用]**&#x200B;以不使用舊版排程詳細資料。
+   * 選取&#x200B;**[!UICONTROL 不要使用]**&#x200B;以避免使用舊版排程詳細資料。
    * 選取「**[!UICONTROL 取消]**」進行取消。
 
-   選取&#x200B;**[!UICONTROL 從未來使用中移除舊版中繼資料]**，以便未來不再為此活頁簿使用舊版排程詳細資料。
+   選取&#x200B;**[!UICONTROL 移除未來使用的舊版中繼資料]**，以避免未來使用此活頁簿的舊版排程詳細資料。
 
 
 ## 從舊版Report Builder移轉
@@ -141,24 +141,25 @@ ht-degree: 1%
 
 * **將活頁簿發佈到排程報告的[!DNL Power BI]選項**。 將報表排程至[!DNL Power BI]的選項已無法使用。
 
-* **訪客量度**。 下列量度在轉換的舊版活頁簿中會轉換為&#x200B;*不重複訪客*，即使報表結果可能並非完全相符： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`和`visitorsyearly`。 此轉換也適用於`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
+* **訪客量度**。 下列量度在轉換的舊版活頁簿中會轉換為&#x200B;*不重複訪客*，即使報表結果並非完全相符： `visitorshourly`、`visitorsdaily`、`visitorsweekly`、`visitorsmonthly`、`visitorsquarterly`和`visitorsyearly`。 此轉換也適用於`mobilevisitorshourly`、`mobilevisitorsdaily`、`mobilevisitorsweekly`、`mobilevisitorsmonthly`、`mobilevisitorsquarterly`和`mobilevisitorsyearly`。
 
+* **詳細程度**： Report Builder沒有像舊版Report Builder那樣的具體詳細程度選項。 若要在報表中套用粒度等級，請在請求中使用日期維度。
 * **自動重新驗證**。 開啟新的[!DNL Excel]檔案時，您需要明確重新驗證。 此重新驗證是[!DNL Office Add-ins]功能的安全性功能。
 
-* **複製含有一組資料區塊的工作表**。 若要支援包含多個資料區塊的工作表復本，請執行下列動作：
+* **複製含有一組資料區塊的工作表**。 若要支援含有多個資料區塊的工作表復本，請執行下列動作：
 
-   1. 在[!DNL Excel]活頁簿中選取您要複製的工作表標籤。
-   1. 從索引標籤的內容功能表中，選取&#x200B;**[!UICONTROL 移動或複製……]**
-   1. 在&#x200B;**[!UICONTROL 移動或複製]**&#x200B;對話方塊中：
-      1. 選取您要複製工作表的目標位置。
-      1. 請確定您已啟用&#x200B;**[!UICONTROL 建立復本]**。
-      1. 選取&#x200B;**[!UICONTROL 確定]**。
-   1. 從來源工作表：
-      1. 選取包含所有資料區塊的儲存格範圍。
-      1. 從[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製資料區塊]**。
-   1. 在目標工作表中：
-      1. 選取您要將複製的儲存格範圍貼上到的儲存格。
-      1. 從[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)選取![貼上](/help/assets/icons/Paste.svg) **[!UICONTROL 貼上資料區塊]**。
+  1. 在[!DNL Excel]活頁簿中選取您要複製的工作表標籤。
+  1. 從索引標籤的內容功能表中，選取&#x200B;**[!UICONTROL 移動或複製……]**
+  1. 在&#x200B;**[!UICONTROL 移動或複製]**&#x200B;對話方塊中：
+     1. 選取您要複製工作表的目標位置。
+     1. 請確定您已啟用&#x200B;**[!UICONTROL 建立復本]**。
+     1. 選取&#x200B;**[!UICONTROL 確定]**。
+  1. 從來源工作表：
+     1. 選取包含所有資料區塊的儲存格範圍。
+     1. 從[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)選取![複製](/help/assets/icons/Copy.svg) **[!UICONTROL 複製資料區塊]**。
+  1. 在目標工作表中：
+     1. 選取您要將複製的儲存格範圍貼上到的儲存格。
+     1. 從[Report Builder中心](/help/analyze/report-builder/report-builder-hub.md)選取![貼上](/help/assets/icons/Paste.svg) **[!UICONTROL 貼上資料區塊]**。
 
 * **日期範圍**。 Report Builder不會移轉日期範圍格式選項&#x200B;**[!UICONTROL 將開始和結束期間顯示為]**，套用至舊版Report Builder中日期範圍的列標籤。
 
