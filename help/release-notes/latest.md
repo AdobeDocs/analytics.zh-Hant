@@ -2,65 +2,50 @@
 title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2eae8a2c631717f67abba1c17a4f61975bb99a18
 workflow-type: tm+mt
-source-wordcount: 922
-ht-degree: 61%
+source-wordcount: 897
+ht-degree: 64%
 
 ---
 
-# 最新Adobe Analytics發行說明（2026年7月）
+# 最新Adobe Analytics發行說明（2026年8月）
 
-**上次更新日期**：2026年7月8日
+**上次更新日期**：2026年8月4日
 
-以下發行說明涵蓋2026年7月發行期間。 Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
+這些發行說明涵蓋2026年8月發行期間。 Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
-| **子點選分析** <br/>子點選分析可讓您在比點選層級更精細的層級分析產品資料。 您可以對點選中的個別產品進行分段，而不需篩選整個點選。 <p>例如，您可以將特定產品類別分段，而不納入同一訂單中購買的所有其他產品。</p><p>如需詳細資訊，請參閱[子點選分析](/help/components/segmentation/sub-hit.md)。</p> | 7月8日 | 2026年7月底 |
-| **Activity Map擴充功能： UI重新整理** <br/>Activity Map Overlay擴充功能具有更新的外觀和風格，以及可支援未來增強功能的基本改善。<p>(文件連結待補充。)</p> | | 2026年7月底 |
-| **AA 2.0 API搜尋功能指南** <br/>使用搜尋功能來[傳回報告中的維度專案子集](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。<p>如需詳細資訊，請參閱Adobe Developer上報表端點指南中的[搜尋功能](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters)。 | | 2026年7月1日 |
-| **使用AA API自動化週期性報告** <br/>使用報表API依排程為資料管道設定自動週期性報告，並採用最新量度。 <p>如需詳細資訊，請參閱Adobe Developer上的[自動循環Analytics報表端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring)。</p> | | 2026年7月1日 |
-| **AA的新擴充引數** <br/>使用新的Dimension API擴充引數來擷取配置型別、有效期、資料型別和銷售的eVar設定欄位。 <p>如需詳細資訊，請參閱Adobe Developer上的[API參考](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions)和[維度端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)。</p> | | 2026年7月1日 |
+| **在LLM Optimizer中使用Analytics資料**<br>&#x200B;將LLM Optimizer與您組織的Customer Journey Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年8月14日 |
+| **歷程畫布增強功能**<br>&#x200B;現已推出下列歷程畫布增強功能：<ul><li>比較歷程與先前的時間範圍。 比較目前歷程與4週前、2季前、1年前或自訂日期範圍的歷程。</li><li>針對選取的節點，顯示在歷程中任何時間點上所選節點之後排名最前的維度專案。 當選取的節點是您分析中的關鍵事件，且您想要檢視人員之後在任何時間點做什麼，請使用此選項。<p>以前，只有頂部的緊接節點可以顯示在所選節點之前或之後。 </p></li><li>變更節點之間箭頭的形狀和樣式。 在節點之間拖曳箭頭以變更箭頭的形狀（曲線），然後按一下滑鼠右鍵以將其樣式變更為下列任一專案：實線、虛線、點線、虛線點或動畫。</li></ul><p></p>如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。 | | 2026年8月18日 |
+| **Activity Map擴充功能： UI重新整理** <br/>Activity Map Overlay擴充功能具有更新的外觀和風格，以及可支援未來增強功能的基本改善。<p>(文件連結待補充。)</p> | | 2026年8月<p>（原計畫於7月底推出）</p> |
+| **移轉規劃工具： Adobe Analytics至Customer Journey Analytics**<br>&#x200B;移轉規劃工具提供移轉精靈，可自動執行從Adobe Analytics升級至Customer Journey Analytics的部分最複雜且耗時的工作，包括XDM結構描述建立以及從AppMeasurement或Analytics擴充功能（標籤）移轉至Experience Platform Web SDK。 <p>(文件連結待補充。)</p> | | 2026年8月底或9月 |
 
 ### Adobe Analytics 中的修正
 
 **Activity Map**：
-**Analysis Workspace**： AN-449890、AN-457527、AN-451161、AN-459034、AN-458071、AN-458398
-**分類**： AN-453318、AN-456739、AN-455828、AN-455270、AN-460272、AN-459367、AN-459239、AN-458418、AN-458417
-**資料摘要和Data Warehouse**： AN-456945、AN-460700
+**Analysis Workspace**：
+**分類**：
+**資料摘要和Data Warehouse**：
 **移轉**：
 **匯出**：
-**Report Builder**： AN-457533、AN-453683
-**報告**： AN-447692、AN-451259、AN-455713
+**Report Builder**：
+**報告**：
 **報告套裝**：
-**排程報告**： AN-450715
+**排程報告**：
 **細分**：
-**Other**： AN-453982、AN-455771
+**其他**：
 
 ### 生命週期結束 (EOL) 重要通知 {#eol}
 
@@ -85,5 +70,5 @@ ht-degree: 61%
 >* [2026年舊版發行說明](/help/release-notes/2026.md)
 >* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 >* [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+>* [Adobe CX Enterprise 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
 
