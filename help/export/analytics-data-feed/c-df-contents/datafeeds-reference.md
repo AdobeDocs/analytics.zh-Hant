@@ -6,40 +6,14 @@ title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
-source-wordcount: 4148
+source-wordcount: 4163
 ht-degree: 78%
 
 ---
@@ -58,7 +32,7 @@ ht-degree: 78%
 >
 >大多數欄包含類似的欄，其前置詞為 `post_`。 後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。 Adobe 建議在大多數情況下使用後置欄。 如需詳細資訊，請參閱[資料摘要常見問題](../df-faq.md)。
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中找到。
 
 | Post | 欄名稱 | 欄說明 | 資料類型 |
 | ---: | :--- | --- | --- |
@@ -78,7 +52,7 @@ ht-degree: 78%
 | | **`ch_hdr`** | 透過 HTTP 請求標頭收集的用戶端提示。 | text |
 | | **`ch_js`** | 透過使用者代理用戶端提示 JavaScript API 收集的用戶端提示。 | text |
 | **`post_`** | **`clickmaplink`** | [Activity Map連結](/help/components/dimensions/activity-map-link.md)維度。 | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | 依地區[&#128279;](/help/components/dimensions/activity-map-link-by-region.md)維度區分的Activity Map連結。 | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | 依地區](/help/components/dimensions/activity-map-link-by-region.md)維度區分的[Activity Map連結。 | varchar(255) |
 | **`post_`** | **`clickmappage`** | [Activity Map頁面](/help/components/dimensions/activity-map-page.md)維度。 | varchar(255) |
 | **`post_`** | **`clickmapregion`** | [Activity Map地區](/help/components/dimensions/activity-map-region.md)維度。 | varchar(255) |
 | | **`code_ver`** | 用於編譯及傳送影像要求的 API 或客戶端 SDK 版本。 | char(16) |
@@ -224,49 +198,49 @@ ht-degree: 78%
 | | **`va_finder_id`** | 識別[首次接觸管道](/help/components/dimensions/first-touch-channel.md)維度的數值 ID。 此 ID 的查詢可以在行銷管道管理員中找到。 | tinyint unsigned |
 | | **`va_instance_event`** | 用來識別行銷管道[實例](/help/components/metrics/instances.md)的標幟。 | tinyint unsigned |
 | | **`va_new_engagement`** | 用來識別行銷管道[新參與度](/help/components/metrics/new-engagements.md)的標幟。 | tinyint unsigned |
-| **`post_`** | **`video`** | 串流媒體服務維度[內容](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content)。 | varchar(255) |
-| **`post_`** | **`videoad`** | 串流媒體服務維度[廣告](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad)。 | varchar(255) |
-| **`post_`** | **`videoadinpod`** | 串流媒體服務維度[廣告在 Pod 位置](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)。 | varchar(255) |
-| **`post_`** | **`videoadlength`** | 串流媒體服務維度[廣告長度 (變數)](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad-length)。 | integer |
-| **`post_`** | **`videoadname`** | 串流媒體服務維度[廣告名稱 (變數)](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad-name)。 | varchar(255) |
-| **`post_`** | **`videoadplayername`** | 串流媒體服務維度[廣告播放器名稱](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad-player-name)。 | varchar(255) |
-| **`post_`** | **`videoadpod`** | 串流媒體服務維度[廣告 Pod](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/ad-pod)。 | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | 串流媒體服務維度[廣告商](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/advertiser)。 | varchar(255) |
-| | **`videoaudioalbum`** | 串流媒體服務維度[相簿](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/album)。 | varchar(255) |
-| | **`videoaudioartist`** | 串流媒體服務維度[藝人](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/artist)。 | varchar(255) |
-| | **`videoaudioauthor`** | 串流媒體服務維度[作者](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/author)。 | varchar(255) |
-| | **`videoaudiolabel`** | 串流媒體服務維度[標籤](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/label)。 | varchar(255) |
-| | **`videoaudiopublisher`** | 串流媒體服務維度[發行者](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/publisher)。 | varchar(255) |
-| | **`videoaudiostation`** | 串流媒體服務維度[電台](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/station)。 | varchar(255) |
-| **`post_`** | **`videocampaign`** | 串流媒體服務維度[行銷活動 ID](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/campaign-id)。 | varchar(255) |
-| **`post_`** | **`videochannel`** | 串流媒體服務維度[內容頻道](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-channel)。 | varchar(255) |
-| **`post_`** | **`videochapter`** | 串流媒體服務維度[章節](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/chapter)。 | varchar(255) |
-| **`post_`** | **`videocontenttype`** | 串流媒體服務維度[內容類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-type)。 | varchar(255) |
-| **`post_`** | **`videodaypart`** | 串流媒體服務維度[時段](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/day-part)。 | varchar(255) |
-| **`post_`** | **`videoepisode`** | 串流媒體服務維度[集數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode)。 | varchar(255) |
-| **`post_`** | **`videofeedtype`** | 串流媒體服務維度[媒體摘要類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 | varchar(255) |
-| **`post_`** | **`videogenre`** | 串流媒體服務維度[類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/genre)。 此維度允許在同一個點擊中包含多個值，並以逗號分隔。 | text |
-| **`post_`** | **`videolength`** | 串流媒體服務維度[內容長度 (變數)](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-length)。 | integer |
-| **`post_`** | **`videomvpd`** | 串流媒體服務維度 [MVPD](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/mvpd)。 | varchar(255) |
-| **`post_`** | **`videoname`** | 串流媒體服務維度[內容名稱 (變數)](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-name)。 | varchar(255) |
-| **`post_`** | **`videonetwork`** | 串流媒體服務維度[網路](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/network)。 | varchar(255) |
-| **`post_`** | **`videopath`** | 串流媒體服務維度[媒體路徑](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-path)。 | varchar(100) |
-| **`post_`** | **`videoplayername`** | 串流媒體服務維度[內容播放器名稱](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-player-name)。 | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | 串流媒體服務維度[平均位元速率](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/average-bitrate)。 | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | 串流媒體服務維度[位元速率變更](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/bitrate-changes)。 | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | 串流媒體服務維度[緩衝事件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/buffer-events)。 | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | 串流媒體服務量度[總緩衝時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)。 | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | 串流媒體服務維度[丟失的影格](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/dropped-frames)。 | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | 串流媒體服務維度[錯誤](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/errors)。 | varchar(255) |
-| | **`videoqoeextneralerrors`** | 串流媒體服務維度[外部錯誤 ID](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/external-error-ids)。 此維度允許在同一個點擊中包含多個值。 | text |
-| **`post_`** | **`videoqoeplayersdkerrors`** | 串流媒體服務維度[播放器 SDK 錯誤 ID](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)。 此維度允許在同一個點擊中包含多個值。 | text |
-| **`post_`** | **`videoqoetimetostartevar`** | 串流媒體服務維度[開始時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/time-to-start)。 | varchar(255) |
-| **`post_`** | **`videoseason`** | 串流媒體服務維度[季節](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/season)。 | varchar(255) |
-| **`post_`** | **`videosegment`** | 串流媒體服務維度[內容區段](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-segment)。 | varchar(255) |
-| **`post_`** | **`videosessionid`** | [媒體工作階段識別碼](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-session-id)串流媒體服務維度。 | varchar(255) |
-| **`post_`** | **`videoshow`** | 串流媒體服務維度[節目](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show)。 | varchar(255) |
-| **`post_`** | **`videoshowtype`** | 串流媒體服務維度[節目類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show-type)。 | varchar(255) |
-| | **`videostreamtype`** | 串流媒體服務維度[串流類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/stream-type)。 | varchar(255) |
+| **`post_`** | **`video`** | 串流媒體服務維度[內容](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)。 | varchar(255) |
+| **`post_`** | **`videoad`** | 串流媒體服務維度[廣告](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad)。 | varchar(255) |
+| **`post_`** | **`videoadinpod`** | 串流媒體服務維度[廣告在 Pod 位置](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position)。 | varchar(255) |
+| **`post_`** | **`videoadlength`** | 串流媒體服務維度[廣告長度 (變數)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length)。 | integer |
+| **`post_`** | **`videoadname`** | 串流媒體服務維度[廣告名稱 (變數)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name)。 | varchar(255) |
+| **`post_`** | **`videoadplayername`** | 串流媒體服務維度[廣告播放器名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name)。 | varchar(255) |
+| **`post_`** | **`videoadpod`** | 串流媒體服務維度[廣告 Pod](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod)。 | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | 串流媒體服務維度[廣告商](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser)。 | varchar(255) |
+| | **`videoaudioalbum`** | 串流媒體服務維度[相簿](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)。 | varchar(255) |
+| | **`videoaudioartist`** | 串流媒體服務維度[藝人](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)。 | varchar(255) |
+| | **`videoaudioauthor`** | 串流媒體服務維度[作者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)。 | varchar(255) |
+| | **`videoaudiolabel`** | 串流媒體服務維度[標籤](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)。 | varchar(255) |
+| | **`videoaudiopublisher`** | 串流媒體服務維度[發行者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)。 | varchar(255) |
+| | **`videoaudiostation`** | 串流媒體服務維度[電台](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)。 | varchar(255) |
+| **`post_`** | **`videocampaign`** | 串流媒體服務維度[行銷活動 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id)。 | varchar(255) |
+| **`post_`** | **`videochannel`** | 串流媒體服務維度[內容頻道](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)。 | varchar(255) |
+| **`post_`** | **`videochapter`** | 串流媒體服務維度[章節](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)。 | varchar(255) |
+| **`post_`** | **`videocontenttype`** | 串流媒體服務維度[內容類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)。 | varchar(255) |
+| **`post_`** | **`videodaypart`** | 串流媒體服務維度[時段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)。 | varchar(255) |
+| **`post_`** | **`videoepisode`** | 串流媒體服務維度[集數](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)。 | varchar(255) |
+| **`post_`** | **`videofeedtype`** | 串流媒體服務維度[媒體摘要類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 | varchar(255) |
+| **`post_`** | **`videogenre`** | 串流媒體服務維度[類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)。 此維度允許在同一個點擊中包含多個值，並以逗號分隔。 | text |
+| **`post_`** | **`videolength`** | 串流媒體服務維度[內容長度 (變數)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)。 | integer |
+| **`post_`** | **`videomvpd`** | 串流媒體服務維度 [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)。 | varchar(255) |
+| **`post_`** | **`videoname`** | 串流媒體服務維度[內容名稱 (變數)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)。 | varchar(255) |
+| **`post_`** | **`videonetwork`** | 串流媒體服務維度[網路](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)。 | varchar(255) |
+| **`post_`** | **`videopath`** | 串流媒體服務維度[媒體路徑](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)。 | varchar(100) |
+| **`post_`** | **`videoplayername`** | 串流媒體服務維度[內容播放器名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)。 | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | 串流媒體服務維度[平均位元速率](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate)。 | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | 串流媒體服務維度[位元速率變更](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes)。 | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | 串流媒體服務維度[緩衝事件](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events)。 | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | 串流媒體服務量度[總緩衝時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration)。 | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | 串流媒體服務維度[丟失的影格](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames)。 | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | 串流媒體服務維度[錯誤](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors)。 | varchar(255) |
+| | **`videoqoeextneralerrors`** | 串流媒體服務維度[外部錯誤 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids)。 此維度允許在同一個點擊中包含多個值。 | text |
+| **`post_`** | **`videoqoeplayersdkerrors`** | 串流媒體服務維度[播放器 SDK 錯誤 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids)。 此維度允許在同一個點擊中包含多個值。 | text |
+| **`post_`** | **`videoqoetimetostartevar`** | 串流媒體服務維度[開始時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start)。 | varchar(255) |
+| **`post_`** | **`videoseason`** | 串流媒體服務維度[季節](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)。 | varchar(255) |
+| **`post_`** | **`videosegment`** | 串流媒體服務維度[內容區段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)。 | varchar(255) |
+| **`post_`** | **`videosessionid`** | [媒體工作階段識別碼](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)串流媒體服務維度。 | varchar(255) |
+| **`post_`** | **`videoshow`** | 串流媒體服務維度[節目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)。 | varchar(255) |
+| **`post_`** | **`videoshowtype`** | 串流媒體服務維度[節目類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)。 | varchar(255) |
+| | **`videostreamtype`** | 串流媒體服務維度[串流類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)。 | varchar(255) |
 | **`post_`** | **`visid_high`** | 搭配 `visid_low` 使用，以唯一碼來識別一位訪客。 | bigint unsigned |
 | **`post_`** | **`visid_low`** | 搭配 `visid_high` 使用，以唯一碼來識別一位訪客。 | bigint unsigned |
 | | **`visid_new`** | 一個標幟，用來判斷該點擊是否包含新生成的訪客 ID。 | char(1) |
