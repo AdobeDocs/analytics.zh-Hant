@@ -3,10 +3,10 @@ description: 了解如何設定歷程畫布視覺化圖表。
 title: 設定歷程畫布視覺化圖表
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5783'
-ht-degree: 90%
+source-wordcount: '5926'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +36,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -69,6 +69,33 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 >id="aa_journeycanvas_percentage_value"
 >title="選擇百分比的計算方式"
 >abstract="每個節點上顯示的百分比是根據您設定的主要和次要量度。 您可以選擇百分比是與開始節點、上一個節點還是報告套裝中的所有資料相關。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="箭頭設定"
+>abstract="選擇是否要顯示或隱藏畫布上的標籤。 標籤是在歷程畫布中建立的自訂名稱。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="顯示流失"
+>abstract="流失資料會顯示每個歷程節點上並未到達下一個歷程節點的人員或工作階段的百分比和數量。 他們可能在網站上執行了其他動作，但從未符合歷程中下一個節點所定義的條件。<br/>流失資料會顯示人員或工作階段 (無論您選擇的主要量度為何)，並且以歷程畫布容器設定為基礎。"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="相較於"
+>abstract="用來將目前歷程資料與前一期資料相比的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變化。 "
 
 <!-- markdownlint-enable MD034 -->
 
