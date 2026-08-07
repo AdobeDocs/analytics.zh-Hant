@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
 source-wordcount: 1963
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="產品相容性"
->abstract="有些區段標準與某些Adobe Analytics工具不相容。 此清單中會指出相容的工具。 編輯您的條件以確保相容性。"
+>abstract="部分區段條件與某些 Adobe Analytics 工具不相容。 此清單會顯示相容的工具。 編輯您的條件以確保相容性。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="資料預覽"
->abstract="比較區段資料與報表套裝資料。 預覽百分比是根據&#x200B;**過去90天**。<br><br/>如果未載入預覽，表示您的連線正在回填。"
+>abstract="比較區段資料與報表套裝資料。 此預覽百分比的根據為&#x200B;**過去 90 天**&#x200B;的資料。<br><br/>如果預覽未載入，代表您的連線正在進行回填。"
 
 
 **[!UICONTROL 區段產生器]**&#x200B;對話框用於建立新區段或編輯現有區段。 對於您從[[!UICONTROL 區段]管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)建立或管理的區段，對話框標題為&#x200B;**[!UICONTROL 新增區段]**&#x200B;或&#x200B;**[!UICONTROL 編輯區段]**。
