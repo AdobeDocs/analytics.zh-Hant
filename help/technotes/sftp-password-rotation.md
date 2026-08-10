@@ -12,7 +12,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: 1985
 ht-degree: 100%
 
 ---
@@ -158,7 +158,7 @@ ht-degree: 100%
 1. 將 [!DNL `authorized_keys`] 檔案上傳至您的 FTP 伺服器：
 
    1. 連線至 FTP 伺服器，並使用您的使用者名稱和密碼登入。
-可以是 Adobe 託管的 FTP 伺服器或您自己的 FTP 伺服器。
+      可以是 Adobe 託管的 FTP 伺服器或您自己的 FTP 伺服器。
    1. 建立 [!DNL .ssh] 目錄 (如果尚未存在)。
    1. 上傳 [!DNL `authorized_keys`] 檔案至 [!DNL .ssh] 目錄。
 

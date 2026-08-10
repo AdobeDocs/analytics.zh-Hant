@@ -62,9 +62,9 @@ Adobe Analytics標籤擴充功能可讓您使用標籤管理介面實施AppMeasu
 使用&#x200B;**[!UICONTROL 訪客識別碼]**&#x200B;變數，可讓您的組織完全獨立地控制識別訪客。 如果您使用資料元素設定[!UICONTROL 訪客識別碼]，請注意下列限制：
 
 * 每個點選都必須包含相同的[!UICONTROL 訪客識別碼]值，才能計為單一訪客。
-   * 省略[!UICONTROL 訪客ID]資料元素的任何點選都會自動嘗試使用其他訪客識別方法，將其視為個別訪客。
-   * 任何包含來自先前點選之不同[!UICONTROL 訪客ID]值的點選都會視為個別訪客。
-   * Adobe不提供在Adobe Analytics中使用不同訪客ID來拼接點選的方法。
+  * 省略[!UICONTROL 訪客ID]資料元素的任何點選都會自動嘗試使用其他訪客識別方法，將其視為個別訪客。
+  * 任何包含來自先前點選之不同[!UICONTROL 訪客ID]值的點選都會視為個別訪客。
+  * Adobe不提供在Adobe Analytics中使用不同訪客ID來拼接點選的方法。
 * 使用[!UICONTROL 訪客ID]識別的訪客不支援共用受眾、Analytics for Target和Customer屬性。
 
 如需使用此變數的實作指示，請參閱[`visitorID`](/help/implement/vars/config-vars/visitorid.md)。

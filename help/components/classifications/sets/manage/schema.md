@@ -14,22 +14,22 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # 分類集結構描述
 
-此結構描述是您要套用至您為分類設定定義之關鍵維度的分類清單。 例如，如果您已將product定義為主要維度，而此欄位包含產品SKU，請使用結構描述來新增產品名稱、顏色和大小等分類。
+此結構描述是您要套用至您為分類設定定義之關鍵維度的分類清單。 例如，如果產品是關鍵維度，請使用結構描述來新增產品名稱、顏色和大小等分類。
 
 若要編輯分類設定的綱要：
 
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
-1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要編輯其結構描述的分類集。
+1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取您要編輯其結構描述的分類設定。
 1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 結構描述]**&#x200B;索引標籤。 該標籤包含下列介面元素：
 
    ![分類設定 — 結構描述](assets/classification-sets-schema.png)
@@ -92,7 +92,7 @@ ht-degree: 9%
 
    當欄的分類設定中未定義分類時，會顯示警示![警示](/help/assets/icons/Alert.svg)。 此警報說明分類不存在於現有的分類結構描述集中，且會在匯入時建立。
 
-1. 選取&#x200B;**[!UICONTROL 在衝突時覆寫資料？]** 如果您想要以匯入的新資料覆寫目前的分類資料。 例如：
+1. 選取&#x200B;**[!UICONTROL 在衝突時覆寫資料？]** 如果您想要以新匯入的資料覆寫目前的分類資料。 例如：
 
    | | 金鑰 | 目前產品顏色 | 匯入檔案 | 新產品色彩 |
    |---|---|---|---|---|
@@ -133,7 +133,7 @@ ht-degree: 9%
    * **[!UICONTROL 拉丁文–1]**。
 
 
-1. 選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載分類資料。 您可以在瀏覽器的預設下載目錄中找到下載的檔案，該檔案的標題為<code><i>分類設定</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. 如果檔案已經存在，則序號為<code>(<i>x</i>)</code> 會新增至檔案名稱。<br/>如果您指定了不會傳回任何資料的選項，您會看到&#x200B;**[!UICONTROL 通知]**&#x200B;對話方塊，通知您變更日期範圍和傳回資料的選項。
+1. 選取&#x200B;**[!UICONTROL 下載]**&#x200B;以下載分類資料。 您可以在瀏覽器的預設下載目錄中找到下載的檔案，該檔案的標題為<code><i>分類設定</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. 如果檔案存在，則為序號<code>(<i>x</i>)</code> 會新增至檔案名稱。<br/>如果未傳回任何資料，**[!UICONTROL 通知]**&#x200B;對話方塊會提示您調整日期範圍或資料選項。
 
 
 ### 範本
@@ -164,16 +164,16 @@ ht-degree: 9%
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帳戶"
 >abstract="支援匯入分類資料之帳戶類型的位置帳戶清單。 選取「**[!UICONTROL 新帳戶]**」，建立新的位置帳戶。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=zh-hant" text="設定雲端匯入及匯出帳戶"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts" text="設定雲端匯入及匯出帳戶"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="位置"
 >abstract="支援匯入分類資料之所選位置帳戶的位置清單。 選取「**[!UICONTROL 新位置]**」，建立新的位置。"
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=zh-hant" text="設定雲端匯入及匯出位置"
+>additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations" text="設定雲端匯入及匯出位置"
 
-您可以透過設定和使用雲端帳戶和雲端位置，自動擷取分類資料。
+您可以設定並使用雲端帳戶和雲端位置，以自動化分類資料的擷取。
 
 >[!IMPORTANT]
 >若要從雲端帳戶自動進行分類擷取，您（或您的網路管理員）必須指定IP位址範圍，才能將資料擷取至您的網路。 根據您使用的Analytics資料中心的位置，設定一或多個IP位址範圍。
@@ -253,3 +253,30 @@ ht-degree: 9%
 | ![移除圓圈](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL 移除查詢]** | 移除分類設定做為查詢。 若要從分類中永久刪除查詢，請在&#x200B;**[!UICONTROL 從&#x200B;_分類_]**&#x200B;確認對話方塊中，移除_&#x200B;分類集&#x200B;_並選取&#x200B;**[!UICONTROL 刪除]**。 |
 | ![重新命名](/help/assets/icons/Rename.svg) | **[!UICONTROL 重新命名]** | 重新命名分類的&#x200B;**[!UICONTROL 分類名稱]**。 在&#x200B;**[!UICONTROL 重新命名： _分類名稱_]**&#x200B;對話方塊中，輸入新名稱並選取&#x200B;**[!UICONTROL 重新命名]**。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除分類。 **[!UICONTROL 刪除&#x200B;_分類名稱_]**&#x200B;對話方塊就會顯示。 選取&#x200B;**[!UICONTROL 刪除]**&#x200B;以刪除分類。 |
+
+
+## 未分類的資料
+
+如果在匯入後確實遇到在您的報告中顯示為`none`的非分類資料，您可以重新命名`None`分類索引鍵。
+
+1. [下載](#download)分類至本機檔案。
+1. 將一列新增至本機檔案，並在[索引鍵]欄中輸入`~none~`。 在適當的欄中輸入較清楚描述的分類名稱。
+
+   例如：
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV：
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [將資料上傳](#upload)回Adobe Analytics。
