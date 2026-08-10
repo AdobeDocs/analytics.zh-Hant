@@ -3,21 +3,11 @@ title: Adobe Analytics中的訪客身分識別
 description: 瞭解如何使用最新最佳實務在Adobe Analytics中識別訪客。
 exl-id: 8d26a556-84fe-4fb5-98d6-a16b69423e5b
 TQID: https://experienceleague.adobe.com/uwEv9cl3234uiWhZEZLqgAVo42b-9L-9YEIGD97Pw-Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 652
@@ -41,9 +31,9 @@ Adobe收到點選時，會依序進行下列檢查。 如果特定屬性存在�
 | 使用的順序 | 查詢參數 | 顯示時機 |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數已設定。 |
-| **2<sup>nd</sup>** | `aid` | 訪客有現有的[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不實施訪客ID服務的情況下或實施該服務之前，設定於實施上。 |
-| **3<sup>rd</sup>** | `mid` | 對於使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)的AppMeasurement型實作（包括Analytics標籤擴充功能），訪客有現有的[`s_ecid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics)或`AMCV` Cookie。 針對以Web SDK為基礎的實作，訪客有現有的[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/web-sdk)或`AMCV` Cookie。 Adobe建議儘可能對所有實施使用ECID作為訪客身分識別的主要形式。 |
-| **4<sup>th</sup>** | `fid` | 訪客有現有的[`s_fid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由於任何原因而無法設定`aid`和`mid`，AppMeasurement會自動產生遞補ID。 |
+| **2<sup>nd</sup>** | `aid` | 訪客有現有的[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 在不實施訪客ID服務的情況下或實施該服務之前，設定於實施上。 |
+| **3<sup>rd</sup>** | `mid` | 對於使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)的AppMeasurement型實作（包括Analytics標籤擴充功能），訪客有現有的[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)或`AMCV` Cookie。 針對以Web SDK為基礎的實作，訪客有現有的[`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/web-sdk)或`AMCV` Cookie。 Adobe建議儘可能對所有實施使用ECID作為訪客身分識別的主要形式。 |
+| **4<sup>th</sup>** | `fid` | 訪客有現有的[`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 如果由於任何原因而無法設定`aid`和`mid`，AppMeasurement會自動產生遞補ID。 |
 | **5<sup>th</sup>** | IP位址+使用者代理 | 當訪客的瀏覽器不接受Cookie時，作為最後的手段用來識別不重複訪客。 雜湊訪客ID是在[IP模糊化](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)之前產生。 如果IP位址無法使用，則改用其他IP詳細資訊（例如閘道IP）。 |
 
 接著，選取的訪客ID會經過雜湊處理，成為其伺服器端識別碼。 此伺服器端識別碼可在[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)中當作`visid_high` + `visid_low`使用。
