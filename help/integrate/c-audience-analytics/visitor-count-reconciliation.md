@@ -4,18 +4,11 @@ title: 訪客計數差異
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 TQID: 'https://experienceleague.adobe.com/ksfYYDZ6G9vH7WEZVh-JsN93Rl-jsZTe9-CQADSwnfI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 312
@@ -51,12 +44,12 @@ ht-degree: 51%
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：擁有 Experience Cloud ID 的訪客 </p> </td> 
-   <td colname="col3"> <p>顯示有Experience Cloud ID的不重複訪客在報表時段內到達您屬性的數量。 </p> </td> 
+   <td colname="col3"> <p>顯示有Experience Cloud ID且在報表時段內到達您屬性的不重複訪客數量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Adobe Audience Manager即時區段母體與在Audience Analytics報表中使用的Experience Cloud ID為Analytics的訪客將最相似。 然而，就近期而言，由於多種因素，兩者之間將略有差異。 貢獻因子包括：
+Audience Analytics報表中使用的Adobe Audience Manager即時區段母體與具有Experience Cloud ID的Analytics訪客將最相似。 然而，就近期而言，由於多種因素，兩者之間將略有差異。 貢獻因子包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

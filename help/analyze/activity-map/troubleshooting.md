@@ -5,26 +5,15 @@ feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +36,8 @@ ht-degree: 16%
 * **AppMeasurement版本**： v1.6及更高版本支援Activity Map。 升級到最新穩定AppMeasurement版本時，許多Edge案例問題都已解決。
 * **Activity Map模組**：檢查`AppMeasurement.js`檔案中是否有`AppMeasurement_Module_Activity_Map`模組。 如果您的實作使用Adobe Experience Platform來收集資料，請確定在&#x200B;**[!UICONTROL 連結追蹤]**&#x200B;下設定Analytics擴充功能時，已勾選&#x200B;**[!UICONTROL 啟用ClickMap]**。
 * **`s_sq` Cookie**： Activity Map依賴於`s_sq` Cookie進行資料收集。
-   * 請確定`cookieDomainPeriods`變數已正確設定，尤其是區域網域，例如`*.co.uk`或`*.co.jp`。
-   * 請確定`linkInternalFilters`變數已設定為所要的值。 如果點按的連結與內部篩選器不符，Activity Map會將其視為退出連結，不會收集資料。
+  * 請確定`cookieDomainPeriods`變數已正確設定，尤其是區域網域，例如`*.co.uk`或`*.co.jp`。
+  * 請確定`linkInternalFilters`變數已設定為所要的值。 如果點按的連結與內部篩選器不符，Activity Map會將其視為退出連結，不會收集資料。
 * **Activity Map覆蓋正在執行**：啟用AppMeasurement覆蓋時，Activity Map不會追蹤您網頁的點選資料。
 
 顯示與使用 Activity Map 不相容的瀏覽器參數。 Adobe建議停用這些設定。

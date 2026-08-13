@@ -5,18 +5,11 @@ feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 476
@@ -50,9 +43,9 @@ ht-degree: 0%
 * **規則標題**：規則的標籤。 它不會影響處理規則邏輯，但有助於追蹤規則的功用。
 * **條件**：顯示為文字，&quot;[!UICONTROL 如果下列任一/所有為true]&quot;。 若不包含條件，規則一律會在每次點選時執行。
 * **動作**：如果不存在條件，文字會顯示為： &quot;[!UICONTROL 永遠執行]&quot;。 如果條件存在，文字會顯示為&quot;[!UICONTROL 然後執行下列動作]&quot;。 如果上述條件的評估結果為`true`，則此區段中列出的每個動作都可能會執行。 除了規則的條件之外，您還可以&#x200B;_將_&#x200B;條件附加至個別動作。 下列動作可供使用：
-   * **[!UICONTROL 覆寫]**&#x200B;的值：以其他變數、靜態值或串連值覆寫所需的變數。
-   * **[!UICONTROL 刪除]**&#x200B;的值：刪除該點選所需的變數值。
-   * **[!UICONTROL 設定事件]**：觸發所需的事件。 通常您會將事件設定為自訂值`1`；也允許將事件設定為`1`以外的值，或甚至將其設定為內容資料變數中設定的值。
+  * **[!UICONTROL 覆寫]**&#x200B;的值：以其他變數、靜態值或串連值覆寫所需的變數。
+  * **[!UICONTROL 刪除]**&#x200B;的值：刪除該點選所需的變數值。
+  * **[!UICONTROL 設定事件]**：觸發所需的事件。 通常您會將事件設定為自訂值`1`；也允許將事件設定為`1`以外的值，或甚至將其設定為內容資料變數中設定的值。
 * **否則動作**：如果條件存在，此區段會顯示為&quot;[!UICONTROL 否則請執行下列動作]&quot;。 如果上述條件的評估結果為`false`，則此區段中列出的每個動作都可能會執行。 本節會依照上述相同規則執行動作，包括覆寫值、刪除值和設定事件的功能。
 * **原因**：記錄誰要求規則及其相依專案。 它不會影響處理規則邏輯，但有助於追蹤規則存在的原因。
 

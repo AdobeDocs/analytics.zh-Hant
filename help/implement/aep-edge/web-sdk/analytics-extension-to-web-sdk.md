@@ -3,20 +3,11 @@ title: 從Adobe Analytics標籤擴充功能移轉至網路SDK標籤擴充功能
 description: 更新Adobe Experience Platform資料收集標籤上的Analytics實作，以使用Web SDK擴充功能。
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1731
@@ -141,9 +132,9 @@ Adobe建議在下列情況下使用此實施路徑：
    * [!UICONTROL 動作型別]： [!UICONTROL 傳送事件]
 1. 在右側，將動作設定變更為下列專案：
    * [!UICONTROL 型別]：對於`s.t()`，請使用&#x200B;**[!UICONTROL 網頁詳細資訊頁面檢視]**。 針對`s.tl()`，使用&#x200B;**[!UICONTROL Web Webinteraction連結點按]**。 如果您使用[`s.tl()`](../../vars/functions/tl-method.md)，您也必須在資料物件中包含下列欄位。 執行[!UICONTROL 更新變數]動作組態時，這些欄位會列在[!UICONTROL 其他屬性]下：
-      * [連結名稱](../../vars/functions/tl-method.md)
-      * [連結類型](../../vars/functions/tl-method.md)
-      * [連結 URL](../../vars/config-vars/linkurl.md)
+     * [連結名稱](../../vars/functions/tl-method.md)
+     * [連結類型](../../vars/functions/tl-method.md)
+     * [連結 URL](../../vars/config-vars/linkurl.md)
 1. 選取&#x200B;**[!UICONTROL 「保留變更」]**。
 1. 對使用Adobe Analytics傳送信標的每個動作設定重複這些步驟。
 

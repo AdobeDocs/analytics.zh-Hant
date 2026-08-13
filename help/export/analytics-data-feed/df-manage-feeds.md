@@ -4,14 +4,10 @@ description: 瞭解如何導覽資料摘要介面。 瞭解如何建立、編輯
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
@@ -177,12 +173,12 @@ ht-degree: 24%
    * **目的地**：檔案的放置位置。
    * **擁有者**: 建立摘要的使用者帳戶。
    * **狀態**: 摘要的狀態。
-      * 作用中: 摘要運作中。
-      * 待核准: 在某些情況下，摘要必須先經過 Adobe 的核准，才能開始產生作業。
-      * 已刪除: 摘要已刪除。
-      * 完成: 摘要已完成處理。 您可以編輯、保留或取消已完成的摘要。
-      * 擱置中: 摘要已建立，但尚未啟用。 摘要只會在此狀態中維持短暫的過渡時間。
-      * 非作用中: 意同於「暫停」或「中止」狀態。 如需當非作用中摘要重新啟動時，回填摘要和即時摘要會發生什麼動作的詳細資訊，請參閱[啟動資料摘要](#activate-a-data-feed)。
+     * 作用中: 摘要運作中。
+     * 待核准: 在某些情況下，摘要必須先經過 Adobe 的核准，才能開始產生作業。
+     * 已刪除: 摘要已刪除。
+     * 完成: 摘要已完成處理。 您可以編輯、保留或取消已完成的摘要。
+     * 擱置中: 摘要已建立，但尚未啟用。 摘要只會在此狀態中維持短暫的過渡時間。
+     * 非作用中: 意同於「暫停」或「中止」狀態。 如需當非作用中摘要重新啟動時，回填摘要和即時摘要會發生什麼動作的詳細資訊，請參閱[啟動資料摘要](#activate-a-data-feed)。
    * **上次修改日期**：上次修改摘要的日期。 日期和時間會以報表套裝的時區顯示，並計入GMT時差。
    * **開始日期**：摘要產生第一個作業的日期。 日期和時間會以報表套裝的時區顯示，並計入GMT時差。
    * **結束日期**：摘要最後一項工作的日期。 持續的資料摘要沒有結束日期。

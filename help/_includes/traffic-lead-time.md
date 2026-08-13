@@ -4,8 +4,7 @@ title: 流量增加所需的前置時間
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 TQID: 'https://experienceleague.adobe.com/NJpOBQXD9CulN-UjbKnQiPzPWusWzLEo0RgvBioJe3I'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 328
@@ -58,9 +57,9 @@ Adobe 需要事先收到關於新帳戶設定、流量尖峰及流量增加的�
 * 如果您啟動數個報告套裝，或是予以新增至多達上方所列的數量，則其適用的前置時間會是每位客戶預期流量的總和。
 * 提交流量變更前請準備好以下資訊：
 
-   * 報表套裝 ID
-   * 每日預估點擊數
-   * 上線日期
+  * 報表套裝 ID
+  * 每日預估點擊數
+  * 上線日期
 
 * 當流量減少或某報告套裝停用時，也需要用到客戶提醒。
 

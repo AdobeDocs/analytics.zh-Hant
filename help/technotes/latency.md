@@ -5,18 +5,10 @@ title: 資料可用性與延遲
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 823
@@ -58,10 +50,10 @@ Adobe CX Enterprise中的部分功能除了標準處理時間之外，還隨附�
 * **通知 Adobe 預期的流量尖峰：**&#x200B;雖然您無法預測網站的每一個流量尖峰，但某些情況下您可預期流量會大幅增加。 例如特別成功的假期，或大型促銷活動推出後不久。 針對這些情況，Adobe 備有適當管道可供您的組織回報預期的流量增加，好讓我們為您的報告套裝額外配置處理資源。 請參閱管理員使用指南中的[排程流量尖峰](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)，瞭解如何通知 Adobe 流量增加。
 * **在啟用新功能時先考量處理負載：**&#x200B;有些功能需要的處理資源會高於其他功能。 在報告套裝上啟用的功能愈多，延遲的復原難度就愈高。 在報告套裝上啟用功能時，請留意下列會增加處理資料量的功能:
 
-   * 在同一個頁面上實施超過 20 個事件
-   * 複雜的VISTA規則
-   * 產品變數中超過20個值
-   * 事件序列化
+  * 在同一個頁面上實施超過 20 個事件
+  * 複雜的VISTA規則
+  * 產品變數中超過20個值
+  * 事件序列化
 
 * 啟用 IAB 機器人篩選：[機器人篩選](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可在您的報告套裝頻繁遭到機器人或編目程式侵擾時，大幅減少延遲的情形。 建議您使用 IAB 機器人清單，因為這份清單是由 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) 負責更新及維護的。 使用者也可自訂本身的機器人規則，與 IAB 提供的清單互補。
 

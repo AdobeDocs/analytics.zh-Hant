@@ -4,18 +4,10 @@ title: 管理區段
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: 'https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f6053eab-d6c4-429b-b1a9-91ef921d3480
-  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f6053eab-d6c4-429b-b1a9-91ef921d3480id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 567
@@ -67,9 +59,9 @@ ht-degree: 64%
 |---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]** | 使用[區段產生器](seg-build.md)新增另一個區段。 |
 | ![Search](/help/assets/icons/Search.svg) [!UICONTROL *根據標題搜尋*] | 當未選取清單中任何區段時，請使用此搜尋欄位搜尋區段。 |
-| ![標籤](/help/assets/icons/Label.svg)**[!UICONTROL 標記]** | 標記所選取之區段。 在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。 如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
+| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標記]** | 標記所選取之區段。 在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。 如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
 | ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用所選取之區段。 在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話框中，您可以 ![Search](/help/assets/icons/Search.svg) *搜尋個人或群組*，或者您可以選取「**[!UICONTROL 組織]**」或「**[!UICONTROL 群組]**」。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的共用詳細資訊。 如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
-| ![Delete](/help/assets/icons/Delete.svg)**[!UICONTROL 刪除]** | 刪除所選取之區段。 系統會提示您進行確認。 |
+| ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。 系統會提示您進行確認。 |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。 選取後，您可以重新命名內嵌區段。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選取之區段。 如需詳細資訊，請參閱[核准區段](seg-approve.md)。 |
 | ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製所選取之區段。 使用相同的名稱和字尾建立新區段`(Copy)`。 |
@@ -150,6 +142,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=zh-Hant) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

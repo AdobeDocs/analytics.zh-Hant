@@ -3,19 +3,11 @@ title: Adobe Analytics的訪客ID服務移轉考量事項
 description: 概述Adobe Analytics與訪客ID服務的介面。
 exl-id: da1f9917-5254-41fb-9e2c-c94f66a22360
 TQID: https://experienceleague.adobe.com/NnZ-Vv2M5cWkfekbVX1B-dFesdtxy50fMdTlwPYviYQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 678
@@ -49,8 +41,8 @@ ht-degree: 2%
 
 有些舊版Analytics訪客ID實作可能會使用「友善的第三方Cookie」，也就是兩個網域在像`data.example.com`這樣的通用網域上共用相同的訪客Cookie。 由於好記的第三方Cookie仍是第三方Cookie，許多現代瀏覽器會加以拒絕，導致Analytics依賴備援ID (`fid`)來識別訪客。 移至訪客ID服務可讓所有網域在第一方內容中設定`AMCV` Cookie，增加其保留訪客ID的可行性。
 
-當訪客ID服務嘗試設定跨網域追蹤的第三方Cookie ([`demdex` Cookie](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/intro/cookies))時，它經常被現代瀏覽器拒絕。 請考慮使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/appendvisitorid)方法，在您擁有的網域之間傳遞訪客的ECID (`mid`)。
+當訪客ID服務嘗試設定跨網域追蹤的第三方Cookie ([`demdex` Cookie](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies))時，它經常被現代瀏覽器拒絕。 請考慮使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid)方法，在您擁有的網域之間傳遞訪客的ECID (`mid`)。
 
 ## 伺服器端追蹤
 
-您可以呼叫[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getmcvid)以取得ECID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以取得舊版Analytics ID (`aid`)。 Adobe建議同時檢查兩者，以保留訪客身分識別邏輯。
+您可以呼叫[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)以取得ECID (`mid`)和[`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid)以取得舊版Analytics ID (`aid`)。 Adobe建議同時檢查兩者，以保留訪客身分識別邏輯。

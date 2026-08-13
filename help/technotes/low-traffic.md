@@ -4,17 +4,10 @@ title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 TQID: https://experienceleague.adobe.com/LxgSEq4RMCwf38uY6HxfhQ7SZxw0e5nupJTAfA1gpbY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 938
@@ -63,8 +56,8 @@ ht-degree: 8%
 * 報告套裝 ID
 * 您要增加臨界值的維度
 * 所需的第一和第二臨界值：
-   * 第一個臨界值（初始分組）預設為&#x200B;**2,000,000**。
-   * 第二個臨界值（更嚴格的篩選）預設為&#x200B;**2,100,000**。
+  * 第一個臨界值（初始分組）預設為&#x200B;**2,000,000**。
+  * 第二個臨界值（更嚴格的篩選）預設為&#x200B;**2,100,000**。
 
 >[!IMPORTANT]
 >
@@ -79,5 +72,5 @@ ht-degree: 8%
 * **Data Warehouse：**&#x200B;在大多數情況下，Data Warehouse報表中的不重複值數目沒有限制。 其獨特的架構可報告任意數目的不重複值。 但是，[!UICONTROL 低流量]值仍可能出現在某些有限的情況下。 範例包括清單變數、清單prop、銷售eVar和行銷管道詳細資料維度。
 * **分段：**&#x200B;如果區段准則包含具有大量唯一值的維度，則不會包含在[!UICONTROL 低流量]下擷取的值。
 * **分類：**&#x200B;分類報表也受到不重複限制的約束。 如果分類的父維度專案包含在[!UICONTROL 低流量]下，則值不會分類。
-   * 透過匯入工具分類的[!UICONTROL 低流量]值可以在Data Warehouse中檢視。<!-- AN-115871 -->
-   * 透過規則產生器分類的[!UICONTROL 低流量]值無法&#x200B;*在Data Warehouse中檢視。<!-- AN-122872 -->*
+  * 透過匯入工具分類的[!UICONTROL 低流量]值可以在Data Warehouse中檢視。<!-- AN-115871 -->
+  * 透過規則產生器分類的[!UICONTROL 低流量]值無法&#x200B;*在Data Warehouse中檢視。<!-- AN-122872 -->*

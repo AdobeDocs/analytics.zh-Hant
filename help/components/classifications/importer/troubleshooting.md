@@ -4,17 +4,11 @@ description: 使用分類匯入工具時的常見上傳問題。
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 TQID: https://experienceleague.adobe.com/YDa--mPqMNfRfRT-xUYTj6jJVEFf2HXWSUtELvuBpy4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 875
@@ -33,8 +27,8 @@ ht-degree: 92%
 分類需有特定檔案類型和格式才能成功上傳。 如未正確儲存，系統會顯示錯誤訊息，且不會處理任何列。 傳回的錯誤通常是&#x200B;*「第一欄必須是索引鍵」*，但可能是任何錯誤數量。 務必勾選下列項目：
 
 * **上傳試算表 (.xlsx)，而非 .tab 或 .txt 檔案**：當您以不正確的格式上傳分類檔案時，會收到錯誤訊息「*第一欄必須是索引鍵*」。 分類匯入工具不知道如何處理 .xls 或 .xlsx 檔案。 在 Excel 的「另存新檔」對話方塊中，設定正確的「另存新檔」類型：
-   * 在 Windows 上，使用檔案格式 `Text (Tab delimited) (*.txt)`
-   * 在 Mac 上，使用檔案格式 `Windows Formatted Text`。
+  * 在 Windows 上，使用檔案格式 `Text (Tab delimited) (*.txt)`
+  * 在 Mac 上，使用檔案格式 `Windows Formatted Text`。
 * **在檔案儲存為活頁簿後變更副檔名**：嘗試直接重新命名副檔名會產生無效的活頁簿。 請只使用 Excel 的「另存新檔」功能，或使用 Notepad++ 等文字編輯器編輯分類。
 * **使用大寫副檔名**：大寫副檔名 (例如 `fileupload.TXT`) 無法正常發揮作用。 請將副檔名重新命名為小寫 (`fileupload.txt`)。
 * **不相符的字元編碼**：確保下載範本時，儲存的分類上傳編碼與原始編碼相符。 如果您上傳原本以 UTF-8 編碼的 UTF-16 檔案，上傳會產生非預期的結果。 Adobe 建議使用不含位元組順序標記的 UTF-8 上傳檔案。
@@ -50,8 +44,8 @@ ht-degree: 92%
 * **上傳檔案中的額外索引標籤**：編輯分類檔案時，有時會不小心置入額外的索引標籤。 每一列的索引標籤數量相同，系統才能順利處理。 若要檢查檔案中是否有額外索引標籤，請在純文字編輯器中反白標示所有文字，確保最後的列中沒有任何額外空格。
 * **檔案中存在重複索引鍵值**：每個索引鍵值在每欄內都只能有一個分類。 如果您嘗試多次分類相同的值，匯入工具會傳回錯誤。
 * **存在子分類且設定不正確**：如果存在子分類，請查看以下項目：
-   * 所有子分類值都有父分類值
-   * 沒有兩個子分類會參考相同的父分類值
+  * 所有子分類值都有父分類值
+  * 沒有兩個子分類會參考相同的父分類值
 * **直欄不符**：如果任何指定列上有無效的直欄數，您會收到錯誤訊息「*行上的鍵有太多直欄*」。 例如，您的分類上傳有 3 個欄位，而變數只有一個單項分類。 請驗證您的上傳檔案，以確定欄位數不會大於為該變數設定的分類數。
 
 ## 疑難排解 FTP 匯入

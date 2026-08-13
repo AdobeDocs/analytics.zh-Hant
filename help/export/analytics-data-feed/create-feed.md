@@ -4,21 +4,14 @@ description: 了解如何建立資料摘要，以及需提供給 Adobe 的檔案
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 2151
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -82,7 +75,7 @@ ht-degree: 31%
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **名稱**] | 資料摘要的名稱 名稱在選取的報表套裝中必須是唯一的，且長度最多可為255個字元。 [了解更多](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
-   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[&#128279;](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要的清單。 |
+   | [!UICONTROL **標記**] | 將任何標籤套用到資料摘要以方便分類。 您可以依照[中所述的標籤進行篩選，並在[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中搜尋資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#filter-and-search-the-list-of-data-feeds)的清單。 |
    | [!UICONTROL **說明**] | 指定資料摘要的說明。 編輯資料摘要時，會顯示您新增的說明。 |
 
 1. 在&#x200B;[!UICONTROL **資料格式**]&#x200B;區段中，指定下列資訊：
@@ -120,7 +113,7 @@ ht-degree: 31%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **頻率**] | 選取資料摘要的傳送頻率。 可用選項會根據您的報表套裝設定動態填入。 <p>下列為常用選項：</p><ul><li>**每日**：摘要包含一整天的資料，從報表套裝時區的午夜到午夜。 此選項可用於回填或歷史資料，或用於繼續摘要。</li><li>**小時**：摘要包含一個小時的資料量。 使用此選項繼續摘要。</li></ul><p>匯出頻率可以是15分鐘，但預設無法使用。 若要讓此選項在您的環境中可用，您必須先聯絡Adobe客戶服務，要求將您的報表套裝設定為支援15分鐘匯出。</p> |
+   | [!UICONTROL **頻率**] | 選取資料摘要的傳送頻率。 可用選項會根據您的報表套裝設定動態填入。 <p>下列為常用選項：</p><ul><li>**每日**：摘要包含一整天的資料，從報表套裝時區的午夜到午夜。 此選項可用於回填或歷史資料，或用於繼續摘要。</li><li>**小時**：摘要包含一個小時的資料量。 使用此選項繼續摘要。</li></ul><p>匯出頻率可以是15分鐘，但預設無法使用。 若要讓您的環境可用此選項，您必須先聯絡 Adobe 客戶服務，請求將報告套裝設定為支援 15 分鐘匯出。</p> |
    | [!UICONTROL **處理延遲**] | 選擇是否在處理資料摘要檔案之前等候特定時間。 延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。 在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。 多數情況下延遲並不會發生。 摘要最多可延遲8小時（480分鐘），或如果選取自訂時間量（延遲9,999分鐘或約1週），延遲時間甚至更長。 |
    | [!UICONTROL **連續資料摘要**] | 選取後，此選項會移除結束日期，使摘要無限期進行處理。 當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。 當目前小時或當天結束時，處理會在指定的延遲後開始。 |
    | [!UICONTROL **開始日期**] | 指定資料摘要的開始日期。 若要立即開始處理歷史資料的資料摘要，將此日期設定為過去收集資料的任何日期。 開始日期取決於報表套裝的時區。 |

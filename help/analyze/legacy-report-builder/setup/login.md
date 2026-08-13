@@ -6,14 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 TQID: https://experienceleague.adobe.com/xkXfYdzVjIIRXRCNrtQxaAl6KgisCVXTmTva0AqNbLA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 264
@@ -51,7 +46,7 @@ CX Enterprise登入可讓您使用Enterprise ID （電子郵件和密碼）登�
 1. 按一下&#x200B;**[!UICONTROL 登入]**。 您也可以使用下列方法進行簽署：
 
    * 按一下「**[!UICONTROL 建立]**」。
-   * 在[要求管理員]中選取要求，然後按一下[新增] **或[管理]**&#x200B;**。**&#x200B;如需詳細資訊，請參閱[在請求管理員中選取請求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
+   * 在[要求管理員]中選取要求，然後按一下[新增] ]**或[管理]****。**[!UICONTROL &#x200B;如需詳細資訊，請參閱[在請求管理員中選取請求](/help/analyze/legacy-report-builder/manage-requests/r-arb-manage-requests.md)
    * 在Excel中按兩下請求。
 
 1. 填寫[!UICONTROL 「登入」]頁面中的欄位，然後按一下&#x200B;**[!UICONTROL 「確定」]**。

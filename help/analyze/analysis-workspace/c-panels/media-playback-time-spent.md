@@ -5,23 +5,14 @@ feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
 TQID: https://experienceleague.adobe.com/Zv10pLom7fLV8lQvzkzxtxb-uERQzxA8baXBseCKqiE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1192
+source-wordcount: 1197
 ht-degree: 84%
 
 ---
@@ -49,7 +40,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中的「媒體播放時間」面板。_<br/>_請參閱[媒體播放時間面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
+_本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中的「媒體播放時間」面板。_<br/>_請參閱[媒體播放時間面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md))，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
 
@@ -75,7 +66,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [媒體播放時間面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +94,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 | 面板摘要數字 | 若要查看播放時間的日期或時間詳細資訊，可使用摘要數字。 「最大值」會顯示高峰期同時觀看人數的詳細資訊。 「最小值」會顯示低谷期的詳細資訊。 「總和」會加總選取範圍所花費的總播放時間。 面板預設僅顯示「最大值」，但您可加以改變，以顯示「最小值」、「總和」或三者的任何組合。<br>如果您使用劃分功能，每項會顯示累加數。 |
 | 序列劃分 | 您可視需要將視覺效果根據篩選器、維度、維度項目或日期範圍劃分。<p>- 一次最多可檢視 10 行。 劃分限於單一層級。</p><p>- 拖曳一個維度時，系統將根據選取面板日期範圍自動選取最上層的維度項目。</p>- 若要比較日期範圍，請將 2 個或多個日期範圍拖放到序列劃分篩選器。 |
 | 時間格式 | 您可以`Hours:Minutes:Seconds` (預設) 或`Minutes` (會以整數顯示，0.5 會四捨五入) 來檢視播放時間。 |
-| 日期序列顯示 | 如果您選定至少兩個日期範圍篩選器進行序列劃分，您會看到可選取覆蓋 (預設) 或循序的選項。 覆蓋會顯示具有常見 x 軸起點的線條，因此它們會平行執行，而序列會顯示具有特定 x 軸起點的線條。 如果資料排列整齊（例如，篩選器1在下午8:44結束，篩選器2在下午8:45開始），則這些行會依序顯示。 |
+| 日期序列顯示 | 如果您選定至少兩個日期範圍篩選器進行序列劃分，您會看到可選取覆蓋 (預設) 或循序的選項。 覆蓋會顯示具有常見 x 軸起點的線條，因此它們會平行執行，而序列會顯示具有特定 x 軸起點的線條。 如果資料排列整齊（例如，篩選器1在下午8:44結束，而篩選器2在下午8:45開始），則這些線條會依序顯示。 |
 
 
 ![媒體播放時間的預設視圖。](assets/mpts_default_view.png)
@@ -131,7 +122,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 | 問題 | 回答 |
 |---|---|
 | 自由格式表格在哪裡？ 我如何可看到資料來源？ | <p></p><p>本檢視中無法使用自由格式表格。 若要下載資料來源，請從折線圖中的內容選單中選取下載 CSV 檔案的選項。</p> |
-| <p>我的顆粒度為何會變更？</p> | <p>此視覺效果僅限 1440 列資料 (例如以分鐘為最小顆粒度測量 24 小時)。 如果日期範圍和顆粒度組合結果超過 1440 列，則顆粒度會自動更新以符合完整的日期範圍。</p><p></p><p>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，顆粒度將更新至允許的最低顆粒度。 若要檢視更高的顆粒度，請編輯面板並重建。</p> |
+| <p>為什麼我的顆粒度改變了？</p> | <p>此視覺效果僅限 1440 列資料 (例如以分鐘為最小顆粒度測量 24 小時)。 如果日期範圍和顆粒度組合結果超過 1440 列，則顆粒度會自動更新以符合完整的日期範圍。</p><p></p><p>從較大的日期範圍變更至較小的日期範圍時，一旦日期範圍變更，顆粒度將更新至允許的最低顆粒度。 若要檢視更高的顆粒度，請編輯面板並重建。</p> |
 | <p></p><p>我該如何比較影片名稱、篩選器、內容類型和更多內容？</p> | <p>若要在單一視覺效果中比較這些內容，可將篩選器、維度或特定維度項目拖動至序列劃分篩選器內。</p><p></p><p>此檢視限於 10 項劃分。 若要檢視超過 10 項，您必須使用多個面板。</p> |
 | 我如何比較日期範圍？ | 若要比較單一視覺效果中的日期範圍，可拖動 2 個或多個日期範圍並使用序列劃分篩選器。 這些日期範圍會覆寫面板日期範圍。 |
 | 如何改變視覺效果類型？ | <p></p><p>此面板僅允許進行時間序列的線圖視覺效果。</p> |
@@ -162,7 +153,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

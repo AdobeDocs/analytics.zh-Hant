@@ -5,18 +5,12 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 13%
 
 ---
@@ -50,12 +44,12 @@ ht-degree: 13%
 
 取代量度時，請考量下列准則：
 
-* 僅允許1:1個替代。 不允許1:many或許多:1。
+* 僅允許1:1替代。 不允許1:many或許多：1。
 * 如果選取的量度未出現在其中一個選取的請求中，請求會保持不變。
 * 新量度會放置在與替代量度相同的位置。
 
-   * **在「樞紐配置」**&#x200B;中，如果樞紐配置請求輸出日期、瀏覽、訪客、每日不重複，且以&#x200B;*收入*&#x200B;取代&#x200B;*訪客*，則更新的請求配置將會是：日期、瀏覽、收入和每日不重複。
-   * **在「自訂配置」**&#x200B;中，如果&#x200B;*訪客*&#x200B;量度是在儲存格F11中輸出，則更新的請求配置將在相同的儲存格F11中顯示&#x200B;*收入*。
+  * **在「樞紐配置」**&#x200B;中，如果樞紐配置請求輸出日期、瀏覽、訪客、每日不重複，且以&#x200B;*收入*&#x200B;取代&#x200B;*訪客*，則更新的請求配置將會是：日期、瀏覽、收入和每日不重複。
+  * **在「自訂配置」**&#x200B;中，如果&#x200B;*訪客*&#x200B;量度是在儲存格F11中輸出，則更新的請求配置將在相同的儲存格F11中顯示&#x200B;*收入*。
 
 * 如果替代的量度套用了某些操作（平均、前置文字、後置文字、微圖表），這些操作也將套用到新量度。
 
