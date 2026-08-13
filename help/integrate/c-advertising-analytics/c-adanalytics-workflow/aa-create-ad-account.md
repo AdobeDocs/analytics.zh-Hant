@@ -4,11 +4,20 @@ description: 本文說明如何建立新的Advertising帳戶，並將多個帳�
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
 TQID: 'https://experienceleague.adobe.com/UAPEgVKZ4EW-GMvHGgz9tMHi36M2HazOuEBHOtJ1OUY'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1ccid: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 661
@@ -41,8 +50,8 @@ Adobe Analytics管理員可以建立新的Advertising帳戶，並將多個帳戶
    | 帳戶名稱 | 您可以選擇將此帳戶名稱設為適合您的任何名稱。  帳戶名稱是出現在UI中的帳戶的易記名稱。 |
    | OAuth權杖 | **注意**： OAuth是存取許可權委派的開放標準，常用來授權給網站或應用程式存取網站上的資訊，但不提供密碼。 您注意到您被導向至協力廠商URL (efrontier.com)。 Adobe使用Adobe Media Optimizer來推動這三個搜尋引擎的OAuth驗證程式。 如果您使用Internet Explorer 11 （或更舊版本），將無法擷取這三個搜尋引擎的Oauth權杖。 請改用其他網頁瀏覽器。<p>選取&#x200B;**[!UICONTROL 擷取Token]**&#x200B;以啟動OAuth2驗證程式。 系統會要求您使用自己的憑證登入您的Google Ads或Microsoft Advertising搜尋帳戶。 根據您的選擇，程式會有些微差異： <ul><li>Google Ads：提供Google帳戶ID</li><li>Microsoft Advertising：提供您的帳戶ID及經理帳戶ID。</li></ul>如需這些 ID 的相關資訊，請參閱[尋找您的帳戶 ID](aa-locate-account-id.md)。 當您成功登入後，**[!UICONTROL OAuth 權杖]**&#x200B;欄位會顯示&#x200B;**[!UICONTROL 已擷取]**。 |
 
-1. 在&#x200B;**[!UICONTROL 追蹤]**區段中，您提供如何使用Adobe Analytics實作追蹤資料的資訊。 追蹤是使用搜尋引擎資料適度增加Adobe Analytics資料的必要步驟。
-依照以下準則填入**[!UICONTROL 「追蹤設定」]**：
+1. 在&#x200B;**[!UICONTROL 追蹤]**&#x200B;區段中，您提供如何使用Adobe Analytics實作追蹤資料的資訊。 追蹤是使用搜尋引擎資料適度增加Adobe Analytics資料的必要步驟。
+依照以下準則填入&#x200B;**[!UICONTROL 「追蹤設定」]**：
 
    | 設定 | 說明 |
    | --- | --- |

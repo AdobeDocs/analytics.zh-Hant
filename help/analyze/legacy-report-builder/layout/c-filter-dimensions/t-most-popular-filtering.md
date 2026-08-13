@@ -6,9 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
 TQID: https://experienceleague.adobe.com/TLo2RytIM7ZQlpFMqXsTdoz7vFAXnwqoTJGHDG7gWLg
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -22,7 +28,7 @@ ht-degree: 35%
 
 能使用布林邏輯搭配 AND/OR 搜尋運算式來排名篩選並設定篩選條件。
 
-「最受歡迎」篩選是使用布林邏輯搭配 AND/OR 條件設定而成的運算式篩選器，例如[!UICONTROL 「不含 ]*`<product name>`*的頁面」搭配條件或條件群組，例如[!UICONTROL 「包含全部」]、[!UICONTROL 「包含任一項」]或[!UICONTROL 「排除全部」]。 您可以[儲存](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)這些運算式，以供此活頁簿中的其他請求或其他活頁簿使用。
+「最受歡迎」篩選是使用布林邏輯搭配 AND/OR 條件設定而成的運算式篩選器，例如[!UICONTROL 「不含 &#x200B;]*`<product name>`*的頁面」搭配條件或條件群組，例如[!UICONTROL 「包含全部」]、[!UICONTROL 「包含任一項」]或[!UICONTROL 「排除全部」]。 您可以[儲存](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)這些運算式，以供此活頁簿中的其他請求或其他活頁簿使用。
 
 **建立最受歡迎篩選**
 

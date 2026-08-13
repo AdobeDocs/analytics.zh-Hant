@@ -4,10 +4,16 @@ description: 使用計算量度來修正受事件影響的趨勢資料。
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
 feature: Curate and Share, Calculated Metrics
 TQID: https://experienceleague.adobe.com/Up1TyzQVIlc1MmhOeGKSpmVVMIpO-VLhqYA8WYm0CYI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 334
@@ -35,7 +41,7 @@ ht-degree: 4%
 
    ![區段產生器](assets/event_segment_builder.png)
 
-6. 按一下[受影響的天數]容器右上角的&#x200B;**[!UICONTROL [新增]]**，然後按一下[靜態數字]****。 將靜態數字設定為您要位移資料的百分比，如[比較受事件影響的日期與先前的範圍](compare-dates.md)中所述。 在此範例中，位移為25%或1.25。
+6. 按一下[受影響的天數]容器右上角的&#x200B;**[!UICONTROL [新增]]**，然後按一下[靜態數字]&#x200B;**&#x200B;**。 將靜態數字設定為您要位移資料的百分比，如[比較受事件影響的日期與先前的範圍](compare-dates.md)中所述。 在此範例中，位移為25%或1.25。
 
    ![靜態數字](assets/event_static_number.png)
 
