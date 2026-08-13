@@ -51,7 +51,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，則可改用舊版除錯工具書籤小工具。
+如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)，則可改用舊版除錯工具書籤小工具。
 
 1. 按一下右上方的三點圖示，然後前往書籤 > 書籤管理員。 您也可以按下 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在書籤管理員的右上方，按一下三點圖示，然後按一下「新增書籤」。
