@@ -72,7 +72,7 @@ Adobe Analytics 支持各種類型的管理員。 有完整權限的 Adobe Analy
 1. 將此檔案命名為「Data Collection full admin access」，然後按一下「**[!UICONTROL 完成]**」。
 1. 返回「**[!UICONTROL 產品設定檔]**」頁面，按一下新建的設定檔，然後按一下「**[!UICONTROL 權限]**」索引標籤。
 1. 按一下其中一個權限細項。 如果可使用「**[!UICONTROL 自動加入]**」，則啟用它。 如果無法使用自動加入，請按一下「**[!UICONTROL 全部新增]**」。 這兩個選項都會將所有權限項目移至右欄。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 對所有權限類別重複上述步驟。
+1. 按一下「**[!UICONTROL 儲存]**」。 對所有權限類別重複上述步驟。
 1. 當所有權限類別都授與設定檔之後，請按一下最上方的「**[!UICONTROL 概觀]**」返回概觀頁面。
 1. 在 [!UICONTROL Experience Platform Launch] 動態磚底下，按一下「**[!UICONTROL 指派使用者]**」。
 1. 輸入您要授與 Analytics 完整存取權的電子郵件地址，並將新建的完整管理員存取設定檔指派給對方。 按一下&#x200B;**[!UICONTROL 「儲存」]**。

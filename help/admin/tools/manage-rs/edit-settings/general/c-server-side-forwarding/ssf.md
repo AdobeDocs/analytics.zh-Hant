@@ -66,12 +66,12 @@ ht-degree: 70%
 * **「狀態」：「SUCCESS」**：您已實施「客群管理模組」，但未正確設定伺服器端轉送。 繼續進行步驟 3。
 * **2 x 2 影像**：您尚未實施伺服器端轉送或「客群管理模組」。 若要修正此問題：
 
-   * **具有 DIL 的 Adob&#x200B;&#x200B;e Audience Manager 客戶**：密切協調下列兩個項目：
+  * **具有 DIL 的 Adob&#x200B;&#x200B;e Audience Manager 客戶**：密切協調下列兩個項目：
 
-      1. 移除DIL程式碼並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼。
-      1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。 在移除DIL程式碼之前啟用此設定將會複製資料，並產生對Audience Manager的其他計費伺服器呼叫。
+    1. 移除DIL程式碼並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼。
+    1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。 在移除DIL程式碼之前啟用此設定將會複製資料，並產生對Audience Manager的其他計費伺服器呼叫。
 
-   * **新 Adobe Audience Manager 客戶** - 安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼，並繼續進行步驟 3。 在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
+  * **新 Adobe Audience Manager 客戶** - 安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼，並繼續進行步驟 3。 在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
 
 ## ![step3_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) 確認報告套裝的伺服器端轉送實施情形
 

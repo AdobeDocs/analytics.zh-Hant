@@ -132,7 +132,7 @@ ht-degree: 87%
 {{attribution-container}}
 
 
-### 回顧時間範圍
+### 回顧期間
 
 {{attribution-lookback-window}}
 

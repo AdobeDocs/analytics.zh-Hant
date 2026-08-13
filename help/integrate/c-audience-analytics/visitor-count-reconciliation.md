@@ -51,12 +51,12 @@ ht-degree: 51%
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：擁有 Experience Cloud ID 的訪客 </p> </td> 
-   <td colname="col3"> <p>顯示有Experience Cloud ID的不重複訪客在報表時段內到達您屬性的數量。 </p> </td> 
+   <td colname="col3"> <p>顯示有Experience Cloud ID且在報表時段內到達您屬性的不重複訪客數量。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Adobe Audience Manager即時區段母體與在Audience Analytics報表中使用的Experience Cloud ID為Analytics的訪客將最相似。 然而，就近期而言，由於多種因素，兩者之間將略有差異。 貢獻因子包括：
+Audience Analytics報表中使用的Adobe Audience Manager即時區段母體與具有Experience Cloud ID的Analytics訪客將最相似。 然而，就近期而言，由於多種因素，兩者之間將略有差異。 貢獻因子包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

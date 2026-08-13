@@ -144,8 +144,8 @@ Adobe Analytics登陸頁面包含下列子標籤：
 * **篩選內容：**&#x200B;左側欄中的「篩選器」圖示讓您按經驗級別 (初級、中級或進階) 以及按內容類型 (文件、影片或導覽和教學課程) 篩選學習內容。
 * **追蹤進度：**&#x200B;在選取一段內容後，會出現「**[!UICONTROL 已檢視]**」標記。 此標記可幫助您透過學習內容追蹤您的進度。 您可以選取&#x200B;**[!UICONTROL 已檢視]**&#x200B;標記以將其從內容中刪除。
 * **檢視其他的內容：**&#x200B;在觀看任何影片時，選取「**[!UICONTROL 深入了解]**」按鈕以檢視 Experience League 上的相關文件內容。 或者，從「學習」頁面中選取以下任一選項，以檢視其他內容：
-   * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
-   * [!UICONTROL **造訪 Experience League**]：檢視有關 Experience League 的全套 Adobe Analytics 文件。
+  * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
+  * [!UICONTROL **造訪 Experience League**]：檢視有關 Experience League 的全套 Adobe Analytics 文件。
 * **適用於新使用者的基礎知識：**&#x200B;建議新使用者使用此「[!UICONTROL 工作區基礎知識]」導覽。 此導覽將直接帶您進入工作區並引導您完成最常見的操作。 也可以透過面板標題的工具提示快顯視窗，直接在工作區中重新啟動此導覽。
 
 ## 設定您的登陸頁面 {#set-landing}

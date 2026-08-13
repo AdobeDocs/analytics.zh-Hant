@@ -44,9 +44,9 @@ ht-degree: 40%
 
   所有Windows案頭[!DNL Excel]使用者都必須安裝Microsoft Edge Webview2，才能使用增益集。 若要安裝控制器：
 
-   1. 前往 <https://aka.ms/webview2installer>。
-   1. 選取並下載 Evergreen Standalone Installer。
-   1. 遵循安裝提示進行。
+  1. 前往 <https://aka.ms/webview2installer>。
+  1. 選取並下載 Evergreen Standalone Installer。
+  1. 遵循安裝提示進行。
 
 ### 網頁版 Office
 

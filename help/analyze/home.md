@@ -47,7 +47,7 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-若要了解關於使用哪種工具的問題，請參閱[我應該使用哪種 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)。
+若要了解關於使用哪種工具的問題，請參閱「[我應該使用哪種 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)」。
 
 ## Analytics 使用手冊
 
@@ -57,6 +57,6 @@ Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Ana
 
 * [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
 * [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)
 

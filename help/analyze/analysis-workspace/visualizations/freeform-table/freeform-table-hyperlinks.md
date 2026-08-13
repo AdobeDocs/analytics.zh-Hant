@@ -55,8 +55,8 @@ ht-degree: 96%
 
 * 建立超連結時不會查看 URL 的有效性。 如果您
 
-   * 建立具有無效 URL 的超連結，或者
-   * 建立超連結，其中會引用沒有 URL 值的維度項目 (透過直接引用維度項目，或透過使用 `$value` 或 `$breakdown` 變數)，
+  * 建立具有無效 URL 的超連結，或者
+  * 建立超連結，其中會引用沒有 URL 值的維度項目 (透過直接引用維度項目，或透過使用 `$value` 或 `$breakdown` 變數)，
 
   然後，點選超連結的使用者將看到一條錯誤訊息，指出該 URL 無效。
 
@@ -70,23 +70,23 @@ ht-degree: 96%
 
    * **為單維度項目建立超連結：** 用滑鼠右鍵按一下表格內部要建立超連結的維度項目，然後選取「[!UICONTROL **建立超連結**]」。
 
-      1. 開啟維度項目的內容選單。
-      1. 從內容選單中，選取「[!UICONTROL **建立超連結**]」。
+     1. 開啟維度項目的內容選單。
+     1. 從內容選單中，選取「[!UICONTROL **建立超連結**]」。
 
-         「[!UICONTROL **建立超連結**]」對話框即會顯示。 您建立超連結的維度項目名稱會顯示在對話方框中。
+        「[!UICONTROL **建立超連結**]」對話框即會顯示。 您建立超連結的維度項目名稱會顯示在對話方框中。
 
-         ![為單一項目對話框建立超連結](assets/hyperlink-dialog-single.png)
+        ![為單一項目對話框建立超連結](assets/hyperlink-dialog-single.png)
 
    * **為維度欄內所有維度項目建立超連結：** 用滑鼠右鍵按一下維度欄標題中的維度名稱，然後選取「[!UICONTROL **為所有維度項目建立超連結**]」。
 
-      1. 從維度欄標題開啟內容選單。
-      1. 從內容選單中，選取「[!UICONTROL **為所有維度項目建立超連結**]」。
+     1. 從維度欄標題開啟內容選單。
+     1. 從內容選單中，選取「[!UICONTROL **為所有維度項目建立超連結**]」。
 
-         <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
+        <!-- Do we really need a screenshot ![Create hyperlink for a dimension](assets/hyperlink-multiple-add.png) -->
 
-         「[!UICONTROL **為所有維度項目建立超連結**]」對話框即會顯示。 您建立超連結的維度名稱會顯示在對話方框中。
+        「[!UICONTROL **為所有維度項目建立超連結**]」對話框即會顯示。 您建立超連結的維度名稱會顯示在對話方框中。
 
-         ![建立超連結對話框](assets/hyperlink-dialog-multiple.png)
+        ![建立超連結對話框](assets/hyperlink-dialog-multiple.png)
 
 1. 從下列選項中選擇：
 
@@ -123,15 +123,15 @@ ht-degree: 96%
 
    * **編輯單一維度項目的超連結：**
 
-      1. 開啟維度項目的內容選單。
-      1. 從內容選單中，選取「[!UICONTROL **編輯超連結**]」。
+     1. 開啟維度項目的內容選單。
+     1. 從內容選單中，選取「[!UICONTROL **編輯超連結**]」。
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a single dimension item](assets/hyperlink-single-edit.png)-->
 
    * **編輯維度欄中所有維度項目的超連結：**
 
-      1. 從維度欄標題開啟內容選單。
-      1. 從內容選單中，選取「**[!UICONTROL 編輯所有維度項目的超連結]**」。
+     1. 從維度欄標題開啟內容選單。
+     1. 從內容選單中，選取「**[!UICONTROL 編輯所有維度項目的超連結]**」。
 
      <!-- Do we really need a screenshot? ![Edit hyperlink for a dimension](assets/hyperlink-dimension-edit.png)-->
 
@@ -157,14 +157,14 @@ ht-degree: 96%
 
    * **從單一維度項目移除超連結：**
 
-      1. 開啟維度項目的內容選單。
-      1. 從內容選單中，選取「[!UICONTROL **移除超連結**]」。
-         <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
+     1. 開啟維度項目的內容選單。
+     1. 從內容選單中，選取「[!UICONTROL **移除超連結**]」。
+        <!-- Do we really need a screenshot? ![Remove hyperlink from a single dimension item](assets/hyperlink-single-remove.png)-->
 
    * **移除維度欄內所有維度項目的超連結：**
 
-      1. 從維度欄標題開啟內容選單。
-      1. 從內容選單中，選取「**[!UICONTROL 移除所有維度項目的超連結]**」。
+     1. 從維度欄標題開啟內容選單。
+     1. 從內容選單中，選取「**[!UICONTROL 移除所有維度項目的超連結]**」。
 
      <!-- Do we really need a screenshot? [Remove hyperlink from a dimension](assets/hyperlink-dimension-remove.png)-->
 

@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 540
+source-wordcount: 542
 ht-degree: 96%
 
 ---
@@ -76,12 +76,12 @@ Should we really mention API here. If so, we can do it all over the place in the
 
      ![Rolling dates](assets/rolliing-dates.png)
 
-      1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如： **&#x200B;**&#x200B;**[!UICONTROL 本季]**&#x200B;**[!UICONTROL 結束減去]** `20` **[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
-         * 選取目前的值。 例如&#x200B;**[!UICONTROL 目前季度]**。
-         * 選取一個值進行其他計算。 例如， **[!UICONTROL 減去]**。
-         * 當您指定其他計算時，請指定一個值。 例如，`20`。
-         * 當您已指定其他計算時，請選取用於計算的時段。 例如， **[!UICONTROL 天]**。
+     1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
+     1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如： **&#x200B;**&#x200B;**[!UICONTROL 本季]**&#x200B;**[!UICONTROL 結束減去]** `20` **[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
+        * 選取目前的值。 例如&#x200B;**[!UICONTROL 目前季度]**。
+        * 選取一個值進行其他計算。 例如， **[!UICONTROL 減去]**。
+        * 當您指定其他計算時，請指定一個值。 例如，`20`。
+        * 當您已指定其他計算時，請選取用於計算的時段。 例如， **[!UICONTROL 天]**。
 
      選取&#x200B;**[!UICONTROL 隱藏詳細資訊]**&#x200B;以隱藏遞延日期計算的詳細資訊。
 

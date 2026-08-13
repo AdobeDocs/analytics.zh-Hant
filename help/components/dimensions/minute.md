@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 147
 ht-degree: 76%
 
 ---
@@ -35,4 +35,4 @@ ht-degree: 76%
 
 ## 維度項目
 
-維度項目包含報表日期範圍內的指定分鐘與其日期。 格式為 `HH:MM YYYY-MM-DD`。 以`00:00`開頭的Dimension專案等於當天的午夜，而以`23:59`開頭的值等於當天的晚上11:59。
+維度項目包含報表日期範圍內的指定分鐘與其日期。 格式為 `HH:MM YYYY-MM-DD`。 以`00:00`開頭的Dimension專案等於當天的午夜，而以`23:59`開頭的值等於當天晚上11:59。

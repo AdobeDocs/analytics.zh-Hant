@@ -131,15 +131,15 @@ ht-degree: 93%
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **顯示** | | |
-|  | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 減少左側邊欄、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>緊密</li><li>舒適</li><li>展開 (預設)</li></ul> |
-| | [調色盤](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | 選擇 Analysis Workspace 所使用的視覺效果調色盤。<ul><li>**分類調色盤**：套用於 Analysis Workspace 中的許多視覺效果。 每種顏色代表相異的類別值。 從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li>**分歧的調色盤**：套用於 Analysis Workspace 中的同類群組表格。 此調色盤具有數值含義，其中包含兩個極端和中間的基線。</li><li>**循序調色盤**：套用於頻率趨勢 (堆積長條) 引導的分析。 該調色盤具有從淺到深的數值含義。</li></ul> |
+|  | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 減少左側邊欄、自由格式表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
+| | [調色盤](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | 選擇 Analysis Workspace 所使用的視覺效果調色盤。<ul><li>**分類調色盤**：套用於 Analysis Workspace 中的許多視覺效果。 每種顏色代表相異的類別值。 從 Adobe 提供的選項中進行選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li>**分歧的調色盤**：套用於 Analysis Workspace 中的同類群組表格。 該調色盤具有數值含義，其中包含兩個極端和中間的基線。</li><li>**循序調色盤**：套用於頻率趨勢 (堆積長條) 引導的分析。 該調色盤具有從淺到深的數值含義。</li></ul> |
 | **資料** | | |
 |  | [報告套裝](/help/analyze/analysis-workspace/c-panels/panels.md) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定報告套裝</li></ul> |
 |  | [行事曆](/help/analyze/analysis-workspace/c-panels/panels.md) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
 |  | [面板類型](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>自由格式 (預設)</li><li>空白</li><li>快速洞察</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 （預設）</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | 計算重複實例數 | 指定是否要將重複實例計入報表中。 例如，此設定 (啟動時) 會將多個連續頁面檢視視為同一個頁面的多次頁面檢視。 關閉後，則會計為單次頁面檢視。 <p>**注意：**&#x200B;此設定只會影響特定量度 (例如單次頁面造訪次數)，不適用於「流量」或「流失」視覺效果。</p> |
-|  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>管線</li><li>期間</li><li>空間</li><li>定位</li></ul> |
+|  | CSV 分隔字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 |  | 顯示註解 | 選取專案中是否顯示註解。 如需註解的詳細資訊，請參閱[註解概觀](/help/analyze/analysis-workspace/components/annotations/overview.md)。 |
 
 ## 自由格式表格偏好設定 {#freeform-table-preferences}
@@ -252,12 +252,12 @@ ht-degree: 93%
 | | 貯體數 | 在視覺效果中選擇資料範圍 (貯體) 的數量。 貯體的最大數量是 50。 <p>如需詳細資訊，請參閱[直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md)。</p> |
 | | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>造訪</li><li>訪客</li></ul> <p>例如，與頁面檢視次數搭配使用時，您可以選擇每位訪客的頁面檢視次數、造訪的頁面檢視次數，或是每次點選的頁面檢視次數。 若為點選，自由格式表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
-| | 繪製維度 | <ul><li>行動經度/緯度</li><li>地理維度</li></ul> |
+| | 繪製維度 | <ul><li>Mobile 經度/緯度</li><li>地理維度</li></ul> |
 | | 地圖類型 | <ul><li>泡泡圖</li><li>熱度圖</li></ul> |
 | | 色彩主題 | 您可以選擇珊瑚色、紅色、綠色、藍色、熱度圖和正/負。 |
 | | 地圖樣式 | 您可以選擇基本、街道、明亮、淺色、深色和衛星。 |
 | **[摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** | | |
-| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變化</li><li>原始差異</li></ul> |
+| | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 | | 百分比 | 以百分比顯示摘要變更視覺效果的值。 |
 | | 可見圖例 | 可讓您隱藏摘要變更視覺效果的詳細圖例文字。 |
 | | 縮簡值 | 選取後，可指定小數位數。 |

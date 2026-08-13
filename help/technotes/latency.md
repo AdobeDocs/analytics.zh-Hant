@@ -58,10 +58,10 @@ Adobe CX Enterprise中的部分功能除了標準處理時間之外，還隨附�
 * **通知 Adobe 預期的流量尖峰：**&#x200B;雖然您無法預測網站的每一個流量尖峰，但某些情況下您可預期流量會大幅增加。 例如特別成功的假期，或大型促銷活動推出後不久。 針對這些情況，Adobe 備有適當管道可供您的組織回報預期的流量增加，好讓我們為您的報告套裝額外配置處理資源。 請參閱管理員使用指南中的[排程流量尖峰](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)，瞭解如何通知 Adobe 流量增加。
 * **在啟用新功能時先考量處理負載：**&#x200B;有些功能需要的處理資源會高於其他功能。 在報告套裝上啟用的功能愈多，延遲的復原難度就愈高。 在報告套裝上啟用功能時，請留意下列會增加處理資料量的功能:
 
-   * 在同一個頁面上實施超過 20 個事件
-   * 複雜的VISTA規則
-   * 產品變數中超過20個值
-   * 事件序列化
+  * 在同一個頁面上實施超過 20 個事件
+  * 複雜的VISTA規則
+  * 產品變數中超過20個值
+  * 事件序列化
 
 * 啟用 IAB 機器人篩選：[機器人篩選](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md)可在您的報告套裝頻繁遭到機器人或編目程式侵擾時，大幅減少延遲的情形。 建議您使用 IAB 機器人清單，因為這份清單是由 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) 負責更新及維護的。 使用者也可自訂本身的機器人規則，與 IAB 提供的清單互補。
 

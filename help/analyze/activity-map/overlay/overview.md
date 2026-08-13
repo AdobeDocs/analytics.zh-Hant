@@ -48,14 +48,14 @@ Activity Map擴充功能可讓您檢視網站上覆蓋的點選資料。 您可�
 它提供下列設定：
 
 * **標準/即時檢視**：在標準檢視和即時檢視之間切換。
-   * 標準檢視：根據歷史資料顯示覆蓋圖。
-   * 即時檢視：根據即時資料顯示覆蓋。 日期選擇器會變更為下拉式功能表，讓您變更即時資料的粒度。
+  * 標準檢視：根據歷史資料顯示覆蓋圖。
+  * 即時檢視：根據即時資料顯示覆蓋。 日期選擇器會變更為下拉式功能表，讓您變更即時資料的粒度。
 * **量度選擇器**：可讓您變更覆蓋報告的量度。 如果您已選取即時檢視，則只有[!UICONTROL 連結點按]可用。
 * **區段選取器**：可讓您選取[區段](/help/components/segmentation/seg-overview.md)，檢視您覆蓋圖中的資料子集。 「即時」檢視中無法使用區段。
 * **覆蓋圖視覺效果型別**：可讓您變更覆蓋圖視覺化連結排名的方式。
-   * **[!UICONTROL 泡泡圖]**：在報告期間，熱門連結收到顯示其數值排名的綠色泡泡圖。 您可以在[設定](settings.md)中變更泡泡顏色。
-   * **[!UICONTROL 漸層]**：排名最前的連結以透明紅色顯示。 最受歡迎的連結是最深的紅色。 您可以在[設定](settings.md)中變更漸層顏色。
-   * **[!UICONTROL 關閉]**：停用連結覆蓋。
+  * **[!UICONTROL 泡泡圖]**：在報告期間，熱門連結收到顯示其數值排名的綠色泡泡圖。 您可以在[設定](settings.md)中變更泡泡顏色。
+  * **[!UICONTROL 漸層]**：排名最前的連結以透明紅色顯示。 最受歡迎的連結是最深的紅色。 您可以在[設定](settings.md)中變更漸層顏色。
+  * **[!UICONTROL 關閉]**：停用連結覆蓋。
 * **日期選擇器**：可讓您變更報告期間。
 
 此面板的標題包含下列設定：
@@ -63,11 +63,11 @@ Activity Map擴充功能可讓您檢視網站上覆蓋的點選資料。 您可�
 * **展開/摺疊頂端面板**：切換頂端面板，以水平或垂直顯示設定（雙箭頭圖示）。
 * **[!UICONTROL 切換頁面詳細資料]**：顯示或隱藏底部面板（眼睛圖示）。
 * **[!UICONTROL 顯示設定]**：開啟可變更設定的功能表（齒輪圖示）：
-   * **[!UICONTROL 設定]**：開啟擴充功能的[設定](settings.md)。
-   * **[!UICONTROL 說明]**：開啟檔案至Experience League （此頁面）。
-   * **[!UICONTROL Adobe社群]**：開啟[Experience League社群](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hant)。
-   * **[!UICONTROL 關於]**：顯示擴充功能版本。
-   * **[!UICONTROL 登出]**：將您登出擴充功能，要求您再次登入。
+  * **[!UICONTROL 設定]**：開啟擴充功能的[設定](settings.md)。
+  * **[!UICONTROL 說明]**：開啟檔案至Experience League （此頁面）。
+  * **[!UICONTROL Adobe社群]**：開啟[Experience League社群](https://experienceleaguecommunities.adobe.com/?profile.language=zh-Hant)。
+  * **[!UICONTROL 關於]**：顯示擴充功能版本。
+  * **[!UICONTROL 登出]**：將您登出擴充功能，要求您再次登入。
 * **[!UICONTROL 結束Activity Map]**：關閉擴充功能的所有覆蓋圖（X圖示）。
 
 ## 頁面覆蓋

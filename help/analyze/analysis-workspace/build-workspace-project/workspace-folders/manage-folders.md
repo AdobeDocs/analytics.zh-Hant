@@ -34,14 +34,14 @@ ht-degree: 81%
 
 * 在[專案清單](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中選取要重新命名的資料夾。
 
-   1. 從所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或是藍色動作列選取&#x200B;**[!UICONTROL 重新命名]**。
-   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
+  1. 從所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或是藍色動作列選取&#x200B;**[!UICONTROL 重新命名]**。
+  1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
 
 * 在您要重新命名的資料夾中。
 
-   1. 從[標題區域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中的![More](/help/assets/icons/More.svg)選取&#x200B;**[!UICONTROL 重新命名資料夾]**。
+  1. 從[標題區域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)中的![More](/help/assets/icons/More.svg)選取&#x200B;**[!UICONTROL 重新命名資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
+  1. 在&#x200B;**[!UICONTROL 重新命名：*資料夾名稱&#x200B;*]**&#x200B;對話框中，輸入新名稱並選取&#x200B;**[!UICONTROL 儲存&#x200B;]**。
 
 
 ## 移動資料夾
@@ -52,18 +52,18 @@ ht-degree: 81%
 
 * 在[專案清單](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中選取要移動的資料夾。
 
-   1. 在所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或藍色動作列選取&#x200B;**[!UICONTROL 移動至]**。
-   1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式功能表中選取資料夾以行動資料夾。
+  1. 在所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或藍色動作列選取&#x200B;**[!UICONTROL 移動至]**。
+  1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式功能表中選取資料夾以行動資料夾。
 
-   1. 選取&#x200B;**[!UICONTROL 移動]**。
+  1. 選取&#x200B;**[!UICONTROL 移動]**。
 
 * 在您要移動的資料夾中。
 
-   1. 從[標題區域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)的![More](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL 移動資料夾]**。
+  1. 從[標題區域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)的![More](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL 移動資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式功能表中選取資料夾以行動資料夾。
+  1. 在&#x200B;**[!UICONTROL 選取資料夾]**&#x200B;對話方塊中，從&#x200B;**[!UICONTROL 資料夾]**&#x200B;下拉式功能表中選取資料夾以行動資料夾。
 
-   1. 選取&#x200B;**[!UICONTROL 移動]**。
+  1. 選取&#x200B;**[!UICONTROL 移動]**。
 
 
 ## 刪除資料夾
@@ -79,15 +79,15 @@ ht-degree: 81%
 
 * 在[專案清單](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list)中選取一個或多個要刪除的資料夾。
 
-   1. 在所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或藍色動作列選取&#x200B;**[!UICONTROL 刪除]**。
+  1. 在所選取資料夾的內容選單![More](/help/assets/icons/More.svg)中可用的[動作](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions)，或藍色動作列選取&#x200B;**[!UICONTROL 刪除]**。
 
-   1. 在&#x200B;**[!UICONTROL 中確定嗎？]** 對話方塊，選取&#x200B;**[!UICONTROL 確定]**&#x200B;以刪除資料夾。
+  1. 在&#x200B;**[!UICONTROL 中確定嗎？]** 對話方塊，選取&#x200B;**[!UICONTROL 確定]**&#x200B;以刪除資料夾。
 
 * 在您要刪除的資料夾中。
 
-   1. 從[標題區域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)的![More](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL 刪除資料夾]**。
+  1. 從[標題區域](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area)的![More](/help/assets/icons/More.svg)中選取&#x200B;**[!UICONTROL 刪除資料夾]**。
 
-   1. 在&#x200B;**[!UICONTROL 刪除&#x200B;*名稱*資料夾中？]** 對話方塊，選取&#x200B;**[!UICONTROL 確定]**。
+  1. 在&#x200B;**[!UICONTROL 刪除&#x200B;*名稱*資料夾中？]** 對話方塊，選取&#x200B;**[!UICONTROL 確定]**。
 
 
 <!-- 

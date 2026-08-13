@@ -80,4 +80,5 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
 
 >[!MORELIKETHIS]
 >
->[從多套裝標籤移至全域報表套裝和虛擬報表套裝比較統計和全域報表套裝](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[從多套裝標籤移至全域報表套裝和虛擬報表套裝](../../components/vrs/vrs-considerations.md)
+>[比較統計和全域報表套裝](../../admin/tools/manage-rs/rollup-report-suite.md)

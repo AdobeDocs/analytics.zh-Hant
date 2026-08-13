@@ -34,13 +34,13 @@ Adobe Analytics 中的警報可讓您根據變更的百分比或特定資料點�
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
 * 建立可在單一警報中擷取多個量度的&#x200B;*棧疊*&#x200B;警報。
 * 建立警示依據：
-   * 量度中的異常已存在、高於或低於預期臨界值。
+  * 量度中的異常已存在、高於或低於預期臨界值。
 
-     [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)會使用歷史資料建置預期值加上上限與下限。 如果實際量度值高於定義為臨界值的上限或下限，則該事件在臨界值信賴等級中被視為異常，且不會觸發警報。 較高的臨界值（例如：99%或99.9%）表示頻寬較寬，導致由更極端的異常所造成的警報較少。 較低的臨界值（例如：90%）表示頻帶較窄，這會產生由不太極端的異常所導致的更多警示。
-   * 依特定百分比區分的量度變更。
-   * 高於、低於或等於特定值的量度。 （僅適用於擁有Select、Prime或Ultimate套件的Adobe Analytics客戶）
+    [異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)會使用歷史資料建置預期值加上上限與下限。 如果實際量度值高於定義為臨界值的上限或下限，則該事件在臨界值信賴等級中被視為異常，且不會觸發警報。 較高的臨界值（例如：99%或99.9%）表示頻寬較寬，導致由更極端的異常所造成的警報較少。 較低的臨界值（例如：90%）表示頻帶較窄，這會產生由不太極端的異常所導致的更多警示。
+  * 依特定百分比區分的量度變更。
+  * 高於、低於或等於特定值的量度。 （僅適用於擁有Select、Prime或Ultimate套件的Adobe Analytics客戶）
 
-此[教學影片](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供警示的基本概觀。
+此[教學影片](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供警示的基本概觀。
 
 
 ## 警報的異常回顧

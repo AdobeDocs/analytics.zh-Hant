@@ -51,15 +51,15 @@ Analysis Workspace 中的[專案](/help/analyze/analysis-workspace/build-workspa
 * 新增[面板](/help/analyze/analysis-workspace/c-panels/panels.md)至您的專案。 例如，**[!DNL Example Panel]** ➊。
 
 * 新增[視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)至您的面板。 例如：
-   * **[!DNL Line]** [折線圖](/help/analyze/analysis-workspace/visualizations/line.md)視覺內容➋
-   * **[!DNL US States]** [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺內容➌
+  * **[!DNL Line]** [折線圖](/help/analyze/analysis-workspace/visualizations/line.md)視覺內容➋
+  * **[!DNL US States]** [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)視覺內容➌
 * 新增[元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)至您的視覺效果。 例如：
-   * **[!DNL US States]** [維度](/help/components/dimensions/overview.md) ➍
-   * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [計算量度](/help/components/calculated-metrics/cm-overview.md) ➏
-   * **[!DNL Visits from Mobile Devices]** [區段](/help/components/segmentation/seg-overview.md) ➐
-   * **[!DNL Last Month]** [日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
-   * **[!DNL Example]** [註解](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
+  * **[!DNL US States]** [維度](/help/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+  * **[!DNL Average Revenue Per Order]** [計算量度](/help/components/calculated-metrics/cm-overview.md) ➏
+  * **[!DNL Visits from Mobile Devices]** [區段](/help/components/segmentation/seg-overview.md) ➐
+  * **[!DNL Last Month]** [日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+  * **[!DNL Example]** [註解](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## 專案資訊和設定 {#project-info-settings}

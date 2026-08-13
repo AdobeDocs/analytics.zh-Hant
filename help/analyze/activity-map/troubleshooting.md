@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +47,8 @@ ht-degree: 16%
 * **AppMeasurement版本**： v1.6及更高版本支援Activity Map。 升級到最新穩定AppMeasurement版本時，許多Edge案例問題都已解決。
 * **Activity Map模組**：檢查`AppMeasurement.js`檔案中是否有`AppMeasurement_Module_Activity_Map`模組。 如果您的實作使用Adobe Experience Platform來收集資料，請確定在&#x200B;**[!UICONTROL 連結追蹤]**&#x200B;下設定Analytics擴充功能時，已勾選&#x200B;**[!UICONTROL 啟用ClickMap]**。
 * **`s_sq` Cookie**： Activity Map依賴於`s_sq` Cookie進行資料收集。
-   * 請確定`cookieDomainPeriods`變數已正確設定，尤其是區域網域，例如`*.co.uk`或`*.co.jp`。
-   * 請確定`linkInternalFilters`變數已設定為所要的值。 如果點按的連結與內部篩選器不符，Activity Map會將其視為退出連結，不會收集資料。
+  * 請確定`cookieDomainPeriods`變數已正確設定，尤其是區域網域，例如`*.co.uk`或`*.co.jp`。
+  * 請確定`linkInternalFilters`變數已設定為所要的值。 如果點按的連結與內部篩選器不符，Activity Map會將其視為退出連結，不會收集資料。
 * **Activity Map覆蓋正在執行**：啟用AppMeasurement覆蓋時，Activity Map不會追蹤您網頁的點選資料。
 
 顯示與使用 Activity Map 不相容的瀏覽器參數。 Adobe建議停用這些設定。

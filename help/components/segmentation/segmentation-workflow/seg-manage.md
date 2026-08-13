@@ -67,9 +67,9 @@ ht-degree: 64%
 |---|---|
 | ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL 新增]** | 使用[區段產生器](seg-build.md)新增另一個區段。 |
 | ![Search](/help/assets/icons/Search.svg) [!UICONTROL *根據標題搜尋*] | 當未選取清單中任何區段時，請使用此搜尋欄位搜尋區段。 |
-| ![標籤](/help/assets/icons/Label.svg)**[!UICONTROL 標記]** | 標記所選取之區段。 在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。 如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
+| ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標記]** | 標記所選取之區段。 在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。 如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
 | ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用所選取之區段。 在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話框中，您可以 ![Search](/help/assets/icons/Search.svg) *搜尋個人或群組*，或者您可以選取「**[!UICONTROL 組織]**」或「**[!UICONTROL 群組]**」。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的共用詳細資訊。 如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
-| ![Delete](/help/assets/icons/Delete.svg)**[!UICONTROL 刪除]** | 刪除所選取之區段。 系統會提示您進行確認。 |
+| ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。 系統會提示您進行確認。 |
 | ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。 選取後，您可以重新命名內嵌區段。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選取之區段。 如需詳細資訊，請參閱[核准區段](seg-approve.md)。 |
 | ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製所選取之區段。 使用相同的名稱和字尾建立新區段`(Copy)`。 |

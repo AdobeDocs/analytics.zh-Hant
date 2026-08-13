@@ -38,11 +38,11 @@ AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收�
 * 開發[報表套裝ID](/help/admin/tools/manage-rs/new-rs/new-report-suite.md)。
 * [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md)的所需邊緣網域。
 * 您的IMS組織ID：
-   1. 使用您的Adobe ID認證登入[Adobe CX Enterprise](https://experience.adobe.com)。
-   1. 在CX Enterprise介面中的任何位置，按下`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
-   1. 出現&#x200B;**[!UICONTROL 使用者資料偵錯工具]**。 選取&#x200B;**[!UICONTROL 指派的組織]**&#x200B;索引標籤。
-   1. 展開所需的IMS組織。
-   1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;欄位。
+  1. 使用您的Adobe ID認證登入[Adobe CX Enterprise](https://experience.adobe.com)。
+  1. 在CX Enterprise介面中的任何位置，按下`[Cmd]` + `[I]` (iOS)或`[Ctrl]` + `[I]` (Windows)。
+  1. 出現&#x200B;**[!UICONTROL 使用者資料偵錯工具]**。 選取&#x200B;**[!UICONTROL 指派的組織]**&#x200B;索引標籤。
+  1. 展開所需的IMS組織。
+  1. 找到&#x200B;**[!UICONTROL ID]**&#x200B;欄位。
 
 擁有上述資源後，下列基本範例頁面會包含將資料傳送至Adobe Analytics所需的最低呼叫：
 
@@ -98,9 +98,9 @@ AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收�
 使用[`visitorID`](/help/implement/vars/config-vars/visitorid.md)變數可讓您的組織完成識別訪客的獨立控制。 如果您使用`visitorID`，請注意下列限制：
 
 * 每個點選都必須包含相同的`visitorID`值，才能計為單一訪客。
-   * 任何省略`visitorID`的點選都會自動嘗試使用其他訪客識別方法，將其視為個別訪客。
-   * 任何包含與先前點選不同的`visitorID`值的點選會視為個別訪客。
-   * Adobe不提供在Adobe Analytics中使用不同訪客ID來拼接點選的方法。
+  * 任何省略`visitorID`的點選都會自動嘗試使用其他訪客識別方法，將其視為個別訪客。
+  * 任何包含與先前點選不同的`visitorID`值的點選會視為個別訪客。
+  * Adobe不提供在Adobe Analytics中使用不同訪客ID來拼接點選的方法。
 * 使用`visitorID`識別的訪客不支援共用受眾、Analytics for Target和Customer屬性。
 
 如需使用此變數的實作指示，請參閱[`visitorID`](/help/implement/vars/config-vars/visitorid.md)。
