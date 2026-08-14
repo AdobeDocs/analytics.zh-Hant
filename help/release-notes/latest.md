@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
+source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
 workflow-type: tm+mt
-source-wordcount: 1167
-ht-degree: 46%
+source-wordcount: 1246
+ht-degree: 43%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 46%
 | ----------- | ---------- | ---- |
 | **Activity Map擴充功能： UI重新整理** <br/>Activity Map Overlay擴充功能具有更新的外觀和風格，以及可支援未來增強功能的基本改善。<p>如需Activity Map覆蓋擴充功能的相關資訊，請參閱[Activity Map擴充功能介面](/help/analyze/activity-map/overlay/overview.md)。</p> | | 2026年8月5日<p>（原計畫於7月底推出）</p> |
 | **歷程畫布增強功能**<br>&#x200B;現已推出下列歷程畫布增強功能：<ul><li>比較歷程與先前的時間範圍。 比較目前歷程與4週前、2季前、1年前或自訂日期範圍的歷程。</li><li>針對選取的節點，顯示在歷程中任何時間點上所選節點之後排名最前的維度專案。 當選取的節點是您分析中的關鍵事件，且您想要檢視人員之後在任何時間點做什麼，請使用此選項。<p>以前，只有頂部的緊接節點可以顯示在所選節點之前或之後。 </p></li><li>變更節點之間箭頭的形狀和樣式。 在節點之間拖曳箭頭以變更箭頭的形狀（曲率），然後按一下滑鼠右鍵以將其樣式變更為下列任一專案：實線、虛線、點狀線、虛線點或動畫。</li></ul><p></p>如需更多資訊，請參閱「[設定歷程畫布視覺效果](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md)」。 | | 2026年8月18日 |
+| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。 <p>建立或修改最上層容器為訪客的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **Analytics API行銷管道參考**<br/>&#x200B;使用Adobe Analytics 2.0 API行銷管道參考來擷取Analytics行銷管道資訊。 請參閱[Analytics API行銷管道參考](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels)。 | | 2026年8月1日 |
 | **Analytics API行銷管道端點指南**<br/> Adobe Analytics 2.0 API行銷管道端點指南提供使用端點的指示和範例。 請參閱[Analytics API行銷管道端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels)。 | | 2026年8月1日 |
 | **Analytics 1.4 API EOL客戶常見問題集**<br/> Analytics 1.4 API EOL客戶常見問題集提供近期2.0 API開發的相關資訊，以協助客戶離開1.4 API。 | | 2026年8月10日 |
