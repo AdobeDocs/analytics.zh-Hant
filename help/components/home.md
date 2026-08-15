@@ -55,7 +55,7 @@ Analytics Components 可協助您微調及啟用資料分析。 元件包括：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 

@@ -36,11 +36,11 @@ ht-degree: 1%
 * [[!UICONTROL 內容長度（變數）]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-length)
 * [[!UICONTROL 內容名稱（變數）]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-name)
 * [[!UICONTROL 內容播放器名稱]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-player-name)
-* [[!UICONTROL 內容區段]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
-* [[!UICONTROL 內容型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL 內容區段]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL 內容型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-type)
 * [[!UICONTROL 媒體路徑]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-path)
 * [[!UICONTROL 媒體工作階段識別碼]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-session-id)
-* [[!UICONTROL 資料流型別]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
+* [[!UICONTROL 資料流型別]](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 除了上述維度之外，Adobe會自動建立下列分類維度。 您必須上傳分類資料，才能檢視使用這些維度的報表。
 
