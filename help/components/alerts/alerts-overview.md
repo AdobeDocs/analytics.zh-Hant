@@ -40,7 +40,7 @@ Adobe Analytics 中的警報可讓您根據變更的百分比或特定資料點�
   * 依特定百分比區分的量度變更。
   * 高於、低於或等於特定值的量度。 （僅適用於擁有Select、Prime或Ultimate套件的Adobe Analytics客戶）
 
-此[教學影片](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供警示的基本概觀。
+此[教學影片](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/data-science/intelligent-alerts)提供警示的基本概觀。
 
 
 ## 警報的異常回顧
