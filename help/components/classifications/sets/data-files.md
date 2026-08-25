@@ -4,24 +4,15 @@ title: 分類設定檔案格式
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
 TQID: https://experienceleague.adobe.com/-4pIa7Kqe0sEJkhwiVanaN90xkI8jg0U3-1qEWxRiwM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cdid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +29,8 @@ ht-degree: 1%
 
 * **JSON**： JavaScript Object Notation檔案包含結構化資料
 * **CSV**：逗號分隔值檔案
-* **TSV或TAB**：以Tab分隔的值檔案
+* **TSV**：以Tab分隔的值檔案
+* **TAB**：副檔名為`.tab`的Tab字元分隔值檔案（僅限瀏覽器上傳；API不支援）
 
 ## 一般檔案需求
 
@@ -63,12 +55,12 @@ JSON檔案格式遵循JSON行(JSONL)的慣例。 檔案的每行必須包含一�
 * `key` （必要）：分類記錄的唯一識別碼
 * `data` （更新所需）：包含分類欄名稱及其值的物件
 * `action` （選用）：要執行的動作。 支援的值包括：
-   * `update` （未指定動作時的預設動作）
-   * `delete-field`
-   * `delete-key`
+  * `update` （未指定動作時的預設動作）
+  * `delete-field`
+  * `delete-key`
 * `enc` （選用）：資料編碼規格。 支援的值包括：
-   * `utf8`或`UTF8` （預設）
-   * `latin1` 或 `LATIN1`
+  * `utf8`或`UTF8` （預設）
+  * `latin1` 或 `LATIN1`
 
 所有JSON欄位名稱(`key`、`data`、`action`、`enc`)都區分大小寫，且必須為小寫。
 
@@ -167,6 +159,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ TSV和TAB格式詳細資料
+
+>[!NOTE]
+>
+>只有瀏覽器上傳才支援副檔名為`.tab`的檔案。 [分類API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)不接受`.tab`檔案型別，即使檔案內容是以Tab分隔。 對於API上傳，請改用`.tsv`擴充功能（或`.json`或`.csv`）。
 
 TSV （定位字元分隔值）和TAB檔案使用定位字元來分隔分類資料欄位。
 
