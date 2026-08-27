@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 76%
+source-wordcount: 2082
+ht-degree: 72%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
 >title="建立客群"
->abstract="客群可以透過細分群體建立，並與 Adobe Experience Platform 共用以進行啟用。"
+>abstract="客群可以透過區段建立，並與 Adobe Experience Platform 共用以進行啟用。"
 
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
@@ -100,12 +100,23 @@ ht-degree: 76%
    * 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定元件。
    * 您可以在元件列中使用![篩選器](/help/assets/icons/Filter.svg)來篩選![核取記號](/help/assets/icons/Checkmark.svg) **[!UICONTROL 已核准]**、![星號](/help/assets/icons/Star.svg) **[!UICONTROL 我的最愛]**、![資料維度](/help/assets/icons2/DataDimension.svg) **[!UICONTROL 維度]**、![事件](/help/assets/icons/Event.svg) **[!UICONTROL 量度]**、![分段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**、![行事曆](/help/assets/icons/Calendar.svg) **[!UICONTROL 日期範圍]** ![層](/help/assets/icons/Layer.svg) **[!UICONTROL 產品]**&#x200B;元件。 您也可以篩選![標籤](/help/assets/icons/Label.svg)標籤。
 1. 指定元件的詳細資訊。 例如，從「**[!UICONTROL 選擇值]**」中選取一個值。 或輸入一個值。 指定一個或多個值的內容和方式取決於元件和運算子。
-1. 可選擇修訂預設的運算子。 例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。 請參閱「[運算子](../seg-reference/seg-operators.md)」，了解可用運算子詳細概觀。
+
+1. （選用）啟用選項，以&#x200B;[!UICONTROL **將結果限制在報表日期範圍**]。
+
+   如果您的區段包含日期範圍元件，Workspace報表中的資料可能會超過報表日期範圍。
+
+   啟用此選項可將結果限製為報告日期範圍，無論區段中包含的任何日期元件為何。
+
+   只有從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式選單中選取&#x200B;[!UICONTROL **人員**]&#x200B;作為定義的範圍（容器）時，才會顯示此選項。
+
+   **注意**：此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 此功能普遍開放使用時，便會移除此注意事項。 如需Customer Journey Analytics發行程式的相關資訊，請參閱[Adobe Analytics功能發行](/help/release-notes/releases.md)。
+
+1. （選用）修改預設運運算元。 例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。 請參閱「[運算子](../seg-reference/seg-operators.md)」，了解可用運算子詳細概觀。
 
 若要編輯元件：
 
 * 從運算子下拉式選單中選取元件的新運算子。
-* 若可以，請為運算子選取或指定不同的值。
+* 若適用，請為運算子選取或指定不同的值。
 * 如果元件類型是維度，則可以定義歸因模型。 如需詳細資訊，請參閱「[歸因模型](#attribution)」。
 
 若要刪除元件：
@@ -130,8 +141,8 @@ ht-degree: 76%
 | 容器動作 | 說明 |
 |---|---|
 | **[!UICONTROL 新增容器]** | 新增巢狀容器至容器中。 |
-| **[!UICONTROL 排除]** | 在區段定義中排除容器中的結果。 左側的細紅色條是指排除容器。 |
-| **[!UICONTROL 包括]** | 在區段定義中包括容器中的結果。 包含為預設值。 左側的細灰色條是指包含容器。 |
+| **[!UICONTROL 排除]** | 在區段定義中排除容器中的結果。 左側的細紅色條可識別排除容器。 |
+| **[!UICONTROL 包括]** | 在區段定義中包括容器中的結果。 包含為預設值。 左側的細灰色條可識別包含容器。 |
 | **[!UICONTROL 容器名稱]** | 根據容器的預設說明為容器重新命名。 在文字欄位中輸入名稱。 如果您未輸入任何資料，則使用預設說明。 |
 | **[!UICONTROL 刪除容器]** | 根據定義來刪除容器。 |
 
@@ -183,7 +194,7 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="components_filters_attribution_nonrepeatinginstance"
 >title="非重複的例項"
->abstract="包括維度的唯一執行個體 (非重複) 執行個體。"
+>abstract="包括維度的唯一 (非重複) 實例。"
 
 
 
@@ -194,16 +205,16 @@ ht-degree: 76%
 
 | 模型 | 說明 |
 |---|---|
-| **[!UICONTROL 重複模型 (預設)]** | 包含維度的實例和持續值來確定資格。 |
-| **[!UICONTROL 例項]** | 僅包含維度的實例值來確定資格。 |
-| **[!UICONTROL 非重複的例項]** | 包含維度的唯一實例 (非重複) 值來確定資格。 非重複例項是排除重複例項時套用於「流量」中的模型。 |
+| **[!UICONTROL 重複模型 (預設)]** | 包含維度的實例和持續值，以判定是否符合條件。 |
+| **[!UICONTROL 例項]** | 僅包含維度的實例值，以判定是否符合條件。 |
+| **[!UICONTROL 非重複的例項]** | 包含維度的唯一實例 (非重複) 值，以判定是否符合條件。 非重複例項是排除重複例項時套用於「流量」中的模型。 |
 
 
 ![建立區段時的維度歸因模型](assets/segment-dimension-attribution.png)
 
 ### 範例
 
-作為區段定義的一部分，您已指定以下條件：頁面名稱等於「女性」。 與上面的例子類似。 您是使用另外兩個歸因模型來重複此區段定義。 因此，您有三個區段，而每個區段皆有自己的歸因模型：
+作為區段定義的一部分，您已指定以下條件：頁面名稱等於「女性」。 與上面的例子類似。 您使用另外兩個歸因模型重複此區段定義。 因此，您有三個區段，而每個區段皆有自己的歸因模型：
 
 * 女性頁面 - 歸因 - 重複 (預設)
 * 女性頁面 - 歸因 - 實例
@@ -393,7 +404,7 @@ Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於�
   </tr> 
   <tr> 
    <td colname="col1"> 首次瀏覽次數 </td> 
-   <td colname="col2">檢視最多僅造訪過 1 次的訪客的相關資料。 在區段定義中，容器是「造訪」。 </p> </td> 
+   <td colname="col2">檢視最多僅造訪過 [1] 次的訪客的相關資料。 在區段定義中，容器是「造訪」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 非購買者 </td> 
@@ -417,7 +428,7 @@ Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於�
   </tr> 
   <tr> 
    <td colname="col1"> 單頁造訪次數 </td> 
-   <td colname="col2"> 檢視您看到單一頁面值之造訪的資料，即使您在該造訪期間可能會提交多個頁面檢視亦然。 隨附退出連結事件的單一頁面造訪會納入區段中。  </td> 
+   <td colname="col2"> 檢視您看到單一頁面值之造訪的資料，即使您在該造訪期間可能會提交多個頁面檢視亦然。 包含退出連結事件的單一頁面造訪會納入區段中。  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未新增至購物車的產品 </td> 
@@ -437,7 +448,7 @@ Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於�
   </tr> 
   <tr> 
    <td colname="col1"> 來自非行動裝置的造訪次數 </td> 
-   <td colname="col2">檢視非使用行動裝置的訪客相關資料。 </td> 
+   <td colname="col2">檢視未使用行動裝置的訪客相關資料。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自手機的造訪次數 </td> 
@@ -457,7 +468,7 @@ Adobe 標誌 ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) 可用於�
   </tr> 
   <tr> 
    <td colname="col1"> 具有訪客 ID Cookie 的造訪次數 </td> 
-   <td colname="col2">檢視前往您網站 (需要永久性 Cookie) 的訪客相關資料。</td> 
+   <td colname="col2">檢視造訪您網站且需要永久性 Cookie 的訪客相關資料。</td> 
   </tr> 
  </tbody> 
 </table>
