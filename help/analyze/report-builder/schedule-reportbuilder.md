@@ -7,34 +7,30 @@ type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
 TQID: https://experienceleague.adobe.com/57Kc6Mgv1-HwWIEjxYj-zEjJSSIqHMxn5-KHxAeVsUQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 26%
+source-wordcount: 964
+ht-degree: 23%
 
 ---
 
 # 透過電子郵件共用排程活頁簿
 
->[!NOTE]
->
->除了排程活頁簿以透過電子郵件共用（如本節所述）之外，您還可以排程要匯出至雲端目的地的活頁簿，如[排程要匯出至雲端目的地的活頁簿](/help/analyze/report-builder/report-builder-export.md)所述。
-
-儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。 「排程」功能可讓您建立排程，自動更新活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的客群。 設定排程可讓收件者定期自動更新。 您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
+儲存活頁簿並完成分析後，您就可以使用排程功能輕鬆與團隊中的其他人共用活頁簿。 「排程」功能可讓您建立排程，自動更新活頁簿中的資料，並透過電子郵件將 Excel 活頁簿 .xlsx 檔案作為附件，在特定日期和時間傳送給您指定的客群。 設定排程可讓收件者定期自動收到更新。 您也可以使用排程功能來傳送一次活頁簿，而不排程自動更新。
 
 您可以為單一活頁簿建立多個排程。 例如，您可以每天將活頁簿傳送給您的團隊，也可以建立兩個不同的排程，每週將活頁簿傳送給主管一次。
 
-「排程」功能也可以讓您設定活頁簿的密碼保護，以及編輯先前排程的活頁簿。
+除了排程活頁簿以透過電子郵件共用（如本節所述）之外，您還可以排程要匯出至雲端目的地的活頁簿，如[排程要匯出至雲端目的地的活頁簿](/help/analyze/report-builder/report-builder-export.md)所述。
 
+排程功能也可讓您設定活頁簿的密碼保護，以及編輯先前排程活頁簿的排程。
+
+>[!NOTE]
+>
+>排程會傳送您建立排程時已存在活頁簿的版本。 如果您稍後變更並儲存活頁簿，現有的排程將不會擷取這些變更，並繼續傳送原始版本。 若要分發更新的活頁簿，請在儲存變更後建立新的排程。
 
 >[!BEGINSHADEBOX]
 
@@ -117,7 +113,7 @@ Does no longer seem to be an option?
 
 1. 選取&#x200B;**[!UICONTROL 顯示排程選項]**&#x200B;以定義排程。
 
-1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;]**開始的**[!UICONTROL &#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 
