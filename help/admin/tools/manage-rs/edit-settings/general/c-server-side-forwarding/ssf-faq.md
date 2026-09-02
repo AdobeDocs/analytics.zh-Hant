@@ -5,19 +5,11 @@ feature: Report Suite Settings
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 role: Admin
 TQID: 'https://experienceleague.adobe.com/av541DJd5Ga5QaK2856YBHWW1M-JjkbzRs8JXxYma6c'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c354699e-6555-4397-8706-1a9a89984069
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c354699e-6555-4397-8706-1a9a89984069
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 707
@@ -33,8 +25,8 @@ ht-degree: 42%
 
 | 問題 | 回答 |
 |--- |--- |
-| 問：如果我目前是使用舊版追蹤伺服器的伺服器端轉送會發生什麼事？ | 舊版追蹤伺服器的伺服器端轉送方法仍會繼續將資料從Analytics轉送至Audience Manager，不過如果您想要將Audience Manager區段傳送至Analytics，則需要全新的報表套裝伺服器端轉送。 此外，在您的追蹤伺服器設定之上為報表套裝啟用伺服器端轉送並無壞處 — 每當衝突發生時，都會使用新的報表套裝伺服器端轉送設定。 |
-| 問：我應該將舊版追蹤伺服器的伺服器端轉送，移轉至新的報表套裝伺服器端轉送嗎？ | 在可預見的將來，我們仍會持續支援追蹤伺服器的伺服器端轉送，不過如果您想要利用從Audience Manager到Analytics的整合（區段共用到Analytics），則您需要為所有適用的報表套裝啟用新的報表套裝伺服器端轉送。 不過，我們目前並沒有迫切需要停用舊版追蹤伺服器的伺服器端轉送。 |
+| 問：如果我目前使用的是以追蹤伺服器為基礎的舊版伺服器端轉送，會發生什麼情況？ | 舊版追蹤伺服器的伺服器端轉送方法仍會繼續將資料從Analytics轉送至Audience Manager，不過如果您想要將Audience Manager區段傳送至Analytics，則需要全新的報表套裝伺服器端轉送。 此外，在您的追蹤伺服器設定之上為報表套裝啟用伺服器端轉送並無壞處 — 每當衝突發生時，都會使用新的報表套裝伺服器端轉送設定。 |
+| 問：我應該將舊版追蹤伺服器的伺服器端轉送，移轉至新的報告套裝伺服器端轉送嗎？ | 在可預見的將來，我們仍會持續支援追蹤伺服器的伺服器端轉送，不過如果您想要利用從Audience Manager到Analytics的整合（區段共用到Analytics），則您需要為所有適用的報表套裝啟用新的報表套裝伺服器端轉送。 不過，我們目前並沒有迫切需要停用舊版追蹤伺服器的伺服器端轉送。 |
 
 ## 標籤和報告 {#section_71391BA901AC47B9A2286281644FF281}
 

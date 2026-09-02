@@ -1,18 +1,13 @@
 ---
-description: 規則集是一組特定變數的分類規則。 您可以將變數套用至規則集。 如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
+description: 規則集是一組特定變數的分類規則。 您可以將變數套用至規則集。 如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報告套裝。
 title: 分類規則集
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 407
@@ -86,7 +81,7 @@ ht-degree: 71%
 
 1. 按一下&#x200B;**[!UICONTROL 「選取報表套裝和變數」]**。
 
-   報表套裝和變數清單會填入您的登入公司裡所有報表套裝中可用的所有分類變數。 報表套裝中單一的變數只能屬於一個規則集。
+   報告套裝和變數清單會填入您的登入公司裡所有報告套裝中可用的所有分類變數。 報告套裝中單一的變數只能屬於一個規則集。
 
    請參閱&#x200B;*`Variable`*&#x200B;分類規則產生器[頁面所列定義中的](/help/components/classifications/crb/classification-rule-definitions.md)以取得詳細資訊。
 1. 指定要使用的報表套裝和變數，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。

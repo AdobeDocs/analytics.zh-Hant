@@ -5,21 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 952
@@ -36,9 +26,9 @@ ht-degree: 96%
 * 如果 `currencyCode` 未定義，Adobe 假設所有貨幣值是報表套裝的貨幣。 請參閱報表套裝設定中的[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)，查看報表套裝的貨幣。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣相同，則不會套用貨幣轉換。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。 Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。 所有儲存在報表套裝中的值，都是採用報表套裝的貨幣。
-* 如果`currencyCode`設定為無效值，則會捨棄整個點選，造成資料遺失。**&#x200B;**&#x200B;確保在使用時正確定義此變數。
+* 如果`currencyCode`設定為無效值，則會捨棄整個點選，造成資料遺失。****&#x200B;確保在使用時正確定義此變數。
 
-此變數不會在點擊之間持續存在。 請確定已在每個涉及收入或貨幣事件 (與報表套裝的預設貨幣不相符) 的頁面上定義此變數。
+此變數不會在點擊之間持續存在。 請確定已在每個涉及收入或貨幣事件 (與報告套裝的預設貨幣不相符) 的頁面上定義此變數。
 
 >[!NOTE]
 >
@@ -69,7 +59,7 @@ ht-degree: 96%
 貨幣代碼會透過 Adobe Analytics 擴充功能中的內容資料變數傳遞至 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期間，在內容資料變數中設定貨幣代碼。
-1. 在 Adobe Analytics 管理工具中建立報表套裝的處理規則。 設定覆寫貨幣代碼變數的規則。
+1. 在 Adobe Analytics 管理工具中建立報告套裝的處理規則。 設定覆寫貨幣代碼變數的規則。
 1. 在呼叫 `trackState` 或 `trackAction` 時，將貨幣代碼傳遞至 `products` 變數。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。 如果使用自訂貨幣代碼，請確認代碼有效。

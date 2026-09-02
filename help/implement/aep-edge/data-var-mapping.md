@@ -5,21 +5,14 @@ feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
 TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 626
 ht-degree: 78%
 
 ---
@@ -34,11 +27,11 @@ ht-degree: 78%
 
 此資料表中大部分的資料物件欄位都對應至[對應的XDM欄位](xdm-var-mapping.md)。 在Adobe Analytics擷取期間，值會先從XDM對應至Analytics變數。 可辨識的資料物件欄位會接著進行對應，並在對應至相同Analytics變數時覆寫先前設定的任何值。 例如，如果`data.__adobe.analytics.events`存在，則會取代原本衍生自XDM的整個事件集；事件不會跨兩個來源合併。 資料物件欄位中的空白字串(`""`)會遮蔽其點選對應的Analytics變數，即使對應的XDM欄位包含值亦然。
 
-某些資料物件欄位亦支援其對應的[查詢參數值](../validate/query-parameters.md)作為簡寫值。 只要對應到的變數是唯一的，您可以互換使用標準資料物件欄位與簡寫資料物件欄位。 請避免同時設定標準資料物件欄位及其對應的簡寫資料物件欄位。 Adobe 無法保證哪一個欄位會具有優先順序。
+某些資料物件欄位亦支援其對應的[查詢參數值](../validate/query-parameters.md)作為簡寫值。 只要對應到的變數是唯一的，您可以互換使用標準資料物件欄位與簡寫資料物件欄位。 請避免同時設定標準資料物件欄位及其對應的簡寫資料物件欄位。 Adobe 無法保證哪一個欄位會優先採用。
 
 ## 資料物件欄位對應
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到。 與 AppMeasurement 變數相同，所有資料物件欄位皆區分大小寫。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到。 與 AppMeasurement 變數相同，所有資料物件欄位皆區分大小寫。
 
 | 資料物件欄位路徑 | Analytics 變數與說明 |
 | --- | --- |

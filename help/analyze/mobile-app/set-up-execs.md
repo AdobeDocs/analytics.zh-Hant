@@ -5,20 +5,11 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 TQID: https://experienceleague.adobe.com/mejoGlgRAOHkpBAXtlVef4LcheWPXtg9TT7hHYIPtHU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 755
@@ -71,7 +62,7 @@ ht-degree: 96%
 
 1. 要求他們點選套用至您共用計分卡的登入公司或CX Enterprise組織的名稱。
 
-   該計分卡清單接著就會顯示該登入公司和高階主管共用的所有計分卡。
+   接著，計分卡清單會顯示在該登入公司下與該高階主管共用的所有計分卡。
 
 1. 若情況適用，要求他們依「**[!UICONTROL 最近修改項目]**」將清單排序。
 
@@ -123,10 +114,10 @@ ht-degree: 96%
 ![無共用項目](assets/nothing.png)
 
 * 高階主管使用者可能選取了錯誤的 Analytics 實例，或者
-* 可能尚未和該高階主管使用者共用任何計分卡。
+* 計分卡可能尚未與該高階主管使用者共用。
 
 請確認主管使用者可登入正確的 Adobe Analytics 實例，且有與其共用的計分卡。
 
 >[!IMPORTANT]
 >
->自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。 這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。 該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。 若要選擇不使用上述效能增強功能，請聯絡您的 Adobe 帳戶團隊。
+>自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。 這些增強功能著重於快取用來以日期填入計分卡的歷史 Analytics 資料 (不包括當日)。 該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。 若要選擇不使用上述效能增強功能，請聯絡您的 Adobe 帳戶團隊。

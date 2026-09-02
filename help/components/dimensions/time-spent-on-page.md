@@ -4,18 +4,11 @@ description: 訪客在頁面上逗留的時間量。
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
 TQID: https://experienceleague.adobe.com/2WS7gBdkpaYUvVqgoR5QTrPes2T2GJT5AEFyj9POcHA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 289
@@ -25,10 +18,10 @@ ht-degree: 85%
 
 # 頁面逗留時間
 
-「頁面逗留時間」[維度](overview.md)會記錄訪客在頁面上逗留的時間量。 此維度使用下列步驟來測量計算：
+「頁面逗留時間」[維度](overview.md)會記錄訪客在頁面上逗留的時間量。 此維度使用下列步驟來測算計算：
 
 1. 對於指定的點擊，查看時間戳記。
-2. 將此點擊與造訪的下次點擊時間戳記進行比較。 頁面檢視和連結追蹤點擊都會計入。
+2. 將此點擊與此次造訪中下一次點擊的時間戳記進行比較。 頁面檢視和連結追蹤點擊都會計入。
 3. 這兩次點擊之間經過的時間會計為逗留時間。
 
 如果您想要瞭解訪客在您的網站上與指定量度互動的時間長度，此維度就十分實用。

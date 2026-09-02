@@ -1,19 +1,14 @@
 ---
-description: 您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段是新的Analytics維度，稱為「對象ID」和「對象名稱」，其使用方式與Analytics收集的任何其他維度相同。 「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。 這些維度目前在 Data Workbench 或直播串流中均不可用。 可以利用 Audiences 維度的部分例子包括
+description: 您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段是新的Analytics維度，稱為「對象ID」和「對象名稱」，其使用方式與Analytics收集的任何其他維度相同。 「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。 這些維度目前在 Data Workbench 或直播串流中均不可用。 Audiences 維度的部分運用範例包括
 solution: Analytics
 title: 在 Analytics 中使用客群資料
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 TQID: 'https://experienceleague.adobe.com/HrTqqIUJD3KivNI331cWjeyWSPA3ZT2k05KZJulAhDs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-subfeature_v2:
-  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 570
@@ -23,7 +18,7 @@ ht-degree: 58%
 
 # 在 Analytics 中使用客群資料
 
-您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段是新的Analytics維度，稱為「對象ID」和「對象名稱」，其使用方式與Analytics收集的任何其他維度相同。 「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。 這些維度目前在 Data Workbench 或直播串流中均不可用。 可以利用 Audiences 維度的部分例子包括：
+您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段是新的Analytics維度，稱為「對象ID」和「對象名稱」，其使用方式與Analytics收集的任何其他維度相同。 「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。 這些維度目前在 Data Workbench 或直播串流中均不可用。 Audiences 維度的一些運用方式包括：
 
 ## Analysis Workspace {#workspace}
 
@@ -36,7 +31,7 @@ ht-degree: 58%
 
 ## 區段比較 {#compare}
 
-[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會找出兩個區段之間在統計上最顯著的差異。 您可以兩種方式在「細分群體比較」中使用客群資料：1) 作為要比較的兩個細分群體，2) 作為「排名最前的維度項目」表格中的項目。
+[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會找出兩個區段之間在統計上最顯著的差異。 您可以兩種方式在「區段比較」中使用客群資料：1) 作為要比較的兩個區段，2) 作為「排名最前的維度項目」表格中的項目。
 
 1. 前往 **[!UICONTROL Workspace]**，然後從左欄選取&#x200B;**[!UICONTROL 「區段比較」]**&#x200B;面板。
 

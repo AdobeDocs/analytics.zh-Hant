@@ -5,22 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 TQID: https://experienceleague.adobe.com/IrWsvooPWqWmbDAD-70CgI71gEPJCQY-1wFHFyuJsyc
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 455
@@ -34,19 +22,19 @@ ht-degree: 69%
 
 此功能在下列情況下相當實用：
 
-* 比較兩個不同地區的資料，而這些資料位於兩個不同的報表套裝時， 您可以建立表格和視覺效果，以便並排比較資料。
+* 比較兩個不同地區的資料，而這些資料位於兩個不同的報告套裝時， 您可以建立表格和視覺效果，以便並排比較資料。
 
 * 建立量度和視覺效果的控制面板，以便向其他組織提交報告。 您可以將不同報表套裝的資料提取到相同專案中。
 
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多個報表套裝](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [多個報表套裝](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
-## 將報表套裝套用至所有面板
+## 將報告套裝套用至所有面板
 
 您可以對任何面板標題按滑鼠右鍵並選取&#x200B;**[!UICONTROL 「將報表套裝套用至所有面板」]**，一次將一個報表套裝套用至所有面板。
 
@@ -58,7 +46,7 @@ ht-degree: 69%
 
 >[!TIP]
 >
->您可以拖放至與使用中面板位於相同報表套裝中的任何面板。 若拖曳至相同報表套裝的非使用中面板，該面板就會變成使用中。
+>您可以拖放至與使用中面板位於相同報告套裝中的任何面板。 若拖曳至相同報告套裝的非使用中面板，該面板就會變成使用中。
 >
 
 ## 使用多個報表套裝
@@ -67,26 +55,26 @@ ht-degree: 69%
 
 1. 在 Workspace 中建立具有 2 個或更多面板的新專案。
 
-1. 將元件 (量度、維度、區段、日期範圍) 拖放至面板中。 確認面板擁有專屬於其報表套裝的資料和視覺效果。
+1. 將元件 (量度、維度、區段、日期範圍) 拖放至面板中。 確認面板擁有專屬於其報告套裝的資料和視覺效果。
 
 
    >[!NOTE]
    >
-   >有時候，系統載入專案 (或切換到報表套裝) 時會顯示橫幅訊息，這是因為並非所有元件都包含在報表套裝中。 畫面會列出缺少的元件。 請依照[這些指示](/help/admin/admin-console/permissions/product-profile.md)，將權限設為所需的量度/維度。
+   >有時候，系統載入專案 (或切換到報告套裝) 時會顯示橫幅訊息，這是因為並非所有元件都包含在報告套裝中。 畫面會列出缺少的元件。 請依照[這些指示](/help/admin/admin-console/permissions/product-profile.md)，將權限設為所需的量度/維度。
    >
 
    ![](assets/incompat-rs.png)
 
    因應這種不相容的狀況有 3 種方法：
    * 啟用必要的維度/量度
-   * 變更報表套裝。
+   * 變更報告套裝。
    * 在缺少部分元件的情況下繼續操作。 這會導致這些元件沒有任何資料，和/或視覺效果空白。
 
-1. 將面板變更為其他報表套裝，並注意元件標籤 (目前使用中的報表套裝) 和列出的元件會如何根據新的報表套裝來更新。
+1. 將面板變更為其他報告套裝，並注意元件標籤 (目前使用中的報告套裝) 和列出的元件會如何根據新的報告套裝來更新。
 
 1. 使用鍵盤快速鍵 (拖曳時按住 `shift`)，將非使用中面板轉換為使用中面板。
 
-1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報表套裝標籤，指出
+1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報告套裝標籤，指出
 
    * 建立區段的位置： [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
    * 建立計算量度的位置： [計算量度產生器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)。

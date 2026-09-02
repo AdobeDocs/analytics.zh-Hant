@@ -5,17 +5,10 @@ title: 重新導向與別名
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1139
@@ -41,7 +34,7 @@ ht-degree: 68%
 
 ## 範例：沒有重新導向的瀏覽 {#browse-without}
 
-假設有下面這種使用者未遇到重新導向的情況:
+假設有下面這種使用者未遇到重新導向的情況：
 
 1. 使用者在瀏覽器中前往 `www.google.com`，並在搜尋欄位中輸入「discount airline tickets」，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
 1. 瀏覽器顯示的搜尋結果包含您網站的連結 [!DNL https://www.example.com/] 。 顯示搜尋結果後，瀏覽器的網址列顯示了使用者在搜尋欄位中輸入的搜尋詞彙 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)。 請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`.
@@ -58,7 +51,7 @@ ht-degree: 68%
 
 ## 實作重新導向 {#implement}
 
-若要透過重新導向擷取 [!DNL Analytics]&#x200B;[!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
+若要透過重新導向擷取 [!DNL Analytics][!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
 
 完成下列步驟，可保留原始反向連結 (例如前述案例中的 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 傳至您網站的資訊:
 
@@ -80,7 +73,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->請僅在頁面上設定 *`s.referrer`* 一次。 若設定次數超過一次，且一併設定受追蹤的每個追蹤呼叫或每個連結點擊，則會使反向連結及相關維度 (例如搜尋引擎和關鍵字) 重複計算為兩次。
+>請僅在頁面上設定 *`s.referrer`* 一次。 若每個受追蹤的追蹤呼叫或每個受追蹤的連結點擊都將其設定一次以上，則會導致反向連結及相關維度 (例如搜尋引擎和關鍵字) 重複計算。
 
 ## 使用 getQueryParam 重新導向 {#getqueryparam}
 
@@ -158,7 +151,7 @@ s.pageURL="https://www.flytohawaii.example"
  </tbody> 
 </table>
 
-除錯程式所顯示的文字應對應於下列範例:
+除錯程式所顯示的文字應對應於下列範例：
 
 ```
 Image 

@@ -5,21 +5,10 @@ title: 設定雲端匯入及匯出帳戶
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
 TQID: https://experienceleague.adobe.com/Oz6ktM4w48i2-FqjbTYi2xA1fq6NnuSoobHll11xEuw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
 workflow-type: tm+mt
 source-wordcount: 1764
@@ -111,15 +100,15 @@ ht-degree: 69%
 
    +++Azure SAS
 
-   若要設定 Azure SAS 帳戶，請註明以下資訊：
+   若要設定 Azure SAS 帳戶，請指定以下資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。  若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。 若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
+   | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中 SAS 權杖的路徑。  若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。 若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p> |
    | [!UICONTROL **金鑰保存庫祕密名稱**] | 在將祕密值新增至 Azure Key Vault 時所建立的祕密名稱。 在 Microsoft Azure 中，這項資訊位於您所建立的 Key Vault 內，位在&#x200B;**「Key Vault」**&#x200B;設定頁面 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
-   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製祕密。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -127,13 +116,13 @@ ht-degree: 69%
 
    +++Azure RBAC
 
-   若要設定 Azure RBAC 帳戶，請註明以下資訊：
+   若要設定 Azure RBAC 帳戶，請指定以下資訊：
 
    | 欄位 | 函數 |
    |---------|----------|
    | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
    | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+   | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製祕密。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
    {style="table-layout:auto"}
 
@@ -181,7 +170,7 @@ ht-degree: 69%
 
    +++SFTP
 
-   SFTP 可支援資料摘要。 這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或ed25519公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
+   資料摘要提供 SFTP 支援。 這需要SFTP主機、使用者名稱和目的地站點，才能包含有效的RSA或ed25519公開金鑰。 建立摘要時，您可以下載相關的公開金鑰。
 
    下載資料摘要的RSA或ed25519公開金鑰時，請執行下列其中一項操作：
 
@@ -194,7 +183,7 @@ ht-degree: 69%
 
    +++S3
 
-   您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
+   您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要桶名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
 
    您提供來上傳 Data Warehouse 資料的使用者必須具備以下[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 

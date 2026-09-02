@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 821
@@ -40,7 +32,7 @@ ht-degree: 91%
 Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -59,7 +51,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式代碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
 ## 使用 AppMeasurement 安裝外掛程式
@@ -87,15 +79,15 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`cn`** (選用，字串)：儲存第一個事件時間的 Cookie 名稱。 預設為 `"s_tbe"`。
 * **`etd`** (選用，整數)：Cookie 的期限時間 (以天為單位)。 設為 `0`，在瀏覽器作業階段結束時到期。 若未設定，則預設為 1 天。
 * **`fmt`** (選用，字串)：傳回秒數的時間格式 (無預設值)
-   * `"s"` 代表秒數
-   * `"m"` 代表分鐘
-   * `"h"` 代表小時
-   * `"d"` 代表天數
-   * 若未設定，傳回值的格式會依據以下規則：
-      * 不到一分鐘的任何時間，都會捨入至最接近的 5 秒基準。 例如 10 秒、15 秒。
-      * 一分鐘到一小時之間的任何時間，都會捨入至最接近的 1/2 分鐘基準。 例如 30.5 分鐘、31分鐘
-      * 一小時到一天之間的任何時間，都會捨入至最接近的四分之一小時基準。 例如 2.25 小時、3.5 小時
-      * 大於一天的任何時間，都會捨入至最接近的天數基準。 例如 1 天、3 天、9 天
+  * `"s"` 代表秒數
+  * `"m"` 代表分鐘
+  * `"h"` 代表小時
+  * `"d"` 代表天數
+  * 若未設定，傳回值的格式會依據以下規則：
+    * 不到一分鐘的任何時間，都會捨入至最接近的 5 秒基準。 例如 10 秒、15 秒。
+    * 一分鐘到一小時之間的任何時間，都會捨入至最接近的 1/2 分鐘基準。 例如 30.5 分鐘、31分鐘
+    * 一小時到一天之間的任何時間，都會捨入至最接近的四分之一小時基準。 例如 2.25 小時、3.5 小時
+    * 大於一天的任何時間，都會捨入至最接近的天數基準。 例如 1 天、3 天、9 天
 * **`bml`** (選用，數字)：根據 `fmt` 引數格式的捨入基準長度。 例如，如果 `fmt` 引數為 `"s"` 且此引數為 `2`，則傳回值會捨入至最接近的 2 秒基準。 如果 `fmt` 引數為 `"m"` 且此引數為 `0.5`，則傳回值會捨入至最接近的半分鐘基準。
 * **`rte`** (選用，字串)：移除或刪除計時器的 Analytics 事件字串 (以逗號分隔)。 無預設值。
 
@@ -132,6 +124,6 @@ s.eVar4 = getTimeBetweenEvents("event1", true, "event2", true);
 
 * 因應新版 `formatTime` 外掛程式的變更進行調整。
 
-### 2.0 (2019 年 4 月 6 日)
+### 2.0 (2018 年 4 月 6 日)
 
 * 外掛程式全面重寫/重新分析。

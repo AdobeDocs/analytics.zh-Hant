@@ -5,20 +5,11 @@ feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 role: Admin
 TQID: https://experienceleague.adobe.com/f6gcSRLmsupsIVKYH-bF1T7vuVhoj9Ef8zVh3t6vU2Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 590
@@ -32,7 +23,7 @@ ht-degree: 98%
 
 Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 Analytics 也仰賴第三方 Cookie 來了解訪客在網站外的活動，例如在您擁有的其他網域上的活動。 許多瀏覽器都封鎖第三方 Cookie，而隨著 Chrome 即將取消支援 (目前計劃在 2024 年底取消)，大部分的第三方 Cookie 將無法使用。 所有瀏覽器都允許使用第一方 Cookie，但在 Apple 的 [ITP 預防追蹤](https://webkit.org/tracking-prevention)措施之下，這類 Cookie 在 Safari 和其他瀏覽器上的期限受到限制。 如需有關瀏覽器 Cookie 的目前限制的詳細資訊，請參閱 [Adobe Analytics 和瀏覽器 Cookie](cookies.md)。
 
-這些瀏覽器限制反映了更大規模脫離匿名第三方追蹤將會朝向用戶與他們信任的品牌之間的明確資訊分享。 為了支援此行動，Adobe 為客戶提供方法來補充傳統 Cookie，其方式為包含透過其第一方關係所收集的持久性識別碼。
+這些瀏覽器限制反映出一種更廣泛的轉變，也就是從匿名第三方追蹤轉向用戶與其信任品牌之間明確分享資訊。 為了支援此行動，Adobe 為客戶提供方法來補充傳統 Cookie，其方式為包含透過其第一方關係所收集的持久性識別碼。
 
 ## Customer Journey Analytics 和 Cross Device Analytics
 
@@ -46,15 +37,15 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 伺服器端收集可靈活地提供您自己的識別碼，而不需仰賴瀏覽器機制來設定 Cookie。
 
-您可以使用[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 或[大量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實施。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)」。
+您可以使用[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) 或[大量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提交資料至 Analytics 伺服器端。 建議在新的伺服器端實作中使用大量資料插入 API。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)」。
 
 ## 使用 Web SDK 的第一方裝置 ID (FPID)
 
-使用 Adobe Experience Platform Web SDK，您可以選擇設定和管理您自己的裝置識別碼，而不是使用 Adobe 生成的 Experience Cloud ID (ECID)。 這些被稱為第一方裝置 ID (FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hant)。
+使用 Adobe Experience Platform Web SDK，您可以選擇設定和管理您自己的裝置識別碼，而不是使用 Adobe 生成的 Experience Cloud ID (ECID)。 這些被稱為第一方裝置 ID (FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html)。
 
 ## 更多資訊
 
-如需了解貴公司可採取哪些實用步驟來脫離第三方 Cookie，請參閱[借助 Adobe 獲得客戶並在無 Cookie 的世界中留住客戶](https://business.adobe.com/tw/solutions/cookieless.html)和深入的[超越第三方 Cookie 的思維：您通往無第三方 Cookie 的世界的完整指南](https://business.adobe.com/tw/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)。
+如需了解貴公司可採取哪些實用步驟來脫離第三方 Cookie，請參閱[借助 Adobe 獲得客戶並在無 Cookie 的世界中留住客戶](https://business.adobe.com/solutions/cookieless.html)和深入的[超越第三方 Cookie 的思維：您通往無第三方 Cookie 的世界的完整指南](https://business.adobe.com/content/dam/www/us/en/pdfs/Adobe_Thinking_Beyond_the_Third_Party_Cookie.pdf)。
 
 >[!MORELIKETHIS]
 >

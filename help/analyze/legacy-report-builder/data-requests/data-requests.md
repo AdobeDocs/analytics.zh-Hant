@@ -5,20 +5,11 @@ feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 TQID: https://experienceleague.adobe.com/87MzdxBePRZKBttF3P6XhuDq5hR6XpEWaLdrYDMu-5Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 401
@@ -30,7 +21,7 @@ ht-degree: 57%
 
 {{legacy-arb}}
 
-在「請求精靈: 步驟 1」表單中，您可以選擇報表套裝、報表類型、區段及設定日期。
+在「請求精靈: 步驟 1」表單中，您可以選擇報告套裝、報告類型、區段及設定日期。
 
 ![顯示「請求精靈：步驟1」表單的熒幕擷圖。](assets/rw1_overview.png)
 
@@ -52,7 +43,7 @@ ht-degree: 57%
 
 ## 疑難排解
 
-請求精靈有時會出現在畫面外，尤其是針對在螢幕設定之間移動的使用者。 例如，您工作時使用桌上型電腦，在家中使用筆記型電腦螢幕。 如果您在已開啟請求精靈時再次按一下「建立」，會出現下列錯誤：
+請求精靈有時會出現在畫面外，尤其是針對在螢幕設定之間移動的使用者。 例如，您在工作時使用擴充基座，在家中使用筆記型電腦螢幕。 如果您在已開啟請求精靈時再次按一下「建立」，會出現下列錯誤：
 
 「您必須先完成請求精靈程序，才能開始新的程序。」
 
@@ -63,5 +54,5 @@ ht-degree: 57%
 3. 按下 `[Alt]` + `[Space]`。
 4. 按下 `[M]`。
 5. 按任意方向鍵。
-6. 移動滑鼠，這會將請求精靈加到游標上
+6. 移動滑鼠，這會讓請求精靈附加到游標上
 7. 按一下滑鼠即可將請求精靈放到螢幕上。

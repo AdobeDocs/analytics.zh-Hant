@@ -5,23 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/m1zwGOg7Fw26KdnqjqrOSekG8AehjIVsLKWMeaJfPY0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: e4f5f438-eabb-4c54-9133-b817e3d125f5id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 623
@@ -41,7 +29,7 @@ Prop 是自訂變數，您可以視需要使用。 這類變數在其設定所�
 
 如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。 可用的 Prop 數量取決於您與 Adobe 訂定的合約。 在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
 
-## 使用 Web SDK 的屬性
+## 使用 Web SDK 的 props
 
 Prop會對應至下列變數：
 
@@ -81,15 +69,15 @@ s.prop1 = "Example custom value";
 >
 >實施作業中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。 您可以使用最符合實施需求的非加強式 ASCII。
 
-### 使用 Web SDK 設定清單變數 {#list-props-web-sdk}
+### 使用 Web SDK 設定清單 props {#list-props-web-sdk}
 
-如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單屬性會對應至`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 會自動使用報表套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，清單屬性會對應至`xdm._experience.analytics.customDimensions.listProps.prop1.values[]` - `xdm._experience.analytics.customDimensions.listProps.prop75.values[]`。 Web SDK 會自動使用報告套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`xdm._experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
 
 如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則清單prop會使用與標準prop相同的欄位，並遵循AppMeasurement語法。
 
 ### 使用 Adobe Analytics 擴充功能和 AppMeasurement 來設定清單屬性
 
-在報表套裝設定中設定清單屬性的所需分隔字元後，除了使用分隔字元外，在實施上沒有任何差異。
+在報告套裝設定中設定清單屬性的所需分隔字元後，除了使用分隔字元外，在實施上沒有任何差異。
 
 ```js
 // List prop delimited with a comma
@@ -98,6 +86,6 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT]
 >
->清單屬性仍有最多 100 個位元組的長度限制。 清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。 如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
+>清單 props 仍受限於 100 位元組的最大長度。 清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。 如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
 
 如果您在清單屬性中設定相同值多次，系統會在報表中刪除重複資料。 Analysis Workspace 會計算檢視值處的點擊數，而非資料中值存在的次數。

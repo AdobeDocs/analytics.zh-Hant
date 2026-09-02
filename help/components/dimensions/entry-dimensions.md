@@ -5,17 +5,11 @@ keywords: 進入頁面, 進入網站區域, 進入伺服器, 進入客戶洞察
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 TQID: https://experienceleague.adobe.com/6a6Xy8SEqjcnuB1Acbwkesw6OA7Nggld5ppWtjYaj5k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 292
@@ -34,11 +28,11 @@ ht-degree: 75%
 
 ## 將資料填入登入維度中
 
-指定的專案[維度](overview.md)是以其相關聯的流量變數為基礎。 如果非登入變數有資料，則其相關聯的登入維度也會包含資料。 如果您的流量變數包含資料，即無須對登入維度進行實施作業變更。
+指定的專案[維度](overview.md)是以其相關聯的流量變數為基礎。 如果非登入變數有資料，則其相關聯的登入維度也會包含資料。 如果您的流量變數包含資料，即無須對登入維度進行實施變更。
 
 ## 維度項目
 
-由於登入變數通常以您實施作業中的自訂字串為基礎，因此您的組織會決定維度項目。 指定登入維度中的值會與其相關的非登入維度中的維度項目相符。 例如，「登入頁面」維度中的維度項目，會與「頁面」維度中的維度項目相似。
+由於登入變數通常以您實施作業中的自訂字串為基礎，因此您的組織會決定維度項目。 指定登入維度中的值會與其相關的非登入維度中的維度項目相符。 例如，「登入頁面」維度中的維度項目會對應於「頁面」維度中的維度項目。
 
 ## 登入頁面原始
 

@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/st-CkocgfEJIAQs1JTiY0DpUNuo2uU-CR-o8togtLGg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 436
@@ -33,7 +25,7 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 
 如果您同時使用 `linkInternalFilters` 和 `linkExternalFilters` 兩者，點按的連結必須符合 `linkExternalFilters` **而且**&#x200B;與 `linkInternalFilters` 不符，才會視為退出連結。 如果點擊的連結符合退出連結和下載連結這兩個條件，則下載連結類型優先。
 
-Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 Adobe 建議將此變數設定為使用 Activity Map 的實施作業。
+Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 Adobe 建議在使用 Activity Map 的實作中設定此變數。
 
 >[!NOTE]
 >
@@ -43,7 +35,7 @@ Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 
 
 如果退出連結目標網域與目前的 `window.location.hostname` 不同，則連結會以退出連結自動符合條件。 Web SDK 不提供任何設定變數來修改自動退出連結檢測。 如果您需要自訂以退出連結自動符合條件的網域，您可以在 `onBeforeEventSend` 回呼中使用自訂邏輯。
 
-有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant#automaticLinkTracking)。
+有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)。
 
 ## 對外連結 - 使用 Adobe Analytics 擴充功能的永不追蹤
 
@@ -54,7 +46,7 @@ Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 
 3. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示[!UICONTROL 「對外連結 - 永不追蹤」]欄位。
 
-針對您永遠不想以退出連結形式追蹤的篩選器，請將篩選器置入此欄位中 請使用逗號 (不含空格) 分隔多個網域。
+請將您永遠不想以退出連結形式追蹤的篩選器置於此欄位中。 請使用逗號 (不含空格) 分隔多個網域。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.linkInternalFilters
 

@@ -5,19 +5,11 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 TQID: https://experienceleague.adobe.com/fnZHje0EEPxVHPI0PROI6P-FGmuXc6GlvoTDzRhqrr4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: bed595d3-da4c-4f86-8872-9b4c6e4db2b6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2614
@@ -34,12 +26,12 @@ ht-degree: 97%
 
 <!-- markdownlint-enable MD034 -->
 
-下列資訊可為 Adobe Analytics 資料的組織者說明如何為主管使用者設定和說明行動計分卡。 若要開始使用，您可檢視 Adobe Analytics 儀表板計分卡產生器的影片：
+下列資訊說明 Adobe Analytics 資料的管理者如何為主管使用者設定及呈現行動計分卡。 若要開始使用，您可檢視 Adobe Analytics 儀表板計分卡產生器的影片：
 
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡產生器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [行動計分卡產生器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -115,7 +107,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 ![新計分卡 2](assets/new_score_card2.png)
 
-若要建立或變更主要日期，使用下拉式選單並選擇可用的日期範圍，或將右側邊欄的日期組合拖放至空投區。
+若要建立或變更主要日期，使用下拉式選單並選擇可用的日期範圍，或將右側邊欄的日期元件拖放至空投區。
 
 ![新計分卡 3](assets/new_score_card3.png)
 
@@ -144,7 +136,7 @@ Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} 的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [視覺效果](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/visualizations-for-mobile-scorecards){target="_blank"} 的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -171,7 +163,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ### [!UICONTROL 折線圖]
 
-折線圖視覺效果會使用線條代表量度，以顯示一段時間中值的變化。 折線圖會顯示一段時間中的量度，但適用於任何視覺效果。 您在此範例中將產品類別維度視覺化。
+折線圖視覺效果會使用線條代表量度，以顯示一段時間中值的變化。 折線圖會顯示一段時間中的維度，但適用於任何視覺效果。 您在此範例中將產品類別維度視覺化。
 
 ![折線圖視覺效果](assets/line.png)
 
@@ -201,13 +193,13 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 檢視詳細投影片 {#view-detail-slides}
 
-若您按一下圖磚，動態快顯視窗會顯示應用程式中向高階主管使用者呈現詳細投影片的方式。 您可新增維度以針對您的特定需求劃分資料。 如果尚未套用任何維度，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
+若您按一下圖磚，動態快顯視窗會顯示詳細投影片在應用程式中向高階主管使用者呈現的樣貌。 您可新增維度以針對您的特定需求劃分資料。 如果尚未套用任何維度，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
 劃分會按維度項目細分量度，以精進您的分析，例如以下情況：
 
 * 依廣告平台 (AMO ID) 劃分的不重複訪客量度
 * 依產品類別 (零售) 劃分的造訪
-* 依產品名稱劃分的總營收
+* 依產品名稱劃分的總收入
 
 ![Breakdown_view](assets/break_view.png)
 
@@ -220,12 +212,12 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自訂詳細資料檢視](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/create-custom-detail-views){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 
-您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。 您還可以使用下拉式選單變更圖表類型。
+您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明終端使用者可在資料中看到的內容。 您還可以使用下拉式選單變更圖表類型。
 
 ![自訂詳細投影片](assets/custom-detail-slide.png)
 
@@ -235,7 +227,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ![投影片版面](assets/layout.png)
 
-您還可以透過將視覺化元件從左側邊欄拖放到畫布上來變更投影片版面。 每個詳細投影片一次只能提供兩種視覺化。
+您還可以透過將視覺化元件從左側邊欄拖放到畫布上來變更投影片版面。 每個詳細投影片一次只能容納兩個視覺效果。
 
 ![投影片版面變更](assets/slide-layout-change.png)
 
@@ -243,7 +235,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 您可以新增文字以提供有關圖表中所包含內容或有關資料的細微差別的有意義資訊。
 
-若要新增文字到詳細投影片，請選取顯示 `T` 符號的版面，或將文字視覺化元件從左側欄拖放到上方。 新增新的文字視覺化或選擇包含文字的投影片版面時，文字編輯器將自動開啟。 文字編輯器會提供格式化文字的所有標準選項。 您可以套用段落、標題和副標題等文字樣式，並套用粗體和斜體字體。 您可以對齊文字、新增項目符號和編號清單以及新增連結。 完成編輯後，請選取文字編輯器右上角的最小化按鈕將其關閉。 若要編輯已新增的文字，請選取鉛筆圖示，以再次開啟文字編輯器。
+若要新增文字到詳細投影片，請選取顯示 `T` 符號的版面，或將文字視覺化元件從左側欄拖放到上方。 新增新的文字視覺化或選擇包含文字的投影片版面時，文字編輯器將自動開啟。 文字編輯器會提供格式化文字的所有標準選項。 您可以套用段落、標題和副標題等文字樣式，並套用粗體和斜體字體。 您可以對齊文字、新增項目符號和編號清單以及新增連結。 完成編輯後，請選取文字編輯器右上角的最小化按鈕以將其關閉。 若要編輯已新增的文字，請選取鉛筆圖示，以再次開啟文字編輯器。
 
 ![投影片版面變更](assets/add-descriptive-text.png)
 
@@ -257,12 +249,12 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 資料故事是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。
 
-例如，如果您關注網路流量，您最重要的量度可能會是造訪次數，但您可能也對新訪客、不重複訪客感興趣，並且您可能希望查看按網頁或流量來源的裝置類型來細分的資料。 行動記分卡專案中的資料故事可讓您將最重要的量度放在首位和中心位置，並透過多個詳細資訊幻燈片描述量度背後的完整故事。
+例如，如果您關注網頁流量，您最重要的量度可能會是造訪次數，但您可能也對新訪客、不重複訪客感興趣，並且您可能希望查看按網頁或流量來源的裝置類型來細分的資料。 行動記分卡專案中的資料故事可讓您將最重要的量度放在首位和中心位置，並透過多個詳細資訊幻燈片描述量度背後的完整故事。
 
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立資料故事](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}的示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [建立資料故事](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/data-stories-for-analytics-dashboards){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -270,7 +262,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 將多個詳細資訊幻燈片新增到磚來建置資料故事。
 
-1. 從行動記分卡專案開始。
+1. 從行動計分卡專案開始。
 1. 選取要從中建立故事的磚。
 
    ![建立資料故事](assets/data-story1.png)
@@ -314,7 +306,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 **自訂個別幻燈片**
 
-您可以變更資料故事中個別幻燈片的視覺效果。 例如，您可以將特定幻燈片的水平列變更為環圈圖。 您也可以變更版面。 請參閱[自訂詳細幻燈片](#customize-detail-slide)。
+您可以變更資料故事中個別幻燈片的視覺化。 例如，您可以將特定幻燈片的水平列變更為環圈圖。 您也可以變更版面。 請參閱[自訂詳細幻燈片](#customize-detail-slide)。
 
 ### 預覽資料故事 {#preview-data-story}
 
@@ -381,7 +373,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ### 使用可共享連結共用計分卡 {#shareable-link}
 
-使用可共用連結可以輕鬆地在電子郵件、文件或簡訊應用程式中共用計分卡。 可共用的連結讓收件者可以在他們的桌面或儀表板行動應用程式上開啟計分卡。 可共用的深度連結使得共用專案以及與利害關係人提升參與度變得更加輕鬆。
+使用可共用連結可以輕鬆地在電子郵件、文件或簡訊應用程式中共用計分卡。 可共用的連結讓收件者可以在桌上型電腦或 Analytics 儀表板行動應用程式上開啟計分卡。 可共用的深度連結使得共用專案以及與利害關係人提升參與度變得更加輕鬆。
 
 若要使用可共用連結共用計分卡
 

@@ -4,21 +4,10 @@ description: 瞭解在 Adobe Analytics 中處理資料的元件和服務順序�
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1106
@@ -28,7 +17,7 @@ ht-degree: 37%
 
 # Adobe Analytics 中的資料處理順序
 
-Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法。 此頁面會顯示各種 Adobe Analytics 功能處理資料的順序。 您可以使用此清單來解決資料不一致問題，或在需要調整資料時決定使用哪種功能效果最好。
+Adobe 提供許多方法，可在資料出現在報告中之前加以變更或操作。 此頁面會顯示各種 Adobe Analytics 功能處理資料的順序。 您可以使用此清單來解決資料不一致問題，或在需要調整資料時判斷最適合使用的功能。
 
 ![正在處理訂單影像](assets/processing-order.png)
 
@@ -83,7 +72,7 @@ Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法�
 1. **交易ID**：如果點選包含新的[`transactionID`](/help/implement/vars/page-vars/transactionid.md)值，則會儲存所有支援值的「快照」。 當資料來源上載包含相符的交易ID時，此快照中支援的所有值都會包含在該資料來源列中。
 1. [**IP模糊化（移除IP）**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)：如果您的報表套裝設定為完全模糊化IP位址，則所有其他處理完成後會套用該模糊化。
 
-此時，單依點擊記錄在報告套裝資料表中。 在標準[延遲](latency.md)間隔之後，它可以在報告中使用。
+此時，個別點擊會記錄在報告套裝資料表中。 在標準[延遲](latency.md)間隔之後，它可以在報告中使用。
 
 ## 在處理後變更資料
 

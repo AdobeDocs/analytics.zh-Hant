@@ -5,30 +5,15 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2858
-ht-degree: 40%
+source-wordcount: 2861
+ht-degree: 41%
 
 ---
 
@@ -48,7 +33,7 @@ ht-degree: 40%
 | [自由格式](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現豐富的資料故事。 |
 | [媒體平均分鐘觀眾數](average-minute-audience-panel.md) | 分析特定內容或自訂時段的平均每分鐘觀眾數。 |
 | [媒體同時檢視者](media-concurrent-viewers.md) | 分析不同時段的同時檢視者，並取得尖峰同時檢視情形的詳細資訊，並可加以劃分及比較。 |
-| [媒體播放時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放時間，以了解何時達到尖峰同時檢視人數或是檢視人數何時下降。 |
+| [媒體播放時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | 分析播放時間，以了解尖峰同時檢視情形發生在何處，或檢視人數在何處下降。 |
 | [下一個或上一個項目](next-previous.md) | 顯示人們造訪的下一頁或上一頁。 |
 | [快速洞察](quickinsight.md) | 快速建置自由格式表格和伴隨的視覺效果，加快分析及發現洞察的速度。 |
 | [頁面摘要](page-summary.md) | 探索有關特定頁面的關鍵統計資料。 |
@@ -112,9 +97,9 @@ ht-degree: 40%
 
 ## 報告套裝
 
-每個面板都與一個[報告套裝](/help/admin/tools/manage-rs/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**&#x200B;識別 (在面板右上方的下拉式選單中)。
+每個面板都與一個[報告套裝](/help/admin/tools/manage-rs/report-suites-admin.md)相關，由![資料](/help/assets/icons/Data.svg)**[!UICONTROL *報告套裝名稱&#x200B;*]**識別 (在面板右上方的下拉式選單中)。
 
-建立新面板時，預設報告套裝會根據您上次在 Analysis Workspace 專案中使用的面板報告套裝。
+建立新面板時，預設報告套裝是以您上次在 Analysis Workspace 專案中使用的面板報告套裝為基礎。
 
 在專案中，您可以使用一或[多個報表套裝](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) (根據分析使用案例而定)。
 
@@ -158,17 +143,17 @@ ht-degree: 40%
 
      您可以選取方括弧中的文字（例如&#x200B;**[!UICONTROL 固定開始 — 每日滾動]**）來延伸面板，並指定&#x200B;**[!UICONTROL 開始]**&#x200B;和&#x200B;**[!UICONTROL 結束]**&#x200B;的詳細資料。
 
-      1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
-      1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
-         * 選取目前的值。 例如，**[!UICONTROL 目前的年份]**。
-         * 選取一個值進行其他計算。 例如，**[!UICONTROL 加]**。
-         * 當您指定其他計算時，請指定一個值。 例如，`1`。
-         * 當您已指定其他計算時，請選取用於計算的時段。 例如&#x200B;**[!UICONTROL 天]**。
+     1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
+     1. 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
+        * 選取目前的值。 例如，**[!UICONTROL 目前的年份]**。
+        * 選取一個值進行其他計算。 例如，**[!UICONTROL 加]**。
+        * 當您指定其他計算時，請指定一個值。 例如，`1`。
+        * 當您已指定其他計算時，請選取用於計算的時段。 例如&#x200B;**[!UICONTROL 天]**。
 
      選取&#x200B;**[!UICONTROL 隱藏詳細資訊]**&#x200B;以隱藏遞延日期計算的詳細資訊。
 
-1. 選取&#x200B;**[!UICONTROL 套用]**&#x200B;將日期範圍套用至您呼叫行事曆的面板。
-選取&#x200B;**[!UICONTROL 套用至所有面板]**&#x200B;將日期範圍套用至 Workspace 專案中的所有面板。
+1. 選取&#x200B;**[!UICONTROL 套用]**將日期範圍套用至您呼叫行事曆的面板。
+選取**[!UICONTROL 套用至所有面板]**&#x200B;將日期範圍套用至 Workspace 專案中的所有面板。
 
 
 
@@ -195,14 +180,14 @@ ht-degree: 40%
    ![新增或取代至拖放區域](assets/add-or-replace-to-drop-zone.png)
 
    * 放置選取專案以建立下列元件：
-      * 您放置❷的任何區段元件的[區段](#segment)。
-      * [快速區段](#quick-segment)，適用於您放置❸的任何非區段元件（日期範圍、量度、維度、維度專案）。
+     * 您放置❷的任何區段元件的[區段](#segment)。
+     * [快速區段](#quick-segment)，適用於您放置❸的任何非區段元件（日期範圍、量度、維度、維度專案）。
    * 按住&#x200B;**⇧(Shift)，拖放選取專案**&#x200B;以建立下列元件：
-      * 靜態區段[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❹的選取區段進行篩選的專案。
-      * 靜態區段[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❺的選取日期範圍篩選的專案。
-      * 靜態區段[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❻的選取量度進行篩選的專案。
-      * 靜態區段[下拉式功能表](#drop-down-menu)或劃分[下拉式功能表](#drop-down-menu)，其中包含要篩選或劃分所選維度&#x200B;*專案* （您拖曳❼）的專案。
-      * 動態區段[下拉式功能表](#drop-down-menu)或劃分[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❽的所選維度進行篩選或劃分的專案。
+     * 靜態區段[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❹的選取區段進行篩選的專案。
+     * 靜態區段[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❺的選取日期範圍篩選的專案。
+     * 靜態區段[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❻的選取量度進行篩選的專案。
+     * 靜態區段[下拉式功能表](#drop-down-menu)或劃分[下拉式功能表](#drop-down-menu)，其中包含要篩選或劃分所選維度&#x200B;*專案* （您拖曳❼）的專案。
+     * 動態區段[下拉式功能表](#drop-down-menu)或劃分[下拉式功能表](#drop-down-menu)，其中包含您要針對您放置❽的所選維度進行篩選或劃分的專案。
 
 
 ### 區段
@@ -304,13 +289,13 @@ ht-degree: 40%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用篩選器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [在Analysis Workspace中使用篩選器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動態下拉式功能表](https://experienceleague.adobe.com/zh-hant/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [動態下拉式功能表](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}。
 
 {{videocja}}
 
@@ -333,9 +318,9 @@ ht-degree: 40%
 | **[!UICONTROL 將報告套裝套用至所有面板]** | 將此面板的報表套裝套用至專案中的所有其他面板。 |
 | **[!UICONTROL 複製面板]** | 複製面板以便將其插入專案內另一個位置或不同的專案中。 |
 | **[!UICONTROL 重複面板]** | 複製目前的面板，您可以修改它。 |
-| **[!UICONTROL 收摺所有面板]** | 收摺所有專案面板。 |
+| **[!UICONTROL 收摺所有面板]** | 收合所有專案面板。 |
 | **[!UICONTROL 展開所有面板]** | 展開所有專案面板。 |
-| **[!UICONTROL 收摺面板中的所有視覺效果]** | 收摺目前面板中的所有視覺效果。 |
+| **[!UICONTROL 收摺面板中的所有視覺效果]** | 收合目前面板中的所有視覺效果。 |
 | **[!UICONTROL 展開面板中所有視覺效果]** | 展開目前面板中的所有視覺效果。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 面板的文字說明。 |
 | **[!UICONTROL 取得面板連結]** | 將使用者導向專案中的特定面板。 已選取連結後，收件者必須先登入系統，然後才會被導向所連結的正確面板。 |

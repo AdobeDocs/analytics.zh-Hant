@@ -5,25 +5,11 @@ feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1287
@@ -53,7 +39,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Analytics for Target面板。_<br/>_如需如何在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;中比較不同使用者體驗、行銷或訊息變數的詳細資訊，請參閱[實驗面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Analytics for Target面板。_<br/>_如需如何在_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;中比較不同使用者體驗、行銷或訊息變數的詳細資訊，請參閱[實驗面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)。_
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +48,7 @@ Analytics for Target 面板可讓您在 Analysis Workspace 中分析 Adobe Targe
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} 的示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Target 面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} 的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +70,7 @@ Analytics for Target 面板可讓您在 Analysis Workspace 中分析 Adobe Targe
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 目標活動]** | 從目標活動清單中選取。 請注意：清單會填入最近 6 個月內至少點擊過 1 次的活動。 如果您在清單中未看到某個活動，表示其存留期可能已超過 6 個月。 您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
+| **[!UICONTROL 目標活動]** | 從目標活動清單中選取。 清單會填入最近 6 個月內至少有 1 次點擊的活動。 如果您在清單中未看到某個活動，表示該活動可能已超過 6 個月。 您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
 | **[!UICONTROL 控制體驗]** | 選取控制體驗。 |
 | **[!UICONTROL 標準化量度]** | 選取訪客、造訪數或曝光數。 在大多數的分析使用案例中，均建議使用[!UICONTROL 訪客]。 此量度 (也稱為計數方法) 會成為提升度計算的分母。 也會影響在套用可信度計算前彙總資料的方式。 |
 | **[!UICONTROL 成功量度]** | 從下拉式清單中選取最多 3 個標準 (非計算) 成功事件，或從元件邊欄的量度中拖放量度。 每個量度在呈現的面板中都會有專屬的表格和視覺效果。 |
@@ -105,10 +91,10 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | **[!UICONTROL 成功量度]** | 輸入面板中選取的成功量度。 |
 | **[!UICONTROL 轉換率]** | 成功量度/標準化量度。 |
 | **[!UICONTROL 提升度]** | 對照控制體驗來比較每一個體驗的轉換率。 請注意：提升度是 Target 體驗的&#x200B;*鎖定量度*；您無法加以劃分，或與其他維度搭配使用。 |
-| **[!UICONTROL 提升度 (下限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度下限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
-| **[!UICONTROL 提升度 (中)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度中間值。 <br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
-| **[!UICONTROL 提升度 (上限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度上限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
-| **[!UICONTROL 信賴度]** | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。 量度已套用 75%/85%/95% 的固定條件式格式範圍。 如有需要，可在「欄」設定下自訂此格式。 注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=zh-Hant) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 提升度 (下限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度下限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 提升度 (中)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度中間值。 <br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 提升度 (上限)]** | 此值代表 95% 信賴度區間中，變異數體驗對控制的提升度上限。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
+| **[!UICONTROL 信賴度]** | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。 量度已套用 75%/85%/95% 的固定條件式格式範圍。 如有需要，可在「欄」設定下自訂此格式。 注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>請參閱[統計計算](https://experienceleague.adobe.com/zh-hant/docs/target/using/reports/statistical-methodology/statistical-calculations)和[完整信賴度計算機](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) Excel 檔案，以了解更多資訊。 |
 
 如同 Analysis Workspace 中的任何面板，您可以透過新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，以繼續進行分析。 您也可以在面板級別或自由格式表格中套用區段。 請注意，如果將其新增到自由格式表格中，則必須將其覆蓋在整個表中，以保留提升度和可信度計算。 目前不支援欄級區段。
 
@@ -122,8 +108,8 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 提升度和可信度計算是否支援計算量度？ | 否。 [深入了解](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence)提升度和可信度不支援計算量度的原因。 不過，計算量度可用於這些量度以外的 Analytics for Target 報告。 |
 | 為何 Target 與 Analytics 的不重複訪客會有差異？ | [了解更多](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports)有關產品之間不重複訪客差異。 |
 | 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | Analytics for Target 維度是清單變數，表示有可能同時包含許多活動 (和體驗)。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
-| 可信度量度是否可計算極端順序，或對多個產品建議套用 Bonferroni 校正？ | 否。 [深入了解](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) Analytics 計算可信度的方式。 |
+| 可信度量度是否考量極端訂單，或對多個產品建議套用 Bonferroni 校正？ | 否。 [深入了解](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) Analytics 計算可信度的方式。 |
 | 提升度和可信度量度是否可搭配其他維度或劃分使用？ | 提升度和可信度是「目標體驗」維度的「鎖定量度」，因為它們需有控制項和變數才能計算。 因此，無法劃分或搭配其他維度使用。 |
-| 何時會重新計算提升度和可信度？ | 每當建置面板、面板日期範圍變更或將區段套用至面板或表格時，就會重新計算提升度和信賴度。 您將區段篩選器套用至自由格式表格時，必須將區段套用於所有欄或提升度，否則信賴度將無法正確更新。 不支援欄級區段。 |
+| 何時會重新計算提升度和可信度？ | 每當建置面板、面板日期範圍變更或將區段套用至面板或表格時，就會重新計算提升度和信賴度。 您將區段篩選器套用至自由格式表格時，必須將區段套用於所有欄，否則提升度和信賴度將無法正確更新。 不支援欄級區段。 |
 
 若需更多 Analytics for Target 報告相關的詳細資訊，請造訪 [Analytics for Target 報告](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/reporting)

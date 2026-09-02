@@ -5,24 +5,15 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 837
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -32,7 +23,7 @@ ht-degree: 54%
 
 >[!WARNING]
 >
->跨裝置分析中的裝置圖表[已過時](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/device-graph)，於&#x200B;**2025年12月31日**&#x200B;不再提供。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
+>跨裝置分析中的裝置圖表[已過時](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)，於&#x200B;**2025年12月31日**&#x200B;不再提供。 請將目前任何啟用裝置圖表的虛擬報表套裝切換為[欄位型方法](/help/components/cda/field-based-stitching.md)。
 >
 
 
@@ -48,7 +39,7 @@ ht-degree: 54%
 * 使用者在裝置間移動最常採取的路徑為何？ 他們在哪裡退出？ 他們在哪裡獲得成功？
 * 多部裝置使用者的行為與單一裝置使用者的行為有何不同？
 
-當裝置連結時，變數的永續性會跨裝置傳遞。 例如，某位使用者先透過桌上型電腦上的廣告造訪您的網站。 該使用者找到您的行動應用程式並安裝，最終在其行動裝置上進行購買。 當使用跨裝置分析時，您可以將行動裝置上的收入歸因於在其桌上型電腦上點擊的廣告。
+當裝置連結時，變數的永續性會跨裝置傳遞。 例如，某位使用者先透過桌上型電腦上的廣告造訪您的網站。 該使用者找到您的行動應用程式並安裝，最終在其行動裝置上進行購買。 當使用跨裝置分析時，您可以將行動裝置上的收入歸因於該使用者在其桌上型電腦上點擊的廣告。
 
 
 
@@ -69,13 +60,13 @@ ht-degree: 54%
 * 跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
 * Adobe Analytics 報告套裝無法對應至多個組織識別碼。 由於跨裝置分析會連結一個指定報表套裝中的裝置，因此跨裝置分析無法用於連結跨多個組織ID的資料。
 * 跨裝置分析使用複雜的處理管道，其中包含多個相依元件。 此管道與基本Analytics報告工作流程並行執行。 在原始報表套裝和Cross-Device Analytics虛擬報表套裝之間，預計點選總數的資料不符率約為1%。
-* Cross-Device Analytics 使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。 例如，它們目前並不支援行銷管道變數。 如需這些限制的詳細資訊，請參閱[虛擬報表套裝](/help/components/vrs/vrs-about.md)和[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
+* Cross-Device Analytics 使用虛擬報告套裝和報告時處理，且各有其專屬的限制。 例如，它們目前並不支援行銷管道變數。 如需這些限制的詳細資訊，請參閱[虛擬報表套裝](/help/components/vrs/vrs-about.md)和[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 * 專用圖表會使用與CX Enterprise和Adobe Analytics中的[客戶屬性](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/services/customer-attributes/attributes)功能所使用之ID同步相同的ID同步。 不過，跨裝置分析虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在Cross-Device Analytics虛擬報表套裝中使用。
 * 跨裝置分析目前與A4T不相容。
 * 1.4 API 不受支援。 Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * Adobe的主動監控跨裝置分析銜接程式僅限於生產報表套裝。
 * 跨裝置分析目前與Adobe Analytics [資料修復API](https://developer.adobe.com/analytics-apis/docs/2.0/)不相容
-* 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。 來源報表套裝中的資料不會變更。
-* 拼接資料會遵循 8 到 12 小時的延遲時間。
+* 虛擬報告套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。 來源報告套裝中的資料不會變更。
+* 拼接資料的延遲時間為 8 到 12 小時。
 * 特定裝置的比對紀錄資料最多可存放 1 年。
-* 如果裝置在一年內達到非常多的比對紀錄條目，則比對紀錄將被截斷。 確切的限制會依所使用的拼接選項而定。
+* 如果裝置在一年內達到非常告的對應歷史記錄條目數量，則對應歷史記錄將被截斷。 確切的限制會依所使用的拼接選項而定。

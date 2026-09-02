@@ -6,17 +6,11 @@ title: 資料摘要內容 - 概觀
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 TQID: 'https://experienceleague.adobe.com/Kz7pQS0KRjABbAx84Q16K1cA5zEB28Zx9lDoOTGSKAE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1004
@@ -77,13 +71,13 @@ Datafeed-Manifest-Version: 1.0
  Record-Count: 611
 ```
 
-每個清單檔案包含一個標頭，指出查詢檔案、資料檔案的總數，以及所有資料檔案中的記錄總數。 此標題之後有多個區段，包含資料摘要傳送中每個檔案的相關資訊。
+每個清單檔案包含一個標頭，指出查詢檔案、資料檔案的總數，以及所有資料檔案中的記錄總數。 此標頭之後有多個區段，包含資料摘要傳送中每個檔案的相關資訊。
 
 有些摘要的設定為接收 `.fin` 檔案，而非 `.txt` 資訊清單。 `.fin` 表示上傳已完成，但其中包含的後設資料為舊版格式。
 
 ## 查閱檔案
 
-有些資料摘要欄會輸出對應到實際值的數字。 查閱檔案是用來找出資料摘要欄中的數字，並將其比對實際值。 例如，`browser` 點擊資料欄中的值為「497」，表示如果您檢視 `browser.tsv`，點擊來自「Microsoft Internet Explorer 8」。
+有些資料摘要欄會輸出對應到實際值的數字。 查閱檔案用於將資料摘要欄中的數字對應到實際值。 例如，`browser` 點擊資料欄中的值為「497」，表示如果您檢視 `browser.tsv`，點擊來自「Microsoft Internet Explorer 8」。
 
 請注意，`column_headers.tsv` 和 `event_list.tsv` 是資料摘要和報告套裝專屬檔案。 `browser.tsv` 等其他檔案則是一般檔案。
 
@@ -155,4 +149,4 @@ Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。 �
 
 ## 資料檔案大小
 
-點擊資料檔案大小不一，主要取決於目前使用的變數數目以及傳送到報告套裝的流量總量。 不過，平均而言，一行資料約為 500B (壓縮) 或 2KB (解壓縮)。 將此值乘以伺服器呼叫數目，可提供資料摘要檔案的大小粗估。 您的組織開始接收資料摘要檔案後，您就可以將 `hit_data.tsv` 中的列數除以檔案總大小，來找到更精確的數字。
+點擊資料檔案大小不一，主要取決於目前使用的變數數目以及傳送到報告套裝的流量總量。 不過，平均而言，一行資料約為 500B (壓縮) 或 2KB (未壓縮)。 將此值乘以伺服器呼叫數目，可提供資料摘要檔案的大小粗估。 您的組織開始接收資料摘要檔案後，您就可以將 `hit_data.tsv` 中的列數除以檔案總大小，來找到更精確的數字。

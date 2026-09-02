@@ -5,25 +5,11 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1111
@@ -87,14 +73,14 @@ ht-degree: 46%
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 決定點選型別。 有效值包括`lnk_o` （[[!UICONTROL 自訂連結]](/help/components/dimensions/custom-link.md)）、`lnk_d` （[[!UICONTROL 下載連結]](/help/components/dimensions/download-link.md)）、`lnk_e` （[[!UICONTROL 退出連結]](/help/components/dimensions/exit-link.md)）和`tnt` （目標點選的Analytics）。 |
 | `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | 發生自訂連結的URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | [自訂連結](/help/components/dimensions/custom-link.md)的易記名稱。 |
-| `pev3` | 無 | **已不再使用。** 追蹤舊版視訊報表中的里程碑。 |
+| `pev3` | 無 | **已不再使用。** 追蹤舊版影片報告中的里程碑。 |
 | `pf` | 無 | 平台標幟；僅供 Adobe 使用。 不可變更。 |
 | `pid` | 無 | **已不再使用。** 最後一頁的頁面識別碼。 用於舊版 Activity Map。 |
 | `pidt` | 無 | **已不再使用。** 最後一頁的頁面識別碼類型。 用於舊版 Activity Map。 |
 | `pl` | [`products`](../vars/page-vars/products.md) | `products`引數的簡稱。 |
 | `products` | [`products`](../vars/page-vars/products.md) | 產品變數。 用於[[!UICONTROL 產品]](/help/components/dimensions/product.md)和[[!UICONTROL 類別]](/help/components/dimensions/category.md)維度。 |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | 用於[[!UICONTROL 購買ID]](/help/components/dimensions/purchase-id.md)維度。 |
-| `r` | [`referrer`](../vars/page-vars/referrer.md) | 點擊的反向連結 URL。 用於流量來源維度，例如[[!UICONTROL 反向連結]](/help/components/dimensions/referrer.md)和[[!UICONTROL 反向連結網域]](/help/components/dimensions/referring-domain.md)。 |
+| `r` | [`referrer`](../vars/page-vars/referrer.md) | 點擊的轉介 URL。 用於流量來源維度，例如[[!UICONTROL 反向連結]](/help/components/dimensions/referrer.md)和[[!UICONTROL 反向連結網域]](/help/components/dimensions/referring-domain.md)。 |
 | `s` | 無 | 螢幕解析度，單位為 `width x height`。 用於[[!UICONTROL 螢幕解析度]](/help/components/dimensions/monitor-resolution.md)維度。 |
 | `sdid` | 無 | 補充資料ID。 連結描述相同事件的多個點選，例如[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t.html)整合中的Analytics和Target點選。 |
 | `server` | [`server`](../vars/page-vars/server.md) | 用於[[!UICONTROL 伺服器]](/help/components/dimensions/server.md)維度。 |

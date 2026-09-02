@@ -1,25 +1,15 @@
 ---
 title: Adobe Analytics 產品設定檔
-description: 了解如何使用產品設定檔來進行權限預設，讓產品管理員可以指定權限給組織內的使用者。
+description: 了解如何將產品設定檔用作權限預設，讓產品管理員可將其指派給組織內的使用者。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
 TQID: https://experienceleague.adobe.com/pEMsqMvXmpASV9-DOBoZHzbWp88v5kJioww9H1nJkzY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e681610c8238aa4940053a28ee60ea54492cba8b
 workflow-type: tm+mt
 source-wordcount: 686
@@ -39,8 +29,8 @@ ht-degree: 62%
 
 * 產品設定檔管理員無法完整存取 Adobe Analytics。 Adobe Analytics 的完整存取權會保留給產品管理員。
 * 產品設定檔管理員無法調整產品設定檔中的許可權專案。
-* 產品設定檔管理員可以對使用者群組，指派或移除其得使用的產品設定檔。
-* 需要為團隊授予和管理 Adobe Analytics 存取權限的團隊領導者或經理，都非常適合出任產品資料管理員。 且不需經由系統管理員或產品管理員即可執行這項操作。
+* 產品設定檔管理員可以對使用者群組指派或移除產品設定檔。
+* 需要為團隊授予和管理 Adobe Analytics 存取權限的團隊領導者或經理，都非常適合擔任產品設定檔管理員。 且不需經由系統管理員或產品管理員即可執行這項操作。
 
 有關如何指派產品設定檔管理員的一般資訊，請參閱企業使用手册內[管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html)文章中的「管理產品設定檔管理員」部份。
 
@@ -48,7 +38,7 @@ ht-degree: 62%
 
 單一產品設定檔要存取Adobe Analytics所需的最低許可權如下：
 
-* 產品設定檔必須至少擁有一個報告套裝的存取權-
+* 產品設定檔必須至少擁有一個報告套裝的存取權
 * 產品設定檔必須屬於Analytics工具許可權專案&#x200B;**Workspace專案存取權**。
 
 ### 報告套裝
@@ -57,7 +47,7 @@ ht-degree: 62%
 
 ### 量度
 
-授予報告套裝中量度的存取權。 量度會在Analysis Workspace中各自列為元件。
+授予報告套裝中量值的存取權。 量度會在Analysis Workspace中各自列為元件。
 
 自訂量度會以編號 1 到 1000 標籤為「自訂事件」，以便在報告套裝中各自獨立。 如果「自訂事件 1」是啟用的權限項目，則該使用者可存取產品設定檔中所有報告套裝的 event1。
 

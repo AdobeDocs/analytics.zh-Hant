@@ -5,14 +5,9 @@ title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-subfeature_v2:
-  - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1120
@@ -46,7 +41,7 @@ ht-degree: 19%
 
 +++ 如何在Audience Manager中建立Analytics目的地？
 
-請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)」。
+請參閱「[在Adobe Audience Manager中設定Analytics目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)」。
 
 +++
 
@@ -116,7 +111,7 @@ ht-degree: 19%
 
 +++ 我的Analytics報表中為何顯示「已達對象上限」？ （注意：這也會在Data Warehouse中呈現為「對象ID = -1」和`::max_audiences_exceeded::`）
 
-根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段，系統會將最近符合資格的&#x200B;**150個區段**&#x200B;傳送至Analytics，其餘清單則會截斷。 系統會傳送額外標幟給 Analytics，表示細分群體清單已遭截斷，並在「客群名稱」維度中顯示為「已達客群上限」，在「客群 ID」維度中則會顯示「-1」。
+根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段，系統會將最近符合資格的&#x200B;**150個區段**&#x200B;傳送至Analytics，其餘清單則會截斷。 系統會傳送額外標幟給 Analytics，表示區段清單已遭截斷，並在「客群名稱」維度中顯示為「已達客群上限」，在「客群 ID」維度中則會顯示「-1」。
 
 雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。 如果報告中出現「已達客群上限」，您有兩種因應方式：
 
@@ -170,6 +165,6 @@ ht-degree: 19%
 
 +++ 對於此問題的舊版方法（例如舊的測試版或「諮詢」外掛程式Cookie目的地）有何影響？
 
-我們建議您實施作業新的整合，並刪除舊目的地。
+我們建議您實施新的整合，並移除舊目的地。
 
 +++

@@ -1,23 +1,15 @@
 ---
 title: sa
-description: 隨時在您的實施中變更報表套裝。
+description: 隨時在您的實施中變更報告套裝。
 feature: Appmeasurement Implementation
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/xA02rmiZkiSsFwmACdN-YUlwKVGgeprnySEKEO0w3l8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 447
@@ -27,7 +19,7 @@ ht-degree: 44%
 
 # sa
 
-`sa()` 方法可讓您隨時在頁面上動態變更報表套裝。 如果您想要在不重新載入頁面的情況下，將資料傳送至不同的報表套裝，可以使用此方法。
+`sa()` 方法可讓您隨時在頁面上動態變更報表套裝。 如果您想要在不重新載入頁面的情況下，將資料傳送至不同的報告套裝，可以使用此方法。
 
 ## 使用Web SDK處理報表套裝
 
@@ -37,8 +29,8 @@ ht-degree: 44%
 1. 按一下左側的&#x200B;**[!UICONTROL 資料串流]**。
 1. 按一下想要的資料流，或按一下&#x200B;**[!UICONTROL 新增資料流]**。
 1. 按一下&#x200B;**[!UICONTROL 新增服務]**，然後選取&#x200B;**[!UICONTROL Adobe Analytics]**。
-1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下[新增報表套裝]。**&#x200B;**
-1. 輸入所有需要的報表套裝後，按一下[儲存]。**&#x200B;**
+1. 輸入所需的報表套裝ID。 如果您想要將相同的資料傳送至多個報表套裝，請按一下[新增報表套裝]。****
+1. 輸入所有需要的報表套裝後，按一下[儲存]。****
 
 ## 使用網頁SDK擴充功能設定所需的資料串流
 
@@ -65,11 +57,11 @@ alloy("configure", {
 
 ## 使用Adobe Analytics擴充功能變更報表套裝
 
-在介面中變更報表套裝沒有彈性的方式。 設定 Adobe Analytics 擴充功能時，您可以在[!UICONTROL 「資料庫管理」]摺疊式功能表下方設定報表套裝。 不過，您無法使用規則變更或更新報表套裝。 如果您想要在設定報表套裝值後更新這些值，請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+在介面中變更報表套裝沒有彈性的方式。 設定 Adobe Analytics 擴充功能時，您可以在[!UICONTROL 「資料庫管理」]摺疊式功能表下方設定報表套裝。 不過，您無法使用規則變更或更新報告套裝。 如果您想要在設定報告套裝值後更新這些值，請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.sa()
 
-呼叫 `s.sa()` 方法變更目的地報表套裝。 其唯一引數是包含報表套裝 ID 的字串，或是多個以逗號分隔的報表套裝 ID。 報表套裝 ID 引數為必要項目。 請勿在字串引數中使用空格。
+呼叫 `s.sa()` 方法變更目的地報表套裝。 其唯一引數是包含報告套裝 ID 的字串，或是多個以逗號分隔的報告套裝 ID。 報表套裝 ID 引數為必要項目。 請勿在字串引數中使用空格。
 
 ```js
 s.sa("examplersid");

@@ -1,26 +1,14 @@
 ---
 title: 行動查閱維度
-description: 根據裝置 IP 位址和使用者代理程度的維度。
+description: 根據裝置的 IP 位址和使用者代理而定的維度。
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 961
@@ -32,11 +20,11 @@ ht-degree: 95%
 
 *此頁面會參考對您的網站進行存取之行動裝置的屬性。 請參閱「[行動生命週期維度](lifecycle-dimensions.md)」或「[行動生命週期量度](../metrics/lifecycle-metrics.md)」，了解在行動應用程式內進行追蹤。*
 
-行動查詢[維度](overview.md)可讓您洞察造訪網站之行動裝置的屬性。 這些屬性是以點擊的使用者代理程式和 IP 位址為主。 您可以利用這些維度來了解行動裝置支援哪些功能。
+行動查詢[維度](overview.md)可讓您洞察造訪網站之行動裝置的屬性。 這些屬性是根據點擊的使用者代理和 IP 位址而定。 您可以利用這些維度來了解行動裝置支援哪些功能。
 
 ## 將資料填入這些維度中
 
-這些 Adobe 內部的維度參照查詢規則。
+這些維度參照 Adobe 內部的查詢規則。
 
 * 對於[!UICONTROL 行動電信業者]維度，Adobe 是與使用 NetAcuity 的 [Digital Element](https://www.digitalelement.com/) 合作維護 IP 位址和行動電信業者之間的查詢。
 * 對於所有其他行動維度，Adobe 是與 [DeviceAtlas](https://deviceatlas.com/) 合作維護使用者代理程式與每個各別行動維度之間的查詢。
@@ -44,7 +32,7 @@ ht-degree: 95%
 這些維度的適用性取決於實施類型：
 
 * 對於 AppMeasurement 實施，這些維度可直接使用。
-* 對於 Web SDK 的實施，在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時可啟用[!UICONTROL 地理查詢] (適用於行動電信業者) 或[!UICONTROL 裝置查詢] (適用於所有其他維度)。
+* 對於 Web SDK 的實施，在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時可啟用[!UICONTROL 地理查詢] (適用於行動電信業者) 或[!UICONTROL 裝置查詢] (適用於所有其他維度)。
 
 ## 行動維度說明
 
@@ -78,7 +66,7 @@ ht-degree: 95%
 
 ## 依型號或版本區分 iPhone
 
-行動裝置會在使用者代理程式字串中顯示其韌體版本，而非裝置版本。 例如，目前這一代的 iPhone 包含與上一代 iPhone 若使用相同的韌體版本，則會有相同的使用者代理。 由於無法使用 JavaScript 來判斷 iPhone 的裝置版本，所有 iPhone 都會屬於同一個貯體。 行動維度必須以參考使用者代理的查閱為基礎，會造成所有 iPhone 都將行動螢幕大小顯示為 `320 x 480`。
+行動裝置會在使用者代理字串中顯示其韌體版本，而非裝置版本。 例如，如果目前這一代的 iPhone 與上一代 iPhone 使用相同的韌體版本，兩者就會有相同的使用者代理。 由於無法使用 JavaScript 來判斷 iPhone 的裝置版本，所有 iPhone 都會屬於同一個桶。 行動維度必須以參考使用者代理的查閱為基礎，會造成所有 iPhone 都將行動螢幕大小顯示為 `320 x 480`。
 
 如果您想要收集 iPhone 裝置版本，有兩種方式可以規避此限制。
 
@@ -91,4 +79,4 @@ ht-degree: 95%
     }
   ```
 
-  此程式碼區塊會先偵測裝置是否為 iPhone。 如果是，程式碼就會使用 JavaScript 將螢幕解析度提取至 eVar 中。 如果螢幕解析度是獨特的解析度，此方法即可讓您大致偵測出裝置版本。
+  此程式碼區塊會先偵測裝置是否為 iPhone。 如果是，程式碼就會使用 JavaScript 將螢幕解析度提取至 eVar 中。 如果螢幕解析度各不相同，此方法即可讓您大致偵測出裝置版本。

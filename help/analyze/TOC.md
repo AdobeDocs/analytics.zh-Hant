@@ -74,7 +74,7 @@ ht-degree: 100%
       + [範例](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
     + 資料字典 {#data-dictionary}
       + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-      + [檢視資料字母排序中的元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+      + [在資料字典中檢視元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
       + [編輯資料字母排序中的元件條目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
       + [監視資料字母排序健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
   + 視覺效果 {#visualizations}
@@ -207,7 +207,7 @@ ht-degree: 100%
       + [使用請求精靈篩選流失報告](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
       + [新增相依請求以篩選路徑報告](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
       + [選擇報告類型](legacy-report-builder/data-requests/c-report-types/t-select-report-type.md)
-    + [匯入書籤化報告與儀表板小報告](legacy-report-builder/data-requests/import-bookmarked.md)
+    + [匯入已建立書籤的報告與儀表板小報告](legacy-report-builder/data-requests/import-bookmarked.md)
     + 日期範圍 {#date-ranges}
       + [請求精靈定義 - 預設日期](legacy-report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
       + [固定日期和儲存的日期範圍](legacy-report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)

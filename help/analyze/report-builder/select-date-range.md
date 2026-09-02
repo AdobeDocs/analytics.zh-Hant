@@ -7,16 +7,12 @@ type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
 TQID: https://experienceleague.adobe.com/n7cZLIgBxk1kGdKdaQSlTubfN5VI9jCLLb7xr9DTd9M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 859
+source-wordcount: 860
 ht-degree: 49%
 
 ---
@@ -58,12 +54,12 @@ ht-degree: 49%
 
 1. 選取&#x200B;**[!UICONTROL 開始於]**、**[!UICONTROL 結束於]**，或&#x200B;**[!UICONTROL 固定日期]**。
 
-   - 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]**&#x200B;**[!UICONTROL 今年]**&#x200B;**[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
+   - 當您已選取&#x200B;**[!UICONTROL 開始於]**&#x200B;或&#x200B;**[!UICONTROL 結束於]**，您可以建置完整的運算式。 例如：**[!UICONTROL 結束於]****[!UICONTROL 今年]****[!UICONTROL 加上]**`1`**[!UICONTROL 天]**。 為運算式的個別部分選擇適當的值。
 
-      - 選取目前的值。 例如，**[!UICONTROL 目前的年份]**。
-      - 選取選擇性額外計算的值。 例如，**[!UICONTROL 加]**。
-      - 當您指定其他計算時，請指定一個值。 例如，`1`。
-      - 當您已指定其他計算時，請選取用於計算的時段。 例如，**[!UICONTROL 天]**。
+     - 選取目前的值。 例如，**[!UICONTROL 目前的年份]**。
+     - 選取選擇性額外計算的值。 例如，**[!UICONTROL 加]**。
+     - 當您指定其他計算時，請指定一個值。 例如，`1`。
+     - 當您已指定其他計算時，請選取用於計算的時段。 例如，**[!UICONTROL 天]**。
 
    - 選取&#x200B;**[!UICONTROL 固定日]**&#x200B;時，請指定固定日，或使用選擇器選取日。
 
@@ -156,7 +152,7 @@ ht-degree: 49%
 
 - 若使用滾動日期，開始日期必須為當天或過去。 如果選取&#x200B;**[!UICONTROL 排除當天]**，則開始日期必須為過去。
 
-- 您可以建立一個為未來設定的靜態日期範圍。 例如，您可能需要為下週推出的行銷活動設定一個未來日期。 這個選項可預先為活動建立活頁簿監控。
+- 您可以建立設定於未來的靜態日期範圍。 例如，您可能需要為下週推出的行銷活動設定一個未來日期。 這個選項可預先為活動建立活頁簿監控。
 
 ## 變更日期範圍
 

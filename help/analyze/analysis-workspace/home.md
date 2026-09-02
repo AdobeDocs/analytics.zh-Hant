@@ -1,30 +1,16 @@
 ---
 title: Analysis Workspace 概觀
-description: 了解關於 Adobe Analytics 的首要分析工具 Analysis Workspace。 使用專案、面板、表格、視覺效果及其他元件來生動地呈現資料，並組織及共用您的分析。
+description: 了解 Analysis Workspace，它是 Adobe Analytics 的首要分析工具。 使用專案、面板、表格、視覺效果及其他元件來生動地呈現資料，並組織及共用您的分析。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 autotag-review: '2026-05-22T09:19:57.382Z'
 TQID: 'https://experienceleague.adobe.com/O1TMjrV56s5v-x3waE7oKGog18sasEjo06eYiquAWjI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1422
@@ -38,7 +24,7 @@ Analysis Workspace 可讓您快速建置分析以收集洞察，然後與其他�
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 概觀](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +49,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 |:---:|---|---|
 | ![WebPage](/help/assets/icons/WebPage.svg) | **[!UICONTROL 面板]** | [面板](/help/analyze/analysis-workspace/c-panels/panels.md)是用來在專案中整理可能包含許多表格和視覺效果的分析。 Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | **[!UICONTROL 視覺化呈現]** | [視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)可用來生動地呈現資料，例如條狀圖或折線圖。 在最左側的面板中，選取中間的&#x200B;**[!UICONTROL 視覺化呈現]**&#x200B;圖示，檢視可用視覺化呈現的完整清單。 |
-| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/home.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg) [維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg) [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segmentation/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg) [日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
+| ![Curate](/help/assets/icons/Curate.svg) | **[!UICONTROL 元件]** | [元件](/help/components/home.md) 包括以下元素：<ul><li>![Dimensions](/help/assets/icons/Dimensions.svg)[維度](/help/components/dimensions/overview.md)</li><li>![Event](/help/assets/icons/Event.svg)[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)</li><li>![Segmentation](/help/assets/icons/Segmentation.svg) [區段](/help/components/segmentation/seg-overview.md)</li><li>![Calendar](/help/assets/icons/Calendar.svg)[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)</li></ul> |
 | ![ViewList](/help/assets/icons/ViewList.svg) | **[!UICONTROL 目錄]** | 此[目錄](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)將專案中包含的所有面板和視覺效果組織成可收摺清單，讓您可以快速存取特定面板或視覺效果。 |
 | ![Bookmark](/help/assets/icons/Bookmark.svg) | **資料字典** | [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)可協助使用者和管理員追蹤並更好地了解其 Analytics 環境中的元件。 |
 
@@ -72,11 +58,11 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 
 Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺化呈現和元件中的內容選單來使用。
 
-也可以透過 Workspace 選單和快速鍵或快捷鍵使用功能。 快捷鍵根據瀏覽器執行的作業系統而有所不同。 請參閱下表以了解概觀。
+也可以透過工作區選單和快速鍵或快捷鍵使用功能。 快捷鍵根據瀏覽器執行的作業系統而有所不同。 請參閱下表以了解概觀。
 
 請注意，您的鍵盤上可能使用下列符號：
 
-- **⇧** 代表 **[!UICONTROL *Shift *]**&#x200B;鍵。
+- **⇧** 代表 **[!UICONTROL *Shift *]**鍵。
 - **⌘** 代表 **[!UICONTROL *Cmd *]**(Command) 鍵。
 - **⌃** 代表 **[!UICONTROL *Ctrl *]**(Control) 鍵。
 - **⌥** 代表 **[!UICONTROL *Opt *]**(Option) 鍵。
@@ -142,7 +128,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 | **[!UICONTROL 影片]** | 在新的瀏覽器分頁中開啟 Customer Journey Analytics YouTube 頻道。 |
 | **[!UICONTROL 說明文件]** | 開啟檔案（您正在閱讀中……） 在新的瀏覽器標籤中。 |
 | **[!UICONTROL 說明論壇]** | 在新的瀏覽器分頁中開啟 Adobe Analytics Experience League 社群論壇。 |
-| **[!UICONTROL 快速鍵]** | 顯示可在 Workspace 使用的快捷鍵 (快速鍵) 概觀。 |
+| **[!UICONTROL 快速鍵]** | 顯示可在工作區使用的快捷鍵 (快速鍵) 概觀。 |
 | **[!UICONTROL 啟用偵錯工具]** | 啟用偵錯工具。 您的專案將重新載入。 |
 | **[!UICONTROL 停用偵錯工具]** | 停用偵錯工具。 您的專案將重新載入。 |
 | **[!UICONTROL 效能]** | 顯示一個展示 **[!UICONTROL Analysis Workspace 效能]**&#x200B;相關量度的對話框。 使用&#x200B;**[!UICONTROL 下載為 CSV]**&#x200B;下載效能量度的 CSV 檔案。 |
@@ -159,7 +145,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 
 1. 使用您的Adobe ID認證登入[Adobe CX Enterprise](https://experience.adobe.com)。
 1. 在介面右上方選取 **[!UICONTROL Customer Journey Analytics]** (透過應用程式切換器![應用程式](/help/assets/icons/Apps.svg))。
-1. 預設顯示 Analysis Workspace **[!UICONTROL 專案]**&#x200B;頁面。 如果已為您選取特定專案或有您近期持續進行的專案，則預設顯示該專案。
+1. 預設顯示 Analysis Workspace **[!UICONTROL 專案]**&#x200B;頁面。 如果已為您選取特定專案，或您最近一直在處理某個專案，則預設顯示該專案。
 
 ### 建立專案
 

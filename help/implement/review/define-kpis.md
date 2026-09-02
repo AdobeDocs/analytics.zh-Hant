@@ -5,17 +5,11 @@ feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 role: Admin, Leader
 TQID: https://experienceleague.adobe.com/5gk97uJXKiJqu9E6uv-U6jk1vmovfyVeiUVgMwwc8hQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 319
@@ -29,7 +23,7 @@ ht-degree: 72%
 
 ## &#x200B;1. 瞭解您的業務目標
 
-首先了解業務目標，這樣您便可以選擇對業務最重要的 5 大 KPI。 這些 KPI 可以是營收之類的量度、單次造訪收入等計算量度；量度中也可以使用變數。 不要隨便從其他公司或業界標準複製KPI — 這些可能不會符合您的業務目標。
+首先了解業務目標，這樣您便可以選擇對業務最重要的 5 大 KPI。 這些 KPI 可以是收入之類的量度、單次造訪收入等計算量度；這些量度也可以有變數。 不要隨便從其他公司或業界標準複製KPI — 這些可能不會符合您的業務目標。
 
 ## &#x200B;2. 提出重要問題
 

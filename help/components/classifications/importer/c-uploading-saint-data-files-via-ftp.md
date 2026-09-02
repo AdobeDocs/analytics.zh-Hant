@@ -4,17 +4,11 @@ title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 TQID: https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 727
@@ -79,7 +73,7 @@ ht-degree: 75%
    | **覆寫衝突的資料** | 選取此選項可覆寫重複資料。 如果您更新現有的分類，此選項會很有用。 如果使用[最新分類架構](../sets/overview.md)，會一律啟用此設定。 |
    | **匯入完成之後** | 選取這個選項，自動將更新的資料集匯出到同一個 FTP 帳戶一次。指定在匯入完成後接收關於此 FTP 帳戶之通知的電子郵件地址。 如果使用[最新分類架構](../sets/overview.md)，會無法使用此選項。 |
    | **通知收件者** | 指定要接收關於這個 FTP 帳戶之通知的電子郵件地址。 |
-   | **授權** | (必要) 授權 Adobe 以自動匯入傳送到新 FTP 帳戶的所有資料檔案。 |
+   | **授權** | (必要) 授權 Adobe 自動匯入傳送到新 FTP 帳戶的所有資料檔案。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -98,7 +92,7 @@ ht-degree: 75%
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
 1. 按一下要使用的 FTP 帳戶旁的&#x200B;**[!UICONTROL 「檢視」]**。
-1. 使用您選擇的 FTP 用戶端利用 FTP 存取資訊 (主機、登入、密碼) 存取FTP 伺服器。
+1. 使用您選擇的 FTP 用戶端，利用 FTP 存取資訊 (主機、登入、密碼) 存取 FTP 伺服器。
 1. 將資料檔案 (`.tab` 或 `.txt`) 上傳至 FTP 伺服器。
 1. 上傳資料檔案後，上傳指出檔案已可供處理的 FIN 檔案。
 

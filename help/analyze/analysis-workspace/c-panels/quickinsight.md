@@ -5,22 +5,11 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 TQID: https://experienceleague.adobe.com/wjimhUjIOgPLDc2ulQQdPJx78Cstzu263dFQr6MsQg8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1157
@@ -42,7 +31,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Quick Insights面板。_<br/>_請參閱[Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄Quick Insights面板。_<br/>_請參閱[Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)，以取得本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本。_
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +41,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 當您首次使用 [!UICONTROL Analysis Workspace]，您可能想知道：
 
 * 哪些視覺化呈現最有用、
-* 哪些維度和量度可能有助於洞察、
+* 哪些維度和量度可能有助於洞察，
 * 拖放項目的位置、
 * 在哪裡建立篩選
 * 及更多內容。
@@ -66,7 +55,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 * 在 [!UICONTROL Analysis Workspace] 中適當建立資料表格及隨附的視覺效果。
 * 瞭解 [!UICONTROL Analysis Workspace] 的基本元件和部件所適用的術語和辭彙。
 * 在[!UICONTROL 自由格式表格]中輕鬆進行維度的簡單劃分、新增多個量度或比較區段。
-* 變更或試用各種視覺效果類型，以快速且直覺地找出您的分析適用的尋找工具。
+* 變更或試用各種視覺效果類型，以快速且直覺地找出最適合您分析的工具。
 
 ## 基本關鍵術語
 
@@ -76,9 +65,9 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 |---|---|
 | **[!UICONTROL 維度]** | 維度是量度資料的描述或特性，您可以在專案中加以檢視、劃分及比較。 這是可劃分為維度項目的非數值和日期。 例如，*瀏覽器*&#x200B;或&#x200B;*頁面*&#x200B;是維度。 |
 | **[!UICONTROL 維度項目]** | 維度項目是維度的個別值。 例如，瀏覽器維度的維度項目為 *Chrome*、*Firefox*、*Edge*&#x200B;等。 |
-| **[!UICONTROL 量度]** | 量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
+| **[!UICONTROL 量度]** | 量度是有關訪客活動的量化資訊，例如瀏覽次數、點閱次數、重新載入、平均逗留時間、件數、訂單、收入等。 |
 | **[!UICONTROL 視覺化呈現]** | Workspace 提供[一些視覺化呈現](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)，方便您建置資料的視覺呈現方式。 例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。 |
-| **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。 例如，您可以將「依行動裝置劃分美國各州」劃分為每個州的行動裝置造訪次數。 或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
+| **[!UICONTROL 維度劃分]** | 維度劃分是用其他維度來劃分某個維度。 例如，您可以依行動裝置劃分美國各州，以取得每個州的行動裝置造訪次數。 或者，您可以依行動裝置類型、區域、內部促銷活動等來劃分行動裝置。 |
 | **[!UICONTROL 區段]** | 區段可讓您根據特性或網站互動來識別訪客的子集。 例如，您可以建置[!UICONTROL 人員]區段，根據 <li>屬性：瀏覽器類型、裝置、造訪次數、國家/地區、性別；或</li><li>互動：促銷活動、關鍵字搜尋、搜尋引擎；或</li><li>進入和退出：來自 Facebook 的訪客、已定義的登陸頁面、反向連結網域；或</li><li> 自訂變數：表單欄位、已定義的類別、客戶 ID。 |
 
 ## 使用
@@ -103,14 +92,14 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 * **[!UICONTROL 篩選條件]**  - 指定區段 (藍色)
 * **[!UICONTROL 在]** - 指定日期範圍 (紫色)。
 
-您必須至少選取一個維度和一個量度才能使視覺化呈現正常運作。
+您必須至少選取一個維度和一個量度，視覺化呈現才能正常運作。
 
 
 
-您可以透過三種方式指定建置要素：
+您可以透過三種方式指定建構區塊：
 
 * 從左側面板拖放元件。
-* 開始在建置要素欄位之一中輸入內容。 找到輸入後，建置要素欄位會自動填入可能的值。
+* 開始在建置要素欄位之一中輸入內容。 找到相符的輸入內容後，建置要素欄位會自動填入可能的值。
 * 指定建置區塊下拉式清單（例如&#x200B;**[!UICONTROL Analyze]**&#x200B;中的&#x200B;**[!UICONTROL 國家]**），並搜尋可能值的清單（使用![V形右側](/help/assets/icons/ChevronRight.svg)）以取得您要使用的值（例如&#x200B;**[!UICONTROL 國家/地區代碼]**）。
 
 選取&#x200B;**[!UICONTROL 清除]**&#x200B;以清除所有輸入欄位。
@@ -142,13 +131,13 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
   ![Quick Insights Builder Result](assets/qibuilder-result.png)
 
-   * **[!UICONTROL 分析]**&#x200B;維度&#x200B;**[!UICONTROL 劃分依據]**：最多可將維度劃分為 3 個層級，以深入研究您真正需要的資料。 請參閱➊、➋和➌。
+  * **[!UICONTROL 分析]**&#x200B;維度&#x200B;**[!UICONTROL 劃分依據]**：最多可將維度劃分為 3 個層級，以深入研究您真正需要的資料。 請參閱➊、➋和➌。
 
-   * 新增更多量度&#x200B;**[!UICONTROL 依據]**：您最多可以再增加 2 個量度。 請參閱➍和➎。
+  * 新增更多量度&#x200B;**[!UICONTROL 依據]**：您最多可以再增加 2 個量度。 請參閱➍和➎。
 
-   * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個區段。 例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。 請參閱➏、➐和➑。
+  * **[!UICONTROL 篩選條件]**：您最多可以再增加 2 個區段。 例如，新增「預訂」作為區段，並結合您所比較的「預訂常客」和「首次搭機者」區段。 請參閱➏、➐和➑。
 
-   * 在：您可以指定日期範圍。 請參閱➒。
+  * 在：您可以指定日期範圍。 請參閱➒。
 
 ## 已知限制
 
@@ -185,7 +174,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
 
 ## Basic key terminology
 

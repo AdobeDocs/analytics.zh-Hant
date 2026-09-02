@@ -4,18 +4,10 @@ description: 逗留時間維度和量度的彙總頁面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1659
@@ -33,7 +25,7 @@ Adobe Analytics產品提供各種[!UICONTROL 逗留時間] [量度](overview.md)
 |---|---|---|
 | [[!UICONTROL 花費秒數總計]](total-seconds-spent.md) | 代表訪客與特定維度項目互動的總時間量。 包括值的例項和在所有後續點擊中持續的項目。 如果是 prop，則會對後續連結事件一併計算逗留時間。 | Analysis Workspace、Report Builder （稱為「總逗留時間」）、Data Warehouse |
 | [[!UICONTROL 每次造訪逗留時間] （秒）](time-spent-per-visit.md) | 大約&#x200B;*總逗留秒數/（造訪彈回數）*<br>&#x200B;代表訪客每次造訪時與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
-| 每位訪客逗留時間[[[!UICONTROL 1&rbrace; （秒）]](time-spent-per-visitor.md)] | 大約總逗留秒數/不重複訪客&#x200B;*<br>代表訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。***注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
+| 每位訪客逗留時間[[!UICONTROL 1} （秒）](time-spent-per-visitor.md)] | 大約總逗留秒數/不重複訪客&#x200B;*<br>代表訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。***注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
 | [!UICONTROL 逗留時間/使用者（狀態）] | 大約&#x200B;*行動應用程式總逗留秒數/不重複行動應用程式訪客*<br>&#x200B;代表行動應用程式訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
 | [[!UICONTROL 網站平均逗留時間] （秒）](average-time-on-site.md) | 代表訪客與特定維度專案互動（依序與維度專案）的總時間。 這不只限於名稱所建議的「網站」平均值。 如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意**：因為在計算中使用不同的分母，此量度與維度專案層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace、Report Builder （以分鐘數顯示） |
 | [[!UICONTROL 網站平均逗留時間]](average-time-on-site.md) | 這是與&#x200B;*網站平均逗留時間（秒）*&#x200B;相同的量度，除了格式為時間(`hh:mm:ss`) | Analysis Workspace |
@@ -45,8 +37,8 @@ Adobe Analytics產品提供各種[!UICONTROL 逗留時間] [量度](overview.md)
 | --- | --- | --- |
 | [[!UICONTROL 每次造訪逗留時間 - 精細]](../dimensions/time-spent-per-visit.md) | 將瀏覽時的總逗留時間去除尾數後的為最接近的秒數，適用於可套用至屬於瀏覽一部分的每一次點擊。 這是造訪層級維度。 | Analysis Workspace |
 | [[!UICONTROL 每次瀏覽逗留時間 - 分組]](../dimensions/time-spent-per-visit.md) | 詳細程度維度分成 9 個不同的範圍。 這是造訪層級維度。 這些範圍包括：<ul><li>少於 1 分鐘</li><li>1-5 分鐘</li><li>5-10 分鐘</li><li>10-30 分鐘</li><li>30-60 分鐘</li><li>1-2 小時</li><li>2-5 小時</li><li>5-10 小時</li><li>10-15 小時</li></ul>**注意**：時間區間不可高於此設定，因為一次造訪在經過 12 小時的活動後就會到期。 | Analysis Workspace、Report Builder |
-| [[!UICONTROL 頁面逗留時間 - 精細]](../dimensions/time-spent-on-page.md) | 每次點擊的總逗留時間，去除尾數後為最接近的秒數。 這個項目是點擊層級維度，且包含頁面檢視和連結事件。 雖然名稱有別，但不僅限於「頁面」維度。 | Analysis Workspace |
-| [[!UICONTROL 頁面逗留時間 – 分段]](../dimensions/time-spent-on-page.md) | 詳細程度維度分成 10 個不同範圍；不過分段的維度只會計算頁面檢視次數 (而排除連結事件)。 這是點選層級維度。 這些範圍包括：<ul><li>少於 15 秒</li><li>15 到 29 秒</li><li>30 到 59 秒</li><li>1 到 3 分鐘</li><li>3 到 5 分鐘</li><li>5 到 10 分鐘</li><li>10 到 15 分鐘</li><li>15 到 20 分鐘</li><li>20 到 30 分鐘</li><li>多於 30 分鐘</li></ul> | Analysis Workspace |
+| [[!UICONTROL 頁面逗留時間 - 精細]](../dimensions/time-spent-on-page.md) | 每次點擊的總逗留時間會截斷為最接近的秒數。 這個項目是點擊層級維度，且包含頁面檢視和連結事件。 雖然名稱有別，但不僅限於「頁面」維度。 | Analysis Workspace |
+| [[!UICONTROL 頁面逗留時間 – 分段]](../dimensions/time-spent-on-page.md) | 詳細程度維度分成 10 個不同範圍；不過分段的維度只會計算頁面檢視次數 (而排除連結事件)。 這是點選層級維度。 這些範圍包括：<ul><li>少於 15 秒</li><li>15 至 29 秒</li><li>30 至 59 秒</li><li>1 到 3 分鐘</li><li>3 到 5 分鐘</li><li>5 到 10 分鐘</li><li>10 到 15 分鐘</li><li>15 到 20 分鐘</li><li>20 到 30 分鐘</li><li>多於 30 分鐘</li></ul> | Analysis Workspace |
 
 ## 「逗留時間」的計算方式
 
@@ -62,7 +54,7 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 
 * 例如，如果是[!UICONTROL 頁面名稱]或點擊層級的其他維度，分母實際上為[!UICONTROL 例項]或[!UICONTROL 頁面檢視]，但重新載入和未設定的值 (例如連結事件) 則計為單一互動 (序列)。
 
-* 彈回和退出點擊也會從分母中移除，因為無法得知逗留時間。
+* 跳出和退出點擊也會從分母中移除，因為無法得知逗留時間。
 
 ## 常見問題解答
 
@@ -82,7 +74,7 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 
 +++哪一個逗留時間維度最適合搭配其他維度專案來進行劃分？
 
-[[!UICONTROL 頁面逗留時間 — 精細]](../dimensions/time-spent-on-page.md)維度是點選層級維度。 使用由其他維度來劃分這個項目會告訴您當劃分維度也存在時點擊持續的秒數。
+[[!UICONTROL 頁面逗留時間 — 精細]](../dimensions/time-spent-on-page.md)維度是點選層級維度。 依另一個維度劃分此項目時，會顯示在劃分維度也存在的情況下，某次點擊持續了多少秒。
 在以下範例中，搜尋辭彙「已分類」與54秒、59秒等點選時間相關聯，可能表示訪客正在花時間閱讀該辭彙傳回的內容。
 
 ![頁面報告逗留時間熒幕擷圖](assets/time-spent1.png)
@@ -91,7 +83,7 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 
 +++哪個量度適合搭配[!UICONTROL 頁面逗留時間 — 精細]的維度？
 
-任何量度。 此維度會顯示事件發生時確切點擊的逗留時間。 較長的逗留時間表示訪客在事件發生的頁面 (點擊) 上停留較長時間。
+任何量度。 此維度會顯示事件發生的確切點擊時的逗留時間。 較長的逗留時間表示訪客在事件發生的頁面 (點擊) 上停留較長時間。
 
 ![Workspace報告，顯示與逗留時間維度](assets/time-spent2.png)搭配使用的自訂量度
 
@@ -121,7 +113,7 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 | **頁面名稱** | 首頁 | 產品 | 首頁 |
 | **日期** | 1 月 1 日 | 1 月 1 日 | 1 月 1 日 |
 
-計算首頁的逗留時間時，算式會是 (30+10)/2=20，但依日劃分時，算式則是 (30+10)/1=40，因為 1 月 1 日當天有單一連續執行。
+計算首頁的逗留時間時，算式會是 (30+10)/2=20，但依日劃分時，算式則是 (30+10)/1=40，因為 1 月 1 日只有一個未中斷的連續序列。
 
 因此，這些量度可能會在造訪層級產生類似的結果，但在點選層級就會有所差異。
 
@@ -170,6 +162,6 @@ Adobe Analytics使用明確值（包括連結事件和視訊檢視）來計算�
 
 * 「序列」是一組連續的點選，其中的指定變數會包含相同的值（不論是透過設定、擴散或持續存在的方式）。 例如，prop1「A」有兩個序列：點選1和2以及點選6。 造訪的最後一次點選值不會起始新的序列，因為最後一次點選沒有逗留時間。 網站平均逗留時間使用分母中的序列。
 
-   * 僅就逗留時間而言，prop是從頁面點選「擴散」至後續連結點選，如上方針對點選2的prop1所示。 這可讓點選1上的prop1所設定的值(「A」)將逗留時間累積在點選2上。
+  * 僅就逗留時間而言，prop是從頁面點選「擴散」至後續連結點選，如上方針對點選2的prop1所示。 這可讓點選1上的prop1所設定的值(「A」)將逗留時間累積在點選2上。
 
-   * eVar 會將逗留時間累積在 eVar 已設定或持續存在的點擊上。 eVar 持續性是由Analytics > 管理員中的 eVar 設定所定義。
+  * eVar 會將逗留時間累積在 eVar 已設定或持續存在的點擊上。 eVar 持續性是由Analytics > 管理員中的 eVar 設定所定義。

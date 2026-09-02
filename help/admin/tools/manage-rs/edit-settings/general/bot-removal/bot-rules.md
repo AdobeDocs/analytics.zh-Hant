@@ -5,21 +5,11 @@ feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 TQID: 'https://experienceleague.adobe.com/ppKgywVKg1ikX433Qoz2yYYBFuwjrQfow0kSE-tfQwA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ec140990-1570-4311-94d4-2d6b38511bbe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ec140990-1570-4311-94d4-2d6b38511bbe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1699
@@ -50,7 +40,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [設定機器人規則](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [設定機器人規則](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +71,7 @@ ht-degree: 43%
 
 ## 標準 IAB 機器人規則
 
-勾選[!UICONTROL 「啟用 IAB 機器人篩選規則」]核取方塊，即可開啟標準 IAB 機器人規則 。 這個選項會移除 IAB (國際廣告局) 國際編目程式與機器人清單中的機器人，藉此移除機器人流量。 Adobe 每月會利用 IAB 更新此清單。
+勾選[!UICONTROL 「啟用 IAB 機器人篩選規則」]核取方塊，即可開啟標準 IAB 機器人規則 。 這個選項會移除 IAB (國際廣告局) 國際編目程式與機器人清單中的機器人，藉此移除機器人流量。 Adobe 每月都會從 IAB 更新此清單。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-iab-checkbox.png)
 
@@ -93,7 +83,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 >[!NOTE]
 >
->使用者介面可允許手動定義 500 個規則。 達到上限之後，必須透過「匯入檔案」和「匯出機器人規則」選項來大量管理規則。
+>使用者介面可手動定義 500 個規則。 達到上限之後，必須透過「匯入檔案」和「匯出機器人規則」選項來大量管理規則。
 
 自訂機器人規則可讓您根據定義的條件來篩選流量。 若要開始啟用報表套裝中自訂機器人規則的程式，請參閱[更新或上傳機器人規則](#update-or-upload-bot-rules)。
 
@@ -113,9 +103,9 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 **[!UICONTROL 「包含」]**&#x200B;欄位限制在 100 個字元。 不包含清單限製為每行最多255個字元減去分隔字元。 (這等於字串數目 — 1。 若您指定4個&#x200B;*不包含*&#x200B;字串，則需要3個分隔字元。) 所有相符字串均不區分大小寫。
 
-### IP 位址 (包括萬用字元符合)
+### IP 位址 (包括萬用字元比對)
 
-比對 IP 位址或使用萬用字元比對同一區塊中的多個位址 (&#42;)。 提供您要比對之 IP 位址的數值。 使用 &#42; 替換您要以萬用字元來比對的值。 下表包含 IP 位址符合字串的範例：
+比對 IP 位址或使用萬用字元比對同一區塊中的多個位址 (&#42;)。 提供您要比對之 IP 位址的數值。 使用 &#42; 替換您要以萬用字元來比對的值。 下列清單包含 IP 位址符合字串的範例：
 
 ```
 10.10.10.1
@@ -130,7 +120,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員」]**，選取一或多個報告套裝並按一下&#x200B;**[!UICONTROL 「一般]** > **[!UICONTROL 機器人規則」]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增規則」]**，定義一或多個符合條件。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 30 分鐘內變更就會生效。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。 變更應會在 30 分鐘內生效。
 
 ## 上傳機器人規則
 
@@ -183,7 +173,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 1. 選取「**[!UICONTROL 匯出機器人規則]**」，然後將CSV檔案儲存至您的檔案系統。
 
-## 機器人規則對資料收集的影響 {#section_F01A3130E7A04A9993371CF26F6586F2}
+## 機器人規則對資料彙集的影響 {#section_F01A3130E7A04A9993371CF26F6586F2}
 
 「機器人規則」會套用至所有分析資料。 「機器人規則」移除的資料只會顯示在「機器人」和「機器人頁面」報表中。
 

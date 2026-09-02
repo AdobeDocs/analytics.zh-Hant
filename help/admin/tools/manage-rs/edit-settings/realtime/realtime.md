@@ -4,19 +4,10 @@ title: 即時報告
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 TQID: https://experienceleague.adobe.com/SqFAddRYrXCrQyB-LjgsaLWoEQXMLc7hkdgcAcgUdsM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 611
@@ -30,7 +21,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實施作業或標記。 它會運用您現有的 Adobe Analytics 實作。 若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。 它會運用您現有的 Adobe Analytics 實施。 若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
 
 若要檢視即時報表，請導覽至：
 
@@ -51,10 +42,10 @@ ht-degree: 31%
 * 使用任何自訂事件、購物車事件或例項。
 * 檢視高達 2 小時的歷史即時資料，並修改此設定：
 
-   * 前 15 分鐘：1 分鐘顆粒度
-   * 前 30 分鐘：1 分鐘顆粒度
-   * 前 1 小時：2 分鐘顆粒度
-   * 前 2 小時：4 分鐘顆粒度
+  * 前 15 分鐘：1 分鐘顆粒度
+  * 前 30 分鐘：1 分鐘顆粒度
+  * 前 1 小時：2 分鐘顆粒度
+  * 前 2 小時：4 分鐘顆粒度
 
 * 例如，比較上週的值以及去年的值（以及今天的總數）。
 
@@ -66,7 +57,7 @@ ht-degree: 31%
 
 在Adobe Target中啟用A4T整合後，您會在Adobe Analytics中遇到5至10分鐘的額外延遲。 增加此延遲可使Analytics和Target的資料透過相同的點選儲存，讓您能夠依頁面和網站區段劃分測試。
 
-此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報表)，且適用於下列情況：
+此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報告)，且適用於下列情況：
 
 * 對於即時資料流、即時報表和API請求，以及流量變數的目前資料，只有具有補充資料ID的點選會延遲。
 * 對於轉換量度、最終完成的資料和資料摘要的目前資料，所有點選都會額外延遲5至7分鐘。

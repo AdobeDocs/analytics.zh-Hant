@@ -3,21 +3,11 @@ title: 使用網頁Adobe Analytics JavaScript資料庫傳送資料至SDK
 description: 從簡潔的Web SDK實作開始，以便使用JavaScript程式庫傳送資料給Adobe Analytics。
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
 TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1129
@@ -82,31 +72,31 @@ ht-degree: 18%
 <tr>
 <td> 4</td>
 <td><b>安裝預先建立的獨立版本</b>。 您可以直接在您的頁面上參考 CDN 上的程式庫 (<code>alloy.js</code>)，或將其下載並託管在您自己的基礎結構上。 或者，您可以使用 NPM 套件。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=zh-Hant">安裝預先建立的獨立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=zh-Hant">使用 NPM 套件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">安裝預先建立的獨立版本</a>和<a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">使用 NPM 套件</a></td>
 </tr>
 
 <tr>
 <td>5</td>
 <td><b>設定資料流</b>。 資料流代表實施 Adobe Experience Platform Web SDK 時的伺服器端設定。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant">設定資料流<a></td> 
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html">設定資料流<a></td> 
 </tr>
 
 <td>6</td>
 <td><b>將 Adobe Analytics 服務</b>新增到您的資料流。 此服務可控制資料是否及如何傳送至Adobe Analytics，以及特定要將資料傳送到哪些報表套裝。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=zh-Hant#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">將 Adobe Analytics 服務新增到資料流</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>設定 Web SDK</b>。 請確認您在步驟4安裝的程式庫已正確設定資料串流ID (先前稱為邊緣組態ID (<code>datastreamId</code>))、組織ID (<code>orgId</code>)及其他可用選項。 請確定變數對應正確。 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=zh-Hant">設定網頁SDK</a><br/><a href="../xdm-var-mapping.md">XDM物件變數對應</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">設定網頁SDK</a><br/><a href="../xdm-var-mapping.md">XDM物件變數對應</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>執行命令</b> 和/或<b>追蹤事件</b>。 在您的網頁上實施基礎程式碼後，您可以開始使用 SDK 執行命令和追蹤事件。
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=zh-Hant">傳送事件</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">傳送事件</a></td>
 </tr>
 
 <tr>

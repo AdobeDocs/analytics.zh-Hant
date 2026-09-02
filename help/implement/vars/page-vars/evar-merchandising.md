@@ -6,19 +6,11 @@ exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/BdChWcR9AJqLZ0KjOxSvFAjB8-58JmmGahrpvTyFeFI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 573
@@ -34,11 +26,11 @@ ht-degree: 90%
 
 ## 在報表套裝設定中設定 eVar
 
-在實作中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
+在實施中使用 eVar 之前，請務必在報告套裝設定中設定所需語法的 eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >
->若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。 請確定您的實施作業已正確加以設定。
+>若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。 請確定已針對您的實施作業正確設定該 eVar。
 
 ## 使用產品語法進行實施作業
 
@@ -105,7 +97,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ## 使用轉換變數語法進行實施作業
 
-無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。 這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。 在這種情況下，您可在到達產品頁面前先設定銷售變數，而值需持續到綑綁事件發生為止。
+無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。 這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。 在這種情況下，您可在到達產品頁面前先設定銷售變數，而該值會持續保留，直到繫結事件發生為止。
 
 當設定期間選取的綁定事件發生時，eVar 的持續值與產品相關。 例如，如果將 `prodView` 指定為綑綁事件，銷售類別只有在事件發生時才繫結至目前的產品清單。 只有後續綁定事件才能更新已指派給產品的銷售 eVar。
 
@@ -127,7 +119,7 @@ s.products = ";Canary";
 
 如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則語法的運作方式與實作其他[eVars](evar.md)和[events](events/events-overview.md)類似。 鏡像上述範例的 XDM 如下所示：
 
-在相同或上一個事件呼叫上設定 eVar：
+在相同或前一次事件呼叫中設定 eVar：
 
 ```json
 "_experience": {
@@ -158,7 +150,7 @@ s.products = ";Canary";
 
 如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，映象上述範例的資料物件會如下所示：
 
-在相同或上一個事件呼叫上設定 eVar：
+在相同或前一次事件呼叫中設定 eVar：
 
 ```json
 "data": {

@@ -6,17 +6,10 @@ feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
 TQID: https://experienceleague.adobe.com/49kZ6LC9OMizQvqxE2PCq1LtqhUHtf5iKQUgpgqSmmE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 451
@@ -37,7 +30,7 @@ ht-degree: 13%
 
 在「排名在前的量度」表格中，「區段比較工具」會使用兩個範例Mann-Whitney U測試。 此測試為非引數相等測試，用於比較每個考量區段各量度的一維機率分佈。 量度表格中的差異分數是計算U統計值（代表兩個區段在特定量度中的隨機差異）的p值，以及觀察到的差異的相對大小的組合。 大的差異積分（接近1）表示特定量度具有大的相對差異，以及區段不同的高統計信賴度。
 
-## 排名在前的維度項目和排名在前的區段差異積分
+## 熱門維度項目和熱門區段差異分數
 
 若要計算「排名最前的Dimension專案」與「排名最前的區段差異」表格的差異積分，系統會使用相對風險差異演演算法（類似風險比率，不過會使用差異而非比率）。 計算風險差異的方法為從另一個所選區段減去維度專案（或與區段表格中的區段重疊）的累計發生次數。 高差異分數（接近1）表示特定維度專案或第三區段在其中一個所選區段中非常突出，而在另一個區段中則非如此。
 

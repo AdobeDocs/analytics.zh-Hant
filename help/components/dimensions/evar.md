@@ -4,27 +4,11 @@ description: 可用於報告的自訂維度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 TQID: https://experienceleague.adobe.com/id82CsXfjfKjzNiM36Ny97bcZ8a-TR7QDq5-mx7xP7w
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 854
@@ -58,20 +42,20 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 ## eVar 的運作方式
 
-當您傳送資料至 Adobe Analytics 時，資料收集伺服器會將點擊轉換為有數百欄的單一資料列。 每個 eVar 有兩個專用欄位；一個供直接資料收集用，另一個則供持續值用。
+當您傳送資料至 Adobe Analytics 時，資料彙集伺服器會將點擊轉換為有數百欄的單一資料列。 每個 eVar 有兩個專用欄位；一個供直接資料彙集用，另一個則供持續值用。
 
-* 標準欄包含影像要求傳送至 Adobe 的資料。
-* 「Post」欄包含持續資料，這取決於 eVar 的期限和配置。
+* 標準欄包含從影像要求傳送至 Adobe 的資料。
+* 「post」欄包含持續資料，這取決於 eVar 的期限和配置。
 
 在大部分情況下，報告都會使用 `post_evar` 欄。
 
 ### eVar 連結至量度的方式
 
-成功事件與 eVar 會在多次不同的時間中頻繁地進行定義。 `post_evar` 欄可讓 eVar 值連結至事件，並顯示報告中的資料。 以下列造訪為例：
+成功事件與 eVar 通常會在不同時間定義。 `post_evar` 欄可讓 eVar 值連結至事件，並顯示報告中的資料。 以下列造訪為例：
 
 1. 訪客造訪您的網站，首先停留在首頁上。
 2. 他們使用您網站的內部搜尋功能來搜尋「貓」。 您的實作使用 eVar1 進行內部搜尋。
-3. 他們檢視產品，並完成結帳程序。
+3. 他們檢視產品，並繼續進行結帳程序。
 
 原始資料的簡化版本看起來類似下列結果：
 
@@ -90,7 +74,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 * `post_evar1` 包含先前值 (取決於報告套裝設定下的變數配置和期限設定)。
 * `event_list` 欄包含所有量度資料。 在此範例中，`event1` 是「搜尋」，其他事件則是標準購物車量度。 在實際原始資料中，`event_list` 包含一組以逗號分隔的數字，而查找表格會將這些數字連結至量度。
 
-### 將資料收集轉換為報告
+### 將資料彙集轉換為報告
 
 Adobe Analytics 中的工具 (例如 Analysis Workspace) 運作時，會使用這份收集來的資料。 例如，如果您用 eVar1 作為維度，並用「訂單」作為量度來提取報告，就會看到類似下列的報告：
 
@@ -110,13 +94,13 @@ Analysis Workspace 使用下列邏輯提取此報告：
 由於配置和期限會決定哪些值會能持續存在，因此在從 Analytics 實作中取得最多值時十分重要。 Adobe 強烈建議您與貴組織討論要如何處理 (配置) 每個 eVar 的多個值，以及讓 eVar 停止儲存資料的時間 (期限)。
 
 * 依預設，eVar 會使用最後一個配置。 新值會覆寫持續值。
-* 依預設，eVar 會使用造訪的期限。 造訪結束後，值即停止在 `post_evar` 欄中逐列複製。
+* 依預設，eVar 的期限為造訪。 造訪結束後，值即停止在 `post_evar` 欄中逐列複製。
 
 您可以在報告套裝設定中的[「轉換變數」](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)下變更 eVar 配置和期限。
 
 ## eVar 優於 Prop 之處
 
-Adobe 建議在大部分情況下使用 eVar，其支援基礎如下：
+Adobe 建議在大部分情況下使用 eVar，理由如下：
 
 * eVar 在報告中的長度限制為 255 個位元組。 eVar 的長度限制為 100 個位元組。
 * 依預設，prop 不會持續存在超過設定的點擊。 eVar 有自訂的過期時間，可讓您判斷 eVar 何時不再獲得後續事件的評分。 不過，如果您使用[報告時間處理](/help/components/vrs/vrs-report-time-processing.md)，prop 和 eVar 都可以使用自訂歸因模式。

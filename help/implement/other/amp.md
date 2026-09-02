@@ -5,23 +5,11 @@ feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 939
@@ -46,11 +34,11 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。 �
 
 |   | **`"adobeanalytics"`範本** | **`"adobeanalytics_nativeConfig"`範本** |
 |---|---|---|
-| 現有報表套裝中的訪客/造訪計數 | 高膨脹 | 最低膨脹 |
-| 使用個別報表套裝 | 建議 | 不需要 |
+| 現有報告套裝中的訪客/造訪計數 | 高膨脹 | 最低膨脹 |
+| 使用個別報告套裝 | 建議 | 不需要 |
 | 全新 vs. 回訪訪客 | 不支援 | 支援 |
 | 訪客ID服務(`VisitorAPI.js`) | 不支援 | 支援 |
-| 視訊和連結追蹤 | 部分支援 | 尚未支援 |
+| 影片和連結追蹤 | 部分支援 | 尚未支援 |
 | 實作難度 | 困難 | 相對簡單 |
 | Adobe CX Enterprise整合 | 不支援 | 部分支援 |
 
@@ -97,7 +85,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。 �
 </amp-analytics>
 ```
 
-`<amp-analytics>`標籤支援變數替代，讓AMP能提供已知的資料值。 如需詳細資訊，請參閱GitHub上`amp-analytics`[&#128279;](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支援的變數。
+`<amp-analytics>`標籤支援變數替代，讓AMP能提供已知的資料值。 如需詳細資訊，請參閱GitHub上`amp-analytics`](https://github.com/ampproject/amphtml/blob/main/extensions/amp-analytics/analytics-vars.md)支援的[變數。
 
 >[!NOTE]
 >
@@ -171,9 +159,9 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
 >
 >您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。 AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的 iframe。 舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
 
-使用此方法時，若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 AMP。 使用此公用程式頁面也表示AMP可支援Adobe訪客ID服務。 不需要獨立的報表套裝。
+使用此方法時，若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 AMP。 使用此公用程式頁面也表示AMP可支援Adobe訪客ID服務。 不需要獨立的報告套裝。
 
-連結追蹤和視訊追蹤無法搭配此方法使用。 AMP 中的 `iframeMessage` 標籤每頁只能載入一次，因此影格載入後，就無法傳送其他任何影像要求。 此方法也需要執行更多處理資源，而這會影響捲動效能。 此方法不會影響頁面載入時間，因為所有資源都以非同步方式載入。
+連結追蹤和影片追蹤無法搭配此方法使用。 AMP 中的 `iframeMessage` 標籤每頁只能載入一次，因此影格載入後，就無法傳送其他任何影像要求。 此方法也需要更多處理資源才能執行，而這會影響捲動效能。 此方法不會影響頁面載入時間，因為所有資源都以非同步方式載入。
 
 ## 常見問題
 

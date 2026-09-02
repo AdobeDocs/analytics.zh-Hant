@@ -5,20 +5,11 @@ feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 role: Admin, Developer, Leader
 TQID: https://experienceleague.adobe.com/OLSxdEz9--Xe8bCRH6-TimsPloUUdesg4-wrBNL3uPU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 698
@@ -28,7 +19,7 @@ ht-degree: 76%
 
 # 建立解決方案設計文件
 
-本質上，解決方案設計文件 (也稱為解決方案設計參考資料或業務需求文件) 是分析實施的藍圖。 該文件定義整個組織的相關人員所識別的準則，並在 Adobe Analytics 內將其轉譯為變數。 如果沒有這樣的文件，組織會很難協調報表需求，並且往往會遺漏收集重要的資料。
+本質上，解決方案設計文件 (也稱為解決方案設計參考資料或業務需求文件) 是您的分析實施藍圖。 該文件定義整個組織的相關人員所識別的準則，並在 Adobe Analytics 內將其轉譯為變數。 如果沒有這樣的文件，組織會很難協調報表需求，並且往往會遺漏收集重要的資料。
 
 ## 先決條件
 
@@ -50,7 +41,7 @@ ht-degree: 76%
    * 量度是您希望訪客執行的具體事件，當訪客執行您想要的動作時，數字則會往上加一。 例如，提交訂單、訂閱電子報或提交調查回應。
 1. **將維度和量度對應至某個頁面或試算表。** 此頁面或表格最終會變成您的解決方案設計檔案。 某些實用的欄或項目符號圓點包括：
    * 實施狀態：已計畫、作用中、非作用中、問題等這會通知檔案檢視者變數的狀態（若已實作），或是否有資料收集的相關問題。
-   * 變數名稱：例如「內部搜尋詞」。 此值會是分析師在 Analytics 中使用時所看到的內容。
+   * 變數名稱：例如「內部搜尋詞」。 此值會是分析師在 Adobe Analytics 中工作時所看到的內容。
    * Analytics 變數的對應目標：您選擇將值指派給哪個預設或自訂 Analytics 變數。 維度通常屬於 eVar 之下，而量度則屬於事件之下。
    * 邏輯：如何設定變數的相關說明，以及決定變數值的項目。 例如，「僅在內部搜尋頁面上設定。 使用 q 查詢字串參數的值。」
    * 任何您想要包含的其他變數相關注意事項。
@@ -63,6 +54,6 @@ ht-degree: 76%
 
 ## 後續步驟
 
-在解決方案設計文件中實施變數。
+實施解決方案設計文件中的變數。
 
 [建立資料層](data-layer.md)：將設計文件中的變數轉譯為網站上的 JavaScript 變數。

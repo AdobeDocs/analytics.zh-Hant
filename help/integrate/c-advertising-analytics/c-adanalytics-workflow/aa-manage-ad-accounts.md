@@ -5,14 +5,10 @@ feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 autotag-review: '2026-05-19T13:32:36.907Z'
 TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: fe0a7292-80bc-407a-b456-64170267d1cc
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 552
@@ -45,8 +41,8 @@ ht-degree: 18%
 - 若要使用![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)搜尋欄位來搜尋您的廣告帳戶。
 - 若要選取資料表中的使用中帳戶，請檢查&#x200B;**[!UICONTROL 使用中帳戶]**。
 - 若要定義表格要顯示哪些欄，請選取![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)。 <br/>在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中：
-   - 選取您要顯示的欄。
-   - 選取&#x200B;**[!UICONTROL 「套用」]**。
+  - 選取您要顯示的欄。
+  - 選取&#x200B;**[!UICONTROL 「套用」]**。
 
 當您選取一或多個廣告帳戶時，藍色動作列會根據所選帳戶的狀態，允許您![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 重新命名]**、![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 對應報表套裝]**、![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 啟動]**&#x200B;或![暫停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暫停]**&#x200B;您的廣告帳戶。
 

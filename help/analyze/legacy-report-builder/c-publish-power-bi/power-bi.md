@@ -5,20 +5,11 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 TQID: https://experienceleague.adobe.com/cbxgWbtfj-VSPgIoc9WTd3COG8EL6Vg-U-WRv11KZaY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1181
@@ -34,7 +25,7 @@ Microsoft Power BI 是一套商業分析儀表板，可分析資料及共用洞�
 
 身為分析師，您可使用電子郵件或 ftp 為 Report Builder 活頁簿分發建立排程。 現在，您可以讓企業相關人士在各種平台與裝置皆可使用的網頁式環境中，存取 (從其 Power BI 帳戶內部) 精確且最新的資料。
 
-結合 Report Builder 的報告產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。 使用 Power BI，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM 來源)，以發掘不重複客戶分析資料、關聯及商機。
+結合 Report Builder 的報告產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。 使用 Power BI，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM 來源)，以發掘獨特的客戶洞察、關聯及商機。
 
 ![Microsoft Power BI 圖示加上 Adob&#x200B;&#x200B;e Analytics 圖示的圖表。](assets/aaplusbi.png)
 
@@ -79,7 +70,7 @@ Microsoft Power BI 是一套商業分析儀表板，可分析資料及共用洞�
 >
 >如果活頁簿含有巨集，系統將會停用「以 Power BI 資料集表格形式發佈活頁簿中所有格式化表格」功能。
 
-您可以只匯入活頁簿中所有格式化表格的內容，不能匯入整個活頁簿。
+您可以不匯入整個活頁簿，而只匯入活頁簿中所有格式化表格的內容。
 
 **使用案例**：您有 Excel 活頁簿，可從多個 Report Builder 請求帶入資料，也可建立含有大量公式的摘要表格。 您只能將摘要表格匯入Power BI並為其建立視覺效果。
 

@@ -5,20 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/4RfEY-mGPVvRz5OQuGe5DwoCKThVHtNf3pMUFfFzqoE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 889
@@ -47,21 +38,21 @@ ht-degree: 98%
 
 ### 取得整合模組程式碼
 
-若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。 對於所有實作方法 (包括 Adobe Experience Platform 中的標記)，取得模組程式碼的方法都是相同的。
+若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品輪廓。 對於所有實施方法 (包括 Adobe Experience Platform 中的標記)，取得模組程式碼的方法都是相同的。
 
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
 1. 在頂端導覽區域中，按一下「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**」。
-1. 下載最新 JavaScript AppMeasurement 資料庫。
+1. 下載最新的 JavaScript AppMeasurement 程式庫。
 1. 下載後，將檔案解壓縮，然後找出 `AppMeasurement_Module_Integrate.js`。
 
-### 將整合模組放置在實作中
+### 將整合模組放置在實施中
 
 若要在網站上實作整合模組，您必須擁有Adobe Experience Platform Data Collection的存取權。 如果您使用舊版 JavaScript 實作，則需要存取貴組織的網站原始碼。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下您要編輯的標記屬性。
-1. 按一下「擴充功能」標記，然後按一下 Adobe Analytics 下方的設定。
+1. 按一下「擴充功能」分頁標籤，然後按一下 Adobe Analytics 下方的「設定」。
 1. 開啟「使用自訂程式碼設定追蹤器」摺疊式功能表，然後按一下「&lt;/> 開啟編輯器」。
 1. 將整合模組程式碼貼到程式碼模組視窗中。 完成後，請按一下儲存。
 
@@ -81,7 +72,7 @@ s.Integrate.add("<partner_name>");
 
 ### beacon
 
-`beacon` 方法會建立影像要求，並將其指向指定的 URL。 這些影像要求與標準影像要求不同。 信標方法通常會將資料傳送至 Adobe 合作夥伴，而不是傳送至 Adobe 資料收集伺服器。
+`beacon` 方法會建立影像要求，並將其指向指定的 URL。 這些影像請求與標準影像請求不同。 信標方法通常會將資料傳送至 Adobe 合作夥伴，而不是傳送至 Adobe 資料收集伺服器。
 
 ```JavaScript
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
@@ -91,7 +82,7 @@ p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 
 ### delay
 
-Adobe 內部團隊正在彼此合作，以提供說明此方法的相關文件。
+Adobe 正在與內部團隊合作，為此方法撰寫文件。
 
 ### get
 
@@ -103,9 +94,9 @@ s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 
 * **合作夥伴名稱：**&#x200B;組織通常會與 Adobe 合作夥伴合作，決定合作夥伴名稱的值。
 * **JSON 物件的 URL：**&#x200B;包含要併入影像要求之合作夥伴變數的 JSON 物件的 URL。
-* **查詢字串參數：**&#x200B;可在合作夥伴系統中識別您的組織的合作夥伴帳戶資訊。 Adobe 合作夥伴會使用此資訊來識別資料集。
+* **查詢字串參數：**&#x200B;可在合作夥伴系統中識別您的組織的合作夥伴帳戶資訊。 Adobe 合作夥伴會使用此資訊來識別您的資料集。
 
-整合模組會自動將更多查詢字串新增至此 URL。 變數查詢字串會指定模組預計要從合作夥伴傳回的 JSON 物件名稱。 您也可以新增隨機數字，以防止瀏覽器進行快取。
+整合模組會自動將更多查詢字串新增至此 URL。 變數查詢字串會指定模組預計要從合作夥伴傳回的 JSON 物件名稱。 也會新增隨機數字，以防止瀏覽器進行快取。
 
 ### 已就緒
 

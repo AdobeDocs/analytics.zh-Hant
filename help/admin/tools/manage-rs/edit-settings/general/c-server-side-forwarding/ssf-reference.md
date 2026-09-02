@@ -5,20 +5,11 @@ feature: Report Suite Settings
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
 role: Admin
 TQID: 'https://experienceleague.adobe.com/DuHi1F4wU6EfxGe8s9EWZ54TX7KnkN3MmAOUE8a9oqw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: c354699e-6555-4397-8706-1a9a89984069
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c354699e-6555-4397-8706-1a9a89984069
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 561
@@ -28,7 +19,7 @@ ht-degree: 90%
 
 # 伺服器端轉送資料和程式碼參考
 
-伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
+伺服器端轉送呼叫之設定變數、HTTP 標頭及資料訊號的完整清單和說明。
 
 ## 設定變數 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
@@ -47,8 +38,8 @@ ht-degree: 90%
 
 | HTTP 標題 | 說明 | Audience Manager 所接受的 h_ key |
 | --- | --- | --- |
-| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。 它會顯示為 `host name .demdex.net`。 請參閱[了解對 Demdex 網域的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
-| User-Agent | 設為傳入 Analytics 的 User-Agent 標題。 | `h_user-agent` |
+| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料彙集主機名稱。 它會顯示為 `host name .demdex.net`。 請參閱[了解對 Demdex 網域的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
+| User-Agent | 設為傳入 Analytics 的 User-Agent 標頭。 | `h_user-agent` |
 | Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 | `h_accept-language` |
 | Referer | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referer` 標題收集。 | `h_referer` |
 | 反向連結 | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referrer` 標題收集。 | `h_referrer` |
@@ -88,11 +79,11 @@ ht-degree: 90%
 | `c_pageURL` | 瀏覽器網址列中的頁面位址。 |
 | `c_products` | 產品字串 (由 `s.products` 所設定)。 |
 | `c_prop` | 自訂 Prop。 |
-| `c_purchaseID` | 購買的唯一 ID。 |
+| `c_purchaseID` | 購買的不重複 ID。 |
 | `c_referrer` | 目前頁面之前的頁面。 |
 | `c_screenResolution` | 螢幕寬度和高度 (以像素計)。 |
 | `c_server` | 網頁伺服器名稱 (由 `s.server` 所設定)。 |
 | `c_state` | 地理區域 (由 `s.state` 所設定)。 |
 | `c_timezone` | 時間差 (以小時計)。 |
-| `c_transactionID` | 交易的唯一 ID。 |
+| `c_transactionID` | 交易的不重複 ID。 |
 | `c_zip` | 郵遞區號 (由 `s.zip` 所設定)。 |

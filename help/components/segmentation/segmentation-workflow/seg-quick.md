@@ -5,21 +5,10 @@ feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
 TQID: https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -36,21 +25,21 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速區段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analysis Workspace 中的快速區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 
 
 當您想要使用快速區段時，請注意：
 
-* 快速區段是直接在 Workspace 專案中所建立。 因此，快速區段僅適用於您建立快速區段所在的 Workspace 專案。 您 Workspace 專案中的快速區段不適用於其他專案，也不能供其他使用者共用。
+* 快速區段是直接在工作區專案中建立。 因此，快速區段僅適用於您建立快速區段所在的工作區專案。 您工作區專案中的快速區段不適用於其他專案，也不能與其他使用者共用。
 * 您只能指定三個條件作為快速區段的一部分。
 * 快速區段不支援巢狀容器或序列條件。
 * 您可以在共用 Workspace 專案中編輯快速區段。 因此，其他使用者可以編輯您已供這些使用者共用的 Workspace 專案快速區段。
 
 ## 建立
 
-快速區段適用於面板。 您可以為 Workspace 專案中的每個面板建立一個或多個快速區段。 Analysis Workspace 中的任何使用者都可以建立快速區段。
+快速區段適用於面板。 您可以為工作區專案中的每個面板建立一個或多個快速區段。 Analysis Workspace 中的任何使用者都可以建立快速區段。
 
 若要建立快速區段：
 
@@ -112,10 +101,10 @@ ht-degree: 70%
 | 按鈕 | 說明 |
 |---|---|
 | **[!UICONTROL AND]**<br/>**[!UICONTROL OR]** | 只有在您定義多個條件時才適用。 從下拉式功能表![條件之間的V形](/help/assets/icons/ChevronDown.svg)中選取。 這項選擇會確定快速區段的布林邏輯。 當有三個條件時，你不能混合使用邏輯。 布林邏輯可以是 **[!UICONTROL AND]** 或 **[!UICONTROL OR]**。 |
-| ![AddCircle](/help/assets/icons/AddCircle.svg) | 新增另一個條件至您的快速區段。 只有在您為快速區段定義一個或兩個條件時，此按鈕才適用。 |
+| ![AddCircle](/help/assets/icons/AddCircle.svg) | 新增另一個條件至您的快速區段。 只有在您為快速區段定義一個或兩個條件時，此按鈕才可用。 |
 | **[!UICONTROL 套用]** | 套用變更至快速區段。 |
 | **[!UICONTROL 開啟產生器]** | 系統會使用&#x200B;**[!UICONTROL 提示您進行確認。確定嗎？]** 對話方塊。 如果您選取「**[!UICONTROL 確定」]**，您再也無法在後者編輯您的區段：[快速區段產生器](#quick-segment-builder) 您的快速區段已重新命名為&#x200B;**[!UICONTROL 區段]**，且現在左邊有一個深藍色的細條。<br/>一般[區段產生器](seg-build.md)會開啟，並有「**[!UICONTROL 讓此區段適用於您的所有專案並將其新增至您的元件清單中]**」選項。 <ul><li>如果您選取此選項並選取&#x200B;**[!UICONTROL 套用]**，區段會新增至元件面板中的![區段](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件清單。</li><li>如果您未選取此選項並選取「**[!UICONTROL 套用]**」，該區段仍然是僅限 Workspace 專案的區段。</li></ul> |
-| **[!UICONTROL 取消]** | 選取並取消建立或編輯快速區段。 |
+| **[!UICONTROL 取消]** | 選取以取消建立或編輯快速區段。 |
 
 ## 快速區段與區段
 

@@ -4,22 +4,11 @@ description: 點擊的來源城市。
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
 TQID: https://experienceleague.adobe.com/tAr9M0IgZcpRzElFfQSJx43JJjIXEtlo-pgDAKpSwq0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 375
@@ -33,16 +22,16 @@ ht-degree: 74%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱規則。 查閱值以隨著點擊傳送的 IP 位址為基礎。 Adobe與[Digital Element](https://www.digitalelement.com/)合作，共同維護IP位址與城市之間的查閱。
+此維度會參考 Adobe 內部的查閱規則。 查閱值以隨該點擊一併傳送的 IP 位址為基礎。 Adobe與[Digital Element](https://www.digitalelement.com/)合作，共同維護IP位址與城市之間的查閱。
 
 * 對於AppMeasurement實作，此維度可直接運作。
-* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
 
 ## 維度項目
 
 維度項目包含全球各個城市。 範例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
 
-某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。 此服務的訂閱者會根據其帳號建立時所在的國家/區域，獲得一個指定的存取點。 AOL 使用者可使用此存取點的 IP 位址。 由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
+某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。 此服務的訂閱者會根據其帳戶號碼建立時所在的國家/區域，獲得一個指定的存取點。 AOL 使用者使用此存取點的 IP 位址。 由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
 
 ## 報告的位置與實際位置之間的差異
 

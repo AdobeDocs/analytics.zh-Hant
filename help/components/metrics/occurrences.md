@@ -4,17 +4,11 @@ description: 變數經設定或持續存在的點擊次數。
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
 TQID: https://experienceleague.adobe.com/04bDCj1dkVb9gIDMbpvvGea92oOzd-N0XLfzf4t-6iA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
 workflow-type: tm+mt
 source-wordcount: 280
@@ -37,6 +31,6 @@ ht-degree: 66%
 
 ## 持續性
 
-持續性是給定維度值在其設定的事件之外與量度相關的能力。 其使用配置和過期時間的組合。 配置可讓您確定當一個列中可以同時保留多個維度專案時保留哪個值。 有效期可讓您確定維度專案在其設定的事件之後持續多長時間。
+持續性是給定維度值在其設定的事件之外與量度相關的能力。 其使用配置和期限的組合。 配置可讓您確定當一個列中可以同時保留多個維度專案時保留哪個值。 有效期可讓您確定維度專案在其設定的事件之後持續多長時間。
 
 持續性僅在維度上可用，並且可追溯至套用到的資料。 它是發生在套用篩選或其他分析作業之前的立即資料轉換。 如果未啟用持續性，則維度僅與同一事件中存在的量度相關。

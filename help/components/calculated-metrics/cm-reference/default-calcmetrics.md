@@ -4,19 +4,11 @@ title: 預設計算量度
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 TQID: 'https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 779
@@ -36,7 +28,7 @@ Adobe Analytics 提供各種計算量度，以涵蓋最常見的使用案例。 
 >
 >您可以：
 >
-> * 如[計算量度](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/calculated-metrics)中所述，新增串流媒體服務的預設計算量度
+> * 如[計算量度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)中所述，新增串流媒體服務的預設計算量度
 > * 如[計算和進階計算量度](/help/components/calculated-metrics/cm-overview.md)所述，使用現有量度建立自訂計算量度。
 >
 
@@ -53,23 +45,23 @@ Adobe Analytics 提供各種計算量度，以涵蓋最常見的使用案例。 
 | 動作 | 應用程式中執行的動作總數 | `[Has an Action] (segment)`<br>`[Custom Link Instances] (metric)` |
 | 應用程式使用者 | 行動應用程式的使用者總數 | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
 | 平均工作階段長度 (行動裝置) | 在單一工作階段內訪客在網站上逗留的平均時間量。 | 空白 |
-| 平均網站逗留時間 | 訪客離開之前在網站上停留的平均時間量。 | `[Average Time Spent on Site (Seconds)]` |
-| 退回率 | 造訪數包含單一點按與該頁面上的造訪數之間的比率。 此量度可協助您了解哪些維度項目具有最高的退回率，或查看網站在特定期間內彙總的總退回率。 | `[Bounces] / [Entries]` |
+| 平均網站逗留時間 | 訪客離開或瀏覽至其他頁面之前在網站上停留的平均時間量。 | `[Average Time Spent on Site (Seconds)]` |
+| 退回率 | 造訪數包含單一點按與該頁面上的造訪數之間的比率。 此量度可協助您了解哪些維度項目具有最高的跳出率，或查看網站在特定期間內彙總的總跳出率。 | `[Bounces] / [Entries]` |
 | 機器人頁面檢視次數比率 | 機器人頁面檢視次數與總頁面檢視次數的比率。 | `[Bot Page Views] / [Page Views]` |
 | 內容速度 | 在網站上建立和發佈新內容的速度，以及新內容產生使用者參與的速度。 | `[Page Views] / [Visits]` |
 | 轉換率 | 採取所需動作 (例如購買) 的訪客的百分比。 | `[Orders] / [Visits]` |
 | 登入率 | 從指定頁面進入網站的訪客佔網站工作階段總數的百分比。 | `[Entries] / [Visits]` |
-| 預估的不重複訪客 (ITP 2.1) | 針對 ITP 訪客 (Safari 瀏覽器上的使用者)，將不重複訪客數量除以 2 或更少。 此計算量度假設您使用客戶端 JavaScript (而不是使用 CNAME 實施) 來設定 Cookie。 從ITP 2.1開始，使用使用者端JavaScript設定Cookie的實作會受到影響。 如需詳細資訊，請參閱[智慧型追蹤預防](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| 預估的不重複訪客 (ITP 2.1) | 針對 ITP 訪客 (Safari 瀏覽器上的使用者)，將不重複訪客數量除以 2 或更少。 此計算量度假設您使用用戶端 JavaScript (而不是使用 CNAME 實施) 來設定 Cookie。 從ITP 2.1開始，使用使用者端JavaScript設定Cookie的實作會受到影響。 如需詳細資訊，請參閱[智慧型追蹤預防](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Experience Cloud ID 涵蓋範圍 | 擁有 Experience Cloud ID 的訪客的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 退出率 | 檢視特定頁面後離開網站的訪客百分比。 | `[Exits] / [Visits]` |
-| ITP 2.1 不重複訪客/不重複訪客 | 透過 ITP 2.1 Cookie 限制影響的瀏覽器不重複訪客百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
+| ITP 2.1 不重複訪客/不重複訪客 | 使用受 ITP 2.1 Cookie 限制影響之瀏覽器的不重複訪客百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | 訂單協助 | 管道或來源促成客戶的購買歷程但未促成最終購買的次數。 | `[Orders (Visit Participation)] - [Orders]` |
 | 訂單數/造訪數 | 造訪網站並完成交易的百分比。 | `[Orders] / [Visits]` |
 | 訂單數/訪客數 | 每個網站訪客所產生的平均訂單或交易數。 | `[Orders] / [Unique Visitors]` |
 | 頁面檢視次數/預估的不重複訪客 (ITP 2.1) | 預估的不重複訪客 (ITP 2.1) 的平均頁面檢視次數。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors (metric) with Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | 頁面檢視次數/不重複訪客 | 網站每個不重複訪客的檢視頁面平均數。 | `[Page Views] / [Unique Visitors]` |
 | 頁面檢視次數/造訪數 | 使用者在單次造訪網站期間檢視的頁面平均數。 | `[Page Views] / [Visits]` |
-| 頁面速度 | 一則內容所產生的額外頁面檢視次數。 此量度可以協助您確定哪些內容可以推動其他參與度。 | `[Page Views] / [Visits]` |
+| 頁面速度 | 一則內容所產生的額外頁面檢視次數。 此量度可以協助您確定哪些內容可以推動額外參與度。 | `[Page Views] / [Visits]` |
 | 重新載入/頁面檢視次數 | 導致頁面重新載入或重新整理的頁面檢視的百分比。 | `[Reloads] / [Page Views]` |
 | 收入/訂單量 | 網站上每筆完成的交易或訂單所產生的平均收入金額。 | `[Revenue] / [Orders]` |
 | 收入/造訪數 | 單次造訪網站所產生的平均收入金額。 | `[Revenue] / [Visits]` |

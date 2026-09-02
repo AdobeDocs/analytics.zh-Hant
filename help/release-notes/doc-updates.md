@@ -6,31 +6,10 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
 source-wordcount: 7421
@@ -61,14 +40,14 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 串流媒體維度和量度 | 串流媒體檔案的重大更新。 範例連結包括[串流媒體服務核心維度](/help/components/dimensions/sm-core.md)和[串流媒體服務核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
 | 劃分面板 | 已重新編排[面板放置區](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的說明文件，以支援新增的[劃分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
-| 已識別新報表套裝的IP模糊化預設選項 | 新增資訊以指出&#x200B;**移除IP位址**&#x200B;是新報表套裝[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)的預設IP模糊化選項。 |
-| 處理訂單大修 | 大幅改善Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的處理順序。 |
+| 已識別新報表套裝的IP模糊化預設選項 | 新增資訊以指出&#x200B;**移除IP位址**&#x200B;是新報表套裝](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)的預設[IP模糊化選項。 |
+| 處理訂單大修 | 大幅改善Adobe Analytics](/help/technotes/processing-order.md)中的[處理順序。 |
 | Adobe Advertising整合 | 新增Adobe Advertising整合維度和量度，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
 | **2026 年 2 月** |  |
-| 新增使用地理和技術報表的相關資訊 | 新增在不同Analytics產品[&#128279;](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理與技術報表時差異的相關資訊。 |
+| 新增使用地理和技術報表的相關資訊 | 新增在不同Analytics產品](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理與技術報表[時差異的相關資訊。 |
 | **2026 年 1 月** | |
-| 分類集規則產生器 | 分類集[&#128279;](/help/components/classifications/sets/manage/rules.md)功能中新規則產生器功能的檔案。 |
-| 裝置圖表 | 已移除對[已中止裝置圖表功能](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/device-graph)的參考。 |
+| 分類集規則產生器 | 分類集](/help/components/classifications/sets/manage/rules.md)功能中新[規則產生器功能的檔案。 |
+| 裝置圖表 | 已移除對[已中止裝置圖表功能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)的參考。 |
 
 ### 2025 {#year2025}
 
@@ -96,7 +75,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2025 年 3 月** |  |
 | Analytics 庫存 | [Analytics 庫存](/help/admin/tools/analytics-inventory.md)提供您的 Adobe Analytics 環境全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。 |
 | Customer Journey Analytics 升級指南 | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的[逐步指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=zh-hant#recommended-upgrade-steps-for-most-organizations)。 |
-| 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。 新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中元件支援中的[維度具有非標準日期格式](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
+| 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。 新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱Data Warehouse](/help/export/data-warehouse/component-support.md)中[元件支援中的[維度具有非標準日期格式](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 更新有關 IP 排除項目的資訊 | 新增資訊，說明 [IP 排除項目](/help/admin/tools/exclude-ip.md)最多可能需要 5 分鐘才能生效，以及變更僅適用於新的相符項目 (在設定排除項目之前擷取的資料不受影響)。 <p>也更新內容版面以改善可讀性。</p> |
 | **2025 年 2 月** |  |
 | 暫停和重新啟用資料摘要的相關更新資訊 | 當[暫停及重新啟用資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。 在摘要暫停到重新啟用期間不會進行資料處理。 |
@@ -122,7 +101,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 成功事件 | 簡化了有關[成功事件](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)的文件。 清晰度和準確性的更新。 |
 | 管理位置時，必須至少選取一個帳戶類型 | 釐清了管理員[限制用於匯出和匯入的帳戶類型](/help/components/locations/locations-manager.md#limit-the-account-types-that-are-available-to-users)時，必須至少選取一個帳戶類型。 |
 | 已新增快速計算量度的相關資訊。 | 已更新[量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的資訊，以釐清這兩者之間的差異：[在計算量度產生器中建立的計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-all-projects)，[在單一專案中作為快速計算量度建立的計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)。 也新增更多有關如何建立快速計算量度的詳細資料。<p>在計算量度產生器中建立的計算量度可在元件清單中使用，並可套用到整個組織的專案，而作為快速計算量度建立的計算量度只能在建立它們的專案中使用。</p><p>也更新[建立量度](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)中的資訊以做出類似的釐清。</p> |
-| 將 threads.net 新增至「推薦者類型」維度 | 將 threads.net 新增至[「推薦者類型」維度](/help/components/dimensions/referrer-type.md)中使用的社交網路清單。 |
+| 將 threads.net 新增至「反向連結類型」維度 | 將 threads.net 新增至[「推薦者類型」維度](/help/components/dimensions/referrer-type.md)中使用的社交網路清單。 |
 | 已更新管理資料摘要的文件 | 已更新[管理資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md)中的資訊以改善明確度。 <p>更新包括：</p><ul><li>為各種任務建立單獨章節，使資訊更易於瀏覽和使用。</li><li>已新增有關重新啟動之即時摘要行為變更的資訊。 這些變更目前為「有限可用性」的狀態，尚未提供給所有客戶使用。</li><li>已新增表示資料摘要必須為「使用中」狀態才能刪除。</li> |
 | 已更新常見錯誤訊息 | 對[常見錯誤訊息](/help/analyze/analysis-workspace/workspace-faq/error-messages.md)進行了小幅更新。 |
 | **2024 年 6 月** | |
@@ -135,10 +114,10 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 有關將元件新增至專案的文件 | 新增了有關如何[將各種類型的元件新增至 Analysis Workspace 中的專案](/help/analyze/analysis-workspace/components/use-components-in-workspace.md)的一般資訊。 |
 | 更新了 Advertising Analytics 文件 | 根據 [Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md) 使用者介面的更新內容更新了文件。 |
 | 將 XDM 物件變數明確地對應到內容資料變數 | 記錄了[使用 XDM 物件變數對應來明確設定內容資料變數](/help/implement/aep-edge/xdm-var-mapping.md#explicit-mapping)的功能。 |
-| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實作和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實作可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
-| 關於自訂日期範圍的更新文件 | 與[建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
+| 關於從 Adobe Analytics 升級到 Customer Journey Analytics 的新文件 | 對於從 Adobe Analytics 升級到 Customer Journey Analytics 的組織來說，根據組織目前的 Adobe Analytics 實施和長期目標，有多種升級選項和許多需要牢記的考量事項。<p>現在提供新的文件資源來協助您更加瞭解：</p><ul><li>存在的各種升級路徑</li><li>根據組織目前的 Adobe Analytics 實施可以使用哪些升級路徑</li><li>每種升級路徑的優點和缺點</li><li>每個升級路徑的逐步操作指導</li><li>處理歷史資料的考量事項</li><li>及更多內容！</li></ul><p>[開始升級到 Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted)。</p> |
+| 已更新關於自訂日期範圍的文件 | 與[建立自訂日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)相關的最新螢幕擷圖與程序，以利符合目前的產品特徵與設計。 |
 | **2024 年 4 月** | |
-| 與分類集中的「所有者」相關的文件已移除 | 「所有者」篩選器和欄已從[分類集管理員](/help/components/classifications/sets/manage-sets.md)中移除，「所有者」欄位已從[分類集設定](/help/components/classifications/sets/manage/settings.md)中移除。 <p>文件已更新以刪除此篩選器、欄和欄位。</p> |
+| 與分類集中的「所有者」相關的文件已移除 | 「所有者」篩選器和欄已從[分類集管理員](/help/components/classifications/sets/manage-sets.md)中移除，「所有者」欄位已從[分類集設定](/help/components/classifications/sets/manage/settings.md)中移除。 <p>文件已更新以移除此篩選器、欄和欄位。</p> |
 | 刪除了文件中有關設定雲端匯入和匯出位置的可摺疊區段 | 刪除了[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)中的可摺疊區段，可獲得說明雲端帳戶類型的資訊。 |
 | **2024 年 3 月** | |
 | AppMeasurement 更新 | [發行說明](/help/implement/appmeasurement-updates.md) - AppMeasurement 更新 v2.26.0。<br/>包括對 [`cookieDomainPeriods`](/help/implement/vars/config-vars/configuration-variables.md#retired-configuration-variables) 設定變數文件的參考和更新。 |
@@ -146,11 +125,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2024 年 2 月** | |
 | 有關管理 Data Warehouse 請求的資訊更新 | 澄清依預設使用者只能查看他們在[管理 Data Warehouse 請求](/help/export/data-warehouse/data-warehouse-requests-manage.md)時所建立的請求。 |
 | 專案共用文件更新 | 新增有關如何[檢視共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#view-projects-shared-with-you)的資訊。<p>同時也簡化有關[共用個別或多個專案](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-specific-project-role)的資訊。</p> |
-| 新增權限要求，可將檔案上傳到 Data Warehouse 和資料摘要中的 Azure SAS 和 Azure RBAC | 新增當[設定 Data Warehouse 目標](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)以及[當設定資料摘要目標](/help/export/analytics-data-feed/create-feed.md)時，將檔案上傳至 Azure SAS 和 Azure RBAC 的明確權限要求。 |
-| 新增權限要求，可將檔案上傳到 Data Warehouse 和資料摘要中的 Amazon S3 和 GCP 貯體 | 新增當[設定 Data Warehouse 目標](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)以及[當設定資料摘要目標時](/help/export/analytics-data-feed/create-feed.md)將檔案上傳到 Amazon S3 和 Google Cloud Platform 貯體的 Cloud Platform 的明確權限要求。 |
+| 新增在 Data Warehouse 和資料摘要中將檔案上傳至 Azure SAS 和 Azure RBAC 的權限要求 | 新增當[設定 Data Warehouse 目標](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)以及[當設定資料摘要目標](/help/export/analytics-data-feed/create-feed.md)時，將檔案上傳至 Azure SAS 和 Azure RBAC 的明確權限要求。 |
+| 新增在 Data Warehouse 和資料摘要中將檔案上傳至 Amazon S3 和 GCP 貯體的權限要求 | 新增當[設定 Data Warehouse 目標](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)以及[當設定資料摘要目標時](/help/export/analytics-data-feed/create-feed.md)將檔案上傳到 Amazon S3 和 Google Cloud Platform 貯體的 Cloud Platform 的明確權限要求。 |
 | **2024 年 1 月** | |
 | 元件移轉適用於個別 IMS 組織 | 澄清[元件移轉](/help/admin/tools/component-migration/component-migration.md)不支援跨 IMS 組織的移轉。 |
-| 澄清某些資訊僅供管理員使用 | 新增了一些資訊，說明[計算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |
+| 澄清某些資訊僅供管理員查看 | 新增了一些資訊，說明[計算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)內所述的「上次使用」和「使用於」欄位僅供系統管理員使用。 |
 | 媒體平均分鐘觀眾數文件更新 | 已更新[「媒體平均分鐘觀眾數」面板](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)中的資訊，以改善內容清晰度。<p>改善部份包括：</p> <ul><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li></ul> |
 
 ### 2023 {#year2023}
@@ -160,15 +139,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 12 月** | |
 | 改進機器人規則文件 | 已更新[了解和設定機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)中的資訊，以改善明確度。<p>改善項目包括：</p> <ul><li>更新文章標題，使其更能說明內容</li><li>改進資訊編排方式</li><li>新增指示任務型資訊的步驟</li><li>新增有關上傳機器人規則時 CSV 檔案需求的更多詳細資料</li></ul> |
 | 新的「報告」區段 | 增加新的「報告」區段，其中包含有關[使用範本](/help/analyze/analysis-workspace/templates/use-templates.md)和[建立公司範本](/help/analyze/analysis-workspace/templates/create-templates.md)的資訊。 |
-| 更新了異常偵測和貢獻分析文件 | 異常偵測和貢獻分析的文件以前位於 Virtual Analyst 區段中。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li><li>貢獻分析文件已合併到異常偵測文件中。</li></ul> |
+| 更新了異常偵測和貢獻度分析文件 | 異常偵測和貢獻度分析的文件以前位於 Virtual Analyst 區段中。 以下是所做的變更： <ul><li>術語 Virtual Analyst 已從文件中刪除。</li><li>「[異常偵測](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md)」的區段直接移至 Analysis Workspace 區段下方。</li><li>貢獻度分析文件已合併到異常偵測文件中。</li></ul> |
 | 「Attribution IQ」變更為「歸因」 | 將整份文件中所有出現的「Attribution IQ」變更為「[歸因](/help/analyze/analysis-workspace/attribution/overview.md)」。 |
 | **2023 年 11 月** | |
 | Activity Map 啟動/啟用主題的更新 | 新增 [Web SDK](/help/analyze/activity-map/getting-started.md) (手動及透過 Adobe Experience Platform 標記擴充功能) 內容。 |
 | **2023 年 10 月** | |
 | 報告活動管理員新增了記錄資訊 | 新增了以下資訊：「報告活動管理員」中[報告活動的任何取消和後續限制](/help/admin/tools/reporting-activity-manager/reporting-activity-cancel-requests.md)都會在[記錄](/help/admin/tools/logs.md)中擷取。 |
-| Data Warehouse 元件支援更新 | 新增一些 Data Warehouse 可用元件，並移除其他可用元件。 這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對造訪深度維度的支援 (移除不支援維度清單的造訪深度)</li><li>移除對參與率量度的支援 (新增不支援量度清單的參與率量度)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (移除不支援維度清單中這些維度) <p>之前，Data Warehouse 唯有在選取「顆粒度」的情況下，才會在自由格式表格的第一欄支援這些維度。 現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。 年份依 1900 年位移，月份從零開始。</li></ul> |
+| Data Warehouse 元件支援更新 | 新增一些元件在 Data Warehouse 中的可用性，並移除其他元件在 Data Warehouse 中的可用性。 這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對造訪深度維度的支援 (從不支援的維度清單中移除造訪深度)</li><li>移除對參與率量度的支援 (將參與率量度新增至不支援的量度清單)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (從不支援的維度清單中移除這些維度) <p>之前，Data Warehouse 唯有在選取「顆粒度」的情況下，才會在自由格式表格的第一欄支援這些維度。 現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。 年份依 1900 年位移，月份從零開始。</li></ul> |
 | **2023 年 9 月** | |
-| 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
+| 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更與其他面板的文件更加一致。</p> |
 | 開始使用內容增強功能 | 已新增概觀管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。 現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | 改善串流媒體收集的報告文件 | 重新整理串流媒體收集指南之「報告」區段中的一些內容，包括將 API 文件合併到其自有區段中，以及調整一些文章的順序。 |
 | **2023 年 8 月** | |
@@ -176,9 +155,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | Adobe Experience Platform Edge Network 資料處理 | 已新增內容說明 Adobe Analytics 如何[處理來自 Edge Network 的資料](../implement/aep-edge/overview.md)。 |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)的內容以提高可讀性。 |
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。 此內容之前位於「Analytics 工具指南」的[已排程專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章。 |
-| 比較實作方法 | 已更新比較不同實作方法的文件。 [了解更多](../implement/prepare/comparison.md) |
+| 比較實作方法 | 已更新比較不同實施方法的文件。 [了解更多](../implement/prepare/comparison.md) |
 | 澄清資料摘要的 SFTP 設定不需要 Adobe 客戶服務 | 在[使用 SFTP 將 Adobe 資料傳送到外部 FTP 帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中，澄清不需要求助 Adobe 客戶服務即可為資料摘要設定 SFTP。 <p>同時，新增注意事項，表示不再建議使用 SFTP，客戶在設定資料摘要時應使用雲端目的地。</p> |
-| 串流媒體收集的文件改善 | 已針對串流媒體收集進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/overview)，明確區分邊緣實作和僅限 Analytics 實作。 還新增圖表，說明各種實作方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge)和[僅限 Analytics 實作](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics)專用的先決條件。 還更新了[一般先決條件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/getting-started/prereqs)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/getting-started/download-sdks) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/implementation/overview)區域文章的內容和組織。 這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/tracking/track-core-overview)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
+| 串流媒體集合的文件改善 | 已針對串流媒體收集進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)，明確區分邊緣實作和僅限 Analytics 實作。 還新增圖表，說明各種實施方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge)和[僅限 Analytics 實作](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics)專用的先決條件。 還更新了[一般先決條件](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/prereqs)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/download-sdks) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview)區域文章的內容和組織。 這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/en/docs/media-analytics/using/tracking/track-core-overview)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network API | 新增可更全面說明何時與如何使用 [Adobe Experience Platform Edge Network API](../implement/aep-edge/api/overview.md) 透過 Adobe Analytics 實作資料收集的文件。 例如，在桌面應用程式、IoT 裝置、機上盒中透過 Adobe Analytics 實作資料收集。 |
 | 全球公司 ID | 以文件說明針對您登入的 Analytics 公司，[如何找到全球公司 ID](../admin/tools/company/web-services-admin.md)。 Analytics 2.0 API 需要此 ID。 |
@@ -202,26 +181,26 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 從自由格式表格中刪除包含動態維度的列 | 已新增如何使用 x 圖示快速刪除包含動態維度的特定列的資訊。 請參閱[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的「從表格中快速排除特定列」一節。 |
 | 在面板中新增視覺效果的按鈕 | 已在 Analysis Workspace 中每個面板底部新增有關新按鈕的資訊，讓您可快速新增視覺效果。 請參閱[視覺效果概觀](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)中的「將視覺效果新增到面板」一節。 |
 | **2023 年 4 月** | |
-| 轉移使用者資產並設定帳戶期限 | 新增有關如何[轉移使用者資產並設定帳戶期限](/help/admin/tools/user-management/users-assets.md)的資訊。 |
+| 轉移使用者資產並設定帳戶到期日 | 新增有關如何[轉移使用者資產並設定帳戶期限](/help/admin/tools/user-management/users-assets.md)的資訊。 |
 | Adobe Analytics 2.0 API 的 2 個新端點指南 | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 專案區段 (臨時和快速區段) | 簡化了專案區段的文件，並刪除重複資訊。 建立臨時區段的步驟現在已經和下列步驟相結合，用於[建立快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。 |
-| 動態查詢 | 新增更多關於[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的資訊。 以前，只有行動屬性的資訊，這是幾個動態查詢之一。 |
+| 動態查詢 | 新增更多關於[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的資訊。 先前，這項資訊僅適用於行動屬性，而這只是數個動態查詢之一。 |
 | **2023 年 3 月** | |
 | Web SDK 支援 Activity Map | 更新「[實作 Adobe Analytics](/help/implement/home.md)」。 |
 | 流量變數 (props) 概觀 | 新增區段和逐步程序以說明和改善文章內容。 合併了標題為「啟用流量變數報告」一文中的內容，並移除了該文章。 請參閱[流量變數 (props) 概觀](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)。 |
 | 內部 URL 篩選器 | 新增區段和逐步程序以說明和改善文章內容。 請參閱[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)的內容。 |
-| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analyze/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 實施 | 已更新有關如何[為網路和行動裝置實作 Adobe Analytics](../implement/home.md) 的內容。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。 查看[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
-| Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。 請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md)」。 |
+| Mobile 計分卡 | 新增文件區段，說明如何顯示和隱藏比較日期範圍。 請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md)」。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 已徹底重寫，現已發佈在 Adobe Developer 上。 |
 | 跨實作類型追蹤 | 已更新跨不同實作型別的使用案例[追蹤](../implement/id/cross-type-implementation.md)以容納訪客ID服務。 |
 | **2023 年 1 月** | |
-| 篩選和排序表格 | 已更新[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。 重新命名本文的「分頁、篩選和排序表格」。 |
+| 篩選和排序表格 | 已更新[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。 本文已從「分頁、篩選和排序表格」重新命名。 |
 | 資料夾 | [檔案夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |
 | 使用者偏好設定 | 「[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)」現在提供許多其他使用者偏好設定。 |
 | 專案自動儲存 | 已更新內容，在[儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)中加入自動儲存功能。 |
@@ -235,7 +214,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 同意管理變數 | [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)和[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)的專屬頁面。 |
 | 多貨幣重新整理 | [多貨幣支援](/help/implement/vars/config-vars/currencycode.md)頁面已更新。 |
 | **2022 年 10 月** |  |
-| Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
+| Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html) |
 | 用戶端提示 | 新的[概觀和常見問題集](/help/technotes/client-hints.md)。 |
 | 關鍵量度摘要 | 新的[關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)視覺化主題。 |
 | 分類集 | 新的使用者[分類集](/help/components/classifications/sets/overview.md)體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。 |
@@ -248,7 +227,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 高平圴資訊量的用戶端提示 | 有關 Adobe 如何在使用者代理程式之外使用[用戶端提示](/help/technotes/client-hints.md)來確定裝置資訊的新主題。 |
 | 處理順序 | 匯總了各種說明頁面以提供有關[處理順序](/help/technotes/processing-order.md)的單一說明主題 |
 | **2022 年 8 月** | |
-| XDM 中用於 Edge 集合的清單變數支援 | 讓使用 Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。 [了解更多](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
+| XDM 中用於邊緣集合的清單變數支援 | 讓使用 Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。 [了解更多](../implement/vars/page-vars/list.md#list-variables-using-the-web-sdk) |
 | 設定產品字串變數時，為 Edge 集合使用 XDM 中的 SKU 欄位 | 讓使用 Web SDK 收集資料的客戶能使用 SKU 值在產品變數中設定產品欄位。 [了解更多](../implement/vars/page-vars/products.md#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](/help/components/dimensions/evar-merchandising.md)的文件 |
@@ -262,7 +241,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 「[!UICONTROL 頁面摘要]」面板的新主題 | [頁面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | 「[!UICONTROL 下一個/前一個項目]」面板的新主題 | [下一個/前一個維度項目面板](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022 年 3 月** | |
-| 有關受支援的 HTTPS 加密演算法的新主題 | 為加密安全等級設定為「高度」的客戶提供支援的 HTTPS 加密演算法。 |
+| 有關受支援的 HTTPS 加密演算法的新主題 | 為加密安全等級設定為「高」的客戶提供支援的 HTTPS 加密演算法。 |
 | 有關工作區中註解的新文件 | [工作區中的註解](/help/analyze/analysis-workspace/components/annotations/overview.md)讓您能夠有效地將內容相關的資料細微差別和洞察傳達給您的組織。 |
 | Adobe Analytics 登陸頁面更新 | [更新](/help/analyze/landing.md)工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。 |
 | 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | 此面板可讓您瀏覽您所選維度項目之後或之前的項目。 |
@@ -271,7 +250,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2022 年 2 月** | |
 | 行動計分卡專案預覽模式 | [預覽模式](/help/analyze/mobile-app/create-scorecard.md#preview)允許您在儲存並共用計分卡之前預覽體驗。 |
 | API 專案端點 | 使用 API 新增、編輯或刪除 Analysis Workspace 專案。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
-| 有關暫停較舊已排程 Report Builder 工作的最新主題 | **自 2022 年 4 月 15 日起**，Adobe 打算[暫停所有建立日期超過兩年的已排程 Report Builder 工作](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md)。 |
+| 關於暫停較舊已排程 Report Builder 工作的更新主題 | **自 2022 年 4 月 15 日起**，Adobe 打算[暫停所有建立日期超過兩年的已排程 Report Builder 工作](/help/analyze/legacy-report-builder/r-arb-scheduled-reports.md)。 |
 
 ### 2021 {#year2021}
 
@@ -282,7 +261,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[花費的媒體播放時間](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)面板的新文件。 |
 | 2021 年 10 月 7 日 | 有關[行動計分卡視覺效果](/help/analyze/mobile-app/create-scorecard.md#apply-visualizations)的新文件 |
 | **2021 年 8 月** |  |
-| 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant) |
+| 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html) |
 | 2021 年 8 月 18 日 | 有關 [A4T 和虛擬報告套裝](/help/components/vrs/vrs-a4t.md)的新主題 |
 | 2021 年 8 月 18 日 | 有關[歸因最佳做法](/help/analyze/analysis-workspace/attribution/best-practices.md)的新主題 |
 | 2021 年 8 月 5 日 | 有關計算重複執行個體數的新主題。 |
@@ -328,7 +307,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 10 月 23 日 | 已在 Adobe Analytics 儀表板文件中新增增強功能。 現在，在工作區中建立行動計分卡時，計分卡的樣式會與應用程式相符。 |
 | **2020 年 9 月** | |
 | 2020 年 9 月 17 日 | [下載單一維度的 50K 個項目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items)：您現在可以在自由格式表格中下載單一維度的 50,000 個項目，並套用區段和篩選條件。 如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
-| 2020 年 9 月 17 日 | [線條視覺效果的增強功能](/help/analyze/analysis-workspace/visualizations/line.md)： <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。 當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。 選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| 2020 年 9 月 17 日 | [線條視覺效果的增強功能](/help/analyze/analysis-workspace/visualizations/line.md)： <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。 當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何折線視覺化上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。 選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
 | 2020 年 9 月 17 日 | 已在工作區中新增日期範圍：我們已新增 5 個日期範圍，好讓您可以選擇以下日期範圍，並排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
 | 2020 年 9 月 17 日 | 有關[工作區中媒體同時檢閱者面板](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md)的新文件 |
 | **2020 年 8 月** | |
@@ -338,13 +317,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 7 月 16 日 | 工作區中的新日期範圍預設集。 新增 4 個日期範圍：([!UICONTROL 本週/本月/本季/今年 [不包括今天]])。 這可讓您選擇不包括今天部分資料的日期範圍。 |
 | **2020 年 6 月** | |
 | 2020 年 6 月 25 日 | 工作區中 [Quick Insights 面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)的新文件。 它為 Analysis Workspace 的非分析師和新使用者提供指引，讓他們了解如何快速輕鬆地解答業務問題。 |
-| 2020 年 6 月 25 日 | 工作區中 [Analytics for Target 面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的新文件。 它可讓您輕鬆自信地分析您的 Adobe Target 活動和體驗。 |
+| 2020 年 6 月 25 日 | 工作區中 [Analytics for Target 面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的新文件。 它可讓您分析 Adobe Target 活動和體驗，並附帶提升度與信心度。 |
 | 2020 年 6 月 18 日 | 有關[歸因：演算法歸因](/help/analyze/analysis-workspace/attribution/algorithmic.md)的新文件 |
 | 2020 年 6 月 18 日 | 有關[歸因：自訂回顧期間](/help/analyze/analysis-workspace/attribution/models.md#lookback-windows)的新文件 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](/help/analyze/analysis-workspace/curate-share/share-projects.md)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
-| 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)的新文件。 專案能以「可供檢視」狀態和使用者共用。 當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
+| 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)的新文件。 專案能以「可供檢視」狀態和使用者共用。 當「檢視」的收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側邊欄，互動也會受限。 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](/help/analyze/analysis-workspace/curate-share/share-projects.md)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
-| 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的新文件。 新增至「可編輯」角色的收件者可在已與其共用的專案中執行儲存作業。 無論管理員或非管理人員都適用。 |
+| 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的新文件。 新增至「可編輯」角色的收件者可覆寫已與其共用的專案。 無論管理員或非管理人員都適用。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 有關[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的新文件 |
 | 2020 年 5 月 21 日 | 有關 [Adobe Analytics 儀表板](/help/analyze/mobile-app/home.md)的新文件 |
@@ -362,7 +341,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 25 日 | 新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
 | 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新工作區範本。 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。 需使用 CDA 的報告套裝。 如需詳細資訊，請參閱[設定 Cross-Device Analytics](/help/components/cda/setup.md)。 |
 | 2020 年 2 月 20 日 | 工作區中的全新快速鍵：<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
-| 2020 年 2 月 20 日 | 工作區增強功能： <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
+| 2020 年 2 月 20 日 | 工作區增強功能： <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 2020 年 2 月 20 日 | 已在「說明」選單中新增工作區偵錯程式，好讓您更順暢地啟用它來偵錯工作區請求。 [了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 18 日 | 新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
 | 2020 年 2 月 12 日 | 更新及重新整理[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文件。 |
@@ -371,7 +350,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 4 日 | 徹底重寫[實作使用者指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新「自由格式表格」頁面，加入新[自由格式表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的相關資訊。 |
 | **2020 年 1 月** | |
-| 2020 年 1 月 24 日 | 工作區中「[列設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html?lang=zh-Hant#cja-workspace)」頁面的更新。 |
+| 2020 年 1 月 24 日 | 工作區中「[列設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace)」頁面的更新。 |
 | 2020 年 1 月 16 日 | 有關[自由格式表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的新文件。 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。 資料不會立即更新， 而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。 此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。 以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。 以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 已修改「[我該使用哪種 Adobe Analytics 工具呢](/help/analyze/get-started/which-analytics-tool.md)」頁面。 |
@@ -388,8 +367,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 10 月 25 日 | 已更新「[Adobe Analytics 重要概念](/help/technotes/terms.md)」頁面。 |
 | 2019 年 10 月 10 日 | 自由格式表格總計的更新：這類表格現在包含兩個總計：**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總和]**。 表格總計列計入套用的[報告篩選器](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)。 以前只有區段會影響總計。 [深入瞭解](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)<br/>此外，**[!UICONTROL 顯示總計]**&#x200B;和&#x200B;**[!UICONTROL 顯示總計]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 欄設定]**。<br/>自由表格總計經過此變更後，相依的視覺效果（例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果）將會更新，以及匯出的CSV和PDF資料。 |
 | 10,2019 年 10 月 | 在工作區中，輕鬆地移除「未指定 (無)」的功能已新增為報告篩選的選項。 |
-| 10,2019 年 10 月 | 在工作區中，紫色的顆粒度元件 (分鐘、小時、天、週、月、季、年) 已過時。 如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
-| 2019 年 10 月 1 日 | 有關[工作區總計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant#cja-workspace)的新文件。 |
+| 10,2019 年 10 月 | 在工作區中，紫色的顆粒度元件 (分鐘、小時、日、週、月、季、年) 已淘汰。 如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
+| 2019 年 10 月 1 日 | 有關[工作區總計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace)的新文件。 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
 | 2019 年 9 月 19 日 | 已修改分段文件來說明[邏輯群組容器](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md#logic-group-containers)。 |
 | 2019 年 9 月 12 日 | [跨裝置分析](/help/components/cda/overview.md)的新文件 |
@@ -403,15 +382,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 7 月 18 日 | 更新[「同類群組表格」設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
 | 2019 年 7 月 18 日 | 在工作區的左側欄中，使用者現在可以選擇「_顯示過去 18 個月的項目_」。 之前，回顧期間的上限為 6 個月。 這能讓您更加輕鬆地與去年或最多 18 個月前的頁面或行銷活動進行比較。 |
 | 2019 年 7 月 18 日 | 有關 Analysis Workspace 中稱為[「Magento：行銷和商務」](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)的全新工作區範本的文件。 此範本是專為 Magento 電子商務客戶所設計，但所有零售商都可使用此範本來取得有關其商務活動的獨特洞察。 |
-| 2019 年 6 月 13 日 | 已在工作區中的左側欄搜尋中新增立即可用的篩選器。 除了您今天看到的專案（維度、量度、已批准等），新增了新的篩選器，例如計算量度、客戶屬性、eVar、Prop、視訊等，讓您更容易找到所需的元件。 |
+| 2019 年 6 月 13 日 | 已在工作區中的左側邊欄搜尋中新增預設篩選器。 除了您今天看到的專案（維度、量度、已批准等），新增了新的篩選器，例如計算量度、客戶屬性、eVar、Prop、視訊等，讓您更容易找到所需的元件。 |
 | 2019 年 6 月 4 日 | 全新指南已撰寫完畢，標題為從協力廠商的分析平台改用Adobe Analytics。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
 | 2019 年 5 月 9 日 | 已在「流量」視覺效果中新增設定：「包含重複執行個體」。 請參閱[流量設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 2019 年 4 月 11 日 | 工作區最佳化增強功能的最佳做法：效能最佳化 |
 | 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
-| 2019 年 3 月 14 日 | 大幅更新區域資料收集。 |
+| 2019 年 3 月 14 日 | 大幅更新區域資料彙集。 |
 | 2019 年 2 月 7 日 | 微幅更新[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)中的「將 IP 位址的最後八位數字取代為 0 」和「IP 模糊化」設定。 |
 | 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 實作外掛程式。 |
 | 2019 年 1 月 17 日 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - 同類群組分析的重大改良可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延遲表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。 (不支援計算量度)</li></ul> |
-| 2019 年 1 月 17 日 | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。 此新設定可減少左側欄、自由格式表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。 您可透過「專案 > 專案資訊與設定」，存取此設定。 |
-| 2019 年 1 月 17 日 | [支援歸因中的多值變數](/help/analyze/analysis-workspace/attribution/overview.md)。 Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。 Analysis Workspace 可讓您將歸因套用至這些點擊層級變數。 |
+| 2019 年 1 月 17 日 | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。 此新設定可減少左側邊欄、自由格式表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。 您可透過「專案 > 專案資訊與設定」，存取此設定。 |
+| 2019 年 1 月 17 日 | [支援歸因中的多值變數](/help/analyze/analysis-workspace/attribution/overview.md)。 Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。 Analysis Workspace 可讓您在點擊層級將歸因套用至任何這些類型的變數。 |

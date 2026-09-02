@@ -5,19 +5,11 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/RQer9MEMvEkjecZ-0EkFyAQthPh7Vi9GmxtJcGGKDeI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1973
@@ -37,13 +29,13 @@ ht-degree: 75%
 
 ## XDM 物件欄位對應
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md)中找到。
 
 | XDM 欄位路徑 | Analytics 變數與說明 |
 | --- | --- |
 | `xdm.application.isClose` | 協助定義行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isInstall` | 協助判斷何時增加行動生命週期量度[首次啟動](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
-| `xdm.application.closeType` | 判斷某個關閉事件是否損毀。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。 幫助設定行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/) 指標。 |
+| `xdm.application.closeType` | 判斷關閉事件是否為當機。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。 幫助設定行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/) 指標。 |
 | `xdm.application.isInstall` | 行動生命週期量度[安裝](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isLaunch` | 行動生命週期量度[啟動](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.name` | 協助設定行動生命週期維度[應用程式 ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
@@ -94,41 +86,41 @@ ht-degree: 75%
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](/help/components/metrics/custom-events.md)量度增加所需的數量。 每個事件位於其 100 群組父系中。 例如，`event567` 的欄位是 `xdm._experience.analytics.event501to600.event567.value`。 |
 | `xdm.identityMap.ECID[0].id` | 使用[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[Experience Platform身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)收集的ECID。 |
 | `xdm.marketing.trackingCode` | 設定[追蹤程式碼](/help/components/dimensions/tracking-code.md)維度。 |
-| `xdm.media.mediaTimed.completes.value` | 串流媒體服務量度[內容完成](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-completes)。 |
+| `xdm.media.mediaTimed.completes.value` | 串流媒體服務量度[內容完成](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes)。 |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`、`a.media.timePlayed`、`a.media.play` |
-| `xdm.media.mediaTimed.federated.value` | 串流媒體服務量度[聯合資料](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/federated-data)。 |
-| `xdm.media.mediaTimed.firstQuartiles.value` | 串流媒體服務量度 [25% 進度標記](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.mediaSegmentView.value` | 串流媒體服務量度[內容區段觀看次數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-segment-views)。 |
-| `xdm.media.mediaTimed.midpoints.value` | 串流媒體服務量度 [50% 進度標記](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.pauseTime.value` | 串流媒體服務量度[總暫停時長](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/total-pause-duration)。 |
-| `xdm.media.mediaTimed.pauses.value` | 串流媒體服務量度[暫停事件](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/pause-events)。 |
-| `xdm.mediaCollection.sessionDetails.assetID` | 串流媒體服務維度[資產 ID](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/asset-id)。 |
-| `xdm.mediaCollection.sessionDetails.friendlyName` | 串流媒體服務維度[影片名稱](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-name)。 |
-| `xdm.mediaCollection.sessionDetails.originator` | 串流媒體服務維度[發起者](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/originator)。 |
-| `xdm.mediaCollection.sessionDetails.episode` | 串流媒體服務維度[集數](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/episode)。 |
-| `xdm.mediaCollection.sessionDetails.genre` | 串流媒體服務維度[類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/genre)。 |
-| `xdm.mediaCollection.sessionDetails.rating` | 串流媒體服務維度[內容評級](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-rating)。 |
-| `xdm.mediaCollection.sessionDetails.season` | 串流媒體服務維度[季節](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/season)。 |
-| `xdm.mediaCollection.sessionDetails.name` | 串流媒體服務維度[內容 ID](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content)。 |
-| `xdm.mediaCollection.sessionDetails.show` | 串流媒體服務維度[節目](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show)。 |
-| `xdm.mediaCollection.sessionDetails.showType` | 串流媒體服務維度[節目類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/show-type)。 |
-| `xdm.mediaCollection.sessionDetails.length` | 串流媒體服務維度[影片長度](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-length)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 串流媒體服務維度[媒體工作階段 ID](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-session-id)。 |
-| `xdm.mediaCollection.sessionDetails.channel` | 串流媒體服務維度[內容頻道](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-channel)。 |
-| `xdm.mediaCollection.sessionDetails.contentType` | 串流媒體服務維度[內容類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-type)。 |
-| `xdm.mediaCollection.sessionDetails.network` | 串流媒體服務維度[網路](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/network)。 |
-| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 串流媒體服務維度[內容區段](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-segment)。 |
-| `xdm.mediaCollection.sessionDetails.playerName` | 串流媒體服務維度[內容播放器名稱](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/content-player-name)。 |
+| `xdm.media.mediaTimed.federated.value` | 串流媒體服務量度[聯合資料](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/federated-data)。 |
+| `xdm.media.mediaTimed.firstQuartiles.value` | 串流媒體服務量度 [25% 進度標記](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.mediaSegmentView.value` | 串流媒體服務量度[內容區段觀看次數](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-segment-views)。 |
+| `xdm.media.mediaTimed.midpoints.value` | 串流媒體服務量度 [50% 進度標記](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.pauseTime.value` | 串流媒體服務量度[總暫停時長](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-pause-duration)。 |
+| `xdm.media.mediaTimed.pauses.value` | 串流媒體服務量度[暫停事件](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/pause-events)。 |
+| `xdm.mediaCollection.sessionDetails.assetID` | 串流媒體服務維度[資產 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/asset-id)。 |
+| `xdm.mediaCollection.sessionDetails.friendlyName` | 串流媒體服務維度[影片名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)。 |
+| `xdm.mediaCollection.sessionDetails.originator` | 串流媒體服務維度[發起者](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator)。 |
+| `xdm.mediaCollection.sessionDetails.episode` | 串流媒體服務維度[集數](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)。 |
+| `xdm.mediaCollection.sessionDetails.genre` | 串流媒體服務維度[類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)。 |
+| `xdm.mediaCollection.sessionDetails.rating` | 串流媒體服務維度[內容評級](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-rating)。 |
+| `xdm.mediaCollection.sessionDetails.season` | 串流媒體服務維度[季節](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)。 |
+| `xdm.mediaCollection.sessionDetails.name` | 串流媒體服務維度[內容 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)。 |
+| `xdm.mediaCollection.sessionDetails.show` | 串流媒體服務維度[節目](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)。 |
+| `xdm.mediaCollection.sessionDetails.showType` | 串流媒體服務維度[節目類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)。 |
+| `xdm.mediaCollection.sessionDetails.length` | 串流媒體服務維度[影片長度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.@id` | 串流媒體服務維度[媒體工作階段 ID](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)。 |
+| `xdm.mediaCollection.sessionDetails.channel` | 串流媒體服務維度[內容頻道](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)。 |
+| `xdm.mediaCollection.sessionDetails.contentType` | 串流媒體服務維度[內容類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)。 |
+| `xdm.mediaCollection.sessionDetails.network` | 串流媒體服務維度[網路](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)。 |
+| `xdm.media.mediaTimed.primaryAssetViewDetails.`<br/>`mediaSegmentView.value` | 串流媒體服務維度[內容區段](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)。 |
+| `xdm.mediaCollection.sessionDetails.playerName` | 串流媒體服務維度[內容播放器名稱](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)。 |
 | `xdm.mediaCollection.sessionDetails.appVersion` | 串流媒體服務SDK版本維度。 請參閱[串流媒體服務總覽](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)。 |
-| `xdm.mediaCollection.sessionDetails.feed` | 串流媒體服務維度[媒體摘要類型](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 |
-| `xdm.mediaCollection.sessionDetails.streamFormat` | 串流媒體服務維度[串流格式](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/dimensions/stream-format)。 |
-| `xdm.media.mediaTimed.progress10.value` | 串流媒體服務量度 [10％ 進度標記](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.progress95.value` | 串流媒體服務量度 [95％ 進度標記](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.mediaCollection.sessionDetails.hasResume` | 串流媒體服務量度[內容履歷](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-resumes)。 |
-| `xdm.media.mediaTimed.starts.value` | 串流媒體服務量度[媒體開始](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/media-starts)。 |
-| `xdm.media.mediaTimed.thirdQuartiles.value` | 串流媒體服務量度 [75％ 進度標記](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
-| `xdm.media.mediaTimed.timePlayed.value` | 串流媒體服務量度[內容花費時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/content-time-spent)。 |
-| `xdm.media.mediaTimed.totalTimePlayed.value` | 串流媒體服務量度[媒體花費時間](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/metrics/media-time-spent)。 |
+| `xdm.mediaCollection.sessionDetails.feed` | 串流媒體服務維度[媒體摘要類型](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)。 |
+| `xdm.mediaCollection.sessionDetails.streamFormat` | 串流媒體服務維度[串流格式](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-format)。 |
+| `xdm.media.mediaTimed.progress10.value` | 串流媒體服務量度 [10％ 進度標記](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.progress95.value` | 串流媒體服務量度 [95％ 進度標記](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.mediaCollection.sessionDetails.hasResume` | 串流媒體服務量度[內容履歷](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-resumes)。 |
+| `xdm.media.mediaTimed.starts.value` | 串流媒體服務量度[媒體開始](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-starts)。 |
+| `xdm.media.mediaTimed.thirdQuartiles.value` | 串流媒體服務量度 [75％ 進度標記](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/progress-markers)。 |
+| `xdm.media.mediaTimed.timePlayed.value` | 串流媒體服務量度[內容花費時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-time-spent)。 |
+| `xdm.media.mediaTimed.totalTimePlayed.value` | 串流媒體服務量度[媒體花費時間](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)。 |
 | `xdm.placeContext.geo._schema.latitude` | 訪客的緯度位置。 幫助設定[行動生命週期位置](/help/components/dimensions/lifecycle-dimensions.md)維度。 |
 | `xdm.placeContext.geo._schema.longitude` | 訪客的經度位置。 幫助設定[行動生命週期位置](/help/components/dimensions/lifecycle-dimensions.md)維度。 |
 | `xdm.placeContext.geo.postalCode` | [郵遞區號](/help/components/dimensions/zip-code.md)維度。 |
@@ -181,7 +173,7 @@ Web SDK 會將該資料當作內容資料變數 `a.x._atag.search.term` 傳送�
 
 ## 明確對應
 
-您也可以明確對應 XDM 欄位元素為情境資料。 任何明確對應的 XDM 欄位元素將使用 `contextData` 元素，作為情境資料發送至 Adobe Analytics，並且不帶前置詞。 您可以使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)將此情境資料變數對應到所需的 Analytics 變數。 例如，如果您傳送以下事件︰
+您也可以明確將 XDM 欄位元素對應為情境資料。 任何明確對應的 XDM 欄位元素將使用 `contextData` 元素，作為情境資料發送至 Adobe Analytics，並且不帶前置詞。 您可以使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)將此情境資料變數對應到所需的 Analytics 變數。 例如，如果您傳送以下事件︰
 
 ```js
 alloy("event",{

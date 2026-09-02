@@ -4,12 +4,9 @@ description: 了解 FTP 和 SFTP 伺服器的安全性需求。
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1985
@@ -186,7 +183,7 @@ ht-degree: 100%
 
 如需詳細說明，請參閱[設定雲端匯入及匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)。
 
-### 步驟 3：編輯資料摘要和 Data Warehouse 請求，使用新的 SFTP 目標
+### 步驟 3：編輯資料摘要和 Data Warehouse 請求以使用新的 SFTP 目標
 
 更新目前傳送資料至 FTP 目標之任何現有的排程資料摘要和 Data Warehouse 請求，採用您建立的新 SFTP 目標。
 

@@ -1,22 +1,15 @@
 ---
 title: dynamicAccountList
-description: 建立邏輯，讓實施根據此邏輯決定其報表套裝。
+description: 建立邏輯，讓實施根據此邏輯決定其報告套裝。
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
 role: Developer
 TQID: https://experienceleague.adobe.com/qqkQoYsBWdTDOIkNfregm4k11CoDEl3dOJ3HNCMIo3s
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
 source-wordcount: 268
@@ -28,9 +21,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->動態帳戶僅支援使用舊版 JavaScript 實作 (H Code)。 目前的AppMeasurement資料庫或Adobe Experience Platform資料彙集中不支援這些變數。
+>動態帳戶僅支援使用舊版 JavaScript 實作 (H 程式碼)。 目前的AppMeasurement資料庫或Adobe Experience Platform資料彙集中不支援這些變數。
 
-`s.dynamicAccountList` 變數會以動態方式決定 `s_account` 的值。 如果 `dynamicAccountSelection` 設為 `true`，則會比較 `dynamicAccountMatch` 變數與 `dynamicAccountList`。 如果找到相符項目，則會使用相符的報表套裝 ID。
+`s.dynamicAccountList` 變數會以動態方式決定 `s_account` 的值。 如果 `dynamicAccountSelection` 設為 `true`，則會比較 `dynamicAccountMatch` 變數與 `dynamicAccountList`。 如果找到相符項目，則會使用相符的報告套裝 ID。
 
 ## 語法
 
@@ -42,7 +35,7 @@ s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 
 有效的輸入項目是以分號分隔的 rsid 和值配對清單。 每個清單都包含下列項目：
 
-* 一或多個報表套裝 ID (以逗號分隔)
+* 一或多個報告套裝 ID (以逗號分隔)
 * 一個等號
 * 要比對的一或多個字串 (以逗號分隔)
 

@@ -4,27 +4,11 @@ title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 TQID: https://experienceleague.adobe.com/BY9Zpnhu8FzGDHePD-MuWtyMWOuJKRgC-wTr42-rlyU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1132
@@ -78,14 +62,14 @@ Advertising Analytics將下列維度和量度新增至Analysis Workspace、Repor
 
 | 分類（維度）名稱 | 定義 |
 | --- | --- |
-| **[!UICONTROL 關鍵字MatchType (AMO ID)]** | 關鍵字元合型別。 值通常會是廣泛、確切的詞句；如果沒有符合類型的廣告類型，則沒有值。 |
+| **[!UICONTROL 關鍵字MatchType (AMO ID)]** | 關鍵字元合型別。 值通常會是廣泛、詞組、完全比對；如果廣告類型沒有比對類型，則沒有值。 |
 | **[!UICONTROL 廣告平台(AMO ID)]** | 搜尋引擎名稱。 值可以包括「Google AdWords」或「Microsoft Bing Ads」。 |
 | **[!UICONTROL 帳戶(AMO ID)]** | 被追蹤的搜尋引擎帳戶名稱。 |
 | **[!UICONTROL 行銷活動(AMO ID)]** | 搜尋引擎帳戶中的行銷活動名稱。 |
 | **[!UICONTROL 廣告群組(AMO ID)]** | 搜尋引擎促銷活動中的廣告群組名稱。 |
 | **[!UICONTROL 廣告(AMO ID)]** | 廣告上使用的廣告標題+廣告說明。 |
 | **[!UICONTROL 關鍵字(AMO ID)]** | 來自您搜尋引擎帳戶的「關鍵字」值。 |
-| **[!UICONTROL 符合型別(AMO ID)]** | 關鍵字元合指派給您的關鍵字的型別。 值通常會是廣泛、確切的詞句；如果沒有符合類型的廣告類型，則沒有值。 |
+| **[!UICONTROL 符合型別(AMO ID)]** | 關鍵字元合指派給您的關鍵字的型別。 值通常會是廣泛、詞組、完全比對；如果廣告類型沒有比對類型，則沒有值。 |
 | **[!UICONTROL 廣告型別(AMO ID)]** | 投放的廣告類型，通常為「文字廣告」。 |
 | **[!UICONTROL 廣告標題(AMO ID)]** | 您的廣告中使用的標題物件。 |
 | **[!UICONTROL 廣告說明(AMO ID)]** | 廣告中使用的廣告說明物件。 |

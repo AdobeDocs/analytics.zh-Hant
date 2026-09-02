@@ -4,20 +4,11 @@ title: 發佈區段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
@@ -30,7 +21,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
 >title="CX Enterprise 發佈"
->abstract="您可以將客群發佈至客群庫，即可在 Target 和其他 CX Enterprise 解決方案的行銷活動使用該客群。"
+>abstract="您可以將客群發佈至客群庫，以便在 Target 和其他 CX Enterprise 解決方案中將該客群用於行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
@@ -45,7 +36,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [發佈區段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [發佈區段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +47,7 @@ ht-degree: 31%
 
 ## 先決條件
 
-* 請確認您要儲存此區段的目標報表套裝已在CX Enterprise [&#128279;](/help/components/segmentation/segmentation-workflow/seg-publish.md)中啟用。 否則，您無法將其發佈至CX Enterprise。
+* 請確認您要儲存此區段的目標報表套裝已在CX Enterprise ](/help/components/segmentation/segmentation-workflow/seg-publish.md)中[啟用。 否則，您無法將其發佈至CX Enterprise。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
@@ -84,11 +75,11 @@ ht-degree: 31%
 1. 選取「**[!UICONTROL 新增]**」以建立新區段。
    ![發佈CX Enterprise](assets/publish-ec.png)
 1. 提供區段的標題和說明。 您必須先填寫這些欄位，才能儲存區段。
-1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （適用於&#x200B;*報表套裝*）]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]**。
 
    >[!IMPORTANT]
    >
-   >比較Experience Cloud數字與Audience Manager數字時，請務必在&#x200B;**[!UICONTROL 資料預覽]**&#x200B;中監視&#x200B;**[!UICONTROL 具有Adobe Analytics ID]**&#x200B;的訪客，而非&#x200B;**[!UICONTROL 不重複訪客]**。
+   >比較Adobe Analytics數字與Audience Manager數字時，請務必在&#x200B;**[!UICONTROL 資料預覽]**&#x200B;中監視&#x200B;**[!UICONTROL 具有Experience Cloud ID]**&#x200B;的訪客，而非&#x200B;**[!UICONTROL 不重複訪客]**。
    >
 
 | 元素 | 說明 |
@@ -96,14 +87,14 @@ ht-degree: 31%
 | **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]** | 啟用此選項後，區段標題和定義會立即與CX Enterprise共用，而區段會籍則每4小時評估一次並共用一次。<br> 例如，當該對象與Target中的活動建立關聯時，[!DNL Analytics]會開始傳送ID給符合CX Enterprise和Target對象資格的訪客。 此時，對象名稱和對應的資料開始顯示在CX Enterprise的[!DNL Audience Library]頁面上。</br> |
 | **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依滾動日曆建立對象。 例如，**[!UICONTROL 最近30天]** （預設）包含自當天日期（並非建立區段的原始日期）起最近30天符合對象資格的訪客。 |
 | **[!UICONTROL 在客群庫中建立]** | 您建立和發佈的區段可在CX Enterprise的[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。 這些區段不會計入 75 個已發佈區段的限制中。 |
-| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 您發佈至CX Enterprise的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
+| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 您發佈至CX Enterprise的區段數。 按一下連結，可檢視已發佈區段及其關聯報告套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
 ## 取消發佈或刪除區段
 
 >[!CAUTION]
 >
->若要刪除已發佈至CX Enterprise的區段，必須先取消發佈該區段。 若要取消發佈區段，只要取消選取「**[!UICONTROL 將此區段發佈至Experience Cloud」（針對&#x200B;*報表套裝*）]**。
+>若要刪除已發佈至CX Enterprise的區段，必須先取消發佈該區段。 若要取消發佈區段，只要取消選取「**[!UICONTROL 發佈此區段至Experience Cloud」（針對&#x200B;*報表套裝*）]**。
 
 
 >[!NOTE]
@@ -141,15 +132,15 @@ ht-degree: 31%
 ### 方法 2：使用 Chrome 開發者工具 (或其他瀏覽器開發者工具)
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
-1. 載入頁面並勾選「應用程式 > Cookie」。 Adobe Audience Manager UUID應在第三方中設定
-Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
+1. 載入頁面並檢查「應用程式 > Cookie」。 Adobe Audience Manager UUID應在第三方中設定
+Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
 在瀏覽器上（以下範例中為`35721780439475290181087231320657663953`）。
 
    ![Chrome 開發者工具](assets/devtools.png)
 
 ## 使用 Audience Manager [!UICONTROL 訪客輪廓檢視器]
 
-載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
+載入[!UICONTROL 訪客資料檢視器]時，瀏覽器上的Adobe Audience Manager UUID預設為使用。 如果您驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下[!UICONTROL 重新整理]。 如需詳細資訊，請參閱[訪客輪廓檢視器](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer)。
 
 ## 在Audience Manager中檢視區段特徵
 
@@ -161,12 +152,12 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
      ![Audience Manager 特徵](assets/aam-traits.png)
 
-   * 系統會建立一個單一特徵區段。 這個區段使用的資料來源與您發佈該區段的報表套裝相關聯。
+   * 系統會建立一個單一特徵區段。 這個區段使用的資料來源與您發佈該區段的報告套裝相關聯。
    * 特徵過期時間已設為 16 天 (之前為 2 天)。
 
 ## 在 [!DNL Adobe Target] 中檢視區段
 
-**[!UICONTROL 將此區段發佈至Experience Cloud]**&#x200B;可讓該區段可用於Adobe Target的自訂對象庫。 在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。 例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
+**[!UICONTROL 將此區段發佈至Experience Cloud]**&#x200B;可讓該區段可用於Adobe Target的自訂對象庫。 在 Analytics 或 Audience Manager 中建立的區段皆適用於 Target 中的活動。 例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
 
 在Adobe Target中：
 

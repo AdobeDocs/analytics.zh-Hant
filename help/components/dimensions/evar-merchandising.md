@@ -4,18 +4,11 @@ description: 繫結至產品維度的自訂變數。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 437
@@ -49,7 +42,7 @@ ht-degree: 79%
 
 銷售 eVar 可讓您在成功事件發生時，將 eVar 的目前值指派給產品。 即使稍後對該特定 eVar 設定了一或多個新值，這個值仍維持繫結至該產品。
 
-如果在上述範例中為 eVar 啟用了銷售，搜尋詞彙 `"goggles"` 就會繫結至滑雪鏡，而搜尋詞彙 `"winter coat"` 會繫結至羽絨外套。 銷售 eVar 會在產品層級分配收入，每個詞彙會獲得與其相關聯之產品收入金額的評分：
+如果在上述範例中為 eVar 啟用了銷售，搜尋詞彙 `"goggles"` 就會繫結至滑雪鏡，而搜尋詞彙 `"winter coat"` 會繫結至羽絨外套。 銷售 eVar 會在產品層級分配收入，因此每個詞彙都會獲得與其相關聯產品之收入金額的貢獻度：
 
 | 內部搜尋字詞 | 收入 |
 |---|---|
@@ -64,9 +57,9 @@ ht-degree: 79%
 
 * 對於使用產品語法的銷售變數，例項完全不會增加。
 * 對於使用轉換變數語法的銷售變數，在每次設定 eVar 時都會計算例項。 不過，它會歸因於維度項目 `"None"`，除非相同的點擊上發生了以下所有情況：
-   * 銷售 eVar 設定了某個值。
-   * `products` 變數以某個值定義。
-   * 已設定綁定事件。
+  * 銷售 eVar 設定了某個值。
+  * `products` 變數以某個值定義。
+  * 已設定繫結事件。
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.

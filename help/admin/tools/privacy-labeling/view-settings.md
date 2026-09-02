@@ -1,23 +1,15 @@
 ---
-description: 「資料控管的隱私標籤」對話框概觀了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。
+description: 「資料治理的隱私標籤」對話框提供報告套裝隱私標籤和命名空間的概觀。 您還可以從此處將設定匯出至 .csv 檔案。
 title: 檢視/管理資料控管隱私標籤
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 815
@@ -44,19 +36,19 @@ ht-degree: 81%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 元件名稱]** | 此欄會列出屬於此報表套裝的所有元件 (維度、量度)。 |
+| **[!UICONTROL 元件名稱]** | 此欄會列出屬於此報告套裝的所有元件 (維度、量度)。 |
 | **[!UICONTROL 身分識別]** | 身分識別資料「I」標籤可用來分類可身分識別身分識別或聯絡特定人員的資料。 [了解更多](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
 | **[!UICONTROL 敏感度]** | 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。 未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。 [了解更多](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
-| **[!UICONTROL GDPR 存取]** | 資料控管標籤讓使用者能夠分類資料，這些資料會反映隱私權相關考量事項，以及遵循法規和公司政策的合約條件。 [了解更多](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
+| **[!UICONTROL GDPR 存取]** | 資料治理標籤讓使用者能夠分類反映隱私相關考量和合約條件的資料，以遵循法規和公司政策。 [了解更多](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
 | **[!UICONTROL GDPR 刪除]** | 只有在欄位包含允許點擊與資料主體建立關聯的值時 (亦即允許辨識資料主體的身分)，才需要使用刪除標籤。 [了解更多](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
 | **[!UICONTROL 命名空間]** | 當您賦予變數的標籤為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。 您可以使用先前定義的命名空間或定義新的命名空間。 |
-| **[!UICONTROL 類別]** | 參考元件類型，如標準元件、轉換變數等。 |
+| **[!UICONTROL 類別]** | 指的是元件類型，例如標準元件、轉換變數等。 |
 
 {style="table-layout:auto"}
 
 ## 將隱私權標籤複製到報告套裝  {#copy-to-rs}
 
-若您想將相同的資料隱私權設定套用至多個報表套裝，請依照以下步驟操作：
+若您想將相同的資料隱私權設定套用至多個報告套裝，請依照以下步驟操作：
 
 1. 選取想要複製的變數。 請注意，您一次只能複製一個變數的標籤。
 1. 在「資料控管」對話方塊下方，按一下&#x200B;**[!UICONTROL 「複製到報表套裝」]**。
@@ -88,7 +80,7 @@ ht-degree: 81%
 
 ## 匯出至 .csv 檔案 {#export-csv}
 
-您可以下載CSV檔案，檔案會包含所選報表套裝中所有變數的全部目前標籤定義。 我們建議您與法律團隊商議標籤選擇，而此選項有助於簡化該稽核程式。 您可以將 .CSV 檔案分享給他們，而不必在登入資料控管 UI 的情況下執行審核程序。
+您可以下載CSV檔案，檔案會包含所選報表套裝中所有變數的全部目前標籤定義。 我們建議您與法律團隊商議標籤選擇，而此選項有助於簡化該稽核程式。 您可以將 .CSV 檔案分享給他們，而不必在登入資料治理 UI 的情況下進行審閱。
 
 1. 在右上角按一下 **[!UICONTROL Export CSV]**，會顯示以下對話框：
 

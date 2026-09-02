@@ -5,23 +5,11 @@ topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
 TQID: https://experienceleague.adobe.com/2QizNDKGlAUqX7IbHANm-nGMicLXDfKSnl7nYGkETxQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 633
@@ -35,7 +23,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實施作業或標記。 它會運用您現有的 Adobe Analytics 實作。 若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。 它會運用您現有的 Adobe Analytics 實施。 若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
 
 ## 存取即時報表
 
@@ -77,7 +65,7 @@ ht-degree: 41%
 
 Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中遇到 5 至 10 分鐘的額外延遲。 增加此延遲可使 Analytics 和 [!DNL Target] 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
 
-此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報表)，且適用於下列情況：
+此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報告)，且適用於下列情況：
 
 * 對於即時資料流、即時報表和API請求，以及流量變數的目前資料，只有具有補充資料ID的點選會延遲。
 * 對於轉換量度、最終完成的資料和資料摘要的目前資料，所有點選都會額外延遲5至7分鐘。

@@ -6,17 +6,11 @@ title: 資料摘要中的特殊字元
 feature: Data Feeds
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 TQID: 'https://experienceleague.adobe.com/jNnPgkpVea1R-uUcOiV7UDRc8TdGjhov9yFCvgfitMA'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 333
@@ -26,7 +20,7 @@ ht-degree: 90%
 
 # 資料摘要中的特殊字元
 
-Adobe 使用逸出邏輯來確保傳送至資料收集伺服器的值不會損壞或對資料摘要檔案產生負面影響。 Adobe 在 `hit_data.tsv` 中保留下列字元，目的如下：
+Adobe 使用逸出邏輯來確保傳送至資料彙集伺服器的值不會損壞或對資料摘要檔案產生負面影響。 Adobe 在 `hit_data.tsv` 中保留下列字元，目的如下：
 
 ## 任何欄中的特殊字元
 
@@ -34,7 +28,7 @@ Adobe 使用逸出邏輯來確保傳送至資料收集伺服器的值不會損�
 |--- |--- |
 | `\t` | 代表標籤。 標示欄或資料欄位的結尾。 |
 | `\n` | 代表新行。 標示列或點擊的結尾。 |
-| `\` | 反斜線. 在資料收集過程中傳送時使字元逸出。 |
+| `\` | 反斜線. 在資料彙集過程中傳送時使字元逸出。 |
 
 當這些保留值前面有反斜線時，這些值會在資料收集過程中一併傳送。
 
@@ -57,7 +51,7 @@ Adobe 使用逸出邏輯來確保傳送至資料收集伺服器的值不會損�
 | `=` | 等號。 指派值給 `product_list` 中的事件。 |
 | `^` | 脫字符號. 在資料收集過程中傳送時使字元逸出。 |
 
-當這些保留值前面有脫字符號時，這些值會在資料收集過程中一併傳送。
+當這些保留值前面有脫字符號時，這些值會在資料彙集過程中一併傳送。
 
 | 字元 | 說明 |
 |--- |--- |

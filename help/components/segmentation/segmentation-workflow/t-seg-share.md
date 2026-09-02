@@ -4,15 +4,10 @@ title: 共用細分群體
 feature: Segmentation
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 TQID: https://experienceleague.adobe.com/6NHInvDefCx7jcszRiGERN2FadCAC3QIUqgCw9pnoII
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 431
@@ -33,7 +28,7 @@ ht-degree: 42%
 * 身為管理員，如果區段對整個公司都有用，而且每個人都樂於使用它，請將區段共用給&#x200B;**[!UICONTROL 全部]**&#x200B;的人。 在此情況下，您也應該考慮讓它成為[已核准](/help/components/segmentation/segmentation-workflow/seg-approve.md)區段。
 
 * 身為管理員，如果區段可為特定團隊帶來良好的商務價值，請將區段共用給該&#x200B;**[!UICONTROL 群組]**。 請勿正式核准此型別的區段。
-* 身為管理員或個人使用者，可將區段共用給其他個人來審查和驗證區段。 如果效果不如預期，則可加以捨棄。 請勿正式核准此型別的區段。
+* 身為管理員或個人使用者，可將區段共用給其他個人來審查和驗證區段。 如果證明沒有用，則可加以捨棄。 請勿正式核准此型別的區段。
 
 1. 在「區段管理員」中，選取您要共用之區段旁的核取方塊![SelectBox](/help/assets/icons/SelectBox.svg)。
 1. 選取![共用](/help/assets/icons/Share.svg)共用。
@@ -41,7 +36,7 @@ ht-degree: 42%
 
    ![共用區段](assets/share-segments-dialog.png)
 
-   如果您是管理員，可以選取「**[!UICONTROL 全部]**」或選取貴組織中的「**[!UICONTROL 群組]**」和「使用者&#x200B;**[!UICONTROL 」。]** 身為非管理員，您只能看見個人使用者。 使用「**[!UICONTROL 搜尋]**」欄位來搜尋群組或使用者。 1.
+   如果您是管理員，可以選取「**[!UICONTROL 全部]**」或選取貴組織中的「**[!UICONTROL 群組]**」和「使用者&#x200B;**[!UICONTROL 」。]** 身為非管理員，您只能看見個別使用者。 使用「**[!UICONTROL 搜尋]**」欄位來搜尋群組或使用者。 1.
 
    1. （選擇性）使用![搜尋](/help/assets/icons/Search.svg)至&#x200B;*搜尋個人或群組*，並限制您要共用區段的群組或個人清單。
 

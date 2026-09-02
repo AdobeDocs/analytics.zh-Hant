@@ -4,23 +4,11 @@ title: 舊版區段常見問題集
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1440
@@ -130,7 +118,7 @@ ht-degree: 32%
 
 下列提示可協助您移轉常見維度：
 
-* 地域城市/地區/國家 - 搜尋並選取特定城市、地區或國家，而不是使用局部比對。
+* 地域城市/區域/國家 - 搜尋並選取特定城市、區域或國家，而不是使用局部比對。
 * 瀏覽器 — 使用瀏覽器型別維度來取得某個型別的所有瀏覽器，例如Google Chrome
 * 作業系統 — 使用「作業系統型別」維度來取得某個型別的所有作業系統，例如Microsoft Windows。
 * 請參閱「新維度和經過重新命名的維度」(參閱下文)
@@ -156,7 +144,7 @@ ht-degree: 32%
 | 行動裝置 | 行動裝置名稱 | - |
 | 行動書籤 的最大長度 | 行動書籤 URL 的最大長度 | - |
 | 行動電子郵件的最大長度 | 行動郵件 URL 的最大長度 | - |
-| 行動作業系統（已棄用） | 行動作業系統 | 使用「作業系統」維度並改從行動裝置區段套用造訪。 |
+| 行動作業系統（已棄用） | 行動作業系統 | 請改用「作業系統」維度，並套用「來自行動裝置的造訪」區段。 |
 | 行動即按即說 (Push To Talk) | 行動 PTT | - |
 | 調查檢視 | 調查檢視總數 | - |
 | 調查回應 | 調查回應總數 | - |

@@ -5,18 +5,11 @@ feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
 TQID: 'https://experienceleague.adobe.com/ooOVEtcjfU99QHDkVKE3DDEWHkkcvScBtpL6SFE7POc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 264
@@ -35,7 +28,7 @@ ht-degree: 100%
 * 讓您可以監視和管理組織中每個報告套裝的報告容量。
 * 可即時通知您跨報告套裝的目前報告容量。
 * 提供有關目前報告請求的詳細報告資訊，無論已排入佇列還是處理中。
-* 允許您透過優先處理某些報告請求並取消其他報告請求以釋放容量，而最佳化報告佇列。 它回答以下問題，如：此時是否有必要提交此報告，或者我可以取消此報告，以便提交更緊急的報告？
+* 允許您透過優先處理某些報告請求並取消其他報告請求以釋放容量，來最佳化報告佇列。 它回答以下問題，如：此時是否有必要提交此報告，或者我可以取消此報告，以便提交更緊急的報告？
 * 可讓您限制指定時段的未來請求。 您可以限制特定的請求，也可以限制來自特定使用者的所有請求，或與特定專案相關的請求。
 
 ## 權限

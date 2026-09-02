@@ -5,16 +5,10 @@ feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1214
@@ -74,14 +68,14 @@ The choice of attribution lookback depends on your use case. If conversions typi
 
 +++##歸因模型是否可用於「資料饋送」或「Data Warehouse」等其他Analytics功能？
 
-否。 歸因模式採用的是報告時間處理，這項功能只能在 Analysis Workspace 中使用。 如需詳細資訊，請參閱[報告時間處理](/help/components/vrs/vrs-report-time-processing.md)。
+否。 歸因模式採用的是報告時處理，這項功能只能在 Analysis Workspace 中使用。 如需詳細資訊，請參閱[報告時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 
 +++
 
 
 +++##我是否必須在啟用「報表時間處理」的情況下使用虛擬報表套裝，才能使用歸因模型？
 
-歸因模式可在虛擬報告套裝之外使用。 雖然歸因模式會在後端使用報告時間處理，但標準報告套裝和虛擬報告套裝都可使用歸因模式。
+歸因模式可在虛擬報告套裝之外使用。 雖然歸因模式會在後端使用報告時處理，但標準報告套裝和虛擬報告套裝都可使用歸因模式。
 
 +++
 
@@ -120,7 +114,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 
 是的，歸因支援多數資料來源。 摘要層級的資料來源無法進行歸因，因為這些資料來源不會與 Analytics 的訪客識別碼建立關聯。
 
-交易 ID 資料來源會以像任何其他點擊的方式來處理。 交易 ID 資料來源不使用傳統報告通常使用的特殊處理。 換言之，使用報表時間處理時，交易ID點選會從發生在「交易ID」點選時間戳記附近的點選傳播eVar值。 值不會從接近原始交易時間發生的點選中傳播。
+交易 ID 資料來源會像任何其他點擊一樣處理。 交易 ID 資料來源不使用傳統報告通常使用的特殊處理。 換言之，使用報表時間處理時，交易ID點選會從發生在「交易ID」點選時間戳記附近的點選傳播eVar值。 值不會從接近原始交易時間發生的點選中傳播。
 
 如果可能的話，歸因會仰賴資料來源中事件內傳送的MID欄值（而非持續值）。 歸因模式會即時套用於資料來源中的 MID 欄值。 例如，當您使用[上次接觸歸因](models.md)時，模型會從量度的每個執行個體開始。 和會在點選中循序往後走，直到模型達到MID欄中觀察到的最後一個值。
 
@@ -133,14 +127,14 @@ The choice of attribution lookback depends on your use case. If conversions typi
 
 +++##歸因可用於Advertising Analytics整合嗎？
 
-中繼資料維度 (例如比對類型和關鍵字) 可搭配歸因使用， 不過，由於量度 (包括曝光、成本、點擊、平均位置和平均品質分數) 使用摘要層級的資料來源，因此與歸因不相容。
+中繼資料維度 (例如比對類型和關鍵字) 可搭配歸因使用。 不過，由於量度 (包括曝光、成本、點擊、平均位置和平均品質分數) 使用摘要層級的資料來源，因此與歸因不相容。
 
 +++
 
 
 +++##歸因如何與行銷管道搭配運作？
 
-我們初次推出行銷管道時，只提供「首次接觸」和「上次接觸」維度。 有了現行版本的歸因，就不再需要明確的首次/最後接觸維度。 Adobe 提供通用的「[!UICONTROL 行銷管道]」和「[!UICONTROL 行銷管道詳細資料]」維度，讓您可將其用於所需的歸因模式。 這些通用維度的行為與「[!UICONTROL 上次接觸管道]」維度相同，但標籤不同，這是為了避免搭配不同歸因模式使用行銷管道時產生混淆。
+行銷管道剛推出時，只有「首次接觸」和「上次接觸」維度。 有了現行版本的歸因，就不再需要明確的首次/最後接觸維度。 Adobe 提供通用的「[!UICONTROL 行銷管道]」和「[!UICONTROL 行銷管道詳細資料]」維度，讓您可將其用於所需的歸因模式。 這些通用維度的行為與「[!UICONTROL 上次接觸管道]」維度相同，但標籤不同，這是為了避免搭配不同歸因模式使用行銷管道時產生混淆。
 
 由於行銷管道維度以傳統的造訪定義 (由維度本身的處理規則為定義) 為依據，因此無法使用虛擬報告套裝來變更造訪定義。
 
@@ -151,7 +145,7 @@ The choice of attribution lookback depends on your use case. If conversions typi
 
 Analytics 的某些維度可包含單次點擊中的多個值。 常見範例包括清單變數和產品變數。
 
-將歸因套用至多值點擊時，同一次點擊中的所有值都會獲得相同的評分。 由於有多個值可以接受該次評分，報告總計可能與每個各別條列項目的加總不同。 報告總計會去除重複項目，而每個各別維度項目會適當獲得評分。
+將歸因套用至多值點擊時，同一次點擊中的所有值都會獲得相同的歸因。 由於有多個值可以獲得這些歸因，報告總計可能與每個各別條列項目的加總不同。 報告總計會去除重複項目，而每個各別維度項目都會獲得適當的歸因。
 
 +++
 
@@ -166,6 +160,6 @@ Analytics 的某些維度可包含單次點擊中的多個值。 常見範例包
 
 >[!NOTE]
 >
->如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。 不過，類似的報告篩選器只會隱藏某些維度項目，而不會對根據歸因模式處理的量度造成任何影響。 因此，相較於具有可比較定義的篩選器，區段可能會傳回較低的值。
+>如果區段抑制包含您的量度的點擊，這些量度例項不會歸因於任何維度。 不過，類似的報告篩選器只會隱藏某些維度項目，而不會對根據歸因模式處理的量度造成任何影響。 因此，相較於具有可比較定義的篩選器，區段可能會傳回較低的值。
 
 +++

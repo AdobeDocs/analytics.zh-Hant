@@ -5,24 +5,11 @@ feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/Hm9pIJE9P3jEljJAgB69k2M9-fTa9G0wsCjfvN4xH3E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
-  - id: df312454-73c4-43f6-a90e-18f5043f074c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: d2311670-43bd-4c2e-bc98-1da2aaba9cefid: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
 source-wordcount: 511
@@ -30,7 +17,7 @@ ht-degree: 96%
 
 ---
 
-# Analytics 實作常見問答
+# Analytics 實施常見問答
 
 實作的相關常見問答，以及可提供更多資訊的連結。
 
@@ -38,7 +25,7 @@ ht-degree: 96%
 
 Identity Service會指派不重複的永久性識別碼，以便在CX Enterprise的其他解決方案之間共用。 Analytics 訪客 ID 僅供 Analytics 使用。 Adobe 建議您在實作中使用 Experience Cloud 訪客 ID 服務。
 
-## 如何實施心率視訊追蹤？
+## 如何實施心率影片追蹤？
 
 請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/media-overview)。
 
@@ -48,7 +35,7 @@ Identity Service會指派不重複的永久性識別碼，以便在CX Enterprise
 
 ## 從瀏覽器傳送資料給 Adobe 服務會降低效能嗎？
 
-AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再向 Adobe 資料收集伺服器要求該影像物件。 如果資料收集伺服器效能緩慢或無反應，處理該要求的執行緒會延遲，直到傳回影像或逾時。 因為瀏覽器使用多個執行緒來處理影像，Adobe 中斷對頁面載入時間的影響極小，最多只會佔用一個執行緒，而其他執行緒仍持續運作。
+AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再向 Adobe 資料彙集伺服器要求該影像物件。 如果資料彙集伺服器效能緩慢或無反應，處理該要求的執行緒會延遲，直到傳回影像或逾時。 因為瀏覽器使用多個執行緒來處理影像，Adobe 中斷對頁面載入時間的影響極小，最多只會佔用一個執行緒，而其他執行緒仍持續運作。
 
 ## 如何使 Analytics 實作無效或加以移除？
 
@@ -65,9 +52,9 @@ var s = new Object();
 >
 >請勿：
 >
->* 將報表套裝變更為無效值，因為這會在 Adobe 伺服器上造成不必要的負載。
+>* 將報告套裝變更為無效值，因為這會在 Adobe 伺服器上造成不必要的負載。
 >* 完全移除 `s_code.js` 檔案，除非您同時移除每個頁面上該檔案的所有參照。
->* 變更 `trackingServer` 變數以遠離 Adobe。 AppMeasurement 仍會傳送影像要求，而要求會傳回 404 錯誤。
+>* 變更 `trackingServer` 變數以遠離 Adobe。 AppMeasurement 仍會傳送影像請求，而這些請求會傳回 404 錯誤。
 
 ## 我透過程式碼分析器執行了 AppMeasurement，而且它將 `Math.random()` 的使用標記為可能有安全性風險。 `Math.random()` 是否會與任何敏感資料一起使用？
 
@@ -75,6 +62,6 @@ var s = new Object();
 
 AppMeasurement 會在三個主要方面使用 `Math.random()`：
 
-* **取樣**：根據您的實作，可能只會針對您網站的一小部分訪客收集某些資訊。 `Math.random()` 是用來判斷特定訪客是否應該傳送資料。 大多數實作不使用取樣。
+* **取樣**：根據您的實作，可能只會針對您網站的一小部分訪客收集某些資訊。 `Math.random()` 是用來判斷特定訪客是否應該傳送資料。 大多數實作不使用抽樣。
 * **遞補訪客 ID**：如果無法從 Cookie 中擷取訪客 ID，則會產生隨機訪客 ID。 這部分的 AppMeasurement 會使用兩個 `Math.random()` 呼叫。
 * **防止快取**：將一個隨機數字新增到影像要求 URL 的結尾，以防止瀏覽器快取。

@@ -5,22 +5,14 @@ feature: Data Governance
 role: Admin
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 TQID: 'https://experienceleague.adobe.com/medgbA9EBG0fE2xttZ7HLKT42-RBr7rlMGGGGrAyoKw'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b99602d0-836e-4dbb-979f-c0dec53f883c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b99602d0-836e-4dbb-979f-c0dec53f883c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: 494
 ht-degree: 63%
 
 ---
@@ -37,7 +29,7 @@ ht-degree: 63%
 
 加州消費者隱私法 (CCPA) 將於 2020 年 1 月 1 日生效。 如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)。
 
-當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。 身為資料處理者，Adobe 會根據貴公司的權限和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
+當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。 身為資料處理者，Adobe 會根據貴公司的許可和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
 
 身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。 如果您使用Adobe CX Enterprise解決方案，Adobe可能會根據您使用的解決方案，以及您選擇傳送至Adobe CX Enterprise帳戶的資訊，為您託管個人資料。 如需範例清單，請參閱[Adobe CX Enterprise隱私權。](https://www.adobe.com/tw/privacy/marketing-cloud.html#collect)
 
@@ -47,7 +39,7 @@ Adobe CX Enterprise提供整合式解決方案，可連線您品牌的資料控�
 
 請熟悉[Adobe Analytics如何處理GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html)，瞭解隱私權整備步驟，以及如何與Adobe CX Enterprise Privacy Service API整合。
 
-## CCPA 整備與您的 Adobe Analytics 資料
+## CCPA 準備情況與您的 Adobe Analytics 資料
 
 Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。
 為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。 您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便提交存取和刪除請求以處理該資料。 對於每個請求，Analytics資料控管使用者介面中定義的標籤將接受對應於該請求的特定識別碼的處理。

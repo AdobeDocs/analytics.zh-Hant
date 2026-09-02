@@ -5,16 +5,11 @@ exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/x7zHG4xkSr1yDLZ2dfosn5PaK4JVxiMWC6xksSTLypE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 288
@@ -40,7 +35,7 @@ ht-degree: 41%
 
 接著，建立點擊區段，將日期範圍放在另一個排除容器內的排除容器中。 這就是「排除 — 排除」。
 
-「排除 — 排除」的原因是日期範圍旨在覆寫報告的日期範圍。 因此，如果您只納入 6 月 1 日轉送，這會使報告日期範圍 6 月 1 日一律轉送。 這將導致不想要的結果。 當您「排除 — 排除」時，這會覆寫此行為，並只限制您可從中擷取的資料至適當的日期範圍。
+「排除 — 排除」的原因是日期範圍旨在覆寫報告的日期範圍。 因此，如果您只納入 6 月 1 日之後的資料，報告日期範圍就會一律變成 6 月 1 日之後。 這將導致不理想的結果。 當您「排除 — 排除」時，這會覆寫此行為，並只限制您可從中擷取的資料至適當的日期範圍。
 
 ![](assets/exclude-exclude.png)
 

@@ -4,20 +4,11 @@ description: 訪客的地理區域。
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 TQID: https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 382
@@ -27,7 +18,7 @@ ht-degree: 87%
 
 # 地區
 
-「區域」[維度](overview.md)會報告訪客的地理區域。 這是小於國家/區域、大於城市的地理區域。 在某些國家，區域是指一個州、省或府/州。 在其他地方，則是指構成國、行政區或大都會區域。 如果您想要有比[國家/地區](countries.md)更精細、但比[城市](cities.md)粗略的洞察，使用此維度將有所幫助。
+「區域」[維度](overview.md)會報告訪客的地理區域。 這是小於國家、大於城市的地理區域。 在某些國家，區域是指一個州、省或府/州。 在其他地方，則是指構成國、行政區或大都會區域。 如果您想要有比[國家/地區](countries.md)更精細、但比[城市](cities.md)粗略的洞察，使用此維度將有所幫助。
 
 ## 將資料填入此維度中
 
@@ -37,7 +28,7 @@ ht-degree: 87%
 
 維度項目包含區域和區域所在的國家/區域。 範例值包括 `"California (United States)"`、`"Tokyo (Japan)"` 或 `"Sao Paulo (Brazil)"`。
 
-某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。 此服務的訂閱者會根據其帳號建立時所在的國家/區域，獲得一個指定的存取點。 AOL 使用者可使用此存取點的 IP 位址。 由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
+某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。 此服務的訂閱者會根據其帳戶號碼建立時所在的國家/區域，獲得一個指定的存取點。 AOL 使用者使用此存取點的 IP 位址。 由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
 
 ## 報告的位置與實際位置之間的差異
 

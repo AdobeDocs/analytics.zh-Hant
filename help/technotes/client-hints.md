@@ -5,20 +5,10 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1283
@@ -38,7 +28,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 * **高平均資訊量**&#x200B;提示包含較多詳細資訊。 這些提示則只能透過請求取得。 AppMeasurement 和 Web SDK 都可設定為請求高平均資訊量提示。 依預設，兩種資料庫都&#x200B;**不會**&#x200B;請求高平均資訊量提示。
 
-從 2022 年 10 月開始，新版本的 Chromium 瀏覽器已開始「凍結」使用者代理字串中表示的作業系統版本。 作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。 一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
+從 2022 年 10 月開始，新版本的 Chromium 瀏覽器已開始「凍結」使用者代理字串中表示的作業系統版本。 作業系統版本是一種高資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，必須設定您的收集程式庫來收集這些高資訊量提示。 一段時間後，使用者代理程式的其他裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
 
 2023年3月2日，使用者端提示已併入Analytics裝置查詢程式。 這項變更同時適用於AppMeasurement和Web SDK實作。
 
@@ -58,7 +48,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
-若是透過 API 提交的資料，例如透過[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)或[批量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提示必須明確地包含在承載中。 查看各別文件以取得詳細資料。
+若是透過 API 提交的資料，例如透過[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)或[批量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提示必須明確地包含在承載中。 請參閱各別的文件以取得詳細資料。
 
 +++
 
@@ -85,7 +75,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 | 模型 | 裝置型號 | 高 | `"Pixel 3"` |
 | platformVersion | 作業系統/平台版本 | 高 | `"10"` |
 
-* 透過請求標頭收集的低平均資訊量提示。
+* 低資訊量提示會透過請求標頭收集。
 * 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。 查詢字串引數使用`h.`做為影像要求中的前置詞。 請注意，目前不會收集fullVersionList，因為系統會將瀏覽器主要版本擷取為低平均資訊量提示。
 
 高平圴資訊量提示是透過 JavaScript 呼叫收集並透過查詢參數來傳遞
@@ -120,7 +110,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 報表中的裝置資訊來自使用者代理程式。 我們更新了我們的流程，在適用情況下能同時使用使用者代理程式和用戶端提示。
 
-備援 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=zh-Hant)) 來自使用者代理程式和 IP 地址。 此 ID 僅在無法設設 cookie 時使用，因此未被廣泛使用
+備援 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=zh-Hant)) 來自使用者代理程式和 IP 地址。 此 ID 僅在無法設定 Cookie 時使用，因此未被廣泛使用
 
 +++
 
