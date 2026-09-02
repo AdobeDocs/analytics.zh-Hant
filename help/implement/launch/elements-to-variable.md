@@ -63,7 +63,7 @@ ht-degree: 96%
 
 >[!TIP]
 >
->您可以串連相同變數中的資料元素。 舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
+>您可以在同一個變數中串連資料元素。 舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
 
 ## 後續步驟
 

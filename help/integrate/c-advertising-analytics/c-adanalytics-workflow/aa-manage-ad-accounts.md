@@ -45,8 +45,8 @@ ht-degree: 18%
 - 若要使用![搜尋](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg)搜尋欄位來搜尋您的廣告帳戶。
 - 若要選取資料表中的使用中帳戶，請檢查&#x200B;**[!UICONTROL 使用中帳戶]**。
 - 若要定義表格要顯示哪些欄，請選取![欄設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg)。 <br/>在&#x200B;**[!UICONTROL 自訂資料表]**&#x200B;對話方塊中：
-   - 選取您要顯示的欄。
-   - 選取&#x200B;**[!UICONTROL 「套用」]**。
+  - 選取您要顯示的欄。
+  - 選取&#x200B;**[!UICONTROL 「套用」]**。
 
 當您選取一或多個廣告帳戶時，藍色動作列會根據所選帳戶的狀態，允許您![編輯](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL 重新命名]**、![重新整理](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL 對應報表套裝]**、![播放](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL 啟動]**&#x200B;或![暫停](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL 暫停]**&#x200B;您的廣告帳戶。
 

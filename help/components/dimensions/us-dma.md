@@ -40,7 +40,7 @@ ht-degree: 65%
 
 ## 維度項目
 
-Dimension專案包含訪客的DMA和DMA代碼。 3 位數的代碼並非郵遞區號，而是 Nielsen 彙編的 DMA 代碼。 範例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。 維度項目 `"No Metro (0)"` 包含美國以外的所有國際流量。
+Dimension專案包含訪客的DMA和DMA代碼。 3 位數的代碼並非郵遞區號，而是來自 Nielsen 的 DMA 代碼。 範例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。 維度項目 `"No Metro (0)"` 包含美國以外的所有國際流量。
 
 ## 報告的位置與實際位置之間的差異
 

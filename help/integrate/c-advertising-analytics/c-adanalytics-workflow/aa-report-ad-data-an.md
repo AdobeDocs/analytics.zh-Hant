@@ -1,6 +1,6 @@
 ---
 description: Analysis Workspace範本的詳細資訊，以及Report Builder的報告功能。
-title: 報告 Adobe Analytics 中的 Advertising 資料
+title: 在 Adobe Analytics 中的廣告資料報告
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 TQID: https://experienceleague.adobe.com/BOly6gaT1ybHWDppJzhi9ILClvJ9UoLzkGFua1gS1lo

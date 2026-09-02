@@ -36,7 +36,7 @@ ht-degree: 42%
 
 在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中，您可以更新權限，以納入那些需要存取網頁服務 API 的使用者。
 
-## WSDL：下載網站服務開發商的網站服務 API WSDL
+## WSDL：下載供 Web Services 開發人員使用的 Web Services API WSDL
 
 請前往 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/)，存取與網站服務 API 相關的文件、範例程式碼和論壇。 如需詳細資訊，請按一下網站服務API概述。
 

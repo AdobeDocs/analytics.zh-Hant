@@ -31,7 +31,7 @@ ht-degree: 47%
 
 # 追蹤不同的實施類型
 
-Adobe Analytics 實施的核心架構在所有實施類型中都是一致的。 該流程涉及定義變數，並將其編譯成傳送至 Adobe 資料收集伺服器的影像要求。 這個概念代表您可以在 AppMeasurement、Web SDK 及其在 Adobe Experience Platform 資料收集中的各自擴充功能之間，跨同一網站的不同頁面無縫切換。
+Adobe Analytics 實施的核心架構在所有實施類型中都是一致的。 該流程涉及定義變數，並將其編譯成傳送至 Adobe 資料彙集伺服器的影像要求。 這個概念代表您可以在 AppMeasurement、Web SDK 及其在 Adobe Experience Platform 資料收集中的各自擴充功能之間，跨同一網站的不同頁面無縫切換。
 
 Adobe 建議在所有頁面上使用相同的實施類型來保持網站實施的一致性。 但是，如果您網站的某些部分有不同的要求，您可以使用此頁面來協助確保跨頁面持續追蹤訪客。
 

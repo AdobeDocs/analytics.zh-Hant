@@ -27,7 +27,7 @@ ht-degree: 95%
 
 # Analytics 元件指南
 
-Analytics Components 可協助您微調及啟用資料分析。 元件包括：
+分析元件可協助您微調並強化資料分析。 元件包括：
 
 * **維度：** Adobe Analytics 中可用維度的參考。
 * **量度：** Adobe Analytics 中可用量度的參考。
@@ -48,7 +48,7 @@ Analytics Components 可協助您微調及啟用資料分析。 元件包括：
 >[!ENDSHADEBOX]
 
 
-## 重要 Analytics Components 文章
+## 重要 Analytics 元件文章
 
 * [維度](dimensions/overview.md)
 * [量度](metrics/overview.md)

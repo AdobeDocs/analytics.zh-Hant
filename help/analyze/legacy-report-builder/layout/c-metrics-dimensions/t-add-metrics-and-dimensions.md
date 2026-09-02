@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: 580
 ht-degree: 15%
 
 ---
@@ -58,11 +58,11 @@ ht-degree: 15%
 * 按一下Dimension標籤，然後返回「量度」標籤。
 * 當您叫用其他子表單（模組或無模式）時，這些表單在退出時會返回至「請求精靈：步驟2」。 這些表單的範例包括
 
-   * Dimension篩選器Forms
-   * 日期範圍格式Forms
-   * 格式選項表單
-   * 前置後置文字表單
-   * 輸出範圍位置表單
+  * Dimension篩選器Forms
+  * 日期範圍格式Forms
+  * 格式選項表單
+  * 前置後置文字表單
+  * 輸出範圍位置表單
 
 ## 依量度排序請求
 

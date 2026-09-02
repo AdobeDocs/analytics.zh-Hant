@@ -1,5 +1,5 @@
 ---
-description: 在單一報表套裝中，結合時間戳記與非時間戳記資料。
+description: 在單一報告套裝中，結合時間戳記與非時間戳記資料。
 title: 時間戳記設定
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941

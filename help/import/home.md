@@ -31,7 +31,7 @@ ht-degree: 93%
 
 本指南說明如何將資料匯入 Analytics。 內容包括：
 
-* **[資料來源](data-sources/overview.md)**：將檔案上傳至指定的 Adobe FTP 站台。 Adobe 會擷取檔案，並將資料加入報表套裝中。
+* **[資料來源](data-sources/overview.md)**：將檔案上傳至指定的 Adobe FTP 站台。 Adobe 會擷取檔案，並將資料加入報告套裝中。
 * **[大量資料插入 API](/help/import/bulk-data-insertion-api/bulk-data-insert.md)** 可讓您以批次檔案的方式上傳伺服器呼叫資料，而不需使用 AppMeasurement 等用戶端資料庫。
 * **[資料插入 API](c-data-insertion-api/c-data-insertion-api.md)**：透過 API 直接將資料傳送至 Adobe 的資料收集處。
 * **[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**：尋找擴充 Adobe Analytics 報表套裝的現行整合服務。
@@ -53,5 +53,5 @@ ht-degree: 93%
 
 * [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
 * [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

@@ -1,6 +1,6 @@
 ---
 title: t
-description: 傳送頁面瀏覽數追蹤呼叫給 Adobe。
+description: 傳送頁面檢視追蹤呼叫給 Adobe。
 feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
@@ -49,7 +49,7 @@ s.t();
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20item
 ```
 
-Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參數。 接下來，資料收集伺服器會傳回透明的 1x1 像素影像，利用不可見的方式顯示在您的網站上。
+Adobe 會接收影像要求，然後分析要求標頭、URL 和查詢字串參數。 接下來，資料彙集伺服器會傳回透明的 1x1 像素影像，利用不可見的方式顯示在您的網站上。
 
 ## 使用網頁SDK擴充功能傳送事件
 

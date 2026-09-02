@@ -34,7 +34,7 @@ ht-degree: 94%
 反向連結必須符合下列兩個條件，才能分類為搜尋關鍵字：
 
 * 反向連結網域經 Adobe 認可為有效的[搜尋引擎](search-engine.md)；
-* 反向連結 URL 中有關鍵字查詢字串參數存在。 如果關鍵字查詢字串存在，但不含任何值，則會歸類到維度項目 `"Keyword unavailable"` 下。
+* 反向連結 URL 中存在關鍵字查詢字串參數。 如果關鍵字查詢字串存在，但不含任何值，則會歸類到維度項目 `"Keyword unavailable"` 下。
 
 如果您想要區分付費和免費搜尋，必須使用[付費搜尋偵測](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)。 搜尋關鍵字可使用多個維度：
 

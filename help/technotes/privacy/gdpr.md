@@ -35,7 +35,7 @@ ht-degree: 64%
 
 歐盟通用資料保護規範 (GDPR) 已於 2018 年 5 月 25 日生效。 如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [GDPR 和您的業務](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
-當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。 身為資料處理者，Adobe 會根據貴公司的權限和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
+當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。 身為資料處理者，Adobe 會根據貴公司的許可和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
 
 身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。 如果您使用Adobe CX Enterprise解決方案，Adobe可能會根據您使用的解決方案，以及您選擇傳送至Adobe CX Enterprise帳戶的資訊，為您託管個人資料。 如需範例清單，請參閱[Adobe CX Enterprise隱私權。](https://www.adobe.com/tw/privacy/marketing-cloud.html#collect)
 

@@ -1,6 +1,6 @@
 ---
 title: 月份
-description: 數值的月份，無論年份為何。
+description: 一年中的數值月份，無論是哪一年。
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
 TQID: https://experienceleague.adobe.com/W62Cro1mGRZnEY-v1ilx9Dw1Xu0qR4t-KSVkOpG8RGY

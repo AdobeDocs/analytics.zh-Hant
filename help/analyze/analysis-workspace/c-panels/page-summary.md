@@ -99,7 +99,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 | **[!UICONTROL 頁面檢視次數] - 4 週前** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果顯示此頁面過去一個月的頁面檢視次數。 |
 | **[!UICONTROL 頁面檢視次數] - 52 週前** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)視覺效果顯示此頁面過去一年的頁面檢視次數。 |
 | **[!UICONTROL 趨勢]** | 本月、4 週前及 52 週前的頁面檢視次數趨勢[線](/help/analyze/analysis-workspace/visualizations/line.md)視覺效果。 |
-| **[!UICONTROL 所有頁面檢視次數的百分比]** | 造訪此頁面的所有頁面檢視次數的百分比摘要數字。 |
+| **[!UICONTROL 所有頁面檢視次數的百分比]** | 所有前往此頁面的頁面檢視次數百分比摘要數字。 |
 | **[!UICONTROL 頁面逗留時間]** | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md)視覺效果顯示在此頁面的逗留時間。 |
 | **[!UICONTROL 單次頁面造訪數]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示此頁面是唯一造訪的頁面之頁面檢視次數。 |
 | **[!UICONTROL 重新載入]** | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)顯示重新載入期間維度項目出現的次數。 訪客重新整理瀏覽器是觸發重新載入的最常見方式。 |

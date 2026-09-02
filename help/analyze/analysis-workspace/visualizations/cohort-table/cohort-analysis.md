@@ -66,7 +66,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 * Launch促銷活動專為刺激所需動作而設計。
 * 在客戶生命週期的正確時間轉移行銷預算。
-* 識別何時終止試用版或產品建議，以價值最大化。
+* 識別何時結束試用或產品建議，以將價值最大化。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
 
 [!UICONTROL 同類群組表格]適用於具有[!UICONTROL Analysis Workspace]存取許可權的所有Adobe Analytics客戶。

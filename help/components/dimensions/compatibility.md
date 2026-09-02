@@ -247,7 +247,7 @@ Adobe Social已淘汰。
 | 擁有的屬性名稱 | `socialownedpropertyname` |
 | 擁有的定義屬性與貼文 | `socialowneddefinitionpropertyvspost` |
 | 擁有的定義洞察類型 | `socialowneddefinitioninsighttype` |
-| 擁有的定義分析值 | `socialowneddefinitioninsightvalue` |
+| 擁有的定義洞察值 | `socialowneddefinitioninsightvalue` |
 | 擁有的定義量度 | `socialowneddefinitionmetric` |
 | 資產 | `socialmediaid` |
 
@@ -306,7 +306,7 @@ Adobe Social已淘汰。
 
 ### Nielsen 整合
 
-如需有關如何實作此整合的詳細資訊，請參閱Adobe Exchange上的[Nielsen擴充功能](https://exchange.adobe.com/apps/ec/101361)。
+如需如何實作此整合的詳細資訊，請參閱Adobe Exchange上的[Nielsen擴充功能](https://exchange.adobe.com/apps/ec/101361)。
 
 | 維度名稱 (顯示在 Analytics UI 中) | Dimension ID （用於API請求） |
 |--- |--- |

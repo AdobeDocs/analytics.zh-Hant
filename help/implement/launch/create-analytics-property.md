@@ -26,7 +26,7 @@ ht-degree: 94%
 
 # 建立 Adobe Analytics 標記屬性
 
-Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決方案（包括Analytics）。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實作。
+Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決方案（包括Analytics）。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實施。
 
 ## 先決條件
 
@@ -34,12 +34,12 @@ Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決�
 
 ## 建立標記屬性，並安裝重要擴充功能
 
-屬性是用來管理標記的普遍容器。 擴充功能可讓您安裝產品專屬標記並加以設定。
+屬性是用來管理標記的整體容器。 擴充功能可讓您安裝產品專屬標記並加以設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下 **[!UICONTROL 新增屬性]**。
-1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-1. 按一下您新建立的標記屬性以輸入其設定。
+1. 為屬性命名 (例如您的網站標題)，然後輸入預計實施 Analytics 的網域。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下您新建立的標記屬性以進入其設定。
 1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 目錄]**。
 1. 找出「Experience Cloud ID Service」，然後按一下&#x200B;**[!UICONTROL 安裝]**。
 1. 所有設定（包括IMS組織ID）皆應已填寫。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
@@ -52,7 +52,7 @@ Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決�
 資料元素是網站特定部分的參考，可用來收集變數值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下您打算在您的網站上實作的標記屬性。
+1. 按一下您打算在您的網站上實施的標記屬性。
 1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增資料元素]**。
 1. 為資料元素執行下列設定：
 
@@ -73,12 +73,12 @@ Adobe Experience Platform中的標籤可讓您在網站上整合CX企業解決�
 規則會將資料元素對映至 Analytics 變數值，並決定要在何時將這些值傳送至 Adobe 的伺服器。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下您打算在您的網站上實作的標記屬性。
+1. 按一下您打算在您的網站上實施的標記屬性。
 1. 按一下&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增規則]**。 將其重新命名`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：核心
-   * 事件類型：已載入資料庫 (頁面頂端)
-   * 名稱：核心 - 已載入資料庫 (頁面頂端)
+   * 事件類型：已載入程式庫 (頁面頂端)
+   * 名稱：核心 - 已載入程式庫 (頁面頂端)
 1. 按一下&#x200B;**[!UICONTROL 保留變更]**。
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;項下，按一下&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：Adobe Analytics

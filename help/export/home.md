@@ -1,6 +1,6 @@
 ---
 title: Analytics 匯出指南
-description: 本指南會說明透過資料摘要和 Data Warehouse 將資料匯出 Adobe Analytics 的方法。
+description: 本指南會說明如何使用資料摘要和 Data Warehouse 從 Adobe Analytics 匯出資料。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
 autotag-review: '2026-05-22T11:15:33.108Z'
@@ -53,5 +53,5 @@ ht-degree: 94%
 
 * [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
 * [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

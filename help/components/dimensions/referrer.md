@@ -42,7 +42,7 @@ ht-degree: 96%
 
 要使用此維度，必須在 Analytics 介面中進行設定，且需要影像要求中的資料。
 
-* 在您的實施作業中，此維度會從影像要求中的 [`r` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。 AppMeasurement 會使用 JavaScript 變數 `document.referrer` 在瀏覽器中收集這項資料。 您可使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 變數覆寫以手動設定。 如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `r` 查詢字串參數。
+* 在您的實施作業中，此維度會從影像要求中的 [`r` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。 AppMeasurement 會使用 JavaScript 變數 `document.referrer` 在瀏覽器中收集這項資料。 您可使用 [`referrer`](/help/implement/vars/page-vars/referrer.md) 變數覆寫以手動設定。 如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `r` 查詢字串參數。
 * 在 Analytics 介面中，您必須設定報表套裝的[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 若未設定內部 URL 篩選器，則可能納入內部 URL，或使外部 URL 無法顯示。
 
 ## 維度項目

@@ -18,8 +18,8 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 7%
+source-wordcount: 554
+ht-degree: 8%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 | --- | --- |
 | [購物車新增](/help/components/metrics/cart-additions.md) | `Cart Adds` |
 | [購物車移除](/help/components/metrics/cart-removals.md) | `Cart Removes` |
-| [購物車檢視次數](/help/components/metrics/cart-views.md) | `Cart Views` |
+| [購物車檢視](/help/components/metrics/cart-views.md) | `Cart Views` |
 | [購物車](/help/components/metrics/carts.md) | `Cart Opens` |
 | [結帳](/help/components/metrics/checkouts.md) | `Checkouts` |
 | [自訂事件](/help/components/metrics/custom-events.md) | `Event 1` - `Event 1000` |

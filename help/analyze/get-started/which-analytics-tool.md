@@ -60,7 +60,7 @@ ht-degree: 73%
 
 **[Activity Map](/help/analyze/activity-map/overview.md)** 是 Adobe Analytics 中的一項功能，可提供網頁和行動應用程式上使用者參與度的視覺化表示。 此功能可讓行銷人員和分析師追蹤和分析使用者的互動情形，例如點擊、暫留和捲動行為。
 
-## 將資料匯入 Adobe Analytics 中 {#import}
+## 將資料匯入 Adobe Analytics {#import}
 
 **[分類](/help/components/classifications/classifications-overview.md)**&#x200B;適用於以下情形：
 
@@ -68,7 +68,7 @@ ht-degree: 73%
 
 **[資料來源](/help/import/data-sources/overview.md)**&#x200B;使用時機：
 
-* 有您想要永久寫入 Adobe Analytics 中的離線資料時
+* 當您想要將離線資料永久寫入 Adobe Analytics 時
 * 選項：
   * 摘要：輕鬆上傳資料，按日期或有限的維度
   * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
@@ -99,9 +99,9 @@ ht-degree: 73%
 
 **[Report Builder](/help/analyze/report-builder/rb-overview.md)** 使用時機：
 
-* 若自訂的 Workspace 配置選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
-* 用於將使用者輸入內容或離線資料來源 (印象、費用) 與 Adobe 資料鬆散連結。 連結資料更加持久的解決方案是資料來源 (請參閱〈將資料匯入 Analytics〉)。
-* 用於合併來自不同維度報告的資料 (例如，將促銷印象報告與促銷一鍵轉換報告合併).
+* 若自訂的工作區配置選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
+* 用於將使用者輸入內容或離線資料來源 (印象、成本) 與 Adobe 資料鬆散連結。 連結資料更加持久的解決方案是資料來源 (請參閱〈將資料匯入 Analytics〉)。
+* 用於合併來自不同維度報告的資料 (例如，將促銷印象報告與促銷點按至轉換報告合併)。
 * 若要合併不同報告套裝的資料，可在同一表格中併排匯總或顯示。
 * 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT)。
 
@@ -110,7 +110,7 @@ ht-degree: 73%
 * 若要存取隱藏在其他 UI 中的變數 (IP 位址、Experience Cloud ID、Analytics 訪客 ID、頁面 URL)
 * 存取比UI更精細的資料（非標準化表格檢視）
 * 若要以適合樞紐分析表輸入的格式下載資料
-* 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到協力廠商資料視覺化工具中時
+* 若客戶想要將 Adobe 資料輸入到協力廠商資料視覺化工具中 (資料會稍微摘要過，而不是點擊層級)
 * 若要在 Adobe Analytics 遇上「低流量」狀態時存取所有不重複維度項目
 
 **[Analytics 資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;使用時機：

@@ -30,7 +30,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_button"
 >title="流量"
->abstract="建立視覺效果以查看從某一接觸點到下一個接觸點的人員流量。"
+>abstract="建立視覺效果以查看從某一檢查點到下一個檢查點的人員流量。"
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
@@ -51,7 +51,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 透過視覺效果可以：
 
 * 將透過您網站或應用程式的客戶歷程以視覺效果呈現。
-* 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置。
+* 分析客戶在所指定檢查點 (例如進入、特定維度或退出) 之前和之後的前往位置。
 * 指定選定路徑中的特定點，建立區段。
 
 
@@ -65,7 +65,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 ## 維度間流程
 
-您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。 例如，您可以在一個圖表中結合頁面和部門。 在此例中，您的流量可能來自首頁、前往「男士」頁面，接著前往「鞋子」部門。
+您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。 例如，您可以在一個圖表中結合頁面和部門。 在此例中，您的流量可能從首頁前往「男士」頁面，接著前往「鞋子」部門。
 
 每一欄可顯示不同的維度。 拖曳一個維度，並將它拖放至空投區，以便將該維度新增至圖表中。
 

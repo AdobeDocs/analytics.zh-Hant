@@ -52,7 +52,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 >
 >直方圖僅支援標準量度，不支援計算量度。
 
-在下列範例中，直方圖用於人數的貯體工作階段。 直方圖顯示大多數人在選取的日期範圍內的確有 16 至 21 個工作階段。
+在下列範例中，直方圖用於依人數將工作階段分組到各個桶中。 直方圖顯示大多數人在選取的日期範圍內的確有 16 至 21 個工作階段。
 
 ![](assets/histogram.png)
 
@@ -78,5 +78,8 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 >[!MORELIKETHIS]
 >
->[將視覺效果新增至面板視覺效果設定視覺效果內容功能表使用直方圖識別非預期的資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=zh-Hant)
+>[將視覺效果新增至面板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[視覺效果內容功能表](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[使用直方圖識別非預期的資料值](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=zh-Hant)
 

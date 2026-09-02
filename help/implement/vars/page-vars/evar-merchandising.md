@@ -34,11 +34,11 @@ ht-degree: 90%
 
 ## 在報表套裝設定中設定 eVar
 
-在實作中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
+在實施中使用 eVar 之前，請務必在報告套裝設定中設定所需語法的 eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >
->若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。 請確定您的實施作業已正確加以設定。
+>若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。 請確定已針對您的實施作業正確設定該 eVar。
 
 ## 使用產品語法進行實施作業
 
@@ -105,7 +105,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 ## 使用轉換變數語法進行實施作業
 
-無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。 這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。 在這種情況下，您可在到達產品頁面前先設定銷售變數，而值需持續到綑綁事件發生為止。
+無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。 這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。 在這種情況下，您可在到達產品頁面前先設定銷售變數，而該值會持續保留，直到繫結事件發生為止。
 
 當設定期間選取的綁定事件發生時，eVar 的持續值與產品相關。 例如，如果將 `prodView` 指定為綑綁事件，銷售類別只有在事件發生時才繫結至目前的產品清單。 只有後續綁定事件才能更新已指派給產品的銷售 eVar。
 
@@ -127,7 +127,7 @@ s.products = ";Canary";
 
 如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則語法的運作方式與實作其他[eVars](evar.md)和[events](events/events-overview.md)類似。 鏡像上述範例的 XDM 如下所示：
 
-在相同或上一個事件呼叫上設定 eVar：
+在相同或前一次事件呼叫中設定 eVar：
 
 ```json
 "_experience": {
@@ -158,7 +158,7 @@ s.products = ";Canary";
 
 如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，映象上述範例的資料物件會如下所示：
 
-在相同或上一個事件呼叫上設定 eVar：
+在相同或前一次事件呼叫中設定 eVar：
 
 ```json
 "data": {

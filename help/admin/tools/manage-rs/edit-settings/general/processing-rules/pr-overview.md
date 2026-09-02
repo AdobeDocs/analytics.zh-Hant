@@ -1,5 +1,5 @@
 ---
-description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
+description: 處理規則可簡化資料彙集，以及管理傳送至報告的內容。
 subtopic: Processing rules
 title: 處理規則概觀
 feature: Processing Rules

@@ -1,6 +1,6 @@
 ---
 title: 對行動裝置實施 Analytics
-description: 決定要使用的行動 AppMeasurement 資料庫。
+description: 決定要使用哪個行動 AppMeasurement 程式庫。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
 role: Admin, Developer, Leader, User

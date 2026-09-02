@@ -77,7 +77,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="不存在"
->abstract="合併分類集而非來源分類集中索引鍵的百分比。"
+>abstract="合併分類集中有、但來源分類集中沒有的索引鍵百分比。"
 
 若要編輯分類合併，請在Adobe Analytics主介面中：
 

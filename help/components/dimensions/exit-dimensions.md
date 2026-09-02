@@ -1,7 +1,7 @@
 ---
 title: 退出維度
 description: 列出退出維度及其使用情形。
-keywords: 退出頁面, 退出網站區域, 退出伺服器, 退出自訂洞察
+keywords: 退出頁面、退出網站區段、退出伺服器、退出自訂洞察
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 TQID: https://experienceleague.adobe.com/YRjvhW8OzBlip9ok0-1D4rYSljkccpIAlDkqCQv7nyo
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 ## 將資料填入退出維度中
 
-指定的退出維度以其相關聯的流量變數為基礎。 如果非退出變數有資料，則其相關聯的退出維度也會包含資料。 如果您的流量變數包含資料，即無須對退出維度進行實作變更。
+指定的退出維度以其相關聯的流量變數為基礎。 如果非退出變數有資料，則其相關聯的退出維度也會包含資料。 如果您的流量變數包含資料，即無須對退出維度進行實施變更。
 
 ## 維度項目
 

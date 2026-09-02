@@ -78,14 +78,14 @@ Advertising Analytics將下列維度和量度新增至Analysis Workspace、Repor
 
 | 分類（維度）名稱 | 定義 |
 | --- | --- |
-| **[!UICONTROL 關鍵字MatchType (AMO ID)]** | 關鍵字元合型別。 值通常會是廣泛、確切的詞句；如果沒有符合類型的廣告類型，則沒有值。 |
+| **[!UICONTROL 關鍵字MatchType (AMO ID)]** | 關鍵字元合型別。 值通常會是廣泛、詞組、完全比對；如果廣告類型沒有比對類型，則沒有值。 |
 | **[!UICONTROL 廣告平台(AMO ID)]** | 搜尋引擎名稱。 值可以包括「Google AdWords」或「Microsoft Bing Ads」。 |
 | **[!UICONTROL 帳戶(AMO ID)]** | 被追蹤的搜尋引擎帳戶名稱。 |
 | **[!UICONTROL 行銷活動(AMO ID)]** | 搜尋引擎帳戶中的行銷活動名稱。 |
 | **[!UICONTROL 廣告群組(AMO ID)]** | 搜尋引擎促銷活動中的廣告群組名稱。 |
 | **[!UICONTROL 廣告(AMO ID)]** | 廣告上使用的廣告標題+廣告說明。 |
 | **[!UICONTROL 關鍵字(AMO ID)]** | 來自您搜尋引擎帳戶的「關鍵字」值。 |
-| **[!UICONTROL 符合型別(AMO ID)]** | 關鍵字元合指派給您的關鍵字的型別。 值通常會是廣泛、確切的詞句；如果沒有符合類型的廣告類型，則沒有值。 |
+| **[!UICONTROL 符合型別(AMO ID)]** | 關鍵字元合指派給您的關鍵字的型別。 值通常會是廣泛、詞組、完全比對；如果廣告類型沒有比對類型，則沒有值。 |
 | **[!UICONTROL 廣告型別(AMO ID)]** | 投放的廣告類型，通常為「文字廣告」。 |
 | **[!UICONTROL 廣告標題(AMO ID)]** | 您的廣告中使用的標題物件。 |
 | **[!UICONTROL 廣告說明(AMO ID)]** | 廣告中使用的廣告說明物件。 |

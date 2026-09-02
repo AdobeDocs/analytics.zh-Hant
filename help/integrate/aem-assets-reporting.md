@@ -33,8 +33,8 @@ ht-degree: 94%
 啟用 Analytics，收集由 AEM Asset Insights 提供的[!UICONTROL 資產]的曝光數與點按數。 此整合
 
 * 啟用Analytics中的報告。
-* 將維度新增至 Analysis Workspace 中的資產變數：資產 ID、資產來源和已點選的資產 ID
-* 將維度新增至資產事件：資產點按次數和資產曝光數
+* 將新的維度新增至 Analysis Workspace 中的資產變數：資產 ID、資產來源和已點選的資產 ID
+* 將新的維度新增至資產事件：資產點按次數和資產曝光數
 
 對於要填入的資料，請參閱 [AEM Asset Insights 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html?lang=zh-Hant)以了解完整的實作指示。
 

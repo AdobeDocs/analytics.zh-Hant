@@ -34,7 +34,7 @@ Microsoft Power BI 是一套商業分析儀表板，可分析資料及共用洞�
 
 身為分析師，您可使用電子郵件或 ftp 為 Report Builder 活頁簿分發建立排程。 現在，您可以讓企業相關人士在各種平台與裝置皆可使用的網頁式環境中，存取 (從其 Power BI 帳戶內部) 精確且最新的資料。
 
-結合 Report Builder 的報告產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。 使用 Power BI，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM 來源)，以發掘不重複客戶分析資料、關聯及商機。
+結合 Report Builder 的報告產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。 使用 Power BI，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM 來源)，以發掘獨特的客戶洞察、關聯及商機。
 
 ![Microsoft Power BI 圖示加上 Adob&#x200B;&#x200B;e Analytics 圖示的圖表。](assets/aaplusbi.png)
 
@@ -79,7 +79,7 @@ Microsoft Power BI 是一套商業分析儀表板，可分析資料及共用洞�
 >
 >如果活頁簿含有巨集，系統將會停用「以 Power BI 資料集表格形式發佈活頁簿中所有格式化表格」功能。
 
-您可以只匯入活頁簿中所有格式化表格的內容，不能匯入整個活頁簿。
+您可以不匯入整個活頁簿，而只匯入活頁簿中所有格式化表格的內容。
 
 **使用案例**：您有 Excel 活頁簿，可從多個 Report Builder 請求帶入資料，也可建立含有大量公式的摘要表格。 您只能將摘要表格匯入Power BI並為其建立視覺效果。
 

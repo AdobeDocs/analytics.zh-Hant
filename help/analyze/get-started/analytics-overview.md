@@ -67,7 +67,7 @@ Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲�
 
 ## 進一步探討 Customer Journey Analytics
 
-Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。 這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Platform 掌握各種資料結構描述和類型的能力。
+Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓您可搭配 Adobe Experience Platform 的資料運用 Analysis Workspace 的強大功能。 這能協助您劃分、篩選、查詢及視覺化多年累積的資料，並結合 Adobe Experience Platform 容納各種資料結構描述和類型的能力。
 
 以下是 Customer Journey Analytics 相對於 Adobe Analytics 的一些優勢：
 

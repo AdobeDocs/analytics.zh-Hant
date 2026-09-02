@@ -78,10 +78,10 @@ ht-degree: 18%
 
 **驗證**
 
-使用 Developer Console 網路標記進行互動呼叫：
+使用 Developer Console 網路索引標籤進行互動呼叫：
 
 1. 在網站上載入開發啟動指令碼。
-1. 在點選元素後，在「網路」標記中搜尋 &#39;/ee&#39;
+1. 按一下元素時，在「網路」索引標籤中搜尋 &#39;/ee&#39;
 
 Adobe Experience Platform Debugger：
 

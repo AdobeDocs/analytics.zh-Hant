@@ -33,7 +33,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="workspace_fallout_button"
 >title="流失"
->abstract="建立視覺效果以查看人們如何成功前進至所需的接觸點。"
+>abstract="建立視覺效果以查看人們如何成功前進至所需的檢查點。"
 
 <!-- markdownlint-enable MD034 -->
 

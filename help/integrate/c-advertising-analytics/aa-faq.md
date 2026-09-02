@@ -23,7 +23,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1298
+source-wordcount: 1299
 ht-degree: 14%
 
 ---
@@ -142,7 +142,7 @@ Advertising Analytics運用一系列自訂API，將資料從搜尋引擎透過Ad
 
 +++ 何時會將搜尋資料提取至Analytics？ 
 
-系統會從搜尋引擎提取搜尋資料，提取時間大約是在您所屬Analytics資料中心當地時區的上午6點(06:00)。 這也是收集 AMO 資料並將其插入報表套裝的時間。 該資料接著會在資料插入 Analytics 的過程中轉換為報表套裝的時區。
+系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬Analytics資料中心當地時區的上午6點(06:00)。 這也是收集 AMO 資料並將其插入報告套裝的時間。 該資料接著會在資料插入 Analytics 的過程中轉換為報告套裝的時區。
 
 +++
 
@@ -162,7 +162,7 @@ AMO ID也會從登陸頁面上該頁面點選的擷取（這會將此ID連結至
 
 +++ 我們是否僅擷取google.com或&#x200B;*國家/地區版本* （例如google.co.uk、google.it、google.fr或google.de）？ 
 
-「廣告平台」分類會擷取「Google Adwords」和「Bing Ads」等值。 常用的最佳作法就是將國碼納入行銷活動命名的一部分。 接著，您就可以往下篩選或區隔 (例如，如果所有的行銷活動是以 countrycode_ 開頭，您可建立一個區段，讓其中的行銷活動 (AMO ID) 是以「UK_」為開頭，就能取得英國的資料)。
+「廣告平台」分類會擷取「Google Adwords」和「Bing Ads」等值。 常用的最佳做法就是將國碼納入行銷活動命名的一部分。 接著，您就可以往下篩選或區隔 (例如，如果所有的行銷活動是以 countrycode_ 開頭，您可建立一個區段，讓其中的行銷活動 (AMO ID) 是以「UK_」為開頭，就能取得英國的資料)。
 
 +++
 

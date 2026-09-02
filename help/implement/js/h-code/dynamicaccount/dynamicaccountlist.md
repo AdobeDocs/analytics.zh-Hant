@@ -1,6 +1,6 @@
 ---
 title: dynamicAccountList
-description: 建立邏輯，讓實施根據此邏輯決定其報表套裝。
+description: 建立邏輯，讓實施根據此邏輯決定其報告套裝。
 feature: Implementation Basics
 exl-id: ccff24a1-4b9a-4f62-adb5-09ab60e9b93e
 role: Developer
@@ -28,9 +28,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->動態帳戶僅支援使用舊版 JavaScript 實作 (H Code)。 目前的AppMeasurement資料庫或Adobe Experience Platform資料彙集中不支援這些變數。
+>動態帳戶僅支援使用舊版 JavaScript 實作 (H 程式碼)。 目前的AppMeasurement資料庫或Adobe Experience Platform資料彙集中不支援這些變數。
 
-`s.dynamicAccountList` 變數會以動態方式決定 `s_account` 的值。 如果 `dynamicAccountSelection` 設為 `true`，則會比較 `dynamicAccountMatch` 變數與 `dynamicAccountList`。 如果找到相符項目，則會使用相符的報表套裝 ID。
+`s.dynamicAccountList` 變數會以動態方式決定 `s_account` 的值。 如果 `dynamicAccountSelection` 設為 `true`，則會比較 `dynamicAccountMatch` 變數與 `dynamicAccountList`。 如果找到相符項目，則會使用相符的報告套裝 ID。
 
 ## 語法
 
@@ -42,7 +42,7 @@ s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 
 有效的輸入項目是以分號分隔的 rsid 和值配對清單。 每個清單都包含下列項目：
 
-* 一或多個報表套裝 ID (以逗號分隔)
+* 一或多個報告套裝 ID (以逗號分隔)
 * 一個等號
 * 要比對的一或多個字串 (以逗號分隔)
 

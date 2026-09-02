@@ -19,7 +19,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 626
 ht-degree: 78%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 78%
 
 此資料表中大部分的資料物件欄位都對應至[對應的XDM欄位](xdm-var-mapping.md)。 在Adobe Analytics擷取期間，值會先從XDM對應至Analytics變數。 可辨識的資料物件欄位會接著進行對應，並在對應至相同Analytics變數時覆寫先前設定的任何值。 例如，如果`data.__adobe.analytics.events`存在，則會取代原本衍生自XDM的整個事件集；事件不會跨兩個來源合併。 資料物件欄位中的空白字串(`""`)會遮蔽其點選對應的Analytics變數，即使對應的XDM欄位包含值亦然。
 
-某些資料物件欄位亦支援其對應的[查詢參數值](../validate/query-parameters.md)作為簡寫值。 只要對應到的變數是唯一的，您可以互換使用標準資料物件欄位與簡寫資料物件欄位。 請避免同時設定標準資料物件欄位及其對應的簡寫資料物件欄位。 Adobe 無法保證哪一個欄位會具有優先順序。
+某些資料物件欄位亦支援其對應的[查詢參數值](../validate/query-parameters.md)作為簡寫值。 只要對應到的變數是唯一的，您可以互換使用標準資料物件欄位與簡寫資料物件欄位。 請避免同時設定標準資料物件欄位及其對應的簡寫資料物件欄位。 Adobe 無法保證哪一個欄位會優先採用。
 
 ## 資料物件欄位對應
 

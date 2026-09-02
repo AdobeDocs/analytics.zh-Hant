@@ -1,5 +1,5 @@
 ---
-description: 可讓您在 Adobe Analytics 使用者介面中隱藏報表套裝。
+description: 可讓您在 Adobe Analytics 使用者介面中隱藏報告套裝。
 keywords: 刪除報表套裝
 title: 隱藏報表套裝
 feature: Company Settings
@@ -26,7 +26,7 @@ ht-degree: 67%
 
 # 隱藏報表套裝
 
-可讓您在 Adobe Analytics 使用者介面中隱藏報表套裝。
+可讓您在 Adobe Analytics 使用者介面中隱藏報告套裝。
 
 如果您不希望報表套裝再可供您及您的使用者使用，可以將其隱藏起來，不讓檢視。 您可能想要隱藏該報表套裝的可能原因包括：實作變更，或某人建立的報表套裝有誤。
 
@@ -34,7 +34,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->系統會繼續收集、處理從您的網站傳送給隱藏報表套裝的資料，並據此計費。 換句話說，報表套裝不會被完全刪除。
+>系統會繼續收集、處理從您的網站傳送給隱藏報告套裝的資料，並據此計費。 換句話說，報告套裝不會被完全刪除。
 
 若要隱藏報表套裝，請前往 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 隱藏報表套裝]**。 勾選報表套裝名稱左側的&#x200B;**[!UICONTROL 「隱藏」]**&#x200B;核取方塊。
 

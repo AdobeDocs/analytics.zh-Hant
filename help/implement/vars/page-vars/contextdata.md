@@ -29,11 +29,11 @@ ht-degree: 64%
 
 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。 您可以在上下文資料變數中傳送資料，而不必在程式碼中明確指派 Analytics 變數的值。 處理規則接著會取用上下文資料變數值，再傳遞至個別的 Analytics 變數。 請參閱「管理員使用指南」中的[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)。
 
-上下文資料變數有助於開發團隊收集命名元素中的資料，而非編號變數。 例如，與其要求開發團隊將頁面的作者指派給 `eVar10`，不如要求將頁面作者指派給 `s.contextData["author"]`。 接下來，貴組織中的 Analytics 管理員就可以建立處理規則，將上下文資料變數與分析變數對應，以便進行報告。 開發團隊最終只需擔心上下文資料變數，不必擔心Adobe提供的許多頁面變數。
+上下文資料變數有助於開發團隊收集命名元素中的資料，而非編號變數。 例如，與其要求開發團隊將頁面的作者指派給 `eVar10`，不如要求將頁面作者指派給 `s.contextData["author"]`。 接下來，貴組織中的 Analytics 管理員就可以建立處理規則，將上下文資料變數對應至 Analytics 變數，以便進行報告。 開發團隊最終只需擔心上下文資料變數，不必擔心Adobe提供的許多頁面變數。
 
 所有內容資料變數的大小上限（包括索引鍵和值）為32 KB。
 
-## 使用 Web SDK 的內容資料變數
+## 使用 Web SDK 的上下文資料變數
 
 如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則所有未對應至Adobe Analytics變數的欄位都會自動納入為內容資料變數。 您也可以使用XDM物件明確設定內容資料。 然後您可以使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)將內容資料變數指派給所需的Analytics變數。  如需詳細資訊，請參閱[將其他XDM欄位對應到Analytics變數](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
 
@@ -78,7 +78,7 @@ s.contextData["example_variable"] = "Example value";
 
 >[!WARNING]
 >
->處理規則執行後，上下文資料變數便會遭到捨棄。 如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
+>處理規則執行後，上下文資料變數便會遭到捨棄。 如果您沒有啟用會將值放入變數中的處理規則，該資料將會永久遺失！
 
 1. 請更新您的實施以設定上下文資料變數名稱和值。
 2. 登入Adobe Analytics並移至&#x200B;**[!UICONTROL 管理員]** > **[!UICONTROL 報表]**&#x200B;套裝。
@@ -98,7 +98,7 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## 使用內容資料變數的增加事件
+## 使用上下文資料變數增加事件
 
 建立處理規則時，您可以為事件指派內容資料變數。
 

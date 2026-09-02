@@ -1,5 +1,5 @@
 ---
-title: 單頁造訪次數 (量度)
+title: 單次頁面造訪次數 (量度)
 description: 「頁面」維度項目在造訪中未變更的次數。
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf

@@ -28,9 +28,9 @@ ht-degree: 88%
 
 * 權限
 
-   * [Adobe Analytics 產品設定檔](/help/admin/admin-console/permissions/product-profile.md)
-   * [報告套裝工具的產品設定檔權限](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Analytics 工具的產品設定檔權限](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Adobe Analytics 產品設定檔](/help/admin/admin-console/permissions/product-profile.md)
+  * [報告套裝工具的產品設定檔權限](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Analytics 工具的產品設定檔權限](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## 在 Adobe Analytics 中新增管理員
 

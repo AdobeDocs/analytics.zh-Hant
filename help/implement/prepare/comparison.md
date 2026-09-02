@@ -1,6 +1,6 @@
 ---
 title: 比較實施方法
-description: 查看發送資料至 Adobe Analytics 的每種方法優點。
+description: 查看每種將資料傳送至 Adobe Analytics 的方法的優點。
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader

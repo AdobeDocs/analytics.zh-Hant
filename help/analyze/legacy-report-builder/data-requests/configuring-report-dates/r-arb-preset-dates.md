@@ -1,5 +1,5 @@
 ---
-description: '預設日期可讓您選擇常用日期或您以儲存的日期。 在「請求精靈: 步驟 1」中選擇預設日期。 以下是 Report Builder 中預設日期的欄位定義。'
+description: '預設日期可讓您選擇常用日期或您已儲存的日期。 在「請求精靈: 步驟 1」中選擇預設日期。 以下是 Report Builder 中預設日期的欄位定義。'
 title: 請求精靈定義 - 預設日期
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
@@ -28,7 +28,7 @@ ht-degree: 65%
 
 {{legacy-arb}}
 
-預設日期可讓您選擇常用日期或您以儲存的日期。 在「請求精靈: 步驟 1」中選擇預設日期。 以下是 Report Builder 中預設日期的欄位定義。
+預設日期可讓您選擇常用日期或您已儲存的日期。 在「請求精靈: 步驟 1」中選擇預設日期。 以下是 Report Builder 中預設日期的欄位定義。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 

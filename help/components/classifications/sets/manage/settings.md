@@ -38,11 +38,11 @@ ht-degree: 2%
    1. 新增一或多個&#x200B;**[!UICONTROL 標籤（選擇性）]**&#x200B;至分類設定。 從&#x200B;**[!UICONTROL 標籤]**&#x200B;下拉式功能表中選取現有標籤，或輸入新標籤。 使用![CrossSize100](/help/assets/icons/CrossSize100.svg)移除標籤。
    1. 在&#x200B;**[!UICONTROL 工作通知]**&#x200B;區段中，選取分類集工作失敗或成功時要通知的對象。
       * 若要通知使用者發生失敗：
-         1. 啟用&#x200B;**[!UICONTROL 失敗時通知]**。
-         1. 在&#x200B;**[!UICONTROL 失敗電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
+        1. 啟用&#x200B;**[!UICONTROL 失敗時通知]**。
+        1. 在&#x200B;**[!UICONTROL 失敗電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
       * 若要通知使用者成功：
-         1. 啟用&#x200B;**[!UICONTROL 成功時通知]**。
-         1. 在&#x200B;**[!UICONTROL 成功電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
+        1. 啟用&#x200B;**[!UICONTROL 成功時通知]**。
+        1. 在&#x200B;**[!UICONTROL 成功電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
    1. 編輯&#x200B;**[!UICONTROL 訂閱]**。
       * 您可以定義多個&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;組合至一個分類集。
       * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。

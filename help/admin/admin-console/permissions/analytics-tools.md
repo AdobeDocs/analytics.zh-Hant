@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f2ebe32aed6555a81f9d51e10a297679df5b8d4c
 workflow-type: tm+mt
 source-wordcount: 552
-ht-degree: 58%
+ht-degree: 59%
 
 ---
 
@@ -53,7 +53,7 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 | [!UICONTROL 目前資料] | 未使用 |
 | [!UICONTROL 資料控管和隱私權標籤UI存取權] | 授予「管理員>資料控管隱私權標籤」的存取權。 |
 | [!UICONTROL Excel 授權用戶] | 未使用 |
-| [!UICONTROL 隱藏報表套裝] | 授與「管理員 > 所有管理員 > 公司設定 > 隱藏報告套裝」的存取權。 授與隱藏組織中任何報告套裝的能力，不論組織對報告套裝是否具備存取權。 |
+| [!UICONTROL 隱藏報表套裝] | 授與「管理員 > 所有管理員 > 公司設定 > 隱藏報告套裝」的存取權。 授與隱藏組織中任何報告套裝的能力，不論其報告套裝存取權為何。 |
 | [!UICONTROL 整合 (建立)] | 未使用 |
 | [!UICONTROL 整合 (更新)] | 未使用 |
 | [!UICONTROL 整合 (刪除)] | 未使用 |

@@ -56,7 +56,7 @@ End Sub
 
 ## `RefreshAllReportBuilderRequestsInActiveWorksheet()`
 
-`RefreshAllReportBuilderRequestsInActiveWorksheet()` 巨集會重新整理作用中工作表裡所有的 Report Builder 請求。 `RefreshWorksheetRequests()` API 呼叫會將工作表物件視為引數。 您可以對任何包含 Report Builder 請求的任何工作表使用此呼叫：
+`RefreshAllReportBuilderRequestsInActiveWorksheet()` 巨集會重新整理作用中工作表裡所有的 Report Builder 請求。 `RefreshWorksheetRequests()` API 呼叫會將工作表物件視為引數。 您可以對任何包含 Report Builder 請求的工作表使用此呼叫：
 
 ```vba
 Sub RefreshAllReportBuilderRequestsInActiveWorksheet()

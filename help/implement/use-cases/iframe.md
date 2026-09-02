@@ -25,7 +25,7 @@ ht-degree: 95%
 
 # 搭配 iframe 使用 AppMeasurement
 
-您可以參照來自下層和上層 iframe 的 AppMeasurement 變數。 您必須在 AppMeasurement 資料庫存在的相同位置定義所有變數。 以下範例說明如何在 iframe 內外設定基本 AppMeasurement 變數和方法。
+您可以參照來自下層和上層 iframe 的 AppMeasurement 變數。 您必須在 AppMeasurement 程式庫所在的相同位置定義所有變數。 以下範例說明如何在 iframe 內外設定基本 AppMeasurement 變數和方法。
 
 如果您使用 Adobe Experience Platform 中的標記，請確定追蹤器物件可在全域範圍存取。 請參閱「[Adobe Analytics 擴充功能概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)」。
 

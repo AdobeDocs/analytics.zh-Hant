@@ -35,7 +35,7 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實施作業或標記。 它會運用您現有的 Adobe Analytics 實作。 若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。 它會運用您現有的 Adobe Analytics 實施。 若要設定即時報表，請參閱[即時報表設定](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md)。
 
 ## 存取即時報表
 
@@ -77,7 +77,7 @@ ht-degree: 41%
 
 Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中遇到 5 至 10 分鐘的額外延遲。 增加此延遲可使 Analytics 和 [!DNL Target] 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
 
-此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報表)，且適用於下列情況：
+此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報告)，且適用於下列情況：
 
 * 對於即時資料流、即時報表和API請求，以及流量變數的目前資料，只有具有補充資料ID的點選會延遲。
 * 對於轉換量度、最終完成的資料和資料摘要的目前資料，所有點選都會額外延遲5至7分鐘。

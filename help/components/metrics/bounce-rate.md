@@ -1,6 +1,6 @@
 ---
 title: 跳出率
-description: 含有單一點擊的造訪次數與登入次數之間的比率。
+description: 含有單一點擊的造訪次數與進入次數之間的比率。
 feature: Metrics
 exl-id: 2d4929df-3843-4ad2-abe6-5c01d3eac557
 TQID: https://experienceleague.adobe.com/TRE4By1InQuDG5bT91f5KQB1izFvM2m3HKS2Lw2v9ds

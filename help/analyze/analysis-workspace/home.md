@@ -1,6 +1,6 @@
 ---
 title: Analysis Workspace 概觀
-description: 了解關於 Adobe Analytics 的首要分析工具 Analysis Workspace。 使用專案、面板、表格、視覺效果及其他元件來生動地呈現資料，並組織及共用您的分析。
+description: 了解 Analysis Workspace，它是 Adobe Analytics 的首要分析工具。 使用專案、面板、表格、視覺效果及其他元件來生動地呈現資料，並組織及共用您的分析。
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
@@ -72,7 +72,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 
 Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺化呈現和元件中的內容選單來使用。
 
-也可以透過 Workspace 選單和快速鍵或快捷鍵使用功能。 快捷鍵根據瀏覽器執行的作業系統而有所不同。 請參閱下表以了解概觀。
+也可以透過工作區選單和快速鍵或快捷鍵使用功能。 快捷鍵根據瀏覽器執行的作業系統而有所不同。 請參閱下表以了解概觀。
 
 請注意，您的鍵盤上可能使用下列符號：
 
@@ -142,7 +142,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 | **[!UICONTROL 影片]** | 在新的瀏覽器分頁中開啟 Customer Journey Analytics YouTube 頻道。 |
 | **[!UICONTROL 說明文件]** | 開啟檔案（您正在閱讀中……） 在新的瀏覽器標籤中。 |
 | **[!UICONTROL 說明論壇]** | 在新的瀏覽器分頁中開啟 Adobe Analytics Experience League 社群論壇。 |
-| **[!UICONTROL 快速鍵]** | 顯示可在 Workspace 使用的快捷鍵 (快速鍵) 概觀。 |
+| **[!UICONTROL 快速鍵]** | 顯示可在工作區使用的快捷鍵 (快速鍵) 概觀。 |
 | **[!UICONTROL 啟用偵錯工具]** | 啟用偵錯工具。 您的專案將重新載入。 |
 | **[!UICONTROL 停用偵錯工具]** | 停用偵錯工具。 您的專案將重新載入。 |
 | **[!UICONTROL 效能]** | 顯示一個展示 **[!UICONTROL Analysis Workspace 效能]**&#x200B;相關量度的對話框。 使用&#x200B;**[!UICONTROL 下載為 CSV]**&#x200B;下載效能量度的 CSV 檔案。 |
@@ -159,7 +159,7 @@ Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺�
 
 1. 使用您的Adobe ID認證登入[Adobe CX Enterprise](https://experience.adobe.com)。
 1. 在介面右上方選取 **[!UICONTROL Customer Journey Analytics]** (透過應用程式切換器![應用程式](/help/assets/icons/Apps.svg))。
-1. 預設顯示 Analysis Workspace **[!UICONTROL 專案]**&#x200B;頁面。 如果已為您選取特定專案或有您近期持續進行的專案，則預設顯示該專案。
+1. 預設顯示 Analysis Workspace **[!UICONTROL 專案]**&#x200B;頁面。 如果已為您選取特定專案，或您最近一直在處理某個專案，則預設顯示該專案。
 
 ### 建立專案
 

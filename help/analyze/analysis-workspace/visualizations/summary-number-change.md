@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: 546
 ht-degree: 61%
 
 ---
@@ -102,7 +102,7 @@ The green and red color of the Summary Change can be controlled through [custom 
 | 選項 | 定義 |
 |--- |--- |
 | **[!UICONTROL 顯示百分比變更]** | 顯示 2 個數字之間的百分比變化。 |
-| **[!UICONTROL 顯示原始差異]** | 顯示 2 個數字之間的原始差異。 您也可以縮簡值，使用此選項顯示最多小數點後 3 位。 |
+| **[!UICONTROL 顯示原始差異]** | 顯示 2 個數字之間的原始差異。 您也可以縮寫值，並使用此選項顯示最多 3 位小數。 |
 | **[!UICONTROL 縮簡值]** | 請選取「**[!UICONTROL 縮簡值]**」以智慧的方式縮減變更的值。 選取後，請輸入一個數字來定義縮簡的總數。 例如：<br/><table><tr><td>**原始值**</td><td>**縮簡值**</td><td>**結果**</td></tr><tr><td>$12,011,141.25</td><td>未選取</td><td  align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>已選取，設定為 `0`</td><td align="right">$12,000,000</td></tr><tr><td>$12,011,141.25</td><td> 已選取，設定為 `1`</td><td  align="right">$12,000,000</td></tr><tr><td>$12,011,141.25</td><td>已選取，設定為 `2`</td><td align="right">$12,010,000</td></tr><tr><td>$12,011,141.25</td><td>已選取，設定為 `3`</td><td align="right">$12,011,000</td></tr></table> |
 
 >[!MORELIKETHIS]

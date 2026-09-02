@@ -20,7 +20,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 898
+source-wordcount: 908
 ht-degree: 30%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 30%
 
 ## 內容選單
 
-作為視覺效果的一部分，可使用特定內容選單選項。
+在此視覺效果中，可使用特定的內容選單選項。
 
 ### 存取內容功能表
 

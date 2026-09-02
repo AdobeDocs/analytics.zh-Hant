@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 251
-ht-degree: 96%
+source-wordcount: 235
+ht-degree: 95%
 
 ---
 
@@ -47,4 +47,4 @@ ht-degree: 96%
 
 
 1. 選取先前版本並按一下「**[!UICONTROL 載入]**」。
-先前版本然後載入通知。 在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。 如果您離開已載入的版本，當您再次想要開啟先前的版本時，您會看到最後儲存的版本。
+接著會載入先前的版本，並顯示通知。 在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。 如果您離開已載入的版本，當您再次想要開啟先前的版本時，您會看到最後儲存的版本。

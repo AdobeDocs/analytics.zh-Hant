@@ -35,9 +35,9 @@ ht-degree: 80%
 
 ## Proxy 造成的問題 {#proxy}
 
-向 Adobe 提出請求時，Adobe 會使用授權標頭。 某些 Proxy (例如 Edge Secure Web Gateway (先前稱為 Bluecoat)) 會去除 Adobe Analytics 所使用的關鍵授權標頭資訊。 當 Adobe 沒有看到授權標題，工作階段便會過期。
+向 Adobe 提出請求時，Adobe 會使用授權標頭。 某些 Proxy (例如 Edge Secure Web Gateway (先前稱為 Bluecoat)) 會去除 Adobe Analytics 所使用的關鍵授權標頭資訊。 當 Adobe 沒有看到授權標頭，工作階段便會過期。
 
-為解決此問題，Adobe 建議與貴組織的 IT 團隊合作，允許授權標頭通過貴組織的 Proxy。
+為解決此問題，Adobe 建議與貴組織的 IT 團隊合作，允許授權標頭通過貴組織的代理伺服器。
 
 >[!NOTE]
 >

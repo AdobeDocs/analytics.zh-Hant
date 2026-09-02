@@ -1,5 +1,5 @@
 ---
-description: 協助您在 Excel 中選擇報表套裝的步驟。
+description: 協助您在 Excel 中選擇報告套裝的步驟。
 title: 選取報告套裝
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 {{legacy-arb}}
 
-協助您在 Excel 中選擇報表套裝的步驟。
+協助您在 Excel 中選擇報告套裝的步驟。
 
 1. 在 Excel 中按一下&#x200B;**[!UICONTROL 「增益集」]**。
 1. 在工具列中按一下&#x200B;**[!UICONTROL 「建立」]**。

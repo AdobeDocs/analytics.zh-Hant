@@ -82,7 +82,7 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 ### 步驟 3：參考每個 Facebook 即時文章頁面上的 `stats.html`
 
-建立 Facebook 即時文章內容時，可以將 HTML 內容嵌入於 iframe 中。 例如：
+建立 Facebook 即時文章內容時，可以將分析 HTML 內容嵌入於 iframe 中。 例如：
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
@@ -92,7 +92,7 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 可於您的分析 HTML 中經由兩種方法追蹤自訂變數及事件：
 
-* 直接在 `stats.html` 頁面中包含變數值和事件。 此處定義的變數最適合所有 Facebook 即時文章通常相同的值。
+* 直接在 `stats.html` 頁面中包含變數值和事件。 此處定義的變數最適合用於通常在所有 Facebook 即時文章中都相同的值。
 * 將變數值加入參考 iframe 的查詢字串中。 此方法可讓您將變數值從 Facebook 即時文章傳送至託管 Analytics 程式碼的 iframe。
 
 下列範例顯示查詢字串中包含的多個自訂變數。 接著 `stats.html` 內的 JavaScript 會使用 `s.Util.getQueryParam()` 來檢查查詢字串。
@@ -107,4 +107,4 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 ## Facebook 即時文章與隱私權
 
-只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會透過 Facebook 即時文章支援您現有的隱私權政策。 若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。 此公用程式頁面也支援訪客ID服務，因此您可以將Facebook即時文章資料與CX Enterprise的其他部分整合。
+只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會在所有 Facebook 即時文章中支援您現有的隱私政策。 若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。 此公用程式頁面也支援訪客ID服務，因此您可以將Facebook即時文章資料與CX Enterprise的其他部分整合。

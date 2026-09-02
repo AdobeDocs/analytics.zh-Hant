@@ -1,5 +1,5 @@
 ---
-description: Report Builder 5.2支援Adobe Analytics統一計算量度。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
+description: Report Builder 5.2支援Adobe Analytics統一計算量度。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報告套裝。
 title: 計算量度
 feature: Report Builder
 role: User, Admin

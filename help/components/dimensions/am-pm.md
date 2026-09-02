@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 121
-ht-degree: 64%
+source-wordcount: 125
+ht-degree: 62%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 ## 將資料填入此維度中
 
-這是現成可用的維度。 您無須變更其任何設定。 其唯一的相依性在於報表套裝的時區，哪些時間屬於上、下午由此時區決定。
+這是現成可用的維度。 您無須變更其任何設定。 其唯一的相依性在於報告套裝的時區，哪些時間屬於上、下午由此時區決定。
 
 ## 維度項目
 

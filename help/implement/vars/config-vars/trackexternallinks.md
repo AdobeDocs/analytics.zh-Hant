@@ -29,7 +29,7 @@ ht-degree: 59%
 
 Adobe 提供追蹤對外連結的功能，使用者不需要手動設定每個退出連結的 [`tl()`](../functions/tl-method.md) 方法。 如果您想要使用退出連結的自動連結追蹤功能，請啟用此變數。
 
-啟用後，AppMeasurement 會將任何點按的連結 URL 與 [`linkInternalFilters`](linkinternalfilters.md) 和 [`linkExternalFilters`](linkexternalfilters.md) 中的值比較。 如果有相符項目，退出連結追蹤呼叫就會自動引發。
+啟用後，AppMeasurement 會將任何點按的連結 URL 與 [`linkInternalFilters`](linkinternalfilters.md) 和 [`linkExternalFilters`](linkexternalfilters.md) 中的值比較。 如果有相符項目，系統就會自動觸發退出連結追蹤呼叫。
 
 ## 使用Web SDK擴充功能來啟用或停用點選收集
 

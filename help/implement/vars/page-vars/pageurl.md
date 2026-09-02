@@ -44,7 +44,7 @@ AppMeasurement 會自動收集每次點擊中的頁面 URL。 如果您想要覆
 
 ## 使用Adobe Analytics擴充功能的頁面URL
 
-Adobe Experience Platform Data Collection中的Analytics擴充功能會自動填入頁面URL。 不過，您可以在設定 Analytics 擴充功能 (全域變數) 時設定頁面 URL 覆寫，或依據規則進行設定。
+Adobe Experience Platform Data Collection中的Analytics擴充功能會自動填入頁面URL。 不過，您可以在設定 Analytics 擴充功能 (全域變數) 時設定頁面 URL 覆寫，或在規則下進行設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。

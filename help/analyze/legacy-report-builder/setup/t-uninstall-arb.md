@@ -25,7 +25,7 @@ ht-degree: 90%
 
 {{legacy-arb}}
 
-若要安裝 Adobe Report Builder。
+若要解除安裝 Adobe Report Builder。
 
 1. 確定 Microsoft Excel 已關閉。
 1. 按一下&#x200B;**[!UICONTROL 「開始]** >**[!UICONTROL 控制面板」]**。

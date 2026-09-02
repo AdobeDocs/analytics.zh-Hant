@@ -29,7 +29,7 @@ ht-degree: 88%
 
 {{plug-in}}
 
-`getTimeToComplete` 外掛程式會追蹤使用者在網站上完成程序所花的時間。 「時鐘」從呼叫 `start` 動作時開始，在呼叫 `stop` 動作時結束。 如果網站上有工作流程需要一些時間才能完成，而且您想瞭解訪客完成該工作流程所花的時間，Adobe 建議您使用此外掛程式。 如果您網站上的工作流程耗時較短 (少於 3 秒)，就不需要使用此外掛程式，因為顆粒度只會降至完整秒。
+`getTimeToComplete` 外掛程式會追蹤使用者在網站上完成程序所花的時間。 「時鐘」從呼叫 `start` 動作時開始，在呼叫 `stop` 動作時結束。 如果網站上有工作流程需要一些時間才能完成，而且您想瞭解訪客完成該工作流程所花的時間，Adobe 建議您使用此外掛程式。 如果您網站上的工作流程耗時較短 (少於 3 秒)，就不需要使用此外掛程式，因為顆粒度只能精確到整秒。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -40,7 +40,7 @@ ht-degree: 88%
 Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -59,7 +59,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式代碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
 ## 使用 AppMeasurement 安裝外掛程式
@@ -80,7 +80,7 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 * **`sos`** (選用，字串)：要啟動計時器時請設為 `"start"`。 要停止計時器時設為 `"stop"`。 預設為 `"start"`。
 * **`cn`** (選用，字串)：儲存開始時間的 Cookie 名稱。 預設為 `"s_gttc"`。
 * **`exp`** (選項，整數)：cookie (和和計時器) 過期的秒數、小時數或天數 (取決於 `tp` 時間分段引數)。 預設為 30 分鐘。
-* **`tp`** (選項，字串)：cookie (和計時器) 過期的時間分段字串，與 `exp` 一起使用。 設定為 &quot;d&quot; 表示天數、“h” 表示小時數，或 “s” 表示秒數。 如果未設定，無論 `exp` 引數如何設定，cookie (和計時器) 過期預設為 30 分鐘。
+* **`tp`** (選項，字串)：cookie (和計時器) 過期的時間分段字串，與 `exp` 一起使用。 設定為 &quot;d&quot; 表示天數、&quot;h&quot; 表示小時數，或 &quot;s&quot; 表示秒數。 如果未設定，無論 `exp` 引數如何設定，cookie (和計時器) 過期預設為 30 分鐘。
 
 呼叫此函數會傳回一個字串，其中包含 `"start"` 和 `"stop"` 動作之間所花費的天數、小時數、分鐘數和/或秒數。
 
@@ -119,11 +119,11 @@ if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister
 
 ### 3.0 (2018 年 4 月 17 日)
 
-* 單點發行 (重新編譯，程式碼大小較小)。
+* 修補版本 (重新編譯，程式碼大小較小)。
 * 微幅錯誤修正。
 
 ### 2.0 2016 年 6 月 21 日)
 
 * 消除對 `p_fo` 外掛程式的相依性。
-* 新增與 H-Code 和 AppMeasurement 的相容性。
+* 新增與 H-code 和 AppMeasurement 的相容性。
 * 新增主控台記錄。

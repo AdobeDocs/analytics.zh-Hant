@@ -15,10 +15,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 >
 >* 我們建議您使用雲端帳戶或電子郵件作為您的報告目標。 可以使用[舊版 FTP 和 SFTP 帳戶](#legacy-destinations)，但不建議使用。
 >
->* 您先前設定的任何雲端帳戶都適合供 Data Warehouse 使用。 您可以透過以下任一方式設定雲端帳戶：
+>* 您先前設定的任何雲端帳戶都可供 Data Warehouse 使用。 您可以透過以下任一方式設定雲端帳戶：
 >
 >   * 設定[資料摘要](/help/export/analytics-data-feed/create-feed.md)
 >   
@@ -42,11 +42,11 @@ ht-degree: 99%
 >   
 >   * 從位置管理員，在[「元件」>「位置」](/help/components/locations/configure-import-accounts.md)中。
 >
->* 雲端帳戶與您的 Adob&#x200B;&#x200B;e Analytics 使用者帳戶有關聯。 其他使用者無法使用或查看您設定的雲端帳戶。
+>* 雲端帳戶與您的 Adobe Analytics 使用者帳戶有關聯。 其他使用者無法使用或查看您設定的雲端帳戶。
 >
 >* 您可以在「[元件 > 位置](/help/components/locations/configure-import-accounts.md)」中，編輯從「位置」管理員建立的任何位置
 
-若要設定傳送 Data Warehouse 報告目標：
+若要設定傳送 Data Warehouse 報告的目標：
 
 1. 如果還沒有，可選取「**[!UICONTROL 工具]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **新增**]」，開始在 Adobe Analytics 中建立請求。
 
@@ -56,31 +56,31 @@ ht-degree: 99%
 
    ![報告目標標籤](assets/dw-report-destination.png)
 
-1. (視情況而定) 如果已在 Adobe Analytics 設定雲端帳戶 (以及該帳戶目標)，您可以將其用作報告目標：
+1. (視情況而定) 如果已在 Adobe Analytics 設定雲端帳戶 (以及該帳戶上的目標)，您可以將其用作報告目標：
 
    >[!NOTE]
    >
    >只有在您已設定帳戶或與所屬組織共用帳戶時，才可以使用這些帳戶。
    >
-   >如果您是系統管理員，則可以使用「[!UICONTROL **顯示所有目標**]」選項。 如果您有權存取組織中任何使用者建立的所有帳戶和位置，請啟用此選項。
+   >如果您是系統管理員，則可以使用「[!UICONTROL **顯示所有目標**]」選項。 如果您想要存取組織中任何使用者建立的所有帳戶和位置，請啟用此選項。
 
    1. 請從&#x200B;[!UICONTROL **「帳戶」**]&#x200B;下拉式功能表中選取帳戶。
 
-      您在 Adob&#x200B;&#x200B;e Analytics 的以下任何區域中設定的任何雲端帳戶都可供使用：
+      您在 Adobe Analytics 的以下任何區域中設定的任何雲端帳戶都可供使用：
 
       * 匯入 Adob&#x200B;&#x200B;e Analytics 分類資料時，如[結構描述](/help/components/classifications/sets/manage/schema.md)中所述。
 
-        但是，為匯入分類資料所設定的任何位置無法供使用。 相反地，請依照下面說明新增目標。
+        但是，為匯入分類資料所設定的任何位置都無法使用。 相反地，請依照下面說明新增目標。
 
       * 在「位置」區域中設定帳戶和位置時，請參閱「[設定雲端匯入和匯出帳戶](/help/components/locations/configure-import-accounts.md)」和「[設定雲端匯入和匯出位置](/help/components/locations/configure-import-locations.md)」。
 
    1. 從「[!UICONTROL **選取目標**]」下拉式選單中選取與帳戶有關聯的目標。 <!-- Is this correct? -->
 
-1. (視情況而定) 如果您無法存取已在 Adob&#x200B;&#x200B;e Analytics 中設定的雲端帳戶，您可以設定一個：
+1. (視情況而定) 如果您無法存取已在 Adobe Analytics 中設定的雲端帳戶，您可以設定一個：
 
    1. 選取&#x200B;[!UICONTROL **「帳戶」**]&#x200B;下拉式功能表，然後選取&#x200B;[!UICONTROL **「新增帳戶」**]。
 
-   1. 在「新增帳戶」對話框中，註明以下資訊：
+   1. 在「新增帳戶」對話框中，指定以下資訊：
 
       | 欄位 | 函數 |
       |---------|----------|
@@ -123,15 +123,15 @@ ht-degree: 99%
 
       +++Azure SAS
 
-      若要設定 Azure SAS 帳戶，請註明以下資訊：
+      若要設定 Azure SAS 帳戶，請指定以下資訊：
 
       | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
       | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-      | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中得到 SAS 權杖的路徑。  若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。 若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果您想要直接授予存取角色而不建立存取原則，請參閱 [Microsoft Azure 文件，了解如何使用 Azure 入口網站指派 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 這會將角色指派新增到應用程式 ID，以存取金鑰保存庫 URI。 </p> |
+      | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure Key Vault 中 SAS 權杖的路徑。  若要設定 Azure SAS，您必須使用 Azure Key Vault 將 SAS 權杖儲存為祕密值。 若要了解更多資訊，請參閱[Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。</p><p>在建立金鑰保存庫 URI 之後，請在 Key Vault 上新增存取原則，以便對您所建立的 Azure 應用程式授予權限。 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何指派 Key Vault 存取原則](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal)。</p><p>或</p><p>如果您想要直接授予存取角色而不建立存取原則，請參閱 [Microsoft Azure 文件，了解如何使用 Azure 入口網站指派 Azure 角色](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal)。 這會將角色指派新增到應用程式 ID，以存取金鑰保存庫 URI。 </p> |
       | [!UICONTROL **金鑰保存庫祕密名稱**] | 在將祕密值新增至 Azure Key Vault 時所建立的祕密名稱。 在 Microsoft Azure 中，這項資訊位於您所建立的 Key Vault 內，位在&#x200B;**「Key Vault」**&#x200B;設定頁面 若要了解更多資訊，請參閱 [Microsoft Azure 文件，了解如何在 Azure Key Vault 設定和從中擷取秘密值](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations)。 |
-      | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+      | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製祕密。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
       {style="table-layout:auto"}
 
@@ -139,13 +139,13 @@ ht-degree: 99%
 
       +++Azure RBAC
 
-      若要設定 Azure RBAC 帳戶，請註明以下資訊：
+      若要設定 Azure RBAC 帳戶，請指定以下資訊：
 
       | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
       | [!UICONTROL **租用戶 ID**] | 從您建立的 Azure 應用程式複製此 ID。 在 Microsoft Azure 中，此資訊位於您應用程式中的「**概觀**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
-      | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製密碼。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
+      | [!UICONTROL **位置帳戶祕密值**] | 從您建立的 Azure 應用程式複製祕密。 在 Microsoft Azure 中，此資訊位於您的應用程式中的「**憑證和密碼**」標籤。 若要了解更多資訊，請參閱「[Microsoft Azure 文件關於如何使用 Microsoft 身分識別平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)」。 |
 
       {style="table-layout:auto"}
 
@@ -155,9 +155,9 @@ ht-degree: 99%
 
       >[!NOTE]
       >
-      >電子郵件帳戶僅能搭配[資料摘要](/help/export/analytics-data-feed/create-feed.md)使用。 (電子郵件帳戶不支援 [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) 或[分類集](/help/components/classifications/sets/overview.md))。
+      >電子郵件帳戶只能與Data Warehouse搭配使用。 （[資料摘要](/help/export/analytics-data-feed/create-feed.md)或[分類集](/help/components/classifications/sets/overview.md)不支援電子郵件帳戶）。
 
-      若要設定 Azure RBAC 帳戶，請註明以下資訊：
+      若要設定 Azure RBAC 帳戶，請指定以下資訊：
 
       | 欄位 | 函數 |
       |---------|----------|
@@ -173,13 +173,13 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->本節所述的目標是舊版目標，不建議使用。 相反地，在建立 Data Warehouse 目標時，請使用下列目標之一：Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS 或電子郵件。 有關每個建議使用的目標詳細資訊，請參閱上面資訊。
+>本節所述的目標是舊版目標，不建議使用。 相反地，在建立 Data Warehouse 目標時，請使用下列目標之一：Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS 或電子郵件。 有關每個建議使用的目標詳細資訊，請參閱上面的資訊。
 
 以下提供每個舊版目標的設定資訊：
 
 ### FTP
 
-Data Warehouse 資料可以傳送至 Adobe 或客戶託管的 FTP 位置。 FTP 主機、使用者名稱和密碼為必填。 請使用路徑欄位將摘要檔案置入檔案夾。 資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
+Data Warehouse 資料可以傳送至 Adobe 或客戶託管的 FTP 位置。 FTP 主機、使用者名稱和密碼為必填。 請使用路徑欄位將摘要檔案置入資料夾。 資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
 
 填寫可用欄位時，請使用以下資訊：
 
@@ -209,7 +209,7 @@ Data Warehouse 資料可以傳送至 Adobe 或客戶託管的 FTP 位置。 FTP 
 
 ### SFTP
 
-提供 Data Warehouse 的 SFTP 支援 。 必須填入 SFTP 主機、使用者名和目標網站，才能包含有效的 RSA 或 DSA 公開金鑰。 建立 Data Warehouse 目標時，您可以下載適當的公開金鑰。
+Data Warehouse 支援 SFTP。 必須填入 SFTP 主機、使用者名和目標網站，才能包含有效的 RSA 或 DSA 公開金鑰。 建立 Data Warehouse 目標時，您可以下載適當的公開金鑰。
 
 填寫可用欄位時，請使用以下資訊：
 
@@ -243,7 +243,7 @@ Data Warehouse 資料可以傳送至 Adobe 或客戶託管的 FTP 位置。 FTP 
 
 ### S3
 
-您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
+您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要桶名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
 
 您提供來上傳 Data Warehouse 資料的使用者必須具備以下[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 

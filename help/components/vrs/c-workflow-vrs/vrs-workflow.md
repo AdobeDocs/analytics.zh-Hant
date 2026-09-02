@@ -1,5 +1,5 @@
 ---
-description: 計劃實作虛擬報告套裝所需步驟的概觀。
+description: 計劃實施虛擬報告套裝所需步驟的概觀。
 keywords: 虛擬報告套裝
 title: 虛擬報告套裝工作流程
 feature: VRS
@@ -23,7 +23,7 @@ ht-degree: 75%
 
 # 虛擬報告套裝工作流程
 
-計劃實作虛擬報告套裝所需步驟的概觀。
+計劃實施虛擬報告套裝所需步驟的概觀。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png)規劃您的虛擬報告套裝策略。
 

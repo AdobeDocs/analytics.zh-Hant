@@ -28,7 +28,7 @@ ht-degree: 90%
 
 # 伺服器端轉送資料和程式碼參考
 
-伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
+伺服器端轉送呼叫之設定變數、HTTP 標頭及資料訊號的完整清單和說明。
 
 ## 設定變數 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
@@ -47,8 +47,8 @@ ht-degree: 90%
 
 | HTTP 標題 | 說明 | Audience Manager 所接受的 h_ key |
 | --- | --- | --- |
-| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。 它會顯示為 `host name .demdex.net`。 請參閱[了解對 Demdex 網域的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
-| User-Agent | 設為傳入 Analytics 的 User-Agent 標題。 | `h_user-agent` |
+| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料彙集主機名稱。 它會顯示為 `host name .demdex.net`。 請參閱[了解對 Demdex 網域的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
+| User-Agent | 設為傳入 Analytics 的 User-Agent 標頭。 | `h_user-agent` |
 | Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 | `h_accept-language` |
 | Referer | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referer` 標題收集。 | `h_referer` |
 | 反向連結 | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referrer` 標題收集。 | `h_referrer` |
@@ -88,11 +88,11 @@ ht-degree: 90%
 | `c_pageURL` | 瀏覽器網址列中的頁面位址。 |
 | `c_products` | 產品字串 (由 `s.products` 所設定)。 |
 | `c_prop` | 自訂 Prop。 |
-| `c_purchaseID` | 購買的唯一 ID。 |
+| `c_purchaseID` | 購買的不重複 ID。 |
 | `c_referrer` | 目前頁面之前的頁面。 |
 | `c_screenResolution` | 螢幕寬度和高度 (以像素計)。 |
 | `c_server` | 網頁伺服器名稱 (由 `s.server` 所設定)。 |
 | `c_state` | 地理區域 (由 `s.state` 所設定)。 |
 | `c_timezone` | 時間差 (以小時計)。 |
-| `c_transactionID` | 交易的唯一 ID。 |
+| `c_transactionID` | 交易的不重複 ID。 |
 | `c_zip` | 郵遞區號 (由 `s.zip` 所設定)。 |

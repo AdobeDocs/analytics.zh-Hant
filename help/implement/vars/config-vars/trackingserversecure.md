@@ -29,7 +29,7 @@ ht-degree: 15%
 
 # trackingServerSecure
 
-`trackingServerSecure`變數決定了AppMeasurement用來透過HTTPS將資料傳送至Adobe的網域。 如果此變數未正確定義，您的實作可能會遭遇資料遺失。
+`trackingServerSecure`變數決定了AppMeasurement用來透過HTTPS將資料傳送至Adobe的網域。 如果此變數未正確定義，您的實施可能會遭遇資料遺失。
 
 >[!NOTE]
 >

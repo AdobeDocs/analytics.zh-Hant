@@ -116,7 +116,7 @@ ht-degree: 19%
 
 +++ 我的Analytics報表中為何顯示「已達對象上限」？ （注意：這也會在Data Warehouse中呈現為「對象ID = -1」和`::max_audiences_exceeded::`）
 
-根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段，系統會將最近符合資格的&#x200B;**150個區段**&#x200B;傳送至Analytics，其餘清單則會截斷。 系統會傳送額外標幟給 Analytics，表示細分群體清單已遭截斷，並在「客群名稱」維度中顯示為「已達客群上限」，在「客群 ID」維度中則會顯示「-1」。
+根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段依每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段，系統會將最近符合資格的&#x200B;**150個區段**&#x200B;傳送至Analytics，其餘清單則會截斷。 系統會傳送額外標幟給 Analytics，表示區段清單已遭截斷，並在「客群名稱」維度中顯示為「已達客群上限」，在「客群 ID」維度中則會顯示「-1」。
 
 雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。 如果報告中出現「已達客群上限」，您有兩種因應方式：
 
@@ -170,6 +170,6 @@ ht-degree: 19%
 
 +++ 對於此問題的舊版方法（例如舊的測試版或「諮詢」外掛程式Cookie目的地）有何影響？
 
-我們建議您實施作業新的整合，並刪除舊目的地。
+我們建議您實施新的整合，並移除舊目的地。
 
 +++

@@ -35,9 +35,9 @@ ht-degree: 37%
 | 區段類型 | 執行 | 適用於何處？ | 何時使用 |
 | --- | --- | --- | --- |
 | 元件清單區段 | 瞭解如何[建立區段](/help/components/segmentation/segmentation-workflow/seg-create.md)。 | 您所有的工作區專案 | 適用於較複雜的區段、循序區段 |
-| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨時單一規則區段（使用拖放功能），或新增/編輯多個規則（按一下「區段」圖示） |
+| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可以儲存並新增至您的區段清單中。 | 可用於臨時單一規則區段（使用拖放功能），或新增/編輯多個規則（按一下「區段」圖示） |
 | 以計算量度為基礎的區段 | [計算量度產生器](/help/components/calculated-metrics/workflow/c-build-metrics/metrics-with-segments.md) | 至個別計算量度 | 在您的量度定義中套用區段 |
-| 以虛擬報表套裝為基礎的區段 | [虛擬報表套裝產生器](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 至個別虛擬報表套裝 | 在您的虛擬報表套裝定義中套用區段 |
+| 以虛擬報表套裝為基礎的區段 | [虛擬報表套裝產生器](/help/components/vrs/c-workflow-vrs/vrs-create.md) | 至個別虛擬報告套裝 | 在您的虛擬報表套裝定義中套用區段 |
 
 ## 影片
 

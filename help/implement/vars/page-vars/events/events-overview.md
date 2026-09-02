@@ -60,7 +60,7 @@ ht-degree: 100%
 
 ## 使用 Adobe Analytics 擴充功能的事件
 
-您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件，或依據規則進行設定。
+您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件，或在規則下設定事件。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此變數會區分大小寫。 請避免事件值的大小寫拼寫錯誤，確保資料彙集的準確性。
+>此變數會區分大小寫。 請避免將事件值的大小寫寫錯，以確保資料彙集的準確性。
 
 ```js
 // Set the events variable to a single value
@@ -103,7 +103,7 @@ s.events = "event1,event13,purchase";
 
 ### 多次增加計數器事件
 
-您可以視需要多次計算自訂事件。 將整數指派給字串內的所需事件。 依預設，在報表套裝設定中建立的事件是計數器事件。
+您可以視需要多次計算自訂事件。 將整數指派給字串內的所需事件。 依預設，在報告套裝設定中建立的事件是計數器事件。
 
 ```js
 // Count event1 ten times

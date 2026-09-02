@@ -50,7 +50,7 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。 如果您的實施經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
+>對於任何指定欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。 如果您的實施經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
 
 ## 欄、說明和資料類型
 
@@ -91,7 +91,7 @@ ht-degree: 78%
 | | **`curr_factor`** | 決定貨幣的小數位數。 用於貨幣轉換。 例如，美元使用兩位小數，因此此欄的值為 `2`。 | tinyint |
 | | **`curr_rate`** | 交易發生時的匯率。 Adobe 與 XE 合作，以確定當日的匯率。 | decimal(24,12) |
 | **`post_`** | **`customer_perspective`** | 判斷該點擊是否為行動裝置背景點擊。 如需更多資訊，請參閱[情境感知工作階段](/help/components/vrs/vrs-mobile-visit-processing.md)。 | tinyint unsigned |
-| **`post_`** | **`cust_hit_time_gmt`** | 僅限啟用時間戳記的報告套裝。 時間戳記根據 UNIX® 時間隨點擊傳送。 | int |
+| **`post_`** | **`cust_hit_time_gmt`** | 僅限啟用時間戳記的報告套裝。 隨點擊傳送的時間戳記以 UNIX® 時間為基礎。 | int |
 | **`post_`** | **`cust_visid`** | 自訂的訪客 ID，如果使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 設定。 | varchar(255) |
 | | **`c_color`** | 調色盤的位元深度。 用於計算[色階](/help/components/dimensions/color-depth.md)維度的一部分。 AppMeasurement 使用 JavaScript 函數`screen.colorDepth()`。 | char(20) |
 | | **`daily_visitor`** | 一個標幟，用來判斷該點擊是否為新的每日訪客。 | tinyint unsigned |
@@ -99,7 +99,7 @@ ht-degree: 78%
 | | **`dataprivacyconsentoptout`** | [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度。 每個點擊可以有多個值，以垂直號 (`\|`) 分隔。 有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
 | | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
 | | **`domain`** | [網域](/help/components/dimensions/domain.md)維度。 根據訪客的網路存取點。 | varchar(100) |
-| | **`duplicated_from`** | 僅用於包含點擊複製 VISTA 規則的報告套裝。 指出從中複製點擊的報告套裝。 | varchar(40) |
+| | **`duplicated_from`** | 僅用於包含點擊複製 VISTA 規則的報告套裝。 指出該點擊是從哪個報告套裝複製而來。 | varchar(40) |
 | | **`duplicate_events`** | 列出每個被視為重複的事件。 | varchar(255) |
 | | **`duplicate_purchase`** | 一個標幟，用來判斷此點擊的購買事件是否因為重複而被忽略。 | tinyint unsigned |
 | **`post_`** | **`ef_id`** | EF ID，用於Adobe Advertising整合。 | varchar(255) |
@@ -110,7 +110,7 @@ ht-degree: 78%
 | | **`first_hit_page_url`** | 訪客的第一個 URL。 | varchar(255) |
 | | **`first_hit_referrer`** | 訪客的第一個反向連結 URL。 | varchar(255) |
 | | **`first_hit_ref_domain`** | [原始反向連結網域](/help/components/dimensions/original-referring-domain.md)維度。 根據`first_hit_referrer`而定。 訪客的第一個反向連結網域。 | varchar(100) |
-| | **`first_hit_ref_type`** | 代表訪客接觸的第一個反向連結之類型的數值 ID。 請參考`referrer_type.tsv`查詢表。 | tinyint unsigned |
+| | **`first_hit_ref_type`** | 代表訪客第一個反向連結之反向連結類型的數值 ID。 請參考`referrer_type.tsv`查詢表。 | tinyint unsigned |
 | | **`first_hit_time_gmt`** | 訪客初次點擊的時間戳記 (根據 UNIX® 時間)。 | int |
 | | **`geo_city`** | 點擊的來源城市名稱，以 IP 為準。 用於[城市](/help/components/dimensions/cities.md)維度。 | char(32) |
 | | **`geo_country`** | 點擊的來源國家/地區縮寫，以 IP 為準。 用於[國家/地區](/help/components/dimensions/countries.md)維度。 | char(4) |
@@ -121,7 +121,7 @@ ht-degree: 78%
 | | **`hitid_low`** | 搭配 `hitid_high` 使用來識別點擊。 | bigint unsigned |
 | | **`hit_source`** | 該點擊的來源。 點選來源1和2需計費。 <br>1：沒有時間戳記的標準影像要求<br>2：具有時間戳記的標準影像要求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：不再使用；完整處理資料來源上傳<br>7： TransactionID資料來源上傳<br>8：已不再使用；舊版Adobe Advertising資料來源<br>9：已不再使用；Adobe Social摘要量度<br>10：使用了Audience Manager伺服器端轉送 | tinyint unsigned |
 | | **`hit_time_gmt`** | Adobe 資料收集伺服器收到點擊的時間戳記 (根據 UNIX® 時間)。 | int |
-| | **`hourly_visitor`** | 一個標幟，用來判斷該點擊是否來自新的每小時訪客。 | tinyint unsigned |
+| | **`hourly_visitor`** | 一個標幟，用來判斷該點擊是否為新的每小時訪客。 | tinyint unsigned |
 | | **`ip`** | IPv4 位址，根據影像請求 HTTP 標頭。 與 `ipv6` 互斥；如果此欄包含非模糊 IP 位址，`ipv6` 為空白。 | char(20) |
 | | **`ipv6`** | 壓縮的 IPv6 位址 (若有)。 與 `ip` 互斥；如果此欄包含非模糊 IP 位址，`ip` 為空白。 | varchar(40) |
 | | **`javascript`** | JavaScript 版的查詢 ID，以 `j_jscript` 為依據。 請參考`javascript_version`查詢表。 | tinyint unsigned |
@@ -149,16 +149,16 @@ ht-degree: 78%
 | **`post_`** | **`mobilecampaignmedium`** | 行銷媒體，例如橫幅或電子郵件。 由「行動應用程式贏取」填入。 | varchar(255) |
 | **`post_`** | **`mobilecampaignname`** | 行銷活動名稱，亦儲存於行銷活動變數中。 由「行動應用程式贏取」填入。 | varchar(255) |
 | **`post_`** | **`mobilecampaignsource`** | 原始反向連結，例如電子報或社交媒體網路。 由「行動應用程式贏取」填入。 | varchar(255) |
-| **`post_`** | **`mobilecampaignterm`** | 您要對此贏取追蹤的付費關鍵字或其他詞語。 由「行動應用程式贏取」填入。 | varchar(255) |
-| **`post_`** | **`mobiledayofweek`** | 應用程式啟動的工作日數。 | varchar(255) |
+| **`post_`** | **`mobilecampaignterm`** | 您要使用此贏取追蹤的付費關鍵字或其他詞語。 由「行動應用程式贏取」填入。 | varchar(255) |
+| **`post_`** | **`mobiledayofweek`** | 應用程式啟動當天是一週中的第幾天。 | varchar(255) |
 | **`post_`** | **`mobiledayssincefirstuse`** | 自應用程式初次執行以來的天數。 | varchar(255) |
 | **`post_`** | **`mobiledayssincelastuse`** | 自應用程式上次執行以來的天數。 | varchar(255) |
 | | **`mobiledeeplinkid`** | 從內容資料變數`a.deeplink.id`中收集。 用於贏取報表中，作為行動贏取連結的識別碼。 | varchar(255) |
 | **`post_`** | **`mobiledevice`** | 行動裝置名稱。 在 iOS 上，儲存為以逗號分隔的兩碼字串。 第一個數字代表裝置世代，第二個數字代表裝置系列。 | varchar(255) |
-| **`post_`** | **`mobilehourofday`** | 定義一天當中啟動應用程式的時段。 請依照 24 小時數字格式。 | varchar(255) |
+| **`post_`** | **`mobilehourofday`** | 定義一天中第幾個小時啟動應用程式。 請依照 24 小時數字格式。 | varchar(255) |
 | **`post_`** | **`mobileinstalldate`** | Mobile 安裝日期。 提供使用者初次開啟行動應用程式的日期。 | varchar(255) |
 | **`post_`** | **`mobilelaunchnumber`** | 每次啟動行動應用程式時增加 1。 | varchar(255) |
-| **`post_`** | **`mobilemessagebuttonname`** | 從內容資料變數`a.message.button.id`中收集。 用於應用程式內傳訊，以識別關閉訊息的按鈕。 | varchar(100) |
+| **`post_`** | **`mobilemessagebuttonname`** | 從內容資料變數`a.message.button.id`中收集。 用於應用程式內傳送訊息，以識別關閉訊息的按鈕。 | varchar(100) |
 | **`post_`** | **`mobilemessageid`** | 應用程式內訊息 ID | varchar(255) |
 | **`post_`** | **`mobilemessageonline`** | 線上應用程式內訊息 | varchar(255) |
 | **`post_`** | **`mobilemessagepushoptin`** | 從內容資料變數`a.push.optin`中收集。 當使用者選擇加入推播訊息時，設為「true」；否則，值為「false」。 | varchar(255) |
@@ -171,13 +171,13 @@ ht-degree: 78%
 | **`post_`** | **`mobilepushpayloadid`** | Mobile Services 推送承載 ID | varchar(255) |
 | | **`mobilerelaunchcampaigncontent`** | 行動服務上市內容 | varchar(255) |
 | | **`mobilerelaunchcampaignmedium`** | 行動服務上市媒體 | varchar(255) |
-| | **`mobilerelaunchcampaignsource`** | 行動服務上市來源 | varchar(255) |
+| | **`mobilerelaunchcampaignsource`** | 行動服務啟動來源 | varchar(255) |
 | | **`mobilerelaunchcampaignterm`** | 行動服務上市條件 | varchar(255) |
 | | **`mobilerelaunchcampaigntrackingcode`** | 從內容資料變數`a.launch.campaign.trackingcode`中收集。 用於贏取中，作為上市促銷活動的追蹤代碼。 | varchar(255) |
 | **`post_`** | **`mobileresolution`** | 行動裝置的解析度。 `[Width] x [Height]` 像素。 | varchar(255) |
 | | **`mobile_id`** | 如果使用者使用行動裝置，則為裝置的數值 ID。 `mobile_attributes.tsv` [動態查詢](dynamic-lookups.md)的索引鍵值。 | int |
-| | **`monthly_visitor`** | 一個標幟，用來判斷該點擊是否為當月的不重複訪客。 | tinyint unsigned |
-| **`post_`** | **`mvvar1`** - **`mvvar3`** | [清單變數](/help/implement/vars/page-vars/list.md)值。 根據實施包含使用分隔符號的自訂值清單。 `post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | text |
+| | **`monthly_visitor`** | 一個標幟，用來判斷該訪客是否為當月的不重複訪客。 | tinyint unsigned |
+| **`post_`** | **`mvvar1`** - **`mvvar3`** | [清單變數](/help/implement/vars/page-vars/list.md)值。 包含依實施而定、使用分隔符號分隔的自訂值清單。 `post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | text |
 | **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | 在目前點擊上設定的清單變數值。 以 `--**--` 取代原始的分隔符號。 `post` 欄位通常不包含資料。 | text |
 | | **`new_visit`** | 一個標幟，用來判斷目前的點擊是否為新造訪。 在造訪閒置長達 30 分鐘後，由 Adobe 設定此值。 | tinyint unsigned |
 | | **`os`** | 代表訪客作業系統的數值 ID。 依據 `user_agent` 欄而定。 `operating_system.tsv`標準查詢和`operating_system_type.tsv`[動態查詢](dynamic-lookups.md)的索引鍵值。 | int unsigned |
@@ -198,10 +198,10 @@ ht-degree: 78%
 | | **`quarterly_visitor`** | 一個標幟，用來判斷該點擊是否為每季的新訪客。 | tinyint unsigned |
 | **`post_`** | **`referrer`** | [反向連結](/help/components/dimensions/referrer.md)維度。 請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255)<br>varchar(244) |
 | | **`ref_domain`** | [反向連結網域](/help/components/dimensions/referring-domain.md)維度。 依據 `referrer` 欄而定。 | varchar(100) |
-| | **`ref_type`** | 代表點擊的反向連結類型的數值 ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站<br>3：搜尋引擎<br>4：硬碟<br>5：USENET<br>6：分類/建立書籤（無反向連結）<br>7：電子郵件<br>8：無JavaScript<br>9：社交網路<br>10：交談式AI工具 | tinyint unsigned |
+| | **`ref_type`** | 代表點擊的轉介類型的數值 ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站<br>3：搜尋引擎<br>4：硬碟<br>5：USENET<br>6：分類/建立書籤（無反向連結）<br>7：電子郵件<br>8：無JavaScript<br>9：社交網路<br>10：交談式AI工具 | tinyint unsigned |
 | | **`resolution`** | 代表螢幕解析度的數值 ID。 用於[螢幕解析度](/help/components/dimensions/monitor-resolution.md)維度。 使用`resolution.tsv`查詢表。 | smallint unsigned |
-| **`post_`** | **`search_engine`** | 代表將訪客反向連結至您的網站的搜尋引擎的數值 ID。 用於[搜尋引擎](/help/components/dimensions/search-engine.md)維度。 請參考`search_engines.tsv`查詢表。 | smallint unsigned |
-| | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。 在使用者點進您的網站之前，指示您的網站要顯示哪個搜尋結果頁面。 | smallint unsigned |
+| **`post_`** | **`search_engine`** | 代表將訪客引導至您的網站的搜尋引擎的數值 ID。 用於[搜尋引擎](/help/components/dimensions/search-engine.md)維度。 請參考`search_engines.tsv`查詢表。 | smallint unsigned |
+| | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。 指出在使用者點進您的網站之前，您的網站出現在搜尋結果的哪一頁。 | smallint unsigned |
 | | **`secondary_hit`** | 一個標幟，用來判斷該點擊是否為次要點擊。 這個標幟通常來自多套裝標記和複製點擊的 VISTA 規則。 | tinyint unsigned |
 | | **`sourceid`** | 來源 ID | int unsigned |
 | | **`stats_server`** | 未使用。 處理點擊的 Adobe 內部伺服器。 | char(30) |
@@ -216,7 +216,7 @@ ht-degree: 78%
 | | **`userid`** | 未使用。 報告套裝 ID 的數值 ID。 請改用 `username`。 | int unsigned |
 | | **`username`** | 點擊的報告套裝 ID。 | char(40) |
 | | **`user_agent`** | 在影像要求的 HTTP 標頭中發送的使用者代理字串。 | text |
-| | **`user_hash`** | 未使用。 報告套裝 ID 上的雜湊. 請改用 `username`。 | int unsigned |
+| | **`user_hash`** | 未使用。 報告套裝 ID 上的雜湊。 請改用 `username`。 | int unsigned |
 | **`post_`** | **`user_server`** | 用於[伺服器](/help/components/dimensions/server.md)維度。 | varchar(100) |
 | | **`va_closer_detail`** | [最後接觸詳情](/help/components/dimensions/last-touch-detail.md)維度。 | varchar(255) |
 | | **`va_closer_id`** | 識別[最後接觸管道](/help/components/dimensions/last-touch-channel.md)維度的數值 ID。 此 ID 的查詢可以在行銷管道管理員中找到。 | tinyint unsigned |

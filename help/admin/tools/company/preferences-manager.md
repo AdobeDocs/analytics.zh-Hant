@@ -1,5 +1,5 @@
 ---
-description: 透過「偏好設定管理器」頁面，您可以設定如何轉譯 Excel 和逗號分隔值 (CSV) 報告輸出。
+description: 透過「偏好設定管理器」頁面，您可以設定如何呈現 Excel 和逗號分隔值 (CSV) 報告輸出。
 title: 偏好設定管理器
 feature: Admin Tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
@@ -23,7 +23,7 @@ ht-degree: 71%
 
 # 偏好設定管理器
 
-透過「偏好設定管理器」頁面，您可以設定如何轉譯 Excel 和逗號分隔值 (CSV) 報告輸出。
+透過「偏好設定管理器」頁面，您可以設定如何呈現 Excel 和逗號分隔值 (CSV) 報告輸出。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 偏好設定]**
 

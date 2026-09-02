@@ -29,7 +29,7 @@ ht-degree: 85%
 
 ## 將資料填入此維度中
 
-報表套裝必須正確設定[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，此維度才能運作。 AppMeasurement 會自動填入此維度，而不會變更任何實施作業程式碼。
+報表套裝必須正確設定[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，此維度才能運作。 AppMeasurement 會自動填入此維度，而無需對任何實施程式碼進行變更。
 
 ## 維度項目
 

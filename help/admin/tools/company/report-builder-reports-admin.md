@@ -26,6 +26,6 @@ ht-degree: 65%
 
 管理指派給 Report Builder 使用者的授權。
 
-指派給使用者的每份 Report Builder 授權都會自動配置十項排程的工作。 此數量的任務可以調整並重新分配。 排程任務不能超過每個使用者的可用任務數。 所有超排程的工作都不會執行。
+指派給使用者的每份 Report Builder 授權都會自動配置十個排程工作。 此數量的任務可以調整並重新分配。 排程任務不能超過每個使用者的可用任務數。 所有超排程的工作都不會執行。
 
 您可以在 [Adobe Admin Console](/help/admin/admin-console/home.md) 中管理產品設定檔，藉此將 Report Builder 存取權授與任何 [!DNL Adobe Analytics] 使用者。

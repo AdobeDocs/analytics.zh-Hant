@@ -30,7 +30,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
 >title="CX Enterprise 發佈"
->abstract="您可以將客群發佈至客群庫，即可在 Target 和其他 CX Enterprise 解決方案的行銷活動使用該客群。"
+>abstract="您可以將客群發佈至客群庫，以便在 Target 和其他 CX Enterprise 解決方案中將該客群用於行銷活動。"
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
@@ -84,11 +84,11 @@ ht-degree: 31%
 1. 選取「**[!UICONTROL 新增]**」以建立新區段。
    ![發佈CX Enterprise](assets/publish-ec.png)
 1. 提供區段的標題和說明。 您必須先填寫這些欄位，才能儲存區段。
-1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （適用於&#x200B;*報表套裝*）]**。
+1. 在&#x200B;**[!UICONTROL Experience Cloud發佈]**&#x200B;區段中，選取選項&#x200B;**[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]**。
 
    >[!IMPORTANT]
    >
-   >比較Experience Cloud數字與Audience Manager數字時，請務必在&#x200B;**[!UICONTROL 資料預覽]**&#x200B;中監視&#x200B;**[!UICONTROL 具有Adobe Analytics ID]**&#x200B;的訪客，而非&#x200B;**[!UICONTROL 不重複訪客]**。
+   >比較Adobe Analytics數字與Audience Manager數字時，請務必在&#x200B;**[!UICONTROL 資料預覽]**&#x200B;中監視&#x200B;**[!UICONTROL 具有Experience Cloud ID]**&#x200B;的訪客，而非&#x200B;**[!UICONTROL 不重複訪客]**。
    >
 
 | 元素 | 說明 |
@@ -96,14 +96,14 @@ ht-degree: 31%
 | **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]** | 啟用此選項後，區段標題和定義會立即與CX Enterprise共用，而區段會籍則每4小時評估一次並共用一次。<br> 例如，當該對象與Target中的活動建立關聯時，[!DNL Analytics]會開始傳送ID給符合CX Enterprise和Target對象資格的訪客。 此時，對象名稱和對應的資料開始顯示在CX Enterprise的[!DNL Audience Library]頁面上。</br> |
 | **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依滾動日曆建立對象。 例如，**[!UICONTROL 最近30天]** （預設）包含自當天日期（並非建立區段的原始日期）起最近30天符合對象資格的訪客。 |
 | **[!UICONTROL 在客群庫中建立]** | 您建立和發佈的區段可在CX Enterprise的[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。 這些區段不會計入 75 個已發佈區段的限制中。 |
-| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 您發佈至CX Enterprise的區段數。 按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
+| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 您發佈至CX Enterprise的區段數。 按一下連結，可檢視已發佈區段及其關聯報告套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
 ## 取消發佈或刪除區段
 
 >[!CAUTION]
 >
->若要刪除已發佈至CX Enterprise的區段，必須先取消發佈該區段。 若要取消發佈區段，只要取消選取「**[!UICONTROL 將此區段發佈至Experience Cloud」（針對&#x200B;*報表套裝*）]**。
+>若要刪除已發佈至CX Enterprise的區段，必須先取消發佈該區段。 若要取消發佈區段，只要取消選取「**[!UICONTROL 發佈此區段至Experience Cloud」（針對&#x200B;*報表套裝*）]**。
 
 
 >[!NOTE]
@@ -141,7 +141,7 @@ ht-degree: 31%
 ### 方法 2：使用 Chrome 開發者工具 (或其他瀏覽器開發者工具)
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
-1. 載入頁面並勾選「應用程式 > Cookie」。 Adobe Audience Manager UUID應在第三方中設定
+1. 載入頁面並檢查「應用程式 > Cookie」。 Adobe Audience Manager UUID應在第三方中設定
 Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.adobe.com/zh-hant/docs/audience-manager/user-guide/reference/demdex-calls)）。 demdex欄位是Adobe Audience Manager UUID集
 在瀏覽器上（以下範例中為`35721780439475290181087231320657663953`）。
 
@@ -161,12 +161,12 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
      ![Audience Manager 特徵](assets/aam-traits.png)
 
-   * 系統會建立一個單一特徵區段。 這個區段使用的資料來源與您發佈該區段的報表套裝相關聯。
+   * 系統會建立一個單一特徵區段。 這個區段使用的資料來源與您發佈該區段的報告套裝相關聯。
    * 特徵過期時間已設為 16 天 (之前為 2 天)。
 
 ## 在 [!DNL Adobe Target] 中檢視區段
 
-**[!UICONTROL 將此區段發佈至Experience Cloud]**&#x200B;可讓該區段可用於Adobe Target的自訂對象庫。 在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。 例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
+**[!UICONTROL 將此區段發佈至Experience Cloud]**&#x200B;可讓該區段可用於Adobe Target的自訂對象庫。 在 Analytics 或 Audience Manager 中建立的區段皆適用於 Target 中的活動。 例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和客群細分群體來建立行銷活動。
 
 在Adobe Target中：
 

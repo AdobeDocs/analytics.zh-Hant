@@ -54,7 +54,7 @@ Adobe提供擴充功能，可讓您搭配Web SDK使用最常用的外掛程式�
 Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -73,7 +73,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式代碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
 ## 使用 AppMeasurement 安裝外掛程式
@@ -98,7 +98,7 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 >[!NOTE]
 >
->此外掛程式只會傳回造訪首次點擊時的值。
+>此外掛程式僅在單次造訪的第一次點擊時傳回值。
 
 此外掛程式會建立名為 `"s_tslv"` 的第一方 Cookie，並設為目前時間的 Unix 時間戳記。 閒置兩年後 Cookie 便會到期。
 
@@ -126,6 +126,6 @@ s.prop1 = getTimeSinceLastVisit();
 
 ### 1.0 (2018 年 4 月 16 日)
 
-* 單點發行 (重新編譯程式碼且大小較小)。
+* 修補版本 (重新編譯，程式碼大小較小)。
 * 衍生自 `getDaysSinceLastVisit` 外掛程式的程式碼 (現已過時並重新命名)。
 * 現在請使用 `formatTime` 和 `inList` 外掛程式來傳回值。

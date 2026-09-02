@@ -1,6 +1,6 @@
 ---
 title: 實作 Adobe Analytics 行銷管道的最佳做法
-description: 搭配 Attribution 和 Customer Journey Analytics 使用行銷管道的更新最佳做法
+description: 搭配歸因和 Customer Journey Analytics 使用行銷管道的更新最佳做法
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
 TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
@@ -23,19 +23,19 @@ ht-degree: 78%
 
 ---
 
-# 搭配行銷管道使用 Attribution - 最佳做法
+# 搭配行銷管道使用歸因 - 最佳做法
 
 [行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)是 Adobe Analytics 的一項有價值且強大的功能。 目前有關行銷管道實作的指引是在 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases) 都尚未存在時所制定。
 
 為了讓您的行銷管道實作更具前瞻性及確保 Attribution 與 Customer Journey Analytics 之間的報告一致性，我們正在發佈一組更新的最佳做法。 如果您已在使用行銷管道，您可以根據這些新準則來選擇最佳選項。 如果您是行銷管道的新手，我們建議您遵循所有新的最佳做法。
 
-當我們最初推出行銷管道時，只提供「首次接觸」和「上次接觸」維度。 有了最新版本的歸因，就不再需要明確的首次/上次接觸維度。 Adobe 提供通用的「行銷管道」和「行銷管道詳細資料」維度，讓您可將其用於所需的歸因模式。 這些通用維度的行為與「上次接觸管道」維度相同，但標籤不同，這是為了避免搭配不同歸因模式使用行銷管道時產生混淆。
+當行銷管道首次推出時，只提供「首次接觸」和「上次接觸」維度。 有了最新版本的歸因，就不再需要明確的首次/上次接觸維度。 Adobe 提供通用的「行銷管道」和「行銷管道詳細資料」維度，讓您可將其用於所需的歸因模式。 這些通用維度的行為與「上次接觸管道」維度相同，但標籤不同，這是為了避免搭配不同歸因模式使用行銷管道時產生混淆。
 
-由於行銷管道維度以傳統的造訪定義 (由維度本身的處理規則為定義) 為依據，因此無法使用虛擬報告套裝來變更造訪定義。 這些修改過的作法透過Attribution和Adobe Analytics啟用清楚且受控制的回顧期間。
+由於行銷管道維度以傳統的造訪定義為依據（如其處理規則所定義），因此無法使用虛擬報告套裝來變更其造訪定義。 這些修改過的作法透過Attribution和Adobe Analytics啟用清楚且受控制的回顧期間。
 
-## 最佳做法 1：利用 Attribution 進行受控制的分析
+## 最佳做法 1：善用歸因進行受控制的分析
 
-我們建議您使用 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 來取代現有的行銷管道歸因，以調整您的行銷管道分析。 請遵循其他最佳做法，以確保使用 Attribution 進行分析的一致性並對該分析擁有強大的控制力。
+我們建議您使用 [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) 來取代現有的行銷管道歸因，以調整您的行銷管道分析。 請遵循其他最佳做法，以確保使用歸因進行分析的一致性並對該分析擁有強大的控制力。
 
 ![](assets/attribution.png)
 
@@ -57,7 +57,7 @@ ht-degree: 78%
 
 ## 最佳做法 3：對所有管道啟用上次接觸管道覆寫
 
-當啟用這項設定時，在 Workspace 中搭配「行銷管道」維度使用的自訂歸因模式會有最好的成效。 啟用此設定會在遇到新的管道/詳細資料時，讓「行銷管道實例」執行計算。 您應該針對「直接」或「內部/工作階段重新整理」以外的所有管道啟用此設定，我們已不建議將前兩者用於自訂歸因模式。
+當啟用這項設定時，在 Workspace 中搭配「行銷管道」維度使用的自訂歸因模式會有最好的成效。 啟用此設定會在遇到新的管道/詳細資料時，讓「行銷管道實例」納入計算。 您應該針對「直接」或「內部/工作階段重新整理」以外的所有管道啟用此設定，我們已不建議將前兩者用於自訂歸因模式。
 
 ![](assets/override.png)
 
@@ -67,6 +67,6 @@ ht-degree: 78%
 
 ![](assets/expiration.png)
 
-## 最佳做法 5：應該只有已啟用的管道才有行銷管道處理規則存在
+## 最佳做法 5：行銷管道處理規則應僅存在於已啟用的管道
 
-請務必針對已停用的管道移除任何行銷管道處理規則。 只有已選為已啟用的行銷管道才應該有規則存在。
+請務必針對已停用的管道移除任何行銷管道處理規則。 只有勾選已啟用的行銷管道才有規則存在。

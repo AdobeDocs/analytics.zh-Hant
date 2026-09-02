@@ -86,7 +86,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
 ## 使用
 
-1. 新增![地圖](/help/assets/icons/Globe.svg) [!UICONTROL 地圖]視覺效果。 請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 您僅可將地圖視覺效果拖曳至自由格式表格的頂部。
+1. 新增![地圖](/help/assets/icons/Globe.svg) [!UICONTROL 地圖]視覺效果。 請參閱[新增視覺效果至面板](freeform-analysis-visualizations.md#add-visualizations-to-a-panel)。 您僅可將地圖視覺效果拖曳到自由格式表格上。
 
    ![地圖設定](assets/map-configuration.png){width="50%"}
 
@@ -95,7 +95,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
 
    | 來源 | 說明 |
    | --- | --- |
-   | **[!UICONTROL 行動裝置緯度/經度]** | 此選項代表行動應用程式資料。 只有當您在「[!UICONTROL Analytics] > [!UICONTROL 管理員] > [!UICONTROL 報表套裝] > (選取報表套裝) > [!UICONTROL 編輯設定] >  [!UICONTROL 行動管理] > [!UICONTROL 啟用位置追蹤]」中為您的報表套裝啟用此選項時，才會顯示此選項。 這些為預設設定 (如果已啟用位置追蹤)。 |
+   | **[!UICONTROL 行動裝置緯度/經度]** | 此選項代表行動應用程式資料。 只有當您在「[!UICONTROL Analytics] > [!UICONTROL 管理員] > [!UICONTROL 報表套裝] > (選取報表套裝) > [!UICONTROL 編輯設定] >  [!UICONTROL 行動管理] > [!UICONTROL 啟用位置追蹤]」中為您的報表套裝啟用此選項時，才會顯示此選項。 這是預設設定 (如果已啟用位置追蹤)。 |
    | **[!UICONTROL 地理維度]** | 此選項代表有關訪客位置 (根據訪客 IP 位址) 的地理劃分資料。 此資料可轉換為[!UICONTROL 國家]、[!UICONTROL 地區]和[!UICONTROL 城市]。 請注意，此資料不會深入至 DMA 或郵遞區號層級。 幾乎所有報表套裝都會啟用此維度。 如果沒有，請聯絡Adobe客戶服務以啟用地理報表。 |
 
 1. 選取「**[!UICONTROL 建置]**」。
@@ -119,7 +119,7 @@ Analysis Workspace 的![全域](/help/assets/icons/Globe.svg) **[!UICONTROL 地�
    * 使用下述的[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**將**&#x200B;切換至不同的檢視，例如熱度圖。 請注意，泡泡檢視是預設設定。
 
 1. **儲存**&#x200B;專案以儲存所有地圖設定（座標、縮放、旋轉）。
-1. 從左側邊欄拖曳至位置的維度和量度，可填入視覺效果下方的自由格式表格：
+1. 視覺效果下方的自由格式表格可透過從左側邊欄拖曳位置維度和量度來填入。
 
 
 

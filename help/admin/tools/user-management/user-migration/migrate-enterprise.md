@@ -160,7 +160,7 @@ ht-degree: 72%
 
    ![步驟資訊](/help/admin/tools/user-management/user-migration/assets/migrate-as-enterprise.png)
 
-   在您按下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者就會在 Adobe Admin Console 中與 Enterprise ID/Federated ID 帳戶連結。 Analytics舊版使用者帳戶的許可權會符合&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 產品設定檔]**&#x200B;中授予Enterprise/Federated ID登入的許可權。 使用者 ID 會顯示在「完成移轉程序」區塊中。 您可以停用其舊版 [!DNL my.omniture.com] 存取權。
+   在您按下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者就會在 Adobe Admin Console 中與 Enterprise ID/Federated ID 帳戶連結。 Analytics舊版使用者帳戶的許可權會符合&#x200B;**[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL 產品設定檔]**&#x200B;中授予Enterprise/Federated ID登入的許可權。 使用者 ID 會顯示在「完成移轉程序」桶中。 您可以停用其舊版 [!DNL my.omniture.com] 存取權。
 
    使用者移轉後，「移轉狀態」欄下方的狀態會從&#x200B;**[!UICONTROL 「未啟動」]**&#x200B;變更為&#x200B;**[!UICONTROL 「已移轉」]**。
 

@@ -186,7 +186,7 @@ ht-degree: 100%
 
 如需詳細說明，請參閱[設定雲端匯入及匯出位置](https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations)。
 
-### 步驟 3：編輯資料摘要和 Data Warehouse 請求，使用新的 SFTP 目標
+### 步驟 3：編輯資料摘要和 Data Warehouse 請求以使用新的 SFTP 目標
 
 更新目前傳送資料至 FTP 目標之任何現有的排程資料摘要和 Data Warehouse 請求，採用您建立的新 SFTP 目標。
 

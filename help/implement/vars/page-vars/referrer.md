@@ -69,7 +69,7 @@ s.referrer = digitalData.page.pageInfo.referringURL;
 
 >[!CAUTION]
 >
->請避免將此變數設為非 URL 的值。 切勿移除 URL 的協議。
+>請避免將此變數設為非 URL 的值。 切勿移除 URL 的通訊協定。
 
 ## 範例
 

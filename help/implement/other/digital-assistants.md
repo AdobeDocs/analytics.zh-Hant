@@ -20,14 +20,14 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
-ht-degree: 76%
+source-wordcount: 1286
+ht-degree: 75%
 
 ---
 
 # 對數位助理實施 Analytics
 
-由於近期雲端運算、機器學習和自然語言處理等領域突飛猛進，數位助理已成為日常生活的一部分。 消費者開始與他們的裝置交談，期待裝置能像人一樣理解和回應。 隨著這些平台日漸成熟，品牌可以透過這些逼真逼真的方式，向消費者展示其服務。 舉例來說，消費者可能問這樣問：
+由於近期雲端運算、機器學習和自然語言處理等領域突飛猛進，數位助理已成為日常生活的一部分。 消費者開始與他們的裝置交談，期待裝置能像人一樣理解和回應。 隨著這些平台日漸成熟，品牌可以透過這些逼真逼真的方式，向消費者展示其服務。 舉例來說，消費者可能會問這類問題：
 
 * 「Alexa，我的車需要換油時問我。」
 * 「Cortana，我的支票帳戶餘額多少？」
@@ -39,7 +39,7 @@ ht-degree: 76%
 
 ![數位助理工作流程](assets/Digital-Assitants.png)
 
-當今大多數的數位助理都按照類似的高階架構：
+當今大多數的數位助理都遵循類似的高階架構：
 
 1. **裝置：**&#x200B;配備麥克風的裝置 (例如 Amazon Echo 或手機)，可讓使用者詢問問題。
 1. **數位助理：**&#x200B;這個裝置再與提供數位助理技術支援的服務互動。 這是將語音轉換為機器可理解意圖並剖析請求詳細資訊的位置。 瞭解使用者的意圖後，數位助理會將請求的意圖和詳細資訊傳遞至處理請求的應用程式。
@@ -54,7 +54,7 @@ ht-degree: 76%
 1. 一是要求傳送至應用程式時。
 1. 一是應用程式傳回回應後。
 
-如果您只對記錄客戶行為感興趣，以便未來的最佳化作業，則在傳回回應後將要求傳送至 Adobe Analytics。 這樣一來，您便擁有要求詳情和系統回應方式的完整內容。
+如果您只想記錄客戶發生了什麼事，以便日後最佳化，則可在傳回回應後將請求傳送至 Adobe Analytics。 這樣一來，您便擁有要求詳情和系統回應方式的完整內容。
 
 ## 新的安裝
 
@@ -73,7 +73,7 @@ Host:
 
 ## 多個助理或多個應用程式
 
-您的組織有可能需要在多個平台使用應用程式。 最佳作法是在每個要求中納入應用程式 ID。 這個變數可在 `a.AppID` 內容資料中加以設定。 請遵照 `[AppName] [BundleVersion]` 格式，例如 Alexa 1.2 為 BigMac：
+您的組織很可能想要為多個平台提供應用程式。 最佳做法是在每個要求中納入應用程式 ID。 這個變數可在 `a.AppID` 內容資料中加以設定。 請遵照 `[AppName] [BundleVersion]` 格式，例如 Alexa 1.2 為 BigMac：
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -109,7 +109,7 @@ Cache-Control: no-cache
 
 **消費者：** 「8:30pm」
 
-**Google：** 「好主意，驅動程式將會在8:30pm前到達」
+**Google：** 「好主意，司機八點半會準時到達」
 
 工作階段對於保留上下文資料十分重要，且有助於系統收集更多詳細資訊，讓數位助理更趨自然。 若針對對話實施 Analytics，則在新工作階段開始，請執行兩項動作:
 
@@ -164,7 +164,7 @@ Cache-Control: no-cache
 
 有時數位助理所提供給應用程式的輸入值，會讓應用程式不確定要如何處理。 舉例來說，「Siri，從我的銀行應用程式轉給小明 20 袋煤，付昨天的晚餐錢。」
 
-發生這種情況時，應用程式會向您詢問明確指令。 此外，系統會傳送資料到 Adobe，指出應用程式出現錯誤狀態，並附上 eVar，指定錯誤的類型。 請務必將輸入值有誤的錯誤以及應用程式發生問題的錯誤皆納入其中。
+發生這種情況時，應用程式會向您詢問明確指令。 此外，請將指出應用程式處於錯誤狀態的資料傳送給 Adobe，並附上指定發生何種類型錯誤的 eVar。 請務必將輸入值有誤的錯誤以及應用程式發生問題的錯誤皆納入其中。
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
@@ -178,7 +178,7 @@ Cache-Control: no-cache
 
 範例：`":Audio:Camera:Screen:Video:"`
 
-開頭和結尾冒號對於建立區段很實用， 例如顯示所有具有 `:Audio:` 功能的點擊。
+前後加上冒號有助於建立區段。 例如顯示所有具有 `:Audio:` 功能的點擊。
 
 * 使用 Amazon Alexa 的 [Amazon 功能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
 * 使用 Actions on Google 的 [Google 功能](https://developers.google.com/actions/assistant/surface-capabilities)

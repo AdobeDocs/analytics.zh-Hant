@@ -43,7 +43,7 @@ ht-degree: 75%
 | --- | --- |
 | `xdm.application.isClose` | 協助定義行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isInstall` | 協助判斷何時增加行動生命週期量度[首次啟動](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
-| `xdm.application.closeType` | 判斷某個關閉事件是否損毀。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。 幫助設定行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/) 指標。 |
+| `xdm.application.closeType` | 判斷關閉事件是否為當機。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。 幫助設定行動生命週期量度[損毀](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/) 指標。 |
 | `xdm.application.isInstall` | 行動生命週期量度[安裝](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.isLaunch` | 行動生命週期量度[啟動](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
 | `xdm.application.name` | 協助設定行動生命週期維度[應用程式 ID](https://developer.adobe.com/client-sdks/home/base/mobile-core/lifecycle/metrics/)。 |
@@ -181,7 +181,7 @@ Web SDK 會將該資料當作內容資料變數 `a.x._atag.search.term` 傳送�
 
 ## 明確對應
 
-您也可以明確對應 XDM 欄位元素為情境資料。 任何明確對應的 XDM 欄位元素將使用 `contextData` 元素，作為情境資料發送至 Adobe Analytics，並且不帶前置詞。 您可以使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)將此情境資料變數對應到所需的 Analytics 變數。 例如，如果您傳送以下事件︰
+您也可以明確將 XDM 欄位元素對應為情境資料。 任何明確對應的 XDM 欄位元素將使用 `contextData` 元素，作為情境資料發送至 Adobe Analytics，並且不帶前置詞。 您可以使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)將此情境資料變數對應到所需的 Analytics 變數。 例如，如果您傳送以下事件︰
 
 ```js
 alloy("event",{

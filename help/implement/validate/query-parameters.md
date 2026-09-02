@@ -87,14 +87,14 @@ ht-degree: 46%
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 決定點選型別。 有效值包括`lnk_o` （[[!UICONTROL 自訂連結]](/help/components/dimensions/custom-link.md)）、`lnk_d` （[[!UICONTROL 下載連結]](/help/components/dimensions/download-link.md)）、`lnk_e` （[[!UICONTROL 退出連結]](/help/components/dimensions/exit-link.md)）和`tnt` （目標點選的Analytics）。 |
 | `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | 發生自訂連結的URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | [自訂連結](/help/components/dimensions/custom-link.md)的易記名稱。 |
-| `pev3` | 無 | **已不再使用。** 追蹤舊版視訊報表中的里程碑。 |
+| `pev3` | 無 | **已不再使用。** 追蹤舊版影片報告中的里程碑。 |
 | `pf` | 無 | 平台標幟；僅供 Adobe 使用。 不可變更。 |
 | `pid` | 無 | **已不再使用。** 最後一頁的頁面識別碼。 用於舊版 Activity Map。 |
 | `pidt` | 無 | **已不再使用。** 最後一頁的頁面識別碼類型。 用於舊版 Activity Map。 |
 | `pl` | [`products`](../vars/page-vars/products.md) | `products`引數的簡稱。 |
 | `products` | [`products`](../vars/page-vars/products.md) | 產品變數。 用於[[!UICONTROL 產品]](/help/components/dimensions/product.md)和[[!UICONTROL 類別]](/help/components/dimensions/category.md)維度。 |
 | `purchaseID` | [`purchaseID`](../vars/page-vars/purchaseid.md) | 用於[[!UICONTROL 購買ID]](/help/components/dimensions/purchase-id.md)維度。 |
-| `r` | [`referrer`](../vars/page-vars/referrer.md) | 點擊的反向連結 URL。 用於流量來源維度，例如[[!UICONTROL 反向連結]](/help/components/dimensions/referrer.md)和[[!UICONTROL 反向連結網域]](/help/components/dimensions/referring-domain.md)。 |
+| `r` | [`referrer`](../vars/page-vars/referrer.md) | 點擊的轉介 URL。 用於流量來源維度，例如[[!UICONTROL 反向連結]](/help/components/dimensions/referrer.md)和[[!UICONTROL 反向連結網域]](/help/components/dimensions/referring-domain.md)。 |
 | `s` | 無 | 螢幕解析度，單位為 `width x height`。 用於[[!UICONTROL 螢幕解析度]](/help/components/dimensions/monitor-resolution.md)維度。 |
 | `sdid` | 無 | 補充資料ID。 連結描述相同事件的多個點選，例如[Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t.html)整合中的Analytics和Target點選。 |
 | `server` | [`server`](../vars/page-vars/server.md) | 用於[[!UICONTROL 伺服器]](/help/components/dimensions/server.md)維度。 |

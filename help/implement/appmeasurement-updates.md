@@ -1,6 +1,6 @@
 ---
-title: JavaScript 適用的 AppMeasurement 版本注意事項
-description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
+title: JavaScript 適用的 AppMeasurement 發行說明
+description: JavaScript 適用的 AppMeasurement 累積發行說明。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
@@ -37,7 +37,7 @@ ht-degree: 55%
 
 ---
 
-# JavaScript 適用的 AppMeasurement 版本注意事項
+# JavaScript 適用的 AppMeasurement 發行說明
 
 >[!IMPORTANT]
 >
@@ -79,7 +79,7 @@ ht-degree: 55%
 
 發行日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。 您可以透過「標籤」設定使用者端提示或使用[`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md)設定變數。 高平均資訊量提示的收集預設為停用。 進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
+* AppMeasurement 現在支援收集高熵使用者代理程式用戶端提示，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用這些提示來提供裝置資訊。 您可以透過「標籤」設定使用者端提示或使用[`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md)設定變數。 高平均資訊量提示的收集預設為停用。 進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
 
 ## 2.22.4 版本
 
@@ -121,7 +121,7 @@ ht-degree: 55%
 
 發行日期：**2020 年 3 月 5 日**
 
-* 已更新 Internet Explorer 偵測以抑制 JSLint 警告，而修正安全性相關問題。
+* 已透過更新 Internet Explorer 偵測以抑制 JSLint 警告，修正安全性相關問題。
 
 ## 2.19.0 版本
 
@@ -146,7 +146,7 @@ ht-degree: 55%
 
 發行日期：**2019 年 8 月 15 日**
 
-* 為退出連結實施 `sendBeacon` 支援 (在 [!UICONTROL AppMeasurement] 中)。 如果點擊使用 `sendBeacon` 且頁面取消載入，要求仍會完成。 這對於退出連結非常有用，因為點擊更有可能到達資料收集伺服器。 (AN-175142)
+* 為退出連結實施 `sendBeacon` 支援 (在 [!UICONTROL AppMeasurement] 中)。 如果點擊使用 `sendBeacon` 且頁面取消載入，要求仍會完成。 這對於退出連結非常有用，因為點擊更有可能到達資料彙集伺服器。 (AN-175142)
 * 現在，第一次點擊時會快取 ECID/fid 值，即使 OptIn 設定有所變更。 (AN-175142)
 * Audience Manager 模組已更新至 DIL 9.3。 (AN-182704)
 * 在 `s.ActivityMap.trackScrollReach` 中顯示開關，用於開啟或關閉捲動觸及追蹤。 (AN-182754)
@@ -374,7 +374,7 @@ ht-degree: 55%
 發行日期：**2015 年 11 月 5 日**
 
 * 納入 Visitor API 1.5.3。
-* 修正 IE 11 對 URL 截斷 2047 的偵測功能 (AN-114914)
+* 修正 IE11 對 URL 截斷 2047 的偵測功能 (AN-114914)
 
 ## 1.5.1 版本
 
@@ -397,7 +397,7 @@ ht-degree: 55%
 
 * 從iOS SDK 4.5版開始，新的iOS擴充功能可讓您從Apple Watch應用程式、「今天」小工具、「照片編輯」小工具和所有其他iOS擴充應用程式中收集使用資料。
 * 從Android SDK 4.5版開始，新的Android擴充功能可讓您透過Android穿戴式裝置應用程式中收集資料。
-* 納入 Visitor API 1.4.
+* 納入 Visitor API 1.4。
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版本。
 
 >[!NOTE]
@@ -408,7 +408,7 @@ ht-degree: 55%
 
 發行日期：**2015 年 4 月 16 日**
 
-* 您現在可使用生命週期量度來納入自訂內容資料的變數。
+* 您現在可以將自訂內容資料變數納入生命週期量度。
 * 您現在可在 PhoneGap 中使用 `trackBeacon` 和 `clearCurrentBeacon` 呼叫。
 * 進行微幅修正，以在 `trackLight` 呼叫後清除小型伺服器呼叫輪廓 ID。
 
@@ -416,9 +416,9 @@ ht-degree: 55%
 
 發行日期：**2015 年 2 月 19 日**
 
-* 將所有延遲追蹤呼叫的處理改為一致，以修正延遲期間的備份變數問題，例如已點按物件。
+* 將所有延遲追蹤呼叫的處理改為一致，以修正延遲期間累積的變數問題，例如已點按的物件。
 * 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定&#x200B;*`s.referrer`*&#x200B;時，以免第二個、第三個……追蹤呼叫（通常是連結追蹤）重複計算反向連結。
-* 已更新分送 Zip 檔，現在包含 Visitor API 1.3.5。
+* 已更新分送 ZIP 檔，現在包含 Visitor API 1.3.5。
 
 ## 1.4.2 版本
 
@@ -505,7 +505,7 @@ ht-degree: 55%
 
 發行日期：**2013 年 11 月 15 日**
 
-* 修正用於心率視訊測量的頁面事件。
+* 修正用於 Heartbeat 影片測量的頁面事件。
 
 ## 1.2 版本
 

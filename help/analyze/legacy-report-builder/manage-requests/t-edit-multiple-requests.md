@@ -46,7 +46,7 @@ ht-degree: 74%
    * **依報表套裝**：依報表套裝將畫面上顯示的請求分組。
    * **依區段**：依區段名稱將請求分組。
 
-      * **選擇區段**：沒有任何請求區段時顯示。 若要新增區段，請按一下&#x200B;**[!UICONTROL 編輯群組]**，然後從[!UICONTROL 編輯群組]面板中選取區段。
+     * **選擇區段**：沒有任何請求區段時顯示。 若要新增區段，請按一下&#x200B;**[!UICONTROL 編輯群組]**，然後從[!UICONTROL 編輯群組]面板中選取區段。
 
    * **依量度**：請參閱[編輯多個請求的量度](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md)。
 

@@ -33,7 +33,7 @@ ht-degree: 68%
 
 這包括選取報表套裝，以及為其設定最多3個報表。
 
-1. 選取您要啟用即時報告的報表套裝。
+1. 選取您要啟用即時報告的報告套裝。
 
    1. 在Analysis Workspace中，選取&#x200B;[!UICONTROL **Workspace**]&#x200B;索引標籤，然後選取&#x200B;[!UICONTROL **報表**] > [!UICONTROL **參與**] > **[!UICONTROL 即時]**。
 
@@ -50,13 +50,13 @@ ht-degree: 68%
    (也可從&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員 > 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 即時」]**&#x200B;中存取。)
 
 1. 開啟&#x200B;**[!UICONTROL 啟用即時]**&#x200B;設定。
-1. 設定最多 3 個報告的即時資料收集，每個報告各一個量度和三個維度或分類。
+1. 設定最多 3 個報告的即時資料彙集，每個報告各一個量度和三個維度或分類。
 
    ![](assets/real_time_admin.png)
 
    如需深入瞭解支援的即時量度和維度，請參閱[支援的量度和維度](/help/admin/tools/manage-rs/edit-settings/realtime/realtime-metrics.md)。
 
-   如果您已定義分類，則會以縮排顯示在其所定義的維度下方：
+   如果您已建立分類，則會以縮排顯示在其所定義的維度下方：
 
    ![](assets/classifications.png)
 

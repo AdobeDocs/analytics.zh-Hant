@@ -52,7 +52,7 @@ ht-degree: 73%
 | [!UICONTROL 頻道報表] | 未使用 |
 | [!UICONTROL 分類] | 授予「報告套裝管理器」中所有分類設定的存取權。 此權限項目包括：<br>流量 > 流量分類<br>轉換 > 轉換分類<br>轉換 > 分類階層<br>行銷管道 > 行銷管道分類<br>應用程式管理 > 應用程式分類<br>媒體管理 > 媒體分類<br>AEM > AEM Assets 分類<br>Adobe Campaign > Adobe 分類 |
 | [!UICONTROL 成本] | 授與「報告套裝管理器」中「行銷管道 > 行銷管道成本」的存取權。 |
-| [!UICONTROL 貢獻分析] | 授與 Analysis Workspace 中滑鼠右鍵功能表的「執行貢獻分析」存取權。 |
+| [!UICONTROL 貢獻分析] | 授與 Analysis Workspace 中滑鼠右鍵功能表「執行貢獻度分析」的存取權。 |
 | [!UICONTROL 轉換變數] | 授與「報告套裝管理器」中「轉換 > 轉換變數」的存取權。 |
 | [!UICONTROL 自訂日曆] | 授與「報告套裝管理器」中「一般 > 自訂日曆」的存取權。 |
 | [!UICONTROL 自訂 Data Warehouse 報表] | 授與 Analytics 頂端導覽列中「工具 > Data Warehouse」的存取權。 |
@@ -84,5 +84,5 @@ ht-degree: 73%
 | [!UICONTROL 成功事件] | 授與「報告套裝管理器」中「轉換 > 成功事件」的存取權。 |
 | [!UICONTROL 流量管理] | 未使用 |
 | [!UICONTROL 流量變數] | 授與「報告套裝管理器」中「流量 > 流量變數」的存取權。 |
-| [!UICONTROL 不重複訪客] | 授與「轉換 > 不重複訪客變數」的存取權。 通常不會用於新版的實施中。 |
+| [!UICONTROL 不重複訪客] | 授與「轉換 > 不重複訪客變數」的存取權。 通常不會用於現代實作中。 |
 | [!UICONTROL URL 篩選器] | 授與「報告套裝管理器」中「一般 > 內部 URL 篩選器」的存取權。 |

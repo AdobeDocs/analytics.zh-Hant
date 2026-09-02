@@ -87,7 +87,7 @@ ht-degree: 38%
 
    | 欄位 | 函數 |
    |---------|----------|
-   | [!UICONTROL **儲存貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保 Adob&#x200B;&#x200B;e 提供的使用者 ARN 擁有 `S3:PutObject` 權限，以便該使用者將檔案上傳到此貯體。 </p><p>貯體名稱必須符合特定的命名規則。 例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。 [AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
+   | [!UICONTROL **儲存貯體**] | 在您的 Amazon S3 帳戶內，您希望 Adob&#x200B;&#x200B;e Analytics 資料傳送的貯體。 <p>確保 Adob&#x200B;&#x200B;e 提供的使用者 ARN 擁有 `S3:PutObject` 權限，以便該使用者將檔案上傳到此貯體。 </p><p>桶名稱必須符合特定的命名規則。 例如，這些名稱長度必須在 3 至 63 個字元之間，只能由小寫字母、數字、點 (.) 和連字號 (-) 組成，並且必須以字母或數字開頭和結尾。 [AWS 文件中有命名規則的完整清單](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html)。 </p> |
    | [!UICONTROL **前置詞**] | 在貯體內，您希望資料放置的資料夾。 註明資料夾名稱，然後在名稱後面加上反斜線以建立資料夾。 例如，folder_name/ |
 
    {style="table-layout:auto"}
@@ -222,7 +222,7 @@ ht-degree: 38%
 
 +++S3
 
-您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
+您可以直接傳送倉儲資料至 Amazon S3 貯體。 此目的地類型需要桶名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的「[Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)」。
 
 您提供來上傳 Data Warehouse 資料的使用者必須具備以下[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 

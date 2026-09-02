@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 618
+source-wordcount: 628
 ht-degree: 95%
 
 ---
@@ -45,7 +45,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 >[!ENDSHADEBOX]
 
 
-![組合圖表](/help/assets/icons/ComboChart.svg)**[!UICONTROL 組合]**&#x200B;視覺化讓您可輕鬆快速地建置比較視覺化，而無需先建置表格。 您可以輕鬆地以折線/條形組合的形式檢視資料趨勢。
+![組合圖表](/help/assets/icons/ComboChart.svg)**[!UICONTROL 組合]**&#x200B;視覺化讓您可輕鬆快速地建置比較視覺化，而無需先建置表格。 您可以輕鬆地以折線圖/長條圖組合的形式檢視資料趨勢。
 
 使用[!UICONTROL 組合]進行：
 
@@ -83,7 +83,7 @@ _請參閱[組合](https://experienceleague.adobe.com/zh-hant/docs/analytics-pla
 
    ![組合圖表以長條圖顯示目前期間，以折線圖顯示比較期間 &#x200B;](assets/combo-output.png)
 
-   目前期間顯示在長條圖中。 折線圖會表示比較期間。 折線圖上的圓點稱為&#x200B;*槓鈴*。
+   目前期間顯示在長條圖中。 折線圖顯示比較期間。 折線圖上的圓點稱為&#x200B;*槓鈴*。
 
 ## 支援的函數
 

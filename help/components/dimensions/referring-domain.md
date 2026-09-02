@@ -36,7 +36,7 @@ ht-degree: 97%
 >
 >您必須設定報表套裝的[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)，才能使用此維度。 若未設定內部 URL 篩選器，則可能納入內部網域，或使外部網域無法顯示。
 
-相同的報表可顯示 Analysis Workspace 和 Data Warehouse 之間的不同結果。 Analysis Workspace 會報告每個個別頁面的反向連結網域，排除與內部 URL 篩選器相符的值。 Data Warehouse 只會報告造訪的第一個反向連結網域，並忽略內部 URL 篩選器。
+相同的報告在 Analysis Workspace 和 Data Warehouse 中可能會顯示不同的結果。 Analysis Workspace 會報告每個個別頁面的反向連結網域，排除與內部 URL 篩選器相符的值。 Data Warehouse 只會報告造訪的第一個反向連結網域，並忽略內部 URL 篩選器。
 
 ## 將資料填入此維度中
 

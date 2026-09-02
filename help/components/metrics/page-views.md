@@ -1,6 +1,6 @@
 ---
 title: 頁面檢視次數
-description: 維度項目的次數是設定或保存在 Adobe Analytics 中。
+description: 維度項目在 Adobe Analytics 中被設定或持續存在的次數。
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
 TQID: https://experienceleague.adobe.com/ZJOoxc3imuMfVTa7caV5eQ6-XJh0amCRq65ByuANFq0
@@ -34,5 +34,5 @@ ht-degree: 100%
 
 ## 與類似量度比較
 
-* **頁面檢視次數與[造訪次數](visits.md)**：頁面檢視次數會計算頁面被檢視的次數。 造訪次數會計算瀏覽者使用工作階段的數量。 一次瀏覽包含一或多次頁面檢視。
+* **頁面檢視次數與[造訪次數](visits.md)**：頁面檢視次數會計算頁面被檢視的次數。 造訪次數會計算訪客的工作階段數量。 一次瀏覽包含一或多次頁面檢視。
 * **頁面檢視次數與[頁面事件](page-events.md)**：頁面檢視次數會計算頁面檢視追蹤呼叫 (`t()`) 的數量，並排除連結追蹤呼叫 (`tl()`)。 頁面事件次數正好反相；這類次數會計算連結追蹤呼叫的數量，並排除頁面檢視追蹤呼叫。

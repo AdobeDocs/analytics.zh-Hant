@@ -1,6 +1,6 @@
 ---
 title: abort
-description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料收集伺服器。
+description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料彙集伺服器。
 feature: Appmeasurement Implementation
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 role: Admin, Developer

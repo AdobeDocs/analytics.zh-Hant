@@ -28,7 +28,7 @@ ht-degree: 37%
 
 # Adobe Analytics 中的資料處理順序
 
-Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法。 此頁面會顯示各種 Adobe Analytics 功能處理資料的順序。 您可以使用此清單來解決資料不一致問題，或在需要調整資料時決定使用哪種功能效果最好。
+Adobe 提供許多方法，可在資料出現在報告中之前加以變更或操作。 此頁面會顯示各種 Adobe Analytics 功能處理資料的順序。 您可以使用此清單來解決資料不一致問題，或在需要調整資料時判斷最適合使用的功能。
 
 ![正在處理訂單影像](assets/processing-order.png)
 
@@ -83,7 +83,7 @@ Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法�
 1. **交易ID**：如果點選包含新的[`transactionID`](/help/implement/vars/page-vars/transactionid.md)值，則會儲存所有支援值的「快照」。 當資料來源上載包含相符的交易ID時，此快照中支援的所有值都會包含在該資料來源列中。
 1. [**IP模糊化（移除IP）**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)：如果您的報表套裝設定為完全模糊化IP位址，則所有其他處理完成後會套用該模糊化。
 
-此時，單依點擊記錄在報告套裝資料表中。 在標準[延遲](latency.md)間隔之後，它可以在報告中使用。
+此時，個別點擊會記錄在報告套裝資料表中。 在標準[延遲](latency.md)間隔之後，它可以在報告中使用。
 
 ## 在處理後變更資料
 

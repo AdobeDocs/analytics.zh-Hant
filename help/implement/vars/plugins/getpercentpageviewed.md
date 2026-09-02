@@ -1,6 +1,6 @@
 ---
 title: getPercentPageViewed
-description: 擷取訪客所檢視的頁面比例。
+description: 檢索訪客檢視頁面的百分比。
 feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
@@ -42,7 +42,7 @@ ht-degree: 83%
 Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -61,7 +61,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式代碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
 ## 使用 AppMeasurement 安裝外掛程式
@@ -87,10 +87,10 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvPreviousPage`：已檢視的上一頁名稱。 載入新頁面後才可對目前頁面進行最終捲動測量。
 * `window._ppvInitialPercentViewed`：上一個頁面初次載入時的頁面可見百分比。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `100`。
 * `window._ppvHighestPercentViewed`：訪客已檢視的上一個頁面的最高比例 (以高度計)。 訪客在上一個頁面向下捲動至最遠的點。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `100`。
-* `window._ppvFinalPercentViewed`：在訪客前往頁面時可見到上一頁的百分比。 此數值將等於或大於原始檢視百分比，也將等於或小於最高頁面檢視百分比。
+* `window._ppvFinalPercentViewed`：在訪客前往頁面時可見到上一頁的百分比。 此數值將等於或大於初始檢視百分比，也將等於或小於最高頁面檢視百分比。
 * `window._ppvHighestPixelsSeen`：當訪客向下捲動前一個頁面時已查看之總畫素的最高數量 (以高度計)。
 * `window._ppvFoldsAvailable`：可在上一個頁面向下捲動的「摺頁」總數。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
-* `window._ppvFoldsSeen`：當訪客向下捲動前一個頁面時達到的「折頁」最高數量。 此變數包含「頁面頂端」摺頁。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
+* `window._ppvFoldsSeen`：當訪客向下捲動前一個頁面時達到的「折頁」最高數量。 此變數包含「頁面頂端」摺線。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
 
 將上述一或多個變數指派給 eVar，便可在報表中查看維度資料。
 
@@ -145,7 +145,7 @@ if(_ppvPreviousPage)
 
 ### v3.01 (2018 年 8 月 13 日)
 
-* 修正一個頁面上有多個 AppMeasurement 物件的頁面問題
+* 修正單一頁面上有多個 AppMeasurement 物件時發生的問題
 
 ### v3.0 (2018 年 4 月 13 日)
 

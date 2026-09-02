@@ -30,7 +30,7 @@ ht-degree: 100%
 
 Adobe 提供數種您可在實施中使用的函數和方法。 參考這些函數或方法時，它們會使用一行程式碼來執行常見工作。
 
-其中部分一行程式碼屬於下列類別：
+這些單行程式碼中的一部分屬於下列類別：
 
 * **追蹤呼叫**：最常見的方法，在許多實施中非常重要。 其中包括 [`t()`](t-method.md) 和 [`tl()`](tl-method.md) 方法。
 * **AppMeasurement 公用程式**：在舊版 AppMeasurement 中，實施必須編寫自己的程式碼才能執行這些工作。 Adobe 提供這些公用程式方法來簡化這些常見工作。 AppMeasurement 公用程式包括 [`Util.cookieRead()`](util-cookieread.md)、[`Util.cookieWrite()`](util-cookiewrite.md) 和 [`Util.getQueryParam()`](util-getqueryparam.md)。

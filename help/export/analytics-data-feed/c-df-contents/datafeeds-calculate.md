@@ -1,6 +1,6 @@
 ---
 description: 說明如何使用資料摘要來計算通用量度。
-keywords: 資料摘要；量度；預先欄位；後置欄位；bots；日期篩選器；事件字串；一般；公式
+keywords: 資料摘要；工作；量度；預先欄位；後置欄位；bots；日期篩選；事件字串；常見；公式
 title: 計算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
@@ -73,7 +73,7 @@ Adobe用來識別不重複訪客的所有方法（自訂訪客ID、ECID等） �
 
 ## 逗留時間
 
-首先必須依瀏覽來分組點擊，然後根據瀏覽中的點擊數排序。
+首先必須依造訪來分組點擊，然後根據造訪中的點擊數排序。
 
 1. 串連 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 2. 依此串連值排序，然後依 `visit_page_num` 套用次要排序。

@@ -26,7 +26,7 @@ ht-degree: 38%
 
 如果您從現有的報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的任何設定。
 
-下列設定值不會從範本或複製的報告套裝進行複製：
+下列設定不會從範本或複製的報告套裝中複製：
 
 * [分類](/help/components/classifications/classifications-overview.md)資料（複製分類結構）
 * [交易識別碼儲存](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)

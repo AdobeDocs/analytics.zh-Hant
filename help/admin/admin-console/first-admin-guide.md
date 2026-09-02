@@ -1,5 +1,5 @@
 ---
-title: Adobe Analytics 的第一個管理指南
+title: Adobe Analytics 第一位管理員指南
 description: 瞭解第一個管理員布建流程如何進行以及後續步驟
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools

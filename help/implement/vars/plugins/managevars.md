@@ -29,7 +29,7 @@ ht-degree: 83%
 
 {{plug-in}}
 
-`manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。 您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。 如果您想一次清除多個變數的值，Adobe 建議使用此外掛程式。
+`manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。 您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。 如果您想一次整理多個變數的值，Adobe 建議使用此外掛程式。
 
 ## 使用網頁SDK或網頁SDK擴充功能安裝外掛程式
 
@@ -40,14 +40,14 @@ ht-degree: 83%
 Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常用 Analytics 外掛程式
+   * 擴充功能：Common Analytics Plugins
    * 動作類型：初始化 manageVars
 1. 儲存並發佈規則的變更。
 
@@ -59,7 +59,7 @@ Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式代碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
 ## 使用 AppMeasurement 安裝外掛程式
@@ -79,22 +79,22 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 * **`cb`** (必要，字串)：外掛程式用來操控 Analytics 變數的回呼函數名稱。 您可以使用類似 `cleanStr` 的 Adobe 函數或您自己的自訂函數。
 * **`l`** (選用，字串)：您要操控之 Analytics 變數的逗號分隔清單。 若未設定，則預設為所有 Adobe Analytics 變數，包括：
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * 所有 Prop
-   * 所有 eVar
-   * 所有階層變數
-   * 所有清單變數
-   * 所有上下文資料變數
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * 所有 Prop
+  * 所有 eVar
+  * 所有階層變數
+  * 所有清單變數
+  * 所有上下文資料變數
 * **`Il`** (選用，布林值)：如果要&#x200B;*排除* `l` 引數中宣告的變數清單而非包括，則設為 `false`。 預設為 `true`。
 
 呼叫此函數不會傳回任何內容。 而是根據所需的回呼函數變更 Analytics 變數的值。

@@ -50,10 +50,10 @@ ht-degree: 88%
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取將註解設為最愛項目![Star](/help/assets/icons/Star.svg)或取消最愛項目![StarOutline](/help/assets/icons/StarOutline.svg)。 |
 | **[!UICONTROL 標題和說明]** | 在註解產生器中提供。 如要編輯標題和說明，請選取標題連結 - 開啟[註解產生器](/help/analyze/analysis-workspace/components/annotations/create-annotations.md#annotation-builder)。 共用註解以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 報告套裝]** | 套用此註解的報表套裝。 |
-| **[!UICONTROL 所有者]** | 註解的所有者。 做為使用者，您只能看到您擁有的註解或與您共用的註解。 |
+| **[!UICONTROL 所有者]** | 註解的所有者。 作為使用者，您只能看到您擁有的註解或與您共用的註解。 |
 | **[!UICONTROL 套用的日期範圍]** | 此註解套用的日期或日期範圍。 |
 | **[!UICONTROL 標記]** | 此註解的標記。 |
-| **[!UICONTROL 共用對象]** | 您共用註解的個人或群組。 選取開啟「**[!UICONTROL 共用元件]**」對話框。 |
+| **[!UICONTROL 共用對象]** | 您與其共用註解的個人或群組。 選取開啟「**[!UICONTROL 共用元件]**」對話框。 |
 | **[!UICONTROL 修改日期]** | 顯示上次修改註解的日期和時間。 |
 
 {style="table-layout:auto"}
@@ -71,7 +71,7 @@ ht-degree: 88%
 | ![Label](/help/assets/icons/Label.svg) | **[!UICONTROL 標記]** | 標記所選取的註解。 在&#x200B;**[!UICONTROL 標記元件]**&#x200B;對話框中，選取或取消選取所選取註解的標記。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選取註解的標記。 |
 | ![共用](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL 共用]** | 共用所選取的註解。 在&#x200B;**[!UICONTROL 共用元件]**&#x200B;對話框中，您可以![Search](/help/assets/icons/Search.svg)*搜尋個人或群組*，或者您可以選取&#x200B;**[!UICONTROL 組織]**&#x200B;或&#x200B;**[!UICONTROL 群組]**。 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存所選取註解的共用詳細資訊。 如需更多詳細資訊，請參閱[共用註解](#share-annotations)。 |
 | ![Delete](/help/assets/icons/Delete.svg) | **[!UICONTROL 刪除]** | 刪除所選取的註解。 系統會提示您進行確認。 |
-| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名所選取的單一註解。 選取後，您可以用內嵌方式重新命名。 |
+| ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名所選取的單一註解。 選取後，您可以用內嵌方式重新命名註解。 |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製所選取的註解。 使用相同的名稱和字尾建立新註解 (複製) |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將註解匯出至 `Annotations List.csv` 檔案。 |
 
@@ -81,7 +81,7 @@ ht-degree: 88%
 
 ### 篩選面板
 
-您可以使用&#x200B;**[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選註解。 篩選面板顯示篩選的類型和執行該篩選的註解數量。 選取![Filter](/help/assets/icons/Filter.svg)以切換篩選面板的顯示內容。
+您可以使用&#x200B;**[!UICONTROL 篩選器]**&#x200B;左側面板➍來篩選註解。 篩選面板顯示篩選的類型以及符合該篩選條件的註解數量。 選取![Filter](/help/assets/icons/Filter.svg)以切換篩選面板的顯示內容。
 
 若要對篩選清單進行篩選：
 
@@ -122,7 +122,7 @@ ht-degree: 88%
 * 您與其他使用者共用的專案中僅限專案的註解，會向那些使用者顯示。 使用者無法編輯或刪除這些僅限專案的註解。
 * 如果您儲存註解並直接與使用者共用，該使用者必須具有管理員權限，才能編輯和刪除註解。
 
-* 如果是與您共用專案，則在該專案中建立的註解僅顯示在該專案中。 若是直接與您共用註解，則該註解在可以顯示註解的所有專案中均會出現。
+* 如果是與您共用專案，則在該專案中建立的註解僅顯示在該專案中。 如果註解是直接與您共用，則該註解會出現在可顯示該註解的所有專案中。
 
 ## 註解和時區
 

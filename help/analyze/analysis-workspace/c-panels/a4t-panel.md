@@ -84,7 +84,7 @@ Analytics for Target 面板可讓您在 Analysis Workspace 中分析 Adobe Targe
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 目標活動]** | 從目標活動清單中選取。 請注意：清單會填入最近 6 個月內至少點擊過 1 次的活動。 如果您在清單中未看到某個活動，表示其存留期可能已超過 6 個月。 您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
+| **[!UICONTROL 目標活動]** | 從目標活動清單中選取。 清單會填入最近 6 個月內至少有 1 次點擊的活動。 如果您在清單中未看到某個活動，表示該活動可能已超過 6 個月。 您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
 | **[!UICONTROL 控制體驗]** | 選取控制體驗。 |
 | **[!UICONTROL 標準化量度]** | 選取訪客、造訪數或曝光數。 在大多數的分析使用案例中，均建議使用[!UICONTROL 訪客]。 此量度 (也稱為計數方法) 會成為提升度計算的分母。 也會影響在套用可信度計算前彙總資料的方式。 |
 | **[!UICONTROL 成功量度]** | 從下拉式清單中選取最多 3 個標準 (非計算) 成功事件，或從元件邊欄的量度中拖放量度。 每個量度在呈現的面板中都會有專屬的表格和視覺效果。 |
@@ -122,8 +122,8 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 提升度和可信度計算是否支援計算量度？ | 否。 [深入了解](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence)提升度和可信度不支援計算量度的原因。 不過，計算量度可用於這些量度以外的 Analytics for Target 報告。 |
 | 為何 Target 與 Analytics 的不重複訪客會有差異？ | [了解更多](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports)有關產品之間不重複訪客差異。 |
 | 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | Analytics for Target 維度是清單變數，表示有可能同時包含許多活動 (和體驗)。 [了解更多](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
-| 可信度量度是否可計算極端順序，或對多個產品建議套用 Bonferroni 校正？ | 否。 [深入了解](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) Analytics 計算可信度的方式。 |
+| 可信度量度是否考量極端訂單，或對多個產品建議套用 Bonferroni 校正？ | 否。 [深入了解](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) Analytics 計算可信度的方式。 |
 | 提升度和可信度量度是否可搭配其他維度或劃分使用？ | 提升度和可信度是「目標體驗」維度的「鎖定量度」，因為它們需有控制項和變數才能計算。 因此，無法劃分或搭配其他維度使用。 |
-| 何時會重新計算提升度和可信度？ | 每當建置面板、面板日期範圍變更或將區段套用至面板或表格時，就會重新計算提升度和信賴度。 您將區段篩選器套用至自由格式表格時，必須將區段套用於所有欄或提升度，否則信賴度將無法正確更新。 不支援欄級區段。 |
+| 何時會重新計算提升度和可信度？ | 每當建置面板、面板日期範圍變更或將區段套用至面板或表格時，就會重新計算提升度和信賴度。 您將區段篩選器套用至自由格式表格時，必須將區段套用於所有欄，否則提升度和信賴度將無法正確更新。 不支援欄級區段。 |
 
 若需更多 Analytics for Target 報告相關的詳細資訊，請造訪 [Analytics for Target 報告](https://experienceleague.adobe.com/zh-hant/docs/target/using/integrate/a4t/reporting)

@@ -23,7 +23,7 @@ ht-degree: 100%
 
 # 分類集概觀
 
-分類集會提供管理分類和規則的單一介面。 此工作流程將在[»報告套裝設定](/help/admin/tools/manage-rs/report-suites-admin.md)中建立分類的功能與[分類匯入工具](/help/components/classifications/sets/manage-sets.md)結合。 結果是提供一個直覺易用的介面，可用來建立和管理分類資料。
+分類集提供管理分類和規則的單一介面。 此工作流程將在[»報告套裝設定](/help/admin/tools/manage-rs/report-suites-admin.md)中建立分類的功能與[分類匯入工具](/help/components/classifications/sets/manage-sets.md)結合。 結果是提供一個直覺易用的介面，可用來建立和管理分類資料。
 
 
 ## 分類集與舊版分類

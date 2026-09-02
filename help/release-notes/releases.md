@@ -52,4 +52,4 @@ Adobe Analytics 的發行模式是持續傳遞，允許以更具可擴縮性、�
 | 問題 | 回答 |
 | --- | --- |
 | 我是否可要求搶先使用功能？ | 否。 我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](/help/analyze/labs.md) 對我們領先業界的創新能力提供意見反應。 |
-| 此發行策略是否會影響我使用功能？ | 否。 功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「[功能存取層級](/help/admin/tools/company/feature-access-levels.md)」下檢視 Analytics 套件的詳細資料。 |
+| 此發行策略是否會影響我對功能的存取權？ | 否。 功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「[功能存取層級](/help/admin/tools/company/feature-access-levels.md)」下檢視 Analytics 套件的詳細資料。 |

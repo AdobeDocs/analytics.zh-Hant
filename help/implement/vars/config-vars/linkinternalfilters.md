@@ -33,7 +33,7 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 
 如果您同時使用 `linkInternalFilters` 和 `linkExternalFilters` 兩者，點按的連結必須符合 `linkExternalFilters` **而且**&#x200B;與 `linkInternalFilters` 不符，才會視為退出連結。 如果點擊的連結符合退出連結和下載連結這兩個條件，則下載連結類型優先。
 
-Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 Adobe 建議將此變數設定為使用 Activity Map 的實施作業。
+Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 Adobe 建議在使用 Activity Map 的實作中設定此變數。
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 
 3. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示[!UICONTROL 「對外連結 - 永不追蹤」]欄位。
 
-針對您永遠不想以退出連結形式追蹤的篩選器，請將篩選器置入此欄位中 請使用逗號 (不含空格) 分隔多個網域。
+請將您永遠不想以退出連結形式追蹤的篩選器置於此欄位中。 請使用逗號 (不含空格) 分隔多個網域。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.linkInternalFilters
 

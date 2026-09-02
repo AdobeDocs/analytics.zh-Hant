@@ -1,5 +1,5 @@
 ---
-description: 為資料請求選擇基礎報表類型的步驟。
+description: 為資料請求選擇基礎報告類型的步驟。
 title: 選擇報告類型
 feature: Report Builder
 role: User, Admin
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 {{legacy-arb}}
 
-為資料請求選擇基礎報表類型的步驟。
+為資料請求選擇基礎報告類型的步驟。
 
 1. 導覽至[!UICONTROL 「請求精靈: 步驟 1」]視窗。
 1. 在&#x200B;**[!UICONTROL 「報表套裝」]**&#x200B;功能表中選擇報表套裝。
-1. 為資料請求選擇基礎報表類型。
+1. 為資料請求選擇基礎報告類型。

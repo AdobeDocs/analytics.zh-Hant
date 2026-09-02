@@ -96,7 +96,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 1. 在標籤介面的左側導覽中，選取&#x200B;**[!UICONTROL 資料元素]**。
 1. 選取&#x200B;**[!UICONTROL 新增資料元素]**
-1. 為資料元素執行下列設定：
+1. 為資料元素指定下列設定：
    * [!UICONTROL 名稱]：您想要的任何專案，例如「資料層」或「資料物件」
    * [!UICONTROL 擴充功能]： [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL 資料元素型別]： [!UICONTROL 變數]

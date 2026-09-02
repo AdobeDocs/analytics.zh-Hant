@@ -1,6 +1,6 @@
 ---
 title: 量度概觀
-description: 檢視一段時間內的量度項目或資料數量。
+description: 檢視一段時間內的維度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 TQID: https://experienceleague.adobe.com/d4AaKy6UqmWzMkjOglYEWGr7WxlMqD8-R8YwAef2Nrc
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ## 新增量度說明
 
-Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中新增量度和其他元件的說明。 有關如何將說明新增至量度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
+Analytics 管理員可以在報告套裝中或直接在 Analysis Workspace 中新增量度和其他元件的說明。 有關如何將說明新增至量度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
 
 ## 在 Analysis Workspace 中使用量度
 

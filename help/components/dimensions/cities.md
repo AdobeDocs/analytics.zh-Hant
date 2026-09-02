@@ -33,7 +33,7 @@ ht-degree: 74%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱規則。 查閱值以隨著點擊傳送的 IP 位址為基礎。 Adobe與[Digital Element](https://www.digitalelement.com/)合作，共同維護IP位址與城市之間的查閱。
+此維度會參考 Adobe 內部的查閱規則。 查閱值以隨該點擊一併傳送的 IP 位址為基礎。 Adobe與[Digital Element](https://www.digitalelement.com/)合作，共同維護IP位址與城市之間的查閱。
 
 * 對於AppMeasurement實作，此維度可直接運作。
 * 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
@@ -42,7 +42,7 @@ ht-degree: 74%
 
 維度項目包含全球各個城市。 範例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
 
-某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。 此服務的訂閱者會根據其帳號建立時所在的國家/區域，獲得一個指定的存取點。 AOL 使用者可使用此存取點的 IP 位址。 由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
+某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。 此服務的訂閱者會根據其帳戶號碼建立時所在的國家/區域，獲得一個指定的存取點。 AOL 使用者使用此存取點的 IP 位址。 由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
 
 ## 報告的位置與實際位置之間的差異
 

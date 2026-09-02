@@ -40,7 +40,7 @@ ht-degree: 36%
 
 >[!CAUTION]
 >
->如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。 請確認身分識別服務已正確部署，且您已部署 App Measurement 模組，將適用的報表套裝對應到正確的組織 ID，並在 Analytics 管理員工具中啟用了伺服器端轉送。
+>如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。 請確認身分識別服務已正確部署，且您已部署 App Measurement 模組，將適用的報告套裝對應到正確的組織 ID，並在 Analytics 管理員工具中啟用了伺服器端轉送。
 
 >[!MORELIKETHIS]
 >

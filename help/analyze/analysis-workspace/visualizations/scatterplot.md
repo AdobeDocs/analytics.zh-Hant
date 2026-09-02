@@ -17,8 +17,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 252
-ht-degree: 52%
+source-wordcount: 262
+ht-degree: 54%
 
 ---
 
@@ -41,7 +41,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 >[!ENDSHADEBOX]
 
 
-![圖表散佈圖](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 散佈圖]**&#x200B;視覺效果可協助您識別資料中不同量度之間的關聯和模式。 視覺效果會顯示維度專案與最多三個量度之間的關係。 此視覺效果需要三個元件，且支援視覺效果最多四個元件。
+![圖表散佈圖](/help/assets/icons/GraphScatter.svg) **[!UICONTROL 散佈圖]**&#x200B;視覺效果可協助您識別資料中不同量度之間的關聯和模式。 視覺效果會顯示維度專案與最多三個量度之間的關係。 此視覺效果需要三個元件，且支援將最多四個元件的視覺效果。
 
 * 列元件 (通常為維度) 代表圖形上的每個點。 不同的列以不同顏色的點顯示。
 * 最左側的欄 (通常為量度) 繪製點在 Y 軸 (垂直軸) 上的位置。

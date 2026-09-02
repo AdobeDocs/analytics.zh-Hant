@@ -27,7 +27,7 @@ ht-degree: 86%
 
 # Data Warehouse 概觀
 
-Data Warehouse 允許您為儲存空間和建立自訂報告而複製 Adobe Analytics 資料，您可以透過篩選資料來執行這些資料。
+Data Warehouse 可讓您複製 Adobe Analytics 資料以供儲存及建立自訂報告，您可以透過篩選資料來執行這些報告。
 
 ## 報告概觀
 
