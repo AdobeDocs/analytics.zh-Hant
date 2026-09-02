@@ -5,11 +5,25 @@ feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/c1TZC9k-mu1n95Oq3jhQOvcBXFwx8oK28plhoNcJDK4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c77ba355-6681-41fe-b719-563d3f507fdb
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 29d1585ad3d00922a7e39bf1b4da64089d9168c7
 workflow-type: tm+mt
 source-wordcount: 814
@@ -60,7 +74,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 * **Edge Network API**：您在使用 Adobe Experience Platform Edge Network API，透過資料流與 Adobe Analytics 進行通訊的伺服器上實作程式碼。
   ![伺服器端實作](assets/edge-network-server-api.png)
-  如需詳細資訊，請參閱[使用Adobe Analytics Edge Network API實作Adobe Experience Platform ](/help/implement/aep-edge/api/overview.md)。
+  如需詳細資訊，請參閱[使用Adobe Analytics Edge Network API實作Adobe Experience Platform &#x200B;](/help/implement/aep-edge/api/overview.md)。
 
 * **(批次) 資料插入 API**：您可以使用 Adob&#x200B;&#x200B;e Analytics (批次) 資料插入 API，將伺服器端資料直接收集到 Adob&#x200B;&#x200B;e Analytics。
   ![資料插入API](assets/analytics-apis.png)

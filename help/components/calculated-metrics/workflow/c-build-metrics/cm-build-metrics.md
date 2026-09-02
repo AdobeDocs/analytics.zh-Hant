@@ -4,10 +4,17 @@ title: 建立量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 TQID: https://experienceleague.adobe.com/ds8aD51DynOEJ7uYZ5Id-kTng2JPN4nZYuMTaKj-ZvE
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1495
@@ -136,7 +143,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 * 若要從區段新增區段容器，您可以使用：
 
   * 將 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定區段。
-    使用區段名稱將區段容器自動加入**[!UICONTROL 定義]**&#x200B;中。
+    使用區段名稱將區段容器自動加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
 
   * 將 ![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 「區段」]**&#x200B;元件從元件面板拖放到通用容器中。 該容器被修改為區段容器。
 

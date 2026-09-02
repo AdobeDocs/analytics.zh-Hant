@@ -4,10 +4,18 @@ description: 逗留時間維度和量度的彙總頁面。
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1659
@@ -25,7 +33,7 @@ Adobe Analytics產品提供各種[!UICONTROL 逗留時間] [量度](overview.md)
 |---|---|---|
 | [[!UICONTROL 花費秒數總計]](total-seconds-spent.md) | 代表訪客與特定維度項目互動的總時間量。 包括值的例項和在所有後續點擊中持續的項目。 如果是 prop，則會對後續連結事件一併計算逗留時間。 | Analysis Workspace、Report Builder （稱為「總逗留時間」）、Data Warehouse |
 | [[!UICONTROL 每次造訪逗留時間] （秒）](time-spent-per-visit.md) | 大約&#x200B;*總逗留秒數/（造訪彈回數）*<br>&#x200B;代表訪客每次造訪時與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
-| 每位訪客逗留時間[[!UICONTROL 1} （秒）](time-spent-per-visitor.md)] | 大約總逗留秒數/不重複訪客&#x200B;*<br>代表訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。***注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
+| 每位訪客逗留時間[[[!UICONTROL 1&rbrace; （秒）]](time-spent-per-visitor.md)] | 大約總逗留秒數/不重複訪客&#x200B;*<br>代表訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。***注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
 | [!UICONTROL 逗留時間/使用者（狀態）] | 大約&#x200B;*行動應用程式總逗留秒數/不重複行動應用程式訪客*<br>&#x200B;代表行動應用程式訪客在訪客期限內（Cookie的存留時間長度內期間）與特定維度專案互動的平均時間量。 **注意**：此量度無法獨立計算，因為此函式的分母是內部量度。 | Analysis Workspace |
 | [[!UICONTROL 網站平均逗留時間] （秒）](average-time-on-site.md) | 代表訪客與特定維度專案互動（依序與維度專案）的總時間。 這不只限於名稱所建議的「網站」平均值。 如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意**：因為在計算中使用不同的分母，此量度與維度專案層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace、Report Builder （以分鐘數顯示） |
 | [[!UICONTROL 網站平均逗留時間]](average-time-on-site.md) | 這是與&#x200B;*網站平均逗留時間（秒）*&#x200B;相同的量度，除了格式為時間(`hh:mm:ss`) | Analysis Workspace |

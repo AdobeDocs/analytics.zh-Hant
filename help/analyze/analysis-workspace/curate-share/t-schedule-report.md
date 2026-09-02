@@ -6,9 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
 TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 502
@@ -68,7 +74,7 @@ ht-degree: 26%
    | **[!UICONTROL 每年依月份日期]**&#x200B;傳送 | 選取&#x200B;**[!UICONTROL 一週中的某天]**，選取一個月中的&#x200B;**[!UICONTROL 周]**，然後選取一年中的&#x200B;**[!UICONTROL 每月]**。 |
    | **[!UICONTROL 依特定日期每年傳送]** | 選取&#x200B;**[!UICONTROL 月份]**，並從&#x200B;**[!UICONTROL 於當月的這個日期傳送]**&#x200B;中選取值。 |
 
-1. 輸入從&#x200B;]**開始的**[!UICONTROL &#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」進行取消。

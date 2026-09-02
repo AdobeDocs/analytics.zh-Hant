@@ -5,11 +5,16 @@ feature: Classifications
 role: Admin
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 TQID: https://experienceleague.adobe.com/k8wtT-XfijkEOgPHw4j78mm8Da4BA4V3TVVfW6fpCp4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 526
@@ -45,7 +50,7 @@ ht-degree: 78%
 1. 按一下「**[!UICONTROL 管理]**> **[!UICONTROL 報表套裝]**」。
 1. 選取報表套裝。
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**」。
-1. 在&#x200B;****「選取分類類型」下拉式清單中，選取您要新增分類的變數。
+1. 在&#x200B;**&#x200B;**「選取分類類型」下拉式清單中，選取您要新增分類的變數。
 
    ![步驟資訊](/help/admin/tools/assets/sub_class_create.png)
 
@@ -65,6 +70,6 @@ ht-degree: 78%
 1. 開啟「報表套裝管理員」，方法是按一下套裝標題中的&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**」。
-1. 在&#x200B;****&#x200B;選取分類類型下拉式清單中，選取您要刪除分類的變數。
+1. 在&#x200B;**&#x200B;**&#x200B;選取分類類型下拉式清單中，選取您要刪除分類的變數。
 1. 將游標移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 「刪除分類」]**。
 1. 在「刪除分類」對話方塊中，按一下&#x200B;**[!UICONTROL 「刪除」]**。
