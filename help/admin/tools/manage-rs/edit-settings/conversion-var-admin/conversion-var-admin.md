@@ -36,7 +36,7 @@ Custom Insight轉換變數（或eVar）會放置在網站所選網頁的Adobe程
 
 ## 轉換變數 (eVar) 概觀
 
-如需轉換變數的影片概觀，請參閱Analytics教學課程指南中的[轉換變數簡介](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)。
+如需轉換變數的影片概觀，請參閱Analytics教學課程指南中的[轉換變數簡介](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/dimensions/introduction-to-conversion-variables-evars)。
 
 當eVar設為訪客的值時，Adobe會自動記住該值，直到它過期為止。 eVar值作用中時，訪客遇到的任何成功事件都會計入eVar值。
 

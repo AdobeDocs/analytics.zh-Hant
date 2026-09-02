@@ -36,7 +36,7 @@ Adobe Analytics 提供各種計算量度，以涵蓋最常見的使用案例。 
 >
 >您可以：
 >
-> * 如[計算量度](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)中所述，新增串流媒體服務的預設計算量度
+> * 如[計算量度](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/reporting/calculated-metrics)中所述，新增串流媒體服務的預設計算量度
 > * 如[計算和進階計算量度](/help/components/calculated-metrics/cm-overview.md)所述，使用現有量度建立自訂計算量度。
 >
 

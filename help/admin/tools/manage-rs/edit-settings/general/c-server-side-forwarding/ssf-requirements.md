@@ -33,7 +33,7 @@ ht-degree: 53%
 
 ## 解決方案需求
 
-伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [&#x200B; Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 搭配使用。
+伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [&#x200B; Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant) 搭配使用。
 
 ## 服務需求
 

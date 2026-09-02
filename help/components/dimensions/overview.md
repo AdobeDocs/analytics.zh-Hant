@@ -52,7 +52,7 @@ Analytics 管理員可以在報告套裝中或直接在 Analysis Workspace 中�
 * **JavaScript版本**：回報訪客瀏覽器支援的JavaScript版本。 不再收集的舊版維度。
 * **下一頁**：路徑維度，顯示訪客檢視的下一頁。 針對目前的路徑維度使用Analysis Workspace中的[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
 * **上一頁**：顯示訪客已檢視上一頁的路徑維度。 針對目前的路徑維度使用Analysis Workspace中的[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
-* **時區**：訪客的時區，衍生自AppMeasurement影像要求中的時間戳記位移。 Web SDK會使用[`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context)收集時區。
+* **時區**：訪客的時區，衍生自AppMeasurement影像要求中的時間戳記位移。 Web SDK會使用[`placeContext`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/configure/context)收集時區。
 * **最上層網域**：訪客存取點的最上層網域。 舊版Reports &amp; Analytics報表；請改用[網域](domain.md)維度。
 * **瀏覽頁碼**：瀏覽中的頁碼。 舊版Reports &amp; Analytics報表；請改用[點選深度](hit-depth.md)維度。
 * **訪客狀態**：從`s.state`變數回報美國狀態。 已淘汰，改用使用地域劃分的[美國州](us-states.md)維度。
