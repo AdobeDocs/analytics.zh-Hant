@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8645907799594d2eb2d6bcf56f93ac1cc42578f8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 50%
+source-wordcount: 1096
+ht-degree: 47%
 
 ---
 
@@ -42,8 +27,8 @@ ht-degree: 50%
 
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
-| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。 <p>建立或修改最上層容器為訪客的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
-| **機器人偵測更新**<br/>&#x200B;將Edge Data Collection與Web SDK搭配使用時，可以使用下列機器人偵測更新：<ul><li>您現在可以建立機器人偵測規則，以識別流量中原本會被視為機器人產生的例外狀況。 現有和未來的規則仍會預設為將相符流量標示為機器人產生。</li><li>自訂機器人規則現在會在IAB機器人偵測規則之前執行。 此變更不會影響機器人分數，但與事件相關聯的機器人規則名稱可能會變更。</li></ul><p>注意：此更新僅適用於使用Web SDK的Edge資料收集實作。 不適用於舊版程式庫，例如AppMeasurement。</p></p><p>(文件連結待補充。)</p> | | 2026年9月初 |
+| **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改最上層容器為訪客的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
+| **機器人偵測更新**<br/>&#x200B;將Edge Data Collection與Web SDK搭配使用時，可以使用下列機器人偵測更新：<ul><li>您現在可以建立機器人偵測規則，以識別流量中原本會被視為機器人產生的例外狀況。 現有和未來的規則仍會預設為將相符流量標示為機器人產生。</li><li>自訂機器人規則現在會在IAB機器人偵測規則之前執行。 此變更不會影響機器人分數，但與事件相關聯的機器人規則名稱可能會變更。</li></ul><p>注意：此更新僅適用於使用Web SDK的Edge資料收集實作。 不適用於舊版程式庫，例如AppMeasurement。</p><p>(文件連結待補充。)</p> | | 2026年9月初 |
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Adobe Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年9月 |
 | **分類集API更新**<br/>&#x200B;分類集API檔案現在包含用於設定分類集API要求的更新端點和引數資訊。<p>如需詳細資訊，請參閱[分類端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
 | **2.0 API報告指南中的日期itemId編碼指南**<br/> Adobe Analytics 2.0 API日期趨勢報告指南現在包含說明日期`itemId`引數和值如何編碼的新章節。 這可協助您從現已棄用的1.4 API設定並移轉至2.0 API服務。<p>如需詳細資訊，請參閱[KPI報告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)和[進階報告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)。</p> | 2026年9月5日 | 2026年9月30日 |
@@ -68,7 +53,7 @@ ht-degree: 50%
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
 | **舊版 Report Builder** | 2025 年 6 月 18 日 | 舊版 Report Builder 增益集將於 2026 年 6 月淘汰。 所有使用者皆應開始將其舊版工作簿升級至[新版 Report Builder](/help/analyze/report-builder/rb-overview.md)。 Adobe Analytics 和 Customer Journey Analytics 客戶皆可使用全新 Report Builder。 全新 Report Builder [功能幾乎與舊版相同](/help/analyze/report-builder/convert-workbooks.md#unsupported)，並額外提供更多便利功能和 UI 增強設計。 為了使升級過程更順暢，全新 Report Builder 包含一個簡易的工作簿轉換功能。 全新 Report Builder 僅可透過 Microsoft Store 以增益集的形式使用。 許多組織在為使用者提供增益集之前，須先完成內部核准流程。 請預留時間完成這項流程，並立即開始與您的組織合作，以確保有足夠的時間在 EOL 日期前完成工作簿升級。 |
-| **Adobe Analytics API (版本 1.4)** | 2024 年 7 月 17 日 | **2026 年 8 月 12 日**，以下 Analytics 舊版 API 服務將終止並關閉，目前使用這些服務建置的整合將停止運作：<ul><li>Adobe Analytics API (版本 1.4)</li><li>Adobe Analytics WSSE 驗證</li></ul><p>使用 Adobe Analytics API (版本 1.4) 的整合必須移轉到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 整合必須移轉到 [Adobe Developer Console](https://developer.adobe.com/console) 中的 OAuth 型驗證通訊協定。</p><p>請參閱「[Adobe Analytics 1.4 API EOL 常見問題](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/?lang=zh-Hant)」，以了解常見問題的解答和進一步指引。</p> |
+| **Adobe Analytics API (版本 1.4)** | 2024 年 7 月 17 日 | 下列Analytics Legacy API服務將在&#x200B;**2026年8月31日**&#x200B;結束生命週期並關閉，且使用這些服務建立的任何整合功能都無法再運作：<ul><li>Adobe Analytics API (版本 1.4)</li><li>Adobe Analytics WSSE 驗證</li></ul><p>使用 Adobe Analytics API (版本 1.4) 的整合必須移轉到 [Adobe Analytics 2.0 API](https://developer.adobe.com/analytics-apis/docs/2.0/)，而 WSSE 整合必須移轉到 [Adobe Developer Console](https://developer.adobe.com/console) 中的 OAuth 型驗證通訊協定。</p><p>請參閱「[Adobe Analytics 1.4 API EOL 常見問題](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/?lang=zh-Hant)」，以了解常見問題的解答和進一步指引。</p> |
 
 ## AppMeasurement
 
@@ -86,5 +71,5 @@ ht-degree: 50%
 >* [2026年舊版發行說明](/help/release-notes/2026.md)
 >* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 >* [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+>* [Adobe CX Enterprise 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
 
