@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。 自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 98%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 98%
   + [Edge Network 事件類型](aep-edge/hit-types.md)
   + Web SDK {#web-sdk}
     + [Web SDK 概觀](aep-edge/web-sdk/overview.md)
+    + 移轉規劃工具 {#planner}
+      + [規劃工具概觀](aep-edge/web-sdk/planner/overview.md)
     + [使用標記移轉至 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [使用 JavaScript 移轉至 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [使用標記的全新實作](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -190,6 +192,6 @@ ht-degree: 98%
   + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
 + 審視您的實作 {#review}
-  + [重點審視 (每次網站發佈後)](review/focused-review.md)
+  + [重點審閱 (每次網站發佈後)](review/focused-review.md)
   + [完整審視（每 6 個月）](review/full-review.md)
   + [定義您的前 5 大 KPI](review/define-kpis.md)
