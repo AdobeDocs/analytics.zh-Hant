@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 7421
+source-wordcount: 7447
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2026年9月** | |
+| 新的調整大小捷徑動作 | Analysis Workspace中新的鍵盤快速鍵現在可讓您[調整面板或視覺效果](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)的寬度、寬度、高度或寬度。 |
 | **2026年8月** | |
 | 將新的對話式AI工具新增至反向連結型別維度 | 「反向連結型別」維度現在在Adobe使用的查詢表格中，包含下列其他[交談式AI工具](/help/components/dimensions/referrer-type.md#conversational-ai-tools)：<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026年6月** | |

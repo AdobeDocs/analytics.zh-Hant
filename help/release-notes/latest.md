@@ -24,16 +24,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01c0296a102b323ea067b2459f79969d507dc744
+source-git-commit: 6d07329547684e8bee712628a53092eb34e0141a
 workflow-type: tm+mt
-source-wordcount: 1117
-ht-degree: 46%
+source-wordcount: 1305
+ht-degree: 40%
 
 ---
 
 # 最新Adobe Analytics發行說明（2026年9月）
 
-**上次更新日期**：2026年9月9日
+**上次更新日期**：2026年9月11日
 
 以下發行說明涵蓋2026年9月發行期間。 Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
 
@@ -43,6 +43,9 @@ ht-degree: 46%
 | ----------- | ---------- | ---- |
 | **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改最上層容器為訪客的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **機器人偵測更新**<br/>&#x200B;將Edge Data Collection與Web SDK搭配使用時，可以使用下列機器人偵測更新：<ul><li>您現在可以建立機器人偵測規則，以識別流量中原本會被視為機器人產生的例外狀況。 現有和未來的規則仍會預設為將相符流量標示為機器人產生。</li><li>自訂機器人規則現在會在IAB機器人偵測規則之前執行。 此變更不會影響機器人分數，但與事件相關聯的機器人規則名稱可能會變更。</li></ul><p>注意：此更新僅適用於使用Web SDK的Edge資料收集實作。 不適用於舊版程式庫，例如AppMeasurement。</p><p>(文件連結待補充。)</p> | | 2026年9月初 |
+| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics資料** <br/>Adobe CX Enterprise Coworker聊天現在可執行進階資料分析，而以前只能在Analysis Workspace中執行進階資料分析。 Co-worker Chat會存取您Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>(文件連結待補充。)</p> | | 2026年9月25日 |
+| **CX Enterprise Coworker：根本原因分析技能** <br/>Adobe CX Enterprise Coworker Chat現在可以執行根本原因分析，說明量度變更的原因，而不只是變更了什麼。 「同事聊天」會識別發生轉換的日期，並比較轉換前後的資料，然後依驅動轉換的維度及其量值來劃分變更，並以百分比和絕對值顯示。 如果偵測不到有意義的變更，「同事聊天」會讓您知道，而不是猜測原因。<p>(文件連結待補充。)</p> | | 2026年10月2日 |
+| **CX Enterprise Coworker：在Analysis Workspace中開啟視覺效果** <br/>在同事聊天中開始資料分析，然後直接在Analysis Workspace中開啟分析作為視覺效果，以繼續建置、改良和探索。</p><p>(文件連結待補充。)</p> | | 2026年10月2日 |
 | **分類集API更新**<br/>&#x200B;分類集API檔案現在包含用於設定分類集API要求的更新端點和引數資訊。<p>如需詳細資訊，請參閱[分類端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
 | **2.0 API報告指南中的日期itemId編碼指南**<br/> Adobe Analytics 2.0 API日期趨勢報告指南現在包含說明日期`itemId`引數和值如何編碼的新章節。 這可協助您從現已棄用的1.4 API設定並移轉至2.0 API服務。<p>如需詳細資訊，請參閱[KPI報告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi)和[進階報告指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced)。</p> | 2026年9月5日 | 2026年9月30日 |
 
