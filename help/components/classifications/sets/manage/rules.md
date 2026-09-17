@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # 分類集規則
 
-如果您的關鍵維度不斷變更，可使用規則支援自動分類。 透過[上傳](/help/components/classifications/sets/manage/schema.md#upload)或[自動化](/help/components/classifications/sets/manage/schema.md#automate)更新分類會變成繁瑣的流程，或落後於新維度值的適當分類。 例如內部行銷活動、追蹤代碼或產品SKU。
+如果您的關鍵維度不斷變更，可使用規則支援自動分類。 透過[上傳](/help/components/classifications/sets/manage/schema.md#upload)或[自動化](/help/components/classifications/sets/manage/schema.md#automate)更新分類的程式變得繁瑣或缺少新維度值的適當分類。 例如內部行銷活動、追蹤代碼或產品SKU。
 
 維度必須包含可讓您套用一或多個規則的值，以便您可以從維度值衍生分類資料。
 
 您可以在分類集的環境中定義規則。 此上下文表示規則已套用（啟動時）至訂閱分類集的所有報表套裝和索引鍵維度組合。 此實作與舊版分類規則產生器的運作方式不同。 在「分類規則產生器」中，您需個別定義一或多個規則做為規則集的一部分，然後將規則集與一個或多個報表套裝建立關聯。 在新介面中，分類設定內的規則也稱為規則設定。 但是，規則集是在您設定其他分類集屬性的相同介面中定義。
+
+>[!IMPORTANT]
+>
+>新規則產生器使用的不同內容表示，子分類是根據直接父分類欄的值來評估，而非根據原始根維度值來評估。
+
 
 
 若要定義分類集的規則集，請執行下列動作：
@@ -35,7 +42,7 @@ ht-degree: 13%
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
 1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
 
-   * 如果您是第一次存取分類設定的&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或到目前為止決定繼續使用舊版規則產生器介面，系統會顯示一個對話方塊，讓您選取如何開始使用。 選項包括：
+   * 如果第一次存取&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或者如果使用舊版產生器，會出現對話方塊來協助您開始使用。 選項包括：
 
      * **移轉現有規則**。 匯入您目前的分類規則，並在新介面中繼續使用這些規則。 您現有的規則會保留，並轉換為新格式。
        * 選取&#x200B;**[!UICONTROL 移轉規則]**&#x200B;以繼續。
@@ -168,7 +175,7 @@ ht-degree: 13%
 
 #### 使用案例
 
-當索引鍵維度Internal Campaign的值包含`Winter`時（例如： `fb:Winter:FY2024`），您要定義規則以將`Winter Sale`指派為&#x200B;**[!UICONTROL Type]**&#x200B;分類的值。
+當索引鍵維度「內部行銷活動」的值包含`Winter`時（例如： `fb:Winter:FY2024`），您要定義規則以將`Winter Sale`指派為&#x200B;**[!UICONTROL Type]**&#x200B;分類的值。
 
 
 >[!BEGINTABS]
@@ -228,7 +235,7 @@ ht-degree: 13%
 
 #### 使用案例
 
-您要定義規則以指派值給&#x200B;**[!UICONTROL Channel]**、**[!UICONTROL Type]**&#x200B;和&#x200B;**[!UICONTROL Year]**&#x200B;分類，方法是套用規則運算式`^(.+)\:(.+)\:FY(.+)$`並使用符合群組（`$1`、`$2`和`$3`）給關鍵維度Internal Campaign的值。
+將規則運算式`^(.+)\:(.+)\:FY(.+)$`套用，並將符合群組（`$1`、`$2`和`$3`）用於內部行銷活動索引鍵維度，以定義規則來指派值給&#x200B;**[!UICONTROL Channel]**、**[!UICONTROL Type]**&#x200B;和&#x200B;**[!UICONTROL Year]**&#x200B;分類。
 
 >[!BEGINTABS]
 
@@ -315,7 +322,7 @@ ht-degree: 13%
 * 一個關鍵維度值符合多個規則。
 * 規則集包含具有相同&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業的規則。
 
-因此，您應該將最重要的&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業排入規則集內最後一個規則的等級。
+將最重要的&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業排入規則集內最後一個規則的排名。
 
 如果您建立的多個規則不共用相同的&#x200B;**[!UICONTROL 設定分類]**&#x200B;作業，處理順序並不重要。
 
