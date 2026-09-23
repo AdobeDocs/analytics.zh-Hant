@@ -43,14 +43,14 @@ ht-degree: 61%
 此維度的獨特之處在於它有多種方式可填入資料。 您可以使用其中一種，或將兩者搭配使用：
 
 * 直接使用[`zip`](/help/implement/vars/page-vars/zip.md)變數設定郵遞區號。
-* 將其設定為從地理位置資料中提取。 使用地理郵遞區號時，不會設定變數。 對於AppMeasurement實作，此維度可直接運作。 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
+* 將其設定為從地理位置資料中提取。 使用地理郵遞區號時，不會設定變數。 對於AppMeasurement實作，此維度可直接運作。 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
 
 [一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。 當您直接設定`zip`變數時，將會套用以下的參考表格。
 
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **網頁SDK / XDM欄位** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **網頁SDK / XDM欄位** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-types/geo) |
 | **查詢引數** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 50位元組 |

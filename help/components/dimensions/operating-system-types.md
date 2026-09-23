@@ -50,7 +50,7 @@ Adobe從`User-Agent` HTTP標題衍生此維度，並將其與Adobe與[DeviceAtla
 | **持續性** | 不適用 |
 
 * 對於AppMeasurement實作，此維度可直接運作。
-* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 裝置查詢]。
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 裝置查詢]。
 
 ## 維度項目
 

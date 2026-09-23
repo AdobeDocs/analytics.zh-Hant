@@ -43,7 +43,7 @@ AppMeasurement會在每個[頁面檢視呼叫(`t()`)](/help/implement/vars/funct
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **網頁SDK / XDM欄位** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **網頁SDK / XDM欄位** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-types/webpage-details) |
 | **查詢引數** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 255位元組（沒有固定的上限和溢位） |

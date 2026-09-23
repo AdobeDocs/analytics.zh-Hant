@@ -43,7 +43,7 @@ ht-degree: 63%
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **網頁SDK / XDM欄位** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **網頁SDK / XDM欄位** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **查詢引數** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 100位元組 |

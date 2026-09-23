@@ -41,7 +41,7 @@ AppMeasurement使用[`server`](/help/implement/vars/page-vars/server.md)變數�
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`server`](/help/implement/vars/page-vars/server.md) |
-| **網頁SDK / XDM欄位** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **網頁SDK / XDM欄位** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-types/webpage-details) |
 | **查詢引數** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 100位元組 |

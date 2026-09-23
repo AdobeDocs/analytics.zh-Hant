@@ -25,11 +25,11 @@ ht-degree: 7%
 ---
 # AMO Meta廣告點選ID
 
-**[!UICONTROL AMO Meta廣告點按識別碼]**&#x200B;是用於Adobe Advertising整合的廣告點按識別碼。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。 它主要是當作原始追蹤識別碼，而非人類看得懂的報表維度來使用。
+**[!UICONTROL AMO Meta廣告點按識別碼]**&#x200B;是用於Adobe Advertising整合的廣告點按識別碼。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。 它主要是當作原始追蹤識別碼，而非人類看得懂的報表維度來使用。
 
 ## 將資料填入此維度中
 
-此維度會由[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合自動填入；沒有可設定的變數。
+此維度會由[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合自動填入；沒有可設定的變數。
 
 | 屬性 | 價值 |
 | --- | --- |

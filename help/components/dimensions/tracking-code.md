@@ -41,7 +41,7 @@ AppMeasurement 會使用 [`campaign`](/help/implement/vars/page-vars/campaign.md
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **網頁SDK / XDM欄位** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **網頁SDK / XDM欄位** | [`marketing.trackingCode`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **查詢引數** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 255位元組 |

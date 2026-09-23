@@ -47,20 +47,20 @@ Adobe使用標準[操作順序](overview.md)來識別訪客： `vid`，然後是
 
 ECID （以`mid`形式傳送）是現代版的跨解決方案訪客識別碼，可跨Adobe Analytics、Adobe Target和Adobe Audience Manager共用。 Adobe建議儘可能使用。
 
-取得[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home) (`VisitorAPI.js`)的ECID。 在瀏覽器中，使用[`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance)以您的IMS組織ID初始化服務，然後使用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)讀取ECID：
+取得[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home) (`VisitorAPI.js`)的ECID。 在瀏覽器中，使用[`getInstance`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getinstance)以您的IMS組織ID初始化服務，然後使用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getmcvid)讀取ECID：
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-在每次點選時將該值當作`mid`查詢引數或`<marketingCloudVisitorId>` XML標籤傳送。 如果您的資料轉送到Audience Manager，請同時從[`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint)傳送地區作為`aamlh`引數（或`<imsRegion>`標籤）。 若要將您自己的客戶識別碼與訪客建立關聯，請使用[`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids)。
+在每次點選時將該值當作`mid`查詢引數或`<marketingCloudVisitorId>` XML標籤傳送。 如果您的資料轉送到Audience Manager，請同時從[`getLocationHint`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getlocationhint)傳送地區作為`aamlh`引數（或`<imsRegion>`標籤）。 若要將您自己的客戶識別碼與訪客建立關聯，請使用[`setCustomerIDs`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/setcustomerids)。
 
-如需伺服器端收集，請取得使用者端上的ECID，並將其轉寄至您的伺服器，以便在每次點選時傳送。 若要在沒有使用者端的情況下完全在伺服器端產生ECID，請使用ID服務的[直接整合](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)。
+如需伺服器端收集，請取得使用者端上的ECID，並將其轉寄至您的伺服器，以便在每次點選時傳送。 若要在沒有使用者端的情況下完全在伺服器端產生ECID，請使用ID服務的[直接整合](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/direct-integration)。
 
 ## 使用Analytics訪客識別碼
 
-Analytics訪客識別碼(`aid`)儲存在[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie中。 當點選到達時沒有識別碼，集合伺服器會指派`aid`並在回應本文中傳回。 有些[回應型別](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)也在回應本文中包含此識別碼。 誰會儲存該ID並重新傳送，是兩種實施樣式之間的差異。
+Analytics訪客識別碼(`aid`)儲存在[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie中。 當點選到達時沒有識別碼，集合伺服器會指派`aid`並在回應本文中傳回。 有些[回應型別](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)也在回應本文中包含此識別碼。 誰會儲存該ID並重新傳送，是兩種實施樣式之間的差異。
 
 * **使用者端（直接影像要求）。** 瀏覽器會儲存伺服器傳回的`s_vi` Cookie，並在後續每次要求時將它傳送至相同的收集網域，以便自動識別訪客。 為了讓此功能發揮作用，集合網域必須能夠設定和讀取Cookie — 使用第一方CNAME追蹤伺服器。 由於此模型依賴Cookie，因此瀏覽器限制的地方會降低（第三方Cookie封鎖、智慧型追蹤預防）；偏好使用ECID以取得耐用的身分。
 

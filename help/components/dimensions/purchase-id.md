@@ -41,7 +41,7 @@ ht-degree: 18%
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **網頁SDK / XDM欄位** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **網頁SDK / XDM欄位** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **查詢引數** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 20位元組 |

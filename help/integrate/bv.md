@@ -28,7 +28,7 @@ AI已成為主要探索管道。 大型語言模型(LLM)代理程式（例如Cha
 >
 >在此整合中，美國會進行一些品牌可見度資料的臨時處理。 資料最終會儲存在您的Adobe Analytics合約中設定的指定區域。
 
-如果您使用Customer Journey Analytics，更豐富的獨立輸入整合會透過Adobe Experience Platform將相同的基礎CDN流量資料帶入Customer Journey Analytics。 該整合功能將於今日推出。 檢視[與Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)的品牌可見度整合。 如果您有Customer Journey Analytics，請先檢閱該整合，因為它會公開更多欄位，並支援將品牌可見度資料與其他資料集聯結。 本指南中說明的Analytics整合是針對使用Adobe Analytics但無法存取或取得Customer Journey Analytics授權的客戶所設計。
+如果您使用Customer Journey Analytics，更豐富的獨立輸入整合會透過Adobe Experience Platform將相同的基礎CDN流量資料帶入Customer Journey Analytics。 該整合功能將於今日推出。 檢視[與Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/bv)的品牌可見度整合。 如果您有Customer Journey Analytics，請先檢閱該整合，因為它會公開更多欄位，並支援將品牌可見度資料與其他資料集聯結。 本指南中說明的Analytics整合是針對使用Adobe Analytics但無法存取或取得Customer Journey Analytics授權的客戶所設計。
 
 
 ## 使用案例
@@ -73,7 +73,7 @@ AI已成為主要探索管道。 大型語言模型(LLM)代理程式（例如Cha
 >
 >BYOCDN記錄轉送提供用於代理流量分析的伺服器端CDN要求資料。 資料並不取決於瀏覽器中執行的JavaScript標籤。 若沒有必要的CDN記錄摘要，聯結器將沒有流量資料可匯入您的報表套裝。
 >
->如需詳細資訊，請參閱[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
+>如需詳細資訊，請參閱[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
 
 
 >[!IMPORTANT]
@@ -231,8 +231,8 @@ CJA輸入整合建置在更廣泛的CDN請求摘要資料集上，並支援其�
 
 >[!MORELIKETHIS]
 >
->[品牌可見度/LLMO整合參考](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
->[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[品牌可見度/LLMO整合參考](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/bv)
+>[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 ## 檔案的草稿說明（非出版）
 
@@ -250,4 +250,4 @@ CJA輸入整合建置在更廣泛的CDN請求摘要資料集上，並支援其�
 
 ## 傳出整合
 
-本指南僅涵蓋傳入品牌可見度整合，會在Analytics報表套裝中新增機器人和自動代理程式流量資料。 發佈的整合檔案也說明輸出方向，其中提供Analytics效能資料供品牌可見度產品內品牌可見度。 該方向不在本指南的範圍之內。 如需傳出整合的詳細資訊，請參閱[品牌可見度檔案](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration)。
+本指南僅涵蓋傳入品牌可見度整合，會在Analytics報表套裝中新增機器人和自動代理程式流量資料。 發佈的整合檔案也說明輸出方向，其中提供Analytics效能資料供品牌可見度產品內品牌可見度。 該方向不在本指南的範圍之內。 如需傳出整合的詳細資訊，請參閱[品牌可見度檔案](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/adobe-analytics-integration)。
