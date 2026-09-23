@@ -83,13 +83,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 串流媒體維度和量度 | 串流媒體檔案的重大更新。 範例連結包括[串流媒體服務核心維度](/help/components/dimensions/sm-core.md)和[串流媒體服務核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
 | 劃分面板 | 已重新編排[面板放置區](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone)的說明文件，以支援新增的[劃分](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel)功能。 |
-| 已識別新報表套裝的IP模糊化預設選項 | 新增資訊以指出&#x200B;**移除IP位址**&#x200B;是新報表套裝](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)的預設[IP模糊化選項。 |
-| 處理訂單大修 | 大幅改善Adobe Analytics](/help/technotes/processing-order.md)中的[處理順序。 |
+| 已識別新報表套裝的IP模糊化預設選項 | 新增資訊以指出&#x200B;**移除IP位址**&#x200B;是新報表套裝[&#128279;](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)的預設IP模糊化選項。 |
+| 處理訂單大修 | 大幅改善Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中的處理順序。 |
 | Adobe Advertising整合 | 新增Adobe Advertising整合維度和量度，包括[AMO ID](/help/components/dimensions/amo-id.md)。 |
 | **2026 年 2 月** |  |
-| 新增使用地理和技術報表的相關資訊 | 新增在不同Analytics產品](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理與技術報表[時差異的相關資訊。 |
+| 新增使用地理和技術報表的相關資訊 | 新增在不同Analytics產品[&#128279;](/help/analyze/get-started/analytics-product-comparison.md)文章中使用地理與技術報表時差異的相關資訊。 |
 | **2026 年 1 月** | |
-| 分類集規則產生器 | 分類集](/help/components/classifications/sets/manage/rules.md)功能中新[規則產生器功能的檔案。 |
+| 分類集規則產生器 | 分類集[&#128279;](/help/components/classifications/sets/manage/rules.md)功能中新規則產生器功能的檔案。 |
 | 裝置圖表 | 已移除對[已中止裝置圖表功能](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph)的參考。 |
 
 ### 2025 {#year2025}
@@ -118,7 +118,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2025 年 3 月** |  |
 | Analytics 庫存 | [Analytics 庫存](/help/admin/tools/analytics-inventory.md)提供您的 Adobe Analytics 環境全面概觀，包括專案和元件的數量、報告套裝、使用者等資訊。 |
 | Customer Journey Analytics 升級指南 | 讓您產生從 Adobe Analytics 升級到 Customer Journey Analytics 的[逐步指南](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=zh-hant#recommended-upgrade-steps-for-most-organizations)。 |
-| 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。 新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱Data Warehouse](/help/export/data-warehouse/component-support.md)中[元件支援中的[維度具有非標準日期格式](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
+| 釐清 Data Warehouse 匯出中的日期格式 | Data Warehouse 匯出中以時間為基礎的維度值採用非標準日期格式。 新增資訊，說明如何解讀 Data Warehouse 匯出中的日期值。 <p>請參閱Data Warehouse[&#128279;](/help/export/data-warehouse/component-support.md)中元件支援中的[維度具有非標準日期格式](/help/export/data-warehouse/component-support.md#dimensions-with-non-standard-date-formatting)。</p> |
 | 更新有關 IP 排除項目的資訊 | 新增資訊，說明 [IP 排除項目](/help/admin/tools/exclude-ip.md)最多可能需要 5 分鐘才能生效，以及變更僅適用於新的相符項目 (在設定排除項目之前擷取的資料不受影響)。 <p>也更新內容版面以改善可讀性。</p> |
 | **2025 年 2 月** |  |
 | 暫停和重新啟用資料摘要的相關更新資訊 | 當[暫停及重新啟用資料摘要](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed)時，已釐清即時摘要的行為。 在摘要暫停到重新啟用期間不會進行資料處理。 |
@@ -234,7 +234,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 內部 URL 篩選器 | 新增區段和逐步程序以說明和改善文章內容。 請參閱[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 |
 | 在行動計分卡中建立資料故事 | [資料故事](/help/analyze/mobile-app/create-scorecard.md#create-data-stories)是圍繞中心主題或量度建置的支援資料點、業務內容和相關量度的集合。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/calculated-metrics/cm-reference/default-calcmetrics.md)的內容。 |
-| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編輯 ](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
+| 資料字母排序 | <p>為資料字典新增了新文件，包括[概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)、[檢視](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md)、[編輯 &#x200B;](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)，以及[監視](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)資料字典。</p><p>已更新[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中的資訊，以說明資料字典功能。</p> |
 | 專案連結共用 (不需登入) | <p>已更新現有文件，說明如何與無權存取 Analysis Workspace 的人員共用專案的唯讀連結。</p> <p>已更新使用者文件，包括[共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)和[建立可共用連結](/help/analyze/analysis-workspace/curate-share/shareable-links.md)。</p> <p>已將管理員選項新增至[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。</p> |
 | **2023 年 2 月** | |
 | 實施 | 已更新有關如何[為網路和行動裝置實作 Adobe Analytics](../implement/home.md) 的內容。 |
