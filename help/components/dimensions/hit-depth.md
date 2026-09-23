@@ -6,32 +6,48 @@ exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
 TQID: https://experienceleague.adobe.com/dH1ItdXZTw9vcqvej3VOQDM-J9FFA38f4bq8HTJbKMo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 74%
-
+source-wordcount: '355'
+ht-degree: 63%
 ---
-
 # 點擊深度
 
-「點選深度」[維度](overview.md)會報告指定的點選在造訪中的深入程度。 此維度十分有助於瞭解訪客在您的網站上執行動作時深入造訪的程度。 點選深度會計算所有型別的點選，包括頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))和連結追蹤點選([`tl()`](/help/implement/vars/functions/tl-method.md))。
+「點選深度」[維度](overview.md)會報告指定的點選在造訪中的深入程度。 此維度十分有助於瞭解訪客在造訪您的網站時，是在造訪進行到多深時執行動作。 點選深度會計算所有型別的點選，包括頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))和連結追蹤點選([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實施作業。 如果報告套裝包含資料，此維度即會運作。
+Adobe會根據每次造訪中的點選順序在伺服器端計算此維度。 無可設定的變數；可直接用於所有實施作業。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（由Adobe計算） |
+| **網頁SDK / XDM欄位** | 無（由Adobe計算） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 ## 維度項目
 

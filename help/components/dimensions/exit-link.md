@@ -6,44 +6,52 @@ exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
 TQID: https://experienceleague.adobe.com/lGKBkR5e2arJxGmfIE4qN84oGtYJ2zkfn6luqxEUJ-w
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '251'
 ht-degree: 22%
-
 ---
-
 # 退出連結
 
 「退出連結」[維度](overview.md)會報告您的網站上實作的退出連結名稱。 退出連結會追蹤將訪客導覽至離開目前網域的對外點按。 如果您想要瞭解哪些對外連結的點按頻率最高，此維度就十分實用。
 
 ## 將資料填入此維度中
 
-此維度會根據`pe`查詢字串中的值，從影像要求中的[`pev2`查詢字串](/help/implement/validate/query-parameters.md)收集資料。 `pe`查詢字串決定哪個連結維度會接收`pev2`值：
-
-* **[自訂連結](custom-link.md)**： `lnk_o`
-* **[下載連結](download-link.md)**： `lnk_d`
-* **退出連結** （此頁面）： `lnk_e`
-
-如果未提供`pev2`，則改用連結URL (`pev1`)作為維度值。 明確提供連結名稱時，最大長度為100個位元組。 衍生自連結URL的值不受此限制。
-
-若要使用AppMeasurement填入此維度，請傳送連結型別引數為`"e"`的[`tl()`](/help/implement/vars/functions/tl-method.md)影像要求。 將連結名稱引數設為所需值：
+此維度由[個連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md)填入。 沒有專用變數可供設定。 請改為傳送連結型別引數為`"e"`的`tl()`影像要求，並將連結名稱引數設定為所要的值。 `pe`查詢字串會將連結名稱路由至正確的連結維度（[個自訂連結](custom-link.md)為`lnk_o`，[個下載連結](download-link.md)為`lnk_d`，[個退出連結](exit-link.md)為`lnk_e`）。 如果未提供連結名稱，則會改用連結URL作為維度值，而URL衍生的值不受位元組限制的約束。
 
 ```js
 s.tl(true,"e","Example exit link");
 ```
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | [`tl()`](/help/implement/vars/functions/tl-method.md) |
+| **網頁SDK / XDM欄位** | 無 |
+| **查詢引數** | [`pev2`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML標籤** | [`<linkName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **位元組限制** | 100位元組 |
+| **持續性** | 點擊 |
 
 ## 維度項目
 

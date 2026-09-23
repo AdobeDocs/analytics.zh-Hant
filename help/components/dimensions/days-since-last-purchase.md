@@ -6,22 +6,26 @@ exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
 TQID: https://experienceleague.adobe.com/q86bc1bMRctUBe7dFEJaALsq0GjALFQQtKU9cRpRkoU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 173
-ht-degree: 84%
-
+source-wordcount: '207'
+ht-degree: 64%
 ---
-
 # 上次購買間隔天數
 
 「上次購買間隔天數」維度[維度](overview.md)會測量訪客目前的點選與當時最近一次購買之間所經過的時間量。 此維度可協助您了解訪客在您網站上購買商品後的行為。
@@ -30,7 +34,16 @@ ht-degree: 84%
 
 ## 將資料填入此維度中
 
-Adobe 會根據您實施作業中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。 如果您在網站上實施作業 `purchase` 事件，此維度一律有效。
+Adobe會從訪客的購買記錄中在伺服器端計算此維度。 沒有可設定的變數，其取決於網站上正在實作的[`purchase`](/help/implement/vars/page-vars/events/event-purchase.md)事件。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（由Adobe計算） |
+| **網頁SDK / XDM欄位** | 無（由Adobe計算） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 ## 維度項目
 

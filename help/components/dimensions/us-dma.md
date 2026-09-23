@@ -6,37 +6,55 @@ exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 TQID: https://experienceleague.adobe.com/ijUlnHJ7gP4Jq1g0SzaUVHWbiMki1rgEMd1Pz4sttmU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 321
-ht-degree: 65%
-
+source-wordcount: '361'
+ht-degree: 55%
 ---
-
 # 美國 DMA
 
 &#39;US DMA&#39; [維度](overview.md)會報告訪客的指定市場區域(DMA)。 此維度以 [Nielsen](https://www.nielsen.com/dma-regions/) 彙編的媒體市場為基礎。
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱規則。 查閱值以隨著點擊傳送的 IP 位址為基礎。 Adobe與Nielsen合作，共同維護IP位址與DMA之間的查閱。
+Adobe會從訪客的IP位址衍生此維度伺服器端，並將其與內部查詢表比對。 Adobe與Nielsen合作，共同維護IP位址與DMA之間的查閱。 沒有可設定的變數。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（衍生自訪客的IP位址） |
+| **網頁SDK / XDM欄位** | 無（衍生自訪客的IP位址） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 * 對於AppMeasurement實作，此維度可直接運作。
-* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
+* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
 
 ## 維度項目
 

@@ -6,23 +6,30 @@ exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
 TQID: https://experienceleague.adobe.com/VUN8x5eMzIfJ9VGw76v2pWfKWU7b-ct-kI6liwWTObw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 180
-ht-degree: 25%
-
+source-wordcount: '192'
+ht-degree: 29%
 ---
-
 # 行動生命週期維度
 
+>[!BEGINSHADEBOX]
+
 *此頁面參考通常會透過Adobe Experience Platform Mobile SDK追蹤的資料。 如需使用使用者代理程式的行動裝置資訊，請參閱[行動查詢維度](mobile-dimensions.md)。 如需使用行動SDK追蹤的量度，請參閱[行動生命週期量度](../metrics/lifecycle-metrics.md)。*
+
+>[!ENDSHADEBOX]
 
 | 生命週期維度名稱 | 說明 | 上下文資料變數 |
 | --- | --- | --- |
@@ -34,7 +41,7 @@ ht-degree: 25%
 | [!UICONTROL 應用程式ID] | | `a.AppID` |
 | [!UICONTROL 贏取Medium] | | `a.referrer.campaign.medium` |
 | [!UICONTROL 贏取詞語] | | `a.referrer.campaign.term` |
-| [!UICONTROL 贏取內容] | | `a.refferer.campaign.content` |
+| [!UICONTROL 贏取內容] | | `a.referrer.campaign.content` |
 | [!UICONTROL 贏取名稱] | | `a.referrer.campaign.name` |
 | [!UICONTROL 位置 (10 公里以內)] | 訪客的經緯度，精確到小數點後的第一位。 例如，`040.9` `-111.9`。 | `a.loc.lat.a` + `a.loc.lon.a` |
 | [!UICONTROL 位置 (100 公尺以內)] | 訪客的經緯度，精確至小數點後的第三位。 例如，`040.932` `-111.931`。 | `a.loc.lat.a` + `a.loc.lat.b` + `a.loc.lon.a` + `a.loc.lon.b` |
@@ -53,7 +60,5 @@ ht-degree: 25%
 | [!UICONTROL 小時(SDK)] | | `a.HourOfDay` |
 | [!UICONTROL 星期(SDK)] | | `a.DayOfWeek` |
 | [!UICONTROL 興趣點ID] | | |
-
-{style="table-layout:auto"}
 
 <!-- Missing: Install Date -->

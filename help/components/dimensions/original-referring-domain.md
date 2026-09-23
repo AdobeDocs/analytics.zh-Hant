@@ -6,26 +6,34 @@ exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
 TQID: https://experienceleague.adobe.com/G-se6LH33gMTt8ttrP5RBzL85m335ujtbiSm6EjLGuU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 95%
-
+source-wordcount: '365'
+ht-degree: 72%
 ---
-
 # 原始反向連結網域
 
 「原始反向連結網域」[維度](overview.md)會報告訪客點進您網站的第一個反向連結網域。 設定後，該訪客 ID 的整個存留期都會包含相同的值。 此維度有助於了解哪些第三方網站原本會將流量帶往您的網站。
@@ -36,12 +44,18 @@ ht-degree: 95%
 
 ## 將資料填入此維度中
 
-此維度需要在 Analytics 介面和您的實施作業中進行設定。
+Adobe會使用該反向連結URL的網域部分，從訪客的第一個[反向連結](referrer.md)衍生此維度。 沒有可設定的變數。 您必須設定報表套裝的[內部URL篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)；若未設定，可能會包含內部網域或使外部網域無法顯示。
 
-* 在您的實施作業中，此維度會從影像要求中的 [`r` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。 AppMeasurement 會使用 JavaScript 變數 `document.referrer` 在瀏覽器中收集這項資料。 如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `r` 查詢字串參數。
-* 在 Analytics 介面中，您必須設定報表套裝的[內部 URL 篩選器](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)。 若未設定內部 URL 篩選器，則可能納入內部網域，或使外部網域無法顯示。
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（衍生自訪客的第一個反向連結） |
+| **網頁SDK / XDM欄位** | 無（衍生自訪客的第一個反向連結） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 訪客 |
 
-Adobe 會在訪客的存留期保留原始反向連結網域。 如果訪客在任何時候離開並點按不同網域上的連結，則不會記錄新的值。 如果想查看新值，請參閱[反向連結網域](referring-domain.md)。
+如果訪客在任何時候離開並點按不同網域上的連結，則不會記錄新的值。 若要檢視新值，請參閱[反向連結網域](referring-domain.md)。
 
 ## 維度項目
 

@@ -7,31 +7,38 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # 舊版除錯工具
 
 >[!IMPORTANT]
 >
->這個除錯工具已不再更新。 Adobe建議改用[Adobe CX Enterprise Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-tw)。
+>這個除錯工具已不再更新。 Adobe建議改用[Adobe CX Enterprise Debugger Chrome擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-tw)。
 
-[!UICONTROL 舊版Debugger]會檢查大部分Adobe CX Enterprise服務的標籤。 使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。 運用這類資訊，您就能針對組織的實作項目進行疑難排解或驗證。
+[!UICONTROL 舊版Debugger]會檢查大部分Adobe CX Enterprise服務的標籤。 使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。 運用這類資訊，您就能針對組織的實施進行疑難排解或驗證。
 
 ## 安裝舊版 Debugger
 
@@ -51,7 +58,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)，則可改用舊版除錯工具書籤小工具。
+如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，則可改用舊版除錯工具書籤小工具。
 
 1. 按一下右上方的三點圖示，然後前往書籤 > 書籤管理員。 您也可以按下 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在書籤管理員的右上方，按一下三點圖示，然後按一下「新增書籤」。
@@ -60,24 +67,24 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Firefox
 
-1. 按一下右上方的三行圖示，然後前往資料庫 > 書籤 > 顯示所有書籤。 您也可以按下 `Ctrl` + `Shift` + `B` (Windows) 或 `Cmd` + `Shift` + `B` (Mac)。
+1. 按一下右上方的三行圖示，然後前往程式庫 > 書籤 > 顯示所有書籤。 您也可以按下 `Ctrl` + `Shift` + `B` (Windows) 或 `Cmd` + `Shift` + `B` (Mac)。
 2. 按一下整理 > 新書籤。
 3. 在「名稱」欄位中，將其標示為「舊版Debugger」，然後將程式碼片段貼入「位置」欄位。 標記和關鍵字欄位不是必填欄位。
-4. 使用資料庫視窗將新的書籤小程式置於所需位置。
+4. 使用程式庫視窗將新的書籤小程式置於所需位置。
 
 #### Edge
 
-Edge 不提供手動建立書籤小程式的功能，但可將書籤 URL 編輯到書籤小程式中。
+Edge 不提供手動建立書籤小程式的功能，但可將書籤 URL 編輯成書籤小程式。
 
 1. 按一下 URL 欄位右側的星形圖示，將目前頁面加入書籤。
 2. 將書籤命名為「舊版Debugger」，並儲存在所需位置。
 3. 按一下附帶線條的星形圖示，開啟我的最愛列。
 4. 以滑鼠右鍵按一下新建立的書籤，然後選取「編輯 URL」。
-5. 將程式碼片段貼入文字欄位，然後點擊 Enter。
+5. 將程式碼片段貼入文字欄位，然後按 Enter。
 
 #### Safari
 
-Safari 不提供手動建立書籤小程式的功能，但可將書籤 URL 編輯到書籤小程式中。
+Safari 不提供手動建立書籤小程式的功能，但可將書籤 URL 編輯成書籤小程式。
 
 1. 按一下右上方的共用圖示，開啟書籤強制回應視窗。
 2. 將書籤命名為「舊版Debugger」，並儲存在所需位置。
@@ -96,7 +103,7 @@ Safari 不提供手動建立書籤小程式的功能，但可將書籤 URL 編�
 
 * **[!UICONTROL 顯示的Experience Cloud產品]**：顯示或隱藏每個CX Enterprise產品的影像要求。
 * **[!UICONTROL URL解碼]**： URL會解碼影像要求，以符合報表中顯示的內容。 Adobe 建議您維持此方塊的勾選狀態。
-* **[!UICONTROL 自動重新整理]**：每隔幾秒自動重新整理快顯視窗，藉此檢查頁面上是否有其他影像要求。 如果您需要在除錯工具中複製/貼上內容，請停用自動重新整理，以便保留您的選項。
-* **[!UICONTROL 易記格式]**：將顯示格式切換為實用標籤或影像要求的原始查詢字串。 如需詳細資訊，請參閱[資料彙集查詢參數](query-parameters.md)。
+* **[!UICONTROL 自動重新整理]**：每隔幾秒自動重新整理快顯視窗，藉此檢查頁面上是否有其他影像要求。 如果您需要在除錯工具中複製/貼上內容，請停用自動重新整理，以便保留您的選取內容。
+* **[!UICONTROL 易記格式]**：將顯示格式切換為實用標籤或影像要求的原始查詢字串。 如需詳細資訊，請參閱[資料彙集查詢參數](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)。
 
 若要儲存除錯工具的預設顯示選項，請在右上角的「Adobe 除錯工具」連結上按一下滑鼠右鍵，然後複製連結位址。 編輯您目前的除錯工具書籤小程式，並將更新後的程式碼片段貼到 URL 欄位。

@@ -6,28 +6,41 @@ exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
 TQID: https://experienceleague.adobe.com/duNfZhq3nb1kAjVkbUEUkuFPixk-FaTZX3-TA25AifQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 82%
-
+source-wordcount: '413'
+ht-degree: 73%
 ---
-
 # 首次接觸管道詳細資料
 
 「首次接觸管道詳細資料」[維度](overview.md)會報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道的詳細資料。 此維度十分有助於瞭解促使點擊與行銷管道相符的原因。 例如，當訪客進入您的網站，並找到相符的「付費搜尋」行銷管道時，您可以使用管道詳細資料來瞭解他們使用了哪個搜尋引擎，或搜尋了哪個關鍵字。
 
 ## 將資料填入此維度中
 
-此維度會複製其他變數的值。 使用的變數會參考每個[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)中的管道值。 當點擊符合行銷管道處理規則時，[上次接觸管道](last-touch-channel.md)維度就會設為管道名稱，而此維度會設為規則中設定的管道值。
+此維度衍生自行銷管道處理規則，可複製其他變數的值。 使用的變數會參考每個[行銷管道處理規則](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)中的管道值。 當點擊符合行銷管道處理規則時，[上次接觸管道](last-touch-channel.md)維度就會設為管道名稱，而此維度會設為規則中設定的管道值。 沒有可設定的變數。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（衍生自行銷管道處理規則） |
+| **網頁SDK / XDM欄位** | 無（衍生自行銷管道處理規則） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 如果您要將此維度設為特定值，則需執行下列步驟：
 

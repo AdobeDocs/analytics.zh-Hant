@@ -7,31 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/1fooxiu-eZGsWtpSQ-illBbooJveqzPIEvEHevc-ukM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 82%
-
+source-wordcount: '454'
+ht-degree: 80%
 ---
-
 # 動態變數
 
 動態變數可讓您將值從某個變數複製到另一個變數，而不增加影像要求的長度。 在多個變數中擷取相同資料時，動態變數很有幫助。
 
 在舊版 Analytics 中，影像要求長度是預防資料截斷非常重要的環節。 AppMeasurement 改良功能容許的影像要求查詢字串長度大幅增加，因此通常不需要動態變數。
 
-動態變數支援在影像要求中使用查詢字串參數或 HTTP 標頭。 如需可參考的可用參數完整清單，請參閱[資料彙集查詢參數](../../validate/query-parameters.md)。 如需可參考的可用 HTTP 要求欄位完整清單，請參閱 Wikipedia 上的[標準要求欄位](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
+動態變數支援在影像要求中使用查詢字串參數或 HTTP 標頭。 如需可參考的可用參數完整清單，請參閱[資料彙集查詢參數](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)。 如需可參考的可用 HTTP 要求欄位完整清單，請參閱 Wikipedia 上的[標準要求欄位](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields)。
 
 當 Adobe 辨識出動態變數首碼時，會自動複製報表套裝中的查詢字串或 HTTP 標題值。 此動作會在其他任何處理 (包括處理規則和 VISTA 規則) 之前進行。
 

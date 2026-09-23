@@ -1,9 +1,8 @@
 ---
 title: 品牌可見度整合
 description: 將Brand Visibility與Adobe Analytics整合
-feature:
 role: User
-source-git-commit: 841b09d487fb965fb2a5fce4a39a7480a5b01012
+source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -29,7 +28,7 @@ AI已成為主要探索管道。 大型語言模型(LLM)代理程式（例如Cha
 >
 >在此整合中，美國會進行一些品牌可見度資料的臨時處理。 資料最終會儲存在您的Adobe Analytics合約中設定的指定區域。
 
-如果您使用Customer Journey Analytics，更豐富的獨立輸入整合會透過Adobe Experience Platform將相同的基礎CDN流量資料帶入Customer Journey Analytics。 該整合功能將於今日推出。 檢視[與Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/bv)的品牌可見度整合。 如果您有Customer Journey Analytics，請先檢閱該整合，因為它會公開更多欄位，並支援將品牌可見度資料與其他資料集聯結。 本指南中說明的Analytics整合是針對使用Adobe Analytics但無法存取或取得Customer Journey Analytics授權的客戶所設計。
+如果您使用Customer Journey Analytics，更豐富的獨立輸入整合會透過Adobe Experience Platform將相同的基礎CDN流量資料帶入Customer Journey Analytics。 該整合功能將於今日推出。 檢視[與Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)的品牌可見度整合。 如果您有Customer Journey Analytics，請先檢閱該整合，因為它會公開更多欄位，並支援將品牌可見度資料與其他資料集聯結。 本指南中說明的Analytics整合是針對使用Adobe Analytics但無法存取或取得Customer Journey Analytics授權的客戶所設計。
 
 
 ## 使用案例
@@ -74,7 +73,7 @@ AI已成為主要探索管道。 大型語言模型(LLM)代理程式（例如Cha
 >
 >BYOCDN記錄轉送提供用於代理流量分析的伺服器端CDN要求資料。 資料並不取決於瀏覽器中執行的JavaScript標籤。 若沒有必要的CDN記錄摘要，聯結器將沒有流量資料可匯入您的報表套裝。
 >
->如需詳細資訊，請參閱[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
+>如需詳細資訊，請參閱[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)。
 
 
 >[!IMPORTANT]
@@ -106,10 +105,10 @@ CJA輸入整合建置在更廣泛的CDN請求摘要資料集上，並支援其�
 
 #### 重要限制
 
-&#x200B;- 不包含訪客ID、ECID、造訪或不重複使用者資料。 這是彙總、非訪客相關的摘要資料。
-&#x200B;- 保留的變數不支援配置型別或到期型別設定，因為它們未繫結至訪客。
-&#x200B;- 無法像在Customer Journey Analytics中一樣將資料與其他Analytics資料集或維度連結。
-&#x200B;- 使用&#x200B;**要求**&#x200B;量度來測量機器人和代理程式流量。 請勿將其與報表套裝中其他位置的造訪或點選型量度互換使用。
+- 不包含訪客ID、ECID、造訪或不重複使用者資料。 這是彙總、非訪客相關的摘要資料。
+- 保留的變數不支援配置型別或到期型別設定，因為它們未繫結至訪客。
+- 無法像在Customer Journey Analytics中一樣將資料與其他Analytics資料集或維度連結。
+- 使用&#x200B;**要求**&#x200B;量度來測量機器人和代理程式流量。 請勿將其與報表套裝中其他位置的造訪或點選型量度互換使用。
 
 聯結器啟用後，應針對報表套裝的變數設定確認確切的可用欄位集。
 
@@ -135,10 +134,10 @@ CJA輸入整合建置在更廣泛的CDN請求摘要資料集上，並支援其�
 
 啟用聯結器前，請確認下列事項：
 
-&#x200B;- 您已為要連線的網站完成Adobe Brand Visibility上線。
-&#x200B;- 已為該網站設定並確認BYOCDN記錄轉送（請參閱[先決條件](#inbound-integration)）。
-&#x200B;- 資料會顯示在該網站的Adobe Brand Visibility代理流量控制面板中。
-&#x200B;- 您知道要將網站連線到哪個報告套裝。
+- 您已為要連線的網站完成Adobe Brand Visibility上線。
+- 已為該網站設定並確認BYOCDN記錄轉送（請參閱[先決條件](#inbound-integration)）。
+- 資料會顯示在該網站的Adobe Brand Visibility代理流量控制面板中。
+- 您知道要將網站連線到哪個報告套裝。
 
 每個Adobe Brand Visibility網站只會連線至一個報表套裝。 如果您想要帶入多個品牌可見度網站的資料，請將每個網站連結至個別的報表套裝。
 
@@ -226,31 +225,29 @@ CJA輸入整合建置在更廣泛的CDN請求摘要資料集上，並支援其�
 
 | 問題 | 疑難排解 |
 |---|---|
-| 聯結器將不會啟用，或網站清單是空的。 | 檢查是否：<ul><li>網站的Adobe Brand Visibility上線已完成。</li><li>已設定並確認網站的BYOCDN記錄轉送。</li><li>您使用正確的報表套裝。</li><ul> |
+| 聯結器將不會啟用，或網站清單是空的。 | 檢查是否：<ul><li>網站的Adobe Brand Visibility上線已完成。</li><li>已設定並確認網站的BYOCDN記錄轉送。</li><li>您使用正確的報表套裝。</li></ul> |
 | 聯結器已啟用，但未顯示任何資料。 | 檢查是否： <ul><li>資料會顯示在已連線網站的「代理流量」控制面板中（如果沒有，則問題位於Analytics的上游）。</li><li>初始90天回填的時間已足夠，而且至少每小時同步一次。</li><li> — 報表中選取的日期範圍包含聯結器啟用後的時段。</li></ul> |
 | 資料顯示不完整或未預期。 | 檢查是否： <ul><li>報表套裝也不可接收其他品牌可見度網站的資料（每個報表套裝只會連線至一個網站）。</li><li>您正在讀取&#x200B;**請求**&#x200B;量度，而不是計算報表套裝中其他位置的列或點選。</li><li>您檢視的維度符合第4節中的清單；相同報表套裝中無關的evar或事件不屬於此整合。</li></ul> |
 
 >[!MORELIKETHIS]
 >
->[品牌可見度/LLMO整合參考](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/integrations/bv)
->[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
-
-&#x200B;---
+>[品牌可見度/LLMO整合參考](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
+>[BYOCDN記錄檔轉送參考](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 ## 檔案的草稿說明（非出版）
 
 此區段供內部檢閱，發佈前應先移除此區段。
 
-&#x200B;- **使用的Source真實值：**&#x200B;欄位名稱、保留的變數清單，以及「報表套裝管理員」工作流程來源為[AN-468884](https://jira.corp.adobe.com/browse/AN-468884) （David Wardell，截至2026-08-28為「新增」狀態），這比原始檔案請求[AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur， status New)更新且更具體。 Provision/Deprovision畫面的頁面復本整合了2026-08-28年度內部稽核(`2026-08-28-an468884-abv-report-suite-ui-review.md`)的措辭細化，在面對客戶的文字中，將原始票證的「ABV」縮寫取代為「Adobe Brand Visibility」。
-&#x200B;- **在發佈之前要調解的欄位集不一致：** AN-449989的原始維度清單為「主機」、「URL/頁面路徑」、「CDN提供者」、「使用者代理程式」和「LLM機器人型別」，以及單一代理程式要求計數量度。 AN-468884的實際保留變數清單為URL、機器人型別、使用者代理、狀態和反向連結，並具有單一請求事件。 主機和CDN提供者在AN-468884中不是以個別的保留變數存在；狀態是新的。 本草稿遵循AN-468884作為引擎票證的權威性，但兩者應與Aaron Kern / David Wardell進行調解，才能最終完成，因為客戶看到的欄位名稱可能不符合客戶團隊使用舊版AN-449989語言所描述的欄位名稱。
-&#x200B;- **尚未確認，請勿在發佈的版本中陳述為事實：**
-  &#x200B;- 完全相同的正式發行日期。 AN-431416攜帶FixVersion H2 2026 （2026-11-30版本視窗），並且從2026-09-01開始處於「執行」狀態；AN-468884 （保留變數實施）和AN-449989 （本檔案）都是「新」狀態。 直到送出工程後才發佈。
-  &#x200B;- 生產環境中保留的eVar是否完全抑制配置型別/到期型別。 2026-08-28年回顧標幟測試報告套裝目前顯示這些evar的「配置」設定為「最近（上一個）」，這可能是需要清除的預設值，而不是確認的最終行為。
-  &#x200B;- IMS組織列出ABV網站的LLMO API端點（填入「網站選擇」下拉式清單）和取消布建/停用API在2026-08-26票證評論中仍由Joe Bass擱置。
-  &#x200B;- 精確的CJA欄位計數比較。 AN-449989的原始票證聲稱CJA具有「9個額外的維度」和「5個額外的量度」，但其中幾個維度（LLM工作階段貯體、LLM唯一工作階段計數、LLM請求重複計數）在2026-06-18年稽核時未確認存在於已傳送的`cdn-requests-summary`欄位群組中。 此草稿會因此刻意避免引述CJA比較中的特定計數。
-  &#x200B;- 此AA路徑的同步步調在此以每小時表示，並符合AN-468884的票證語言（「執行每小時同步」/「每小時同步程式」）。 這尚未針對生產AA資料來源行為和CJA步調一樣進行獨立驗證。
+- **使用的Source真實值：**&#x200B;欄位名稱、保留的變數清單，以及「報表套裝管理員」工作流程來源為[AN-468884](https://jira.corp.adobe.com/browse/AN-468884) （David Wardell，截至2026-08-28為「新增」狀態），這比原始檔案請求[AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur， status New)更新且更具體。 Provision/Deprovision畫面的頁面復本整合了2026-08-28年度內部稽核(`2026-08-28-an468884-abv-report-suite-ui-review.md`)的措辭細化，在面對客戶的文字中，將原始票證的「ABV」縮寫取代為「Adobe Brand Visibility」。
+- **在發佈之前要調解的欄位集不一致：** AN-449989的原始維度清單為「主機」、「URL/頁面路徑」、「CDN提供者」、「使用者代理程式」和「LLM機器人型別」，以及單一代理程式要求計數量度。 AN-468884的實際保留變數清單為URL、機器人型別、使用者代理、狀態和反向連結，並具有單一請求事件。 主機和CDN提供者在AN-468884中不是以個別的保留變數存在；狀態是新的。 本草稿遵循AN-468884作為引擎票證的權威性，但兩者應與Aaron Kern / David Wardell進行調解，才能最終完成，因為客戶看到的欄位名稱可能不符合客戶團隊使用舊版AN-449989語言所描述的欄位名稱。
+- **尚未確認，請勿在發佈的版本中陳述為事實：**
+  - 完全相同的正式發行日期。 AN-431416攜帶FixVersion H2 2026 （2026-11-30版本視窗），並且從2026-09-01開始處於「執行」狀態；AN-468884 （保留變數實施）和AN-449989 （本檔案）都是「新」狀態。 直到送出工程後才發佈。
+  - 生產環境中保留的eVar是否完全抑制配置型別/到期型別。 2026-08-28年回顧標幟測試報告套裝目前顯示這些evar的「配置」設定為「最近（上一個）」，這可能是需要清除的預設值，而不是確認的最終行為。
+  - IMS組織列出ABV網站的LLMO API端點（填入「網站選擇」下拉式清單）和取消布建/停用API在2026-08-26票證評論中仍由Joe Bass擱置。
+  - 精確的CJA欄位計數比較。 AN-449989的原始票證聲稱CJA具有「9個額外的維度」和「5個額外的量度」，但其中幾個維度（LLM工作階段貯體、LLM唯一工作階段計數、LLM請求重複計數）在2026-06-18年稽核時未確認存在於已傳送的`cdn-requests-summary`欄位群組中。 此草稿會因此刻意避免引述CJA比較中的特定計數。
+  - 此AA路徑的同步步調在此以每小時表示，並符合AN-468884的票證語言（「執行每小時同步」/「每小時同步程式」）。 這尚未針對生產AA資料來源行為和CJA步調一樣進行獨立驗證。
 
 
 ## 傳出整合
 
-本指南僅涵蓋傳入品牌可見度整合，會在Analytics報表套裝中新增機器人和自動代理程式流量資料。 發佈的整合檔案也說明輸出方向，其中提供Analytics效能資料供品牌可見度產品內品牌可見度。 該方向不在本指南的範圍之內。 如需傳出整合的詳細資訊，請參閱[品牌可見度檔案](https://experienceleague.adobe.com/zh-hant/docs/brand-visibility/using/resources/adobe-analytics-integration)。
+本指南僅涵蓋傳入品牌可見度整合，會在Analytics報表套裝中新增機器人和自動代理程式流量資料。 發佈的整合檔案也說明輸出方向，其中提供Analytics效能資料供品牌可見度產品內品牌可見度。 該方向不在本指南的範圍之內。 如需傳出整合的詳細資訊，請參閱[品牌可見度檔案](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration)。

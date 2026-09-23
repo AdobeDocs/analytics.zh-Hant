@@ -6,43 +6,55 @@ exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
 TQID: https://experienceleague.adobe.com/XHrUXKHrXiH0wsUr0klmPmA-DEq5T5yu18KLNT7oYeo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 272
-ht-degree: 80%
-
+source-wordcount: '330'
+ht-degree: 61%
 ---
-
 # 郵遞區號
 
 「郵遞區號」[維度](overview.md)會報告訪客的郵遞區號。 您可以使用此維度進一步瞭解當地廣告是否成功，或瞭解您的網站在全世界的哪些地點表現最佳。
 
 ## 將資料填入此維度中
 
-此維度的獨特之處在於它有多種方式可填入資料。 您可以使用其中一種，或將兩者搭配使用。
+此維度的獨特之處在於它有多種方式可填入資料。 您可以使用其中一種，或將兩者搭配使用：
 
-* 直接使用 `zip` 變數設定郵遞區號；或
-* 將其設定為從地理位置資料中提取。
+* 直接使用[`zip`](/help/implement/vars/page-vars/zip.md)變數設定郵遞區號。
+* 將其設定為從地理位置資料中提取。 使用地理郵遞區號時，不會設定變數。 對於AppMeasurement實作，此維度可直接運作。 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html)時啟用[!UICONTROL 地理查閱]。
 
-[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。
+[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。 當您直接設定`zip`變數時，將會套用以下的參考表格。
 
-如果您選擇使用任何涉及地域郵遞區號的選項：
-
-* 對於AppMeasurement實作，此維度可直接運作。
-* 針對Web SDK實作，請在[設定資料流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant)時啟用[!UICONTROL 地理查閱]。
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | [`zip`](/help/implement/vars/page-vars/zip.md) |
+| **網頁SDK / XDM欄位** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **查詢引數** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML標籤** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **位元組限制** | 50位元組 |
+| **持續性** | 點擊 |
 
 ## 維度項目
 

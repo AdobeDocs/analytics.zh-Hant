@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。 自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
-
+source-wordcount: '444'
+ht-degree: 96%
 ---
-
 
 # Adobe Analytics 實作指南 {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 97%
   + [使用 Web SDK (Alloy)](id/alloy.md)
   + [使用 Analytics 擴充功能](id/analytics-extension.md)
   + [使用 AppMeasurement](id/appmeasurement.md)
+  + [使用資料插入API](id/data-insertion.md)
   + [移轉至訪客 ID 服務](id/migration.md)
   + [在不同的實施類型中進行追蹤](id/cross-type-implementation.md)
 + 準備實作 Adobe Analytics {#prepare}
@@ -176,7 +175,6 @@ ht-degree: 97%
     + [疑難排解 H 程式碼](js/h-code/troubleshooting.md)
   + [疑難排解 AppMeasurement](js/troubleshooting.md)
 + 在其他平台上實作 Analytics {#other}
-  + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
   + [在 Ajax 上實作 Analytics](other/ajax.md)
   + [在 AMP 上實作 Analytics](other/amp.md)
   + [在數位助理上實作 Analytics](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 97%
   + [Campaign 追蹤工作流程](use-cases/campaign-tracking.md)
 + 驗證實作 {#validate}
   + [舊版除錯工具](validate/debugger.md)
-  + [資料彙集查詢參數](validate/query-parameters.md)
   + [封包監視器](validate/packet-monitor.md)
   + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
