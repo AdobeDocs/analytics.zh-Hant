@@ -7,29 +7,37 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3NSbjRWl0GsomjsEXo8XczQ1RWOPGpqW4OM2YeUo3Wk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 414
-ht-degree: 8%
-
+source-wordcount: '410'
+ht-degree: 5%
 ---
-
 # 完整處理資料來源的生命週期結束
 
-完整處理資料來源歷來可讓組織將點選層級資料提交至Adobe Analytics。 此資料的處理方式與透過傳統資料收集方法（例如AppMeasurement）收集的資料相同。 2020年，Adobe發行了[大量資料插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，它執行與完整處理資料來源相同的功能，但具有附加功能。 本頁提供大量資料插入API所提供其他功能的詳細資訊，並概述檔案格式的差異。
+完整處理資料來源歷來可讓組織將點選層級資料提交至Adobe Analytics。 此資料的處理方式與透過傳統資料收集方法（例如AppMeasurement）收集的資料相同。 2020年，Adobe發行了[大量資料插入API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)，它執行與完整處理資料來源相同的功能，但具有附加功能。 本頁提供大量資料插入API所提供其他功能的詳細資訊，並概述檔案格式的差異。
 
 2021年3月25日，Adobe禁止建立新的完整處理資料來源連線。 在2022年1月31日，所有完整處理資料服務都已停用。
 
@@ -39,7 +47,7 @@ ht-degree: 8%
 * 大量資料插入具有資料驗證和錯誤處理功能，可移除提交點選資料的一些管理工作。
 * 大量資料插入支援多種訪客ID識別方法。
 * 大量資料插入有一些額外的必要欄位：訪客身分識別欄、`pageName` （或同等連結）、`reportSuiteID`、`timestamp`和`userAgent`。
-* 為確保訪客連續性和歸因，大量資料插入要求檔案中的列依時間順序排序。 請參閱[訪客群組](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/visitor-groups/)以了解跨檔案訪客活動的排序。
+* 為確保訪客連續性和歸因，大量資料插入要求檔案中的列依時間順序排序。 請參閱[訪客群組](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/)以了解跨檔案訪客活動的排序。
 * 大量資料插入需要以.gzip格式壓縮的.csv檔案。
 * BDIA使用`timestamp`而非`date`。
 

@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Adobe Analytics 中的資料處理順序
 
 Adobe 提供許多方法，可在資料出現在報告中之前加以變更或操作。 此頁面會顯示各種 Adobe Analytics 功能處理資料的順序。 您可以使用此清單來解決資料不一致問題，或在需要調整資料時判斷最適合使用的功能。
@@ -39,9 +48,9 @@ Adobe 提供許多方法，可在資料出現在報告中之前加以變更或�
 * **AppMeasurement**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。 資料直接傳送到 Adobe Analytics。
 * **Adobe Experience Platform Web SDK**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。 資料會傳送到Adobe Experience Platform Edge Network。
 * **Adobe Experience Platform資料彙集中的標籤**：每個頁面上參考的JavaScript檔案，包含在資料彙集UI中建立的規則。 Adobe Analytics 擴充功能可讓您用更簡單的方法實作 AppMeasurement。 Web SDK 擴充功能可讓您用更簡單的方法執行 Web SDK。
-* **API**： AppMeasurement和Edge Network都提供程式化方法，可將資料傳送至Adobe。 AppMeasurement提供[資料插入API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)和[大量資料插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)；Edge Network提供[資料收集API](https://developer.adobe.com/data-collection-apis/docs/)。
+* **API**： AppMeasurement和Edge Network都提供程式化方法，可將資料傳送至Adobe。 AppMeasurement提供[資料插入API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)和[大量資料插入API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)；Edge Network提供[資料收集API](https://developer.adobe.com/data-collection-apis/docs/)。
 
-如果您將資料傳送至Edge Network，可以將其設定為將資料轉送至Adobe Analytics （以及許多其他Adobe CX Enterprise解決方案）。 無論實作方法為何，收集的點選資料最終都會以可剖析的格式送達Adobe Analytics處理伺服器。
+如果您將資料傳送至Edge Network，您可以將其設定為將資料轉送至Adobe Analytics （以及許多其他Adobe CX Enterprise解決方案）。 無論實作方法為何，收集的點選資料最終都會以可剖析的格式送達Adobe Analytics處理伺服器。
 
 ## Adobe Analytics集合中的前置處理
 

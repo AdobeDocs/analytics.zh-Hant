@@ -4,23 +4,28 @@ description: 每次點選的傳送來源IP位址，可在Data Warehouse中使用
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 108
-ht-degree: 17%
-
+source-wordcount: '153'
+ht-degree: 16%
 ---
-
 # IP 位址
 
 「IP位址」[維度](overview.md)會列出每次點選傳送來源的IP位址。
@@ -32,6 +37,15 @@ ht-degree: 17%
 ## 將資料填入此維度中
 
 AppMeasurement會自動從每個影像要求的HTTP標題收集IP位址。 它對應至資料摘要中的`ip`欄。 如需詳細資訊，請參閱[資料行參考](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（來自HTTP請求） |
+| **網頁SDK / XDM欄位** | 無（來自HTTP請求） |
+| **查詢引數** | 無（來自HTTP請求） |
+| **XML標籤** | [`<ipAddress>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 如果報表套裝的[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)中啟用了[!UICONTROL IP模糊化]，Analytics中每一處的IP位址都會模糊化或移除，包括Data Warehouse。
 

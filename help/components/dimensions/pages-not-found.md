@@ -6,26 +6,35 @@ exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 TQID: https://experienceleague.adobe.com/0S2WzNRJrtOa9ZPTg5cmbwxMLJE5tI6Qa3GtZs6GqKc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 75%
-
+source-wordcount: '276'
+ht-degree: 50%
 ---
-
 # 找不到頁面
 
+>[!BEGINSHADEBOX]
+
 *此說明頁面說明「找不到頁面」作為[維度](overview.md)時的運作方式。 請參閱[找不到頁面](../metrics/pages-not-found.md)量度頁面，瞭解它作為量度時的運作方式。*
+
+>[!ENDSHADEBOX]
 
 「找不到頁面」維度會顯示包含錯誤的 URL。 如果您想要減少訪客在您網站上收到的錯誤數，此維度就十分實用。
 
@@ -38,7 +47,16 @@ ht-degree: 75%
 
 ## 將資料填入此維度中
 
-此維度會從影像要求中的 [`pageType` 和 `g` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。 如果 `pageType` 查詢字串等同於 `errorPage`，則會記錄 `g` 查詢字串 (頁面 URL)。 AppMeasurement 會使用 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 變數收集這項資料。 如果 `pageType` 變數未定義，或設為 `errorPage` 以外的其他項目，則不會收集此維度的資料。
+AppMeasurement 會使用 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 變數收集這項資料。 當`pageType`設為`errorPage`時，點選的頁面URL會記錄為維度專案。 如果未定義`pageType`變數或將其設定為任何其他值，則不會收集此維度的資料。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
+| **網頁SDK / XDM欄位** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-types/webpage-details) |
+| **查詢引數** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML標籤** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **位元組限制** | 不適用 |
+| **持續性** | 點擊 |
 
 ## 維度項目
 

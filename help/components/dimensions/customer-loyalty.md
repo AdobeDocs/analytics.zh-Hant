@@ -6,30 +6,44 @@ exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 TQID: https://experienceleague.adobe.com/Essa0dflFlsqwtTQ4JdaSEOkX6T-zEYrQGhgXBWhfcI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 246
-ht-degree: 88%
-
+source-wordcount: '280'
+ht-degree: 73%
 ---
-
 # 客戶忠誠度
 
 「客戶忠誠度」 [維度](overview.md)會報告您網站上先前購買0次、先前購買1次、先前購買2次或先前購買3次以上的訪客數量。 此維度對於了解網站如何影響購買行為十分有用。 您也可以在區段中使用此維度，將焦點放在回訪進行購買的訪客上，藉此鼓勵新訪客採取類似的行為。
 
 ## 將資料填入此維度中
 
-Adobe 會根據您實施作業中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。 如果您在網站上實施作業 `purchase` 事件，此維度一律有效。
+Adobe會從訪客的購買記錄中在伺服器端計算此維度。 沒有可設定的變數，其取決於網站上正在實作的[`purchase`](/help/implement/vars/page-vars/events/event-purchase.md)事件。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（由Adobe計算） |
+| **網頁SDK / XDM欄位** | 無（由Adobe計算） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 ## 維度項目
 

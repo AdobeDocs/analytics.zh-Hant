@@ -7,22 +7,26 @@ exl-id: e262e537-ce73-492a-8ab3-b88cd77cb8c5
 TQID: https://experienceleague.adobe.com/mmLp5-dgKGeovIOMPZxliyhfbpUSMLXca-3Qs6QA0SA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 5%
-
+source-wordcount: '286'
+ht-degree: 7%
 ---
-
 # Activity Map 地區
 
 「Activity Map地區」[維度](overview.md)會顯示網站上點按次數最多的地區。 如果您想比較網站總體區域而非個別連結的點按次數，此維度就十分實用。 此外，對於網站中提供動態內容的區域也很有幫助。 例如，如果您的首頁有旋轉的新聞文章，則很難使用[Activity Map連結](activity-map-link.md)維度，因為連結文字會持續變更。 不過，由於這些連結會使用相同的區域，因此您可以分析該區域效能，即使個別連結可能每天都會變更。
@@ -30,6 +34,15 @@ ht-degree: 5%
 ## 將資料填入此維度中
 
 此維度會從[內容資料變數](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.region`擷取資料。 如果您的實作使用[Activity Map](/help/analyze/activity-map/overview.md)，此內容資料變數會在點按連結時自動收集資料。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（由[Activity Map](/help/analyze/activity-map/overview.md)模組收集） |
+| **網頁SDK / XDM欄位** | 無（由[Activity Map](/help/analyze/activity-map/overview.md)模組收集） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 255位元組 |
+| **持續性** | 不適用 |
 
 對於已點按的指定連結，請檢查下列專案的父DOM元素（依序）：
 

@@ -6,28 +6,39 @@ exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
 TQID: https://experienceleague.adobe.com/1D8ONiUuG3T6DqM7HygbBbf0Y4ja5ej1Hfy8-hKo0yg
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 223
+source-wordcount: '223'
 ht-degree: 91%
-
 ---
-
 # 自訂事件
 
+>[!BEGINSHADEBOX]
+
 *此說明頁面說明自訂事件作為量度時的運作方式。 若要瞭解自訂事件作為實施作業變數時的運作方式，請參閱「實施作業」使用指南中的[事件概觀](/help/implement/vars/page-vars/events/events-overview.md)。*
+
+>[!ENDSHADEBOX]
 
 自訂事件[量度](overview.md)會顯示影像要求中設定特定自訂事件的點選次數。 這些量度可用來洞察每個組織的特定事件，因此對許多實作而言都十分重要。
 

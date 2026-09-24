@@ -6,27 +6,37 @@ exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 TQID: 'https://experienceleague.adobe.com/jtBAAq-Pe0PyCQJPwvzwnK9eLv14CxTvrVQP4lvWy7k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 304
-ht-degree: 92%
-
+source-wordcount: '349'
+ht-degree: 78%
 ---
-
 # 每次造訪逗留時間
 
+>[!BEGINSHADEBOX]
+
 *此說明頁面說明「每次造訪逗留時間」作為個別[維度](overview.md)的運作方式。 如需詳細資訊，請參閱[每次造訪逗留時間](../metrics/time-spent-per-visit.md)量度。*
+
+>[!ENDSHADEBOX]
 
 「每次造訪逗留時間」維度會記錄訪客整次造訪逗留的時間量。 此維度使用下列步驟來進行計算：
 
@@ -46,7 +56,16 @@ ht-degree: 92%
 
 ## 將資料填入此維度中
 
-這些維度可直接用於所有實施作業。 如果報告套裝包含資料，這些維度即會運作。
+Adobe會從造訪的首次和上次點選之間經過的時間，在伺服器端計算這些維度。 無可設定的變數；可直接用於所有實施作業。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（由Adobe計算） |
+| **網頁SDK / XDM欄位** | 無（由Adobe計算） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 造訪 |
 
 ## 維度項目
 

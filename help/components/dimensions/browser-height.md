@@ -6,25 +6,32 @@ exl-id: bdfd2ef5-c200-4d6e-b478-3917fca66227
 TQID: https://experienceleague.adobe.com/-MSFtBJDaiG0yYL6ZdpzbPY80uFJbdxB0gyBtKAkFzY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 295
-ht-degree: 81%
-
+source-wordcount: '318'
+ht-degree: 40%
 ---
-
 # 瀏覽器高度
 
 「瀏覽器高度 — 分段」[維度](overview.md)會顯示瀏覽器視窗的高度，並將其分類為預先定義的群組。 如果您想要瞭解訪客在您網站上的「折頁」位置，此維度就十分實用。 瞭解折頁的位置可讓您將內容最佳化以供檢視。
@@ -35,7 +42,7 @@ ht-degree: 81%
 console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${screen.height} pixels`);
 ```
 
-瀏覽器高度一律小於或等於螢幕高度，因為瀏覽器高度不包含瀏覽器導覽區或邊界。
+瀏覽器高度通常會小於或等於熒幕高度，因為瀏覽器高度不包含瀏覽器導覽區或邊界。
 
 >[!NOTE]
 >
@@ -43,9 +50,16 @@ console.log(`Browser height: ${window.innerHeight} pixels\nScreen height: ${scre
 
 ## 將資料填入此維度中
 
-此維度會從影像要求中的 [`bh` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。 AppMeasurement 會使用 JavaScript 變數 `window.innerHeight` 在瀏覽器中收集這項資料。 如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在每次造訪的第一次點擊上包含 `bh` 查詢字串參數。
+系統會自動從瀏覽器的`window.innerHeight`屬性在使用者端收集瀏覽器高度。 可直接用於任何AppMeasurement或Web SDK （標籤）實作，且沒有變數可供設定。 如果您在AppMeasurement或網頁SDK之外（例如透過API）收集資料，請在每次造訪的第一次點選時傳送值。 如果瀏覽器高度在造訪期間有所調整，將不會記錄該調整。
 
-Adobe 會在造訪期間保存瀏覽器高度。 如果瀏覽器高度在造訪期間有所調整，將不會記錄該調整。
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（自動收集） |
+| **網頁SDK / XDM欄位** | 無（自動收集） |
+| **查詢引數** | [`bh`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML標籤** | [`<browserHeight>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **值範圍** | 0-65,535 |
+| **持續性** | 造訪 |
 
 ## 維度項目
 

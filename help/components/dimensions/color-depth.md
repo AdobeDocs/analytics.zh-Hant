@@ -6,33 +6,50 @@ exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 TQID: https://experienceleague.adobe.com/JLxm06wch2r7RslhdKx-gFLBLhMSXuWkb-0EYM7nT5s
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 94%
-
+source-wordcount: '255'
+ht-degree: 52%
 ---
-
 # 色彩深度
 
 「色彩深度」[維度](overview.md)會報告裝置支援的色彩數量。 此維度可用來判斷有多少流量源自不支援 1600 萬色的裝置。 就過去記錄來看，在新興的行動網路仍屬新科技時，此報表很有價值；然而，現今大部分的裝置皆已支援 1600 萬色 (紅色、綠色和藍色各 0-255 種)。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## 將資料填入此維度中
 
-此維度會參考查閱表格，將位元值轉換為更易讀的格式。 它會從影像要求中的 [`c` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。 AppMeasurement 會使用 `screen.colorDepth` 變數填入影像要求查詢字串。 如果您使用 AppMeasurement (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在具有有效位元值的每個點擊上包含 `c` 查詢字串參數。
+使用者端會從瀏覽器的`screen.colorDepth`屬性自動收集色彩深度，Adobe會透過查詢表格將其轉譯為可讀取的格式。 可直接用於任何AppMeasurement或Web SDK （標籤）實作，且沒有變數可供設定。 如果您在AppMeasurement或Web SDK之外（例如透過API）收集資料，請在每次點選時傳送有效的位元值。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（自動收集） |
+| **網頁SDK / XDM欄位** | 無（自動收集） |
+| **查詢引數** | [`c`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML標籤** | [`<colorDepth>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **位元組限制** | 20位元組 |
+| **持續性** | 不適用 |
 
 ## 維度項目
 

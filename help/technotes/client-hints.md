@@ -7,25 +7,33 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/0dV7b-gqSjMC-4anyH9dTzXCiv4Yfi1tKijaDQw2dSE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1283
-ht-degree: 78%
-
+source-wordcount: '1278'
+ht-degree: 76%
 ---
-
 # 用戶端提示概觀和常見問題
 
 用戶端提示指有關使用者裝置的個別資訊。 上述提示會透過 Google Chrome 和 Microsoft Edge 之類的 Chromium 瀏覽器提供。 對於這些瀏覽器，用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。 Adobe Analytics 將更新其裝置查找流程，以便使用除使用者代理程式以外的用戶端提示來確定裝置資訊。
@@ -58,7 +66,7 @@ Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能�
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
-若是透過 API 提交的資料，例如透過[資料插入 API](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/)或[批量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/)，提示必須明確地包含在承載中。 請參閱各別的文件以取得詳細資料。
+若是透過 API 提交的資料，例如透過[資料插入 API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)或[批量資料插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/)，提示必須明確地包含在承載中。 請參閱各別的文件以取得詳細資料。
 
 +++
 
@@ -152,7 +160,7 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++**使用 API 提交時如何包含用戶端提示資料？**
 
-請參閱文件以透過[大量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/) 包含這些內容。
+請參閱文件以透過[大量資料插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/) 包含這些內容。
 
 +++
 

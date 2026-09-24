@@ -8,36 +8,55 @@ mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 7447
-ht-degree: 93%
-
+source-wordcount: '7484'
+ht-degree: 92%
 ---
-
 # Adobe Analytics 技術文件更新
 
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
@@ -53,10 +72,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2026年9月** | |
 | 新的調整大小捷徑動作 | Analysis Workspace中新的鍵盤快速鍵現在可讓您[調整面板或視覺效果](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)的寬度、寬度、高度或寬度。 |
+| [Adobe Analytics資料收集API](https://developer.adobe.com/analytics-collection-apis/) | 新的開發人員存放庫，可彙總並現代化Adobe Analytics的資料收集策略，而不需使用AppMeasurement或標籤。 |
 | **2026年8月** | |
 | 將新的對話式AI工具新增至反向連結型別維度 | 「反向連結型別」維度現在在Adobe使用的查詢表格中，包含下列其他[交談式AI工具](/help/components/dimensions/referrer-type.md#conversational-ai-tools)：<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **2026年6月** | |
-| 查詢字串參考更新 | [資料收集查詢引數](/help/implement/validate/query-parameters.md)的重大修訂。 |
+| 查詢字串參考更新 | [資料收集查詢引數](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)的重大修訂。 |
 | Data Warehouse中的區段 | 更新[Data Warehouse區段相容性](/help/export/data-warehouse/segment-compatibility.md)。 |
 | 已將GA取代為AA指南 | GA至AA指南參考了Universal Analytics，後者已於2023年廢止。 新的指南已取代它，[從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026 年 5 月** | |
@@ -348,14 +368,14 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](/help/analyze/analysis-workspace/curate-share/share-projects.md)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
 | 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](/help/analyze/analysis-workspace/curate-share/share-projects.md)的新文件。 新增至「可編輯」角色的收件者可覆寫已與其共用的專案。 無論管理員或非管理人員都適用。 |
 | **2020 年 5 月** |  |
-| 2020 年 5 月 31 日 | 有關[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的新文件 |
+| 2020 年 5 月 31 日 | 有關[大量資料插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) 的新文件 |
 | 2020 年 5 月 21 日 | 有關 [Adobe Analytics 儀表板](/help/analyze/mobile-app/home.md)的新文件 |
 | 2020 年 5 月 21 日 | 有關 Analysis Workspace 的[協助工具改良](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md)的新文件，包括改良的鍵盤導覽、色彩比對和螢幕助讀程式支援。 |
 | **2020 年 4 月** |  |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 4 月 16 日 | 有關如何從空白狀態自動建立[!UICONTROL 自由格式表格]的文件。 以前您必須先新增自由格式表格，無法直接將元件拖放到空白專案或空白面板中。 現在，您可以直接將元件拖放至空白的專案或面板，由系統自動以建議的格式為您建立自由格式表格。 此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白[!UICONTROL 自由格式表格]時的處理方式。 |
 | **2020 年 3 月** |  |
-| 2020 年 3 月 12 日 | 已新增[將區段發佈至CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)的更新。 |
+| 2020 年 3 月 12 日 | 已新增更新至[將區段發佈至CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 |
 | 2020 年 3 月 12 日 | 更新 CDA 編結延遲。 |
 | 2020 年 3 月 12 日 | 對工作區中多個報告套裝的支援。 您現在可以將多個報告套裝的資料匯入同一個專案以並排檢視。 [了解更多...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 2020 年 3 月 12 日 | 工作區中的培訓教學課程範本。 這個全新的標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。 若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。 [了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

@@ -1,32 +1,42 @@
 ---
-title: 單頁造訪次數 (維度)
-description: 指出造訪包含單一頁面的旗標。
+title: 單次頁面造訪次數 (維度)
+description: 指出造訪包含單次頁面的標幟。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 TQID: https://experienceleague.adobe.com/mMxxlVpQi7IsSuxSZGijnvWeoqCa-ybf8otPRDf6AyQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 144
-ht-degree: 91%
-
+source-wordcount: '187'
+ht-degree: 66%
 ---
-
 # 單頁造訪次數
 
+>[!BEGINSHADEBOX]
+
 *此說明頁面說明「單頁造訪次數」作為[維度](overview.md)時的運作方式。 如需詳細資訊，請參閱[單頁造訪次數](../metrics/single-page-visits.md)量度。*
+
+>[!ENDSHADEBOX]
 
 「單頁造訪次數」維度會報告包含單一不重複[頁面](page.md)維度項目的造訪次數。 這是維度形式的[單頁造訪次數](../metrics/single-page-visits.md)量度。
 
@@ -34,8 +44,17 @@ ht-degree: 91%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實施作業。 如果報告套裝包含資料，此維度即會運作。
+Adobe會評估每次造訪是否包含單一不重複頁面，藉此在伺服器端計算此維度。 無可設定的變數；可直接用於所有實施作業。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（由Adobe計算） |
+| **網頁SDK / XDM欄位** | 無（由Adobe計算） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 不適用 |
 
 ## 維度項目
 
-唯一的維度項目是 `"Enabled"`。 如果造訪包含單一頁面，則點擊會設為此值。 此報表會忽略所有其他點擊。
+唯一的維度項目是 `"Enabled"`。 如果造訪包含單次頁面，則點擊會設為此值。 此報表會忽略所有其他點擊。

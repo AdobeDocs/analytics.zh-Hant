@@ -7,25 +7,33 @@ exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 TQID: https://experienceleague.adobe.com/6a6Xy8SEqjcnuB1Acbwkesw6OA7Nggld5ppWtjYaj5k
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 292
-ht-degree: 75%
-
+source-wordcount: '351'
+ht-degree: 65%
 ---
-
 # 進入維度
 
+>[!BEGINSHADEBOX]
+
 *此說明頁面說明登入作為[維度](overview.md)的運作方式。 若要瞭解登入作為量度時的運作方式，請參閱[登入](../metrics/entries.md)量度。*
+
+>[!ENDSHADEBOX]
 
 登入維度以[造訪為基礎](../metrics/visits.md)。 這類維度會記錄第一個維度項目，並在該次造訪的整個期間加以持續保存。 報表套裝設定中的[流量變數](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用登入維度。
 
@@ -34,7 +42,16 @@ ht-degree: 75%
 
 ## 將資料填入登入維度中
 
-指定的專案[維度](overview.md)是以其相關聯的流量變數為基礎。 如果非登入變數有資料，則其相關聯的登入維度也會包含資料。 如果您的流量變數包含資料，即無須對登入維度進行實施變更。
+指定的專案[維度](overview.md)是以其相關聯的流量變數為基礎。 Adobe會從造訪期間看到之該變數的第一個值衍生每個登入維度；沒有要設定的專用變數。 如果非登入變數有資料，則其相關聯的登入維度也會包含資料。 如果您的流量變數包含資料，即無須對登入維度進行實施變更。
+
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | 無（衍生自訪客的首次點選） |
+| **網頁SDK / XDM欄位** | 無（衍生自訪客的首次點選） |
+| **查詢引數** | 不適用 |
+| **XML標籤** | 不適用 |
+| **位元組限制** | 不適用 |
+| **持續性** | 造訪 |
 
 ## 維度項目
 

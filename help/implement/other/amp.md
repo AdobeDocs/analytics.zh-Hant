@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 66%
-
+source-wordcount: '949'
+ht-degree: 65%
 ---
-
 # 使用 AMP 進行實施
 
 [AMP](https://amp.dev) 是開放原始碼的 HTML 架構，提供簡單明瞭的方式，可建立快速且順暢載入的網頁。
@@ -101,7 +111,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。 �
 
 >[!NOTE]
 >
->使用此方法傳送至Adobe的影像要求不包含許多預設報表的資料（例如瀏覽器、熒幕大小或反向連結）。 如果您想在點選中包含這些資訊，請確定這些資訊包含在影像要求查詢字串中。 如需影像要求查詢引數及其相關變數的完整清單，請參閱[資料彙集查詢引數](../validate/query-parameters.md)。
+>使用此方法傳送至Adobe的影像要求不包含許多預設報表的資料（例如瀏覽器、熒幕大小或反向連結）。 如果您想在點選中包含這些資訊，請確定這些資訊包含在影像要求查詢字串中。 如需影像要求查詢引數及其相關變數的完整清單，請參閱[資料彙集查詢引數](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)。
 
 Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`。 此訪客ID與Adobe Analytics設定的任何其他ID均不重複。 訪客從中擷取內容的每個CDN都會計算不同的不重複訪客，而這會誇大獨特訪客的計數。 鑑於AMP識別獨特訪客的方式，強烈建議對AMP頁面使用獨立的報表套裝。 不支援Adobe訪客ID服務。
 

@@ -7,190 +7,133 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/QKlchx0r3ZDourRQaQAJaMn9Fh3bXiEWHprCkLVALsk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Machine learning
+source-git-commit: f801835bb65be97db52dfccd217ecba268230eea
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 75%
-
+source-wordcount: '1252'
+ht-degree: 9%
 ---
-
 # 對數位助理實施 Analytics
 
-由於近期雲端運算、機器學習和自然語言處理等領域突飛猛進，數位助理已成為日常生活的一部分。 消費者開始與他們的裝置交談，期待裝置能像人一樣理解和回應。 隨著這些平台日漸成熟，品牌可以透過這些逼真逼真的方式，向消費者展示其服務。 舉例來說，消費者可能會問這類問題：
+隨著雲端運算、機器學習和自然語言處理技術的進步，數位助理已成為日常生活的一部分。 消費者與裝置交談並期待類似人類的回應，而品牌可以透過這些相同的體驗來展示其服務。 例如，消費者可能會問：
 
 * 「Alexa，我的車需要換油時問我。」
-* 「Cortana，我的支票帳戶餘額多少？」
+* 「Google，我的支票帳戶餘額多少？」
 * 「Siri，從我的銀行應用程式轉給小明 20 美元，付昨天的晚餐錢。」
 
-本頁概略說明如何充分利用 Adobe Analytics，進而測量與最佳化這類體驗。
+本頁概略說明如何使用Adobe Analytics來測量及最佳化這些體驗型別。
 
 ## 數位體驗架構概觀
 
 ![數位助理工作流程](assets/Digital-Assitants.png)
 
-當今大多數的數位助理都遵循類似的高階架構：
+大多數的數位助理都遵循類似的高階架構：
 
-1. **裝置：**&#x200B;配備麥克風的裝置 (例如 Amazon Echo 或手機)，可讓使用者詢問問題。
-1. **數位助理：**&#x200B;這個裝置再與提供數位助理技術支援的服務互動。 這是將語音轉換為機器可理解意圖並剖析請求詳細資訊的位置。 瞭解使用者的意圖後，數位助理會將請求的意圖和詳細資訊傳遞至處理請求的應用程式。
-1. **「應用程式」：**&#x200B;應用程式可指手機應用程式或語音應用程式。 應用程式負責回應要求。 它會回應數位助理和數位助理，然後回應使用者。
+1. **裝置**：配備麥克風的裝置（例如智慧型喇叭或手機），可讓使用者詢問問題。
+1. **數位助理**：支援該助理的服務。 它將語音轉換為機器可理解的意圖並剖析請求的詳細資訊。 瞭解意圖後，助理就會將意圖和詳細資料傳遞至處理請求的應用程式。
+1. **「應用程式」**：手機上的應用程式或回應要求的語音應用程式。 它會回應數位助理，然後再回應使用者。
+
+## 如何將資料傳送至Adobe Analytics
+
+數位助理應用程式通常會在沒有Adobe使用者端資料庫（AppMeasurement或Web SDK）的伺服器或平台上執行。 使用[資料插入API](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)**傳送點選**&#x200B;伺服器端。 您想要測量的每個互動都會變成資料插入API要求，其查詢字串（或XML內文）會攜帶本頁所述的變數 — 通常是[內容資料變數](/help/implement/vars/page-vars/contextdata.md)，您會對應到具有[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)的eVars、props和事件。
+
+此頁面主要說明&#x200B;*要測量的*&#x200B;專案以及如何在Analytics中建立模型。 如需端點、查詢字串和XML編碼、必要元件及回應型別，請參閱[資料插入API檔案](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/)。 以下命名的每個變數都對應到[變數參考](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)中的查詢字串引數和XML標籤。
 
 ## 在何處實施Analytics
 
-實施Analytics的最佳位置之一就是應用程式。 應用程式會從數位助理收到意圖和詳細資訊，然後判斷如何回應。
-
-在執行要求期間，有兩個時機有助於將資料傳送至 Adobe Analytics。
+實施Analytics的最佳位置之一是應用程式，可從數位助理接收意圖和詳細資訊，並決定如何回應。 請求期間有兩個時機有助於將資料傳送至Adobe Analytics：
 
 1. 一是要求傳送至應用程式時。
 1. 一是應用程式傳回回應後。
 
-如果您只想記錄客戶發生了什麼事，以便日後最佳化，則可在傳回回應後將請求傳送至 Adobe Analytics。 這樣一來，您便擁有要求詳情和系統回應方式的完整內容。
+如果您有興趣記錄未來最佳化所發生的事情，請在傳回回應後傳送點選 — 您接著就會有請求的完整內容，以及系統如何回應。
 
-## 新的安裝
+## 測量內容
 
-有些數位助理會在有人安裝了新技術時 (尤其在該技術需要驗證時)，傳送通知給您。 Adobe 建議您設定上下文資料變數 `a.InstallEvent=1`，以便傳送安裝事件。 並非所有數位助理皆提供此功能，不過若有此功能，對於查看保留率很有幫助。 以下程式碼範例中，安裝事件、安裝日期和 AppID 值皆有傳送至上下文資料變數。
+### 新的安裝
 
-```text
-GET
-/b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
-HTTP/1.1
-Host:
-<xref href="https://example.data.adobedc.net">
-  example.data.adobedc.net
- Cache-Control: no-cache
-</xref href="https:>
-```
+對於有人安裝技能時通知您的助理（特別是涉及驗證時），請設定內容資料變數`a.InstallEvent=1`以及`a.InstallDate`和應用程式ID (`a.AppID`)來傳送安裝事件。 並非每個平台都提供這項功能，但若有的話，對於保留率分析很有用。
 
-## 多個助理或多個應用程式
+### 多個助理或應用程式
 
-您的組織很可能想要為多個平台提供應用程式。 最佳做法是在每個要求中納入應用程式 ID。 這個變數可在 `a.AppID` 內容資料中加以設定。 請遵照 `[AppName] [BundleVersion]` 格式，例如 Alexa 1.2 為 BigMac：
+組織通常會為多個平台建置應用程式。 在`a.AppID`內容資料變數中的每個要求上加入應用程式識別碼，使用格式`[AppName] [BundleVersion]` （例如`Spoofify 1.0`）。 新增平台或OS內容資料變數（例如`OSType`），以便在報告中區分Alexa、Google Assistant和其他平台。
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+### 訪客身分識別
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+Adobe Analytics使用[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)，將一段時間的互動連結至同一個人員。 大多數數位助理會傳回`userID`，您可將其當做唯一識別碼使用 — 將它當做訪客ID覆寫(`vid`)傳遞。 有些平台傳回的識別碼會超過允許的100個字元；在這種情況下，請使用標準演演算法（例如MD5或SHA-1）將其雜湊為固定長度的值。
 
-## 訪客身分識別
+使用訪客ID服務，您就能在對應跨裝置的ECID （例如從網路對應到數位助理）時，獲得最大的價值。 如果您的應用程式是行動應用程式，請使用Experience Platform Mobile SDK，並透過`setCustomerID`方法傳送使用者ID。 如果您的應用程式為服務，請使用服務提供的使用者ID做為訪客ID，並使用`setCustomerID`進行設定。 如需如何在伺服器端要求上設定識別碼，請參閱使用資料插入API的[訪客識別](../id/data-insertion.md)。
 
-Adobe Analytics使用[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)，將不同時間的互動連結至同一個人員。 大部分數位助理都會傳回 `userID`，供您為不同使用者保留活動資訊。 多數情況下，此值就是您當作唯一識別碼所傳遞的值。 有些平台傳回的識別碼會超出允許的 100 個字元。 在這些情況下，Adobe建議您使用MD5或SHA1等標準雜湊演演算法，將唯一識別碼雜湊成固定長度的值。
+### 工作階段
 
-使用訪客ID服務，您就能在對應不同裝置上的ECID （例如從網路對應到數位助理）時，獲得最大的價值。 如果您的應用程式是行動應用程式，請按照原樣使用 Experience Platform SDK，並使用 `setCustomerID` 方法傳送使用者 ID。 不過，如果應用程式為服務，請使用服務提供的使用者 ID 做為 ECID，並在 `setCustomerID` 中進行設定。
+由於數位助理善於交談，因此他們通常具備工作階段的概念（多圈交換）。 新工作階段開始時，Adobe會建議兩件事：
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
+1. **請聯絡Audience Manager**&#x200B;以取得使用者所屬的區段，這樣您就可以自訂回應。
+1. **設定內容資料變數`a.LaunchEvent=1`，以第一個回應傳送啟動事件**。
 
-## 工作階段
+### 意圖
 
-由於數位助理善於交談，因此他們通常具備工作階段的概念。 例如：
+每個助理都會偵測意圖，並將其傳遞至應用程式。 意圖是請求的簡潔表示 — 例如，「Siri，從我的銀行應用程式轉給小明20美元，付昨天的晚餐錢。」可能會解析為意圖&#x200B;*sendMoney*。 將每個意圖傳送至上下文資料變數，以便您對應至eVar，進而跨意圖執行路徑報表。 請確認您的應用程式也能處理不具意圖的要求；Adobe建議您傳送`No Intent Specified`而非省略變數。
 
-**消費者：** 「確定Google，替我叫一個Cab」
+### 引數、槽和實體
 
-**Google:**「沒問題，您希望在什麼時間搭車呢？」
-
-**消費者：** 「8:30pm」
-
-**Google：** 「好主意，司機八點半會準時到達」
-
-工作階段對於保留上下文資料十分重要，且有助於系統收集更多詳細資訊，讓數位助理更趨自然。 若針對對話實施 Analytics，則在新工作階段開始，請執行兩項動作:
-
-1. **存取 Audience Manager：**&#x200B;取得包含使用者的相關區段，這樣您便可自訂回應。 (舉例來說，此人目前符合多管道折扣資格。)
-2. **傳入新作業階段或啟動事件：**&#x200B;請在首次將回應傳入 Analytics 時納入啟動事件。 通常可透過設定 `a.LaunchEvent=1` 的內容資料來傳送。
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## 意圖
-
-每個數位助理都有演演算法可偵測意圖，然後將意圖傳遞給「應用程式」，讓應用程式知道該做什麼。 這些意圖簡明扼要地呈現了請求內容。
-
-例如，如果使用者說「Siri，從我的銀行應用程式轉給小明20美元，付昨天的晚餐錢。」目的可能類似&#x200B;*sendMoney*。
-
-以 eVar 形式傳入各個要求，便能為對話型應用程式產生各個意圖的路徑報表。 請確認您的應用程式也能處理不具意圖的要求。 Adobe 建議您將「未指定意圖」傳遞至意圖內文資料變數，不要移除變數。
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
-Cache-Control: no-cache
-```
-
-或
-
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## 引數/槽/實體
-
-除了意圖之外，數位助理經常具備一組索引鍵/值配對，用於提供意圖的詳細資料。 這組配對可稱為槽、實體或參數。 舉例來說，「Siri，從我的銀行應用程式轉給小明 20 美元，付昨天的晚餐錢。」可能會具備下列參數：
+除了意圖之外，助理通常會提供請求的索引鍵/值詳細資訊（稱為槽、實體或引數）。 針對「Siri，付小明20美元一頓昨天的晚餐」，引數可能是：
 
 * 誰=約翰
 * 金額= 20
 * 為什麼=晚餐
 
-應用程式中，這些值的數量通常有限。 若要在 Analytics 追蹤這些值，請將值傳入上下文資料變數，然後將各參數對應到 eVar。
+每個應用程式通常會有這些的有限集合。 將其傳送至內容資料變數，並將每個變數對應至eVar。
+
+### 錯誤狀態
+
+有時助理會傳遞應用程式無法處理的輸入專案（例如「Siri，從我的銀行應用程式傳送20袋煤」）。 發生此情況時，請您的應用程式要求澄清並傳送指出錯誤狀態的資料 — 設定`a.Error=1`以及指定錯誤型別的eVar。 包括輸入無效的錯誤和應用程式本身發生問題的錯誤。
+
+### 裝置功能
+
+雖然大多數平台不會公開確切的裝置，但會公開其功能（例如音訊、畫面或視訊），而這些功能會定義您可以使用的內容型別。 在測量裝置功能時，請依字母順序以開頭和結尾冒號（例如`":Audio:Camera:Screen:Video:"`）將它們串連，以便您可以建置區段，例如「具有`:Audio:`功能的所有點選」。
+
+* [Amazon Alexa介面參考](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
+* [Google Assistant表面功能](https://developers.google.com/actions/assistant/surface-capabilities)
+
+## 範例請求
+
+下列資料插入API GET要求會記錄銀行應用程式的&#x200B;*SendPayment*&#x200B;意圖，將應用程式ID、啟動事件、意圖和位置值設定為內容資料：
 
 ```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
+GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo%201.0&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&pageName=SendPayment HTTP/1.1
 Host: example.data.adobedc.net
-Cache-Control: no-cache
 ```
 
-## 錯誤狀態
+如需完整的請求格式、端點和回應型別，請參閱[資料插入API檔案](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/request)。
 
-有時數位助理所提供給應用程式的輸入值，會讓應用程式不確定要如何處理。 舉例來說，「Siri，從我的銀行應用程式轉給小明 20 袋煤，付昨天的晚餐錢。」
+## 測量模型範例
 
-發生這種情況時，應用程式會向您詢問明確指令。 此外，請將指出應用程式處於錯誤狀態的資料傳送給 Adobe，並附上指定發生何種類型錯誤的 eVar。 請務必將輸入值有誤的錯誤以及應用程式發生問題的錯誤皆納入其中。
+下表顯示音樂應用程式中的常見動作如何對應至Analytics變數。 在每個資料插入API請求上，將這些變數設為內容資料變數，然後使用處理規則將其對應至eVar和事件。
 
-```text
-GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.data.adobedc.net
-Cache-Control: no-cache
-```
-
-## 裝置功能
-
-雖然大部份的平台都不會公開使用者所對話的裝置，但是卻會公開裝置的功能， 例如，音訊、畫面、影片等。此資訊很有用，因為它定義了與使用者互動時可以利用的內容型別。 評估裝置功能時，最好將這些功能串連起來 (按字母排序)。
-
-範例：`":Audio:Camera:Screen:Video:"`
-
-前後加上冒號有助於建立區段。 例如顯示所有具有 `:Audio:` 功能的點擊。
-
-* 使用 Amazon Alexa 的 [Amazon 功能](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference)
-* 使用 Actions on Google 的 [Google 功能](https://developers.google.com/actions/assistant/surface-capabilities)
-
-## 範例
-
-| 個人 | 裝置回應 | 動作/意圖 | GET 要求 |
-|---|---|---|---|
-| 安裝 Spoofify | 無回應 | 安裝 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放 Spoofify | 「OK，播放 Spoofify」 | 播放 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 變換曲目 | 「OK，您要聽哪首歌？」 | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放《Baby Shark》 | 「好的，播放 PinkFong 的《Baby Shark》」 | ChangeSong | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 變換播放清單 | 「OK，您要聽哪個播放清單？」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放我最愛的歌曲播放清單 | 「好的，播放您最愛的歌曲播放清單」 | ChangePlaylist | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
-| 關閉音樂 | 無回應，音樂關閉 | 關閉 | `GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 個人動作 | 意圖/事件 | 要設定的內容資料 |
+| --- | --- | --- |
+| 安裝應用程式 | 安裝 | `a.InstallEvent=1`, `a.InstallDate`, `a.AppID`, `OSType` |
+| 啟動應用程式 | Launch | `a.LaunchEvent=1`, `a.AppID`, `Intent=Play` |
+| 要求變更歌曲 | ChangeSong | `a.AppID`, `Intent=ChangeSong` |
+| 播放特定歌曲 | ChangeSong | `a.AppID`, `Intent=ChangeSong`, `SongID` |
+| 變更播放清單 | ChangePlaylist | `a.AppID`, `Intent=ChangePlaylist`, `Playlist` |
+| 遇到無效的輸入 | （錯誤） | `a.Error=1`, `ErrorName` |

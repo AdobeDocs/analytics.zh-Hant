@@ -6,23 +6,28 @@ exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
 TQID: https://experienceleague.adobe.com/Qek7BUR15HjFpK-XaYQ-J9fkJQiBfNi-ZoqXqaACP0A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 224
-ht-degree: 95%
-
+source-wordcount: '238'
+ht-degree: 52%
 ---
-
 # 頁面 URL
 
 「頁面URL」[維度](overview.md)會列出您網站上的URL。
@@ -33,11 +38,16 @@ ht-degree: 95%
 
 ## 將資料填入此維度中
 
-此維度會擷取在[頁面檢視呼叫 (`t()`)](/help/implement/vars/functions/t-method.md)來自 [`g` 和 `-g` 查詢字串](/help/implement/validate/query-parameters.md)的資料。 [連結追蹤呼叫 (`tl()`)](/help/implement/vars/functions/tl-method.md) 一律會移除此維度，即使 `g` 查詢字串存在也一樣。
+AppMeasurement會在每個[頁面檢視呼叫(`t()`)](/help/implement/vars/functions/t-method.md)上自動收集頁面URL。 您可以覆寫使用 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 變數收集的數值。 如果URL的長度超過255個位元組，則溢位會儲存在`-g`查詢字串引數中。 URL中包含通訊協定和查詢字串。 [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md)一律會移除此維度，即使URL值存在也一樣。
 
-有時 URL 的長度會超過 255 個位元組。 AppMeasurement 會針對影像要求中 URL 的前 255 個位元組使用 `g` 查詢字串參數。 如果 URL 的長度超過 255 個位元組，其餘的 URL 會儲存在 `-g` 查詢字串參數中。 此變數包含 URL 中的通訊協定和查詢字串。
-
-AppMeasurement 會根據頁面的 URL 自動收集此資料。 您可以覆寫使用 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 變數收集的數值。
+| 屬性 | 價值 |
+| --- | --- |
+| **AppMeasurement變數** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
+| **網頁SDK / XDM欄位** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-types/webpage-details) |
+| **查詢引數** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **XML標籤** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **位元組限制** | 255位元組（沒有固定的上限和溢位） |
+| **持續性** | 點擊 |
 
 ## 將 URL 填入 eVar 中
 
