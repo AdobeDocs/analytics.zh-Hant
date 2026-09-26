@@ -6,31 +6,44 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+    internal-label: Release notes
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6d07329547684e8bee712628a53092eb34e0141a
+    internal-label: Privacy
+source-git-commit: 7e61f4cc5b87712012ff894878dd0aba7ceccd4f
 workflow-type: tm+mt
-source-wordcount: 1305
+source-wordcount: '1311'
 ht-degree: 40%
-
 ---
-
 # 最新Adobe Analytics發行說明（2026年9月）
 
 **上次更新日期**：2026年9月11日
@@ -43,7 +56,7 @@ ht-degree: 40%
 | ----------- | ---------- | ---- |
 | **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改最上層容器為訪客的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
 | **機器人偵測更新**<br/>&#x200B;將Edge Data Collection與Web SDK搭配使用時，可以使用下列機器人偵測更新：<ul><li>您現在可以建立機器人偵測規則，以識別流量中原本會被視為機器人產生的例外狀況。 現有和未來的規則仍會預設為將相符流量標示為機器人產生。</li><li>自訂機器人規則現在會在IAB機器人偵測規則之前執行。 此變更不會影響機器人分數，但與事件相關聯的機器人規則名稱可能會變更。</li></ul><p>注意：此更新僅適用於使用Web SDK的Edge資料收集實作。 不適用於舊版程式庫，例如AppMeasurement。</p><p>(文件連結待補充。)</p> | | 2026年9月初 |
-| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics資料** <br/>Adobe CX Enterprise Coworker聊天現在可執行進階資料分析，而以前只能在Analysis Workspace中執行進階資料分析。 Co-worker Chat會存取您Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>(文件連結待補充。)</p> | | 2026年9月25日 |
+| **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics資料** <br/>Adobe CX Enterprise Coworker聊天現在可執行進階資料分析，而以前只能在Analysis Workspace中執行進階資料分析。 Co-worker Chat會存取您Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>(文件連結待補充。)</p> | | 2026年9月29日<p>（原計畫於2026年9月25日推出）</p> |
 | **CX Enterprise Coworker：根本原因分析技能** <br/>Adobe CX Enterprise Coworker Chat現在可以執行根本原因分析，說明量度變更的原因，而不只是變更了什麼。 「同事聊天」會識別發生轉換的日期，並比較轉換前後的資料，然後依驅動轉換的維度及其量值來劃分變更，並以百分比和絕對值顯示。 如果偵測不到有意義的變更，「同事聊天」會讓您知道，而不是猜測原因。<p>(文件連結待補充。)</p> | | 2026年10月2日 |
 | **CX Enterprise Coworker：在Analysis Workspace中開啟視覺效果** <br/>在同事聊天中開始資料分析，然後直接在Analysis Workspace中開啟分析作為視覺效果，以繼續建置、改良和探索。</p><p>(文件連結待補充。)</p> | | 2026年10月2日 |
 | **分類集API更新**<br/>&#x200B;分類集API檔案現在包含用於設定分類集API要求的更新端點和引數資訊。<p>如需詳細資訊，請參閱[分類端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)。</p> | 2026年9月5日 | 2026年9月30日 |
