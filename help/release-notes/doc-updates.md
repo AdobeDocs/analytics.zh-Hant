@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7522'
 ht-degree: 92%
 ---
 # Adobe Analytics 技術文件更新
@@ -71,6 +76,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2026年9月** | |
+| 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
 | 新的調整大小捷徑動作 | Analysis Workspace中新的鍵盤快速鍵現在可讓您[調整面板或視覺效果](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)的寬度、寬度、高度或寬度。 |
 | [Adobe Analytics資料收集API](https://developer.adobe.com/analytics-collection-apis/) | 新的開發人員存放庫，可彙總並現代化Adobe Analytics的資料收集策略，而不需使用AppMeasurement或標籤。 |
 | **2026年8月** | |
