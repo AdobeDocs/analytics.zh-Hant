@@ -4,27 +4,37 @@ title: 伺服器呼叫使用量概觀
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 43%
-
 ---
-
 # 伺服器呼叫使用量
 
 Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服器呼叫使用量資料的透明度要求。 其可讓您存取：
@@ -55,7 +65,7 @@ Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫 </p> </td> 
-   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。 最常見的伺服器呼叫型別是頁面檢視。 訪客在您的網站上檢視頁面，因此系統向 Adobe 產生伺服器呼叫，要求 Adobe 收集與處理資料，這次檢視就會在報表量度中計為一次頁面檢視。 </p> <p>還有其他型別的伺服器呼叫，包括退出連結和檔案下載，資料會傳送至Adobe進行處理，但不會記錄為新頁面檢視。 甚至「已排除」的頁面檢視（例如，根據您設定的IP位址範圍從報表中排除）也是伺服器呼叫，因為它們會由Adobe接收及處理，但永遠不會顯示在報表中。 </p> <p><b>主要伺服器呼叫</b>：從網站訪客瀏覽器或「資料插入 API」直接收到的請求。 包括主要點選（頁面檢視）、主要自訂事件、主要下載事件和主要退出事件。 </p> <p><b>次要伺服器呼叫</b>：多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。 如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報告套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動 SDK 收到的請求。 包含 trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。 如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報告套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意：如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
+   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是指將資料傳送到 Adobe 伺服器進行處理的一種實例。 最常見的伺服器呼叫型別是頁面檢視。 訪客在您的網站上檢視頁面，因此系統向 Adobe 產生伺服器呼叫，要求 Adobe 收集與處理資料，這次檢視就會在報表量度中計為一次頁面檢視。 </p> <p>還有其他型別的伺服器呼叫，包括退出連結和檔案下載，資料會傳送至Adobe進行處理，但不會記錄為新頁面檢視。 甚至「已排除」的頁面檢視（例如，根據您設定的IP位址範圍從報表中排除）也是伺服器呼叫，因為它們會由Adobe接收及處理，但永遠不會顯示在報表中。 </p> <p><b>主要伺服器呼叫</b>：從網站訪客瀏覽器或「資料插入 API」直接收到的請求。 包括主要點選（頁面檢視）、主要自訂事件、主要下載事件和主要退出事件。 </p> <p><b>次要伺服器呼叫</b>：多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。 如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報告套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動 SDK 收到的請求。 包含 trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>由多套裝標記建立，或依據 VISTA 規則複製/移動的主要伺服器呼叫副本。 如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報告套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意：如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳單公司（帳單ID） </p> </td> 
@@ -73,7 +83,7 @@ Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服�
   </tr> 
   <tr> 
    <td colname="col1"> <p>CX Enterprise組織 </p> </td> 
-   <td colname="col2"> <p>組織是可讓管理員設定群組和使用者，以及控制CX Enterprise單一登入的實體。 組織的作用就像一個登入公司，涵蓋所有CX Enterprise產品和解決方案。 </p> <p>通常組織就是您的公司名稱， 但是一間公司可以有多個組織。 </p> </td> 
+   <td colname="col2"> <p>組織是可讓管理員設定群組和使用者，以及控制CX Enterprise單一登入的實體。 組織的作用就像跨及所有CX Enterprise產品和解決方案的登入公司。 </p> <p>通常組織就是您的公司名稱， 但是一間公司可以有多個組織。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫承諾 </p> </td> 

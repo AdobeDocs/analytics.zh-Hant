@@ -8,9 +8,14 @@ TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 74%
@@ -58,7 +63,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)，則可改用舊版除錯工具書籤小工具。
+如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，則可改用舊版除錯工具書籤小工具。
 
 1. 按一下右上方的三點圖示，然後前往書籤 > 書籤管理員。 您也可以按下 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在書籤管理員的右上方，按一下三點圖示，然後按一下「新增書籤」。

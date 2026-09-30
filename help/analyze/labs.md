@@ -4,28 +4,39 @@ description: 預覽 Adobe Analytics 的原型專案
 feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
+TQID: 'https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: e69d6e08-d70a-4d1e-9168-b9061b2e860c
+    internal-label: Labs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 100%
-
 ---
-
 # [!UICONTROL Labs] 使用手冊
 
 [!UICONTROL Labs 可讓您更快速地建立早期構想的原型。] 此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。 它讓使用者運用新興技術參與互動、發掘有價值的洞察資料，並影響未來的功能開發與優先項目。 透過 Labs，您可以搶先使用 Adobe Analytics 創新功能，並根據您自己的業務使用案例和資料的內容評估即將推出的功能。
@@ -34,7 +45,7 @@ ht-degree: 100%
 
 [!UICONTROL Labs 已為所有管理員設為自動啟用。] 其他團隊成員則必須連絡各自的產品管理員要求存取權。
 
-如果您尚未閱讀並簽署適用的「保密協定」和「條款與條件」表單，請逕行相關動作。
+如果您尚未這麼做，請閱讀並簽署適用的「保密協定」和「條款與條件」表單。
 
 ## 存取 [!UICONTROL Labs] 入口網站
 
@@ -62,7 +73,7 @@ ht-degree: 100%
 
 * 在原型中，您可以利用「工作區」中可存取的任何維度、量度、區段和視覺效果來評估資料。
 
-* 您在原型中所做的任何變更都不會影響資料收集或處理。
+* 您在原型中所做的任何變更都不會影響資料彙集或處理。
 
 * 透過建立或修改區段、計算量度和警報所做的變更，會持續沿用至原型環境之外。
 
@@ -83,4 +94,4 @@ ht-degree: 100%
 ## 其他資訊
 
 * [!UICONTROL Labs] 中的有些原型會成為 Analytics 功能，有些原型則否。 您的意見回饋會影響我們的決策，因此請審視原型，讓 Adobe 知道您對各項原型的看法。
-* Labs 可供所有 SKU 權限使用。
+* Labs 適用於所有 SKU 權益。

@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/fmbMByXfPMR4C0gUmt3HIAoY1vwIXqTVzE97o9F1rK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '873'
 ht-degree: 62%
-
 ---
-
 # tl
 
 `tl()` 方法是 Adobe Analytics 的重要核心元件。 它會使用頁面上定義的所有 Analytics 變數、編譯成影像要求，然後將該資料傳送至 Adobe 資料收集伺服器。 它的作用與 [`t()`](t-method.md) 方法類似，不過此方法不會增加頁面瀏覽數。 若要追蹤連結和其他不視為完整頁面載入的元素，這個方法非常有用。
@@ -98,7 +106,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 ### 連結物件 (必要)
 
-連結物件引數決定在離開頁面進行導覽前，瀏覽器是否最多等候 500 毫秒。 如果影像要求在 500 毫秒內傳送，頁面會立即導覽至點按的連結。
+連結物件引數決定在離開頁面進行導覽前，瀏覽器是否最多等候 500 毫秒。 如果影像請求在不到 500 毫秒內就傳送，頁面會立即導覽至點按的連結。
 
 >[!NOTE]
 >

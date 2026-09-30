@@ -3,36 +3,49 @@ title: 分析受事件影響的資料
 description: 了解受事件影響的資料對整體資料品質的貢獻。
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/DJoJwtp9CkgrCfA1DwW8rKX2x3ssfzLCo7vCfhdLusg
+TQID: 'https://experienceleague.adobe.com/DJoJwtp9CkgrCfA1DwW8rKX2x3ssfzLCo7vCfhdLusg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '408'
 ht-degree: 90%
-
 ---
-
 # 分析受事件影響的資料
 
 有時候，事件會影響組織中的資料品質。 例如：
 
-* 傳送離群值資料 (如數百萬美元收入) 的機器人
-* 您的組織推送更新至您的網站，對您的 Analytics 實作造成負面影響
+* 傳送離群值資料的機器人，例如數百萬美元的收入
+* 您的組織推送更新至您的網站，對您的 Analytics 實施造成負面影響
 * 其他影響資料品質或完整性的問題
 
 如果您的網站遇到任何資料品質問題，建議您將其排除在報告之外，避免對其做出業務決策。 使用這些區段來評估事件對您資料的影響，並決定您要如何繼續。

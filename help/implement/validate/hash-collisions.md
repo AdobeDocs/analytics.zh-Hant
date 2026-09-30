@@ -7,22 +7,30 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: '539'
 ht-degree: 5%
-
 ---
-
 # 雜湊碰撞
 
 Adobe Analytics中的維度會收集字串值。 有時這些字串長達數百個字元，有時則較短。 為改善效能，這些字串值不會直接用於報表時間處理。 相反地，每個值都會計算雜湊，產生大小一致的識別碼。 對於大多數欄位，值在雜湊前會轉換為小寫，以減少唯一值的總數。 所有報表都在這些雜湊值上執行，這會大幅提升其效能。

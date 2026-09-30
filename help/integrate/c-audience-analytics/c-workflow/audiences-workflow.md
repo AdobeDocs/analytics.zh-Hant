@@ -7,21 +7,27 @@ exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 TQID: 'https://experienceleague.adobe.com/8wGeihAHDE7T6zFx98ZnS7fwxJAHMulLG2kIeJ2ceDA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 128
+source-wordcount: '128'
 ht-degree: 55%
-
 ---
-
 # Audience Analytics 工作流程概觀
 
 如何佈建、共用及使用客群資料。
@@ -29,5 +35,5 @@ ht-degree: 55%
 | 步驟 # | 工作說明 | 附註 |
 |--- |--- |--- |
 | 步驟 1 | 開啟伺服器端轉送。 | 請參閱管理員使用手冊中的[伺服器端轉送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)。 |
-| 步驟 2 | 在Adobe Audience Manager中設定Analytics目的地。 | 請參閱[建立 Analytics 目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant)。 |
+| 步驟 2 | 在Adobe Audience Manager中設定Analytics目的地。 | 請參閱[建立 Analytics 目的地](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html)。 |
 | 步驟 3 | [在 Analytics 中使用資料](/help/integrate/c-audience-analytics/c-workflow/use-audience-data-analytics.md)。 | 您可以在Analysis Workspace中使用新的「Adobe Audience Manager對象」維度及其相關功能（「區段比較」、「流量」、「文氏圖表」等）。 <br>Report Builder、Data Warehouse和資料摘要中也提供「對象」維度。 <br>**注意**：「資料摘要」僅包含「客群 ID」，不含「客群名稱」。 |

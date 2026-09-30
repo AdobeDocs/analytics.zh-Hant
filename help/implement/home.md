@@ -4,33 +4,49 @@ description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/c1TZC9k-mu1n95Oq3jhQOvcBXFwx8oK28plhoNcJDK4
+TQID: 'https://experienceleague.adobe.com/c1TZC9k-mu1n95Oq3jhQOvcBXFwx8oK28plhoNcJDK4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 29d1585ad3d00922a7e39bf1b4da64089d9168c7
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 814
+source-wordcount: '814'
 ht-degree: 83%
-
 ---
-
 # 實作 Adobe Analytics
 
 ![橫幅](../../assets/doc_banner_implement.png)
@@ -74,7 +90,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 * **Edge Network API**：您在使用 Adobe Experience Platform Edge Network API，透過資料流與 Adobe Analytics 進行通訊的伺服器上實作程式碼。
   ![伺服器端實作](assets/edge-network-server-api.png)
-  如需詳細資訊，請參閱[使用Adobe Analytics Edge Network API實作Adobe Experience Platform &#x200B;](/help/implement/aep-edge/api/overview.md)。
+  如需詳細資訊，請參閱[使用Adobe Analytics Edge Network API實作Adobe Experience Platform ](/help/implement/aep-edge/api/overview.md)。
 
 * **(批次) 資料插入 API**：您可以使用 Adob&#x200B;&#x200B;e Analytics (批次) 資料插入 API，將伺服器端資料直接收集到 Adob&#x200B;&#x200B;e Analytics。
   ![資料插入API](assets/analytics-apis.png)
@@ -105,13 +121,13 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform 中建立標籤屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
-* [使用Platform Web SDK教學課程設定Adobe Analytics](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hant)
-* [在行動應用程式教學課程中實作Adobe CX Enterprise](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=zh-Hant)
+* [使用Platform Web SDK教學課程設定Adobe Analytics](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html)
+* [在行動應用程式教學課程中實作Adobe CX Enterprise](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html)
 
 
 ## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
+* [聯絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [最新發行說明](../release-notes/latest.md)

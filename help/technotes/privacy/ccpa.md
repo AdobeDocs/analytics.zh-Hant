@@ -7,24 +7,32 @@ exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
 TQID: 'https://experienceleague.adobe.com/medgbA9EBG0fE2xttZ7HLKT42-RBr7rlMGGGGrAyoKw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 63%
-
 ---
-
 # Adobe Analytics 和 CCPA
 
 本文件說明您需要在 Adobe Analytics 中執行哪些操作，以支援資料主體的 CCPA 存取和刪除權限。
@@ -43,7 +51,7 @@ ht-degree: 63%
 
 ## Adobe 如何處理 CCPA 資料
 
-Adobe CX Enterprise提供整合式解決方案，可連線您品牌的資料控管基礎架構，以及用來建立和管理消費者體驗的Adobe工具。 Adobe CX Enterprise的資料控管功能可將資料控管原則與資料使用方式直接連結。
+Adobe CX Enterprise提供整合式解決方案，可連線您品牌的資料控管基礎架構，與用來建立和管理消費者體驗的Adobe工具。 Adobe CX Enterprise的資料控管功能可將資料控管原則與資料使用直接連結。
 
 請熟悉[Adobe Analytics如何處理GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html)，瞭解隱私權整備步驟，以及如何與Adobe CX Enterprise Privacy Service API整合。
 

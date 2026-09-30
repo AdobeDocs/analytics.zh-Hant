@@ -3,7 +3,7 @@ title: 追蹤選擇退出原因
 description: 預覽啟用「隱私權設定」後會排除的資料。
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-TQID: https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY
+TQID: 'https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 13%
@@ -42,13 +46,13 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-「追蹤選擇退出原因」維度可做為資料的預覽，但若您啟用「隱私權設定」則會排除這些資料。 此維度主要用來判斷若您在「報表套裝設定」下啟用「[隱私設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=zh-Hant)」，您的實施是否會受到負面影響。
+「追蹤選擇退出原因」維度可做為資料的預覽，但若您啟用「隱私權設定」則會排除這些資料。 此維度主要用來判斷若您在「報表套裝設定」下啟用「[隱私設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html)」，您的實施是否會受到負面影響。
 
 如果尚未啟用隱私權設定，一般實施會在此維度下看到其整體報表套裝流量的1%或以下。 所有流量中高於1%的百分比表示AppMeasurement可能發生實作問題，而無法設定第一方Cookie。
 
 ## 將資料填入此維度中
 
-此維度可立即用於尚未啟用[隱私權設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=zh-Hant)的所有實作。 如果您的組織已啟用&#x200B;**[!UICONTROL 移除已封鎖案頭和行動瀏覽器之所有Cookie]**&#x200B;設定的使用者，則此維度不包含資料。
+此維度可立即用於尚未啟用[隱私權設定](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html)的所有實作。 如果您的組織已啟用&#x200B;**[!UICONTROL 移除已封鎖案頭和行動瀏覽器之所有Cookie]**&#x200B;設定的使用者，則此維度不包含資料。
 
 | 屬性 | 價值 |
 | --- | --- |

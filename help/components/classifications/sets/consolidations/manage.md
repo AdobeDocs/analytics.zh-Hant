@@ -3,23 +3,28 @@ title: 管理「分類設定」合併
 description: 瞭解如何將一個或多個分類設定合併為單一分類設定。
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+TQID: 'https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 597
+source-wordcount: '597'
 ht-degree: 3%
-
 ---
-
 # 管理分類合併
 
 如果您有多個包含類似分類資料的分類集，您可以將它們合併成單一分類集。 合併兩個或多個分類集時，Adobe會產生新的分類集，其中包含來自每個個別分類集的所有分類資料。 當您將資料上傳到許多報表套裝時，合併會很有用。 或者，當您有包含相同分類資料的維度，且想要將其合併為單一工作流程時。

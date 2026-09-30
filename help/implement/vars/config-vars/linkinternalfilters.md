@@ -4,27 +4,35 @@ description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤�
 feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/st-CkocgfEJIAQs1JTiY0DpUNuo2uU-CR-o8togtLGg
+TQID: 'https://experienceleague.adobe.com/st-CkocgfEJIAQs1JTiY0DpUNuo2uU-CR-o8togtLGg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 100%
-
 ---
-
 # linkInternalFilters
 
 AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外部的連結。 如果啟用 [`trackExternalLinks`](trackexternallinks.md) (AppMeasurement) 或 [`clickCollectionEnabled`](trackdownloadlinks.md) (Web SDK)，當訪客按一下連結離開您的網站時，系統會將影像要求立即傳送給 Adobe。 [`linkExternalFilters`](linkexternalfilters.md) 和 `linkInternalFilters` 變數決定要將哪些連結視為內部/外部連結。
@@ -43,7 +51,7 @@ Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。 
 
 如果退出連結目標網域與目前的 `window.location.hostname` 不同，則連結會以退出連結自動符合條件。 Web SDK 不提供任何設定變數來修改自動退出連結檢測。 如果您需要自訂以退出連結自動符合條件的網域，您可以在 `onBeforeEventSend` 回呼中使用自訂邏輯。
 
-有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant#automaticLinkTracking)。
+有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)。
 
 ## 對外連結 - 使用 Adobe Analytics 擴充功能的永不追蹤
 

@@ -3,7 +3,7 @@ title: 首次接觸管道
 description: 訪客參與期限內的第一個行銷管道。
 feature: Dimensions
 exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
-TQID: https://experienceleague.adobe.com/1XBUjwxlZXmhXJtQZgpv9yU5Fwhns-bb9Q7BcP5S30Q
+TQID: 'https://experienceleague.adobe.com/1XBUjwxlZXmhXJtQZgpv9yU5Fwhns-bb9Q7BcP5S30Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
     internal-label: Marketing Channels
@@ -19,6 +21,8 @@ subfeature_v2:
     internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
     internal-label: Report Suite settings
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,14 +31,14 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 67%
 ---
 # 首次接觸管道
 
-「首次接觸管道」維度[1&rbrace;會報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道。 &#x200B;](overview.md)若要了解哪些行銷管道促進網站的初始流量，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
+「首次接觸管道」維度[1}會報告訪客在其參與期間（預設為30天）遇到的第一個相符行銷管道。 ](overview.md)若要了解哪些行銷管道促進網站的初始流量，此維度非常有用，讓您可將行銷工作聚焦於最有效的領域。
 
 ## 將資料填入此維度中
 

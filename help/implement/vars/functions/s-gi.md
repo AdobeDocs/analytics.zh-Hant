@@ -4,31 +4,40 @@ description: 建立及追蹤 AppMeasurement 的例項。
 feature: Appmeasurement Implementation
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY
+TQID: 'https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: '499'
 ht-degree: 100%
-
 ---
-
 # s_gi
 
-`s_gi()` 函數會依據報表套裝 ID 將 AppMeasurement 的例項實例化或尋找例項。 AppMeasurement 可追蹤已建立的所有例項，而 `s_gi()` 會傳回報表套裝的現有例項 (若存在)。 如果例項不存在，則會建立新例項。
+`s_gi()` 函數會依據報表套裝 ID 將 AppMeasurement 的例項實例化或尋找例項。 AppMeasurement 可追蹤已建立的所有例項，而 `s_gi()` 會傳回報表套裝的現有例項 (若存在)。 如果實例不存在，則會建立新實例。
 
 ## 使用 Web SDK 擴充功能實例化追蹤物件
 
@@ -39,7 +48,7 @@ Web SDK 擴充功能會替您將追蹤物件實例化並進行管理。 但是�
 1. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Experience Platform Web SDK 下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 將[!UICONTROL 名稱]欄位變更為所需的值。 其預設值為 `alloy`。
 
-## 實例化手動實作 Web SDK 的追蹤物件
+## 透過手動實作 Web SDK 來實例化追蹤物件
 
 以下程式碼會載入 Web SDK 並實例化追蹤物件。 將內嵌指令碼尾端的字串 `"alloy"` 變更為所需的值，即可自訂追蹤物件名稱。
 
@@ -57,7 +66,7 @@ Web SDK 擴充功能會替您將追蹤物件實例化並進行管理。 但是�
 
 ## 使用 Adobe Analytics 擴充功能實例化追蹤物件
 
-Analytics 擴充功能會替您將追蹤物件實例化或進行管理。 不過，在設定 Adobe Analytics 擴充功能時，您也可以在[!UICONTROL 「資料庫管理」]摺疊式功能表中設定全域追蹤物件。
+Analytics 擴充功能會替您實例化並管理追蹤物件。 不過，在設定 Adobe Analytics 擴充功能時，您也可以在[!UICONTROL 「資料庫管理」]摺疊式功能表中設定全域追蹤物件。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -68,7 +77,7 @@ Analytics 擴充功能會替您將追蹤物件實例化或進行管理。 不過
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s_gi()
 
-呼叫 `s_gi()` 函數將追蹤物件實例化。 其唯一引數包含以逗號分隔的報表套裝 ID 字串。 報表套裝 ID 引數為必要項目。
+呼叫 `s_gi()` 函數將追蹤物件實例化。 其唯一引數包含以逗號分隔的報告套裝 ID 字串。 報告套裝 ID 引數為必要項目。
 
 >[!TIP]
 >
@@ -84,7 +93,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
->以下章節和範例包含複雜的實施作業主題。 請徹底測試您的實施，以及追蹤貴組織[解決方案設計文件](../../prepare/solution-design.md)中的重要自訂項目。
+>以下章節和範例包含複雜的實施主題。 請徹底測試您的實施，以及追蹤貴組織[解決方案設計文件](../../prepare/solution-design.md)中的重要自訂項目。
 
 ## 使用不同的追蹤物件來管理多個實施
 

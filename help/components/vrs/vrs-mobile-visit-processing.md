@@ -3,28 +3,39 @@ description: 虛擬報表套裝中的內容感知作業變更了 Adobe Analytics
 title: 內容感知工作階段
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-TQID: https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw
+TQID: 'https://experienceleague.adobe.com/CRYnjIKXNZuu9P-oFB62zrvjRa6TFc1H2-etp8E8ntw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1600
+source-wordcount: '1600'
 ht-degree: 43%
-
 ---
-
 # 內容感知工作階段
 
 虛擬報表套裝中的內容感知作業，變更了 Adobe Analytics 計算從任何裝置造訪次數的方式。 本文也針對行動造訪次數定義的方式，說明背景點擊數與應用程式啟動事件數 (兩者均由行動 SDK 設定) 的處理含意。
@@ -34,7 +45,7 @@ ht-degree: 43%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [內容感知工作階段](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [內容感知工作階段](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -66,7 +77,7 @@ Adobe Analytics資料收集程式可讓您設定查詢字串引數，以指定�
 
 下列範例將說明啟用此功能時會發生的背景點擊行為。
 
-範例 1：發生一連串前景點擊前，將會出現一個發生一段時間 (t) 的背景點擊。
+範例 1：背景點擊發生在一連串前景點擊之前的一段時段 (t)。
 
 ![](assets/nogoodexample1.jpg)
 
@@ -89,7 +100,7 @@ Adobe Analytics資料收集程式可讓您設定查詢字串引數，以指定�
 
 ![](assets/nogoodexample2.jpg)
 
-如果背景點擊在虛擬報表套裝所設定的逾時後發生，則背景點擊不會成為作業的一部分 (以綠色框線表示)：
+如果背景點擊發生在虛擬報告套裝所設定的逾時之後，則背景點擊不屬於工作階段的一部分 (以綠色框線表示)：
 
 ![](assets/nogoodexample2-1.jpg)
 
@@ -104,7 +115,7 @@ Adobe Analytics資料收集程式可讓您設定查詢字串引數，以指定�
 
 和之前一樣，在任何一種情況下，總造訪次數都是1。
 
-範例 3：在部分情況下，背景點擊會將先前兩個獨立的造訪，合併為單一造訪。 在下列情況下，背景點擊前後均會出現一連串的前景點擊：
+範例 3：在部分情況下，背景點擊會將兩個獨立的造訪合併為單一造訪。 在下列情況下，背景點擊前後均會出現一連串的前景點擊：
 
 ![](assets/nogoodexample3.jpg)
 
@@ -128,7 +139,7 @@ Adobe Analytics資料收集程式可讓您設定查詢字串引數，以指定�
 
 ![](assets/nogoodexample4.jpg)
 
-雖然這些點擊無法視為造訪，但任何設定擁有造訪過期時間的 eVar，將會保存其值至此「背景造訪」中的其他背景點擊。
+雖然這不視為一次造訪，但任何已設定為具有「造訪」過期時間的 eVar，都會將其值保留到此「背景造訪」中的其他背景點擊。
 
 範例 5：若是多個背景點擊發生於一連串前景點擊之後的情況，背景點擊可能 (視逾時設定而定) 會保存一個運作時間超過造訪逾時期間的造訪。 舉例而言，如果 *t1* 與 *t2* 加總大於虛擬報表套裝造訪逾時，但兩者個別小於逾時，則造訪仍會延伸以納入這兩個背景點擊：
 

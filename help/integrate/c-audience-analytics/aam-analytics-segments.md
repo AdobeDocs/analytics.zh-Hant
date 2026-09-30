@@ -6,20 +6,30 @@ exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 24%
-
 ---
-
 # 了解 Analytics 和 Audience Manager 中的區段
 
 Analytics和Audience Manager都使用區段。 不過，Analytics區段與Audience Manager區段不完全相同。 這些差異會部分導致您在Analytics和Audience Manager報表中看到的差異。 因此，當您開始使用這兩個解決方案中的區段時，請務必試用並了解這些差異之處，這是十分有用的。
@@ -37,7 +47,7 @@ Audience Manager區段會籍不穩定。 使用者可依據其在目前時間點
 
 Audience Manager區段在Analytics中稱為受眾。
 
-如需詳細資訊，請參閱區段產生器[&#128279;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant)中的特徵和區段母體資料，以及[訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hant)。
+如需詳細資訊，請參閱區段產生器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant)中的[特徵和區段母體資料，以及[訊號、特徵和區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hant)。
 
 ## Analytics 區段 {#analytics-segments}
 

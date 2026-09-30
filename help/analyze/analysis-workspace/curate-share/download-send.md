@@ -4,28 +4,40 @@ title: 下載專案和資料
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+TQID: 'https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1131'
 ht-degree: 25%
-
 ---
-
 # 下載專案和資料
 
 您可以將Analysis Workspace專案和資料下載至本機裝置。 此下載檔案可以是複製資料、CSV （逗號分隔值資料）檔案或PDF （可攜式檔案格式）檔案。
@@ -82,7 +94,7 @@ ht-degree: 25%
 >您可以使用快速鍵&#x200B;**_cmd + c_** (macOS)或&#x200B;**_ctrl + c_** (Windows)，將您的選取內容複製到剪貼簿。 然後使用&#x200B;**_cmd + v_** (macOS)或&#x200B;**_ctrl + v_** (Windows)貼上資料。
 
 
-![「複製」選擇複製到剪貼簿選項。 &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![「複製」選擇複製到剪貼簿選項。 ](assets/copy-clipboard.png){zoomable="yes"}
 
 ## 將視覺效果中的資料下載為CSV檔案
 
@@ -133,7 +145,7 @@ Only relevant as soon as CJA supports Map visualization
 下載檔案時，您會看到下列通知：
 
 * 已要求藍色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv。_x _%完成]**，表示進度。 若要隨時取消下載，請選取&#x200B;**[!UICONTROL 取消下載]**。 若要關閉郵件，請選取![CrossSize100](/help/assets/icons/CrossSize100.svg)，這不會取消下載。
-* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**&#x200B;完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
+* 綠色&#x200B;**[!UICONTROL _資料表名稱&#x200B;_-_Dimension _.csv在檔案下載完成後已下載]**完成通知。 檔案會下載至為瀏覽器設定的下載資料夾。
 
 如果您一次要求多項下載，您會收到通知，告知您每項額外下載要等到前一個下載完成時才會排入佇列。
 
@@ -252,6 +264,6 @@ If you request more than one download at a time, you will receive a notification
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->

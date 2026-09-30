@@ -7,23 +7,36 @@ exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 TQID: 'https://experienceleague.adobe.com/JVkEgk1Becb6v4066bmg1JzkgFBKprFphrAx-xJroro'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Customer journeys
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '567'
 ht-degree: 87%
-
 ---
-
 # 成效歸因概觀
 
 歸因可讓分析人員自訂維度項目獲得成功事件評分的方式。 例如：
@@ -66,28 +79,28 @@ Adobe Analytics 強化歸因功能，讓您可以：
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的成效歸因](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[自由格式表格中的成效歸因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [計算量度中的成效歸因](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[計算量度中的成效歸因](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/attribution-iq-in-calculated-metrics){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [使用成效歸因面板](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[使用成效歸因面板](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg) [新增成效歸因模型的並排比較](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"}，以觀看示範影片。
+請參閱![影片簽出](/help/assets/icons/VideoCheckedOut.svg)[新增成效歸因模型的並排比較](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/adding-side-by-side-comparisons-of-attribution-iq-models){target="_blank"}，以觀看示範影片。
 
 >[!ENDSHADEBOX]
 

@@ -4,27 +4,36 @@ description: 瞭解如何使用自由表格，這是Analysis Workspace中資料�
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-TQID: https://experienceleague.adobe.com/03oGltlXUfi3TG82i1UyHvCRWoCKy8j10KpcBEkpk0k
+TQID: 'https://experienceleague.adobe.com/03oGltlXUfi3TG82i1UyHvCRWoCKy8j10KpcBEkpk0k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+    internal-label: View density
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 878
+source-wordcount: '888'
 ht-degree: 88%
-
 ---
-
 # 自由格式表格概觀 {#freeform-table-overview}
 
 
@@ -40,7 +49,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄自由格式表格視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**&#x200B;版本，請參閱[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**&#x200B;中記錄自由格式表格視覺效果。_<br/>_若需本文的_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**&#x200B;版本，請參閱[自由格式表格](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table)。_
 
 >[!ENDSHADEBOX]
 
@@ -97,13 +106,13 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 | 選項 | 說明 |
 |---|---|
 | **[!UICONTROL 連結的視覺效果]** | 列出所有連結的視覺效果。 |
-| **[!UICONTROL 顯示資料來源]** | 取消勾選時，作為視覺效果資料來源的自由格式表格會隱藏在 Workspace。 |
+| **[!UICONTROL 顯示資料來源]** | 取消勾選時，作為視覺效果資料來源的自由格式表格會隱藏在工作區中。 |
 
 ### 設定
 
 | 選項 | 說明 |
 |---|---|
-| **[!UICONTROL 對齊各欄日期，讓所有開始日期在同一列。]** | 是否讓每一欄的日期與同一列中所有開始日期一致。 |
+| **[!UICONTROL 對齊各欄日期，讓所有開始日期在同一列。]** | 是否將每一欄的日期對齊，使其全部從同一列開始。 |
 
 
 ## 內容選單
@@ -112,13 +121,13 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 | 選項 | 說明 |
 | --- | --- |
-| **[!UICONTROL 插入複製的視覺效果]**&#x200B;n | 將複製的視覺效果貼上 (插入) 至專案內另一個位置或完全不同的專案中。 |
+| **[!UICONTROL 插入複製的視覺效果]**n | 將複製的視覺效果貼上 (插入) 至專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 複製資料至剪貼簿]** | 從視覺效果複製資料至剪貼簿。 |
 | **[!UICONTROL 複製選取項目至剪貼簿]** | 從視覺效果將選取項目複製至剪貼簿。 |
 | **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | 立即將視覺效果的維度項目 (最多 50,000 個) 下載至您的本機裝置。 選取維度的最大維度項目數為 50,000。 |
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便於您將其插入至專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 下載資料為 CSV 檔]** | 將視覺效果顯示的資料立即下載至本機裝置。 |
-| **[!UICONTROL 複製視覺效果]** | 完全複製視覺效果。 |
+| **[!UICONTROL 複製視覺效果]** | 建立視覺效果的完全相同副本。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 視覺效果的文字說明。 請參閱[文字](../text.md)。 |
 | **[!UICONTROL 取得視覺效果連結]** | 直接複製並共用視覺效果連結。 共用連結對話框顯示此連結。 請選取「複製」以複製此連結至剪貼簿。 |
 | **[!UICONTROL 重新開始]** | 刪除目前視覺效果的設定，以便於您可從頭開始再設定。 |
@@ -129,19 +138,19 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格產生器概觀](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格產生器概觀](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格篩選器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格篩選器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格總計](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格總計](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

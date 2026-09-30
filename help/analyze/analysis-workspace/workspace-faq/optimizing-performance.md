@@ -4,39 +4,61 @@ title: Analysis Workspace效能最佳化
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-TQID: https://experienceleague.adobe.com/NXu-UU13cywEFx7FKmny4EmvRxsQgZirTsCpZ5gZyvo
+TQID: 'https://experienceleague.adobe.com/NXu-UU13cywEFx7FKmny4EmvRxsQgZirTsCpZ5gZyvo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Optimization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2547
+source-wordcount: '2547'
 ht-degree: 40%
-
 ---
-
 # 最佳化 Analysis Workspace 效能
 
 有多種因素會影響Analysis Workspace中專案的效能。  若要瞭解這些因素，可協助您以最佳方式規劃和建置專案。
@@ -90,7 +112,7 @@ ht-degree: 40%
 | 自由格式儲存格數目 | 專案中自由格式儲存格的總數，以所有表格的列數 * 欄數計算。 此值會排除隱藏的資料來源。 建議為 4000 個。 | 將表格中的欄數減少至只剩最相關的資料點。 調整顯示的列數、套用表格篩選條件或套用區段，減少表格中的列數。 |
 | 可用元件 | 專案左側邊欄中，專案所有報表套裝擷取的元件總數。 此值會影響左側邊欄載入的速度，以及其中傳回搜尋結果的速度。 建議為 2000 個。 | 請洽詢您的產品管理員，建立包含更量身打造元件集的精選虛擬報告套裝。 |
 | 已使用的元件 | 專案中使用的元件總數。 建議為 100 個。 | 使用的元件數量不會直接影響效能。 但是，這些元件的複雜度會影響專案效能。 請參閱下方A[其他因素](#additional-factors)一節中的最佳化。 |
-| 最大日期範圍 | 此因素顯示專案中使用的最長日期範圍。 建議為 1 年。 | 可能情況下，提取資料時請不要超出所需。 將面板日曆縮小至分析的相關日期。 或在自由表格中使用日期範圍元件。 表格中使用的日期範圍會覆寫面板日期範圍。 例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。 如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)。 <br><br>此外，將專案中使用的逐年比較數減到最少。 計算逐年比較時，計算過程會檢視感興趣月份之間完整13個月的資料。 此比較的影響與將面板日期範圍變更為過去13個月相同。 |
+| 最大日期範圍 | 此因素顯示專案中使用的最長日期範圍。 建議為 1 年。 | 可能情況下，提取資料時請不要超出所需。 將面板日曆縮小至分析的相關日期。 或在自由表格中使用日期範圍元件。 表格中使用的日期範圍會覆寫面板日期範圍。 例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。 如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace)。 <br><br>此外，將專案中使用的逐年比較數減到最少。 計算逐年比較時，計算過程會檢視感興趣月份之間完整13個月的資料。 此比較的影響與將面板日期範圍變更為過去13個月相同。 |
 
 ## 請求因數
 
@@ -137,7 +159,7 @@ ht-degree: 40%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [提高生產力的秘訣](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [提高生產力的秘訣](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/tips-to-increase-productivity-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

@@ -3,23 +3,28 @@ title: 「分類設定」設定
 description: 瞭解如何編輯Adobe Analytics中現有分類集的名稱、說明、標籤、工作通知和訂閱。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-TQID: https://experienceleague.adobe.com/D-6P27NSFWF5tHze-wopbkHrDMpMUQWA-zlEbZbzSzk
+TQID: 'https://experienceleague.adobe.com/D-6P27NSFWF5tHze-wopbkHrDMpMUQWA-zlEbZbzSzk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 253
+source-wordcount: '253'
 ht-degree: 2%
-
 ---
-
 # 分類集設定
 
 您可以編輯分類設定的設定，包括名稱、說明、通知對象和訂閱。
@@ -29,7 +34,7 @@ ht-degree: 2%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;管理員中，選取您要編輯其結構描述的分類設定。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 設定]**&#x200B;索引標籤以編輯設定：
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定_]**對話方塊中，選取&#x200B;**[!UICONTROL 設定]**索引標籤以編輯設定：
 
    ![分類設定 — 設定](assets/classification-sets-settings.png)
 

@@ -11,16 +11,22 @@ feature_v2:
     internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
     internal-label: Functions
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -28,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fcd738b7eb13c13d5f9f23d625287988c803220
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -47,20 +53,20 @@ Adobe使用標準[操作順序](overview.md)來識別訪客： `vid`，然後是
 
 ECID （以`mid`形式傳送）是現代版的跨解決方案訪客識別碼，可跨Adobe Analytics、Adobe Target和Adobe Audience Manager共用。 Adobe建議儘可能使用。
 
-取得[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home) (`VisitorAPI.js`)的ECID。 在瀏覽器中，使用[`getInstance`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getinstance)以您的IMS組織ID初始化服務，然後使用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getmcvid)讀取ECID：
+取得[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home) (`VisitorAPI.js`)的ECID。 在瀏覽器中，使用[`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance)以您的IMS組織ID初始化服務，然後使用[`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid)讀取ECID：
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-在每次點選時將該值當作`mid`查詢引數傳送，並將您的IMS組織ID當作`mcorgid`引數傳送，以便ECID正確解析。 如果您的資料轉送到Audience Manager，請同時從[`getLocationHint`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getlocationhint)傳送地區作為`aamlh`引數。 若要將您自己的客戶識別碼與訪客建立關聯，請使用[`setCustomerIDs`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/setcustomerids)。
+在每次點選時將該值當作`mid`查詢引數傳送，並將您的IMS組織ID當作`mcorgid`引數傳送，以便ECID正確解析。 如果您的資料轉送到Audience Manager，請同時從[`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint)傳送地區作為`aamlh`引數。 若要將您自己的客戶識別碼與訪客建立關聯，請使用[`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids)。
 
-如需伺服器端收集，請取得使用者端上的ECID，並將其轉寄至您的伺服器，以便在每次點選時傳送。 若要在沒有使用者端的情況下完全在伺服器端產生ECID，請使用ID服務的[直接整合](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/direct-integration)。
+如需伺服器端收集，請取得使用者端上的ECID，並將其轉寄至您的伺服器，以便在每次點選時傳送。 若要在沒有使用者端的情況下完全在伺服器端產生ECID，請使用ID服務的[直接整合](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration)。
 
 ## 使用Analytics訪客識別碼
 
-Analytics訪客識別碼(`aid`)儲存在[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie中。 當點選到達時沒有識別碼，收集伺服器會指派`aid`並嘗試設定包含該識別碼的Cookie。 有些[回應型別](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)也在回應本文中包含此識別碼。
+Analytics訪客識別碼(`aid`)儲存在[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie中。 當點選到達時沒有識別碼，收集伺服器會指派`aid`並嘗試設定包含該識別碼的Cookie。 有些[回應型別](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types)也在回應本文中包含此識別碼。
 
 * **使用者端（直接影像要求）。** 瀏覽器會儲存伺服器傳回的`s_vi` Cookie，並在後續每次要求時將它傳送至相同的集合網域。 接著會自動辨識該訪客，且不需要自行設定`aid`。 由於此模型依賴Cookie，因此具有和任何Cookie型身分相同的耐用性限制。 請參閱使用AppMeasurement的[訪客身分識別](appmeasurement.md)以瞭解第一方與第三方Cookie行為，以及[作業順序](overview.md)，瞭解Adobe如何選擇要使用的識別碼。 Adobe建議使用ECID來建立永續性身分。
 

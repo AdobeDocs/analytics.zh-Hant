@@ -17,6 +17,11 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -24,18 +29,18 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 3%
 ---
 # AMO ID
 
-**[!UICONTROL AMO ID]**&#x200B;是用於Adobe Advertising整合中的串連識別碼集合。 儲存在此維度中的值會自動組織為個別、更人類看得懂的分類維度，以用於Analytics報表。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
+**[!UICONTROL AMO ID]**&#x200B;是用於Adobe Advertising整合中的串連識別碼集合。 儲存在此維度中的值會自動組織為個別、更人類看得懂的分類維度，以用於Analytics報表。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
 
 ## 將資料填入此維度中
 
-此維度會由[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合自動填入；沒有可設定的變數。
+此維度會由[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合自動填入；沒有可設定的變數。
 
 | 屬性 | 價值 |
 | --- | --- |
@@ -164,7 +169,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## 分類
 
-啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立下列分類。 整合會自動維護分類值。
+啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立下列分類。 整合會自動維護分類值。
 
 | 分類 | 說明 | DSP | 搜尋，<br>社交， &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
@@ -176,7 +181,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 | **[!UICONTROL 廣告平台]** | 廣告DSP或搜尋引擎名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
 | **[!UICONTROL 廣告標題]** | 廣告型別(DSP)或廣告標題（搜尋、社交和Commerce）。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
 | **[!UICONTROL 廣告型別]** | 廣告型別，例如`text`、`video`、`display`或`native`。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
-| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 &#x200B;]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
+| **[!UICONTROL AdCloud屬性1]** -<br>**[!UICONTROL AdCloud屬性5 ]** | 預留位置分類以供未來自訂屬性使用。 目前未使用。 | | |
 | **[!UICONTROL Campaign]** | 行銷活動名稱。 | 檢查(&amp;C)； | 檢查(&amp;C)； |
 | **[!UICONTROL Creative體驗名稱]** | 和廣告互動相關聯的創意體驗名稱，代表測試或個人化中使用的一組創意變體。 | 檢查(&amp;C)； | |
 | **[!UICONTROL Creative分支名稱]** | 創意體驗中的分支名稱，代表創意實驗中的特定變數或路徑。 | 檢查(&amp;C)； | |

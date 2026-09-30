@@ -4,37 +4,50 @@ title: 資料控管的常見問題集
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+TQID: 'https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2101
+source-wordcount: '2101'
 ht-degree: 85%
-
 ---
-
 # Adobe Analytics隱私權常見問題集
 
 +++ **Adobe Analytics 如何支援由客戶 (資料控管單位) 驗證的使用者 (資料主體) 存取和刪除請求？**
 
-各種資料隱私權規定(GDPR、CCPA)生效時，Adobe Analytics會支援處理資料控管單位向CX企業資料隱私權API提交的已驗證請求，藉此提高程式的自動化程度。 Adobe的資料隱私權API的設計目的，是為了協助處理客戶儲存在Adobe CX企業解決方案中之資料的個別許可權請求（例如存取和刪除請求）。 那具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。
+各種資料隱私權規則(GDPR、CCPA)生效時，Adobe Analytics會支援處理資料控管單位向CX Enterprise資料隱私權API提交的已驗證請求，藉此提高程式的自動化程度。 Adobe的資料隱私權API的設計目的，是為了協助處理客戶儲存在不同Adobe CX Enterprise解決方案中之資料的個別許可權請求（例如存取和刪除請求）。 那具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。
 
-此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。 如需詳細資訊，請參閱 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。
+此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。 如需詳細資訊，請參閱 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。
 
 +++
 
@@ -48,7 +61,7 @@ ht-degree: 85%
 
 +++ **Adobe 客戶 (資料控管單位) 如何找出哪個資料隱私權請求對應到 Adobe Analytics 中的哪個 ID，以便進行資料隱私權處理？**
 
-資料控管單位會判斷如何解析來自資料主體請求的身分識別。 請考慮部署 Adobe 的資料隱私權 ID 擷取標記。 您的開發團隊透過使用我們的資料隱私權 ID 檢索標記擷取使用者 ID (cookie ID) 以節省時間。 接著，他們便可使用我們的資料隱私權API，將這些使用者ID傳送至Adobe CX Enterprise中的相關解決方案，以處理資料隱私權請求。 資料隱私權 API 可支援多個 Adobe 解決方案中的各種客戶 ID。
+資料控管單位會判斷如何解析來自資料主體請求的身分識別。 請考慮部署 Adobe 的資料隱私權 ID 擷取標記。 您的開發團隊透過使用我們的資料隱私權 ID 檢索標記擷取使用者 ID (cookie ID) 以節省時間。 接著，他們便可使用我們的資料隱私權API，將這些使用者ID傳送至Adobe CX Enterprise中的相關解決方案，以便處理資料隱私權請求。 資料隱私權 API 可支援多個 Adobe 解決方案中的各種客戶 ID。
 
 如果資料主體連同識別碼一併提交請求 (自訂變數為 prop 或 eVar)，Adobe Analytics 便會掃描針對該識別碼所收集完整的資料保留記錄。 如需進一步了解如何設定 Analytics prop 或 eVar 中儲存的自訂 ID，請參閱[命名空間上的 Analytics 文件](/help/admin/tools/privacy-labeling/namespaces.md)。
 
@@ -78,7 +91,7 @@ ht-degree: 85%
 
 不過，在套用至所有報告套裝之前，您仍然可以透過以下幾種方法測試您的資料隱私權處理：
 
-* 一個選項是另行設定CX Enterprise組織，其中只包含測試報表套裝。 然後使用此CX Enterprise組織進行資料隱私權測試，並使用一般CX Enterprise組織進行實際的資料隱私權處理。
+* 一個選項是另行設定CX Enterprise組織，其中只包含測試報表套裝。 然後使用此CX Enterprise組織進行資料隱私權測試，並將您的正常CX Enterprise組織用於實際的資料隱私權處理。
 
 * 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。 例如，您可以在測試報表套裝中為每個命名空間加上「qa-」前置詞。 當您提交僅含有 qa 字首的命名空間的資料隱私權請求時，這些請求只會針對您的測試報表套裝來執行測試。 稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報告套裝。 **除非您使用`visitorId`、AAID、ECID或`customVisitorId`名稱空間，否則建議使用此方法。 這些命名空間是硬式編碼，您不能在測試報表套裝中指定它們的替代名稱。**
 

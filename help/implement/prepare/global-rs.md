@@ -1,46 +1,65 @@
 ---
-title: Adobe Analytics 中的全域報表套裝
-description: 瞭解使用全域報表套裝的優點和需求。
+title: Adobe Analytics 中的全域報告套裝
+description: 瞭解使用全域報告套裝的優點和需求。
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Y96K5iwjDCqXBzMeYVGJA06e115acL3aZOJl8oCBBEs
+TQID: 'https://experienceleague.adobe.com/Y96K5iwjDCqXBzMeYVGJA06e115acL3aZOJl8oCBBEs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 885
+source-wordcount: '885'
 ht-degree: 95%
-
 ---
-
 # 全域報表套裝考量事項
 
-全域報表套裝是一種可從您組織擁有的所有網域和應用程式中收集資料的報表套裝。 這項資料收集技術需要準備工作，而且需要組織內各團隊的彼此協調。
+全域報告套裝是一種可從您組織擁有的所有網域和應用程式中收集資料的報告套裝。 這項資料收集技術需要準備工作，而且需要組織內各團隊的彼此協調。
 
 ## 優勢
 
-Adobe 建議您在多數情況下都實施全域報表套裝。
+Adobe 建議您在多數情況下都實施全域報告套裝。
 
 * **匯整資料：**&#x200B;全域報表套裝可讓您查看自家網站中的 KPI 和成功事件。 區段和虛擬報表套裝可用來檢視網站特定資料。
 * **支援跨裝置分析：** CDA 需要採用從多個位置 (例如您的網站和行動應用程式) 收集資料的報表套裝。 只要實施正確，個別裝置的資料就能串連起來。 如需詳細資訊，請參閱元件使用指南中的[跨裝置分析](../../components/cda/overview.md)。
@@ -52,30 +71,30 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
 
 >[!NOTE]
 >
->協調全域報表套裝實作是一項浩大的工程。 Adobe 建議您與顧問合作，減少工作產生的複雜性和問題。
+>協調全域報告套裝實作是一項浩大的工程。 Adobe 建議您與顧問合作，以減少可能出現的複雜情況和問題。
 
-## 使用全域報表套裝啟動新實作
+## 使用全域報告套裝啟動新實作
 
-請使用下列一般準則來瞭解實施全域報表套裝的程序。
+請使用下列一般準則來瞭解實施全域報告套裝的程序。
 
-1. 在 Adobe Analytics 中建立全域報表套裝。 如需詳細資訊，請參閱管理員使用指南中的[建立報表套裝](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)。
+1. 在 Adobe Analytics 中建立全域報告套裝。 如需詳細資訊，請參閱管理員使用指南中的[建立報表套裝](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)。
 1. 與組織中負責每個網域的團隊合作。 多數團隊都有其業務領域特定的報表需求。
 1. 您可以在[解決方案設計文件](solution-design.md)中記錄並彙總所有這些需求。 如果不同團隊對某個維度有類似需求，就可使用相同的自訂變數。 舉例來說，如果網站 A 和網站 B 都需要階層連結維度，則兩個網站的實作都可透過 eVar1 傳送該項資料。
 
    >[!IMPORTANT]
    >
-   >請確認您在不同網域間使用任何指定自訂變數的方式都相同。 如果不同網站的用途不同，請勿使用相同的 eVar 或事件。
-1. 請確認每個網域都有資料層，以便簡化資料收集。 沒有資料層依然可以收集資料，但實作的可靠性和持久性會降低，尤其當您的網站經過重新設計時更是如此。
-1. 使用 Adobe Experience Platform 中的標記來實作 Analytics。 不同的網站可能需要不同的資料元素。 使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。 請參閱「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hant)」。
-1. 納入[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)並使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hant)函式。 使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
+   >請確認您在不同網域間使用任何指定自訂變數的方式都相同。 請勿在不同網站中將相同的 eVar 或事件用於不同用途。
+1. 請確認每個網域都有資料層，以便簡化資料彙集。 沒有資料層依然可以收集資料，但實施的可靠性和持久性會降低，尤其當您的網站經過重新設計時更是如此。
+1. 使用 Adobe Experience Platform 中的標記來實作 Analytics。 不同的網站可能需要不同的資料元素。 使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。 請參閱「[標記概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」。
+1. 納入[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)並使用[`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html)函式。 使用者從一個網域點擊前往另一個網域時，此函數會合併這些訪客資料。
 
-## 使用全域報表套裝修改現有實作
+## 使用全域報告套裝修改現有實施
 
-將多個網站的現有實作項目移至單一全域報表套裝的程序，需要組織中的團隊付出更多時間與協調。
+將多個網站的現有實施項目移至單一全域報告套裝的程序，需要組織中的團隊付出更多時間與協調。
 
-1. 您可以決定要使用任一個現有報表套裝，還是以新的報表套裝從零開始。 如果您想要變更實作中現有變數的使用情形，建議從新的報表套裝開始。
-2. 決定您要切換至全域報表套裝的轉換日期。 轉換的最佳時機是兩次重要報表期之間，或者網站進行重大變更的同時。 會計季度或會計年度之初、網站重新整理期間，或新標記管理系統進行變更，都是轉換的好時機。
-3. 請按照上述步驟進行 (建立報表套裝、在解決方案設計文件中整理出報表需求，並在每個網站上建立資料層)。 在實作 Adobe Experience Platform 中的標記時，請使用您網站的開發版本來驗證您的實作。
+1. 您可以決定要使用任一個現有報告套裝，還是以新的報告套裝從零開始。 如果您想要變更實施中現有變數的使用情形，建議從新的報告套裝開始。
+2. 決定您要切換至全域報告套裝的轉換日期。 轉換的最佳時機是兩次重要報告期間之間，或者網站進行重大變更的同時。 會計季度或會計年度之初、網站重新整理期間，或新標記管理系統進行變更，都是轉換的好時機。
+3. 請按照上述步驟進行 (建立報告套裝、在解決方案設計文件中整理出報告需求，並在每個網站上建立資料層)。 在實作 Adobe Experience Platform 中的標記時，請使用您網站的開發版本來驗證您的實作。
 4. 在確認您的實作可在開發環境中使用後，請在轉換日期將您的標記實作推送到線上。
 
 >[!MORELIKETHIS]

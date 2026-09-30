@@ -4,29 +4,41 @@ description: 使用 Adobe Analytics 追蹤您的行銷工作。
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+TQID: 'https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 98%
-
 ---
-
 # Campaign 追蹤工作流程
 
 如果您的組織想要追蹤行銷工作的績效和點按率，您可以使用下列流程。 這些步驟中的每一步在下方都有專屬區段，其中包含更多詳細資訊。
@@ -36,7 +48,7 @@ ht-degree: 98%
 1. [設定或調整您的 Adobe Analytics 實施以包含追蹤程式碼資料](#include-campaign-variables-in-your-implementation)
 1. [檢視 Analysis Workspace 中的報告](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/tw/products/campaign/adobe-campaign.html) 可以有助於簡化這些步驟中的每一步，進而從您的行銷工作中獲取最大價值。 如需詳細資訊，請聯絡 Adobe 業務代表。
+[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) 可以有助於簡化這些步驟中的每一步，進而從您的行銷工作中獲取最大價值。 如需詳細資訊，請聯絡 Adobe 業務代表。
 
 ## 建立追蹤程式碼產生流程
 

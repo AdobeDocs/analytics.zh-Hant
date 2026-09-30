@@ -4,29 +4,41 @@ title: Analysis Workspace 的協助工具
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-TQID: https://experienceleague.adobe.com/qT9P5156x2J9nRupDY-fgf6ArTnhIPvSg88YyKfQ9n4
+TQID: 'https://experienceleague.adobe.com/qT9P5156x2J9nRupDY-fgf6ArTnhIPvSg88YyKfQ9n4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
+    internal-label: Hotkeys
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Accessibility
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: '547'
 ht-degree: 100%
-
 ---
-
 # Analysis Workspace 的協助工具
 
 了解 Customer Journey Analytics 的主要分析工具 [!UICONTROL Analysis Workspace] 中的協助工具支援。
@@ -43,7 +55,7 @@ ht-degree: 100%
 
 ## 鍵盤導覽
 
-[!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。 以下是可輔助協助工具的導覽元素：
+[!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。 以下導覽元素有助於提升協助工具的可用性：
 
 * **[!UICONTROL Tab]** 鍵會啟用地標快速鍵，從而在 Workspace 中較大的區段之間移動。 在左側面板中，**[!UICONTROL Tab]** 鍵也可讓您在不同的可拖曳選項之間移動。
 * **[!UICONTROL Tab]** 鍵醒目標示一個元素後，◀◀︎ 和▶ ▶︎ 會在個別元素之間移動。
@@ -84,13 +96,13 @@ ht-degree: 100%
 
 ## 所需的驗證
 
-建置元件、視覺效果或面板，儲存時會驗證必填欄位。 如果必要欄位未通過驗證，則會以紅色列出並顯示錯誤圖示。 書面說明解釋需要修復的內容。
+建置元件、視覺效果或面板，儲存時會驗證必填欄位。 如果必要欄位未通過驗證，則會以紅色外框標示並顯示錯誤圖示。 文字說明會解釋需要修正的內容。
 
 ![區段產生器和錯誤驗證指標。](assets/error-validation.png)
 
 ## 支援作業系統協助工具功能
 
-Analysis Workspace 支援內建的 Windows 和 macOS 協助工具功能，例如高對比模式、相黏鍵和慢速鍵/篩選鍵。 此外也提供作業系統使用者介面的相關資訊，以透過輔助技術支援互動，包括螢幕助讀程式 (例如 macOS 的 VoiceOver 和 Windows 上的 NVDA)。
+Analysis Workspace 支援內建的 Windows 和 macOS 協助工具功能，例如高對比模式、相黏鍵和慢速鍵/篩選鍵。 此外，它也會向作業系統提供有關使用者介面的資訊，以便與輔助技術互動，包括 macOS 上的 VoiceOver 和 Windows 上的 NVDA 等螢幕助讀程式。
 
 
 <!--

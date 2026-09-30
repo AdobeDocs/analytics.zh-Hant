@@ -3,27 +3,35 @@ title: 分類常見問題集
 description: 使用分類時的常見問題。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-TQID: https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew
+TQID: 'https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 87%
-
 ---
-
 # 分類匯入工具常見問題集
 
 {{classification-importer-deprecation}}
@@ -40,7 +48,7 @@ ht-degree: 87%
 
   *如果[維度]等於 `0`，請以自訂值 `Zero` 覆寫[維度]的值。*
 
-* **請求 VISTA 規則**：工程技術服務顧問會為您設定伺服器端規則，但需額外付費。 請聯絡您的 Adob&#x200B;&#x200B;e 帳戶團隊以請求 Vista 規則。
+* **請求 VISTA 規則**：工程技術服務顧問會為您設定伺服器端規則，但需額外付費。 請聯絡您的 Adobe 帳戶團隊以請求 VISTA 規則。
 
 ## 我可以使用分類匯入工具來分類尚不存在的維度項目嗎？
 

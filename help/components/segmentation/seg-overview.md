@@ -3,37 +3,54 @@ description: 了解區段如何讓您根據特性或網站互動來識別訪客�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
+TQID: 'https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+    internal-label: Folders
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: '1052'
 ht-degree: 85%
-
 ---
-
 # 關於區段
 
-區段可讓您根據特性或網站互動來識別訪客的子集。 細分群體是設計為客群洞察，您可以根據自己的特定需求進行建置，然後驗證、編輯並與其他團隊成員分享，或用於其他 Adobe 產品和 Analytics 功能。
+區段可讓您根據特性或網站互動來識別訪客的子集。 區段是設計為客群洞察，您可以根據自己的特定需求進行建置，然後驗證、編輯並與其他團隊成員分享，或用於其他 Adobe 產品和 Analytics 功能。
 
 區段是根據使用巢狀容器模式的[!UICONTROL 訪客]、[!UICONTROL 造訪]和[!UICONTROL 點擊]層級階層。 巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。 您可以在Adobe CX Enterprise提供的多項產品和功能中，建立、核准、共用、儲存及執行Analytics區段。 區段可以產生自報告、內建至儀表板報告，或加入書籤供快速存取。
 
@@ -41,14 +58,14 @@ ht-degree: 85%
 
 區段可識別
 
-- 您的訪客身分 (國家、性別、咖啡店)、
+- 您的訪客是哪些人 (國家、性別、咖啡店)、
 - 他們使用的裝置和服務 (瀏覽器、搜尋引擎、行動裝置)、
 - 他們從何處導覽過來 (搜尋引擎、先前的退出頁面、免費搜尋)，
 - 還有許多功能。
 
 <!--![](assets/seg.png)-->
 
-區段可以是根據下列值：
+區段可根據下列值：
 
 - 根據屬性的訪客：瀏覽器類型、裝置、造訪次數、國家/地區、性別。
 - 根據互動的訪客：促銷活動、關鍵字搜尋、搜尋引擎。
@@ -155,7 +172,7 @@ Analysis Workspace 包含以下附加功能：
 
 ## 循序區段 {#sequential}
 
-循序區段可讓您根據網站上的導覽和頁面檢視來識別訪客，提供定義動作和互動的區段。 循序區段可協助您識別訪客的好惡。 建立循序區段時，會使用 [!UICONTROL THEN] 運算子來定義和排序訪客的導覽。
+循序區段可讓您根據網站上的導覽和頁面檢視來識別訪客，提供由已定義動作和互動組成的區段。 循序區段可協助您識別訪客的好惡。 建立循序區段時，會使用 [!UICONTROL THEN] 運算子來定義和排序訪客的導覽。
 
 | 造訪一 | 造訪二 | 造訪三 |
 |---|---|---|
@@ -265,7 +282,7 @@ Analysis Workspace 包含以下附加功能：
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [區段容器](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 

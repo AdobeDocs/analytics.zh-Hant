@@ -15,21 +15,26 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 6%
 ---
 # AMO EF ID
 
-**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising整合中使用的廣告點選識別碼。 這是Adobe Advertising用來將活動與訪客層級的線上點選或廣告曝光度建立關聯的唯一Token。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
+**[!UICONTROL AMO EF ID]**&#x200B;是Adobe Advertising整合中使用的廣告點選識別碼。 這是Adobe Advertising用來將活動與訪客層級的線上點選或廣告曝光度建立關聯的唯一Token。 啟用[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合時，會自動建立維度。
 
 ## 將資料填入此維度中
 
-此維度會由[Analytics for Advertising](https://experienceleague.adobe.com/zh-hant/docs/advertising/integrations/analytics/overview)整合自動填入；沒有可設定的變數。
+此維度會由[Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview)整合自動填入；沒有可設定的變數。
 
 | 屬性 | 價值 |
 | --- | --- |

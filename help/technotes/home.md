@@ -3,29 +3,45 @@ title: Analytics 技術備忘稿
 description: 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 feature: Attribution, Visualizations, Segmentation, Real-time
-TQID: https://experienceleague.adobe.com/FL2bY4bWuO8V8RCwqXmqYYkv0O1l63kVKuqJTIPvBqc
+TQID: 'https://experienceleague.adobe.com/FL2bY4bWuO8V8RCwqXmqYYkv0O1l63kVKuqJTIPvBqc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+    internal-label: Machine learning
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 97%
-
 ---
-
 # Analytics 技術備忘稿
 
 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
@@ -48,15 +64,15 @@ Adobe Analytics 的一些主要功能包括：
 
 * 報告：該平台提供一系列報告選項，包括排程報告、臨時報告和可自訂的儀表板，使企業能夠與利害關係人分享洞察，並協作訂定資料驅動的決策。
 
-總言之，Adobe Analytics 是強大的網站分析解決方案，提供企業所需的工具來測量、分析和最佳化其數位行銷活動。 借助即時資料、進階分析和歸因建模，企業可以做出資料驅動的決策，推動數位轉型並提高 ROI。
+總而言之，Adobe Analytics 是強大的網站分析解決方案，提供企業所需的工具來測量、分析和最佳化其數位行銷活動。 借助即時資料、進階分析和歸因建模，企業可以做出資料驅動的決策，推動數位轉型並提高 ROI。
 
 ## 更多 Analytics 使用手冊
 
-[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 其他 Analytics 資源
 
-* [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
-* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
+* [聯絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
+* [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
 * [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

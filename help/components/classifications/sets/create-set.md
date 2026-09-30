@@ -3,25 +3,31 @@ title: 建立和編輯「分類設定」
 description: 瞭解如何在Adobe Analytics中建立和編輯分類設定，包括主要和查詢分類型別、訂閱和工作通知。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
+TQID: 'https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Metadata
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: '502'
 ht-degree: 2%
-
 ---
-
 # 建立和編輯「分類設定」
 
 您從「分類設定」管理員[建立](#create-a-classification-set)和[編輯](#edit-a-classification-set)分類設定。
@@ -44,17 +50,17 @@ ht-degree: 2%
       * **[!UICONTROL 查詢]**。 查閱表格通常稱為子分類或子分類，是一種主要分類的分類。 查詢是有關分類值的中繼資料，而非原始維度。 例如，*Product*&#x200B;維度的主要分類可能是&#x200B;*色彩代碼*。 然後可以將&#x200B;*色彩名稱*&#x200B;的查閱表格附加至&#x200B;*色彩代碼*，以說明每個色彩代碼。
 1. 在&#x200B;**[!UICONTROL 工作通知]**&#x200B;區段中，選取分類集工作失敗或成功時要通知的對象。
    * 若要通知使用者發生失敗：
-      1. 啟用&#x200B;**[!UICONTROL 失敗時通知]**。
-      1. 在&#x200B;**[!UICONTROL 失敗電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
+     1. 啟用&#x200B;**[!UICONTROL 失敗時通知]**。
+     1. 在&#x200B;**[!UICONTROL 失敗電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
    * 若要通知使用者成功：
-      1. 啟用&#x200B;**[!UICONTROL 成功時通知]**。
-      1. 在&#x200B;**[!UICONTROL 成功電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
+     1. 啟用&#x200B;**[!UICONTROL 成功時通知]**。
+     1. 在&#x200B;**[!UICONTROL 成功電子郵件收件者]**&#x200B;中指定一或多個以逗號分隔的電子郵件地址。
 1. 在&#x200B;**[!UICONTROL 訂閱]**&#x200B;區段中，如果您已選取&#x200B;**[!UICONTROL 主要]**，請輸入一或多個&#x200B;**[!UICONTROL 訂閱]**。  您可以定義多個&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL Dimension]**&#x200B;組合至一個分類集。
 
    * 選取![CrossSize400](/help/assets/icons/CrossSize400.svg)以刪除&#x200B;**[!UICONTROL 報表套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;組合。
 
-   如果您新增另一個分類集中已存在的&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 關鍵Dimension]**&#x200B;組合，則會顯示紅色訊息。
-您可以：
+   如果您新增另一個分類集中已存在的&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 關鍵Dimension]**組合，則會顯示紅色訊息。
+   您可以：
    * 選取&#x200B;**[!UICONTROL 新增至現有]**&#x200B;以開啟其他分類集，並選取[新增分類至該其他分類集的結構描述](manage/schema.md)。
    * 將&#x200B;**[!UICONTROL 報告套裝]**&#x200B;和&#x200B;**[!UICONTROL 金鑰Dimension]**&#x200B;變更為尚未訂閱另一個分類集的組合。
 1. 選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存分類集。 選取&#x200B;**[!UICONTROL 取消]**&#x200B;以取消定義。
@@ -69,5 +75,5 @@ ht-degree: 2%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 選取分類設定的名稱。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，您可以定義分類設定的[設定](manage/settings.md)和[結構描述](manage/schema.md)。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，您可以定義分類設定的[設定](manage/settings.md)和[結構描述](manage/schema.md)。
 1. 完成後，選取&#x200B;**[!UICONTROL 儲存]**&#x200B;以儲存您的變更。 選取「**[!UICONTROL 取消]**」進行取消。

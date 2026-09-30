@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/ZS7Kpl1vxzJIGLzk1AkZBNEpPdGd-8NQq1-HW-zqDck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 61%
-
 ---
-
 # doPlugins
 
 `doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。 這是呼叫[外掛程式方法](../plugins/impl-plugins.md)並在傳送影像要求之前設定任何所需變數的理想位置。 如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
@@ -46,7 +54,7 @@ ht-degree: 61%
 
 ## 使用`onBeforeEventSend`手動實作Web SDK
 
-網頁SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
+網頁SDK使用具有類似功能的`onBeforeEventSend`，而非`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

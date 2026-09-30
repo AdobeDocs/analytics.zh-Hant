@@ -4,27 +4,37 @@ title: 檢視/管理資料控管隱私標籤
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+TQID: 'https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '815'
 ht-degree: 81%
-
 ---
-
 # 檢視/管理資料控管隱私標籤
 
 「**[!UICONTROL 資料規範的隱私標籤]**」對話框概觀了報表套裝的隱私標籤和命名空間。 您還可以從此處將設定匯出至 .csv 檔案。

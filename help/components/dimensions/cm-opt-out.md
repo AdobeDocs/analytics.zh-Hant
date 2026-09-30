@@ -3,16 +3,20 @@ title: 同意管理選擇退出
 description: 查看訪客選擇退出哪些隱私設定。
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 feature: Dimensions
-TQID: https://experienceleague.adobe.com/tsMhHR84qhEUZIZjPTluCJOHMPc37-JRwLsipAycgJI
+TQID: 'https://experienceleague.adobe.com/tsMhHR84qhEUZIZjPTluCJOHMPc37-JRwLsipAycgJI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,7 +29,7 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 83%
@@ -57,6 +61,6 @@ ht-degree: 83%
 
 維度項目包括下列三個值：
 
-* **`SSF`**：訪客選擇退出[伺服器端轉送功能](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)。 此維度項目在內容資料變數 `cm.ssf` 等於 `1` 時出現。 如需詳細資訊，請參閱 Audience Manager 使用手冊中的[資料隱私概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=zh-Hant)。 點擊不會轉送到 Adobe Audience Manager。
+* **`SSF`**：訪客選擇退出[伺服器端轉送功能](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)。 此維度項目在內容資料變數 `cm.ssf` 等於 `1` 時出現。 如需詳細資訊，請參閱 Audience Manager 使用手冊中的[資料隱私概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html)。 點擊不會轉送到 Adobe Audience Manager。
 * **`DMP`**：訪客選擇退出分享至資料管理平台。 此維度項目在內容資料變數 `opt.dmp` 等於 `N` 時出現。 類似於 `SSF`，點擊不會轉送到 Adobe Audience Manager。
 * **`SELL`**：訪客選擇退出將資料分享或銷售至第三方。 此維度項目在內容資料變數 `opt.sell` 等於 `N` 時出現。

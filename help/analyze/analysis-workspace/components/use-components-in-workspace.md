@@ -1,35 +1,50 @@
 ---
-description: 了解在 Analysis Workspace 中如何使用專案的元件
+description: 了解如何在 Analysis Workspace 的專案中使用元件
 title: 使用專案的元件
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+TQID: 'https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 77%
-
+source-wordcount: '986'
+ht-degree: 74%
 ---
-
 # 使用專案中的元件
 
 元件組成任何 Analysis Workspace 專案的實際資料。 元件由維度、量度、區段和日期範圍組成。 您可以將元件拖曳至視覺效果或面板中，將其加入專案。
@@ -99,11 +114,11 @@ ht-degree: 77%
 
    * 已有維度時，可拖曳量度以查看各個維度項目的量度。
 
-   * 將量度拖曳到現有量度頁首的頂部，即可將其取代。
+   * 將量度拖曳到現有量度標頭上，即可將其取代。
 
-   * 將量度拖曳到現有量度頁首的左側或右側，即可新增量度。
+   * 將量度拖曳到現有量度標頭的左側或右側，即可新增量度。
 
-   * 將量度拖曳到現有量度頁首的上方或下方，即可建立量度重疊。
+   * 將量度拖曳到現有量度標頭的上方或下方，即可建立量度重疊。
 
 
 如需關於量度的詳細資訊，請參閱[設定量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)。
@@ -151,7 +166,7 @@ ht-degree: 77%
 
 根據存取控制，您可以：
 
-* 存取元件的![書籤](/help/assets/icons/Bookmark.svg) [!UICONTROL 資料字典]定義。
+* 存取元件的![書籤](/help/assets/icons/Bookmark.svg)[!UICONTROL 資料字典]定義。
 * 存取已定義元件的![Edit](/help/assets/icons/Edit.svg)元件產生器。
 
 

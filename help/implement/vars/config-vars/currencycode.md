@@ -4,29 +4,41 @@ description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
+TQID: 'https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 96%
-
 ---
-
 # currencyCode
 
 對使用商務功能的網站而言，收入和貨幣是 Analytics 的重要一環。 許多網站使用不同的貨幣，尤其是橫跨多國的網站。 使用 `currencyCode` 變數可確保將收入歸因於正確的貨幣。
@@ -36,7 +48,7 @@ ht-degree: 96%
 * 如果 `currencyCode` 未定義，Adobe 假設所有貨幣值是報表套裝的貨幣。 請參閱報表套裝設定中的[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)，查看報表套裝的貨幣。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣相同，則不會套用貨幣轉換。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。 Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。 所有儲存在報表套裝中的值，都是採用報表套裝的貨幣。
-* 如果`currencyCode`設定為無效值，則會捨棄整個點選，造成資料遺失。**&#x200B;**&#x200B;確保在使用時正確定義此變數。
+* 如果`currencyCode`設定為無效值，則會捨棄整個點選，造成資料遺失。****&#x200B;確保在使用時正確定義此變數。
 
 此變數不會在點擊之間持續存在。 請確定已在每個涉及收入或貨幣事件 (與報告套裝的預設貨幣不相符) 的頁面上定義此變數。
 

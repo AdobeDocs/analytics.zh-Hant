@@ -4,37 +4,52 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3848
+source-wordcount: '3848'
 ht-degree: 77%
-
 ---
-
 # Analytics 變數的資料隱私權標籤
 
-Adobe 的客戶作為資料控管者，有責任遵循適用的資料隱私權法規，例如《一般資料保護規範》(GDPR) 和《加州消費者隱私法》(CCPA)。 客戶應諮詢自己的法律團隊，以確定應該如何處理其資料以遵守資料隱私權法律。 Adobe 了解其每個客戶都有與隱私權相關的獨特需求，這就是為什麼 Adobe 允許其客戶自訂其所需的資料隱私權資料處理設定。 這讓每個獨特客戶都能夠針對其品牌和獨特的資料集，透過最適合的方式處理資料隱私權請求。
+Adobe 的客戶作為資料控管者，有責任遵循適用的資料隱私權法規，例如《一般資料保護規範》(GDPR) 和《加州消費者隱私法》(CCPA)。 客戶應諮詢自己的法律團隊，以確定應該如何處理其資料以遵守資料隱私權法律。 Adobe 了解其每個客戶都有與隱私權相關的獨特需求，這就是為什麼 Adobe 允許其客戶自訂其所需的資料隱私權資料處理設定。 這讓每位不重複客戶都能夠針對其品牌和獨特的資料集，透過最適合的方式處理資料隱私權請求。
 
-Adobe Analytics 會根據資料敏感程度和契約限制提供標籤資料的工具。 標籤是一項重要的步驟，有助於: (1) 識別資料主體、(2) 判斷要傳回做為存取請求之一部分的資料，以及 (3) 識別做為部分刪除請求所必須刪除的資料欄位。
+Adobe Analytics 會根據資料敏感程度和契約限制提供標籤資料的工具。 標籤是一項重要的步驟，有助於: (1) 識別資料主體、(2) 判斷要傳回做為存取請求之一部分的資料，以及 (3) 識別做為刪除請求之一部分而必須刪除的資料欄位。
 
 在確定應將哪些標籤套用至哪些變數/欄位之前，您需要先[瞭解在 Analytics 資料中擷取的 ID](/help/admin/tools/privacy-labeling/best-practices.md)，並決定要將哪個 ID 用於資料隱私權請求。
 
@@ -46,12 +61,12 @@ Adobe Analytics 資料隱私權實作支援下列身分識別資料、敏感資�
 
 ## 身分識別資料標籤 {#identity-data-labels}
 
-身分識別資料「I」標籤可用來分類可身分識別身分識別或聯絡特定人員的資料。
+身分識別資料「I」標籤可用來分類可識別或聯絡特定人員的資料。
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
 | I1 | 可直接識別：可以明確識別或可與個人直接聯絡的資料，例如姓名或電子郵件地址。 | <ul><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></ul> |
-| I2 | 可間接識別：可與任何其他資料合併使用，以識別或直接聯絡個人或裝置的資料，  不允許單獨識別個人，但可以結合其他資訊（不一定由您擁有）來識別某人。 例如：客戶忠誠度編號或公司 CRM 系統所用的 ID (每位客戶指定一個唯一 ID)。 | <ul><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></ul> |
+| I2 | 可間接識別：可與任何其他資料合併使用，以識別或直接聯絡個人或裝置的資料。  不允許單獨識別個人，但可以結合其他資訊（不一定由您擁有）來識別某人。 例如：客戶忠誠度編號，或公司 CRM 系統所用、對每位客戶皆唯一的 ID。 | <ul><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -68,7 +83,7 @@ Adobe Analytics 資料隱私權實作支援下列身分識別資料、敏感資�
 
 ## 資料治理標籤 (資料隱私權) {#data-governance-labels}
 
-資料控管標籤提供使用者進行資料分類以反映其隱私權相關考量與契約條件的能力，以協助 Adobe 客戶遵循法規和公司政策。
+資料治理標籤提供使用者進行資料分類以反映其隱私權相關考量與契約條件的能力，以協助 Adobe 客戶遵循法規和公司政策。
 
 ### 資料隱私權存取標籤 {#access}
 
@@ -80,7 +95,7 @@ Adobe Analytics 資料隱私權實作支援下列身分識別資料、敏感資�
 
 {style="table-layout:auto"}
 
-儘管有幾個變數會接收到其他標籤，不過我們還是希望您將存取標籤套用至大部分變數中。 然而，要決定與資料主體共用哪些所收集的資料，最終取決於您與法律團隊的諮詢結果。
+雖然只有少數變數會收到其他標籤，但預期許多變數都會套用存取標籤。 然而，應與您的法律團隊商議，由您決定所收集的哪些資料應與資料主體共用。
 
 ### 資料隱私權刪除標籤 {#delete}
 
@@ -90,8 +105,8 @@ Adobe Analytics 資料隱私權實作支援下列身分識別資料、敏感資�
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
-| DEL-DEVICE | 對於資料隱私權刪除請求，只有在點擊含有特定 ID-DEVICE 的請求中，才應對此欄位的值進行匿名處理。  如果相同的值發生於其他未遭刪除的點擊，則不會變更其他點擊的例項。 這會導致運算此欄位中獨特計數的報告計數發生變化。 在共享裝置上，除了資料主體以外，這也可能會移除其他人的識別碼。  如果此欄位也具有 ID-DEVICE 標籤，而且以該欄位中的值做為資料隱私權請求的 ID，則計數不會變更。 | <ul><li>也需要I1、I2或S1標籤</li><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></li><li>無法在分類上設定</li><li>您必須使用ID-DEVICE提交請求，或將expandIDs設定為true ，否則不會套用此標籤。</li></ul> |
-| DEL-PERSON | 對於資料隱私權刪除請求，只有在點擊含有特定 ID-PERSON 的請求中，才應對此欄位的值進行匿名處理。  如果相同的值發生於其他未遭刪除的點擊，則不會變更其他的值。 這會導致運算此欄位中獨特計數的報告計數發生變化。 如果此欄位也具有 ID-PERSON 標籤，而且以該欄位中的值做為資料隱私權請求的 ID，則計數不會變更。 | <ul><li>也需要I1、I2或S1標籤</li><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></li><li>無法在分類上設定</li><li>您也必須在該報表套裝中某個變數上使用 ID-PERSON 標籤集提交請求，並使用該 ID 提交請求，否則不會套用該標籤。</li></ul> |
+| DEL-DEVICE | 對於資料隱私權刪除請求，只有在點擊含有特定 ID-DEVICE 的請求中，才應對此欄位的值進行匿名處理。  如果相同的值發生於其他未遭刪除的點擊，則不會變更其他點擊的例項。 這會導致計算此欄位不重複計數的報告其計數發生變化。 在共享裝置上，除了資料主體以外，這也可能會移除其他人的識別碼。  如果此欄位也具有 ID-DEVICE 標籤，而且以該欄位中的值做為資料隱私權請求的 ID，則計數不會變更。 | <ul><li>也需要I1、I2或S1標籤</li><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></li><li>無法在分類上設定</li><li>您必須使用ID-DEVICE提交請求，或將expandIDs設定為true ，否則不會套用此標籤。</li></ul> |
+| DEL-PERSON | 對於資料隱私權刪除請求，只有在點擊含有特定 ID-PERSON 的請求中，才應對此欄位的值進行匿名處理。  如果相同的值發生於其他未遭刪除的點擊，則不會變更其他的值。 這會導致計算此欄位不重複計數的報告其計數發生變化。 如果此欄位也具有 ID-PERSON 標籤，而且以該欄位中的值做為資料隱私權請求的 ID，則計數不會變更。 | <ul><li>也需要I1、I2或S1標籤</li><li>無法在事件上設定</li><li>無法在銷售eVar上設定</li></li><li>無法在分類上設定</li><li>您也必須在該報表套裝中某個變數上使用 ID-PERSON 標籤集提交請求，並使用該 ID 提交請求，否則不會套用該標籤。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -141,7 +156,7 @@ Adobe Analytics 資料隱私權實作支援下列身分識別資料、敏感資�
 }
 ```
 
-您可針對相同報表套裝中的不同變數，使用相同的名稱空間。 例如，某些自訂實作會將 CRM-ID 儲存在 prop 和 eVar 中。 如果其中之一一定會發生 CRM-ID (例如 eVar)，而且只偶爾發生在另一個變數中 (即 prop)，以及從未同時發生在prop 與 eVar，則只有 eVar 需要 ID 標籤和命名空間，因為 Adobe 只能在該 eVar 中搜尋該 ID。 然而，如果 CRM-ID 有時候會發生在某個變數中，有時則會發生在另一個變數中，那麼這兩個變數都應該擁有相同的命名空間，而 Adobe 會搜尋這兩個變數，找出在以此命名空間提交之資料隱私權請求中指定 ID 的發生次數。 您仍應該在所有這些變數上有DEL標籤，因此無論值發生在何處，都會進行匿名處理。
+您可針對相同報表套裝中的不同變數，使用相同的名稱空間。 例如，某些自訂實作會將 CRM-ID 同時儲存在 prop 和 eVar 中。 如果 CRM-ID 一定會出現在其中一個變數中 (例如 eVar)，而且只偶爾出現在另一個變數中 (即 prop)，並且不會在未同時出現在 eVar 中時出現在 prop 中，則只有 eVar 需要 ID 標籤和命名空間，因為 Adobe 只能在該 eVar 中搜尋該 ID。 然而，如果 CRM-ID 有時候會發生在某個變數中，有時則會發生在另一個變數中，那麼這兩個變數都應該擁有相同的命名空間，而 Adobe 會搜尋這兩個變數，找出在以此命名空間提交之資料隱私權請求中指定 ID 的發生次數。 您仍應該在所有這些變數上有DEL標籤，因此無論值發生在何處，都會進行匿名處理。
 
 再舉一例，您可能有的CRM ID有時會透過eVar1傳入，有時會透過prop7傳入。 接著您會有一個處理規則，可將eVar1的值（如果存在的話）複製到eVar3中。 否則系統會從 prop7 將值複製到 eVar3。 在這種情況下，eVar3 將一律包含 CRM ID (若為已知 ID)，所以只有 eVar3 需要 ID-PERSON 標籤。
 
@@ -239,7 +254,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 
 | 變數 | 刪除方法 |
 | --- | --- |
-| <ul><li>流量變數 (prop)</li><li>商務變數 (eVars)</li></ul> | 現有值會被新值取代，格式為「Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482」，其中「Data Privacy-」首碼之後的 32 位數十六進位值，為 128 位元強式密碼偽隨機數。<p>由於舊值是以隨機字串取代，故無法由新值反推原始值，亦無法由原始值推導出新值。  對於指定的變數而言，如果同一個資料隱私權請求中被刪除的其他點擊內，也出現相同的值遭到取代，則該值的所有例項都會取代為相同的新值。<p>如果某個值的某些執行個體被一個刪除請求取代，而之後的請求刪除了原始值的其他（新）執行個體，則新的取代值將與原始取代值不同。 |
+| <ul><li>流量變數 (prop)</li><li>商務變數 (eVars)</li></ul> | 現有值會被新值取代，格式為「Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482」，其中「Data Privacy-」首碼之後的 32 位數十六進位值，為 128 位元強式密碼偽隨機數。<p>由於舊值是以隨機字串取代，故無法由新值反推原始值，亦無法由原始值推導出新值。  對於指定的變數而言，如果在同一個資料隱私權請求中也會刪除的其他點擊內出現與遭取代值相同的值，則該值的所有例項都會被取代為相同的新值。<p>如果某個值的某些執行個體被一個刪除請求取代，而之後的請求刪除了原始值的其他（新）執行個體，則新的取代值將與原始取代值不同。 |
 | 購買 ID | 現有值會被新值取代，格式為「G-7588FCD8642718EC50」，其中「G-」首碼之後的十六進位 18 位數為一組 128 位元強式密碼偽隨機數的前 18 位數。 適用於刪除流量和商務變數的所有註解也會在此處適用。<p>購買ID是交易ID，其主要用途是確保購買不會獲得兩次退款，例如當有人重新整理其購買確認頁面時。 ID本身可能會將購買連結至您自己的DB中記錄該購買的列。 大部分情況下不需要刪除此 ID，故預設不會刪除。<p>若您在提出資料隱私權刪除自有資料請求後，購買仍可反向繫結使用者，則您可能需要刪除該欄位，這樣該訪客的 Analytics 資料就無法反向繫結購買者。 |
 | 訪客 ID | 值是128位元整數，取代為加密性強的128位元偽隨機值。 |
 | <ul><li>MCID</li><li>自訂訪客 ID</li><li>IP 位址</li><li>IP 位址 2 | 這個值會遭清除 (根據變數類型而設定為空字串或 0)。 |
@@ -248,7 +263,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 
 {style="table-layout:auto"}
 
-## 不支援預期刪除標籤的變數 {#no-delete-support}
+## 可能不支援預期刪除標籤的變數 {#no-delete-support}
 
 本節旨在釐清可能不支援刪除之 Analytics 變數的相關資訊。 有時候，這些變數會遭到非 Analytics 使用者 (例如法務團隊) 刪除，而這些人並不瞭解變數中包含的資料類型，且僅根據變數的名稱做出假設。
 
@@ -262,7 +277,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 | [!UICONTROL 使用者代理] | 使用者代理可辨識所使用的瀏覽器版本。 |
 | [!UICONTROL 使用者 ID] | 指定包含資料的 Analytics 報告套裝 (採用號碼形式)。 |
 | [!UICONTROL 報告套裝 ID] | 指定包含資料的 Analytics 報告套裝名稱。 |
-| [!UICONTROL 訪客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 這些 ID 具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。 如果您希望這些 Cookie ID 匿名處理包含在 prop 或 eVar 中相符 ID 的點擊，則可以透過使用 ID-DEVICE 標籤，標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。 在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報告中的獨特訪客計數都會變更。 |
+| [!UICONTROL 訪客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 這些 ID 具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。 如果您希望這些 Cookie ID 匿名處理包含在 prop 或 eVar 中相符 ID 的點擊，則可以透過使用 ID-DEVICE 標籤，標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。 在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報告中的不重複訪客計數都會變更。 |
 | [!UICONTROL AMO ID] | Adobe Advertising ID為解決方案變數，具有不可修改的[!UICONTROL DEL-DEVICE]標籤。 會從Cookie填入，就像訪客ID和MCID一樣。 刪除其他ID時，應該從點選中刪除該ID。 如需詳細資訊，請參閱這些變數的說明。 |
 
 {style="table-layout:auto"}
@@ -275,7 +290,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 | --- | --- |
 | 點擊時間 UTC | Adobe Analytics收到點選的時間。 |
 | 自訂點擊時間 UTC | 點擊發生的時間。某些行動應用程式和其他實作的點擊發生時間，可能會早於其接收時間。 例如，如果發生網路連線時無法提供，應用程式可能會保留點選，並在連線可供使用時將其傳送。 |
-| 日期時間 | 與「自訂點擊時間 UTC」值相同，但採用報表套裝的時區，而非 GMT。 |
+| 日期時間 | 與「自訂點擊時間 UTC」值相同，但採用報告套裝的時區，而非 GMT。 |
 | 首次命中時間GMT | 針對此點選的訪客ID值所收到首次點選的自訂點選時間UTC值。 |
 | 造訪開始時間 UTC | 收到此訪客 ID 值當次造訪首次點擊的自訂點擊時間 UTC 值。 |
 

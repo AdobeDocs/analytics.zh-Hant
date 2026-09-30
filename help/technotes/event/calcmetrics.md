@@ -3,24 +3,32 @@ title: 衍生受事件影響的資料
 description: 使用計算量度來修正受事件影響的趨勢資料。
 exl-id: 0fe70c8b-fa07-47e4-b6b3-b55eebad1fef
 feature: Curate and Share, Calculated Metrics
-TQID: https://experienceleague.adobe.com/Up1TyzQVIlc1MmhOeGKSpmVVMIpO-VLhqYA8WYm0CYI
+TQID: 'https://experienceleague.adobe.com/Up1TyzQVIlc1MmhOeGKSpmVVMIpO-VLhqYA8WYm0CYI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: '334'
 ht-degree: 4%
-
 ---
-
 # 衍生受事件影響的資料
 
 如果您的資料[受到事件](overview.md)影響，可以使用計算量度衍生事件持續時間的預估值。 例如，如果發生造成資料減少25%的事件，您可將之作為計算量度的乘數。
@@ -41,7 +49,7 @@ ht-degree: 4%
 
    ![區段產生器](assets/event_segment_builder.png)
 
-6. 按一下[受影響的天數]容器右上角的&#x200B;**[!UICONTROL [新增]]**，然後按一下[靜態數字]&#x200B;**&#x200B;**。 將靜態數字設定為您要位移資料的百分比，如[比較受事件影響的日期與先前的範圍](compare-dates.md)中所述。 在此範例中，位移為25%或1.25。
+6. 按一下[受影響的天數]容器右上角的&#x200B;**[!UICONTROL [新增]]**，然後按一下[靜態數字]****。 將靜態數字設定為您要位移資料的百分比，如[比較受事件影響的日期與先前的範圍](compare-dates.md)中所述。 在此範例中，位移為25%或1.25。
 
    ![靜態數字](assets/event_static_number.png)
 

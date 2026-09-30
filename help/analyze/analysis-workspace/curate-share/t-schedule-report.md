@@ -5,23 +5,32 @@ title: 傳送及排程專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-TQID: https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc
+TQID: 'https://experienceleague.adobe.com/b6x-yGgHk-RHGPfRMpmBJc2cQTMSrb-VRxJi62Tj0Hc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 502
+source-wordcount: '502'
 ht-degree: 26%
-
 ---
-
 # 傳送及排程專案
 
 您可以透過電子郵件將Adobe Analytics專案以檔案形式傳送給所選使用者。 您可以隨選傳送檔案，也可以設定要依排程傳送的檔案。
@@ -74,7 +83,7 @@ ht-degree: 26%
    | **[!UICONTROL 每年依月份日期]**&#x200B;傳送 | 選取&#x200B;**[!UICONTROL 一週中的某天]**，選取一個月中的&#x200B;**[!UICONTROL 周]**，然後選取一年中的&#x200B;**[!UICONTROL 每月]**。 |
    | **[!UICONTROL 依特定日期每年傳送]** | 選取&#x200B;**[!UICONTROL 月份]**，並從&#x200B;**[!UICONTROL 於當月的這個日期傳送]**&#x200B;中選取值。 |
 
-1. 輸入從&#x200B;**開始的**&#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
+1. 輸入從&#x200B;]**開始的**[!UICONTROL &#x200B;開始日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選開始日期。
 
 1. 在&#x200B;**[!UICONTROL 結束日期]**&#x200B;中輸入結束日期。 或者，選取![行事曆](/help/assets/icons/Calendar.svg)以從行事曆中挑選結束日期。
 1. 選取&#x200B;**[!UICONTROL 依排程傳送]**。 選取「**[!UICONTROL 取消]**」進行取消。

@@ -3,27 +3,37 @@ title: 行銷管道常見問題集
 description: 行銷管道的常見問題。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
+TQID: 'https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: '1524'
 ht-degree: 92%
-
 ---
-
 # 行銷管道常見問題集
 
 >[!NOTE]
@@ -105,7 +115,7 @@ ht-degree: 92%
 
 * **跨網域流量：**&#x200B;訪客從會觸發套裝 A 的網域移至會觸發套裝 B 的另一個網域。如果套裝 B 的內部 URL 篩選器包含第一個網域，則套裝 B 的該次造訪將記錄為內部，因為行銷管道會將之視為第二個套裝中的新造訪次數。 該次造訪將會分類為「工作階段重新整理」。
 
-* **登入頁面載入時間過長：**&#x200B;訪客登陸了內容繁多的頁面 A，而 Adobe Analytics 程式碼位於該頁面底部。 在系統載入所有內容 (包括 Adobe Analytics 影像要求) 之前，訪客點擊了頁面 B，頁面 B 也觸發了自身的 Adobe Analytics 影像要求。 由於頁面 A 的影像要求並未載入完畢，第二個頁面就會在 Adobe Analytics 中顯示為該次造訪的第一次點擊，而頁面 A 則為反向連結。 該次造訪會分類為「工作階段重新整理」。
+* **登入頁面載入時間過長：**&#x200B;訪客登陸了內容繁多的頁面 A，而 Adobe Analytics 程式碼位於該頁面底部。 在系統載入所有內容 (包括 Adobe Analytics 影像要求) 之前，訪客點擊了頁面 B，頁面 B 也觸發了自身的 Adobe Analytics 影像要求。 由於頁面 A 的影像要求從未載入，第二個頁面就會在 Adobe Analytics 中顯示為該次造訪的第一個點擊，而頁面 A 則為反向連結。 該次造訪會分類為「工作階段重新整理」。
 
 * **清除 Cookie 中繼網站：**&#x200B;訪客造訪網站，而中繼工作階段清除了 Cookie。 首次和上次接觸管道都會重設，而該次造訪會分類為「工作階段重新整理」(因為反向連結為內部連結)。
 
@@ -119,11 +129,11 @@ ht-degree: 92%
 
 有時候行銷管道處理規則的設定不正確，因此必須變更處理規則。 套用變更後，有些量度仍會將資料歸因於錯誤的管道。 我們需要考慮幾件事：
 
-* **即時收集行銷管道資料：**&#x200B;行銷管道資料會在資料收集時處理，且全部具永久性。 變更處理規則不會影響資料的回溯性。
+* **即時收集行銷管道資料：**&#x200B;行銷管道資料會在資料收集時處理，且全部具永久性。 變更處理規則不會追溯影響資料。
 * **變更處理規則不會立即影響首次接觸資料**：例如：
   1. 因為您的電子郵件管道設定不正確，使用者透過該管道進入，然後離開您的網站。
   2. 隔天您變更電子郵件處理規則來加以修正。
-  3. 幾天後，該用戶透過免費搜尋返回網站並進行購買。
+  3. 幾天後，該使用者透過免費搜尋返回網站並進行購買。
   4. 電子郵件管道獲得「首次接觸」評分，而免費搜尋獲得「上次接觸」評分。
 
   即使在您變更處理規則後數天，您仍可在錯誤的「首次接觸」管道中收集資料。 首次接觸資料會持續收集不正確的管道，直到所有使用者的訪客參與均過期為止。
@@ -136,4 +146,4 @@ ht-degree: 92%
   3. 按一下「全部過期」。
   4. 按一下「確定」，查看警告快顯視窗，確認您了解該視窗執行的操作。
 
-* **僅檢視您修正規則後的上次接觸量度**：「上次接觸」量度一律遵循目前的規則集。 檢視變更處理規則後正確反映最新處理規則的時間。
+* **僅檢視您修正規則後的上次接觸量度**：「上次接觸」量度一律遵循目前的規則集。 檢視自您變更處理規則起的時間，可正確反映最新的處理規則。

@@ -3,7 +3,7 @@ title: 反向連結
 description: 訪客點進您的網站前所在的 URL。
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-TQID: https://experienceleague.adobe.com/VE1bJD2ah1N9t-fHKc5GC0-pC4YmXEDkCwhVmI5rHZQ
+TQID: 'https://experienceleague.adobe.com/VE1bJD2ah1N9t-fHKc5GC0-pC4YmXEDkCwhVmI5rHZQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -16,11 +16,15 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
     internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +37,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 76%
@@ -55,7 +59,7 @@ AppMeasurement會自動從瀏覽器的`document.referrer`值收集反向連結�
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
-| **網頁SDK / XDM欄位** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/data-types/web-information) |
+| **網頁SDK / XDM欄位** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/web-information) |
 | **查詢引數** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 255位元組 |
