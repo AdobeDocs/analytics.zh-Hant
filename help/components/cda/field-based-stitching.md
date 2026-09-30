@@ -4,30 +4,38 @@ description: 了解使用欄位式拚接方式來結合資料的先決條件和�
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
+TQID: 'https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 83%
-
 ---
-
 # 欄位型拼接
 
 {{available-existing-customers}}
 
-跨裝置分析提供將資料拚接在一起的兩種不同方法。 此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。 使用該變數作為將裝置連結在一起的基礎。 Adobe 建議使用此拚接選項，以提高訪客追踪的透明度和可預測性。
+跨裝置分析提供將資料拚接在一起的兩種不同方法。 此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。 使用該變數作為將裝置連結在一起的基礎。 Adobe 建議使用此拚接選項，以提高訪客追蹤的透明度和可預測性。
 
 ## 依欄位拚接的專屬先決條件
 
@@ -35,17 +43,17 @@ ht-degree: 83%
 
 >[!WARNING]
 >
->若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
+>若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在拚接資料時效果不彰。
 
 * [概觀頁面](overview.md)上列出的所有先決條件。
-* 您的實作必須設定 prop 或 eVar，才能盡可能唯一識別個人身分，例如當使用者登入或開啟電子郵件時。 這項要求適用於所有平台，包括行動應用程式在內（若有使用）。<br/>請避免指派預設值給此prop或eVar。 為2,000部或更多不同裝置指派相同的預設值時，系統會將人員新增至「不良人員」清單，且這些事件會從啟用CDA的虛擬報表套裝中刪除，導致錯誤分析。
+* 您的實施必須設定 prop 或 eVar，才能盡可能唯一識別個人身分，例如當使用者登入或開啟電子郵件時。 這項要求適用於所有平台，包括行動應用程式在內（若有使用）。<br/>請避免指派預設值給此prop或eVar。 為2,000部或更多不同裝置指派相同的預設值時，系統會將人員新增至「不良人員」清單，且這些事件會從啟用CDA的虛擬報表套裝中刪除，導致錯誤分析。
 * 為欄位式拚接進行布建時，請將所需的識別變數傳達給您的Adobe客戶團隊。
 
 ## 欄位式拚接的專屬限制
 
 * 欄位式拚接最適合用於擁有高使用者識別率/驗證率的報表套裝。
-* 雖然每個 prop 和 eVar 都有如何針對報表用途處理大小寫字元的規則，但欄位式拚接並不會以任何方式轉換用於拚接的 prop 或 eVar。 欄位式拚接會使用指定欄位中的值，因為該值存在於後製 VISTA 規則和後製處理規則中。 拼接程序區分大小寫。 例如，如果有時在 prop/eVar 中出現「Bob」一詞，有時又出現「BOB」一詞，則拚接程序會將兩者視為兩個不同的人。
-* 在欄位式拚接區分大小寫的前提下，Adobe 建議審查適用於欄位式拚接所使用的 prop 或 eVar 的任何 VISTA 規則或處理規則。 這些規則需要經過審查，以確保其不會引入相同 ID 的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分點擊中，將小寫字母引入 prop 或 eVar。
+* 雖然每個 prop 和 eVar 都有如何針對報表用途處理大小寫字元的規則，但欄位式拚接並不會以任何方式轉換用於拚接的 prop 或 eVar。 欄位式拚接會使用指定欄位中的值，也就是套用 VISTA 規則和後續處理規則後的值。 拼接程序區分大小寫。 例如，如果有時在 prop/eVar 中出現「Bob」一詞，有時又出現「BOB」一詞，則拚接程序會將兩者視為兩個不同的人。
+* 在欄位式拚接區分大小寫的前提下，Adobe 建議審查適用於欄位式拚接所使用的 prop 或 eVar 的任何 VISTA 規則或處理規則。 這些規則需要經過審查，以確保其不會引入相同 ID 的新形式。 例如，您應確保沒有任何 VISTA 或處理規則僅在一部分點擊中，將 prop 或 eVar 轉換為小寫。
 * 欄位式拚接不支援針對拚接用途使用一個以上的 prop 或 eVar。 例如，如果 eVar12 包含登入 ID，eVar20 包含電子郵件 ID，您必須選擇其中一個。
 * 欄位式拚接不會合併或串連欄位 (例如 eVar10 + prop5)。
 * prop 或 eVar 應該包含單一類型的 ID。 例如，prop 或 eVar 不應包含登入 ID 和電子郵件 ID 的組合。

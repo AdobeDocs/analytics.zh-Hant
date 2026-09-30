@@ -4,39 +4,56 @@ description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4
+TQID: 'https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 96%
-
 ---
-
 # 常見問題集
 
 {{available-existing-customers}}
 
-+++ 如何使用 CDA 來瞭解人們如何從一種類型的裝置移至另一種類型的裝置上操作？
++++ 如何使用 CDA 來瞭解人們如何從一種裝置類型移至另一種裝置類型？
 
 您可以搭配「行動裝置類型」維度使用[!UICONTROL 流量]視覺效果。
 
@@ -49,7 +66,7 @@ ht-degree: 96%
 
 +++ 我是否能看到使用者在不同的使用者體驗 (例如桌面瀏覽器、行動瀏覽器與行動應用程式) 之間的移動方式？
 
-以上說明的「行動裝置類型」範例可讓您瞭解，使用者在行動裝置類型與桌上型裝置類型之間的移動方式。 但是，這無法讓您區分桌面瀏覽器和行動瀏覽器。 如果您需要這種洞察力，您可以建立一個自訂變數 (例如 prop 或 eVar) 來記錄該體驗是否發生在桌面瀏覽器、行動瀏覽器或行動應用程式上。 您接著即可使用該自訂變數 (而不是行動裝置類型維度) 來建立如上所述的流程圖。 此方法可提供略為不同的跨裝置行為檢視。
+以上說明的「行動裝置類型」範例可讓您瞭解，使用者在行動裝置類型與桌上型裝置類型之間的移動方式。 但是，這無法讓您區分桌面瀏覽器和行動瀏覽器。 如果您需要這種洞察，您可以建立一個自訂變數 (例如 prop 或 eVar) 來記錄該體驗是否發生在桌面瀏覽器、行動瀏覽器或行動應用程式上。 您接著即可使用該自訂變數 (而不是行動裝置類型維度) 來建立如上所述的流程圖。 此方法可提供略為不同的跨裝置行為檢視。
 
 +++
 
@@ -57,7 +74,7 @@ ht-degree: 96%
 
 CDA 的跨裝置拚接會發生在兩個並行處理程序中。
 
-* 第一個處理程序稱為「即時拚接」，此程序發生在資料流入 Adobe Analytics 時。 在即時拚接期間，CDA 會盡其所能在人員層級上重述資料。 然而，如果在即時拚接時不知道人員是誰，則 CDA 會退回代表該人的訪客 ID。
+* 第一個處理程序稱為「即時拚接」，此程序發生在資料流入 Adobe Analytics 時。 在即時拚接期間，CDA 會盡其所能在個人層級上重述資料。 然而，如果在即時拚接時不知道人員是誰，則 CDA 會退回代表該人的訪客 ID。
 
 * 第二個處理程序稱為「重播」。 在重播期間，CDA 會在時間點上往後，並且盡可能在指定的回顧期間重述歷史資料。 根據您要求設定 CDA 的方式，此回顧期間為 1 天或 7 天。 在重播期間，CDA 會嘗試重述先前不知道該人員處的點擊。
 
@@ -66,7 +83,7 @@ CDA 的跨裝置拚接會發生在兩個並行處理程序中。
 
 +++ CDA 如何處理時間戳記點擊？
 
-Adobe 將時間戳記點擊視為收到時間戳記時的時間，而非 Adobe 收到點擊的時間。 不會拚接超過 1 個月的時間戳記點擊，因為這些點擊超出 Adobe 用來拚接的範圍。
+Adobe 會將帶有時間戳記的點擊視為在時間戳記所示的時間收到，而非在 Adobe 收到點擊的時間收到。 不會拼接超過 1 個月的時間戳記點擊，因為這些點擊超出 Adobe 用來拼接的範圍。
 
 +++
 
@@ -74,7 +91,7 @@ Adobe 將時間戳記點擊視為收到時間戳記時的時間，而非 Adobe �
 
 使用自訂訪客ID是跨裝置連結使用者的傳統方法。 若使用自訂訪客 ID，需使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數明確設定用於訪客邏輯的 ID。 `visitorID` 變數會覆蓋任何存在的 Cookie 式 ID。
 
-CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用。 例如，自訂訪客 ID 方法沒有[重播](replay.md)功能。 如果使用者在造訪期間進行驗證，則造訪的前半部和後半部會與不同的訪客 ID 建立關聯。 不同的訪客 ID 會導致造訪和訪客數膨脹。 CDA 會重新認定歷史資料，因此未經驗證的點擊會屬於正確的人員。
+CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用。 例如，自訂訪客 ID 方法沒有[重播](replay.md)功能。 如果使用者在一次造訪的中途進行驗證，則造訪的前半部和後半部會與不同的訪客 ID 建立關聯。 不同的訪客 ID 會導致造訪和訪客數膨脹。 CDA 會重新認定歷史資料，因此未經驗證的點擊會屬於正確的人員。
 
 +++
 
@@ -90,13 +107,13 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 
 在某些情況下，個別使用者可與大量 ECID 建立關聯。 如果個人使用許多瀏覽器或應用程式，就可能發生這種情況，如果他們經常清除 Cookie 或使用瀏覽器的私人或無痕瀏覽模式，更會加劇此情形。
 
-* **如果使用依欄位拚接**，裝置數量與您選擇用來識別登入使用者的 prop/eVar 無關。 單一使用者可屬於任意數量裝置，不會影響 CDA 跨裝置拚接的能力。
+* **如果使用依欄位拚接**，裝置數量與您選擇用來識別登入使用者的 prop/eVar 無關。 單一使用者可與任意數量的裝置建立關聯，而不會影響 CDA 跨裝置拼接的能力。
 
 +++
 
-+++ CDA 內的「使用者」量度，與 CDA 外的「不重複訪客」量度有何不同？
++++ CDA 內的「People」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
-兩個[使用者](/help/components/metrics/people.md)和[不重複訪客](/help/components/metrics/unique-visitors.md)量度旨在計算不同的訪客 (個人)。 但是，請考慮 2 個不同的裝置可能屬於同一個人的可能性。 CDA 將 2 個裝置對應至同一個使用者，而這 2 個裝置在 CDA 之外被記錄為 2 個單獨的「不重複訪客」。
+兩個[使用者](/help/components/metrics/people.md)和[不重複訪客](/help/components/metrics/unique-visitors.md)量度旨在計算不同的訪客 (個人)。 但是，請考慮 2 個不同的裝置可能屬於同一個人。 CDA 將 2 個裝置對應至同一個使用者，而這 2 個裝置在 CDA 之外被記錄為 2 個單獨的「不重複訪客」。
 
 +++
 
@@ -116,14 +133,14 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 是。 Analysis Workspace 使用 2.0 API 向 Adobe 伺服器要求資料，您可以檢視 Adobe 使用的 API 呼叫來建立您自己的報表：
 
 1. 登入 Analysis Workspace 時，請前往[!UICONTROL 「說明] > [!UICONTROL 啟用除錯工具」]。
-2. 按一下所需面板中的除錯圖示，然後選取所需的視覺效果和要求的時間。
+2. 按一下所需面板中的偵錯圖示，然後選取所需的視覺效果和請求時間。
 3. 找出可用於向 Adobe 傳送 API 呼叫的 JSON 要求。
 
 +++
 
 +++ 跨裝置分析能將不重複訪客結合在一起。 那它能將造訪結合在一起嗎？
 
-是。 如果個人在虛擬報表套裝的造訪逾時 (預設為 30 分鐘) 內，從兩個獨立裝置傳送點擊，便會結合成同次造訪。
+是。 如果個人在虛擬報告套裝的造訪逾時 (預設為 30 分鐘) 內，從兩個獨立裝置傳送點擊，便會結合成同次造訪。
 
 +++
 
@@ -132,7 +149,7 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 * **如果使用裝置圖表**，根據叢集的自訂 ID 是主要識別碼。
 * **如果使用依欄位拚接**，根據所選 prop/eVar 的自訂 ID 是主要識別碼。
 
-這兩個識別碼由 Adobe 在執行報表時計算，也稱為[「報表時間處理」](../vrs/vrs-report-time-processing.md)功能。 由於「報表時間處理」的性質，表示其與 Data Warehouse、資料摘要或 Adobe 提供的其他匯出功能並不相容。
+這兩個識別碼由 Adobe 在執行報表時計算，也稱為[「報表時間處理」](../vrs/vrs-report-time-processing.md)功能。 由於「報告時間處理」的性質，其與 Data Warehouse、資料摘要或 Adobe 提供的其他匯出功能並不相容。
 
 +++
 
@@ -142,9 +159,9 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 
 +++
 
-+++ Adobe 如何處理依欄位拼接中所使用的 prop 或 eVar 的獨特限制？
++++ Adobe 如何處理欄位式拼接中所使用的 prop 或 eVar 的不重複值限制？
 
-CDA 會提取識別碼變數維度項目，再對報表最佳化。 您不需擔心針對 CDA 的獨特限制。 但是，如果您試圖在工作區專案中使用該 prop 或 eVar，您仍可看到[&#x200B; (低流量) &#x200B;](/help/technotes/low-traffic.md)維度項目。
+CDA 會提取識別碼變數維度項目，再對報表最佳化。 您不需擔心 CDA 的不重複值限制。 但是，如果您試圖在工作區專案中使用該 prop 或 eVar，您仍可看到[&#x200B; (低流量) &#x200B;](/help/technotes/low-traffic.md)維度項目。
 
 +++
 
@@ -156,7 +173,7 @@ CDA 會提取識別碼變數維度項目，再對報表最佳化。 您不需擔
 
 +++ 如果我的組織識別碼在不同地區擁有多家公司，我是否可為所有公司啟用 CDA？
 
-不行。 對於相同的組織識別碼，只有一個地區可以啟用 CDA。
+不行。 對於相同的組織識別碼，只有一個區域可以啟用 CDA。
 
 +++
 
@@ -170,13 +187,13 @@ CDA 會提取識別碼變數維度項目，再對報表最佳化。 您不需擔
 
 +++ 如果我的公司決定從 Analytics Ultimate 降級，我的 CDA 虛擬報表套裝中的拚接資料會出現什麼狀況？
 
-如果客戶從 Ultimate 降級，他們將無法再存取拚接資料。 先前的所有拚接資料都會被移除。 這表示，CDA 虛擬報表套裝現在不會反映任何跨裝置拚接。 資料看起來將會類似於未拚接的原始報表套裝。
+如果客戶從 Ultimate 降級，他們將無法再存取拚接資料。 先前的所有拚接資料都會被移除。 這表示，CDA 虛擬報表套裝現在不會反映任何跨裝置拚接。 資料看起來將會類似於未拚接的原始報告套裝。
 
 +++
 
-+++ 為什麼我的來源報表套裝與 CDA 虛擬報表套裝之間的點擊總數會不同？
++++ 為什麼我的來源報告套裝與 CDA 虛擬報告套裝之間的點擊總數會不同？
 
-CDA 使用複雜的並行處理管道，其中包含多個相依元件。 可預期來源報表套裝與 CDA 虛擬報表套裝之間會有約 1% 的點擊總數差距。
+CDA 使用複雜的並行處理管道，其中包含多個相依元件。 可預期原始報告套裝與 CDA 虛擬報告套裝之間會有約 1% 的點擊總數差距。
 
 +++
 
@@ -184,7 +201,7 @@ CDA 使用複雜的並行處理管道，其中包含多個相依元件。 可預
 
 如果識別碼 prop/eVar 值遇到「[雜湊衝突](/help/implement/validate/hash-collisions.md)」，「已識別的使用者」數量可能會稍微增加。
 
-對於欄位式拼接，需注意識別碼自訂變數的大小寫。 如果識別碼的值大小寫不符，則「已識別的使用者」量度的數字可能會顯著增加。 例如，如果將 `bob` 和 `Bob` 送出並預期為同一個使用者，CDA 會將其解譯為兩個相異的值。
+對於欄位式拼接，識別碼自訂變數會區分大小寫。 如果識別碼的值大小寫不符，則「已識別的使用者」量度的數字可能會顯著增加。 例如，如果將 `bob` 和 `Bob` 送出並預期為同一個使用者，CDA 會將其解譯為兩個相異的值。
 
 +++
 

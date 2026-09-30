@@ -1,5 +1,5 @@
 ---
-description: 您必須符合這些CX Enterprise解決方案、服務及程式碼需求，才能實作伺服器端轉送。 這些需求還包括如何檢查程式碼版本以及在何處取得最新程式碼程式庫的指示。
+description: 您必須符合這些CX Enterprise解決方案、服務和程式碼需求，才能實作伺服器端轉送。 這些需求還包括如何檢查程式碼版本以及在何處取得最新程式碼程式庫的指示。
 solution: Analytics
 title: 伺服器端轉送需求
 feature: Report Suite Settings
@@ -8,28 +8,39 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 53%
-
 ---
-
 # 伺服器端轉送需求
 
-您必須符合這些CX Enterprise解決方案、服務及程式碼需求，才能實作伺服器端轉送。 這些需求還包括如何檢查程式碼版本以及在何處取得最新程式碼程式庫的指示。
+您必須符合這些CX Enterprise解決方案、服務和程式碼需求，才能實作伺服器端轉送。 這些需求還包括如何檢查程式碼版本以及在何處取得最新程式碼程式庫的指示。
 
 ## 解決方案需求
 

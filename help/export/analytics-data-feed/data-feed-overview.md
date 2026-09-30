@@ -7,20 +7,28 @@ exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 TQID: 'https://experienceleague.adobe.com/XVFQdMEfIM7lQlnU3b-zRbQ9-RliqtaBjr-7ptxkI1o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: '335'
 ht-degree: 95%
-
 ---
-
 # Analytics 資料摘要概觀
 
 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。 這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 資料會在每小時結束時以小時的批次傳送，或在每天結束時以當天的批次傳送。
@@ -31,7 +39,7 @@ ht-degree: 95%
 
 * 可傳送資料至 Adobe 資料收集伺服器的有效實作。 請參閱實作指南中的[驗證和發佈實作](/help/implement/launch/validate-publish-prod.md)。
 * 您的帳戶為 Analytics 產品管理員，或是您的帳戶屬於具有資料摘要存取權的產品設定檔。
-* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上設定的貯體。
+* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上設定的桶。
 * (舊版：僅有舊版 FTP 和 SFTP 目標類型需要) 準備好 FTP 網站和認證 (由您組織提供的 FTP 認證。)
 
 ## 後續步驟

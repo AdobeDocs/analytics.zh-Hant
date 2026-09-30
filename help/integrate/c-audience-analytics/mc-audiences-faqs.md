@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 19%
-
 ---
-
 # 常見問答
 
 回答實施作業 Audience Analytics 時可能遇到的問題。
@@ -36,7 +47,7 @@ ht-degree: 19%
 
 這不適用於將Adobe Analytics資料傳送至Adobe Audience Manager。 問問自己：
 
-* 您是否會將分析共用區段與CX Enterprise中的MCA維度共用？
+* 您是否會將Analytics共用區段與CX Enterprise中的MCA維度共用？
 
 * 您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統？
 
@@ -142,7 +153,7 @@ ht-degree: 19%
 
 +++ 為什麼我無法在Analytics「管理控制檯」中開啟某些報表套裝的SSF？
 
-您只能啟用對應至您CX Enterprise Org的套裝。
+您只能啟用對應至您CX Enterprise組織的套裝。
 
 如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 

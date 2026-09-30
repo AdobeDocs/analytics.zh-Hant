@@ -4,25 +4,31 @@ description: 與 Adobe 合作，以確保高流量的活動不會發生延遲狀
 feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-TQID: https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI
+TQID: 'https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: '750'
 ht-degree: 97%
-
 ---
-
 # 排程流量尖峰
 
 Adobe 會嘗試與客戶合作，以確保高流量的活動能夠順利完成。 安排流量尖峰是該合作過程的起點。 排程尖峰區段可讓您提醒 Adobe 有臨時流量尖峰，以便可以分配適當的資源來處理。 您可以估計過去的伺服器呼叫數，以更了解您需要排程的流量尖峰量。
@@ -40,7 +46,7 @@ Adobe 會嘗試與客戶合作，以確保高流量的活動能夠順利完成�
 1. 按一下&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量管理]** > **[!UICONTROL 排程尖峰]**。
 1. (可選) 您可以估計過去的伺服器呼叫，以更了解您需要排程的流量尖峰量。
 
-   例如，您可取得去年特定時間範圍內伺服器的每日平均呼叫數，再加上今年伺服器呼叫的預估可能增加次數。 如此一來，您便可以根據此乘數因子，為流量尖峰制定排程。
+   例如，您可取得去年特定時間段內伺服器的每日平均呼叫數，再加上今年伺服器呼叫的預估可能增加次數。 如此一來，您便可以根據此乘數因子，為流量尖峰制定排程。
 
    1. 在「**[!UICONTROL 以往伺服器呼叫數]**」區域中，選取所選報表套裝的開始和結束日期。
 
@@ -61,17 +67,17 @@ Adobe 會嘗試與客戶合作，以確保高流量的活動能夠順利完成�
    >
    >若要安排流量尖峰的時間，請在使用者聯絡資訊中加入電話號碼，以便讓 Adobe 在有需要時可以聯絡您。
 
-## 總是排程流量尖峰為什麼很重要
+## 為什麼一定要排程流量尖峰
 
-當客戶將每個報表套裝的流量尖峰告知 Adobe 時，Adobe 會盡最大的努力來確保這會對報告產生最低的影響。
+當客戶將每個報告套裝的流量尖峰告知 Adobe 時，Adobe 會盡最大的努力來確保這會對報告產生最低的影響。
 
 * 已排程流量尖峰的組織會在資料開始潛伏時獲得優先處理。 在節日期間，這個概念尤其重要，因為許多組織都會排程流量尖峰。
 * 如果 Adobe 通知您相較於前幾年，您大幅高估/低估了預期流量，他們會與您聯絡以確保準確性。
-* 每年排程流量尖峰是很重要的事，即便貴組織在每一年都有相同的流量尖峰。 許多組織會在一整年中發佈新的應用程式、合併報表套裝，以及移轉/淘汰報表套裝。 Adobe 無法確知哪些報表套裝會收到額外的流量，除非貴組織每次都安排流量尖峰。 雖然 Adobe 會使用歷史資料來取得預估值，但是為正確的報表套裝安排額外的資源也很重要。
+* 每年排程流量尖峰是很重要的事，即便貴組織在每一年都有相同的流量尖峰。 許多組織會在一整年中發佈新的應用程式、合併報表套裝，以及移轉/淘汰報表套裝。 Adobe 無法確知哪些報表套裝會收到額外的流量，除非貴組織每次都安排流量尖峰。 雖然 Adobe 會使用歷史資料來取得預估值，但是為正確的報告套裝安排額外的資源也很重要。
 
 ## 貴組織可以採取的行動
 
-Adobe 想要確保您使用最新資料報告的體驗是一致的。 為了以最有效的方式執行這項任務，Adobe 極力建議您採取以下措施：
+Adobe 想要確保您使用最新報告的體驗是一致的。 為了以最有效的方式執行這項任務，Adobe 極力建議您採取以下措施：
 
 * 排程所有流量尖峰的前置時間。 **尤其重要的是，預計 11 月至 12 月期間發生的任何流量尖峰都應在 9 月 15 日之前妥善排程**。 如果您錯過這個期限，請盡快排程您的流量尖峰。 較短的前置時間總比沒有好，Adobe 會使用最新的資源，以最好的方式因應您的報表套裝需求。
 * 如果 Adobe 就已排程的流量尖峰的事宜與您聯絡，請務必與我們溝通，讓我們知道是即時報告還是完整處理報告比較重要。 某些組織比其他組織更仰賴即時報告。 了解您使用哪種類型的報告有助於 Adobe 相應地安排優先順序。

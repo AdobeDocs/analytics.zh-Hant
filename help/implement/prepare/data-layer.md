@@ -4,36 +4,48 @@ description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用�
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/JmxM3-AVA5--7Xt4kuES35KFtYbicdGO9JZXsygzuuE
+TQID: 'https://experienceleague.adobe.com/JmxM3-AVA5--7Xt4kuES35KFtYbicdGO9JZXsygzuuE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 100%
-
 ---
-
 # 建立資料層
 
 資料層是網站上 JavaScript 物件的架構，包含 Analytics 實作內使用的變數值。 如此，在將值指派給 Analytics 變數時，可以更好控制和易於維護。
 
 ## 先決條件
 
-[建立解決方案設計文件](solution-design.md) - 貴組織必須符合追蹤要求。 確保在前往找組織內的開發團隊之前，先使用解決方案設計文件做好準備。
+[建立解決方案設計文件](solution-design.md) - 貴組織必須符合追蹤要求。 請確保在接洽組織內的開發團隊之前，已備妥解決方案設計文件。
 
 ## 工作流程
 
@@ -60,7 +72,7 @@ Adobe 建議針對新的或重組的實作使用[Adobe 客戶資料層](https://
 
 ## 設定資料層值
 
-資料層通常會產生伺服器端，並參考用來建立網站內容的相同物件。 根據貴組織[解決方案設計文件](solution-design.md)中設定的追蹤要求，建立網站的資料層。
+資料層通常會在伺服器端產生，並參考用來建立網站內容的相同物件。 根據貴組織[解決方案設計文件](solution-design.md)中設定的追蹤要求，建立網站的資料層。
 
 ## 後續步驟
 

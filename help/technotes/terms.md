@@ -3,45 +3,73 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+TQID: 'https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+    internal-label: Cohort Analysis
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2638
+source-wordcount: '2638'
 ht-degree: 86%
-
 ---
-
 # Adobe Analytics 中使用的詞彙
 
 使用此辭彙表來瞭解 Adobe Analytics 所使用各種詞彙的情境。
@@ -61,7 +89,7 @@ ht-degree: 86%
 * **促銷活動：**&#x200B;可以指：
   * 促銷活動變數，會填入「追蹤程式碼」維度。 請參閱實施作業使用手冊中的[促銷活動](../implement/vars/page-vars/campaign.md)。
   * 「追蹤代碼」維度的預設分類；會自動為所有報告套裝建立。
-  * Adobe Campaign，Adobe CX Enterprise的一部分。 請前往 [Adobe.com](https://www.adobe.com/tw/marketing/campaign.html) 取得更多資訊。
+  * Adobe Campaign是Adobe CX Enterprise的一部分。 請前往 [Adobe.com](https://www.adobe.com/tw/marketing/campaign.html) 取得更多資訊。
 * **管道：**&#x200B;可以指：
   * 管道變數，會填入「網站區段」維度。 請參閱實施作業使用手冊中的[頁面變數](/help/implement/vars/page-vars/page-variables.md)。
   * 行銷管道，此元件有助於瞭解使用者如何到達您的網站。 請參閱元件使用手冊中的[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
@@ -106,7 +134,7 @@ ht-degree: 86%
 * **行銷管道：** Adobe Analytics 的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷管道處理規則來自訂用於分類點擊的邏輯。 請參閱元件使用手冊中的[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含量化資料的元件類型。 量度值通常包含數字，例如頁面檢視次數、造訪次數和收入。 維度通常是其對應項目。
 * **行動應用程式：**&#x200B;也稱為&#x200B;**Adobe Analytics [!UICONTROL 儀表板]**，行動應用程式可讓使用者透過行動裝置存取直覺式計分卡。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。 iOS 和 Android 作業系統均支援行動應用程式。
-* **Mobile Services：**&#x200B;已淘汰的Adobe產品整合了Adobe CX Enterprise的行動應用程式行動行銷功能，讓您瞭解並改進使用者與應用程式的互動。
+* **Mobile Services：**&#x200B;已淘汰的Adobe產品整合了Adobe CX Enterprise上行動應用程式的行動行銷功能，讓您瞭解並改進使用者與應用程式的互動。
 * **多套裝標記：**&#x200B;將相同點擊傳送至多個報告套裝的作法。 隨著虛擬報告套裝的推出，此作法基本上已失去必要性。 大部分的多套裝標記作業都有助於支援全域報告套裝。
 * **正規化：**&#x200B;整理視覺化效果的方式，可納入所有量度並將其強制為等比例，以便更輕鬆進行趨勢比較。
 * **發生次數：**&#x200B;一種量度類型，可顯示多少點擊已設定或存在某個維度項目。 請參閱「元件」使用指南中的[發生次數](/help/components/metrics/occurrences.md)量度。

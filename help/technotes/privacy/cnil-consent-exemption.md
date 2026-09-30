@@ -7,29 +7,42 @@ exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 TQID: 'https://experienceleague.adobe.com/DNqDZWOm1buhq-vLG3io11v-s-7SAXfb6W3A9VAOtXw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 91%
-
 ---
-
 # CNIL 同意豁免
 
 2020 年 10 月 1 日，法國資料保護局 (「CNIL」) 發布了其 Cookie 指南 (以下簡稱「指南」) 的修訂版，以及有關取得使用者同意在使用者的裝置或瀏覽器上儲存或讀取非必要 Cookie 和類似技術的最終建議 (以下簡稱「建議」)。
@@ -38,7 +51,7 @@ ht-degree: 91%
 
 * 最多保留 25 個月的資料。  您可以在[!UICONTROL 「Analytics >]>[!UICONTROL &#x200B; 管理員] > [!UICONTROL 資料管控]」下查看目前的資料保留設定。  [資料保留](/help/technotes/data-retention.md)
 * 在 ECID 中停用協力廠商 Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hant#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hant#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hant#id-service-api)
-* 13 個月的 Cookie 限制。  您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 期限。 CX Enterprise Cookie （包括Analytics和ECID）可延長每次造訪的Cookie到期日。  若要設定靜態、非滾動的Cookie有效期，您可以：(1)撰寫自訂程式碼，設定刪除Cookie的日期，或(2)使用您的CMP控制Cookie重設的日期。  [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md)和[CX Enterprise Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant#ec-cookies)
+* 13 個月的 Cookie 限制。  您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 期限。 包含Analytics和ECID的CX Enterprise Cookie可延長每次造訪的Cookie到期日。  若要設定靜態、非滾動的Cookie有效期，您可以：(1)撰寫自訂程式碼，設定刪除Cookie的日期，或(2)使用您的CMP控制Cookie重設的日期。  [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md)和[CX Enterprise Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant#ec-cookies)
 * 有限的範圍。 Cookie 的範圍必須限於單一網站或應用程式。 [瀏覽器 Cookie](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * 匿名。 將 IP 位址的最後一個八位元組匿名化。 [一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * 隱藏報表中的訪客 ID。  預設情況下，無法在 Adobe Workspace 和 Adobe Reports and Analytics 中看見訪客 ID。  訪客 ID 可在「資料摘要」和 Data Warehouse 中取得。  資料摘要和 Data Warehouse 的存取權可透過 [Admin Console 的存取權限](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-hant)和[資料摘要欄位參考資料](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)加以限制

@@ -7,21 +7,26 @@ exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 94%
-
 ---
-
 # 常見的機器人簽名
 
 雖然辨識資料集中的機器人會因環境而異，下面還是提供幾個辨識機器人的常見方式。
@@ -32,11 +37,11 @@ ht-degree: 94%
 
 ## 沒有反向連結
 
-機器人通常沒有反向連結 URL。 在分段中，這可以被篩選為 `Referring Domain equals Typed/Bookmarked`。
+機器人通常沒有轉介 URL。 在分段中，這可以被篩選為 `Referring Domain equals Typed/Bookmarked`。
 
 ## 奇怪的使用者代理
 
-機器人經常會使用未歸類在瀏覽器維度中的使用者代理，或是顯示為標準瀏覽器的 `unknown` 版本。 不明 Safari 和不明 Opera 極有可能是因為使用機器人。
+機器人經常會使用未歸類在瀏覽器維度中的使用者代理，或是顯示為標準瀏覽器的 `unknown` 版本。 不明 Safari 和不明 Opera 極有可能是機器人。
 
 ## Linux 或「未指定」作業系統
 
@@ -50,7 +55,7 @@ ht-degree: 94%
 
 ## 造訪數為 1
 
-機器人通常在每次執行時都會得到新的訪客 ID，因此只會發生一次造訪，而且其所有流量都是由造訪數 1 所組成。
+機器人通常在每次執行時都會取得新的訪客 ID，因此只會有一次造訪，而且其所有流量的造訪次數都會是 1。
 
 ## 螢幕解析度較低
 
@@ -66,13 +71,13 @@ ht-degree: 94%
 
 ## 國家/地區 + 時區不相符
 
-您會注意到來源國家/地區與時間不相符。 例如，位置可能是美國，但時區卻可能是 GMT。
+您會注意到來源國家/地區與時區不相符。 例如，位置可能是美國，但時區卻可能是 GMT。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bots-country-time-zone.png)
 
 ## 未登入
 
-使用者在造訪期間的任何時間點都不會登入，而且其使用者識別 eVar 不會從先前的造訪中保存下來。 雖然某些機器人可以設定為能夠進行驗證，但大多數的機器人沒有那麼聰明。
+使用者在造訪期間的任何時間點都不會登入，而且其使用者識別 eVar 不會從先前的造訪延續下來。 雖然某些機器人可以設定為能夠進行驗證，但大多數的機器人沒有那麼聰明。
 
 ## 造訪中沒有 KPI
 

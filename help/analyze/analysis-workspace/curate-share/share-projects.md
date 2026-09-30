@@ -5,31 +5,45 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+TQID: 'https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2059
+source-wordcount: '2059'
 ht-degree: 89%
-
 ---
-
 # 共用專案 {#share-projects}
 
 >[!CONTEXTUALHELP]
@@ -80,7 +94,7 @@ ht-degree: 89%
 
 * 專案角色 (**[!UICONTROL 編輯原始項目]**、**[!UICONTROL 編輯副本]**&#x200B;和&#x200B;**[!UICONTROL 唯讀]**) 會與使用者和特定專案 ID 相連結。 專案角色與[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant)中管理的使用者許可權無關。
 
-* 在Adobe Analytics中，群組是由[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant)中的產品設定檔所定義。 管理員可將任何群組當作共用對象，包括「全部」。 非管理員則可與其所屬的任何群組共用，但「全部」除外。
+* 在Adobe Analytics中，群組由[Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-hant)中的產品設定檔所定義。 管理員可將任何群組當作共用對象，包括「全部」。 非管理員則可與其所屬的任何群組共用，但「全部」除外。
 
 * 獲得多個角色的使用者一律會有最高體驗。 如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。 例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。
 
@@ -88,9 +102,9 @@ ht-degree: 89%
 
 * 如果選取了多個要共用的專案，收件者將會新增至每個專案的現有收件者清單。
 
-  例如，專案 A 已有收件者 1、2 和 3 共用，而專案 B 已有收件者 4、5 和 6 共用。
+  例如，專案 A 已與收件者 1、2 和 3 共用，而專案 B 已與收件者 4、5 和 6 共用。
 
-  然後，專案 A 以及 B 有收件者 4 和 7 共用。 新的專案 A 共用清單現在為 1、2、3、4 和 7，而新的專案 B 共用清單為 4、5、6 和 7。
+  然後，專案 A 和 B 會與收件者 4 和 7 共用。 新的專案 A 共用清單現在為 1、2、3、4 和 7，而新的專案 B 共用清單為 4、5、6 和 7。
 
 若要與組織中的使用者或群組共用特定專案角色：
 
@@ -101,7 +115,7 @@ ht-degree: 89%
    或
 
    若只要共用單一專案，您可以開啟要共用的專案，然後選取「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」。
-如果有未儲存的變更，系統會提示您先儲存專案。
+   如果有未儲存的變更，系統會提示您先儲存專案。
 
    共用專案對話框會顯示。 對話框的「[!UICONTROL **透過連結共用**]」和「[!UICONTROL **設定**]」部份只會在共用單一專案時可見到。
 
@@ -109,15 +123,15 @@ ht-degree: 89%
 
 1. 在提供的其中一個角色欄位中新增收件者或收件者群組：
 
-   **編輯原始項目：**&#x200B;收件者可以&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同所有者的身分操作。 如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。 <br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。 如果同時儲存專案，將會保留最後一個版本。
+   **編輯原始項目：**&#x200B;收件者可以&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同所有者的身分操作。 如果您想要與其他同事共同管理專案，此角色就很實用；這包括編輯、刪除和修改共用專案的收件者清單。 <br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。 如果同時儲存專案，將會保留最後一個版本。
 
    **複製副本：**&#x200B;收件者可以&#x200B;**[!UICONTROL 另存新檔]**，且擁有左側邊欄的存取權。 此角色的專案互動不受限制。 如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。
 
-   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側邊欄。 專案互動也有所限制。 如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案， 但您仍希望他們能在安全的環境中使用資料和洞察，就可以使用此角色。 深入了解[唯讀專案體驗](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。
+   **唯讀：**&#x200B;收件者無法&#x200B;**[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 另存新檔]**，也無法存取左側邊欄。 專案互動也有所限制。 如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，此角色就很實用。 但您仍希望他們能在安全的環境中使用資料和洞察。 深入了解[唯讀專案體驗](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。
 
 1. (視情況而定) 如果您要共用單一專案，則共用專案時請選擇是否啟用下列選項：
 
-   * **共用嵌入的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。 共用後，這些元件會出現在收件者 Workspace 的「元件」下拉式清單中。 系統不會沿用此設定，此動作僅在單次共用中有效。
+   * **共用嵌入的專案元件：**&#x200B;與所有收件者共用區段、計算量度、日期範圍。 共用後，這些元件會出現在收件者工作區的「元件」下拉式清單中。 系統不會沿用此設定，此動作僅在單次共用中有效。
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。 系統不會沿用此設定，此動作僅在單次共用中有效。
 
@@ -170,7 +184,7 @@ ht-degree: 89%
 > 
 >* 您與之共用的使用者可以變更專案日期範圍。 預設會顯示您為專案設定的日期範圍。
 >
->* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。 根據預設，每 5 分鐘可以有超過 190 人存取單一連結。 如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
+>* 如果有多位使用者同時嘗試存取所提供的連結，專案可能會變得無法存取。 預設情況下，每 5 分鐘可以有超過 190 人存取單一連結。 如果您的組織達到此限制，請等待 5 分鐘，然後再次嘗試存取該連結。
 
 
 >[!BEGINSHADEBOX]
@@ -204,9 +218,9 @@ ht-degree: 89%
 
      Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
-      * 如果此選項未顯示，就代表您的 Analytics 管理員未啟用此功能。
+     * 如果此選項未顯示，就代表您的 Analytics 管理員未啟用此功能。
 
-      * 如果此選項已啟用且變暗，您的Analytics管理員需要CX Enterprise驗證才能存取Analysis Workspace專案。
+     * 如果此選項已啟用且變暗，您的Analytics管理員要求所有存取Analysis Workspace專案的人均須進行CX Enterprise驗證。
 
 1. 在「**[!UICONTROL 與任何人共用 (無需登入)]**」欄位旁邊，按一下「**複製連結**」圖示 ![複製連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)，將連結複製到系統剪貼簿。
 
@@ -222,7 +236,7 @@ ht-degree: 89%
 
 當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
 
-當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。 例如，該連結可能已在電子郵件、內部網站等中提供。
+當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。 例如，該連結可能已透過電子郵件、內部網站等方式共用。
 
 ## 共用嵌入元件
 
@@ -235,10 +249,10 @@ ht-degree: 89%
 >[!ENDSHADEBOX]
 
 
-## 常見問答 {#FAQs}
+## 常見問題 {#FAQs}
 
 | 問題 | 回答 |
 | --- | --- |
 | 如果兩個編輯者同時儲存專案，會發生什麼情況？ | 不會合併變更，而會保留最後儲存的專案版本。 Analysis Workspace 目前不支援即時共同作業。 |
 | 如果某個收件者以個人身分設定於某個角色，又以群組成員身分設定於另一個角色，會發生什麼情況？ | 如果收件者獲得多個角色，將一律會有較高的體驗。 例如，如果收件者以個人身分獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 唯讀]**&#x200B;角色，就會獲得&#x200B;**[!UICONTROL 編輯原始項目]**&#x200B;專案體驗。 |
-| 如果收件者開啟了專案連結，將有何體驗？ | 收件者會獲得您在分享模式中為其設定的角色。 如果收件者未獲指派角色，並收到專案連結 (「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」，然後選取「**[!UICONTROL 複製]**」(在「**[!UICONTROL 透過連結共用]**」欄位旁邊))，則依照預設，它們會放入某個角色中。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。 |
+| 如果收件者開啟了專案連結，將有何體驗？ | 收件者會獲得您在分享對話方塊中為其設定的角色。 如果收件者未獲指派角色，並收到專案連結 (「**[!UICONTROL 共用]** > **[!UICONTROL 與 Workspace 使用者共用]**」，然後選取「**[!UICONTROL 複製]**」(在「**[!UICONTROL 透過連結共用]**」欄位旁邊))，則依照預設，它們會放入某個角色中。 管理員會獲得&#x200B;**[!UICONTROL 編輯原始項目]**，非管理員則會獲得&#x200B;**[!UICONTROL 編輯副本]**。 |

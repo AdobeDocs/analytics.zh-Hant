@@ -3,27 +3,35 @@ description: 分類規則會定期尋找未分類的詞語。 如果找到符合
 title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+TQID: 'https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: '1981'
 ht-degree: 62%
-
 ---
-
 # 分類規則（舊版）
 
 {{classification-rulebuilder-deprecation}}
@@ -41,7 +49,7 @@ ht-degree: 62%
 * **追蹤程式碼**：建立分類規則將衍生自追蹤程式碼內之字串的索引鍵值分類，並和您定義的特定準則比對。
 * **搜尋詞**：使用[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)和萬用字元來簡化分類搜尋詞的程序。 例如，如果搜尋詞包含 *`baseball`*，您可將分類 *`Sports League`* 設定為 *`MLB`*。
 
-例如，假設電子郵件促銷活動 ID 的追蹤程式碼是：
+例如，假設電子郵件行銷活動 ID 的追蹤程式碼是：
 
 `em:Summer:20XX:Sale`。
 
@@ -119,7 +127,7 @@ about_classification_rules.xml
 >
 >如果追蹤程式碼為URL編碼，它將&#x200B;**不會**&#x200B;由規則產生器分類。
 
-在這個範例中，假設您要將以下的促銷活動 ID 分類：
+在這個範例中，假設您要將以下的行銷活動 ID 分類：
 
 範例金鑰： `em:JuneSale:20XX0601`
 
@@ -131,7 +139,7 @@ about_classification_rules.xml
 
 規則運算式： `^(.+)\:(.+)\:(.+)$`
 
-規則運算式如何與促銷活動 ID 關聯：
+規則運算式如何與行銷活動 ID 關聯：
 
 ![](assets/regex.png)
 
@@ -207,7 +215,7 @@ about_classification_rules.xml
 | 比對字串`a:b:c`的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | 比對字串`a:b:c:d`的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## 規則運算式 - &quot;Does Not Contain&quot; 範例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## 規則運算式 -「不包含」範例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 這個範例提供一個規則運算式，會匹配不包含特定字元的任何字串，在這個例子裡是 `13`。
 
@@ -333,7 +341,7 @@ t_classification_rule.xml
    >
    >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
-1. 指定是否覆寫現有規則：
+1. 指定是否覆寫現有值：
 
    | **規則覆寫任何現有的值** | （預設設定）一律覆寫現有的分類索引鍵，包括透過匯入工具(SAINT)上傳的分類。 |
    |---|---|
@@ -352,7 +360,7 @@ t_classification_rule.xml
 1. [測試您的規則集](/help/components/classifications/crb/classification-quickstart-rules.md)。
 1. 測試之後，按一下&#x200B;**[!UICONTROL 「作用中」]**&#x200B;以驗證及啟動規則。
 
-   啟動規則會自動建立 檔案，並幫您上傳檔案。
+   啟動規則會自動建立檔案，並幫您上傳檔案。
 
    欄位定義：請參閱[分類規則產生器](/help/components/classifications/crb/classification-rule-definitions.md)，以取得這個頁面上之介面選項的完整定義。
 

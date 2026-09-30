@@ -7,24 +7,32 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 84%
-
 ---
-
 # 加上標籤範例
 
 ## 範例點擊資料 {#hit}
@@ -49,7 +57,7 @@ ht-degree: 84%
 
 ## 範例存取請求 {#access}
 
-如果提交存取請求，您將收到兩個可以傳回至資料主體的檔案。 其中一個檔案是 CSV 檔案，其中包含為資料主體接收到每個點擊的一列，以及每個具有適當存取標籤變數的欄。 另一個檔案則是摘要 HTML 檔案，其中列出每個變數，其後是資料主體變數顯示的所有唯一值，以及每個唯一值顯示的次數。
+如果提交存取請求，您將收到兩個可以傳回至資料主體的檔案。 其中一個檔案是 CSV 檔案，包含資料主體收到的每次點擊各一列，以及每個變數各一欄，並附有適當的存取標籤。 另一個檔案則是摘要 HTML 檔案，其中列出每個變數，後面接著列出資料主體在該變數中出現的所有唯一值，以及每個唯一值出現的次數。
 
 針對我們的範例，此摘要檔案包含下表所示的值。 請求可能僅傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。 唯有使用人員 ID 且 `expandIds` 為 true 時，系統才會傳回兩個摘要檔案。
 
@@ -161,7 +169,7 @@ ht-degree: 84%
 
 ## 樣本刪除請求 {#delete}
 
-由於表格第一列中有使用 API 值的刪除請求，點擊表格的內容將會更新並看起來像這樣：
+使用表格第一列中的 API 值提出刪除請求後，點擊表格將會更新，看起來會像這樣：
 
 <table>
   <tr>

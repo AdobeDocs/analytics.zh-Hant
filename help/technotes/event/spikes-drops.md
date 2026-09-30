@@ -3,28 +3,41 @@ title: 疑難排解資料中的尖峰和下降
 description: 了解可在趨勢報表中看到大幅增加或減少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+TQID: 'https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '856'
 ht-degree: 100%
-
 ---
-
 # 疑難排解資料中的尖峰和下降
 
 當網站收集資料時，會有許多外部因素大幅影響資料的收集或報告。 以下清單列出特定變數或整體流量大幅增加或減少的可能解釋。
@@ -37,16 +50,16 @@ ht-degree: 100%
 
 ### 完全遺失資料的可能原因 (報告零)
 
-* **報表套裝延遲**：報表套裝偶爾會因為多種因素而出現[延遲](../latency.md)。 延遲問題大多可在幾小時內解決。 如果對特定報表套裝有疑慮，請聯絡 Adobe 客戶服務以取得受影響的報表套裝 ID。
+* **報表套裝延遲**：報表套裝偶爾會因為多種因素而出現[延遲](../latency.md)。 延遲問題大多可在幾小時內解決。 如果您對特定報告套裝有疑慮，請聯絡 Adobe 客戶服務，並提供受影響的報告套裝 ID。
 * **實作移除**：有時當組織進行實作變更或重新建構網站時，會忽略重新實作 Analytics。 請與組織內部開發人員合作，在您的網站上重新實作程式碼。
-* **Analytics 介面/快取問題**：在罕見情況下，瀏覽器的快取會包含無效資料，使所有報表都傳回零。 請清除瀏覽器的 Cookie 和快取以解決問題。 如果清除 Cookie/快取沒有作用，請聯絡客戶服務，了解遺失的報表和日期範圍；他們可以複製問題並提供其他資訊。
+* **Analytics 介面/快取問題**：在罕見情況下，瀏覽器的快取會包含無效資料，使所有報表都傳回零。 請清除瀏覽器的 Cookie 和快取以解決問題。 如果清除 Cookie/快取沒有作用，請聯絡客戶服務，並提供遺失的報表和日期範圍；他們可以複製問題並提供其他資訊。
 * **Analytics 可用性**：檢查 [status.adobe.com](https://status.adobe.com/tw/products/1173/)，了解與資料收集或處理有關的任何問題。
 
 ### 部分遺失資料或流量減少的可能原因
 
 * **實作變更**：使用[除錯工具](/help/implement/validate/debugger.md)驗證所需的維度是否有效。
 * **反向連結流量下降**：如果移除其他網站上的熱門橫幅廣告或超連結，可能會導致流量大幅下降。 分析流量下降前後[反向連結網域](/help/components/dimensions/referring-domain.md)維度的趨勢，以進一步研究。
-* **網站績效問題**：透過負載平衡器不正確分配流量，或是託管網站的伺服器出現問題，可能會導致 Analytics 報表中的績效下降。 與組織內部負責管理網站完整性與健全狀態的團隊合作，調查任何潛在績效問題。
+* **網站績效問題**：透過負載平衡器不正確分配流量，或是託管網站的伺服器出現問題，可能會導致 Analytics 報表中的績效下降。 與組織內部負責管理網站完整性與健全狀態的團隊合作，調查任何潛在效能問題。
 * **自然搜尋排名變更**：如果其他網站對某些關鍵字的免費搜尋排名超越您，流量可能會降低。 如果您的網站不再位於搜尋結果的第一頁，此下降尤其明顯。 分析[搜尋引擎](/help/components/dimensions/search-engine.md)維度的趨勢，以進一步研究。
 * **PPC 廣告變更**：變更現有行銷活動的廣告標題和說明可能會影響您的品質分數。 一般而言，高品質分數表示您的關鍵字觸發廣告的位置較高，且每次點按成本較低。 分析[搜尋關鍵字 - 付費](/help/components/dimensions/search-keyword.md)維度的趨勢，以進一步研究。
 
@@ -54,9 +67,9 @@ ht-degree: 100%
 
 流量尖峰可分為兩個區段：幾乎雙倍資料和其他原因。
 
-### 可能導致資料接近或恰好是預期資料的兩倍
+### 資料接近或恰好為預期兩倍的可能原因
 
-* **實作中有多個影像要求**：如果您的實作每頁包含多個 [`t()`](/help/implement/vars/functions/t-method.md) 方法呼叫，則可有效將收集的所有資料加倍。 在您的網站上使用除錯工具，並觀察多個影像要求以擷取重複的項目。
+* **實作中有多個影像要求**：如果您的實作每頁包含多個 [`t()`](/help/implement/vars/functions/t-method.md) 方法呼叫，則可有效將收集的所有資料加倍。 在您的網站上使用除錯工具，並留意是否有多個影像請求，以找出重複項目。
 * **已上傳重複的資料來源檔案**：如果您的組織會使用[資料來源](/help/import/data-sources/overview.md)，組織的使用者可以將相同檔案上傳至 Adobe Analytics 兩次。 執行此重複上傳會使報告中的資料有效增加一倍，造成流量尖峰。
 
 ### 流量增加的其他可能原因

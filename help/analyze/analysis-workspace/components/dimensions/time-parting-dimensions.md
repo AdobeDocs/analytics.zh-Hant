@@ -4,26 +4,35 @@ title: 時間分段維度
 feature: Dimensions
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-TQID: https://experienceleague.adobe.com/bQVBmv3KhaDZtmUXSOY3UsustpCZKAwJ8rH9Qv49Rfw
+TQID: 'https://experienceleague.adobe.com/bQVBmv3KhaDZtmUXSOY3UsustpCZKAwJ8rH9Qv49Rfw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 42%
-
 ---
-
 # 時間分隔維度
 
 「時間分段」功能會擷取所收集的點選的時間戳記，並採用更有意義的維度加以分段，例如&#x200B;**小時**&#x200B;或&#x200B;**星期**。
@@ -36,7 +45,7 @@ ht-degree: 42%
 >[!ENDSHADEBOX]
 
 
-時間分段維度是以報表套裝或虛擬報表套裝的時區為基礎。 這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
+時間分段維度是以報表套裝或虛擬報表套裝的時區為基礎。 這些維度可在 Analysis Workspace 中使用，並可協助回答以下問題：
 
 * 以長久的日期範圍來看，一天之中何時是訪客最常存取我的網站或應用程式的熱門時段？
 * 在我的網站或應用程式中，是「星期」還是「小時」的轉換率較高？

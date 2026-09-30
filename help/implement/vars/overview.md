@@ -1,6 +1,6 @@
 ---
 title: 變數、函數、方法和外掛程式概觀
-description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
+description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報告。
 keywords: appmeasurement, 變數, vars, 設定, 頁面, 實作
 feature: Appmeasurement Implementation
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
@@ -8,24 +8,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Jyw64eX30vu3tLyimiM5A-t9aTqkAZE0wrsd4i0BCmc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 417
+source-wordcount: '417'
 ht-degree: 100%
-
 ---
-
 # 變數、函數、方法和外掛程式概觀
 
 Analytics 提供數個變數，可用於收集 Analytics 資料。 本節中的變數分為幾個部分：
@@ -48,7 +56,7 @@ Adobe 提供多種實施 Adobe Analytics 的方式。 每個頁面都會透過�
 
 ## 操作順序
 
-Adobe Analytics 發佈的 AppMeasurement 資料庫在傳送資料至 Adobe 時，會遵循特定順序。 如果您未按照順序執行這些任務，資料可能會不完整。
+Adobe Analytics 發佈的 AppMeasurement 程式庫在傳送資料至 Adobe 時，會遵循特定順序。 如果您未按照順序執行這些任務，資料可能會不完整。
 
 1. 若您的網站使用資料層，請先確認所有適用的變數均會填入。 例如，您會使用頁面標題來填入`adobeDataLayer.page.title`。 如需詳細資訊，請參閱[資料層](../prepare/data-layer.md)。
 2. 使用資料層填入 Analytics 變數。 <br/>如果您在 Adobe Experience Platform 中使用標記，則可透過中間的資料元素來完成此任務。 資料元素會填入來自資料層的值。 例如，資料元素`Page Title`會從資料層變數 `adobeDataLayer.page.title` 取得值。 <br/>接著，您就可以使用該資料元素來填入 Analytics 變數。 例如，`eVar4` 會從資料元素 `Page Title` 取得值。 <br/>如需更多資訊，請參閱[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)、[將資料層物件對應至資料元素](../launch/layer-to-elements.md)以及[將標記資料元素對應至 Analytics 變數](../launch/elements-to-variable.md)

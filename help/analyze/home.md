@@ -7,22 +7,36 @@ exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 TQID: 'https://experienceleague.adobe.com/dFgB2YaXB7vihIOV8bcVGpg96UnT5pkNvjJaok319nU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+subfeature_v2:
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: '569'
 ht-degree: 98%
-
 ---
-
 # Analytics 工具指南
 
 ![橫幅](../../assets/doc_banner_analyze.png)
@@ -32,13 +46,13 @@ ht-degree: 98%
 | 工具 | 說明 |
 |-----------|----------------|
 | **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** | Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享洞察。 您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。 |
-| **[Analytics 儀表板](/help/analyze/mobile-app/home.md)** | Analytics 儀表板和行動計分卡可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。 鑑選人將視覺化內容加入行動計分卡專案，並與高階主管分享。  <br>計分卡提供了一種定位與衡量 KPI 的方法，並且能清楚呈現組織在實現目標方面的工作情況。 |
-| **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的訪客參與情形。 <br> Activity Map 可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。」 |
-| **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | Mac、 Windows 和網頁瀏覽器支援適用於 Microsoft Excel 的新 Report Builder 增益集。 Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。 這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
-| **[舊版 Report Builder](/help/analyze/legacy-report-builder/home.md)** | 舊版 Report Builder 是適用於 Microsoft Excel 的增益集，僅 Microsoft Windows 支援。 Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。 這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
+| **[Analytics 儀表板](/help/analyze/mobile-app/home.md)** | Analytics 儀表板和行動計分卡可讓高階主管使用者在自己的行動裝置上，輕鬆快速地檢視重要摘要資料的廣泛呈現。 鑑選人將視覺化內容加入行動計分卡專案，並與高階主管分享。  <br>計分卡提供了一種定位與衡量 KPI 的方法，並且能清楚呈現組織在實現目標方面的工作情況。 |
+| **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監視網頁客群的參與情形。 <br> Activity Map 可讓您設定不同的視圖，以直觀識別客戶活動加速情況，量化行銷計劃，並根據客群需求和行為採取行動。」 |
+| **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | 適用於 Microsoft Excel 的新 Report Builder 增益集支援 Mac、Windows 和網頁瀏覽器。 Report Builder 可讓您根據 Adobe Analytics 資料建置自訂請求，並將其插入 Excel 工作表中。 這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
+| **[舊版 Report Builder](/help/analyze/legacy-report-builder/home.md)** | 舊版 Report Builder 是適用於 Microsoft Excel 的增益集，且僅支援 Microsoft Windows。 Report Builder 可讓您根據 Adobe Analytics 資料建置自訂請求，並將其插入 Excel 工作表中。 這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 |
 | **[Analytics API](https://developer.adobe.com/analytics-apis/docs/2.0/)** | 使用 Analytics API 就能直接呼叫 Adobe 的伺服器，執行幾乎所有使用者介面中可以執行的動作。 您可以建立報告來探索、取得洞察，或是回答資料相關的重要問題。 您也可以管理 Adobe Analytics 的元件，例如建立區段或計算量度。 |
 
-如果要了解 Adobe Analytics 的基礎知識，請查看 *Adobe Analytics 簡介 - Skill Builder 網路研討會*&#x200B;下的影片。 影片中介紹了如何擷取資料、如何將資料發送到 Adobe Analytics，以及您可以在 Adobe Analytics 中使用哪些視覺化功能的基礎知識。 影片能為您建置、部署、收集和解譯資料提供基礎…讓您能夠根據收集的資料，提供可操作洞察和建議。
+如果要了解 Adobe Analytics 的基礎知識，請查看 *Adobe Analytics 簡介 - Skill Builder 網路研討會*&#x200B;下的影片。 影片中介紹了如何擷取資料、如何將資料發送到 Adobe Analytics，以及您可以在 Adobe Analytics 中使用哪些視覺化功能的基礎知識。 影片能為您建置、部署、收集和解譯資料提供基礎…讓您能夠根據收集的資料，提供可操作洞察和推薦。
 
 
 >[!BEGINSHADEBOX]

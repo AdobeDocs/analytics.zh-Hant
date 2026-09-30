@@ -1,5 +1,5 @@
 ---
-description: 伺服器端轉送是專為想要即時從Analytics分享資料到其他CX Enterprise解決方案的客戶所設計。 啟用伺服器端轉送功能後，也可在資料收集過程中讓Analytics推送資料至其他CX企業解決方案，並讓這些解決方案推送資料至Analytics。
+description: 伺服器端轉送是專為想要即時將資料從Analytics分享至其他CX Enterprise解決方案的客戶所設計。 啟用伺服器端轉送功能後，也可在資料收集程式期間，讓Analytics推送資料至其他CX Enterprise解決方案，並讓這些解決方案推送資料至Analytics。
 solution: Analytics
 title: 伺服器端轉送概觀
 feature: Report Suite Settings
@@ -8,29 +8,41 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 70%
-
 ---
-
 # 伺服器端轉送概觀
 
-伺服器端轉送是專為想要即時從Analytics分享資料到其他CX Enterprise解決方案的客戶所設計。 啟用伺服器端轉送功能後，也可在資料收集過程中讓Analytics推送資料至其他CX企業解決方案，並讓這些解決方案推送資料至Analytics。
+伺服器端轉送是專為想要即時將資料從Analytics分享至其他CX Enterprise解決方案的客戶所設計。 啟用伺服器端轉送功能後，也可在資料收集程式期間，讓Analytics推送資料至其他CX Enterprise解決方案，並讓這些解決方案推送資料至Analytics。
 
 伺服器端轉送可進一步改善資料收集方式，因為它：
 
@@ -43,7 +55,7 @@ ht-degree: 70%
 >使用 Analytics 的 Audience Manager 現有客戶應改為使用伺服器端轉送。 Adobe Analytics 和 Audience Manager 的新客戶應實施伺服器端轉送 (而不是 DIL) 作為預設的資料收集和傳送方法。
 
 >[!IMPORTANT]
->現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 Adobe Audience Manager。 如需詳細資訊，請參閱[GDPR_ePrivacy法規遵循與伺服器端轉送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)。
+>現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將同意前資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 設定變數時，可防止這些點擊在收到同意前傳送至 Adobe Audience Manager。 如需詳細資訊，請參閱[GDPR_ePrivacy法規遵循與伺服器端轉送](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)。
 
 若要瞭解貴組織實施伺服器端轉送的狀況，請進行以下驗證步驟：
 
@@ -51,7 +63,7 @@ ht-degree: 70%
 
 檢查 [Analytics 追蹤請求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=zh-Hant)，確認是否已實施 Experience Cloud ID (ECID) 服務。
 
-在「請求」索引標籤中，確認 ECID 值已完成設定。 此步驟可告訴您身分識別服務已正確實施，此為伺服器端轉送的必要條件。
+在「請求」索引標籤中，確認已設定 ECID 值。 此步驟可告訴您身分識別服務已正確實施，此為伺服器端轉送的必要條件。
 
 * 如果畫面顯示 ECID 值，請繼續執行步驟 2。
 * 如果未顯示 ECID 值，請先[實施身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=zh-Hant)，再繼續執行步驟 2。
@@ -69,7 +81,7 @@ ht-degree: 70%
   * **具有 DIL 的 Adob&#x200B;&#x200B;e Audience Manager 客戶**：密切協調下列兩個項目：
 
     1. 移除DIL程式碼並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼。
-    1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。 在移除DIL程式碼之前啟用此設定將會複製資料，並產生對Audience Manager的其他計費伺服器呼叫。
+    1. 在 Analytics Admin UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。 在移除DIL程式碼之前啟用此設定將會複製資料，並產生對Audience Manager的其他計費伺服器呼叫。
 
   * **新 Adobe Audience Manager 客戶** - 安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼，並繼續進行步驟 3。 在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
 
@@ -81,7 +93,7 @@ ht-degree: 70%
 
 前往&#x200B;**「Analytics** > **管理員** > **報表套裝** > (選取&#x200B;**「報表套裝」**) > **編輯設定** > **一般** > **伺服器端轉送」**。 如果核取方塊為：
 
-* **非作用中** (您無法進行選擇或選單不存在)：您沒有將選定的報表套裝對應到組織 ID。 聯絡客戶服務部 (Customer Care) 以確保報表套裝的對應正確無誤。
+* **非作用中** (您無法進行選擇或選單不存在)：您沒有將選定的報表套裝對應到組織 ID。 聯絡客戶服務部 (Customer Care) 以確保報告套裝的對應正確無誤。
 * **已停用**：您未開啟新的伺服器端轉送。 閱讀頁面內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。 您也可以設定此Audience Analytics整合。
 

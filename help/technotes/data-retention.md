@@ -3,32 +3,44 @@ title: 資料保留原則
 description: 資料保留原則可決定 Adobe 儲存您資料的時間長度。
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+TQID: 'https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 92%
-
 ---
-
 # 資料保留原則
 
-Adobe Analytics 所收集的資料會保留指定的一段時間。 Adobe 保留這些資料的時間長度因合約而異，具體列於組織的資料保留原則中。 此原則適用於資料本身，這表示會影響所有 Analytics 報表功能 (Analysis Workspace、報表 API 等)。
+Adobe Analytics 所收集的資料會保留指定的一段時間。 Adobe 保留這些資料的時間長度因合約而異，具體列於組織的資料保留原則中。 此原則適用於資料本身，這表示會影響所有 Analytics 報表功能 (Analysis Workspace、報告 API 等)。
 
 **Adobe Analytics的預設資料保留原則為25個月。** 貴組織的保留原則可能有所不同，具體取決於合約。
 
@@ -43,7 +55,7 @@ Adobe Analytics 所收集的資料會保留指定的一段時間。 Adobe 保留
 
 ## 資料保留與資料隱私
 
-Adobe 身為資料處理者，必須採取適當措施來協助客戶完成存取、刪除和其他來自個人的請求。 套用適當、安全與即時的刪除政策，是遵守這項法規中非常重要的一個環節。 GDPR 適用於以歐盟公民為行銷或資訊處理對象的所有客戶。 CCPA 適用於以加州公民為行銷或資訊處理對象的所有客戶。 由此可知，資料隱私可說是全球性的規範變革。
+Adobe 身為資料處理者，必須採取適當措施來協助客戶完成存取、刪除和其他來自個人的請求。 套用適當、安全與即時的刪除政策，是遵守這項義務中非常重要的一個環節。 GDPR 適用於以歐盟公民為行銷或資訊處理對象的所有客戶。 CCPA 適用於以加州公民為行銷或資訊處理對象的所有客戶。 由此可知，資料隱私可說是全球性的規範變革。
 
 ## 資料刪除
 
@@ -63,19 +75,19 @@ Adobe 身為資料處理者，必須採取適當措施來協助客戶完成存�
 
 +++ 如何計算資料保留期間？
 
-資料保留原則會定義一個可變動的資料保留期間，在此期間中，您可以查看及回報完整資料。 資料保留開始日期的決定方式為目前日期減去資料保留期。 資料保留結束日期則取決於目前日期。 若資料的時間戳記介於開始日期與結束日期之間，代表資料處於資料保留期間。
+資料保留原則會定義一個可變動的資料保留期間，在此期間中，您可以查看及回報完整資料。 資料保留開始日期的決定方式為目前日期減去資料保留期。 資料保留結束日期則取決於目前日期。 若資料的時間戳記介於開始日期與結束日期之間，則該資料會納入資料保留範圍。
 
 +++
 
 +++ 我可以在資料刪除前索取資料複本嗎？
 
-是。 Adobe 可提供原始點擊層級資料的歷史資料傾印。 如需詳細資訊，請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。 如果您的資料匯出需求超出 UI 可提供的範圍，請聯絡 Adobe 帳戶團隊。 可提供特殊專用空間；費用可能有所不同。
+是。 Adobe 可提供原始點擊層級資料的歷史資料傾印。 如需詳細資訊，請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。 如果您的資料匯出需求超出 UI 可提供的範圍，請聯絡 Adobe 帳戶團隊。 可作特殊安排；費用可能有所不同。
 
 +++
 
 +++ Adobe 何時會刪除資料？
 
-請與 Adobe 帳戶團隊聯絡，瞭解排定刪除您資料的確切時間。 通常會刪除過去一個月的資料。
+請與 Adobe 帳戶團隊聯絡，瞭解排定刪除您資料的確切時間。 資料通常會按月滾動刪除。
 
 +++
 

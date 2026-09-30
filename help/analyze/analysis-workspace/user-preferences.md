@@ -8,32 +8,50 @@ autotag-review: '2026-05-22T09:22:51.975Z'
 TQID: 'https://experienceleague.adobe.com/AuXKVYYgnGJ11GtZVv5hO2CIJwiyuRrvv2tv10kFyvM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
+    internal-label: View density
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3534
+source-wordcount: '3534'
 ht-degree: 93%
-
 ---
-
 # 使用者偏好設定
 
 您可以管理您建立之所有新專案或面板之 Analysis Workspace 及其相關元件的設定。 現有專案和面板不受影響。
@@ -94,7 +112,7 @@ ht-degree: 93%
 |  | 隱藏範本索引標籤 | 對組織中所有使用者隱藏範本索引標籤。 |
 | **專案共用** | | |
 | | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。 使用者無法與您組織中沒有Analysis Workspace帳戶的人共用專案，如[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)中所述。<br/>除了已授權Healthcare Shield的客戶之外，所有組織都預設停用此選項。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。 在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL **連結使用中**]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。 在您停用此選項讓使用者可以使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。 新增權限後，您可以停用此選項，然後接受所產生的法律聲明。 如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
-| | 要求 CX Enterprise 驗證 | 啟用此選項後，透過Analysis Workspace中的&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其CX Enterprise憑證進行驗證。<p>啟用此選項後，每當使用者使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項共用專案時，共用對話方塊中就會啟用&#x200B;**[!UICONTROL 需要CX企業驗證]**&#x200B;選項，且共用專案的使用者無法停用該選項。 如需有關使用者如何與任何人共用專案的資訊，請參閱 [與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，先前與&#x200B;**[!UICONTROL 共用給任何人]**&#x200B;的共用選項，以及未啟用[!UICONTROL 需要CX企業驗證]選項的所有專案都會停用。<p>如果此選項已啟用（需要CX Enterprise驗證），之後又停用（允許具有連結的任何人存取專案），則先前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項收到專案存取權的使用者，不會自動重新取得其專案的存取權。 在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)。</li><li>您的組織實作 SSO 時才可使用這個選項。 如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。 系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
+| | 要求 CX Enterprise 驗證 | 啟用此選項後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其CX Enterprise認證進行驗證。<p>啟用此選項後，每當使用者使用「與任何人共用&#x200B;**[!UICONTROL 」共用選項]**&#x200B;共用專案時，「共用」對話方塊中就會啟用「需要CX Enterprise驗證&#x200B;**」選項，且共用專案的使用者無法停用該選項。**&#x200B;如需有關使用者如何與任何人共用專案的資訊，請參閱 [與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，先前與&#x200B;**[!UICONTROL 共用給任何人]**&#x200B;的共用選項，以及未啟用[!UICONTROL 需要CX Enterprise驗證]選項的所有專案都會停用。<p>如果此選項已啟用（需要CX Enterprise驗證），之後又停用（允許具有連結的任何人存取專案），則先前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項收到專案存取權的使用者，不會自動重新取得其專案的存取權。 在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)。</li><li>您的組織實作 SSO 時才可使用這個選項。 如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。 系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 
 {style="table-layout:auto"}
 

@@ -3,27 +3,36 @@ description: 報表套裝主要定義選定網站、一組網站或網頁子集�
 title: 報表套裝管理員
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+TQID: 'https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 84%
-
 ---
-
 # 報表套裝管理員
 
-報表套裝會為以下任何資料儲存定義完整、獨立的報表：
+報告套裝會為以下任何資料儲存定義完整、獨立的報告：
 
 * 單一網站 (最常見)
 
@@ -35,7 +44,7 @@ Analytics解決方案會針對這些資料存放區進行彙總及報告。 管�
 
 當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。
 
-存取報表套裝：
+存取報告套裝：
 
 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**
 
@@ -43,7 +52,7 @@ Analytics解決方案會針對這些資料存放區進行彙總及報告。 管�
 >
 >虛擬報表套裝可透過「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**」來管理。 請參閱「[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)」。
 
-## 報表套裝管理員說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
+## 報告套裝管理員說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
 下表說明[!UICONTROL 「報表套裝管理員」]頁面上的元素。
 

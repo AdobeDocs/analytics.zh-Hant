@@ -3,28 +3,39 @@ description: 瞭解如何在Audience Library、Target和Audience Manager中發�
 title: 發佈區段
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+TQID: 'https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1432
+source-wordcount: '1432'
 ht-degree: 31%
-
 ---
-
 # 發佈區段 {#publish-segments}
 
 >[!CONTEXTUALHELP]
@@ -56,7 +67,7 @@ ht-degree: 31%
 
 ## 先決條件
 
-* 請確認您要儲存此區段的目標報表套裝已在CX Enterprise [&#128279;](/help/components/segmentation/segmentation-workflow/seg-publish.md)中啟用。 否則，您無法將其發佈至CX Enterprise。
+* 請確認您要儲存此區段的目標報表套裝已[啟用CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否則，您無法將其發佈至CX Enterprise。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
@@ -93,10 +104,10 @@ ht-degree: 31%
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]** | 啟用此選項後，區段標題和定義會立即與CX Enterprise共用，而區段會籍則每4小時評估一次並共用一次。<br> 例如，當該對象與Target中的活動建立關聯時，[!DNL Analytics]會開始傳送ID給符合CX Enterprise和Target對象資格的訪客。 此時，對象名稱和對應的資料開始顯示在CX Enterprise的[!DNL Audience Library]頁面上。</br> |
+| **[!UICONTROL 將此區段發佈至Experience Cloud （針對&#x200B;*報表套裝*）]** | 啟用此選項後，區段標題和定義會立即與CX Enterprise共用，而區段會籍則每4小時評估及共用一次。<br> 例如，將對象與Target中的活動建立關聯後，[!DNL Analytics]會開始傳送ID給符合CX Enterprise和Target對象資格的訪客。 此時，對象名稱和對應的資料開始顯示在CX Enterprise的[!DNL Audience Library]頁面上。</br> |
 | **[!UICONTROL 建立客群視窗]** | 您選取的時間範圍會用於依滾動日曆建立對象。 例如，**[!UICONTROL 最近30天]** （預設）包含自當天日期（並非建立區段的原始日期）起最近30天符合對象資格的訪客。 |
-| **[!UICONTROL 在客群庫中建立]** | 您建立和發佈的區段可在CX Enterprise的[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。 這些區段不會計入 75 個已發佈區段的限制中。 |
-| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 您發佈至CX Enterprise的區段數。 按一下連結，可檢視已發佈區段及其關聯報告套裝和擁有者的清單。 |
+| **[!UICONTROL 在客群庫中建立]** | 您在CX Enterprise中建立和發佈的區段可在[!DNL Audience Library]頁面上無延遲提供使用。 這些區段不依賴 Analytics 更新。 這些區段不會計入 75 個已發佈區段的限制中。 |
+| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 您已發佈至CX Enterprise的區段數。 按一下連結，可檢視已發佈區段及其關聯報告套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
 ## 取消發佈或刪除區段
@@ -118,7 +129,7 @@ ht-degree: 31%
 
 1. 在Adobe Analytics中，移至&#x200B;**[!UICONTROL 元件]** > **[!UICONTROL 區段]**。
 
-1. 檢視&#x200B;**[!UICONTROL 已發佈]**&#x200B;欄。 此資料欄中的&#x200B;**[!UICONTROL 是]**&#x200B;表示該區段已發佈至CX Enterprise。 **[!UICONTROL 否]**&#x200B;表示區段尚未發佈。
+1. 檢視&#x200B;**[!UICONTROL 已發佈]**&#x200B;欄。 此欄中的&#x200B;**[!UICONTROL 是]**&#x200B;表示該區段已發佈至CX Enterprise。 **[!UICONTROL 否]**&#x200B;表示區段尚未發佈。
 
 ## 擷取Audience Manager UUID
 
@@ -157,7 +168,7 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
 1. 在Audience Manager中，前往&#x200B;**[!UICONTROL 對象資料]** > **[!UICONTROL 特徵]** > **[!UICONTROL Analytics特徵]**。 您會看到已對應至您CX Enterprise組織的每個Analytics報表套裝的資料夾。 當輪廓和客群/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、細分群體和資料來源)。
 1. 選取您先前建立要與Audience Manager共用之區段的報表套裝資料夾。 您會看到建立的區段/對象。 當您共用區段時，Audience Manager中會發生下列兩件事：
-   * 系統會建立一個特徵，一開始不含任何資料。 大約 在[!DNL Analytics]中發佈區段後8小時，ECID清單就會上線並與Audience Manager和其他CX企業解決方案共用。
+   * 系統會建立一個特徵，一開始不含任何資料。 大約 在[!DNL Analytics]中發佈區段後8小時，ECID清單就會上線並與Audience Manager和其他CX Enterprise解決方案共用。
 
      ![Audience Manager 特徵](assets/aam-traits.png)
 

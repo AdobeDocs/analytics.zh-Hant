@@ -5,28 +5,39 @@ title: 建立分享連結
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-TQID: https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE
+TQID: 'https://experienceleague.adobe.com/eR53u4V-gSwhSRXrSmGlyuMx68cO-7kU1XKgz7teSjE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 61%
-
 ---
-
 # 建立分享連結
 
 Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專案連結或專案特定部分的功能。 部分連結類型會要求收件者在存取專案之前登入 Adobe Analytics，其他連結類型則不會要求。
@@ -45,7 +56,7 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ## 取得面板或視覺效果連結
 
-您也可以分享專案特定部分的連結，例如面板或個別視覺效果， 有時也稱為內部連結。 此功能有助於讓使用者專注於專案中重要的洞察。
+您也可以分享專案特定部分的連結，例如面板或個別視覺效果。 有時也稱為內部連結。 此功能有助於讓使用者專注於專案中重要的洞察。
 
 * 從面板標題的內容功能表中，選取&#x200B;**[!UICONTROL 取得面板連結]**
 * 從視覺效果標題的內容功能表中，選取&#x200B;**[!UICONTROL 取得視覺效果連結]**
@@ -56,7 +67,7 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ## 在目錄中使用連結 {#TOC}
 
-運用各種連結選項的秘訣之一，就是一律在 Analysis Workspace 專案的頂端加入目錄。 您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺效果。 如此有助於專案的收件者輕鬆導覽。
+運用各種連結選項的秘訣之一，就是一律在 Analysis Workspace 專案的頂端加入目錄。 您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺效果。 如此有助於專案的接收者輕鬆導覽。
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=zh-Hant)以了解如何使用連結和工作區功能齊全的文字編輯器，輕鬆建立目錄。
 
