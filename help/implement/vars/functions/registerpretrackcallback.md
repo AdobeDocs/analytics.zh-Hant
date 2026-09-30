@@ -59,7 +59,7 @@ Web SDK無法在資料編譯後、但在將其傳送至Adobe之前連結函式�
 
 ## 手動實作網站SDK的預先追蹤回呼
 
-Web SDK無法在資料編譯後、但在將其傳送至Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式，類似`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally)。
+Web SDK無法在資料編譯後、但在將其傳送至Adobe之前連結函式。 不過，您可以使用`onBeforeEventSend`註冊在資料傳送前執行的函式，類似`doPlugins`。 如需詳細資訊，請參閱Web SDK檔案中的[全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant#modifying-events-globally)。
 
 ```js
 // Set the trackingCode XDM field to "New value"

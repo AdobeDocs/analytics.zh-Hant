@@ -49,7 +49,7 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 
 如果退出連結目標網域與目前的 `window.location.hostname` 不同，則連結會以退出連結自動符合條件。 Web SDK 不提供任何設定變數來修改自動退出連結檢測。 如果您需要自訂以退出連結自動符合條件的網域，您可以在 `onBeforeEventSend` 回呼中使用自訂邏輯。
 
-有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking)。
+有關詳細資訊，請參閱 Web SDK 文件中的[自動連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant#automaticLinkTracking)。
 
 ## 使用Adobe Analytics擴充功能追蹤對外連結
 
