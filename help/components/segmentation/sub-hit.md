@@ -53,8 +53,8 @@ ht-degree: 0%
 
 ![顯示產品類別Men](./assets/product-category-segmentation-hits.png)點選層級分段的面板
 
-因此，所有包含至少一個&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而這些訂單中其他產品的收入包含在&#x200B;**[!UICONTROL 線上收入]**量度中。
-當您報告類別時，會報告**[!UICONTROL 零售：時尚產品類別]**&#x200B;的所有其他值屬於包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;之產品的訂單。
+因此，所有包含至少一個&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而這些訂單中其他產品的收入包含在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中。
+當您報告類別時，會報告&#x200B;**[!UICONTROL 零售：時尚產品類別]**&#x200B;的所有其他值屬於包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;之產品的訂單。
 
 >[!TAB 子點選分析]
 
@@ -62,8 +62,8 @@ ht-degree: 0%
 
 ![顯示產品類別Men](./assets/product-category-segmentation-sub-hits.png)之子點選層級的分割面板
 
-因此，所有至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**的產品收入。
-當您報告類別時，只會報告**[!UICONTROL 男性]** **[!UICONTROL 零售業：時尚產品類別]**。
+因此，所有至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的產品收入。
+當您報告類別時，只會報告&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售業：時尚產品類別]**。
 
 >[!TAB 子點選分析（排除）]
 

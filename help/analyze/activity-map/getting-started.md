@@ -68,7 +68,7 @@ Adobe Analytics 中的 Activity Map 由四個主要元素組成：
 
 **[!UICONTROL 「管理」]**>**[!UICONTROL 「報告套裝」]**>「選取報告套裝」>**[!UICONTROL 「編輯設定」]**>**[!UICONTROL 「Activity Map」]**>**[!UICONTROL 「Activity Map 報告」]**>**[!UICONTROL 「啟用 Activity Map 報告」]**
 
-啟用 Activity Map 報告會建立數個後端保留變數。 如需更多資訊，請參閱 Adobe Analytics 管理指南中的[ Activity Map 報告](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
+啟用 Activity Map 報告會建立數個後端保留變數。 如需更多資訊，請參閱 Adobe Analytics 管理指南中的[&#x200B; Activity Map 報告](/help/admin/tools/manage-rs/edit-settings/activity-map.md)。
 
 ## 程式碼安裝
 

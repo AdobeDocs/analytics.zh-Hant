@@ -81,7 +81,7 @@ ht-degree: 37%
 您可以在 Analysis Workspace 中建立不同類型的區段：
 
 * [快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
-* [您在[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中建立且最後出現在[區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)中的一般區段](/help/components/segmentation/segmentation-workflow/seg-create.md)
+* [&#128279;](/help/components/segmentation/segmentation-workflow/seg-create.md)您在[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中建立且最後出現在[區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)中的一般區段
 
 
 >[!BEGINSHADEBOX]

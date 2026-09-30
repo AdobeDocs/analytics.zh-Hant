@@ -48,7 +48,7 @@ ht-degree: 96%
 * 如果 `currencyCode` 未定義，Adobe 假設所有貨幣值是報表套裝的貨幣。 請參閱報表套裝設定中的[一般帳戶設定](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)，查看報表套裝的貨幣。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣相同，則不會套用貨幣轉換。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。 Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。 所有儲存在報表套裝中的值，都是採用報表套裝的貨幣。
-* 如果`currencyCode`設定為無效值，則會捨棄整個點選，造成資料遺失。****&#x200B;確保在使用時正確定義此變數。
+* 如果`currencyCode`設定為無效值，則會捨棄整個點選，造成資料遺失。**&#x200B;**&#x200B;確保在使用時正確定義此變數。
 
 此變數不會在點擊之間持續存在。 請確定已在每個涉及收入或貨幣事件 (與報告套裝的預設貨幣不相符) 的頁面上定義此變數。
 

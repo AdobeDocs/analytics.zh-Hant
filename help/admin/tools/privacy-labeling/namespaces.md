@@ -45,7 +45,7 @@ ht-degree: 65%
 * 針對大多數Adobe Analytics請求，包含「analytics」值的「type」欄位。
 * 一個「值」欄位，其中包含Analytics應在每個報表套裝的關聯名稱空間變數中搜尋的ID。
 
-請參閱[CX Enterprise資料隱私權API檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)，以取得詳細資訊和標準身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix#standard-namespaces)的[清單。 請參閱[建立存取/刪除工作](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/privacy-jobs#access-delete)，以取得範例請求。
+請參閱[CX Enterprise資料隱私權API檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)，以取得詳細資訊和標準身分識別名稱空間[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix#standard-namespaces)的清單。 請參閱[建立存取/刪除工作](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/privacy-jobs#access-delete)，以取得範例請求。
 
 ## Cookie ID
 

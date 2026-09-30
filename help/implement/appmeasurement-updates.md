@@ -470,7 +470,7 @@ ht-degree: 55%
 
   >[!IMPORTANT]
   >
-  >若要讓Analytics呼叫使用`POST`方法，而不是AppMeasurement中的`GET`方法（解決IE](/help/implement/js/troubleshooting.md)中[個截斷的URL的方法），您必須使用適用於CX Enterprise的最新訪客ID服務實作。
+  >若要讓Analytics呼叫使用`POST`方法，而不是AppMeasurement中的`GET`方法（解決IE[&#128279;](/help/implement/js/troubleshooting.md)中個截斷的URL的方法），您必須使用適用於CX Enterprise的最新訪客ID服務實作。
 
 ## 1.4 版本
 

@@ -49,7 +49,7 @@ ht-degree: 91%
 
 本指南對同意要求提供了有限的豁免 (以下簡稱「同意豁免」)。 同意豁免適用於 Analytics Cookie，其目的僅限於代表 Web 發佈者測量網站或應用程式的客群。 該指南規定，若要套用同意豁免，必須滿足以下條件：
 
-* 最多保留 25 個月的資料。  您可以在[!UICONTROL 「Analytics >]>[!UICONTROL  管理員] > [!UICONTROL 資料管控]」下查看目前的資料保留設定。  [資料保留](/help/technotes/data-retention.md)
+* 最多保留 25 個月的資料。  您可以在[!UICONTROL 「Analytics >]>[!UICONTROL &#x200B; 管理員] > [!UICONTROL 資料管控]」下查看目前的資料保留設定。  [資料保留](/help/technotes/data-retention.md)
 * 在 ECID 中停用協力廠商 Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hant#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hant#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hant#id-service-api)
 * 13 個月的 Cookie 限制。  您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 期限。 包含Analytics和ECID的CX Enterprise Cookie可延長每次造訪的Cookie到期日。  若要設定靜態、非滾動的Cookie有效期，您可以：(1)撰寫自訂程式碼，設定刪除Cookie的日期，或(2)使用您的CMP控制Cookie重設的日期。  [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md)和[CX Enterprise Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant#ec-cookies)
 * 有限的範圍。 Cookie 的範圍必須限於單一網站或應用程式。 [瀏覽器 Cookie](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)

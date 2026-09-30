@@ -43,7 +43,7 @@ ht-degree: 67%
 
 ## 使用網頁SDK的時間戳記
 
-XDM欄位`xdm.timestamp`下的Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md)時間戳記為[對應。 此欄位僅支援Unix時間。
+XDM欄位`xdm.timestamp`下的Adobe Analytics[&#128279;](/help/implement/aep-edge/xdm-var-mapping.md)時間戳記為對應。 此欄位僅支援Unix時間。
 
 ## 使用Adobe Analytics擴充功能的時間戳記
 

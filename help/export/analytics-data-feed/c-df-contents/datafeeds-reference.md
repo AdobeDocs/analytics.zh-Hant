@@ -106,7 +106,7 @@ ht-degree: 78%
 | | **`ch_hdr`** | 透過 HTTP 請求標頭收集的用戶端提示。 | text |
 | | **`ch_js`** | 透過使用者代理用戶端提示 JavaScript API 收集的用戶端提示。 | text |
 | **`post_`** | **`clickmaplink`** | [Activity Map連結](/help/components/dimensions/activity-map-link.md)維度。 | varchar(255) |
-| **`post_`** | **`clickmaplinkbyregion`** | 依地區](/help/components/dimensions/activity-map-link-by-region.md)維度區分的[Activity Map連結。 | varchar(255) |
+| **`post_`** | **`clickmaplinkbyregion`** | 依地區[&#128279;](/help/components/dimensions/activity-map-link-by-region.md)維度區分的Activity Map連結。 | varchar(255) |
 | **`post_`** | **`clickmappage`** | [Activity Map頁面](/help/components/dimensions/activity-map-page.md)維度。 | varchar(255) |
 | **`post_`** | **`clickmapregion`** | [Activity Map地區](/help/components/dimensions/activity-map-region.md)維度。 | varchar(255) |
 | | **`code_ver`** | 用於編譯及傳送影像要求的 API 或客戶端 SDK 版本。 | char(16) |
