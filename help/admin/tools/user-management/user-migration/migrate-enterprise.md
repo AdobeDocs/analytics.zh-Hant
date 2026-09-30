@@ -7,21 +7,24 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
 workflow-type: tm+mt
-source-wordcount: 769
+source-wordcount: '769'
 ht-degree: 72%
-
 ---
-
 # 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶
 
 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Adobe Admin Console。
@@ -113,46 +116,46 @@ ht-degree: 72%
 
 1. 在範本 ([!DNL sample.csv]) 中，完成下列必填欄位：
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 欄位 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>電子郵件 </p> </td> 
-   <td colname="col2"> <p>從 <span class="filepath">User Logins List.tab</span> 中複製。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>「名字」 </p> </td> 
-   <td colname="col2"> <p>從 <span class="filepath">User Logins List.tab</span> 中複製。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>「姓氏」 </p> </td> 
-   <td colname="col2"> <p>從 <span class="filepath">User Logins List.tab</span> 中複製。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>身分識別類型 </p> </td> 
-   <td colname="col2"> <p><span class="term">Federated ID</span> 或 <span class="term">Enterprise ID</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確定<span class="term">網域</span>和<span class="term">電子郵件</span>資料行中的網域符合先決條件</a>中建立的網域。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>國家/地區代碼 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> 欄位 </th> 
+      <th colname="col2" class="entry"> 說明 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>電子郵件 </p> </td> 
+      <td colname="col2"> <p>從 <span class="filepath">User Logins List.tab</span> 中複製。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>「名字」 </p> </td> 
+      <td colname="col2"> <p>從 <span class="filepath">User Logins List.tab</span> 中複製。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>「姓氏」 </p> </td> 
+      <td colname="col2"> <p>從 <span class="filepath">User Logins List.tab</span> 中複製。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>身分識別類型 </p> </td> 
+      <td colname="col2"> <p><span class="term">Federated ID</span> 或 <span class="term">Enterprise ID</span>。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>網域 </p> </td> 
+      <td colname="col2"> <p>確定<span class="term">網域</span>和<span class="term">電子郵件</span>資料行中的網域符合先決條件</a>中建立的網域。 </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>國家/地區代碼 </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/tw/enterprise/using/users.html)。
+   如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/tw/enterprise/using/users.html)。
 
->[!NOTE]
->
->[!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
+   >[!NOTE]
+   >
+   >[!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
 
 1. 在 Adobe Admin Console 的「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**&#x200B;上傳範本檔案 (如步驟 3 所示)。
 1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/tools/user-management/user-migration/t-migrate-users.md)所述)。
