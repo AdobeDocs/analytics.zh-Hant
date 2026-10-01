@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '720'
 ht-degree: 100%
 ---
 # 建立和管理範本
@@ -114,7 +114,7 @@ ht-degree: 100%
 
    顯示公司範本清單。 除非已釘選，否則不會顯示一般專案。
 
-   公司範本可從範本名稱前面的![範本圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)來辨識。
+   公司範本可從範本名稱前面的![範本圖示](/help/assets/icons/FileTemplate.svg)來辨識。
 
    ![顯示公司範本篩選器](assets/company-templates-filter.png)
 

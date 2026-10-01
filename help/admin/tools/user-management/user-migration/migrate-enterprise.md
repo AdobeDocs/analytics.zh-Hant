@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 72%
@@ -151,11 +151,11 @@ ht-degree: 72%
    </tbody> 
    </table>
 
-   如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/tw/enterprise/using/users.html)。
+如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/tw/enterprise/using/users.html)。
 
-   >[!NOTE]
-   >
-   >[!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
+>[!NOTE]
+>
+>[!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
 
 1. 在 Adobe Admin Console 的「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**&#x200B;上傳範本檔案 (如步驟 3 所示)。
 1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/tools/user-management/user-migration/t-migrate-users.md)所述)。

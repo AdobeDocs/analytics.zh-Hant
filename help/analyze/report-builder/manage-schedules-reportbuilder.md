@@ -9,18 +9,20 @@ exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
 TQID: https://experienceleague.adobe.com/QbA2xh07-E4WMt70tLIoR-TL30qfnvFSCToTVi3COXU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: User
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 383
-ht-degree: 6%
-
+source-wordcount: '420'
+ht-degree: 4%
 ---
-
 # 管理安排的活頁簿
 
 您可以排程活頁簿以透過電子郵件或匯出至雲端目的地來共用，如下列文章所述：
@@ -49,7 +51,7 @@ ht-degree: 6%
 
    * 選取欄圖示![ColumnSetting](/help/assets/icons/ColumnSetting.svg)以定義要顯示的欄。
 
-   * 選取篩選圖示![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選取&#x200B;[!UICONTROL **全部顯示**]&#x200B;以顯示指定組織的所有排程活頁簿。
+   * 選取篩選圖示![篩選圖示](/help/assets/icons/Filter.svg)，然後選取&#x200B;[!UICONTROL **全部顯示**]&#x200B;以顯示指定組織的所有排程活頁簿。
 
 1. 選取一或多個活頁簿。
 
@@ -78,7 +80,7 @@ ht-degree: 6%
    ![排程歷程記錄](assets/scheduled-workbooks-history.png){zoomable="yes"}
 
    使用![搜尋](/help/assets/icons/Search.svg)來搜尋清單中的特定活頁簿。
-使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
+   使用![ColumnSetting](/help/assets/icons/ColumnSetting.svg)定義要顯示哪些欄。
 
    **[!UICONTROL 歷程記錄]**&#x200B;索引標籤可讓您檢閱每個排程工作的狀態。 個別的列會記錄每個排程任務的狀態變更。
 

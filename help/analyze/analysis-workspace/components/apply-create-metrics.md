@@ -7,29 +7,40 @@ exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 TQID: https://experienceleague.adobe.com/wRVKkpOExKTLChrmJmVw610EENDyL3qgMjxJDMrwxNo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 919
+source-wordcount: '906'
 ht-degree: 19%
-
 ---
-
 # 量度
 
 量度可讓您量化 Analysis Workspace 中的資料點。 它們最常用作視覺效果中的欄，並和維度相連結。
@@ -50,7 +61,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 * **計算量度範本** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg)：Adobe定義的量度，其行為與計算量度類似。 您可以在 Workspace 專案中按原樣使用它們，或另存為副本以自訂其邏輯。 計算量度範本會在可用元件清單中顯示 Adobe 圖示。
 
-您可以檢視量度是否核准![核准圖示](https://spectrum.adobe.com/static/icons/ui_18/CheckmarkSize100.svg)。 如果您想要瞭解量度的詳細資訊，請將滑鼠移至量度上，然後選取![資訊圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_InfoOutline_18_N.svg)。 如需詳細資訊，請參閱[元件資訊](use-components-in-workspace.md#component-info)。
+您可以檢視量度是否核准![核准圖示](/help/assets/icons/Checkmark.svg)。 如果您想要瞭解量度的詳細資訊，請將滑鼠移至量度上，然後選取![資訊圖示](/help/assets/icons/InfoOutline.svg)。 如需詳細資訊，請參閱[元件資訊](use-components-in-workspace.md#component-info)。
 
 
 ## 使用 Analysis Workspace 中的量度
@@ -60,7 +71,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 >[!BEGINSHADEBOX]
 
-請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}進行示範影片。
+請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [使用量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"}進行示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -120,7 +131,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
    * [!UICONTROL **百分比變更**]：建立新資料行，顯示兩個選取資料行之間的百分比變更。
 
-[計算量度：實作較少的量度](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[計算量度：實作較少的量度](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## 比較不同歸因模型的量度
@@ -138,7 +149,7 @@ Adobe 提供了多種可用於 Analysis Workspace 中的量度類型：
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累積平均值](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [累積平均值](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"}。
 
 >[!ENDSHADEBOX]
 

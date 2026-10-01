@@ -8,29 +8,40 @@ exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 TQID: https://experienceleague.adobe.com/5yrcNh-n0rOA-PZr5hmZD4ykJCKBE-EId9eVY5rOj54
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Customer engagement
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 87%
-
+source-wordcount: '902'
+ht-degree: 86%
 ---
-
 # 欄設定
 
 [!UICONTROL 欄設定]可設定欄的格式，部分可設為條件式。
@@ -38,17 +49,17 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [自由格式表格中的列和欄設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/row-and-column-settings-in-freeform-tables){target="_blank"}示範影片。
 
 >[!ENDSHADEBOX]
 
 
-若要存取[!UICONTROL 列設定]，請在列標題中選取「![列設定](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg)」。
+若要存取[!UICONTROL 列設定]，請在列標題中選取「![列設定](/help/assets/icons/Setting.svg)」。
 
 ![欄設定](assets/column-settings.png)
 
 
-您可以同時編輯多欄的設定。 選取多個欄，然後在任一選取欄中選取「![設定](/help/assets/icons/Setting.svg)」。 您所做的任何變更均會套用至所有欄，以及您在其中選取的儲存格。
+您可以同時編輯多欄的設定。 選取多個欄，然後在任一選取欄中選取「![設定](/help/assets/icons/Setting.svg)」。 您所做的任何變更均會套用至其中有已選取儲存格的所有欄。
 
 | 選項 | 說明 |
 | --- | --- |
@@ -56,15 +67,15 @@ ht-degree: 87%
 | **[!UICONTROL 顯示總量]** | 顯示伺服器端欄的總和。 總計會刪除如工作階段或人數等重複量度。 |
 | **[!UICONTROL 顯示走勢圖]** | 在欄標題處顯示折線圖。 |
 | **[!UICONTROL 數字]** | 決定儲存格是否要顯示/隱藏量度數值。 例如，如果量度為「頁面檢視」，則數值為列專案的頁面檢視次數。 |
-| **[!UICONTROL Percent]** | 決定儲存格是否要顯示/隱藏量度百分比值。 例如，如果量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。  請注意：百分比可以大於 100% 以確保準確性。 上限可移動至 1,000%，以防止欄寬變得太寬。 |
+| **[!UICONTROL Percent]** | 決定儲存格是否要顯示/隱藏量度百分比值。 例如，如果量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數。  請注意：百分比可以大於 100% 以確保準確性。 上限可提高至 1,000%，以防止欄寬變得太寬。 |
 | **[!UICONTROL 顯示異常狀況]** | 決定是否要在此欄的數值中執行異常偵測。 |
 | **[!UICONTROL 顯示預測]** | 決定預測值是否顯示在此欄中。 |
 | **[!UICONTROL 繞排標題文字]** | 在自由格式表格中的繞排標題文字，讓標題更易於閱讀，且表格更便於分享。 繞排對 PDF 的轉譯以及較長名稱的量度而言非常實用。 預設啟用。 |
-| **[!UICONTROL 將零解讀為沒有值]** | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。 當您要查看某月的每日資料，而當月部分天數尚未開始，此解釋相當實用。  若不想在未來的日期中顯示 0 值，則可選擇顯示空白儲存格。 圖表也遵循此設定 (即，圖表不顯示具有 0 值的折線圖或長條圖)。 |
+| **[!UICONTROL 將零解讀為沒有值]** | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。 當您要查看某月的每日資料，而當月部分天數尚未開始，此解釋相當實用。  未來日期不會顯示 0 值，而是改為顯示空白儲存格。 圖表也遵循此設定 (即，圖表不顯示具有 0 值的折線圖或長條圖)。 |
 | **[!UICONTROL 背景]** | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括長條圖和條件式格式。 |
 | **[!UICONTROL 長條圖]** | 顯示橫條圖，當中呈現相對於欄總數的儲存格數值。 |
 | **[!UICONTROL 條件式格式]** | 使用條件式格式。 請參閱以下[區段](#conditional-formatting)。 |
-| **[!UICONTROL 表格儲存格預覽]** | 目前已套用選取格式選項之各儲存格的顯示方式預覽。 |
+| **[!UICONTROL 表格儲存格預覽]** | 預覽目前所選格式選項套用後各儲存格的顯示方式。 |
 | **[!UICONTROL 使用非預設歸因模型]** | 使用非預設歸因模型。 請參閱以下[區段](#use-non-default-attribution-model)。 |
 
 ## 條件式格式 {#conditional-formatting}
@@ -75,7 +86,7 @@ ht-degree: 87%
 
 | 條件式格式選項 | 說明 |
 | --- | --- |
-| **[!UICONTROL 使用百分比限制]** | 變更限制範圍，從絕對值改為以百分比為基礎。 百分比限制範圍適用於僅有百分比的量度 (例如退回率)，以及含有計數和百分比的量度 (例如頁面檢視次數)。 |
+| **[!UICONTROL 使用百分比限制]** | 變更限制範圍，從絕對值改為以百分比為基礎。 百分比限制範圍適用於僅有百分比的量度 (例如跳出率)，以及含有計數和百分比的量度 (例如頁面檢視次數)。 |
 | **[!UICONTROL 自動產生]** | 根據資料自動計算上/中/下限。 上限是此欄中的最大值。 下限是最低的，中點則是上限與下限的平均值。 |
 | **[!UICONTROL 自訂]** | 手動指派&#x200B;**[!UICONTROL 上限]**、**[!UICONTROL 中點]**&#x200B;和&#x200B;**[!UICONTROL 下限]**。 限制提供決定欄的值是好、中等或壞的彈性。 |
 | **[!UICONTROL 條件式格式設定調色盤]** | 將預先設定的顏色集套用至儲存格。 根據您選取的四種可用色彩配置中，不同的顏色會指定給高值、中點值和低值。<br> 取代表格中的維度會重設條件式格式限制。 取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
@@ -113,7 +124,7 @@ ht-degree: 87%
 
 若要在 Analysis Workspace 中使用量度的非預設歸因模型：
 
-1. 請選取「**[!UICONTROL 使用非預設歸因模型]**」。 當已選取時，使用「**[!UICONTROL 編輯]**」來編輯此歸因模型。 或取消選取以傳回預設歸因模型。
+1. 請選取「**[!UICONTROL 使用非預設歸因模型]**」。 當已選取時，使用「**[!UICONTROL 編輯]**」來編輯此歸因模型。 或取消選取以返回預設歸因模型。
 
    ![欄設定選項醒目提示資料設定選項：使用非預設歸因模型。](assets/attribution-checkbox.png)
 

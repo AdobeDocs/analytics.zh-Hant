@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 27%
-
+source-wordcount: '964'
+ht-degree: 25%
 ---
-
 # 管理區段
 
 {{legacy-arb}}
@@ -50,7 +55,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 ## 建立內文中區段 {#section_6DD2C663B2854469AA1075438F907678}
 
-您可以將要轉換成區段的報表維度合併為特定組合。 您可以從Report Builder介面建立這些區段。 例如，從頁面請求輸出中選取一些頁面，並根據這些值建立區段。
+您可能有想要轉換成區段的特定報表維度組合。 您可以從Report Builder介面建立這些區段。 例如，從頁面請求輸出中選取一些頁面，並根據這些值建立區段。
 
 1. 選取您要轉換成區段的報表輸出專案。
 1. 按一下滑鼠右鍵選取「**[!UICONTROL 建立內文中區段於]**」，並指定正確的容器 (點擊數容器、瀏覽次數容器、訪客容器)。
@@ -66,7 +71,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 ## 搜尋並套用區段
 
-在Reports &amp; Analytics （現已終止服務）、Report Builder或Data Warehouse中建立的任何區段，都會出現在此區段清單中。 若要重新整理清單，請按一下[重新整理]圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)。
+在Reports &amp; Analytics （現已終止服務）、Report Builder或Data Warehouse中建立的任何區段，都會出現在此區段清單中。 若要重新整理清單，請按一下「重新整理」圖示![](/help/assets/icons/Refresh.svg)。
 
 您可以將一或多個區段套用至任何特定請求。 這包括循序區段。
 
@@ -82,7 +87,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 ## 篩選區段 {#filter}
 
-按一下「篩選」圖示： ![篩選圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，即可篩選&#x200B;**區段**
+按一下「篩選」圖示： ![篩選圖示](/help/assets/icons/Filter.svg)，即可篩選&#x200B;**區段**
 
 可用的篩選條件包括：
 
@@ -100,7 +105,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
-1. 按一下區段下拉式清單旁的控制項圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)。
+1. 按一下區段下拉式清單旁的控制項圖示![](/help/assets/icons/Filter.svg)。
 
 1. 勾選您要出現在區段控制項中的所有區段，或勾選&#x200B;**[!UICONTROL 全選]**。
 
@@ -119,7 +124,7 @@ Report Builder提供「請求精靈」步驟1的區段面板，可讓您建立�
 
 ## 重新整理區段清單 {#refresh}
 
-每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)，以重新整理區段的快取清單。
+每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示![](/help/assets/icons/Refresh.svg)以重新整理區段的快取清單。
 
 ## 管理各請求中的區段 {#manage}
 
