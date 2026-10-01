@@ -51,7 +51,7 @@ ht-degree: 4%
 
 >[!TIP]
 >
->若要將持續值繫結到產品以外的維度，請考慮在Customer Journey Analytics中使用[[!UICONTROL 繫結維度]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)。
+>若要將持續值繫結到產品以外的維度，請考慮在Customer Journey Analytics中使用[[!UICONTROL 繫結維度]](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension)。
 
 ## 為何使用銷售eVar
 
