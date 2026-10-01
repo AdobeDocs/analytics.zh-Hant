@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 10%
+source-wordcount: '992'
+ht-degree: 9%
 ---
 # 建立和編輯分類合併
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="分類集優先順序"
->abstract="![索引鍵](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *分類集*&#x200B;是基底分類集，定義整體結構描述，並且在任何合併衝突中為優先。 其他分類集則依從上到下的順序套用。"
+>abstract="![索引鍵](/help/assets/icons/Key.svg) *分類集*&#x200B;是基底分類集，定義整體結構描述，並且在任何合併衝突中為優先。 其他分類集則依從上到下的順序套用。"
 
 
 若要建立分類合併，請在Adobe Analytics主介面中：

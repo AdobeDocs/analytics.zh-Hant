@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '3545'
 ht-degree: 85%
@@ -50,18 +50,18 @@ ht-degree: 85%
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 訪客</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 點擊</td>
 </tr>
 </table>
 
@@ -160,18 +160,18 @@ Country = United States + Order = True
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 訪客</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="h../../assets/icons/Visit.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 點擊</td>
 </tr>
 </table>
 
@@ -185,18 +185,18 @@ Country = United States + Order = True
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 訪客</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 點擊</td>
 </tr>
 
 <tr>
@@ -205,13 +205,13 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 點擊</td>
 </tr>
 </table>
 
@@ -222,18 +222,18 @@ Country = United States + Order = True
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> 訪客</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> 造訪次數</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 點擊</td>
 </tr>
 
 <tr>
@@ -242,19 +242,19 @@ Country = United States + Order = True
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> 群組</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Group.svg"/> 群組</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> 點擊</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> 點擊</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪次數</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Visit.svg"/> 造訪次數</td>
 </tr>
 
 </table>
@@ -285,12 +285,12 @@ Country = United States + Order = True
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>首頁</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服裝</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季大衣</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>購買 $100</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>首頁</td>!
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季服裝</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季大衣</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>購買 $100</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -303,12 +303,12 @@ Country = United States + Order = True
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服裝</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季鞋靴</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服裝</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>冬季帽子</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>冬季服裝</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>冬季鞋靴</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季服裝</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>冬季帽子</td>
 
 </table>
 
@@ -327,7 +327,7 @@ Country = United States + Order = True
 
 從「點擊」容器建立報告時，您可以看見從不同容器建立報告會如何影響整體報告值。 檢視區段報告時可發現，頁面檢視次數約等於造訪次數 (約有 2,000 個訪客在單次造訪中查看一樣的頁面，這些相加即得出總頁面檢視次數) 同時，不重複訪客約等於造訪次數 (約有 2,000 個不重複訪客造訪超過一次)。
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
 | | 頁面檢視次數：<br/>檢視次數：<br/>不重複訪客數： | **69,252** (共 351,292)<br/>**67,554** (共 165,175)<br/>**63,541** (共 113,169) | **19%**<br/>**40%**<br/>**56%** |
 
@@ -353,7 +353,7 @@ Country = United States + Order = True
 
 從「造訪」容器顯示區段值後可發現，頁面檢視次數已顯著增加。 增加是因為從「造訪」容器建立報告會識別出所有符合條件的頁面，以及該次造訪中檢視的所有其他頁面 (每個「造訪」容器中都會擷取所有頁面檢視)。
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
 | | 頁面檢視次數：<br/>檢視次數：<br/>不重複訪客數： | **226,193** (共 351,292)<br/>**67,554** (共 165,175)<br/>**63,541** (共 113,169) | **64%**<br/>**40%**<br/>**56%** |
 
@@ -389,7 +389,7 @@ Country = United States + Order = True
 
 顯示來自「訪客」容器的區段時，您可以看到「頁面檢視」和「造訪」次數已增加。 增加是因為就訪客層級而言，如果訪客僅造訪「冬季外套」頁面 (令此條件成立) 一次，則該訪客檢視的所有其他頁面和所有別次造訪也都會被擷取。
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
 | | 頁面檢視次數：<br/>檢視次數：<br/>不重複訪客數： | **240,094** (共 351,292)<br/>**83,823** (共 165,175)<br/>**63,541** (共 113,169) | **68%**<br/>**50%**<br/>**56%** |
 
@@ -449,12 +449,12 @@ Country = United States + Order = True
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
+<img src="../../assets/icons/User.svg"/><br/>aol.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>首頁</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服裝</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季大衣</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>購買 $100</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>首頁</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季服裝</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季大衣</td>
+<td style="background-color: #FFFFFF;"><img src="h../../assets/icons/WebPage.svg"><br/>購買 $100</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -467,12 +467,12 @@ Country = United States + Order = True
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
+<img src="../../assets/icons/User.svg"/><br/>weather.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服裝</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季鞋靴</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服裝</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>冬季帽子</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季服裝</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季鞋靴</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>冬季服裝</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>冬季帽子</td>
 
 </table>
 
@@ -495,7 +495,7 @@ Country = United States + Order = True
 
 顯示點選容器的資料，僅略超過32,000名訪客在超過33,000次造訪中檢視超過92,000次頁面檢視。 平均起來，每次造訪中進行了三次頁面檢視，而幾乎所有都是不重複訪客的造訪。
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
 | | 頁面檢視次數：<br/>檢視次數：<br/>不重複訪客數： | **98,234** (共 351,165)<br/>**33,203** (共 165,173)<br/>**32,269** (共 113,110) | **27%**<br/>**20%**<br/>**28%** |
 
@@ -516,7 +516,7 @@ Country = United States + Order = True
 
 因為根據造訪，所有頁面均具有相同的反向連結網域值，所以從「造訪」容器層級得到的報告與從「頁面檢視」容器得到的報告 (幾乎) 相同。 但有稍微差異 (即 98, 234 與 98,248)，這是由於有異常資料的關係
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
 | | 頁面檢視次數：<br/>檢視次數：<br/>不重複訪客數： | **98,248** (共 351,165)<br/>**33,203** (共 165,173)<br/>**32,269** (共 113,110) | **27%**<br/>**20%**<br/>**28%** |
 
@@ -556,7 +556,7 @@ Country = United States + Order = True
 
 當您檢視「訪客」容器中的資料時，可發現頁面檢視次數已明顯增加 (從 98,248 增加到 112, 925)。 增加是因為該訪客的所有頁面檢視 (包括在「訪客」容器層級儲存了其他反向連結網域值的頁面檢視) 都已列出。 還有該訪客的其他造訪次數，使得造訪次數從 33,203 增加至 43,448。
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | 量度 | # | % |
 |---|---|--:|--:|
 | | 頁面檢視次數：<br/>檢視次數：<br/>不重複訪客數： | **112,925** (共 351,165)<br/>**43,448** (共 165,173)<br/>**32,269** (共 113,110) | **32%**<br/>**26%**<br/>**28%** |
 

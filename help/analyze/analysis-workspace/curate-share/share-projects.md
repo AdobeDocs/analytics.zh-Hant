@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # 共用專案 {#share-projects}
@@ -222,13 +222,13 @@ ht-degree: 89%
 
      * 如果此選項已啟用且變暗，您的Analytics管理員要求所有存取Analysis Workspace專案的人均須進行CX Enterprise驗證。
 
-1. 在「**[!UICONTROL 與任何人共用 (無需登入)]**」欄位旁邊，按一下「**複製連結**」圖示 ![複製連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg)，將連結複製到系統剪貼簿。
+1. 在「**[!UICONTROL 與任何人共用 (無需登入)]**」欄位旁邊，按一下「**複製連結**」圖示 ![複製連結圖示](/help/assets/icons/Link.svg)，將連結複製到系統剪貼簿。
 
 1. 與您希望有該專案存取權的人員共用連結。 例如，您可以將連結貼上到電子郵件中。
 
    您與之共用連結的任何人都可以檢視 Analysis Workspace 專案。
 
-1. (選用) 您可以按一下「**產生新連結**」圖示 ![產生連結圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg)，將先前收到專案連結之使用者的存取權移除。 此時會產生一個新連結；您可以與您希望存取該專案的使用者共用該連結。
+1. (選用) 您可以按一下「**產生新連結**」圖示 ![產生連結圖示](/help/assets/icons/Refresh.svg)，將先前收到專案連結之使用者的存取權移除。 此時會產生一個新連結；您可以與您希望存取該專案的使用者共用該連結。
 
 1. 選取「**[!UICONTROL 關閉]**」以關閉共用對話框。 您的變更會自動儲存。
 

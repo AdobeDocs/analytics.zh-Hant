@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '7553'
-ht-degree: 92%
+source-wordcount: '7551'
+ht-degree: 91%
 ---
 # Adobe Analytics 技術文件更新
 
@@ -223,7 +223,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 5 月** | |
 | 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。 [了解更多](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。 [了解更多](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| Spectrum 圖示 | 如情況適合，可將文件中使用者介面的螢幕擷圖以對 [Adobe 的 Spectrum 設計系統](https://spectrum.adobe.com/page/icons/)中同等圖示的參照取代。 |
+| Spectrum 圖示 | 在適當的情況下，取代檔案中使用者介面圖示的熒幕擷取畫面，並參照[Adobe的Spectrum Design System](https://spectrum.adobe.com)中的實際圖示。 |
 | 報告活動管理器 | 更新了這個 beta 文件，尤其是有關[檢視個別報告套裝的報告活動](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md)的章節。 |
 | Analysis Workspace 概觀 | 更新 [Analysis Workspace 概觀](/help/analyze/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |

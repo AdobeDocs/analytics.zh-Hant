@@ -6,23 +6,29 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: 'https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f6053eab-d6c4-429b-b1a9-91ef921d3480
+    internal-label: Segmentation workflow
   - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '567'
 ht-degree: 64%
-
 ---
-
 # 管理區段
 
 
@@ -51,7 +57,7 @@ ht-degree: 64%
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | 選取以將區段設為我的最愛 ![Star](/help/assets/icons/Star.svg) 或取消我的最愛 ![StarOutline](/help/assets/icons/StarOutline.svg)。 請參閱[將區段標示為我的最愛](t-seg-favorite.md) |
 | **[!UICONTROL 標題和說明]** | 若要編輯區段，請選取標題連結，以開啟[區段產生器](seg-build.md)。 共用的區段會以![共用](/help/assets/icons/ShareAlt.svg)表示。 |
 | **[!UICONTROL 報表套裝]** | 套用此區段的報表套裝。 |
-| **[!UICONTROL 所有者]** | 區段的所有者。 做為使用者，您只能看到您擁有的區段或與您共用的註解。 |
+| **[!UICONTROL 所有者]** | 區段的所有者。 作為使用者，您只能看到您擁有的區段或與您共用的註解。 |
 | **[!UICONTROL 標記]** | 此區段的標記。 |
 | **[!UICONTROL 共用對象]** | 您將區段與之共用的人數或群組數。 選取開啟「**[!UICONTROL 共用元件]**」對話框。 如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
 | **[!UICONTROL 已發佈]** | [區段是否已發佈](seg-publish.md)至CX Enterprise。 |
@@ -70,7 +76,7 @@ ht-degree: 64%
 | ![標籤](/help/assets/icons/Label.svg) **[!UICONTROL 標記]** | 標記所選取之區段。 在&#x200B;**[!UICONTROL 標記區段]**&#x200B;對話框中，選取或取消選取所選取之區段的標記。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的標記。 如需詳細資訊，請參閱[標記區段](seg-tag.md)。 |
 | ![Share](/help/assets/icons/ShareAlt.svg) **[!UICONTROL 共用]** | 共用所選取之區段。 在&#x200B;**[!UICONTROL 共用區段]**&#x200B;對話框中，您可以 ![Search](/help/assets/icons/Search.svg) *搜尋個人或群組*，或者您可以選取「**[!UICONTROL 組織]**」或「**[!UICONTROL 群組]**」。 選取「**[!UICONTROL 儲存]**」，儲存所選取之區段的共用詳細資訊。 如需詳細資訊，請參閱[共用區段](t-seg-share.md)。 |
 | ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL 刪除]** | 刪除所選取之區段。 系統會提示您進行確認。 |
-| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。 選取後，您可以重新命名內嵌區段。 |
+| ![編輯](/help/assets/icons/Edit.svg) **[!UICONTROL 重新命名]** | 重新命名所選取之單一區段。 選取後，您可以直接在原處重新命名區段。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL 核准]** | 核准所選取之區段。 如需詳細資訊，請參閱[核准區段](seg-approve.md)。 |
 | ![Copy](/help/assets/icons/Copy.svg)  **[!UICONTROL 複製]** | 複製所選取之區段。 使用相同的名稱和字尾建立新區段`(Copy)`。 |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL 匯出為 CSV]** | 將區段匯出為 `Segments List.csv` 檔案。 |
@@ -100,7 +106,7 @@ The Analytics Segment manager shows you all the segments you own and that have b
 
    Or 
 
-   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+    In an existing report, select the Segments icon ![](/help/assets/icons/Segmentation.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
 ## Available actions in the Segment manager
 

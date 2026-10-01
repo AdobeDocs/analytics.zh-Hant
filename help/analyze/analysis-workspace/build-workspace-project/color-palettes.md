@@ -7,19 +7,22 @@ exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 TQID: https://experienceleague.adobe.com/q3WEHCXHxvRLFYWfhS421NBtbzpIcFcHLbnCwMU900o
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 216
+source-wordcount: '216'
 ht-degree: 86%
-
 ---
-
 # 視覺化圖形調色盤 {#visualization-color-palette}
 
 <!-- markdownlint-disable MD034 -->
@@ -32,11 +35,11 @@ ht-degree: 86%
 <!-- markdownlint-enable MD034 -->
 
 
-您可以變更 Workspace 中使用的視覺效果調色盤。 您可以選取預先定義的調色板，也可以指定與您公司品牌顏色相符的調色板。 此功能會影響工作區中大部分的視覺效果，但&#x200B;**不會**&#x200B;影響摘要變更、自由格式表格中的條件式格式及地圖視覺效果。
+您可以變更工作區中使用的視覺效果調色盤。 您可以選取預先定義的調色板，也可以指定與您公司品牌顏色相符的調色板。 此功能會影響工作區中大部分的視覺效果，但&#x200B;**不會**&#x200B;影響摘要變更、自由格式表格中的條件式格式及地圖視覺效果。
 
 >[!NOTE]
 >
->Internet Explorer 11 並不支援調色盤。
+>Internet Explorer 11 未啟用調色盤支援。
 
 ![「專案資訊和設定」視窗。](assets/color-palette.png)
 
@@ -50,7 +53,7 @@ ht-degree: 86%
 1. 導覽至「**[!UICONTROL 工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**」。
 1. 從&#x200B;**[!UICONTROL 專案調色盤]**&#x200B;下拉式功能表，您可以挑選其中一個預先設定的色彩配置。
 1. 若要指定您自己的調色盤，請選取預先設定選項下方的「**[!UICONTROL 自訂調色盤]**」。
-1. 指定最多 16 個以逗號分隔的十六進位值 (例如， `#00a4e4`) 來建立您自己的調色盤。 舉例來說，如果您只想使用 4 個值，則顏色會在包含更多顏色的視覺效果中自動重複。
+1. 指定最多 16 個以逗號分隔的十六進位值 (例如， `#00a4e4`) 來建立您自己的調色盤。 舉例來說，如果您只指定 4 個值，則顏色會在包含更多顏色的視覺效果中自動重複。
 
 
 <!--
