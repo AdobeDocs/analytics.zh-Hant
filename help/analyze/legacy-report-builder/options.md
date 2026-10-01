@@ -35,7 +35,7 @@ ht-degree: 47%
 
 在「選項」面板，您可以指定日期設定、延遲設定 (目前的資料)、記錄設定，還能設定更新。
 
-1. 在[增益集]工具列中按一下[選項] ]**![](/help/assets/icons/Setting.svg)：**[!UICONTROL 
+1. 在[增益集]工具列中按一下[選項] **![](/help/assets/icons/Setting.svg)：**
 
 | 元素 | 說明 |
 |--- |--- |
