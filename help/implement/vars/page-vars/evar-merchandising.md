@@ -29,20 +29,25 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 29%
 ---
 # eVar (銷售)
 
 >[!BEGINSHADEBOX]
 
-*此說明頁面說明如何實施作業銷售 eVar。 若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用手冊中的 [eVars (銷售維度)](/help/components/dimensions/evar-merchandising.md)*。
+*此說明頁面說明如何實施作業銷售 eVar。 若要瞭解銷售eVar作為維度時的運作方式，請參閱「元件」使用指南中的[eVar （銷售維度）](/help/components/dimensions/evar-merchandising.md)。*
 
 >[!ENDSHADEBOX]
 
-如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)」。
+銷售eVar會將值繫結至個別產品，以便涉及每個產品的成功事件都會計入與該產品繫結的值。 您可以用下列兩種方式之一設定值：
+
+* **[!UICONTROL 產品語法]**：設定[`products`](products.md)變數中每個產品的值。
+* **[!UICONTROL 轉換變數語法]**：在eVar本身中設定值。 值會繫結至包含繫結事件的點選上的產品。
+
+如需繫結、配置和到期日如何運作，請參閱[eVar （銷售維度）](/help/components/dimensions/evar-merchandising.md)。
 
 ## 在報表套裝設定中設定 eVar
 
@@ -52,9 +57,21 @@ ht-degree: 90%
 >
 >若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。 請確定已針對您的實施作業正確設定該 eVar。
 
+## 選擇語法
+
+當您設定`products`變數時有銷售值可用，或相同點選中的產品需要不同值時，請使用[!UICONTROL 產品語法]。 當在產品之前知道值（例如讓訪客進入產品的搜尋詞或內部促銷活動）時，請使用[!UICONTROL 轉換變數語法]。 如需完整比較，請參閱[繫結和配置如何運作](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)。
+
 ## 使用產品語法進行實施作業
 
-「產品語法」啟用時，銷售類別會直接填入 `products` 變數中，因此不需要選取和設定捆綁事件。 這是建議使用的方法，您也應使用此方法，除非在發生成功事件時無法將值用於設定 `products`。
+啟用[!UICONTROL 產品語法]時，銷售值會直接在`products`變數中設定，因此不會使用捆綁事件。 銷售eVar進入每個產品的最後一個區段：
+
+```js
+s.products = "[category];[name];[quantity];[revenue];[events];[eVars]";
+```
+
+請使用垂直號(`|`)在相同的產品上分隔多個銷售eVar。 即使您未使用數量、收入和事件的空白預留位置，也是必要的。 若沒有這些變數，eVar值會遭到忽略。
+
+值會與該點選上的產品繫結。 之後的值是否取代現有的繫結取決於[!UICONTROL 配置]設定。 請參閱[繫結和配置如何運作](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)。
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -63,11 +80,9 @@ s.products = ";Example product;;;;eVar1=Example merchandising value";
 // An example single product with product syntax
 s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 
-// Tie a merchandising eVar to a different values on two different products
+// Tie a merchandising eVar to different values on two different products
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
-
-`eVar1` 的值會指派給產品。 所有與此產品相關的後續成功事件都會計入 eVar 值中。
 
 ### 使用 Web SDK 的產品語法
 
@@ -113,13 +128,27 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 上述範例物件將傳送到 Adobe Analytics 做為 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`。
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，eVar銷售會依照AppMeasurement語法使用`data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250`。
+如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則產品語法銷售eVar是使用與AppMeasurement `products`變數相同的語法在`data.__adobe.analytics.products`中設定。 與上述XDM範例相同的資料物件同等專案：
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "products": ";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"
+    }
+  }
+}
+```
 
 ## 使用轉換變數語法進行實施作業
 
-無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。 這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。 在這種情況下，您可在到達產品頁面前先設定銷售變數，而該值會持續保留，直到繫結事件發生為止。
+無法使用eVar值在`products`變數中設定時，請使用[!UICONTROL 轉換變數語法]。 這種情況通常表示您的產品頁面沒有銷售管道或尋找方法的內容。 在這些情況下，請將銷售eVar設定在捆綁事件發生的頁面之上或之前。 值會持續存在，直到過期或被新值覆寫為止。
 
-當設定期間選取的綁定事件發生時，eVar 的持續值與產品相關。 例如，如果將 `prodView` 指定為綑綁事件，銷售類別只有在事件發生時才繫結至目前的產品清單。 只有後續綁定事件才能更新已指派給產品的銷售 eVar。
+當點選同時包含`products`變數和選取的[!UICONTROL 銷售繫結事件]時，eVar目前的值會繫結至該點選上的每個產品。 在沒有捆綁事件的產品旁邊設定eVar不會捆綁值。 之後的繫結是否會取代現有的繫結，取決於[!UICONTROL 配置]設定。 請參閱[繫結和配置如何運作](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work)。
+
+如需同時設定數個產品尋找方法eVar的範例，請參閱[最佳實務：產品尋找方法](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods)。
+
+下列範例會在繫結事件之前設定銷售eVar：
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -130,14 +159,16 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-`eVar1` 的值 `"Aviary"` 會指派給產品 `"Canary"`。 所有與此產品相關的後續成功事件都會計入 `"Canary"` 中。 此外，銷售變數的目前值繫結至所有後續產品，直到滿足下列條件之一：
+如果[!UICONTROL 產品檢視事件]是繫結事件，則`eVar1`的值`"Aviary"`已繫結至產品`"Canary"`。 與此產品相關的後續成功事件將計入`"Aviary"`。 值`"Aviary"`也會在後續包含繫結事件的點選上繫結至產品，直到符合下列其中一個條件為止：
 
-* eVar 過期 (根據「過期時間」設定)
+* eVar過期（根據[!UICONTROL 過期時間]設定）。
 * 銷售 eVar 被新值覆寫。
 
 ### 使用 Web SDK 的轉換變數語法
 
-如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則語法的運作方式與實作其他[eVars](evar.md)和[events](events/events-overview.md)類似。 鏡像上述範例的 XDM 如下所示：
+如果使用&#x200B;[**XDM物件**](/help/implement/aep-edge/xdm-var-mapping.md)，則語法的運作方式與實作其他[eVars](evar.md)和[events](events/events-overview.md)類似。 如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，則語法會遵循AppMeasurement。
+
+映象上述AppMeasurement範例的XDM如下所示。
 
 在相同或前一次事件呼叫中設定 eVar：
 
@@ -168,7 +199,7 @@ s.products = ";Canary";
 ]
 ```
 
-如果使用&#x200B;[**資料物件**](/help/implement/aep-edge/data-var-mapping.md)，映象上述範例的資料物件會如下所示：
+映象上述AppMeasurement範例的資料物件如下所示。
 
 在相同或前一次事件呼叫中設定 eVar：
 
@@ -194,3 +225,4 @@ s.products = ";Canary";
   }
 }
 ```
+

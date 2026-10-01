@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
+source-wordcount: '7553'
 ht-degree: 92%
 ---
 # Adobe Analytics 技術文件更新
@@ -77,6 +77,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
+| 銷售 eVar | 將銷售變數檔案改版並整合至相關元件：<ul><li>元件指南中的[eVar （銷售）](/help/components/dimensions/evar-merchandising.md)維度</li><li>實作指南中的[eVar （銷售）](/help/implement/vars/page-vars/evar-merchandising.md)變數</li><li>管理指南中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
 | 新的調整大小捷徑動作 | Analysis Workspace中新的鍵盤快速鍵現在可讓您[調整面板或視覺效果](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions)的寬度、寬度、高度或寬度。 |
 | [Adobe Analytics資料收集API](https://developer.adobe.com/analytics-collection-apis/) | 新的開發人員存放庫，可彙總並現代化Adobe Analytics的資料收集策略，而不需使用AppMeasurement或標籤。 |
 | **2026年8月** | |
@@ -84,7 +85,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2026年6月** | |
 | 查詢字串參考更新 | [資料收集查詢引數](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference)的重大修訂。 |
 | Data Warehouse中的區段 | 更新[Data Warehouse區段相容性](/help/export/data-warehouse/segment-compatibility.md)。 |
-| 已將GA取代為AA指南 | GA至AA指南參考了Universal Analytics，後者已於2023年廢止。 新的指南已取代它，[從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
+| 已將GA取代為AA指南 | GA至AA指南參考了Universal Analytics，後者已於2023年廢止。 新的指南已取代它，[從Google Analytics 4轉換到Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home)。 |
 | **2026 年 5 月** | |
 | 串流媒體維度和量度 | 串流媒體檔案的重大更新。 範例連結包括[串流媒體服務核心維度](/help/components/dimensions/sm-core.md)和[串流媒體服務核心量度](/help/components/metrics/sm-core.md)。 |
 | **2026 年 3 月** | |
@@ -317,7 +318,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 8 月 5 日 | 已更新有關[範本](/help/components/classifications/importer/c-download-saint-data.md)、[瀏覽器匯入](/help/components/classifications/importer/browser-import.md)和[瀏覽器匯出](/help/components/classifications/importer/browser-export.md)的分類文件，以指示哪些選項不適用於已啟用「新分類架構」的報告套裝。 |
 | 2021 年 8 月 2 日 | 已更新多個頁面，以反映 [Adobe Experience Platform Launch](/help/implement/launch/overview.md) 的品牌重塑 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | 有關[銷售 eVar](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md) 的全新深入探討 |
+| 2021 年 7 月 23 日 | 有關[銷售 eVar](/help/components/dimensions/evar-merchandising.md) 的全新深入探討 |
 | 2021 年 7 月 15 日 | 已新增有關新 [Adobe Analytics 登陸頁面](/help/analyze/landing.md)的文件 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 已更新[行銷管道最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md) |

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: c5e3cadb1de372d9be8a9cdbcfffc729ba0a66a4
+source-git-commit: f2049df5ab89bd86d558f03e2ecdf2b362df08cb
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1325'
 ht-degree: 40%
 ---
 # 最新Adobe Analytics發行說明（2026年9月）
@@ -55,7 +55,7 @@ ht-degree: 40%
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
 | **將區段限製為報表日期範圍**<br/>&#x200B;當區段包含日期範圍元件時，Workspace報表中的資料可能會超過報表日期範圍。<p>現在有新選項可用，可讓您將結果限製為報告日期範圍，而不論區段中包含的任何日期元件為何。</p><p>建立或修改最上層容器為訪客的區段時，此選項可供使用。</p><p>如需詳細資訊，請參閱[建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#components)。</p> | 2026年8月26日 | 2026年9月9日 |
-| **機器人偵測更新**<br/>&#x200B;將Edge Data Collection與Web SDK搭配使用時，可以使用下列機器人偵測更新：<ul><li>您現在可以建立機器人偵測規則，以識別流量中原本會被視為機器人產生的例外狀況。 現有和未來的規則仍會預設為將相符流量標示為機器人產生。</li><li>自訂機器人規則現在會在IAB機器人偵測規則之前執行。 此變更不會影響機器人分數，但與事件相關聯的機器人規則名稱可能會變更。</li></ul><p>注意：此更新僅適用於使用Web SDK的Edge資料收集實作。 不適用於舊版程式庫，例如AppMeasurement。</p><p>(文件連結待補充。)</p> | | 2026年9月初 |
+| **機器人偵測更新**<br/>&#x200B;將Edge Data Collection與Web SDK搭配使用時，可以使用下列機器人偵測更新：<ul><li>您現在可以建立機器人偵測規則，以識別流量中原本會被視為機器人產生的例外狀況。 現有和未來的規則仍會預設為將相符流量標示為機器人產生。</li><li>自訂機器人規則現在會在IAB機器人偵測規則之前執行。 此變更不會影響機器人分數，但與事件相關聯的機器人規則名稱可能會變更。</li></ul><p>注意：此更新僅適用於使用Web SDK的Edge資料收集實作。 不適用於舊版程式庫，例如AppMeasurement。</p><p>如需詳細資訊，請參閱[設定資料串流的機器人偵測](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/bot-detection)。</p> | | 2026年9月初 |
 | **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics資料** <br/>Adobe CX Enterprise Coworker聊天現在可執行進階資料分析，而以前只能在Analysis Workspace中執行進階資料分析。 Co-worker Chat會存取您Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>(文件連結待補充。)</p> | | 2026年10月2日<p>（原計畫於2026年9月25日推出）</p> |
 | **CX Enterprise Coworker：根本原因分析技能** <br/>Adobe CX Enterprise Coworker Chat現在可以執行根本原因分析，說明量度變更的原因，而不只是變更了什麼。 「同事聊天」會識別發生轉換的日期，並比較轉換前後的資料，然後依驅動轉換的維度及其量值來劃分變更，並以百分比和絕對值顯示。 如果偵測不到有意義的變更，「同事聊天」會讓您知道，而不是猜測原因。<p>(文件連結待補充。)</p> | | 2026年10月2日 |
 | **CX Enterprise Coworker：在Analysis Workspace中開啟視覺效果** <br/>在同事聊天中開始資料分析，然後直接在Analysis Workspace中開啟分析作為視覺效果，以繼續建置、改良和探索。</p><p>(文件連結待補充。)</p> | | 2026年10月2日 |

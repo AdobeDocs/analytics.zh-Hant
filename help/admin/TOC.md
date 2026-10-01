@@ -4,13 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 瞭解Analytics管理工作，例如在CX Enterprise Admin Console中管理使用者和產品、設定報表套裝等。
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Adobe Analytics 管理員指南 {#admin}
 
@@ -18,7 +16,7 @@ ht-degree: 95%
 + [Analytics 發行說明](https://experienceleague.adobe.com/zh-hant/docs/analytics/release-notes/latest)
 + Adobe Admin Console {#admin-console}
   + [概觀](admin-console/home.md)
-  + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
+  + [Adobe Analytics 首次管理員指南](admin-console/first-admin-guide.md)
   + [Adobe Analytics 中的管理員角色](admin-console/admin-roles-in-analytics.md)
   + Analytics 工具權限摘要 {#permissions}
     + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
@@ -82,7 +80,6 @@ ht-degree: 95%
         + [成功事件](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [分類階層](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [清單變數](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [銷售 eVar](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + 行銷管道 {#marketing-channels}
         + [行銷管道管理員](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [行銷管道處理規則](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)

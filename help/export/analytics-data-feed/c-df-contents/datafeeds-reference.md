@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # 資料欄參考
 
@@ -226,7 +226,7 @@ ht-degree: 78%
 | | **`quarterly_visitor`** | 一個標幟，用來判斷該點擊是否為每季的新訪客。 | tinyint unsigned |
 | **`post_`** | **`referrer`** | [反向連結](/help/components/dimensions/referrer.md)維度。 請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255)<br>varchar(244) |
 | | **`ref_domain`** | [反向連結網域](/help/components/dimensions/referring-domain.md)維度。 依據 `referrer` 欄而定。 | varchar(100) |
-| | **`ref_type`** | 代表點擊的轉介類型的數值 ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站<br>3：搜尋引擎<br>4：硬碟<br>5：USENET<br>6：分類/建立書籤（無反向連結）<br>7：電子郵件<br>8：無JavaScript<br>9：社交網路<br>10：交談式AI工具 | tinyint unsigned |
+| | **`ref_type`** | 代表點擊轉介類型的數值 ID。 用於[反向連結型別](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站<br>3：搜尋引擎<br>4：硬碟<br>5：USENET<br>6：分類/建立書籤（無反向連結）<br>7：電子郵件<br>8：無JavaScript<br>9：社交網路<br>10：交談式AI工具 | tinyint unsigned |
 | | **`resolution`** | 代表螢幕解析度的數值 ID。 用於[螢幕解析度](/help/components/dimensions/monitor-resolution.md)維度。 使用`resolution.tsv`查詢表。 | smallint unsigned |
 | **`post_`** | **`search_engine`** | 代表將訪客引導至您的網站的搜尋引擎的數值 ID。 用於[搜尋引擎](/help/components/dimensions/search-engine.md)維度。 請參考`search_engines.tsv`查詢表。 | smallint unsigned |
 | | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。 指出在使用者點進您的網站之前，您的網站出現在搜尋結果的哪一頁。 | smallint unsigned |
@@ -235,8 +235,8 @@ ht-degree: 78%
 | | **`stats_server`** | 未使用。 處理點擊的 Adobe 內部伺服器。 | char(30) |
 | **`post_`** | **`s_kwcid`** | 用於 Adobe Advertising 整合的關鍵字 ID。 | varchar(255) |
 | | **`s_resolution`** | 原始螢幕解析度值。 使用 JavaScript 函數`screen.width x screen.height`收集。 | char(20) |
-| **`post_`** | **`tnt`** | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | text |
-| **`post_`** | **`tnt_action`** | 用於 Adobe Target 整合。 代表點擊合格的所有測試。 | text |
+| **`post_`** | **`tnt`** | 用於 Adobe Target 整合。 列出訪客合格的Target活動和體驗。 `post_tnt`欄會儲存先前點選的值，類似eVar。 若要只檢視目前點選的活動和事件，請使用`tnt_action`。 多個專案以逗號分隔。 每個專案使用與`tnt_action`相同的格式，但沒有事件ID。 | text |
+| **`post_`** | **`tnt_action`** | 用於 Adobe Target 整合。 僅列出目前點選合格的Target活動和體驗，以及相關事件。 不像`post_tnt`，值不會從先前的點選中持續存在。 多個專案以逗號分隔。 每個專案都會使用下列其中一種格式：<ul><li>大部分活動： `activityID:experienceID:trafficType\|eventID`</li><li>某些自動化活動，例如自動鎖定目標： `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>演演算法ID值是Target的內部值。 某些事件包含附加為`\|value`的值。 事件ID包含`0` （活動專案）、`1` （造訪）、`2` （曝光數）和`32767` （轉換）。 如果點選針對相同的活動和體驗有多個事件，則每個事件都是個別的專案。 | text |
 | | **`tnt_instances`** | 用於 Adobe Target 整合。 Target 執行個體變數。 | text |
 | **`post_`** | **`transactionid`** | 唯一識別碼，日後可透過資料來源上傳各種資料點。 使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | text |
 | | **`truncated_hit`** | 表示影像要求已截斷（收到部分點選）的旗標。 <br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
