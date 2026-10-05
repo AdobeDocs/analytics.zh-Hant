@@ -20,13 +20,13 @@ role_v2:
 source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
 source-wordcount: '6563'
-ht-degree: 80%
+ht-degree: 81%
 ---
 # 設定歷程畫布視覺化圖表 {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -107,7 +107,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare"
 >title="相較於"
->abstract="用來將目前歷程資料與前一期資料相比的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點、箭頭和流失都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變更。 "
+>abstract="用來將目前歷程資料與前一期資料相比的日期範圍。 當您選取比較日期範圍時，歷程中的每個節點、箭頭和流失都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變化。 "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -127,7 +127,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
    |---------|----------|
    | [!UICONTROL **百分比值**] | 歷程中各節點上顯示的百分比值。<p>![百分比值](assets/journey-canvas-percentage.png)</p> <p>設定歷程中節點上顯示的百分比值時，請考量下列事項：</p><ul><li>主要量度的各節點會顯示一個百分比。 若有設定次要量度，也會顯示其百分比。 (如需主要和次要量度設定的詳細資訊，請參閱[開始建立歷程畫布視覺化圖表](#begin-building-a-journey-canvas-visualization)。)</li><li>百分比包含面板日期範圍內報告套裝中包含的所有人員或工作階段。 使用&#x200B;_人員_&#x200B;或&#x200B;_工作階段_&#x200B;取決於容器設定。 (如需關於容器設定的詳細資訊，請參閱[開始建立歷程畫布視覺化圖表](#begin-building-a-journey-canvas-visualization)。)</li></ul> <p>從下列選項中選擇：</p> <ul><li>[!UICONTROL **開始節點的百分比**]：計算各節點上顯示的相對於開始節點的百分比。 百分比以您選取的主要和次要量度為依據。 <p>_開始節點_&#x200B;是指在其之前沒有任何連接節點的節點。</p><p>歷程可包含多個開始節點。 但是，如果歷程包含 2 個或多個導向共同節點的開始節點，則會使用&#x200B;[!UICONTROL **總數百分比**]。 如果您想要使用&#x200B;[!UICONTROL **開始節點的百分比**]，請更新歷程，讓歷程中各節點都可以回溯至同一個開始節點。</p></li><li>[!UICONTROL **前一個節點的百分比**]：計算各節點顯示的相對於前一個節點的百分比。 百分比以您選取的主要和次要量度為依據。</li><li>[!UICONTROL **總數百分比**]：計算每個節點上顯示的與報表套裝中所有資料相關的百分比。 百分比以您選取的主要和次要量度為依據。</li></ul> |
    | [!UICONTROL **箭頭設定**] | 您可以將歷程畫布中節點之間顯示的箭頭設定為顯示自訂標籤和值。 <p>![箭頭設定](assets/journey-canvas-arrow-settings.png)</p><p>_標籤_&#x200B;是您可以在Journey Canvas中新增的自訂名稱，如[新增或更新箭頭的標籤](#add-or-update-a-label-on-an-arrow)中所述。</li></ol><p>_值_&#x200B;是顯示在箭頭上的數量和百分比，表示從歷程中一個節點移至下一個節點的人員或工作階段。 (換言之，是指在特定步驟時沒有從歷程中流失的使用者。) </p><p>提供下列選項：</p><ul><li>[!UICONTROL **沒有標籤**]：歷程中的箭頭未顯示任何標籤。</br> 此選項僅在歷程在中修改時可用 </li><li>[!UICONTROL **只有標籤**]：歷程中的箭頭顯示標籤。</li></ul> |
-   | [!UICONTROL **與**]&#x200B;比較 | 用來將目前歷程資料與前一期資料相比的日期範圍。 您可以選擇以下任何日期範圍來比較：<ul><li>**[!UICONTROL 4週前]**</li><li>**[!UICONTROL 2季之前]**</li><li>**[!UICONTROL 前1年]**</li><li>**[!UICONTROL 自訂日期範圍]**</li></ul><p>當您選取比較日期範圍時，歷程中的每個節點、箭頭和流失都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變更。 這可讓您識別歷程的執行效能是否優於先前時段。</p> |
+   | [!UICONTROL **與**]&#x200B;比較 | 用來將目前歷程資料與前一期資料相比的日期範圍。 您可以選擇以下任何日期範圍來比較：<ul><li>**[!UICONTROL 4週前]**</li><li>**[!UICONTROL 2季之前]**</li><li>**[!UICONTROL 前1年]**</li><li>**[!UICONTROL 自訂日期範圍]**</li></ul><p>當您選取比較日期範圍時，歷程中的每個節點、箭頭和流失都會根據主要量度，顯示目前日期範圍和所選比較日期範圍之間的百分比變化。 這可讓您識別歷程的執行效能是否優於先前時段。</p> |
    | [!UICONTROL **顯示流失**] | 流失資料顯示從歷程的各節點流失的百分比和數量。 流失資料是以與歷程的容器設定相關聯的量度，而非主要或次要量度為依據。 <p>![流失](assets/journey-canvas-fallout.png)</p><p>依預設，容器是&#x200B;_個人_，因此用於流失資料的量度是&#x200B;_人員_。 如果容器變更為&#x200B;_工作階段_，則用於流失資料的量度為&#x200B;_工作階段_，以此類推。</p><p>例如，以&#x200B;_個人_&#x200B;做為容器設定，「流失」會顯示歷程中各節點上從未到達緊接的下一個節點的人數和百分比。 這些人可能在網站上已執行其他動作，但不符合任何緊隨其後之節點所定義的條件。</p> <p>如需關於歷程畫布容器設定的詳細資訊，請參閱[開始建立歷程畫布視覺化圖表](#begin-building-a-journey-canvas-visualization)。 |
    | **控制項** | 下列控制項位於畫布的右上角：<ul><li>**符合螢幕**![符合螢幕圖示](assets/fill-screen-icon.png)：調整目前的縮放和平移設定，讓視覺化圖表填滿螢幕。</li><li>**組織** ![組織圖示](assets/organize.svg)：根據節點連線，重新排列節點以最小化交叉箭頭並最佳化間距。 </li><li>**放大**![放大圖示](assets/zoom-in-icon.png)：將視覺化圖表的特定區域放大顯示。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</li><li>**縮小**![縮小圖示](assets/zoom-out-icon.png)：縮小視覺化圖表，讓畫布騰出更多空間。<p>您也可以使用滑鼠控制項，例如在觸控板上捏合。</p></li></ul><p>若要在放大或縮小後平移畫布，請按一下滑鼠並拖曳至所需的位置。</p> |
 
