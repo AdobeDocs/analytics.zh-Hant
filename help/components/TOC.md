@@ -5,13 +5,11 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報告套裝、行銷管道和分類。 了解跨裝置分析。
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 97%
-
 ---
-
 # [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
@@ -133,6 +131,7 @@ ht-degree: 97%
   + [網站平均逗留時間](metrics/average-time-on-site.md)
   + [機器人發生次數](metrics/bot-occurrences.md)
   + [機器人頁面檢視次數](metrics/bot-page-views.md)
+  + [機器人產品發生次數](metrics/bot-product-occurrences.md)
   + [跳出率](metrics/bounce-rate.md)
   + [跳出數](metrics/bounces.md)
   + [購物車新增](metrics/cart-additions.md)

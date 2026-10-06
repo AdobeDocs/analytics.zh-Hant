@@ -31,23 +31,25 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 11%
+source-wordcount: '265'
+ht-degree: 10%
 ---
 # 機器人名稱
 
 「機器人名稱」 [維度](overview.md)顯示使用[機器人規則](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md)偵測到的機器人名稱。 這些規則可以是預設IAB規則，或貴組織設定的自訂機器人規則。 若您想進一步瞭解哪些機器人正在造訪您的網站，或哪些機器人產生最多流量，則此功能會很有幫助。
 
-系統會自動從所有的Analytics報表中篩選符合[!UICONTROL 機器人規則]的點選，但此維度、[機器人發生次數](../metrics/bot-occurrences.md)和[機器人頁面檢視次數](../metrics/bot-page-views.md)除外。 您可以使用此維度和這兩個量度，檢視您的其餘報表中會排除哪些機器人資料。
+系統會自動從所有的Analytics報表中篩選符合[!UICONTROL 機器人規則]的點選，但此維度、[機器人發生次數](../metrics/bot-occurrences.md)、[機器人頁面檢視次數](../metrics/bot-page-views.md)以及[機器人產品發生次數](../metrics/bot-product-occurrences.md)除外。 您可以使用此維度和這三個量度，檢視您的其餘報表中會排除哪些機器人資料。
 
 由於機器人報表會與報表套裝的其他資料分開，因此此維度僅支援下列維度和量度：
 
 * [頁面](page.md)
+* [產品](product.md) （僅發生[Bot產品](../metrics/bot-product-occurrences.md)）
 * 以時間為基礎的維度（例如，[Day](day.md)、[Week](week.md)或[Month](month.md)）
 * [機器人發生次數](../metrics/bot-occurrences.md)
 * [機器人頁面檢視次數](../metrics/bot-page-views.md)
+* [機器人產品發生次數](../metrics/bot-product-occurrences.md)
 
 搭配此維度使用任何其他維度或量度不會傳回資料。
 
