@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
+source-wordcount: '7591'
 ht-degree: 91%
 ---
 # Adobe Analytics 技術文件更新
@@ -75,6 +75,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2026年10月** | |
+| 機器人產品發生次數量度 | 新增[機器人產品發生次數](/help/components/metrics/bot-product-occurrences.md)量度，此量度顯示符合機器人規則的產品字串子點選數。 <p>也更新了[機器人名稱](/help/components/dimensions/bot-name.md)維度和[機器人發生次數](/help/components/metrics/bot-occurrences.md)量度以參考新的量度。</p> |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
 | 銷售 eVar | 將銷售變數檔案改版並整合至相關元件：<ul><li>元件指南中的[eVar （銷售）](/help/components/dimensions/evar-merchandising.md)維度</li><li>實作指南中的[eVar （銷售）](/help/implement/vars/page-vars/evar-merchandising.md)變數</li><li>管理指南中的[轉換變數](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md)</li></ul> |
