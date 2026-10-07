@@ -2,7 +2,6 @@
 title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -40,16 +39,16 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
+source-git-commit: c048bde1e339fd507625b759ac6bc48fe18091f2
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 54%
+source-wordcount: '875'
+ht-degree: 59%
 ---
-# 最新Adobe Analytics發行說明（2026年9月）
+# 目前的Adobe Analytics發行說明（2026年10月）
 
-**上次更新日期**：2026年10月2日
+**上次更新日期**：2026年10月7日
 
-以下發行說明涵蓋2026年9月發行期間。 Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
+以下發行說明涵蓋2026年10月發行期間。 Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
@@ -61,18 +60,18 @@ ht-degree: 54%
 
 ### Adobe Analytics 中的修正
 
-**Activity Map**： AN-488579、AN-487247、AN-491828
-**Analysis Workspace**： AN-487374、AN-487119、AN-468907、AN-468810、AN-468363、AN-468096、AN-467414、AN-466986、AN-466982、AN-465073、AN-463571、AN-462373、AN-492801、AN-488821、AN-488452、AN-486517、AN-478930 468325
-**分類**： AN-490825、AN-490802、AN-490549、AN-490472、AN-487782、AN-487286、AN-486531、AN-478859、AN-469929、AN-469033、AN-468944、AN-468827、AN-468592、AN-468326、AN-467115、AN-466995、AN-465636、AN-465616、AN-465380、AN-464911、AN-464338、AN-463677、AN-462729 AN-462577、AN-461040、AN-459316 490072 487100
-**資料摘要和Data Warehouse**： AN-487624、AN-487287、AN-479923、AN-479166、AN-479109、AN-468483、AN-493406、AN-492167、AN-333098
-**移轉**：
-**匯出**： AN-467131、AN-469034、AN-447252
-**Report Builder**： AN-487486、AN-478944、AN-470036、AN-468589、AN-468436、AN-456747、AN-456700、AN-442695、AN-492330、AN-490564、AN-468293、AN-460921
-**報告**： AN-468621、AN-465383、AN-463924
-**報表套裝**： AN-468484、AN-468460、AN-465385、AN-463216
-**排程報告**： AN-479157
-**分段**： AN-486561、AN-278260
-**其他**： AN-488549、AN-467426、AN-465265、AN-464645、AN-459714、AN-459323、AN-454514、AN-487288、AN-470023、AN-469601、AN-320799、AN-316708、AN-309317、AN-266652
+**Activity Map**： AN-494609、AN-493182
+**Analysis Workspace**： AN-495340、AN-494789、AN-493307、AN-468900
+**分類**： AN-498043、AN-496619、AN-496468、AN-496217、AN-496133、AN-495567、AN-494651、AN-494345、AN-494312、AN-494261、AN-493645、AN-493507、AN-493336、AN-492869、AN-492812、AN-492751、AN-492750、AN-492741、AN-491032、AN-490802、AN-490796、AN-467849
+**資料摘要與Data Warehouse**： AN-494937、AN-493065、AN-489796、AN-479109
+**移轉**： AN-489850、AN-468014
+**匯出**： AN-494337、AN-486563
+**Report Builder**： AN-496602、AN-494224、AN-493737、AN-493508、AN-493505、AN-492806、AN-468981、AN-454376
+**報告**： AN-493637、AN-461260
+**報表套裝**： AN-496773、AN-495227、AN-494981、AN-494372、AN-494370、AN-493629
+**排程報告**： AN-491103
+**細分**：
+**其他**： AN-496398、AN-494453、AN-492494
 
 ### 生命週期結束 (EOL) 重要通知 {#eol}
 
@@ -97,5 +96,5 @@ ht-degree: 54%
 >* [2026年舊版發行說明](/help/release-notes/2026.md)
 >* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 >* [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+>* [Adobe CX Enterprise 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
 
