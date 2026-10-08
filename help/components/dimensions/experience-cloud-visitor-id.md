@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 18%
 ---
 # Experience Cloud 訪客 ID
@@ -44,8 +44,8 @@ ht-degree: 18%
 
 | 屬性 | 價值 |
 | --- | --- |
-| **AppMeasurement變數** | 無（由Experience Cloud訪客ID服務設定） |
-| **網頁SDK / XDM欄位** | 無（由Experience Cloud Identity Service設定） |
+| **AppMeasurement變數** | 無（由Adobe訪客ID服務設定） |
+| **網頁SDK / XDM欄位** | 無（由Experience Platform Identity Service設定） |
 | **查詢引數** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 不適用 |
@@ -53,4 +53,4 @@ ht-degree: 18%
 
 ## 維度項目
 
-Dimension專案包含每個訪客的Experience Cloud ID。
+Dimension專案包含每位訪客的ECID。

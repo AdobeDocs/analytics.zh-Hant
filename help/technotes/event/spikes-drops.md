@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '857'
+ht-degree: 98%
 ---
 # 疑難排解資料中的尖峰和下降
 
@@ -53,11 +53,11 @@ ht-degree: 100%
 * **報表套裝延遲**：報表套裝偶爾會因為多種因素而出現[延遲](../latency.md)。 延遲問題大多可在幾小時內解決。 如果您對特定報告套裝有疑慮，請聯絡 Adobe 客戶服務，並提供受影響的報告套裝 ID。
 * **實作移除**：有時當組織進行實作變更或重新建構網站時，會忽略重新實作 Analytics。 請與組織內部開發人員合作，在您的網站上重新實作程式碼。
 * **Analytics 介面/快取問題**：在罕見情況下，瀏覽器的快取會包含無效資料，使所有報表都傳回零。 請清除瀏覽器的 Cookie 和快取以解決問題。 如果清除 Cookie/快取沒有作用，請聯絡客戶服務，並提供遺失的報表和日期範圍；他們可以複製問題並提供其他資訊。
-* **Analytics 可用性**：檢查 [status.adobe.com](https://status.adobe.com/tw/products/1173/)，了解與資料收集或處理有關的任何問題。
+* **Analytics 可用性**：檢查 [status.adobe.com](https://status.adobe.com/products/1173/)，了解與資料收集或處理有關的任何問題。
 
 ### 部分遺失資料或流量減少的可能原因
 
-* **實作變更**：使用[除錯工具](/help/implement/validate/debugger.md)驗證所需的維度是否有效。
+* **實作變更**：使用[偵錯工具](/help/implement/validate/debugging-tools.md)驗證所需的維度是否有效。
 * **反向連結流量下降**：如果移除其他網站上的熱門橫幅廣告或超連結，可能會導致流量大幅下降。 分析流量下降前後[反向連結網域](/help/components/dimensions/referring-domain.md)維度的趨勢，以進一步研究。
 * **網站績效問題**：透過負載平衡器不正確分配流量，或是託管網站的伺服器出現問題，可能會導致 Analytics 報表中的績效下降。 與組織內部負責管理網站完整性與健全狀態的團隊合作，調查任何潛在效能問題。
 * **自然搜尋排名變更**：如果其他網站對某些關鍵字的免費搜尋排名超越您，流量可能會降低。 如果您的網站不再位於搜尋結果的第一頁，此下降尤其明顯。 分析[搜尋引擎](/help/components/dimensions/search-engine.md)維度的趨勢，以進一步研究。

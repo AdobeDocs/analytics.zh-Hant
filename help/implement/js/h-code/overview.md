@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 81%
 ---
 # H 程式碼 JavaScript 實施概觀
@@ -51,7 +51,7 @@ ht-degree: 81%
    >
    >H 程式碼要求在 `s_code.js` 標記中呼叫 `<body>` 指令碼。 這與其他實施方法不同，大部分的方法都要求將指令碼參考放置於 `<head>` 標記中。
 1. **在每個頁面上定義頁面專用變數**：每個頁面都應定義各自的變數，如頁面名稱或 eVar。 個別變數通常會在每個頁面上的內嵌 `<script>` 標記中定義。
-1. **使用偵錯工具來驗證資料彙集**：下載並安裝[CX Enterprise偵錯工具](../../validate/debugger.md)，以確定資料已傳送至Adobe，而且頁面變數的定義正確無誤。
+1. **使用偵錯工具來驗證資料彙集**：下載並安裝[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)，以確定資料已傳送至Adobe，而且頁面變數的定義正確。
 
 ## 快取
 

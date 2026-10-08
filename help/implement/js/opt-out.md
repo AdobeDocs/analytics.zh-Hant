@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 64%
+ht-degree: 65%
 ---
 # 實施選擇退出連結
 
@@ -49,7 +49,7 @@ ht-degree: 64%
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。 Adobe可讓您的網站訪客選擇退出分析，選擇退出分析。
 
-您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議改用[Adobe CX Enterprise選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。 選擇加入服務更加健全，可跨多種Adobe CX Enterprise產品運作，包括Adobe Analytics和AppMeasurement。
+您可使用選擇退出連結讓網站訪客在Analytics報表中忽略其資料。 這些連結僅限於AppMeasurement實作；Adobe建議改用[Adobe CX Enterprise選擇加入服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)。 選擇加入服務更加健全，可跨多種Adobe CX Enterprise產品運作，包括Adobe Analytics和AppMeasurement。
 
 當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。 如果使用者選擇不被追蹤且已設定選擇退出Cookie，AppMeasurement會繼續將資料傳送至Adobe。 不過這些資料不會經過處理，也不會納入報表。
 
@@ -71,9 +71,9 @@ ht-degree: 64%
   1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
   1. 記下 `trackingServer` 變數值。
 
-* 使用[Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=zh-Hant)：
+* 使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)：
   1. 使用 Chrome 瀏覽器導覽至您的網站。
-  1. 開啟CX Enterprise Debugger，然後前往「[!UICONTROL 網路」標籤]。
+  1. 開啟Adobe Experience Platform Debugger，然後前往[!UICONTROL 網路標籤]。
   1. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
 
 找出實作的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。 例如：

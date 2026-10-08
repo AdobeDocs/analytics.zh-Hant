@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 53%
+source-wordcount: '333'
+ht-degree: 43%
 ---
 # 伺服器端轉送需求
 
@@ -44,7 +44,7 @@ ht-degree: 53%
 
 ## 解決方案需求
 
-伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [&#x200B; Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant) 搭配使用。
+伺服器端轉送可與 [Analytics](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics.html) 和 [Audience Manager](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlaudience-manager.html) 及/或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 搭配使用。
 
 ## 服務需求
 
@@ -62,5 +62,5 @@ ht-degree: 53%
 
 任何可監控瀏覽器發出之 HTTP 請求的工具，均可顯示 AppMeasurement 和訪客 API 程式碼的版本號碼。 `AppMeasurement_Module_AudienceManagement.js` 不會包含或傳回版本 ID。 下列範例說明版本 ID 在 `AppMeasurement.js` 和 `VisitorAPI.js` 程式碼中的表示方式。
 
-* `AppMeasurement.js`：[Adobe 除錯程式](/help/implement/validate/debugger.md)傳回的 AppMeasurement 版本如下： `Version of Code | JS-1.5.1`。 其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
+* `AppMeasurement.js`：版本會顯示在要求URL中的回應型別之後，例如`/b/ss/examplersid/1/JS-X.X.X/s234234238479`。 [解碼要求的偵錯工具](/help/implement/validate/debugging-tools.md)可以使用不同的標籤，但值一律遵循模式`JS-X.X.X`，其中`X`是版本號碼。
 * `VisitorAPI.js`：搜尋 `d_visid_ver` 參數。 此參數會以下列方式顯示訪客 ID 服務：`d_visid_ver: 1.5.5`。 1.5.2版之前的訪客API程式碼不包含版本號碼。 如果您的監視結果未傳回版本號碼，表示您可能使用的是舊版程式碼程式庫（且需要升級）。

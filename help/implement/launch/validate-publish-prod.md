@@ -7,28 +7,38 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 78%
-
+source-wordcount: '631'
+ht-degree: 75%
 ---
-
 # 驗證開發實作並發佈至生產環境
 
 將您的標記庫推送至生產環境後，貴組織就可以開始使用 Adobe Analytics 來提取基本報表。
@@ -37,14 +47,14 @@ ht-degree: 78%
 
 [將 Analytics 實施部署至開發環境](deploy-dev.md)：必須將 Analytics 實施發佈至開發環境才能關注此頁面。
 
-## 使用CX Enterprise Debugger驗證開發實施
+## 使用Adobe Experience Platform Debugger驗證開發實施
 
-CX Enterprise Debugger是顯示存在於頁面上所有CX Enterprise標籤的擴充功能。
+Adobe Experience Platform Debugger是顯示存在於頁面上所有CX Enterprise標籤的擴充功能。
 
 1. 安裝[Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)或Firefox的擴充功能。
 2. 瀏覽至您已在上面實作標記的開發網站。
-3. 按一下瀏覽器中的Adobe CX Enterprise Debugger圖示。
-4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、標記及 Adobe Experience Cloud 訪客 ID 服務中看到內容。
+3. 按一下瀏覽器中的Adobe Experience Platform Debugger圖示。
+4. 如果所有專案皆已正確實作，您應該會在Adobe Analytics、標籤及Adobe訪客ID服務中看到內容。
 
 ## 將開發實作部署至暫存/生產環境
 
@@ -65,7 +75,7 @@ CX Enterprise Debugger是顯示存在於頁面上所有CX Enterprise標籤的擴
 
 確認您可在您網站的使用中版本上看到資料，然後開始進行 Adobe Analytics 的正式資料收集。
 
-1. 一旦您已確認網站擁有者已將標籤程式碼推送至生產環境，請在Chrome中導覽至您的網站首頁，然後開啟Adobe CX Enterprise Debugger。
+1. 一旦您已確認網站擁有者已將標籤程式碼推送至生產環境，請在Chrome中導覽至您的網站首頁，然後開啟Adobe Experience Platform Debugger。
 2. 如果一切運作正常，您應該會看到與開發環境測試中類似的資料。 此時，您正在網站上收集資料，且現在可以開始使用 Adobe Analytics 來建立報表。
 
 ## 疑難排解
