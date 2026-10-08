@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '318'
+ht-degree: 96%
 ---
 # 搭配 iframe 使用 AppMeasurement
 
@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * 就像其他 JavaScript 程式碼一樣，iframe 只能在網域和通訊協定相符時通訊。 如果 iframe 內容位在與上層不同的網域中，這些範例就沒有作用。
 * 如果 AppMeasurement 位在 iframe 內，則 [`referrer`](../vars/page-vars/referrer.md) 變數會設定為上層 URL，而不是實際參照的 URL。 您可以手動設定 `referrer` 變數來解決此問題。
-* [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)無法辨識在iframe內觸發的影像要求。
+* [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)無法辨識在iframe內觸發的影像要求。
 * Activity Map 不會在 iframe 內點擊的連結上方顯示熱度圖。 而是會標示整個 iframe。

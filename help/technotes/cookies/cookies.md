@@ -7,30 +7,42 @@ role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 2104
+source-wordcount: '2102'
 ht-degree: 93%
-
 ---
-
 # Adobe Analytics 與瀏覽器 Cookie
 
 此文件說明主要瀏覽器的預防追蹤措施如何影響 Adobe Analytics 所設定的第三方和第一方 Cookie。 其中包括 Apple 智慧預防追蹤 (ITP) 計劃以及 Chrome 對於透過 SameSite 屬性的第三方 Cookie 的限制等相關資訊。
@@ -72,7 +84,7 @@ ITP 原則經常變動。 如需了解最新政策，請參閱 Apple 的 [Webkit
 
 Adobe 設定的所有第一方 Cookie 及相關 JavaScript 程式庫都會受到 ITP 政策所影響：
 
-* Adobe Experience Cloud Visitor ID (ECID) 服務資料庫設定的 [&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)
+* 由Adobe訪客ID服務(ECID)程式庫設定的[&quot;AMCV&quot; Cookie](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=zh-Hant)
 * Analytics 舊版 [&quot;s_vi&quot; Cookie](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics)，前提為它是透過第一方資料收集使用 CNAME 所設定
 * Analytics 舊版 [&quot;s_fid&quot; Cookie](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics)，這是在無法設定 &quot;s_vi&quot; 時所使用的遞補 Cookie
 

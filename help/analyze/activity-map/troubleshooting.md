@@ -7,27 +7,36 @@ exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
 TQID: 'https://experienceleague.adobe.com/gv0QMe3b8xe17THNCvDN0g7bPy73XdakcSsZYio8K5s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 18%
-
+source-wordcount: '426'
+ht-degree: 16%
 ---
-
 # 疑難排解Activity Map資料彙集
 
 如果您沒有看到Activity Map維度的資料，請使用此頁面協助判斷原因。
@@ -36,7 +45,7 @@ ht-degree: 18%
 
 首先，請確定AppMeasurement正確收集Activity Map資料。
 
-1. 下載並安裝[Adobe CX Enterprise Debugger Chrome Extension](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)。
+1. 下載並安裝[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)。
 2. 導覽至您的網頁，然後按一下連結。
 3. 後續頁面載入時，請開啟偵錯工具。 驗證您看到夾在`activitymap.`和`.activitymap`之間的Activity Map內容資料變數：
 
@@ -85,7 +94,7 @@ ht-degree: 18%
 
 Adobe Experience Platform Debugger：
 
-1. 下載並安裝 [Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)。
+1. 下載並安裝[Adobe Experience Platform Debugger](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)。
 1. 前往「[!UICONTROL 記錄檔] > [!UICONTROL Edge] > [!UICONTROL 連接到 Edge]」。
 
 * **網路索引標籤中的互動呼叫未觸發**：集合呼叫中的點選資料集合，使用`"/ee"`或`"collect?"`篩選。

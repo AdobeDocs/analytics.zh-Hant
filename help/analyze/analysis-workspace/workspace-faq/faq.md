@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 90%
+source-wordcount: '601'
+ht-degree: 87%
 ---
 # 常見問題集
 
@@ -104,7 +104,7 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。 任意將
 * 仔細檢查報告套裝，確認其中已有資料。
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。 請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
-* 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)驗證資料正在收集中。
+* 導覽至您的網站，並使用[Adobe Experience Platform Debugger](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/home)驗證資料正在收集中。
 
 
 +++
