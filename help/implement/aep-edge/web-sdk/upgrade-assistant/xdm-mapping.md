@@ -69,7 +69,7 @@ Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-
 
 <!-- markdownlint-enable MD034 -->
 
-當您建立新綱要時，您也可以選擇升級助理員偏向標準或自訂欄位群組。 標準欄位群組由Adobe定義，自訂欄位群組則由您的組織定義。 請參閱XDM檔案中的[欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field-group)。
+當您建立新綱要時，您也可以選擇升級助理員偏向標準或自訂欄位群組。 標準欄位群組由Adobe定義，自訂欄位群組則由您的組織定義。 請參閱XDM檔案中的[欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)。
 
 ## 檢閱對應 {#review}
 
@@ -77,4 +77,4 @@ Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-
 
 升級助理使用AI來建議對應，結果可能不準確或不完整。 請先檢閱每個對應，然後再繼續。 在您[完成移轉](final-review.md#finalize)之前，升級小幫手不會在Experience Platform中建立結構描述。
 
-完成時，請選取&#x200B;**[!UICONTROL 儲存並繼續]**&#x200B;以儲存您的對應並移至[網頁SDK實作](web-sdk-implementation.md)。 若要在儲存對應之後變更對應，請選取[編輯]，進行變更，然後選取[儲存]，再選取[繼續]。**&#x200B;**&#x200B;**&#x200B;**&#x200B;當您完成移轉時，不會包含您未以此方式儲存的變更。
+完成時，請選取&#x200B;**[!UICONTROL 儲存並繼續]**&#x200B;以儲存您的對應並移至[網頁SDK實作](web-sdk-implementation.md)。 若要在儲存對應之後變更對應，請選取[編輯]，進行變更，然後選取[儲存]，再選取[繼續]。]********[!UICONTROL &#x200B;當您完成移轉時，不會包含您未以此方式儲存的變更。
