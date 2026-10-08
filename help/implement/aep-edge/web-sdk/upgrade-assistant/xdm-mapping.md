@@ -69,7 +69,7 @@ Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-
 
 <!-- markdownlint-enable MD034 -->
 
-當您建立新綱要時，您也可以選擇升級助理員偏向標準或自訂欄位群組。 標準欄位群組由Adobe定義，自訂欄位群組則由您的組織定義。 請參閱XDM檔案中的[欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)。
+當您建立新綱要時，您也可以選擇升級助理員偏向標準或自訂欄位群組。 標準欄位群組由Adobe定義，自訂欄位群組則由您的組織定義。 請參閱XDM檔案中的[欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field-group)。
 
 ## 檢閱對應 {#review}
 
