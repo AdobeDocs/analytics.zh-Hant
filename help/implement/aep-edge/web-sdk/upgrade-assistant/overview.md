@@ -79,7 +79,7 @@ Web SDK升級小幫手可協助您規劃及執行Adobe Analytics標籤擴充功�
 
 | 存取型別 | 必填 |
 | --- | --- |
-| [Experience Platform 權限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 檢視結構描述]</li><li>[!UICONTROL 管理結構描述]</li><li>[!UICONTROL 檢視資料集]</li><li>[!UICONTROL 管理資料集]</li><li>[!UICONTROL 檢視身分識別命名空間]</li></ul> |
+| [Experience Platform 權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 檢視結構描述]</li><li>[!UICONTROL 管理結構描述]</li><li>[!UICONTROL 檢視資料集]</li><li>[!UICONTROL 管理資料集]</li><li>[!UICONTROL 檢視身分識別命名空間]</li></ul> |
 | 產品存取 | <ul><li>資料收集（標籤）</li><li>Adobe Analytics</li></ul> |
 | [標籤權利](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL 管理屬性] |
 
