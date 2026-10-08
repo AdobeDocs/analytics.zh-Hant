@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM對應
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位傳送資料，因此您從[報表套裝驗證](rs-verification.md)結轉的每個Analytics變數都需要XDM結構描述中的相符欄位。 在此步驟中，您可以選擇結構描述，並將變數對應至其欄位。
+Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位傳送資料，因此您從[對應程式準備](mapper-prep.md)結轉的每個Analytics變數都需要XDM結構描述中的相符欄位。 在此步驟中，您可以選擇結構描述，並將變數對應至其欄位。
 
 ## 選擇結構描述 {#schema}
 
@@ -69,7 +69,7 @@ Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-
 
 <!-- markdownlint-enable MD034 -->
 
-當您建立新綱要時，您也可以選擇升級助理員偏向標準或自訂欄位群組。 標準欄位群組由Adobe定義，自訂欄位群組則由您的組織定義。 請參閱XDM檔案中的[欄位群組](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/schema/composition#field-group)。
+當您建立新綱要時，您也可以選擇升級助理員偏向標準或自訂欄位群組。 標準欄位群組由Adobe定義，自訂欄位群組則由您的組織定義。 請參閱XDM檔案中的[欄位群組](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group)。
 
 ## 檢閱對應 {#review}
 
@@ -77,4 +77,4 @@ Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-
 
 升級助理使用AI來建議對應，結果可能不準確或不完整。 請先檢閱每個對應，然後再繼續。 在您[完成移轉](final-review.md#finalize)之前，升級小幫手不會在Experience Platform中建立結構描述。
 
-完成時，請選取&#x200B;**[!UICONTROL 儲存並繼續]**&#x200B;以儲存您的對應並移至[網頁SDK實作](web-sdk-implementation.md)。 若要在儲存對應之後變更對應，請選取[編輯]，進行變更，然後選取[儲存]，再選取[繼續]。**&#x200B;**&#x200B;**&#x200B;**&#x200B;當您完成移轉時，不會包含您未以此方式儲存的變更。
+完成時，請選取&#x200B;**[!UICONTROL 儲存並繼續]**&#x200B;以儲存您的對應並移至[網頁SDK實作](web-sdk-implementation.md)。 若要在儲存對應之後變更對應，請選取[編輯]，進行變更，然後選取[儲存]，再選取[繼續]。]********[!UICONTROL &#x200B;當您完成移轉時，不會包含您未以此方式儲存的變更。
