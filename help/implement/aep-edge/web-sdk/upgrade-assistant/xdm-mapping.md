@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # XDM對應
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位傳送資料，因此您從[報表套裝驗證](rs-verification.md)結轉的每個Analytics變數都需要XDM結構描述中的相符欄位。 在此步驟中，您可以選擇結構描述，並將變數對應至其欄位。
+Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/home)欄位傳送資料，因此您從[對應程式準備](mapper-prep.md)結轉的每個Analytics變數都需要XDM結構描述中的相符欄位。 在此步驟中，您可以選擇結構描述，並將變數對應至其欄位。
 
 ## 選擇結構描述 {#schema}
 

@@ -1,5 +1,5 @@
 ---
-title: 在網頁SDK升級助理中驗證報表套裝
+title: Web SDK升級助理中的對應工具準備
 description: 檢閱報表套裝中的Analytics變數，並選擇要轉入XDM對應的變數。
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# 報表套裝驗證
+# 對應程式準備
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="報表套裝驗證"
+>id="aa_upgradeassistant_mapperprep"
+>title="對應程式準備"
 >abstract="檢閱標籤屬性傳送至每個報表套裝的Analytics變數。 您在此處選取的變數會結轉到XDM對應。 使用標籤檢查最近使用的資料、尋找重複變數，以及在報表套裝間比較設定。"
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Upgrade Assistant會使用您的報表套裝來瞭解您的實施所設定的變
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="重新整理報表套裝資料"
 >abstract="再次檢查連結至此標籤屬性的報表套裝，包括其變數設定和最近使用的資料，然後重新執行變數分析。 如果升級助理尚未找到任何報表套裝，會先在標籤屬性中尋找它們。 您的選擇與決定都會保留。"
 
