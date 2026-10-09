@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # 資料物件欄位對應到Adobe Analytics
 
 下表顯示Adobe Experience Platform Edge Network自動對應至Adobe Analytics的資料物件欄位。 如果您使用這些資料物件欄位路徑，則不需要額外設定即可將資料傳送至 Adobe Analytics。
 
-如果您未來打算使用 Customer Journey Analytics，建議使用這些欄位。 此實施方法允許您的組織使用 Web SDK 將資料傳送至 Adobe，而無需符合 XDM 架構。 當您的組織準備將資料傳送至 Adobe Experience Platform 時，您可以使用[資料流對應](https://experienceleague.adobe.com/tw/en/docs/experience-platform/datastreams/data-prep#mapping)將資料物件欄位對應到其各自的 XDM 欄位。
+如果您日後打算移至Customer Journey Analytics，建議使用這些欄位。 此實作方法可讓貴組織使用Web SDK將資料傳送至Adobe Analytics，而不需遵守XDM結構描述。 這些對應僅適用於Adobe Analytics。 當您的組織準備好將資料傳送至Adobe Experience Platform時，請使用[資料流對應](https://experienceleague.adobe.com/tw/en/docs/experience-platform/datastreams/data-prep#mapping)將資料物件欄位對應至XDM結構描述中的欄位。
 
 ## 值優先順序
 
@@ -47,7 +47,7 @@ ht-degree: 77%
 
 ## 資料物件欄位對應
 
-此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.zh-Hant/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到。 與 AppMeasurement 變數相同，所有資料物件欄位皆區分大小寫。
+此表格先前的更新內容可在本頁面的 [GitHub 提交歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md)中找到。 與 AppMeasurement 變數相同，所有資料物件欄位皆區分大小寫。
 
 | 資料物件欄位路徑 | Analytics 變數與說明 |
 | --- | --- |
