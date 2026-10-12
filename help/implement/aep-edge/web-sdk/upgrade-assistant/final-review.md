@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
-# 最終稽核
+# 最終審閱
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
->title="最終稽核"
->abstract="選取要使用的Experience Platform沙箱，然後檢閱此移轉建立或變更的所有內容。 在您完成移轉之前，不會有任何變更。 當您完成時，升級小幫手會一次建立所有內容、將標籤變更新增至新程式庫，並讓此移轉成為唯讀。 然後您自己將該程式庫發佈到生產環境。"
+>title="最終審閱"
+>abstract="選取要使用的 Experience Platform 沙箱，然後審閱此移轉建立或變更的所有內容。 在您最終完成移轉之前，不會有任何變更。 您完成時，升級助理會一次建立所有內容、將標記變更新增至新程式庫，以及讓此移轉成為唯讀狀態。 然後由您自己將該程式庫發佈到生產環境。"
 
 <!-- markdownlint-enable MD034 -->
 

@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
-# 稽核發現
+# 稽核結果
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
->title="稽核發現"
->abstract="調查結果會指出您可能想要在移轉前清理的規則和資料元素，例如沒有參考的資料元素。 接受結果以在移轉中包含其建議的變更，或拒絕讓元件保持原狀。 此步驟為選用。"
+>title="稽核結果"
+>abstract="結果會指出您可能想要在移轉前清理的規則和資料元素，例如未用於參照的資料元素。 接受結果，以便在移轉中納入其建議的變更，或拒絕結果，讓元件保持原狀。 此步驟為選用。"
 
 <!-- markdownlint-enable MD034 -->
 

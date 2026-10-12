@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 0%
+ht-degree: 18%
 ---
 # 對應程式準備
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
 >title="對應程式準備"
->abstract="檢閱標籤屬性傳送至每個報表套裝的Analytics變數。 您在此處選取的變數會結轉到XDM對應。 使用標籤檢查最近使用的資料、尋找重複變數，以及在報表套裝間比較設定。"
+>abstract="審閱您的標記屬性傳送至每個報告套裝的 Analytics 變數。 您在此處選取的變數會帶入 XDM 對應中。 運用索引標籤檢查是否有最近的資料、尋找重複的變數，以及比較報告套裝間的設定。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -75,17 +75,17 @@ Upgrade Assistant會使用您的報表套裝來瞭解您的實施所設定的變
 
 如果您的標籤屬性傳送資料至多個報表套裝，**[!UICONTROL 比較報表套裝]**&#x200B;索引標籤會比較這些報表套裝中最多三個的每個變數設定。 使用它將報表套裝對應至結構之前，找出在報表套裝之間設定不同的變數。
 
-## 更新報表套裝資料 {#refresh}
+## 更新報告套裝資料 {#refresh}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
->title="重新整理報表套裝資料"
->abstract="再次檢查連結至此標籤屬性的報表套裝，包括其變數設定和最近使用的資料，然後重新執行變數分析。 如果升級助理尚未找到任何報表套裝，會先在標籤屬性中尋找它們。 您的選擇與決定都會保留。"
+>title="重新整理報告套裝資料"
+>abstract="再次檢查連結至此標記屬性的報告套裝，包括其變數設定和最近的資料，然後重新執行變數分析。 如果升級助理尚未找到任何報告套裝，就會先在標記屬性中尋找。 您的選取項目與決定都會保留。"
 
 <!-- markdownlint-enable MD034 -->
 
 您可以在此步驟中變更升級助理分析的報表套裝。 如果您的報表套裝組態在移轉過程中變更，請選取&#x200B;**[!UICONTROL 重新整理報表套裝資料]**&#x200B;以重新執行分析。 升級小幫手會保留您現有的選擇與決定。
 
-完成後，選取[儲存並繼續] **以移至[XDM對應](xdm-mapping.md)。**
+完成後，選取[儲存並繼續] ]**以移至[XDM對應](xdm-mapping.md)。**[!UICONTROL 

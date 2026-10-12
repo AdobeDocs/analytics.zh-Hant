@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 0%
+ht-degree: 23%
 ---
 # 管理移轉
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="移轉"
->abstract="每次移轉都會將一個Tags屬性中的Adobe Analytics實作升級為Web SDK。 開啟移轉，從您中斷的地方繼續，或選取「新增」開始移轉。"
+>abstract="每次移轉都會將一個標記屬性中的 Adobe Analytics 實施升級為 Web SDK。 開啟移轉，從您中斷的地方繼續，或選取「新增」開始移轉。"
 
 **[!UICONTROL 移轉]**&#x200B;頁面是Web SDK升級助理的起點。 其中會列出您組織中的移轉，包括每個移轉的進度、狀態以及建立者。 您可以在此頁面建立移轉或開啟現有的移轉。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"
 >title="新移轉"
->abstract="選取您要移轉的tags屬性，並選取該屬性中的程式庫。 當您建立移轉時，Upgrade Assistant會建立程式庫的快照。 移轉快照後對程式庫進行的變更不會包括在內。 您必須完成移轉，標籤屬性才會變更。"
+>abstract="選取您要移轉的標記屬性，並選取該屬性中的程式庫。 您建立移轉時，升級助理會建立程式庫的快照。 移轉快照建立後，對程式庫進行的變更不會包括在內。 直到您完成移轉後，標記屬性才會變更。"
 
 <!-- markdownlint-enable MD034 -->
 

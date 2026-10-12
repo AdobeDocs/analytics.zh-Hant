@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
-# 元件選取
+# 元件選取項目
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection"
->title="元件選取"
->abstract="選擇要包含在此移轉中的規則、資料元素和擴充功能。 依預設，會選取對您的Adobe Analytics實作有積極貢獻的元件。 後續步驟僅適用於您在此選取的元件。"
+>title="元件選取項目"
+>abstract="選擇要納入此移轉中的規則、資料元素和擴充功能。 預設情況下，會選取對您 Adobe Analytics 實施具有積極貢獻的元件。 後續步驟僅適用於您在此選取的元件。"
 
 元件選取是移轉的第一步。 使用它從您的標籤屬性中選擇要包含在移轉中的規則、資料元素和擴充功能。
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
->title="標籤使用"
->abstract="使用此元件的規則、資料元素和擴充功能。 擴充功能使用方式僅涵蓋擴充功能組態設定。 規則內的使用方式會顯示在規則使用方式下方。"
+>title="標記使用情況"
+>abstract="使用此元件的規則、資料元素和擴充功能。 擴充功能使用情況僅涵蓋擴充功能組態設定。 規則內的使用情況會顯示在「規則使用情況」下方。"
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
->title="Analytics使用情況"
->abstract="指派此元件的Adobe Analytics變數，依變數型別分組。"
+>title="Analytics 使用情況"
+>abstract="此元件指派對象的 Adobe Analytics 變數，依變數類型分組。"
 
 <!-- markdownlint-enable MD034 -->
 

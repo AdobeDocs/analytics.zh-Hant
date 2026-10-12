@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# Web SDK實作
+# Web SDK 實施
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="Web SDK實作"
->abstract="檢閱升級助理新增至規則的網頁SDK動作。 您的Adobe Analytics動作原地不動。 選取要並排比較其目前和Web SDK設定的元件。 只有您佇列的元件會新增至移轉。"
+>title="Web SDK 實施"
+>abstract="審閱升級助理新增至規則的 Web SDK 動作。 您的 Adobe Analytics 動作將維持不動。 選取要將其目前設定和 Web SDK 設定進行並排比較的元件。 只有您放入佇列的元件會新增至移轉。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 選取要並排比較其目前設定與其Web SDK設定的元件。 如果您需要更多內容，升級助理員會連結至標籤UI中的元件。
 
-排入佇列的元件會新增至移轉。 若要將元件排入佇列，請在清單中選取該元件，或在其詳細資訊中選取&#x200B;**[!UICONTROL 佇列]**。 若要將它取出，請選取[從佇列中移除]。**&#x200B;** 升級助理不會變更您的標籤屬性，直到您[完成移轉](final-review.md#finalize)。
+排入佇列的元件會新增至移轉。 若要將元件排入佇列，請在清單中選取該元件，或在其詳細資訊中選取&#x200B;**[!UICONTROL 佇列]**。 若要將它取出，請選取[從佇列中移除]。**** 升級助理不會變更您的標籤屬性，直到您[完成移轉](final-review.md#finalize)。
 
 升級助理會使用AI來產生網頁SDK動作，且結果可能不準確或完整。 產生動作不會驗證它們在您的網站上如何行為，因此請在發佈程式庫之前先測試它們。
