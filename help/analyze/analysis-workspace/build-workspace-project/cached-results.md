@@ -10,24 +10,26 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
     internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# 在Workspace專案中使用快取結果
+# 在 Workspace 專案中使用快取結果
 
 >[!CONTEXTUALHELP]
 >id="aa_project_cached_results"
 >title="使用快取結果以加速載入"
->abstract="啟用後，結果會在使用者首次開啟專案或依排程傳送專案後，立即載入12小時。 在這段時間內開啟專案的任何人都會看到相同的結果，即使資料繼續在背景中流動。 若要載入最新結果，請重新整理個別面板或整個專案。"
+>abstract="啟用後，結果會在使用者首次開啟專案或依排程傳遞專案後，立即載入 12 小時。 在這段時間內開啟專案的任何人都會看到相同的結果，即使資料繼續在背景中流入。 若要載入最新結果，請重新整理個別面板或整個專案。"
 
 {{release-limited-testing}}
 
