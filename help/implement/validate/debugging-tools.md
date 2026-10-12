@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -35,7 +37,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 3%
@@ -113,4 +115,4 @@ Adobe Analytics收集請求在請求URL或承載中包含Analytics變數。 原�
 
 取消的請求不一定表示資料遺失。 瀏覽器可能已傳送完整要求，並僅停止等待回應。 瀏覽器開發人員工具通常無法顯示差異，但HTTP偵錯Proxy可以。
 
-導覽時未取消與`navigator.sendBeacon()`一併傳送的請求。 AppMeasurement使用`sendBeacon`作為退出連結，且每當[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)啟用時。 Web SDK會將其用於與[`documentUnloading`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/js/commands/sendevent/documentunloading)一併傳送的事件。 如果連結追蹤請求經常被取消，請使用這些選項。
+導覽時未取消與`navigator.sendBeacon()`一併傳送的請求。 AppMeasurement使用`sendBeacon`作為退出連結，且每當[`useBeacon`](/help/implement/vars/config-vars/usebeacon.md)啟用時。 Web SDK會將其用於與[`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading)一併傳送的事件。 如果連結追蹤請求經常被取消，請使用這些選項。

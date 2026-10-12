@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '259'
 ht-degree: 10%
 ---
 # 機器人名稱
@@ -45,7 +45,6 @@ ht-degree: 10%
 由於機器人報表會與報表套裝的其他資料分開，因此此維度僅支援下列維度和量度：
 
 * [頁面](page.md)
-* [產品](product.md) （僅發生[Bot產品](../metrics/bot-product-occurrences.md)）
 * 以時間為基礎的維度（例如，[Day](day.md)、[Week](week.md)或[Month](month.md)）
 * [機器人發生次數](../metrics/bot-occurrences.md)
 * [機器人頁面檢視次數](../metrics/bot-page-views.md)
