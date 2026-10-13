@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 16%
 ---
-# Web SDK實作
+# Web SDK 實施
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_websdkimplementation"
->title="Web SDK實作"
->abstract="檢閱升級助理新增至規則的網頁SDK動作。 您的Adobe Analytics動作原地不動。 選取要並排比較其目前和Web SDK設定的元件。 只有您佇列的元件會新增至移轉。"
+>title="Web SDK 實施"
+>abstract="審閱升級助理新增至規則的 Web SDK 動作。 您的 Adobe Analytics 動作將維持不動。 選取要將其目前設定和 Web SDK 設定進行並排比較的元件。 只有您放入佇列的元件會新增至移轉。"
 
 <!-- markdownlint-enable MD034 -->
 

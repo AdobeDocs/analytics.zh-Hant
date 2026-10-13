@@ -170,14 +170,14 @@ ht-degree: 9%
 >id="classificationsets_schema_automate_locationaccount"
 >title="位置帳戶"
 >abstract="支援匯入分類資料之帳戶類型的位置帳戶清單。 選取「**[!UICONTROL 新帳戶]**」，建立新的位置帳戶。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-accounts" text="設定雲端匯入及匯出帳戶"
+>additional-url="https://experienceleague.adobe.com/zh-Hant/docs/analytics/components/locations/configure-import-accounts" text="設定雲端匯入及匯出帳戶"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="位置"
 >abstract="所選位置帳戶中支援匯入分類資料的位置清單。 選取「**[!UICONTROL 新位置]**」，建立新的位置。"
->additional-url="https://experienceleague.adobe.com/zh-hant/docs/analytics/components/locations/configure-import-locations" text="設定雲端匯入及匯出位置"
+>additional-url="https://experienceleague.adobe.com/zh-Hant/docs/analytics/components/locations/configure-import-locations" text="設定雲端匯入及匯出位置"
 
 您可以設定並使用雲端帳戶和雲端位置，以自動化分類資料的擷取。
 

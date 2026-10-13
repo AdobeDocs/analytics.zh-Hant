@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 3%
+ht-degree: 22%
 ---
-# XDM對應
+# XDM 對應
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
->title="XDM對應"
->abstract="將您選取的Analytics變數對應至XDM結構描述中的欄位。 升級助理可以建立具有AI建議對應的新結構描述，或將變數對應到您已擁有的結構描述。 請先檢閱所有對應，然後再繼續。"
+>title="XDM 對應"
+>abstract="將您選取的 Analytics 變數對應至 XDM 結構描述中的欄位。 升級助理可以建立具有 AI 建議對應的新結構描述，或者您可以將變數對應至您已擁有的結構描述中。 請先審閱所有對應後再繼續。"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -64,8 +64,8 @@ Web SDK會使用[體驗資料模型(XDM)](https://experienceleague.adobe.com/zh-
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping_fieldgroups"
->title="欄位群組偏好"
->abstract="選擇升級助理在建置方案時偏好的欄位群組型別。 標準欄位群組由Adobe定義。 自訂欄位群組由您的組織定義。"
+>title="欄位群組偏好設定"
+>abstract="選擇升級助理在結構描述時偏好的欄位群組類型。 標準欄位群組由 Adobe 定義。 自訂欄位群組由您的組織定義。"
 
 <!-- markdownlint-enable MD034 -->
 
