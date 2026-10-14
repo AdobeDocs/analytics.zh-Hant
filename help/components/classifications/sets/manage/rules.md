@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 13%
@@ -47,7 +47,7 @@ ht-degree: 13%
 1. 從Adobe Analytics頂端功能表列選取&#x200B;**[!UICONTROL 元件]**，然後選取&#x200B;**[!UICONTROL 分類設定]**。
 1. 在&#x200B;**[!UICONTROL 分類設定]**&#x200B;中，選取&#x200B;**[!UICONTROL 分類設定]**&#x200B;索引標籤。
 1. 在&#x200B;**[!UICONTROL 分類集]**&#x200B;管理員中，選取您要定義規則的分類集。
-1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**&#x200B;對話方塊中，選取&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤。
+1. 在&#x200B;**[!UICONTROL 分類設定： _分類設定名稱_]**對話方塊中，選取&#x200B;**[!UICONTROL 規則]**索引標籤。
 
    * 如果第一次存取&#x200B;**[!UICONTROL 規則]**&#x200B;介面，或者如果使用舊版產生器，會出現對話方塊來協助您開始使用。 選項包括：
 
@@ -336,10 +336,10 @@ ht-degree: 13%
 
 ### 範例
 
-您要使用分類&#x200B;**[!UICONTROL 輸入]**&#x200B;來分類，使用者如何使用搜尋字串做為關鍵維度來搜尋運動員。 例如，使用此規則集：
+您要使用分類&#x200B;**[!UICONTROL Type]**&#x200B;來分類，使用者使用搜尋字串作為索引鍵維度所執行的搜尋型別。 例如，使用此規則集：
 
 ![規則優先順序](assets/rule-priority.png)
 
-* 當使用者搜尋`Cowboys Fantasy Tony Romo`時，`Romo`被分類為&#x200B;**[!UICONTROL 型別]**。
-* 當使用者搜尋`Cowboys Fantasy Tony Romeo`時，`Fantasy`被分類為&#x200B;**[!UICONTROL 型別]**。
+* 當使用者搜尋`Cowboys with Tony Romo`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
+* 當使用者搜尋`Cowboys vs. Broncos with Tony Romeo`時，`Player`被分類為&#x200B;**[!UICONTROL 型別]**。
 * 當使用者搜尋`Cowboys vs. Broncos`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
