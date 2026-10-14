@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 13%
@@ -336,10 +336,10 @@ ht-degree: 13%
 
 ### 範例
 
-您要使用分類&#x200B;**[!UICONTROL 輸入]**&#x200B;來分類，使用者如何使用搜尋字串做為關鍵維度來搜尋運動員。 例如，使用此規則集：
+您要使用分類&#x200B;**[!UICONTROL Type]**&#x200B;來分類，使用者使用搜尋字串作為索引鍵維度所執行的搜尋型別。 例如，使用此規則集：
 
 ![規則優先順序](assets/rule-priority.png)
 
-* 當使用者搜尋`Cowboys Fantasy Tony Romo`時，`Romo`被分類為&#x200B;**[!UICONTROL 型別]**。
-* 當使用者搜尋`Cowboys Fantasy Tony Romeo`時，`Fantasy`被分類為&#x200B;**[!UICONTROL 型別]**。
+* 當使用者搜尋`Cowboys with Tony Romo`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
+* 當使用者搜尋`Cowboys vs. Broncos with Tony Romeo`時，`Player`被分類為&#x200B;**[!UICONTROL 型別]**。
 * 當使用者搜尋`Cowboys vs. Broncos`時，`Team`被分類為&#x200B;**[!UICONTROL 型別]**。
