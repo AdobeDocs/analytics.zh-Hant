@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: cf020d4d2b873668a17c978ed69a311db37e7cd0
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 52%
+source-wordcount: '1118'
+ht-degree: 45%
 ---
 # 目前的Adobe Analytics發行說明（2026年10月）
 
-**上次更新日期**：2026年10月7日
+**上次更新日期**：2026年10月14日
 
 以下發行說明涵蓋2026年10月發行期間。 Adobe Analytics 版本發行採用[持續傳遞模式](releases.md)，透過擴充性更高的分階段方式進行功能部署。 因此，這些發行說明每月會更新多次。 請定期進行檢查。
 
@@ -55,6 +55,7 @@ ht-degree: 52%
 | 功能與說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ---- |
 | **Adobe Analytics MCP伺服器的唯讀許可權**<br/>&#x200B;管理員現在可以授與使用者對Adobe Analytics MCP伺服器的唯讀存取權。 新的[!UICONTROL MCP唯讀存取]許可權專案可讓使用者存取所有唯讀工具，而不允許他們建立專案、區段或計算量度。<p>現有的[!UICONTROL MCP存取]許可權專案已重新命名為[!UICONTROL MCP完整存取]。 具有此許可權的使用者可繼續存取所有工具，包括建立、變更或刪除元件的工具。</p><p>如需詳細資訊，請參閱Adobe Analytics MCP伺服器檔案中的[設定許可權](https://developer.adobe.com/analytics-mcp/docs/guides/permissions)。</p> | | 2026年10月6日 |
+| **Data Warehouse報告中的分類資料改善**<br/> Data Warehouse報告中的分類資料現在更準確。 有了這些改善功能，您可能會在Data Warehouse報表中注意到下列差異：<ul><li>**您先前看到分類值的空白值**：從分類設定中刪除分類值時，Data Warehouse現在會正確顯示空白。 過去，已刪除的分類值可能會持續出現在之後的報表中。</li><li>**更完整的分類值**：某些情況下，Data Warehouse先前只顯示數個不同分類值中的一個。 Data Warehouse現在會顯示每個值。</li><li>**在Analysis Workspace中，分類值的呈現方式可能不同（不常見）**： Data Warehouse可以顯示所有關聯的分類值，而Analysis Workspace只會呈現單一值。 因此，Data Warehouse和Analysis Workspace之間的分類值偶爾可能會有所不同。</li></ul><p>如需詳細資訊，請參閱[Data Warehouse中的分類維度](/help/export/data-warehouse/component-support.md#classifications)。</p> | 2026年10月14日 | 2027年1月 |
 | **自動產生元件說明** <br/>您現在可以自動產生維度、量度、計算量度、區段和日期範圍的說明。 這可協助Workspace使用者瞭解要使用哪些元件，尤其是在具有大型元件庫的組織中。 <p>您可以產生單一元件的說明，或同時產生許多元件的說明。</p> <p>(文件連結待補充。)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 2026年10月28日 |
 | **Adobe Brand Visibility整合**<br/>&#x200B;將Adobe Brand Visibility與您組織的Adobe Analytics資料連結，以便測量AI驅動的探索如何轉化為實際的網站參與度和業務成果。<p>(文件連結待補充。)</p> | | 2026年10 |
 | **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics資料** <br/>Adobe CX Enterprise Coworker聊天現在可執行進階資料分析，而以前只能在Analysis Workspace中執行進階資料分析。 Co-worker Chat會存取您Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>(文件連結待補充。)</p> | 2026年10月2日 | 待定<p>（原計畫於2026年9月25日推出）</p> |
@@ -97,5 +98,5 @@ ht-degree: 52%
 >* [2026年舊版發行說明](/help/release-notes/2026.md)
 >* [Customer Journey Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=zh-hant)
 >* [串流媒體服務發行說明](https://experienceleague.adobe.com/zh-hant/docs/media-analytics/using/release-notes/release-notes)
->* [Adobe CX Enterprise 產品](https://business.adobe.com/tw/products/adobe-experience-cloud-products.html)的最新發行更新
+>* [Adobe CX Enterprise 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新發行更新
 
