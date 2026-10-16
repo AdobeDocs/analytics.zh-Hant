@@ -38,15 +38,15 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 18%
+ht-degree: 19%
 ---
-# 對應程式準備
+# 對應工具準備
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
->title="對應程式準備"
+>title="對應工具準備"
 >abstract="審閱您的標記屬性傳送至每個報告套裝的 Analytics 變數。 您在此處選取的變數會帶入 XDM 對應中。 運用索引標籤檢查是否有最近的資料、尋找重複的變數，以及比較報告套裝間的設定。"
 
 <!-- markdownlint-enable MD034 -->

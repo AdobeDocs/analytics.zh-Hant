@@ -1,5 +1,4 @@
 ---
-force-publish-loc: '2026-10-14T14:24:51.071878+00:00'
 cloud: Experience Cloud
 product: analytics
 solution: Analytics
@@ -13,15 +12,14 @@ feature-set: Analytics
 role: User, Admin
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 autotag-review: '2026-05-19T13:22:46.838Z'
 nudge: true
 source-git-commit: 34de09b177c3c846cc44673ad9d922333f6f2831
 workflow-type: tm+mt
-source-wordcount: 124
-ht-degree: 96%
-
+source-wordcount: '120'
+ht-degree: 100%
 ---
-
 
 # 僅限內部使用的中繼資料
 
