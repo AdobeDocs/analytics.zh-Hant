@@ -26,7 +26,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;版本本文設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
+_本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**中記錄Journey Canvas視覺效果。<br/><br/>_&#x200B;請參閱[為本文的&#x200B;_![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**版本設定Journey Canvas視覺效果](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas)。_
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 
 ## 開始建立歷程畫布視覺化圖表
 
-1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg) [!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
+1. 將空白面板新增至您的專案，選取左側邊欄中的「[!UICONTROL **視覺化圖表**]」圖示，然後將「![圖表路徑](/help/assets/icons/Branch3.svg)[!UICONTROL **歷程畫布**]」視覺化圖表拖曳至面板中。
 
    或
 
@@ -116,7 +116,7 @@ _本文會在_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare_percentages"
 >title="比較百分比"
->abstract="根據主要量度，比較目前日期範圍和所選比較日期範圍之間歷程中每個節點、箭頭和流失的百分比變更。 停用此選項時，會顯示原始值百分比，而非百分比變更。"
+>abstract="根據主要量度，比較目前日期範圍與所選比較日期範圍之間，歷程中各節點、箭頭及流失的百分比變化。 停用此選項時，會顯示原始值的百分比，而非百分比變化。"
 
 <!-- markdownlint-enable MD034 -->
 

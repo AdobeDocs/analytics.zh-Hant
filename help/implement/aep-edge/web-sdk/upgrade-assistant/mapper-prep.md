@@ -38,15 +38,15 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 18%
+ht-degree: 19%
 ---
-# 對應程式準備
+# 對應工具準備
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
->title="對應程式準備"
+>title="對應工具準備"
 >abstract="審閱您的標記屬性傳送至每個報告套裝的 Analytics 變數。 您在此處選取的變數會帶入 XDM 對應中。 運用索引標籤檢查是否有最近的資料、尋找重複的變數，以及比較報告套裝間的設定。"
 
 <!-- markdownlint-enable MD034 -->
@@ -88,4 +88,4 @@ Upgrade Assistant會使用您的報表套裝來瞭解您的實施所設定的變
 
 您可以在此步驟中變更升級助理分析的報表套裝。 如果您的報表套裝組態在移轉過程中變更，請選取&#x200B;**[!UICONTROL 重新整理報表套裝資料]**&#x200B;以重新執行分析。 升級小幫手會保留您現有的選擇與決定。
 
-完成後，選取[儲存並繼續] **以移至[XDM對應](xdm-mapping.md)。**
+完成後，選取[儲存並繼續] ]**以移至[XDM對應](xdm-mapping.md)。**[!UICONTROL 
