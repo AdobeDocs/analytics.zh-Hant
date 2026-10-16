@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: '7591'
-ht-degree: 91%
+source-wordcount: '7621'
+ht-degree: 90%
 ---
 # Adobe Analytics 技術文件更新
 
@@ -76,6 +76,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2026年10月** | |
+| 透過CDN收集資料 | 將[透過CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)路由資料收集新增至CX Enterprise介面與管理指南。 |
 | 機器人產品發生次數量度 | 新增[機器人產品發生次數](/help/components/metrics/bot-product-occurrences.md)量度，此量度顯示符合機器人規則的產品字串子點選數。 <p>也更新了[機器人名稱](/help/components/dimensions/bot-name.md)維度和[機器人發生次數](/help/components/metrics/bot-occurrences.md)量度以參考新的量度。</p> |
 | **2026年9月** | |
 | 箭頭和流失的歷程畫布比較 | 更新[設定歷程畫布視覺效果](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings)中的&#39;[!UICONTROL 與]&#39;比較設定，以顯示歷程中每個節點、箭頭和流失現在顯示的日期範圍之間的百分比變更。 |
