@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 您用於`trackingServerSecure` （或`edgeDomain`）的值取決於您的組織如何將資料傳送至Adobe：
 
-* **如果您的組織使用第一方網域**，例如透過[Adobe管理的憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)、[客戶管理的憑證](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)或[內容傳遞網路(CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)，請將該值設定為該網域。 例如，`data.example.com`。
+* **如果您的組織使用第一方網域**，例如透過[Adobe管理的憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)、[客戶管理的憑證](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/customer-managed-cert)或[內容傳遞網路(CDN)](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cdn)，請將該值設定為該網域。 例如，`data.example.com`。
 * **如果您的組織使用協力廠商網域**，請將此值設定為`data.adobedc.net`的租使用者ID子網域。 例如，`example.data.adobedc.net`。
 
-請參閱CX Enterprise介面與管理指南中的[選擇資料收集網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)，以取得每個選項的詳細資訊，包括如何尋找您的租使用者ID。
+請參閱CX Enterprise介面與管理指南中的[選擇資料收集網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/collection-domain)，以取得每個選項的詳細資訊，包括如何尋找您的租使用者ID。
 
 Adobe強烈建議將此資訊保留在[解決方案設計檔案](../../prepare/solution-design.md)中，以在整個組織內保持一致。
 
