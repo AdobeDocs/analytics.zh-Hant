@@ -30,7 +30,7 @@ ht-degree: 31%
 ---
 # Adobe Analytics 安全性資源
 
-Adobe遵循既定的安全性程式與控制機制，以遵循業界接受的標準、法規與認證。 請參閱[Adobe安全性](https://www.adobe.com/trust/security.html)，以取得有關Adobe全公司安全性實務的詳細資訊。
+Adobe遵循既定的安全性程式與控制機制，以遵循業界接受的標準、法規與認證。 請參閱[Adobe安全性](https://www.adobe.com/tw/trust/security.html)，以取得有關Adobe全公司安全性實務的詳細資訊。
 
 有關Adobe Analytics專屬實務的資訊，請參閱[Adobe Analytics安全性總覽](https://www.adobe.com/tw/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf)。 它概述了圍繞架構、驗證、資料中心、網路和人員所遵循的流程。
 

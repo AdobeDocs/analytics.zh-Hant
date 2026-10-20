@@ -101,4 +101,4 @@ ht-degree: 89%
 
 * 若需要擷取連結，我們可將您導向 Adobe 合作夥伴以滿足您的需求。
 * 推送訊息和應用程式內的傳送訊息適用於 Adobe Campaign Standard 和 Adobe Campaign Classic (僅限推送)。 但是，目標定位所用的基本資料集不同。 我們建議您找 Adobe 帳戶團隊，以確定傳送訊息資料的移轉選項。
-* 關於定位功能，請您採用新的[Adobe Experience Platform定位服務](https://www.adobe.com/experience-platform/location-service.html)，所有Adobe Experience Platform客戶均可免費使用。
+* 關於定位功能，請您採用新的[Adobe Experience Platform定位服務](https://www.adobe.com/tw/experience-platform/location-service.html)，所有Adobe Experience Platform客戶均可免費使用。
