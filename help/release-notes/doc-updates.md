@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
+source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
-source-wordcount: '7653'
-ht-degree: 90%
+source-wordcount: '7701'
+ht-degree: 89%
 ---
 # Adobe Analytics 技術文件更新
 
@@ -76,6 +76,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2026年10月** | |
+| 鎖定視覺效果的選取範圍 | 已重新建構[管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)，以將設定資料來源設定與鎖定選取專案分開。 也澄清當視覺效果鎖定至自由表格中的列時，[鎖定選取範圍](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)的運作方式，包括當鎖定的劃分列不再位於表格中時會發生什麼情況。 |
 | 表格欄的鍵盤導覽 | 記錄如何使用鍵盤，在Analysis Workspace中[調整大小](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)資料表資料行，包括熒幕助讀程式意見反應。 也將[資料表資料行動作](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)區段新增至快速鍵。 |
 | 透過CDN收集資料 | 將[透過CDN](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cdn)路由資料收集新增至CX Enterprise介面與管理指南。 |
 | 機器人產品發生次數量度 | 新增[機器人產品發生次數](/help/components/metrics/bot-product-occurrences.md)量度，此量度顯示符合機器人規則的產品字串子點選數。 <p>也更新了[機器人名稱](/help/components/dimensions/bot-name.md)維度和[機器人發生次數](/help/components/metrics/bot-occurrences.md)量度以參考新的量度。</p> |
