@@ -6,29 +6,37 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1052'
 ht-degree: 8%
-
 ---
-
 # 準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 
-在您組織中的任何人開始移轉專案之前（如[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)中所述），請完成下列章節。
+在您組織中的任何人開始移轉專案之前，請完成下列章節：如[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)或使用[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)中所述。
 
 ## 先決條件
 
@@ -128,6 +136,12 @@ Customer Journey Analytics不支援下列視覺效果和面板。 當這些元�
 * [頁面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [貢獻分析](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### 不支援的報表套裝
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+無法移轉使用[虛擬報表套裝](/help/components/vrs/vrs-about.md)的面板。 請確定專案中的每個面板都使用基本報表套裝。
 
 ## 以組織身分決定要如何對應元件
 
