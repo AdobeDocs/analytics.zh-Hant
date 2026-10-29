@@ -44,7 +44,7 @@ ht-degree: 2%
 | --- | --- | --- |
 | AppMeasurement或Analytics標籤擴充功能 | 從瀏覽器直接向Analytics資料收集伺服器提出的請求 | [AppMeasurement](#appmeasurement) |
 | Web SDK | Edge追蹤，在Edge Network將您的事件轉換為Analytics點選之後 | [Web SDK](#web-sdk) |
-| Mobile SDK | Assurance中的Analytics事件檢視。 如果您使用Edge Network或Edge Bridge擴充功能，請開啟&#x200B;**[!UICONTROL Analytics Edge檢視]**。 | 在Assurance中檢視[Adobe Analytics事件](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| Mobile SDK | Assurance中的Analytics事件檢視。 如果您使用Edge Network或Edge Bridge擴充功能，請開啟&#x200B;**[!UICONTROL Analytics Edge檢視]**。 | 在Assurance中檢視[Adobe Analytics事件](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/assurance/view/adobe-analytics) |
 | 資料插入 API | 您伺服器的傳出要求及其回應 | [疑難排解資料插入API要求](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurement與Analytics擴充功能 {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurement會傳送退出連結要求，以及啟用[`useBeacon`](../vars/co
 
 使用Web SDK時，瀏覽器會將事件傳送至Edge Network，而非直接傳送至Analytics，因此您不會看到`/b/ss/`請求。 [檢查Edge Network要求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)並確認下列專案：
 
-* `configId`引數符合已啟用[Adobe Analytics服務](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics)的資料流，並具有您期望的報表套裝。
+* `configId`引數符合已啟用[Adobe Analytics服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#analytics)的資料流，並具有您期望的報表套裝。
 * 裝載符合頁面檢視或連結事件的資格。 Analytics會忽略不含頁面詳細資料或網頁互動型別的裝載。 檢視Adobe Analytics[&#128279;](../aep-edge/hit-types.md)中的Edge Network事件型別。
 
 ### 檢查Analytics收到的內容 {#web-sdk-contents}
