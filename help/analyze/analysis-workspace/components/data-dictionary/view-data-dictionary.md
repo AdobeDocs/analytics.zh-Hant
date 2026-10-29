@@ -27,7 +27,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 98%
@@ -66,7 +66,7 @@ ht-degree: 98%
    | [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。 (當您首次存取資料字典時，此選項也可以在 [!UICONTROL **Quick filters**] 標籤中使用。) |
    | [!UICONTROL **全部顯示**] | 顯示所有元件。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。 作為管理員，這有助於確定需要您檢閱和核准的元件。 此選項僅提供給管理員使用。 |
-   | [!UICONTROL **缺少說明**] | 僅顯示在說明欄位中還沒有說明的元件。 此選項僅提供給管理員使用。 |
+   | [!UICONTROL **缺少描述**] | 僅顯示在說明欄位中還沒有說明的元件。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **顯示重複項目**] | <p>僅顯示與所選報告套裝中的另一個元件具有相同名稱或相同定義的元件。 名稱或定義必須完全相符才能顯示為重複項目。</p><p>此選項僅提供給管理員使用。</p><p>**注意：**&#x200B;對於定義，包括您建立的元件和 Adobe 提供的元件。 對於名稱，目前僅包括您建立的元件，不包括 Adobe 提供的元件。 顯示 Adobe 提供元件的重複名稱會在未來版本中新增。</p> |
    | [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。 此選項僅提供給管理員使用。 |
    | [!UICONTROL **由Adobe建立**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。 並不會顯示由管理員或您組織中的其他使用者建立的元件。 |

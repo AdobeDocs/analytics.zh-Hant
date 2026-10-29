@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 89%
+source-wordcount: '1420'
+ht-degree: 71%
 ---
 # 在資料字典中編輯元件條目
 
@@ -62,7 +62,7 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
    | **[!UICONTROL 日期範圍]** | 僅限屬於日期範圍的元件。 (當您首次存取資料字典時，此選項也可以在 **[!UICONTROL Quick filters]** 標籤中使用。) |
    | **[!UICONTROL 全部顯示]** | 所有元件。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 未經核准]** | 僅限管理員尚未標籤為已核准的元件。 作為管理員，這有助於確定需要您檢閱和核准的元件。 此選項僅提供給管理員使用。 |
-   | **[!UICONTROL 缺少說明]** | 僅限說明欄位中尚未說明的元件。 此選項僅提供給管理員使用。 |
+   | **[!UICONTROL 缺少描述]** | 僅限說明欄位中尚未說明的元件。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 顯示重複項目]** | <p>僅限與所選報表套裝中其他元件具有相同名稱或相同定義的元件。 名稱或定義必須完全相符才能顯示為重複項目。</p><p>此選項僅提供給管理員使用。</p><p>**注意：**&#x200B;對於定義，包括您建立的元件和 Adobe 提供的元件。 對於名稱，目前僅包括您建立的元件，不包括 Adobe 提供的元件。 顯示 Adobe 提供元件的重複名稱會在未來版本中新增。</p> |
    | **[!UICONTROL 無最近的資料]** | 僅限過去90天內未收集任何資料的元件。 此選項僅提供給管理員使用。 |
    | **[!UICONTROL 由Adobe建立]** <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。  例如Adobe Target。 並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
@@ -82,6 +82,7 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
 1. 從元件清單中選取您要編輯的元件。
 
 1. 選擇元件名稱旁邊的&#x200B;**編輯**&#x200B;圖示![資料字典編輯圖示](/help/assets/icons/Edit.svg)。
+   ![在資料字典中編輯元件對話方塊](assets/data-dictionary-edit-component.png)
 
 1. 編輯有關元件的以下任何資訊：
 
@@ -89,7 +90,7 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
    |---------|----------|
    | **[!UICONTROL 已核准]** | <p>指出該元件已經過管理員檢閱與核准。</p><p>元件獲得核准後，管理員可以選取&#x200B;**已核准**&#x200B;按鈕來取消核准。</p> |
    | **[!UICONTROL 需要核准]** | <p>指出該元件尚未經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;**[!UICONTROL 核准]**&#x200B;的選項。 選擇此選項會讓使用者看到元件標記為「已核准」。</p> |
-   | **[!UICONTROL 說明]** | 描述元件的預定功能。 (此資訊由 Analytics 管理員新增，如[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中所述。) |
+   | **[!UICONTROL 說明]** | 描述元件的預定功能。 只有Analytics管理員可以新增元件說明。 <p>您可以透過下列其中一種方式新增說明：</p><ul><li>手動輸入說明</li><li>選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;讓Adobe為您產生說明 <p>產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。</p><p>若要同時產生多個元件的說明，請參閱[產生多個元件的說明](#generate-descriptions-for-multiple-components)。</p></li></ul> <p>如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 經常與下列項目搭配使用]** | <p>顯示您正在查看的元件最常與哪些元件一起使用。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>此清單顯示過去 90 天的資料。 只會顯示您有權檢視的元件。</p><p>管理員可以在「**[!UICONTROL 永遠包含]**」和「**[!UICONTROL 永遠排除]**」下拉式欄位中選取所需的元件，來管理使用者在此區段中看到的元件。 在管理顯示給使用者的元件之前，請先套用&#x200B;**全部顯示**&#x200B;篩選器，以確保您能看到所有未與您共用的元件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p> |
    | **[!UICONTROL 類似於]** | <p>顯示與您正在查看的元件具有相似名稱的元件。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>報告套裝中的任何重複元件也會顯示在此處。 Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)中所述。</p><p>管理員可以在「**[!UICONTROL 永遠包含]**」和「**[!UICONTROL 永遠排除]**」下拉式欄位中選取所需的元件，來管理使用者在此區段中看到的元件。 在管理顯示給使用者的元件之前，請先套用&#x200B;**全部顯示**&#x200B;篩選器，以確保您能看到所有未與您共用的元件。<!-- Soon we will make it so any fields that an admin doesn't have access to will be greyed out, and then they can enable the Show all filter to make it editable. --></p><p>**注意：**&#x200B;目前，「**類似於**」區段僅包括您建立的元件，不包括 Adobe 提供的元件。 Adobe 提供的元件會在未來版本中新增。</p> |
    | **[!UICONTROL 標記]** | 顯示套用於元件的所有標記。 具有管理員存取權限的使用者可以在編輯元件時新增標記。 |
@@ -101,3 +102,29 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
    {style="table-layout:auto"}
 
 1. 按一下&#x200B;**儲存**&#x200B;圖示![資料字典儲存圖示](/help/assets/icons/SaveFloppy.svg)以儲存您的變更。
+
+## 產生多個元件的說明
+
+Analytics管理員可讓Adobe同時產生多個元件的說明。 如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。
+
+>[!IMPORTANT]
+>
+>產生多個元件的說明會取代所選元件的任何現有說明。 為避免覆寫現有說明，請在選取元件之前，篩選清單以僅顯示尚未具有說明的元件。
+
+若要為「資料字典」中的多個元件產生說明：
+
+1. 開啟資料字典，如[存取資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md#access-the-data-dictionary)中所述。
+
+1. 確保在下拉式選單中選取正確的報表套裝。
+
+1. （建議）選取&#x200B;**篩選器**&#x200B;圖示![資料字典篩選器圖示](/help/assets/icons/Filter.svg)，然後選取&#x200B;**[!UICONTROL 缺少描述]**&#x200B;以只顯示沒有描述的元件。
+
+1. 選取您要產生說明的元件。
+
+1. 選取元件清單上方的![AI](/help/assets/icons/AI.svg) **[!UICONTROL 產生描述]**。
+
+1. 選取&#x200B;**[!UICONTROL 產生說明]**&#x200B;以進行確認。
+
+   確認訊息會顯示已新增的說明數量。
+
+   如果您選取了大量元件，說明會在背景中產生。 當要求完成時，您會收到應用程式內[通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#view-notifications)，其中顯示已產生多少說明，以及失敗了多少說明。

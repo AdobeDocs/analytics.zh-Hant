@@ -1,5 +1,5 @@
 ---
-description: 瞭解管理員如何使用報表套裝或資料字典來新增說明至元件。
+description: 瞭解管理員如何使用報表套裝或資料字典來新增元件說明。
 title: 新增元件說明
 feature: Components
 role: Admin
@@ -29,13 +29,11 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 261
-ht-degree: 38%
-
+source-wordcount: '543'
+ht-degree: 20%
 ---
-
 # 新增元件說明
 
 在 Analysis Workspace 中建置專案或檢視報表時，說明可幫助使用者了解如何善用各種元件。
@@ -56,16 +54,16 @@ Analytics管理員可在報表套裝中或直接在Analysis Workspace中使用�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增元件說明](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增元件說明](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
 
 ## 資料字母排序 {#add-descriptions}
 
-Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。 這包括 Analytics 管理員直接在 Analysis Workspace 中新增元件說明的能力。
+Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。 資料字典可讓Analytics管理員直接在Analysis Workspace中新增元件說明。
 
-如需有關如何在資料字典中新增元件的資訊，請參閱[在資料字典中編輯元件條目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。
+如需有關編輯資料字典中元件說明的資訊，請參閱[編輯資料字典中的元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。
 
 如需有關資料字典的一般資訊，請參閱[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)。
 
@@ -74,3 +72,46 @@ Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深�
 >[報表元件設定](/help/components/vrs/vrs-components.md)
 >[資料字典元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
+
+## 自動產生說明
+
+{{release-limited-testing-section}}
+
+Adobe Analytics可以使用創作AI為您撰寫說明，而不必手動撰寫每個說明。 您可以產生單一元件的說明，或同時產生許多元件的說明。
+
+產生的說明：
+
+* 長度不超過3個句子。
+* 以Adobe使用AI ]**產生的文字**[!UICONTROL &#x200B;結束，讓使用者知道已產生說明。
+* 可在產生後進行編輯。
+
+### 先決條件
+
+在您產生說明之前，您的組織必須同意某些產生式AI法律條款。 如果您的組織不同意這些條款，則產生說明的選項會變暗。 選取選項旁的資訊圖示![資訊](/help/assets/icons/InfoOutline.svg)，瞭解如何啟用該功能，或連絡您組織的管理員或Adobe帳戶團隊。
+
+### 如何產生說明
+
+產生的說明會根據元件的定義以及有關如何在報表套裝中使用元件的其他內容，例如：
+
+* 維度的排名最前的專案
+* 經常與元件搭配使用的元件
+
+當計算量度或區段參考另一個區段時，產生的說明會說明參考區段的定義。
+
+### 從不同位置產生說明
+
+您可以在Adobe Analytics的下列區域產生說明。 有些位置可讓您為多個元件產生說明，有些位置則不然。
+
+選取位置以瞭解如何在該處產生說明。
+
+| 位置 | 支援的元件 | 單一元件 | 多個元件 |
+| --- | --- | --- | --- |
+| [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) | <ul><li>維度</li><li>量度</li><li>計算量度</li><li>區段</li><li>日期範圍</li></ul> | 是 | 是 |
+| [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 區段 | 是 | 無 |
+| [區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | 區段 | 無 | 是 |
+| [計算量度產生器](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) | 計算量度 | 是 | 無 |
+| [計算量度管理器](/help/components/calculated-metrics/workflow/cm-manager.md#action-bar) | 計算量度 | 無 | 是 |
+| [日期範圍產生器](/help/analyze/analysis-workspace/components/calendar-date-ranges/create.md#date-range-builder) | 日期範圍 | 是 | 無 |
+| [日期範圍管理員](/help/analyze/analysis-workspace/components/calendar-date-ranges/manage.md#action-bar) | 日期範圍 | 無 | 是 |
+
+{style="table-layout:auto"}

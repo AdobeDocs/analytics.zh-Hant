@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 99%
+source-wordcount: '1543'
+ht-degree: 94%
 ---
 # 建置計算量度 {#build-metrics}
 
@@ -58,7 +58,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
    | **[!UICONTROL 報告套裝]** | 您可以選取計算量度的報告套裝。  根據選取的報告套裝，您定義的計算量度可在 Workspace 專案中使用。 |
    | **[!UICONTROL 僅限專案的量度]** | 如[為單一專案建立計算量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project)所述，當您編輯為單一專案所建立的計算量度時，此對話框頂部會出現一個資訊框。 <p>如果您希望將此計算量度套用至所有專案，請選取以下選項： **[!UICONTROL 讓此量度適用於您的所有專案並將其新增至您的元件清單中]**。</p> |
    | **[!UICONTROL 標題]**![必填](/help/assets/icons/Required.svg) | 命名計算量度，例如 `Conversion Rate`。 |
-   | **[!UICONTROL 說明]** | 提供區段說明，例如 `Calculated metric to define the conversion rate.` 不必說明計算量度的公式，因為公式已自動提供在[!UICONTROL 摘要]中。 |
+   | **[!UICONTROL 說明]** | <p>提供計算量度的說明，例如`Calculated metric to define the conversion rate.`。不需要說明計算量度的公式，因為公式已可在[!UICONTROL 摘要]中自動使用。</p><p>若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 在您建立計算量度定義之前，此選項無法使用。</p><p>產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。 如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 格式]** | 選取計算量度的格式：您可以在&#x200B;**[!UICONTROL 十進位]**、 **[!UICONTROL 時間]**、 **[!UICONTROL 百分比]**&#x200B;和&#x200B;**[!UICONTROL 貨幣]**&#x200B;之間選取。 |
    | **[!UICONTROL 小數位數]** | 指定所選格式的小數位數。 只有在選取的格式為小數、貨幣和百分比時才啟用。 |
    | **[!UICONTROL 顯示上升趨勢的方式]** | 指定計算量度的上升趨勢是否顯示為 ▲ **[!UICONTROL 良好 (綠色)]** 或 ▼ **[!UICONTROL 不良 (紅色)]**。 |
@@ -148,7 +148,7 @@ Adobe Analytics 提供的畫布可用來拖放維度、量度、細分群體及�
 * 若要從區段新增區段容器，您可以使用：
 
   * 將 ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL 區段]**&#x200B;元件從元件面板拖放至&#x200B;**[!UICONTROL 將量度、維度、維度項目、區段和/或函數拖放到這裡]**。 您可以使用元件列中的![搜尋](/help/assets/icons/Search.svg)來搜尋特定區段。
-    使用區段名稱將區段容器自動加入&#x200B;**[!UICONTROL 定義]**&#x200B;中。
+    使用區段名稱將區段容器自動加入**[!UICONTROL 定義]**&#x200B;中。
 
   * 將 ![分段](/help/assets/icons/Segmentation.svg)**[!UICONTROL 「區段」]**&#x200B;元件從元件面板拖放到通用容器中。 該容器被修改為區段容器。
 
