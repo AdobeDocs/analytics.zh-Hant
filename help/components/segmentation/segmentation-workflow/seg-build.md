@@ -68,7 +68,7 @@ ht-degree: 71%
    | **[!UICONTROL 報告套裝]** | 您可以選取區段的報告套裝。 |
    | **[!UICONTROL 僅限專案區段]** | 資訊框用於解釋此區段僅在建立的專案中可見。 且此區段未新增至您的元件清單。 啟用&#x200B;**[!UICONTROL 「讓此區段適用於您的所有專案並將其新增至您的元件清單中」]**&#x200B;以變更該設定。 此資訊框只會在後述情況時可見到：當您建立[快速區段](seg-quick.md)時；以及從[!UICONTROL 快速區段]介面使用「**[!UICONTROL 開啟產生器]**」，將快速區段資訊變成一般區段時。 |
    | **[!UICONTROL 標題]**![為必要](/help/assets/icons/Required.svg) | 為區段命名，例如 `Last month mobile visitors`。 |
-   | **[!UICONTROL 說明]** | <p>提供區段說明，例如，`Segment to define the mobile customers for the last month`。</p><p>若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 在您建立區段定義之前，此選項不可用。</p><p>產生的說明包括Adobe使用AI ]**產生的文字**[!UICONTROL ，您可以在產生說明後加以編輯。 如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
+   | **[!UICONTROL 說明]** | <p>提供區段說明，例如，`Segment to define the mobile customers for the last month`。</p><p>若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 在您建立區段定義之前，此選項不可用。</p><p>產生的說明包括Adobe使用AI **產生的文字**，您可以在產生說明後加以編輯。 如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
    | **[!UICONTROL 標記]** | 透過建立或套用一或多個標記來整理區段。 開始輸入內容以尋找您可以選取的現有標記。 或按一下 **[!UICONTROL ENTER]** 以新增新標記。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
    | **[!UICONTROL 定義]** ![必填](/help/assets/icons/Required.svg) | 使用[定義產生器](#definition-builder)來定義區段。 |
 
@@ -165,7 +165,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [ 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
