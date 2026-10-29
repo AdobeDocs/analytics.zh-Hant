@@ -29,14 +29,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1056'
 ht-degree: 8%
 ---
 # 準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 
-在您組織中的任何人開始移轉專案之前，請完成下列章節：如[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)或使用[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)中所述。
+在您組織中的任何人開始移轉專案之前，請完成下列章節：如[將元件和專案從Adobe Analytics移轉至Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md)或使用[Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)中所述。
 
 ## 先決條件
 

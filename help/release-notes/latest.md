@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1546'
 ht-degree: 32%
 ---
 # 目前的Adobe Analytics發行說明（2026年10月）
@@ -62,7 +62,7 @@ ht-degree: 32%
 | **CX Enterprise Coworker：在同事聊天中分析Adobe Analytics資料** <br/>Adobe CX Enterprise Coworker聊天現在可執行進階資料分析，而以前只能在Analysis Workspace中執行進階資料分析。 Co-worker Chat會存取您Adobe Analytics報表套裝中的資料，讓您探索該資料並獲得自然語言提示的答案。<p>如需詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[使用同事聊天分析資料](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-overview)。</p> | 2026年10月2日 | 2026年10月29日<p>（原計畫於2026年9月25日推出）</p> |
 | **CX Enterprise Coworker： Adobe Analytics資料的根本原因分析**<br/>&#x200B;同事聊天現在可以調查量度在您的Adobe Analytics報表套裝中變更的原因，而非僅報告其變更。 詢問已知量度在已知期間內的變更（例如「週二為什麼收入激增？」），同事聊天會揭示促成變更的維度和區段。<p>如需詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[業務績效概觀](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/business-performance/business-performance)。</p> | 2026年10月13日 | 2026年10月29日 |
 | **CX Enterprise Coworker：在Analysis Workspace中開啟視覺效果**<br/>&#x200B;當同事聊天從您的Adobe Analytics資料建立視覺效果時，您現在可以在新的Analysis Workspace專案中開啟它，以進行更深入的分析並取得更精細的控制。 <p>如需詳細資訊，請參閱Adobe CX Enterprise Coworker檔案中的[在Analysis Workspace中開啟視覺效果](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/analytics-chat#open-a-visualization-in-analysis-workspace)。</p> | 2026年10月13日 | 2026年10月29日 |
-| **CX Enterprise Coworker：將專案移轉至Customer Journey Analytics**<br/>&#x200B;您現在可以使用同事將Adobe Analytics專案及其相關元件移轉至Customer Journey Analytics。 同事會驗證專案中的維度和量度已對應至您的Customer Journey Analytics資料檢視，協助您對應未對應的任何檢視，然後在Customer Journey Analytics中重新建立專案。 具有[!UICONTROL 元件移轉]許可權的使用者可以與同事移轉專案，即使他們不是管理員。 <p>以前您只能在Adobe Analytics使用者介面中或使用Adobe Analytics 2.0 API移轉專案。</p><p>如需詳細資訊，請參閱Adobe Analytics檔案中的[與同事將Adobe CX Enterprise Coworker專案移轉至Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja)。</p><!-- FLAG: Confirm rollout and GA dates. --> | 2026年10月26日 | 2026年10月29日 |
+| **CX Enterprise Coworker：將專案移轉至Customer Journey Analytics**<br/>&#x200B;您現在可以使用同事將Adobe Analytics專案及其相關元件移轉至Customer Journey Analytics。 同事會驗證專案中的維度和量度已對應至您的Customer Journey Analytics資料檢視，協助您對應未對應的任何檢視，然後在Customer Journey Analytics中重新建立專案。 具有[!UICONTROL 元件移轉]許可權的使用者可以與同事移轉專案，即使他們不是管理員。 <p>以前您只能在Adobe Analytics使用者介面中或使用Adobe Analytics 2.0 API移轉專案。</p><p>如需詳細資訊，請參閱Adobe Analytics檔案中的[與同事將Adobe CX Enterprise Coworker專案移轉至Customer Journey Analytics](https://experienceleague.adobe.com/zh-hant/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja)。</p><!-- FLAG: Confirm rollout and GA dates. --> | 2026年10月26日 | 2026年10月29日 |
 
 ### Adobe Analytics 中的修正
 
