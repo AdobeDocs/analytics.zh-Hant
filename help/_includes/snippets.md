@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3238'
 ht-degree: 93%
-
 ---
 # 程式碼片段
 
@@ -190,7 +189,7 @@ Customer Journey Analytics 的各種視覺化是為分析您提供給客戶的�
 
 | 其他篩選器 | 說明 |
 |---|---|
-| ![其他篩選器](/help/assets/filter-other.png){width="300"} | **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 全部顯示]**</li><li>**[!UICONTROL 與我共用]**</li><li>**[!UICONTROL 我的]**</li><li>**[!UICONTROL 已核准]**</li><li>**[!UICONTROL 我的最愛]**</li></ul> 您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。 適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**(1)**：選取的其他篩選器數量 (如果選取一個或多個其他篩選器)。</li><li>**5︎⃣**：可用於目前篩選器所產生項目的其他篩選器數量。</li><li>4︎⃣：與特定其他篩選器相關聯的項目數量。</li></ul></li></ul> |
+| ![其他篩選器](/help/assets/filter-other.png){width="300"} | **[!UICONTROL 其他篩選器]**&#x200B;部分可讓您根據其他預先定義的篩選器進行篩選。<ul><li>您可以選取下列其中一個或更多選項:<ul><li> **[!UICONTROL 全部顯示]**</li><li>**[!UICONTROL 與我共用]**</li><li>**[!UICONTROL 我的]**</li><li>**[!UICONTROL 已核准]**</li><li>**[!UICONTROL 我的最愛]**</li><li>**[!UICONTROL 缺少描述]**</li></ul> 您可以選取的內容取決於您的角色和權限。</li><li>您可以選取多個其他篩選器。 適用的其他篩選器取決於在篩選器面板其他部分所做的選擇。</li><li>這些數字是表示：<ul><li>**(1)**：選取的其他篩選器數量 (如果選取一個或多個其他篩選器)。</li><li>**5︎⃣**：可用於目前篩選器所產生項目的其他篩選器數量。</li><li>4︎⃣：與特定其他篩選器相關聯的項目數量。</li></ul></li></ul> |
 
 ## 日期範圍篩選器區段  {#daterangefiltersection}
 

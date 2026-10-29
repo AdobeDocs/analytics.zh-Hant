@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 96%
+source-wordcount: '589'
+ht-degree: 89%
 ---
 # 建立日期範圍
 
@@ -68,6 +68,11 @@ Should we really mention API here. If so, we can do it all over the place in the
 
 1. 為日期範圍指定&#x200B;**[!UICONTROL 標題]**。 例如，**[!UICONTROL 每個季度]**。
 1. 另外，要註明&#x200B;**[!UICONTROL 說明]**。
+
+   若要讓Adobe為您產生描述，請選取&#x200B;**[!UICONTROL 產生描述]**。 在您建立日期範圍定義之前，此選項不可用。
+
+   產生的說明包括Adobe使用AI **產生的文字**，您可以在產生說明後加以編輯。 如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。
+
 1. 透過建立或套用一個或多個&#x200B;**[!UICONTROL 標記]**&#x200B;來整理區段。 開始輸入內容以尋找您可以選取的現有標記。 或按一下 **[!UICONTROL ENTER]** 以新增新標記。 選取![CrossSize75](/help/assets/icons/CrossSize75.svg)以移除標記。 |
 1. 首先選取開始日期，然後選取結束日期來選取&#x200B;**[!UICONTROL 日期範圍]**。
 或者，您可以從[!UICONTROL *選取預設集*]&#x200B;下拉式選單中選取&#x200B;**[!UICONTROL 預設集]**。

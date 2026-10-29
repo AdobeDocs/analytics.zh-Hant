@@ -37,13 +37,11 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3c18ecbee8c2fc80c6743d015ad418f16a6feb4
 workflow-type: tm+mt
-source-wordcount: 1725
-ht-degree: 88%
-
+source-wordcount: '1974'
+ht-degree: 77%
 ---
-
 # 視覺效果概觀
 
 Workspace 會提供一些視覺效果，方便您產生資料的視覺呈現方式。 例如長條圖、環形圖、直方圖、折線圖、地圖、散佈圖等。
@@ -55,18 +53,18 @@ Analysis Workspace 中有以下視覺效果類型：
 
 | 圖示 | 名稱 | 說明 |
 | :---: | --- | ---|
-| ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analyze/analysis-workspace/visualizations/area.md) | 區域圖視覺效果。 類似線圖，但在線圖下方有一塊上色區域。 有多個量度且以要視覺化方式表示多個量度之間交會的區域時，可使用區域圖。 |
+| ![GraphArea](/help/assets/icons/GraphArea.svg) | [區域](/help/analyze/analysis-workspace/visualizations/area.md) | 區域圖視覺效果。 類似線圖，但在線圖下方有一塊上色區域。 當您有多個量度，且想要將兩個或多個量度交會所形成的區域視覺化時，可使用區域圖。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [條狀圖](/help/analyze/analysis-workspace/visualizations/bar.md) | 長條圖視覺效果含有代表一或多個量度之多個值的垂直長條。 |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [堆疊長條圖](/help/analyze/analysis-workspace/visualizations/bar.md) | 堆疊長條圖視覺效果含有代表一或多個量度之多個值的垂直長條。 |
 | ![GraphBullet](/help/assets/icons/GraphBullet.svg)</p> | [項目符號](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | 項目符號圖顯示您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。 |
-| ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組視覺效果是指一段指定時間內，共享相同特徵的一組人。 同類群組表格對保留、攪動或延遲分析很有用處。 |
+| ![TextNumbered](/help/assets/icons/TextNumbered.svg) | [同類群組表格](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組視覺效果是指一段指定時間內，共享相同特徵的一組人。 同類群組表格對保留、流失或延遲分析很有用處。 |
 | ![組合](/help/assets/icons/ComboChart.svg) | [組合](combo-charts.md) | 組合圖表讓您能夠快速建立比較視覺效果，而無需先建立表格。 |
 | ![GraphDonut](/help/assets/icons/GraphDonut.svg) | [環形圖](/help/analyze/analysis-workspace/visualizations/donut.md) | 環形圖視覺效果類似於圓形圖，以整體的部分或區段來顯示資料。 |
 | ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) | [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失視覺效果會顯示在一系列預先定義的連續頁面中，個人在哪個位置離開 (流失) 和繼續通過 (流過)。 |
-| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果會顯示客戶使用您網站和應用程式的正確路徑。 |
+| ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 流量視覺效果會顯示客戶在您的網站和應用程式中的確切路徑。 |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [自由格式表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由格式表格視覺效果是一種互動式視覺效果。 自由格式表格視覺效果是 Workspace 中資料分析的基礎。 |
 | ![GraphHistogram](/help/assets/icons/Histogram.svg) | [直方圖](/help/analyze/analysis-workspace/visualizations/histogram.md) | 直方圖視覺效果是根據量度數量將個人、瀏覽次數或事件數分類到貯體中。 |
-| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
+| ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 橫條圖視覺效果會顯示橫條，以表示一或多個量度中的各種值。 |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [堆疊橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 堆疊橫條圖視覺效果會顯示代表一或多個量度多個值的橫條。 |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 關鍵量度摘要視覺效果結合了線條、摘要變化和摘要數目的視覺效果。 |
 | ![趨勢圖](/help/assets/icons/GraphTrend.svg) | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) | 折線圖視覺效果會使用線條代表量度，以顯示一段時間中值的變化。 線形圖會延 X 軸使用時間。 |
@@ -156,6 +154,30 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
+### 簡明標籤
+
+當視覺效果中的每個序列共用相同的量度、區段、維度專案或日期範圍時，每個圖例標籤都會重複該專案。 標籤可能會變得很長，而且區分它們的文字通常只有在您將滑鼠懸停在每個標籤上時才會顯示。
+
+**[!UICONTROL 簡潔標籤]**&#x200B;設定會聰明地著重於區分不同標籤的資訊。 只有在名稱出現在每個標籤中時，它才會移除任何量度、區段、維度專案或日期範圍名稱。 例如，如果將區段套用至來源表格中的每一欄，則會從圖例標籤中移除該區段。 如果區段套用至每個欄（其中一個欄除外），圖例標籤仍會包含區段。 若要檢視完整標籤，請將滑鼠游標停留在圖例標籤上。
+
+簡明的標籤預設為關閉。 若要開啟視覺效果的簡潔標籤：
+
+1. 在視覺效果標題中選取![設定](/help/assets/icons/Setting.svg) **[!UICONTROL 設定]**。
+1. 選取「**[!UICONTROL 設定]**」索引標籤。
+1. 確定已選取&#x200B;**[!UICONTROL 可見圖例]**。 **[!UICONTROL 簡潔的標籤]**&#x200B;只有在圖例可見時才可用。
+1. 選取&#x200B;**[!UICONTROL 簡明的標籤]**。
+
+簡潔的標籤適用於下列視覺效果：
+
+* [區域圖和棧疊區域圖](area.md)
+* [橫條圖和棧疊橫條圖](bar.md)
+* [組合](combo-charts.md)
+* [環形圖](donut.md)
+* [直方圖](histogram.md)
+* [橫條圖和棧疊橫條圖](horizontal-bar.md)
+* [折線圖](line.md)
+* [文氏圖表](venn.md)
+
 
 ## 設定
 
@@ -170,7 +192,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ### 資料來源
 
-您可以控制哪些資料來源以及與視覺效果相對應的資料來源內項目或位置。 請參閱[管理資料來源](t-sync-visualization.md)，了解更多資訊。
+您可以控制哪些資料來源，以及該資料來源中的哪些項目或位置對應至視覺效果。 請參閱[管理資料來源](t-sync-visualization.md)，了解更多資訊。
 
 ### 設定
 
@@ -183,14 +205,15 @@ Analysis Workspace 中有以下視覺效果類型：
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 100% 堆疊]** | 將圖表轉變為 100% 堆疊的視覺效果。  僅適用於區域、長條圖及堆疊橫條圖視覺效果。 |
 | **[!UICONTROL 可見圖例]** | 顯示圖例文字。 |
+| **[!UICONTROL 簡潔的標籤]** | 縮短圖例標籤，將焦點放在區分不同標籤的資訊上。 每個標籤中顯示的量度、區段、維度專案和日期範圍名稱都會被移除。 只有在選取&#x200B;**[!UICONTROL 可見圖例]**&#x200B;且預設為關閉時，才能使用此設定。 如需詳細資訊，請參閱[簡明的標籤](#concise-labels)。 |
 | **[!UICONTROL 限制項目數量上限]** | 限制視覺效果顯示的項目數。 選取後，定義最大項目數。 |
 | **[!UICONTROL 顯示註解]** | 顯示對此視覺效果所做的註解。 |
 | **[!UICONTROL 隱藏標題]** | 隱藏視覺效果的標題。 |
 | **[!UICONTROL 將 y 軸固定於零]** | 強制將 y 軸底部設為零。 如果圖表上繪製的值均遠大於零，則圖表預設會讓 Y 軸底部「不為零」。 如果啟用此選項，則 y 軸會強制為零 (並重新繪製圖表)。 |
-| **[!UICONTROL 顯示雙軸]** | 顯示兩個不同量度的左 y 軸和右 y 軸。 此選項僅適用於若您具有兩個量度。 當繪製的量度為不同強度時，雙軸非常實用。 |
+| **[!UICONTROL 顯示雙軸]** | 顯示兩個不同量度的左 y 軸和右 y 軸。 此選項僅適用於您有兩個量度時。 當繪製的量度大小不同時，雙軸非常實用。 |
 | **[!UICONTROL 顯示 x 軸]** | 在視覺效果中顯示 x 軸。 |
 | **[!UICONTROL 顯示 y 軸]** | 在視覺效果中顯示 y 軸。 |
-| **[!UICONTROL 在線上顯示節點]** | 在組合圖表視覺效果中的線條視覺效果上顯示節點。 |
+| **[!UICONTROL 在線上顯示節點]** | 在組合圖表視覺效果中的線條視覺效果上顯示啞鈴圖。 |
 | **[!UICONTROL 標準化]** | 強制量度為相同比例。 當繪製的量度為不同強度時，相等的比例相當實用。 |
 | **[!UICONTROL 顯示異常狀況]** | 透過顯示異常偵測來強化折線圖和自由格式表格。 線圖視覺效果內的異常偵測包含一個預期值 (虛線) 和一個預期範圍 (陰影帶)。 |
 | **[!UICONTROL 顯示預測]** | 透過顯示預測值來強化折線圖和自由格式表格。 |
@@ -198,7 +221,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | **[!UICONTROL 顯示最大值]** | 顯示視覺效果中的最大值。 |
 | **[!UICONTROL 顯示趨勢線]** | 在視覺效果中顯示趨勢線。 選取後，您可以從下拉式選單中選取趨勢線型別。 |
 
-您可以自訂您所建立的所有視覺效果設定。 如需詳細資訊，請參閱[使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。
+您可以自訂您所建立的所有視覺效果的設定。 如需詳細資訊，請參閱[使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。
 
 
 ## 內容選單 {#right-click}
@@ -215,7 +238,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | **[!UICONTROL 將項目下載為 CSV (*維度名稱*)]** | [將視覺效果的維度專案](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items-as-csv) （最多50,000個）下載到您的本機裝置。 選取維度的最大維度項目數為 50,000。 |
 | **[!UICONTROL 複製視覺效果]** | 複製視覺效果，以便於您將其插入至專案內另一個位置或完全不同的專案中。 |
 | **[!UICONTROL 下載資料為 CSV 檔]** | [將視覺效果顯示的資料](/help/analyze/analysis-workspace/curate-share/download-send.md#download-as-csv)下載到您的本機裝置。 |
-| **[!UICONTROL 複製視覺效果]** | 完全複製視覺效果。 |
+| **[!UICONTROL 複製視覺效果]** | 建立視覺效果的完全相同副本。 |
 | **[!UICONTROL 編輯說明]** | 新增 (或編輯) 視覺效果的文字說明。 請參閱[文字](text.md)。 |
 | **[!UICONTROL 取得視覺效果連結]** | 直接複製並共用視覺效果連結。 共用連結對話框顯示此連結。 請選取「複製」以複製此連結至剪貼簿。 |
 | **[!UICONTROL 重新開始]** | 刪除目前視覺效果的設定，以便於您可從頭開始再設定。 |
@@ -229,6 +252,6 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ## 視覺化
 
-如果您不確定選擇哪種視覺化效果，請在任意自由格式表格列 (停留時適用) 中選取「![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覺化]**」。 此選取項目為新增視覺效果的最快方式。 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。 例如：如果您已選取一列，即建立一個趨勢[折線圖](line.md)。 如果您已選取三個篩選器列，即會建立一個[文氏圖表](venn.md)。
+如果您不確定選擇哪種視覺化效果，請在任意自由格式表格列 (停留時適用) 中選取「![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg) **[!UICONTROL 視覺化]**」。 此選項是新增視覺效果的最快方式。 Analysis Workspace 會猜測哪種視覺效果最適合您的資料。 例如：如果您已選取一列，即建立一個趨勢[折線圖](line.md)。 如果您已選取三個篩選器列，即會建立一個[文氏圖表](venn.md)。
 
 ![快速視覺效果](assets/quick-viz.png)

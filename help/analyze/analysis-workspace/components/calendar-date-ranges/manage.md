@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 29%
+source-wordcount: '673'
+ht-degree: 27%
 ---
 # 管理日期範圍
 
@@ -71,6 +71,7 @@ ht-degree: 29%
 | ![編輯](/help/assets/icons/Edit.svg) | **[!UICONTROL 重新命名]** | 重新命名單一選取的日期範圍。 選取後，您可以重新命名內嵌日期範圍。 |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL 核准]** | 核准所選的日期範圍。 |
 | ![Copy](/help/assets/icons/Copy.svg) | **[!UICONTROL 複製]** | 複製所選的日期範圍。 新日期範圍會以相同名稱和尾碼建立（複製） |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL 產生說明]** | <p>產生所選日期範圍的說明，取代任何現有的說明。</p><p>為避免覆寫現有的說明，首先[篩選](#filter-panel)清單以僅顯示沒有說明的日期範圍（在篩選中，在&#x200B;[!UICONTROL **其他篩選器**]&#x200B;下，選取&#x200B;[!UICONTROL **缺少說明**]）。</p><p>系統會提示您進行確認。 大型請求會在背景執行，而您會在完成時收到通知。</p><p>如需詳細資訊，請參閱[自動產生說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions)。</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL 匯出至 CSV]** | 將選取的日期範圍匯出至`Date ranges List.csv`檔案。 |
 
 ### 使用中的篩選欄
