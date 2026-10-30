@@ -313,7 +313,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **訓練教學課程**] | 了解常見的 Analysis Workspace 術語，及建置首次分析所需的步驟 |
 | [!UICONTROL **頁面**] | <!--duplicated in Engagement section--> 找出最受歡迎和最不受歡迎的頁面。 <p>**這可以幫助您**&#x200B;更加了解您的客群，以及他們最感興趣的資訊類型。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如調整頁面中繼資料來提高檢視次數較少之頁面的可見度，或花時間改善檢視次數最多之頁面的內容。</p><p>此範本使用[「頁面維度」](/help/components/dimensions/page.md)和[「頁面檢視次數」量度](/help/components/metrics/page-views.md)。</p> |
@@ -538,7 +538,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **關鍵量度**] | <!--duplicated in Most popular section--> 檢視以並排方式顯示頁面瀏覽數、造訪次數與不重複訪客量度的報告。 會顯示一段期間內的資料，並與先前的時段進行比較。 <p>**這可以幫助您**&#x200B;比較這些重要量度，更全面地了解造訪網站的不重複訪客數量、頁面造訪次數，以及工作階段數量。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如評估每個人在特定一週或一個月內於造訪網站時檢視的頁面平均數量，以及在一年中的特定時期或行銷活動執行前和執行後的變化情況。 </p><p>此範本使用[「日」維度](/help/components/dimensions/day.md)、[「頁面檢視次數」量度](/help/components/metrics/page-views.md)、[「造訪數」量度](/help/components/metrics/visits.md)，以及[「不重複訪客」量度](/help/components/metrics/unique-visitors.md)。</p> |
 | [!UICONTROL **頁面檢視**] | <!--duplicated in Most popular section-->檢視頁面總瀏覽數。 會顯示一段期間內的資料，並與先前的期間進行比較。 <p>**這可以幫助您**&#x200B;更加了解網站上的流量隨時間可能增加或減少的情況。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如比較行銷活動發起前與發起後的網站流量，評估最近發起之行銷活動的成效。 或者您可以比較逐年的假期流量。</p><p>此範本使用[「日」維度](/help/components/dimensions/day.md)和[「頁面檢視次數」量度](/help/components/metrics/page-views.md)。</p> |
@@ -666,7 +666,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **產品轉換漏斗**] | 在顯示購物車、結帳和訂單的漏斗視覺效果中檢視產品轉換。 您也可以查看轉換百分比、平均收入、單位平均數和訂單平均數。<p>**這可以幫助您**&#x200B;更了解人們在轉換過程中的進度和流失情況。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如改善您的網站以促進更順暢的結帳程序。</p> |
 | **產品** | 查看哪些產品正在推動關鍵量度，例如暢銷產品或瀏覽次數最多的產品。 <p>**這可以幫助您**&#x200B;更加了解哪些產品最成功。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如增加成功產品的資金，及減少不太成功產品的資金。</p><p>此範本使用「訂單數」量度和「產品」維度。 |
@@ -1035,7 +1035,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **人員量度**] | 檢視與您品牌互動的人數。 <p>**這可以幫助您**&#x200B;更了解網站上的使用趨勢。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如測量近期行銷活動為您的網站帶來新訪客的有效性。</p> |
 | **訪客設定檔** > **位置概觀** | 在地圖視覺效果中檢視訪客位置的概觀。<p>**這可以幫助您**&#x200B;更了解造訪您網站之訪客的所在位置。 </p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如將行銷資源集中在展現最高興趣和最多機會的位置。</p><!-- This template uses the --> |
@@ -1255,7 +1255,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **行銷管道**] > [!UICONTROL **管道概觀報告**] | 使用自訂歸因時，此範本會顯示訪客如何到達您的網站。<p>**這可以幫助您**&#x200B;更加了解哪些行銷管道最有效。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對有效的行銷管道加重投資，並放棄投資效果較差的行銷管道。</p><p>此範本使用「ID (變數/行銷管道)」維度和「收入」量度。</p> |
 | [!UICONTROL **行銷管道**] > [!UICONTROL **首次接觸管道**] | 檢視訪客在參與期間 (預設為 30 天) 符合的第一個行銷管道。 <p>**這可以幫助您**&#x200B;更加了解哪些行銷管道將初始流量導向您的網站。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對成效最好的領域加強行銷工作。</p><p>此範本使用「首次接觸管道」維度。</p> |
@@ -1320,7 +1320,7 @@ Analysis Workspace 中的範本 (或公司範本) 提供最常見的報告情境
 
 以下範本適用：
 
-| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+&#x200B;| 範本名稱 | 為什麼使用此範本<!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **行動電信業者**] | 檢視人們用來存取您的網站之行動裝置，由哪些電信公司提供行動網路連線。<p>**這可以幫助您**&#x200B;更加了解您的使用者群最常使用哪些行動電信業者。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如根據不同電信業者的網路功能自訂內容傳送方式，以確保流暢的使用者體驗。</p><p>此範本使用行動電信業者維度。</p> |
 | **裝置** | 檢視人們存取您的網站所使用的行動裝置品牌和型號。<p>**這可以幫助您**&#x200B;更加了解您的使用者群最喜歡使用哪些行動裝置。</p><p>**根據您所了解的內容，您可以**&#x200B;採取各種行動，例如針對最常見的行動裝置將網站呈現最佳化。</p><p>此範本使用行動裝置名稱維度。</p> |
