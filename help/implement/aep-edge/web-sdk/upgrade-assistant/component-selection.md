@@ -59,7 +59,7 @@ ht-degree: 21%
 
 您選取的元件會決定後續要搭配哪些步驟使用。 例如，您可以包含沒有參考的資料元素，以便[稽核結果](audit-findings.md)可以標幟它們以進行清除。
 
-## 檢視元件詳細資料 {#details}
+## 檢視元件詳細資訊 {#details}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
