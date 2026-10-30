@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 98%
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 ### 部分遺失資料或流量減少的可能原因
 
-* **實作變更**：使用[偵錯工具](/help/implement/validate/debugging-tools.md)驗證所需的維度是否有效。
+* **實作變更**：使用[偵錯工具](/help/implement/validate/debugging.md)驗證所需的維度是否有效。
 * **反向連結流量下降**：如果移除其他網站上的熱門橫幅廣告或超連結，可能會導致流量大幅下降。 分析流量下降前後[反向連結網域](/help/components/dimensions/referring-domain.md)維度的趨勢，以進一步研究。
 * **網站績效問題**：透過負載平衡器不正確分配流量，或是託管網站的伺服器出現問題，可能會導致 Analytics 報表中的績效下降。 與組織內部負責管理網站完整性與健全狀態的團隊合作，調查任何潛在效能問題。
 * **自然搜尋排名變更**：如果其他網站對某些關鍵字的免費搜尋排名超越您，流量可能會降低。 如果您的網站不再位於搜尋結果的第一頁，此下降尤其明顯。 分析[搜尋引擎](/help/components/dimensions/search-engine.md)維度的趨勢，以進一步研究。

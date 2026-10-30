@@ -42,9 +42,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '816'
 ht-degree: 82%
 ---
 # 實作 Adobe Analytics
@@ -118,7 +118,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 ## 重要 Analytics 實施文章
 
 * [負責現有的 Adobe Analytics 實作](/help/implement/prepare/existing-implementation.md)
-* [偵錯工具](validate/debugging-tools.md)
+* [偵錯Analytics資料收集](validate/debugging.md)
 * [在 Experience Platform 中建立標籤屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
 * [使用Platform Web SDK教學課程設定Adobe Analytics](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=zh-Hant)

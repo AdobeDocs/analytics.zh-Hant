@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ ht-degree: 5%
 * 大量資料插入具有資料驗證和錯誤處理功能，可移除提交點選資料的一些管理工作。
 * 大量資料插入支援多種訪客ID識別方法。
 * 大量資料插入有一些額外的必要欄位：訪客身分識別欄、`pageName` （或同等連結）、`reportSuiteID`、`timestamp`和`userAgent`。
-* 為確保訪客連續性和歸因，大量資料插入要求檔案中的列依時間順序排序。 請參閱[訪客群組](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/)以了解跨檔案訪客活動的排序。
+* 為確保訪客連續性和歸因，大量資料插入要求檔案中的列依時間順序排序。 請參閱[訪客群組](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups)以了解跨檔案訪客活動的排序。
 * 大量資料插入需要以.gzip格式壓縮的.csv檔案。
 * BDIA使用`timestamp`而非`date`。
 

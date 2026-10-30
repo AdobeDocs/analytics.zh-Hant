@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。 自訂收集的資料，以充份運用 Analytics 資料。
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Adobe Analytics 實作指南 {#implementation}
@@ -146,12 +146,12 @@ ht-degree: 93%
     + 升級助理 {#upgrade-assistant}
       + [升級助理概述](aep-edge/web-sdk/upgrade-assistant/overview.md)
       + [管理移轉](aep-edge/web-sdk/upgrade-assistant/manager.md)
-      + [元件選取](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
-      + [稽核發現](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [對應程式準備](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
-      + [XDM對應](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
-      + [Web SDK實作](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
-      + [最終稽核](aep-edge/web-sdk/upgrade-assistant/final-review.md)
+      + [元件選取項目](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [稽核結果](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
+      + [對應工具準備](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
+      + [XDM 對應](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
+      + [Web SDK 實施](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [最終審閱](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [使用標記移轉至 Web SDK](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [使用 JavaScript 移轉至 Web SDK](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
     + [使用標記的全新實作](aep-edge/web-sdk/web-sdk-tag-extension.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [搭配 iFrames 使用 AppMeasurement](use-cases/iframe.md)
   + [Campaign 追蹤工作流程](use-cases/campaign-tracking.md)
 + 驗證實作 {#validate}
-  + [偵錯工具](validate/debugging-tools.md)
+  + [偵錯Analytics資料收集](validate/debugging.md)
   + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
 + 審視您的實作 {#review}

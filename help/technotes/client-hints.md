@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
@@ -160,7 +160,7 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++**使用 API 提交時如何包含用戶端提示資料？**
 
-請參閱文件以透過[大量資料插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/) 包含這些內容。
+請參閱文件以透過[大量資料插入 API](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format) 包含這些內容。
 
 +++
 

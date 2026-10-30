@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 75%
+source-wordcount: '516'
+ht-degree: 66%
 ---
 # 驗證開發實作並發佈至生產環境
 
@@ -80,14 +80,7 @@ Adobe Experience Platform Debugger是顯示存在於頁面上所有CX Enterprise
 
 ## 疑難排解
 
-**除錯工具中未出現任何資料。**
-
-在您的網站上時，請開啟瀏覽器的開發人員主控台 (通常是 F12)。 查看頁面原始碼，並確認是否符合下列要求：
-
-* 主控台中沒有任何 JavaScript 錯誤。 與您組織的網站負責人合作，確認所有 JS 錯誤皆已解決。
-* 已正確實施頁首程式碼：確認頁首程式碼位於 `<head>` 標記內，且該檔案確實存在。
-* AppMeasurement 資料庫確實存在：直接導覽至 JS 原始碼，確認 JS 檔案包含程式碼。 若未包含，請確認已建立每個環境，並將程式庫發佈至其各自的環境。
-* 干擾擴充功能：部分擴充功能 (如廣告封鎖程式) 可能會妨礙影像請求觸發。 停用可能會阻擋將資料傳送至 Adobe 的任何擴充功能。
+如果Debugger中未出現Analytics資料，或資料不是您預期的資料，請參閱[Debug Analytics資料集合](../validate/debugging.md#appmeasurement)。
 
 ## 後續步驟
 
