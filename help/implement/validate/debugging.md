@@ -38,7 +38,7 @@ ht-degree: 2%
 
 本文說明當您對傳送至Adobe Analytics的資料進行偵錯時，應檢查哪些專案。 請在下表中尋找您的實作方法，並前往其區段。 如果您正在調查非預期的報表資料，請從[比較請求與報表](#reports)開始。
 
-如需適用於所有Adobe資料收集的步驟和工具，例如擷取網路要求、啟用偵錯記錄以及調查已取消的要求，請參閱[偵錯和疑難排解資料收集](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/overview)。
+如需適用於所有Adobe資料收集的步驟和工具，例如擷取網路要求、啟用偵錯記錄以及調查已取消的要求，請參閱[偵錯和疑難排解資料收集](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/debugging/overview)。
 
 | 實作方法 | 若要檢視Analytics收到的資料，請前往 | 指南 |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ ht-degree: 2%
 
 ### 尋找請求 {#appmeasurement-find}
 
-[擷取網路要求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#web)並篩選`/b/ss/`。 標籤偵錯工具（例如Adobe Experience Platform Debugger）會為您識別和解碼這些請求。
+[擷取網路要求](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/debugging/inspect-requests#web)並篩選`/b/ss/`。 標籤偵錯工具（例如Adobe Experience Platform Debugger）會為您識別和解碼這些請求。
 
 如果未出現`/b/ss/`請求：
 
 * 檢查瀏覽器主控台是否有JavaScript錯誤。
-* 如果您使用Analytics標籤擴充功能，請確認標籤內嵌程式碼位於頁面的`<head>`元素中，且您的程式庫已發佈至您正在測試的環境。 [標籤偵錯模式](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/logging)顯示傳送點選的規則是否觸發。
+* 如果您使用Analytics標籤擴充功能，請確認標籤內嵌程式碼位於頁面的`<head>`元素中，且您的程式庫已發佈至您正在測試的環境。 [標籤偵錯模式](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/debugging/logging)顯示傳送點選的規則是否觸發。
 * 如果您自行託管AppMeasurement，請直接開啟程式庫的URL，確認檔案已載入且包含程式碼。
 * 停用瀏覽器擴充功能（例如廣告封鎖程式），因為這些擴充功能會防止傳送請求。
 * Debugger無法辨識從iframe內傳送的請求。 請改用瀏覽器開發人員工具。 請參閱[搭配iFrames使用AppMeasurement](../use-cases/iframe.md)。
@@ -73,20 +73,20 @@ ht-degree: 2%
 
 `2xx`回應只會確認資料收集伺服器已收到要求，而不會確認點選已記錄。 使用預設的回應型別時，即使點選遭捨棄，請求也可以傳回成功。 新訪客的第一個要求應該會有`302`回應。 請參閱[HTTP回應代碼](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes)。
 
-AppMeasurement會傳送退出連結要求，以及啟用[`useBeacon`](../vars/config-vars/usebeacon.md)時所有要求，並附帶`navigator.sendBeacon()`。 開發人員工具可標籤這些請求為已取消，即使瀏覽器已傳送這些請求亦然。 請參閱[中止的要求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests)。
+AppMeasurement會傳送退出連結要求，以及啟用[`useBeacon`](../vars/config-vars/usebeacon.md)時所有要求，並附帶`navigator.sendBeacon()`。 開發人員工具可標籤這些請求為已取消，即使瀏覽器已傳送這些請求亦然。 請參閱[中止的要求](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests)。
 
 ## Web SDK {#web-sdk}
 
 ### 尋找請求 {#web-sdk-find}
 
-使用Web SDK時，瀏覽器會將事件傳送至Edge Network，而非直接傳送至Analytics，因此您不會看到`/b/ss/`請求。 [檢查Edge Network要求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)並確認下列專案：
+使用Web SDK時，瀏覽器會將事件傳送至Edge Network，而非直接傳送至Analytics，因此您不會看到`/b/ss/`請求。 [檢查Edge Network要求](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)並確認下列專案：
 
 * `configId`引數符合已啟用[Adobe Analytics服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/datastreams/configure#analytics)的資料流，並具有您期望的報表套裝。
 * 裝載符合頁面檢視或連結事件的資格。 Analytics會忽略不含頁面詳細資料或網頁互動型別的裝載。 檢視Adobe Analytics[&#128279;](../aep-edge/hit-types.md)中的Edge Network事件型別。
 
 ### 檢查Analytics收到的內容 {#web-sdk-contents}
 
-啟動[Edge追蹤](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/edge-trace)並重現動作。 找出以&#x200B;**[!UICONTROL Analytics自動對應]**&#x200B;開頭的列，然後展開`mappedQueryParams`及其下方的報表套裝ID。
+啟動[Edge追蹤](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/debugger/edge-trace)並重現動作。 找出以&#x200B;**[!UICONTROL Analytics自動對應]**&#x200B;開頭的列，然後展開`mappedQueryParams`及其下方的報表套裝ID。
 
 * **變數**：對應值使用與AppMeasurement要求相同的查詢引數名稱，有時以簡寫形式，例如`gn`代表頁面名稱，`pl`代表產品。 檢視[XDM物件欄位對應](../aep-edge/xdm-var-mapping.md)和[資料物件欄位對應](../aep-edge/data-var-mapping.md)。
 * **內容資料**：未對應至Analytics變數的XDM欄位會顯示為前置詞為`c.a.x.`的內容資料。 使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)將其指派給變數。

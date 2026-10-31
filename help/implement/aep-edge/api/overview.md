@@ -41,7 +41,7 @@ ht-degree: 42%
 
 從IoT裝置、機上盒和案頭應用程式等裝置收集資料時，您通常使用Experience Platform Edge Network API在伺服器端而非使用者端收集資料。 然後，將該資料傳送至Edge網路和Adobe Analytics等服務。
 
-如果您需要安全地收集敏感資料並透過網路驗證，也請考慮Edge Network API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html)。
+如果您需要安全地收集敏感資料並透過網路驗證，也請考慮Edge Network API。 如需詳細資訊，請參閱[驗證](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=zh-Hant)。
 
 實施任務的高層級概觀：
 

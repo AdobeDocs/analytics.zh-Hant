@@ -27,11 +27,9 @@ role_v2:
     internal-label: Admin
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 86%
-
 ---
-
 # 建立註解
 
 預設情況下，只有管理員才能建立註解。 使用者有權檢視註解，類似於使用者檢視其他元件 (例如區段、計算量度等) 的方式。

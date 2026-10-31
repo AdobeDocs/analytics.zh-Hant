@@ -30,11 +30,9 @@ topic_v2:
     internal-label: Troubleshooting
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1197
+source-wordcount: '1197'
 ht-degree: 84%
-
 ---
-
 # 媒體播放時間面板 {#media-playback-time-spent-panel}
 
 <!-- markdownlint-disable MD034 -->
