@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # 分析來自對話式AI工具的流量
 
 Adobe Analytics提供可分析網站上AI流量的工具。
@@ -72,9 +70,11 @@ Adobe Analytics提供可分析網站上AI流量的工具。
 
 * 代理式工作流程
 
-反向連結型別維度包含[交談式AI工具維度專案](/help/components/dimensions/referrer-type.md#conversational-ai-tools)。 此維度項目包含已預先定義的 AI 聊天機器人清單。
+反向連結型別維度包含[交談式AI工具維度專案](/help/components/dimensions/referrer-type.md#conversational-ai-tools)。 此維度專案僅包含具有來自預先定義之AI聊天機器人清單的反向連結的造訪。
 
-如需詳細資訊，請參閱[反向連結型別](/help/components/dimensions/referrer-type.md)。
+>[!IMPORTANT]
+>
+>有些交談AI工具（例如ChatGPT）在開啟連結時不會傳送反向連結，因此其造訪不會納入此維度專案中。 如需詳細資訊，請參閱[包含沒有反向連結的AI流量](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)。
 
 ### 使用機器人偵測分析AI流量
 

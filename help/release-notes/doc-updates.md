@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Adobe Analytics 技術文件更新
 
@@ -75,6 +75,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2026年11月** | |
+| 包括沒有反向連結的AI流量 | 有些AI工具（包括ChatGPT）會開啟連結而不傳送反向連結，因此「對話式AI工具」反向連結型別不會計算這些造訪。 本檔案現在將對此進行說明，並示範如何報告此流量：<ul><li>在[上新增一個區段，使用UTM引數](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer)來擷取沒有反向連結的AI流量。</li><li>在「反向連結型別」維度的[交談式AI工具](/help/components/dimensions/referrer-type.md#conversational-ai-tools)區段中新增關於此行為的附註。</li><li>已新增此行為的相關註解至[分析來自對話式AI工具的流量](/help/technotes/ai-traffic.md)。</li></ul> |
 | **2026年10月** | |
 | 鎖定視覺效果的選取範圍 | 已重新建構[管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)，以將設定資料來源設定與鎖定選取專案分開。 也澄清當視覺效果鎖定至自由表格中的列時，[鎖定選取範圍](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection)的運作方式，包括當鎖定的劃分列不再位於表格中時會發生什麼情況。 |
 | 表格欄的鍵盤導覽 | 記錄如何使用鍵盤，在Analysis Workspace中[調整大小](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns)和[重新排列](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns)資料表資料行，包括熒幕助讀程式意見反應。 也將[資料表資料行動作](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions)區段新增至快速鍵。 |
