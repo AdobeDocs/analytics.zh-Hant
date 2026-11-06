@@ -25,11 +25,11 @@ ht-degree: 28%
 ---
 # 具有 Experience Cloud ID 的使用者
 
-「具有Experience Cloud ID的使用者」是[跨裝置分析](../cda/overview.md)量度，其中顯示Adobe使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[網頁SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)識別的[使用者](people.md)的數量。
+「具有Experience Cloud ID的使用者」是[跨裝置分析](../cda/overview.md)量度，其中顯示Adobe使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[網頁SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/identity/overview)識別的[使用者](people.md)的數量。
 
 ## 此量度的計算方式
 
-在考慮每個[人員](people.md) （已識別或未識別）的情況下，如果點選包含`mid`查詢字串（根據[`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie），則此[量度](overview.md)會增加。
+在考慮每個[人員](people.md) （已識別或未識別）的情況下，如果點選包含`mid`查詢字串（根據[`s_ecid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie），則此[量度](overview.md)會增加。
 
 您可以使用 ID 服務建立計算量度 `[People with ECID] ÷ [People]`，以獲取您網站的訪客百分比。
 

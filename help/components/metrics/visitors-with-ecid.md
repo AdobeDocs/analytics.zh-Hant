@@ -34,7 +34,7 @@ ht-degree: 23%
 ---
 # 具有 Experience Cloud ID 的訪客
 
-具有Experience Cloud ID &#39; [量度](overview.md)的&#39;訪客顯示Adobe識別的ECID不重複訪客數量（使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)）。 此量度有助於與[不重複訪客](unique-visitors.md)量度進行比較，以確保您網站上的大多數訪客都使用ECID。 如果大部分的訪客都未使用此識別碼，此識別碼可能表示您實施作業中的問題。
+具有Experience Cloud ID &#39; [量度](overview.md)的&#39;訪客顯示Adobe識別的ECID不重複訪客數量（使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/identity/overview)）。 此量度有助於與[不重複訪客](unique-visitors.md)量度進行比較，以確保您網站上的大多數訪客都使用ECID。 如果大部分的訪客都未使用此識別碼，此識別碼可能表示您實施作業中的問題。
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 23%
 
 ## 此量度的計算方式
 
-此量度以[不重複訪客](unique-visitors.md)量度為基礎，但僅包含以 `mid` 查詢字串識別的個人 (根據 [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie)。
+此量度以[不重複訪客](unique-visitors.md)量度為基礎，但僅包含以 `mid` 查詢字串識別的個人 (根據 [`s_ecid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie)。
 
 ## 對您的ECID設定進行偵錯
 
