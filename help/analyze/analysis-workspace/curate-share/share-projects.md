@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # 共用專案 {#share-projects}
@@ -214,7 +214,7 @@ ht-degree: 89%
 
    * **[!UICONTROL 需要CX Enterprise驗證]：**
 
-     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe CX Enterprise組織。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
+     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe組織。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
 
      Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 

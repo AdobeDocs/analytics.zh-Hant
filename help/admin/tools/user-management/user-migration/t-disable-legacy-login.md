@@ -20,18 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '185'
 ht-degree: 52%
-
 ---
-
 # 停用舊版登入
 
 瞭解如何停用Analytics使用者的舊版登入。
 
-使用者從舊版Analytics使用者管理系統移轉至Adobe Admin Console後，您就可以停用其舊版登入。 如果使用者嘗試使用舊版登入，則停用舊版登入會將使用者重新導向至CX Enterprise登入。
+使用者從舊版Analytics使用者管理系統移轉至Adobe Admin Console後，您就可以停用其舊版登入。 如果停用舊版登入，系統會在使用者嘗試使用舊版登入時，將使用者重新導向至CX Enterprise登入。
 
 1. 在&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 使用者 ID 移轉」]**&#x200B;中，開啟「移轉」工具。
 1. 在 [!DNL User Information] 中找出含有所需使用者的網域，然後按一下&#x200B;**[!UICONTROL 「選取使用者」]**。
@@ -44,4 +42,4 @@ ht-degree: 52%
 
    「停用舊版登入」表示使用者可以繼續使用其舊版 [!DNL my.omniture.com] 使用者名稱和密碼。
 
-   您無法停用尚未移轉之使用者的舊版登入。 停用後，使用者必須使用其Experience Cloud ID登入及存取Analytics。
+   您無法停用尚未移轉之使用者的舊版登入。 停用後，使用者必須使用其CX Enterprise憑證登入及存取Analytics。

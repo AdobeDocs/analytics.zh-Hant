@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '584'
+ht-degree: 92%
 ---
 # 可減輕瀏覽器 Cookie 限制之影響的選項
 
@@ -57,7 +57,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 ## 使用 Web SDK 的第一方裝置 ID (FPID)
 
-使用 Adobe Experience Platform Web SDK，您可以選擇設定和管理您自己的裝置識別碼，而不是使用 Adobe 生成的 Experience Cloud ID (ECID)。 這些被稱為第一方裝置 ID (FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hant)。
+透過Adobe Experience Platform Web SDK，您可以選擇設定和管理自己的裝置識別碼，而非Adobe產生的ECID。 這些被稱為第一方裝置 ID (FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hant)。
 
 ## 更多資訊
 

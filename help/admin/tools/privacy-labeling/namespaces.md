@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 65%
+source-wordcount: '939'
+ht-degree: 63%
 ---
 # 命名空間
 
@@ -91,7 +91,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Experience Cloud ID (ECID) 先前稱為 Marketing Cloud ID (MCID)，現在有些文件還是會以舊名指稱。
+>ECID先前稱為Marketing Cloud ID (MCID)，現在有些檔案還是會以舊名指稱。
 >
 >這些是 Analytics 支援的 ID 中，唯一使用「type」值而非「analytics」值的 ID。
 

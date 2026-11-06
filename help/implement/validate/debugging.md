@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 2%
 ---
 # 偵錯Analytics資料收集
@@ -94,7 +94,7 @@ AppMeasurement會傳送退出連結要求，以及啟用[`useBeacon`](../vars/co
 
 ### 檢查處理 {#web-sdk-processing}
 
-在Edge追蹤開啟的Assurance工作階段中，搜尋`hitdebugger`的事件。 這些事件使用廠商`com.adobe.analytics.hitdebugger`，而且其裝載會在Analytics處理後顯示值，例如Experience Cloud ID (`mcvisId`)和`pageName`。
+在Edge追蹤開啟的Assurance工作階段中，搜尋`hitdebugger`的事件。 這些事件使用廠商`com.adobe.analytics.hitdebugger`，而且其裝載會在Analytics處理後顯示值，例如ECID (`mcvisId`)和`pageName`。
 
 如需引導式逐步解說，請參閱[使用Adobe Experience Platform Web SDK設定Adobe Analytics](https://experienceleague.adobe.com/zh-hant/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics)。
 

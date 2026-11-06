@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1438'
 ht-degree: 31%
 ---
 # 發佈區段 {#publish-segments}
@@ -68,7 +68,7 @@ ht-degree: 31%
 ## 先決條件
 
 * 請確認您要儲存此區段的目標報表套裝已[啟用CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md)。 否則，您無法將其發佈至CX Enterprise。
-* 請確認貴組織使用 Experience Cloud ID。
+* 確認貴組織使用ECID。
 * 管理員必須先在[管理控制台](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/administration/admin-tool-experience-cloud)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
 ## 考量事項
@@ -166,7 +166,7 @@ Demdex Cookie （下列範例中為[adobe.demdex.net](https://experienceleague.a
 
 在Adobe Audience Manager中，當Analytics與CX Enterprise共用區段時，會評估指定區段的訪客清單（含ECID）。
 
-1. 在Audience Manager中，前往&#x200B;**[!UICONTROL 對象資料]** > **[!UICONTROL 特徵]** > **[!UICONTROL Analytics特徵]**。 您會看到已對應至您CX Enterprise組織的每個Analytics報表套裝的資料夾。 當輪廓和客群/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、細分群體和資料來源)。
+1. 在Audience Manager中，前往&#x200B;**[!UICONTROL 對象資料]** > **[!UICONTROL 特徵]** > **[!UICONTROL Analytics特徵]**。 您會看到已對應至您Adobe組織的每個Analytics報表套裝的資料夾。 當輪廓和客群/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、細分群體和資料來源)。
 1. 選取您先前建立要與Audience Manager共用之區段的報表套裝資料夾。 您會看到建立的區段/對象。 當您共用區段時，Audience Manager中會發生下列兩件事：
    * 系統會建立一個特徵，一開始不含任何資料。 大約 在[!DNL Analytics]中發佈區段後8小時，ECID清單就會上線並與Audience Manager和其他CX Enterprise解決方案共用。
 

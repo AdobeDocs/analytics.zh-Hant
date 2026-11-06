@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 81%
+source-wordcount: '814'
+ht-degree: 82%
 ---
 # 檢視/管理資料控管隱私標籤
 
@@ -79,7 +79,7 @@ ht-degree: 81%
 
    >[!IMPORTANT]
    >
-   >請記住，您選取的所有報表套裝都必須對應至您的CX Enterprise組織。
+   >請記住，您選取的所有報表套裝都必須對應至您的Adobe組織。
 
    將一個變數或一組變數的標籤複製到不同的報告套裝時，複製的標籤會出現在目標報告套裝中對應位置的變數。 若是標準元件、清單變數、成功事件，系統會將標籤複製到目標報表套裝中&#x200B;**名稱相同**&#x200B;的變數。
 

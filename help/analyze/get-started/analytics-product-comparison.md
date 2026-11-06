@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Analytics 產品比較和需求
 
 本頁包含各種 Adobe Analytics 產品的比較：Analysis Workspace、Report Builder、Data Warehouse、資料摘要和 Analytics API 2.0。
@@ -63,7 +61,7 @@ ht-degree: 67%
 |---|---|---|---|---|---|
 | **存取方法** | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/legacy-report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。 [了解更多](/help/analyze/get-started/sys-reqs.md) | 透過瀏覽器進行設定。 [了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。 使用 Adobe Developer 憑證登入。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **資料顆粒度** | 彙總 | 彙總 | 彙總 | 點擊 | 彙總 |
-| **可用 Experience Cloud ID (ECID)** | 否 | 無 | 是 | 是 | 無 |
+| **可用的ECID** | 否 | 無 | 是 | 是 | 無 |
 | **可用時間戳記** | 否 | 否 | 無 | 是 | 無 |
 | **處理層級** | 完整處理 | 完整處理，並提供獨立的[即時報表](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) | 完整處理 | 完整處理 | 完整處理 |
 | **包含管理機器人篩選資料** <br> [了解更多](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | 否 | 是 - 獨立機器人報表 | 否 | 否 | 否 |

@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 19%
 ---
 # 常見問答
@@ -155,7 +155,7 @@ ht-degree: 19%
 
 +++ 為什麼我無法在Analytics「管理控制檯」中開啟某些報表套裝的SSF？
 
-您只能啟用對應至您CX Enterprise組織的套裝。
+您只能啟用對應至您Adobe組織的套裝。
 
 如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)。
 

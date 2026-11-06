@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # 預設計算量度
 
 Adobe Analytics 提供各種計算量度，以涵蓋最常見的使用案例。 這些計算量度在 Analysis Workspace 中預設可用。
@@ -68,7 +66,7 @@ Adobe Analytics 提供各種計算量度，以涵蓋最常見的使用案例。 
 | 轉換率 | 採取所需動作 (例如購買) 的訪客的百分比。 | `[Orders] / [Visits]` |
 | 登入率 | 從指定頁面進入網站的訪客佔網站工作階段總數的百分比。 | `[Entries] / [Visits]` |
 | 預估的不重複訪客 (ITP 2.1) | 針對 ITP 訪客 (Safari 瀏覽器上的使用者)，將不重複訪客數量除以 2 或更少。 此計算量度假設您使用用戶端 JavaScript (而不是使用 CNAME 實施) 來設定 Cookie。 從ITP 2.1開始，使用使用者端JavaScript設定Cookie的實作會受到影響。 如需詳細資訊，請參閱[智慧型追蹤預防](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/)。 | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Experience Cloud ID 涵蓋範圍 | 擁有 Experience Cloud ID 的訪客的百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Experience Cloud ID 涵蓋範圍 | 擁有ECID的訪客百分比。 | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | 退出率 | 檢視特定頁面後離開網站的訪客百分比。 | `[Exits] / [Visits]` |
 | ITP 2.1 不重複訪客/不重複訪客 | 使用受 ITP 2.1 Cookie 限制影響之瀏覽器的不重複訪客百分比。 | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | 訂單協助 | 管道或來源促成客戶的購買歷程但未促成最終購買的次數。 | `[Orders (Visit Participation)] - [Orders]` |

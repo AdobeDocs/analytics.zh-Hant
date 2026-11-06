@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # 使用資料插入API識別訪客
@@ -62,7 +62,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 在每次點選時將該值當作`mid`查詢引數傳送，並將您的IMS組織ID當作`mcorgid`引數傳送，以便ECID正確解析。 如果您的資料轉送到Audience Manager，請同時從[`getLocationHint`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/getlocationhint)傳送地區作為`aamlh`引數。 若要將您自己的客戶識別碼與訪客建立關聯，請使用[`setCustomerIDs`](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/id-service-api/methods/setcustomerids)。
 
-如需伺服器端收集，請取得使用者端上的ECID，並將其轉寄至您的伺服器，以便在每次點選時傳送。 若要在沒有使用者端的情況下完全在伺服器端產生ECID，請使用ID服務的[直接整合](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/direct-integration)。
+如需伺服器端收集，請取得使用者端上的ECID，並將其轉寄至您的伺服器，以便在每次點選時傳送。 若要在沒有使用者端的情況下完全在伺服器端產生ECID，請使用訪客ID服務的[直接整合](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/direct-integration)。
 
 ## 使用Analytics訪客識別碼
 

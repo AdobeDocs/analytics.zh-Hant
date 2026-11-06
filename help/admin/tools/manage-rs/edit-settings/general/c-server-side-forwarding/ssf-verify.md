@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 36%
+source-wordcount: '247'
+ht-degree: 20%
 ---
 # 如何確認您的伺服器端轉送實作情形
 
@@ -50,7 +50,7 @@ ht-degree: 36%
 
 >[!CAUTION]
 >
->如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。 請確認身分識別服務已正確部署，且您已部署 App Measurement 模組，將適用的報告套裝對應到正確的組織 ID，並在 Analytics 管理員工具中啟用了伺服器端轉送。
+>如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。 請確定已正確部署訪客ID服務、您已部署App Measurement模組、已將適用的報表套裝對應至正確的組織ID，且已在Analytics管理工具中啟用伺服器端轉送。
 
 >[!MORELIKETHIS]
 >
