@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # 資料保留原則
@@ -63,7 +63,7 @@ Adobe 身為資料處理者，必須採取適當措施來協助客戶完成存�
 
 ## 檢視/管理目前的資料保留原則
 
-[!UICONTROL 管理員]工具中的資料管理對話框可提供哪些報表套裝已設定為可供資料管理的概觀。 此對話方塊還會指出它們是否已對應至CX Enterprise組織，以及是否為此報表套裝制定了資料保留原則。
+[!UICONTROL 管理員]工具中的資料管理對話框可提供哪些報表套裝已設定為可供資料管理的概觀。 此對話方塊還會指出它們是否已對應至Adobe組織，以及是否為此報表套裝制定了資料保留原則。
 
 ## 常見問題集
 

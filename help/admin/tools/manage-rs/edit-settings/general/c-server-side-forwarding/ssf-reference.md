@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 90%
+source-wordcount: '559'
+ht-degree: 89%
 ---
 # 伺服器端轉送資料和程式碼參考
 
@@ -50,7 +50,7 @@ ht-degree: 90%
 | `d_rs` | (透過舊版/追蹤伺服器式的伺服器端轉送完成設定) <br>設為 Analytics 收到點擊時傳入的報表套裝。 |
 | `d_dst_filter` | (透過報表套裝式的伺服器端轉送完成設定) <br>設為 Analytics 收到點擊時傳入的報表套裝 ID。 |
 | `d_dst` | 如果向 Analytics 發出的請求所預期的內容是有關傳回給用戶端的目的地，請設定 `d_dst=1` <br>。 |
-| `d_mid` | 傳入 Analytics 的 Experience Cloud ID。 |
+| `d_mid` | 傳入Analytics的ECID。 |
 
 ## HTTP 標題 {#section_0549705E76004F9585224AEF872066C0}
 

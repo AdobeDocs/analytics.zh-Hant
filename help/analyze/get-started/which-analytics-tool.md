@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 72%
+source-wordcount: '1170'
+ht-degree: 71%
 ---
 # 我該使用哪種 Adobe Analytics 工具呢？
 
@@ -101,7 +101,7 @@ ht-degree: 72%
 
 * 當您需要將資料導入 Adobe Analytics 且無法使用 AppMeasurement、Web SDK 或大量資料插入 API 時。
 
-「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)**」應在以下情況時使用：
+「**[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**」應在以下情況時使用：
 
 * 如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，且想要將資料上傳至CX Enterprise。
 * 如果您想要使用CRM資料在Analytics中進行更深入的分析，或在Adobe Target中作為鎖定目標條件。
@@ -123,7 +123,7 @@ ht-degree: 72%
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 使用時機：
 
-* 若要存取隱藏在其他 UI 中的變數 (IP 位址、Experience Cloud ID、Analytics 訪客 ID、頁面 URL)
+* 若要存取隱藏於使用者介面中的變數（IP位址、ECID、Analytics訪客ID、頁面URL）
 * 存取比UI更精細的資料（非標準化表格檢視）
 * 若要以適合樞紐分析表輸入的格式下載資料
 * 若客戶想要將 Adobe 資料輸入到協力廠商資料視覺化工具中 (資料會稍微摘要過，而不是點擊層級)

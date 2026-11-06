@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 51%
+source-wordcount: '306'
+ht-degree: 47%
 ---
 # 訪客計數差異
 
@@ -46,11 +46,11 @@ ht-degree: 51%
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > Adobe Audience Manager：總區段母體</a> </p> </td> 
-   <td colname="col3"> <p>在回顧期間屬於您區段成員的裝置數量 (Experience Cloud ID)。 </p> </td> 
+   <td colname="col3"> <p>回顧期間，屬於區段成員的裝置計數(ECID)。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > Adobe Audience Manager：即時區段人口數</a> </p> </td> 
-   <td colname="col3"> <p>在回顧期間，屬於區段成員並到達您屬性的裝置計數(Experience Cloud ID)。 </p> </td> 
+   <td colname="col3"> <p>在回顧期間，屬於區段成員並到達您屬性的裝置計數(ECID)。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：獨特訪客數 </p> </td> 
@@ -58,7 +58,7 @@ ht-degree: 51%
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics：擁有 Experience Cloud ID 的訪客 </p> </td> 
-   <td colname="col3"> <p>顯示有Experience Cloud ID且在報表時段內到達您屬性的不重複訪客數量。 </p> </td> 
+   <td colname="col3"> <p>顯示在報告期間到達您屬性且具有ECID的不重複訪客數量。 </p> </td>
   </tr> 
  </tbody> 
 </table>

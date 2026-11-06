@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # 具有 Experience Cloud ID 的訪客
 
-具有Experience Cloud ID &#39; [量度](overview.md)的&#39;訪客顯示Adobe識別的ECID不重複訪客數量（使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[Experience Platform身分識別服務](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/identity/home)）。 此量度有助於與[不重複訪客](unique-visitors.md)量度進行比較，以確保您網站上的大多數訪客都使用ECID。 如果大部分的訪客都未使用此識別碼，此識別碼可能表示您實施作業中的問題。
+具有Experience Cloud ID ]&#39; [量度](overview.md)的&#39;[!UICONTROL 訪客顯示Adobe識別的ECID不重複訪客數量（使用[訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)或[Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)）。 此量度有助於與[不重複訪客](unique-visitors.md)量度進行比較，以確保您網站上的大多數訪客都使用ECID。 如果大部分的訪客都未使用此識別碼，此識別碼可能表示您實施作業中的問題。
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ ht-degree: 25%
 
 ## 此量度的計算方式
 
-此量度以[不重複訪客](unique-visitors.md)量度為基礎，但僅包含以 `mid` 查詢字串識別的個人 (根據 [`s_ecid`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie)。
+此量度以[不重複訪客](unique-visitors.md)量度為基礎，但僅包含以 `mid` 查詢字串識別的個人 (根據 [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie)。
 
 ## 對您的ECID設定進行偵錯
 
-具有Experience Cloud ID 的&#39;訪客&#39;量度可用於CX Enterprise整合的疑難排解，或用來識別未部署訪客ID服務或Experience Platform Identity服務的網站區域。
+具有Experience Cloud ID ]的&#39;[!UICONTROL 訪客&#39;量度可用於疑難排解CX Enterprise整合，或識別未部署訪客ID服務或Web SDK的網站區域。
 
-將Experience Cloud ID為的&#39;訪客與「不重複訪客」並排拖曳，以便比較：
+將Experience Cloud ID為]的&#39;[!UICONTROL 訪客與「不重複訪客」並排拖曳，以便比較：
 
 ![不重複訪客的比較](assets/metric-mcvid1.png)
 
-在此範例中，請注意每個頁面的&#39;[!UICONTROL 不重複訪客]&#39;數量與&#39;[!UICONTROL 位具有Experience Cloud ID]&#39;的訪客相同。 但是，&#39;[!UICONTROL 不重複訪客]&#39;的總數大於Experience Cloud ID為&#39;的&#39;訪客總數。 您可以使用下列定義來建立[計算量度](../calculated-metrics/cm-overview.md)，以找出哪些頁面未使用ECID：
+在此範例中，請注意每個頁面的&#39;[!UICONTROL 不重複訪客]&#39;數量與&#39;[!UICONTROL 位具有Experience Cloud ID]&#39;的訪客相同。 但是，&#39;[!UICONTROL 不重複訪客]&#39;的總數大於Experience Cloud ID為]&#39;的&#39;[!UICONTROL 訪客總數。 您可以使用下列定義來建立[計算量度](../calculated-metrics/cm-overview.md)，以找出哪些頁面未使用ECID：
 
 ![計算量度定義](assets/metric-mcvid2.png)
 

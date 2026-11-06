@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud 訪客 ID
-description: 訪客的Experience Cloud ID (ECID)，可在Data Warehouse中使用。
+description: 訪客的ECID，可在Data Warehouse中使用。
 feature: Dimensions
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 18%
+source-wordcount: '154'
+ht-degree: 19%
 ---
 # Experience Cloud 訪客 ID
 
@@ -40,12 +40,12 @@ ht-degree: 18%
 
 ## 將資料填入此維度中
 
-此維度需要實作，才能使用訪客ID服務(VisitorAPI)或Experience Platform Identity服務。 它對應至資料摘要中的`mcvisid`欄。 如需詳細資訊，請參閱[資料行參考](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+此維度需要實作，使用訪客ID服務(VisitorAPI)或網頁SDK。 它對應至資料摘要中的`mcvisid`欄。 如需詳細資訊，請參閱[資料行參考](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | 無（由Adobe訪客ID服務設定） |
-| **網頁SDK / XDM欄位** | 無（由Experience Platform Identity Service設定） |
+| **網頁SDK / XDM欄位** | 無（由Edge Network設定） |
 | **查詢引數** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 不適用 |

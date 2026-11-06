@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 43%
 ---
 # 伺服器呼叫使用量
@@ -69,7 +69,7 @@ Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服�
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳單公司（帳單ID） </p> </td> 
-   <td colname="col2"> <p>為伺服器呼叫計費的法人。 例如 adobe.com。 每個帳單公司都有一個用於唯一識別帳單客戶的帳單ID。 帳單ID可以繫結至多個CX Enterprise組織；組織與帳單ID之間並不一定存在1:1關係。 </p> </td> 
+   <td colname="col2"> <p>為伺服器呼叫計費的法人。 例如 adobe.com。 每個帳單公司都有一個用於唯一識別帳單客戶的帳單ID。 帳單ID可以繫結至多個Adobe組織；組織與帳單ID之間並不一定存在1:1關係。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>登入公司 </p> </td> 
@@ -82,7 +82,7 @@ Adobe Analytics伺服器呼叫使用量可處理您對瀏覽器和行動伺服�
     </ul> <p>注意：具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="/help/admin/admin-console/permissions/analytics-tools.md">所有</a>報告套裝的伺服器呼叫使用量資料。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>CX Enterprise組織 </p> </td> 
+   <td colname="col1"> <p>Adobe組織 </p> </td> 
    <td colname="col2"> <p>組織是可讓管理員設定群組和使用者，以及控制CX Enterprise單一登入的實體。 組織的作用就像跨及所有CX Enterprise產品和解決方案的登入公司。 </p> <p>通常組織就是您的公司名稱， 但是一間公司可以有多個組織。 </p> </td> 
   </tr> 
   <tr> 

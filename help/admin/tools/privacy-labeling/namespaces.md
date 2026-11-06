@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 65%
+source-wordcount: '939'
+ht-degree: 63%
 ---
 # 命名空間
 
@@ -45,7 +45,7 @@ ht-degree: 65%
 * 針對大多數Adobe Analytics請求，包含「analytics」值的「type」欄位。
 * 一個「值」欄位，其中包含Analytics應在每個報表套裝的關聯名稱空間變數中搜尋的ID。
 
-請參閱[CX Enterprise資料隱私權API檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)，以取得詳細資訊和標準身分識別名稱空間[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix#standard-namespaces)的清單。 請參閱[建立存取/刪除工作](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/privacy-jobs#access-delete)，以取得範例請求。
+請參閱[CX Enterprise資料隱私權API檔案](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)，以取得詳細資訊和標準身分識別名稱空間](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/appendix#standard-namespaces)的[清單。 請參閱[建立存取/刪除工作](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/privacy/api/privacy-jobs#access-delete)，以取得範例請求。
 
 ## Cookie ID
 
@@ -91,7 +91,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->Experience Cloud ID (ECID) 先前稱為 Marketing Cloud ID (MCID)，現在有些文件還是會以舊名指稱。
+>ECID先前稱為Marketing Cloud ID (MCID)，現在有些檔案還是會以舊名指稱。
 >
 >這些是 Analytics 支援的 ID 中，唯一使用「type」值而非「analytics」值的 ID。
 

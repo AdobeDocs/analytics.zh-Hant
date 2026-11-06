@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 18%
 ---
 # 啟用 Advertising Analytics 的報表套裝
@@ -36,7 +36,7 @@ ht-degree: 18%
 
 1. 導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**」。
 
-1. 選取已對應至您CX Enterprise組織的報表套裝。
+1. 選取已對應至您Adobe組織的報表套裝。
 1. 按一下 **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定]**。
 
    ![報表](assets/aa-reporting.png)

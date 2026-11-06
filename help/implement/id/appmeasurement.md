@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 1%
-
 ---
-
 # 使用AppMeasurement識別訪客
 
 AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收集。 雖然AppMeasurement本身提供可識別訪客的原生方式，但許多現代瀏覽器會拒絕嘗試設定的第三方Cookie。 Adobe強烈建議在所有實作中使用[Adobe訪客ID服務](https://experienceleague.adobe.com/tw/en/docs/id-service/using/home)，以符合現代化的瀏覽器隱私權標準。 所有版本的AppMeasurement都隨附`VisitorAPI.js`，這是用來實作訪客ID服務的JavaScript資料庫。
@@ -93,9 +91,9 @@ AppMeasurement是Adobe Analytics的舊版JavaScript資料庫，用於資料收�
 >
 >Adobe建議不要使用此方法來識別訪客。
 
-如果您的組織未使用訪客ID服務(`VisitorAPI.js`)，AppMeasurement會使用自己的舊版訪客身分識別形式。 當訪客首次進入您的網站時，資料庫會檢查[`s_vi`](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie設定於符合[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （適用於HTTPS）或`trackingServer` （適用於HTTP）的網域中。
+如果您的組織未使用訪客ID服務(`VisitorAPI.js`)，AppMeasurement會使用自己的舊版訪客身分識別形式。 當訪客首次進入您的網站時，資料庫會檢查[`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) Cookie。 此Cookie設定於符合[`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) （適用於HTTPS）或`trackingServer` （適用於HTTP）的網域中。
 
-* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
+* 如果您參與[Managed憑證方案](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)，您的追蹤伺服器通常會是第一方網域，使`s_vi` Cookie成為第一方。
 * 如果您不參與Managed憑證方案，追蹤伺服器通常是`adobedc.net`、`omtrdc.net`或`2o7.net`的子網域，使`s_vi` Cookie成為協力廠商Cookie。 由於現今瀏覽器隱私權標準限制，大部分的瀏覽器都會拒絕第三方Cookie。 在遭到拒絕後，AppMeasurement會嘗試改為設定第一方備援Cookie (`fid`)。
 
 如果您正確設定`trackingServerSecure`，則不需要進一步的訪客識別測量。

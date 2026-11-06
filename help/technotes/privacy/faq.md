@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 85%
 ---
 # Adobe Analytics隱私權常見問題集
@@ -47,7 +47,7 @@ ht-degree: 85%
 
 各種資料隱私權規則(GDPR、CCPA)生效時，Adobe Analytics會支援處理資料控管單位向CX Enterprise資料隱私權API提交的已驗證請求，藉此提高程式的自動化程度。 Adobe的資料隱私權API的設計目的，是為了協助處理客戶儲存在不同Adobe CX Enterprise解決方案中之資料的個別許可權請求（例如存取和刪除請求）。 那具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。
 
-此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。 如需詳細資訊，請參閱 [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。
+此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。 如需詳細資訊，請參閱 [](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)Privacy Service API 文件。
 
 +++
 
@@ -87,11 +87,11 @@ ht-degree: 85%
 
 通常，Analytics 客戶會在向大眾發布之前，先行設定一些測試報告套裝以驗證功能。 正式上線前的網站或應用程式會將資料傳送至這些測試/開發/QA 報告套裝，以評估程式碼發行後、在真正流量傳送至生產報告套裝之前的運作情況。
 
-然而，若是使用標準設定，則您在將請求套用到生產報告套裝前，不能先在這些測試版報告套裝上測試 GPDR 請求處理。 這是因為資料隱私權請求會自動套用至CX Enterprise組織中的所有報表套裝，通常就是貴公司的所有報表套裝。
+然而，若是使用標準設定，則您在將請求套用到生產報告套裝前，不能先在這些測試報告套裝上測試 GDPR 請求處理。 這是因為資料隱私權請求會自動套用至Adobe組織中的所有報表套裝，通常就是貴公司的所有報表套裝。
 
 不過，在套用至所有報告套裝之前，您仍然可以透過以下幾種方法測試您的資料隱私權處理：
 
-* 一個選項是另行設定CX Enterprise組織，其中只包含測試報表套裝。 然後使用此CX Enterprise組織進行資料隱私權測試，並將您的正常CX Enterprise組織用於實際的資料隱私權處理。
+* 一個選項是另行設定只包含測試報表套裝的組織。 然後使用此組織進行資料隱私權測試，並將您的正常組織用於實際的資料隱私權處理。
 
 * 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。 例如，您可以在測試報表套裝中為每個命名空間加上「qa-」前置詞。 當您提交僅含有 qa 字首的命名空間的資料隱私權請求時，這些請求只會針對您的測試報表套裝來執行測試。 稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報告套裝。 **除非您使用`visitorId`、AAID、ECID或`customVisitorId`名稱空間，否則建議使用此方法。 這些命名空間是硬式編碼，您不能在測試報表套裝中指定它們的替代名稱。**
 

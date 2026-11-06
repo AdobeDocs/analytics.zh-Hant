@@ -40,18 +40,18 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 92%
 ---
 # Analytics 實施常見問答
 
 實作的相關常見問答，以及可提供更多資訊的連結。
 
-## Experience Cloud 訪客 ID 與 Analytics 訪客 ID 有何不同？
+## ECID與Analytics訪客ID有何不同？ {#what-is-the-difference-between-the-experience-cloud-visitor-id-and-analytics-visitor-id}
 
-Identity Service會指派不重複的永久性識別碼，以便在CX Enterprise的其他解決方案之間共用。 Analytics 訪客 ID 僅供 Analytics 使用。 Adobe 建議您在實作中使用 Experience Cloud 訪客 ID 服務。
+Identity Service會指派不重複的永久性識別碼，以便在CX Enterprise的其他解決方案之間共用。 Analytics 訪客 ID 僅供 Analytics 使用。 Adobe建議您在實施中使用訪客ID服務。
 
 ## 如何實施心率影片追蹤？
 

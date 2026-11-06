@@ -28,13 +28,11 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '754'
 ht-degree: 96%
-
 ---
-
 # 透過應用程式設定主管使用者
 
 某些情況下，主管使用者可能需要額外的協助，才能存取及使用應用程式。 本節提供相關資訊，幫助您提供這類協助。
@@ -78,7 +76,7 @@ ht-degree: 96%
 
    「**[!UICONTROL 選擇公司]**」畫面隨即顯示。 此畫面會列出高階主管使用者所屬的登入公司。
 
-1. 要求他們點選套用至您共用計分卡的登入公司或CX Enterprise組織的名稱。
+1. 要求他們點選套用至您共用計分卡的登入公司或Adobe組織名稱。
 
    接著，計分卡清單會顯示在該登入公司下與該高階主管共用的所有計分卡。
 

@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2045'
 ht-degree: 89%
 ---
 # 共用專案 {#share-projects}
@@ -73,7 +73,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
+如需示範影片，請參閱![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [共用專案](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -189,7 +189,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以取得示範影片。
+觀看![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [與任何人共用連結](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"}以取得示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -214,7 +214,7 @@ ht-degree: 89%
 
    * **[!UICONTROL 需要CX Enterprise驗證]：**
 
-     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe CX Enterprise組織。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
+     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe組織。 但是，您與之共用的使用者不需要擁有 Adobe Analytics 的存取權。
 
      Analytics 管理員可以為公司設定此偏好設定，如[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)中所述。 視管理員設定此選項的方式而定，您可能會遇到以下情況：
 
@@ -234,7 +234,7 @@ ht-degree: 89%
 
 ## 查看與您共用的專案
 
-當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [&#x200B; Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
+當有人透過[共用特定的專案角色](#share-a-specific-project-role)與您共用專案時，您可以從 [ Analytics 登陸頁面上的專案標籤](/help/analyze/landing.md#navigate-the-projects-tab)存取共用專案。
 
 當有人透過共用連結 (從[共用專案標籤](#share-a-link-to-a-project)或使用[與任何人共用](#share-a-project-with-anyone-no-login-required)連結) 讓您共用專案時，您必須使用讓您共用的連結才能存取該專案。 例如，該連結可能已透過電子郵件、內部網站等方式共用。
 

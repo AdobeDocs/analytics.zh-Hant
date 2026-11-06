@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 56%
+source-wordcount: '778'
+ht-degree: 48%
 ---
 # 在 Adobe Analytics 移除機器人
 
@@ -54,9 +54,9 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。 這些功能包括：訪客ID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式概觀。
 
-### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
+### 步驟1：將訪客的ECID傳遞至新宣告的ID {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hant)中建立新宣告 ID。 您必須將訪客的 Experience Cloud ID 傳遞至這個新宣告的 ID，這項操作透過 [Adobe Experience Platform 中的標記](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
+開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hant)中建立新宣告 ID。 將訪客的ECID傳遞至此新宣告的ID，這項操作透過Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)中的[標籤即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### 步驟 3：透過「Data Warehouse」匯出所有區段中的 [!DNL Experience Cloud IDs]
+### 步驟 3：透過「Data Warehouse」匯出所有區段中的 [!DNL ECIDs] {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-現在您已經透過區段找出機器人了，下一步就是利用 Data Warehouse 擷取所有與此區段關聯的 Experience Cloud ID。 此螢幕擷圖顯示設定 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 請求的方法：
+您已經透過區段找出機器人了，下一步就是使用Data Warehouse擷取所有與此區段關聯的ECID。 此螢幕擷圖顯示設定 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) 請求的方法：
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -111,7 +111,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 >[!MORELIKETHIS]
 >
->* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=zh-Hant)
->* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=zh-Hant)
->* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=zh-Hant)
+>* [更好的機器人封鎖（第1部分）：基本知識](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [更好的機器人封鎖（第2部分）：識別機器人並運用CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [更好的機器人封鎖（第3部分）：點選管理員](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

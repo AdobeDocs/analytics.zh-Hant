@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '747'
 ht-degree: 11%
 ---
 # trackingServerSecure
@@ -60,7 +60,7 @@ Web SDK使用[!UICONTROL Edge網域]來處理追蹤伺服器和安全追蹤伺�
 
 ## Edge網域手動實作Web SDK
 
-使用[`edgeDomain`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/web-sdk/commands/configure/edgedomain)設定SDK。 欄位是字串，可決定要將資料傳送至哪個網域。
+使用[`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)設定SDK。 欄位是字串，可決定要將資料傳送至哪個網域。
 
 ```json
 alloy("configure", {
@@ -95,22 +95,22 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 您用於`trackingServerSecure` （或`edgeDomain`）的值取決於您的組織如何將資料傳送至Adobe：
 
-* **如果您的組織使用第一方網域**，例如透過[Adobe管理的憑證方案](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/adobe-managed-cert)、[客戶管理的憑證](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/customer-managed-cert)或[內容傳遞網路(CDN)](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/cdn)，請將該值設定為該網域。 例如，`data.example.com`。
+* **如果您的組織使用第一方網域**，例如透過[Adobe管理的憑證方案](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)、[客戶管理的憑證](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert)或[內容傳遞網路(CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn)，請將該值設定為該網域。 例如，`data.example.com`。
 * **如果您的組織使用協力廠商網域**，請將此值設定為`data.adobedc.net`的租使用者ID子網域。 例如，`example.data.adobedc.net`。
 
-請參閱CX Enterprise介面與管理指南中的[選擇資料收集網域](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/data-collection/collection-domain)，以取得每個選項的詳細資訊，包括如何尋找您的租使用者ID。
+請參閱CX Enterprise介面與管理指南中的[選擇資料收集網域](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain)，以取得每個選項的詳細資訊，包括如何尋找您的租使用者ID。
 
 Adobe強烈建議將此資訊保留在[解決方案設計檔案](../../prepare/solution-design.md)中，以在整個組織內保持一致。
 
-## 不使用訪客ID服務或Experience Platform Identity服務所產生的影響
+## 不使用訪客ID服務或網頁SDK的後果 {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe強烈建議在所有實作中使用ECID作為訪客身分的主要形式。 您可透過數種不同的方式實作ECID，具體取決於實作型別：
 
-* 手動AppMeasurement實作使用`VisitorAPI.js`並呼叫`getInstance`方法。 如需詳細資訊，請參閱[實作Analytics的訪客ID服務](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/implementation/setup-analytics)。
-* 使用Adobe Analytics標籤擴充功能的實作使用[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/id-service/overview)，這會實作訪客ID服務。 新增後，就不需要其他設定。
-* 使用任何形式的Web SDK （`alloy.js`或Web SDK標籤擴充功能）的實施會自動包含Experience Platform Identity Service。 設定`edgeDomain`值之後不需要設定。
+* 手動AppMeasurement實作使用`VisitorAPI.js`並呼叫`getInstance`方法。 如需詳細資訊，請參閱[實作Analytics的訪客ID服務](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics)。
+* 使用Adobe Analytics標籤擴充功能的實作使用[[!UICONTROL Experience Cloud ID服務]標籤擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview)，這會實作訪客ID服務。 新增後，就不需要其他設定。
+* 使用任何形式的Web SDK （`alloy.js`或Web SDK標籤擴充功能）的實施會自動包含Edge Network身分。 設定`edgeDomain`值之後不需要設定。
 
 **如果您的實作不使用ECID**，請考慮下列對實作的影響：
 
-* 如果未使用訪客ID服務或Experience Platform Identity服務，`trackingServerSecure`會決定Cookie位置。 將此變數設為協力廠商網域會強制AppMeasurement使用備援Cookie，因為大部分的現代瀏覽器都會拒絕協力廠商Cookie。
+* 如果未使用訪客ID服務或Web SDK，`trackingServerSecure`會決定Cookie位置。 將此變數設為協力廠商網域會強制AppMeasurement使用備援Cookie，因為大部分的現代瀏覽器都會拒絕協力廠商Cookie。
 * 內部連結追蹤和Activity Map可能不太可靠。
