@@ -56,7 +56,7 @@ Adobe Analytics提供多個選項，用於從報表中移除機器人流量：
 
 ### 步驟1：將訪客的ECID傳遞至新宣告的ID {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hant)中建立新宣告 ID。 將訪客的ECID傳遞至此新宣告的ID，這項操作透過Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)中的[標籤即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
+開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-hant)中建立新宣告 ID。 將訪客的ECID傳遞至此新宣告的ID，這項操作透過Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)中的標籤即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 

@@ -82,7 +82,7 @@ AppMeasurement會傳送退出連結要求，以及啟用[`useBeacon`](../vars/co
 使用Web SDK時，瀏覽器會將事件傳送至Edge Network，而非直接傳送至Analytics，因此您不會看到`/b/ss/`請求。 [檢查Edge Network要求](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests)並確認下列專案：
 
 * `configId`引數符合已啟用[Adobe Analytics服務](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics)的資料流，並具有您期望的報表套裝。
-* 裝載符合頁面檢視或連結事件的資格。 Analytics會忽略不含頁面詳細資料或網頁互動型別的裝載。 檢視Adobe Analytics](../aep-edge/hit-types.md)中的[Edge Network事件型別。
+* 裝載符合頁面檢視或連結事件的資格。 Analytics會忽略不含頁面詳細資料或網頁互動型別的裝載。 檢視Adobe Analytics[&#128279;](../aep-edge/hit-types.md)中的Edge Network事件型別。
 
 ### 檢查Analytics收到的內容 {#web-sdk-contents}
 
@@ -103,7 +103,7 @@ AppMeasurement會傳送退出連結要求，以及啟用[`useBeacon`](../vars/co
 到達Analytics的點選不會立即出現在報表中，而且報告的值可能會與請求中的值不同：
 
 * **延遲**：收集後大約兩小時，報表中通常會顯示完整的資料。 部分資料（例如時間戳記點選）可能需要更長的時間。 檢視[資料可用性和延遲](/help/technotes/latency.md)。
-* **處理中**：處理規則、VISTA規則、機器人規則和其他處理步驟可以在收集後變更或排除值。 檢視Adobe Analytics](/help/technotes/processing-order.md)中資料的[處理順序 Assurance後續處理的資料會顯示個別點選的處理結果。
+* **處理中**：處理規則、VISTA規則、機器人規則和其他處理步驟可以在收集後變更或排除值。 檢視Adobe Analytics[&#128279;](/help/technotes/processing-order.md)中資料的處理順序 Assurance後續處理的資料會顯示個別點選的處理結果。
 * **報表套裝**：確認您正在檢視的報表套裝是請求或資料流鎖定的相同報表套裝。
 * **非預期的值**：如果維度顯示非預期的尖峰或值，請參閱[雜湊衝突](hash-collisions.md)。
 
