@@ -19,12 +19,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 38%
+source-wordcount: '317'
+ht-degree: 36%
 ---
 # 演算法歸因
+
+>[!NOTE]
+>
+>您必須擁有&#x200B;**Ultimate**&#x200B;套件，才能使用本節中說明的功能。 如果您不確定您擁有哪個Adobe Analytics套件，請聯絡管理員。
 
 Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同，因為此模型使用統計技術將評分分配給報表或自由格式表格中的各個維度項目。 和Analysis Workspace中的所有其他歸因模型一樣，演演算法歸因也可用於任何維度或量度。 演演算法歸因支援無限制的分段和劃分，並將100%的轉換分送給表格中的一或多個維度（也稱為「細節」歸因）。
 
@@ -38,7 +42,7 @@ Analysis Workspace 中的演算法[歸因模型](models.md)與其他模型不同
 
 用於歸因的演算法以合作賽局理論中的 Harsanyi 分紅為基礎。 Harsanyi Dividend是Shapley值解法（以諾貝爾經濟學獎獲得者Lloyd Shapley命名）的泛論，用於分配玩家之間的評分，對結果的貢獻不相等。
 
-概言之，在為每個接觸點計算轉換評分的歸因時，會將回顧期間內的每個行銷接觸點視為玩家聯盟。 對於這個玩家聯盟，盈餘必須公平分配。 每個聯盟的盈餘分配則由每個子聯盟先前遞回建立的盈餘決定。
+在為每個接觸點計算轉換評分的歸因時，會將回顧期間內的每個行銷接觸點視為玩家聯盟。 對於這個玩家聯盟，盈餘必須公平分配。 每個聯盟的盈餘分配則取決於每個子聯盟先前遞回建立的盈餘。
 
 如需詳細資訊，請參閱John Harsanyi和Lloyd Shapley的原稿：
 

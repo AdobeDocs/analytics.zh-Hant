@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 71%
+source-wordcount: '2120'
+ht-degree: 70%
 ---
 # 建置區段
 
@@ -94,6 +94,10 @@ ht-degree: 71%
 
 您稍後可以隨時變更這些設定。
 
+>[!NOTE]
+>
+>區段產生器介面不支援所有透過[API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment)建立的區段定義。 此頁面可能無法成功載入，或為這些區段擲回錯誤。
+
 ### 元件
 
 建立區段定義時，有個重要部分是使用維度、量度、現有區段和日期範圍。 區段產生器中的元件面板提供所有這些元件。
@@ -115,7 +119,6 @@ ht-degree: 71%
 
    只有從&#x200B;**[!UICONTROL 包含]**&#x200B;或&#x200B;**[!UICONTROL 排除]**&#x200B;下拉式選單中選取&#x200B;[!UICONTROL **人員**]&#x200B;作為定義的範圍（容器）時，才會顯示此選項。
 
-   **注意**：此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 此功能普遍開放使用時，便會移除此注意事項。 如需Customer Journey Analytics發行程式的相關資訊，請參閱[Adobe Analytics功能發行](/help/release-notes/releases.md)。
 
 1. （選用）修改預設運運算元。 例如，從「**[!UICONTROL 等於]**」改為「**[!UICONTROL 等於任何]**」。 請參閱「[運算子](../seg-reference/seg-operators.md)」，了解可用運算子詳細概觀。
 
@@ -165,7 +168,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [&#x200B; 在細分群體捲動日期範圍](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +291,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to CX Enterprise. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to CX Enterprise. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -349,7 +352,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

@@ -71,6 +71,6 @@ Adobe Analytics 功能及其使用方法的相關詳細資訊，請參閱「[Ana
 
 * [聯絡客戶服務](https://experienceleague.adobe.com/zh-hant?support-solution=Analytics#support)
 * [Experience League上的Adobe Analytics社群](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=zh-Hant)
-* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Adobe Analytics資源](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=zh-Hant)
 * [Experience League](https://landing.adobe.com/experience-league/)
 
