@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 21%
-
 ---
-
 # 處理規則使用案例
 
 您可在組織內使用處理規則的應用程式非常廣泛。 以下幾節將詳細說明您可能會使用它們的一些常見方式。
@@ -60,7 +58,7 @@ ht-degree: 21%
 | 規則集 | 值 |
 | --- | --- |
 | 動作 | [!UICONTROL 以`spa.billing_customer_name`覆寫] eVar55的值（內容資料） |
-| 動作 | 如果已設定`testhierarchy` （內容資料），請使用`testhierarchy` （內容資料）覆寫 Prop7的值 |
+| 動作 | 如果已設定`testhierarchy` （內容資料），請使用`testhierarchy` （內容資料）覆寫] Prop7的值[!UICONTROL  |
 | 動作 | [!UICONTROL 以`spa.ims_org`覆寫] eVar8的值（內容資料） |
 
 ![處理規則介面的熒幕擷圖，顯示如何有條件地設定值](assets/add-conditional.png)
@@ -157,6 +155,6 @@ Adobe建議您儘可能使用最嚴格的比對選項，以避免不想要的覆
 |條件 |無（一律執行） |
 |動作 | [!UICONTROL 將event] Event1設為[!UICONTROL 自訂值] `0` |
 
-![處理規則介面的熒幕擷圖顯示給以移除事件](assets/remove_event.png)
+![顯示如何移除事件的處理規則介面熒幕擷圖](assets/remove_event.png)
 
 +++

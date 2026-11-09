@@ -20,7 +20,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
@@ -51,25 +51,25 @@ ht-degree: 0%
 
 在區段產生器中，或當作&#x200B;**[!UICONTROL 快速區段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 點選]**&#x200B;容器上&#x200B;**[!UICONTROL 包含]** **[!UICONTROL Dimension]** **[!UICONTROL 零售：時尚產品類別]** **[!UICONTROL 等於]** **[!UICONTROL 男性]**。
 
-![顯示產品類別Men](./assets/product-category-segmentation-hits.png)點選層級分段的面板
+![在產品類別男性](./assets/product-category-segmentation-hits.png)的點選層級上顯示細分的面板
 
-因此，所有包含至少一個&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而這些訂單中其他產品的收入包含在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中。
-當您報告類別時，會報告&#x200B;**[!UICONTROL 零售：時尚產品類別]**&#x200B;的所有其他值屬於包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;之產品的訂單。
+因此，所有包含至少一個&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而這些訂單中其他產品的收入包含在&#x200B;**[!UICONTROL 線上收入]**量度中。
+當您報告類別時，會報告**[!UICONTROL 零售：時尚產品類別]**&#x200B;的所有其他值屬於包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;之產品的訂單。
 
 >[!TAB 子點選分析]
 
 在區段產生器中，或當作&#x200B;**[!UICONTROL 快速區段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 產品]**&#x200B;容器上&#x200B;**[!UICONTROL 包含]** **[!UICONTROL Dimension]** **[!UICONTROL 零售：時尚產品類別]** **[!UICONTROL 等於]** **[!UICONTROL 男性]**。
 
-![顯示產品類別Men](./assets/product-category-segmentation-sub-hits.png)之子點選層級的分割面板
+![在產品類別男士的子點選層級顯示細分的面板](./assets/product-category-segmentation-sub-hits.png)
 
-因此，所有至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的產品收入。
-當您報告類別時，只會報告&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售業：時尚產品類別]**。
+因此，所有至少包含&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**&#x200B;的訂單都會被考慮，而且在&#x200B;**[!UICONTROL 線上收入]**&#x200B;量度中，只會包含屬於&#x200B;**[!UICONTROL 男性]** **[!UICONTROL 零售：時尚產品類別]**的產品收入。
+當您報告類別時，只會報告**[!UICONTROL 男性]** **[!UICONTROL 零售業：時尚產品類別]**。
 
 >[!TAB 子點選分析（排除）]
 
 在區段產生器中，或作為&#x200B;**[!UICONTROL 快速區段]**&#x200B;的一部分，您指定在&#x200B;**[!UICONTROL 產品]**&#x200B;容器上&#x200B;**[!UICONTROL 排除]** **[!UICONTROL Dimension]** **[!UICONTROL 零售：時尚產品類別]** **[!UICONTROL 等於]** **[!UICONTROL 男性]**。
 
-![在子點選層級顯示區段的面板，以排除產品類別Men](./assets/product-category-segmentation-sub-hits-exclude.png)
+![在子點選層級顯示區段以排除產品類別男士](./assets/product-category-segmentation-sub-hits-exclude.png)的面板
 
 若要在產品層級排除，至少包含一個產品的點選，然後在該範圍內套用子點選層級的排除。 此排除專案與點選層級排除專案不同，後者會排除整個點選。
 

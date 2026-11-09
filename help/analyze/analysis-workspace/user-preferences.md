@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3534'
-ht-degree: 93%
+ht-degree: 92%
 ---
 # 使用者偏好設定
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}的示範影片。
+請參閱 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [管理偏好設定](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"}的示範影片。
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +112,7 @@ ht-degree: 93%
 |  | 隱藏範本索引標籤 | 對組織中所有使用者隱藏範本索引標籤。 |
 | **專案共用** | | |
 | | 僅允許與 Workspace 使用者共用 | 啟用此選項後，組織中的使用者無法在&#x200B;**[!UICONTROL 共用]**&#x200B;選單中看到&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項。 使用者無法與您組織中沒有Analysis Workspace帳戶的人共用專案，如[與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)中所述。<br/>除了已授權Healthcare Shield的客戶之外，所有組織都預設停用此選項。 <p>啟用或停用此選項時，請考慮以下事項：<ul><li>啟用此選項後，之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，就無法再存取該專案。</li><li>如果啟用此選項 (僅允許與 Workspace 使用者共用)，之後再停用 (允許與任何人共用)，則之前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項取得專案存取權限的人員，不會自動重新取得專案的存取權限。 在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL **連結使用中**]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]**)。</li><li>**對於授權 Healthcare Shield 的客戶：**&#x200B;此選項預設為啟用且無法停用。 在您停用此選項讓使用者可以使用&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項之前，您必須先在 Adobe Admin Console 新增[!UICONTROL 與任何人共用專案連結]權限 (位於[!UICONTROL 報告工具]下方)。 新增權限後，您可以停用此選項，然後接受所產生的法律聲明。 如需有關如何在 Admin Console 中新增權限的資訊，請參閱[在 Admin Console 中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</li></ul> |
-| | 要求 CX Enterprise 驗證 | 啟用此選項後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其CX Enterprise認證進行驗證。<p>啟用此選項後，每當使用者使用「與任何人共用&#x200B;**[!UICONTROL 」共用選項]**&#x200B;共用專案時，「共用」對話方塊中就會啟用「需要CX Enterprise驗證&#x200B;**」選項，且共用專案的使用者無法停用該選項。**&#x200B;如需有關使用者如何與任何人共用專案的資訊，請參閱 [與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，先前與&#x200B;**[!UICONTROL 共用給任何人]**&#x200B;的共用選項，以及未啟用[!UICONTROL 需要CX Enterprise驗證]選項的所有專案都會停用。<p>如果此選項已啟用（需要CX Enterprise驗證），之後又停用（允許具有連結的任何人存取專案），則先前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項收到專案存取權的使用者，不會自動重新取得其專案的存取權。 在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)。</li><li>您的組織實作 SSO 時才可使用這個選項。 如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。 系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
+| | 要求 CX Enterprise 驗證 | 啟用此選項後，在Analysis Workspace中透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;選項授予專案存取權的使用者，必須使用其CX Enterprise認證進行驗證。<p>啟用此選項後，每當使用者使用「與任何人共用&#x200B;**[!UICONTROL 」共用選項]**&#x200B;共用專案時，「共用」對話方塊中就會啟用「需要CX Enterprise驗證&#x200B;]**」選項，且共用專案的使用者無法停用該選項。**[!UICONTROL &#x200B;如需有關使用者如何與任何人共用專案的資訊，請參閱 [與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)。 <p> <p>啟用此選項時請考慮以下事項： <ul><li>啟用此選項後，先前與&#x200B;**[!UICONTROL 共用給任何人]**&#x200B;的共用選項，以及未啟用[!UICONTROL 需要CX Enterprise驗證]選項的所有專案都會停用。<p>如果此選項已啟用（需要CX Enterprise驗證），之後又停用（允許具有連結的任何人存取專案），則先前透過&#x200B;**[!UICONTROL 與任何人共用]**&#x200B;共用選項收到專案存取權的使用者，不會自動重新取得其專案的存取權。 在此情況下，如在[與任何人共用專案 (無需登入)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link)所述，共用專案的使用者與任何人共用專案時，必須啟用可用的「[!UICONTROL 連結使用中]」選項 **([!UICONTROL 共用]** > **[!UICONTROL 與任何人共用]** > **[!UICONTROL 連結使用中]**)。</li><li>您的組織實作 SSO 時才可使用這個選項。 如需有關系統管理員如何為您的組織啟用 SSO 的資訊，請參閱「[設定身分識別和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)」。</p><p>如果您的組織設定 SSO，請檢查主控台是否實作任何種類的自動帳戶建立作業。 系統管理員通常會加以設定，如[啟用自動帳戶建立](https://helpx.adobe.com/tw/enterprise/using/automatic-account-creation.html)中所述。</li><li>如果您的組織授權 Healthcare Shield，預設就會啟用此選項且無法停用。</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -142,7 +142,7 @@ ht-degree: 93%
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/zh-hant/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -198,7 +198,7 @@ ht-degree: 93%
 | | 顯示總計 | 此總計表示已收集的所有集合，有時候是指「*報告套裝總計*」。 在面板層級或自由格式表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。 具[靜態列](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援全部總計。 |
 | | 顯示走勢圖 | 顯示或隱藏圖表底部的折線圖。 隱藏時，圖例會變更為不再以視覺方式對應線條。 |
 | | 數字 | 決定儲存格是否要顯示/隱藏量度數值。 例如，如果量度為「頁面檢視」，則此數值為列項目的頁面檢視數量。 |
-| | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。 例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以欄的頁面檢視次數總數。  附註：為了讓比例更精確，有時會顯示大於 100% 的百分比。 上限可提高為 1000%，以確保欄寬足夠。 |
+| | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。 例如，若量度為「頁面檢視次數」，則該百分比數值為列項目的頁面檢視次數除以該欄的頁面檢視總次數。  注意：為了更精確，有時會顯示超過100%的百分比。 上限可提高為 1000%，以確保欄寬足夠。 |
 | | 顯示異常狀況 | 決定是否要在該欄的數值中執行異常偵測。 |
 | | 將零解讀為沒有值 | 針對含有 0 值的儲存格，決定顯示 0 或空白儲存格。 如果您要查看某月的每日資料，而當月有部分天數尚未發生，這個方法就相當實用。  若不想在未來的日期中顯示 0 值，則可選擇顯示空白儲存格。 圖表也會採用此設定 (也就是說，選取此設定後，不會顯示值為 0 的線條或長條ㄊ)。 |
 | | 背景 | 決定儲存格是否要顯示/隱藏所有儲存格格式，包括長條圖和條件式格式 <ul><li>長條圖</li> 橫條圖呈現相對於欄總數的儲存格數值。 <li>條件式格式</li>如需條件式格式的詳細資訊，請參閱[欄設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)中的「條件式格式」</ul> |

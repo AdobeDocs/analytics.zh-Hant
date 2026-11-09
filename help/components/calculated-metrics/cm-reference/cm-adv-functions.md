@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '4863'
 ht-degree: 96%
@@ -411,7 +411,7 @@ Confidence is a probabilistic measure of how much evidence there is that a given
 
 >[!NOTE]
 >
->此函數不適用於每人收入等比率量度。 此函數會對比率取平均值，而不是將過去 N 列的收入加總，再將過去 N 列的人數加總，然後再相除。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg) [**[!UICONTROL 累積 (人數)]**](#cumulative)。
+>此函數不適用於每人收入等比率量度。 此函數會對比率取平均值，而不是將過去 N 列的收入加總，再將過去 N 列的人數加總，然後再相除。 <br/>反之，使用[**[!UICONTROL 累積 (收入)]**](#cumulative)![除以](/help/assets/icons/Divide.svg)[**[!UICONTROL 累積 (人數)]**](#cumulative)。
 
 
 ## 等於 {#equal}
@@ -1734,7 +1734,7 @@ TANH(metric)
 
 |  Argument  | Description  |
 |---|---|
-|  *metric* | The angle in radians for which you want to find the hyperbolic tanget.  |
+|  *metric* | The angle in radians for which you want to find the hyperbolic tangent.  |
 
 ## IF (Row)
 

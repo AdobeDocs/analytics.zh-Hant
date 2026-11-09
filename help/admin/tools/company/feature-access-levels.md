@@ -1,5 +1,5 @@
 ---
-description: 如何檢視貴公司有權擁有的 Adobe Analytics 套件和功能的存取層級。
+description: 如何檢視貴公司有權擁有的Adobe Analytics套件和功能的存取層級。
 title: 功能存取層級
 feature: Company Settings
 exl-id: 9aca4a61-d9a6-4ba1-863c-2686b73f381e
@@ -22,17 +22,15 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 82
-ht-degree: 100%
-
+source-wordcount: '81'
+ht-degree: 76%
 ---
-
 # 功能存取層級
 
 **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 檢視功能存取層級]**
 
-這一組設定讓您檢視貴公司有權擁有的 Adobe Analytics 套件和功能的存取層級。 部分功能僅適用於較進階的產品套件 (SKU)，例如 [Adobe Analytics Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/ultimate.html)。
+這一組設定讓您檢視貴公司有權使用的 Adobe Analytics 套件和功能的存取層級。 部分功能僅適用於較進階的產品套件 (SKU)，例如 [Adobe Analytics Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/ultimate.html)。
 
 ![](assets/feature-access-levels.png)

@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # 管理員、分析師、一般使用者和開發人員快速入門
 
 一般組織的 Adobe Analytics 使用者有 4 種類型：

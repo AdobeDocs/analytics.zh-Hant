@@ -1,5 +1,5 @@
 ---
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 93%
@@ -10,7 +10,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->舊版Report Builder將於2026年6月終止服務。 自2026年7月1日起，將不再傳送使用舊版Report Builder排程的活頁簿。 <ul><li>您必須在2026年8月12日之前將活頁簿從舊版Report Builder移轉至新Report Builder。 如需詳細資訊，請參閱[轉換您的舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)。</li><li>Adobe Analytics 1.4 API生命週期結束後，將無法再下載舊版Report Builder增益集。</li><li>2026年8月12日後，擁有活頁簿且需要移轉的客戶將需要聯絡客戶支援以取得原始活頁簿。 這些活頁簿需要移轉，如[轉換您的舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)中所述。</li></ul> 全新的簡化版 [Report Builder](/help/analyze/report-builder/rb-overview.md) 自 2024 年 10 月 16 日起提供。 此 Report Builder 在 macOS、Windows 和網頁瀏覽器上皆能使用，並可搭配 Adobe Analytics 和 Customer Journey Analytics 運用。 Report Builder不再支援已排程匯出至FTP伺服器和Power BI的功能。 在舊版Report Builder中使用這些功能的客戶，必須在Report Builder中使用[雲端目的地來匯出](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)。
+>舊版Report Builder將於2026年6月終止服務。 自2026年7月1日起，將不再傳送使用舊版Report Builder排程的活頁簿。 <ul><li>您必須在2026年8月12日之前將活頁簿從舊版Report Builder移轉至新Report Builder。 如需詳細資訊，請參閱[轉換您的舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)。</li><li>Adobe Analytics 1.4 API生命週期結束後，將無法再下載舊版Report Builder增益集。</li><li>2026年8月12日後，如果客戶有活頁簿需要移轉，將需聯絡客戶支援以取得原始活頁簿。 這些活頁簿需要移轉，如[轉換您的舊版活頁簿](/help/analyze/report-builder/convert-workbooks.md)中所述。</li></ul> 全新的簡化版 [Report Builder](/help/analyze/report-builder/rb-overview.md) 自 2024 年 10 月 16 日起提供。 此 Report Builder 在 macOS、Windows 和網頁瀏覽器上皆能使用，並可搭配 Adobe Analytics 和 Customer Journey Analytics 運用。 Report Builder不再支援已排程匯出至FTP伺服器和Power BI的功能。 在舊版Report Builder中使用這些功能的客戶，必須在Report Builder中使用[雲端目的地來匯出](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations)。
 
 
 ## 舊版 Report Builder {#legacy-arb-old}
@@ -20,7 +20,7 @@ ht-degree: 93%
 >全新的簡化版 [Report Builder](/help/analyze/report-builder/rb-overview.md) 自 2024 年 10 月 16 日起提供。 此 Report Builder 在 macOS、Windows 和網頁瀏覽器上皆能使用，並可搭配 Adobe Analytics 和 Customer Journey Analytics 運用。
 >此舊版 Report Builder 增益集版本仍可運作。 您可以[將舊版活頁簿轉換](/help/analyze/report-builder/convert-workbooks.md)為新的 Report Builder。
 
-## Reports & Analytics 生命週期結束公告 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束公告 {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -165,7 +165,7 @@ Customer Journey Analytics 的各種視覺化是為分析您提供給客戶的�
 
 | 報告套裝 | 說明 |
 |---|---|
-| ![報告套裝](/help/assets/filter-reportsuite.png){width="300"} | 您可以透過「**[!UICONTROL 報告套裝]**」區段篩選報告套裝。 <ul><li>您能使用「![搜尋](/help/assets/icons/Search.svg)」「*搜尋報告套裝*」，搜尋可以用於篩選的報告套裝。</li><li>您可以選取多個報告套裝。 適用的報告套裝取決於在篩選器面板其他區段所做的選擇。</li><li>這些數字是表示：<ul><li>**(2)**：所選取之報告套裝的數量 (如果選取了一個或多個報告套裝)。</li><li>**3︎⃣**：可用於目前篩選器所產生之項目的報告套裝數量。</li><li>4︎⃣：與特定報告套裝相關聯的項目數量。</li></ul></li></ul> |
+| ![報告套裝](/help/assets/filter-reportsuite.png){width="300"} | **[!UICONTROL 報表套裝]**&#x200B;區段可讓您篩選報表套裝。 <ul><li>您能使用「![搜尋](/help/assets/icons/Search.svg)」「*搜尋報告套裝*」，搜尋可以用於篩選的報告套裝。</li><li>您可以選取多個報告套裝。 適用的報告套裝取決於在篩選器面板其他區段所做的選擇。</li><li>這些數字是表示：<ul><li>**(2)**：所選取之報告套裝的數量 (如果選取了一個或多個報告套裝)。</li><li>**3︎⃣**：可用於目前篩選器所產生之項目的報告套裝數量。</li><li>4︎⃣：與特定報告套裝相關聯的項目數量。</li></ul></li></ul> |
 
 ## 啟用狀態過濾器區段 {#enabledstatusfiltersection}
 

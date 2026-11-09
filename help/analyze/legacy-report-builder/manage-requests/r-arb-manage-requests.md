@@ -24,18 +24,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 26%
-
 ---
-
 # 管理請求 - 定義
 
 {{legacy-arb}}
 
-檢視請求狀態的詳細資料，並使用欄位說明在Report Builder中管理請求。
+檢視請求狀態的詳細資訊，並使用欄位說明在Report Builder中管理請求。
 
 ## 概觀 {#section_75C288C945FA4781A4EDF806711A5660}
 

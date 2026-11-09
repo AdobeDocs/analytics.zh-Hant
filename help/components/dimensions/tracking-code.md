@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # 追蹤程式碼
 
@@ -45,7 +45,7 @@ AppMeasurement 會使用 [`campaign`](/help/implement/vars/page-vars/campaign.md
 | 屬性 | 價值 |
 | --- | --- |
 | **AppMeasurement變數** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **網頁SDK / XDM欄位** | [`marketing.trackingCode`](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **網頁SDK / XDM欄位** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **查詢引數** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **XML標籤** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **位元組限制** | 255位元組 |
@@ -88,7 +88,7 @@ AppMeasurement 會使用 [`campaign`](/help/implement/vars/page-vars/campaign.md
 3. 三週後，他們回來時沒有追蹤程式碼或行銷管道，然後又離開。
 4. 又過兩週後 (初次造訪五週後)，他們未透過追蹤程式碼或行銷管道回來，然後購買。
 
-使用者最終超過 30 天才購買，但從未不活動超過 30 天。 在這種情況下，您會看到收入歸因於追蹤程式碼行銷管道，但不會歸因於追蹤程式碼維度本身。
+使用者最終超過 30 天才購買，但從未不活動超過 30 天。 在此情況下，您會看到收入歸因於「追蹤程式碼」行銷管道，而非歸因於「追蹤程式碼」維度本身。
 
 
 

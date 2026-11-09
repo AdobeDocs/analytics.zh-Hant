@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 11%
-
 ---
-
 # 搭配Microsoft Excel使用Report Builder函式
 
 {{legacy-arb}}
@@ -48,7 +46,7 @@ ht-degree: 11%
 | AsyncRefreshActiveWorksheet() | 字串 | 重新整理作用中工作表中存在的所有Report Builder請求。 |
 | AsyncRefreshWorksheet(string worksheetName) | 字串 | 重新整理指定工作表中存在的所有Report Builder請求（工作表名稱出現在頁簽上）。 |
 | AsyncRefreshWorksheetAltTextParam()； | 字串 | 重新整理透過Ms表單控制項的替代文字傳遞的特定工作表名稱中存在的所有Report Builder請求 |
-| 字串GetLastRunStatus() | 字串 | 傳回說明上次執行狀態的字串。 |
+| GetLastRunStatus() | 字串 | 傳回說明上次執行狀態的字串。 |
 
 若要存取Report Builder函式，請移至&#x200B;**[!UICONTROL 公式]** > **[!UICONTROL 插入函式]**。 使用搜尋欄位來搜尋函式，或選取類別以列出該類別中的函式。
 

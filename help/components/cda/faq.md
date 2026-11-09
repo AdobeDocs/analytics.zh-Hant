@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # 常見問題集
 
@@ -59,7 +59,7 @@ ht-degree: 96%
 
 1. 登入 Adobe Analytics 並建立新的空白工作區專案。
 2. 按一下左側的「視覺效果」標籤，然後將「流量」視覺效果拖曳至右側的畫布上。
-3. 按一下左側的「元件」索引標籤，然後將「行動裝置類型」維度拖曳至標示為「維度或項目」的中央位置。
+3. 按一下左側的「元件」索引標籤，然後將「行動裝置型別」維度拖曳至標示為「Dimension或專案」的中央位置。
 4. 此流量報告為互動式。 按一下任何值，即可將流量展開至接續或先前的頁面。 使用右鍵功能表來展開或收合欄。 同一流量報告中也可使用不同的維度。
 
 +++
@@ -161,7 +161,7 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 
 +++ Adobe 如何處理欄位式拼接中所使用的 prop 或 eVar 的不重複值限制？
 
-CDA 會提取識別碼變數維度項目，再對報表最佳化。 您不需擔心 CDA 的不重複值限制。 但是，如果您試圖在工作區專案中使用該 prop 或 eVar，您仍可看到[&#x200B; (低流量) &#x200B;](/help/technotes/low-traffic.md)維度項目。
+CDA 會提取識別碼變數維度項目，再對報表最佳化。 您不需擔心 CDA 的不重複值限制。 但是，如果您試圖在工作區專案中使用該 prop 或 eVar，您仍可看到[ (低流量) ](/help/technotes/low-traffic.md)維度項目。
 
 +++
 

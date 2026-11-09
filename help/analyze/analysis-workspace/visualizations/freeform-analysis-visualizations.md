@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b3c18ecbee8c2fc80c6743d015ad418f16a6feb4
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1974'
 ht-degree: 77%
@@ -135,7 +135,7 @@ Analysis Workspace 中有以下視覺效果類型：
 * 若要顯示收合的視覺效果，請選取![左側](/help/assets/icons/ChevronLeft.svg) V形。
 * 若要刪除視覺效果，請選取![CrossSize400](/help/assets/icons/CrossSize400.svg)。 若要還原，請選取「**[!UICONTROL 編輯]** > **[!UICONTROL 還原]**」(**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**)。
 * 若要將視覺效果回覆為預設高度，請選取![ImageResize](/help/assets/icons/Resize.svg)。
-* 若要在面板內移動視覺效果，只要有![移動](/help/assets/icons/Move.svg)出現（通常是將游標停留在標頭上），即可拖放視覺效果。
+* 若要在面板內移動視覺效果，只要顯示![移動](/help/assets/icons/Move.svg) （通常是將滑鼠停留在標頭上），就請拖放視覺效果。
 
 
 ## 圖例

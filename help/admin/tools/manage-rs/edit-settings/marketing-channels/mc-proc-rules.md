@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # 行銷管道處理規則
 
 _此頁面參考將行銷管道指派給點選的處理規則。 請參閱[處理規則](../general/processing-rules/pr-overview.md)，瞭解可讓您調整資料收集方式的功能。_
@@ -102,6 +100,6 @@ _此頁面參考將行銷管道指派給點選的處理規則。 請參閱[處�
 
 **轉換變數**&#x200B;可讓您指定自訂eVar、比對運運算元以及要尋找的值。
 
-| 轉換變數條件 | 說明 |
+| 交談變數條件 | 說明 |
 |---|---|
 | **eVar 1-250** | 關聯的[eVar](/help/components/dimensions/evar.md)維度。 |
