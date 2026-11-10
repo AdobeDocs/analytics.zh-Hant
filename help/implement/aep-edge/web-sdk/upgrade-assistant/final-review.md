@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 13%
 ---
 # 最終審閱
@@ -86,4 +86,4 @@ ht-degree: 13%
 1. 提交程式庫以供核准，並在您的中繼環境中測試。
 1. 核准程式庫並將其發佈到生產環境。
 
-請參閱標籤使用手冊中的[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow)。
+請參閱標籤使用手冊中的[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。

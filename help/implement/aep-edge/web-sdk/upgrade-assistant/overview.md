@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '532'
 ht-degree: 3%
 ---
 # Web SDK升級助理
@@ -71,7 +71,7 @@ Web SDK升級小幫手可協助您規劃及執行Adobe Analytics標籤擴充功�
 
 * 升級小幫手所需的[許可權](#permissions)。
 * 使用Adobe Analytics擴充功能的標籤屬性。
-* 屬性中包含您要移轉之實作的程式庫。 程式庫可以處於任何狀態，包括已發佈。 請參閱標籤使用手冊中的[資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries)。
+* 屬性中包含您要移轉之實作的程式庫。 程式庫可以處於任何狀態，包括已發佈。 請參閱標籤使用手冊中的[資料庫](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries)。
 
 ### 權限 {#permissions}
 
@@ -79,8 +79,8 @@ Web SDK升級小幫手可協助您規劃及執行Adobe Analytics標籤擴充功�
 
 | 存取型別 | 必填 |
 | --- | --- |
-| [Experience Platform 權限](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 檢視結構描述]</li><li>[!UICONTROL 管理結構描述]</li><li>[!UICONTROL 檢視資料集]</li><li>[!UICONTROL 管理資料集]</li><li>[!UICONTROL 檢視身分識別命名空間]</li></ul> |
+| [Experience Platform 權限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL 檢視結構描述]</li><li>[!UICONTROL 管理結構描述]</li><li>[!UICONTROL 檢視資料集]</li><li>[!UICONTROL 管理資料集]</li><li>[!UICONTROL 檢視身分識別命名空間]</li></ul> |
 | 產品存取 | <ul><li>資料收集（標籤）</li><li>Adobe Analytics</li></ul> |
-| [標籤權利](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL 管理屬性] |
+| [標籤權利](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL 管理屬性] |
 
 準備就緒後，[建立移轉](manager.md#create)。
