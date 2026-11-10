@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 5%
 ---
 # 雜湊碰撞
@@ -64,7 +64,7 @@ Adobe Analytics對大部分的維度使用32位元雜湊，這表示有2<sup>32<
 * **變更日期範圍**：雜湊表格每個月都會變更。 將日期範圍變更為跨越另一個月，可能會為每個值提供互不抵觸的不同雜湊。 這通常是清除特定報表中可見異常的最快方式。
 * **減少唯一值的數量**：您可以調整實作或使用[處理規則](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)，協助減少維度所收集的唯一值的數量。 例如，如果您的維度收集URL，您可以移除查詢字串或通訊協定。
 * **使用[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)或[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)**：這些工具不依賴雜湊表。
-* **移至[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant)**： Customer Journey Analytics沒有雜湊層，且[維度沒有基數限制](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html)。 如果雜湊碰撞或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)經常影響您的報表，請考慮移至此產品。
+* **移至[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant)**： Customer Journey Analytics沒有雜湊層，且[維度沒有基數限制](https://experienceleague.adobe.com/zh-hant/docs/analytics-platform/using/cja-components/dimensions/high-cardinality)。 如果雜湊碰撞或[[!UICONTROL 低流量]](/help/technotes/low-traffic.md)經常影響您的報表，請考慮移至此產品。
 
 >[!MORELIKETHIS]
 >

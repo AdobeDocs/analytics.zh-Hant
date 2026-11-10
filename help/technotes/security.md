@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 31%
+ht-degree: 28%
 ---
 # Adobe Analytics 安全性資源
 
@@ -34,4 +34,4 @@ Adobe遵循既定的安全性程式與控制機制，以遵循業界接受的標
 
 有關Adobe Analytics專屬實務的資訊，請參閱[Adobe Analytics安全性總覽](https://www.adobe.com/tw/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf)。 它概述了圍繞架構、驗證、資料中心、網路和人員所遵循的流程。
 
-如果您發現任何有關Adobe產品（包括Adobe Analytics）的漏洞，請參閱HackerOne上的[Adobe的Web服務漏洞揭露計畫](https://hackerone.com/adobe)。
+如果您發現任何有關Adobe產品（包括Adobe Analytics）的漏洞，請檢視[Adobe錯誤獎勵計畫](https://www.adobe.com/tw/trust/security/bug-bounty.html)。
