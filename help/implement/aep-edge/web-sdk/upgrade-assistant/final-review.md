@@ -86,4 +86,4 @@ ht-degree: 13%
 1. 提交程式庫以供核准，並在您的中繼環境中測試。
 1. 核准程式庫並將其發佈到生產環境。
 
-請參閱標籤使用手冊中的[發佈流程](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow)。
+請參閱標籤使用手冊中的[發佈流程](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/publish/publishing-flow)。
