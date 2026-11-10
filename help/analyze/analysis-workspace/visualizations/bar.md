@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 222
-ht-degree: 77%
-
+source-wordcount: '222'
+ht-degree: 71%
 ---
-
 # 條狀圖 (堆疊)
 
 >[!BEGINSHADEBOX]
@@ -55,7 +53,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) **[!UICONTROL 長條圖]**&#x200B;視覺效果顯示代表一或多個量度之多個值的長條。
 
-![垂直長條圖視覺效果顯示多個量度，包括頁面檢視次數、造訪數、進入次數以及退出次數。](assets/bar.png)
+![顯示多個量度的垂直長條圖視覺效果，包括頁面檢視、造訪、登入和退出。](assets/bar.png)
 
 視覺效果設定中的顆粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
 

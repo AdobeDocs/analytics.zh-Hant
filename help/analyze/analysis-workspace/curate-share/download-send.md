@@ -33,10 +33,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 25%
+source-wordcount: '1130'
+ht-degree: 24%
 ---
 # 下載專案和資料
 
@@ -49,7 +49,7 @@ ht-degree: 25%
 
 ## 將專案下載為PDF或CSV檔案
 
-![專案下拉式選單，下載 CSV 和下載 PDF 選項會醒目顯示。](assets/download-project.png)
+![反白顯示「下載CSV」和「下載PDF」選項的「專案」下拉式功能表。](assets/download-project.png)
 
 ### 將專案下載為PDF檔案
 

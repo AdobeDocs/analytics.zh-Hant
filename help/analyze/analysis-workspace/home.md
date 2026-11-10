@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Analysis Workspace 概觀 {#analysis-workspace-overview}
 
@@ -86,7 +86,7 @@ Analysis Workspace 的主要功能可透過按鈕面板使用：
 
 ## 選單
 
-Analysis Workspace 的大部分功能都可以透過拖放以及面板、視覺化呈現和元件中的內容選單來使用。
+Analysis Workspace的大部分功能都可透過拖放功能，以及透過面板、視覺效果和元件中的內容功能表來使用。
 
 也可以透過工作區選單和快速鍵或快捷鍵使用功能。 快捷鍵根據瀏覽器執行的作業系統而有所不同。 請參閱下表以了解概觀。
 

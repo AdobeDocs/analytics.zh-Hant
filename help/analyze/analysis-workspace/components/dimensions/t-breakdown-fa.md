@@ -32,7 +32,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 58%
@@ -57,7 +57,7 @@ ht-degree: 58%
 
 依預設，劃分會固定至靜態列專案。 例如，想像您根據行銷管道劃分前 3 個頁面維度項目 (「首頁」、「搜尋結果」、「結帳」)。 接著，您離開專案，兩週後再回來。 再次開啟專案時，前 3 個頁面已變更，現在「首頁」、「搜尋結果」和「結帳」是前 4 到 6 個頁面。 即使它們目前位於第 4 至 6 列，您的行銷管道劃分根據預設仍會顯示在「首頁」、「搜尋結果」和「結帳」中。
 
-相反地，**依位置**&#x200B;劃分，一律劃分前3個專案，無論前3個專案是什麼。 請參考範例，當您重啟專案時，行銷管道劃分將與表格中的前 3 頁面相連結。 而不是目前位於第 4 至 6 列的首頁、搜尋結果和結帳。 請參閱[資料列設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)設定此設定的方式。
+相反地，**依位置**&#x200B;劃分，無論前3個專案是什麼，都會劃分前3個專案。 請參考範例，當您重啟專案時，行銷管道劃分將與表格中的前 3 頁面相連結。 而不是目前位於第 4 至 6 列的首頁、搜尋結果和結帳。 請參閱[資料列設定](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)設定此設定的方式。
 
 
 

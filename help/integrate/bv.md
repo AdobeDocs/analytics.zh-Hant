@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -141,7 +141,7 @@ CJA輸入整合建置在更廣泛的CDN請求摘要資料集上，並支援其�
 啟用聯結器前，請確認下列事項：
 
 - 您已為要連線的網站完成Adobe Brand Visibility上線。
-- 已為該網站設定並確認BYOCDN記錄轉送（請參閱[先決條件](#inbound-integration)）。
+- 已為該網站設定並確認BYOCDN記錄轉送（請參閱[必要條件](#inbound-integration)）。
 - 資料會顯示在該網站的Adobe Brand Visibility代理流量控制面板中。
 - 您知道要將網站連線到哪個報告套裝。
 

@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 215
-ht-degree: 73%
-
+source-wordcount: '215'
+ht-degree: 65%
 ---
-
 # 橫條圖 (堆疊)
 
 >[!BEGINSHADEBOX]
@@ -52,7 +50,7 @@ _本文記錄了_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x2
 
 <!-- markdownlint-enable MD034 -->
 
-![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 橫條圖]**&#x200B;視覺效果顯示代表一個或多個量度多個值的橫條。
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL 水準條]**&#x200B;視覺效果會顯示代表一或多個量度多個值的水準條。
 
 ![橫條圖條顯示包括頁面檢視次數、頁面速度、造訪人數、登入次數和退出次數等量度。](assets/horizontal-bar.png)
 

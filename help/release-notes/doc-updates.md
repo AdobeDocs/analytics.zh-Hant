@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7789'
 ht-degree: 88%
 ---
 # Adobe Analytics 技術文件更新
@@ -206,7 +206,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更與其他面板的文件更加一致。</p> |
 | 開始使用內容增強功能 | 已新增概觀管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。 現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
-| 改善串流媒體收集的報告文件 | 重新整理串流媒體收集指南之「報告」區段中的一些內容，包括將 API 文件合併到其自有區段中，以及調整一些文章的順序。 |
+| 改善串流媒體收集的報告文件 | 重新組織串流媒體收集指南報告區段中的某些內容，包括將API檔案合併到其自己的區段中，並調整某些文章的順序。 |
 | **2023 年 8 月** | |
 | 資料摘要釐清 | 更新[開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md)，以釐清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料之前的任何日期。 |
 | Adobe Experience Platform Edge Network 資料處理 | 已新增內容說明 Adobe Analytics 如何[處理來自 Edge Network 的資料](../implement/aep-edge/overview.md)。 |
@@ -361,7 +361,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2020 年 10 月** | |
 | 2020 年 10 月 23 日 | 工作區線條視覺效果：[移動平均趨勢線選項](/help/analyze/analysis-workspace/visualizations/line.md)：此設定已新增到[!UICONTROL 線條]視覺效果趨勢線設定。 移動平均也稱為滾動平均，它會使用特定數量的資料點 (取決於&#x200B;**[!UICONTROL 期間]**&#x200B;選擇)、求取其平均值，並將平均值當做線條中的某個點。 |
 | 2020 年 10 月 23 日 | 工作區的[效能說明頁面](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)會顯示影響專案效能的不同因素，以及最佳化秘訣的連結。 |
-| 2020 年 10 月 23 日 | 已在 Adobe Analytics 儀表板文件中新增增強功能。 現在，在工作區中建立行動計分卡時，計分卡的樣式會與應用程式相符。 |
+| 2020 年 10 月 23 日 | 已在Adobe Analytics儀表板檔案中新增增強功能。 現在，在工作區中建立行動計分卡時，計分卡的樣式會與應用程式相符。 |
 | **2020 年 9 月** | |
 | 2020 年 9 月 17 日 | [下載單一維度的 50K 個項目](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items)：您現在可以在自由格式表格中下載單一維度的 50,000 個項目，並套用區段和篩選條件。 如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
 | 2020 年 9 月 17 日 | [線條視覺效果的增強功能](/help/analyze/analysis-workspace/visualizations/line.md)： <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。 當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何折線視覺化上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。 選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |

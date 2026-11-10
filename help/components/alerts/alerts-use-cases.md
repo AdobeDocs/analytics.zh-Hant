@@ -20,13 +20,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 110
+source-wordcount: '110'
 ht-degree: 20%
-
 ---
-
 # 警示使用案例
 
 您可以依照[建立警報](alert-builder.md)中的說明建立警報。
@@ -44,6 +42,6 @@ ht-degree: 20%
 
 ## 棧疊警報
 
-您可以合併（棧疊）警報，而非建立多個警報。 棧疊警報可確保結合警報，以免您收到大量個別警報。 在以下範例中，當任一量度主動變更觸發時，就會傳送警報。
+您可以合併（棧疊）警報，而非建立多個警報。 棧疊警報可確保結合警報，以免您收到大量個別警報。 在下列範例中，觸發其中一個測量結果臨界值時會傳送警報。
 
 ![](assets/alerts-example2.png)

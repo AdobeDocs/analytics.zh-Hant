@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1197'
-ht-degree: 84%
+ht-degree: 83%
 ---
 # 媒體播放時間面板 {#media-playback-time-spent-panel}
 
@@ -49,7 +49,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="媒體播放時間"
->abstract="分析一段時間內的影片觀看量，選取不同的顆粒度，劃分和比較。<br/><br/>**顆粒度**：選取要查看同時檢視者的時段。<br/>**面板摘要數字 (可選)**：顯示摘要數字以及每行日期或時間詳細資料的選項。 最大值將顯示尖峰播放時間的詳細資料。 最小值將顯示低谷期的詳細資料。 總和將顯示播放時間總計的詳細資料。<br/>**序列劃分 (可選)**：按區段、維度、維度項目或日期範圍劃分視覺效果。 一次最多可檢視 10 行。 劃分限於單一層級。<br/>**時間格式**：顯示視覺效果之時間格式的選項，以小時或分鐘為單位。"
+>abstract="分析一段時間內的影片觀看量，選取不同的顆粒度，劃分和比較。<br/><br/>**顆粒度**：選取要查看同時檢視者的時段。<br/>**面板摘要數字 (可選)**：顯示摘要數字以及每行日期或時間詳細資料的選項。 最大值會顯示播放時間尖峰的詳細資訊。 最小值將顯示低谷期的詳細資料。 總和將顯示播放時間總計的詳細資料。<br/>**序列劃分 (可選)**：按區段、維度、維度項目或日期範圍劃分視覺效果。 一次最多可檢視 10 行。 劃分限於單一層級。<br/>**時間格式**：顯示視覺效果之時間格式的選項，以小時或分鐘為單位。"
 
 <!-- markdownlint-enable MD034 -->
 

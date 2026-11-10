@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # 常見問題集
 
@@ -59,7 +59,7 @@ ht-degree: 96%
 
 1. 登入 Adobe Analytics 並建立新的空白工作區專案。
 2. 按一下左側的「視覺效果」標籤，然後將「流量」視覺效果拖曳至右側的畫布上。
-3. 按一下左側的「元件」索引標籤，然後將「行動裝置類型」維度拖曳至標示為「維度或項目」的中央位置。
+3. 按一下左側的「元件」索引標籤，然後將「行動裝置型別」維度拖曳至標示為「Dimension或專案」的中央位置。
 4. 此流量報告為互動式。 按一下任何值，即可將流量展開至接續或先前的頁面。 使用右鍵功能表來展開或收合欄。 同一流量報告中也可使用不同的維度。
 
 +++

@@ -24,7 +24,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Adobe Analytics提供可分析網站上AI流量的工具。
 
 | AI流量型別 | 產生點選 | 考量事項 |
 |---------|----------|---------|
-| **預先培訓** | 是 | 將您網站的內容擷取至AI時，會在預先訓練期間產生點選。 但是，預先訓練並不常進行，並且包含在AI預先訓練中的內容可以在未來的回應中一次又一次地重複使用，而無需在您的網站上產生進一步的點選。 <p>換言之，在AI預先訓練期間發生的單一點選可重複用於多個隨選回應，而不需在您的網站上產生其他點選。</p><p>如需有關如何在Analysis Workspace中分析此類AI流量的資訊，請參閱[使用機器人偵測分析AI流量](#analyze-ai-traffic-using-bot-detection)。</p> |
+| **預先培訓** | 是 | 將您網站的內容擷取至AI時，會在預先訓練期間產生點選。 但是，預先訓練並不經常發生，並且包含在AI預先訓練中的內容可以在未來的回應中一次又一次地重複使用，而不會在您的網站上產生進一步的點選。 <p>換言之，在AI預先訓練期間發生的單一點選可重複用於多個隨選回應，而不需在您的網站上產生其他點選。</p><p>如需有關如何在Analysis Workspace中分析此類AI流量的資訊，請參閱[使用機器人偵測分析AI流量](#analyze-ai-traffic-using-bot-detection)。</p> |
 | **隨選提示** | 否 | AI回應不會產生任何點選，因為回應會使用以下組合：<ul><li>預先訓練的資料<br/>資訊已包含在AI的預先訓練知識中，因此AI不會在頁面上執行JavaScript。</li><li>隨選網路搜尋<br/>在網路搜尋期間只會擷取網頁的原始HTML，因此AI不會在頁面上執行JavaScript。</li></ul> |
 | AI回應中的&#x200B;**Source資料連結** | 是 | 當使用者按一下包含在AI回應中的原始資料的連結時，就會產生點選。 如果回應中包含連結，且使用者未點按該連結，則不會產生點選。 <p>有些AI聊天機器人回應包含原始資料的連結，有些則沒有。 </p><p>如需有關如何在Analysis Workspace中分析此型別AI流量的資訊，請參閱[依反向連結型別分析AI流量](#analyze-ai-traffic-by-referrer-type)。</p> |
 | **代理式工作流程** | 是 | 點選會在每個頁面上產生，因為AI代理程式會代表使用者點進工作流程。 <p>如需有關如何在Analysis Workspace中分析此型別AI流量的資訊，請參閱[依反向連結型別分析AI流量](#analyze-ai-traffic-by-referrer-type)。</p> |

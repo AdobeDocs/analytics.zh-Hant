@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 91%
+ht-degree: 90%
 ---
 # 使用 Facebook 即時文章進行實施
 
@@ -48,7 +48,7 @@ Facebook 即時文章可讓發佈者於 Facebook 上快速建立互動式文章�
 1. 建立 `stats.html` 頁面。 撰寫此頁面的程式碼，從 URL 提取查詢字串參數，並將每個參數指派給 Analytics 變數
 1. 在您的 Web 伺服器上託管 `stats.html` 頁面
 1. 參考 iframe `stats.html` 中的檔案，在 Facebook 即時文章上實施 Analytics
-1. 在 iframe `src` 屬性中包含查詢字串參數
+1. 在iframe `src`屬性中包含查詢字串引數
 
 ### 步驟1：建立 `stats.html` 頁面
 

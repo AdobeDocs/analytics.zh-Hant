@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 2. 以滑鼠右鍵按一下日期範圍，然後按一下&#x200B;**[!UICONTROL 新增時段欄]** > **[!UICONTROL 自訂日期範圍到此日期範圍]**。
    * 若是周對周比較，請選取事件減7天的範圍。 請確定事件與此日期範圍之間是一週中的哪幾天對齊。
    * 若是月對月比較，請選取上個月的事件範圍。 如果您想要對齊一週中的天數，也可以選取事件減去28天的範圍。
-   * 若要逐年比較，請選取去年的事件範圍。
+   * 若要進行逐年比較，請選取去年的事件範圍。
 3. 當您選取想要的日期範圍時，它們就會新增至您的自由表格。 您可以按一下滑鼠右鍵，然後新增任意數目的日期範圍，以利比較。
 
    ![日期對齊趨勢](assets/date_aligned_trends.png)
