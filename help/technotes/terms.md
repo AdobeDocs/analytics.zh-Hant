@@ -65,10 +65,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 86%
+source-wordcount: '2656'
+ht-degree: 85%
 ---
 # Adobe Analytics 中使用的詞彙
 
@@ -107,7 +107,7 @@ ht-degree: 86%
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。 影像請求會傳送至 Adobe 的資料彙集伺服器，以用於報告。
 * **資料聯結器：**&#x200B;已淘汰的開發解決方案，可讓協力廠商將資料上傳至Adobe Analytics的作業自動化。 該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。 已取代為[Adobe Exchange市集](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE)。
 * **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。 最常用於將 Adobe Analytics 資料匯出至第三方資料庫。 請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
-* **資料層：** [資料層](/help/implement/prepare/data-layer.md)是網站上JavaScript物件的架構，包含Analytics實作中使用的變數值。 如此，在將值指派給 Analytics 變數時，可以更好控制和易於維護。
+* **資料層：** [資料層](/help/implement/prepare/data-layer.md)是您網站上的JavaScript結構，會公開Analytics實作中使用的資料。 如此，在將值指派給 Analytics 變數時，可以更好控制和易於維護。 Adobe建議使用全域`adobeDataLayer`陣列的[Adobe使用者端資料層](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)。
 * **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。 通常會從 FTP 網站提取檔案。 請參閱匯入使用手冊中的[資料來源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 的一項功能，可用來請求較大型的報告。 請參閱匯出使用手冊中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
 * **Data Workbench：** [已淘汰](https://experienceleague.adobe.com/zh-hant/docs/discontinued/using/data-workbench)分析工具，專為收集、處理、分析和視覺化來自多個管道之線上和離線客戶互動的資料而設計。

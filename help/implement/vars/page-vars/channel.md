@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 83%
+source-wordcount: '217'
+ht-degree: 73%
 ---
 # channel
 
@@ -65,8 +65,8 @@ ht-degree: 83%
 s.channel = "Example site section";
 ```
 
-如果使用`digitalData` [資料層](../../prepare/data-layer.md)：
+如果您使用[Adobe使用者端資料層](../../prepare/data-layer.md)，請使用`getState()`讀取值。 請參閱[使用AppMeasurement讀取資料層](../../prepare/data-layer.md#appmeasurement)，以瞭解何時呼叫。
 
 ```js
-s.channel = digitalData.page.category.primaryCategory;
+s.channel = adobeDataLayer.getState("page.section");
 ```

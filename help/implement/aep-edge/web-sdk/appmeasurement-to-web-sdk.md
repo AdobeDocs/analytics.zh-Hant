@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # 從AppMeasurement移轉至Web SDK
 
 此實作路徑涉及有條不紊的移轉方法，以便從AppMeasurement實作移轉至Web SDK JavaScript程式庫實作。 其他實作路徑會在不同頁面上說明：
@@ -62,7 +60,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送至Customer Journey Analytics。
 
-1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)，並使用您的認證登入。
+1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)並使用您的認證登入。
 1. 使用右上方的首頁或產品選擇器來導覽至&#x200B;**[!UICONTROL 資料彙集]**。
 1. 在左側導覽中，選取&#x200B;**[!UICONTROL 資料串流]**。
 1. 選取「**[!UICONTROL 新資料流]**」。
@@ -105,7 +103,7 @@ alloy("configure", {
 
 +++**4. 更新程式碼邏輯以使用JSON裝載**
 
-變更您的Analytics實作，使其不依賴`AppMeasurement.js`或`s`物件。 請改為將變數設為格式正確的JavaScript物件，這會在傳送至Adobe時轉換為JSON物件。 您的網站上有[資料層](../../prepare/data-layer.md)在設定值時非常有幫助，因為您可以繼續參考這些相同的值。
+變更您的Analytics實作，使其不依賴`AppMeasurement.js`或`s`物件。 請改為將變數設為格式正確的JavaScript物件，這會在傳送至Adobe時轉換為JSON物件。 您的網站上有[資料層](../../prepare/data-layer.md)在設定值時非常有幫助，因為您可以繼續參考這些相同的值。 如果您的網站使用Adobe使用者端資料層，請參閱[使用Web SDK傳送Adobe使用者端資料層資料](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)，以瞭解如何在您呼叫`sendEvent`時讀取資料層值。
 
 若要將資料傳送至Adobe Analytics，Web SDK裝載必須將`data.__adobe.analytics`與此物件中設定的所有Analytics變數搭配使用。 此物件中的變數與其AppMeasurement變數的對應變數具有相同的名稱和格式。 例如，如果您設定`products`變數，請勿像使用XDM一樣將其分割為個別物件。 如果您設定`s.products`變數，請完全將其加入為字串：
 

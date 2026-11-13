@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 6%
-
+source-wordcount: '1728'
+ht-degree: 7%
 ---
-
 # 從Adobe Analytics標籤擴充功能移轉至網路SDK標籤擴充功能
 
 此實作路徑涉及從Adobe Analytics標籤擴充功能移轉至Web SDK標籤擴充功能的方法。 其他實作路徑會在不同頁面上說明：
@@ -62,7 +60,7 @@ Adobe建議在下列情況下使用此實施路徑：
 
 在Adobe Experience Platform Data Collection中建立資料流。 當您傳送資料至此資料流時，它會轉送資料至Adobe Analytics。 未來，相同的資料流會將資料轉送至Customer Journey Analytics。
 
-1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)，並使用您的認證登入。
+1. 導覽至[Adobe CX Enterprise](https://experience.adobe.com)並使用您的認證登入。
 1. 使用右上方的首頁或產品選擇器來導覽至&#x200B;**[!UICONTROL 資料彙集]**。
 1. 在左側導覽中，選取&#x200B;**[!UICONTROL 資料串流]**。
 1. 選取「**[!UICONTROL 新資料流]**」。
@@ -106,7 +104,7 @@ Adobe建議在下列情況下使用此實施路徑：
 1. 在標籤介面的左側導覽中，選取&#x200B;**[!UICONTROL 資料元素]**。
 1. 選取&#x200B;**[!UICONTROL 新增資料元素]**
 1. 為資料元素指定下列設定：
-   * [!UICONTROL 名稱]：您想要的任何專案，例如「資料層」或「資料物件」
+   * [!UICONTROL 名稱]：您想要的任何專案，例如「資料物件」
    * [!UICONTROL 擴充功能]： [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL 資料元素型別]： [!UICONTROL 變數]
    * 核取方塊可以保持原樣

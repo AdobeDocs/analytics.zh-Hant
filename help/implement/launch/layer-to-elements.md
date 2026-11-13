@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # 將資料層物件對應至資料元素
 
@@ -45,17 +45,25 @@ ht-degree: 93%
 
 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)是 Adobe Experience Platform 資料彙集中的元件，可在該工具中使用。 您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
+下列步驟使用[Adobe使用者端資料層擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/client-data-layer/overview)，此擴充功能必須安裝在您的標籤屬性中。
+
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標籤屬性。
-1. 按一下&#x200B;**[!UICONTROL 「資料元素」]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 「新增資料元素」]**。
+1. 選取所需的標籤屬性。
+1. 選取&#x200B;**[!UICONTROL 資料元素]**&#x200B;索引標籤，然後選取&#x200B;**[!UICONTROL 新增資料元素]**。
 
    ![建立資料元素](assets/createelement.png)
 
-1. 輸入您的資料元素名稱。 可為符合您要追蹤之資料層中 JavaScript 變數的簡單標籤。
-1. 在&#x200B;**[!UICONTROL 擴充功能]**&#x200B;下拉式清單下，選取&#x200B;**[!UICONTROL 核心]**。
-1. 在&#x200B;**[!UICONTROL 資料元素型別]**&#x200B;下拉式清單下，選取&#x200B;**[!UICONTROL JavaScript變數]**。 右側會出現一個文字欄位，可讓您輸入 JavaScript 變數以對應至此資料元素。
-1. 輸入所需的 Javascript 變數，通常在您的資料層中。 例如，如果貴組織的資料層與 Adobe 的建議作法幾乎相符，則值可能是 `digitalData.page.pageInfo.pageName`。 您可以使用瀏覽器的主控台，驗證 JavaScript 變數語法和值。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 輸入資料元素的名稱，例如`Page name`。
+1. 在&#x200B;**[!UICONTROL 擴充功能]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL Adobe使用者端資料層]**。
+1. 在&#x200B;**[!UICONTROL 資料元素型別]**&#x200B;下拉式清單下，選取&#x200B;**[!UICONTROL 資料層計算狀態]**。
+1. 在&#x200B;**[!UICONTROL 傳回值]**&#x200B;下，選取&#x200B;**[!UICONTROL 特定路徑]**，然後輸入資料層中值的路徑，例如`page.name`。 若要驗證路徑，請在瀏覽器的主控台中執行`adobeDataLayer.getState("page.name")`。
+1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
+
+在擴充功能的&#x200B;**[!UICONTROL 資料層推送]**&#x200B;事件觸發的規則中使用這些資料元素，讓資料層已載入並包含推送的資料。 請參閱[資料元素型別](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)。
+
+### 物件資料層 {#object-based}
+
+如果您的資料層是JavaScript物件（例如CEDDL `digitalData`物件），請改用來自&#x200B;**[!UICONTROL 核心]**&#x200B;擴充功能的&#x200B;**[!UICONTROL JavaScript變數]**&#x200B;資料元素型別。 輸入值的路徑，例如`digitalData.page.pageInfo.pageName`。 此資料元素型別無法讀取Adobe Client Data Layer，其資料以計算狀態而非物件屬性儲存。
 
 ## 後續步驟
 
