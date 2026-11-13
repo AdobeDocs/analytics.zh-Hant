@@ -45,7 +45,7 @@ ht-degree: 46%
 
 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)是 Adobe Experience Platform 資料彙集中的元件，可在該工具中使用。 您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
-下列步驟使用[Adobe使用者端資料層擴充功能](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview)，此擴充功能必須安裝在您的標籤屬性中。
+下列步驟使用[Adobe使用者端資料層擴充功能](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/client-data-layer/overview)，此擴充功能必須安裝在您的標籤屬性中。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 選取所需的標籤屬性。
