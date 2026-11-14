@@ -59,7 +59,7 @@ ht-degree: 46%
 1. 在&#x200B;**[!UICONTROL 傳回值]**&#x200B;下，選取&#x200B;**[!UICONTROL 特定路徑]**，然後輸入資料層中值的路徑，例如`page.name`。 若要驗證路徑，請在瀏覽器的主控台中執行`adobeDataLayer.getState("page.name")`。
 1. 選取&#x200B;**[!UICONTROL 「儲存」]**。
 
-在擴充功能的&#x200B;**[!UICONTROL 資料層推送]**&#x200B;事件觸發的規則中使用這些資料元素，讓資料層已載入並包含推送的資料。 請參閱[資料元素型別](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)。
+在擴充功能的&#x200B;**[!UICONTROL 資料層推送]**&#x200B;事件觸發的規則中使用這些資料元素，讓資料層已載入並包含推送的資料。 請參閱[資料元素型別](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)。
 
 ### 物件資料層 {#object-based}
 

@@ -103,7 +103,7 @@ alloy("configure", {
 
 +++**4. 更新程式碼邏輯以使用JSON裝載**
 
-變更您的Analytics實作，使其不依賴`AppMeasurement.js`或`s`物件。 請改為將變數設為格式正確的JavaScript物件，這會在傳送至Adobe時轉換為JSON物件。 您的網站上有[資料層](../../prepare/data-layer.md)在設定值時非常有幫助，因為您可以繼續參考這些相同的值。 如果您的網站使用Adobe使用者端資料層，請參閱[使用Web SDK傳送Adobe使用者端資料層資料](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)，以瞭解如何在您呼叫`sendEvent`時讀取資料層值。
+變更您的Analytics實作，使其不依賴`AppMeasurement.js`或`s`物件。 請改為將變數設為格式正確的JavaScript物件，這會在傳送至Adobe時轉換為JSON物件。 您的網站上有[資料層](../../prepare/data-layer.md)在設定值時非常有幫助，因為您可以繼續參考這些相同的值。 如果您的網站使用Adobe使用者端資料層，請參閱[使用Web SDK傳送Adobe使用者端資料層資料](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/web-sdk)，以瞭解如何在您呼叫`sendEvent`時讀取資料層值。
 
 若要將資料傳送至Adobe Analytics，Web SDK裝載必須將`data.__adobe.analytics`與此物件中設定的所有Analytics變數搭配使用。 此物件中的變數與其AppMeasurement變數的對應變數具有相同的名稱和格式。 例如，如果您設定`products`變數，請勿像使用XDM一樣將其分割為個別物件。 如果您設定`s.products`變數，請完全將其加入為字串：
 

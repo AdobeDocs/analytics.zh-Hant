@@ -49,7 +49,7 @@ ht-degree: 7%
 
 ## 選擇資料層規格 {#specifications}
 
-Adobe建議針對新的或重組的實作使用[Adobe使用者端資料層](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview) (ACDL)。 ACDL是開放原始碼的JavaScript程式庫，可讓您的網站以標準方式推送資料和事件至全域`adobeDataLayer`陣列。 標籤、網頁SDK和AppMeasurement都可以讀取，而Adobe Experience Manager核心元件可以自動填入標籤。
+Adobe建議針對新的或重組的實作使用[Adobe使用者端資料層](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/overview) (ACDL)。 ACDL是開放原始碼的JavaScript程式庫，可讓您的網站以標準方式推送資料和事件至全域`adobeDataLayer`陣列。 標籤、網頁SDK和AppMeasurement都可以讀取，而Adobe Experience Manager核心元件可以自動填入標籤。
 
 您的組織可以自由使用其他規格，例如[客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf) (CEDDL) （將資料儲存在全域`digitalData`物件中）或自訂規格。 最重要的是貴組織必須符合其需求的規格。
 
@@ -98,8 +98,8 @@ ACDL會將每次推播合併為稱為計算狀態的單一物件，您的實施�
 
 使用資料層實施 Adobe Analytics 時，通常會依照下列步驟操作：
 
-1. **與您的網站開發團隊合作實作資料層**：您的網站開發團隊主要負責確保資料層包含正確的值。 請與您的網站開發團隊一起檢閱此頁面，確保團隊之間的期望相同。 請參閱[安裝Adobe使用者端資料層](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install)。
-1. **使用瀏覽器主控台驗證您的資料層**：開啟瀏覽器的開發人員主控台，大部分的瀏覽器都可以使用`F12`鍵來執行此作業。 執行`adobeDataLayer.getState()`以檢視計算狀態，或執行`adobeDataLayer.getState("page.name")`以檢視單一值。 請參閱[驗證安裝](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify)。
+1. **與您的網站開發團隊合作實作資料層**：您的網站開發團隊主要負責確保資料層包含正確的值。 請與您的網站開發團隊一起檢閱此頁面，確保團隊之間的期望相同。 請參閱[安裝Adobe使用者端資料層](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/install)。
+1. **使用瀏覽器主控台驗證您的資料層**：開啟瀏覽器的開發人員主控台，大部分的瀏覽器都可以使用`F12`鍵來執行此作業。 執行`adobeDataLayer.getState()`以檢視計算狀態，或執行`adobeDataLayer.getState("page.name")`以檢視單一值。 請參閱[驗證安裝](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/install#verify)。
 1. **將資料層連線至Adobe Analytics**：此步驟因您組織的實作方法而異。 請參閱[將資料層連線至Adobe Analytics](#connect)。
 
 ## 將資料層連結至Adobe Analytics {#connect}
@@ -108,8 +108,8 @@ ACDL會將每次推播合併為稱為計算狀態的單一物件，您的實施�
 
 | 實作方法 | 如何讀取資料層 | 更多資訊 |
 | --- | --- | --- |
-| Web SDK 標記擴充功能 | 使用Adobe使用者端資料層擴充功能中的&#x200B;**資料層推播**&#x200B;事件觸發規則。 將資料層值對應至XDM欄位或透過Web SDK **更新變數**&#x200B;動作對應至`data`物件，然後透過&#x200B;**傳送事件**&#x200B;動作傳送。 | [使用網頁SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)、[XDM物件欄位對應](../aep-edge/xdm-var-mapping.md)和[資料物件欄位對應](../aep-edge/data-var-mapping.md)傳送Adobe使用者端資料層資料 |
-| Web SDK JavaScript資料庫 | 接聽具有`addEventListener()`的資料層事件，並在您呼叫`sendEvent`時從資料層設定XDM或`data`欄位。 | [使用網頁SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk)、[XDM物件欄位對應](../aep-edge/xdm-var-mapping.md)和[資料物件欄位對應](../aep-edge/data-var-mapping.md)傳送Adobe使用者端資料層資料 |
+| Web SDK 標記擴充功能 | 使用Adobe使用者端資料層擴充功能中的&#x200B;**資料層推播**&#x200B;事件觸發規則。 將資料層值對應至XDM欄位或透過Web SDK **更新變數**&#x200B;動作對應至`data`物件，然後透過&#x200B;**傳送事件**&#x200B;動作傳送。 | [使用網頁SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/web-sdk)、[XDM物件欄位對應](../aep-edge/xdm-var-mapping.md)和[資料物件欄位對應](../aep-edge/data-var-mapping.md)傳送Adobe使用者端資料層資料 |
+| Web SDK JavaScript資料庫 | 接聽具有`addEventListener()`的資料層事件，並在您呼叫`sendEvent`時從資料層設定XDM或`data`欄位。 | [使用網頁SDK](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/web-sdk)、[XDM物件欄位對應](../aep-edge/xdm-var-mapping.md)和[資料物件欄位對應](../aep-edge/data-var-mapping.md)傳送Adobe使用者端資料層資料 |
 | Analytics 擴充功能 | 使用&#x200B;**資料層推播**&#x200B;事件觸發規則，並從Adobe使用者端資料層延伸建立&#x200B;**資料層計算狀態**&#x200B;資料元素。 在&#x200B;**設定變數**&#x200B;動作中將資料元素指派給Analytics變數，然後使用&#x200B;**傳送信標**&#x200B;動作傳送資料。 | [將資料層物件對應至資料元素](../launch/layer-to-elements.md)和[將資料元素對應至Analytics變數](../launch/elements-to-variable.md) |
 | AppMeasurement | 在ACDL載入後以`getState()`讀取值，然後呼叫`s.t()`。 | [使用AppMeasurement讀取資料層](#appmeasurement) |
 
@@ -135,4 +135,4 @@ window.adobeDataLayer.push(function(dl) {
 ## 後續步驟
 
 * [將資料層物件對應至資料元素](../launch/layer-to-elements.md)：在Adobe Experience Platform標籤中使用您網站的資料層。
-* [Adobe Client Data Layer檔案](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)：瞭解每個ACDL方法、事件和最佳實務。
+* [Adobe Client Data Layer檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/overview)：瞭解每個ACDL方法、事件和最佳實務。
