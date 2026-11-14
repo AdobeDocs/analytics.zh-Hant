@@ -58,8 +58,8 @@ Adobe 提供多種實施 Adobe Analytics 的方式。 每個頁面都會透過�
 
 Adobe Analytics 發佈的 AppMeasurement 程式庫在傳送資料至 Adobe 時，會遵循特定順序。 如果您未按照順序執行這些任務，資料可能會不完整。
 
-1. 若您的網站使用資料層，請先確認所有適用的變數均會填入。 例如，若使用[Adobe使用者端資料層](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview)，您的網站代碼會以`adobeDataLayer.push({ page: { name: "Home" } })`推送頁面名稱。 如需詳細資訊，請參閱[資料層](../prepare/data-layer.md)。
-2. 使用資料層填入 Analytics 變數。 <br/>如果您在 Adobe Experience Platform 中使用標記，則可透過中間的資料元素來完成此任務。 資料元素會填入來自資料層的值。 例如，資料元素`Page name`會使用Adobe使用者端資料層延伸模組的[資料層運算狀態](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)資料元素型別，取得資料層中路徑`page.name`的值。 <br/>接著，您就可以使用該資料元素來填入 Analytics 變數。 例如，`eVar4` 會從資料元素 `Page name` 取得值。 <br/>如需更多資訊，請參閱[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)、[將資料層物件對應至資料元素](../launch/layer-to-elements.md)以及[將標記資料元素對應至 Analytics 變數](../launch/elements-to-variable.md)
+1. 若您的網站使用資料層，請先確認所有適用的變數均會填入。 例如，若使用[Adobe使用者端資料層](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/collection/acdl/overview)，您的網站代碼會以`adobeDataLayer.push({ page: { name: "Home" } })`推送頁面名稱。 如需詳細資訊，請參閱[資料層](../prepare/data-layer.md)。
+2. 使用資料層填入 Analytics 變數。 <br/>如果您在 Adobe Experience Platform 中使用標記，則可透過中間的資料元素來完成此任務。 資料元素會填入來自資料層的值。 例如，資料元素`Page name`會使用Adobe使用者端資料層延伸模組的[資料層運算狀態](https://experienceleague.adobe.com/zh-hant/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state)資料元素型別，取得資料層中路徑`page.name`的值。 <br/>接著，您就可以使用該資料元素來填入 Analytics 變數。 例如，`eVar4` 會從資料元素 `Page name` 取得值。 <br/>如需更多資訊，請參閱[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)、[將資料層物件對應至資料元素](../launch/layer-to-elements.md)以及[將標記資料元素對應至 Analytics 變數](../launch/elements-to-variable.md)
 3. 最後，請呼叫追蹤函數。 大部分的 AppMeasurement 資料庫都使用 `t()` 方法，不過有些行動 SDK 使用 `track()`。 呼叫追蹤函數時，Analytics 物件中定義的所有支援變數，都會以影像要求的形式傳送至 Adobe。
 
 ## 非法字元
