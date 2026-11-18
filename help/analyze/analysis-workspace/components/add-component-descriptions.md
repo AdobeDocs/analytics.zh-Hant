@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -54,7 +54,7 @@ Analytics管理員可在報表套裝中或直接在Analysis Workspace中使用�
 
 >[!BEGINSHADEBOX]
 
-如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增元件說明](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
+如需示範影片，請參閱![VideoCheckout](/help/assets/icons/VideoCheckedOut.svg) [新增元件說明](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"}。
 
 >[!ENDSHADEBOX]
 
@@ -75,14 +75,12 @@ Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深�
 
 ## 自動產生說明
 
-{{release-limited-testing-section}}
-
 Adobe Analytics可以使用創作AI為您撰寫說明，而不必手動撰寫每個說明。 您可以產生單一元件的說明，或同時產生許多元件的說明。
 
 產生的說明：
 
 * 長度不超過3個句子。
-* 以Adobe使用AI **產生的文字**&#x200B;結束，讓使用者知道已產生說明。
+* 以Adobe使用AI ]**產生的文字**[!UICONTROL &#x200B;結束，讓使用者知道已產生說明。
 * 可在產生後進行編輯。
 
 ### 先決條件
@@ -102,7 +100,7 @@ Adobe Analytics可以使用創作AI為您撰寫說明，而不必手動撰寫每
 
 您可以在Adobe Analytics的下列區域產生說明。 有些位置可讓您為多個元件產生說明，有些位置則不然。
 
-選取位置以瞭解如何在該處產生說明。
+Select可讓您在該位置瞭解如何產生說明。
 
 | 位置 | 支援的元件 | 單一元件 | 多個元件 |
 | --- | --- | --- | --- |
