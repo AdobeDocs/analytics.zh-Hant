@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 26%
-
 ---
-
 # 追蹤型別
 
 追蹤型別會決定Adobe Analytics實作如何追蹤您的搜尋引擎資料。 此追蹤型別是必要步驟，可讓搜尋引擎資料正確增加Adobe Analytics資料。
@@ -42,7 +40,7 @@ ht-degree: 26%
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/zh-hant/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -61,7 +59,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/zh-hant/docs/id-service/using/reference/csp)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp)。
 
 ## 手動追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -69,7 +67,7 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 ### 將手動追蹤新增至Google帳戶 {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
-以下是需要新增至 Google 帳戶的字串。 您需要將字串新增至帳戶使用的所有追蹤範本中。
+以下是需要新增至 Google 帳戶的字串。 您需要將字串新增至整個帳戶中使用的所有追蹤範本。
 
 >[!IMPORTANT]
 >
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Google Ads行銷活動追蹤代碼](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 各種追蹤範本格式的追蹤程式碼範例：
 
